@@ -38,44 +38,59 @@ DESC_CAPITULOS = """
 V _ Seção suplementar para avaliação de funcionalidade: Instrumentos e categorias para avaliar e quantificar a funcionalidade e a incapacidade.
 X _ Códigos de extensão: Códigos suplementares usados para detalhar ou complementar outras classificações, não utilizados como codificação primária."""
 
+# Lista de categorias SemClinBR para filtrar o que é relevante para CID-11
+FOCO_CLINICO = [
+    "Anormalidade Adquirida", "Anormalidade Anatômica", "Anormalidade Congênita",
+    "Achado", "Doença ou Síndrome", "Disfunção Celular ou Molecular",
+    "Disfunção Mental ou Comportamental", "Fenômeno ou Processo",
+    "Função Patológica", "Lesão ou Envenenamento", "Processo Neoplásico",
+    "Sinal ou Sintoma"
+]
+
 def chamar_llm(prompt):
     payload = {
-        "model": MODELO, "prompt": prompt, "stream": False, "format": "json"
+        "model": MODELO,
+        "prompt": prompt,
+        "stream": False,
+        "format": "json"
     }
     try:
         response = requests.post(OLLAMA_API, json=payload, timeout=120)
+        response.raise_for_status()
         return json.loads(response.json()['response'])
-    except:
+    except Exception as e:
+        print(f"Erro na API Ollama: {e}")
         return {}
 
 def construir_prompt(texto, entidades):
-    # Focamos em categorias que realmente podem ser doenças ou sintomas
-    categorias_validas = ["Sinal ou Sintoma", "Doença ou Síndrome", "Lesão ou Envenenamento", "Achado"]
-    referencias = []
-    for cat in categorias_validas:
-        if cat in entidades:
-            referencias.extend(entidades[cat])
+    # Filtragem das referências para focar apenas no que é clínico
+    referencias_validas = []
+    for categoria, termos in entidades.items():
+        if categoria in FOCO_CLINICO:
+            referencias_validas.extend(termos)
 
     return f"""
-Atue como um codificador médico especialista em CID-11.
-TEXTO: "{texto}"
-ENTIDADES IDENTIFICADAS PELO SEMCLINBR: {json.dumps(referencias, ensure_ascii=False)}
+Atue como um codificador médico especialista em CID-11. Sua tarefa é extrair entidades clínicas e classificá-las estritamente pelos capítulos da CID-11.
 
-CAPÍTULOS CID-11:
+TEXTO PARA ANÁLISE: "{texto}"
+ENTIDADES DE REFERÊNCIA (SemClinBR): {json.dumps(referencias_validas, ensure_ascii=False)}
+
+CAPÍTULOS CID-11 DISPONÍVEIS:
 {DESC_CAPITULOS}
 
-SUA TAREFA:
-1. Extraia apenas entidades que representem CONDIÇÕES CLÍNICAS (doenças, sintomas ou lesões).
-2. Ignore siglas de dispositivos, locais ou termos técnicos de enfermagem (AVP, CC, SVD, SNG, TOT, POI, D, MIE, etc).
-3. Para cada entidade clínica válida, identifique o CAPÍTULO CID-11 correspondente.
-4. "is_inferred" deve ser FALSE se o termo estiver na lista de 'ENTIDADES IDENTIFICADAS' e TRUE se você o extraiu do texto mas não estava na lista.
-5. NÃO invente doenças que não estão descritas (ex: não adicione HIV ou Diabetes se não houver evidência no texto).
+REGRAS DE EXTRAÇÃO E FORMATAÇÃO:
+1. Extraia APENAS condições clínicas reais (doenças, sintomas ou lesões). 
+3. Se houver mais de uma entidade para o mesmo capítulo, use chaves numeradas (ex: "11_1", "11_2").
+4. "is_inferred": FALSE se o termo estiver nas 'ENTIDADES DE REFERÊNCIA'. TRUE se extraído apenas do texto bruto.
+5. "confidence_embedding": DEVE ser sempre 0.0.
+6. "classification_reasoning": DEVE ser sempre uma string vazia "".
+7. NÃO invente doenças não mencionadas no texto.
 
-Retorne EXCLUSIVAMENTE este formato JSON:
+Retorne EXCLUSIVAMENTE um JSON onde a CHAVE PRINCIPAL é o NÚMERO/LETRA DO CAPÍTULO:
 {{
-  "NOME_DA_ENTIDADE": {{
-    "term_original": "termo exato do texto",
-    "capitulo": "número/letra do capítulo",
+  "NUMERO_CAPITULO": {{
+    "term_original": "termo exato como aparece no texto",
+    "capitulo": "mesmo número da chave",
     "confidence_embedding": 0.0,
     "is_inferred": boolean,
     "classification_reasoning": ""
@@ -83,22 +98,31 @@ Retorne EXCLUSIVAMENTE este formato JSON:
 }}
 """
 
-def processar():
+def processar_arquivos():
     if not os.path.exists(PASTA_SAIDA):
         os.makedirs(PASTA_SAIDA)
 
     arquivos = [f for f in os.listdir(PASTA_ENTRADA) if f.endswith('.json')]
-    
+    print(f"Iniciando classificação de {len(arquivos)} prontuários...")
+
     for nome_arquivo in arquivos:
         print(f"Processando: {nome_arquivo}")
-        with open(os.path.join(PASTA_ENTRADA, nome_arquivo), 'r', encoding='utf-8') as f:
+        
+        caminho_in = os.path.join(PASTA_ENTRADA, nome_arquivo)
+        with open(caminho_in, 'r', encoding='utf-8') as f:
             dados = json.load(f)
 
         prompt = construir_prompt(dados['text'], dados['entities'])
-        dados['labels'] = chamar_llm(prompt)
+        resultado_llm = chamar_llm(prompt)
 
-        with open(os.path.join(PASTA_SAIDA, nome_arquivo), 'w', encoding='utf-8') as f:
+        # Atualiza o campo labels com a extração da LLM
+        dados['labels'] = resultado_llm
+
+        caminho_out = os.path.join(PASTA_SAIDA, nome_arquivo)
+        with open(caminho_out, 'w', encoding='utf-8') as f:
             json.dump(dados, f, ensure_ascii=False, indent=2)
 
+    print("\nProcesso finalizado com sucesso!")
+
 if __name__ == "__main__":
-    processar()
+    processar_arquivos()
