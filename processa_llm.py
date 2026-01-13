@@ -49,41 +49,33 @@ def chamar_llm(prompt):
         return {}
 
 def construir_prompt(texto, entidades):
-    # Consolida entidades para referência
-    lista_referencia = []
-    for cat in entidades.values():
-        lista_referencia.extend(cat)
+    # Focamos em categorias que realmente podem ser doenças ou sintomas
+    categorias_validas = ["Sinal ou Sintoma", "Doença ou Síndrome", "Lesão ou Envenenamento", "Achado"]
+    referencias = []
+    for cat in categorias_validas:
+        if cat in entidades:
+            referencias.extend(entidades[cat])
 
     return f"""
-Analise o prontuário médico abaixo para realizar a extração de entidades (NER) e classificação por capítulo CID-11.
-
-TEXTO DO PRONTUÁRIO: "{texto}"
-ANOTAÇÕES PRÉVIAS (SemClinBR): {json.dumps(lista_referencia, ensure_ascii=False)}
+Atue como um codificador médico especialista em CID-11.
+TEXTO: "{texto}"
+ENTIDADES IDENTIFICADAS PELO SEMCLINBR: {json.dumps(referencias, ensure_ascii=False)}
 
 CAPÍTULOS CID-11:
 {DESC_CAPITULOS}
 
-INSTRUÇÕES:
-1. Identifique TODAS as entidades clínicas (doenças, sintomas, lesões ou motivos de consulta). Pode haver múltiplas entidades em um único prontuário.
-2. Para cada entidade, determine o capítulo CID-11 correspondente.
-3. Defina "is_inferred": 
-   - FALSE: se o termo utilizado for exatamente um dos presentes em 'ANOTAÇÕES PRÉVIAS'.
-   - TRUE: se o termo foi extraído por você diretamente do texto original e não estava nas anotações.
-4. ATENÇÃO: Os campos "confidence_embedding" deve ser 0.0 e "classification_reasoning" deve ser uma string vazia "".
-5. Use o nome da entidade ou uma string vazia como chave do objeto principal, mas garanta que cada entidade seja um objeto distinto.
+SUA TAREFA:
+1. Extraia apenas entidades que representem CONDIÇÕES CLÍNICAS (doenças, sintomas ou lesões).
+2. Ignore siglas de dispositivos, locais ou termos técnicos de enfermagem (AVP, CC, SVD, SNG, TOT, POI, D, MIE, etc).
+3. Para cada entidade clínica válida, identifique o CAPÍTULO CID-11 correspondente.
+4. "is_inferred" deve ser FALSE se o termo estiver na lista de 'ENTIDADES IDENTIFICADAS' e TRUE se você o extraiu do texto mas não estava na lista.
+5. NÃO invente doenças que não estão descritas (ex: não adicione HIV ou Diabetes se não houver evidência no texto).
 
-Retorne EXCLUSIVAMENTE um JSON onde cada chave é uma entidade identificada:
+Retorne EXCLUSIVAMENTE este formato JSON:
 {{
-  "NOME_DA_ENTIDADE_1": {{
-    "term_original": "termo identificado",
-    "capitulo": "número do capítulo",
-    "confidence_embedding": 0.0,
-    "is_inferred": boolean,
-    "classification_reasoning": ""
-  }},
-  "NOME_DA_ENTIDADE_2": {{
-    "term_original": "termo identificado",
-    "capitulo": "número do capítulo",
+  "NOME_DA_ENTIDADE": {{
+    "term_original": "termo exato do texto",
+    "capitulo": "número/letra do capítulo",
     "confidence_embedding": 0.0,
     "is_inferred": boolean,
     "classification_reasoning": ""
@@ -96,23 +88,17 @@ def processar():
         os.makedirs(PASTA_SAIDA)
 
     arquivos = [f for f in os.listdir(PASTA_ENTRADA) if f.endswith('.json')]
-    print(f"Iniciando extração NER em {len(arquivos)} arquivos...")
-
+    
     for nome_arquivo in arquivos:
-        print(f"Processando: {nome_arquivo}...")
+        print(f"Processando: {nome_arquivo}")
         with open(os.path.join(PASTA_ENTRADA, nome_arquivo), 'r', encoding='utf-8') as f:
             dados = json.load(f)
 
         prompt = construir_prompt(dados['text'], dados['entities'])
-        resultado = chamar_llm(prompt)
-        
-        # Inserimos o resultado no campo labels
-        dados['labels'] = resultado
+        dados['labels'] = chamar_llm(prompt)
 
         with open(os.path.join(PASTA_SAIDA, nome_arquivo), 'w', encoding='utf-8') as f:
             json.dump(dados, f, ensure_ascii=False, indent=2)
-
-    print("\nProcessamento concluído!")
 
 if __name__ == "__main__":
     processar()
