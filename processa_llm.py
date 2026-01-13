@@ -60,25 +60,59 @@ def chamar_llm(prompt):
 
 def construir_prompt(chunk, referencias_validas):
     return f"""
-Atue como um codificador médico especialista em CID-11. 
-Analise este PEDAÇO de prontuário e extraia condições clínicas.
+Você é um Especialista em Codificação Médica da OMS, focado exclusivamente em extração NER para CID-11.
+Sua missão é converter o texto médico em um JSON estruturado de alta precisão.
 
-TEXTO: "{chunk}"
-REFERÊNCIAS: {json.dumps(referencias_validas, ensure_ascii=False)}
+### TEXTO PARA ANÁLISE ###
+"{chunk}"
 
-CAPÍTULOS (Use apenas o número/letra antes dos dois pontos):
+### LISTA DE ENTIDADES JÁ CONHECIDAS (REFERÊNCIAS) ###
+{json.dumps(referencias_validas, ensure_ascii=False)}
+
+### GUIA DE CAPÍTULOS CID-11 ###
 {DESC_CAPITULOS}
 
-REGRAS:
-1. Extraia APENAS doenças, sintomas ou lesões. 
-2. IGNORE siglas (AVP, SNG, SVD, TOT, CC, D, MIE, MSD).
-3. "is_inferred": FALSE se o termo estiver nas 'REFERÊNCIAS', TRUE caso contrário.
-4. "confidence_embedding": 0.0 constante.
-5. "classification_reasoning": "" constante.
-6. A CHAVE do JSON deve ser apenas o número do capítulo (ex: "01", "11", "V").
+### REGRAS DE OURO (NÃO VIOLAR) ###
+1. IDENTIFICAÇÃO: Extraia apenas patologias reais, sintomas ou lesões. 
+   - IGNORE siglas de enfermagem, dispositivos ou locais (AVP, SNG, SVD, TOT, CC, D, MIE, MSD, SNE, RHA+, MV).
+   - NÃO invente diagnósticos. Se o texto diz "borra de café", não escreva "Hemorragia Digestiva" a menos que o termo apareça ou esteja nas REFERÊNCIAS.
 
-Retorne EXCLUSIVAMENTE um objeto JSON:
-{{ "NUMERO": {{ "term_original": "...", "capitulo": "apenas o numero", "confidence_embedding": 0.0, "is_inferred": bool, "classification_reasoning": "" }} }}
+2. HIERARQUIA DE CLASSIFICAÇÃO:
+   - INFECÇÃO sempre terá prioridade no Capítulo 01 (mesmo que seja no pulmão ou sangue).
+   - NEOPLASIA/TUMOR sempre terá prioridade no Capítulo 02 (mesmo que seja no cérebro ou osso).
+   - SINTOMAS INESPECÍFICOS (dor, febre, soluço, edema) vão para o Capítulo 21.
+   - LESÕES POR CAUSA EXTERNA (fraturas, quedas, cortes) vão para o Capítulo 22.
+
+3. ESTRUTURA DOS CAMPOS:
+   - "term_original": Copie o termo exatamente como está no TEXTO.
+   - "capitulo": Apenas o número ou letra (ex: "01", "11", "V").
+   - "is_inferred": FALSE se o termo extraído for IGUAL a algum item da lista de REFERÊNCIAS. TRUE se o termo foi pescado do TEXTO mas não estava nas REFERÊNCIAS.
+   - "confidence_embedding": Sempre 0.0.
+   - "classification_reasoning": Sempre "".
+
+4. FORMATO DE SAÍDA:
+   - A chave principal deve ser o NÚMERO do capítulo. 
+   - Se houver mais de uma doença para o mesmo capítulo, a LLM deve retornar chaves distintas (ex: "01", "01_bis"). O script tratará a unicidade depois.
+
+### EXEMPLO DE SAÍDA ESPERADA ###
+{{
+  "01": {{
+    "term_original": "SEPTICEMIA",
+    "capitulo": "01",
+    "confidence_embedding": 0.0,
+    "is_inferred": false,
+    "classification_reasoning": ""
+  }},
+  "11": {{
+    "term_original": "HIPERTENSÃO",
+    "capitulo": "11",
+    "confidence_embedding": 0.0,
+    "is_inferred": true,
+    "classification_reasoning": ""
+  }}
+}}
+
+Retorne APENAS o JSON.
 """
 
 def processar():
