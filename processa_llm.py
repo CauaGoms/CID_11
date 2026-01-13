@@ -9,7 +9,6 @@ PASTA_ENTRADA = "processamento/pront_teste"
 PASTA_SAIDA = "processamento/prontuarios_classificados"
 TAMANHO_CHUNK = 2000 
 
-# Descrição simplificada conforme solicitado (apenas o número)
 DESC_CAPITULOS = """
 01: Algumas doenças infecciosas ou parasitárias
 02: Neoplasias
@@ -78,7 +77,7 @@ REGRAS:
 5. "classification_reasoning": "" constante.
 6. A CHAVE do JSON deve ser apenas o número do capítulo (ex: "01", "11", "V").
 
-Retorne EXCLUSIVAMENTE JSON:
+Retorne EXCLUSIVAMENTE um objeto JSON:
 {{ "NUMERO": {{ "term_original": "...", "capitulo": "apenas o numero", "confidence_embedding": 0.0, "is_inferred": bool, "classification_reasoning": "" }} }}
 """
 
@@ -91,8 +90,8 @@ def processar():
         with open(os.path.join(PASTA_ENTRADA, nome_arquivo), 'r', encoding='utf-8') as f:
             dados = json.load(f)
 
-        referencias = [t for cat, termos in dados['entities'].items() if cat in FOCO_CLINICO for t in termos]
-        chunks = dividir_texto(dados['text'], TAMANHO_CHUNK)
+        referencias = [t for cat, termos in dados.get('entities', {}).items() if cat in FOCO_CLINICO for t in termos]
+        chunks = dividir_texto(dados.get('text', ""), TAMANHO_CHUNK)
         
         labels_totais = {}
         contador_global = 1
@@ -100,17 +99,19 @@ def processar():
         for pedaco in chunks:
             resultado_chunk = chamar_llm(construir_prompt(pedaco, referencias))
             
+            # Validação: Garante que resultado_chunk é um dicionário
+            if not isinstance(resultado_chunk, dict):
+                continue
+
             for cap, info in resultado_chunk.items():
-                # Limpa o capítulo de qualquer "_" ou caracteres extras caso a LLM ignore a regra
-                cap_limpo = cap.replace("_", "").strip()
-                # Cria chave única para não sobrescrever (ex: 11_1, 11_2)
-                chave_final = f"{cap_limpo}_{contador_global}"
-                
-                # Garante que o campo 'capitulo' interno também esteja limpo
-                info['capitulo'] = cap_limpo
-                
-                labels_totais[chave_final] = info
-                contador_global += 1
+                # Validação: Garante que 'info' é um dicionário antes de atribuir
+                if isinstance(info, dict):
+                    cap_limpo = str(cap).replace("_", "").strip()
+                    chave_final = f"{cap_limpo}_{contador_global}"
+                    
+                    info['capitulo'] = cap_limpo
+                    labels_totais[chave_final] = info
+                    contador_global += 1
 
         dados['labels'] = labels_totais
         with open(os.path.join(PASTA_SAIDA, nome_arquivo), 'w', encoding='utf-8') as f:
