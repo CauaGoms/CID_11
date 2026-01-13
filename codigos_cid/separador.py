@@ -73,7 +73,7 @@ def dividir_cid(arquivo_origem):
 
 # Execução do script
 if __name__ == "__main__":
-    arquivo_input = 'ICD-11-pt-clean.json' 
+    arquivo_input = 'ICD-11-com-descricoes.json' 
     if os.path.exists(arquivo_input):
         dividir_cid(arquivo_input)
     else:
