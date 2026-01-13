@@ -5,8 +5,8 @@ import requests
 # --- CONFIGURAÇÕES ---
 OLLAMA_API = "http://localhost:11434/api/generate"
 MODELO = "llama3.1:8b"
-PASTA_ENTRADA = "prontuarios_processados"
-PASTA_SAIDA = "prontuarios_classificados"
+PASTA_ENTRADA = "processamento/pront_teste"
+PASTA_SAIDA = "processamento/prontuarios_classificados"
 
 DESC_CAPITULOS = """
 01_ Algumas doenças infecciosas ou parasitárias: Doenças causadas por agentes infecciosos como bactérias, vírus, parasitas e fungos.
