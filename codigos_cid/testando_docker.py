@@ -1,9 +1,10 @@
 import json
 import requests
 
-# Ajuste a porta se você mudou no comando 'docker run' (ex: 8080 ou 80)
-PORTA = "8080" 
-BASE_URL = f"http://localhost:{PORTA}/icd/release/11/2025-01/mms"
+# Configurações de acordo com seu 'docker ps'
+PORTA = "8080"
+VERSAO = "2025-01"
+BASE_URL = f"http://localhost:{PORTA}/icd/release/11/{VERSAO}/mms"
 
 HEADERS = {
     'Accept': 'application/json',
@@ -11,59 +12,45 @@ HEADERS = {
     'API-Version': 'v2'
 }
 
-def testar_conexao():
-    print(f"--- Testando conexão com Docker em localhost:{PORTA} ---")
+def teste_unitario(codigo):
+    print(f"--- Iniciando Teste para o código: {codigo} ---")
+    
     try:
-        # Testa se o servidor base está respondendo
-        res = requests.get(f"http://localhost:{PORTA}/", timeout=5)
-        print(f"Status do Servidor: {res.status_code} (OK)")
-        return True
-    except Exception as e:
-        print(f"ERRO: Não consegui conectar no Docker. O container está rodando?")
-        print(f"Detalhe: {e}")
-        return False
-
-def obter_descricao_local(codigo):
-    try:
-        # 1. Busca o CodeInfo
+        # Passo 1: Lookup do Código
         lookup_url = f"{BASE_URL}/codeinfo/{codigo}"
-        res = requests.get(lookup_url, headers=HEADERS, timeout=10)
+        print(f"1. Fazendo lookup em: {lookup_url}")
+        res_lookup = requests.get(lookup_url, headers=HEADERS, timeout=10)
         
-        if res.status_code == 200:
-            data = res.json()
-            entity_uri = data.get('stemId')
+        if res_lookup.status_code != 200:
+            print(f"ERRO no Lookup: Status {res_lookup.status_code}")
+            return
+
+        data = res_lookup.json()
+        entity_uri = data.get('stemId')
+        print(f"   Sucesso! URI da entidade encontrada: {entity_uri}")
+
+        # Passo 2: Buscar detalhes na URI local
+        local_uri = entity_uri.replace("https://id.who.int", f"http://localhost:{PORTA}")
+        print(f"2. Buscando detalhes em: {local_uri}")
+        res_detalhes = requests.get(local_uri, headers=HEADERS, timeout=10)
+
+        if res_detalhes.status_code == 200:
+            detalhes = res_detalhes.json()
+            titulo = detalhes.get('title', {}).get('@value', 'Sem título')
+            # Verifica se existe definição, senão avisa
+            definicao = detalhes.get('definition', {}).get('@value', 'AVISO: Este código não possui definição detalhada em PT.')
             
-            # Ajusta URI para o seu localhost
-            local_url = entity_uri.replace("https://id.who.int", f"http://localhost:{PORTA}")
-            
-            # 2. Busca Detalhes
-            detalhes_res = requests.get(local_url, headers=HEADERS, timeout=10)
-            if detalhes_res.status_code == 200:
-                detalhes = detalhes_res.json()
-                # Pega a definição
-                return detalhes.get('definition', {}).get('@value', "Sem descrição disponível.")
-        
-        return f"Erro na API: Status {res.status_code}"
+            print(f"\n--- RESULTADO DO TESTE ---")
+            print(f"CÓDIGO: {codigo}")
+            print(f"TÍTULO: {titulo}")
+            print(f"DESCRIÇÃO: {definicao[:200]}...")
+            print(f"--------------------------")
+        else:
+            print(f"ERRO nos Detalhes: Status {res_detalhes.status_code}")
+
     except Exception as e:
-        return f"Erro: {str(e)}"
+        print(f"ERRO DE CONEXÃO: {e}")
 
 if __name__ == "__main__":
-    if testar_conexao():
-        # Carrega o JSON original
-        with open('ICD-11-pt-clean.json', 'r', encoding='utf-8') as f:
-            dados = json.load(f)
-
-        print("\n--- Iniciando Teste com os 5 primeiros códigos ---")
-        teste_reduzido = dados[:5]
-        
-        for item in teste_reduzido:
-            cod = item['identificador']
-            print(f"Consultando {cod} ({item['valor']})...")
-            item['descricao'] = obter_descricao_local(cod)
-            print(f"Resultado: {item['descricao'][:100]}...\n")
-
-        # Salva o teste
-        with open('teste_docker_cid.json', 'w', encoding='utf-8') as f:
-            json.dump(teste_reduzido, f, ensure_ascii=False, indent=2)
-        
-        print("Arquivo 'teste_docker_cid.json' gerado!")
+    # Testamos com 1A00 (Cólera) que é um código padrão e costuma ter descrição
+    teste_unitario('1A00')
