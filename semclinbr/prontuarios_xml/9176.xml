@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>João, 84 anos. 
+PO 06/01 Herniorrafia Inguinal D + cistorrafia.
+Retirada de sonda vesical 19/01.
+Nega queixas alimentares e dores.
+ABD indolor à palpação.  
+Em uso de Omeprazol e anti-HAS.
+
+discutido caso com preceptoria. Conforme orientado, retorno em 30 dias.</TEXT>
+<TAGS>
+<annotation id="12202" tag="Abbreviation|Temporal Concept" start="16" end="18" text="PO" abbr="" />
+<annotation id="12203" tag="Abbreviation|Spatial Concept" start="47" end="48" text="D" abbr="" />
+<annotation id="12204" tag="Therapeutic or Preventive Procedure" start="51" end="62" text="cistorrafia" abbr="" />
+<annotation id="12205" tag="Negation" start="97" end="101" text="Nega" abbr="" />
+<annotation id="12206" tag="Sign or Symptom" start="124" end="129" text="dores" abbr="" />
+<annotation id="12207" tag="Negation" start="135" end="142" text="indolor" abbr="" />
+<annotation id="12208" tag="Diagnostic Procedure" start="145" end="153" text="palpação" abbr="" />
+<annotation id="12209" tag="Functional Concept" start="160" end="163" text="uso" abbr="" />
+<annotation id="12210" tag="Pharmacologic Substance" start="167" end="176" text="Omeprazol" abbr="" />
+<annotation id="12211" tag="Pharmacologic Substance|Abbreviation" start="179" end="187" text="anti-HAS" abbr="" />
+<annotation id="12212" tag="Health Care Activity" start="231" end="240" text="orientado" abbr="" />
+<annotation id="12213" tag="Health Care Activity" start="242" end="249" text="retorno" abbr="" />
+<annotation id="12214" tag="Quantitative Concept|Temporal Concept" start="6" end="13" text="84 anos" />
+<annotation id="12215" tag="Therapeutic or Preventive Procedure" start="25" end="46" text="Herniorrafia Inguinal" />
+<annotation id="12216" tag="Therapeutic or Preventive Procedure" start="76" end="89" text="sonda vesical" />
+<annotation id="12217" tag="Sign or Symptom" start="102" end="121" text="queixas alimentares" />
+<annotation id="12218" tag="Temporal Concept" start="253" end="260" text="30 dias" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="12202" annotation2="12215" reltype="associated_with" />
+<rel annotation1="12202" annotation2="12204" reltype="associated_with" />
+<rel annotation1="12205" annotation2="12217" reltype="negation_of" />
+<rel annotation1="12206" annotation2="12205" reltype="negation_of" />
+<rel annotation1="12209" annotation2="12210" reltype="associated_with" />
+<rel annotation1="12209" annotation2="12211" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

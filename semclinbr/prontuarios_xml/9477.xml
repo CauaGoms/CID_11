@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>paciente interna com quadro de hemorragia digestiva alta, endoscopia de urgencia mostrou 2 ulceras, 1 com sangramento, colocado clip metalico. não apresentou mais sangramento, mas descompensou da angina, com muitos episódios de dor. Hematócrito estava 9,3, optou-se por transfundir 2 ui CHAD para melhora do controle dos sintomas. Realizou endoscopia de controle 72 horas apos, com resultado favorável das ulceras, em fase de cicatrização, sem evidencia de sangramento. Alta em condições estáveis, com o mesmo perfil de angina dos ultimos meses. Orientado para manter medicação prescrita e acompanhamento com equipe da dor e psiquiatria.</TEXT>
+<TAGS>
+<annotation id="23850" tag="Patient or Disabled Group" start="0" end="8" text="paciente" abbr="" />
+<annotation id="23851" tag="Health Care Activity" start="9" end="16" text="interna" abbr="" />
+<annotation id="23852" tag="Therapeutic or Preventive Procedure|Diagnostic Procedure" start="58" end="68" text="endoscopia" abbr="" />
+<annotation id="23853" tag="Laboratory or Test Result" start="91" end="98" text="ulceras" abbr="" />
+<annotation id="23854" tag="Pathologic Function" start="106" end="117" text="sangramento" abbr="" />
+<annotation id="23855" tag="Health Care Activity" start="119" end="127" text="colocado" abbr="" />
+<annotation id="23856" tag="Negation" start="143" end="146" text="não" abbr="" />
+<annotation id="23857" tag="Sign or Symptom" start="163" end="174" text="sangramento" abbr="" />
+<annotation id="23858" tag="Sign or Symptom" start="180" end="192" text="descompensou" abbr="" />
+<annotation id="23859" tag="Disease or Syndrome|Sign or Symptom" start="196" end="202" text="angina" abbr="" />
+<annotation id="23860" tag="Laboratory Procedure" start="233" end="244" text="Hematócrito" abbr="" />
+<annotation id="23861" tag="Therapeutic or Preventive Procedure" start="270" end="281" text="transfundir" abbr="" />
+<annotation id="23862" tag="Pharmacologic Substance|Abbreviation" start="287" end="291" text="CHAD" abbr="" />
+<annotation id="23863" tag="Health Care Activity" start="308" end="316" text="controle" abbr="" />
+<annotation id="23864" tag="Sign or Symptom" start="321" end="329" text="sintomas" abbr="" />
+<annotation id="23865" tag="Negation" start="440" end="443" text="sem" abbr="" />
+<annotation id="23866" tag="Health Care Activity" start="470" end="474" text="Alta" abbr="" />
+<annotation id="23867" tag="Disease or Syndrome|Sign or Symptom" start="520" end="526" text="angina" abbr="" />
+<annotation id="23868" tag="Health Care Activity" start="546" end="555" text="Orientado" abbr="" />
+<annotation id="23869" tag="Pharmacologic Substance" start="568" end="577" text="medicação" abbr="" />
+<annotation id="23870" tag="Health Care Activity" start="578" end="587" text="prescrita" abbr="" />
+<annotation id="23871" tag="Health Care Activity" start="590" end="604" text="acompanhamento" abbr="" />
+<annotation id="23872" tag="Professional or Occupational Group" start="625" end="636" text="psiquiatria" abbr="" />
+<annotation id="23873" tag="Disease or Syndrome" start="31" end="56" text="hemorragia digestiva alta" />
+<annotation id="23874" tag="Medical Device|Therapeutic or Preventive Procedure" start="128" end="141" text="clip metalico" />
+<annotation id="23875" tag="Quantitative Concept" start="208" end="224" text="muitos episódios" />
+<annotation id="23876" tag="Laboratory or Test Result|Quantitative Concept" start="252" end="255" text="9 , 3" />
+<annotation id="23877" tag="Quantitative Concept" start="282" end="286" text="2 ui" />
+<annotation id="23878" tag="Therapeutic or Preventive Procedure|Diagnostic Procedure" start="340" end="362" text="endoscopia de controle" />
+<annotation id="23879" tag="Temporal Concept" start="363" end="376" text="72 horas apos" />
+<annotation id="23880" tag="Finding|Laboratory or Test Result" start="382" end="401" text="resultado favorável" />
+<annotation id="23881" tag="Laboratory or Test Result|Organism Function" start="415" end="438" text="em fase de cicatrização" />
+<annotation id="23882" tag="Laboratory or Test Result" start="444" end="468" text="evidencia de sangramento" />
+<annotation id="23883" tag="Finding" start="478" end="496" text="condições estáveis" />
+<annotation id="23884" tag="Temporal Concept" start="531" end="544" text="ultimos meses" />
+<annotation id="23885" tag="Professional or Occupational Group" start="609" end="622" text="equipe da dor" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="23853" annotation2="23852" reltype="associated_with" />
+<rel annotation1="23853" annotation2="23874" reltype="associated_with" />
+<rel annotation1="23854" annotation2="23853" reltype="associated_with" />
+<rel annotation1="23854" annotation2="23852" reltype="associated_with" />
+<rel annotation1="23855" annotation2="23874" reltype="associated_with" />
+<rel annotation1="23856" annotation2="23857" reltype="negation_of" />
+<rel annotation1="23858" annotation2="23859" reltype="associated_with" />
+<rel annotation1="23862" annotation2="23861" reltype="associated_with" />
+<rel annotation1="23863" annotation2="23864" reltype="associated_with" />
+<rel annotation1="23865" annotation2="23882" reltype="negation_of" />
+<rel annotation1="23866" annotation2="23883" reltype="associated_with" />
+<rel annotation1="23869" annotation2="23868" reltype="associated_with" />
+<rel annotation1="23871" annotation2="23872" reltype="associated_with" />
+<rel annotation1="23871" annotation2="23885" reltype="associated_with" />
+<rel annotation1="23876" annotation2="23860" reltype="associated_with" />
+<rel annotation1="23876" annotation2="23860" reltype="associated_with" />
+<rel annotation1="23877" annotation2="23862" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

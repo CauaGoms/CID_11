@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Pcte com historia de contusao em joelho esq ha 15 dias.
+Possivel fx de plato?
+Pcte sem dor e sem sinais de fratura ao rx.
+Alta.
+Retorno se necessario
+
+R1 Lucas,
+R4 Lucas
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="17562" tag="Patient or Disabled Group|Abbreviation" start="0" end="4" text="Pcte" abbr="paciente" />
+<annotation id="17563" tag="Injury or Poisoning" start="21" end="29" text="contusao" abbr="" />
+<annotation id="17564" tag="Temporal Concept" start="50" end="54" text="dias" abbr="" />
+<annotation id="17565" tag="Abbreviation|Patient or Disabled Group" start="80" end="84" text="Pcte" abbr="" />
+<annotation id="17566" tag="Negation" start="85" end="88" text="sem" abbr="" />
+<annotation id="17567" tag="Sign or Symptom" start="89" end="92" text="dor" abbr="" />
+<annotation id="17568" tag="Negation" start="95" end="98" text="sem" abbr="" />
+<annotation id="17569" tag="Abbreviation|Diagnostic Procedure" start="120" end="122" text="rx" abbr="" />
+<annotation id="17570" tag="Health Care Activity" start="125" end="129" text="Alta" abbr="" />
+<annotation id="17571" tag="Health Care Activity" start="132" end="139" text="Retorno" abbr="" />
+<annotation id="17572" tag="Abbreviation|Professional or Occupational Group" start="157" end="159" text="R1" abbr="" />
+<annotation id="17573" tag="Abbreviation|Professional or Occupational Group" start="168" end="170" text="R4" abbr="" />
+<annotation id="17574" tag="Abbreviation|Body Part, Organ, or Organ Component|Body Space or Junction" start="33" end="43" text="joelho esq" />
+<annotation id="17575" tag="Abbreviation|Injury or Poisoning" start="66" end="77" text="fx de plato" />
+<annotation id="17576" tag="Laboratory or Test Result|Sign or Symptom" start="99" end="116" text="sinais de fratura" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="17563" annotation2="17574" reltype="associated_with" />
+<rel annotation1="17566" annotation2="17567" reltype="negation_of" />
+<rel annotation1="17568" annotation2="17576" reltype="negation_of" />
+<rel annotation1="17569" annotation2="17576" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

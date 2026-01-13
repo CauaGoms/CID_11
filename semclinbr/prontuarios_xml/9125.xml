@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>QP: encaminhado para Cirurgia bariatrica com IMC &gt; 40.
+
+Nega comorbidades.
+
+CD: encaminhamento para cx bariatrica.        </TEXT>
+<TAGS>
+<annotation id="11702" tag="Abbreviation" start="0" end="2" text="QP" abbr="" />
+<annotation id="11703" tag="Abbreviation|Clinical Attribute" start="45" end="48" text="IMC" abbr="" />
+<annotation id="11704" tag="Negation" start="56" end="60" text="Nega" abbr="" />
+<annotation id="11705" tag="Disease or Syndrome" start="61" end="73" text="comorbidades" abbr="" />
+<annotation id="11706" tag="Abbreviation" start="76" end="78" text="CD" abbr="" />
+<annotation id="11707" tag="Health Care Activity" start="80" end="94" text="encaminhamento" abbr="" />
+<annotation id="11708" tag="Therapeutic or Preventive Procedure" start="21" end="40" text="Cirurgia bariatrica" />
+<annotation id="11709" tag="Abbreviation|Quantitative Concept" start="49" end="53" text="&amp;gt; 40" />
+<annotation id="11710" tag="Abbreviation|Therapeutic or Preventive Procedure" start="100" end="113" text="cx bariatrica" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="11703" annotation2="11708" reltype="associated_with" />
+<rel annotation1="11704" annotation2="11705" reltype="negation_of" />
+<rel annotation1="11707" annotation2="11710" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

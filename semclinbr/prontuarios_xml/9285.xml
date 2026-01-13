@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>PACIENTE POS-OPERATORIO CX HERNIA UMBILICAL.
+FO SEM SINAIS DE SECREÇÃO PURULENTA.
+PCTE SEM QUEIXAS.
+RETORNO EM 1 MES.
+ 
+ 
+ 
+ </TEXT>
+<TAGS>
+<annotation id="17542" tag="Patient or Disabled Group" start="0" end="8" text="PACIENTE" abbr="" />
+<annotation id="17543" tag="Temporal Concept" start="9" end="23" text="POS-OPERATORIO" abbr="" />
+<annotation id="17544" tag="Abbreviation|Injury or Poisoning" start="46" end="48" text="FO" abbr="" />
+<annotation id="17545" tag="Negation" start="49" end="52" text="SEM" abbr="" />
+<annotation id="17546" tag="Patient or Disabled Group|Abbreviation" start="84" end="88" text="PCTE" abbr="paciente" />
+<annotation id="17547" tag="Negation" start="89" end="92" text="SEM" abbr="" />
+<annotation id="17548" tag="Sign or Symptom" start="93" end="100" text="QUEIXAS" abbr="" />
+<annotation id="17549" tag="Health Care Activity" start="103" end="110" text="RETORNO" abbr="" />
+<annotation id="17550" tag="Temporal Concept" start="116" end="119" text="MES" abbr="" />
+<annotation id="17551" tag="Abbreviation|Therapeutic or Preventive Procedure" start="24" end="43" text="CX HERNIA UMBILICAL" />
+<annotation id="17552" tag="Sign or Symptom" start="63" end="81" text="SECREÇÃO PURULENTA" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="17543" annotation2="17551" reltype="associated_with" />
+<rel annotation1="17544" annotation2="17552" reltype="associated_with" />
+<rel annotation1="17545" annotation2="17552" reltype="negation_of" />
+<rel annotation1="17547" annotation2="17548" reltype="negation_of" />
+</RELATIONS>
+</ANNOTATIONS>

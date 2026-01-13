@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>POS TX RENAL
+POS TX RENAL - CR 0,93 - FK 7,0
+HAS BOM CONTROLE
+ 
+ 
+TX RENAL FEV/14
+USO DE : MTC 5 , FK 4/4 , MS 2/2 , ATENOLOL 25X2 , OMZ 20
+S # INTERNAMENTO POR PIORA DA FUNÇÃO RENAL , NO INTERNAMENTO CR EM QUEDA , NAO REALIZOU BIÓPSIA . 
+ASSINTOMÁTICA .
+O # BEG , CORADA , HIDRATADA
+PA 130/80
+MV POSITIVO , SIMETRICO
+BCRNF
+ABDOMEN FLACIDO , SEM MASSAS , RHA POSITIVOS
+MEMBROS SEM EDEMA</TEXT>
+<TAGS>
+<annotation id="19305" tag="Abbreviation|Clinical Attribute|Laboratory Procedure" start="29" end="31" text="CR" abbr="" />
+<annotation id="19306" tag="Abbreviation|Clinical Attribute" start="39" end="41" text="FK" abbr="" />
+<annotation id="19307" tag="Disease or Syndrome|Abbreviation" start="47" end="50" text="HAS" abbr="hipertensão arterial sistêmica" />
+<annotation id="19308" tag="Clinical Drug|Abbreviation" start="97" end="100" text="MTC" abbr="" />
+<annotation id="19309" tag="Quantitative Concept" start="101" end="102" text="5" abbr="" />
+<annotation id="19310" tag="Abbreviation|Organic Chemical|Pharmacologic Substance" start="105" end="107" text="FK" abbr="" />
+<annotation id="19311" tag="Abbreviation|Antibiotic|Organic Chemical" start="114" end="116" text="MS" abbr="" />
+<annotation id="19312" tag="Pharmacologic Substance|Organic Chemical" start="123" end="131" text="ATENOLOL" abbr="" />
+<annotation id="19313" tag="Quantitative Concept" start="132" end="136" text="25X2" abbr="" />
+<annotation id="19314" tag="Pharmacologic Substance|Organic Chemical|Abbreviation" start="139" end="142" text="OMZ" abbr="" />
+<annotation id="19315" tag="Quantitative Concept" start="143" end="145" text="20" abbr="" />
+<annotation id="19316" tag="Abbreviation|Finding" start="147" end="148" text="S" abbr="" />
+<annotation id="19317" tag="Health Care Activity" start="151" end="163" text="INTERNAMENTO" abbr="" />
+<annotation id="19318" tag="Negation" start="222" end="225" text="NAO" abbr="" />
+<annotation id="19319" tag="Health Care Activity|Diagnostic Procedure" start="235" end="242" text="BIÓPSIA" abbr="" />
+<annotation id="19320" tag="Negation|Finding" start="247" end="260" text="ASSINTOMÁTICA" abbr="" />
+<annotation id="19321" tag="Health Care Activity|Abbreviation" start="264" end="265" text="O" abbr="" />
+<annotation id="19322" tag="Finding|Abbreviation" start="268" end="271" text="BEG" abbr="bom estado geral" />
+<annotation id="19323" tag="Finding" start="274" end="280" text="CORADA" abbr="" />
+<annotation id="19324" tag="Finding" start="283" end="292" text="HIDRATADA" abbr="" />
+<annotation id="19325" tag="Abbreviation|Clinical Attribute" start="294" end="296" text="PA" abbr="" />
+<annotation id="19326" tag="Quantitative Concept" start="297" end="303" text="130/80" abbr="" />
+<annotation id="19327" tag="Finding" start="319" end="328" text="SIMETRICO" abbr="" />
+<annotation id="19328" tag="Finding|Abbreviation" start="330" end="335" text="BCRNF" abbr="buçhas cardíacas rítmicas e normo fonéticas" />
+<annotation id="19329" tag="Body Location or Region" start="337" end="344" text="ABDOMEN" abbr="" />
+<annotation id="19330" tag="Finding" start="345" end="352" text="FLACIDO" abbr="" />
+<annotation id="19331" tag="Negation" start="355" end="358" text="SEM" abbr="" />
+<annotation id="19332" tag="Sign or Symptom" start="359" end="365" text="MASSAS" abbr="" />
+<annotation id="19333" tag="Body Location or Region" start="383" end="390" text="MEMBROS" abbr="" />
+<annotation id="19334" tag="Negation" start="391" end="394" text="SEM" abbr="" />
+<annotation id="19335" tag="Sign or Symptom" start="395" end="400" text="EDEMA" abbr="" />
+<annotation id="19336" tag="Abbreviation|Therapeutic or Preventive Procedure" start="4" end="12" text="TX RENAL" />
+<annotation id="19337" tag="Abbreviation|Therapeutic or Preventive Procedure" start="18" end="26" text="TX RENAL" />
+<annotation id="19338" tag="Quantitative Concept" start="32" end="36" text="0 , 93" />
+<annotation id="19339" tag="Quantitative Concept" start="42" end="45" text="7 , 0" />
+<annotation id="19340" tag="Finding" start="51" end="63" text="BOM CONTROLE" />
+<annotation id="19341" tag="Abbreviation|Therapeutic or Preventive Procedure" start="71" end="79" text="TX RENAL" />
+<annotation id="19342" tag="Sign or Symptom" start="168" end="189" text="PIORA DA FUNÇÃO RENAL" />
+<annotation id="19343" tag="Abbreviation|Laboratory or Test Result|Sign or Symptom" start="208" end="219" text="CR EM QUEDA" />
+<annotation id="19344" tag="Finding|Abbreviation" start="305" end="316" text="MV POSITIVO" />
+<annotation id="19345" tag="Abbreviation|Finding" start="368" end="381" text="RHA POSITIVOS" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="19307" annotation2="19340" reltype="associated_with" />
+<rel annotation1="19309" annotation2="19308" reltype="associated_with" />
+<rel annotation1="19318" annotation2="19319" reltype="negation_of" />
+<rel annotation1="19325" annotation2="19326" reltype="associated_with" />
+<rel annotation1="19327" annotation2="19344" reltype="associated_with" />
+<rel annotation1="19330" annotation2="19329" reltype="associated_with" />
+<rel annotation1="19331" annotation2="19332" reltype="negation_of" />
+<rel annotation1="19332" annotation2="19329" reltype="associated_with" />
+<rel annotation1="19334" annotation2="19335" reltype="negation_of" />
+<rel annotation1="19335" annotation2="19333" reltype="associated_with" />
+<rel annotation1="19338" annotation2="19305" reltype="associated_with" />
+<rel annotation1="19339" annotation2="19306" reltype="associated_with" />
+<rel annotation1="19345" annotation2="19329" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Paciente submetida a pielografia ascendente, sem intercorrencias, com achado transoperatório de meato ureteral direito edemaciado, com ausência de cálculos ureterais, visto pela pielografia, ou cálculos vesicais. A paciente tem alta em bom estado geral, sem dor, com plano de retorno ao médico assistente.</TEXT>
+<TAGS>
+<annotation id="20107" tag="Patient or Disabled Group" start="0" end="8" text="Paciente" abbr="" />
+<annotation id="20108" tag="Negation" start="45" end="48" text="sem" abbr="" />
+<annotation id="20109" tag="Sign or Symptom" start="49" end="64" text="intercorrencias" abbr="" />
+<annotation id="20110" tag="Temporal Concept" start="77" end="92" text="transoperatório" abbr="" />
+<annotation id="20111" tag="Negation" start="135" end="143" text="ausência" abbr="" />
+<annotation id="20112" tag="Diagnostic Procedure" start="178" end="189" text="pielografia" abbr="" />
+<annotation id="20113" tag="Patient or Disabled Group" start="215" end="223" text="paciente" abbr="" />
+<annotation id="20114" tag="Health Care Activity" start="228" end="232" text="alta" abbr="" />
+<annotation id="20115" tag="Negation" start="254" end="257" text="sem" abbr="" />
+<annotation id="20116" tag="Sign or Symptom" start="258" end="261" text="dor" abbr="" />
+<annotation id="20117" tag="Diagnostic Procedure" start="21" end="43" text="pielografia ascendente" />
+<annotation id="20118" tag="Disease or Syndrome" start="147" end="165" text="cálculos ureterais" />
+<annotation id="20119" tag="Disease or Syndrome|Laboratory or Test Result" start="194" end="211" text="cálculos vesicais" />
+<annotation id="20120" tag="Finding" start="236" end="252" text="bom estado geral" />
+<annotation id="20121" tag="Health Care Activity" start="267" end="283" text="plano de retorno" />
+<annotation id="20122" tag="Professional or Occupational Group" start="287" end="304" text="médico assistente" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="20108" annotation2="20109" reltype="negation_of" />
+<rel annotation1="20111" annotation2="20118" reltype="negation_of" />
+<rel annotation1="20113" annotation2="20120" reltype="associated_with" />
+<rel annotation1="20115" annotation2="20116" reltype="negation_of" />
+</RELATIONS>
+</ANNOTATIONS>

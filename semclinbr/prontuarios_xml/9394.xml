@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Paciente submetido a angioplastia coronariana com implante de stent em segmento proximal de artéria coronária direita com sucesso angiográfico. Tentativa de angioplastia de oclusão em segmento distal do mesmo vaso, sem sucesso (guia não ultrapassou a lesão). Procedimento transcorreu sem intercorrências.</TEXT>
+<TAGS>
+<annotation id="20009" tag="Patient or Disabled Group" start="0" end="8" text="Paciente" abbr="" />
+<annotation id="20010" tag="Negation" start="215" end="218" text="sem" abbr="" />
+<annotation id="20011" tag="Finding" start="219" end="226" text="sucesso" abbr="" />
+<annotation id="20012" tag="Medical Device" start="228" end="232" text="guia" abbr="" />
+<annotation id="20013" tag="Negation" start="233" end="236" text="não" abbr="" />
+<annotation id="20014" tag="Therapeutic or Preventive Procedure" start="259" end="271" text="Procedimento" abbr="" />
+<annotation id="20015" tag="Negation" start="284" end="287" text="sem" abbr="" />
+<annotation id="20016" tag="Sign or Symptom" start="288" end="303" text="intercorrências" abbr="" />
+<annotation id="20017" tag="Therapeutic or Preventive Procedure" start="21" end="45" text="angioplastia coronariana" />
+<annotation id="20018" tag="Therapeutic or Preventive Procedure" start="50" end="67" text="implante de stent" />
+<annotation id="20019" tag="Body Part, Organ, or Organ Component" start="71" end="117" text="segmento proximal de artéria coronária direita" />
+<annotation id="20020" tag="Therapeutic or Preventive Procedure" start="157" end="180" text="angioplastia de oclusão" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="20010" annotation2="20011" reltype="negation_of" />
+<rel annotation1="20015" annotation2="20016" reltype="negation_of" />
+<rel annotation1="20018" annotation2="20019" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

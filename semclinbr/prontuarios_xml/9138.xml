@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT># PO AMPUTAÇÃO MIE.
+# PACIENTE EM USO DE GABAPENTINA E AMITRIPTILINA.
+# FERIDA LIMPA, SEM SINAIS FLOGÍSTICOS.
+# RETORNO 7 DIAS.
+
+R3 Lucas
+R4 Nome_Genérico         </TEXT>
+<TAGS>
+<annotation id="11816" tag="Abbreviation|Temporal Concept" start="2" end="4" text="PO" abbr="" />
+<annotation id="11817" tag="Abbreviation" start="15" end="18" text="MIE" abbr="" />
+<annotation id="11818" tag="Patient or Disabled Group" start="22" end="30" text="PACIENTE" abbr="" />
+<annotation id="11819" tag="Pharmacologic Substance" start="41" end="52" text="GABAPENTINA" abbr="" />
+<annotation id="11820" tag="Pharmacologic Substance" start="55" end="68" text="AMITRIPTILINA" abbr="" />
+<annotation id="11821" tag="Injury or Poisoning" start="72" end="78" text="FERIDA" abbr="" />
+<annotation id="11822" tag="Finding" start="79" end="84" text="LIMPA" abbr="" />
+<annotation id="11823" tag="Negation" start="86" end="89" text="SEM" abbr="" />
+<annotation id="11824" tag="Abbreviation" start="129" end="131" text="R3" abbr="" />
+<annotation id="11825" tag="Sign or Symptom" start="90" end="108" text="SINAIS FLOGÍSTICOS" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="11821" annotation2="11825" reltype="associated_with" />
+<rel annotation1="11822" annotation2="11821" reltype="associated_with" />
+<rel annotation1="11823" annotation2="11825" reltype="negation_of" />
+</RELATIONS>
+</ANNOTATIONS>

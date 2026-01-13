@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT># MARIA, 50 ANOS.
+
+# NEGA COMORBIDADES.
+
+# DX HÉRNIA DE HIATO (03/12/2015).
+
+# US ABDOME TOTAL - COLECISTOPATIA CALCULOSA CRÔNICA.
+
+# REFERE DOR ABDOMINAL ESPORADICAS, NAO SAO DE FORTES INTENSIDADES. 
+# DISCUTO CASO COM PRECEPTORIA. SOLICITO PRE-OP.</TEXT>
+<TAGS>
+<annotation id="12219" tag="Negation" start="21" end="25" text="NEGA" abbr="" />
+<annotation id="12220" tag="Disease or Syndrome" start="26" end="38" text="COMORBIDADES" abbr="" />
+<annotation id="12221" tag="Abbreviation" start="43" end="45" text="DX" abbr="" />
+<annotation id="12222" tag="Temporal Concept" start="155" end="166" text="ESPORADICAS" abbr="" />
+<annotation id="12223" tag="Negation" start="168" end="171" text="NAO" abbr="" />
+<annotation id="12224" tag="Diagnostic Procedure|Abbreviation|Laboratory Procedure" start="242" end="248" text="PRE-OP" abbr="" />
+<annotation id="12225" tag="Quantitative Concept|Temporal Concept" start="9" end="16" text="50 ANOS" />
+<annotation id="12226" tag="Disease or Syndrome" start="46" end="61" text="HÉRNIA DE HIATO" />
+<annotation id="12227" tag="Abbreviation|Diagnostic Procedure" start="79" end="94" text="US ABDOME TOTAL" />
+<annotation id="12228" tag="Disease or Syndrome|Laboratory or Test Result" start="97" end="129" text="COLECISTOPATIA CALCULOSA CRÔNICA" />
+<annotation id="12229" tag="Sign or Symptom" start="141" end="154" text="DOR ABDOMINAL" />
+<annotation id="12230" tag="Qualitative Concept" start="179" end="198" text="FORTES INTENSIDADES" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="12219" annotation2="12220" reltype="negation_of" />
+<rel annotation1="12223" annotation2="12230" reltype="negation_of" />
+<rel annotation1="12227" annotation2="12228" reltype="associated_with" />
+<rel annotation1="12229" annotation2="12222" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Paciente , 72 anos # Insuficiência cardíaca - FE 45% em ecocardio de jan 2007 # HAS # ACFA - suspensa ACO por má-adesão # IAM (1994) # Cateterismo (04/2004) : oclusão DAE e lesão 70% CD pequena não-dominante # Tentativa sem sucesso de angioplastia</TEXT>
+<TAGS>
+<annotation id="18677" tag="Patient or Disabled Group" start="0" end="8" text="Paciente" abbr="" />
+<annotation id="18678" tag="Abbreviation|Diagnostic Procedure" start="56" end="65" text="ecocardio" abbr="" />
+<annotation id="18679" tag="Disease or Syndrome|Abbreviation" start="80" end="83" text="HAS" abbr="hipertensão arterial sistêmica" />
+<annotation id="18680" tag="Abbreviation|Disease or Syndrome" start="86" end="90" text="ACFA" abbr="" />
+<annotation id="18681" tag="Abbreviation|Disease or Syndrome" start="122" end="125" text="IAM" abbr="" />
+<annotation id="18682" tag="Diagnostic Procedure|Therapeutic or Preventive Procedure" start="135" end="146" text="Cateterismo" abbr="" />
+<annotation id="18683" tag="Negation" start="220" end="223" text="sem" abbr="" />
+<annotation id="18684" tag="Finding" start="224" end="231" text="sucesso" abbr="" />
+<annotation id="18685" tag="Therapeutic or Preventive Procedure|Diagnostic Procedure" start="235" end="247" text="angioplastia" abbr="" />
+<annotation id="18686" tag="Disease or Syndrome" start="21" end="43" text="Insuficiência cardíaca" />
+<annotation id="18687" tag="Abbreviation|Laboratory or Test Result" start="46" end="52" text="FE 45%" />
+<annotation id="18688" tag="Abbreviation|Therapeutic or Preventive Procedure" start="93" end="105" text="suspensa ACO" />
+<annotation id="18689" tag="Laboratory or Test Result|Abbreviation" start="159" end="207" text="oclusão DAE e lesão 70% CD pequena não-dominante" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="18678" annotation2="18686" reltype="associated_with" />
+<rel annotation1="18678" annotation2="18687" reltype="associated_with" />
+<rel annotation1="18682" annotation2="18689" reltype="associated_with" />
+<rel annotation1="18683" annotation2="18685" reltype="negation_of" />
+<rel annotation1="18683" annotation2="18684" reltype="negation_of" />
+<rel annotation1="18684" annotation2="18685" reltype="associated_with" />
+<rel annotation1="18687" annotation2="18678" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATIONS>
+<TEXT>Paciente proveniente de XXXX, em acompanhamento no ambulatório de ICC do XXXX, internado na CTI desde 08/03 com quadro de insuficiência cardiaca refratária ao tratamento clínico e choque cardiogênico. Apesar das medidas terapêuticas adotadas, inserção de cateter de Swan-Ganz e uso de drogas vasoativas ( Dobutamina e Milrinona ), não apresentou melhora clinica. Foram tomadas medidas para inclusão do paciente em lista de transplante cardiaco, o qual não foi concretizado por falta de condições clínicas do mesmo. Complicou durante a internação com perda progressiva de função renal e infecção no local de introdução do cateter ( septicemia não especificada ). Dia 18/03 apresentou piora importante do quadro, necessitando de ventilação mecânica. Apesar das medidas instituidas em vigência da piora clínica, evoluiu para obito às 08:00 h de 19/03. PACIENTE COM CARDIOPATIA ISQUEMICA INTERNA PARA REALIZAÇÃO DE ANGIOPLASTIA COM IMPLANTE DE STENT EM ARTÉRIA DESCENDENTE ANTERIOR ESQUERDA REALIZADA COM SUCESSO, SEM INTERCORRÊNCIAS. RECEBE ALTA EM BOM ESTADO GERAL, COM RECOMENDAÇÕES.</TEXT>
+<TAGS>
+<annotation id="16648" tag="Patient or Disabled Group" start="0" end="8" text="Paciente" abbr="" />
+<annotation id="16649" tag="Health Care Activity" start="79" end="88" text="internado" abbr="" />
+<annotation id="16650" tag="Health Care Related Organization|Abbreviation" start="92" end="95" text="CTI" abbr="centro de tratamento intensivo" />
+<annotation id="16651" tag="Organic Chemical|Pharmacologic Substance" start="305" end="315" text="Dobutamina" abbr="" />
+<annotation id="16652" tag="Pharmacologic Substance|Organic Chemical" start="318" end="327" text="Milrinona" abbr="" />
+<annotation id="16653" tag="Negation" start="331" end="334" text="não" abbr="" />
+<annotation id="16654" tag="Patient or Disabled Group" start="402" end="410" text="paciente" abbr="" />
+<annotation id="16655" tag="Health Care Activity" start="535" end="545" text="internação" abbr="" />
+<annotation id="16656" tag="Pathologic Function" start="586" end="594" text="infecção" abbr="" />
+<annotation id="16657" tag="Organism Function" start="822" end="827" text="obito" abbr="" />
+<annotation id="16658" tag="Patient or Disabled Group" start="849" end="857" text="PACIENTE" abbr="" />
+<annotation id="16659" tag="Health Care Activity" start="884" end="891" text="INTERNA" abbr="" />
+<annotation id="16660" tag="Finding" start="1001" end="1008" text="SUCESSO" abbr="" />
+<annotation id="16661" tag="Negation" start="1010" end="1013" text="SEM" abbr="" />
+<annotation id="16662" tag="Sign or Symptom" start="1014" end="1029" text="INTERCORRÊNCIAS" abbr="" />
+<annotation id="16663" tag="Health Care Activity" start="1038" end="1042" text="ALTA" abbr="" />
+<annotation id="16664" tag="Health Care Activity" start="1068" end="1081" text="RECOMENDAÇÕES" abbr="" />
+<annotation id="16665" tag="Abbreviation" start="51" end="69" text="ambulatório de ICC" />
+<annotation id="16666" tag="Disease or Syndrome" start="122" end="155" text="insuficiência cardiaca refratária" />
+<annotation id="16667" tag="Pathologic Function|Disease or Syndrome" start="180" end="199" text="choque cardiogênico" />
+<annotation id="16668" tag="Therapeutic or Preventive Procedure" start="243" end="275" text="inserção de cateter de Swan-Ganz" />
+<annotation id="16669" tag="Pharmacologic Substance" start="285" end="302" text="drogas vasoativas" />
+<annotation id="16670" tag="Finding" start="346" end="361" text="melhora clinica" />
+<annotation id="16671" tag="Therapeutic or Preventive Procedure" start="423" end="443" text="transplante cardiaco" />
+<annotation id="16672" tag="Body Location or Region" start="598" end="628" text="local de introdução do cateter" />
+<annotation id="16673" tag="Therapeutic or Preventive Procedure" start="727" end="746" text="ventilação mecânica" />
+<annotation id="16674" tag="Finding" start="794" end="807" text="piora clínica" />
+<annotation id="16675" tag="Disease or Syndrome" start="862" end="883" text="CARDIOPATIA ISQUEMICA" />
+<annotation id="16676" tag="Therapeutic or Preventive Procedure" start="911" end="939" text="ANGIOPLASTIA COM IMPLANTE DE" />
+<annotation id="16677" tag="Body Part, Organ, or Organ Component" start="949" end="986" text="ARTÉRIA DESCENDENTE ANTERIOR ESQUERDA" />
+<annotation id="16678" tag="Finding" start="1046" end="1062" text="BOM ESTADO GERAL" />
+</TAGS>
+<RELATIONS>
+<rel annotation1="16649" annotation2="16650" reltype="associated_with" />
+<rel annotation1="16651" annotation2="16669" reltype="associated_with" />
+<rel annotation1="16653" annotation2="16670" reltype="negation_of" />
+<rel annotation1="16656" annotation2="16672" reltype="associated_with" />
+<rel annotation1="16660" annotation2="16677" reltype="associated_with" />
+<rel annotation1="16661" annotation2="16662" reltype="negation_of" />
+<rel annotation1="16669" annotation2="16652" reltype="associated_with" />
+</RELATIONS>
+</ANNOTATIONS>
