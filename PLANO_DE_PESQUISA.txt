@@ -1,0 +1,45 @@
+1_ Dividir JSON em 26 json com separações oficiais.
+2_ Criar banco embbeding de cada um dos 26 jsons.
+
+3_ Usar uma LLM para extrair, em cada prontuário, entidades que classifiquem dentre os 26 tipos de códigos CID com ajuda das próprias entidades do semclinbr.
+4_ Guardar no json_variabilidade o processamento extra especificado logo a seguir.
+4_ Usar o modelo mxbai-embed-large para passar a entidade extraída e o prontuário a qual pertence para retornar as 5 melhores opções de correspondência com a entidade.
+5_ Usar uma LLM para decidir qual das 5 opções é a melhor
+6_ Usar uma LLM para retirar o nome da entidade do texto do prontuário do jsonl e substituir por [DIAG_1] por exemplo
+7_ Retornar o jsonl do prontuário no seguinte formato:
+
+
+{
+  "prontuario_id": 1,
+  "text": ".. início de [DIAG_1] em calcâneo d..",
+  "entities": {
+    "Sinal ou Sintoma": ["sonolenta"],
+    "Achado": ["Acamada", "Sudoréica"]
+  },
+  "labels": {
+    "EH90": {
+      "term_original": "início de em calcâneo d.",
+      "confidence_embedding": 0.91,
+      "classification_reasoning": "O texto descreve medidas preventivas e início de lesão em calcâneo, o que correlaciona diretamente com o código de úlcera de pressão/decúbito no capítulo correspondente do CID."
+    }
+  }
+}
+
+
+Processamento extra: Para aproveitar o processamento, a cada análise dos termos ele guardará em um json de variabilidade com essa estrutura:
+{
+  "L896": {
+    "official_name": "Úlcera de decúbito e úlcera de pressão",
+    "variations": [
+      { "term": "início de em calcâneo d.", "frequency": 12, "id_prontuarios": [2, 43, 54, 68] },
+      { "term": "lesão por pressão em região sacral", "frequency": 5, "id_prontuarios": [3, 32, 56, 89] }
+    ]
+  },
+  "E118": {
+    "official_name": "Diabetes mellitus não-insulino-dependente",
+    "variations": [
+      { "term": "controle glicêmico", "frequency": 45, "id_prontuarios": [2, 43, 54, 68] },
+      { "term": "DM2", "frequency": 110, "id_prontuarios": [2, 43, 54, 68] }
+    ]
+  }
+}
