@@ -5,8 +5,8 @@ import requests
 # --- CONFIGURAÇÕES ---
 OLLAMA_API = "http://localhost:11434/api/generate"
 MODELO = "llama3.1:8b"
-PASTA_ENTRADA = "processamento/pront_teste"
-PASTA_SAIDA = "processamento/prontuarios_classificados"
+PASTA_ENTRADA = "prontuarios_processados"
+PASTA_SAIDA = "prontuarios_classificados"
 
 DESC_CAPITULOS = """
 01_ Algumas doenças infecciosas ou parasitárias: Doenças causadas por agentes infecciosos como bactérias, vírus, parasitas e fungos.
@@ -43,43 +43,50 @@ def chamar_llm(prompt):
         "model": MODELO, "prompt": prompt, "stream": False, "format": "json"
     }
     try:
-        response = requests.post(OLLAMA_API, json=payload, timeout=90)
+        response = requests.post(OLLAMA_API, json=payload, timeout=120)
         return json.loads(response.json()['response'])
     except:
         return {}
 
 def construir_prompt(texto, entidades):
-    # Criamos uma lista simples das entidades já anotadas para a LLM comparar
-    lista_entidades_existentes = []
-    for categoria in entidades.values():
-        lista_entidades_existentes.extend(categoria)
+    # Consolida entidades para referência
+    lista_referencia = []
+    for cat in entidades.values():
+        lista_referencia.extend(cat)
 
     return f"""
-Aja como um médico auditor. Analise o prontuário e, caso possua, classifique a condição principal.
+Analise o prontuário médico abaixo para realizar a extração de entidades (NER) e classificação por capítulo CID-11.
+
 TEXTO DO PRONTUÁRIO: "{texto}"
-ANOTAÇÕES EXISTENTES (SemClinBR): {json.dumps(lista_entidades_existentes, ensure_ascii=False)}
+ANOTAÇÕES PRÉVIAS (SemClinBR): {json.dumps(lista_referencia, ensure_ascii=False)}
 
 CAPÍTULOS CID-11:
 {DESC_CAPITULOS}
 
-INSTRUÇÕES DE PREENCHIMENTO:
-1. "term_original": O termo clínico identificado.
-2. "is_inferred": 
-   - FALSE: Se o termo que você escolheu está na lista de 'ANOTAÇÕES EXISTENTES'.
-   - TRUE: Se você extraiu esse termo diretamente do 'TEXTO DO PRONTUÁRIO' mas ele não estava nas anotações.
-3. "is_diagnosis": 
-   - TRUE: Se você concluiu um diagnóstico que NÃO está escrito explicitamente (ex: o texto diz 'dor no peito e troponina alta' e você previu 'Infarto').
-   - FALSE: Se o diagnóstico já está escrito claramente no texto.
+INSTRUÇÕES:
+1. Identifique TODAS as entidades clínicas (doenças, sintomas, lesões ou motivos de consulta). Pode haver múltiplas entidades em um único prontuário.
+2. Para cada entidade, determine o capítulo CID-11 correspondente.
+3. Defina "is_inferred": 
+   - FALSE: se o termo utilizado for exatamente um dos presentes em 'ANOTAÇÕES PRÉVIAS'.
+   - TRUE: se o termo foi extraído por você diretamente do texto original e não estava nas anotações.
+4. ATENÇÃO: Os campos "confidence_embedding" deve ser 0.0 e "classification_reasoning" deve ser uma string vazia "".
+5. Use o nome da entidade ou uma string vazia como chave do objeto principal, mas garanta que cada entidade seja um objeto distinto.
 
-Retorne EXCLUSIVAMENTE este JSON:
+Retorne EXCLUSIVAMENTE um JSON onde cada chave é uma entidade identificada:
 {{
-  "": {{
+  "NOME_DA_ENTIDADE_1": {{
     "term_original": "termo identificado",
     "capitulo": "número do capítulo",
     "confidence_embedding": 0.0,
     "is_inferred": boolean,
-    "is_diagnosis": boolean,
-    "classification_reasoning": "justificativa médica"
+    "classification_reasoning": ""
+  }},
+  "NOME_DA_ENTIDADE_2": {{
+    "term_original": "termo identificado",
+    "capitulo": "número do capítulo",
+    "confidence_embedding": 0.0,
+    "is_inferred": boolean,
+    "classification_reasoning": ""
   }}
 }}
 """
@@ -89,20 +96,23 @@ def processar():
         os.makedirs(PASTA_SAIDA)
 
     arquivos = [f for f in os.listdir(PASTA_ENTRADA) if f.endswith('.json')]
-    print(f"Processando {len(arquivos)} arquivos...")
+    print(f"Iniciando extração NER em {len(arquivos)} arquivos...")
 
     for nome_arquivo in arquivos:
-        print(f"Auditando: {nome_arquivo}...", end='\r')
+        print(f"Processando: {nome_arquivo}...")
         with open(os.path.join(PASTA_ENTRADA, nome_arquivo), 'r', encoding='utf-8') as f:
             dados = json.load(f)
 
         prompt = construir_prompt(dados['text'], dados['entities'])
-        dados['labels'] = chamar_llm(prompt)
+        resultado = chamar_llm(prompt)
+        
+        # Inserimos o resultado no campo labels
+        dados['labels'] = resultado
 
         with open(os.path.join(PASTA_SAIDA, nome_arquivo), 'w', encoding='utf-8') as f:
             json.dump(dados, f, ensure_ascii=False, indent=2)
 
-    print("\nConcluído!")
+    print("\nProcessamento concluído!")
 
 if __name__ == "__main__":
     processar()
