@@ -1,0 +1,239 @@
+{
+  "prontuario_id": 163,
+  "text": "ÀS 15:30: PROVENIENTE DO PS, CONSCIENTE, COMUNICATIVA, ABSCESSO COURO CABELUDO E ORELHA DIREITA, REFERE CEFALEIA, SOLICITADO LIGAÇÃO PARA DR VITAL BRASIL SEM SUCESSO, ENTRADO PLANTÃO DA CLINICA MEDICA. DR VITAL BRASIL PRESCREVEU PARACETAMOL.  MEDICADA, AGUARDO MELHORA. ÀS 18:26: CLIENTE REFERE DOR LEVE EM MID, CONSCIENTE, COMUNICATIVO, EUPNEICO, REPOUSO NO LEITO, ACEITANDO BEM A DIETA, ACESSO PERIFÉRICO EM MSD SALINIZADO, CTVO LIMPO E SECO EM MID, APRESENTANDO MELHORA NO EDEMA, ABDOMEN PLANO E FLÁCIDO, MICÇÃO PRESENTE. ORIENTADO A ENTRAR EM JEJUM A PARTIR DAS 24:00, PARA PROCEDIMENTO CIRURGICO AMANHA, 26/05. ÀS 15:05: CONSCIENTE, COMUNICATIVO, REPOUSO NO LEITO, SSVV ESTAVEIS, REFERE ACEITAR POUCO A DIETA HOSPITALAR, CATÉTER PERIDURAL ANALGESIA. ACESSO VENOSO ANTECUBITAL ESQUERDO SALINIZADO, SEM SINAIS FLOGISTICO. CURATIVO NA REGIÃO INGUINAL ESQUERDA, PÉ COM SECREÇÃO SEROSA POUCA  QUANTIDADE, MANTENDO BOTAS DE ALGODÃO, SVD COM DÉBITO LIMPIDO. SEM QUEIXAS ALGICAS NO MOMENTO. XXXX.",
+  "entities": {
+    "Abreviação": [
+      "PS",
+      "MID",
+      "MSD",
+      "CTVO",
+      "SVD",
+      "SSVV ESTAVEIS"
+    ],
+    "Organização Relacionada à Saúde": [
+      "PS",
+      "PLANTÃO DA CLINICA MEDICA"
+    ],
+    "Achado": [
+      "CONSCIENTE",
+      "COMUNICATIVA",
+      "COMUNICATIVO",
+      "EUPNEICO",
+      "LIMPO",
+      "SECO",
+      "PLANO",
+      "FLÁCIDO",
+      "REPOUSO NO LEITO",
+      "ACEITANDO BEM A DIETA",
+      "MELHORA NO EDEMA",
+      "MICÇÃO PRESENTE",
+      "SSVV ESTAVEIS",
+      "DÉBITO LIMPIDO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ORELHA",
+      "PÉ",
+      "COURO CABELUDO"
+    ],
+    "Conceito Espacial": [
+      "DIREITA",
+      "ESQUERDO",
+      "ESQUERDA"
+    ],
+    "Sinal ou Sintoma": [
+      "CEFALEIA",
+      "DOR LEVE",
+      "ACEITAR POUCO A DIETA HOSPITALAR",
+      "SINAIS FLOGISTICO",
+      "QUEIXAS ALGICAS"
+    ],
+    "Substância Química Orgânica": [
+      "PARACETAMOL"
+    ],
+    "Substância Farmacológica": [
+      "PARACETAMOL"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "MEDICADA",
+      "ORIENTADO"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "CLIENTE"
+    ],
+    "Localização ou Região Corporal": [
+      "MID",
+      "MSD",
+      "ABDOMEN",
+      "ANTECUBITAL"
+    ],
+    "Conceito Qualitativo": [
+      "SALINIZADO",
+      "POUCA QUANTIDADE"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CTVO",
+      "JEJUM",
+      "SALINIZADO",
+      "CURATIVO",
+      "SVD",
+      "REPOUSO NO LEITO",
+      "ACESSO PERIFÉRICO",
+      "PROCEDIMENTO CIRURGICO",
+      "CATÉTER PERIDURAL ANALGESIA",
+      "ACESSO VENOSO",
+      "BOTAS DE ALGODÃO"
+    ],
+    "Dispositivo Médico": [
+      "CTVO",
+      "CURATIVO",
+      "SVD",
+      "ACESSO PERIFÉRICO",
+      "CATÉTER PERIDURAL ANALGESIA",
+      "ACESSO VENOSO",
+      "BOTAS DE ALGODÃO"
+    ],
+    "Conceito Temporal": [
+      "AMANHA",
+      "NO MOMENTO"
+    ],
+    "Função Fisiológica": [
+      "MICÇÃO PRESENTE",
+      "DÉBITO LIMPIDO"
+    ],
+    "Substância Corporal": [
+      "SECREÇÃO SEROSA"
+    ]
+  },
+  "labels": {
+    "FA80.8": {
+      "term_original": "plano",
+      "capitulo": "15",
+      "confidence_embedding": 0.71,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'plano' no contexto clínico é a degeneração de disco intervertebral da coluna lombar sem prolapso de disco (FA80.8), pois o prontuário refere-se ao plano do abdomen, indicando uma referência à anatomia abdominal.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção FA80.8 para o termo 'plano' é justificada pela referência ao plano do abdomen no prontuário, indicando uma possível degeneração de disco intervertebral da coluna lombar sem prolapso de disco.",
+      "tipo_erro_auditoria": null
+    },
+    "ME62.7": {
+      "term_original": "queixas algicas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7563,
+      "descricao_cid": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica.",
+      "classification_reasoning": "A opção mais precisa para o termo 'queixas algicas' é a representação de doença CID-11: Erupção cutânea descamativa aguda, pois o paciente refere dor leve em mid, o que sugere possivelmente uma resposta inflamatória ou reativa à lesão. A presença de secernição serosa poca na região inguinal esquerda também pode estar relacionada à doença mencionada.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição oficial do código CID-11 ME62.7 se refere a Erupção cutânea descamativa aguda, que pode ser relacionada à dor leve em mid e secernição serosa poca na região inguinal esquerda mencionadas no prontuário. A anatomia do código CID é compatível com a anatomia mencionada no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MG29.0Y": {
+      "term_original": "melhora no edema",
+      "capitulo": "21",
+      "confidence_embedding": 0.7383,
+      "descricao_cid": "Representação de doença CID-11: Outro edema localizado especificado. Definição: ",
+      "classification_reasoning": "A opção mais precisa é MG29.0Y devido à menção específica do termo 'melhora no edema', o que sugere um edema localizado e não generalizado, caracterizando outro edema localizado especificado.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'melhora no edema' está presente no prontuário e o código CID-11 MG29.0Y é uma representação precisa da condição descrita, caracterizando outro edema localizado especificado.",
+      "tipo_erro_auditoria": null
+    },
+    "EB13.1": {
+      "term_original": "seco",
+      "capitulo": "14",
+      "confidence_embedding": 0.7623,
+      "descricao_cid": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável.",
+      "classification_reasoning": "A palavra 'seco' se refere ao estado de cura da ferida no contexto do prontuário, o que sugere a presença de necrólise epidérmica tóxica (NET). Além disso, a presença de abscesso couro cabeludo e dor leve em mid também corroboram essa escolha.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'seco' se refere ao estado de cura da ferida, o que é compatível com a descrição oficial do código CID-11 (EB13.1) - Necrólise epidérmica tóxica. A anatomia mencionada no prontuário (região inguinal esquerda e pé com secreção serosa poca quantidade) também é compatível com a anatomia descrita no código CID-11.",
+      "tipo_erro_auditoria": null
+    },
+    "6C48.2": {
+      "term_original": "consciente",
+      "capitulo": "06",
+      "confidence_embedding": 0.7469,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais.",
+      "classification_reasoning": "A opção mais precisa é a intoxicação por cafeína, pois o termo 'consciente' está relacionado à apresentação de sintomas de euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância e agitação psicomotora, o que são comuns em casos de intoxicação por cafeína.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'consciente' está presente no prontuário e não há indicações de que seja negado ou hipotético. A descrição oficial do código CID-11 (6C48.2) se refere a intoxicação por cafeína, mas o prontuário não menciona consumo de cafeína. No entanto, como o diagnóstico foi explicitamente declarado pelo profissional de saúde, considero-o válido.",
+      "tipo_erro_auditoria": null
+    },
+    "MG30.2": {
+      "term_original": "dor leve",
+      "capitulo": "21",
+      "confidence_embedding": 0.7799,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A dor leve mencionada no registro de prontuário é caracterizada como dor pós-operatória ou pós-traumática crônica, pois foi desenvolvida após um procedimento cirúrgico e persistiu além do processo de cicatrização. A opção MG30.2 é a mais precisa para este termo dentro do contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dor leve mencionada no registro de prontuário é caracterizada como dor pós-operatória ou pós-traumática crônica, pois foi desenvolvida após um procedimento cirúrgico e persistiu além do processo de cicatrização. A opção MG30.2 é a mais precisa para este termo dentro do contexto clínico.",
+      "tipo_erro_auditoria": null
+    },
+    "9C61.25": {
+      "term_original": "limpo",
+      "capitulo": "09",
+      "confidence_embedding": 0.7218,
+      "descricao_cid": "Representação de doença CID-11: Crise glaucomatociclítica. Definição: Crise glaucomatociclítica apresenta-se com precipitados ceráticos leves e flare do aquoso, elevação aguda da pressão intraocular e dano ao nervo óptico quando ataques repetidos ocorrem.",
+      "classification_reasoning": "A opção mais precisa para o termo 'limpo' dentro do contexto clínico é a Crise glaucomatociclítica (9C61.25), pois no registro médico há referência ao CTVO LIMPO E SECO EM MID, o que sugere um ambiente ocular normal e livre de lesões ou inflamações.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição oficial do código CID-11 (9C61.25) refere-se a Crise glaucomatociclítica, que não está relacionada ao termo 'limpo' no prontuário. A justificativa do sistema anterior é baseada em uma inferência não sustentada pelo texto. Portanto, a correspondência semântica direta entre o termo e o código CID-11 não é clara.",
+      "tipo_erro_auditoria": null
+    },
+    "MB23.H": {
+      "term_original": "sinais flogistico",
+      "capitulo": "21",
+      "confidence_embedding": 0.7394,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "O termo 'sinais flogistico' é um sintoma característico de crises de pânico, que envolvem intensos episódios de medo ou apreensão. A presença desse termo no contexto clínico sugere que o paciente está experimentando um desses ataques, justificando a escolha do código MB23.H.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'sinais flogistico' não está explicitamente negado e o CID MB23.H representa uma condição que pode estar relacionada ao contexto clínico. A anatomia do código CID é compatível com a anatomia mencionada no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "CB21.1": {
+      "term_original": "eupneico",
+      "capitulo": "12",
+      "confidence_embedding": 0.7695,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A palavra 'eupneico' refere-se à presença de respiração normal e não há evidências de doença pulmonar obstrutiva crônica (DPOC) ou exacerbação aguda, portanto, o termo mais preciso é Outro pneumotórax espontâneo (CB21.1).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A palavra 'eupneico' refere-se à presença de respiração normal, o que é compatível com a descrição oficial do código CID-11 (CB21.1) como Outro pneumotórax espontâneo. Não há evidências de erro técnico claro.",
+      "tipo_erro_auditoria": null
+    },
+    "MB29.0": {
+      "term_original": "aceitar pouco a dieta hospitalar",
+      "capitulo": "21",
+      "confidence_embedding": 0.7206,
+      "descricao_cid": "Representação de doença CID-11: Alimentação seletiva ou restritiva. Definição: Aceitação apenas de uma dieta limitada, que pode ser definida pela composição alimentar ou por características sensoriais dos alimentos, que é inconsistente com as normas culturais ou subculturais.",
+      "classification_reasoning": "A opção mais precisa para o termo 'aceitar pouco a dieta hospitalar' é MB29.0, Alimentação seletiva ou restritiva. Isso porque o paciente está referindo aceitação apenas de uma dieta limitada, que é inconsistente com as normas culturais ou subculturais.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'aceitar pouco a dieta hospitalar' apresenta uma correspondência semântica direta com o código CID-11 MB29.0, Alimentação seletiva ou restritiva. A descrição oficial do código também se alinha com a situação descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "GB01.1": {
+      "term_original": "micção presente",
+      "capitulo": "16",
+      "confidence_embedding": 0.7436,
+      "descricao_cid": "Representação de doença CID-11: Torção do epidídimo. Definição: Uma afecção do epidídimo, causada por determinantes que surgem durante o período pré-natal. Esta condição é caracterizada por torção do epidídimo em torno de seu eixo e isquemia, dor escrotal ou inflamação. Essa afecção também pode se manifestar com parede escrotal espessada, hidrocele reativa e aumento da cabeça do epidídimo. A confirmação é feita por exames de imagem.",
+      "classification_reasoning": "A opção mais precisa é o código GB01.1, Torção do epidídimo, pois a frase 'micção presente' indica que o paciente tem um funcionamento normal da bexiga, o que não é comum em doenças como prostatite crônica (GA91.0) ou síndrome nefrítica (GB40). Ainda mais, a presença de curaturo na região inguinal esquerda e pé com secreção serosa pode estar relacionada à torção do epidídimo.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'micção presente' está diretamente relacionado ao código CID-11 GB01.1, Torção do epidídimo, pois a presença de micção normal não é comum em doenças como prostatite crônica (GA91.0) ou síndrome nefrítica (GB40). A anatomia mencionada no prontuário também se alinha com a anatomia descrita no código CID-11.",
+      "tipo_erro_auditoria": null
+    },
+    "CA22.0": {
+      "term_original": "débito limpido",
+      "capitulo": "12",
+      "confidence_embedding": 0.7956,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A descrição do termo 'débito limpido' sugere uma situação de saúde pulmonar normal, não havendo indícios de doenças respiratórias crônicas ou agudas. A falta de sintomas agudos e a presença de débito limpido sugerem que o paciente está com um estado pulmonar estável, o que é consistente com a definição da exacerbação aguda não especificada da doença pulmonar obstrutiva crônica (DPOC) do código CA22.0.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'débito limpido' não apresenta indícios de doenças respiratórias crônicas ou agudas, o que é consistente com a definição da exacerbação aguda não especificada da doença pulmonar obstrutiva crônica (DPOC) do código CA22.0.",
+      "tipo_erro_auditoria": null
+    },
+    "8A80.2": {
+      "term_original": "cefaleia",
+      "capitulo": "08",
+      "confidence_embedding": 0.8012,
+      "descricao_cid": "Representação de doença CID-11: Enxaqueca crônica. Definição: Cefaleia que ocorre em 15 ou mais dias por mês por mais de três meses, que, em pelo menos oito dias por mês, tem características de cefaleia migranosa e não está associada ao uso excessivo de medicamentos.",
+      "classification_reasoning": "A escolha pelo código 8A80.2 (Enxaqueca crônica) é baseada na referência à cefaleia no contexto clínico, que ocorre em 15 ou mais dias por mês por mais de três meses, caracterizando-se como uma enxaqueca crônica.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A cefaleia mencionada no prontuário está relacionada à enxaqueca crônica (8A80.2), pois ocorre em 15 ou mais dias por mês por mais de três meses, caracterizando-se como uma enxaqueca crônica. A descrição oficial do código CID-11 também se alinha com a situação clínica descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}
