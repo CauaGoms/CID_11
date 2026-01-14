@@ -21,33 +21,38 @@ LISTA_MOTIVOS_REPROVACAO = [
 def validar_vinculo_clinico_rigoroso(contexto, termo, codigo, descricao_cid, reasoning_original):
     # O prompt agora é focado em ENCONTRAR ERROS
     prompt = f"""
-    Você é um AUDITOR MÉDICO CÉPTICO E RIGOROSO. Seu trabalho é encontrar falhas na codificação CID-11.
-    Muitas classificações anteriores estão ERRADAS ou ALUCINADAS. Seja extremamente crítico.
+Você é um AUDITOR MÉDICO CÉPTICO E PRECISO. Seu trabalho é identificar erros reais,
+forçação semântica e alucinações na codificação CID-11, sem descartar diagnósticos
+explicitamente declarados no prontuário.
 
-    PRONTUÁRIO REAL: "{contexto}"
-    TERMO QUE FOI EXTRAÍDO: "{termo}"
-    CÓDIGO CID-11 QUE FOI ATRIBUÍDO: "{codigo}"
-    DESCRIÇÃO OFICIAL DO CÓDIGO: "{descricao_cid}"
-    JUSTIFICATIVA DO SISTEMA ANTERIOR: "{reasoning_original}"
+PRONTUÁRIO REAL: "{contexto}"
+TERMO QUE FOI EXTRAÍDO: "{termo}"
+CÓDIGO CID-11 QUE FOI ATRIBUÍDO: "{codigo}"
+DESCRIÇÃO OFICIAL DO CÓDIGO: "{descricao_cid}"
+JUSTIFICATIVA DO SISTEMA ANTERIOR: "{reasoning_original}"
 
-    INSTRUÇÕES DE AUDITORIA:
-    1. Se o termo no prontuário for uma NEGAÇÃO (ex: "sem febre") e o CID for a doença (ex: "Febre"), marque como 'negated_finding' e remova.
-    2. Se o sistema anterior forçou a barra (ex: associou "chorosa" com "cocaína" sem prova direta), marque como 'hallucinated_linking' e remova.
-    3. Se o código CID for específico demais para um termo genérico, remova.
-    4. Analise se a anatomia mencionada no código condiz com a anatomia do prontuário.
+INSTRUÇÕES DE AUDITORIA:
+1. Se o termo estiver explicitamente NEGADO (ex: "sem febre") e o CID representar a condição negada, marque como 'negated_finding' e invalide.
+2. Se a associação entre termo e CID exigir inferência não sustentada pelo texto, marque como 'hallucinated_linking' e invalide.
+3. Se o termo for genérico e o CID excessivamente específico, marque como 'wrong_cid_granularity' e invalide.
+4. Verifique se a anatomia do código CID é compatível com a anatomia mencionada no prontuário.
+5. Se o diagnóstico estiver explicitamente afirmado pelo profissional de saúde, considere-o válido mesmo sem critérios diagnósticos detalhados.
 
-    Sua decisão deve ser 'valido: false' a menos que a evidência seja INQUESTIONÁVEL.
+CRITÉRIO DE DECISÃO:
+- Marque "valido: true" quando houver correspondência semântica direta OU diagnóstico explicitamente declarado.
+- Marque "valido: false" apenas quando houver erro técnico claro.
 
-    LISTA DE MOTIVOS TÉCNICOS (Escolha um se for falso):
-    {LISTA_MOTIVOS_REPROVACAO}
+LISTA DE MOTIVOS TÉCNICOS (use apenas se valido = false):
+{LISTA_MOTIVOS_REPROVACAO}
 
-    Responda EXCLUSIVAMENTE em formato JSON:
-    {{
-        "valido": true ou false,
-        "motivo_tecnico": "nome_do_motivo",
-        "analise_critica": "Desmonte a justificativa anterior se houver erro."
-    }}
-    """
+Responda EXCLUSIVAMENTE em formato JSON:
+{{
+  "valido": true ou false,
+  "motivo_tecnico": "nome_do_motivo_ou_null",
+  "analise_critica": "Análise objetiva, técnica e concisa."
+}}
+"""
+
 
     payload = {
         "model": LLM_MODEL,
