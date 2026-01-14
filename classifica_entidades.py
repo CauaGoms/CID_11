@@ -104,7 +104,7 @@ def processar():
         candidatos = []
         for cat, termos in dados.get('entities', {}).items():
             if cat in CATEGORIAS_CLINICAS:
-                candidatos.extend([t.upper() for t in termos])
+                candidatos.extend([t.lower() for t in termos])
         
         candidatos = list(set(candidatos)) # Limpa duplicatas
         
@@ -116,7 +116,7 @@ def processar():
         labels_finais = {}
         if isinstance(classificacoes, dict):
             for termo, cap in classificacoes.items():
-                termo_up = termo.upper()
+                termo_up = termo.lower()
                 if cap != "IGNORAR":
                     labels_finais[termo_up] = {
                         "capitulo": str(cap)
