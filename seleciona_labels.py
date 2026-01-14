@@ -8,14 +8,24 @@ LLM_MODEL = "llama3"
 PASTA_ENTRADA = "processamento/escolha_cid/prontuarios_cid"
 PASTA_AUDITADA = "processamento/seleciona_labels/prontuarios_auditados"
 
+# Lista de motivos para a LLM escolher em caso de REMOVER
+LISTA_MOTIVOS_REPROVACAO = [
+    "false_positive_entity", "missing_entity", "overly_generic_entity", 
+    "wrong_entity_type", "abbreviation_misclassification", "negated_finding",
+    "hypothetical_finding", "family_history_misread", "temporal_misinterpretation",
+    "anatomical_mismatch", "symptom_vs_diagnosis_confusion", "procedure_vs_diagnosis_confusion",
+    "medication_vs_substance_confusion", "semantic_drift_normalization", "wrong_cid_granularity",
+    "cid_overgeneralization", "cid_over_specificity", "context_ignorance",
+    "section_misinterpretation", "duplicated_entity", "hallucinated_linking", "confidence_overestimation"
+]
+
 def validar_vinculo_clinico(contexto, termo, codigo, descricao_cid, reasoning_original):
     """
-    Solicita à LLM que valide se o código CID realmente faz sentido para o termo
-    dentro daquele prontuário específico.
+    Solicita à LLM que valide o vínculo e, se inválido, classifique o erro.
     """
     
     prompt = f"""
-    Você é um auditor médico especialista em CID-11. Sua tarefa é validar se a codificação atribuída a um termo extraído de um prontuário está correta ou se é um erro/alucinação.
+    Você é um auditor médico especialista em CID-11. Sua tarefa é validar se a codificação de um termo extraído de um prontuário está correta.
 
     CONTEÚDO DO PRONTUÁRIO: "{contexto}"
     TERMO EXTRAÍDO: "{termo}"
@@ -24,14 +34,17 @@ def validar_vinculo_clinico(contexto, termo, codigo, descricao_cid, reasoning_or
     JUSTIFICATIVA DO SISTEMA: "{reasoning_original}"
 
     CRITÉRIOS DE VALIDAÇÃO:
-    1. O código CID-11 realmente descreve o termo no contexto clínico apresentado?
-    2. A associação é forçada ou absurda?
-    3. Se o termo for genérico demais e o CID específico demais sem base, deve-se remover.
+    1. O código realmente descreve o termo no contexto clínico?
+    2. A associação é forçada, alucinada ou ignora negações/hipóteses?
+
+    Se a sua decisão for REMOVER (valido: false), você DEVE escolher EXATAMENTE um motivo desta lista:
+    {LISTA_MOTIVOS_REPROVACAO}
 
     Responda EXCLUSIVAMENTE em formato JSON:
     {{
         "valido": true ou false,
-        "analise_critica": "explicação detalhada da sua decisão de manter ou remover"
+        "motivo_tecnico": "O nome do item da lista acima se for falso, ou 'n/a' se for verdadeiro",
+        "analise_critica": "explicação detalhada da sua decisão"
     }}
     """
 
@@ -75,30 +88,28 @@ def processar_auditoria():
             resultado = validar_vinculo_clinico(contexto, termo, codigo, descricao, reasoning_original)
 
             if resultado:
-                # Se for válido, marcamos como MANTER, caso contrário REMOVER
-                decisao = "MANTER" if resultado.get("valido") else "REMOVER"
-                motivo = resultado.get("analise_critica")
+                is_valido = resultado.get("valido")
+                decisao = "MANTER" if is_valido else "REMOVER"
                 
-                # Adicionamos os novos campos ao dicionário da label
+                # Adicionamos os campos solicitados
                 info["decisao"] = decisao
-                info["motivo_decisao"] = motivo
+                info["motivo_decisao"] = resultado.get("analise_critica")
                 
-                # Opcional: Se quiser que o JSON final contenha APENAS os mantidos, 
-                # descomente o 'if' abaixo. Caso queira todos para conferência, deixe assim.
-                # if decisao == "MANTER":
+                # Se for removido, grava a categoria técnica do erro
+                if not is_valido:
+                    info["tipo_erro_auditoria"] = resultado.get("motivo_tecnico")
+                else:
+                    info["tipo_erro_auditoria"] = None
+
                 novos_labels[codigo] = info
-                
-                print(f"      [{decisao}] {motivo[:60]}...")
+                print(f"      [{decisao}] Motivo técnico: {resultado.get('motivo_tecnico')}")
             else:
-                # Caso a API falhe, marcamos como erro para revisão manual
                 info["decisao"] = "ERRO_PROCESSAMENTO"
-                info["motivo_decisao"] = "Não foi possível auditar via LLM."
+                info["tipo_erro_auditoria"] = "api_error"
                 novos_labels[codigo] = info
 
-        # Atualiza o campo labels com as novas informações de auditoria
         dados["labels"] = novos_labels
         
-        # Salva o arquivo com os novos campos
         with open(os.path.join(PASTA_AUDITADA, nome_arquivo), 'w', encoding='utf-8') as f:
             json.dump(dados, f, ensure_ascii=False, indent=2)
 
