@@ -91,9 +91,21 @@ Retorne EXCLUSIVAMENTE um JSON:
 def processar():
     if not os.path.exists(PASTA_SAIDA): os.makedirs(PASTA_SAIDA)
     
-    for nome_arquivo in os.listdir(PASTA_ENTRADA):
-        if not nome_arquivo.endswith('.json'): continue
-        print(f"-> Processando arquivo: {nome_arquivo}")
+    # Lista apenas os arquivos .json para contar o total
+    arquivos = [f for f in os.listdir(PASTA_ENTRADA) if f.endswith('.json')]
+    total_arquivos = len(arquivos)
+    
+    if total_arquivos == 0:
+        print("Nenhum arquivo encontrado para processar.")
+        return
+
+    for i, nome_arquivo in enumerate(arquivos, 1):
+        # Cálculo do progresso
+        percentual_concluido = (i / total_arquivos) * 100
+        percentual_falta = 100 - percentual_concluido
+        
+        print(f"[{i}/{total_arquivos}] -> Processando: {nome_arquivo}")
+        print(f"   Progresso: {percentual_concluido:.1f}% | Falta: {percentual_falta:.1f}%")
         
         with open(os.path.join(PASTA_ENTRADA, nome_arquivo), 'r', encoding='utf-8') as f:
             dados = json.load(f)
@@ -116,9 +128,9 @@ def processar():
         labels_finais = {}
         if isinstance(classificacoes, dict):
             for termo, cap in classificacoes.items():
-                termo_up = termo.lower()
+                termo_low = termo.lower()
                 if cap != "IGNORAR":
-                    labels_finais[termo_up] = {
+                    labels_finais[termo_low] = {
                         "capitulo": str(cap)
                     }
 
@@ -129,6 +141,8 @@ def processar():
         with open(caminho_saida, 'w', encoding='utf-8') as f:
             json.dump(dados, f, ensure_ascii=False, indent=2)
         print(f"   Concluído: {nome_arquivo}\n")
+    
+    print("--- Processamento Finalizado ---")
 
 if __name__ == "__main__":
     processar()
