@@ -77,26 +77,50 @@
     ]
   },
   "labels": {
+    "NA00.02": {
+      "term_original": "lesões suspeitas",
+      "capitulo": "22",
+      "confidence_embedding": 0.75,
+      "descricao_cid": "Representação de doença CID-11: Corpo estranho superficial no couro cabeludo. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NA00.02, pois o termo 'lesões suspeitas' se refere às placas eritemato-descamativas presentes nos braços e mãos do paciente, que são características de uma lesão cutânea superficial.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "Ajuste ao código CID-11 não é correto. O termo 'lesões suspeitas' se refere à condição clínica descrita no prontuário, que inclui as placas eritemato-descamativas em braços e mãos, mas também menciona a descamação no couro cabeludo. A NA00.02 não é aplicável nesse contexto, pois se refere exclusivamente à presença de um corpo estranho superficial no couro cabeludo. O código correto para essa condição seria um outro que descreva lesões cutâneas superficiais, como L23 ou L40."
+    },
+    "ME62.7": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7488,
+      "descricao_cid": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica.",
+      "classification_reasoning": "A escolha por ME62.7 (Erupção cutânea descamativa aguda) é a mais precisa para o termo 'queixas' no contexto clínico, pois o paciente apresenta prurido e descamação em couro cabeludo, características proeminentes da erupção descamativa aguda.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código ME62.7 (Erupção cutânea descamativa aguda) para o termo 'queixas' não é a mais precisa no contexto clínico apresentado. O termo 'queixas' é genérico e pode referir-se a qualquer queixa ou sintoma do paciente, mas ME62.7 especificamente descreve uma erupção cutânea descamativa aguda, que não é o único sintoma apresentado pelo paciente (prurido e descamação em couro cabeludo). Além disso, o prontuário relata a presença de placas eritemato-descamativas nos braços e mãos e ceratose atínicas, o que sugere uma condição mais ampla do que apenas uma erupção cutânea descamativa aguda."
+    },
     "EK90.0": {
       "term_original": "ceratoses actinicas",
       "capitulo": "14",
       "confidence_embedding": 0.7987,
       "descricao_cid": "Representação de doença CID-11: Ceratose actínica. Definição: Ceratoses actínicas (CA) são áreas focais de proliferação e diferenciação anormais de queratinócitos induzidas por exposição crônica à radiação ultravioleta. São muito comuns em área exposta ao sol de indivíduos de pele clara que tiveram exposição excessiva à luz solar. Inicialmente pápulas escamosas planas, podem se tornar significativamente elevadas em relação à superfície da pele pela produção de queratina aderente densa ou como resultado de proliferação celular desregulada que pode progredir para franco carcinoma in situ ou carcinoma espinocelular invasivo.",
-      "classification_reasoning": "A descrição de 'ceratoses actínicas' no termo extraído é consistente com a definição do código EK90.0, que se refere às áreas focais de proliferação e diferenciação anormais de queratinócitos induzidas por exposição crônica à radiação ultravioleta. A presença de ceratoses actínicas em mãos e braços, conforme mencionado no prontuário, é consistente com a definição do código. Não há evidências de forçamento ou absurdez na associação entre o termo extraído e o código CID-11."
+      "classification_reasoning": "A descrição de 'ceratoses actínicas' no termo extraído é consistente com a definição do código EK90.0, que se refere às áreas focais de proliferação e diferenciação anormais de queratinócitos induzidas por exposição crônica à radiação ultravioleta.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição de 'ceratoses actínicas' no termo extraído é consistente com a definição do código EK90.0, que se refere às áreas focais de proliferação e diferenciação anormais de queratinócitos induzidas por exposição crônica à radiação ultravioleta. No contexto clínico apresentado, o paciente tem ceratoses actínicas em mãos e braços, o que é consistente com a definição do código EK90.0. Não há qualquer indicação de forçamento ou absurdo na associação entre o termo e o código. Portanto, considerando os critérios de validação, o código atribuído ao termo 'ceratoses actínicas' é válido."
     },
     "EA81": {
       "term_original": "descamação",
       "capitulo": "14",
       "confidence_embedding": 0.8035,
       "descricao_cid": "Representação de doença CID-11: Dermatite seborreica e condições relacionadas. Definição: Um grupo de doenças inflamatórias relacionadas à pele que afetam predominantemente o couro cabeludo, face, tronco superior e áreas de dobras e se caracteriza por graus variáveis de eritema, descamação, inflamação e exsudação. Acredita-se que as leveduras malassezias exerçam um papel importante em sua patogênese. Embora esses transtornos sejam comuns, eles são vistos com maior frequência e gravidade entre as pessoas infectadas pelo HIV.",
-      "classification_reasoning": "A descrição do código CID-11 (EA81) é consistente com a sintomatologia apresentada pelo paciente, que inclui descamação no couro cabeludo. Além disso, a justificativa anterior também apoia essa escolha, mencionando a presença de prurido e descamação em couro cabeludo como características da dermatite seborreica e condições relacionadas."
+      "classification_reasoning": "A paciente apresenta descamação no couro cabeludo, o que é consistente com a dermatite seborreica e condições relacionadas. A presença de prurido e descamação em couro cabeludo, juntamente com a negação de outras queixas, também apoia essa escolha.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação EA81 é válida porque a dermatite seborreica e condições relacionadas podem causar descamação no couro cabeludo, como relatado na paciente. A presença de prurido e descamação em couro cabeludo, juntamente com a negação de outras queixas, também apoia essa escolha. Além disso, as condições clínicas apresentadas (descamação no couro cabeludo, eritema descamativo e pouca descamação) estão consistentes com a definição do código EA81."
     },
     "EC90.4": {
       "term_original": "prurido",
       "capitulo": "14",
       "confidence_embedding": 0.8307,
       "descricao_cid": "Representação de doença CID-11: Prurido psicogênico. Definição: Prurido crônico episódico na ausência de uma causa orgânica identificável e tipicamente associado a estresse e/ou depressão.",
-      "classification_reasoning": "O termo 'prurido' é descrito no contexto clínico apresentado e está relacionado à queixa principal do paciente. A escolha pelo código CID-11 EC90.4, Prurito psicogênico, é justificada pela ausência de uma causa orgânica identificável para o prurido e a presença de histórico de estresse e depressão."
+      "classification_reasoning": "Escolha por prurito psicogênico, considerando que o paciente relata prurido e descamação em couro cabeludo, mas não apresenta causa orgânica identificável e há histórico de estresse e depressão.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código EC90.4 para 'prurido' não é válida no contexto clínico apresentado. O prontuário descreve o paciente com prurido e descamação em couro cabeludo, mas sem relação com estresse ou depressão. Além disso, não há indicação de sintomatologia psicogênica associada ao prurito. O código EC90.4 é específico para prurito psicogênico e não se aplica ao caso do paciente Lucas."
     }
   }
 }
