@@ -5,7 +5,7 @@ import requests
 # --- CONFIGURAÇÕES ---
 OLLAMA_API_CHAT = "http://localhost:11434/api/chat"
 LLM_MODEL = "llama3" 
-PASTA_BUSCA = "processamento/busca_embedding/teste"
+PASTA_BUSCA = "processamento/busca_embedding/prontuarios_busca"
 PASTA_FINAL = "processamento/escolha_cid/prontuarios_cid"
 
 def refinar_com_llm(contexto, termo, capitulo, opcoes):
