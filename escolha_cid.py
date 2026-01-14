@@ -4,7 +4,7 @@ import requests
 
 # --- CONFIGURAÇÕES ---
 OLLAMA_API_CHAT = "http://localhost:11434/api/chat"
-LLM_MODEL = "llama3" # Ou outro modelo de sua preferência (ex: gemma, mistral)
+LLM_MODEL = "llama3" 
 PASTA_BUSCA = "processamento/busca_embedding/teste"
 PASTA_FINAL = "processamento/escolha_cid/prontuarios_cid"
 
@@ -12,8 +12,6 @@ def refinar_com_llm(contexto, termo, capitulo, opcoes):
     """
     Envia as opções para a LLM escolher a melhor baseada no contexto clínico.
     """
-    
-    # Prepara a lista de opções para o prompt
     lista_opcoes_texto = ""
     for opcao in opcoes:
         for codigo, detalhes in opcao.items():
@@ -25,8 +23,8 @@ def refinar_com_llm(contexto, termo, capitulo, opcoes):
     TERMO EXTRAÍDO: "{termo}"
     CAPÍTULO CID: {capitulo}
 
-    Abaixo estão as opções encontradas pela busca vetorial. Escolha a MAIS PRECISA para o termo dentro do contexto.
-    Ignore o score de confiança anterior e foque na semântica clínica.
+    Abaixo estão as opções encontradas pela busca vetorial. Escolha a MAIS PRECISA para o termo dentro do contexto clínico.
+    Ignore o score de confiança anterior.
 
     OPÇÕES:
     {lista_opcoes_texto}
@@ -80,17 +78,24 @@ def processar_refinamento_final():
 
             if decisao:
                 codigo_eleito = decisao.get("codigo")
-                # Busca o confidence_embedding original para o código eleito
+                
+                # Variáveis para armazenar os dados capturados da lista original de opções
                 conf_original = 0.0
+                descricao_encontrada = ""
+
+                # Busca os dados originais (score e texto) para o código que a LLM escolheu
                 for opt in opcoes:
                     if codigo_eleito in opt:
                         conf_original = opt[codigo_eleito].get("confidence_embedding")
+                        descricao_encontrada = opt[codigo_eleito].get("text")
                         break
 
+                # Monta a estrutura final conforme solicitado
                 novos_labels[codigo_eleito] = {
                     "term_original": termo,
                     "capitulo": cap,
                     "confidence_embedding": conf_original,
+                    "descricao_cid": descricao_encontrada,
                     "classification_reasoning": decisao.get("reasoning")
                 }
 
