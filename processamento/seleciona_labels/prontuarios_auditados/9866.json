@@ -83,9 +83,9 @@
       "confidence_embedding": 0.75,
       "descricao_cid": "Representação de doença CID-11: Corpo estranho superficial no couro cabeludo. Definição: ",
       "classification_reasoning": "A opção mais precisa é a NA00.02, pois o termo 'lesões suspeitas' se refere às placas eritemato-descamativas presentes nos braços e mãos do paciente, que são características de uma lesão cutânea superficial.",
-      "decisao": "MANTER",
-      "motivo_decisao": "A codificação CID-11 NA00.02 'Corpo estranho superficial no couro cabeludo' é válida, pois o termo 'lesões suspeitas' se refere às placas eritemato-descamativas presentes nos braços e mãos do paciente, que são características de uma lesão cutânea superficial.",
-      "tipo_erro_auditoria": null
+      "decisao": "REMOVER",
+      "motivo_decisao": null,
+      "tipo_erro_auditoria": "wrong_entity_type"
     },
     "ME62.7": {
       "term_original": "queixas",
@@ -93,9 +93,9 @@
       "confidence_embedding": 0.7488,
       "descricao_cid": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica.",
       "classification_reasoning": "A escolha por ME62.7 (Erupção cutânea descamativa aguda) é a mais precisa para o termo 'queixas' no contexto clínico, pois o paciente apresenta prurido e descamação em couro cabeludo, características proeminentes da erupção descamativa aguda.",
-      "decisao": "MANTER",
-      "motivo_decisao": "A escolha do código CID-11 ME62.7 (Erupção cutânea descamativa aguda) é justificada pela presença de prurido e descamação em couro cabeludo, características proeminentes da erupção descamativa aguda. A anatomia mencionada no prontuário (couro cabeludo) é compatível com a anatomia do código CID-11.",
-      "tipo_erro_auditoria": null
+      "decisao": "REMOVER",
+      "motivo_decisao": null,
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
     },
     "EK90.0": {
       "term_original": "ceratoses actinicas",
@@ -103,9 +103,9 @@
       "confidence_embedding": 0.7987,
       "descricao_cid": "Representação de doença CID-11: Ceratose actínica. Definição: Ceratoses actínicas (CA) são áreas focais de proliferação e diferenciação anormais de queratinócitos induzidas por exposição crônica à radiação ultravioleta. São muito comuns em área exposta ao sol de indivíduos de pele clara que tiveram exposição excessiva à luz solar. Inicialmente pápulas escamosas planas, podem se tornar significativamente elevadas em relação à superfície da pele pela produção de queratina aderente densa ou como resultado de proliferação celular desregulada que pode progredir para franco carcinoma in situ ou carcinoma espinocelular invasivo.",
       "classification_reasoning": "A descrição de 'ceratoses actínicas' no termo extraído é consistente com a definição do código EK90.0, que se refere às áreas focais de proliferação e diferenciação anormais de queratinócitos induzidas por exposição crônica à radiação ultravioleta.",
-      "decisao": "MANTER",
-      "motivo_decisao": "A descrição de 'ceratoses actínicas' no termo extraído é consistente com a definição do código EK90.0, que se refere às áreas focais de proliferação e diferenciação anormais de queratinócitos induzidas por exposição crônica à radiação ultravioleta. A anatomia mencionada no prontuário (mãos e braços) é compatível com a anatomia do código CID.",
-      "tipo_erro_auditoria": null
+      "decisao": "REMOVER",
+      "motivo_decisao": null,
+      "tipo_erro_auditoria": "wrong_entity_type"
     },
     "EA81": {
       "term_original": "descamação",
@@ -113,9 +113,9 @@
       "confidence_embedding": 0.8035,
       "descricao_cid": "Representação de doença CID-11: Dermatite seborreica e condições relacionadas. Definição: Um grupo de doenças inflamatórias relacionadas à pele que afetam predominantemente o couro cabeludo, face, tronco superior e áreas de dobras e se caracteriza por graus variáveis de eritema, descamação, inflamação e exsudação. Acredita-se que as leveduras malassezias exerçam um papel importante em sua patogênese. Embora esses transtornos sejam comuns, eles são vistos com maior frequência e gravidade entre as pessoas infectadas pelo HIV.",
       "classification_reasoning": "A paciente apresenta descamação no couro cabeludo, o que é consistente com a dermatite seborreica e condições relacionadas. A presença de prurido e descamação em couro cabeludo, juntamente com a negação de outras queixas, também apoia essa escolha.",
-      "decisao": "MANTER",
-      "motivo_decisao": "A presença de descamação no couro cabeludo e a negação de outras queixas são consistentes com a dermatite seborreica e condições relacionadas. A justificativa do sistema anterior é técnica e sustentada pelo texto.",
-      "tipo_erro_auditoria": null
+      "decisao": "REMOVER",
+      "motivo_decisao": null,
+      "tipo_erro_auditoria": "wrong_entity_type"
     },
     "EC90.4": {
       "term_original": "prurido",
@@ -123,9 +123,9 @@
       "confidence_embedding": 0.8307,
       "descricao_cid": "Representação de doença CID-11: Prurido psicogênico. Definição: Prurido crônico episódico na ausência de uma causa orgânica identificável e tipicamente associado a estresse e/ou depressão.",
       "classification_reasoning": "Escolha por prurito psicogênico, considerando que o paciente relata prurido e descamação em couro cabeludo, mas não apresenta causa orgânica identificável e há histórico de estresse e depressão.",
-      "decisao": "MANTER",
-      "motivo_decisao": "A escolha do código EC90.4 (Prurido psicogênico) é justificada pela presença de prurido e descamação em couro cabeludo sem causa orgânica identificável, o que é compatível com a descrição oficial do código. Além disso, há histórico de estresse e depressão, o que também está relacionado ao prurito psicogênico.",
-      "tipo_erro_auditoria": null
+      "decisao": "REMOVER",
+      "motivo_decisao": null,
+      "tipo_erro_auditoria": "wrong_entity_type"
     }
   }
 }
