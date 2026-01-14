@@ -5,56 +5,68 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
 # --- CONFIGURAÇÕES ---
-OLLAMA_API = "http://localhost:11434/api/embeddings"
+OLLAMA_API_EMBED = "http://localhost:11434/api/embeddings"
 EMBED_MODEL = "mxbai-embed-large"
 PASTA_ENTRADA = "processamento/classifica_entidades/prontuarios_classificados"
 PASTA_SAIDA = "processamento/busca_embedding/prontuarios_busca"
-PASTA_BANCOS = "embedding_cid" # Onde estão os arquivos de códigos por capítulo
+PASTA_BANCOS = "embedding_cid"
 
-def get_embedding(text):
-    """Gera embedding usando o Ollama."""
+def get_query_embedding(text):
+    """Gera o embedding para a busca usando o Ollama."""
     payload = {"model": EMBED_MODEL, "prompt": text}
     try:
-        response = requests.post(OLLAMA_API, json=payload)
-        return response.json()["embedding"]
+        response = requests.post(OLLAMA_API_EMBED, json=payload, timeout=60)
+        return response.json().get("embedding")
     except Exception as e:
-        print(f"Erro ao gerar embedding: {e}")
+        print(f" Erro ao gerar embedding de busca: {e}")
         return None
 
-def buscar_no_capitulo(termo, contexto, capitulo, top_k=5):
-    """
-    Simula a busca no banco vetorial do capítulo específico.
-    Aqui você deve integrar com seu banco real (FAISS, Chroma, etc).
-    """
-    caminho_banco = os.path.join(PASTA_BANCOS, f"{capitulo}.json")
+def buscar_no_banco_jsonl(termo, contexto, capitulo, top_k=5):
+    """Lê o JSONL do capítulo e compara os vetores."""
+    # Ajuste a extensão para .json ou .jsonl conforme seus arquivos
+    nome_arquivo = f"{capitulo}.jsonl" if os.path.exists(os.path.join(PASTA_BANCOS, f"{capitulo}.jsonl")) else f"{capitulo}.json"
+    caminho_banco = os.path.join(PASTA_BANCOS, nome_arquivo)
     
     if not os.path.exists(caminho_banco):
         return []
 
+    # 1. Gerar embedding do termo de busca (Termo + Contexto)
+    query_text = f"Termo: {termo} | Contexto: {contexto}"
+    query_vec = get_query_embedding(query_text)
+    if not query_vec: return []
+    query_vec = np.array(query_vec).reshape(1, -1)
+
+    candidatos = []
+
+    # 2. Ler o arquivo JSONL linha por linha
     with open(caminho_banco, 'r', encoding='utf-8') as f:
-        banco_dados = json.load(f) # Formato esperado: [{"codigo": "...", "descricao": "...", "embedding": [...]}]
+        for linha in f:
+            item = json.loads(linha)
+            
+            # Converter a lista de embedding do JSON para array numpy
+            item_vec = np.array(item["embedding"]).reshape(1, -1)
+            
+            # Calcular similaridade de cosseno
+            score = cosine_similarity(query_vec, item_vec)[0][0]
+            
+            candidatos.append({
+                item["id"]: {
+                    "confidence_embedding": round(float(score), 4),
+                    "text": item["text"][:100] # Opcional: apenas para debug
+                }
+            })
 
-    # Gerar embedding da consulta (Termo + Contexto para desambiguação)
-    query_text = f"Termo: {termo}. Contexto: {contexto}"
-    query_embed = np.array(get_embedding(query_text)).reshape(1, -1)
+    # 3. Ordenar e retornar os Top K
+    candidatos.sort(key=lambda x: list(x.values())[0]["confidence_embedding"], reverse=True)
+    return candidatos[:top_k]
 
-    resultados = []
-    for item in banco_dados:
-        item_embed = np.array(item["embedding"]).reshape(1, -1)
-        score = cosine_similarity(query_embed, item_embed)[0][0]
-        resultados.append({item["codigo"]: {"confidence_embedding": round(float(score), 4)}})
-
-    # Ordenar por score e pegar os top_k
-    resultados.sort(key=lambda x: list(x.values())[0]["confidence_embedding"], reverse=True)
-    return resultados[:top_k]
-
-def processar_busca():
+def processar_busca_final():
     if not os.path.exists(PASTA_SAIDA): os.makedirs(PASTA_SAIDA)
 
     for nome_arquivo in os.listdir(PASTA_ENTRADA):
         if not nome_arquivo.endswith('.json'): continue
         
-        print(f"Buscando códigos para: {nome_arquivo}")
+        print(f"Processando busca vetorial: {nome_arquivo}")
         with open(os.path.join(PASTA_ENTRADA, nome_arquivo), 'r', encoding='utf-8') as f:
             dados = json.load(f)
 
@@ -63,14 +75,13 @@ def processar_busca():
         novos_labels = {}
 
         for termo, info in labels.items():
-            capitulo = info.get("capitulo")
-            print(f"  -> Buscando '{termo}' no banco do Cap {capitulo}")
+            cap = info.get("capitulo")
+            print(f"   -> Buscando '{termo}' no capítulo {cap}")
             
-            # Realiza a busca vetorial
-            opcoes = buscar_no_capitulo(termo, contexto, capitulo)
+            opcoes = buscar_no_banco_jsonl(termo, contexto, cap)
             
             novos_labels[termo] = {
-                "capitulo": capitulo,
+                "capitulo": cap,
                 "opcoes": opcoes
             }
 
@@ -80,4 +91,4 @@ def processar_busca():
             json.dump(dados, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
-    processar_busca()
+    processar_busca_final()
