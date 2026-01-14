@@ -8,8 +8,24 @@ MODELO = "llama3.1:8b"
 PASTA_ENTRADA = "processamento/pront_teste"
 PASTA_SAIDA = "processamento/prontuarios_classificados"
 
-# Lista de capítulos para o loop (Estratégia de Especialistas Individuais)
-# Você pode adicionar todos os 26 aqui seguindo este padrão
+# Categorias do SemClinBR que realmente importam para a CID-11
+CATEGORIAS_CLINICAS = [
+    "Doença ou Síndrome", 
+    "Sinal ou Sintoma", 
+    "Lesão ou Envenenamento", 
+    "Achado", 
+    "Processo Neoplásico", 
+    "Disfunção Mental ou Comportamental", 
+    "Anormalidade Congênita",
+    "Bactéria",
+    "Vírus",
+    "Fungo",
+    "Anormalidade Anatômica",
+    "Anormalidade Adquirida",
+    "Função Patológica",
+    "Disfunção Celular ou Molecular"
+]
+
 CAPITULOS_CID = {
     "01": "Algumas doenças infecciosas ou parasitárias: Doenças causadas por agentes infecciosos como bactérias, vírus, parasitas e fungos, transmitidas por contato direto, vetores, alimentos, água ou outras vias.",
     "02": "Neoplasias: Proliferação celular anormal e descontrolada, benigna ou maligna, que pode invadir tecidos adjacentes ou produzir metástases.",
@@ -43,45 +59,51 @@ CAPITULOS_CID = {
 
 
 def chamar_llm(prompt):
-    payload = {
-        "model": MODELO,
-        "prompt": prompt,
-        "stream": False,
-        "format": "json" # Força a saída JSON do Ollama
-    }
+    payload = {"model": MODELO, "prompt": prompt, "stream": False, "format": "json"}
     try:
         response = requests.post(OLLAMA_API, json=payload, timeout=120)
         return json.loads(response.json()['response'])
-    except Exception as e:
+    except:
         return None
 
-# ETAPA 1: EXTRAÇÃO (Um prompt por capítulo)
-def extrair_entidades_capitulo(texto, num_cap, desc_cap):
+# ETAPA 1: EXTRAÇÃO FILTRADA
+def extrair_entidades_capitulo(texto, num_cap, desc_cap, referencias_filtradas):
+    # O prompt agora recebe as referências já limpas para guiar a extração
     prompt = f"""
-    Atue como médico codificador. Extraia do texto apenas termos que pertençam ao Capítulo {num_cap} ({desc_cap}) da CID-11.
+    Atue como médico codificador CID-11.
+    Analise o TEXTO e extraia apenas condições clínicas (doenças, lesões ou sintomas) que pertençam ao Capítulo {num_cap} ({desc_cap}).
+    
     TEXTO: "{texto}"
-    Retorne no formato JSON: {{ "termos": ["termo1", "termo2"] }}
-    Se não houver nada, retorne: {{ "termos": [] }}
+    DICAS DE REFERÊNCIA: {referencias_filtradas}
+    
+    REGRAS CRÍTICAS:
+    1. IGNORE siglas de dispositivos, procedimentos ou locais (AVP, SNG, CC, SVD, VM, TOT).
+    2. NÃO invente doenças não descritas.
+    3. Foque em termos que combinem com a descrição do Capítulo {num_cap}.
+    
+    Retorne JSON: {{ "termos": ["TERMO1", "TERMO2"] }}
+    Se nada for encontrado, retorne: {{ "termos": [] }}
     """
     res = chamar_llm(prompt)
     return res.get("termos", []) if res else []
 
-# ETAPA 2: VALIDAÇÃO DE INFERÊNCIA (Compara com SemClinBR)
-def verificar_inferencia(lista_termos, referencias_semclinbr):
+# ETAPA 2: VALIDAÇÃO DE INFERÊNCIA
+def verificar_inferencia(lista_termos, todas_referencias):
     if not lista_termos: return []
     prompt = f"""
-    Compare estes termos extraídos: {lista_termos}
-    Com as referências do SemClinBR: {referencias_semclinbr}
+    Dada a lista de termos extraídos: {lista_termos}
+    E a lista de referências original: {todas_referencias}
     
-    Para cada termo, defina 'is_inferred' como false se ele estiver nas referências, ou true se não estiver.
-    Retorne no formato JSON: {{ "validacao": [ {{ "termo": "...", "is_inferred": bool }}, ... ] }}
+    Para cada termo, determine:
+    - is_inferred: false (se o termo ou sinônimo exato está nas referências)
+    - is_inferred: true (se você o extraiu diretamente do texto bruto)
+    
+    Retorne JSON: {{ "validacao": [ {{ "termo": "...", "is_inferred": bool }}, ... ] }}
     """
     res = chamar_llm(prompt)
     return res.get("validacao", []) if res else []
 
-# ETAPA 3: FORMATAÇÃO FINAL (Gera a estrutura desejada)
 def formatar_resultado_final(dados_validados, num_cap):
-    # Esta função organiza os dados no formato final: "Termo": { "capitulo": "X", "is_inferred": bool }
     resultado_parcial = {}
     for item in dados_validados:
         termo = item.get("termo", "").upper()
@@ -97,29 +119,32 @@ def processar():
     
     for nome_arquivo in os.listdir(PASTA_ENTRADA):
         if not nome_arquivo.endswith('.json'): continue
-        print(f"-> Analisando arquivo: {nome_arquivo}")
+        print(f"-> Analisando: {nome_arquivo}")
         
         with open(os.path.join(PASTA_ENTRADA, nome_arquivo), 'r', encoding='utf-8') as f:
             dados = json.load(f)
         
         texto = dados.get('text', "")
-        # Consolida todas as entidades de referência em uma lista simples
-        referencias = [t for lista in dados.get('entities', {}).values() for t in lista]
+        
+        # --- FILTRO DE CATEGORIAS ---
+        # Pegamos apenas o que é clinicamente relevante para evitar ruído de siglas
+        referencias_limpas = []
+        todas_referencias = []
+        for cat, termos in dados.get('entities', {}).items():
+            todas_referencias.extend(termos) # Para o is_inferred
+            if cat in CATEGORIAS_CLINICAS:
+                referencias_limpas.extend(termos)
         
         labels_completas = {}
 
-        # Loop de Especialistas (Vários prompts independentes)
         for num, desc in CAPITULOS_CID.items():
-            print(f"   Analista Cap {num} verificando...")
+            print(f"   Verificando Cap {num}...")
             
-            # 1. Extrai
-            termos_brutos = extrair_entidades_capitulo(texto, num, desc)
+            # Passamos as referências filtradas para o Especialista não se perder
+            termos_brutos = extrair_entidades_capitulo(texto, num, desc, referencias_limpas)
             
             if termos_brutos:
-                # 2. Valida Inferencia
-                termos_validados = verificar_inferencia(termos_brutos, referencias)
-                
-                # 3. Formata e Acumula
+                termos_validados = verificar_inferencia(termos_brutos, todas_referencias)
                 labels_capitulo = formatar_resultado_final(termos_validados, num)
                 labels_completas.update(labels_capitulo)
 
@@ -127,7 +152,6 @@ def processar():
         
         with open(os.path.join(PASTA_SAIDA, nome_arquivo), 'w', encoding='utf-8') as f:
             json.dump(dados, f, ensure_ascii=False, indent=2)
-        print(f"Finalizado: {nome_arquivo}\n")
 
 if __name__ == "__main__":
     processar()
