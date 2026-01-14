@@ -21,17 +21,17 @@ def validar_vinculo_clinico(contexto, termo, codigo, descricao_cid, reasoning_or
     TERMO EXTRAÍDO: "{termo}"
     CÓDIGO CID-11 ATRIBUÍDO: "{codigo}"
     DESCRIÇÃO DO CÓDIGO: "{descricao_cid}"
-    JUSTIFICATIVA ANTERIOR: "{reasoning_original}"
+    JUSTIFICATIVA DO SISTEMA: "{reasoning_original}"
 
     CRITÉRIOS DE VALIDAÇÃO:
     1. O código CID-11 realmente descreve o termo no contexto clínico apresentado?
-    2. A associação é forçada ou absurda? (Ex: associar "chorosa" a "intoxicação por cocaína" sem evidências é um erro).
-    3. Se o termo for genérico demais (ex: "problemas") e o CID for específico demais sem base no texto, é um erro.
+    2. A associação é forçada ou absurda?
+    3. Se o termo for genérico demais e o CID específico demais sem base, deve-se remover.
 
     Responda EXCLUSIVAMENTE em formato JSON:
     {{
         "valido": true ou false,
-        "analise_critica": "breve explicação do porquê mantém ou remove"
+        "analise_critica": "explicação detalhada da sua decisão de manter ou remover"
     }}
     """
 
@@ -64,28 +64,41 @@ def processar_auditoria():
 
         contexto = dados.get("text", "")
         labels_atuais = dados.get("labels", {})
-        labels_validados = {}
+        novos_labels = {}
 
         for codigo, info in labels_atuais.items():
             termo = info.get("term_original")
             descricao = info.get("descricao_cid")
-            reasoning = info.get("classification_reasoning")
+            reasoning_original = info.get("classification_reasoning")
 
             print(f"   -> Auditando: {termo} ({codigo})")
-            resultado = validar_vinculo_clinico(contexto, termo, codigo, descricao, reasoning)
+            resultado = validar_vinculo_clinico(contexto, termo, codigo, descricao, reasoning_original)
 
-            if resultado and resultado.get("valido") is True:
-                # Mantém o registro e atualiza o raciocínio com a análise crítica da auditoria
-                info["classification_reasoning"] = resultado.get("analise_critica")
-                labels_validados[codigo] = info
-                print(f"      [MANTER] {resultado.get('analise_critica')[:50]}...")
+            if resultado:
+                # Se for válido, marcamos como MANTER, caso contrário REMOVER
+                decisao = "MANTER" if resultado.get("valido") else "REMOVER"
+                motivo = resultado.get("analise_critica")
+                
+                # Adicionamos os novos campos ao dicionário da label
+                info["decisao"] = decisao
+                info["motivo_decisao"] = motivo
+                
+                # Opcional: Se quiser que o JSON final contenha APENAS os mantidos, 
+                # descomente o 'if' abaixo. Caso queira todos para conferência, deixe assim.
+                # if decisao == "MANTER":
+                novos_labels[codigo] = info
+                
+                print(f"      [{decisao}] {motivo[:60]}...")
             else:
-                print(f"      [REMOVER] Motivo: {resultado.get('analise_critica') if resultado else 'Erro na API'}")
+                # Caso a API falhe, marcamos como erro para revisão manual
+                info["decisao"] = "ERRO_PROCESSAMENTO"
+                info["motivo_decisao"] = "Não foi possível auditar via LLM."
+                novos_labels[codigo] = info
 
-        # Substitui os labels antigos apenas pelos validados
-        dados["labels"] = labels_validados
+        # Atualiza o campo labels com as novas informações de auditoria
+        dados["labels"] = novos_labels
         
-        # Salva o arquivo limpo
+        # Salva o arquivo com os novos campos
         with open(os.path.join(PASTA_AUDITADA, nome_arquivo), 'w', encoding='utf-8') as f:
             json.dump(dados, f, ensure_ascii=False, indent=2)
 
