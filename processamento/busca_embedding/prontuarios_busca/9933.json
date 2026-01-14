@@ -1,0 +1,634 @@
+{
+  "prontuario_id": 395,
+  "text": "# Lucas,35 ANOS\n\n# QP: METRORRAGIA, HA 10 DIAS,\n\n# METRORRAGIA ASSOCIADA  DESDE ONTEM A LESOES DE PELE E DORES ARTICULARES EM IFD E IFP PREDOMINANTEMENTE EM MÃO DIREITA  SEM FATORES DE MELHORA E PIORA, ALEM DE DOR EM REGIAO POSTERIOR DO OUVIDO (PROCESSO MASTOISE?) ESQUERDO, ASSOCIADA A FEBRE DE 38 \nPCT REFERE OUTRO CASO SIMILAR COM REATIVAÇÃO DO LES\n\n# HMP: DX DE les HA 3 ANOS\nNEGA OUTRAS COMORBIDADES\n\n# EM USO DE:\nAZATIPRINA\nPREDINIZONA 10MG\nMETROREXATE\nCLOROQUINA HÁ 2M\n\nGINECOLOGICO: CICLO MESNTRUAL REGULAR, 5 DIAS, FLUXO MEDIO, \nSEM USO DE ACHO\nG 1 P 1 A 0 HA 15 ANOS\nEM ACOMPANHAMENTO COM GNECOLOGIA E EXAMES SEM ALTERAÇOES (SIC)\nNEGA DISPAREUNIA , CORRIMENTO, COLICA\n\nEF: LESOSE DE PELE MACULO-VESICULAR LACALIZADAS EM REGIAO CERVICAL ANTERIOR-ESQUERDA, POSTERIOR , REGIAO DE FURCULA ESTERNAL E DELTODE ESQUERDO, \nLESOES HIPEREMIADA, SEM PRURIDO SEM HIPERTEMIA LOCAL\nMAOS: EDEMA DE ARTICULAÇOES IFD E IFP PRINCIPALMENTE EM 2O E 3O DEMOS DIREITO E LIMITAÇAO ARTICULAR, SEM FATORES DE MELHORA E PIORA\n\n# CONDUTA: SUSPENDER MEDICAMENTOS IMUNOSSUPRESSORES PELA SUSPEITA DE ZOSTER\nDEIXO PRESCRITO ACICLOVIR 200MG\n \n \n \n ",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "QP",
+      "LESOES",
+      "FEBRE",
+      "ALTERAÇOES",
+      "DISPAREUNIA",
+      "CORRIMENTO",
+      "COLICA",
+      "PRURIDO",
+      "HIPERTEMIA",
+      "DORES ARTICULARES",
+      "LESOSE DE PELE MACULO-VESICULAR",
+      "LESOES HIPEREMIADA",
+      "LIMITAÇAO ARTICULAR"
+    ],
+    "Abreviação": [
+      "QP",
+      "PCT",
+      "DX",
+      "les",
+      "ACHO",
+      "EF",
+      "ARTICULAÇOES IFD E IFP",
+      "2O E 3O DEMOS DIREITO"
+    ],
+    "Função Patológica": [
+      "METRORRAGIA"
+    ],
+    "Conceito Qualitativo": [
+      "ASSOCIADA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PELE",
+      "OUVIDO",
+      "MAOS",
+      "MÃO DIREITA",
+      "PROCESSO MASTOISE",
+      "2O E 3O DEMOS DIREITO"
+    ],
+    "Espaço ou Junção Corporal": [
+      "IFD",
+      "IFP",
+      "ARTICULAÇOES IFD E IFP"
+    ],
+    "Negação": [
+      "SEM",
+      "NEGA"
+    ],
+    "Conceito Espacial": [
+      "POSTERIOR",
+      "ESQUERDO"
+    ],
+    "Conceito Quantitativo": [
+      "38",
+      "10MG",
+      "1",
+      "0",
+      "200MG",
+      "FLUXO MEDIO"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PCT"
+    ],
+    "Doença ou Síndrome": [
+      "LES",
+      "les",
+      "ZOSTER"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "DX",
+      "ACOMPANHAMENTO",
+      "CONDUTA",
+      "SUSPENDER",
+      "PRESCRITO"
+    ],
+    "Substância Farmacológica": [
+      "AZATIPRINA",
+      "PREDINIZONA",
+      "METROREXATE",
+      "CLOROQUINA",
+      "ACHO",
+      "ACICLOVIR",
+      "MEDICAMENTOS IMUNOSSUPRESSORES"
+    ],
+    "Substância Química Orgânica": [
+      "AZATIPRINA",
+      "PREDINIZONA",
+      "METROREXATE",
+      "CLOROQUINA",
+      "ACICLOVIR"
+    ],
+    "Substância Perigosa ou Venenosa": [
+      "AZATIPRINA"
+    ],
+    "Hormônio": [
+      "PREDINIZONA"
+    ],
+    "Função de Organismo": [
+      "G"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "P"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "GNECOLOGIA"
+    ],
+    "Procedimento Laboratorial": [
+      "EXAMES"
+    ],
+    "Ácido Nucleico, Nucleosídeo ou Nucleotídeo": [
+      "ACICLOVIR"
+    ],
+    "Conceito Temporal": [
+      "HA 10 DIAS",
+      "HA 3 ANOS",
+      "HÁ 2M",
+      "5 DIAS",
+      "HA 15 ANOS"
+    ],
+    "Produto Intelectual": [
+      "FATORES DE MELHORA E PIORA"
+    ],
+    "Achado": [
+      "CICLO MESNTRUAL REGULAR"
+    ],
+    "Função Fisiológica": [
+      "CICLO MESNTRUAL REGULAR"
+    ],
+    "Localização ou Região Corporal": [
+      "CERVICAL ANTERIOR-ESQUERDA , POSTERIOR",
+      "FURCULA ESTERNAL",
+      "DELTODE ESQUERDO"
+    ],
+    "Fator Imunológico": [
+      "MEDICAMENTOS IMUNOSSUPRESSORES"
+    ]
+  },
+  "labels": {
+    "febre": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BD54": {
+            "confidence_embedding": 0.7724,
+            "text": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos."
+          }
+        },
+        {
+          "BD70.3": {
+            "confidence_embedding": 0.7376,
+            "text": "Representação de doença CID-11: Doença de Mondor. Definição: Forma de tromboflebite venosa superficial localizada que tipicamente afeta a parede torácica e se manifesta como um cordão fibroso com retração da pele circundante e ausência de inflamação cutânea sobreposta. Nenhuma causa é encontrada em muitos casos, mas traumatismo e cirurgia de mama estão frequentemente implicados."
+          }
+        },
+        {
+          "BD74.30": {
+            "confidence_embedding": 0.7319,
+            "text": "Representação de doença CID-11: Úlcera venosa primária da perna. Definição: Úlcera venosa da perna que se desenvolve na pele sem episódios anteriores de ulceração."
+          }
+        },
+        {
+          "BB24": {
+            "confidence_embedding": 0.7314,
+            "text": "Representação de doença CID-11: Hemopericárdio. Definição: Hemopericárdio causado por doenças não classificadas em outra parte. Hemopericárdio geralmente se refere a sangue no saco pericárdico do coração. É clinicamente semelhante ao derrame pericárdico e, dependendo do volume e da rapidez com que se desenvolve, pode causar tamponamento cardíaco."
+          }
+        },
+        {
+          "BC80": {
+            "confidence_embedding": 0.7233,
+            "text": "Representação de doença CID-11: Bradiarritmia supraventricular. Definição: Qualquer uma das várias arritmias possíveis originadas no ou acima do feixe de His, nas quais o coração bate mais devagar do que os limites inferiores normais para a idade."
+          }
+        }
+      ]
+    },
+    "dispareunia": {
+      "capitulo": "17",
+      "opcoes": [
+        {
+          "HA40.0": {
+            "confidence_embedding": 0.733,
+            "text": "Representação de doença CID-11: Considerações etiológicas associadas a condição clínica, lesão ou efeitos de cirurgia ou radioterapia. Definição: Esta categoria deve ser atribuída quando há evidência de que uma condição de saúde subjacente ou concomitante, incluindo condições hormonais, neurológicas e vasculares, lesões e consequências de tratamento cirúrgico ou de radiação, é um importante fator contribuinte para uma disfunção sexual ou um transtorno de dor sexual. Nesses casos, também deve ser atribuído o diagnóstico correspondente à condição de saúde subjacente ou concomitante. No entanto, transtornos mentais subjacentes ou contributivos devem ser registrados usando o qualificador “Associado a fatores psicológicos e comportamentais, incluindo transtornos mentais”, em vez de se usar com esta categoria."
+          }
+        },
+        {
+          "HA01.1": {
+            "confidence_embedding": 0.7136,
+            "text": "Representação de doença CID-11: Disfunção erétil do homem. Definição: A disfunção erétil peniana é caracterizada pela incapacidade ou redução acentuada na capacidade dos homens de atingir ou manter uma ereção peniana de duração ou rigidez suficiente para permitir a atividade sexual. O padrão de dificuldade erétil ocorre apesar do desejo de atividade sexual e estimulação sexual adequadas, de forma episódica ou persistente por um período de pelo menos vários meses e está associado a sofrimento clinicamente significativo."
+          }
+        },
+        {
+          "HA03.0": {
+            "confidence_embedding": 0.7095,
+            "text": "Representação de doença CID-11: Ejaculação precoce do homem. Definição: A ejaculação precoce do homem é caracterizada pela ejaculação que ocorre antes ou dentro de um período muito curto do início da penetração vaginal ou outra estimulação sexual relevante, com nenhum ou pouco controle percebido sobre a ejaculação. O padrão de ejaculação precoce ocorreu de forma episódica ou persistente por um período de pelo menos vários meses e está associado a sofrimento clinicamente significativo."
+          }
+        },
+        {
+          "HA40.2": {
+            "confidence_embedding": 0.7086,
+            "text": "Representação de doença CID-11: Considerações etiológicas associadas ao uso de substância psicoativa ou medicamento. Definição: Esta categoria deve ser atribuída quando há evidência de que os efeitos fisiológicos diretos de uma substância psicoativa ou medicamento são um importante fator contribuinte para a Disfunção Sexual ou Transtorno da Dor Sexual. Exemplos incluem inibidores seletivos de recaptação de serotonina, antagonistas do receptor de histamina-2 (p. ex., cimetidina), álcool, opioides e anfetaminas. Se os requisitos diagnósticos para um Transtorno Devido ao Uso de Substância forem atendidos, o diagnóstico apropriado de Transtorno Devido ao Uso de Substância também deve ser atribuído."
+          }
+        },
+        {
+          "HA20": {
+            "confidence_embedding": 0.7039,
+            "text": "Representação de doença CID-11: Transtorno doloroso à penetração sexual. Definição: Transtorno doloroso à penetração sexual é caracterizado por pelo menos um dos seguintes sintomas: 1) dificuldades acentuadas e persistentes ou recorrentes com a penetração, inclusive devido a contração ou tensão involuntária dos músculos do assoalho pélvico durante a tentativa de penetração; 2) dor vulvovaginal ou pélvica acentuada e persistente ou recorrente durante a penetração; \r\n3) medo ou ansiedade acentuadas e persistentes ou recorrentes da dor vulvovaginal ou pélvica em antecipação, durante ou como resultado da penetração. Os sintomas são recorrentes durante interações sexuais envolvendo ou potencialmente envolvendo penetração, apesar do desejo e estimulação sexual adequados. Não são inteiramente atribuíveis a uma condição clínica que afete adversamente a área pélvica e resulte em dor genital e/ou penetrativa ou a um transtorno mental. Não são inteiramente atribuíveis à lubrificação vaginal insuficiente ou alterações pós-menopausa/relacionadas à idade, e estão associadas a sofrimento clinicamente significativo."
+          }
+        }
+      ]
+    },
+    "les": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NC74.Y": {
+            "confidence_embedding": 0.7377,
+            "text": "Representação de doença CID-11: Lesão de outros nervos especificados ao nível do quadril ou da coxa. Definição: "
+          }
+        },
+        {
+          "NA06.9": {
+            "confidence_embedding": 0.736,
+            "text": "Representação de doença CID-11: Contusão do olho ou dos tecidos orbitários. Definição: Traumatismos ao globo ocular e aos tecidos adjacentes resultando em hemorragia, usualmente manifestada na pele."
+          }
+        },
+        {
+          "NB7Y": {
+            "confidence_embedding": 0.7327,
+            "text": "Representação de doença CID-11: Outra lesão especificada de nervos ao nível do abdome, região lombar ou pelve. Definição: "
+          }
+        },
+        {
+          "NB51.4": {
+            "confidence_embedding": 0.7312,
+            "text": "Representação de doença CID-11: Mordedura aberta do abdome, região lombar ou pelve. Definição: "
+          }
+        },
+        {
+          "NC74.3": {
+            "confidence_embedding": 0.7311,
+            "text": "Representação de doença CID-11: Lesão de múltiplos nervos ao nível do quadril ou coxa. Definição: "
+          }
+        }
+      ]
+    },
+    "metrorragia": {
+      "capitulo": "18",
+      "opcoes": [
+        {
+          "JA65.12": {
+            "confidence_embedding": 0.7282,
+            "text": "Representação de doença CID-11: Erupção polimórfica da gravidez. Definição: Erupção polimórfica da gravidez é uma dermatose que ocorre quase exclusivamente em primigestas ou em mulheres com gestação múltipla. Está associada ao ganho de peso acima da média na gravidez e acredita-se que a distensão da pele abdominal seja importante na sua patogênese: o mecanismo preciso não é compreendido. A erupção caracteristicamente aparece primeiro no terceiro trimestre da gravidez como pápulas e placas urticariformes eritematosas intensamente pruriginosas dentro e ao redor das estrias de distensão abdominal. Em algumas grávidas, pode tornar-se mais generalizado. O início às vezes é retardado até o período pós-parto imediato. Geralmente não se repete em gestações subsequentes."
+          }
+        },
+        {
+          "JA25.2": {
+            "confidence_embedding": 0.7129,
+            "text": "Representação de doença CID-11: Eclâmpsia no puerpério. Definição: Esta condição é caracterizada por crise epiléptica ou convulsões de aparecimento recente que surgem na gravidez. A condição é frequentemente associada a hipertensão induzida pela gravidez, convulsões, crise epiléptica, ansiedade, dor epigástrica, dor de cabeça intensa, visão turva, proteinúria e edema, e que ocorre durante o puerpério."
+          }
+        },
+        {
+          "JB43.3": {
+            "confidence_embedding": 0.7123,
+            "text": "Representação de doença CID-11: Cefaleia induzida por raquianestesia ou anestesia epidural durante o puerpério. Definição: "
+          }
+        },
+        {
+          "JA4Z": {
+            "confidence_embedding": 0.7097,
+            "text": "Representação de doença CID-11: Hemorragia obstétrica, não especificada. Definição: "
+          }
+        },
+        {
+          "JA20.1": {
+            "confidence_embedding": 0.7088,
+            "text": "Representação de doença CID-11: Doença cardíaca hipertensiva preexistente complicando a gravidez, o parto ou o puerpério. Definição: Condição que acomete mulheres grávidas, causada por hipertensão e doença cardíaca associada previamente diagnosticadas ou diagnosticadas nas primeiras 20 semanas. Essa condição é caracterizada por pressão arterial maior ou igual a 140/90 mmHg, levando a uma complicação durante a gravidez, o parto ou o puerpério. A confirmação é feita por esfigmomanômetro."
+          }
+        }
+      ]
+    },
+    "lesoes": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "ME62.9": {
+            "confidence_embedding": 0.741,
+            "text": "Representação de doença CID-11: Escoriação cutânea aguda. Definição: Diagnóstico provisório de erupção cutânea de natureza desconhecida ou incerta, que surge abruptamente e que consiste em múltiplas escoriações. Na maioria dos casos, a escoriação é secundária ao prurido intenso decorrente de um transtornos sistêmico subjacente, como icterícia colestática, ou de uma doença cutânea pruriginosa, como eczema. Em alguns casos, entretanto, fatores psicogênicos podem ser responsáveis."
+          }
+        },
+        {
+          "ME64.3": {
+            "confidence_embedding": 0.7397,
+            "text": "Representação de doença CID-11: Petéquias. Definição: Petéquias resultam do vazamento focal de sangue dos capilares da derme para o tecido conjuntivo dérmico adjacente. Apresentam-se como múltiplas máculas pontuais, vermelhas ou roxas, que não desaparecem à digitopressão. As muitas causas subjacentes variam de condições inócuas (p.ex., tosse ou esforço) a condições de risco de vida (p.ex., septicemia meningocócica)."
+          }
+        },
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7383,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "ME83": {
+            "confidence_embedding": 0.7349,
+            "text": "Representação de doença CID-11: Reumatismo, não especificado. Definição: É um grupo de doenças marcadas por inflamação ou dor em estruturas de tecido conjuntivo do corpo e é considerado não especificado."
+          }
+        },
+        {
+          "ME62.8": {
+            "confidence_embedding": 0.7336,
+            "text": "Representação de doença CID-11: Erupção cutânea discoide ou anular aguda. Definição: Diagnóstico provisório de erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e que consiste em várias manchas e placas circulares ou em forma de anel. Embora a infecção por dermatófitos (tinha ou micose) possa produzir esse padrão, muitos outros transtornos de pele podem ter uma configuração discoide ou anular e, frequentemente, são diagnosticados erroneamente como tinha. Exemplos comuns incluem eczema atópico, eczema numular e psoríase."
+          }
+        }
+      ]
+    },
+    "colica": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DB33.20": {
+            "confidence_embedding": 0.7525,
+            "text": "Representação de doença CID-11: Proctite ou colite infantil induzida por proteína de alimentos. Definição: Hipersensibilidade intestinal não mediada por IgE (na ausência de anticorpos IgE) induzida por proteína alimentar que provoca resposta inflamatória principalmente do cólon sigmoide distal e do reto. É uma condição em bebês que resulta de resposta imune desencadeada por proteínas da dieta, principalmente do leite (através da amamentação). Os pacientes geralmente parecem saudáveis e têm fezes normais e macias com manchas ou raias de sangue. O diagnóstico é feito usualmente baseado na resolução dos sintomas com a retirada do suposto antígeno alimentar. O início usual é nos primeiros 2 meses de vida, mas pode também ocorrer em bebês de 1 dia a 6 meses de idade."
+          }
+        },
+        {
+          "DD72": {
+            "confidence_embedding": 0.7455,
+            "text": "Representação de doença CID-11: Colite indeterminada. Definição: Colite indeterminada é um transtorno inflamatório crônico do cólon, para o qual um diagnóstico definitivo de doença de Crohn ou colite ulcerativa não pode ser feito."
+          }
+        },
+        {
+          "DB33.40": {
+            "confidence_embedding": 0.7439,
+            "text": "Representação de doença CID-11: Colite ou proctite química. Definição: Refere-se à condição de inflamação do intestino grosso causada por substâncias químicas ou tóxicas."
+          }
+        },
+        {
+          "DB33.41": {
+            "confidence_embedding": 0.7416,
+            "text": "Representação de doença CID-11: Colite induzida por radiação. Definição: Isso se refere à inflamação do intestino grosso e úlcera do cólon devidas à radiação."
+          }
+        },
+        {
+          "DC82.0": {
+            "confidence_embedding": 0.7335,
+            "text": "Representação de doença CID-11: Divertículo do intestino grosso com hemorragia. Definição: Condição morfológica na qual há uma pequena bolsa chamada divertículo na parede do intestino grosso, com hemorragia."
+          }
+        }
+      ]
+    },
+    "corrimento": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "EA90.3": {
+            "confidence_embedding": 0.8006,
+            "text": "Representação de doença CID-11: Psoríase eritrodérmica. Definição: Psoríase eritrodérmica é uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele. A psoríase eritrodérmica geralmente se desenvolve a partir da psoríase em placas extensa mas pode surgir de forma nova. Fatores precipitantes ou desencadeantes incluem a retirada de glicocorticoides sistêmicos e, menos frequentemente, a descontinuação abrupta do metotrexato, queimaduras ou infecções intercorrentes. Os pacientes podem desenvolver hipotermia ou insuficiência cardíaca de alto débito."
+          }
+        },
+        {
+          "EK12": {
+            "confidence_embedding": 0.787,
+            "text": "Representação de doença CID-11: Sensibilização alérgica por contato. Definição: A presença de hipersensibilidade tardia tipo IV do sistema imune a uma determinada substância sem definição de doença prévia ou atual. Tal sensibilização é normalmente adquirida por contato prévio de pele ou mucosa com a própria substância ou com outra quimicamente similar (reatividade cruzada). Contato subsequente com a substância pode provocar reação alérgica. Em determinadas circunstâncias, essa sensibilização pode impedir que um indivíduo aceite ou continue em um emprego em que a exposição ao alérgeno não pode ser evitada. Alguns indivíduos sensibilizados para um alérgeno específico, entretanto, podem nunca manifestar sintomas caso ocorra o contato."
+          }
+        },
+        {
+          "EB01.3": {
+            "confidence_embedding": 0.7701,
+            "text": "Representação de doença CID-11: Urticária de contato. Definição: Urticária resultante do contato da pele ou das mucosas com substância ou substâncias capazes de induzir lesões papulares por mecanismos imunológicos ou não imunológicos."
+          }
+        },
+        {
+          "EB51": {
+            "confidence_embedding": 0.7691,
+            "text": "Representação de doença CID-11: Lúpus eritematoso cutâneo crônico. Definição: Lúpus eritematoso cutâneo crônico (LECC) é caracterizado pela presença de placas cutâneas circunscritas apresentando graus variados de edema, eritema, descamação, tamponamento e atrofia folicular. Apresenta-se mais comumente como placas discoides envolvendo face, orelhas e couro cabeludo, mas pode ser amplamente disseminada ou acometer predominantemente extremidades (lúpus Chilblain) ou a gordura subcutânea (paniculite lúpica). Pode causar desfiguração acentuada com cicatrizes faciais proeminentes e perda de cabelo permanente. A maioria dos pacientes permanece com boa saúde, mas 5-10% podem desenvolver lúpus eritematoso sistêmico. A fotossensibilidade é menos evidente do que no lúpus eritematoso cutâneo subagudo."
+          }
+        },
+        {
+          "ED70.4": {
+            "confidence_embedding": 0.7683,
+            "text": "Representação de doença CID-11: Eflúvio anágeno. Definição: Eflúvio anágeno ocorre após qualquer insulto ao folículo piloso que comprometa sua atividade mitótica ou metabólica. Os pacientes apresentam queda de cabelos difusa após exposição a drogas ou produtos químicos tóxicos. Agentes quimioterápicos são mais comumente responsáveis por queda de cabelo. A queda de cabelo mais grave ocorre em associação com a doxorrubicina, as nitrosoureias e a ciclofosfamida. A queda de cabelos geralmente começa 7-14 dias após um único pulso de quimioterapia. A queda de cabelo é clinicamente mais aparente após 1-2 meses."
+          }
+        }
+      ]
+    },
+    "hipertemia": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BD54": {
+            "confidence_embedding": 0.7602,
+            "text": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos."
+          }
+        },
+        {
+          "BA01": {
+            "confidence_embedding": 0.7511,
+            "text": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração."
+          }
+        },
+        {
+          "BD12": {
+            "confidence_embedding": 0.7218,
+            "text": "Representação de doença CID-11: Síndromes de alto débito. Definição: Aumento do débito cardíaco acima do normal associado a anemia, fístulas arteriovenosas, tireotoxicose e outras síndromes. Pode resultar em insuficiência cardíaca."
+          }
+        },
+        {
+          "BC42.2": {
+            "confidence_embedding": 0.7197,
+            "text": "Representação de doença CID-11: Miocardite por hipersensibilidade. Definição: Miocardite de hipersensibilidade é a presença de cardiomiopatia dilatada em associação com um transtorno relacionado conhecido {síndrome hipereosinofílica (geralmente uma cardiomiopatia restritiva), síndrome de Churg-Strauss, malignidade, infecção parasitária, drogas ou vacinas) e achados de infiltração intersticial linfocítica e eosinofílica, células gigantes, e possível necrose miocárdica na biópsia, geralmente com eosinofilia periférica."
+          }
+        },
+        {
+          "BC80": {
+            "confidence_embedding": 0.7171,
+            "text": "Representação de doença CID-11: Bradiarritmia supraventricular. Definição: Qualquer uma das várias arritmias possíveis originadas no ou acima do feixe de His, nas quais o coração bate mais devagar do que os limites inferiores normais para a idade."
+          }
+        }
+      ]
+    },
+    "lesoes hiperemiada": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MB41.3": {
+            "confidence_embedding": 0.7363,
+            "text": "Representação de doença CID-11: Hiposmia. Definição: Diminuição da capacidade de sentir cheiro."
+          }
+        },
+        {
+          "ME10.1": {
+            "confidence_embedding": 0.7363,
+            "text": "Representação de doença CID-11: Icterícia não especificada. Definição: Manifestação clínica de hiperbilirrubinemia de origem não especificada, caracterizada por coloração amarelada da pele, mucosas e esclera."
+          }
+        },
+        {
+          "ME64.0": {
+            "confidence_embedding": 0.7204,
+            "text": "Representação de doença CID-11: Eritema. Definição: Vermelhidão da pele devida à presença de quantidades aumentadas de hemoglobina oxigenada nos capilares dilatados da pele. Pode ser devida a processos inflamatórios localizados ou generalizados, porém pode resultar também do aumento do fluxo sanguíneo cutâneo após esforço físico ou associado à pirexia."
+          }
+        },
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7197,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "ME64": {
+            "confidence_embedding": 0.7194,
+            "text": "Representação de doença CID-11: Sinais vasculares cutâneos não específicos. Definição: Alterações perceptíveis na pele resultantes de alterações na composição do sangue, fluxo sanguíneo ou integridade dos vasos sanguíneos. Podem ser devidas a fatores locais ou podem indicar transtornos subjacentes, como anemia, hipovolemia, febre, hipóxia ou defeitos na coagulação."
+          }
+        }
+      ]
+    },
+    "dores articulares": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FA38.3": {
+            "confidence_embedding": 0.7796,
+            "text": "Representação de doença CID-11: Artropatia hemofílica. Definição: Trata-se da destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia. Esta condição inclui a ocorrência de hemartrose aguda, artrite subaguda ou crônica e artropatia hemofílica em estágio terminal. Quase todos os pacientes com hemofilia A ou B grave e metade dos pacientes com atividade de doença moderada apresentam hemartrose. Os sintomas incluem dor nas articulações (artralgias), edema articular, fibrose articular, desenvolvimento de deformidades em flexão e erosão da cartilagem articular. As articulações mais comumente afetadas são joelhos, tornozelos, cotovelos, ombros e quadris (em ordem de frequência). O sangramento nos músculos e partes moles também pode causar disfunção musculoesquelética."
+          }
+        },
+        {
+          "FA22": {
+            "confidence_embedding": 0.7598,
+            "text": "Representação de doença CID-11: Polimialgia reumática. Definição: A polimialgia reumática (PMR) é uma síndrome caracterizada por dores nas porções proximais das extremidades e do tronco. Os critérios de classificação provisórios para PMR pela European League Against Rheumatism / American College of Rheumatology Collaborative Initiative devem ser aplicados em pacientes com 50 anos ou mais com dor nos ombros bilateral e PCR e / ou VHS anormais. O algoritmo de pontuação é baseado na rigidez matinal> 45 minutos (2 pontos), dor / amplitude de movimento limitada no quadril (1 ponto), ausência de fator reumatoide e / ou anticorpo anti-proteína citrulinada (1 ponto), com critério de ultrassom opcional. Mais comumente, a PMR ocorre de forma isolada, mas pode ser observada em 40-50% dos pacientes com arterite de células gigantes."
+          }
+        },
+        {
+          "FA35.1": {
+            "confidence_embedding": 0.7567,
+            "text": "Representação de doença CID-11: Desgaste da superfície de apoio articular da prótese articular do joelho. Definição: "
+          }
+        },
+        {
+          "FA38.1": {
+            "confidence_embedding": 0.7561,
+            "text": "Representação de doença CID-11: Artropatia neuropática. Definição: A artropatia neuropática é uma artrite progressiva, destrutiva, associada à perda da sensibilidade dolorosa, da propriocepção, ou de ambas. Os reflexos musculares normais que modulam os movimentos articulares também estão diminuídos. Sem estes mecanismos de proteção, as articulações ficam sujeitas ao trauma repetitivo, o que resulta no dano cartilaginoso e ósseo progressivo. Os sintomas adicionais incluem alterações cutâneas, tais como eritema, edema, hiperpigmentação ou púrpura, e úlceras de tecidos moles sobre as áreas afetadas, bem como afrouxamento ou instabilidade das articulações e deformidades articulares."
+          }
+        },
+        {
+          "FA27.2": {
+            "confidence_embedding": 0.7507,
+            "text": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos."
+          }
+        }
+      ]
+    },
+    "prurido": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "EC91": {
+            "confidence_embedding": 0.8098,
+            "text": "Representação de doença CID-11: Prurigo. Definição: Prurigo é um padrão de reação cutânea devido ao ato de coçar crônico da pele. É caracterizada por pápulas e nódulos disseminados, simetricamente distribuídos, pruriginosos e escoriados com acantose epidérmica focal e hiperceratose na histologia."
+          }
+        },
+        {
+          "ED54": {
+            "confidence_embedding": 0.7918,
+            "text": "Representação de doença CID-11: Xerose cutânea ou asteatose. Definição: Ressecamento da superfície da pele comumente devido ao desengorduramento da epiderme por exposição excessiva a sabões e detergentes ou dessecação por exposição prolongada à baixa umidade ambiente. Ocorre mais comumente em idosos e é observada particularmente nas pernas. É uma das principais causas de prurido em idosos. Em casos mais graves, a pele pode ficar inflamada (eczema asteatótico)."
+          }
+        },
+        {
+          "EC90.4": {
+            "confidence_embedding": 0.791,
+            "text": "Representação de doença CID-11: Prurido psicogênico. Definição: Prurido crônico episódico na ausência de uma causa orgânica identificável e tipicamente associado a estresse e/ou depressão."
+          }
+        },
+        {
+          "EC90.3": {
+            "confidence_embedding": 0.7907,
+            "text": "Representação de doença CID-11: Prurido devido a transtorno neurológico. Definição: Prurido resultante de dano ou irritação dos nervos sensoriais ou de suas conexões centrais."
+          }
+        },
+        {
+          "EB51": {
+            "confidence_embedding": 0.7864,
+            "text": "Representação de doença CID-11: Lúpus eritematoso cutâneo crônico. Definição: Lúpus eritematoso cutâneo crônico (LECC) é caracterizado pela presença de placas cutâneas circunscritas apresentando graus variados de edema, eritema, descamação, tamponamento e atrofia folicular. Apresenta-se mais comumente como placas discoides envolvendo face, orelhas e couro cabeludo, mas pode ser amplamente disseminada ou acometer predominantemente extremidades (lúpus Chilblain) ou a gordura subcutânea (paniculite lúpica). Pode causar desfiguração acentuada com cicatrizes faciais proeminentes e perda de cabelo permanente. A maioria dos pacientes permanece com boa saúde, mas 5-10% podem desenvolver lúpus eritematoso sistêmico. A fotossensibilidade é menos evidente do que no lúpus eritematoso cutâneo subagudo."
+          }
+        }
+      ]
+    },
+    "limitaçao articular": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FA38.3": {
+            "confidence_embedding": 0.8041,
+            "text": "Representação de doença CID-11: Artropatia hemofílica. Definição: Trata-se da destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia. Esta condição inclui a ocorrência de hemartrose aguda, artrite subaguda ou crônica e artropatia hemofílica em estágio terminal. Quase todos os pacientes com hemofilia A ou B grave e metade dos pacientes com atividade de doença moderada apresentam hemartrose. Os sintomas incluem dor nas articulações (artralgias), edema articular, fibrose articular, desenvolvimento de deformidades em flexão e erosão da cartilagem articular. As articulações mais comumente afetadas são joelhos, tornozelos, cotovelos, ombros e quadris (em ordem de frequência). O sangramento nos músculos e partes moles também pode causar disfunção musculoesquelética."
+          }
+        },
+        {
+          "FA35.1": {
+            "confidence_embedding": 0.7873,
+            "text": "Representação de doença CID-11: Desgaste da superfície de apoio articular da prótese articular do joelho. Definição: "
+          }
+        },
+        {
+          "FA38.1": {
+            "confidence_embedding": 0.7858,
+            "text": "Representação de doença CID-11: Artropatia neuropática. Definição: A artropatia neuropática é uma artrite progressiva, destrutiva, associada à perda da sensibilidade dolorosa, da propriocepção, ou de ambas. Os reflexos musculares normais que modulam os movimentos articulares também estão diminuídos. Sem estes mecanismos de proteção, as articulações ficam sujeitas ao trauma repetitivo, o que resulta no dano cartilaginoso e ósseo progressivo. Os sintomas adicionais incluem alterações cutâneas, tais como eritema, edema, hiperpigmentação ou púrpura, e úlceras de tecidos moles sobre as áreas afetadas, bem como afrouxamento ou instabilidade das articulações e deformidades articulares."
+          }
+        },
+        {
+          "FA24.4": {
+            "confidence_embedding": 0.783,
+            "text": "Representação de doença CID-11: Artrite juvenil sistêmica. Definição: A artrite idiopática juvenil de início sistêmico representa 10-11% dos casos de artrite idiopática juvenil (AIJ), é marcada pela gravidade das manifestações extra-articulares (febre, erupção cutanea) e pela frequência semelhante entre os sexos. Os picos febris são associados com erupções cutâneas transitórias e lesões eritematosas difusas ou urticariformes. A presença de artrite é essencial para o diagnóstico, mas pode se manifestar tardiamente no curso da doença. O acometimento articular é variável (mono, oligo ou poliartrite), em pequenas e grandes articulações, de forma predominantemente simétrica. Essa tríade diagnóstica característica também pode estar associada a adenopatia e hepatoesplenomegalia. As complicações viscerais (pericardite, derrame pleural ou peritonite serosa com dor abdominal) podem estar presentes."
+          }
+        },
+        {
+          "FA22": {
+            "confidence_embedding": 0.7801,
+            "text": "Representação de doença CID-11: Polimialgia reumática. Definição: A polimialgia reumática (PMR) é uma síndrome caracterizada por dores nas porções proximais das extremidades e do tronco. Os critérios de classificação provisórios para PMR pela European League Against Rheumatism / American College of Rheumatology Collaborative Initiative devem ser aplicados em pacientes com 50 anos ou mais com dor nos ombros bilateral e PCR e / ou VHS anormais. O algoritmo de pontuação é baseado na rigidez matinal> 45 minutos (2 pontos), dor / amplitude de movimento limitada no quadril (1 ponto), ausência de fator reumatoide e / ou anticorpo anti-proteína citrulinada (1 ponto), com critério de ultrassom opcional. Mais comumente, a PMR ocorre de forma isolada, mas pode ser observada em 40-50% dos pacientes com arterite de células gigantes."
+          }
+        }
+      ]
+    },
+    "lesose de pele maculo-vesicular": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "ME64.0": {
+            "confidence_embedding": 0.7248,
+            "text": "Representação de doença CID-11: Eritema. Definição: Vermelhidão da pele devida à presença de quantidades aumentadas de hemoglobina oxigenada nos capilares dilatados da pele. Pode ser devida a processos inflamatórios localizados ou generalizados, porém pode resultar também do aumento do fluxo sanguíneo cutâneo após esforço físico ou associado à pirexia."
+          }
+        },
+        {
+          "ME63.7": {
+            "confidence_embedding": 0.7237,
+            "text": "Representação de doença CID-11: Escoriação cutânea crônica. Definição: Diagnóstico provisório para um transtorno crônico da pele de natureza desconhecida ou incerta, caracterizado pela presença de múltiplas escoriações. Em alguns casos, a escoriação é secundária a prurido intenso decorrente de um transtorno sistêmico subjacente, como uremia, ou de uma doença de pele pruriginosa, como eczema. Em muitos casos, entretanto, fatores psicogênicos podem ser responsáveis."
+          }
+        },
+        {
+          "ME64.3": {
+            "confidence_embedding": 0.7201,
+            "text": "Representação de doença CID-11: Petéquias. Definição: Petéquias resultam do vazamento focal de sangue dos capilares da derme para o tecido conjuntivo dérmico adjacente. Apresentam-se como múltiplas máculas pontuais, vermelhas ou roxas, que não desaparecem à digitopressão. As muitas causas subjacentes variam de condições inócuas (p.ex., tosse ou esforço) a condições de risco de vida (p.ex., septicemia meningocócica)."
+          }
+        },
+        {
+          "ME63.5": {
+            "confidence_embedding": 0.7187,
+            "text": "Representação de doença CID-11: Dermatose liquenificada crônica. Definição: Diagnóstico provisório para um transtorno crônico da pele de natureza desconhecida ou incerta, na qual a liquenificação é a característica proeminente. Exemplos incluem eczema crônico, líquen simples e líquen plano."
+          }
+        },
+        {
+          "ME62.3": {
+            "confidence_embedding": 0.7174,
+            "text": "Representação de doença CID-11: exantema maculopapular agudo. Definição: Diagnóstico provisório de erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e que consiste em múltiplas máculas e pápulas. Infecções virais e medicamentos são precipitantes comuns."
+          }
+        }
+      ]
+    },
+    "zoster": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NB61": {
+            "confidence_embedding": 0.7079,
+            "text": "Representação de doença CID-11: Concussão ou edema da medula espinhal sacral. Definição: "
+          }
+        },
+        {
+          "NA90": {
+            "confidence_embedding": 0.7077,
+            "text": "Representação de doença CID-11: Concussão ou edema da medula espinhal torácica. Definição: "
+          }
+        },
+        {
+          "NB60": {
+            "confidence_embedding": 0.7056,
+            "text": "Representação de doença CID-11: Concussão ou edema da medula espinhal lombar. Definição: "
+          }
+        },
+        {
+          "NA23.4Z": {
+            "confidence_embedding": 0.7037,
+            "text": "Representação de doença CID-11: Distensão ou entorse da coluna cervical, não especificado. Definição: "
+          }
+        },
+        {
+          "NC74.Y": {
+            "confidence_embedding": 0.7017,
+            "text": "Representação de doença CID-11: Lesão de outros nervos especificados ao nível do quadril ou da coxa. Definição: "
+          }
+        }
+      ]
+    }
+  }
+}

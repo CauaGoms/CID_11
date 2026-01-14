@@ -1,0 +1,136 @@
+{
+  "prontuario_id": 240,
+  "text": "Hernia inguinal a direita.\nSurgimento de massa em região inguinal direita ha 10 meses. Nega dor ou outros sintomas.\nSolicitado exames pré-operatórios.\n \n \n \n ",
+  "entities": {
+    "Conceito Espacial": [
+      "direita"
+    ],
+    "Sinal ou Sintoma": [
+      "massa",
+      "dor",
+      "sintomas"
+    ],
+    "Conceito Temporal": [
+      "meses"
+    ],
+    "Negação": [
+      "Nega"
+    ],
+    "Localização ou Região Corporal": [
+      "região inguinal direita"
+    ],
+    "Procedimento Diagnóstico": [
+      "exames pré-operatórios"
+    ],
+    "Procedimento Laboratorial": [
+      "exames pré-operatórios"
+    ]
+  },
+  "labels": {
+    "massa": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NB51.0": {
+            "confidence_embedding": 0.6939,
+            "text": "Representação de doença CID-11: Laceração sem corpo estranho do abdome, região lombar ou pelve. Definição: "
+          }
+        },
+        {
+          "NB51.4": {
+            "confidence_embedding": 0.6925,
+            "text": "Representação de doença CID-11: Mordedura aberta do abdome, região lombar ou pelve. Definição: "
+          }
+        },
+        {
+          "NB50.2": {
+            "confidence_embedding": 0.6907,
+            "text": "Representação de doença CID-11: Abrasão da parede abdominal. Definição: "
+          }
+        },
+        {
+          "NB50.3": {
+            "confidence_embedding": 0.6907,
+            "text": "Representação de doença CID-11: Contusão da parede abdominal. Definição: "
+          }
+        },
+        {
+          "NB51.2": {
+            "confidence_embedding": 0.6863,
+            "text": "Representação de doença CID-11: Ferimento perfurante sem corpo estranho do abdome, região lombar ou pelve. Definição: "
+          }
+        }
+      ]
+    },
+    "sintomas": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "ME86.B": {
+            "confidence_embedding": 0.7247,
+            "text": "Representação de doença CID-11: Sintoma ou queixa da perna ou coxa. Definição: "
+          }
+        },
+        {
+          "MD82": {
+            "confidence_embedding": 0.7167,
+            "text": "Representação de doença CID-11: Tumefação, massa ou tumoração intra-abdominal ou pélvica. Definição: Refere-se à presença de tumefação de parede abdominal ou pélvica, massa ou tumor nas regiões abdominal e pélvica. Essas massas ou tumores podem ser reconhecidos pela inspeção e/ou palpação."
+          }
+        },
+        {
+          "MB27": {
+            "confidence_embedding": 0.7076,
+            "text": "Representação de doença CID-11: Sintomas ou sinais relativos a distúrbios de percepção. Definição: Sintomas e sinais que envolvem uma ruptura na percepção sensorial, incluindo despersonalização, desrealização e alucinações em qualquer modalidade."
+          }
+        },
+        {
+          "ME86": {
+            "confidence_embedding": 0.7041,
+            "text": "Representação de doença CID-11: Sintoma ou queixa de uma parte do corpo. Definição: "
+          }
+        },
+        {
+          "MF33": {
+            "confidence_embedding": 0.6998,
+            "text": "Representação de doença CID-11: Sintoma ou queixa pré-menstrual. Definição: Um sintoma idiopático da síndrome pré-menstrual que afeta mulheres e é idiopático. Caracterizado por sintomas emocionais, físicos ou comportamentais cíclicos, como alterações de humor, alterações psicológicas, retenção de líquidos, alterações neurológicas, alterações gastrointestinais, sensação de peso pélvico ou alterações dermatológicas que afetam mulheres na fase lútea do ciclo menstrual e que interferem com o estilo de vida da pessoa."
+          }
+        }
+      ]
+    },
+    "dor": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MD81": {
+            "confidence_embedding": 0.7461,
+            "text": "Representação de doença CID-11: Dor abdominal ou pélvica. Definição: Dor, uma sensação desagradável de desconforto ocorrendo em variados graus de intensidade, recebida pelas terminações nervosas na região abdominal e pélvica."
+          }
+        },
+        {
+          "MD81.2": {
+            "confidence_embedding": 0.7455,
+            "text": "Representação de doença CID-11: Dor abdominal generalizada. Definição: Dor, uma sensação desagradável de desconforto ocorrendo em variados graus de gravidade, ou cólicas, contrações espasmódicas causando dor intensa na região abdominal em geral."
+          }
+        },
+        {
+          "MG30.21": {
+            "confidence_embedding": 0.7429,
+            "text": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática."
+          }
+        },
+        {
+          "MG30.2": {
+            "confidence_embedding": 0.7409,
+            "text": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente."
+          }
+        },
+        {
+          "MD81.11": {
+            "confidence_embedding": 0.7378,
+            "text": "Representação de doença CID-11: Dor pélvica ou perineal. Definição: Dor, sensação desagradável de sofrimento, que ocorre na região pélvica e perineal."
+          }
+        }
+      ]
+    }
+  }
+}

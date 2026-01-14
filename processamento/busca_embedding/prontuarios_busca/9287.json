@@ -1,0 +1,193 @@
+{
+  "prontuario_id": 422,
+  "text": "Pcte com historia de contusao em joelho esq ha 15 dias.\nPossivel fx de plato?\nPcte sem dor e sem sinais de fratura ao rx.\nAlta.\nRetorno se necessario\n\nR1 Lucas,\nR4 Lucas\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Pcte"
+    ],
+    "Abreviação": [
+      "Pcte",
+      "rx",
+      "R1",
+      "R4",
+      "joelho esq",
+      "fx de plato"
+    ],
+    "Lesão ou Envenenamento": [
+      "contusao",
+      "fx de plato"
+    ],
+    "Conceito Temporal": [
+      "dias"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "dor",
+      "sinais de fratura"
+    ],
+    "Procedimento Diagnóstico": [
+      "rx"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Alta",
+      "Retorno"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "R1",
+      "R4"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "joelho esq"
+    ],
+    "Espaço ou Junção Corporal": [
+      "joelho esq"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "sinais de fratura"
+    ]
+  },
+  "labels": {
+    "contusao": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NC93.8": {
+            "confidence_embedding": 0.7468,
+            "text": "Representação de doença CID-11: Traumatismo de estruturas múltiplas do joelho. Definição: "
+          }
+        },
+        {
+          "NA06.00": {
+            "confidence_embedding": 0.7365,
+            "text": "Representação de doença CID-11: Avulsão da pálpebra. Definição: Lesão em que uma estrutura corporal é forçadamente destacada do seu ponto normal de inserção por traumatismo ou cirurgia. O termo mais comumente se refere a um traumatismo de superfície em que todas as camadas da pele foram laceradas, expondo estruturas subjacentes (isto é, tecido subcutâneo, músculo, tendões ou osso). É semelhante a uma abrasão, mas mais grave, em que a pálpebra pode estar parcial ou completamente destacada do corpo."
+          }
+        },
+        {
+          "NA07": {
+            "confidence_embedding": 0.7307,
+            "text": "Representação de doença CID-11: Traumatismo intracraniano. Definição: Dano infligido aos tecidos do cérebro como o resultado direto ou indireto de uma força externa, com ou sem interrupção da continuidade estrutural."
+          }
+        },
+        {
+          "NA02.1": {
+            "confidence_embedding": 0.7169,
+            "text": "Representação de doença CID-11: Fratura da base do crânio. Definição: Fraturas que se estendem pela base do crânio, geralmente envolvendo a parte petrosa do osso temporal."
+          }
+        },
+        {
+          "NA80": {
+            "confidence_embedding": 0.7169,
+            "text": "Representação de doença CID-11: Traumatismo superficial do tórax. Definição: Danos infligidos na superfície ou nos tecidos superficiais do tórax como o resultado direto ou indireto de uma força externa, com ou sem interrupção da continuidade estrutural."
+          }
+        }
+      ]
+    },
+    "sinais de fratura": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MB28.G": {
+            "confidence_embedding": 0.7248,
+            "text": "Representação de doença CID-11: Teimosia. Definição: Adesão firme a uma opinião, propósito ou curso de ação, apesar da razão, de argumentos ou persuasão."
+          }
+        },
+        {
+          "MB24.4": {
+            "confidence_embedding": 0.7156,
+            "text": "Representação de doença CID-11: Apatia. Definição: Redução ou falta de sentimento, emoção, interesse ou preocupação; estado de indiferença."
+          }
+        },
+        {
+          "ME83": {
+            "confidence_embedding": 0.6943,
+            "text": "Representação de doença CID-11: Reumatismo, não especificado. Definição: É um grupo de doenças marcadas por inflamação ou dor em estruturas de tecido conjuntivo do corpo e é considerado não especificado."
+          }
+        },
+        {
+          "MG30.31": {
+            "confidence_embedding": 0.6889,
+            "text": "Representação de doença CID-11: Dor musculoesquelética secundária crônica associada a alterações estruturais. Definição: Dor musculoesquelética secundária crônica associada a alterações estruturais é uma dor crônica de mecanismo(s) desconhecido(s), que é atribuível a alterações anatômicas em articulação(ões), osso(s) ou tendão(ões). A alteração estrutural precisa ser inferida a partir de exame clínico e/ou demonstrável por exame de imagem. A dor pode ser espontânea ou induzida por movimento. É caracterizada por aspectos clínicos como inchaço, alodinia ou restrição de movimentos.\r\n\r\nCritérios de Diagnóstico:\r\n\r\nAs condições de A a D são preenchidas:\r\n\r\nA) Dor crônica (persistente ou recorrente por mais de 3 meses) em articulação(ões), osso(s) ou tendão(ões) está presente. A dor pode ser espontânea ou induzida por movimento.\r\n\r\nB) Pelo menos um dos seguintes critérios atendidos:\r\nB1) Inchaço está presente.\r\nB2) Alodinia sobre a parte está presente.\r\n\r\nC) A alteração estrutural é inferida a partir de exame clínico ou de imagem.\r\n\r\nD) A dor não é melhor explicada por outro diagnóstico de dor crônica."
+          }
+        },
+        {
+          "MB27": {
+            "confidence_embedding": 0.687,
+            "text": "Representação de doença CID-11: Sintomas ou sinais relativos a distúrbios de percepção. Definição: Sintomas e sinais que envolvem uma ruptura na percepção sensorial, incluindo despersonalização, desrealização e alucinações em qualquer modalidade."
+          }
+        }
+      ]
+    },
+    "dor": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MG30.20": {
+            "confidence_embedding": 0.7507,
+            "text": "Representação de doença CID-11: Dor crônica pós-traumática. Definição: Dor pós-traumática crônica é a dor que se desenvolve ou aumenta de intensidade após uma lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após o traumatismo tecidual. A dor é ou localizada na área da lesão, ou referida no território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente por um problema doloroso preexistente."
+          }
+        },
+        {
+          "MG30.2": {
+            "confidence_embedding": 0.7419,
+            "text": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente."
+          }
+        },
+        {
+          "MG30.31": {
+            "confidence_embedding": 0.723,
+            "text": "Representação de doença CID-11: Dor musculoesquelética secundária crônica associada a alterações estruturais. Definição: Dor musculoesquelética secundária crônica associada a alterações estruturais é uma dor crônica de mecanismo(s) desconhecido(s), que é atribuível a alterações anatômicas em articulação(ões), osso(s) ou tendão(ões). A alteração estrutural precisa ser inferida a partir de exame clínico e/ou demonstrável por exame de imagem. A dor pode ser espontânea ou induzida por movimento. É caracterizada por aspectos clínicos como inchaço, alodinia ou restrição de movimentos.\r\n\r\nCritérios de Diagnóstico:\r\n\r\nAs condições de A a D são preenchidas:\r\n\r\nA) Dor crônica (persistente ou recorrente por mais de 3 meses) em articulação(ões), osso(s) ou tendão(ões) está presente. A dor pode ser espontânea ou induzida por movimento.\r\n\r\nB) Pelo menos um dos seguintes critérios atendidos:\r\nB1) Inchaço está presente.\r\nB2) Alodinia sobre a parte está presente.\r\n\r\nC) A alteração estrutural é inferida a partir de exame clínico ou de imagem.\r\n\r\nD) A dor não é melhor explicada por outro diagnóstico de dor crônica."
+          }
+        },
+        {
+          "MG31": {
+            "confidence_embedding": 0.7199,
+            "text": "Representação de doença CID-11: Dor aguda. Definição: Dor com duração inferior a 3 meses.\r\n\r\nEste código deve ser usado apenas quando não houver especificações adicionais de localização da dor."
+          }
+        },
+        {
+          "MB28.G": {
+            "confidence_embedding": 0.7154,
+            "text": "Representação de doença CID-11: Teimosia. Definição: Adesão firme a uma opinião, propósito ou curso de ação, apesar da razão, de argumentos ou persuasão."
+          }
+        }
+      ]
+    },
+    "fx de plato": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NC93.8": {
+            "confidence_embedding": 0.7096,
+            "text": "Representação de doença CID-11: Traumatismo de estruturas múltiplas do joelho. Definição: "
+          }
+        },
+        {
+          "NC53.Z": {
+            "confidence_embedding": 0.7022,
+            "text": "Representação de doença CID-11: Fratura ao nível de punho ou mão, não especificada. Definição: "
+          }
+        },
+        {
+          "NC92.0": {
+            "confidence_embedding": 0.7007,
+            "text": "Representação de doença CID-11: Fratura da patela. Definição: "
+          }
+        },
+        {
+          "NC53": {
+            "confidence_embedding": 0.7001,
+            "text": "Representação de doença CID-11: Fratura ao nível de punho ou mão. Definição: "
+          }
+        },
+        {
+          "NA0D.04": {
+            "confidence_embedding": 0.6986,
+            "text": "Representação de doença CID-11: Fratura da raiz-coroa não complicada. Definição: Fratura envolvendo esmalte, dentina e cemento, mas não expondo a polpa dentária."
+          }
+        }
+      ]
+    }
+  }
+}

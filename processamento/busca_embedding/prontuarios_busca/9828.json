@@ -1,0 +1,404 @@
+{
+  "prontuario_id": 4,
+  "text": "LUCAS, 43a # HAS - diagnóstico recente. # Tabagismo. # Obesidade. # Dislipidemia. # HF + para cardiopatia isquêmica. # IAM 25/02. Paciente encaminhado do interior para cateterismo cardíaco pós-IAM. Realizada ACTP + 3 stents na ACD, proximal, média e distal. Procedimento feito sem intercorrências, com sucesso angiográfico. Vinha já em uso de clopidogrel.  Recebe alta após 48 em bom estado geral, assintomático, com recomendação de: - manter uso de clopidogrel por 3 meses. - AAS 200 mg /dia. - sinvastatina 20 mg /dia. Retorno breve ao seu médico assistente. Procurar a emergência em caso de intercorrências.",
+  "entities": {
+    "Abreviação": [
+      "HAS",
+      "IAM",
+      "pós-IAM",
+      "ACTP",
+      "ACD",
+      "AAS",
+      "HF +"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "diagnóstico",
+      "Tabagismo",
+      "Obesidade",
+      "Dislipidemia",
+      "IAM",
+      "cardiopatia isquêmica"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "encaminhado",
+      "alta",
+      "recomendação",
+      "Retorno",
+      "Procurar"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ACTP",
+      "Procedimento",
+      "cateterismo cardíaco"
+    ],
+    "Conceito Quantitativo": [
+      "3",
+      "200 mg /dia",
+      "20 mg /dia"
+    ],
+    "Dispositivo Médico": [
+      "stents"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ACD"
+    ],
+    "Localização ou Região Corporal": [
+      "proximal",
+      "média",
+      "distal"
+    ],
+    "Negação": [
+      "sem",
+      "assintomático"
+    ],
+    "Sinal ou Sintoma": [
+      "intercorrências",
+      "assintomático"
+    ],
+    "Substância Química Orgânica": [
+      "clopidogrel",
+      "AAS",
+      "sinvastatina"
+    ],
+    "Substância Farmacológica": [
+      "clopidogrel",
+      "AAS",
+      "sinvastatina"
+    ],
+    "Organização Relacionada à Saúde": [
+      "emergência"
+    ],
+    "Achado": [
+      "HF +",
+      "bom estado geral"
+    ],
+    "Conceito Qualitativo": [
+      "sucesso angiográfico"
+    ],
+    "Conceito Temporal": [
+      "após 48",
+      "3 meses"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "médico assistente"
+    ]
+  },
+  "labels": {
+    "diagnóstico": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "ME66.2": {
+            "confidence_embedding": 0.7896,
+            "text": "Representação de doença CID-11: Pele redundante e excessiva. Definição: Condição que tipicamente ocorre em indivíduos previamente bastante obesos após perda de peso maciça, como após cirurgia bariátrica ou restrição calórica estrita."
+          }
+        },
+        {
+          "MC80.0Y": {
+            "confidence_embedding": 0.7628,
+            "text": "Representação de doença CID-11: Outro valor elevado da pressão arterial especificado, sem diagnóstico de hipertensão. Definição: "
+          }
+        },
+        {
+          "MC80.0": {
+            "confidence_embedding": 0.7575,
+            "text": "Representação de doença CID-11: Valor elevado da pressão arterial sem diagnóstico de hipertensão. Definição: "
+          }
+        },
+        {
+          "MB23.H": {
+            "confidence_embedding": 0.7574,
+            "text": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas."
+          }
+        },
+        {
+          "MC80.0Z": {
+            "confidence_embedding": 0.7574,
+            "text": "Representação de doença CID-11: Valor elevado da pressão arterial, sem diagnóstico de hipertensão, não especificada. Definição: "
+          }
+        }
+      ]
+    },
+    "has": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "ME66.2": {
+            "confidence_embedding": 0.7655,
+            "text": "Representação de doença CID-11: Pele redundante e excessiva. Definição: Condição que tipicamente ocorre em indivíduos previamente bastante obesos após perda de peso maciça, como após cirurgia bariátrica ou restrição calórica estrita."
+          }
+        },
+        {
+          "ME64": {
+            "confidence_embedding": 0.7387,
+            "text": "Representação de doença CID-11: Sinais vasculares cutâneos não específicos. Definição: Alterações perceptíveis na pele resultantes de alterações na composição do sangue, fluxo sanguíneo ou integridade dos vasos sanguíneos. Podem ser devidas a fatores locais ou podem indicar transtornos subjacentes, como anemia, hipovolemia, febre, hipóxia ou defeitos na coagulação."
+          }
+        },
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7384,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MB23.H": {
+            "confidence_embedding": 0.7364,
+            "text": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas."
+          }
+        },
+        {
+          "MC80.00": {
+            "confidence_embedding": 0.7353,
+            "text": "Representação de doença CID-11: Hipertensão do jaleco branco. Definição: Valores de pressão arterial persistentemente elevados no consultório com valores persistentemente normais fora do consultório."
+          }
+        }
+      ]
+    },
+    "cardiopatia isquêmica": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BC43": {
+            "confidence_embedding": 0.822,
+            "text": "Representação de doença CID-11: Cardiomiopatia. Definição: Transtornos do miocárdio em que o músculo cardíaco é estrutural e funcionalmente anormal, na ausência de doença arterial coronariana, hipertensão, doença valvar e doença cardíaca congênita suficiente para causar a anormalidade miocárdica observada."
+          }
+        },
+        {
+          "BA51": {
+            "confidence_embedding": 0.8182,
+            "text": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas."
+          }
+        },
+        {
+          "BC43.1": {
+            "confidence_embedding": 0.8132,
+            "text": "Representação de doença CID-11: Cardiomiopatia hipertrófica. Definição: A cardiomiopatia hipertrófica é a presença de um ventrículo hipertrofiado e não dilatado na ausência de uma causa hemodinâmica que seja capaz de produzir a magnitude existente de espessamento da parede, excluindo tanto a hipertrofia fisiológica secundária à atividade física quanto a hipertrofia patológica devida a hipertensão arterial sistêmica, estenose valvar aórtica e coarctação da aorta."
+          }
+        },
+        {
+          "BC43.6": {
+            "confidence_embedding": 0.8081,
+            "text": "Representação de doença CID-11: Cardiomiopatia ventricular arritmogênica. Definição: A cardiomiopatia ventricular arritmogênica é uma cardiomiopatia caracterizada pela perda de células miocárdicas com substituição parcial ou total do músculo ventricular direito por tecido adiposo e fibroso, começando pelo subepicárdio e se tornando transmural com o tempo, poupando os músculos papilares e trabéculas, e frequentemente associada a aneurismas, particularmente da via de saída ventricular direita. Há comprometimento sistólico progressivo com dilatação ventricular e acentuada propensão a arritmias ventriculares de origem ventricular direita, e também esquerda. Classicamente uma doença do ventrículo direito, evidências mais recentes sugerem envolvimento do ventrículo esquerdo em extensão variável em até 75% dos casos, assim como doença isolada do ventrículo esquerdo."
+          }
+        },
+        {
+          "BC44": {
+            "confidence_embedding": 0.808,
+            "text": "Representação de doença CID-11: Cardiomiopatia não compactada. Definição: A cardiomiopatia não compactada é uma anormalidade morfológica do miocárdio que afeta predominantemente o ápice do ventrículo, caracterizada por hipertrabeculação e recessos intertrabeculares profundos, geralmente acompanhados por uma camada subepicárdica anormalmente fina de miocárdio compactado, que geralmente, mas nem sempre, está associada à disfunção ventricular. \r\n\r\nInformações adicionais. A cardiomiopatia não compactada envolve classicamente o ventrículo esquerdo, mas também pode envolver apenas o ventrículo direito ou ambos. Pode ocorrer como um achado isolado ou em associação com um fenótipo cardiomiopático dilatado, hipertrófico ou misto. Foi descrita em associação a cardiopatia congênita complexa, anomalias das artérias coronárias e como um achado isolado, com e sem anormalidades musculoesqueléticas e outras anormalidades sistêmicas."
+          }
+        }
+      ]
+    },
+    "intercorrências": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NB90.50": {
+            "confidence_embedding": 0.7751,
+            "text": "Representação de doença CID-11: Laceração menor dos vasos sanguíneos renais. Definição: "
+          }
+        },
+        {
+          "NB90.61": {
+            "confidence_embedding": 0.7725,
+            "text": "Representação de doença CID-11: Laceração maior dos vasos sanguíneos ilíacos. Definição: "
+          }
+        },
+        {
+          "NE82.1": {
+            "confidence_embedding": 0.7714,
+            "text": "Representação de doença CID-11: Disfunção do marcapasso ou cardioversor desfibrilador implantável. Definição: "
+          }
+        },
+        {
+          "NE82.1Z": {
+            "confidence_embedding": 0.7701,
+            "text": "Representação de doença CID-11: Disfunção do marcapasso ou cardioversor desfibrilador implantável, não especificada. Definição: "
+          }
+        },
+        {
+          "NA05.Z": {
+            "confidence_embedding": 0.7695,
+            "text": "Representação de doença CID-11: Lesão dos vasos sanguíneos da cabeça, não especificada. Definição: "
+          }
+        }
+      ]
+    },
+    "iam": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BB72.0": {
+            "confidence_embedding": 0.7708,
+            "text": "Representação de doença CID-11: Estenose aórtica reumática com insuficiência. Definição: A estenose aórtica por cardiopatia reumática crônica tipicamente está associada à insuficiência aórtica. As comissuras e cúspides da válvula tornam-se aderentes e fundidas, e o orifício da valva torna-se pequeno. Na ausculta, S2 pode ser única porque os folhetos aórticos estão imóveis e não produzem um som de fechamento aórtico"
+          }
+        },
+        {
+          "BD52.71": {
+            "confidence_embedding": 0.7702,
+            "text": "Representação de doença CID-11: Dilatação adquirida da aorta ascendente ou da raiz. Definição: Aumento do diâmetro luminal da aorta entre a junção ventrículo-aórtica e a origem do primeiro ramo braquiocefálico acima do limite superior do normal ajustado para o tamanho do corpo que se desenvolve após o nascimento"
+          }
+        },
+        {
+          "BA81": {
+            "confidence_embedding": 0.7681,
+            "text": "Representação de doença CID-11: Aneurisma de artéria coronária. Definição: Dilatação coronária que excede o diâmetro dos segmentos adjacentes normais ou o diâmetro do maior vaso coronário do paciente em 1,5 vezes."
+          }
+        },
+        {
+          "BA83": {
+            "confidence_embedding": 0.7681,
+            "text": "Representação de doença CID-11: Fístula da artéria coronária, adquirida. Definição: Comunicação anormal entre uma artéria coronária e câmara cardíaca ou vasos principais, adquirida após cirurgia coronária ou cardíaca, angioplastia coronária, ruptura ou aneurisma da artéria coronária ou lesão do coração."
+          }
+        },
+        {
+          "BC81.30": {
+            "confidence_embedding": 0.7648,
+            "text": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+          }
+        }
+      ]
+    },
+    "hf+": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA01": {
+            "confidence_embedding": 0.7934,
+            "text": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração."
+          }
+        },
+        {
+          "BC81.30": {
+            "confidence_embedding": 0.7862,
+            "text": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+          }
+        },
+        {
+          "BA60.0": {
+            "confidence_embedding": 0.7833,
+            "text": "Representação de doença CID-11: Síndrome de Dressler. Definição: Condição pós infarto do miocárdio (1 a 8 semanas), caracterizada por um conjunto de sintomas associados, incluindo mal-estar, febre, desconforto pericárdico, leucocitose, taxa de sedimentação elevada e derrame pericárdico. Os pacientes com essa síndrome geralmente demonstram pericardite fibrinosa localizada contendo leucócitos polimorfonucleares."
+          }
+        },
+        {
+          "BC62": {
+            "confidence_embedding": 0.7816,
+            "text": "Representação de doença CID-11: Via acessória. Definição: Conexão elétrica adicional que tipicamente desvia do nó AV, tipicamente inserindo-se diretamente no miocárdio atrial e ventricular, mas também pode se conectar ao sistema de condução especializado (p.ex., o feixe de His, feixes direito ou esquerdo, ou um dos fascículos)."
+          }
+        },
+        {
+          "BA60.9": {
+            "confidence_embedding": 0.7811,
+            "text": "Representação de doença CID-11: Choque cardiogênico, não relacionado a complicações mecânicas, como complicação atual subsequente a infarto agudo do miocárdio. Definição: A expressão clínica mais grave da insuficiência ventricular esquerda e está associada a extensos danos ao miocárdio ventricular esquerdo após infarto agudo do miocárdio, não relacionado a um defeito mecânico como ruptura do septo ventricular ou do músculo papilar. Choque é definido como pressão arterial (PA) sistólica <90 mmHg e hipoperfusão de órgãos."
+          }
+        }
+      ]
+    },
+    "tabagismo": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "ME66.2": {
+            "confidence_embedding": 0.7613,
+            "text": "Representação de doença CID-11: Pele redundante e excessiva. Definição: Condição que tipicamente ocorre em indivíduos previamente bastante obesos após perda de peso maciça, como após cirurgia bariátrica ou restrição calórica estrita."
+          }
+        },
+        {
+          "MB23.H": {
+            "confidence_embedding": 0.7374,
+            "text": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas."
+          }
+        },
+        {
+          "MF95": {
+            "confidence_embedding": 0.7335,
+            "text": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular."
+          }
+        },
+        {
+          "ME64.2": {
+            "confidence_embedding": 0.7315,
+            "text": "Representação de doença CID-11: Palidez. Definição: Palidez da pele, podendo ser resultante de anemia grave ou choque hipovolêmico."
+          }
+        },
+        {
+          "MF40.3": {
+            "confidence_embedding": 0.7312,
+            "text": "Representação de doença CID-11: Ejaculação retrógrada. Definição: A ejaculação retrógrada é uma condição na qual o sêmen, que normalmente é ejaculado pela uretra, é redirecionado para a bexiga urinária. A ejaculação retrógrada é tipicamente acompanhada por orgasmo subjetivo, embora o homem possa notar que a liberação de sêmen é limitada ou ausente. A ejaculação retrógrada ocorre mais comumente como uma complicação da ressecção transuretral da próstata, porém também pode ser causada por outra cirurgia pélvica, disfunção do sistema nervoso ou uso de agentes farmacológicos. A confirmação é feita pela identificação de espermatozoides em uma amostra de urina."
+          }
+        }
+      ]
+    },
+    "obesidade": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FB32.20": {
+            "confidence_embedding": 0.7529,
+            "text": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave."
+          }
+        },
+        {
+          "FB85": {
+            "confidence_embedding": 0.7318,
+            "text": "Representação de doença CID-11: Doença de Paget do osso. Definição: Trata-se de um transtorno caracterizado pelo aumento excessivo da reabsorção óssea por osteoclastos multinucleados, associado a uma atividade osteoblástica desorganizada, que leva à formação de um tecido ósseo frágil, anormalmente vascularizado, espessado, enfraquecido e deformado."
+          }
+        },
+        {
+          "FB50.1": {
+            "confidence_embedding": 0.7248,
+            "text": "Representação de doença CID-11: Bursite associada com o uso, uso excessivo ou pressão. Definição: Esta é uma inflamação de uma ou mais bursas (pequenas bolsas) sinoviais, que geralmente resulta em dor e é causada por uso repetitivo, uso excessivo ou pressão."
+          }
+        },
+        {
+          "FA90": {
+            "confidence_embedding": 0.722,
+            "text": "Representação de doença CID-11: Infecção da vértebra. Definição: Afecção da vértebra, causada por infecção bacteriana, viral, fúngica ou parasitária. Geralmente se apresenta com febre, calafrios, cefaleia, perda de peso, mas pode ser assintomática. A confirmação diagnóstica é feita pela identificação do agente infeccioso em amostra de sangue ou por exames de imagem."
+          }
+        },
+        {
+          "FA38.2": {
+            "confidence_embedding": 0.7211,
+            "text": "Representação de doença CID-11: Artropatia associada a reações de hipersensibilidade classificadas em outra parte. Definição: "
+          }
+        }
+      ]
+    },
+    "dislipidemia": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA51": {
+            "confidence_embedding": 0.7798,
+            "text": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas."
+          }
+        },
+        {
+          "BC43": {
+            "confidence_embedding": 0.7754,
+            "text": "Representação de doença CID-11: Cardiomiopatia. Definição: Transtornos do miocárdio em que o músculo cardíaco é estrutural e funcionalmente anormal, na ausência de doença arterial coronariana, hipertensão, doença valvar e doença cardíaca congênita suficiente para causar a anormalidade miocárdica observada."
+          }
+        },
+        {
+          "BB72.0": {
+            "confidence_embedding": 0.7713,
+            "text": "Representação de doença CID-11: Estenose aórtica reumática com insuficiência. Definição: A estenose aórtica por cardiopatia reumática crônica tipicamente está associada à insuficiência aórtica. As comissuras e cúspides da válvula tornam-se aderentes e fundidas, e o orifício da valva torna-se pequeno. Na ausculta, S2 pode ser única porque os folhetos aórticos estão imóveis e não produzem um som de fechamento aórtico"
+          }
+        },
+        {
+          "BA83": {
+            "confidence_embedding": 0.7693,
+            "text": "Representação de doença CID-11: Fístula da artéria coronária, adquirida. Definição: Comunicação anormal entre uma artéria coronária e câmara cardíaca ou vasos principais, adquirida após cirurgia coronária ou cardíaca, angioplastia coronária, ruptura ou aneurisma da artéria coronária ou lesão do coração."
+          }
+        },
+        {
+          "BA41.Z": {
+            "confidence_embedding": 0.7681,
+            "text": "Representação de doença CID-11: Infarto agudo do miocárdio não especificado. Definição: "
+          }
+        }
+      ]
+    }
+  }
+}

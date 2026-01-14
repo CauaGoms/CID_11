@@ -1,0 +1,543 @@
+{
+  "prontuario_id": 899,
+  "text": "# LUCAS, 78 ANOS. SEGUNDA CONSULTA. RETORNO COM EXAMES.  # REFERE INCONTINENCIA URINARIA AOS ESFORÇOS. NEGA DEMAIS QUEIXAS URINARIAS.  # HAS HA 20 ANOS, DM HA 20 ANOS, DSLP. HISTERECTOMIZADA AOS 45 ANOS, RETIROU OVARIO DIR AOS 19 ANOS. G 1 C 1 A 0. NEGA ALERGIA A MEDICAMENTOS.  # AAS 100 MG; LEVOTIROXINA 25MCG; METFORMINA 850MG 1 CP; OMEPRAZOL 20MG 1 CP; LOSARTANA 50MG 12/12; BEZAFIBRATO 200MG; PREMARIN 0,3MG; CITRATO DE CALCIO 600MG; COLECALCIFEROL. # MAE FALECEU AOS 54 POR IAM, PAI FACELEU DE CA PROSTATA AOS 74 ANOS.  # LAB: CREAT 1,4; U 68; CKD-EPI 35,9; GLICEMIA 128; K 5,2; URINA LEVEMENTE TURVA, PH 7, LEUC 29; GASO VEN: PH 7,36; PCO2 52,60; HCO3 29.  # BEG, LOTE, NORMOCORADA, HIDRATADA. PULMONAR SP. CARDIACO SP. MMII: VARIZES BILAT MAIS PRONUNCIADAS EM MIE. PA 130/80, FC 72.  # PEÇO US DE RINS E VIAS URINARIAS, PEÇO LAB, RETORNO EM 6 MESES.",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "CONSULTA",
+      "RETORNO"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAMES",
+      "US DE RINS E VIAS URINARIAS"
+    ],
+    "Negação": [
+      "NEGA",
+      "SP"
+    ],
+    "Abreviação": [
+      "HAS",
+      "DM",
+      "DSLP",
+      "G",
+      "C",
+      "A",
+      "AAS",
+      "CP",
+      "IAM",
+      "LAB",
+      "BEG",
+      "LOTE",
+      "SP",
+      "MMII",
+      "MIE",
+      "PA",
+      "FC",
+      "RETIROU OVARIO DIR",
+      "CA PROSTATA",
+      "CREAT 1 , 4",
+      "U 68",
+      "CKD-EPI 35 , 9",
+      "K 5 , 2",
+      "PH 7",
+      "LEUC 29",
+      "GASO VEN",
+      "PCO2 52 , 60",
+      "HCO3 29",
+      "VARIZES BILAT",
+      "US DE RINS E VIAS URINARIAS"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DM",
+      "DSLP",
+      "IAM",
+      "INCONTINENCIA URINARIA AOS ESFORÇOS",
+      "ALERGIA A MEDICAMENTOS",
+      "VARIZES BILAT"
+    ],
+    "Atributo Clínico": [
+      "G",
+      "C",
+      "A",
+      "PULMONAR",
+      "CARDIACO",
+      "PA",
+      "FC"
+    ],
+    "Conceito Quantitativo": [
+      "1",
+      "0",
+      "25MCG",
+      "200MG",
+      "600MG",
+      "130/80",
+      "72",
+      "100 MG",
+      "0 , 3MG"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "C",
+      "RETIROU OVARIO DIR"
+    ],
+    "Substância Química Orgânica": [
+      "AAS",
+      "LEVOTIROXINA",
+      "METFORMINA",
+      "OMEPRAZOL",
+      "LOSARTANA",
+      "BEZAFIBRATO",
+      "PREMARIN",
+      "COLECALCIFEROL",
+      "CITRATO DE CALCIO"
+    ],
+    "Substância Farmacológica": [
+      "AAS",
+      "LEVOTIROXINA",
+      "METFORMINA",
+      "OMEPRAZOL",
+      "LOSARTANA",
+      "BEZAFIBRATO",
+      "PREMARIN",
+      "COLECALCIFEROL",
+      "CITRATO DE CALCIO"
+    ],
+    "Conceito Temporal": [
+      "12/12"
+    ],
+    "Vitamina": [
+      "COLECALCIFEROL"
+    ],
+    "Grupo Familiar": [
+      "MAE",
+      "PAI"
+    ],
+    "Achado": [
+      "FALECEU",
+      "FACELEU",
+      "BEG",
+      "LOTE",
+      "NORMOCORADA",
+      "HIDRATADA",
+      "SP",
+      "HISTERECTOMIZADA AOS 45 ANOS",
+      "RETIROU OVARIO DIR"
+    ],
+    "Localização ou Região Corporal": [
+      "CARDIACO",
+      "MMII",
+      "MIE"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS URINARIAS"
+    ],
+    "Processo Neoplásico": [
+      "CA PROSTATA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CREAT 1 , 4",
+      "U 68",
+      "CKD-EPI 35 , 9",
+      "GLICEMIA 128",
+      "K 5 , 2",
+      "URINA LEVEMENTE TURVA",
+      "PH 7",
+      "LEUC 29",
+      "PH 7 , 36",
+      "PCO2 52 , 60",
+      "HCO3 29"
+    ],
+    "Procedimento Laboratorial": [
+      "GASO VEN"
+    ],
+    "Conceito Qualitativo": [
+      "MAIS PRONUNCIADAS"
+    ]
+  },
+  "labels": {
+    "incontinencia urinaria aos esforços": {
+      "capitulo": "16",
+      "opcoes": [
+        {
+          "GC40.53": {
+            "confidence_embedding": 0.8066,
+            "text": "Representação de doença CID-11: Incontinência por transbordamento associada a prolapso de órgão pélvico. Definição: Condição do sistema urinário, causada pelo esvaziamento incompleto de urina da bexiga e por um músculo detrusor acontrátil. Esta condição é caracterizada por incontinência urinária e perda de urina em pequenos volumes. Essa condição pode estar associada a obstrução, músculos da bexiga enfraquecidos, lesão, uso de medicamentos, diabetes mellitus, dano a nervo ou disfunção do sistema nervoso."
+          }
+        },
+        {
+          "GC40.5": {
+            "confidence_embedding": 0.797,
+            "text": "Representação de doença CID-11: Incontinência urinária associada a prolapso de órgãos pélvicos. Definição: Uma afecção do sistema urinário, causada pelo deslocamento anormal de um ou mais órgãos pélvicos. Esta afecção é caracterizada pela perda involuntária de urina. A confirmação é feita por urinálise."
+          }
+        },
+        {
+          "GC40.52": {
+            "confidence_embedding": 0.7905,
+            "text": "Representação de doença CID-11: Incontinência urinária mista associada a prolapso de órgão pélvico. Definição: Condição do sistema urinário, causada por hiperatividade do detrusor e função uretral prejudicada. Esta condição é caracterizada por uma combinação de sintomas de incontinência de esforço e urgência, incluindo perda involuntária de urina, urgência urinária, aumento da frequência urinária ou incontinência urinária ao tossir, rir, espirrar, praticar exercícios ou outras atividades físicas que aumentem a pressão intra-abdominal."
+          }
+        },
+        {
+          "GC40.50": {
+            "confidence_embedding": 0.782,
+            "text": "Representação de doença CID-11: Incontinência de esforço associada a prolapso de órgão pélvico. Definição: Condição do sistema urinário, causada por fraqueza dos músculos do assoalho pélvico e aumento da pressão intra-abdominal, causando pressão na bexiga. Esta condição é caracterizada por uma mudança na posição da uretra, permitindo que a urina saia facilmente, e incontinência urinária ao tossir, rir, espirrar, praticar exercícios ou outras atividades físicas que aumentem a pressão intra-abdominal."
+          }
+        },
+        {
+          "GC40.51": {
+            "confidence_embedding": 0.7803,
+            "text": "Representação de doença CID-11: Incontinência de urgência associada a prolapso de órgão pélvico. Definição: Condição do sistema urinário, causada por disfunção do detrusor. Esta condição é caracterizada por incontinência urinária que acompanha a hiperreflexia do detrusor quando um volume específico da bexiga é atingido, perda de urina, falta de urgência para urinar ou falta de consciência do enchimento da bexiga."
+          }
+        }
+      ]
+    },
+    "histerectomizada aos 45 anos": {
+      "capitulo": "16",
+      "opcoes": [
+        {
+          "GC40.53": {
+            "confidence_embedding": 0.7745,
+            "text": "Representação de doença CID-11: Incontinência por transbordamento associada a prolapso de órgão pélvico. Definição: Condição do sistema urinário, causada pelo esvaziamento incompleto de urina da bexiga e por um músculo detrusor acontrátil. Esta condição é caracterizada por incontinência urinária e perda de urina em pequenos volumes. Essa condição pode estar associada a obstrução, músculos da bexiga enfraquecidos, lesão, uso de medicamentos, diabetes mellitus, dano a nervo ou disfunção do sistema nervoso."
+          }
+        },
+        {
+          "GC75": {
+            "confidence_embedding": 0.7699,
+            "text": "Representação de doença CID-11: Mau funcionamento do segmento aferente de uma bolsa urinária continente. Definição: Uma afecção caracterizada pela disfunção ou falta de função de um reservatório de urina criado cirurgicamente dentro do corpo, especificamente ao longo do caminho pelo qual a urina entra na bolsa."
+          }
+        },
+        {
+          "GC76": {
+            "confidence_embedding": 0.7698,
+            "text": "Representação de doença CID-11: Mau funcionamento do segmento eferente de uma bolsa urinária continente. Definição: Uma condição caracterizada pela disfunção ou falta de função de um reservatório de urina criado cirurgicamente dentro do corpo, especificamente ao longo do caminho pelo qual a urina sai da bolsa."
+          }
+        },
+        {
+          "GC40.5": {
+            "confidence_embedding": 0.7634,
+            "text": "Representação de doença CID-11: Incontinência urinária associada a prolapso de órgãos pélvicos. Definição: Uma afecção do sistema urinário, causada pelo deslocamento anormal de um ou mais órgãos pélvicos. Esta afecção é caracterizada pela perda involuntária de urina. A confirmação é feita por urinálise."
+          }
+        },
+        {
+          "GC40.50": {
+            "confidence_embedding": 0.7622,
+            "text": "Representação de doença CID-11: Incontinência de esforço associada a prolapso de órgão pélvico. Definição: Condição do sistema urinário, causada por fraqueza dos músculos do assoalho pélvico e aumento da pressão intra-abdominal, causando pressão na bexiga. Esta condição é caracterizada por uma mudança na posição da uretra, permitindo que a urina saia facilmente, e incontinência urinária ao tossir, rir, espirrar, praticar exercícios ou outras atividades físicas que aumentem a pressão intra-abdominal."
+          }
+        }
+      ]
+    },
+    "faleceu": {
+      "capitulo": "23",
+      "opcoes": [
+        {
+          "PL14.C": {
+            "confidence_embedding": 0.7225,
+            "text": "Representação de doença CID-11: Paciente recebeu teste diagnóstico ou tratamento destinado a outro paciente. Definição: "
+          }
+        },
+        {
+          "PK93.4": {
+            "confidence_embedding": 0.7172,
+            "text": "Representação de doença CID-11: Dispositivos de gastroenterologia ou urologia associados às lesões ou danos, dispositivos diversos, não classificados em outra parte. Definição: "
+          }
+        },
+        {
+          "PH56": {
+            "confidence_embedding": 0.7162,
+            "text": "Representação de doença CID-11: Exposição de intenção indeterminada a outras ou não especificadas substâncias principalmente não medicinais quanto a origem ou a seus efeitos nocivos. Definição: "
+          }
+        },
+        {
+          "PK81.2": {
+            "confidence_embedding": 0.7149,
+            "text": "Representação de doença CID-11: Aspiração ou drenagem da cavidade corporal ou coleta de fluidos associada à lesão ou dano durante uso terapêutico. Definição: "
+          }
+        },
+        {
+          "PK93.1Y": {
+            "confidence_embedding": 0.7141,
+            "text": "Representação de doença CID-11: Outros dispositivos de gastroenterologia ou urologia especificados associados às lesões ou danos, dispositivos terapêuticos, não cirúrgicos ou de reabilitação. Definição: "
+          }
+        }
+      ]
+    },
+    "retirou ovario dir": {
+      "capitulo": "16",
+      "opcoes": [
+        {
+          "GA30.6": {
+            "confidence_embedding": 0.7739,
+            "text": "Representação de doença CID-11: Falência ovariana prematura. Definição: Menopausa que ocorre espontaneamente antes dos 40 anos de idade, geralmente resultando em amenorréia secundária, embora algumas mulheres possam apresentar função ovárica intermitente e ovulação, com uma minoria concebendo e dando à luz uma gravidez. FOP corre principalmente sem uma causa conhecida, mas pode ser causado pelas seguintes condições: anormalidades cromossômicas numéricas e estruturais, pré-mutações do X frágil, transtornos autoimunes, radioterapia, quimioterapia, galactosemia e outros defeitos enzimáticos raros ou mutações. É subdividido em 4 categorias de acordo com a causa: congênita, adquirida, iatrogênica e desconhecida."
+          }
+        },
+        {
+          "GA10.C2": {
+            "confidence_embedding": 0.7695,
+            "text": "Representação de doença CID-11: Endometriose do peritônio pélvico. Definição: Condição que é frequentemente idiopática. Esta condição é caracterizada por crescimento e função ectópicos de tecido endometrial com extensão de 5 milímetros ou menos sob a superfície visceral ou parietal do peritônio e aparecendo como lesões preta-amarronzadas ou vermelho-alaranjadas claras. Esta condição pode ser associada a tecido vestigial remanescente do ducto wolfiano ou mulleriano, ou a refluxo retrogrado de fragmentos de endométrio para a cavidade peritoneal durante a menstruação. Esta condição pode se apresentar com dismenorreia, dispareunia, dor pélvica não menstrual, infertilidade, alteração da menstruação, ou pode ser assintomática. A confirmação é feita por identificação laparoscópica de fragmentos ectópicos."
+          }
+        },
+        {
+          "GC07": {
+            "confidence_embedding": 0.7631,
+            "text": "Representação de doença CID-11: Carúncula uretral. Definição: Uma afecção caracterizada por pequenas massas polipóides focais, benignas, rosadas ou vermelhas da mucosa uretral distal, que podem se tornar dolorosas, sangrentas e de cor vermelha profunda. Essa afecção pode estar associada à atrofia urogenital devida à deficiência de estrogênio e pode ser agravada pela irritação crônica da exposição da mucosa uretral. Essa afecção geralmente afeta mulheres na pós-menopausa."
+          }
+        },
+        {
+          "GA32.0": {
+            "confidence_embedding": 0.7624,
+            "text": "Representação de doença CID-11: Síndrome de hiperestimulação ovariana. Definição: Doença do sistema endócrino, causada por níveis séricos elevados do hormônio gonadotrofina coriônica humana, comumente após o uso de tratamentos injetáveis para fertilidade. Esta doença é caracterizada por aumento ovariano e complicações hemodinâmicas ou metabólicas. Essa doença também pode se manifestar com dor abdominal, distensão abdominal ou ganho de peso, dependendo dos sintomas graduais."
+          }
+        },
+        {
+          "GA34.5": {
+            "confidence_embedding": 0.7591,
+            "text": "Representação de doença CID-11: Síndrome do remanescente ovariano. Definição: Dor pélvica crônica em uma paciente após salpingoooforectomia bilateral para endometriose grave ou DIP, causada por tecido cortical ovariano residual deixado in situ após dissecção difícil. Os sintomas podem incluir dor pélvica lateralizada, geralmente cíclica e associada a sintomas geniturinários ou gastrointestinais. Os sinais podem incluir uma massa sensível na região lateral da pelve."
+          }
+        }
+      ]
+    },
+    "iam": {
+      "capitulo": "23",
+      "opcoes": [
+        {
+          "PL13.7": {
+            "confidence_embedding": 0.7524,
+            "text": "Representação de doença CID-11: Medicamento ou substância que é sabidamente contraindicada para o paciente como modo de lesão ou dano. Definição: "
+          }
+        },
+        {
+          "PH56": {
+            "confidence_embedding": 0.7515,
+            "text": "Representação de doença CID-11: Exposição de intenção indeterminada a outras ou não especificadas substâncias principalmente não medicinais quanto a origem ou a seus efeitos nocivos. Definição: "
+          }
+        },
+        {
+          "PK93.4": {
+            "confidence_embedding": 0.7431,
+            "text": "Representação de doença CID-11: Dispositivos de gastroenterologia ou urologia associados às lesões ou danos, dispositivos diversos, não classificados em outra parte. Definição: "
+          }
+        },
+        {
+          "PK93.1Y": {
+            "confidence_embedding": 0.7399,
+            "text": "Representação de doença CID-11: Outros dispositivos de gastroenterologia ou urologia especificados associados às lesões ou danos, dispositivos terapêuticos, não cirúrgicos ou de reabilitação. Definição: "
+          }
+        },
+        {
+          "PK93.10": {
+            "confidence_embedding": 0.7394,
+            "text": "Representação de doença CID-11: Dispositivos de gastroenterologia ou urologia associados às lesões ou danos, cateter urinário. Definição: "
+          }
+        }
+      ]
+    },
+    "dslp": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BB24": {
+            "confidence_embedding": 0.7458,
+            "text": "Representação de doença CID-11: Hemopericárdio. Definição: Hemopericárdio causado por doenças não classificadas em outra parte. Hemopericárdio geralmente se refere a sangue no saco pericárdico do coração. É clinicamente semelhante ao derrame pericárdico e, dependendo do volume e da rapidez com que se desenvolve, pode causar tamponamento cardíaco."
+          }
+        },
+        {
+          "BD10": {
+            "confidence_embedding": 0.7456,
+            "text": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos."
+          }
+        },
+        {
+          "BD54": {
+            "confidence_embedding": 0.7424,
+            "text": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos."
+          }
+        },
+        {
+          "BD53.40": {
+            "confidence_embedding": 0.7364,
+            "text": "Representação de doença CID-11: Ateroembolismo de colesterol para rins. Definição: Isso ocorre quando o colesterol é liberado, geralmente de uma placa aterosclerótica, e viaja junto com a corrente sanguínea (embolia) para outros locais nos rins, onde obstrui vasos sanguíneos."
+          }
+        },
+        {
+          "BD53.4": {
+            "confidence_embedding": 0.7348,
+            "text": "Representação de doença CID-11: Ateroembolismo de colesterol. Definição: Oclusão embólica de pequenas artérias e arteríolas distais por cristais de colesterol liberados de placa aterosclerótica em artérias maiores mais centrais. A isquemia microvascular resultante é acompanhada por uma resposta inflamatória à presença de cristais de colesterol. Isso pode ocorrer espontaneamente ou como uma complicação de angiografia ou cirurgia vascular. Os órgãos mais comumente afetados incluem pele, rins, trato gastrointestinal e cérebro. Manifestações cutâneas, presentes na maioria dos casos, incluem livedo reticularis e necrose e ulceração isquêmicas focais; estas estão comumente associadas a lesão renal aguda."
+          }
+        }
+      ]
+    },
+    "varizes bilat": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FB32.20": {
+            "confidence_embedding": 0.7617,
+            "text": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave."
+          }
+        },
+        {
+          "FB51.4": {
+            "confidence_embedding": 0.716,
+            "text": "Representação de doença CID-11: Fibrose retroperitoneal. Definição: Fibrose retroperitoneal (FRP) é uma doença caracterizada pela formação de extensa proliferação de tecido fibroso no retroperitônio, resultando em encarceramento e obstrução de estruturas retroperitoneais, particularmente os ureteres. A FRP pode ser classificada em primária (idiopática), o que significa que sua causa não é conhecida, ou secundária. No entanto, sua associação com várias condições imunomediadas e sua resposta ao tratamento imunossupressor têm levado á especulação de etiologia autoimune para a FRP idiopática. Um terço dos casos são secundários a neoplasias malignas, medicamentos, traumatismo e algumas infecções."
+          }
+        },
+        {
+          "FA25": {
+            "confidence_embedding": 0.7127,
+            "text": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato."
+          }
+        },
+        {
+          "FB40.3": {
+            "confidence_embedding": 0.7002,
+            "text": "Representação de doença CID-11: Tendinite calcária. Definição: Este é um transtorno caracterizado pela deposição de hidroxiapatita em qualquer tendão do corpo, causando inflamação e dor."
+          }
+        },
+        {
+          "FA23": {
+            "confidence_embedding": 0.6976,
+            "text": "Representação de doença CID-11: Doença de Still do adulto. Definição: A doença de Still de início na idade adulta é uma condição reumática rara, caracterizada por uma associação de sintomas, como febre acima de 39 graus C, eritema cutâneo durante picos febris, dor articular ou muscular, hipertrofia de linfonodos, aumento de leucócitos (especialmente neutrófilos polimorfonucleares) e anormalidades do metabolismo hepático."
+          }
+        }
+      ]
+    },
+    "queixas urinarias": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MF55": {
+            "confidence_embedding": 0.806,
+            "text": "Representação de doença CID-11: Poliúria. Definição: A poliúria é uma condição definida como produção ou passagem excessiva ou anormalmente grande de urina."
+          }
+        },
+        {
+          "MF95": {
+            "confidence_embedding": 0.8028,
+            "text": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular."
+          }
+        },
+        {
+          "MF92": {
+            "confidence_embedding": 0.801,
+            "text": "Representação de doença CID-11: Quilúria. Definição: A quilúria, também chamada de urina quilosa, é uma condição médica que envolve a presença de quilo no jato urinário, o que resulta na aparência da urina de cor branca leitosa."
+          }
+        },
+        {
+          "MF97": {
+            "confidence_embedding": 0.7939,
+            "text": "Representação de doença CID-11: Piúria. Definição: Piúria é uma condição urinária caracterizada por um número elevado de leucócitos na urina. Número alto é definido como pelo menos 10 leucócitos por milímetro cúbico (mm³) de urina centrifugada. A piúria pode fazer com que a urina pareça turva ou com pus."
+          }
+        },
+        {
+          "MF50.2": {
+            "confidence_embedding": 0.7916,
+            "text": "Representação de doença CID-11: Incontinência urinária. Definição: Qualquer condição do sistema urinário, causada por determinantes que surgem durante o período pré-natal ou após o nascimento, levando à perda do controle voluntário ou do suporte da uretra. Essas condições são caracterizadas por vazamento involuntário de grandes quantidades de urina, em associação com contrações não inibidas do músculo detrusor e a incapacidade de controlar a micção."
+          }
+        }
+      ]
+    },
+    "ca prostata": {
+      "capitulo": "16",
+      "opcoes": [
+        {
+          "GA91.0": {
+            "confidence_embedding": 0.8124,
+            "text": "Representação de doença CID-11: Prostatite crônica. Definição: Afecção causada por obstrução das glândulas da próstata. Esta afecção é caracterizada por inflamação da próstata, disúria, polaciúria, urgência urinária, dor genital, dor lombar, dor abdominal e infecções repetidas da bexiga que duram pelo menos três meses."
+          }
+        },
+        {
+          "GC40.52": {
+            "confidence_embedding": 0.8065,
+            "text": "Representação de doença CID-11: Incontinência urinária mista associada a prolapso de órgão pélvico. Definição: Condição do sistema urinário, causada por hiperatividade do detrusor e função uretral prejudicada. Esta condição é caracterizada por uma combinação de sintomas de incontinência de esforço e urgência, incluindo perda involuntária de urina, urgência urinária, aumento da frequência urinária ou incontinência urinária ao tossir, rir, espirrar, praticar exercícios ou outras atividades físicas que aumentem a pressão intra-abdominal."
+          }
+        },
+        {
+          "GC40.5": {
+            "confidence_embedding": 0.805,
+            "text": "Representação de doença CID-11: Incontinência urinária associada a prolapso de órgãos pélvicos. Definição: Uma afecção do sistema urinário, causada pelo deslocamento anormal de um ou mais órgãos pélvicos. Esta afecção é caracterizada pela perda involuntária de urina. A confirmação é feita por urinálise."
+          }
+        },
+        {
+          "GC40.53": {
+            "confidence_embedding": 0.8046,
+            "text": "Representação de doença CID-11: Incontinência por transbordamento associada a prolapso de órgão pélvico. Definição: Condição do sistema urinário, causada pelo esvaziamento incompleto de urina da bexiga e por um músculo detrusor acontrátil. Esta condição é caracterizada por incontinência urinária e perda de urina em pequenos volumes. Essa condição pode estar associada a obstrução, músculos da bexiga enfraquecidos, lesão, uso de medicamentos, diabetes mellitus, dano a nervo ou disfunção do sistema nervoso."
+          }
+        },
+        {
+          "GC40.50": {
+            "confidence_embedding": 0.7988,
+            "text": "Representação de doença CID-11: Incontinência de esforço associada a prolapso de órgão pélvico. Definição: Condição do sistema urinário, causada por fraqueza dos músculos do assoalho pélvico e aumento da pressão intra-abdominal, causando pressão na bexiga. Esta condição é caracterizada por uma mudança na posição da uretra, permitindo que a urina saia facilmente, e incontinência urinária ao tossir, rir, espirrar, praticar exercícios ou outras atividades físicas que aumentem a pressão intra-abdominal."
+          }
+        }
+      ]
+    },
+    "dm": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BD54": {
+            "confidence_embedding": 0.7621,
+            "text": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos."
+          }
+        },
+        {
+          "BB24": {
+            "confidence_embedding": 0.7578,
+            "text": "Representação de doença CID-11: Hemopericárdio. Definição: Hemopericárdio causado por doenças não classificadas em outra parte. Hemopericárdio geralmente se refere a sangue no saco pericárdico do coração. É clinicamente semelhante ao derrame pericárdico e, dependendo do volume e da rapidez com que se desenvolve, pode causar tamponamento cardíaco."
+          }
+        },
+        {
+          "BD10": {
+            "confidence_embedding": 0.7568,
+            "text": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos."
+          }
+        },
+        {
+          "BB82.0": {
+            "confidence_embedding": 0.7461,
+            "text": "Representação de doença CID-11: Estenose tricúspide reumática com insuficiência. Definição: Insuficiência da valva tricúspide devida a anormalidades nos folhetos pode ser secundária a cardiopatia reumática. Quando devida a esta última, geralmente ocorre em combinação com estenose tricúspide"
+          }
+        },
+        {
+          "BD53.40": {
+            "confidence_embedding": 0.7457,
+            "text": "Representação de doença CID-11: Ateroembolismo de colesterol para rins. Definição: Isso ocorre quando o colesterol é liberado, geralmente de uma placa aterosclerótica, e viaja junto com a corrente sanguínea (embolia) para outros locais nos rins, onde obstrui vasos sanguíneos."
+          }
+        }
+      ]
+    },
+    "faceleu": {
+      "capitulo": "23",
+      "opcoes": [
+        {
+          "PL13.7": {
+            "confidence_embedding": 0.7384,
+            "text": "Representação de doença CID-11: Medicamento ou substância que é sabidamente contraindicada para o paciente como modo de lesão ou dano. Definição: "
+          }
+        },
+        {
+          "PK93.4": {
+            "confidence_embedding": 0.7341,
+            "text": "Representação de doença CID-11: Dispositivos de gastroenterologia ou urologia associados às lesões ou danos, dispositivos diversos, não classificados em outra parte. Definição: "
+          }
+        },
+        {
+          "PL14.C": {
+            "confidence_embedding": 0.7339,
+            "text": "Representação de doença CID-11: Paciente recebeu teste diagnóstico ou tratamento destinado a outro paciente. Definição: "
+          }
+        },
+        {
+          "PH56": {
+            "confidence_embedding": 0.7334,
+            "text": "Representação de doença CID-11: Exposição de intenção indeterminada a outras ou não especificadas substâncias principalmente não medicinais quanto a origem ou a seus efeitos nocivos. Definição: "
+          }
+        },
+        {
+          "PK93.1Y": {
+            "confidence_embedding": 0.7334,
+            "text": "Representação de doença CID-11: Outros dispositivos de gastroenterologia ou urologia especificados associados às lesões ou danos, dispositivos terapêuticos, não cirúrgicos ou de reabilitação. Definição: "
+          }
+        }
+      ]
+    }
+  }
+}

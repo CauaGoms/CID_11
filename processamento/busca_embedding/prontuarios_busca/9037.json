@@ -1,0 +1,134 @@
+{
+  "prontuario_id": 738,
+  "text": "Há 30 dias sentiu uma dor em MSD e notou que o 4° e 5° QDD caíram e não conseguiu mais extender.\nTRata de AR há 8 anos. \nVem para avaliar Rotura de 4° e 5° tendões extensores de mão D.      ",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "dor",
+      "4° e 5° QDD caíram"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD"
+    ],
+    "Abreviação": [
+      "MSD",
+      "AR",
+      "4° e 5° QDD caíram"
+    ],
+    "Negação": [
+      "não"
+    ],
+    "Doença ou Síndrome": [
+      "AR"
+    ],
+    "Achado": [
+      "conseguiu mais extender"
+    ]
+  },
+  "labels": {
+    "4° e 5° qdd caíram": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FB53": {
+            "confidence_embedding": 0.6907,
+            "text": "Representação de doença CID-11: Lesões do ombro. Definição: Este é um grupo de transtornos que usualmente se caracterizam pela presença de dor e redução da amplitude de movimento da cintura escapular"
+          }
+        },
+        {
+          "FA34.2": {
+            "confidence_embedding": 0.6882,
+            "text": "Representação de doença CID-11: Instabilidade recidivante da articulação. Definição: "
+          }
+        },
+        {
+          "FB50.Y": {
+            "confidence_embedding": 0.6843,
+            "text": "Representação de doença CID-11: Outra bursite especificada. Definição: "
+          }
+        },
+        {
+          "FB80.Z": {
+            "confidence_embedding": 0.6825,
+            "text": "Representação de doença CID-11: Transtorno da densidade ou da estrutura óssea, não especificado. Definição: "
+          }
+        },
+        {
+          "FC00.Y": {
+            "confidence_embedding": 0.6803,
+            "text": "Representação de doença CID-11: Deformidades adquiridas do sistema musculoesquelético ou tecido conjuntivo, não classificadas em outra parte, em outras localizações especificadas. Definição: "
+          }
+        }
+      ]
+    },
+    "ar": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CB41.1": {
+            "confidence_embedding": 0.741,
+            "text": "Representação de doença CID-11: Insuficiência respiratória crônica. Definição: Na insuficiência respiratória crônica a hipoxemia ocorre ao longo de semanas ou meses (mais de 7 dias) e a insuficiência respiratória se desenvolve mais lentamente e dura mais tempo do que na insuficiência respiratória aguda."
+          }
+        },
+        {
+          "CA23": {
+            "confidence_embedding": 0.7271,
+            "text": "Representação de doença CID-11: Asma. Definição: Asma é um transtorno inflamatório crônico das vias aéreas na qual muitas células e elementos celulares têm um papel. É caracterizada por uma responsividade aumentada de traqueia e brônquios a vários estímulos e se manifesta por um estreitamento difuso das vias aéreas que altera em gravidade tanto espontaneamente quanto como resultado de tratamento. Isso ocasiona episódios recorrentes de sibilância, falta de ar, sensação de aperto no peito e tosse, particularmente à noite ou no início da manhã."
+          }
+        },
+        {
+          "CA70.2": {
+            "confidence_embedding": 0.723,
+            "text": "Representação de doença CID-11: Pulmão dos criadores de pássaros. Definição: Pulmão dos criadores de pássaros, também chamado de doença pulmonar dos alimentadores de pombos, é uma alveolite alérgica causada por inalação de partículas emanadas de aves, algumas vezes especificadas por espécies de ave. A apresentação pode ser aguda com calafrios, tosse, febre, falta de ar, opressão torácica usualmente com resolução dentro de 24 horas, após cessação da exposição ao antígeno, subagudas com tosse e dispneia ao longo de vários dias a semanas, enquanto formas crônicas resultam em falta de ar, tosse, perda de apetite ou perda de peso."
+          }
+        },
+        {
+          "CA70.7": {
+            "confidence_embedding": 0.7209,
+            "text": "Representação de doença CID-11: Pulmão do ar-condicionado ou do umidificador. Definição: Forma da síndrome do edifício doente causada por organismos que contaminam umidificadores e tubulações de aparelhos de ar-condicionado. O ar-condicionado expele ar frio contendo esporos dos organismos em todo o edifício."
+          }
+        },
+        {
+          "CA23.32": {
+            "confidence_embedding": 0.7202,
+            "text": "Representação de doença CID-11: Asma não especificada, não complicada. Definição: "
+          }
+        }
+      ]
+    },
+    "dor": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MG31": {
+            "confidence_embedding": 0.7716,
+            "text": "Representação de doença CID-11: Dor aguda. Definição: Dor com duração inferior a 3 meses.\r\n\r\nEste código deve ser usado apenas quando não houver especificações adicionais de localização da dor."
+          }
+        },
+        {
+          "MG30.31": {
+            "confidence_embedding": 0.756,
+            "text": "Representação de doença CID-11: Dor musculoesquelética secundária crônica associada a alterações estruturais. Definição: Dor musculoesquelética secundária crônica associada a alterações estruturais é uma dor crônica de mecanismo(s) desconhecido(s), que é atribuível a alterações anatômicas em articulação(ões), osso(s) ou tendão(ões). A alteração estrutural precisa ser inferida a partir de exame clínico e/ou demonstrável por exame de imagem. A dor pode ser espontânea ou induzida por movimento. É caracterizada por aspectos clínicos como inchaço, alodinia ou restrição de movimentos.\r\n\r\nCritérios de Diagnóstico:\r\n\r\nAs condições de A a D são preenchidas:\r\n\r\nA) Dor crônica (persistente ou recorrente por mais de 3 meses) em articulação(ões), osso(s) ou tendão(ões) está presente. A dor pode ser espontânea ou induzida por movimento.\r\n\r\nB) Pelo menos um dos seguintes critérios atendidos:\r\nB1) Inchaço está presente.\r\nB2) Alodinia sobre a parte está presente.\r\n\r\nC) A alteração estrutural é inferida a partir de exame clínico ou de imagem.\r\n\r\nD) A dor não é melhor explicada por outro diagnóstico de dor crônica."
+          }
+        },
+        {
+          "MG30.21": {
+            "confidence_embedding": 0.7541,
+            "text": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática."
+          }
+        },
+        {
+          "MG30.30": {
+            "confidence_embedding": 0.7537,
+            "text": "Representação de doença CID-11: Dor musculoesquelética secundária crônica por inflamação persistente. Definição: A dor musculoesquelética secundária crônica por inflamação persistente é uma dor crônica devida a mecanismos inflamatórios na(s) articulação(ões), osso(s), tendão(ões), músculo(s), tecido(s) moles(s) ou coluna vertebral. A dor pode ser espontânea ou induzida por movimento. É caracterizada por aspectos clínicos de inflamação, incluindo aumento da sensibilidade daquela região a estímulos."
+          }
+        },
+        {
+          "MG30.10": {
+            "confidence_embedding": 0.7489,
+            "text": "Representação de doença CID-11: Dor crônica por câncer. Definição: Dor crônica por câncer é uma dor crônica causada pelo câncer primário ou metástases. A probabilidade da dor ser causada pelo câncer deve ser alta; se sua origem for vaga, considere o uso de códigos na seção de dor primária crônica."
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "prontuario_id": 800,
+  "text": "Paciente em POT DE GASTROPLASTIA POR SLEEVE, ENCAMINHADO DO AMBULATORIO DA cx bariatrica para tratamento de hernia ventral. \nComorbidade: insuficiencia cardiaca ( estenose mitral ?)\nMedicações de uso continuo: captopril, carvedilol, espironolactona, digoxina, marevam. \npedido exames pré - operatórios para cx de herniplastia.\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Conceito Temporal": [
+      "POT"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ENCAMINHADO",
+      "pedido"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "tratamento",
+      "GASTROPLASTIA POR SLEEVE",
+      "cx de herniplastia"
+    ],
+    "Doença ou Síndrome": [
+      "Comorbidade",
+      "insuficiencia cardiaca",
+      "estenose mitral"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "captopril"
+    ],
+    "Substância Farmacológica": [
+      "captopril",
+      "carvedilol",
+      "espironolactona",
+      "digoxina",
+      "marevam",
+      "Medicações de uso continuo"
+    ],
+    "Substância Química Orgânica": [
+      "carvedilol",
+      "espironolactona",
+      "digoxina"
+    ],
+    "Abreviação": [
+      "AMBULATORIO DA cx bariatrica",
+      "cx de herniplastia"
+    ],
+    "Organização Relacionada à Saúde": [
+      "AMBULATORIO DA cx bariatrica"
+    ],
+    "Anormalidade Anatômica": [
+      "hernia ventral"
+    ],
+    "Procedimento Diagnóstico": [
+      "exames pré - operatórios"
+    ],
+    "Procedimento Laboratorial": [
+      "exames pré - operatórios"
+    ]
+  },
+  "labels": {
+    "hernia ventral": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DD56": {
+            "confidence_embedding": 0.7244,
+            "text": "Representação de doença CID-11: Hernia incisional. Definição: A hérnia que ocorre em área fragilizada pela incisão de cirurgia abdominal prévia ou de trauma abdominal maior."
+          }
+        },
+        {
+          "DD50": {
+            "confidence_embedding": 0.7147,
+            "text": "Representação de doença CID-11: Hérnia de parede não abdominal. Definição: Hérnia que ocorre através do forame no diafragma, na parede pélvica e em outra abertura coberta por peritônio mas não através da parede abdominal."
+          }
+        },
+        {
+          "DD50.Y": {
+            "confidence_embedding": 0.7065,
+            "text": "Representação de doença CID-11: Hérnia de parede não abdominal, especificada. Definição: "
+          }
+        },
+        {
+          "DA21.21": {
+            "confidence_embedding": 0.7044,
+            "text": "Representação de doença CID-11: Peristaltismo hipotensivo. Definição: Este é um transtorno de motilidade do esôfago caracterizado por peristaltismo reduzido. A disfunção peristáltica provavelmente leva à depuração de volume prejudicada."
+          }
+        },
+        {
+          "DD50.21": {
+            "confidence_embedding": 0.7037,
+            "text": "Representação de doença CID-11: Hérnia intra-abdominal secundária. Definição: Hérnia que ocorre dentro do abdômen e de forma secundária através da abertura recoberta por peritônio após cirurgia abdominal ou traumatismo."
+          }
+        }
+      ]
+    },
+    "estenose mitral": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BB63.0": {
+            "confidence_embedding": 0.7979,
+            "text": "Representação de doença CID-11: Estenose mitral reumática com insuficiência. Definição: Estenose mitral e insuficiência mitral ocorrem em pacientes com cardiopatia reumática."
+          }
+        },
+        {
+          "BB60.0": {
+            "confidence_embedding": 0.7896,
+            "text": "Representação de doença CID-11: Estenose mitral reumática. Definição: A estenose mitral refere-se ao estreitamento do orifício da valva mitral, resultando em impedância de enchimento do ventrículo esquerdo na diástole. Geralmente é causada por doença cardíaca reumática."
+          }
+        },
+        {
+          "BB63.1": {
+            "confidence_embedding": 0.7795,
+            "text": "Representação de doença CID-11: Estenose mitral não reumática com insuficiência. Definição: É uma valvopatia não reumática caracterizada pelo estreitamento do orifício da valva mitral do coração, com regurgitação."
+          }
+        },
+        {
+          "BB60.1": {
+            "confidence_embedding": 0.7651,
+            "text": "Representação de doença CID-11: Estenose mitral não reumática. Definição: Estenose mitral é o estreitamento da passagem através da valva mitral devido à fibrose e calcinose nos folhetos e áreas de cordoalha. O motivo mais comum de estenose mitral é a febre reumática. Exceto febre reumática; LES, sarcoide maligno, endocardite infecciosa ativa, doença de Gota de Whipple, calcificação anular maciça causam estenose mitral."
+          }
+        },
+        {
+          "BB60.Z": {
+            "confidence_embedding": 0.7569,
+            "text": "Representação de doença CID-11: Estenose da valva mitral, não especificada. Definição: "
+          }
+        }
+      ]
+    },
+    "insuficiencia cardiaca": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BC43": {
+            "confidence_embedding": 0.736,
+            "text": "Representação de doença CID-11: Cardiomiopatia. Definição: Transtornos do miocárdio em que o músculo cardíaco é estrutural e funcionalmente anormal, na ausência de doença arterial coronariana, hipertensão, doença valvar e doença cardíaca congênita suficiente para causar a anormalidade miocárdica observada."
+          }
+        },
+        {
+          "BE10": {
+            "confidence_embedding": 0.7339,
+            "text": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite."
+          }
+        },
+        {
+          "BB63.0": {
+            "confidence_embedding": 0.7322,
+            "text": "Representação de doença CID-11: Estenose mitral reumática com insuficiência. Definição: Estenose mitral e insuficiência mitral ocorrem em pacientes com cardiopatia reumática."
+          }
+        },
+        {
+          "BA51": {
+            "confidence_embedding": 0.7294,
+            "text": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas."
+          }
+        },
+        {
+          "BA40.Y": {
+            "confidence_embedding": 0.7279,
+            "text": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: "
+          }
+        }
+      ]
+    }
+  }
+}

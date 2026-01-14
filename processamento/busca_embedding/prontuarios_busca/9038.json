@@ -1,0 +1,55 @@
+{
+  "prontuario_id": 37,
+  "text": "48 anos, 104 kg, 1m54.\nsolteira com 4 filhos.\naposentada por invalidez; mãe acima do peso; já faz 14 anos que começou a engordar.",
+  "entities": {
+    "Conceito Quantitativo": [
+      "1m54",
+      "4",
+      "104 kg"
+    ],
+    "Achado": [
+      "solteira"
+    ],
+    "Grupo Familiar": [
+      "filhos",
+      "mãe"
+    ]
+  },
+  "labels": {
+    "solteira": {
+      "capitulo": "24",
+      "opcoes": [
+        {
+          "QC64.Z": {
+            "confidence_embedding": 0.6847,
+            "text": "Representação de doença CID-11: História familiar de doenças endócrinas, nutricionais ou metabólicas, não especificada. Definição: "
+          }
+        },
+        {
+          "QC64.Y": {
+            "confidence_embedding": 0.6784,
+            "text": "Representação de doença CID-11: Outra história familiar especificada de doenças endócrinas, nutricionais ou metabólicas. Definição: "
+          }
+        },
+        {
+          "QA46.3": {
+            "confidence_embedding": 0.6779,
+            "text": "Representação de doença CID-11: Nascimento gemelar, um dos gêmeos, nativivo [nado-vivo], o outro, natimorto [feto-morto]. Definição: "
+          }
+        },
+        {
+          "QC68": {
+            "confidence_embedding": 0.6758,
+            "text": "Representação de doença CID-11: História familiar de consanguinidade. Definição: "
+          }
+        },
+        {
+          "QE70.0": {
+            "confidence_embedding": 0.665,
+            "text": "Representação de doença CID-11: Suporte familiar inadequado. Definição: "
+          }
+        }
+      ]
+    }
+  }
+}

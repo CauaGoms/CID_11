@@ -1,0 +1,765 @@
+{
+  "prontuario_id": 594,
+  "text": "01:25 horas. Paciente em 1º dia de Internamento. Proveniente do XXXX por suspeita de abdomem agudo. Apresentou broncoespasamo, suspeita de PNM. História prévia de AVC. Acamada, pouco comunicativa, apatica, hipocorada, desidratada e emagrecida. Pele fina e frágil. Equimoses em MMSS. Cabeceira elevada 45ºC. Dispnéica com suporte de 02 sob máscara de venturi em 4l/min. Taquidispnéica. Monitorização cardíaca e oxímetria de pulso contínua, FC: 120 bpm, sat: 96% e PA: 120/80 mmhg. Acesso venoso períferico mantendo soroterapia fravitacional. Tórax simétrico, apresentando esforço respiratório importante, ausculta pulmonar com presença de roncos e sibilos difusos. Abdomem levemente distendido, doloroso á palpação com rha diminuídos. SVD com débito citrico, evacuações ausentes até o momento. Segue sob os cuidados da equipe multiprofissional. Permanece em sala de emergência conforme ordem médica. PNEUMONIA NAO ESPECIFICADA.",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "Internamento",
+      "Permanece",
+      "cuidados da equipe multiprofissional",
+      "ordem médica"
+    ],
+    "Sinal ou Sintoma": [
+      "broncoespasamo",
+      "Acamada",
+      "apatica",
+      "hipocorada",
+      "desidratada",
+      "emagrecida",
+      "Equimoses",
+      "Dispnéica",
+      "Taquidispnéica",
+      "roncos",
+      "doloroso",
+      "pouco comunicativa",
+      "esforço respiratório importante",
+      "sibilos difusos",
+      "levemente distendido",
+      "rha diminuídos"
+    ],
+    "Abreviação": [
+      "PNM",
+      "AVC",
+      "MMSS",
+      "FC",
+      "sat",
+      "PA",
+      "SVD",
+      "rha diminuídos"
+    ],
+    "Doença ou Síndrome": [
+      "PNM",
+      "AVC",
+      "abdomem agudo"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "Pele",
+      "MMSS"
+    ],
+    "Conceito Qualitativo": [
+      "fina",
+      "frágil"
+    ],
+    "Conceito Quantitativo": [
+      "4l/min",
+      "96%",
+      "120 bpm",
+      "120/80 mmhg"
+    ],
+    "Atributo Clínico": [
+      "FC",
+      "sat",
+      "PA"
+    ],
+    "Localização ou Região Corporal": [
+      "Abdomem"
+    ],
+    "Procedimento Diagnóstico": [
+      "palpação",
+      "Monitorização cardíaca",
+      "oxímetria de pulso contínua",
+      "ausculta pulmonar"
+    ],
+    "Dispositivo Médico": [
+      "SVD",
+      "máscara de venturi",
+      "Acesso venoso períferico"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SVD",
+      "suporte de 02",
+      "soroterapia fravitacional"
+    ],
+    "Função Fisiológica": [
+      "evacuações"
+    ],
+    "Negação": [
+      "ausentes"
+    ],
+    "Conceito Temporal": [
+      "momento"
+    ],
+    "Achado": [
+      "Tórax simétrico"
+    ],
+    "Organização Relacionada à Saúde": [
+      "sala de emergência"
+    ]
+  },
+  "labels": {
+    "pnm": {
+      "capitulo": "02",
+      "opcoes": [
+        {
+          "2C25.0": {
+            "confidence_embedding": 0.728,
+            "text": "Representação de doença CID-11: Adenocarcinoma de brônquio ou pulmão. Definição: Carcinoma que surge do pulmão e é caracterizado pela presença de células epiteliais glandulares malignas. Existe uma predileção pelo sexo masculino com uma proporção de sexo masculino para feminino de 2:1. Geralmente o adenocarcinoma pulmonar é assintomático e é identificado por meio de estudos de triagem ou como um achado radiológico incidental. Se sintomas clínicos estiverem presentes, eles incluem falta de ar, tosse, hemoptise, dor no peito e febre. A fumaça do tabaco é fator de risco reconhecido."
+          }
+        },
+        {
+          "2A32": {
+            "confidence_embedding": 0.723,
+            "text": "Representação de doença CID-11: Trombocitopenia refratária. Definição: Síndrome mielodisplásica caracterizada pela presença de pelo menos 10% de megacariócitos displásicos, encontrados dentre pelo menos 30 megacariócitos examinados na medula óssea."
+          }
+        },
+        {
+          "2F20.3": {
+            "confidence_embedding": 0.7188,
+            "text": "Representação de doença CID-11: Nevos melanocíticos eruptivos generalizados. Definição: Este fenômeno descreve o rápido aparecimento simultâneo de múltiplos nevos melanocíticos, frequentemente centenas em número, em pele exposta ao sol previamente não acometida. O fenômeno tem sido associado a imunossupressão, particularmente em indivíduos que realizaram transplante renal e em indivíduos que estão recebendo quimioterapia contra câncer, e pode ser considerado uma contraparte mais avançada de lentiginose eruptiva generalizada."
+          }
+        },
+        {
+          "2C82": {
+            "confidence_embedding": 0.7168,
+            "text": "Representação de doença CID-11: Neoplasia maligna da próstata. Definição: O câncer de próstata contribui significativamente para a carga geral de câncer, sendo a neoplasia maligna mais frequente em homens. O número de casos tem aumentado continuamente nas últimas décadas, em parte devido à maior expectativa de vida. Um fator adicional é o estilo de vida ocidental, caracterizado por uma dieta altamente calórica e falta de exercícios físicos. Os dados epidemiológicos indicam que os negros são os mais suscetíveis, seguidos pelos brancos, enquanto os asiáticos apresentam o menor risco. Até que ponto a mortalidade por câncer de próstata pode ser reduzida pelo exame de PSA, está atualmente sendo avaliada. O diagnóstico histopatológico e a graduação desempenham um papel importante no tratamento do câncer de próstata"
+          }
+        },
+        {
+          "2C61.4": {
+            "confidence_embedding": 0.7077,
+            "text": "Representação de doença CID-11: Carcinoma invasivo de mama, tipo não identificável. Definição: Carcinoma que se infiltra no parênquima mamário e do qual o tipo histopatológico não foi identificado."
+          }
+        }
+      ]
+    },
+    "equimoses": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "EA90.3": {
+            "confidence_embedding": 0.771,
+            "text": "Representação de doença CID-11: Psoríase eritrodérmica. Definição: Psoríase eritrodérmica é uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele. A psoríase eritrodérmica geralmente se desenvolve a partir da psoríase em placas extensa mas pode surgir de forma nova. Fatores precipitantes ou desencadeantes incluem a retirada de glicocorticoides sistêmicos e, menos frequentemente, a descontinuação abrupta do metotrexato, queimaduras ou infecções intercorrentes. Os pacientes podem desenvolver hipotermia ou insuficiência cardíaca de alto débito."
+          }
+        },
+        {
+          "ED70.4": {
+            "confidence_embedding": 0.751,
+            "text": "Representação de doença CID-11: Eflúvio anágeno. Definição: Eflúvio anágeno ocorre após qualquer insulto ao folículo piloso que comprometa sua atividade mitótica ou metabólica. Os pacientes apresentam queda de cabelos difusa após exposição a drogas ou produtos químicos tóxicos. Agentes quimioterápicos são mais comumente responsáveis por queda de cabelo. A queda de cabelo mais grave ocorre em associação com a doxorrubicina, as nitrosoureias e a ciclofosfamida. A queda de cabelos geralmente começa 7-14 dias após um único pulso de quimioterapia. A queda de cabelo é clinicamente mais aparente após 1-2 meses."
+          }
+        },
+        {
+          "ED70.30": {
+            "confidence_embedding": 0.7421,
+            "text": "Representação de doença CID-11: Eflúvio telógeno agudo. Definição: Eflúvio telógeno agudo é uma queda de cabelos do couro cabeludo de início agudo que ocorre dois a três meses após um estresse desencadeante, muitas vezes com risco à vida, e que interrompe o crescimento anágeno normal do fio. É comumente observado em sobreviventes que necessitaram de cuidados intensivos para sepse, hemorragia, doença inflamatória ou traumatismo graves. Também pode resultar de desnutrição aguda. Um grande número de fios anágenos são convertidos em telógenos e são eliminados dois a três meses depois, resultando em uma alopecia difusa."
+          }
+        },
+        {
+          "EB13.1": {
+            "confidence_embedding": 0.7406,
+            "text": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável."
+          }
+        },
+        {
+          "EE11.1": {
+            "confidence_embedding": 0.7368,
+            "text": "Representação de doença CID-11: Síndrome das unhas amarelas. Definição: A síndrome das unhas amarelas é caracterizada por unhas amarelas, distróficas, grossas e de crescimento lento, associadas a linfedema e comprometimento respiratório. Menos de 100 casos foram descritos. O linfedema ocorre com maior frequência nos membros inferiores. Pode aparecer no nascimento ou mais tarde na vida. O início se segue, geralmente, ao aparecimento das unhas amarelas. Os pacientes usualmente sofrem de bronquite crônica e, em alguns casos, de sinusite crônica, bronquiectasia e pneumonite recorrente. Também podem apresentar derrame pleural (30% dos casos) e hiper-reatividade brônquica. A maioria dos casos é esporádica. No entanto, formas familiares foram descritas. A etiologia é desconhecida."
+          }
+        }
+      ]
+    },
+    "taquidispnéica": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.8495,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA22.0": {
+            "confidence_embedding": 0.8306,
+            "text": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia."
+          }
+        },
+        {
+          "CB0Z": {
+            "confidence_embedding": 0.8253,
+            "text": "Representação de doença CID-11: Doenças respiratórias que afetam principalmente o interstício pulmonar, não especificadas. Definição: "
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.8243,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        },
+        {
+          "CB0Y": {
+            "confidence_embedding": 0.8217,
+            "text": "Representação de doença CID-11: Outras doenças respiratórias que afetam principalmente o interstício pulmonar, especificadas. Definição: "
+          }
+        }
+      ]
+    },
+    "hipocorada": {
+      "capitulo": "06",
+      "opcoes": [
+        {
+          "6B23": {
+            "confidence_embedding": 0.7653,
+            "text": "Representação de doença CID-11: Hipocondria. Definição: Hipocondria é caracterizada pela preocupação ou medo persistente acerca da possibilidade de ter uma ou mais doenças sérias, progressivas ou fatais. A preocupação é acompanhada por: 1) comportamentos repetitivos e excessivos relacionados à saúde, como checar repetidamente o corpo procurando evidência de doença, gastar tempo excessivo buscando informação sobre a doença temida, buscar reafirmação repetidamente (p. ex., providenciar várias consultas médicas); ou 2) comportamento mal-adaptado de evitação relacionado à saúde (p. ex., evita consultas médicas). Os sintomas resultam em sofrimento significativo ou prejuízo significativo no funcionamento pessoal, familiar, social, educacional, ocupacional ou em outras áreas importantes."
+          }
+        },
+        {
+          "6B23.0": {
+            "confidence_embedding": 0.7463,
+            "text": "Representação de doença CID-11: Hipocondria com insight bom a razoável. Definição: Todos os critérios diagnósticos para hipocondria são preenchidos. Na maior parte do tempo, o indivíduo é capaz de considerar a possibilidade de que suas crenças específicas do transtorno possam não ser verdadeiras e está disposto a aceitar uma explicação alternativa para sua experiência. Em momentos circunscritos (p. ex., quando extremamente ansioso), o indivíduo pode não apresentar \"insight\"."
+          }
+        },
+        {
+          "6B23.1": {
+            "confidence_embedding": 0.7383,
+            "text": "Representação de doença CID-11: Hipocondria com insight pobre a ausente. Definição: Todos os critérios diagnósticos para hipocondria são preenchidos. Na maior parte do tempo ou o tempo todo, o indivíduo está convencido de que as crenças específicas do transtorno são verdadeiras e não consegue aceitar uma explicação alternativa para sua experiência. A falta de \"insight\" apresentada pelo indivíduo não varia acentuadamente de acordo com o nível de ansiedade."
+          }
+        },
+        {
+          "6C45.3": {
+            "confidence_embedding": 0.7305,
+            "text": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia."
+          }
+        },
+        {
+          "6C48.2": {
+            "confidence_embedding": 0.7295,
+            "text": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais."
+          }
+        }
+      ]
+    },
+    "dispnéica": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.8495,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA22.0": {
+            "confidence_embedding": 0.8306,
+            "text": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia."
+          }
+        },
+        {
+          "CB0Z": {
+            "confidence_embedding": 0.8253,
+            "text": "Representação de doença CID-11: Doenças respiratórias que afetam principalmente o interstício pulmonar, não especificadas. Definição: "
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.8243,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        },
+        {
+          "CB0Y": {
+            "confidence_embedding": 0.8217,
+            "text": "Representação de doença CID-11: Outras doenças respiratórias que afetam principalmente o interstício pulmonar, especificadas. Definição: "
+          }
+        }
+      ]
+    },
+    "levemente distendido": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DB32.0": {
+            "confidence_embedding": 0.7548,
+            "text": "Representação de doença CID-11: Pseudo-obstrução do cólon. Definição: A pseudo-obstrução do cólon é uma condição rara, com sintomas de diminuição da capacidade do cólon de fazer transitar líquidos, alimentos e ar, como aqueles causados ​​por uma obstrução cólica. Os achados clínicos e radiológicos são frequentemente semelhantes à obstrução verdadeira, mas nenhum bloqueio mecânico verdadeiro é encontrado. Os sintomas geralmente incluem dispepsia, constipação crônica e cólicas abdominais nos momentos em que está presente. Síndrome de Ogilvie: a pseudo-obstrução aguda do cólon em pacientes debilitados gravemente enfermos está incluída aqui como a forma aguda."
+          }
+        },
+        {
+          "DE11": {
+            "confidence_embedding": 0.7548,
+            "text": "Representação de doença CID-11: Síndrome de dumping. Definição: Síndrome de dumping é um grupo de sinais e sintomas que se desenvolve mais frequentemente em pessoas que foram submetidas a cirurgia para ressecção total ou parcial do estômago, ou em quem foi submetido a um bypass cirúrgico. Pode ocorrer precocemente (durante a refeição ou após 15-30 minutos com náuseas, vômitos, dor abdominal, cólicas, diarreia, tontura e palpitações cardíacas) ou tardiamente (1 a 3 horas após a refeição com sudorese, fraqueza, fadiga, tonturas, vertigens, palpitações cardíacas e desmaios)."
+          }
+        },
+        {
+          "DD50": {
+            "confidence_embedding": 0.7532,
+            "text": "Representação de doença CID-11: Hérnia de parede não abdominal. Definição: Hérnia que ocorre através do forame no diafragma, na parede pélvica e em outra abertura coberta por peritônio mas não através da parede abdominal."
+          }
+        },
+        {
+          "DA21.21": {
+            "confidence_embedding": 0.7484,
+            "text": "Representação de doença CID-11: Peristaltismo hipotensivo. Definição: Este é um transtorno de motilidade do esôfago caracterizado por peristaltismo reduzido. A disfunção peristáltica provavelmente leva à depuração de volume prejudicada."
+          }
+        },
+        {
+          "DB32.20": {
+            "confidence_embedding": 0.7479,
+            "text": "Representação de doença CID-11: Megacólon tóxico. Definição: Megacólon tóxico é uma forma aguda de distensão do cólon, caracterizada por dilatação acentuada do cólon, acompanhada por distensão abdominal (inchaço) e, às vezes, febre, dor abdominal ou choque. \"Tóxico\" significa que esta complicação ocorre com inflamação. O megacólon tóxico é uma rara dilatação do intestino grosso com risco de vida, que evolui em poucos dias, ocorrendo como complicação de doença inflamatória intestinal, tais como colite ulcerativa e doença de Crohn, ou colite de origem infecciosa."
+          }
+        }
+      ]
+    },
+    "broncoespasamo": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.7983,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA23.21": {
+            "confidence_embedding": 0.7819,
+            "text": "Representação de doença CID-11: Broncoespasmo induzido pelo exercício. Definição: Broncoespasmo induzido pelo exercício (BIE) descreve o estreitamento das vias aéreas que ocorre em associação ao exercício. BIE ocorre em até 90% dos pacientes asmáticos e estima-se que ocorra em >10% da população geral. Revisões recentes identificaram a asma como fator de risco para morte súbita e relataram mortes atribuídas diretamente à BIE."
+          }
+        },
+        {
+          "CA22.0": {
+            "confidence_embedding": 0.7747,
+            "text": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia."
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.7629,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        },
+        {
+          "CA42.3": {
+            "confidence_embedding": 0.7542,
+            "text": "Representação de doença CID-11: Bronquite aguda devida a vírus parainfluenza. Definição: Doenças dos brônquios, causada por infecção aguda por vírus parainfluenza. Esta doença é caracterizada por inflamação aguda dos brônquios, levando a tosse, produção de catarro, chieira torácica ou falta de ar. A transmissão ocorre por inalação de secreções respiratórias infectadas, por contato direto ou por meio de fômites. A confirmação é feita pela identificação do vírus parainfluenza nas secreções respiratórias, pela detecção de elevação significativa de anticorpos IgG específicos para o parainfluenza em amostras pareadas de soro ou pela detecção de IgM específica para o parainfluenza em uma única amostra de soro."
+          }
+        }
+      ]
+    },
+    "apatica": {
+      "capitulo": "06",
+      "opcoes": [
+        {
+          "6C48.2": {
+            "confidence_embedding": 0.774,
+            "text": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais."
+          }
+        },
+        {
+          "6C45.3": {
+            "confidence_embedding": 0.7683,
+            "text": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia."
+          }
+        },
+        {
+          "6C40.3": {
+            "confidence_embedding": 0.7624,
+            "text": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas."
+          }
+        },
+        {
+          "6E40.2": {
+            "confidence_embedding": 0.7583,
+            "text": "Representação de doença CID-11: Traços de personalidade ou estilos de enfrentamento afetando transtornos ou doenças classificados em outra parte. Definição: Todos os critérios diagnósticos para fatores psicológicos ou comportamentais afetando transtornos ou doenças classificados em outra parte são preenchidos. O indivíduo apresenta traços de personalidade ou estilos de enfrentamento que não preenchem critérios diagnósticos para um transtorno mental, comportamental ou do neurodesenvolvimento, que afetam de forma adversa a manifestação, o tratamento ou curso de um transtorno ou doença classificado em outro capítulo (p.ex., negação patológica da necessidade de cirurgia em um paciente com câncer; comportamento hostil e tenso contribuindo para doença cardíaca)."
+          }
+        },
+        {
+          "6E61": {
+            "confidence_embedding": 0.758,
+            "text": "Representação de doença CID-11: Síndrome psicótica secundária. Definição: Síndrome caracterizada pela presença de alucinações ou delírios proeminentes, considerados consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental, com base em evidências de anamnese, exame físico ou achados laboratoriais. Os sintomas não são explicados por delirium ou por outro transtorno mental e comportamental, e não são uma resposta psicologicamente mediada a uma condição médica grave (p. ex., uma reação aguda ao estresse em resposta ao diagnóstico de uma doença potencialmente fatal). Essa categoria deve ser utilizada somada ao diagnóstico do transtorno ou doença subjacente presumido, quando os sintomas psicóticos forem suficientemente graves para exigir atenção clínica específica."
+          }
+        }
+      ]
+    },
+    "doloroso": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DA20.3": {
+            "confidence_embedding": 0.7793,
+            "text": "Representação de doença CID-11: Perfuração do esôfago. Definição: Perfuração do esôfago é uma penetração ou orifício da parede do esôfago, resultando em conteúdo luminal no esôfago fluindo para o mediastino e/ou cavidade torácica."
+          }
+        },
+        {
+          "DA60.3": {
+            "confidence_embedding": 0.7704,
+            "text": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago."
+          }
+        },
+        {
+          "DB32.0": {
+            "confidence_embedding": 0.7543,
+            "text": "Representação de doença CID-11: Pseudo-obstrução do cólon. Definição: A pseudo-obstrução do cólon é uma condição rara, com sintomas de diminuição da capacidade do cólon de fazer transitar líquidos, alimentos e ar, como aqueles causados ​​por uma obstrução cólica. Os achados clínicos e radiológicos são frequentemente semelhantes à obstrução verdadeira, mas nenhum bloqueio mecânico verdadeiro é encontrado. Os sintomas geralmente incluem dispepsia, constipação crônica e cólicas abdominais nos momentos em que está presente. Síndrome de Ogilvie: a pseudo-obstrução aguda do cólon em pacientes debilitados gravemente enfermos está incluída aqui como a forma aguda."
+          }
+        },
+        {
+          "DB99.5": {
+            "confidence_embedding": 0.7501,
+            "text": "Representação de doença CID-11: Encefalopatia hepática. Definição: Encefalopatia hepática é uma complicação da cirrose hepática e uma marca da falência hepática aguda, sendo também observada em pacientes com shunts portossistêmicos sem cirrose. A encefalopatia hepática é caracterizada por mudanças de personalidade, incapacidade intelectual, asterixe e uma diminuição do nível de consciência. Em estágios avançados é chamada de coma hepático, o qual pode levar a morte. O diagnóstico da encefalopatia hepática é feito primariamente pelo reconhecimento das mudanças neuropsiquiátricas que ocorrem em um paciente com doença hepática, após a exclusão de doenças cerebrais."
+          }
+        },
+        {
+          "DC72.Z": {
+            "confidence_embedding": 0.7389,
+            "text": "Representação de doença CID-11: Divertículo do intestino delgado, sem especificação sobre a presença ou ausência de hemorragia. Definição: "
+          }
+        }
+      ]
+    },
+    "emagrecida": {
+      "capitulo": "05",
+      "opcoes": [
+        {
+          "5B5A.0": {
+            "confidence_embedding": 0.7549,
+            "text": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina."
+          }
+        },
+        {
+          "5C78": {
+            "confidence_embedding": 0.7462,
+            "text": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem."
+          }
+        },
+        {
+          "5B5C.0": {
+            "confidence_embedding": 0.7188,
+            "text": "Representação de doença CID-11: Pelagra. Definição: Pelagra é um transtorno potencialmente fatal devido à deficiência de niacina e é observada em indivíduos desnutridos, especialmente alcoólatras, assim como uma complicação da terapia com isoniazida. O diagnóstico é frequentemente esquecido ou atrasado. A pelagra se manifesta como diarreia, dermatite, demência, que geralmente aparecem nesta ordem. Os sintomas do trato gastrointestinal sempre precedem o envolvimento da pele, que se apresenta inicialmente com um eritema com bolhas semelhante a queimaduras de sol, geralmente afetando as superfícies dorsais das mãos, rosto, pescoço, braços e pés. Com o tempo, a pele torna-se mais espessa, escamosa e pigmentada."
+          }
+        },
+        {
+          "5B5K.7": {
+            "confidence_embedding": 0.7172,
+            "text": "Representação de doença CID-11: Deficiência de selênio. Definição: Deficiência de selênio é rara mas tem sido observada em indivíduos em uso prolongado de dieta parenteral total(NPT) sem selênio. Manifestações clínicas da deficiência decorrente de tal situação são incomuns e pouco definidas. Elas incluem fraqueza muscular e mialgia com, em casos graves, o desenvolvimento de insuficiência cardíaca congestiva. A importância do selênio para o metabolismo dos hormônios tireoidianos é evidente, a partir de mudanças na proporção T3-T4 que se desenvolvem após uma depleção de selênio relativamente leve em bebês e idosos"
+          }
+        },
+        {
+          "5C73.0": {
+            "confidence_embedding": 0.7172,
+            "text": "Representação de doença CID-11: Acidose respiratória aguda. Definição: É uma condição aguda na qual a diminuição da ventilação (hipoventilação) leva a um aumento da concentração de dióxido de carbono no sangue e diminuição do pH ( chamada acidose). O dióxido de carbono (CO2) é produzido continuamente à medida que as células do corpo respiram, e esse CO2 se acumulará rapidamente caso não seja adequadamente expulso/eliminado pelos pulmões através da ventilação alveolar. A hipoventilação alveolar, portanto, leva a um aumento da PaCO2 (chamada de hipercapnia). O aumento da PaCO2, por sua vez, reduz a relação HCO3/PaCO2, diminuindo assim o pH."
+          }
+        }
+      ]
+    },
+    "esforço respiratório importante": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.8401,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CB0Z": {
+            "confidence_embedding": 0.817,
+            "text": "Representação de doença CID-11: Doenças respiratórias que afetam principalmente o interstício pulmonar, não especificadas. Definição: "
+          }
+        },
+        {
+          "CA22.0": {
+            "confidence_embedding": 0.8125,
+            "text": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia."
+          }
+        },
+        {
+          "CB0Y": {
+            "confidence_embedding": 0.8122,
+            "text": "Representação de doença CID-11: Outras doenças respiratórias que afetam principalmente o interstício pulmonar, especificadas. Definição: "
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.8095,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        }
+      ]
+    },
+    "acamada": {
+      "capitulo": "06",
+      "opcoes": [
+        {
+          "6C48.2": {
+            "confidence_embedding": 0.7527,
+            "text": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais."
+          }
+        },
+        {
+          "6C45.3": {
+            "confidence_embedding": 0.7461,
+            "text": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia."
+          }
+        },
+        {
+          "6D85.6": {
+            "confidence_embedding": 0.7378,
+            "text": "Representação de doença CID-11: Demência devida à hidrocefalia de pressão normal. Definição: Demência devida à hidrocefalia de pressão normal resulta do acúmulo excessivo de líquido cefalorraquidiano no cérebro, como resultado de causas idiopáticas não obstrutivas, mas também pode ser secundário a hemorragia, infecção ou inflamação. A progressão é gradativa, mas a intervenção (p. ex., derivação) pode resultar em melhora dos sintomas, especialmente se realizada precocemente no curso da condição. Tipicamente, comprometimentos cognitivos incluem velocidade de processamento reduzida e déficits na funcionalidade executiva e na atenção. Esses sintomas também são tipicamente acompanhados de anormalidades da marcha e incontinência urinária. Exame de imagem cerebral para mostrar o volume ventricular e caracterizar o deslocamento cerebral frequentemente é necessário para confirmar o diagnóstico."
+          }
+        },
+        {
+          "6E61": {
+            "confidence_embedding": 0.7362,
+            "text": "Representação de doença CID-11: Síndrome psicótica secundária. Definição: Síndrome caracterizada pela presença de alucinações ou delírios proeminentes, considerados consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental, com base em evidências de anamnese, exame físico ou achados laboratoriais. Os sintomas não são explicados por delirium ou por outro transtorno mental e comportamental, e não são uma resposta psicologicamente mediada a uma condição médica grave (p. ex., uma reação aguda ao estresse em resposta ao diagnóstico de uma doença potencialmente fatal). Essa categoria deve ser utilizada somada ao diagnóstico do transtorno ou doença subjacente presumido, quando os sintomas psicóticos forem suficientemente graves para exigir atenção clínica específica."
+          }
+        },
+        {
+          "6C40.3": {
+            "confidence_embedding": 0.736,
+            "text": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas."
+          }
+        }
+      ]
+    },
+    "sibilos difusos": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.8158,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA22.0": {
+            "confidence_embedding": 0.7952,
+            "text": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia."
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.7782,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        },
+        {
+          "CB0Y": {
+            "confidence_embedding": 0.77,
+            "text": "Representação de doença CID-11: Outras doenças respiratórias que afetam principalmente o interstício pulmonar, especificadas. Definição: "
+          }
+        },
+        {
+          "CA42.3": {
+            "confidence_embedding": 0.7698,
+            "text": "Representação de doença CID-11: Bronquite aguda devida a vírus parainfluenza. Definição: Doenças dos brônquios, causada por infecção aguda por vírus parainfluenza. Esta doença é caracterizada por inflamação aguda dos brônquios, levando a tosse, produção de catarro, chieira torácica ou falta de ar. A transmissão ocorre por inalação de secreções respiratórias infectadas, por contato direto ou por meio de fômites. A confirmação é feita pela identificação do vírus parainfluenza nas secreções respiratórias, pela detecção de elevação significativa de anticorpos IgG específicos para o parainfluenza em amostras pareadas de soro ou pela detecção de IgM específica para o parainfluenza em uma única amostra de soro."
+          }
+        }
+      ]
+    },
+    "roncos": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.818,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA22.0": {
+            "confidence_embedding": 0.7863,
+            "text": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia."
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.7806,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        },
+        {
+          "CB0Z": {
+            "confidence_embedding": 0.7696,
+            "text": "Representação de doença CID-11: Doenças respiratórias que afetam principalmente o interstício pulmonar, não especificadas. Definição: "
+          }
+        },
+        {
+          "CB25": {
+            "confidence_embedding": 0.768,
+            "text": "Representação de doença CID-11: Fibrotórax. Definição: Fibrotórax resulta da fibrose da pleura visceral e se manifesta clinicamente por excursão respiratória reduzida e por fisiologia pulmonar restritiva. Existem dois mecanismos distintos que podem levar à formação do fibrotórax: 1) Mais frequentemente o fibrotórax se desenvolve como consequência de inflamação pleural em pacientes com derrames pleurais, inclusive hemotórax, derrame tuberculso ou empiema crônico; 2) Menos frequentemente, o fibrotórax resulta de doença parenquimatosa pulmonar e pode ser observado em pacientes com tuberculose, bronquiectasias ou abscesso pulmonar."
+          }
+        }
+      ]
+    },
+    "avc": {
+      "capitulo": "02",
+      "opcoes": [
+        {
+          "2C25.0": {
+            "confidence_embedding": 0.7602,
+            "text": "Representação de doença CID-11: Adenocarcinoma de brônquio ou pulmão. Definição: Carcinoma que surge do pulmão e é caracterizado pela presença de células epiteliais glandulares malignas. Existe uma predileção pelo sexo masculino com uma proporção de sexo masculino para feminino de 2:1. Geralmente o adenocarcinoma pulmonar é assintomático e é identificado por meio de estudos de triagem ou como um achado radiológico incidental. Se sintomas clínicos estiverem presentes, eles incluem falta de ar, tosse, hemoptise, dor no peito e febre. A fumaça do tabaco é fator de risco reconhecido."
+          }
+        },
+        {
+          "2A32": {
+            "confidence_embedding": 0.7362,
+            "text": "Representação de doença CID-11: Trombocitopenia refratária. Definição: Síndrome mielodisplásica caracterizada pela presença de pelo menos 10% de megacariócitos displásicos, encontrados dentre pelo menos 30 megacariócitos examinados na medula óssea."
+          }
+        },
+        {
+          "2C61.4": {
+            "confidence_embedding": 0.7121,
+            "text": "Representação de doença CID-11: Carcinoma invasivo de mama, tipo não identificável. Definição: Carcinoma que se infiltra no parênquima mamário e do qual o tipo histopatológico não foi identificado."
+          }
+        },
+        {
+          "2C62": {
+            "confidence_embedding": 0.7095,
+            "text": "Representação de doença CID-11: Carcinoma inflamatório de mama. Definição: Adenocarcinoma de mama invasivo avançado, caracterizado pela presença de alterações distintas na pele subjacente. Essas alterações incluem eritema difuso, edema, aparência de casca de laranja, sensibilidade, endurecimento, calor, aumento e, em alguns casos, uma massa palpável. As alterações cutâneas são consequência da obstrução linfática do adenocarcinoma invasivo da mama. Microscopicamente, os linfáticos dérmicos mostram infiltração proeminente por células malignas. O adenocarcinoma invasivo da mama é geralmente do tipo ductal SOE. Não há infiltrado de células inflamatórias significativo presente, apesar do nome desse carcinoma."
+          }
+        },
+        {
+          "2F20.3": {
+            "confidence_embedding": 0.707,
+            "text": "Representação de doença CID-11: Nevos melanocíticos eruptivos generalizados. Definição: Este fenômeno descreve o rápido aparecimento simultâneo de múltiplos nevos melanocíticos, frequentemente centenas em número, em pele exposta ao sol previamente não acometida. O fenômeno tem sido associado a imunossupressão, particularmente em indivíduos que realizaram transplante renal e em indivíduos que estão recebendo quimioterapia contra câncer, e pode ser considerado uma contraparte mais avançada de lentiginose eruptiva generalizada."
+          }
+        }
+      ]
+    },
+    "rha diminuídos": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DA60.3": {
+            "confidence_embedding": 0.7708,
+            "text": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago."
+          }
+        },
+        {
+          "DA20.3": {
+            "confidence_embedding": 0.7707,
+            "text": "Representação de doença CID-11: Perfuração do esôfago. Definição: Perfuração do esôfago é uma penetração ou orifício da parede do esôfago, resultando em conteúdo luminal no esôfago fluindo para o mediastino e/ou cavidade torácica."
+          }
+        },
+        {
+          "DA20.30": {
+            "confidence_embedding": 0.7591,
+            "text": "Representação de doença CID-11: Ruptura espontânea do esôfago. Definição: Perfuração espontânea da parede esofágica. Isso mais comumente resulta de um aumento súbito da pressão intraesofágica combinado com uma pressão intratorácica relativamente negativa causada por esforço ou vômito. Isso é conhecido como ruptura de esforço do esôfago ou síndrome de Boerhaave."
+          }
+        },
+        {
+          "DB98.A": {
+            "confidence_embedding": 0.751,
+            "text": "Representação de doença CID-11: Hemorragia hepática. Definição: Sangramento espontâneo traumático ou não traumático no fígado. A causa mais comum deste último é a ruptura de tumores hepáticos."
+          }
+        },
+        {
+          "DE11": {
+            "confidence_embedding": 0.7508,
+            "text": "Representação de doença CID-11: Síndrome de dumping. Definição: Síndrome de dumping é um grupo de sinais e sintomas que se desenvolve mais frequentemente em pessoas que foram submetidas a cirurgia para ressecção total ou parcial do estômago, ou em quem foi submetido a um bypass cirúrgico. Pode ocorrer precocemente (durante a refeição ou após 15-30 minutos com náuseas, vômitos, dor abdominal, cólicas, diarreia, tontura e palpitações cardíacas) ou tardiamente (1 a 3 horas após a refeição com sudorese, fraqueza, fadiga, tonturas, vertigens, palpitações cardíacas e desmaios)."
+          }
+        }
+      ]
+    },
+    "desidratada": {
+      "capitulo": "05",
+      "opcoes": [
+        {
+          "5B5A.0": {
+            "confidence_embedding": 0.7863,
+            "text": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina."
+          }
+        },
+        {
+          "5C78": {
+            "confidence_embedding": 0.7657,
+            "text": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem."
+          }
+        },
+        {
+          "5B5K.7": {
+            "confidence_embedding": 0.7558,
+            "text": "Representação de doença CID-11: Deficiência de selênio. Definição: Deficiência de selênio é rara mas tem sido observada em indivíduos em uso prolongado de dieta parenteral total(NPT) sem selênio. Manifestações clínicas da deficiência decorrente de tal situação são incomuns e pouco definidas. Elas incluem fraqueza muscular e mialgia com, em casos graves, o desenvolvimento de insuficiência cardíaca congestiva. A importância do selênio para o metabolismo dos hormônios tireoidianos é evidente, a partir de mudanças na proporção T3-T4 que se desenvolvem após uma depleção de selênio relativamente leve em bebês e idosos"
+          }
+        },
+        {
+          "5B5K.A": {
+            "confidence_embedding": 0.7493,
+            "text": "Representação de doença CID-11: Deficiência de molibdênio. Definição: O molibdênio funciona como cofator para um número limitado de enzimas em humanos: sulfito oxidase, xantina oxidase e aldeído oxidase. Foi descrito um defeito metabólico grave e raro que causa deficiência do cofator de molibdênio e impede que essas enzimas sejam sintetizadas. Poucos bebês com esses defeitos sobrevivem aos primeiros dias de vida e os que sobrevivem apresentam graves anormalidades neurológicas. Embora a deficiência de molibdênio relacionada a uma deficiência alimentar seja extremamente rara em humanos, ela foi descrita na nutrição parenteral total (NPT) de longo prazo como secundária à administração de sulfito. Os sintomas incluem: taquicardia, dor de cabeça, cegueira noturna, irritabilidade e coma. As alterações bioquímicas podem consistir em elevadas concentrações plasmáticas de metionina , baixa concentração sérica de ácido úrico, altos níveis de tiossulfato urinário e baixos níveis urinários de ácido úrico e sulfato."
+          }
+        },
+        {
+          "5A02.5": {
+            "confidence_embedding": 0.7394,
+            "text": "Representação de doença CID-11: Crise tireotóxica. Definição: Crise tireotóxica (ou tempestade tireoidiana) é uma condição rara porém grave complicação do hipertireoidismo, que pode ocorrer quando um paciente tireotóxico fica muito doente ou fisicamente estressado."
+          }
+        }
+      ]
+    },
+    "abdomem agudo": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CA22.0": {
+            "confidence_embedding": 0.7985,
+            "text": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia."
+          }
+        },
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.7975,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.78,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        },
+        {
+          "CB00": {
+            "confidence_embedding": 0.7716,
+            "text": "Representação de doença CID-11: Síndrome do desconforto respiratório agudo. Definição: Síndrome do desconforto respiratório agudo (SDRA) é uma inflamação e edema nos pulmões com risco de vida iminente, que leva a insuficiência respiratória aguda grave. A SDRA é uma síndrome clínica de lesão pulmonar com insuficiência respiratória aguda hipoxêmica causada por intensa inflamação pulmonar que se desenvolve após lesão fisiopatológica grave."
+          }
+        },
+        {
+          "CA05.1": {
+            "confidence_embedding": 0.7651,
+            "text": "Representação de doença CID-11: Traqueíte aguda. Definição: Esta condição se refere à inflamação aguda da traqueia."
+          }
+        }
+      ]
+    },
+    "pouco comunicativa": {
+      "capitulo": "06",
+      "opcoes": [
+        {
+          "6C48.2": {
+            "confidence_embedding": 0.7296,
+            "text": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais."
+          }
+        },
+        {
+          "6B25.1": {
+            "confidence_embedding": 0.7293,
+            "text": "Representação de doença CID-11: Transtorno de escoriação. Definição: Transtorno de escoriação é caracterizado pela escoriação recorrente da própria pele, levando a lesões de pele, acompanhado de tentativas malsucedidas de reduzir ou parar o comportamento. Os locais mais comumente afetados são rosto, braços e mãos, mas muitos indivíduos escoriam vários locais do corpo. O comportamento pode ocorrer em episódios breves e distribuídos ao longo de todo o dia ou em períodos menos frequentes mas mais longos. Os sintomas resultam em sofrimento significativo ou prejuízo significativo na funcionalidade pessoal, familiar, social, educacional, ocupacional ou em outras áreas importantes da funcionalidade."
+          }
+        },
+        {
+          "6C40.3": {
+            "confidence_embedding": 0.7291,
+            "text": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas."
+          }
+        },
+        {
+          "6C45.3": {
+            "confidence_embedding": 0.7288,
+            "text": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia."
+          }
+        },
+        {
+          "6E61": {
+            "confidence_embedding": 0.7181,
+            "text": "Representação de doença CID-11: Síndrome psicótica secundária. Definição: Síndrome caracterizada pela presença de alucinações ou delírios proeminentes, considerados consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental, com base em evidências de anamnese, exame físico ou achados laboratoriais. Os sintomas não são explicados por delirium ou por outro transtorno mental e comportamental, e não são uma resposta psicologicamente mediada a uma condição médica grave (p. ex., uma reação aguda ao estresse em resposta ao diagnóstico de uma doença potencialmente fatal). Essa categoria deve ser utilizada somada ao diagnóstico do transtorno ou doença subjacente presumido, quando os sintomas psicóticos forem suficientemente graves para exigir atenção clínica específica."
+          }
+        }
+      ]
+    }
+  }
+}

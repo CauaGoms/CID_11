@@ -1,0 +1,637 @@
+{
+  "prontuario_id": 763,
+  "text": "TX RENAL.\n\nEM USO DE PRED 5, MS 2 / 2, TACROLIMO 2 / 2; OMEPRAZOL - PAROU E VOLTOU, CVDL 25 1X, AAS - PAROU POR CONTA, ENALAPRIL 5 - PAROU HOJE, ACICLOVIR, FLUCONAZOL E CETOCONAZOL. \n\n\nS # IVAS HÁ 1 MES , \nLESÕES ''ALERGICAS'' EM TRONCO, EM USO DE FLUCONAZOL E CETOCONAZOL, MAS SEM MELHORA\nDIARRÉIA. \n\nO # PESO 80.\nPA 120/80.\nEXAME FISICO :  LESÕES HIPEREMIADAS EM COLO E ABDOME>> SUGERE DERMATITE DE CONTATO, PROVÁVEL SABONETE ANTISSEPTICO.\nCPP LIVRES.\n \nSUSPENDO ACICLOVIR, REDUZO MS.\nSUSPENDO FLUCONAZOL E CETOCONAZOL.\nCIPRO 7 DIAS.\nTX RENAL CR 1,1, TACROLIMO 5.\nLESÕES DE PELE /  DERMATITE CONTATO ?\nHAS COMPENSADO.\nDISPEPSIA.\nIVAS : EXACERBAÇÃO AGUDA DE BRONQUITE CRONICA\n ",
+  "entities": {
+    "Substância Farmacológica": [
+      "PRED",
+      "TACROLIMO",
+      "OMEPRAZOL",
+      "CVDL",
+      "AAS",
+      "ENALAPRIL",
+      "ACICLOVIR",
+      "FLUCONAZOL",
+      "CETOCONAZOL",
+      "MS",
+      "CIPRO"
+    ],
+    "Abreviação": [
+      "PRED",
+      "MS",
+      "CVDL",
+      "AAS",
+      "S",
+      "IVAS",
+      "O",
+      "PA",
+      "CIPRO",
+      "HAS",
+      "TX RENAL",
+      "CPP LIVRES",
+      "CR 1 , 1"
+    ],
+    "Substância Química Orgânica": [
+      "PRED",
+      "MS",
+      "TACROLIMO",
+      "OMEPRAZOL",
+      "CVDL",
+      "AAS",
+      "ACICLOVIR",
+      "FLUCONAZOL",
+      "CETOCONAZOL",
+      "CIPRO"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "2",
+      "25",
+      "1X",
+      "80",
+      "120/80"
+    ],
+    "Achado": [
+      "S",
+      "MELHORA",
+      "COMPENSADO",
+      "TX RENAL",
+      "PAROU E VOLTOU",
+      "PAROU POR CONTA",
+      "PAROU HOJE",
+      "CPP LIVRES"
+    ],
+    "Doença ou Síndrome": [
+      "IVAS",
+      "HAS",
+      "DISPEPSIA",
+      "DERMATITE DE CONTATO",
+      "DERMATITE CONTATO",
+      "BRONQUITE CRONICA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "TRONCO",
+      "ABDOME&gt;&gt;"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "DIARRÉIA",
+      "LESÕES ''ALERGICAS''",
+      "LESÕES HIPEREMIADAS"
+    ],
+    "Procedimento Diagnóstico": [
+      "O",
+      "EXAME FISICO"
+    ],
+    "Atributo de Organismo": [
+      "PESO"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Localização ou Região Corporal": [
+      "COLO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "SUSPENDO",
+      "REDUZO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 1 , 1"
+    ],
+    "Lesão ou Envenenamento": [
+      "LESÕES DE PELE"
+    ]
+  },
+  "labels": {
+    "parou por conta": {
+      "capitulo": "24",
+      "opcoes": [
+        {
+          "QC04.4": {
+            "confidence_embedding": 0.7118,
+            "text": "Representação de doença CID-11: Imunização não realizada devido a alergia do paciente à vacina ou a algum de seus componentes. Definição: "
+          }
+        },
+        {
+          "QA77": {
+            "confidence_embedding": 0.6967,
+            "text": "Representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano. Definição: "
+          }
+        },
+        {
+          "QC01.7": {
+            "confidence_embedding": 0.6913,
+            "text": "Representação de doença CID-11: Necessidade de imunização somente contra caxumba (parotidite epidêmica). Definição: "
+          }
+        },
+        {
+          "QA02.8": {
+            "confidence_embedding": 0.6849,
+            "text": "Representação de doença CID-11: Observação por suspeita de alergia ou hipersensibilidade, descartada. Definição: "
+          }
+        },
+        {
+          "QC44.3": {
+            "confidence_embedding": 0.6835,
+            "text": "Representação de doença CID-11: Antecedentes pessoais de alergia, que não a drogas ou substâncias biológicas. Definição: "
+          }
+        }
+      ]
+    },
+    "compensado": {
+      "capitulo": "18",
+      "opcoes": [
+        {
+          "JA20.2": {
+            "confidence_embedding": 0.7554,
+            "text": "Representação de doença CID-11: Doença renal hipertensiva preexistente complicando a gravidez, o parto ou o puerpério. Definição: Condição que acomete mulheres grávidas, causada por hipertensão e doença renal associada previamente diagnosticadas ou diagnosticadas durante as primeiras 20 semanas (de gestação). Essa condição é caracterizada por pressão arterial maior ou igual a 140/90 mmHg, levando a uma complicação durante a gravidez, parto e puerpério. A confirmação é feita pela aferição com esfigmomanômetro."
+          }
+        },
+        {
+          "JB44.4": {
+            "confidence_embedding": 0.7417,
+            "text": "Representação de doença CID-11: Insuficiência renal aguda do pós-parto. Definição: "
+          }
+        },
+        {
+          "JA20.3": {
+            "confidence_embedding": 0.7276,
+            "text": "Representação de doença CID-11: Doença cardíaca e renal hipertensiva preexistentes complicando a gravidez, o parto ou o puerpério. Definição: Pressão arterial sistólica igual ou maior a 140 mmHg e/ou diastólica igual ou maior a 90 mmHg diagnosticada antes da concepção ou nas primeiras 20 semanas de gravidez com doença cardíaca e renal associada"
+          }
+        },
+        {
+          "JB01.0": {
+            "confidence_embedding": 0.7254,
+            "text": "Representação de doença CID-11: Falha na indução médica do trabalho de parto. Definição: Condição caracterizada por uma tentativa fracassada de estimular farmacologicamente as contrações antes do início espontâneo do trabalho de parto. Esta condição pode ocorrer com ou sem ruptura das membranas."
+          }
+        },
+        {
+          "JA20.4": {
+            "confidence_embedding": 0.7043,
+            "text": "Representação de doença CID-11: Hipertensão secundária preexistente complicando a gravidez, o parto ou o puerpério. Definição: Condição que acomete mulheres grávidas, causada por doença renal, distúrbios endócrinos ou tumores. Esta condição é caracterizada por pressão arterial maior que 140/90 mmHg antes da 20ª semana de gravidez ou persistindo por mais de 12 semanas após o parto, levando a uma complicação durante a gravidez, parto e puerpério. A confirmação é feita por esfigmomanômetro."
+          }
+        }
+      ]
+    },
+    "has": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NC95.Z": {
+            "confidence_embedding": 0.7104,
+            "text": "Representação de doença CID-11: Lesão de vaso sanguíneo não especificado na perna. Definição: "
+          }
+        },
+        {
+          "NC56.4Z": {
+            "confidence_embedding": 0.7073,
+            "text": "Representação de doença CID-11: Lesão do vaso sanguíneo do polegar, não especificada. Definição: "
+          }
+        },
+        {
+          "NB30.2Z": {
+            "confidence_embedding": 0.7069,
+            "text": "Representação de doença CID-11: Lesão da veia cava superior, não especificada. Definição: "
+          }
+        },
+        {
+          "NC15.Z": {
+            "confidence_embedding": 0.7042,
+            "text": "Representação de doença CID-11: Lesão de vaso sanguíneo não especificado ao nível do ombro ou braço. Definição: "
+          }
+        },
+        {
+          "NC95.Y": {
+            "confidence_embedding": 0.703,
+            "text": "Representação de doença CID-11: Lesão de outros vasos sanguíneos especificados na perna. Definição: "
+          }
+        }
+      ]
+    },
+    "dermatite contato": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "EK00": {
+            "confidence_embedding": 0.8104,
+            "text": "Representação de doença CID-11: Dermatite alérgica de contato. Definição: Dermatite alérgica de contato é uma resposta eczematosa provocada por uma reação imunológica tardia do Tipo IV na pele a substância ou substâncias às quais o indivíduo tenha sido previamente sensibilizado."
+          }
+        },
+        {
+          "EK00.C": {
+            "confidence_embedding": 0.7923,
+            "text": "Representação de doença CID-11: Dermatite alérgica de contato devida a medicamentos tópicos. Definição: Dermatite alérgica de contato devida à exposição a medicamentos tópicos como corticosteroides, antibióticos, antimicóticos, antissépticos, anestésicos locais ou anti-inflamatórios não hormonais."
+          }
+        },
+        {
+          "EK00.B": {
+            "confidence_embedding": 0.791,
+            "text": "Representação de doença CID-11: Dermatite alérgica de contato devida a medicamentos sistêmicos. Definição: Dermatite alérgica de contato devida a exposição a medicamentos sistêmicos, usualmente durante o processo de manufatura. Exemplos incluem penicilinas, carbamazepina e tetrazepam."
+          }
+        },
+        {
+          "EK01": {
+            "confidence_embedding": 0.7889,
+            "text": "Representação de doença CID-11: Dermatite de contato fotoalérgica. Definição: Dermatite alérgica de contato causada por sensibilização a fotoprodutos de um composto seja aplicado diretamente sobre a pele, seja absorvido pela pele via circulação sistêmica. O composto primário não provoca reação alérgica até ser quimicamente modificado por exposição à radiação ultravioleta."
+          }
+        },
+        {
+          "EK00.1": {
+            "confidence_embedding": 0.7882,
+            "text": "Representação de doença CID-11: Dermatite alérgica de contato devida a cosméticos ou fragrâncias. Definição: Dermatite alérgica de contato devido à sensibilização a um dos inúmeros alérgenos presentes em cosméticos e outros produtos em que são adicionadas fragâncias. Alérgenos comuns incluem colofônia, fragâncias como hidroxicitronela, emolientes como lanolina (àlcoois de cera de lã), surfactantes como cocamidopropil betaína, conservantes como isotiazolinonas, agentes liberadores de parabeno ou formaldeído. Fragâncias são encontradas em vários produtos de limpeza doméstica, assim como em cosméticos."
+          }
+        }
+      ]
+    },
+    "lesões ''alergicas''": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "EC90.10": {
+            "confidence_embedding": 0.7782,
+            "text": "Representação de doença CID-11: Prurido urêmico. Definição: Prurido em pacientes com insuficiência renal crônica. Embora comum na doença renal crônica não tratada, é particularmente prevalente em pacientes que submetidos a diálise peritoneal ou hemodiálise. O prurido não se deve a níveis elevados de ureia sérica. Os mecanismos precisos não são totalmente compreendidos."
+          }
+        },
+        {
+          "EC90.12": {
+            "confidence_embedding": 0.7635,
+            "text": "Representação de doença CID-11: Prurido associado à hemodiálise. Definição: Prurido generalizado atribuível à hemodiálise e não à doença renal crônica. As causas não são bem compreendidas."
+          }
+        },
+        {
+          "EK10.0": {
+            "confidence_embedding": 0.7505,
+            "text": "Representação de doença CID-11: Síndrome de alergia oral. Definição: Reação imune imediata tipo I mediada pelo IgE, limitada aos lábios, cavidade oral, língua e orofaringe, causada pelo contato direto com alérgeno do paciente sensibilizado. Os sintomas incluem inchaço da mucosa, prurido ou sensação de queimação."
+          }
+        },
+        {
+          "EB00": {
+            "confidence_embedding": 0.7482,
+            "text": "Representação de doença CID-11: Urticária espontânea. Definição: Urticária espontânea é uma doença caracterizada por erupção diária ou quase diária de lesões papulares, angioedema ou ambos."
+          }
+        },
+        {
+          "EA11": {
+            "confidence_embedding": 0.7461,
+            "text": "Representação de doença CID-11: Síndrome pápulo-purpúrica em 'luvas e meias'. Definição: Esta dermatose acral aguda é caracterizada por uma erupção papular e frequentemente purpúrica intensamente pruriginosa que afeta mãos, punhos, pés e tornozelos. Ela é frequentemente acompanhada de inflamação e ulceração orais, astenia e febre. Afeta predominantemente adultos e foi associada a uma série de infecções virais, mais comumente ao parvovírus B19."
+          }
+        }
+      ]
+    },
+    "lesões hiperemiadas": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MF54.2": {
+            "confidence_embedding": 0.7393,
+            "text": "Representação de doença CID-11: Hipoplasia renal. Definição: Condição caracterizada por um rim menor em tamanho e peso do que a média (menos de 11 centímetros de comprimento, 5-7,5 centímetros de largura, 2,5 centímetros de espessura e pesando menos de 120 gramas)."
+          }
+        },
+        {
+          "MF56": {
+            "confidence_embedding": 0.7279,
+            "text": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos."
+          }
+        },
+        {
+          "ME10.1": {
+            "confidence_embedding": 0.7244,
+            "text": "Representação de doença CID-11: Icterícia não especificada. Definição: Manifestação clínica de hiperbilirrubinemia de origem não especificada, caracterizada por coloração amarelada da pele, mucosas e esclera."
+          }
+        },
+        {
+          "MF96": {
+            "confidence_embedding": 0.7163,
+            "text": "Representação de doença CID-11: Proteinúria. Definição: O excesso de proteínas séricas na urina, como na doença renal, em que a albumina é a proteína principal, porém também pode ser devido a outras proteínas, como imunoglobulinas de cadeias leves na discrasia de células plasmáticas como o mieloma múltiplo."
+          }
+        },
+        {
+          "MF95": {
+            "confidence_embedding": 0.7149,
+            "text": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular."
+          }
+        }
+      ]
+    },
+    "parou hoje": {
+      "capitulo": "24",
+      "opcoes": [
+        {
+          "QC04.4": {
+            "confidence_embedding": 0.7161,
+            "text": "Representação de doença CID-11: Imunização não realizada devido a alergia do paciente à vacina ou a algum de seus componentes. Definição: "
+          }
+        },
+        {
+          "QA77": {
+            "confidence_embedding": 0.6975,
+            "text": "Representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano. Definição: "
+          }
+        },
+        {
+          "QC01.7": {
+            "confidence_embedding": 0.6973,
+            "text": "Representação de doença CID-11: Necessidade de imunização somente contra caxumba (parotidite epidêmica). Definição: "
+          }
+        },
+        {
+          "QC44.3": {
+            "confidence_embedding": 0.6946,
+            "text": "Representação de doença CID-11: Antecedentes pessoais de alergia, que não a drogas ou substâncias biológicas. Definição: "
+          }
+        },
+        {
+          "QA02.8": {
+            "confidence_embedding": 0.6924,
+            "text": "Representação de doença CID-11: Observação por suspeita de alergia ou hipersensibilidade, descartada. Definição: "
+          }
+        }
+      ]
+    },
+    "bronquite cronica": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CA41.0": {
+            "confidence_embedding": 0.7801,
+            "text": "Representação de doença CID-11: Bronquiolite aguda devida a vírus sincicial respiratório. Definição: Doença dos bronquíolos, causada por infecção pelo vírus sincicial respiratório. Caracteriza-se por inflamação dos bronquíolos. Pode se apresentar com tosse, chieira torácica ou falta de ar. A transmissão se dá por contato direto, gotículas, ou por contato indireto com secreções respiratórias infectadas. A confirmação é feita pela identificação do vírus sincicial respiratório em esfregaços da nasofaringe."
+          }
+        },
+        {
+          "CA41": {
+            "confidence_embedding": 0.7733,
+            "text": "Representação de doença CID-11: Bronquiolite aguda. Definição: Doença aguda dos bronquíolos, comumente causada por infecção de origem bacteriana ou viral. Caracteriza-se por inflamação dos bronquíolos e coriza. Apresenta-se com tosse, chieira torácica, taquipneia, febre ou tiragem torácica. A transmissão se dá por inalação de secreções respiratórias infectadas. A confirmação é feita pela identificação do agente infeccioso em escarro ou amostra de sangue."
+          }
+        },
+        {
+          "CA42.3": {
+            "confidence_embedding": 0.7658,
+            "text": "Representação de doença CID-11: Bronquite aguda devida a vírus parainfluenza. Definição: Doenças dos brônquios, causada por infecção aguda por vírus parainfluenza. Esta doença é caracterizada por inflamação aguda dos brônquios, levando a tosse, produção de catarro, chieira torácica ou falta de ar. A transmissão ocorre por inalação de secreções respiratórias infectadas, por contato direto ou por meio de fômites. A confirmação é feita pela identificação do vírus parainfluenza nas secreções respiratórias, pela detecção de elevação significativa de anticorpos IgG específicos para o parainfluenza em amostras pareadas de soro ou pela detecção de IgM específica para o parainfluenza em uma única amostra de soro."
+          }
+        },
+        {
+          "CA42": {
+            "confidence_embedding": 0.7602,
+            "text": "Representação de doença CID-11: Bronquite aguda. Definição: Doença aguda dos brônquios, geralmente causada por infecção bacteriana ou viral. Esta doença é caracterizada pela inflamação dos brônquios. Apresenta-se com tosse, sibilância, dor ou desconforto torácico, febre ou dispneia. A transmissão se dá pela inalação de secreções respiratórias infectadas. A confirmação é feita pela identificação do agente infeccioso um amostra de escarro."
+          }
+        },
+        {
+          "CA42.4": {
+            "confidence_embedding": 0.7511,
+            "text": "Representação de doença CID-11: Bronquite aguda devida a Haemophilus influenzae. Definição: Doenças dos brônquios, causada por uma infecção pela bactéria gram-negativa Haemophilus influenzae. Esta doença é caracterizada por inflamação aguda dos brônquios levando a tosse, produção de catarro, chieira torácica ou falta de ar. A transmissão ocorre por inalação de secreções respiratórias infectadas ou por contato direto. A confirmação é feita pela identificação do Haemophilus influenzae no sangue ou em outros líquidos corporais tipicamente estéreis."
+          }
+        }
+      ]
+    },
+    "lesões de pele": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "EF02.3": {
+            "confidence_embedding": 0.7972,
+            "text": "Representação de doença CID-11: Celulite. Definição: A celulite é um desarranjo arquitetônico comum do tecido adiposo subcutâneo que resulta em ondulações e nodularidade da pele sobrejacente. É mais comum em mulheres pós-púberes e acomete principalmente a região pélvica, membros inferiores e abdome. Acredita-se que resulte da herniação de múltiplos pequenos agregados de gordura subcutânea através do tecido fibroso na junção dermo-hipodérmica. A obesidade predispõe, mas não é necessária para o seu desenvolvimento. O termo está em uso generalizado, mas é enganoso, pois não tem nada a ver com \"cellulitis\" (NT: infecção de pele). A condição é assintomática, mas pode causar constrangimento considerável."
+          }
+        },
+        {
+          "EF40": {
+            "confidence_embedding": 0.7934,
+            "text": "Representação de doença CID-11: Vasculite ou capilarite envolvendo a pele. Definição: Uma gama de condições caracterizadas por inflamação dos vasos sanguíneos cutâneos com ou sem extravasamento de hemácias para o interstício."
+          }
+        },
+        {
+          "ED63.2": {
+            "confidence_embedding": 0.7903,
+            "text": "Representação de doença CID-11: Hipomelanose pós-inflamatória. Definição: Redução na pigmentação da pele aparente subsequente a resolução de inflamação da pele. Isso pode ser decorrente de uma dermatose inflamatória, como dermatite ou líquen plano, ou pode ocorrer após traumatismo ou procedimentos intervencionistas. A perda de pigmento pode causar sofrimento psicológico significativo em indivíduos de pele escura, mas na maioria dos casos é temporária."
+          }
+        },
+        {
+          "EA90.3": {
+            "confidence_embedding": 0.7896,
+            "text": "Representação de doença CID-11: Psoríase eritrodérmica. Definição: Psoríase eritrodérmica é uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele. A psoríase eritrodérmica geralmente se desenvolve a partir da psoríase em placas extensa mas pode surgir de forma nova. Fatores precipitantes ou desencadeantes incluem a retirada de glicocorticoides sistêmicos e, menos frequentemente, a descontinuação abrupta do metotrexato, queimaduras ou infecções intercorrentes. Os pacientes podem desenvolver hipotermia ou insuficiência cardíaca de alto débito."
+          }
+        },
+        {
+          "EE90": {
+            "confidence_embedding": 0.7853,
+            "text": "Representação de doença CID-11: Infiltração linfocítica benigna da pele. Definição: Infiltração linfocítica benigna de Jessner é um transtorno linfoproliferativo crônico benigno de células T caracterizado pela presença de nódulos túmidos vermelhos não cicatriciais, geralmente na pele da face. Pode ser difícil de distinguir do lúpus eritematoso cutâneo."
+          }
+        }
+      ]
+    },
+    "ivas": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NC95.Z": {
+            "confidence_embedding": 0.7002,
+            "text": "Representação de doença CID-11: Lesão de vaso sanguíneo não especificado na perna. Definição: "
+          }
+        },
+        {
+          "NB30.2Z": {
+            "confidence_embedding": 0.6996,
+            "text": "Representação de doença CID-11: Lesão da veia cava superior, não especificada. Definição: "
+          }
+        },
+        {
+          "NC95.Y": {
+            "confidence_embedding": 0.6948,
+            "text": "Representação de doença CID-11: Lesão de outros vasos sanguíneos especificados na perna. Definição: "
+          }
+        },
+        {
+          "NB90.Y": {
+            "confidence_embedding": 0.6928,
+            "text": "Representação de doença CID-11: Lesão de outros vasos sanguíneos especificados ao nível do abdome, região lombar ou pelve. Definição: "
+          }
+        },
+        {
+          "NC15.Z": {
+            "confidence_embedding": 0.692,
+            "text": "Representação de doença CID-11: Lesão de vaso sanguíneo não especificado ao nível do ombro ou braço. Definição: "
+          }
+        }
+      ]
+    },
+    "dermatite de contato": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "EK00": {
+            "confidence_embedding": 0.8068,
+            "text": "Representação de doença CID-11: Dermatite alérgica de contato. Definição: Dermatite alérgica de contato é uma resposta eczematosa provocada por uma reação imunológica tardia do Tipo IV na pele a substância ou substâncias às quais o indivíduo tenha sido previamente sensibilizado."
+          }
+        },
+        {
+          "EK00.C": {
+            "confidence_embedding": 0.7906,
+            "text": "Representação de doença CID-11: Dermatite alérgica de contato devida a medicamentos tópicos. Definição: Dermatite alérgica de contato devida à exposição a medicamentos tópicos como corticosteroides, antibióticos, antimicóticos, antissépticos, anestésicos locais ou anti-inflamatórios não hormonais."
+          }
+        },
+        {
+          "EK00.B": {
+            "confidence_embedding": 0.7883,
+            "text": "Representação de doença CID-11: Dermatite alérgica de contato devida a medicamentos sistêmicos. Definição: Dermatite alérgica de contato devida a exposição a medicamentos sistêmicos, usualmente durante o processo de manufatura. Exemplos incluem penicilinas, carbamazepina e tetrazepam."
+          }
+        },
+        {
+          "EK00.1": {
+            "confidence_embedding": 0.7864,
+            "text": "Representação de doença CID-11: Dermatite alérgica de contato devida a cosméticos ou fragrâncias. Definição: Dermatite alérgica de contato devido à sensibilização a um dos inúmeros alérgenos presentes em cosméticos e outros produtos em que são adicionadas fragâncias. Alérgenos comuns incluem colofônia, fragâncias como hidroxicitronela, emolientes como lanolina (àlcoois de cera de lã), surfactantes como cocamidopropil betaína, conservantes como isotiazolinonas, agentes liberadores de parabeno ou formaldeído. Fragâncias são encontradas em vários produtos de limpeza doméstica, assim como em cosméticos."
+          }
+        },
+        {
+          "EK01": {
+            "confidence_embedding": 0.7864,
+            "text": "Representação de doença CID-11: Dermatite de contato fotoalérgica. Definição: Dermatite alérgica de contato causada por sensibilização a fotoprodutos de um composto seja aplicado diretamente sobre a pele, seja absorvido pela pele via circulação sistêmica. O composto primário não provoca reação alérgica até ser quimicamente modificado por exposição à radiação ultravioleta."
+          }
+        }
+      ]
+    },
+    "diarréia": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DA90.0": {
+            "confidence_embedding": 0.7491,
+            "text": "Representação de doença CID-11: Diarreia sindrômica. Definição: Diarreia sindrômica, também conhecida como diarreia fenotípica ou síndrome trico-hepato-entérica, é uma enteropatia congênita que se apresenta com início precoce de diarreia grave exigindo uso de nutrição parenteral (NP), associada a dismorfismo facial, cabelo lanoso e pouco pigmentado, e doença hepática, com fibrose ou cirrose extensa, em cerca de metade dos pacientes."
+          }
+        },
+        {
+          "DA94.22": {
+            "confidence_embedding": 0.7487,
+            "text": "Representação de doença CID-11: Síndrome de enterocolite induzida por proteína alimentar. Definição: Inflamação crônica persistente com hipersensibilidade não mediada por IgE e mediada por células no trato intestinal, que afeta primariamente crianças. Os alimentos causadores mais comuns são: leite de vaca, soja, arroz, aveia, carne. Nos casos de exposição crônica, os sintomas mais frequentes são vômitos, diarreia, crescimento comprometido e letargia. Quando reexposto após restrição, o paciente pode apresentar vômitos, diarreia e hipotensão (15%) 2 horas após a ingestão."
+          }
+        },
+        {
+          "DB98.B": {
+            "confidence_embedding": 0.7275,
+            "text": "Representação de doença CID-11: Lesão por isquemia de reperfusão do fígado. Definição: Lesão hepática causada por reperfusão sanguínea após uma isquemia não letal do fígado."
+          }
+        },
+        {
+          "DB95.30": {
+            "confidence_embedding": 0.7245,
+            "text": "Representação de doença CID-11: Doença hepática tóxica ou induzida por droga com doença hepática gordurosa crônica. Definição: Esteatose crônica induzida por droga caracterizada por glóbulos de triglicérides relativamente grandes, que efetivamente preenchem o hepatócito, deslocando o núcleo e outros constituintes intracelulares para a periferia. Alguns pacientes evidenciam esteatohepatite, esteatose com necrose focal e infiltrado celular inflamatório, levando ao desenvolvimento de cirrose."
+          }
+        },
+        {
+          "DA26.3": {
+            "confidence_embedding": 0.7225,
+            "text": "Representação de doença CID-11: Síndrome da laceração hemorrágica gastroesofágica. Definição: Sangramento por lacerações na mucosa na junção do estômago com esôfago, geralmente causado por vômitos intensos, espasmos de vômito ou tosse."
+          }
+        }
+      ]
+    },
+    "tx renal": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA02": {
+            "confidence_embedding": 0.7424,
+            "text": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica."
+          }
+        },
+        {
+          "BD71.2": {
+            "confidence_embedding": 0.7311,
+            "text": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal"
+          }
+        },
+        {
+          "BD53.4": {
+            "confidence_embedding": 0.7193,
+            "text": "Representação de doença CID-11: Ateroembolismo de colesterol. Definição: Oclusão embólica de pequenas artérias e arteríolas distais por cristais de colesterol liberados de placa aterosclerótica em artérias maiores mais centrais. A isquemia microvascular resultante é acompanhada por uma resposta inflamatória à presença de cristais de colesterol. Isso pode ocorrer espontaneamente ou como uma complicação de angiografia ou cirurgia vascular. Os órgãos mais comumente afetados incluem pele, rins, trato gastrointestinal e cérebro. Manifestações cutâneas, presentes na maioria dos casos, incluem livedo reticularis e necrose e ulceração isquêmicas focais; estas estão comumente associadas a lesão renal aguda."
+          }
+        },
+        {
+          "BD54": {
+            "confidence_embedding": 0.7178,
+            "text": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos."
+          }
+        },
+        {
+          "BB25": {
+            "confidence_embedding": 0.6982,
+            "text": "Representação de doença CID-11: Derrame pericárdico. Definição: Derrame pericárdico é um acúmulo anormal de líquido no saco pericárdico. Doenças não inflamatórias, como insuficiência renal crônica, congestão circulatória, hipotireoidismo e amiloidose, podem causar derrame pericárdico."
+          }
+        }
+      ]
+    },
+    "dispepsia": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DA90.0": {
+            "confidence_embedding": 0.724,
+            "text": "Representação de doença CID-11: Diarreia sindrômica. Definição: Diarreia sindrômica, também conhecida como diarreia fenotípica ou síndrome trico-hepato-entérica, é uma enteropatia congênita que se apresenta com início precoce de diarreia grave exigindo uso de nutrição parenteral (NP), associada a dismorfismo facial, cabelo lanoso e pouco pigmentado, e doença hepática, com fibrose ou cirrose extensa, em cerca de metade dos pacientes."
+          }
+        },
+        {
+          "DA43.4": {
+            "confidence_embedding": 0.7065,
+            "text": "Representação de doença CID-11: Ectasia vascular difusa do estômago. Definição: Vasos sanguíneos dilatados e tortuosos no antro pilórico distribuídos de forma radial em relação ao piloro (o chamado estômago em melancia). Pode causar hemorragia gastrointestinal aguda e crônica."
+          }
+        },
+        {
+          "DD90.3": {
+            "confidence_embedding": 0.7033,
+            "text": "Representação de doença CID-11: Dispepsia funcional. Definição: Dispepsia funcional é um transtorno definido como a presença de sintomas de dispepsia supostamente originados da região gastroduodenal, na ausência de qualquer doença orgânica, sistêmica ou metabólica que possa explicar os sintomas, como dor epigástrica, queimação epigástrica, plenitude pós-prandial e saciedade precoce."
+          }
+        },
+        {
+          "DB32.0": {
+            "confidence_embedding": 0.7013,
+            "text": "Representação de doença CID-11: Pseudo-obstrução do cólon. Definição: A pseudo-obstrução do cólon é uma condição rara, com sintomas de diminuição da capacidade do cólon de fazer transitar líquidos, alimentos e ar, como aqueles causados ​​por uma obstrução cólica. Os achados clínicos e radiológicos são frequentemente semelhantes à obstrução verdadeira, mas nenhum bloqueio mecânico verdadeiro é encontrado. Os sintomas geralmente incluem dispepsia, constipação crônica e cólicas abdominais nos momentos em que está presente. Síndrome de Ogilvie: a pseudo-obstrução aguda do cólon em pacientes debilitados gravemente enfermos está incluída aqui como a forma aguda."
+          }
+        },
+        {
+          "DA94.22": {
+            "confidence_embedding": 0.7012,
+            "text": "Representação de doença CID-11: Síndrome de enterocolite induzida por proteína alimentar. Definição: Inflamação crônica persistente com hipersensibilidade não mediada por IgE e mediada por células no trato intestinal, que afeta primariamente crianças. Os alimentos causadores mais comuns são: leite de vaca, soja, arroz, aveia, carne. Nos casos de exposição crônica, os sintomas mais frequentes são vômitos, diarreia, crescimento comprometido e letargia. Quando reexposto após restrição, o paciente pode apresentar vômitos, diarreia e hipotensão (15%) 2 horas após a ingestão."
+          }
+        }
+      ]
+    },
+    "parou e voltou": {
+      "capitulo": "24",
+      "opcoes": [
+        {
+          "QC04.4": {
+            "confidence_embedding": 0.6984,
+            "text": "Representação de doença CID-11: Imunização não realizada devido a alergia do paciente à vacina ou a algum de seus componentes. Definição: "
+          }
+        },
+        {
+          "QC44.3": {
+            "confidence_embedding": 0.6684,
+            "text": "Representação de doença CID-11: Antecedentes pessoais de alergia, que não a drogas ou substâncias biológicas. Definição: "
+          }
+        },
+        {
+          "QA02.8": {
+            "confidence_embedding": 0.6669,
+            "text": "Representação de doença CID-11: Observação por suspeita de alergia ou hipersensibilidade, descartada. Definição: "
+          }
+        },
+        {
+          "QA80": {
+            "confidence_embedding": 0.6666,
+            "text": "Representação de doença CID-11: Não administração de um medicamento necessário sem lesão ou dano. Definição: "
+          }
+        },
+        {
+          "QC44.1": {
+            "confidence_embedding": 0.6655,
+            "text": "Representação de doença CID-11: História pessoal de alergia ou hipersensibilidade induzida por alimento. Definição: "
+          }
+        }
+      ]
+    }
+  }
+}

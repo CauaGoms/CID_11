@@ -1,0 +1,121 @@
+{
+  "prontuario_id": 63,
+  "text": "Paciente com historia de fx de 4 mtc.\n\nAo exame: adm limitada pelo fk.\n\nRx: sinais de consolidação.\n\nConduta:\n- fst,\n- fortalecimento,\n- analgesia,\n- retorno em 6 s.\n\nR3 Lucas, \nGrupo do quadril\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Procedimento Diagnóstico": [
+      "exame",
+      "Rx"
+    ],
+    "Abreviação": [
+      "Rx",
+      "fst",
+      "s",
+      "R3",
+      "4 mtc",
+      "adm limitada"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Conduta",
+      "retorno"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "fst",
+      "fortalecimento",
+      "analgesia"
+    ],
+    "Conceito Temporal": [
+      "s"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "4 mtc"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "adm limitada",
+      "sinais de consolidação"
+    ],
+    "Sinal ou Sintoma": [
+      "adm limitada"
+    ],
+    "Achado": [
+      "sinais de consolidação"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Grupo do quadril"
+    ]
+  },
+  "labels": {
+    "sinais de consolidação": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CA23.0": {
+            "confidence_embedding": 0.7463,
+            "text": "Representação de doença CID-11: Asma alérgica. Definição: Asma alérgica é o fenótipo de asma mais facilmente reconhecido. Frequentemente, inicia-se na infância e é associada a um histórico pessoal ou familiar de doença alérgica, como eczema, rinite alérgica, ou alergia a drogas e alimentos. O exame do escarro induzido desses pacientes, antes do tratamento, geralmente revela uma inflamação eosinofílica das vias aéreas. O principal gatilho é a exposição a alérgenos, como o ácaro da poeira doméstica e ao pólen, aos quais o indivíduo tenha sido, previamente, sensibilizado. Os pacientes com esse fenótipo de asma, usualmente, respondem bem a corticoide inalatório e à imunoterapia alérgeno-específica."
+          }
+        },
+        {
+          "CA05.1": {
+            "confidence_embedding": 0.7407,
+            "text": "Representação de doença CID-11: Traqueíte aguda. Definição: Esta condição se refere à inflamação aguda da traqueia."
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.7297,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        },
+        {
+          "CB41.1": {
+            "confidence_embedding": 0.7215,
+            "text": "Representação de doença CID-11: Insuficiência respiratória crônica. Definição: Na insuficiência respiratória crônica a hipoxemia ocorre ao longo de semanas ou meses (mais de 7 dias) e a insuficiência respiratória se desenvolve mais lentamente e dura mais tempo do que na insuficiência respiratória aguda."
+          }
+        },
+        {
+          "CA08.01": {
+            "confidence_embedding": 0.718,
+            "text": "Representação de doença CID-11: Rinite alérgica devida a outros alérgenos sazonais. Definição: Refere-se a inflamações alérgicas das vias aéreas nasais provocadas por outros alérgenos, além de pólen e ácaro da poeira doméstica, em pacientes com sensibilização múltipla ou como parte de condição complexa, como alergia a látex. Caracteriza-se, clinicamente, pelos seguintes sintomas: espirros, prurido nasal, coriza e obstrução nasal. Ocorre quando um alérgeno, como pelo de animal (partículas de pele descamada ou cabelo), inseto (partículas do corpo de baratas), ou partículas fúngicas, é inalado por indivíduo com o sistema imune sensibilizado."
+          }
+        }
+      ]
+    },
+    "adm limitada": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FA38.2": {
+            "confidence_embedding": 0.663,
+            "text": "Representação de doença CID-11: Artropatia associada a reações de hipersensibilidade classificadas em outra parte. Definição: "
+          }
+        },
+        {
+          "FA22": {
+            "confidence_embedding": 0.6589,
+            "text": "Representação de doença CID-11: Polimialgia reumática. Definição: A polimialgia reumática (PMR) é uma síndrome caracterizada por dores nas porções proximais das extremidades e do tronco. Os critérios de classificação provisórios para PMR pela European League Against Rheumatism / American College of Rheumatology Collaborative Initiative devem ser aplicados em pacientes com 50 anos ou mais com dor nos ombros bilateral e PCR e / ou VHS anormais. O algoritmo de pontuação é baseado na rigidez matinal> 45 minutos (2 pontos), dor / amplitude de movimento limitada no quadril (1 ponto), ausência de fator reumatoide e / ou anticorpo anti-proteína citrulinada (1 ponto), com critério de ultrassom opcional. Mais comumente, a PMR ocorre de forma isolada, mas pode ser observada em 40-50% dos pacientes com arterite de células gigantes."
+          }
+        },
+        {
+          "FB32.20": {
+            "confidence_embedding": 0.6541,
+            "text": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave."
+          }
+        },
+        {
+          "FA11": {
+            "confidence_embedding": 0.6522,
+            "text": "Representação de doença CID-11: Artropatias reativas. Definição: Doença das articulações, causada por uma infecção em outra parte do corpo, uma doença autoimune, ou após vacinação. Esta doença é caracterizada por uma inflamação secundária articulações em reação a infecção, doença autoimune ou vacinação. Localizações prévias comuns de infecção são os sistemas entérico ou geniturinário."
+          }
+        },
+        {
+          "FB32.2Y": {
+            "confidence_embedding": 0.6495,
+            "text": "Representação de doença CID-11: Outro Infarto isquêmico muscular, especificado. Definição: "
+          }
+        }
+      ]
+    }
+  }
+}

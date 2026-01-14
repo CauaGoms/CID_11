@@ -1,0 +1,468 @@
+{
+  "prontuario_id": 246,
+  "text": "Paciente previamente hígido procura a emergencia do XXXX por palpitações iniciadas há poucas horas. ECG com fibrilação atrial. Solicitados exames lab sem evidencia de alteração eletrolítica. Iniciado com amiodarona EV. Em cerca de 12h houve reversão para ritmo sinusal. Ecocardiograma normal. Tem alta hospitalar assintomático, em ritmo cardiaco regular, com orientação de procurar a emergencia se necessário. PACIENTE COM CARDIOPATIA ISQUEMICA, INTERNA PARA TENTATIVA DE ACTP CD - OCLUSÃO CRÔNICA. NÃO FOI POSSÍVEL ULTRAPASSAR A LESÃO C/ GUIA. RECEBE ALTA EM USO DAS MEDICAÇÕES ABAIXO E RETORNO AO SEU MÉDICO PARA SEGUIMENTO. Cardiopatia isquêmica = ACTP com stent em segmento médio da ACX em 02/04/07. Pcte internou de forma eletiva para realização do procedimento descrito acima, o qual foi realizado sem intercorrências.  Apresentou boa evolução clínica, sem complicações importantes. Tem alta em bom estado geral, sem sintomas anginosos.  RECOMENDAÇÕES: - AAS 200 mg ao dia CONTINUO, - Sinvastatina 20 mg ao dia CONTINUO, - Ticlopidina 250 mg 12/12h pelo menos por 1 mês, - Reavaliação breve com médico assistente (7 a 10 dias), - Demais medicamentos conforme médico assistente.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente",
+      "PACIENTE",
+      "Pcte"
+    ],
+    "Achado": [
+      "hígido",
+      "normal",
+      "assintomático",
+      "ritmo sinusal",
+      "ritmo cardiaco regular",
+      "boa evolução clínica",
+      "bom estado geral"
+    ],
+    "Sinal ou Sintoma": [
+      "palpitações",
+      "intercorrências",
+      "OCLUSÃO CRÔNICA",
+      "sintomas anginosos"
+    ],
+    "Conceito Temporal": [
+      "horas",
+      "12h",
+      "dia",
+      "CONTINUO",
+      "mês",
+      "breve",
+      "dias"
+    ],
+    "Abreviação": [
+      "ECG",
+      "EV",
+      "12h",
+      "ACTP",
+      "CD",
+      "Pcte",
+      "AAS",
+      "exames lab",
+      "ACTP com stent",
+      "segmento médio da ACX"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECG",
+      "Ecocardiograma"
+    ],
+    "Negação": [
+      "sem",
+      "assintomático",
+      "NÃO"
+    ],
+    "Substância Química Orgânica": [
+      "amiodarona",
+      "AAS",
+      "Ticlopidina"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "EV",
+      "ACTP",
+      "ULTRAPASSAR",
+      "procedimento",
+      "ACTP com stent"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "normal",
+      "fibrilação atrial",
+      "alteração eletrolítica"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "orientação",
+      "INTERNA",
+      "ALTA",
+      "RETORNO",
+      "SEGUIMENTO",
+      "internou",
+      "alta",
+      "RECOMENDAÇÕES",
+      "Reavaliação",
+      "alta hospitalar"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "CD",
+      "segmento médio da ACX"
+    ],
+    "Dispositivo Médico": [
+      "GUIA"
+    ],
+    "Substância Farmacológica": [
+      "MEDICAÇÕES",
+      "AAS",
+      "Sinvastatina",
+      "Ticlopidina",
+      "medicamentos"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "MÉDICO",
+      "médico assistente"
+    ],
+    "Doença ou Síndrome": [
+      "fibrilação atrial",
+      "CARDIOPATIA ISQUEMICA",
+      "Cardiopatia isquêmica"
+    ],
+    "Procedimento Laboratorial": [
+      "exames lab"
+    ],
+    "Conceito Quantitativo": [
+      "200 mg",
+      "20 mg",
+      "250 mg"
+    ]
+  },
+  "labels": {
+    "boa evolução clínica": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BC81.30": {
+            "confidence_embedding": 0.8076,
+            "text": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+          }
+        },
+        {
+          "BC81.32": {
+            "confidence_embedding": 0.8052,
+            "text": "Representação de doença CID-11: Fibrilação atrial permanente. Definição: Termo usado para identificar indivíduos com FA persistente em que foi tomada a decisão de não mais seguir uma estratégia de controle do ritmo, ou em que a cardioversão falhou ou não foi tentada."
+          }
+        },
+        {
+          "BA60.1": {
+            "confidence_embedding": 0.8043,
+            "text": "Representação de doença CID-11: Outra pericardite como complicação atual subsequente a infarto agudo do miocárdio. Definição: Inflamação do pericárdio que pode causar dor no peito, que ocorre tão precocemente quanto o primeiro dia e até 6 semanas após o infarto agudo do miocárdio. A dor da pericardite irradia para qualquer crista do trapézio. O infarto do miocárdio transmural é responsável pela inflamação pericárdica local. Atritos pericárdicos transitórios são relativamente comuns em pacientes com infarto transmural nas primeiras 48 horas. Uma pericardite fibrinosa aguda ocorre comumente após o infarto transmural, enquanto o risco de pericardite hemorrágica está aumentado por anticoagulação."
+          }
+        },
+        {
+          "BA41": {
+            "confidence_embedding": 0.8038,
+            "text": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)"
+          }
+        },
+        {
+          "BA60.8": {
+            "confidence_embedding": 0.802,
+            "text": "Representação de doença CID-11: Arritmia como complicação atual subsequente a infarto agudo do miocárdio. Definição: Grupo grande e heterogêneo de condições nas quais o coração bate com um ritmo irregular ou anormal que pode complicar o curso de pacientes com infarto agudo do miocárdio."
+          }
+        }
+      ]
+    },
+    "sintomas anginosos": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA41": {
+            "confidence_embedding": 0.7972,
+            "text": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)"
+          }
+        },
+        {
+          "BE10": {
+            "confidence_embedding": 0.7873,
+            "text": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite."
+          }
+        },
+        {
+          "BC81.30": {
+            "confidence_embedding": 0.786,
+            "text": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+          }
+        },
+        {
+          "BC61": {
+            "confidence_embedding": 0.7849,
+            "text": "Representação de doença CID-11: Despolarização juncional prematura. Definição: Despolarização elétrica cardíaca originando-se do nó atrioventricular compacto ou feixe de His, ocorrendo antes do batimento sinusal esperado."
+          }
+        },
+        {
+          "BA60.8": {
+            "confidence_embedding": 0.7846,
+            "text": "Representação de doença CID-11: Arritmia como complicação atual subsequente a infarto agudo do miocárdio. Definição: Grupo grande e heterogêneo de condições nas quais o coração bate com um ritmo irregular ou anormal que pode complicar o curso de pacientes com infarto agudo do miocárdio."
+          }
+        }
+      ]
+    },
+    "cardiopatia isquêmica": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BC43": {
+            "confidence_embedding": 0.8153,
+            "text": "Representação de doença CID-11: Cardiomiopatia. Definição: Transtornos do miocárdio em que o músculo cardíaco é estrutural e funcionalmente anormal, na ausência de doença arterial coronariana, hipertensão, doença valvar e doença cardíaca congênita suficiente para causar a anormalidade miocárdica observada."
+          }
+        },
+        {
+          "BC43.1": {
+            "confidence_embedding": 0.8117,
+            "text": "Representação de doença CID-11: Cardiomiopatia hipertrófica. Definição: A cardiomiopatia hipertrófica é a presença de um ventrículo hipertrofiado e não dilatado na ausência de uma causa hemodinâmica que seja capaz de produzir a magnitude existente de espessamento da parede, excluindo tanto a hipertrofia fisiológica secundária à atividade física quanto a hipertrofia patológica devida a hipertensão arterial sistêmica, estenose valvar aórtica e coarctação da aorta."
+          }
+        },
+        {
+          "BC44": {
+            "confidence_embedding": 0.8086,
+            "text": "Representação de doença CID-11: Cardiomiopatia não compactada. Definição: A cardiomiopatia não compactada é uma anormalidade morfológica do miocárdio que afeta predominantemente o ápice do ventrículo, caracterizada por hipertrabeculação e recessos intertrabeculares profundos, geralmente acompanhados por uma camada subepicárdica anormalmente fina de miocárdio compactado, que geralmente, mas nem sempre, está associada à disfunção ventricular. \r\n\r\nInformações adicionais. A cardiomiopatia não compactada envolve classicamente o ventrículo esquerdo, mas também pode envolver apenas o ventrículo direito ou ambos. Pode ocorrer como um achado isolado ou em associação com um fenótipo cardiomiopático dilatado, hipertrófico ou misto. Foi descrita em associação a cardiopatia congênita complexa, anomalias das artérias coronárias e como um achado isolado, com e sem anormalidades musculoesqueléticas e outras anormalidades sistêmicas."
+          }
+        },
+        {
+          "BC43.6": {
+            "confidence_embedding": 0.8069,
+            "text": "Representação de doença CID-11: Cardiomiopatia ventricular arritmogênica. Definição: A cardiomiopatia ventricular arritmogênica é uma cardiomiopatia caracterizada pela perda de células miocárdicas com substituição parcial ou total do músculo ventricular direito por tecido adiposo e fibroso, começando pelo subepicárdio e se tornando transmural com o tempo, poupando os músculos papilares e trabéculas, e frequentemente associada a aneurismas, particularmente da via de saída ventricular direita. Há comprometimento sistólico progressivo com dilatação ventricular e acentuada propensão a arritmias ventriculares de origem ventricular direita, e também esquerda. Classicamente uma doença do ventrículo direito, evidências mais recentes sugerem envolvimento do ventrículo esquerdo em extensão variável em até 75% dos casos, assim como doença isolada do ventrículo esquerdo."
+          }
+        },
+        {
+          "BE10": {
+            "confidence_embedding": 0.8005,
+            "text": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite."
+          }
+        }
+      ]
+    },
+    "oclusão crônica": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BC81.30": {
+            "confidence_embedding": 0.8244,
+            "text": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+          }
+        },
+        {
+          "BC81.32": {
+            "confidence_embedding": 0.8235,
+            "text": "Representação de doença CID-11: Fibrilação atrial permanente. Definição: Termo usado para identificar indivíduos com FA persistente em que foi tomada a decisão de não mais seguir uma estratégia de controle do ritmo, ou em que a cardioversão falhou ou não foi tentada."
+          }
+        },
+        {
+          "BA60.8": {
+            "confidence_embedding": 0.8231,
+            "text": "Representação de doença CID-11: Arritmia como complicação atual subsequente a infarto agudo do miocárdio. Definição: Grupo grande e heterogêneo de condições nas quais o coração bate com um ritmo irregular ou anormal que pode complicar o curso de pacientes com infarto agudo do miocárdio."
+          }
+        },
+        {
+          "BA60.1": {
+            "confidence_embedding": 0.822,
+            "text": "Representação de doença CID-11: Outra pericardite como complicação atual subsequente a infarto agudo do miocárdio. Definição: Inflamação do pericárdio que pode causar dor no peito, que ocorre tão precocemente quanto o primeiro dia e até 6 semanas após o infarto agudo do miocárdio. A dor da pericardite irradia para qualquer crista do trapézio. O infarto do miocárdio transmural é responsável pela inflamação pericárdica local. Atritos pericárdicos transitórios são relativamente comuns em pacientes com infarto transmural nas primeiras 48 horas. Uma pericardite fibrinosa aguda ocorre comumente após o infarto transmural, enquanto o risco de pericardite hemorrágica está aumentado por anticoagulação."
+          }
+        },
+        {
+          "BA41": {
+            "confidence_embedding": 0.8185,
+            "text": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)"
+          }
+        }
+      ]
+    },
+    "ritmo sinusal": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MC82.1": {
+            "confidence_embedding": 0.7527,
+            "text": "Representação de doença CID-11: Parada cardíaca com bradicardia. Definição: Ritmo de escape lento associado a colapso hemodinâmico."
+          }
+        },
+        {
+          "MC82.0": {
+            "confidence_embedding": 0.7401,
+            "text": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico."
+          }
+        },
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7189,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MB23.H": {
+            "confidence_embedding": 0.7148,
+            "text": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas."
+          }
+        },
+        {
+          "MC80.0Y": {
+            "confidence_embedding": 0.7026,
+            "text": "Representação de doença CID-11: Outro valor elevado da pressão arterial especificado, sem diagnóstico de hipertensão. Definição: "
+          }
+        }
+      ]
+    },
+    "cardiopatia isquemica": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BC43": {
+            "confidence_embedding": 0.7994,
+            "text": "Representação de doença CID-11: Cardiomiopatia. Definição: Transtornos do miocárdio em que o músculo cardíaco é estrutural e funcionalmente anormal, na ausência de doença arterial coronariana, hipertensão, doença valvar e doença cardíaca congênita suficiente para causar a anormalidade miocárdica observada."
+          }
+        },
+        {
+          "BA41": {
+            "confidence_embedding": 0.7915,
+            "text": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)"
+          }
+        },
+        {
+          "BC43.1": {
+            "confidence_embedding": 0.7907,
+            "text": "Representação de doença CID-11: Cardiomiopatia hipertrófica. Definição: A cardiomiopatia hipertrófica é a presença de um ventrículo hipertrofiado e não dilatado na ausência de uma causa hemodinâmica que seja capaz de produzir a magnitude existente de espessamento da parede, excluindo tanto a hipertrofia fisiológica secundária à atividade física quanto a hipertrofia patológica devida a hipertensão arterial sistêmica, estenose valvar aórtica e coarctação da aorta."
+          }
+        },
+        {
+          "BC43.6": {
+            "confidence_embedding": 0.7876,
+            "text": "Representação de doença CID-11: Cardiomiopatia ventricular arritmogênica. Definição: A cardiomiopatia ventricular arritmogênica é uma cardiomiopatia caracterizada pela perda de células miocárdicas com substituição parcial ou total do músculo ventricular direito por tecido adiposo e fibroso, começando pelo subepicárdio e se tornando transmural com o tempo, poupando os músculos papilares e trabéculas, e frequentemente associada a aneurismas, particularmente da via de saída ventricular direita. Há comprometimento sistólico progressivo com dilatação ventricular e acentuada propensão a arritmias ventriculares de origem ventricular direita, e também esquerda. Classicamente uma doença do ventrículo direito, evidências mais recentes sugerem envolvimento do ventrículo esquerdo em extensão variável em até 75% dos casos, assim como doença isolada do ventrículo esquerdo."
+          }
+        },
+        {
+          "BA51": {
+            "confidence_embedding": 0.7873,
+            "text": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas."
+          }
+        }
+      ]
+    },
+    "intercorrências": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MC82.0": {
+            "confidence_embedding": 0.7854,
+            "text": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico."
+          }
+        },
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7766,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MC82.1": {
+            "confidence_embedding": 0.7637,
+            "text": "Representação de doença CID-11: Parada cardíaca com bradicardia. Definição: Ritmo de escape lento associado a colapso hemodinâmico."
+          }
+        },
+        {
+          "MB23.H": {
+            "confidence_embedding": 0.7529,
+            "text": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas."
+          }
+        },
+        {
+          "MB20.1": {
+            "confidence_embedding": 0.7496,
+            "text": "Representação de doença CID-11: Coma. Definição: Estado agudo com duração de mais de uma hora e geralmente menos de um mês. O paciente em coma está arresponsivo, fica com os olhos fechados e não pode ser despertado nem mesmo por estímulos vigorosos e dolorosos. As respostas motoras à estimulação dolorosa estão limitadas a reflexos. As etiologias incluem, mas não estão limitadas a, lesões cerebrais traumáticas, anóxicas, infecciosas, neoplásicas, vasculares, inflamatórias e metabólicas."
+          }
+        }
+      ]
+    },
+    "fibrilação atrial": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BC81.30": {
+            "confidence_embedding": 0.8499,
+            "text": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+          }
+        },
+        {
+          "BC81.32": {
+            "confidence_embedding": 0.8468,
+            "text": "Representação de doença CID-11: Fibrilação atrial permanente. Definição: Termo usado para identificar indivíduos com FA persistente em que foi tomada a decisão de não mais seguir uma estratégia de controle do ritmo, ou em que a cardioversão falhou ou não foi tentada."
+          }
+        },
+        {
+          "BC60": {
+            "confidence_embedding": 0.8402,
+            "text": "Representação de doença CID-11: Despolarização atrial prematura. Definição: Despolarização elétrica cardíaca originada nos átrios, ocorrendo antes do batimento sinusal esperado"
+          }
+        },
+        {
+          "BC81.33": {
+            "confidence_embedding": 0.8304,
+            "text": "Representação de doença CID-11: Fibrilação atrial pré-excitada. Definição: Fibrilação atrial que ocorre no contexto de uma síndrome de pré-excitação, como a síndrome de Wolff-Parkinson-White, resultando em um ritmo de complexo largo errático que pode degenerar em fibrilação ventricular, e morte cardíaca súbita."
+          }
+        },
+        {
+          "BC40": {
+            "confidence_embedding": 0.8287,
+            "text": "Representação de doença CID-11: Anormalidade atrial adquirida. Definição: Uma alteração patológica pós-natal na forma ou função de um ou ambos os átrios."
+          }
+        }
+      ]
+    },
+    "palpitações": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BC81.30": {
+            "confidence_embedding": 0.8161,
+            "text": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+          }
+        },
+        {
+          "BA60.8": {
+            "confidence_embedding": 0.8124,
+            "text": "Representação de doença CID-11: Arritmia como complicação atual subsequente a infarto agudo do miocárdio. Definição: Grupo grande e heterogêneo de condições nas quais o coração bate com um ritmo irregular ou anormal que pode complicar o curso de pacientes com infarto agudo do miocárdio."
+          }
+        },
+        {
+          "BC81.32": {
+            "confidence_embedding": 0.8119,
+            "text": "Representação de doença CID-11: Fibrilação atrial permanente. Definição: Termo usado para identificar indivíduos com FA persistente em que foi tomada a decisão de não mais seguir uma estratégia de controle do ritmo, ou em que a cardioversão falhou ou não foi tentada."
+          }
+        },
+        {
+          "BA60.1": {
+            "confidence_embedding": 0.8094,
+            "text": "Representação de doença CID-11: Outra pericardite como complicação atual subsequente a infarto agudo do miocárdio. Definição: Inflamação do pericárdio que pode causar dor no peito, que ocorre tão precocemente quanto o primeiro dia e até 6 semanas após o infarto agudo do miocárdio. A dor da pericardite irradia para qualquer crista do trapézio. O infarto do miocárdio transmural é responsável pela inflamação pericárdica local. Atritos pericárdicos transitórios são relativamente comuns em pacientes com infarto transmural nas primeiras 48 horas. Uma pericardite fibrinosa aguda ocorre comumente após o infarto transmural, enquanto o risco de pericardite hemorrágica está aumentado por anticoagulação."
+          }
+        },
+        {
+          "BA41": {
+            "confidence_embedding": 0.8072,
+            "text": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)"
+          }
+        }
+      ]
+    },
+    "ritmo cardiaco regular": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MC82.1": {
+            "confidence_embedding": 0.776,
+            "text": "Representação de doença CID-11: Parada cardíaca com bradicardia. Definição: Ritmo de escape lento associado a colapso hemodinâmico."
+          }
+        },
+        {
+          "MC82.0": {
+            "confidence_embedding": 0.7619,
+            "text": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico."
+          }
+        },
+        {
+          "MG24.7": {
+            "confidence_embedding": 0.7251,
+            "text": "Representação de doença CID-11: Medo de doença cardiovascular. Definição: "
+          }
+        },
+        {
+          "MC82.4": {
+            "confidence_embedding": 0.7169,
+            "text": "Representação de doença CID-11: Parada cardiopulmonar. Definição: "
+          }
+        },
+        {
+          "MB23.H": {
+            "confidence_embedding": 0.7143,
+            "text": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas."
+          }
+        }
+      ]
+    }
+  }
+}

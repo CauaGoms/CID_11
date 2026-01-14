@@ -1,0 +1,103 @@
+{
+  "prontuario_id": 482,
+  "text": "Paciente submetido a angioplastia coronariana com implante de stent em segmento proximal de artéria coronária direita com sucesso angiográfico. Tentativa de angioplastia de oclusão em segmento distal do mesmo vaso, sem sucesso (guia não ultrapassou a lesão). Procedimento transcorreu sem intercorrências.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Negação": [
+      "sem",
+      "não"
+    ],
+    "Achado": [
+      "sucesso"
+    ],
+    "Dispositivo Médico": [
+      "guia"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Procedimento",
+      "angioplastia coronariana",
+      "implante de stent",
+      "angioplastia de oclusão"
+    ],
+    "Sinal ou Sintoma": [
+      "intercorrências"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "segmento proximal de artéria coronária direita"
+    ]
+  },
+  "labels": {
+    "sucesso": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BC43": {
+            "confidence_embedding": 0.7466,
+            "text": "Representação de doença CID-11: Cardiomiopatia. Definição: Transtornos do miocárdio em que o músculo cardíaco é estrutural e funcionalmente anormal, na ausência de doença arterial coronariana, hipertensão, doença valvar e doença cardíaca congênita suficiente para causar a anormalidade miocárdica observada."
+          }
+        },
+        {
+          "BE14.9": {
+            "confidence_embedding": 0.7456,
+            "text": "Representação de doença CID-11: Transtorno aórtico pós-procedimento relacionado a anomalia cardíaca congênita. Definição: Evento ou ocorrência afetando a aorta em consequência da presença de doença cardiovascular congênita, que está associada a uma intervenção de cuidado de saúde, sendo um desvio do curso desejado de eventos e pode causar, ou estar associado a, um resultado subótimo."
+          }
+        },
+        {
+          "BA85": {
+            "confidence_embedding": 0.7448,
+            "text": "Representação de doença CID-11: Doença vasoespástica coronariana. Definição: O termo doença coronariana vasoespástica refere-se a uma vasoconstrição súbita e intensa de uma artéria coronária epicárdica que causa a oclusão ou quasi-oclusão do vaso. Embora possa estar envolvido em outras síndromes coronárias, representa a causa habitual de angina variante."
+          }
+        },
+        {
+          "BC43.11": {
+            "confidence_embedding": 0.7434,
+            "text": "Representação de doença CID-11: Cardiomiopatia hipertrófica não obstrutiva. Definição: Cardiomiopatia hipertrófica não obstrutiva é uma cardiomiopatia hipertrófica que não tem estreitamento intraventricular fixo ou dinâmico suficiente para resultar em gradiente de pressão significativo entre o ápice ventricular e a valva da via de saída (aórtica ou pulmonar)."
+          }
+        },
+        {
+          "BA83": {
+            "confidence_embedding": 0.7415,
+            "text": "Representação de doença CID-11: Fístula da artéria coronária, adquirida. Definição: Comunicação anormal entre uma artéria coronária e câmara cardíaca ou vasos principais, adquirida após cirurgia coronária ou cardíaca, angioplastia coronária, ruptura ou aneurisma da artéria coronária ou lesão do coração."
+          }
+        }
+      ]
+    },
+    "intercorrências": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NE82.1Z": {
+            "confidence_embedding": 0.7275,
+            "text": "Representação de doença CID-11: Disfunção do marcapasso ou cardioversor desfibrilador implantável, não especificada. Definição: "
+          }
+        },
+        {
+          "NE82.1Y": {
+            "confidence_embedding": 0.7261,
+            "text": "Representação de doença CID-11: Outra disfunção especificada do marcapasso ou cardioversor desfibrilador implantável. Definição: "
+          }
+        },
+        {
+          "NE82.1": {
+            "confidence_embedding": 0.7259,
+            "text": "Representação de doença CID-11: Disfunção do marcapasso ou cardioversor desfibrilador implantável. Definição: "
+          }
+        },
+        {
+          "NE82.03": {
+            "confidence_embedding": 0.7238,
+            "text": "Representação de doença CID-11: Cardiomiopatia induzida por estimulação (por marcapasso). Definição: "
+          }
+        },
+        {
+          "NB30.0Z": {
+            "confidence_embedding": 0.7229,
+            "text": "Representação de doença CID-11: Lesão da aorta torácica, não especificada. Definição: "
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "prontuario_id": 90,
+  "text": "CIRURGIA DE COLUNA HÁ VARIOS ANOS. \nLOMBALGIA COM CLINICA  DUVIDOSA. \nSOLICITO RAIO-X PARA AVALIAR O QUADRO.\nORIENTO A PACIENTE.        ",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "LOMBALGIA",
+      "CLINICA DUVIDOSA"
+    ],
+    "Procedimento Diagnóstico": [
+      "RAIO-X"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CIRURGIA DE COLUNA"
+    ]
+  },
+  "labels": {
+    "lombalgia": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FA80.8": {
+            "confidence_embedding": 0.735,
+            "text": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: "
+          }
+        },
+        {
+          "FA9Z": {
+            "confidence_embedding": 0.7342,
+            "text": "Representação de doença CID-11: Inflamação da coluna vertebral, não especificada. Definição: "
+          }
+        },
+        {
+          "FA80.9": {
+            "confidence_embedding": 0.7184,
+            "text": "Representação de doença CID-11: Degeneração de disco intervertebral em coluna lombar com prolapso de disco. Definição: "
+          }
+        },
+        {
+          "FA80.A": {
+            "confidence_embedding": 0.7183,
+            "text": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar com esporão ósseo na vértebra. Definição: "
+          }
+        },
+        {
+          "FA70.0": {
+            "confidence_embedding": 0.7159,
+            "text": "Representação de doença CID-11: Cifose. Definição: Esta é uma curvatura da coluna vertebral que causa um arqueamento ou arredondamento das costas, o que leva a uma postura corcunda ou curvada."
+          }
+        }
+      ]
+    },
+    "clinica duvidosa": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "ME84.Z": {
+            "confidence_embedding": 0.7363,
+            "text": "Representação de doença CID-11: Dor na coluna vertebral, não especificada. Definição: "
+          }
+        },
+        {
+          "MG30.2": {
+            "confidence_embedding": 0.7351,
+            "text": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente."
+          }
+        },
+        {
+          "ME84": {
+            "confidence_embedding": 0.7305,
+            "text": "Representação de doença CID-11: Dor na coluna. Definição: Condição caracterizada por dor sentida nas costas/região dorsal, que geralmente se origina nos músculos, nervos, ossos, articulações ou outras estruturas da coluna vertebral."
+          }
+        },
+        {
+          "MG30.21": {
+            "confidence_embedding": 0.727,
+            "text": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática."
+          }
+        },
+        {
+          "MG30.20": {
+            "confidence_embedding": 0.7256,
+            "text": "Representação de doença CID-11: Dor crônica pós-traumática. Definição: Dor pós-traumática crônica é a dor que se desenvolve ou aumenta de intensidade após uma lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após o traumatismo tecidual. A dor é ou localizada na área da lesão, ou referida no território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente por um problema doloroso preexistente."
+          }
+        }
+      ]
+    }
+  }
+}

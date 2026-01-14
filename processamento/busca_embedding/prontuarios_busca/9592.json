@@ -1,0 +1,591 @@
+{
+  "prontuario_id": 883,
+  "text": "TX RENAL.\nDM INSULINO DEPENDENTE.\nPNEUMOCISTOSE PRESUMIDA TRATADA.\nMTC 5, FK 1 / 1, MS 2 / 1, BO, ATENSINA 0,100 X2,  LANTUS 20, ASPART 5U / REFEIÇÃO, CBZ 200 E BROMOPRIDA S/N.\nS : ENTORSE E TRAUMA TNZ D COM DOR E LIMITAÇÃO FUNCIONAL HÁ VARIOS DIAS.\nO : PA 140/80,  P 80,  PESO 76.\nCORADA E HIDRATADA.\nCPP LIVRES.\nPC RITMO REGULAR.\nABD SP.\nMMII SEM EDEMA / DOR A PALPAÇÃO E MOBILIZAÇÃO DE FACE LAT TNZ D.\nTX RENAL COM CR 0,86 E NS FK 4.\nITU BAIXA E COLI.\nENTORSE TNZ D.\nDM DESCOMPENSADO.\n \n \n ",
+  "entities": {
+    "Doença ou Síndrome": [
+      "PNEUMOCISTOSE",
+      "DM INSULINO DEPENDENTE",
+      "ITU BAIXA",
+      "DM DESCOMPENSADO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TRATADA",
+      "TX RENAL"
+    ],
+    "Achado": [
+      "TRATADA",
+      "S",
+      "CORADA",
+      "HIDRATADA",
+      "SP",
+      "TX RENAL",
+      "CPP LIVRES",
+      "PC RITMO REGULAR"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "FK",
+      "MS",
+      "BO",
+      "ATENSINA",
+      "LANTUS",
+      "ASPART",
+      "CBZ",
+      "BROMOPRIDA"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "FK",
+      "MS",
+      "ATENSINA",
+      "LANTUS",
+      "ASPART",
+      "CBZ",
+      "BROMOPRIDA"
+    ],
+    "Abreviação": [
+      "MTC",
+      "FK",
+      "MS",
+      "BO",
+      "CBZ",
+      "S/N",
+      "S",
+      "O",
+      "PA",
+      "P",
+      "ABD",
+      "SP",
+      "MMII",
+      "TX RENAL",
+      "DM INSULINO DEPENDENTE",
+      "TNZ D",
+      "CPP LIVRES",
+      "PC RITMO REGULAR",
+      "FACE LAT TNZ D",
+      "CR 0 , 86",
+      "NS FK 4",
+      "ITU BAIXA",
+      "DM DESCOMPENSADO"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "20",
+      "5U",
+      "200",
+      "140/80",
+      "80",
+      "76",
+      "0 , 100 X2"
+    ],
+    "Conceito Temporal": [
+      "REFEIÇÃO",
+      "HÁ VARIOS DIAS"
+    ],
+    "Conceito Qualitativo": [
+      "S/N"
+    ],
+    "Lesão ou Envenenamento": [
+      "ENTORSE",
+      "TRAUMA"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR",
+      "EDEMA",
+      "LIMITAÇÃO FUNCIONAL"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PESO"
+    ],
+    "Atributo de Organismo": [
+      "PESO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABD",
+      "MMII",
+      "TNZ D"
+    ],
+    "Negação": [
+      "SP",
+      "SEM"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Procedimento Diagnóstico": [
+      "PALPAÇÃO"
+    ],
+    "Localização ou Região Corporal": [
+      "FACE LAT TNZ D"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 86",
+      "NS FK 4"
+    ],
+    "Bactéria": [
+      "E COLI"
+    ]
+  },
+  "labels": {
+    "entorse": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NA83.42": {
+            "confidence_embedding": 0.7292,
+            "text": "Representação de doença CID-11: Distensão ou entorse da articulação condroesternal. Definição: Funções biomecânicas aberrantes das articulações entre as costelas e o esterno, que pode ser resultado de doença local, doença sistêmica, tensão postural ou trauma."
+          }
+        },
+        {
+          "ND51": {
+            "confidence_embedding": 0.7156,
+            "text": "Representação de doença CID-11: Outros traumatismos da coluna ou tronco, nível não especificado. Definição: "
+          }
+        },
+        {
+          "NB60": {
+            "confidence_embedding": 0.7152,
+            "text": "Representação de doença CID-11: Concussão ou edema da medula espinhal lombar. Definição: "
+          }
+        },
+        {
+          "ND51.Z": {
+            "confidence_embedding": 0.7144,
+            "text": "Representação de doença CID-11: Outros traumatismos da coluna ou tronco, nível não especificado, não especificados. Definição: "
+          }
+        },
+        {
+          "ND51.Y": {
+            "confidence_embedding": 0.7136,
+            "text": "Representação de doença CID-11: Outros traumatismos especificados da coluna ou tronco, nível não especificado. Definição: "
+          }
+        }
+      ]
+    },
+    "limitação funcional": {
+      "capitulo": "V",
+      "opcoes": [
+        {
+          "VW21": {
+            "confidence_embedding": 0.7152,
+            "text": "Representação de doença CID-11: Cuidado com partes do corpo. Definição: "
+          }
+        },
+        {
+          "VE00": {
+            "confidence_embedding": 0.712,
+            "text": "Representação de doença CID-11: Visão e funções relacionadas [BMDS]. Definição: "
+          }
+        },
+        {
+          "VV3Z": {
+            "confidence_embedding": 0.6938,
+            "text": "Representação de doença CID-11: Funções dos sistemas cardiovascular, hematológico, imunológico e respiratório, não especificadas. Definição: "
+          }
+        },
+        {
+          "VV40": {
+            "confidence_embedding": 0.6919,
+            "text": "Representação de doença CID-11: Funções relacionadas ao sistema digestivo. Definição: "
+          }
+        },
+        {
+          "VV0Z": {
+            "confidence_embedding": 0.6897,
+            "text": "Representação de doença CID-11: Funções mentais, não especificadas. Definição: "
+          }
+        }
+      ]
+    },
+    "edema": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FB32.20": {
+            "confidence_embedding": 0.7842,
+            "text": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave."
+          }
+        },
+        {
+          "FA27.2": {
+            "confidence_embedding": 0.7623,
+            "text": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos."
+          }
+        },
+        {
+          "FB50.2": {
+            "confidence_embedding": 0.7437,
+            "text": "Representação de doença CID-11: Cisto sinovial do espaço poplíteo. Definição: Este é o edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho"
+          }
+        },
+        {
+          "FA25": {
+            "confidence_embedding": 0.7266,
+            "text": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato."
+          }
+        },
+        {
+          "FA38.3": {
+            "confidence_embedding": 0.7117,
+            "text": "Representação de doença CID-11: Artropatia hemofílica. Definição: Trata-se da destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia. Esta condição inclui a ocorrência de hemartrose aguda, artrite subaguda ou crônica e artropatia hemofílica em estágio terminal. Quase todos os pacientes com hemofilia A ou B grave e metade dos pacientes com atividade de doença moderada apresentam hemartrose. Os sintomas incluem dor nas articulações (artralgias), edema articular, fibrose articular, desenvolvimento de deformidades em flexão e erosão da cartilagem articular. As articulações mais comumente afetadas são joelhos, tornozelos, cotovelos, ombros e quadris (em ordem de frequência). O sangramento nos músculos e partes moles também pode causar disfunção musculoesquelética."
+          }
+        }
+      ]
+    },
+    "pneumocistose": {
+      "capitulo": "01",
+      "opcoes": [
+        {
+          "1F27.0": {
+            "confidence_embedding": 0.7751,
+            "text": "Representação de doença CID-11: Criptococose pulmonar. Definição: O padrão da doença pulmonar criptocócica varia de colonização assintomática das vias aéreas a pneumonia a síndrome do desconforto respiratório agudo. Quando presentes, os sintomas incluem tosse, dispneia ou dor no peito. Imagens comuns na radiografia de tórax incluem nódulos ou infiltrados. No hospedeiro imunocompetente, lesões focais são mais comumente observadas em infecção por C. gattii."
+          }
+        },
+        {
+          "1F2G.Z": {
+            "confidence_embedding": 0.7703,
+            "text": "Representação de doença CID-11: Pneumocistose, não especificada. Definição: "
+          }
+        },
+        {
+          "1C19.1": {
+            "confidence_embedding": 0.7644,
+            "text": "Representação de doença CID-11: Doença dos legionários. Definição: Doença do legionário, a forma pneumônica, tem um período de incubação de 2 a 10 dias (mas foram registrados períodos de até 16 dias em alguns surtos). Inicialmente, os sintomas são febre, perda de apetite, dor de cabeça, mal-estar e letargia. Alguns pacientes também podem apresentar dores musculares, diarreia e confusão mental. Geralmente, há também uma tosse leve inicial, mas até 50% dos pacientes podem apresentar catarro. Rajas sanguíneas ou hemoptise ocorrem em cerca de um terço dos pacientes. A gravidade da doença varia de uma tosse leve a uma pneumonia rapidamente fatal. A morte ocorre por pneumonia progressiva com insuficiência respiratória e/ou choque e falência de múltiplos órgãos."
+          }
+        },
+        {
+          "1D62": {
+            "confidence_embedding": 0.7626,
+            "text": "Representação de doença CID-11: Doença por hantavírus. Definição: Doença viral zoonótica aguda caracterizada por início abrupto de febre, sinais clínicos semelhantes aos da influenza (p.ex., calafrios, dor de cabeça, mialgia, tosse seca), sinais gastrointestinais (p.ex., dor abdominal difusa, vômito, diarreia), visão turva transitória (miopia aguda), lombalgia devida a edema renal, manifestações hemorrágicas em vários graus, às vezes seguidas por dispneia crescente devida a edema agudo de pulmão não cardiogênico, e/ou envolvimento renal. Este último é caracterizado por proteinúria e microhematúria iniciais, muitas vezes maciças, às vezes acompanhadas por comprometimento transitório da função renal. Todas as infecções por hantavírus são precedidas por vários graus de trombocitopenia transitória, que pode servir como um indicador de gravidade clínica."
+          }
+        },
+        {
+          "1F25.00": {
+            "confidence_embedding": 0.7608,
+            "text": "Representação de doença CID-11: Coccidioidomicose pulmonar aguda. Definição: Quarenta por cento das infecções por coccidioides resultam em doença pulmonar sintomática que pode ser indistinguível de uma pneumonia bacteriana adquirida na comunidade. Radiograficamente, apresentam-se como opacidades alveolares focais. A infecção pode estar associada ao desenvolvimento de erupção cutânea, particularmente eritema nodoso e eritema multiforme. Ocasionalmente, pode haver artralgias simétricas ou artrite. A eosinofilia no sangue periférico não é incomum. A coccidioidomicose pulmonar primária aguda, particularmente quando associada a eritema nodoso e/ou eritema multiforme, é freqüentemente chamada de \"febre do vale\". Quando associada a artralgias ou artrite, é denominada \"reumatismo do deserto\"."
+          }
+        }
+      ]
+    },
+    "dm insulino dependente": {
+      "capitulo": "05",
+      "opcoes": [
+        {
+          "5A13.3": {
+            "confidence_embedding": 0.7517,
+            "text": "Representação de doença CID-11: Diabetes mellitus devido a endocrinopatias. Definição: Outro diabetes mellitus especificado devido a endocrinopatias é causado por excesso de hormônios (por exemplo, hormônio do crescimento cortisol, glucagon, adrenalina), que antagonizam a ação da insulina. \r\nQuantidades excessivas desses hormônios (que são secretados por exemplo, na acromegalia, \r\n na síndrome de Cushing, no glucagonoma, \r\n e no feocromocitoma, respectivamente) podem causar diabetes. Isso geralmente ocorre em indivíduos com defeitos pré-existentes na secreção de insulina, e a hiperglicemia geralmente desaparece quando o \r\n excesso de hormônio é resolvido."
+          }
+        },
+        {
+          "5A10": {
+            "confidence_embedding": 0.7499,
+            "text": "Representação de doença CID-11: Diabetes mellitus tipo 1. Definição: Diabetes mellitus tipo 1 ( diabetes tipo 1, DM1, anteriormente dependente de insulina ou diabetes juvenil) é uma forma de diabetes mellitus que resulta da destruição das células beta produtoras de insulina, principalmente por mecanismos autoimunes. A subsequente falta de insulina leva ao aumento da glicose no sangue e na urina."
+          }
+        },
+        {
+          "5C51.20": {
+            "confidence_embedding": 0.7498,
+            "text": "Representação de doença CID-11: Hiperoxalúria primária tipo I. Definição: A hiperoxalúria tipo 1 é devido a um defeito numa enzima hepática peroxissomal alanina glioxilato aminotransferase. A forma infantil é caracterizada por insuficiência renal crônica por deposição excessiva de oxalato. Em outros pacientes apresenta-se como urolitíase recidivante , que se deteriora com infecções, hematúria, cólicas nefréticas ou comprometimento renal agudo por obstrução completa. Doença renal terminal ocorre antes dos 15 anos de idade em metade dos casos e acabam levando a deposição de oxalato em outros tecidos, causando defeitos de condução cardíaca, hipertensão, gangrena distal e redução da mobilidade e dor articular."
+          }
+        },
+        {
+          "5A13.2": {
+            "confidence_embedding": 0.7487,
+            "text": "Representação de doença CID-11: Diabetes mellitus devido a doenças do pâncreas exócrino. Definição: Outro diabetes mellitus especificado devido a doenças do pâncreas exócrino é uma forma de diabetes que é causada por qualquer processo que lesa o pâncreas difusamente. Processos adquiridos incluem pancreatite, trauma, infecção, pancreatectomia e carcinoma pancreático. Com exceção do causado por câncer, os danos ao pâncreas devem ser extensos para que o diabetes ocorra."
+          }
+        },
+        {
+          "5B5K.7": {
+            "confidence_embedding": 0.741,
+            "text": "Representação de doença CID-11: Deficiência de selênio. Definição: Deficiência de selênio é rara mas tem sido observada em indivíduos em uso prolongado de dieta parenteral total(NPT) sem selênio. Manifestações clínicas da deficiência decorrente de tal situação são incomuns e pouco definidas. Elas incluem fraqueza muscular e mialgia com, em casos graves, o desenvolvimento de insuficiência cardíaca congestiva. A importância do selênio para o metabolismo dos hormônios tireoidianos é evidente, a partir de mudanças na proporção T3-T4 que se desenvolvem após uma depleção de selênio relativamente leve em bebês e idosos"
+          }
+        }
+      ]
+    },
+    "trauma": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "ND34": {
+            "confidence_embedding": 0.7802,
+            "text": "Representação de doença CID-11: Traumatismos por esmagamento envolvendo múltiplas regiões do corpo. Definição: "
+          }
+        },
+        {
+          "ND5Y": {
+            "confidence_embedding": 0.7783,
+            "text": "Representação de doença CID-11: Outros traumatismos especificados de parte não especificada de tronco, membro ou região do corpo. Definição: "
+          }
+        },
+        {
+          "ND56.Y": {
+            "confidence_embedding": 0.778,
+            "text": "Representação de doença CID-11: Traumatismo especificado de região não especificada do corpo. Definição: "
+          }
+        },
+        {
+          "ND57": {
+            "confidence_embedding": 0.7776,
+            "text": "Representação de doença CID-11: Efeito secundário do trauma. Definição: "
+          }
+        },
+        {
+          "ND56.Z": {
+            "confidence_embedding": 0.7769,
+            "text": "Representação de doença CID-11: Traumatismo de região não especificada do corpo, não especificado. Definição: "
+          }
+        }
+      ]
+    },
+    "e coli": {
+      "capitulo": "01",
+      "opcoes": [
+        {
+          "1D62": {
+            "confidence_embedding": 0.8127,
+            "text": "Representação de doença CID-11: Doença por hantavírus. Definição: Doença viral zoonótica aguda caracterizada por início abrupto de febre, sinais clínicos semelhantes aos da influenza (p.ex., calafrios, dor de cabeça, mialgia, tosse seca), sinais gastrointestinais (p.ex., dor abdominal difusa, vômito, diarreia), visão turva transitória (miopia aguda), lombalgia devida a edema renal, manifestações hemorrágicas em vários graus, às vezes seguidas por dispneia crescente devida a edema agudo de pulmão não cardiogênico, e/ou envolvimento renal. Este último é caracterizado por proteinúria e microhematúria iniciais, muitas vezes maciças, às vezes acompanhadas por comprometimento transitório da função renal. Todas as infecções por hantavírus são precedidas por vários graus de trombocitopenia transitória, que pode servir como um indicador de gravidade clínica."
+          }
+        },
+        {
+          "1D62.0": {
+            "confidence_embedding": 0.7865,
+            "text": "Representação de doença CID-11: Febre hemorrágica com síndrome renal. Definição: Doença viral zoonótica aguda com início abrupto de febre, dor lombar, com graus variados de manifestações hemorrágicas e envolvimento renal causada por certos hantavírus."
+          }
+        },
+        {
+          "1C19.1": {
+            "confidence_embedding": 0.7747,
+            "text": "Representação de doença CID-11: Doença dos legionários. Definição: Doença do legionário, a forma pneumônica, tem um período de incubação de 2 a 10 dias (mas foram registrados períodos de até 16 dias em alguns surtos). Inicialmente, os sintomas são febre, perda de apetite, dor de cabeça, mal-estar e letargia. Alguns pacientes também podem apresentar dores musculares, diarreia e confusão mental. Geralmente, há também uma tosse leve inicial, mas até 50% dos pacientes podem apresentar catarro. Rajas sanguíneas ou hemoptise ocorrem em cerca de um terço dos pacientes. A gravidade da doença varia de uma tosse leve a uma pneumonia rapidamente fatal. A morte ocorre por pneumonia progressiva com insuficiência respiratória e/ou choque e falência de múltiplos órgãos."
+          }
+        },
+        {
+          "1A00": {
+            "confidence_embedding": 0.7707,
+            "text": "Representação de doença CID-11: Cólera. Definição: A cólera é uma infecção intestinal com potencial para causar epidemias e óbitos, caracterizada por diarreia aquosa profusa, muitas vezes acompanhada de vômito, com rápida depleção de fluidos corporais e sal, que pode resultar em choque hipovolêmico e acidose. Os surtos de cólera são causados ​​por cepas toxigênicas de Vibrio cholerae dos sorogrupos O1 e O139. O sorogrupo O1 possui dois biotipos; Clássico e El Tor. Vibrio cholerae O1, biotipo cholerae é do tipo Clássico. Vibrio cholerae O1, biovar El Tor é do tipo El Tor."
+          }
+        },
+        {
+          "1A24": {
+            "confidence_embedding": 0.7699,
+            "text": "Representação de doença CID-11: Infecções intestinais por citomegalovírus. Definição: Doença do trato gastrointestinal, causada por uma infecção pelo citomegalovírus. Essa afecção é caracterizada por diarreia, febre, dor abdominal ou hematoquezia. A transmissão ocorre pelo contato direto com fluidos corporais infectados."
+          }
+        }
+      ]
+    },
+    "dm descompensado": {
+      "capitulo": "05",
+      "opcoes": [
+        {
+          "5B5K.7": {
+            "confidence_embedding": 0.7689,
+            "text": "Representação de doença CID-11: Deficiência de selênio. Definição: Deficiência de selênio é rara mas tem sido observada em indivíduos em uso prolongado de dieta parenteral total(NPT) sem selênio. Manifestações clínicas da deficiência decorrente de tal situação são incomuns e pouco definidas. Elas incluem fraqueza muscular e mialgia com, em casos graves, o desenvolvimento de insuficiência cardíaca congestiva. A importância do selênio para o metabolismo dos hormônios tireoidianos é evidente, a partir de mudanças na proporção T3-T4 que se desenvolvem após uma depleção de selênio relativamente leve em bebês e idosos"
+          }
+        },
+        {
+          "5C78": {
+            "confidence_embedding": 0.7638,
+            "text": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem."
+          }
+        },
+        {
+          "5C51.20": {
+            "confidence_embedding": 0.7614,
+            "text": "Representação de doença CID-11: Hiperoxalúria primária tipo I. Definição: A hiperoxalúria tipo 1 é devido a um defeito numa enzima hepática peroxissomal alanina glioxilato aminotransferase. A forma infantil é caracterizada por insuficiência renal crônica por deposição excessiva de oxalato. Em outros pacientes apresenta-se como urolitíase recidivante , que se deteriora com infecções, hematúria, cólicas nefréticas ou comprometimento renal agudo por obstrução completa. Doença renal terminal ocorre antes dos 15 anos de idade em metade dos casos e acabam levando a deposição de oxalato em outros tecidos, causando defeitos de condução cardíaca, hipertensão, gangrena distal e redução da mobilidade e dor articular."
+          }
+        },
+        {
+          "5B5A.0": {
+            "confidence_embedding": 0.7549,
+            "text": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina."
+          }
+        },
+        {
+          "5C70.0": {
+            "confidence_embedding": 0.7536,
+            "text": "Representação de doença CID-11: Desidratação. Definição: A desidratação ocorre quando há uma quantidade insuficiente ou perda excessiva de água no corpo. Isso pode ser causado por vômitos, diarreia, febre, uso de diuréticos, sudorese profusa ou diminuição da ingestão de água."
+          }
+        }
+      ]
+    },
+    "sp": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FB32.20": {
+            "confidence_embedding": 0.8051,
+            "text": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave."
+          }
+        },
+        {
+          "FA27.2": {
+            "confidence_embedding": 0.7351,
+            "text": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos."
+          }
+        },
+        {
+          "FB51.4": {
+            "confidence_embedding": 0.7311,
+            "text": "Representação de doença CID-11: Fibrose retroperitoneal. Definição: Fibrose retroperitoneal (FRP) é uma doença caracterizada pela formação de extensa proliferação de tecido fibroso no retroperitônio, resultando em encarceramento e obstrução de estruturas retroperitoneais, particularmente os ureteres. A FRP pode ser classificada em primária (idiopática), o que significa que sua causa não é conhecida, ou secundária. No entanto, sua associação com várias condições imunomediadas e sua resposta ao tratamento imunossupressor têm levado á especulação de etiologia autoimune para a FRP idiopática. Um terço dos casos são secundários a neoplasias malignas, medicamentos, traumatismo e algumas infecções."
+          }
+        },
+        {
+          "FA22": {
+            "confidence_embedding": 0.723,
+            "text": "Representação de doença CID-11: Polimialgia reumática. Definição: A polimialgia reumática (PMR) é uma síndrome caracterizada por dores nas porções proximais das extremidades e do tronco. Os critérios de classificação provisórios para PMR pela European League Against Rheumatism / American College of Rheumatology Collaborative Initiative devem ser aplicados em pacientes com 50 anos ou mais com dor nos ombros bilateral e PCR e / ou VHS anormais. O algoritmo de pontuação é baseado na rigidez matinal> 45 minutos (2 pontos), dor / amplitude de movimento limitada no quadril (1 ponto), ausência de fator reumatoide e / ou anticorpo anti-proteína citrulinada (1 ponto), com critério de ultrassom opcional. Mais comumente, a PMR ocorre de forma isolada, mas pode ser observada em 40-50% dos pacientes com arterite de células gigantes."
+          }
+        },
+        {
+          "FB56.1": {
+            "confidence_embedding": 0.7227,
+            "text": "Representação de doença CID-11: Corpo estranho residual no tecido mole. Definição: "
+          }
+        }
+      ]
+    },
+    "dor": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MF56": {
+            "confidence_embedding": 0.7965,
+            "text": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos."
+          }
+        },
+        {
+          "MF54.2": {
+            "confidence_embedding": 0.7827,
+            "text": "Representação de doença CID-11: Hipoplasia renal. Definição: Condição caracterizada por um rim menor em tamanho e peso do que a média (menos de 11 centímetros de comprimento, 5-7,5 centímetros de largura, 2,5 centímetros de espessura e pesando menos de 120 gramas)."
+          }
+        },
+        {
+          "MG30.20": {
+            "confidence_embedding": 0.7693,
+            "text": "Representação de doença CID-11: Dor crônica pós-traumática. Definição: Dor pós-traumática crônica é a dor que se desenvolve ou aumenta de intensidade após uma lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após o traumatismo tecidual. A dor é ou localizada na área da lesão, ou referida no território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente por um problema doloroso preexistente."
+          }
+        },
+        {
+          "MD81": {
+            "confidence_embedding": 0.7686,
+            "text": "Representação de doença CID-11: Dor abdominal ou pélvica. Definição: Dor, uma sensação desagradável de desconforto ocorrendo em variados graus de intensidade, recebida pelas terminações nervosas na região abdominal e pélvica."
+          }
+        },
+        {
+          "MG30.2": {
+            "confidence_embedding": 0.7643,
+            "text": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente."
+          }
+        }
+      ]
+    },
+    "tx renal": {
+      "capitulo": "16",
+      "opcoes": [
+        {
+          "GB40": {
+            "confidence_embedding": 0.7946,
+            "text": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose."
+          }
+        },
+        {
+          "GB80.0": {
+            "confidence_embedding": 0.7825,
+            "text": "Representação de doença CID-11: Cisto renal simples. Definição: Doença renal causada pela obstrução dos túbulos, anemia ou descolamento dos divertículos. Esta doença é caracterizada pela formação de sacos anormais de paredes finas cheios de líquido radiolúcido hipoecogênico no rim. A confirmação é por imagem."
+          }
+        },
+        {
+          "GB90.43": {
+            "confidence_embedding": 0.7815,
+            "text": "Representação de doença CID-11: Síndrome de Bartter. Definição: A síndrome de Bartter é uma doença tubular renal genética caracterizada pela associação de alcalose hipocalêmica, aumento dos níveis plasmáticos de renina e aldosterona, redução da pressão arterial e resistência vascular à angiotensina II. Duas formas da doença podem ser distinguidas de acordo com critérios clínicos: uma síndrome de Bartter pré-natal ou infantil (a maioria dos pacientes com genótipos I, II e IV), caracterizada por polidrâmnio, parto prematuro, poliúria, desidratação, hipercalciúria e nefrocalcinose; e a síndrome de Bartter clássica (a maioria pacientes com genótipo III, mas também alguns pacientes do tipo IV), manifestando-se como poliúria-polidipsia desde a primeira infância-infância até a idade adulta, desidratação e um atraso variável na curva de crescimento altura-peso."
+          }
+        },
+        {
+          "GB90.48": {
+            "confidence_embedding": 0.781,
+            "text": "Representação de doença CID-11: Transtornos da excreção de cálcio ou fosfato. Definição: Condições nas quais a excreção renal de cálcio e/ou fosfato está alterada."
+          }
+        },
+        {
+          "GB60.0": {
+            "confidence_embedding": 0.7809,
+            "text": "Representação de doença CID-11: Insuficiência renal aguda, estágio 1. Definição: Taxa de alteração da creatinina sérica: aumento 1,5-1,9 vezes o valor basal em 7 dias OU aumento de 0,3 mg/dl em 48 h OU Magnitude da produção de urina: <0,5 ml/kg/h por 6-12 horas"
+          }
+        }
+      ]
+    },
+    "s": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MF56": {
+            "confidence_embedding": 0.8007,
+            "text": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos."
+          }
+        },
+        {
+          "MF54.2": {
+            "confidence_embedding": 0.8,
+            "text": "Representação de doença CID-11: Hipoplasia renal. Definição: Condição caracterizada por um rim menor em tamanho e peso do que a média (menos de 11 centímetros de comprimento, 5-7,5 centímetros de largura, 2,5 centímetros de espessura e pesando menos de 120 gramas)."
+          }
+        },
+        {
+          "MF96": {
+            "confidence_embedding": 0.7865,
+            "text": "Representação de doença CID-11: Proteinúria. Definição: O excesso de proteínas séricas na urina, como na doença renal, em que a albumina é a proteína principal, porém também pode ser devido a outras proteínas, como imunoglobulinas de cadeias leves na discrasia de células plasmáticas como o mieloma múltiplo."
+          }
+        },
+        {
+          "MF95": {
+            "confidence_embedding": 0.7758,
+            "text": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular."
+          }
+        },
+        {
+          "MG02": {
+            "confidence_embedding": 0.7674,
+            "text": "Representação de doença CID-11: Resultados de estudos de função renal. Definição: "
+          }
+        }
+      ]
+    },
+    "itu baixa": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA02": {
+            "confidence_embedding": 0.7327,
+            "text": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica."
+          }
+        },
+        {
+          "BA41": {
+            "confidence_embedding": 0.7312,
+            "text": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)"
+          }
+        },
+        {
+          "BA60.8": {
+            "confidence_embedding": 0.7268,
+            "text": "Representação de doença CID-11: Arritmia como complicação atual subsequente a infarto agudo do miocárdio. Definição: Grupo grande e heterogêneo de condições nas quais o coração bate com um ritmo irregular ou anormal que pode complicar o curso de pacientes com infarto agudo do miocárdio."
+          }
+        },
+        {
+          "BD71.2": {
+            "confidence_embedding": 0.7263,
+            "text": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal"
+          }
+        },
+        {
+          "BC81.30": {
+            "confidence_embedding": 0.7243,
+            "text": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+          }
+        }
+      ]
+    }
+  }
+}

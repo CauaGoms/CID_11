@@ -1,0 +1,70 @@
+{
+  "prontuario_id": 26,
+  "text": "fx de punho direito há 9 dias.\npcte sem queixas.\ngesso em mau estado. \nRx: mantendo redução. \nCd: reforço de gesso + orientações + retorno em 1 semana.        ",
+  "entities": {
+    "Abreviação": [
+      "pcte",
+      "Rx",
+      "Cd",
+      "fx de punho direito"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "pcte"
+    ],
+    "Sinal ou Sintoma": [
+      "queixas"
+    ],
+    "Procedimento Diagnóstico": [
+      "Rx"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "orientações"
+    ],
+    "Lesão ou Envenenamento": [
+      "fx de punho direito"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "mantendo redução"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "reforço de gesso"
+    ]
+  },
+  "labels": {
+    "fx de punho direito": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FA31.3": {
+            "confidence_embedding": 0.7166,
+            "text": "Representação de doença CID-11: Punho caído adquirido. Definição: "
+          }
+        },
+        {
+          "FB55.2": {
+            "confidence_embedding": 0.7139,
+            "text": "Representação de doença CID-11: Periartrite do punho. Definição: Este transtorno é caracterizado por inflamação de tecidos em torno da articulação do punho."
+          }
+        },
+        {
+          "FA30.2": {
+            "confidence_embedding": 0.6773,
+            "text": "Representação de doença CID-11: Dedo do pé em martelo adquirido. Definição: "
+          }
+        },
+        {
+          "FA31.6": {
+            "confidence_embedding": 0.6744,
+            "text": "Representação de doença CID-11: Mão em garra ou mão torta adquirida. Definição: "
+          }
+        },
+        {
+          "FB50.1": {
+            "confidence_embedding": 0.6744,
+            "text": "Representação de doença CID-11: Bursite associada com o uso, uso excessivo ou pressão. Definição: Esta é uma inflamação de uma ou mais bursas (pequenas bolsas) sinoviais, que geralmente resulta em dor e é causada por uso repetitivo, uso excessivo ou pressão."
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "prontuario_id": 33,
+  "text": "Paciente refere que está sem a medicação e está com piora dos sintomas.\n\nCD: Novos exames + US de Tireóide + citalopram 20 mg + psicologia.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "medicação",
+      "psicologia"
+    ],
+    "Substância Farmacológica": [
+      "medicação",
+      "citalopram"
+    ],
+    "Procedimento Diagnóstico": [
+      "exames",
+      "US de Tireóide"
+    ],
+    "Substância Química Orgânica": [
+      "citalopram"
+    ],
+    "Sinal ou Sintoma": [
+      "piora dos sintomas"
+    ],
+    "Abreviação": [
+      "US de Tireóide"
+    ],
+    "Conceito Quantitativo": [
+      "20 mg"
+    ]
+  },
+  "labels": {
+    "piora dos sintomas": {
+      "capitulo": "06",
+      "opcoes": [
+        {
+          "6A20.22": {
+            "confidence_embedding": 0.7885,
+            "text": "Representação de doença CID-11: Esquizofrenia, contínua, em remissão completa. Definição: Todos os critérios diagnósticos para esquizofrenia, contínuo em termos de sintomas e duração foram atendidos anteriormente. Os sintomas melhoraram de tal forma que nenhum sintoma significativo permanece. A remissão pode ter ocorrido em resposta a medicamento ou outro tratamento."
+          }
+        },
+        {
+          "6A20.12": {
+            "confidence_embedding": 0.7864,
+            "text": "Representação de doença CID-11: Esquizofrenia, episódios múltiplos, em remissão completa. Definição: Todos os critérios diagnósticos para esquizofrenia, episódios múltiplos em termos de sintomas e duração foram atendidos anteriormente. Os sintomas melhoraram de tal forma que nenhum sintoma significativo permanece. A remissão pode ter ocorrido em resposta a medicamento ou outro tratamento."
+          }
+        },
+        {
+          "6E61.0": {
+            "confidence_embedding": 0.7861,
+            "text": "Representação de doença CID-11: Síndrome psicótica secundária com alucinações. Definição: Síndrome caracterizada pela presença de alucinações proeminentes, consideradas consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental, com base em evidências de anamnese, exame físico ou achados laboratoriais. Delírios não são um aspecto proeminente da apresentação clínica. Os sintomas não são explicados por delirium ou por outro transtorno mental e comportamental, e não são uma resposta psicologicamente mediada a uma condição médica grave (p. ex., uma reação aguda ao estresse em resposta ao diagnóstico de uma condição de ameaça à vida). Essa categoria deve ser utilizada em conjunto com o diagnóstico do transtorno ou doença subjacente presumido, quando os sintomas psicóticos são suficientemente graves para exigir atenção clínica específica."
+          }
+        },
+        {
+          "6E61.1": {
+            "confidence_embedding": 0.7853,
+            "text": "Representação de doença CID-11: Síndrome psicótica secundária com delírios. Definição: Síndrome caracterizada pela presença de delírios proeminentes, considerados consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental, com base em evidências de anamnese, exame físico ou achados laboratoriais. Alucinações não são um aspecto proeminente da apresentação clínica. Os sintomas não são explicados por delirium ou por outro transtorno mental e comportamental, e não são uma resposta psicologicamente mediada a uma condição médica grave (p. ex., uma reação aguda ao estresse em resposta ao diagnóstico de uma condição de ameaça à vida). Essa categoria deve ser utilizada em conjunto com o diagnóstico do transtorno ou doença subjacente presumido, quando os sintomas psicóticos são suficientemente graves para exigir atenção clínica específica."
+          }
+        },
+        {
+          "6E63": {
+            "confidence_embedding": 0.7845,
+            "text": "Representação de doença CID-11: Síndrome de ansiedade secundária. Definição: Síndrome caracterizada pela presença de sintomas ansiosos proeminentes, considerados consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental, com base em evidências de anamnese, exame físico ou achados laboratoriais. Os sintomas não são explicados por delirium ou por outro transtorno mental e comportamental, e não são uma resposta psicologicamente mediada a uma condição médica grave (p. ex., sintomas ansiosos ou ataques de pânico em resposta ao diagnóstico de uma doença potencialmente fatal). Essa categoria deve ser utilizada somada ao diagnóstico do transtorno ou doença subjacente presumido, quando os sintomas ansiosos forem suficientemente graves para exigir atenção clínica específica."
+          }
+        }
+      ]
+    }
+  }
+}

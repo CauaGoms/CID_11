@@ -1,0 +1,281 @@
+{
+  "prontuario_id": 143,
+  "text": "PACIENTE COM FIBRILAÇÃO ATRIAL, ICC FE 40%, DUPLA LESÃO AÓRTICA COM PREDOMÍNIO DE ESTENOSE (GDTE MAX 73), SINTOMÁTICA, C/ INDICAÇÃO CIRÚRGICA. INSUFICIÊNCIA MITRAL LEVE / MOD. CAT COM CORONÁRIAS NORMAIS. PACIENTE PROCURA EMERGÊNCIA COM QUADRO DE TROMBOSE VENOSA PROFUNDA EM MEMBRO INFERIOR DIREITO, ATÉ ILÍACAS. DISCUTIDO EM EQUIPE, OPTADO POR ANTICOAGULAÇÃO ORAL A MÉDIO PRAZO, PARA REDUZIR ELEVADO RISCO CIRÚRGICO NO MOMENTO. SE DESCOMPENSAÇÃO REFRATÁRIA A TRATAMENTO CLÍNICO, CONSIDERAR IMPLANTE DE FILTRO DE VEIA CAVA VIA FEM ESQUERDA E TROCA VALVULA. SE BOA EVOLUÇÃO, CIRURGIA ELETIVA APÓS PERÍODO DE MAIOR RISCO. RECEBE ALTA EM USO DAS MEDICAÇÕES ABAIXO RELACIONADAS E RETORNO AMBULATORIAL PARA SEGUIMENTO.",
+  "entities": {
+    "Abreviação": [
+      "ICC",
+      "CAT",
+      "FE 40%",
+      "INSUFICIÊNCIA MITRAL LEVE / MOD",
+      "FEM ESQUERDA"
+    ],
+    "Doença ou Síndrome": [
+      "ICC",
+      "FIBRILAÇÃO ATRIAL",
+      "INSUFICIÊNCIA MITRAL LEVE / MOD",
+      "TROMBOSE VENOSA PROFUNDA",
+      "DESCOMPENSAÇÃO REFRATÁRIA"
+    ],
+    "Sinal ou Sintoma": [
+      "SINTOMÁTICA",
+      "QUADRO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CAT",
+      "REDUZIR",
+      "MEDICAÇÕES",
+      "INDICAÇÃO CIRÚRGICA",
+      "ANTICOAGULAÇÃO ORAL",
+      "TRATAMENTO CLÍNICO",
+      "IMPLANTE DE FILTRO DE VEIA CAVA",
+      "TROCA VALVULA",
+      "CIRURGIA ELETIVA"
+    ],
+    "Procedimento Diagnóstico": [
+      "CAT"
+    ],
+    "Organização Relacionada à Saúde": [
+      "EMERGÊNCIA",
+      "EQUIPE"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ILÍACAS",
+      "MEMBRO INFERIOR DIREITO",
+      "FEM ESQUERDA"
+    ],
+    "Conceito Temporal": [
+      "APÓS",
+      "MÉDIO PRAZO",
+      "NO MOMENTO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ALTA",
+      "SEGUIMENTO",
+      "RETORNO AMBULATORIAL"
+    ],
+    "Substância Farmacológica": [
+      "MEDICAÇÕES"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "FE 40%",
+      "DUPLA LESÃO AÓRTICA COM PREDOMÍNIO DE ESTENOSE",
+      "GDTE MAX 73",
+      "CORONÁRIAS NORMAIS"
+    ],
+    "Achado": [
+      "BOA BOA EVOLUÇÃO EVOLUÇÃO"
+    ]
+  },
+  "labels": {
+    "fibrilação atrial": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BC81.30": {
+            "confidence_embedding": 0.838,
+            "text": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+          }
+        },
+        {
+          "BC81.32": {
+            "confidence_embedding": 0.8366,
+            "text": "Representação de doença CID-11: Fibrilação atrial permanente. Definição: Termo usado para identificar indivíduos com FA persistente em que foi tomada a decisão de não mais seguir uma estratégia de controle do ritmo, ou em que a cardioversão falhou ou não foi tentada."
+          }
+        },
+        {
+          "BC62": {
+            "confidence_embedding": 0.8342,
+            "text": "Representação de doença CID-11: Via acessória. Definição: Conexão elétrica adicional que tipicamente desvia do nó AV, tipicamente inserindo-se diretamente no miocárdio atrial e ventricular, mas também pode se conectar ao sistema de condução especializado (p.ex., o feixe de His, feixes direito ou esquerdo, ou um dos fascículos)."
+          }
+        },
+        {
+          "BE1F.0": {
+            "confidence_embedding": 0.8306,
+            "text": "Representação de doença CID-11: Perfuração atrial esquerda pós procedimento. Definição: Perfuração da parede do átrio morfologicamente esquerdo que ocorreu durante ou após uma intervenção"
+          }
+        },
+        {
+          "BC60": {
+            "confidence_embedding": 0.8265,
+            "text": "Representação de doença CID-11: Despolarização atrial prematura. Definição: Despolarização elétrica cardíaca originada nos átrios, ocorrendo antes do batimento sinusal esperado"
+          }
+        }
+      ]
+    },
+    "trombose venosa profunda": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NB90.1Z": {
+            "confidence_embedding": 0.7003,
+            "text": "Representação de doença CID-11: Lesão da veia cava inferior, não especificada. Definição: "
+          }
+        },
+        {
+          "NB90.1Y": {
+            "confidence_embedding": 0.6975,
+            "text": "Representação de doença CID-11: Outra lesão especificada da veia cava inferior. Definição: "
+          }
+        },
+        {
+          "NA06.3": {
+            "confidence_embedding": 0.6892,
+            "text": "Representação de doença CID-11: Hemorragia traumática cavidade orbital. Definição: Trata-se da perda ou escape de sangue do sistema circulatório, na cavidade ou arcabouço ósseo do crânio em que o olho e seus apêndices estão situados."
+          }
+        },
+        {
+          "NA60.2Z": {
+            "confidence_embedding": 0.6888,
+            "text": "Representação de doença CID-11: Lesão da veia jugular externa, não especificada. Definição: "
+          }
+        },
+        {
+          "NA60.20": {
+            "confidence_embedding": 0.6879,
+            "text": "Representação de doença CID-11: Laceração da veia jugular externa, menor. Definição: "
+          }
+        }
+      ]
+    },
+    "insuficiência mitral leve / mod": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DA20.3": {
+            "confidence_embedding": 0.7199,
+            "text": "Representação de doença CID-11: Perfuração do esôfago. Definição: Perfuração do esôfago é uma penetração ou orifício da parede do esôfago, resultando em conteúdo luminal no esôfago fluindo para o mediastino e/ou cavidade torácica."
+          }
+        },
+        {
+          "DA26.0": {
+            "confidence_embedding": 0.7123,
+            "text": "Representação de doença CID-11: Varizes esofagianas. Definição: Veias anormalmente dilatadas se desenvolveram como shunts portossistêmicos no revestimento do terço inferior do esôfago, em pacientes com hipertensão portal. Uma vez que as varizes esofágicas se desenvolvem, elas continuam a crescer, e o sangramento das varizes esofágicas pode ser fatal."
+          }
+        },
+        {
+          "DB32.0": {
+            "confidence_embedding": 0.707,
+            "text": "Representação de doença CID-11: Pseudo-obstrução do cólon. Definição: A pseudo-obstrução do cólon é uma condição rara, com sintomas de diminuição da capacidade do cólon de fazer transitar líquidos, alimentos e ar, como aqueles causados ​​por uma obstrução cólica. Os achados clínicos e radiológicos são frequentemente semelhantes à obstrução verdadeira, mas nenhum bloqueio mecânico verdadeiro é encontrado. Os sintomas geralmente incluem dispepsia, constipação crônica e cólicas abdominais nos momentos em que está presente. Síndrome de Ogilvie: a pseudo-obstrução aguda do cólon em pacientes debilitados gravemente enfermos está incluída aqui como a forma aguda."
+          }
+        },
+        {
+          "DB98.0": {
+            "confidence_embedding": 0.7068,
+            "text": "Representação de doença CID-11: Infarto do fígado. Definição: Infarto do fígado é um dano hepático causado por suprimento sanguíneo limitado para o fígado, devido a obstrução ou redução do fluxo sanguíneo da artéria hepática, veia porta ou ambos."
+          }
+        },
+        {
+          "DA43.0": {
+            "confidence_embedding": 0.699,
+            "text": "Representação de doença CID-11: Varizes gástricas. Definição: Desenvolvimento de veias anormalmente dilatadas no revestimento do estômago (fundo e/ou cárdia) em pacientes com hipertensão portal. Uma vez desenvolvidas, as varizes gástricas continuam a crescer, e seu sangramento pode ser fatal."
+          }
+        }
+      ]
+    },
+    "sintomática": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MC82.0": {
+            "confidence_embedding": 0.7796,
+            "text": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico."
+          }
+        },
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7617,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MC82.1": {
+            "confidence_embedding": 0.7574,
+            "text": "Representação de doença CID-11: Parada cardíaca com bradicardia. Definição: Ritmo de escape lento associado a colapso hemodinâmico."
+          }
+        },
+        {
+          "MD2Z": {
+            "confidence_embedding": 0.7573,
+            "text": "Representação de doença CID-11: Hemorragia das vias respiratórias, não especificada. Definição: "
+          }
+        },
+        {
+          "MB23.H": {
+            "confidence_embedding": 0.756,
+            "text": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas."
+          }
+        }
+      ]
+    },
+    "icc": {
+      "capitulo": "03",
+      "opcoes": [
+        {
+          "3B64.14": {
+            "confidence_embedding": 0.7563,
+            "text": "Representação de doença CID-11: Púrpura trombocitopênica trombótica. Definição: Esta condição é idiopática. Esta condição é caracterizada por anormalidade da coagulação do sangue causando a formação de coágulos microscópicos de forma extensa nos pequenos vasos sanguíneos do corpo, resultando em baixa contagem de plaquetas. Esta condição pode se apresentar com convulsões, hemiplegia, parestesias, distúrbio visual e afasia ou anemia. A confirmação é pela identificação de tromboses."
+          }
+        },
+        {
+          "3B51": {
+            "confidence_embedding": 0.7542,
+            "text": "Representação de doença CID-11: Defeitos adquiridos da fibrinólise. Definição: Doença causada por determinantes que surgem após o nascimento e que afetam o sistema de fibrinólise, o qual evita que coágulos sanguíneos se estendam e se tornem problemáticos. Essa doença é caracterizada por defeitos no sistema de fibrinólise levando à coagulação do sangue. Pode apresentar-se com trombose."
+          }
+        },
+        {
+          "3B20": {
+            "confidence_embedding": 0.7536,
+            "text": "Representação de doença CID-11: Coagulação intravascular disseminada. Definição: Transtorno caracterizado pela ativação intravascular sistêmica do sistema da coagulação, levando simultaneamente à formação de trombos intravasculares, comprometendo o suprimento de sangue adequado aos órgãos, e a sangramento como consequência do consumo de plaquetas e de fatores da coagulação. Pode ser provocada por uma ampla gama de transtornos, incluindo infecções, transtornos inflamatórios e doenças malignas."
+          }
+        },
+        {
+          "3B61.1": {
+            "confidence_embedding": 0.743,
+            "text": "Representação de doença CID-11: Trombofilia adquirida. Definição: Doença causada por determinantes que surgem após o nascimento. Essa doença é caraterizada por uma anormalidade na coagulação do sangue que aumenta o risco de trombose, coágulos nos vasos sanguíneos. Pode apresentar-se com trombose venosa profunda ou embolia pulmonar. A confirmação é feita pela identificação de coagulação sanguínea anormal em amostra de sangue."
+          }
+        },
+        {
+          "3B61.0": {
+            "confidence_embedding": 0.7429,
+            "text": "Representação de doença CID-11: Trombofilia hereditária. Definição: Doença causada por fatores hereditários, levando a anormalidades no sangue. Essa doença é caracterizada por uma anormalidade na coagulação sanguínea, que aumenta o risco de trombose, coágulos nos vasos sanguíneos. Essa doença pode se apresentar com trombose venosa profunda ou embolia pulmonar. A confirmação é feita pela identificação de coagulação sanguínea anormal em amostra de sangue."
+          }
+        }
+      ]
+    },
+    "descompensação refratária": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BC62": {
+            "confidence_embedding": 0.8358,
+            "text": "Representação de doença CID-11: Via acessória. Definição: Conexão elétrica adicional que tipicamente desvia do nó AV, tipicamente inserindo-se diretamente no miocárdio atrial e ventricular, mas também pode se conectar ao sistema de condução especializado (p.ex., o feixe de His, feixes direito ou esquerdo, ou um dos fascículos)."
+          }
+        },
+        {
+          "BE1F.0": {
+            "confidence_embedding": 0.8305,
+            "text": "Representação de doença CID-11: Perfuração atrial esquerda pós procedimento. Definição: Perfuração da parede do átrio morfologicamente esquerdo que ocorreu durante ou após uma intervenção"
+          }
+        },
+        {
+          "BC81.30": {
+            "confidence_embedding": 0.8234,
+            "text": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+          }
+        },
+        {
+          "BC81.32": {
+            "confidence_embedding": 0.8213,
+            "text": "Representação de doença CID-11: Fibrilação atrial permanente. Definição: Termo usado para identificar indivíduos com FA persistente em que foi tomada a decisão de não mais seguir uma estratégia de controle do ritmo, ou em que a cardioversão falhou ou não foi tentada."
+          }
+        },
+        {
+          "BA60.1": {
+            "confidence_embedding": 0.8162,
+            "text": "Representação de doença CID-11: Outra pericardite como complicação atual subsequente a infarto agudo do miocárdio. Definição: Inflamação do pericárdio que pode causar dor no peito, que ocorre tão precocemente quanto o primeiro dia e até 6 semanas após o infarto agudo do miocárdio. A dor da pericardite irradia para qualquer crista do trapézio. O infarto do miocárdio transmural é responsável pela inflamação pericárdica local. Atritos pericárdicos transitórios são relativamente comuns em pacientes com infarto transmural nas primeiras 48 horas. Uma pericardite fibrinosa aguda ocorre comumente após o infarto transmural, enquanto o risco de pericardite hemorrágica está aumentado por anticoagulação."
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,575 @@
+{
+  "prontuario_id": 5,
+  "text": "POS TX RENAL\nPOS TX RENAL DC - CR 0,93 - FK 3,0\nDM COMPENSADO\nHAS COMPENSADA\nDSLP OK  \nPOS TX RENAL HÁ 3 ANOS - DC\nEM USO DE: MTC 5, FK 1 / 0, MS 1 / 2, CRESTOR 10MG DIAS ALTERNADOS, AAS 100, OMEPRAZOL 20, CARVEDILOL 12,5 , MONOCORDIL 20, CILOSTAZOL 100 / 100, LOSARTAN 50MG / DIA, LANTUS 30U\nS # ASSINTOMÁTICO\nO # BEG, CORADO, HIDRATADO\nP 74,5\nMUCOSAS CORADAS, HIDRATADAS\nMV POSITIVO, SIMETRICO\nBCRNF COM SOPRO SISTOLICO\nABDOMEN GLOBOSO, FLACIDO, SEM MASSAS, RHA POSITIVOS\nMEMBROS SEM EDEMA",
+  "entities": {
+    "Conceito Temporal": [
+      "POS",
+      "DIA",
+      "HÁ 3 ANOS",
+      "DIAS ALTERNADOS"
+    ],
+    "Conceito Qualitativo": [
+      "DC"
+    ],
+    "Abreviação": [
+      "DC",
+      "DSLP",
+      "MTC",
+      "FK",
+      "MS",
+      "AAS",
+      "BEG",
+      "P",
+      "BCRNF",
+      "TX RENAL",
+      "CR 0 , 93",
+      "FK 3 , 0",
+      "DM COMPENSADO",
+      "HAS COMPENSADA",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Doença ou Síndrome": [
+      "DSLP",
+      "DM COMPENSADO",
+      "HAS COMPENSADA"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "FK",
+      "MS",
+      "CRESTOR",
+      "AAS",
+      "OMEPRAZOL",
+      "CARVEDILOL",
+      "MONOCORDIL",
+      "CILOSTAZOL",
+      "LOSARTAN"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "FK",
+      "MS",
+      "CRESTOR",
+      "AAS",
+      "OMEPRAZOL",
+      "CARVEDILOL",
+      "MONOCORDIL",
+      "CILOSTAZOL",
+      "LOSARTAN",
+      "LANTUS"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "10MG",
+      "100",
+      "20",
+      "30U",
+      "1 / 0",
+      "1 / 2",
+      "12 , 5",
+      "100 / 100",
+      "74 , 5"
+    ],
+    "Hormônio": [
+      "LANTUS"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "LANTUS"
+    ],
+    "Negação": [
+      "ASSINTOMÁTICO",
+      "SEM"
+    ],
+    "Achado": [
+      "ASSINTOMÁTICO",
+      "BEG",
+      "CORADO",
+      "HIDRATADO",
+      "HIDRATADAS",
+      "SIMETRICO",
+      "BCRNF",
+      "FLACIDO",
+      "MUCOSAS CORADAS",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Atributo Clínico": [
+      "P"
+    ],
+    "Localização ou Região Corporal": [
+      "ABDOMEN",
+      "MEMBROS"
+    ],
+    "Sinal ou Sintoma": [
+      "GLOBOSO",
+      "MASSAS",
+      "EDEMA",
+      "SOPRO SISTOLICO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 93",
+      "FK 3 , 0"
+    ]
+  },
+  "labels": {
+    "hidratadas": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA02": {
+            "confidence_embedding": 0.8048,
+            "text": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica."
+          }
+        },
+        {
+          "BA01": {
+            "confidence_embedding": 0.7682,
+            "text": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração."
+          }
+        },
+        {
+          "BD54": {
+            "confidence_embedding": 0.7599,
+            "text": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos."
+          }
+        },
+        {
+          "BD71.2": {
+            "confidence_embedding": 0.7568,
+            "text": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal"
+          }
+        },
+        {
+          "BD53.4": {
+            "confidence_embedding": 0.7558,
+            "text": "Representação de doença CID-11: Ateroembolismo de colesterol. Definição: Oclusão embólica de pequenas artérias e arteríolas distais por cristais de colesterol liberados de placa aterosclerótica em artérias maiores mais centrais. A isquemia microvascular resultante é acompanhada por uma resposta inflamatória à presença de cristais de colesterol. Isso pode ocorrer espontaneamente ou como uma complicação de angiografia ou cirurgia vascular. Os órgãos mais comumente afetados incluem pele, rins, trato gastrointestinal e cérebro. Manifestações cutâneas, presentes na maioria dos casos, incluem livedo reticularis e necrose e ulceração isquêmicas focais; estas estão comumente associadas a lesão renal aguda."
+          }
+        }
+      ]
+    },
+    "flacido": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DA94.22": {
+            "confidence_embedding": 0.7467,
+            "text": "Representação de doença CID-11: Síndrome de enterocolite induzida por proteína alimentar. Definição: Inflamação crônica persistente com hipersensibilidade não mediada por IgE e mediada por células no trato intestinal, que afeta primariamente crianças. Os alimentos causadores mais comuns são: leite de vaca, soja, arroz, aveia, carne. Nos casos de exposição crônica, os sintomas mais frequentes são vômitos, diarreia, crescimento comprometido e letargia. Quando reexposto após restrição, o paciente pode apresentar vômitos, diarreia e hipotensão (15%) 2 horas após a ingestão."
+          }
+        },
+        {
+          "DA60.3": {
+            "confidence_embedding": 0.7451,
+            "text": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago."
+          }
+        },
+        {
+          "DB34.4": {
+            "confidence_embedding": 0.7412,
+            "text": "Representação de doença CID-11: Úlcera retal hemorrágica aguda. Definição: Úlcera retal hemorrágica aguda é considerada como um transtorno isquêmico agudo da mucosa, que ocorre em pacientes idosos que sofrem de redução incipiente do fluxo sanguíneo devida a fatores arterioscleróticos. Estes pacientes estão frequentemente acamados, e isso causa uma diminuição no fluxo sanguíneo da mucosa do reto inferior, o que por sua vez desencadeia essa doença."
+          }
+        },
+        {
+          "DA23": {
+            "confidence_embedding": 0.737,
+            "text": "Representação de doença CID-11: Epitélio metaplásico colunar do esôfago. Definição: Condição adquirida na qual o tecido que reveste o esôfago é substituído por tecido semelhante ao revestimento do intestino ou do estômago subsequente a refluxo gastroesofágico crônico."
+          }
+        },
+        {
+          "DB32.20": {
+            "confidence_embedding": 0.7342,
+            "text": "Representação de doença CID-11: Megacólon tóxico. Definição: Megacólon tóxico é uma forma aguda de distensão do cólon, caracterizada por dilatação acentuada do cólon, acompanhada por distensão abdominal (inchaço) e, às vezes, febre, dor abdominal ou choque. \"Tóxico\" significa que esta complicação ocorre com inflamação. O megacólon tóxico é uma rara dilatação do intestino grosso com risco de vida, que evolui em poucos dias, ocorrendo como complicação de doença inflamatória intestinal, tais como colite ulcerativa e doença de Crohn, ou colite de origem infecciosa."
+          }
+        }
+      ]
+    },
+    "massas": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DA60.3": {
+            "confidence_embedding": 0.7498,
+            "text": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago."
+          }
+        },
+        {
+          "DA94.22": {
+            "confidence_embedding": 0.7467,
+            "text": "Representação de doença CID-11: Síndrome de enterocolite induzida por proteína alimentar. Definição: Inflamação crônica persistente com hipersensibilidade não mediada por IgE e mediada por células no trato intestinal, que afeta primariamente crianças. Os alimentos causadores mais comuns são: leite de vaca, soja, arroz, aveia, carne. Nos casos de exposição crônica, os sintomas mais frequentes são vômitos, diarreia, crescimento comprometido e letargia. Quando reexposto após restrição, o paciente pode apresentar vômitos, diarreia e hipotensão (15%) 2 horas após a ingestão."
+          }
+        },
+        {
+          "DA42.6": {
+            "confidence_embedding": 0.7433,
+            "text": "Representação de doença CID-11: Doença de Ménétrier. Definição: Gastrite caracterizada por hipertrofia da mucosa gástrica, que pode causar pregas gigantes. O espessamento das pregas é causado predominantemente pela expansão do compartimento de células epiteliais da mucosa gástrica. Os pacientes com doença de Ménétrier mais \r\nfrequentemente apresentam hipoalbuminemia secundária à perda de albumina para o lúmen gástrico."
+          }
+        },
+        {
+          "DB34.4": {
+            "confidence_embedding": 0.7428,
+            "text": "Representação de doença CID-11: Úlcera retal hemorrágica aguda. Definição: Úlcera retal hemorrágica aguda é considerada como um transtorno isquêmico agudo da mucosa, que ocorre em pacientes idosos que sofrem de redução incipiente do fluxo sanguíneo devida a fatores arterioscleróticos. Estes pacientes estão frequentemente acamados, e isso causa uma diminuição no fluxo sanguíneo da mucosa do reto inferior, o que por sua vez desencadeia essa doença."
+          }
+        },
+        {
+          "DA91.31": {
+            "confidence_embedding": 0.7411,
+            "text": "Representação de doença CID-11: Enterólito do intestino delgado. Definição: Esta é uma concreção mineral ou cálculo formado em qualquer parte do sistema gastrointestinal, mas neste caso no intestino delgado."
+          }
+        }
+      ]
+    },
+    "edema": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FB32.20": {
+            "confidence_embedding": 0.7922,
+            "text": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave."
+          }
+        },
+        {
+          "FA27.2": {
+            "confidence_embedding": 0.7454,
+            "text": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos."
+          }
+        },
+        {
+          "FB50.2": {
+            "confidence_embedding": 0.7454,
+            "text": "Representação de doença CID-11: Cisto sinovial do espaço poplíteo. Definição: Este é o edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho"
+          }
+        },
+        {
+          "FA25": {
+            "confidence_embedding": 0.7434,
+            "text": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato."
+          }
+        },
+        {
+          "FB42.3": {
+            "confidence_embedding": 0.7223,
+            "text": "Representação de doença CID-11: HIpertrofia sinovial, não classificada em outra parte. Definição: Trata-se do espessamento da membrana sinovial, não classificada em outra parte."
+          }
+        }
+      ]
+    },
+    "mv positivo": {
+      "capitulo": "08",
+      "opcoes": [
+        {
+          "8A45.30": {
+            "confidence_embedding": 0.719,
+            "text": "Representação de doença CID-11: Transtorno da substância branca devido à deficiência de vitamina B12. Definição: Características neurológicas ocorrem em 40% dos pacientes com deficiência de vitamina B12. Degeneração combinada subaguda é uma complicação neurológica reversível potencial de deficiência de vitamina B12. Sintomas desenvolvem de forma insidiosa e as manifestações neuropáticas incluem parestesia distal, dormência, ataxia de marcha e diminuição da propriocepção dos membros inferiores, enquanto componente mielopático leva à prejuízo motor variável devido à disfunção do trato piramidal. Incontinência fecal e urinária com impotência e hipotensão postural podem ocorrer como parte da mielopatia. Manifestações centrais incluem confusão, depressão, alucinação progressiva e lentificação mental. Pode ocorrer e neuropatia óptica."
+          }
+        },
+        {
+          "8C60": {
+            "confidence_embedding": 0.7187,
+            "text": "Representação de doença CID-11: Miastenia gravis. Definição: Miastenia gravis é o transtorno de transmissão neuromuscular mediado por autoanticorpo adquirido mais comum. A prevalência é de 1–2 por 10.000 pessoas. Fraqueza flutuante aumentando com a atividade repetida e melhorando após um período de descanso é a marca característica. Miastenia Gravis com anticorpos dirigidos contra proteínas pós-sinápticas, geralmente o receptor nicotínico de acetilcolina, são as mais prevalentes. Outros tipos são Miastenia Gravis associada a anticorpos quinase específicos do músculo e Miastenia Gravis com autoanticorpos desconhecidos (soronegativos).\r\nExistem três grupos: \r\n1. Miastenia Gravis puramente ocular\r\n2. Miastenia Gravis generalizada de início precoce (<40-50 anos)\r\n3. MG generalizada de início tardio.\r\nEm cerca de 15%, a doença pode ser classificada como paraneoplásica, geralmente associada a um timoma."
+          }
+        },
+        {
+          "8A64": {
+            "confidence_embedding": 0.7154,
+            "text": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo."
+          }
+        },
+        {
+          "8C01.0": {
+            "confidence_embedding": 0.7154,
+            "text": "Representação de doença CID-11: Polineuropatia desmielinizante inflamatória aguda. Definição: Fraqueza progressiva dos membros ao longo de alguns dias a 28 dias, déficit simétrico, arreflexia, distúrbio sensorial ausente ou leve, proteína do líquido cefalorraquidiano elevada e redução das velocidades de condução nervosa são as características principais. O transtorno pode ser precedido por infecção respiratória superior ou gastrointestinal ou imunização 1 a 4 semanas antes do início da doença. A paralisia bifacial pode estar presente."
+          }
+        },
+        {
+          "8A45.2Z": {
+            "confidence_embedding": 0.7107,
+            "text": "Representação de doença CID-11: Transtornos da substância branca devidos a anormalidades vasculares ou isquemia, não especificados. Definição: "
+          }
+        }
+      ]
+    },
+    "sopro sistolico": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA02": {
+            "confidence_embedding": 0.7756,
+            "text": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica."
+          }
+        },
+        {
+          "BD54": {
+            "confidence_embedding": 0.7402,
+            "text": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos."
+          }
+        },
+        {
+          "BD53.4": {
+            "confidence_embedding": 0.7392,
+            "text": "Representação de doença CID-11: Ateroembolismo de colesterol. Definição: Oclusão embólica de pequenas artérias e arteríolas distais por cristais de colesterol liberados de placa aterosclerótica em artérias maiores mais centrais. A isquemia microvascular resultante é acompanhada por uma resposta inflamatória à presença de cristais de colesterol. Isso pode ocorrer espontaneamente ou como uma complicação de angiografia ou cirurgia vascular. Os órgãos mais comumente afetados incluem pele, rins, trato gastrointestinal e cérebro. Manifestações cutâneas, presentes na maioria dos casos, incluem livedo reticularis e necrose e ulceração isquêmicas focais; estas estão comumente associadas a lesão renal aguda."
+          }
+        },
+        {
+          "BA01": {
+            "confidence_embedding": 0.7258,
+            "text": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração."
+          }
+        },
+        {
+          "BD71.2": {
+            "confidence_embedding": 0.7248,
+            "text": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal"
+          }
+        }
+      ]
+    },
+    "globoso": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DA94.22": {
+            "confidence_embedding": 0.7508,
+            "text": "Representação de doença CID-11: Síndrome de enterocolite induzida por proteína alimentar. Definição: Inflamação crônica persistente com hipersensibilidade não mediada por IgE e mediada por células no trato intestinal, que afeta primariamente crianças. Os alimentos causadores mais comuns são: leite de vaca, soja, arroz, aveia, carne. Nos casos de exposição crônica, os sintomas mais frequentes são vômitos, diarreia, crescimento comprometido e letargia. Quando reexposto após restrição, o paciente pode apresentar vômitos, diarreia e hipotensão (15%) 2 horas após a ingestão."
+          }
+        },
+        {
+          "DA60.3": {
+            "confidence_embedding": 0.7482,
+            "text": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago."
+          }
+        },
+        {
+          "DA23": {
+            "confidence_embedding": 0.7434,
+            "text": "Representação de doença CID-11: Epitélio metaplásico colunar do esôfago. Definição: Condição adquirida na qual o tecido que reveste o esôfago é substituído por tecido semelhante ao revestimento do intestino ou do estômago subsequente a refluxo gastroesofágico crônico."
+          }
+        },
+        {
+          "DB34.4": {
+            "confidence_embedding": 0.7419,
+            "text": "Representação de doença CID-11: Úlcera retal hemorrágica aguda. Definição: Úlcera retal hemorrágica aguda é considerada como um transtorno isquêmico agudo da mucosa, que ocorre em pacientes idosos que sofrem de redução incipiente do fluxo sanguíneo devida a fatores arterioscleróticos. Estes pacientes estão frequentemente acamados, e isso causa uma diminuição no fluxo sanguíneo da mucosa do reto inferior, o que por sua vez desencadeia essa doença."
+          }
+        },
+        {
+          "DA63.3": {
+            "confidence_embedding": 0.7408,
+            "text": "Representação de doença CID-11: Úlcera de estresse do duodeno. Definição: Úlceras de estresse do duodeno são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes que podem resultar em hemorragia digestiva alta aguda. Geralmente são erosões superficiais, mas podem evoluir para úlceras."
+          }
+        }
+      ]
+    },
+    "dm compensado": {
+      "capitulo": "05",
+      "opcoes": [
+        {
+          "5C51.20": {
+            "confidence_embedding": 0.7675,
+            "text": "Representação de doença CID-11: Hiperoxalúria primária tipo I. Definição: A hiperoxalúria tipo 1 é devido a um defeito numa enzima hepática peroxissomal alanina glioxilato aminotransferase. A forma infantil é caracterizada por insuficiência renal crônica por deposição excessiva de oxalato. Em outros pacientes apresenta-se como urolitíase recidivante , que se deteriora com infecções, hematúria, cólicas nefréticas ou comprometimento renal agudo por obstrução completa. Doença renal terminal ocorre antes dos 15 anos de idade em metade dos casos e acabam levando a deposição de oxalato em outros tecidos, causando defeitos de condução cardíaca, hipertensão, gangrena distal e redução da mobilidade e dor articular."
+          }
+        },
+        {
+          "5C78": {
+            "confidence_embedding": 0.7608,
+            "text": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem."
+          }
+        },
+        {
+          "5B5K.7": {
+            "confidence_embedding": 0.7579,
+            "text": "Representação de doença CID-11: Deficiência de selênio. Definição: Deficiência de selênio é rara mas tem sido observada em indivíduos em uso prolongado de dieta parenteral total(NPT) sem selênio. Manifestações clínicas da deficiência decorrente de tal situação são incomuns e pouco definidas. Elas incluem fraqueza muscular e mialgia com, em casos graves, o desenvolvimento de insuficiência cardíaca congestiva. A importância do selênio para o metabolismo dos hormônios tireoidianos é evidente, a partir de mudanças na proporção T3-T4 que se desenvolvem após uma depleção de selênio relativamente leve em bebês e idosos"
+          }
+        },
+        {
+          "5C70.0": {
+            "confidence_embedding": 0.7521,
+            "text": "Representação de doença CID-11: Desidratação. Definição: A desidratação ocorre quando há uma quantidade insuficiente ou perda excessiva de água no corpo. Isso pode ser causado por vômitos, diarreia, febre, uso de diuréticos, sudorese profusa ou diminuição da ingestão de água."
+          }
+        },
+        {
+          "5B90.2": {
+            "confidence_embedding": 0.752,
+            "text": "Representação de doença CID-11: Hipervitaminose D. Definição: A hipervitaminose D é secundária à ingestão excessiva de vitamina D. Pode ocorrer com ingestão elevada a longo prazo ou por ingestão aguda em excesso. O excesso de quantidades resulta em concentrações anormalmente altas de cálcio e fosfato no soro. Os sinais e sintomas da intoxicação por vitamina D são secundários à hipercalcemia. As manifestações gastrointestinais incluem náuseas, vômitos, constipação, dor abdominal e pancreatite. Os possíveis achados cardíacos são hipertensão, diminuição do intervalo Q-T e arritmias. Os efeitos da hipercalcemia no sistema nervoso central incluem letargia, hipotonia, confusão, desorientação, depressão, psicose, alucinações e coma. A hipercalcemia danifica os mecanismos de concentração renal, o que pode levar à poliúria, desidratação e hipernatremia. A hipercalcemia também pode causar insuficiência renal aguda, nefrolitíase e nefrocalcinose, que pode resultar em insuficiência renal crônica. As mortes geralmente estão associadas a arritmias ou desidratação."
+          }
+        }
+      ]
+    },
+    "bcrnf": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA02": {
+            "confidence_embedding": 0.7878,
+            "text": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica."
+          }
+        },
+        {
+          "BD53.4": {
+            "confidence_embedding": 0.7432,
+            "text": "Representação de doença CID-11: Ateroembolismo de colesterol. Definição: Oclusão embólica de pequenas artérias e arteríolas distais por cristais de colesterol liberados de placa aterosclerótica em artérias maiores mais centrais. A isquemia microvascular resultante é acompanhada por uma resposta inflamatória à presença de cristais de colesterol. Isso pode ocorrer espontaneamente ou como uma complicação de angiografia ou cirurgia vascular. Os órgãos mais comumente afetados incluem pele, rins, trato gastrointestinal e cérebro. Manifestações cutâneas, presentes na maioria dos casos, incluem livedo reticularis e necrose e ulceração isquêmicas focais; estas estão comumente associadas a lesão renal aguda."
+          }
+        },
+        {
+          "BD71.2": {
+            "confidence_embedding": 0.7386,
+            "text": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal"
+          }
+        },
+        {
+          "BD54": {
+            "confidence_embedding": 0.7349,
+            "text": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos."
+          }
+        },
+        {
+          "BA01": {
+            "confidence_embedding": 0.7342,
+            "text": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração."
+          }
+        }
+      ]
+    },
+    "simetrico": {
+      "capitulo": "08",
+      "opcoes": [
+        {
+          "8C84": {
+            "confidence_embedding": 0.7417,
+            "text": "Representação de doença CID-11: Rabdomiólise secundária. Definição: Rabdomiólise secundária ocorre quando o efeito primário de um fator etiológico resulta em um estado funcional ou bioquímico que conduz ao desenvolvimento de alterações isquêmicas, degenerativas, necróticas ou desestabilizadoras da membrana no músculo, produzindo as manifestações clínicas e bioquímicas de rabdomiólise. Mais frequentemente, a rabdomiólise é secundária a um desequilíbrio metabólico, muitas vezes de natureza genética, como resultado de movimento anormalmente excessivo, tensão isométrica excessiva por tentativa de movimento contra resistência, ou coma levando a aumento de pressão, isquemia, hipóxia e necrose intramusculares. A rabdomiólise secundária também pode ser causada por uma mutação em vários genes (RYR1, LPIN)."
+          }
+        },
+        {
+          "8A45.30": {
+            "confidence_embedding": 0.7404,
+            "text": "Representação de doença CID-11: Transtorno da substância branca devido à deficiência de vitamina B12. Definição: Características neurológicas ocorrem em 40% dos pacientes com deficiência de vitamina B12. Degeneração combinada subaguda é uma complicação neurológica reversível potencial de deficiência de vitamina B12. Sintomas desenvolvem de forma insidiosa e as manifestações neuropáticas incluem parestesia distal, dormência, ataxia de marcha e diminuição da propriocepção dos membros inferiores, enquanto componente mielopático leva à prejuízo motor variável devido à disfunção do trato piramidal. Incontinência fecal e urinária com impotência e hipotensão postural podem ocorrer como parte da mielopatia. Manifestações centrais incluem confusão, depressão, alucinação progressiva e lentificação mental. Pode ocorrer e neuropatia óptica."
+          }
+        },
+        {
+          "8C60": {
+            "confidence_embedding": 0.7255,
+            "text": "Representação de doença CID-11: Miastenia gravis. Definição: Miastenia gravis é o transtorno de transmissão neuromuscular mediado por autoanticorpo adquirido mais comum. A prevalência é de 1–2 por 10.000 pessoas. Fraqueza flutuante aumentando com a atividade repetida e melhorando após um período de descanso é a marca característica. Miastenia Gravis com anticorpos dirigidos contra proteínas pós-sinápticas, geralmente o receptor nicotínico de acetilcolina, são as mais prevalentes. Outros tipos são Miastenia Gravis associada a anticorpos quinase específicos do músculo e Miastenia Gravis com autoanticorpos desconhecidos (soronegativos).\r\nExistem três grupos: \r\n1. Miastenia Gravis puramente ocular\r\n2. Miastenia Gravis generalizada de início precoce (<40-50 anos)\r\n3. MG generalizada de início tardio.\r\nEm cerca de 15%, a doença pode ser classificada como paraneoplásica, geralmente associada a um timoma."
+          }
+        },
+        {
+          "8E61.0": {
+            "confidence_embedding": 0.7244,
+            "text": "Representação de doença CID-11: Lesão cerebral induzida por radiação. Definição: Lesão no cérebro a partir de irradiação craniana terapêutica, que pode ser dividida temporalmente em três síndromes: Toxicidade aguda ou precoce que é consequência da exposição imediata à radiação, lesão precoce-retardada e tardia, embora as três possam se sobrepor."
+          }
+        },
+        {
+          "8A64": {
+            "confidence_embedding": 0.7238,
+            "text": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo."
+          }
+        }
+      ]
+    },
+    "corado": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "EB50": {
+            "confidence_embedding": 0.7809,
+            "text": "Representação de doença CID-11: Lúpus eritematoso cutâneo subagudo. Definição: Lúpus eritematoso cutâneo subagudo é uma forma não cicatricial de lúpus eritematoso, tipificada pela presença de anticorpos anti-Ro/SSA circulantes e manchas eritematosas inflamadas discoides ou anulares com descamação fina variável em pele exposta ao sol, especialmente nos lados de face e pescoço, no V do decote, nas superfícies extensoras dos braços e na parte superior do dorso: em contraste com o lúpus eritematoso sistêmico, as bochechas tendem a ser poupadas. A doença visceral é menos frequente do que no lúpus eritematoso sistêmico: o envolvimento renal é raro e leve."
+          }
+        },
+        {
+          "EC90.10": {
+            "confidence_embedding": 0.7714,
+            "text": "Representação de doença CID-11: Prurido urêmico. Definição: Prurido em pacientes com insuficiência renal crônica. Embora comum na doença renal crônica não tratada, é particularmente prevalente em pacientes que submetidos a diálise peritoneal ou hemodiálise. O prurido não se deve a níveis elevados de ureia sérica. Os mecanismos precisos não são totalmente compreendidos."
+          }
+        },
+        {
+          "EC90.1": {
+            "confidence_embedding": 0.7642,
+            "text": "Representação de doença CID-11: Prurido devido a transtorno sistêmico. Definição: Prurido devido a transtorno sistêmico subjacente, como insuficiência renal ou icterícia colestática."
+          }
+        },
+        {
+          "EC90.12": {
+            "confidence_embedding": 0.7532,
+            "text": "Representação de doença CID-11: Prurido associado à hemodiálise. Definição: Prurido generalizado atribuível à hemodiálise e não à doença renal crônica. As causas não são bem compreendidas."
+          }
+        },
+        {
+          "ED70.4": {
+            "confidence_embedding": 0.7518,
+            "text": "Representação de doença CID-11: Eflúvio anágeno. Definição: Eflúvio anágeno ocorre após qualquer insulto ao folículo piloso que comprometa sua atividade mitótica ou metabólica. Os pacientes apresentam queda de cabelos difusa após exposição a drogas ou produtos químicos tóxicos. Agentes quimioterápicos são mais comumente responsáveis por queda de cabelo. A queda de cabelo mais grave ocorre em associação com a doxorrubicina, as nitrosoureias e a ciclofosfamida. A queda de cabelos geralmente começa 7-14 dias após um único pulso de quimioterapia. A queda de cabelo é clinicamente mais aparente após 1-2 meses."
+          }
+        }
+      ]
+    },
+    "rha positivos": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA02": {
+            "confidence_embedding": 0.7871,
+            "text": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica."
+          }
+        },
+        {
+          "BA01": {
+            "confidence_embedding": 0.7514,
+            "text": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração."
+          }
+        },
+        {
+          "BD54": {
+            "confidence_embedding": 0.7448,
+            "text": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos."
+          }
+        },
+        {
+          "BA03": {
+            "confidence_embedding": 0.7447,
+            "text": "Representação de doença CID-11: Crise hipertensiva. Definição: "
+          }
+        },
+        {
+          "BD53.4": {
+            "confidence_embedding": 0.7306,
+            "text": "Representação de doença CID-11: Ateroembolismo de colesterol. Definição: Oclusão embólica de pequenas artérias e arteríolas distais por cristais de colesterol liberados de placa aterosclerótica em artérias maiores mais centrais. A isquemia microvascular resultante é acompanhada por uma resposta inflamatória à presença de cristais de colesterol. Isso pode ocorrer espontaneamente ou como uma complicação de angiografia ou cirurgia vascular. Os órgãos mais comumente afetados incluem pele, rins, trato gastrointestinal e cérebro. Manifestações cutâneas, presentes na maioria dos casos, incluem livedo reticularis e necrose e ulceração isquêmicas focais; estas estão comumente associadas a lesão renal aguda."
+          }
+        }
+      ]
+    },
+    "mucosas coradas": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "EB50": {
+            "confidence_embedding": 0.7622,
+            "text": "Representação de doença CID-11: Lúpus eritematoso cutâneo subagudo. Definição: Lúpus eritematoso cutâneo subagudo é uma forma não cicatricial de lúpus eritematoso, tipificada pela presença de anticorpos anti-Ro/SSA circulantes e manchas eritematosas inflamadas discoides ou anulares com descamação fina variável em pele exposta ao sol, especialmente nos lados de face e pescoço, no V do decote, nas superfícies extensoras dos braços e na parte superior do dorso: em contraste com o lúpus eritematoso sistêmico, as bochechas tendem a ser poupadas. A doença visceral é menos frequente do que no lúpus eritematoso sistêmico: o envolvimento renal é raro e leve."
+          }
+        },
+        {
+          "EB13.0": {
+            "confidence_embedding": 0.7548,
+            "text": "Representação de doença CID-11: Síndrome de Stevens-Johnson. Definição: A síndrome de Stevens-Johnson é um transtorno de hipersensibilidade mediado por imunocomplexos envolvendo mucosas (conjuntiva, mucosa oral e mucosa genital) com, por definição, envolvimento da pele limitado a não mais que 9% da área de superfície corporal. Está relacionado à necrólise epidérmica tóxica e compartilha muitos dos mesmos gatilhos, notavelmente drogas, mas a inflamação é centrada em e próxima a superfícies mucosas. Embora a mortalidade seja baixa, a morbidade aguda é alta e o envolvimento conjuntival tem o potencial de causar cegueira."
+          }
+        },
+        {
+          "EB13": {
+            "confidence_embedding": 0.7444,
+            "text": "Representação de doença CID-11: Síndrome de Stevens-Johnson ou necrólise epidérmica tóxica. Definição: Espectro de transtornos de hipersensibilidade graves e com risco de vida afetando pele e mucosas, mais comumente precipitados por uma reação idiossincrática a medicação. A síndrome de Stevens-Johnson (SSJ) sempre envolve superfícies mucosas, mas o envolvimento da pele está limitado por definição a <10% da área de superfície corporal (ASC). A necrólise epidérmica tóxica (NET) pode às vezes poupar as mucosas, mas o envolvimento da pele é por definição >30% ASC. Uma forma intermediária é reconhecida na qual o envolvimento da mucosa é acompanhado pelo envolvimento de 10-30% ASC da pele (síndrome de sobreposição SSJ_NET). Todas as formas resultam em extensa descamação e ulceração e carregam um risco significativo de desfecho fatal."
+          }
+        },
+        {
+          "EC90.10": {
+            "confidence_embedding": 0.743,
+            "text": "Representação de doença CID-11: Prurido urêmico. Definição: Prurido em pacientes com insuficiência renal crônica. Embora comum na doença renal crônica não tratada, é particularmente prevalente em pacientes que submetidos a diálise peritoneal ou hemodiálise. O prurido não se deve a níveis elevados de ureia sérica. Os mecanismos precisos não são totalmente compreendidos."
+          }
+        },
+        {
+          "EH63.0": {
+            "confidence_embedding": 0.7405,
+            "text": "Representação de doença CID-11: Síndrome de Stevens-Johnson induzida por droga. Definição: Uma das quatro formas principais de reações cutâneas graves adversas à droga (RCGAD), sendo caracterizada por inflamação, reação bolhosa e erosões de pele e mucosas. Por definição, há o envolvimento de pelo menos uma mucosa e o descolamento da pele limita-se a menos de 10% da área de superfície corporal. A maioria dos casos ocorre nas primeiras 8 semanas de exposição ao medicamento. Os medicamentos mais frequentemente envolvidos são antimicrobianos tipo sulfonamidas, anticonvulsivantes, alopurinol, nevirapina e anti-inflamatórios não esteroidais do tipo oxicans."
+          }
+        }
+      ]
+    }
+  }
+}

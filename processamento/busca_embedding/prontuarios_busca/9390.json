@@ -1,0 +1,695 @@
+{
+  "prontuario_id": 442,
+  "text": "LUCAS, MASC, 57 ANOS.  DOR EM DORSO E FLANCO D, COM IRRADIACAO EM FAIXA EPIGASTRICA, HA DOIS DIAS. DOR EM APERTO, DE MEDIA A FORTE INTENSIDADE, ITERMITENTE NAO ASSOCIADA A MEDICACAO. NEGA DISURIA, HEMATURIA. NÃO CONSEGUE URINAR TUDO O QUE PRECISA. URINA EM MEDIA 5 X/DIA E 3 X/NOITE.  COMORBIDADES - DM2 HA 24 ANOS - HAS HA 12 ANOS - DOENCA VASC PERIFERICA - VARIZES EM MMII - DISLIPIDEMIA - TB, PNEUMONIA - PLEURITE - OBESIDADE - SEDENTARIO - HPB EM TTO - HEMORROIDAS - IMPOTENCIA SEXUAL HA 8 ANOS - RETINOPATIA DIABETICA - NEFROPATIA DIABETICA.  HMP - EX-TABAGISTA HA 12 ANOS - HERNIA INGUINAL OPERADA - INTERNADO PELA ULTIMA VEZ HA 3 ANOS POR PNEUMONIA.  MEDICAMENTOS - INSULINA NHP 40U DE MANHA E 20U HA NOITE / ANLODIPINO 25 12/12H / AAS 100MG / SINVASTATINA 20MG.  EXAMES LAB 7/6/13 - RELACAO ALBUMINA-CREATININA URINARIA 1405 / VOLUME DE URINA EM 24H 2550 / MICROALBUMINURIA 3766,1 / UR 66 / DIPSTICK: DENSIDADE 1020, LEU +, PROT +++, GLI ++++ / HB 15,5 / HT 44,7 / LEU 12.490 / HBA1C 12,36 / K 4,6 / NA 145 / PU - PROT 100, GLI +++ / CR 2,6 / UR 66 / CKD-EPI 37.  EXAME FISICO - PA 167/96 - FC 60 - EDEMA MMII ++/4 - PESO 102 - ALTURA 1,72 - IMC 34,5 - HEMORROIDAS.  CONDUTA: ENALAPRIL 10MG 12/12  - AUMENTAMOS A NHP DA MANHA PARA 50U E 30U A NOITE,",
+  "entities": {
+    "Abreviação": [
+      "MASC",
+      "DM2",
+      "HAS",
+      "MMII",
+      "TB",
+      "HPB",
+      "TTO",
+      "AAS",
+      "PA",
+      "FC",
+      "FLANCO D",
+      "DOENCA VASC PERIFERICA",
+      "UR 66",
+      "LEU +",
+      "PROT +++",
+      "GLI ++++",
+      "HB 15 , 5",
+      "HT 44 , 7",
+      "LEU 12",
+      "HBA1C 12 , 36",
+      "K 4 , 6",
+      "NA 145",
+      "PROT 100",
+      "GLI +++",
+      "CR 2 , 6",
+      "CKD-EPI 37"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR",
+      "DISURIA",
+      "HEMATURIA",
+      "IRRADIACAO EM FAIXA EPIGASTRICA",
+      "DOR EM APERTO"
+    ],
+    "Localização ou Região Corporal": [
+      "DORSO",
+      "MMII",
+      "FLANCO D"
+    ],
+    "Negação": [
+      "NAO",
+      "NEGA",
+      "NÃO"
+    ],
+    "Doença ou Síndrome": [
+      "DM2",
+      "HAS",
+      "DISLIPIDEMIA",
+      "TB",
+      "PNEUMONIA",
+      "PLEURITE",
+      "OBESIDADE",
+      "HPB",
+      "HEMORROIDAS",
+      "DOENCA VASC PERIFERICA",
+      "IMPOTENCIA SEXUAL",
+      "RETINOPATIA DIABETICA",
+      "NEFROPATIA DIABETICA"
+    ],
+    "Achado": [
+      "EX-TABAGISTA",
+      "ASSOCIADA A MEDICACAO",
+      "CONSEGUE URINAR",
+      "HERNIA INGUINAL OPERADA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "INTERNADO"
+    ],
+    "Substância Farmacológica": [
+      "ANLODIPINO",
+      "SINVASTATINA",
+      "ENALAPRIL",
+      "INSULINA NHP"
+    ],
+    "Conceito Quantitativo": [
+      "25",
+      "100MG",
+      "20MG",
+      "167/96",
+      "60",
+      "102",
+      "5 X/DIA",
+      "3 X/NOITE",
+      "1 , 72"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC"
+    ],
+    "Conceito Qualitativo": [
+      "DE MEDIA A FORTE INTENSIDADE"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "INSULINA NHP"
+    ],
+    "Hormônio": [
+      "INSULINA NHP"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ALBUMINA-CREATININA URINARIA 1405",
+      "VOLUME DE URINA EM 24H 2550",
+      "MICROALBUMINURIA 3766",
+      "UR 66",
+      "DENSIDADE 1020",
+      "LEU +",
+      "PROT +++",
+      "GLI ++++",
+      "HB 15 , 5",
+      "HT 44 , 7",
+      "LEU 12",
+      "HBA1C 12 , 36",
+      "K 4 , 6",
+      "NA 145",
+      "PROT 100",
+      "GLI +++",
+      "CR 2 , 6",
+      "CKD-EPI 37",
+      "IMC 34 , 5"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAME FISICO"
+    ]
+  },
+  "labels": {
+    "tb": {
+      "capitulo": "01",
+      "opcoes": [
+        {
+          "1D62": {
+            "confidence_embedding": 0.7803,
+            "text": "Representação de doença CID-11: Doença por hantavírus. Definição: Doença viral zoonótica aguda caracterizada por início abrupto de febre, sinais clínicos semelhantes aos da influenza (p.ex., calafrios, dor de cabeça, mialgia, tosse seca), sinais gastrointestinais (p.ex., dor abdominal difusa, vômito, diarreia), visão turva transitória (miopia aguda), lombalgia devida a edema renal, manifestações hemorrágicas em vários graus, às vezes seguidas por dispneia crescente devida a edema agudo de pulmão não cardiogênico, e/ou envolvimento renal. Este último é caracterizado por proteinúria e microhematúria iniciais, muitas vezes maciças, às vezes acompanhadas por comprometimento transitório da função renal. Todas as infecções por hantavírus são precedidas por vários graus de trombocitopenia transitória, que pode servir como um indicador de gravidade clínica."
+          }
+        },
+        {
+          "1B13.0": {
+            "confidence_embedding": 0.7652,
+            "text": "Representação de doença CID-11: Tuberculose miliar aguda de localização única e especificada. Definição: Doença causada por uma infecção pela bactéria Mycobacterium tuberculosis que se espalha pelo corpo e afeta uma localização específica do corpo. Esta doença é caracterizada por numerosas pequenas lesões de 1 a 5 milímetro(s) em qualquer órgão, e febre. A transmissão ocorre comumente por inalação de secreções respiratórias infectadas. A confirmação é feita por radiografia, tomografia computadorizada, ultrassonografia e identificação de Mycobacterium tuberculosis, dependendo da localização afetada."
+          }
+        },
+        {
+          "1C19.1": {
+            "confidence_embedding": 0.7652,
+            "text": "Representação de doença CID-11: Doença dos legionários. Definição: Doença do legionário, a forma pneumônica, tem um período de incubação de 2 a 10 dias (mas foram registrados períodos de até 16 dias em alguns surtos). Inicialmente, os sintomas são febre, perda de apetite, dor de cabeça, mal-estar e letargia. Alguns pacientes também podem apresentar dores musculares, diarreia e confusão mental. Geralmente, há também uma tosse leve inicial, mas até 50% dos pacientes podem apresentar catarro. Rajas sanguíneas ou hemoptise ocorrem em cerca de um terço dos pacientes. A gravidade da doença varia de uma tosse leve a uma pneumonia rapidamente fatal. A morte ocorre por pneumonia progressiva com insuficiência respiratória e/ou choque e falência de múltiplos órgãos."
+          }
+        },
+        {
+          "1B13.1": {
+            "confidence_embedding": 0.7631,
+            "text": "Representação de doença CID-11: Tuberculose miliar aguda de múltiplas localizações. Definição: Doença causada por uma infecção pela bactéria Mycobacterium tuberculosis que se espalha pelo corpo e afeta múltiplas localizações do corpo. Esta doença é caracterizada por numerosas pequenas lesões de 1-5 milímetro(s) em mais de um órgão, e febre. A transmissão ocorre comumente por inalação de secreções respiratórias infectadas. A confirmação é feita por radiografia, exames avançados de imagem, ultrassonografia e identificação de Mycobacterium tuberculosis, dependendo das localizações afetadas."
+          }
+        },
+        {
+          "1B20.20": {
+            "confidence_embedding": 0.7499,
+            "text": "Representação de doença CID-11: Reação hansênica do tipo I. Definição: Esse fenômeno, também denominado “reação reversa”, ocorre na forma borderline (dimorfa) da hanseníase e está associado a um aumento da imunidade mediada por células. Ela ocorre normalmente nos primeiros 6 meses de tratamento em pacientes não tratadas anteriormente, mas pode estar relacionada a estresse, infecções intercorrentes ou gravidez. As características clínicas incluem edema inflamatório, eritema e, ocasionalmente, ulceração de lesões existentes, sintomas constitucionais e neurite. Se a neurite não for tratada imediatamente, pode ocorrer dano permanente ao nervo motor."
+          }
+        }
+      ]
+    },
+    "ex-tabagista": {
+      "capitulo": "24",
+      "opcoes": [
+        {
+          "QA77": {
+            "confidence_embedding": 0.7237,
+            "text": "Representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano. Definição: "
+          }
+        },
+        {
+          "QA8D": {
+            "confidence_embedding": 0.7187,
+            "text": "Representação de doença CID-11: Paciente que recebeu um teste diagnóstico ou tratamento destinado a outro paciente, sem lesão ou dano. Definição: "
+          }
+        },
+        {
+          "QA51": {
+            "confidence_embedding": 0.7104,
+            "text": "Representação de doença CID-11: Corpo estranho acidentalmente deixado no corpo sem lesão ou dano.. Definição: "
+          }
+        },
+        {
+          "QA03.Y": {
+            "confidence_embedding": 0.7096,
+            "text": "Representação de doença CID-11: Outro exame geral de rotina ('check-up') especificado de subpopulação definida. Definição: "
+          }
+        },
+        {
+          "QA30.Y": {
+            "confidence_embedding": 0.7083,
+            "text": "Representação de doença CID-11: Outro contato especificado com os serviços de saúde para reprodução medicamente assistida. Definição: "
+          }
+        }
+      ]
+    },
+    "doenca vasc periferica": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BB24": {
+            "confidence_embedding": 0.7567,
+            "text": "Representação de doença CID-11: Hemopericárdio. Definição: Hemopericárdio causado por doenças não classificadas em outra parte. Hemopericárdio geralmente se refere a sangue no saco pericárdico do coração. É clinicamente semelhante ao derrame pericárdico e, dependendo do volume e da rapidez com que se desenvolve, pode causar tamponamento cardíaco."
+          }
+        },
+        {
+          "BA01": {
+            "confidence_embedding": 0.7459,
+            "text": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração."
+          }
+        },
+        {
+          "BB90.Z": {
+            "confidence_embedding": 0.7446,
+            "text": "Representação de doença CID-11: Estenose da valva pulmonar, não especificada. Definição: "
+          }
+        },
+        {
+          "BB71": {
+            "confidence_embedding": 0.7443,
+            "text": "Representação de doença CID-11: Insuficiência da valva aórtica. Definição: A insuficiência da valva aórtica resulta de escoamento e refluxo de sangue que é ejetado do ventrículo esquerdo para a aorta ascendente de volta ao ventrículo esquerdo."
+          }
+        },
+        {
+          "BB92.Z": {
+            "confidence_embedding": 0.7434,
+            "text": "Representação de doença CID-11: Estenose da valva pulmonar com insuficiência, não especificada. Definição: "
+          }
+        }
+      ]
+    },
+    "hemorroidas": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "EF02.0": {
+            "confidence_embedding": 0.7452,
+            "text": "Representação de doença CID-11: Hipertrofia de gordura. Definição: Hipertrofia focal do tecido adiposo subcutâneo. É uma sequela comum da injeção de insulina na pele por longo prazo."
+          }
+        },
+        {
+          "EE00": {
+            "confidence_embedding": 0.7447,
+            "text": "Representação de doença CID-11: Hiperidrose. Definição: Sudorese excessiva. No tipo localizado, as localizações mais frequentes são palmas, plantas, axilas, pregas inguinais e região perineal. Fatores emocionais podem ter influência no processo. A hiperidrose generalizada pode ser induzida por um ambiente quente e úmido, por febre ou por exercícios vigorosos."
+          }
+        },
+        {
+          "EA90.3": {
+            "confidence_embedding": 0.7385,
+            "text": "Representação de doença CID-11: Psoríase eritrodérmica. Definição: Psoríase eritrodérmica é uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele. A psoríase eritrodérmica geralmente se desenvolve a partir da psoríase em placas extensa mas pode surgir de forma nova. Fatores precipitantes ou desencadeantes incluem a retirada de glicocorticoides sistêmicos e, menos frequentemente, a descontinuação abrupta do metotrexato, queimaduras ou infecções intercorrentes. Os pacientes podem desenvolver hipotermia ou insuficiência cardíaca de alto débito."
+          }
+        },
+        {
+          "EB31": {
+            "confidence_embedding": 0.7372,
+            "text": "Representação de doença CID-11: Eritema nodoso. Definição: Erupção eritematosa comumente associada a reações a medicamentos ou infecção e caracterizada por nódulos inflamatórios que geralmente são dolorosos, múltiplos e bilaterais. Esses nódulos localizam-se predominantemente na face anterior das pernas, com ocorrência menos comum nas coxas e antebraços. Eles sofrem mudanças de cor características que terminam em áreas temporárias semelhantes a hematomas. Esta condição geralmente desaparece em 3-6 semanas sem cicatriz ou atrofia."
+          }
+        },
+        {
+          "ED72.1": {
+            "confidence_embedding": 0.7362,
+            "text": "Representação de doença CID-11: Hirsutismo associado à hiperandrogenemia. Definição: Excesso de pelos faciais e corporais de padrão masculino em mulheres, principalmente causados por SOP, por hiperandrogenemia associada à ovulação normal, ou idiopática, após exclusão de neoplasia secretora de androgênio, hiperplasia adrenal congênita e síndrome HAIR-AN. A gravidade do hirsutismo pode ser avaliada pelo escore de Ferriman-Gallwey."
+          }
+        }
+      ]
+    },
+    "dor em aperto": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MD81": {
+            "confidence_embedding": 0.7708,
+            "text": "Representação de doença CID-11: Dor abdominal ou pélvica. Definição: Dor, uma sensação desagradável de desconforto ocorrendo em variados graus de intensidade, recebida pelas terminações nervosas na região abdominal e pélvica."
+          }
+        },
+        {
+          "MF95": {
+            "confidence_embedding": 0.7675,
+            "text": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular."
+          }
+        },
+        {
+          "MF97": {
+            "confidence_embedding": 0.7648,
+            "text": "Representação de doença CID-11: Piúria. Definição: Piúria é uma condição urinária caracterizada por um número elevado de leucócitos na urina. Número alto é definido como pelo menos 10 leucócitos por milímetro cúbico (mm³) de urina centrifugada. A piúria pode fazer com que a urina pareça turva ou com pus."
+          }
+        },
+        {
+          "MF55": {
+            "confidence_embedding": 0.7619,
+            "text": "Representação de doença CID-11: Poliúria. Definição: A poliúria é uma condição definida como produção ou passagem excessiva ou anormalmente grande de urina."
+          }
+        },
+        {
+          "MF56": {
+            "confidence_embedding": 0.7614,
+            "text": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos."
+          }
+        }
+      ]
+    },
+    "impotencia sexual": {
+      "capitulo": "17",
+      "opcoes": [
+        {
+          "HA40.0": {
+            "confidence_embedding": 0.7518,
+            "text": "Representação de doença CID-11: Considerações etiológicas associadas a condição clínica, lesão ou efeitos de cirurgia ou radioterapia. Definição: Esta categoria deve ser atribuída quando há evidência de que uma condição de saúde subjacente ou concomitante, incluindo condições hormonais, neurológicas e vasculares, lesões e consequências de tratamento cirúrgico ou de radiação, é um importante fator contribuinte para uma disfunção sexual ou um transtorno de dor sexual. Nesses casos, também deve ser atribuído o diagnóstico correspondente à condição de saúde subjacente ou concomitante. No entanto, transtornos mentais subjacentes ou contributivos devem ser registrados usando o qualificador “Associado a fatores psicológicos e comportamentais, incluindo transtornos mentais”, em vez de se usar com esta categoria."
+          }
+        },
+        {
+          "HA01.1": {
+            "confidence_embedding": 0.7378,
+            "text": "Representação de doença CID-11: Disfunção erétil do homem. Definição: A disfunção erétil peniana é caracterizada pela incapacidade ou redução acentuada na capacidade dos homens de atingir ou manter uma ereção peniana de duração ou rigidez suficiente para permitir a atividade sexual. O padrão de dificuldade erétil ocorre apesar do desejo de atividade sexual e estimulação sexual adequadas, de forma episódica ou persistente por um período de pelo menos vários meses e está associado a sofrimento clinicamente significativo."
+          }
+        },
+        {
+          "HA20": {
+            "confidence_embedding": 0.735,
+            "text": "Representação de doença CID-11: Transtorno doloroso à penetração sexual. Definição: Transtorno doloroso à penetração sexual é caracterizado por pelo menos um dos seguintes sintomas: 1) dificuldades acentuadas e persistentes ou recorrentes com a penetração, inclusive devido a contração ou tensão involuntária dos músculos do assoalho pélvico durante a tentativa de penetração; 2) dor vulvovaginal ou pélvica acentuada e persistente ou recorrente durante a penetração; \r\n3) medo ou ansiedade acentuadas e persistentes ou recorrentes da dor vulvovaginal ou pélvica em antecipação, durante ou como resultado da penetração. Os sintomas são recorrentes durante interações sexuais envolvendo ou potencialmente envolvendo penetração, apesar do desejo e estimulação sexual adequados. Não são inteiramente atribuíveis a uma condição clínica que afete adversamente a área pélvica e resulte em dor genital e/ou penetrativa ou a um transtorno mental. Não são inteiramente atribuíveis à lubrificação vaginal insuficiente ou alterações pós-menopausa/relacionadas à idade, e estão associadas a sofrimento clinicamente significativo."
+          }
+        },
+        {
+          "HA02.0": {
+            "confidence_embedding": 0.732,
+            "text": "Representação de doença CID-11: Anorgasmia. Definição: A anorgasmia é caracterizada pela ausência ou diminuição acentuada da frequência do orgasmo ou da intensidade das sensações orgásticas. Em mulheres, isso inclui um atraso acentuado no orgasmo, o que nos homens seria diagnosticado como ejaculação retardada do homem. O padrão de ausência, atraso ou diminuição da frequência ou intensidade do orgasmo ocorre apesar da estimulação sexual adequada, incluindo o desejo de atividade sexual e orgasmo. Ocorre episodicamente ou persistentemente por um período de pelo menos vários meses e está associado a sofrimento clinicamente significativo."
+          }
+        },
+        {
+          "HA02.00": {
+            "confidence_embedding": 0.7316,
+            "text": "Representação de doença CID-11: Anorgasmia generalizada, ao longo da vida. Definição: A pessoa sempre experimentou anorgasmia desde o início da atividade sexual relevante e a resposta desejada está atualmente ausente ou diminuída em todas as circunstâncias, incluindo a masturbação."
+          }
+        }
+      ]
+    },
+    "dm2": {
+      "capitulo": "05",
+      "opcoes": [
+        {
+          "5B5A.0": {
+            "confidence_embedding": 0.7519,
+            "text": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina."
+          }
+        },
+        {
+          "5A60.2": {
+            "confidence_embedding": 0.7511,
+            "text": "Representação de doença CID-11: Síndrome da secreção inapropriada do hormônio antidiurético. Definição: Síndrome da secreção inapropriada do hormônio antidiurético (ADH)- SIADH- é caracterizada pela secreção contínua de ADH causando hiponatremia, hiposmolalidade e natriurese. A prevelência exata é desconhecida. A doença tem sido descrita em grupos de todas as idades. SIADH é frequentemente associada a tumores, doenças pulmonares, transtornos do sistema nervoso central ou exposição a drogas. Ocasionalmente ela é encontrada em pacientes com insuficiência adrenal, tireoidiana ou hipofisária. O transtorno é causado por mutações com ganho de função em genes que codificam o receptor de vasopressina V2. Restrição hídrica é o tratamento mais comum. O resultado está relacionado aos distúrbios subjacentes e associados."
+          }
+        },
+        {
+          "5B5K.7": {
+            "confidence_embedding": 0.747,
+            "text": "Representação de doença CID-11: Deficiência de selênio. Definição: Deficiência de selênio é rara mas tem sido observada em indivíduos em uso prolongado de dieta parenteral total(NPT) sem selênio. Manifestações clínicas da deficiência decorrente de tal situação são incomuns e pouco definidas. Elas incluem fraqueza muscular e mialgia com, em casos graves, o desenvolvimento de insuficiência cardíaca congestiva. A importância do selênio para o metabolismo dos hormônios tireoidianos é evidente, a partir de mudanças na proporção T3-T4 que se desenvolvem após uma depleção de selênio relativamente leve em bebês e idosos"
+          }
+        },
+        {
+          "5C50.10": {
+            "confidence_embedding": 0.7455,
+            "text": "Representação de doença CID-11: Alcaptonúria. Definição: A alcaptonúria é caracterizada pelo acúmulo de ácido homogentísico (HGA) e seu produto oxidado ácido benzoquinona acético (BQA), levando ao escurecimento da urina quando deixada exposta ao ar, coloração cinza-azulada da esclera do olho e da hélice da orelha (ocronose), e doença articular incapacitante que envolve as articulações axiais e periféricas (artropatia ocronótica)."
+          }
+        },
+        {
+          "5B70": {
+            "confidence_embedding": 0.7424,
+            "text": "Representação de doença CID-11: Deficiência de ácidos graxos essenciais. Definição: A deficiência de ácidos graxos essenciais - AGE- (ácido linoléico, ácido linolênico, ácido araquidônico, ácido docosapentaenóico, ácido docosahexaenóico e ácido eicosapentaenóico) pode ser causada por ingestão deficiente, particularmente, em bebês de crescimento rápido (como prematuros), em pacientes recebendo nutrição parenteral sem uma fonte adequada de AGE, e em doenças com má absorção de gordura. Os achados clínicos são: dermatite, alopecia e trombocitopenia. O papel do AGE durante a gravidez e a lactação tem sido destacado, e o papel dos ácidos graxos n-3 de cadeia longa como componentes estruturais para o desenvolvimento da função da retina e do sistema nervoso central é agora aceito. O período pré-natal é um período de risco aumentado para deficiência de ômega-3, pois os estoques de tecido materno tendem a diminuir à medida que são usados ​​para o desenvolvimento do feto. A deficiência de n-3 AGE pode afetar o crescimento e a função cognitiva e visual em bebês. Os sinais característicos de deficiência atribuídos aos ácidos graxos n-6 são erupção cutânea escamosa, aumento da perda de água transepidérmica, crescimento reduzido e elevação da proporção plasmática de ácido eicosatrienóico: ácido araquidônico. A deficiência de AGE em populações especiais tem sido associada a distúrbios hematológicos e diminuição da resposta imunológica. Os ácidos graxos n-3 e n-6 de cadeia longa são nutrientes essenciais e também, como parte do suprimento geral de gordura, podem afetar a prevalência e a gravidade das doenças cardiovasculares, diabetes, câncer e declínio funcional relacionado à idade."
+          }
+        }
+      ]
+    },
+    "nefropatia diabetica": {
+      "capitulo": "16",
+      "opcoes": [
+        {
+          "GB90.4A": {
+            "confidence_embedding": 0.804,
+            "text": "Representação de doença CID-11: Diabetes insípido nefrogênico. Definição: Diabetes insípido nefrogênico é uma condição na qual os túbulos renais respondem mal ao hormônio antidiurético secretado pela hipófise, resultando em falha na concentração da urina e perda de água. Poliúria com urina diluída e polidipsia (sede excessiva) estão presentes. Pode ser congênita ou adquirida por várias causas. As formas congênitas podem ser atribuídas a defeitos no receptor da vasopressina ou da aquaporina-2. Eles são caracterizados por poliúria com polidipsia, episódios recorrentes de picos de febre, constipação e desidratação hipernatrêmica aguda após o nascimento, e que podem causar sequelas neurológicas."
+          }
+        },
+        {
+          "GB55.1": {
+            "confidence_embedding": 0.7857,
+            "text": "Representação de doença CID-11: Nefropatia induzida por metais pesados. Definição: Doença renal causada pela exposição a metais pesados e nefrotóxicos, como cádmio, chumbo, cobre e mercúrio. Esta doença é caracterizada por dano tubular, insuficiência renal, fibrose intersticial, necrose ou disfunção renal. Essa doença também pode se manifestar com hipertensão, proteinúria, hiperuricemia, aminoacidúria ou outros sintomas característicos da doença renal crônica."
+          }
+        },
+        {
+          "GB90.0": {
+            "confidence_embedding": 0.7851,
+            "text": "Representação de doença CID-11: Nefroptose. Definição: Maior mobilidade do rim resultando em ptose quando o paciente está em pé. Mais comum à direita, associado a uma artéria renal mais longa e discutivelmente associado a hiperplasia fibromuscular e hipertensão."
+          }
+        },
+        {
+          "GB55.0": {
+            "confidence_embedding": 0.7784,
+            "text": "Representação de doença CID-11: Nefropatia dos Bálcãs. Definição: Nefropatia dos Bálcãs é uma forma de nefrite intersticial caracterizada por uma ocorrência geográfica muito localizada. Foi identificada pela primeira vez na década de 1920 entre várias comunidades pequenas e distintas ao longo do rio Danúbio e seus principais afluentes. Agora acredita-se que seja devida à ingestão crônica de ácido aristolóquico (ingestão de sementes de Aristolochia clematitis, nativa da região dos Bálcãs), embora tenha algumas diferenças em relação à nefropatia herbácea chinesa. Esta doença é caracterizada por insuficiência renal, proteinúria, nefrite tubulointersticial, anemia, fraqueza, descoloração cúprica da pele, e pode levar a doença renal em estágio terminal dentro de 5 anos após seu início."
+          }
+        },
+        {
+          "GB82": {
+            "confidence_embedding": 0.7778,
+            "text": "Representação de doença CID-11: Doença túbulo-intersticialautossômica dominante. Definição: Doenças renais não glomerulares, autossômicas dominantes, caracterizadas por fibrose túbulo-intersticial progressiva e progressão para doença renal em estágio terminal. Atualmente, existem 4 defeitos genéticos conhecidos - na uromodulina, mucina-1, renina e fator nuclear 1-beta dos hepatócitos. O último está associado ao Diabetes de Início da Maturidade dos Jovens (MODY) e, portanto, é classificado como MODY-5."
+          }
+        }
+      ]
+    },
+    "dislipidemia": {
+      "capitulo": "05",
+      "opcoes": [
+        {
+          "5B5K.7": {
+            "confidence_embedding": 0.7642,
+            "text": "Representação de doença CID-11: Deficiência de selênio. Definição: Deficiência de selênio é rara mas tem sido observada em indivíduos em uso prolongado de dieta parenteral total(NPT) sem selênio. Manifestações clínicas da deficiência decorrente de tal situação são incomuns e pouco definidas. Elas incluem fraqueza muscular e mialgia com, em casos graves, o desenvolvimento de insuficiência cardíaca congestiva. A importância do selênio para o metabolismo dos hormônios tireoidianos é evidente, a partir de mudanças na proporção T3-T4 que se desenvolvem após uma depleção de selênio relativamente leve em bebês e idosos"
+          }
+        },
+        {
+          "5A60.2": {
+            "confidence_embedding": 0.7631,
+            "text": "Representação de doença CID-11: Síndrome da secreção inapropriada do hormônio antidiurético. Definição: Síndrome da secreção inapropriada do hormônio antidiurético (ADH)- SIADH- é caracterizada pela secreção contínua de ADH causando hiponatremia, hiposmolalidade e natriurese. A prevelência exata é desconhecida. A doença tem sido descrita em grupos de todas as idades. SIADH é frequentemente associada a tumores, doenças pulmonares, transtornos do sistema nervoso central ou exposição a drogas. Ocasionalmente ela é encontrada em pacientes com insuficiência adrenal, tireoidiana ou hipofisária. O transtorno é causado por mutações com ganho de função em genes que codificam o receptor de vasopressina V2. Restrição hídrica é o tratamento mais comum. O resultado está relacionado aos distúrbios subjacentes e associados."
+          }
+        },
+        {
+          "5B70": {
+            "confidence_embedding": 0.7542,
+            "text": "Representação de doença CID-11: Deficiência de ácidos graxos essenciais. Definição: A deficiência de ácidos graxos essenciais - AGE- (ácido linoléico, ácido linolênico, ácido araquidônico, ácido docosapentaenóico, ácido docosahexaenóico e ácido eicosapentaenóico) pode ser causada por ingestão deficiente, particularmente, em bebês de crescimento rápido (como prematuros), em pacientes recebendo nutrição parenteral sem uma fonte adequada de AGE, e em doenças com má absorção de gordura. Os achados clínicos são: dermatite, alopecia e trombocitopenia. O papel do AGE durante a gravidez e a lactação tem sido destacado, e o papel dos ácidos graxos n-3 de cadeia longa como componentes estruturais para o desenvolvimento da função da retina e do sistema nervoso central é agora aceito. O período pré-natal é um período de risco aumentado para deficiência de ômega-3, pois os estoques de tecido materno tendem a diminuir à medida que são usados ​​para o desenvolvimento do feto. A deficiência de n-3 AGE pode afetar o crescimento e a função cognitiva e visual em bebês. Os sinais característicos de deficiência atribuídos aos ácidos graxos n-6 são erupção cutânea escamosa, aumento da perda de água transepidérmica, crescimento reduzido e elevação da proporção plasmática de ácido eicosatrienóico: ácido araquidônico. A deficiência de AGE em populações especiais tem sido associada a distúrbios hematológicos e diminuição da resposta imunológica. Os ácidos graxos n-3 e n-6 de cadeia longa são nutrientes essenciais e também, como parte do suprimento geral de gordura, podem afetar a prevalência e a gravidade das doenças cardiovasculares, diabetes, câncer e declínio funcional relacionado à idade."
+          }
+        },
+        {
+          "5B5A.0": {
+            "confidence_embedding": 0.7518,
+            "text": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina."
+          }
+        },
+        {
+          "5B90.2": {
+            "confidence_embedding": 0.7518,
+            "text": "Representação de doença CID-11: Hipervitaminose D. Definição: A hipervitaminose D é secundária à ingestão excessiva de vitamina D. Pode ocorrer com ingestão elevada a longo prazo ou por ingestão aguda em excesso. O excesso de quantidades resulta em concentrações anormalmente altas de cálcio e fosfato no soro. Os sinais e sintomas da intoxicação por vitamina D são secundários à hipercalcemia. As manifestações gastrointestinais incluem náuseas, vômitos, constipação, dor abdominal e pancreatite. Os possíveis achados cardíacos são hipertensão, diminuição do intervalo Q-T e arritmias. Os efeitos da hipercalcemia no sistema nervoso central incluem letargia, hipotonia, confusão, desorientação, depressão, psicose, alucinações e coma. A hipercalcemia danifica os mecanismos de concentração renal, o que pode levar à poliúria, desidratação e hipernatremia. A hipercalcemia também pode causar insuficiência renal aguda, nefrolitíase e nefrocalcinose, que pode resultar em insuficiência renal crônica. As mortes geralmente estão associadas a arritmias ou desidratação."
+          }
+        }
+      ]
+    },
+    "pneumonia": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CA40.10": {
+            "confidence_embedding": 0.7945,
+            "text": "Representação de doença CID-11: Pneumonia devida a Adenovírus. Definição: Doença do sistema pulmonar, causada por uma infecção por um adenovírus. Esta doença caracterizada por febre, calafrios, ou rigores. Pode também se apresentar com dor torácica, tosse produtiva, dispneia, taquipneia, hipóxia e taquicardia. A transmissão ocorre por gotículas. A confirmação é feita pela identificação do adenovírus em amostra de escarro."
+          }
+        },
+        {
+          "CA40": {
+            "confidence_embedding": 0.789,
+            "text": "Representação de doença CID-11: Pneumonia. Definição: Doença dos pulmões, frequentemente, mas nem sempre, causada por uma infecção por bactérias, vírus, fungos ou parasitas. Esta doença é caracterizada por febre, calafrios, tosse produtiva, dor no peito e falta de ar. A confirmação é feita, por exemplo, por radiografia do tórax."
+          }
+        },
+        {
+          "CB03.5": {
+            "confidence_embedding": 0.7878,
+            "text": "Representação de doença CID-11: Pneumonia intersticial linfoide. Definição: Refere-se a várias condições nas quais linfócitos são produzidos em quantidade excessiva. Ocorrem tipicamente em pacientes que têm o sistema imune comprometido. Algumas vezes são equiparadas a \"doenças imunoproliferativas\", mas, tecnicamente, as doenças linfoproliferativas são um subgrupo das doenças imunoproliferativas, junto com as hipergamaglobulinemia e paraproteinemias."
+          }
+        },
+        {
+          "CA40.02": {
+            "confidence_embedding": 0.7856,
+            "text": "Representação de doença CID-11: Pneumonia devida a Haemophilus infuenzae. Definição: Doença do sistema pulmonar, causada por infecção pela bactéria gram-negativa Haemophilus influenzae. Esta doença é caracterizada por tosse, falta de ar, febre, calafrios, dores musculares e dor no peito. A transmissão ocorre por inalação de secreções respiratórias infectadas ou contato direto. A confirmação é feita pela identificação do Haemophilus influenzae no sangue ou outro fluido corporal tipicamente estéril."
+          }
+        },
+        {
+          "CA40.12": {
+            "confidence_embedding": 0.7854,
+            "text": "Representação de doença CID-11: Pneumonia devida ao vírus parainfluenza. Definição: Doença do sistema pulmonar, causada por uma infecção pelo vírus parainfluenza. Esta doença é caracterizada por febre, mal estar, tosse ou taquipneia. A transmissão ocorre por inalação de secreções respiratórias infectadas, por contato direto ou por meio de fômites. A confirmação é feita pela identificação do vírus parainfluenza em secreções respiratórias, detecção de elevação significativa dos títulos de anticorpos IgG específicos em amostras pareadas de soro, ou detecção de anticorpos IgM específicos em uma única amostra de soro."
+          }
+        }
+      ]
+    },
+    "has": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BD54": {
+            "confidence_embedding": 0.7363,
+            "text": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos."
+          }
+        },
+        {
+          "BD12": {
+            "confidence_embedding": 0.7344,
+            "text": "Representação de doença CID-11: Síndromes de alto débito. Definição: Aumento do débito cardíaco acima do normal associado a anemia, fístulas arteriovenosas, tireotoxicose e outras síndromes. Pode resultar em insuficiência cardíaca."
+          }
+        },
+        {
+          "BB24": {
+            "confidence_embedding": 0.7281,
+            "text": "Representação de doença CID-11: Hemopericárdio. Definição: Hemopericárdio causado por doenças não classificadas em outra parte. Hemopericárdio geralmente se refere a sangue no saco pericárdico do coração. É clinicamente semelhante ao derrame pericárdico e, dependendo do volume e da rapidez com que se desenvolve, pode causar tamponamento cardíaco."
+          }
+        },
+        {
+          "BD10": {
+            "confidence_embedding": 0.7245,
+            "text": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos."
+          }
+        },
+        {
+          "BD71.2": {
+            "confidence_embedding": 0.7214,
+            "text": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal"
+          }
+        }
+      ]
+    },
+    "irradiacao em faixa epigastrica": {
+      "capitulo": "13",
+      "opcoes": []
+    },
+    "dor": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MF95": {
+            "confidence_embedding": 0.7723,
+            "text": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular."
+          }
+        },
+        {
+          "MD81": {
+            "confidence_embedding": 0.7668,
+            "text": "Representação de doença CID-11: Dor abdominal ou pélvica. Definição: Dor, uma sensação desagradável de desconforto ocorrendo em variados graus de intensidade, recebida pelas terminações nervosas na região abdominal e pélvica."
+          }
+        },
+        {
+          "MF56": {
+            "confidence_embedding": 0.7656,
+            "text": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos."
+          }
+        },
+        {
+          "MF55": {
+            "confidence_embedding": 0.7588,
+            "text": "Representação de doença CID-11: Poliúria. Definição: A poliúria é uma condição definida como produção ou passagem excessiva ou anormalmente grande de urina."
+          }
+        },
+        {
+          "MF94": {
+            "confidence_embedding": 0.7585,
+            "text": "Representação de doença CID-11: Hemoglobinúria. Definição: Presença de hemoglobina livre na urina, indicando hemólise de eritrócitos dentro do sistema vascular. Depois de saturar as proteínas de ligação à hemoglobina (haptoglobinas), a hemoglobina livre começa a aparecer na urina."
+          }
+        }
+      ]
+    },
+    "retinopatia diabetica": {
+      "capitulo": "09",
+      "opcoes": [
+        {
+          "9B71.0": {
+            "confidence_embedding": 0.8279,
+            "text": "Representação de doença CID-11: Retinopatia diabética. Definição: Condição caracterizada como uma doença da retina (retinopatia) que envolve dano aos pequenos vasos sanguíneos da retina, o que é devido a níveis cronicamente elevados de glicose no sangue em pessoas com diabetes."
+          }
+        },
+        {
+          "9B71.01": {
+            "confidence_embedding": 0.8016,
+            "text": "Representação de doença CID-11: Retinopatia diabética proliferativa. Definição: Retinopatia proliferativa (dano à retina) causada por complicações do diabetes, que podem eventualmente levar a cegueira. É uma manifestação ocular do diabetes, uma doença sistêmica, que afeta até 80% de todos os pacientes que têm diabetes por 10 anos ou mais.\r\n\r\nSempre atribua um código adicional para o tipo de diabetes mellitus."
+          }
+        },
+        {
+          "9B71.3": {
+            "confidence_embedding": 0.7757,
+            "text": "Representação de doença CID-11: Retinopatia da prematuridade. Definição: A retinopatia da prematuridade é um transtorno vasoproliferativo que afeta bebês extremamente prematuros, potencialmente levando a uma deficiência visual grave ou cegueira. A exposição de recém-nascidos prematuros à hiperóxia regula para baixo o fator de crescimento endotelial vascular da retina. Os vasos sanguíneos se contraem e podem se tornar obliterados, resultando em atrasos no desenvolvimento vascular retiniano normal. Baixo peso ao nascer, idade gestacional jovem e gravidade da doença (p.ex., síndrome do desconforto respiratório, displasia broncopulmonar, sepse) são fatores associados. Ocorre primariamente em bebês com peso extremamente baixo ao nascer por causa da cessação da maturação vascular retiniana normal."
+          }
+        },
+        {
+          "9B78.1": {
+            "confidence_embedding": 0.7737,
+            "text": "Representação de doença CID-11: Retinopatias de fundo e alterações vasculares da retina. Definição: A retinopatia de fundo é a primeira alteração visível na retina no diabetes, caracterizada por algumas alterações vasculares da retina, p.ex. os capilares da retina podem ficar bloqueados, podem inchar ligeiramente (microaneurisma) e podem vazar sangue ou fluido."
+          }
+        },
+        {
+          "9B73.3": {
+            "confidence_embedding": 0.7732,
+            "text": "Representação de doença CID-11: Descolamento seroso da retina. Definição: Isso ocorre devido a inflamação, lesão ou anormalidades vasculares que resultam no acúmulo de líquido sob a retina sem a presença de um orifício, ruptura ou quebra."
+          }
+        }
+      ]
+    },
+    "pleurite": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CB25": {
+            "confidence_embedding": 0.8082,
+            "text": "Representação de doença CID-11: Fibrotórax. Definição: Fibrotórax resulta da fibrose da pleura visceral e se manifesta clinicamente por excursão respiratória reduzida e por fisiologia pulmonar restritiva. Existem dois mecanismos distintos que podem levar à formação do fibrotórax: 1) Mais frequentemente o fibrotórax se desenvolve como consequência de inflamação pleural em pacientes com derrames pleurais, inclusive hemotórax, derrame tuberculso ou empiema crônico; 2) Menos frequentemente, o fibrotórax resulta de doença parenquimatosa pulmonar e pode ser observado em pacientes com tuberculose, bronquiectasias ou abscesso pulmonar."
+          }
+        },
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.7792,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CB26": {
+            "confidence_embedding": 0.7726,
+            "text": "Representação de doença CID-11: Hemotórax. Definição: Hemotórax é a presença de sangue com ou sem ar no espaço pleural. A causa mais comum é o traumatismo torácico. O hemotórax deve ser considerado presente quando o hematócrito do líquido pleural for maior que a metade do do sangue periférico. Numerosas localizações de sangramento podem ser responsáveis pelo hemotórax, incluindo laceração pulmonar, laceração de vaso intercostal e ruptura de adesão pleural."
+          }
+        },
+        {
+          "CA44": {
+            "confidence_embedding": 0.7723,
+            "text": "Representação de doença CID-11: Piotórax. Definição: Inflamação supurativa do espaço pleural, tipicamente devida a infecção bacteriana aguda. Pode ocorrer como complicação de pneumonia, toracotomia, abscessos (pulmonar, hepático ou subdiafragmático), ou traumatismo penetrante com infecção secundária."
+          }
+        },
+        {
+          "CA70.0": {
+            "confidence_embedding": 0.7698,
+            "text": "Representação de doença CID-11: Pulmão de fazendeiro. Definição: Doença pulmonar do fazendeiro é uma pneumonite por hipersensibilidade, causada por inalação de poeira orgânica contendo esporos de microrganismos, frequentemente actinomicetos termofílicos, e menos comumente Saccharopolyspora rectivirgula, vivendo em feno, palha ou grãos mofados. Sintomas típicos incluem dispneia, tosse, cansaço, dores de cabeça e febre/sudorese noturna ocasionais, com curso clínico agudo, subagudo ou crônico e que podem resultar em insuficiência crônica com doença granulomatosa."
+          }
+        }
+      ]
+    },
+    "obesidade": {
+      "capitulo": "24",
+      "opcoes": [
+        {
+          "QA77": {
+            "confidence_embedding": 0.7222,
+            "text": "Representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano. Definição: "
+          }
+        },
+        {
+          "QC64.Y": {
+            "confidence_embedding": 0.7172,
+            "text": "Representação de doença CID-11: Outra história familiar especificada de doenças endócrinas, nutricionais ou metabólicas. Definição: "
+          }
+        },
+        {
+          "QA51": {
+            "confidence_embedding": 0.7113,
+            "text": "Representação de doença CID-11: Corpo estranho acidentalmente deixado no corpo sem lesão ou dano.. Definição: "
+          }
+        },
+        {
+          "QC45": {
+            "confidence_embedding": 0.7088,
+            "text": "Representação de doença CID-11: História pessoal de doenças endócrinas, nutricionais ou metabólicas. Definição: "
+          }
+        },
+        {
+          "QA8Z": {
+            "confidence_embedding": 0.7057,
+            "text": "Representação de doença CID-11: Circunstâncias associadas a outros aspectos do cuidado influenciando no episódio de atenção, sem lesão ou dano, não especificadas. Definição: "
+          }
+        }
+      ]
+    },
+    "hernia inguinal operada": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FB32.20": {
+            "confidence_embedding": 0.7502,
+            "text": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave."
+          }
+        },
+        {
+          "FA80.4": {
+            "confidence_embedding": 0.7161,
+            "text": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica sem prolapso de disco. Definição: "
+          }
+        },
+        {
+          "FA25": {
+            "confidence_embedding": 0.7158,
+            "text": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato."
+          }
+        },
+        {
+          "FA80.8": {
+            "confidence_embedding": 0.7118,
+            "text": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: "
+          }
+        },
+        {
+          "FA80.5": {
+            "confidence_embedding": 0.7074,
+            "text": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica com prolapso de disco. Definição: "
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "prontuario_id": 76,
+  "text": "PACIENTE EM ACOMPANHAMENTO - TP - RNI.\nNEGA SANGRAMENTOS./ ALIMENTAÇÃO INADEQUADA ( FOLHAS VERDES?).\nANTEC DE. \nRNI 28/04/2014 = 3,48.\nCD: ORIENTAÇÕES,\n       MANTENHO MEDICAÇÃO. \n      RETORNO COM LAB TAP - RNI.\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ACOMPANHAMENTO",
+      "CD",
+      "ORIENTAÇÕES",
+      "MANTENHO MEDICAÇÃO"
+    ],
+    "Abreviação": [
+      "TP",
+      "RNI",
+      "ANTEC",
+      "CD",
+      "TAP"
+    ],
+    "Procedimento Laboratorial": [
+      "TP",
+      "RNI",
+      "LAB",
+      "TAP"
+    ],
+    "Negação": [
+      "NEGA"
+    ],
+    "Sinal ou Sintoma": [
+      "SANGRAMENTOS"
+    ],
+    "Produto Intelectual": [
+      "CD"
+    ],
+    "Achado": [
+      "ALIMENTAÇÃO INADEQUADA"
+    ],
+    "Alimento": [
+      "FOLHAS VERDES"
+    ]
+  },
+  "labels": {
+    "sangramentos": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NE81.0Z": {
+            "confidence_embedding": 0.6877,
+            "text": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: "
+          }
+        },
+        {
+          "NF0A.2": {
+            "confidence_embedding": 0.6798,
+            "text": "Representação de doença CID-11: Hemorragia traumática secundária ou recorrente, não classificada em outra parte. Definição: "
+          }
+        },
+        {
+          "NE81.0": {
+            "confidence_embedding": 0.6784,
+            "text": "Representação de doença CID-11: Hemorragia ou hematoma complicando um procedimento, não classificado em outra parte. Definição: "
+          }
+        },
+        {
+          "NA07.83": {
+            "confidence_embedding": 0.6721,
+            "text": "Representação de doença CID-11: Hemorragia traumática no tronco encefálico sem especificação se primária ou secundária. Definição: "
+          }
+        },
+        {
+          "NA07.80": {
+            "confidence_embedding": 0.6683,
+            "text": "Representação de doença CID-11: Hemorragia traumática na substância branca do cérebro. Definição: "
+          }
+        }
+      ]
+    },
+    "alimentação inadequada": {
+      "capitulo": "05",
+      "opcoes": [
+        {
+          "5C78": {
+            "confidence_embedding": 0.7073,
+            "text": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem."
+          }
+        },
+        {
+          "5C70.0": {
+            "confidence_embedding": 0.7008,
+            "text": "Representação de doença CID-11: Desidratação. Definição: A desidratação ocorre quando há uma quantidade insuficiente ou perda excessiva de água no corpo. Isso pode ser causado por vômitos, diarreia, febre, uso de diuréticos, sudorese profusa ou diminuição da ingestão de água."
+          }
+        },
+        {
+          "5B5K.6": {
+            "confidence_embedding": 0.697,
+            "text": "Representação de doença CID-11: Deficiência de cobre. Definição: Deficiência dietética é rara e tem sido observada em prematuros e bebês com baixo peso ao nascimento que são alimentados exclusivamente com leite de vaca e em indivíduos em nutrição parenteral total (NPT) prolongada sem cobre. Manifestações clínicas incluem despigmentação de pele e cabelo, distúrbios neurológicos, leucopenia, anemia microcítica e hipocrômica e anormalidades esqueléticas."
+          }
+        },
+        {
+          "5B5K.0": {
+            "confidence_embedding": 0.6913,
+            "text": "Representação de doença CID-11: Deficiência de ferro. Definição: Deficência de ferro é um estado em que existe ferro insuficiente para manutenção da função fisiológica normal do sangue, cérebro e músculos. Ela pode existir na ausência de anemia se a perda não é longa o suficiente ou se não tiver sido grave o suficiente para fazer com que a concentração de hemoglobina caia abaixo do limite para o sexo e faixa etária específicos. A deficiência de ferro é a deficiência nutricional mais comum."
+          }
+        },
+        {
+          "5B5A.0": {
+            "confidence_embedding": 0.6907,
+            "text": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina."
+          }
+        }
+      ]
+    }
+  }
+}

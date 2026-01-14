@@ -1,0 +1,79 @@
+{
+  "prontuario_id": 167,
+  "text": "PACIENTE REFERE TRAUMA EM PÉ INESPECIFICO\nPISANDO CONTRA A INDICAÇÃO MEDICA\ntroco gesso \noriento sobre risco de perda de redução\nrx de controle hoje ok\nretorno para novo rx",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Lesão ou Envenenamento": [
+      "TRAUMA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PÉ"
+    ],
+    "Achado": [
+      "PISANDO"
+    ],
+    "Negação": [
+      "CONTRA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "troco",
+      "oriento",
+      "retorno",
+      "INDICAÇÃO MEDICA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "gesso"
+    ],
+    "Dispositivo Médico": [
+      "gesso"
+    ],
+    "Abreviação": [
+      "rx"
+    ],
+    "Procedimento Diagnóstico": [
+      "rx"
+    ],
+    "Conceito Temporal": [
+      "hoje"
+    ]
+  },
+  "labels": {
+    "trauma": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NA07.0": {
+            "confidence_embedding": 0.8051,
+            "text": "Representação de doença CID-11: Concussão. Definição: Perda ou diminuição da consciência devida a traumatismo."
+          }
+        },
+        {
+          "ND34": {
+            "confidence_embedding": 0.7861,
+            "text": "Representação de doença CID-11: Traumatismos por esmagamento envolvendo múltiplas regiões do corpo. Definição: "
+          }
+        },
+        {
+          "ND57": {
+            "confidence_embedding": 0.7855,
+            "text": "Representação de doença CID-11: Efeito secundário do trauma. Definição: "
+          }
+        },
+        {
+          "NA07": {
+            "confidence_embedding": 0.7821,
+            "text": "Representação de doença CID-11: Traumatismo intracraniano. Definição: Dano infligido aos tecidos do cérebro como o resultado direto ou indireto de uma força externa, com ou sem interrupção da continuidade estrutural."
+          }
+        },
+        {
+          "NA06.0Z": {
+            "confidence_embedding": 0.7816,
+            "text": "Representação de doença CID-11: Traumatismo da pálpebra, não especificado. Definição: "
+          }
+        }
+      ]
+    }
+  }
+}

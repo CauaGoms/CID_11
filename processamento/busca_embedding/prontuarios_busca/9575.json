@@ -1,0 +1,178 @@
+{
+  "prontuario_id": 560,
+  "text": "POS TX CARDIACO HA 20 dias\nULTIMA BIOPSIA AINDA SEM RESULTADO\nEM USO DE EVEROLIMUS 0,75 DE 8/8 , AZATIOPRINA 50 / 50 E PREDNISONA 20MG / DIA\nUSO DE FURO , AAS , SINVA\nS # SEM QUEIXAS \nREFERE QUEIMAÇÃO NAS PERNAS. DEMAIS SP\nO # PA 120/80, FC 89\nACV BCRNF \nCPP LIVRE\nMMII SEM EDEMA \nA # POS TX CARDIACO , COM BOA EVOLUÇÃO. \nP # NOVA BIOPSIA, ECO E LAB\n \n \n \n ",
+  "entities": {
+    "Conceito Temporal": [
+      "POS",
+      "8/8"
+    ],
+    "Procedimento Diagnóstico": [
+      "BIOPSIA",
+      "ECO"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Substância Farmacológica": [
+      "EVEROLIMUS",
+      "AZATIOPRINA",
+      "PREDNISONA",
+      "FURO",
+      "AAS",
+      "SINVA"
+    ],
+    "Abreviação": [
+      "FURO",
+      "AAS",
+      "SINVA",
+      "SP",
+      "PA",
+      "FC",
+      "ACV",
+      "BCRNF",
+      "MMII",
+      "ECO",
+      "LAB",
+      "TX CARDIACO",
+      "CPP LIVRE"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "EDEMA",
+      "QUEIMAÇÃO NAS PERNAS"
+    ],
+    "Achado": [
+      "SP",
+      "BCRNF",
+      "CPP LIVRE",
+      "BOA EVOLUÇÃO"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC"
+    ],
+    "Conceito Quantitativo": [
+      "120/80",
+      "89",
+      "0 , 75",
+      "50 / 50",
+      "20MG / DIA"
+    ],
+    "Sistema Corporal": [
+      "ACV"
+    ],
+    "Procedimento Laboratorial": [
+      "LAB"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX CARDIACO"
+    ]
+  },
+  "labels": {
+    "edema": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BD93": {
+            "confidence_embedding": 0.7982,
+            "text": "Representação de doença CID-11: Linfedema. Definição: Edema devido ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Geralmente afeta as extremidades, mas pode envolver qualquer parte do corpo. É desfigurante e aumenta a suscetibilidade a infecções recorrentes e malignidades locais."
+          }
+        },
+        {
+          "BD13": {
+            "confidence_embedding": 0.7848,
+            "text": "Representação de doença CID-11: Insuficiência ventricular direita. Definição: Insuficiência cardíaca associada à disfunção ventricular direita manifestada por distensão das veias do pescoço, aumento do fígado e edema gravitacional."
+          }
+        },
+        {
+          "BD54": {
+            "confidence_embedding": 0.7845,
+            "text": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos."
+          }
+        },
+        {
+          "BB72.0": {
+            "confidence_embedding": 0.7755,
+            "text": "Representação de doença CID-11: Estenose aórtica reumática com insuficiência. Definição: A estenose aórtica por cardiopatia reumática crônica tipicamente está associada à insuficiência aórtica. As comissuras e cúspides da válvula tornam-se aderentes e fundidas, e o orifício da valva torna-se pequeno. Na ausculta, S2 pode ser única porque os folhetos aórticos estão imóveis e não produzem um som de fechamento aórtico"
+          }
+        },
+        {
+          "BC81.30": {
+            "confidence_embedding": 0.7731,
+            "text": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+          }
+        }
+      ]
+    },
+    "queimação nas pernas": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "EA90.3": {
+            "confidence_embedding": 0.7806,
+            "text": "Representação de doença CID-11: Psoríase eritrodérmica. Definição: Psoríase eritrodérmica é uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele. A psoríase eritrodérmica geralmente se desenvolve a partir da psoríase em placas extensa mas pode surgir de forma nova. Fatores precipitantes ou desencadeantes incluem a retirada de glicocorticoides sistêmicos e, menos frequentemente, a descontinuação abrupta do metotrexato, queimaduras ou infecções intercorrentes. Os pacientes podem desenvolver hipotermia ou insuficiência cardíaca de alto débito."
+          }
+        },
+        {
+          "EB02.0": {
+            "confidence_embedding": 0.7774,
+            "text": "Representação de doença CID-11: Urticária colinérgica. Definição: Urticária colinérgica apresenta-se como uma erupção de múltiplas lesões papulares monomórficas pequenas de 2-3 mm, em resposta a estímulos indutores de sudorese como esforço físico, banhos quentes, comidas apimentadas ou estresse emocional súbito. As pápulas tendem a ser rosadas em casos leves, mas brancas com eritema macular de permeio quando o edema é mais intenso. Angioedema e manifestações sistêmicas incluindo cefaleia, palpitações, sibilância e síncope podem ocorrer em casos graves."
+          }
+        },
+        {
+          "EA86.0": {
+            "confidence_embedding": 0.7742,
+            "text": "Representação de doença CID-11: Dermatite de estase de pernas. Definição: Processo eczematoso crônico que afeta a pele das pernas em associação com linfedema crônico de membros inferiores e imobilidade. Frequentemente está associada à lipodermatoesclerose. A falha da \"bomba muscular\" normal para auxiliar o retorno venoso é um componente importante na etiologia. É comum em obesos mórbidos. É caracterizada por inflamação de baixo grau com escamação e descamação variáveis."
+          }
+        },
+        {
+          "EB51": {
+            "confidence_embedding": 0.7695,
+            "text": "Representação de doença CID-11: Lúpus eritematoso cutâneo crônico. Definição: Lúpus eritematoso cutâneo crônico (LECC) é caracterizado pela presença de placas cutâneas circunscritas apresentando graus variados de edema, eritema, descamação, tamponamento e atrofia folicular. Apresenta-se mais comumente como placas discoides envolvendo face, orelhas e couro cabeludo, mas pode ser amplamente disseminada ou acometer predominantemente extremidades (lúpus Chilblain) ou a gordura subcutânea (paniculite lúpica). Pode causar desfiguração acentuada com cicatrizes faciais proeminentes e perda de cabelo permanente. A maioria dos pacientes permanece com boa saúde, mas 5-10% podem desenvolver lúpus eritematoso sistêmico. A fotossensibilidade é menos evidente do que no lúpus eritematoso cutâneo subagudo."
+          }
+        },
+        {
+          "EB13.1": {
+            "confidence_embedding": 0.7679,
+            "text": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável."
+          }
+        }
+      ]
+    },
+    "queixas": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7652,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MF96": {
+            "confidence_embedding": 0.7595,
+            "text": "Representação de doença CID-11: Proteinúria. Definição: O excesso de proteínas séricas na urina, como na doença renal, em que a albumina é a proteína principal, porém também pode ser devido a outras proteínas, como imunoglobulinas de cadeias leves na discrasia de células plasmáticas como o mieloma múltiplo."
+          }
+        },
+        {
+          "MA6Y": {
+            "confidence_embedding": 0.752,
+            "text": "Representação de doença CID-11: Outros sintomas, sinais ou achados clínicos de doenças endócrinas, nutricionais ou metabólicas, especificados. Definição: "
+          }
+        },
+        {
+          "MF95": {
+            "confidence_embedding": 0.7519,
+            "text": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular."
+          }
+        },
+        {
+          "ME08": {
+            "confidence_embedding": 0.7498,
+            "text": "Representação de doença CID-11: Flatulência e afecções correlatas. Definição: Produção ou presença de gás no trato gastrointestinal que pode ser expelido pelo ânus e outras condições associadas à produção ou presença de gás no trato GI."
+          }
+        }
+      ]
+    }
+  }
+}

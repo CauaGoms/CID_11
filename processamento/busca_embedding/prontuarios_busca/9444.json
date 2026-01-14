@@ -1,0 +1,643 @@
+{
+  "prontuario_id": 289,
+  "text": "ID # Lucas, 60 anos.  QP # sem queixas.  HMA # Nega dispneia, palpitações, dor toracica ou outros sintomas cardíacos. Edema matinal. Acompanha no ambulatório por cardiomiopatia dilatada idiopatica e fibrilação atrial.  Comorbidades: HAS, DM e gota. Atualmente em uso furosemida 40mg 1 cp ao dia, digoxina 0,25mg 1 cp/dia, carvedilol 25mg 2 cp/dia, monocordil 20mg 2 cp/dia, hidralazina 25mg 2 cp/dia, alopurinol 300mg 1 cp/dia, colchicina 0,5mg  se dor, marevan 5mg 2 cp seg, qua e sex, sab e 1 cp nos demais, metformina 850mg 1 cp após almoço.  HMP # Já esteve na fila para transplante - mretirado por melhora clinica. CATE há aprox 2 anos - sem evidência de doença coronariana. Internado por insuficiência renal??? (inicio 2014).  Herniorrafia de parede abdominal (sangramento retroperitoneal por discrasia sanguinea) há 1 ano.  CHV # nega tabagismo e etilismo, sedentário.  HMF # mãe falecida por trombose aos 64 anos e pai falecida nefropatia com 78 anos; filhos saudáveis.  Exames: Leucocitose discreta - 10800; - segmentados 65,4; Ureia: 92; Cr: 2,1; Acido urico: 7,3; Sodio: 138; K: 5,7;  TFG (CKD-EPI): 33.",
+  "entities": {
+    "Abreviação": [
+      "ID",
+      "QP",
+      "HMA",
+      "HAS",
+      "DM",
+      "HMP",
+      "CATE",
+      "CHV",
+      "HMF",
+      "1 cp ao dia",
+      "1 cp/dia",
+      "2 cp/dia",
+      "2 cp",
+      "seg , qua e sex , sab",
+      "1 cp"
+    ],
+    "Achado": [
+      "QP",
+      "HMA",
+      "HMP",
+      "CHV",
+      "HMF",
+      "melhora clinica",
+      "filhos saudáveis ."
+    ],
+    "Negação": [
+      "sem",
+      "Nega",
+      "nega"
+    ],
+    "Sinal ou Sintoma": [
+      "queixas",
+      "dispneia",
+      "palpitações",
+      "dor",
+      "dor toracica",
+      "sintomas cardíacos",
+      "Edema matinal"
+    ],
+    "Organização Relacionada à Saúde": [
+      "ambulatório"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DM",
+      "gota",
+      "tabagismo",
+      "etilismo",
+      "sedentário",
+      "trombose",
+      "nefropatia",
+      "cardiomiopatia dilatada idiopatica",
+      "fibrilação atrial",
+      "doença coronariana",
+      "insuficiência renal"
+    ],
+    "Substância Química Orgânica": [
+      "furosemida",
+      "digoxina",
+      "carvedilol",
+      "monocordil",
+      "hidralazina",
+      "alopurinol",
+      "colchicina",
+      "marevan",
+      "metformina"
+    ],
+    "Substância Farmacológica": [
+      "furosemida",
+      "digoxina",
+      "carvedilol",
+      "monocordil",
+      "hidralazina",
+      "alopurinol",
+      "colchicina",
+      "marevan",
+      "metformina"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "transplante",
+      "CATE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Internado"
+    ],
+    "Procedimento Laboratorial": [
+      "Exames"
+    ],
+    "Conceito Quantitativo": [
+      "1 cp ao dia",
+      "0 , 25mg",
+      "1 cp/dia",
+      "2 cp/dia",
+      "0 , 5mg",
+      "2 cp",
+      "1 cp"
+    ],
+    "Conceito Temporal": [
+      "seg , qua e sex , sab",
+      "após almoço"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Leucocitose discreta - 10800",
+      "segmentados 65 , 4",
+      "Ureia : 92",
+      "Cr",
+      "K : 5 , 7",
+      "TFG ( CKD-EPI ) : 33"
+    ]
+  },
+  "labels": {
+    "sintomas cardíacos": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BE10": {
+            "confidence_embedding": 0.7642,
+            "text": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite."
+          }
+        },
+        {
+          "BD54": {
+            "confidence_embedding": 0.7586,
+            "text": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos."
+          }
+        },
+        {
+          "BC43.0": {
+            "confidence_embedding": 0.7528,
+            "text": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida."
+          }
+        },
+        {
+          "BC80.20": {
+            "confidence_embedding": 0.7526,
+            "text": "Representação de doença CID-11: Síndrome do nó sinusal. Definição: A síndrome da doença do nó sinusal pode ser definida como frequências sinusais inapropriadas (ou bradicardia em repouso ou incompetência cronotrópica) que podem estar associadas a episódios de taquicardia atrial."
+          }
+        },
+        {
+          "BA51.0": {
+            "confidence_embedding": 0.7496,
+            "text": "Representação de doença CID-11: Cardiomiopatia dilatada devida a anomalia congênita de artéria coronária. Definição: Cardiomiopatia dilatada devida a uma anomalia congênita de uma ou mais artérias coronárias, como origem anômala da artéria coronária esquerda anômala saindo da artéria pulmonar (ALCAPA), estenose ou atresia do óstio coronário, circulação coronária dependente do ventrículo direito na atresia pulmonar com septo ventricular íntegro. É uma forma de cardiomiopatia isquêmica que causa disfunção ventricular sistólica que se relaciona a um espectro de equilíbrio e desequilíbrio entre perfusão e contração, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes."
+          }
+        }
+      ]
+    },
+    "fibrilação atrial": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BC81.30": {
+            "confidence_embedding": 0.8437,
+            "text": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+          }
+        },
+        {
+          "BC40": {
+            "confidence_embedding": 0.8301,
+            "text": "Representação de doença CID-11: Anormalidade atrial adquirida. Definição: Uma alteração patológica pós-natal na forma ou função de um ou ambos os átrios."
+          }
+        },
+        {
+          "BC60": {
+            "confidence_embedding": 0.8263,
+            "text": "Representação de doença CID-11: Despolarização atrial prematura. Definição: Despolarização elétrica cardíaca originada nos átrios, ocorrendo antes do batimento sinusal esperado"
+          }
+        },
+        {
+          "BC40.Y": {
+            "confidence_embedding": 0.824,
+            "text": "Representação de doença CID-11: Outra anormalidade atrial adquirida especificada. Definição: "
+          }
+        },
+        {
+          "BC40.Z": {
+            "confidence_embedding": 0.8231,
+            "text": "Representação de doença CID-11: Anormalidade atrial adquirida não especificada. Definição: "
+          }
+        }
+      ]
+    },
+    "cardiomiopatia dilatada idiopatica": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BC43.0": {
+            "confidence_embedding": 0.8295,
+            "text": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida."
+          }
+        },
+        {
+          "BC43.1": {
+            "confidence_embedding": 0.8264,
+            "text": "Representação de doença CID-11: Cardiomiopatia hipertrófica. Definição: A cardiomiopatia hipertrófica é a presença de um ventrículo hipertrofiado e não dilatado na ausência de uma causa hemodinâmica que seja capaz de produzir a magnitude existente de espessamento da parede, excluindo tanto a hipertrofia fisiológica secundária à atividade física quanto a hipertrofia patológica devida a hipertensão arterial sistêmica, estenose valvar aórtica e coarctação da aorta."
+          }
+        },
+        {
+          "BC43.6": {
+            "confidence_embedding": 0.8211,
+            "text": "Representação de doença CID-11: Cardiomiopatia ventricular arritmogênica. Definição: A cardiomiopatia ventricular arritmogênica é uma cardiomiopatia caracterizada pela perda de células miocárdicas com substituição parcial ou total do músculo ventricular direito por tecido adiposo e fibroso, começando pelo subepicárdio e se tornando transmural com o tempo, poupando os músculos papilares e trabéculas, e frequentemente associada a aneurismas, particularmente da via de saída ventricular direita. Há comprometimento sistólico progressivo com dilatação ventricular e acentuada propensão a arritmias ventriculares de origem ventricular direita, e também esquerda. Classicamente uma doença do ventrículo direito, evidências mais recentes sugerem envolvimento do ventrículo esquerdo em extensão variável em até 75% dos casos, assim como doença isolada do ventrículo esquerdo."
+          }
+        },
+        {
+          "BC43.01": {
+            "confidence_embedding": 0.8193,
+            "text": "Representação de doença CID-11: Cardiomiopatia dilatada não familiar. Definição: Cardiomiopatia dilatada não familiar é uma cardiomiopatia dilatada secundária a um transtorno sistêmico adquirido que é conhecido por estar associado a cardiomiopatia dilatada ou inflamatória, como miocardite infecciosa, exposição a toxinas, como álcool ou terapia com antraciclina, transtornos nutricionais, doença autoimune e muitos outros."
+          }
+        },
+        {
+          "BA51": {
+            "confidence_embedding": 0.8162,
+            "text": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas."
+          }
+        }
+      ]
+    },
+    "dor toracica": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BD52.71": {
+            "confidence_embedding": 0.7631,
+            "text": "Representação de doença CID-11: Dilatação adquirida da aorta ascendente ou da raiz. Definição: Aumento do diâmetro luminal da aorta entre a junção ventrículo-aórtica e a origem do primeiro ramo braquiocefálico acima do limite superior do normal ajustado para o tamanho do corpo que se desenvolve após o nascimento"
+          }
+        },
+        {
+          "BE10": {
+            "confidence_embedding": 0.7626,
+            "text": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite."
+          }
+        },
+        {
+          "BA51.0": {
+            "confidence_embedding": 0.7614,
+            "text": "Representação de doença CID-11: Cardiomiopatia dilatada devida a anomalia congênita de artéria coronária. Definição: Cardiomiopatia dilatada devida a uma anomalia congênita de uma ou mais artérias coronárias, como origem anômala da artéria coronária esquerda anômala saindo da artéria pulmonar (ALCAPA), estenose ou atresia do óstio coronário, circulação coronária dependente do ventrículo direito na atresia pulmonar com septo ventricular íntegro. É uma forma de cardiomiopatia isquêmica que causa disfunção ventricular sistólica que se relaciona a um espectro de equilíbrio e desequilíbrio entre perfusão e contração, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes."
+          }
+        },
+        {
+          "BD50.0Z": {
+            "confidence_embedding": 0.7602,
+            "text": "Representação de doença CID-11: Dissecção da aorta torácica, dissecção da aorta ascendente e propagação além do arco, sem menção de perfuração ao ruptura. Definição: "
+          }
+        },
+        {
+          "BA60.9": {
+            "confidence_embedding": 0.7595,
+            "text": "Representação de doença CID-11: Choque cardiogênico, não relacionado a complicações mecânicas, como complicação atual subsequente a infarto agudo do miocárdio. Definição: A expressão clínica mais grave da insuficiência ventricular esquerda e está associada a extensos danos ao miocárdio ventricular esquerdo após infarto agudo do miocárdio, não relacionado a um defeito mecânico como ruptura do septo ventricular ou do músculo papilar. Choque é definido como pressão arterial (PA) sistólica <90 mmHg e hipoperfusão de órgãos."
+          }
+        }
+      ]
+    },
+    "insuficiência renal": {
+      "capitulo": "16",
+      "opcoes": [
+        {
+          "GB40": {
+            "confidence_embedding": 0.8484,
+            "text": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose."
+          }
+        },
+        {
+          "GB81": {
+            "confidence_embedding": 0.8233,
+            "text": "Representação de doença CID-11: Doença renal policística autossômica dominante. Definição: Cistos múltiplos em ambos os rins aumentando em número e tamanho a partir da adolescência, associados ao desenvolvimento de hipertensão e insuficiência renal crônica. O padrão familiar autossômico dominante é comum e devido a mutações nos cromossomos 16 e 4. As manifestações não renais podem incluir cistos no fígado e menos comumente no pâncreas. Aneurismas arteriais cerebrais com hemorragia subaracnoide e outras anormalidades vasculares não renais também podem ocorrer."
+          }
+        },
+        {
+          "GB80": {
+            "confidence_embedding": 0.8218,
+            "text": "Representação de doença CID-11: Doença renal cística não familiar não genética. Definição: Doenças em que há alterações anatômicas ou patológicas do desenvolvimento na substância renal que não ocorrem em uma distribuição familiar e não são conhecidas por terem uma causa monogenética."
+          }
+        },
+        {
+          "GB60.Y": {
+            "confidence_embedding": 0.8204,
+            "text": "Representação de doença CID-11: Outra insuficiência renal aguda especificada. Definição: "
+          }
+        },
+        {
+          "GB41": {
+            "confidence_embedding": 0.8186,
+            "text": "Representação de doença CID-11: Síndrome nefrótica. Definição: Condição caracterizada por proteinúria grave, superior a 3,5 g/dia em um adulto médio. A perda substancial de proteína na urina resulta em hipoalbuminemia e edema generalizado. Em geral também há hiperlipidemia. Outras manifestações da doença glomerular podem estar presentes. Existem muitas causas possíveis e apresentações histológicas renais. As possíveis complicações incluem trombose vascular, infecções, desnutrição e insuficiência renal."
+          }
+        }
+      ]
+    },
+    "gota": {
+      "capitulo": "05",
+      "opcoes": [
+        {
+          "5B70": {
+            "confidence_embedding": 0.7785,
+            "text": "Representação de doença CID-11: Deficiência de ácidos graxos essenciais. Definição: A deficiência de ácidos graxos essenciais - AGE- (ácido linoléico, ácido linolênico, ácido araquidônico, ácido docosapentaenóico, ácido docosahexaenóico e ácido eicosapentaenóico) pode ser causada por ingestão deficiente, particularmente, em bebês de crescimento rápido (como prematuros), em pacientes recebendo nutrição parenteral sem uma fonte adequada de AGE, e em doenças com má absorção de gordura. Os achados clínicos são: dermatite, alopecia e trombocitopenia. O papel do AGE durante a gravidez e a lactação tem sido destacado, e o papel dos ácidos graxos n-3 de cadeia longa como componentes estruturais para o desenvolvimento da função da retina e do sistema nervoso central é agora aceito. O período pré-natal é um período de risco aumentado para deficiência de ômega-3, pois os estoques de tecido materno tendem a diminuir à medida que são usados ​​para o desenvolvimento do feto. A deficiência de n-3 AGE pode afetar o crescimento e a função cognitiva e visual em bebês. Os sinais característicos de deficiência atribuídos aos ácidos graxos n-6 são erupção cutânea escamosa, aumento da perda de água transepidérmica, crescimento reduzido e elevação da proporção plasmática de ácido eicosatrienóico: ácido araquidônico. A deficiência de AGE em populações especiais tem sido associada a distúrbios hematológicos e diminuição da resposta imunológica. Os ácidos graxos n-3 e n-6 de cadeia longa são nutrientes essenciais e também, como parte do suprimento geral de gordura, podem afetar a prevalência e a gravidade das doenças cardiovasculares, diabetes, câncer e declínio funcional relacionado à idade."
+          }
+        },
+        {
+          "5B5A.0": {
+            "confidence_embedding": 0.7736,
+            "text": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina."
+          }
+        },
+        {
+          "5C50.10": {
+            "confidence_embedding": 0.767,
+            "text": "Representação de doença CID-11: Alcaptonúria. Definição: A alcaptonúria é caracterizada pelo acúmulo de ácido homogentísico (HGA) e seu produto oxidado ácido benzoquinona acético (BQA), levando ao escurecimento da urina quando deixada exposta ao ar, coloração cinza-azulada da esclera do olho e da hélice da orelha (ocronose), e doença articular incapacitante que envolve as articulações axiais e periféricas (artropatia ocronótica)."
+          }
+        },
+        {
+          "5C51.20": {
+            "confidence_embedding": 0.7596,
+            "text": "Representação de doença CID-11: Hiperoxalúria primária tipo I. Definição: A hiperoxalúria tipo 1 é devido a um defeito numa enzima hepática peroxissomal alanina glioxilato aminotransferase. A forma infantil é caracterizada por insuficiência renal crônica por deposição excessiva de oxalato. Em outros pacientes apresenta-se como urolitíase recidivante , que se deteriora com infecções, hematúria, cólicas nefréticas ou comprometimento renal agudo por obstrução completa. Doença renal terminal ocorre antes dos 15 anos de idade em metade dos casos e acabam levando a deposição de oxalato em outros tecidos, causando defeitos de condução cardíaca, hipertensão, gangrena distal e redução da mobilidade e dor articular."
+          }
+        },
+        {
+          "5C78": {
+            "confidence_embedding": 0.7579,
+            "text": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem."
+          }
+        }
+      ]
+    },
+    "doença coronariana": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA85": {
+            "confidence_embedding": 0.8081,
+            "text": "Representação de doença CID-11: Doença vasoespástica coronariana. Definição: O termo doença coronariana vasoespástica refere-se a uma vasoconstrição súbita e intensa de uma artéria coronária epicárdica que causa a oclusão ou quasi-oclusão do vaso. Embora possa estar envolvido em outras síndromes coronárias, representa a causa habitual de angina variante."
+          }
+        },
+        {
+          "BA51": {
+            "confidence_embedding": 0.8024,
+            "text": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas."
+          }
+        },
+        {
+          "BC43": {
+            "confidence_embedding": 0.8006,
+            "text": "Representação de doença CID-11: Cardiomiopatia. Definição: Transtornos do miocárdio em que o músculo cardíaco é estrutural e funcionalmente anormal, na ausência de doença arterial coronariana, hipertensão, doença valvar e doença cardíaca congênita suficiente para causar a anormalidade miocárdica observada."
+          }
+        },
+        {
+          "BE10": {
+            "confidence_embedding": 0.7924,
+            "text": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite."
+          }
+        },
+        {
+          "BC43.0": {
+            "confidence_embedding": 0.7889,
+            "text": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida."
+          }
+        }
+      ]
+    },
+    "nefropatia": {
+      "capitulo": "16",
+      "opcoes": [
+        {
+          "GB55.1": {
+            "confidence_embedding": 0.7936,
+            "text": "Representação de doença CID-11: Nefropatia induzida por metais pesados. Definição: Doença renal causada pela exposição a metais pesados e nefrotóxicos, como cádmio, chumbo, cobre e mercúrio. Esta doença é caracterizada por dano tubular, insuficiência renal, fibrose intersticial, necrose ou disfunção renal. Essa doença também pode se manifestar com hipertensão, proteinúria, hiperuricemia, aminoacidúria ou outros sintomas característicos da doença renal crônica."
+          }
+        },
+        {
+          "GB55.0": {
+            "confidence_embedding": 0.7922,
+            "text": "Representação de doença CID-11: Nefropatia dos Bálcãs. Definição: Nefropatia dos Bálcãs é uma forma de nefrite intersticial caracterizada por uma ocorrência geográfica muito localizada. Foi identificada pela primeira vez na década de 1920 entre várias comunidades pequenas e distintas ao longo do rio Danúbio e seus principais afluentes. Agora acredita-se que seja devida à ingestão crônica de ácido aristolóquico (ingestão de sementes de Aristolochia clematitis, nativa da região dos Bálcãs), embora tenha algumas diferenças em relação à nefropatia herbácea chinesa. Esta doença é caracterizada por insuficiência renal, proteinúria, nefrite tubulointersticial, anemia, fraqueza, descoloração cúprica da pele, e pode levar a doença renal em estágio terminal dentro de 5 anos após seu início."
+          }
+        },
+        {
+          "GB90.0": {
+            "confidence_embedding": 0.7836,
+            "text": "Representação de doença CID-11: Nefroptose. Definição: Maior mobilidade do rim resultando em ptose quando o paciente está em pé. Mais comum à direita, associado a uma artéria renal mais longa e discutivelmente associado a hiperplasia fibromuscular e hipertensão."
+          }
+        },
+        {
+          "GB50": {
+            "confidence_embedding": 0.7804,
+            "text": "Representação de doença CID-11: Nefrite túbulo-intersticial aguda. Definição: Doença caracterizada por inflamação aguda dos, e dano aos, túbulos e interstício renal, geralmente acompanhada por insuficiência renal aguda (lesão renal aguda). A histologia mostra infiltrado inflamatório agudo no interstício com edema e necrose de células tubulares, e frequentemente eosinófilos e plasmócitos proeminentes. Geralmente devida a uma reação alérgica ou imunológica a um alérgeno identificável. Geralmente acompanhada por insuficiência renal aguda, que pode ser reversível se o alérgeno for retirado rapidamente com ou sem administração de corticosteroides. Pode causar nefrite tubulointersticial crônica, particularmente se a exposição ao alérgeno não for de curto prazo. Pode estar associada a outros sinais de uma reação alérgica, como erupção cutânea ou febre."
+          }
+        },
+        {
+          "GB55.2": {
+            "confidence_embedding": 0.7758,
+            "text": "Representação de doença CID-11: Nefropatia crônica de urato. Definição: Uma afecção caracterizada por deposição de cristais de urato nos túbulos e interstício, obstrução parcial ou completa dos ductos coletores, pelve renal ou ureter, hiperuricemia desproporcional ao grau de insuficiência renal e excreção diminuída de urato. Essa afecção pode causar inflamação, fibrose e insuficiência renal."
+          }
+        }
+      ]
+    },
+    "palpitações": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BC81.30": {
+            "confidence_embedding": 0.783,
+            "text": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+          }
+        },
+        {
+          "BD54": {
+            "confidence_embedding": 0.7819,
+            "text": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos."
+          }
+        },
+        {
+          "BA51": {
+            "confidence_embedding": 0.7797,
+            "text": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas."
+          }
+        },
+        {
+          "BA60.9": {
+            "confidence_embedding": 0.7797,
+            "text": "Representação de doença CID-11: Choque cardiogênico, não relacionado a complicações mecânicas, como complicação atual subsequente a infarto agudo do miocárdio. Definição: A expressão clínica mais grave da insuficiência ventricular esquerda e está associada a extensos danos ao miocárdio ventricular esquerdo após infarto agudo do miocárdio, não relacionado a um defeito mecânico como ruptura do septo ventricular ou do músculo papilar. Choque é definido como pressão arterial (PA) sistólica <90 mmHg e hipoperfusão de órgãos."
+          }
+        },
+        {
+          "BC43.6": {
+            "confidence_embedding": 0.7771,
+            "text": "Representação de doença CID-11: Cardiomiopatia ventricular arritmogênica. Definição: A cardiomiopatia ventricular arritmogênica é uma cardiomiopatia caracterizada pela perda de células miocárdicas com substituição parcial ou total do músculo ventricular direito por tecido adiposo e fibroso, começando pelo subepicárdio e se tornando transmural com o tempo, poupando os músculos papilares e trabéculas, e frequentemente associada a aneurismas, particularmente da via de saída ventricular direita. Há comprometimento sistólico progressivo com dilatação ventricular e acentuada propensão a arritmias ventriculares de origem ventricular direita, e também esquerda. Classicamente uma doença do ventrículo direito, evidências mais recentes sugerem envolvimento do ventrículo esquerdo em extensão variável em até 75% dos casos, assim como doença isolada do ventrículo esquerdo."
+          }
+        }
+      ]
+    },
+    "dispneia": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA51": {
+            "confidence_embedding": 0.7573,
+            "text": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas."
+          }
+        },
+        {
+          "BC81.30": {
+            "confidence_embedding": 0.7568,
+            "text": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+          }
+        },
+        {
+          "BD10": {
+            "confidence_embedding": 0.7566,
+            "text": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos."
+          }
+        },
+        {
+          "BD13": {
+            "confidence_embedding": 0.7564,
+            "text": "Representação de doença CID-11: Insuficiência ventricular direita. Definição: Insuficiência cardíaca associada à disfunção ventricular direita manifestada por distensão das veias do pescoço, aumento do fígado e edema gravitacional."
+          }
+        },
+        {
+          "BA51.0": {
+            "confidence_embedding": 0.7554,
+            "text": "Representação de doença CID-11: Cardiomiopatia dilatada devida a anomalia congênita de artéria coronária. Definição: Cardiomiopatia dilatada devida a uma anomalia congênita de uma ou mais artérias coronárias, como origem anômala da artéria coronária esquerda anômala saindo da artéria pulmonar (ALCAPA), estenose ou atresia do óstio coronário, circulação coronária dependente do ventrículo direito na atresia pulmonar com septo ventricular íntegro. É uma forma de cardiomiopatia isquêmica que causa disfunção ventricular sistólica que se relaciona a um espectro de equilíbrio e desequilíbrio entre perfusão e contração, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes."
+          }
+        }
+      ]
+    },
+    "has": {
+      "capitulo": "05",
+      "opcoes": [
+        {
+          "5B70": {
+            "confidence_embedding": 0.7905,
+            "text": "Representação de doença CID-11: Deficiência de ácidos graxos essenciais. Definição: A deficiência de ácidos graxos essenciais - AGE- (ácido linoléico, ácido linolênico, ácido araquidônico, ácido docosapentaenóico, ácido docosahexaenóico e ácido eicosapentaenóico) pode ser causada por ingestão deficiente, particularmente, em bebês de crescimento rápido (como prematuros), em pacientes recebendo nutrição parenteral sem uma fonte adequada de AGE, e em doenças com má absorção de gordura. Os achados clínicos são: dermatite, alopecia e trombocitopenia. O papel do AGE durante a gravidez e a lactação tem sido destacado, e o papel dos ácidos graxos n-3 de cadeia longa como componentes estruturais para o desenvolvimento da função da retina e do sistema nervoso central é agora aceito. O período pré-natal é um período de risco aumentado para deficiência de ômega-3, pois os estoques de tecido materno tendem a diminuir à medida que são usados ​​para o desenvolvimento do feto. A deficiência de n-3 AGE pode afetar o crescimento e a função cognitiva e visual em bebês. Os sinais característicos de deficiência atribuídos aos ácidos graxos n-6 são erupção cutânea escamosa, aumento da perda de água transepidérmica, crescimento reduzido e elevação da proporção plasmática de ácido eicosatrienóico: ácido araquidônico. A deficiência de AGE em populações especiais tem sido associada a distúrbios hematológicos e diminuição da resposta imunológica. Os ácidos graxos n-3 e n-6 de cadeia longa são nutrientes essenciais e também, como parte do suprimento geral de gordura, podem afetar a prevalência e a gravidade das doenças cardiovasculares, diabetes, câncer e declínio funcional relacionado à idade."
+          }
+        },
+        {
+          "5B5A.0": {
+            "confidence_embedding": 0.7792,
+            "text": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina."
+          }
+        },
+        {
+          "5C78": {
+            "confidence_embedding": 0.777,
+            "text": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem."
+          }
+        },
+        {
+          "5C51.20": {
+            "confidence_embedding": 0.7655,
+            "text": "Representação de doença CID-11: Hiperoxalúria primária tipo I. Definição: A hiperoxalúria tipo 1 é devido a um defeito numa enzima hepática peroxissomal alanina glioxilato aminotransferase. A forma infantil é caracterizada por insuficiência renal crônica por deposição excessiva de oxalato. Em outros pacientes apresenta-se como urolitíase recidivante , que se deteriora com infecções, hematúria, cólicas nefréticas ou comprometimento renal agudo por obstrução completa. Doença renal terminal ocorre antes dos 15 anos de idade em metade dos casos e acabam levando a deposição de oxalato em outros tecidos, causando defeitos de condução cardíaca, hipertensão, gangrena distal e redução da mobilidade e dor articular."
+          }
+        },
+        {
+          "5C50.10": {
+            "confidence_embedding": 0.7637,
+            "text": "Representação de doença CID-11: Alcaptonúria. Definição: A alcaptonúria é caracterizada pelo acúmulo de ácido homogentísico (HGA) e seu produto oxidado ácido benzoquinona acético (BQA), levando ao escurecimento da urina quando deixada exposta ao ar, coloração cinza-azulada da esclera do olho e da hélice da orelha (ocronose), e doença articular incapacitante que envolve as articulações axiais e periféricas (artropatia ocronótica)."
+          }
+        }
+      ]
+    },
+    "trombose": {
+      "capitulo": "16",
+      "opcoes": [
+        {
+          "GB41": {
+            "confidence_embedding": 0.7733,
+            "text": "Representação de doença CID-11: Síndrome nefrótica. Definição: Condição caracterizada por proteinúria grave, superior a 3,5 g/dia em um adulto médio. A perda substancial de proteína na urina resulta em hipoalbuminemia e edema generalizado. Em geral também há hiperlipidemia. Outras manifestações da doença glomerular podem estar presentes. Existem muitas causas possíveis e apresentações histológicas renais. As possíveis complicações incluem trombose vascular, infecções, desnutrição e insuficiência renal."
+          }
+        },
+        {
+          "GB40": {
+            "confidence_embedding": 0.7658,
+            "text": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose."
+          }
+        },
+        {
+          "GB90.0": {
+            "confidence_embedding": 0.7397,
+            "text": "Representação de doença CID-11: Nefroptose. Definição: Maior mobilidade do rim resultando em ptose quando o paciente está em pé. Mais comum à direita, associado a uma artéria renal mais longa e discutivelmente associado a hiperplasia fibromuscular e hipertensão."
+          }
+        },
+        {
+          "GC7B": {
+            "confidence_embedding": 0.7357,
+            "text": "Representação de doença CID-11: Isquemia ou infarto pós-intervenção do rim. Definição: Isso se refere a uma restrição no suprimento de sangue aos tecidos renais devida a uma intervenção de saúde, causando uma escassez de oxigênio e glicose necessários para o metabolismo celular, resultando na morte das células do tecido renal."
+          }
+        },
+        {
+          "GA91.4": {
+            "confidence_embedding": 0.7302,
+            "text": "Representação de doença CID-11: Hemorragia da próstata. Definição: Condição da próstata, causada por ruptura das paredes dos vasos da próstata. Esta condição é caracterizada por perda excessiva de sangue da próstata."
+          }
+        }
+      ]
+    },
+    "edema matinal": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MG29": {
+            "confidence_embedding": 0.8052,
+            "text": "Representação de doença CID-11: Edema. Definição: Acúmulo anormal de líquido em tecidos ou cavidades corporais, não codificado em outra parte."
+          }
+        },
+        {
+          "MG29.10": {
+            "confidence_embedding": 0.7943,
+            "text": "Representação de doença CID-11: Edema devido a pressão capilar aumentada. Definição: O aumento da pressão capilar aumenta o vazamento de fluido do compartimento vascular para os tecidos intersticiais, resultando em edema. Causas incluem o comprometimento ou obstrução do retorno venoso (sobrecarga de fluido, trombose venosa, insuficiência cardíaca direita, compressão venosa por tumor), aumento do fluxo sanguíneo (resposta fisiológica à exposição ao calor, malformações arteriovenosas, controle vasomotor cutâneo prejudicado devido a drogas ou neuropatia autonômica), ou pressão oncótica plasmática reduzida por hipoproteinemia."
+          }
+        },
+        {
+          "MG29.1Y": {
+            "confidence_embedding": 0.7794,
+            "text": "Representação de doença CID-11: Outro edema generalizado especificado. Definição: "
+          }
+        },
+        {
+          "MG29.1": {
+            "confidence_embedding": 0.7732,
+            "text": "Representação de doença CID-11: Edema generalizado. Definição: "
+          }
+        },
+        {
+          "MG29.Z": {
+            "confidence_embedding": 0.7725,
+            "text": "Representação de doença CID-11: Edema, não especificado. Definição: "
+          }
+        }
+      ]
+    },
+    "dor": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MD81": {
+            "confidence_embedding": 0.7667,
+            "text": "Representação de doença CID-11: Dor abdominal ou pélvica. Definição: Dor, uma sensação desagradável de desconforto ocorrendo em variados graus de intensidade, recebida pelas terminações nervosas na região abdominal e pélvica."
+          }
+        },
+        {
+          "MF56": {
+            "confidence_embedding": 0.7648,
+            "text": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos."
+          }
+        },
+        {
+          "MG30.2": {
+            "confidence_embedding": 0.7543,
+            "text": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente."
+          }
+        },
+        {
+          "MG30.3": {
+            "confidence_embedding": 0.7532,
+            "text": "Representação de doença CID-11: Dor musculoesquelética secundária crônica. Definição: Dor musculoesquelética secundária crônica é u a dor crônica que surge de osso(s), articulação(ões), músculo(s), coluna vertebral, tendão(ões) ou tecido(s) mole(s) relacionado(s). É um grupo heterogêneo de condições dolorosas crônicas originadas de nocicepção persistente em articulações, ossos, músculos, coluna vertebral, tendões e tecidos moles relacionados, com etiologias locais e sistêmicas, mas também relacionadas a lesões somáticas profundas. A dor pode ser espontânea ou induzida por movimento."
+          }
+        },
+        {
+          "MG30.21": {
+            "confidence_embedding": 0.7522,
+            "text": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática."
+          }
+        }
+      ]
+    },
+    "dm": {
+      "capitulo": "05",
+      "opcoes": [
+        {
+          "5B5A.0": {
+            "confidence_embedding": 0.79,
+            "text": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina."
+          }
+        },
+        {
+          "5B70": {
+            "confidence_embedding": 0.7835,
+            "text": "Representação de doença CID-11: Deficiência de ácidos graxos essenciais. Definição: A deficiência de ácidos graxos essenciais - AGE- (ácido linoléico, ácido linolênico, ácido araquidônico, ácido docosapentaenóico, ácido docosahexaenóico e ácido eicosapentaenóico) pode ser causada por ingestão deficiente, particularmente, em bebês de crescimento rápido (como prematuros), em pacientes recebendo nutrição parenteral sem uma fonte adequada de AGE, e em doenças com má absorção de gordura. Os achados clínicos são: dermatite, alopecia e trombocitopenia. O papel do AGE durante a gravidez e a lactação tem sido destacado, e o papel dos ácidos graxos n-3 de cadeia longa como componentes estruturais para o desenvolvimento da função da retina e do sistema nervoso central é agora aceito. O período pré-natal é um período de risco aumentado para deficiência de ômega-3, pois os estoques de tecido materno tendem a diminuir à medida que são usados ​​para o desenvolvimento do feto. A deficiência de n-3 AGE pode afetar o crescimento e a função cognitiva e visual em bebês. Os sinais característicos de deficiência atribuídos aos ácidos graxos n-6 são erupção cutânea escamosa, aumento da perda de água transepidérmica, crescimento reduzido e elevação da proporção plasmática de ácido eicosatrienóico: ácido araquidônico. A deficiência de AGE em populações especiais tem sido associada a distúrbios hematológicos e diminuição da resposta imunológica. Os ácidos graxos n-3 e n-6 de cadeia longa são nutrientes essenciais e também, como parte do suprimento geral de gordura, podem afetar a prevalência e a gravidade das doenças cardiovasculares, diabetes, câncer e declínio funcional relacionado à idade."
+          }
+        },
+        {
+          "5C78": {
+            "confidence_embedding": 0.7833,
+            "text": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem."
+          }
+        },
+        {
+          "5B5K.7": {
+            "confidence_embedding": 0.7718,
+            "text": "Representação de doença CID-11: Deficiência de selênio. Definição: Deficiência de selênio é rara mas tem sido observada em indivíduos em uso prolongado de dieta parenteral total(NPT) sem selênio. Manifestações clínicas da deficiência decorrente de tal situação são incomuns e pouco definidas. Elas incluem fraqueza muscular e mialgia com, em casos graves, o desenvolvimento de insuficiência cardíaca congestiva. A importância do selênio para o metabolismo dos hormônios tireoidianos é evidente, a partir de mudanças na proporção T3-T4 que se desenvolvem após uma depleção de selênio relativamente leve em bebês e idosos"
+          }
+        },
+        {
+          "5C50.10": {
+            "confidence_embedding": 0.7616,
+            "text": "Representação de doença CID-11: Alcaptonúria. Definição: A alcaptonúria é caracterizada pelo acúmulo de ácido homogentísico (HGA) e seu produto oxidado ácido benzoquinona acético (BQA), levando ao escurecimento da urina quando deixada exposta ao ar, coloração cinza-azulada da esclera do olho e da hélice da orelha (ocronose), e doença articular incapacitante que envolve as articulações axiais e periféricas (artropatia ocronótica)."
+          }
+        }
+      ]
+    }
+  }
+}

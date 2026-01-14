@@ -1,0 +1,325 @@
+{
+  "prontuario_id": 840,
+  "text": "# sem queixas\n# chagas\n# acompanha na cardio geral e esta aguardando consulta\n# faço receita conforme já utiliza pois está com dificuldade de conseguir os medicamentos - mas não faltar cardio\nmp camara dupla\n# programado em modo ddd 60-50\n# ritmo proprio = bav com escape ventricular\n# 97% em vat\n# bat = ok \n# para eri = 10 MESES !!!!\n# A - imp = 395, sense = 5,3, cla = menor que 1,0 x 0,4\n# v - imp = 381, sense = mAIor que 10, clv = menor que 1,0 x 2,4\n# cd = programação mantida + retorno em 6 meses ( devido a bateria !!!!!! demais ok !!!! pcte ciente ) ou se intercorrencias = procura direta + não faltar cardio.\n ",
+  "entities": {
+    "Negação": [
+      "sem",
+      "não"
+    ],
+    "Sinal ou Sintoma": [
+      "queixas",
+      "dificuldade",
+      "intercorrencias",
+      "bav com escape ventricular"
+    ],
+    "Doença ou Síndrome": [
+      "chagas"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "consulta",
+      "receita",
+      "cd"
+    ],
+    "Produto Intelectual": [
+      "receita"
+    ],
+    "Substância Farmacológica": [
+      "medicamentos"
+    ],
+    "Abreviação": [
+      "cardio",
+      "cd",
+      "pcte",
+      "cardio geral",
+      "mp camara dupla",
+      "bav com escape ventricular",
+      "97% em vat",
+      "bat = ok",
+      "para eri = 10 MESES",
+      "imp = 395",
+      "sense = 5 , 3",
+      "cla = menor que 1 , 0",
+      "imp = 381",
+      "sense = mAIor que 10",
+      "clv = menor que 1"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "cardio",
+      "cardio geral"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "pcte"
+    ],
+    "Organização Relacionada à Saúde": [
+      "cardio geral"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "mp camara dupla"
+    ],
+    "Conceito Qualitativo": [
+      "modo ddd 60-50"
+    ],
+    "Achado": [
+      "ritmo proprio",
+      "programação mantida",
+      "procura direta"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "bav com escape ventricular",
+      "97% em vat",
+      "bat = ok",
+      "para eri = 10 MESES",
+      "imp = 395",
+      "sense = 5 , 3",
+      "imp = 381",
+      "sense = mAIor que 10"
+    ]
+  },
+  "labels": {
+    "procura direta": {
+      "capitulo": "24",
+      "opcoes": [
+        {
+          "QC12": {
+            "confidence_embedding": 0.7384,
+            "text": "Representação de doença CID-11: Procedimento não realizado devido à decisão do paciente por outras razões que não as de crença ou grupo de pressão. Definição: "
+          }
+        },
+        {
+          "QC11": {
+            "confidence_embedding": 0.7324,
+            "text": "Representação de doença CID-11: Procedimento não realizado devido à decisão do paciente por razões de crença ou grupo de pressão. Definição: "
+          }
+        },
+        {
+          "QA77": {
+            "confidence_embedding": 0.7262,
+            "text": "Representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano. Definição: "
+          }
+        },
+        {
+          "QA30.Y": {
+            "confidence_embedding": 0.7244,
+            "text": "Representação de doença CID-11: Outro contato especificado com os serviços de saúde para reprodução medicamente assistida. Definição: "
+          }
+        },
+        {
+          "QA8D": {
+            "confidence_embedding": 0.7213,
+            "text": "Representação de doença CID-11: Paciente que recebeu um teste diagnóstico ou tratamento destinado a outro paciente, sem lesão ou dano. Definição: "
+          }
+        }
+      ]
+    },
+    "programação mantida": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BC43.0": {
+            "confidence_embedding": 0.7845,
+            "text": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida."
+          }
+        },
+        {
+          "BE10": {
+            "confidence_embedding": 0.7693,
+            "text": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite."
+          }
+        },
+        {
+          "BC62": {
+            "confidence_embedding": 0.7646,
+            "text": "Representação de doença CID-11: Via acessória. Definição: Conexão elétrica adicional que tipicamente desvia do nó AV, tipicamente inserindo-se diretamente no miocárdio atrial e ventricular, mas também pode se conectar ao sistema de condução especializado (p.ex., o feixe de His, feixes direito ou esquerdo, ou um dos fascículos)."
+          }
+        },
+        {
+          "BC81.30": {
+            "confidence_embedding": 0.7625,
+            "text": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+          }
+        },
+        {
+          "BA41": {
+            "confidence_embedding": 0.7609,
+            "text": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)"
+          }
+        }
+      ]
+    },
+    "bav com escape ventricular": {
+      "capitulo": "08",
+      "opcoes": [
+        {
+          "8E20": {
+            "confidence_embedding": 0.7166,
+            "text": "Representação de doença CID-11: Estado vegetativo persistente. Definição: Estado subagudo ou crônico de distúrbio grave de consciência com duração de pelo menos um mês, caracterizado pela recuperação de estados cíclicos de despertar que simulam ciclos de sono/vigília após uma lesão cerebral grave. Pacientes com esta condição estão arresponsivos e não apresentam evidência de consciência de si mesmos ou do ambiente. A regulação autonômica cardiopulmonar e visceral é mantida pelo tronco encefálico."
+          }
+        },
+        {
+          "8B00.4": {
+            "confidence_embedding": 0.7132,
+            "text": "Representação de doença CID-11: Hemorragia intraventricular sem hemorragia parenquimatosa. Definição: Disfunção neurológica aguda causada por hemorragia no sistema ventricular, sem um componente de hemorragia parenquimatosa."
+          }
+        },
+        {
+          "8E60": {
+            "confidence_embedding": 0.7126,
+            "text": "Representação de doença CID-11: Vazamento após derivação ventricular. Definição: "
+          }
+        },
+        {
+          "8A68.4": {
+            "confidence_embedding": 0.7031,
+            "text": "Representação de doença CID-11: Crise epiléptica tônico-clônica generalizada. Definição: Crise epiléptica caracterizada por início abrupto com perda de consciência e extensão tônica bilateral do tronco e dos membros (fase tônica) seguida por espasmos musculares bruscos e descoordenados (fase clônica). Geralmente seguida por uma fase pós-ictal, com duração de vários minutos a horas, caracterizada por midríase inicial, relaxamento corporal, hipotonia e sono."
+          }
+        },
+        {
+          "8D89.2": {
+            "confidence_embedding": 0.7011,
+            "text": "Representação de doença CID-11: Síndrome de taquicardia postural ortostática. Definição: Síndrome de taquicardia postural ortostática é um tipo de intolerância ortostática crônica com duração de três meses ou mais associada a taquicardia ereta excessiva na ausência de hipotensão ortostática, além de uma constelação de sintomas tipicamente diários que podem incluir sensação de \"cabeça leve\", tontura, náusea, dispneia, diaforese, dor de cabeça, fadiga e outros sintomas de disfunção autonômica. A taquicardia excessiva é definida por consenso atual como um aumento da frequência cardíaca de pelo menos 30 batimentos por minuto em adultos (40 batimentos por minuto para adolescentes), ou uma frequência cardíaca superior a 120 batimentos por minuto, dentro de 10 minutos do teste de inclinação vertical."
+          }
+        }
+      ]
+    },
+    "ritmo proprio": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MC82.1": {
+            "confidence_embedding": 0.7544,
+            "text": "Representação de doença CID-11: Parada cardíaca com bradicardia. Definição: Ritmo de escape lento associado a colapso hemodinâmico."
+          }
+        },
+        {
+          "MB23.H": {
+            "confidence_embedding": 0.7317,
+            "text": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas."
+          }
+        },
+        {
+          "MC82.0": {
+            "confidence_embedding": 0.7264,
+            "text": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico."
+          }
+        },
+        {
+          "MC82.3": {
+            "confidence_embedding": 0.696,
+            "text": "Representação de doença CID-11: Parada cardíaca com atividade elétrica sem pulso. Definição: Atividade elétrica do coração sem ativação mecânica resultando em colapso hemodinâmico"
+          }
+        },
+        {
+          "MC82.4": {
+            "confidence_embedding": 0.6931,
+            "text": "Representação de doença CID-11: Parada cardiopulmonar. Definição: "
+          }
+        }
+      ]
+    },
+    "intercorrencias": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NE82.1Z": {
+            "confidence_embedding": 0.7191,
+            "text": "Representação de doença CID-11: Disfunção do marcapasso ou cardioversor desfibrilador implantável, não especificada. Definição: "
+          }
+        },
+        {
+          "NB30.5Z": {
+            "confidence_embedding": 0.7151,
+            "text": "Representação de doença CID-11: Lesão de vasos sanguíneos intercostais, não especificada. Definição: "
+          }
+        },
+        {
+          "NE82.0Z": {
+            "confidence_embedding": 0.7151,
+            "text": "Representação de doença CID-11: Complicação de marcapasso ou cardioversor desfibrilador implantável, não especificada. Definição: "
+          }
+        },
+        {
+          "NB30.5Y": {
+            "confidence_embedding": 0.715,
+            "text": "Representação de doença CID-11: Outra lesão especificada de vasos sanguíneos intercostais. Definição: "
+          }
+        },
+        {
+          "NE82.1Y": {
+            "confidence_embedding": 0.7096,
+            "text": "Representação de doença CID-11: Outra disfunção especificada do marcapasso ou cardioversor desfibrilador implantável. Definição: "
+          }
+        }
+      ]
+    },
+    "dificuldade": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MB23.H": {
+            "confidence_embedding": 0.7949,
+            "text": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas."
+          }
+        },
+        {
+          "MC82.0": {
+            "confidence_embedding": 0.7656,
+            "text": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico."
+          }
+        },
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7559,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MD11.5": {
+            "confidence_embedding": 0.7493,
+            "text": "Representação de doença CID-11: Dispneia. Definição: Dispneia é o termo utilizado para descrever percepções de dificuldade ou sofrimento relacionados à respiração e é reconhecido como sintoma de doença quando ocorre em circunstâncias inapropriadas. Dispneia é uma queixa apresentada por pacientes com uma ampla variedade de condições médicas, causadas por múltiplos mecanismos.\r\nA dispneia é considerada aguda quando dura de horas a 3 semanas, subaguda de 3 a 8 semanas e a dispneia crônica dura mais de 8 semanas."
+          }
+        },
+        {
+          "MD11.1": {
+            "confidence_embedding": 0.7466,
+            "text": "Representação de doença CID-11: Asfixia. Definição: Asfixia é uma condição de ameaça à vida na qual o oxigênio é impedido de chegar aos tecidos por obstrução ou dano a qualquer parte do sistema respiratório. Mais genericamente o termo indica todas as condições que impedem ou prejudicam a respiração."
+          }
+        }
+      ]
+    },
+    "chagas": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "EA90.3": {
+            "confidence_embedding": 0.759,
+            "text": "Representação de doença CID-11: Psoríase eritrodérmica. Definição: Psoríase eritrodérmica é uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele. A psoríase eritrodérmica geralmente se desenvolve a partir da psoríase em placas extensa mas pode surgir de forma nova. Fatores precipitantes ou desencadeantes incluem a retirada de glicocorticoides sistêmicos e, menos frequentemente, a descontinuação abrupta do metotrexato, queimaduras ou infecções intercorrentes. Os pacientes podem desenvolver hipotermia ou insuficiência cardíaca de alto débito."
+          }
+        },
+        {
+          "ED70.4": {
+            "confidence_embedding": 0.7546,
+            "text": "Representação de doença CID-11: Eflúvio anágeno. Definição: Eflúvio anágeno ocorre após qualquer insulto ao folículo piloso que comprometa sua atividade mitótica ou metabólica. Os pacientes apresentam queda de cabelos difusa após exposição a drogas ou produtos químicos tóxicos. Agentes quimioterápicos são mais comumente responsáveis por queda de cabelo. A queda de cabelo mais grave ocorre em associação com a doxorrubicina, as nitrosoureias e a ciclofosfamida. A queda de cabelos geralmente começa 7-14 dias após um único pulso de quimioterapia. A queda de cabelo é clinicamente mais aparente após 1-2 meses."
+          }
+        },
+        {
+          "EK12": {
+            "confidence_embedding": 0.7423,
+            "text": "Representação de doença CID-11: Sensibilização alérgica por contato. Definição: A presença de hipersensibilidade tardia tipo IV do sistema imune a uma determinada substância sem definição de doença prévia ou atual. Tal sensibilização é normalmente adquirida por contato prévio de pele ou mucosa com a própria substância ou com outra quimicamente similar (reatividade cruzada). Contato subsequente com a substância pode provocar reação alérgica. Em determinadas circunstâncias, essa sensibilização pode impedir que um indivíduo aceite ou continue em um emprego em que a exposição ao alérgeno não pode ser evitada. Alguns indivíduos sensibilizados para um alérgeno específico, entretanto, podem nunca manifestar sintomas caso ocorra o contato."
+          }
+        },
+        {
+          "EB13.1": {
+            "confidence_embedding": 0.7415,
+            "text": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável."
+          }
+        },
+        {
+          "EH60": {
+            "confidence_embedding": 0.7346,
+            "text": "Representação de doença CID-11: Erupção exantemática por droga. Definição: Erupção aguda da pele que tipicamente simula infecções viróticas como sarampo, rubéola e escarlatina, atribuível a medicamento. Antibióticos são uma causa comum."
+          }
+        }
+      ]
+    }
+  }
+}

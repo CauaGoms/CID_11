@@ -1,0 +1,729 @@
+{
+  "prontuario_id": 169,
+  "text": "Retorno para analise de exames laboratoriais\nTTO para cirurgia bariatrica há 1 ano\nRelata diarreia esporadica, 4-5x ao dia, fezes pastosas. Tenesmo\nDM descompensado\nHAS controlada\nDLP às custas de Trig\nHipot controlado\nObesidade grau 2\nAnsiedade não controlada\nVarizes em MMII\nDiarréia crônica a esclarecer\nMãe falecida por AVC com 65 anos e pai por IAM com 69 anos\nIrmã hipertensa e diabética\nPaciente diabética, acompanhada com medicação há 4 anos. Metformina 850 mg 3x / dia e gliclazida 60 mg 1cp antes do almoço ( não usa ).\nHipertensa, tratada \nHipotireoidismo, tratada com Puran 100mcg \nPrednisona 5mg 2 cp por dia,  para Sarcoidose há 4 anos\nFluoxetina há 2 anos\nDexclorfeniramina 2 mg / 5 ml solução oral, tomar 5 ml a cada 12h\nAAS 100 mg, 1x ao dia\nEnalapril 10 mg, 1cp a cada 12h\n** Ainda mto ansiosa e comendo demais\n** Sedentária ( parou academia por varizes )\nInternamento para Biopsia de pulmão e Cesarea\nG 5 P 3 C 1 A 1\nMenopausa há 2 anos, faz preventivo todo ano.\n ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "analise",
+      "tratada",
+      "Internamento",
+      "preventivo"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TTO",
+      "tratada",
+      "tomar",
+      "Cesarea",
+      "P",
+      "C",
+      "cirurgia bariatrica"
+    ],
+    "Abreviação": [
+      "TTO",
+      "DLP",
+      "MMII",
+      "AVC",
+      "IAM",
+      "1cp",
+      "AAS",
+      "G",
+      "P",
+      "C",
+      "A",
+      "DM descompensado",
+      "HAS controlada",
+      "2 cp",
+      "mto ansiosa"
+    ],
+    "Sinal ou Sintoma": [
+      "Tenesmo",
+      "Ansiedade",
+      "hipertensa",
+      "Sedentária",
+      "diarreia esporadica",
+      "fezes pastosas",
+      "DM descompensado",
+      "Diarréia crônica",
+      "mto ansiosa"
+    ],
+    "Doença ou Síndrome": [
+      "DLP",
+      "Varizes",
+      "AVC",
+      "IAM",
+      "Hipotireoidismo",
+      "Sarcoidose",
+      "varizes",
+      "DM descompensado",
+      "HAS controlada",
+      "Obesidade grau 2",
+      "Diarréia crônica"
+    ],
+    "Substância Química Orgânica": [
+      "Trig",
+      "Metformina",
+      "gliclazida",
+      "Prednisona",
+      "Fluoxetina",
+      "Dexclorfeniramina",
+      "AAS",
+      "Enalapril"
+    ],
+    "Substância Biologicamente Ativa": [
+      "Trig"
+    ],
+    "Achado": [
+      "controlado",
+      "controlada",
+      "diabética",
+      "Hipertensa",
+      "tratada",
+      "Sedentária"
+    ],
+    "Negação": [
+      "não"
+    ],
+    "Localização ou Região Corporal": [
+      "MMII"
+    ],
+    "Grupo Familiar": [
+      "Mãe",
+      "pai",
+      "Irmã"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Substância Farmacológica": [
+      "medicação",
+      "Metformina",
+      "gliclazida",
+      "Puran",
+      "Prednisona",
+      "Fluoxetina",
+      "Dexclorfeniramina",
+      "AAS",
+      "Enalapril"
+    ],
+    "Conceito Quantitativo": [
+      "1cp",
+      "100mcg",
+      "5mg",
+      "5",
+      "3",
+      "1",
+      "4-5x ao dia",
+      "850 mg",
+      "3x / dia",
+      "60 mg",
+      "2 cp",
+      "2 mg",
+      "5 ml",
+      "100 mg",
+      "10 mg"
+    ],
+    "Conceito Funcional": [
+      "usa"
+    ],
+    "Hormônio": [
+      "Puran"
+    ],
+    "Conceito Temporal": [
+      "dia",
+      "há 1 ano",
+      "há 4 anos",
+      "antes do almoço",
+      "há 2 anos",
+      "a cada 12h",
+      "todo ano"
+    ],
+    "Evento": [
+      "parou"
+    ],
+    "Organização Relacionada à Saúde": [
+      "Internamento"
+    ],
+    "Função de Organismo": [
+      "G",
+      "P"
+    ],
+    "Atributo Clínico": [
+      "G",
+      "A"
+    ],
+    "Função Fisiológica": [
+      "Menopausa"
+    ],
+    "Procedimento Diagnóstico": [
+      "preventivo",
+      "Biopsia de pulmão"
+    ],
+    "Procedimento Laboratorial": [
+      "exames laboratoriais"
+    ],
+    "Produto Intelectual": [
+      "a esclarecer"
+    ]
+  },
+  "labels": {
+    "sarcoidose": {
+      "capitulo": "04",
+      "opcoes": [
+        {
+          "4B20": {
+            "confidence_embedding": 0.7843,
+            "text": "Representação de doença CID-11: Sarcoidose. Definição: Sarcoidose é um transtorno multissistêmico de causa desconhecida, caracterizada pela formação de granulomas imunes nos órgãos acometidos. Os pulmões e o sistema linfático são predominantemente envolvidos, mas virtualmente todo órgão pode se afetado. Outras manifestações graves resultam de localização cardíaca, neurológica, ocular, renal ou laríngea."
+          }
+        },
+        {
+          "4B20.3": {
+            "confidence_embedding": 0.7741,
+            "text": "Representação de doença CID-11: Neurosarcoidose. Definição: Refere-se à sarcoidose, uma afecção de causa desconhecida que apresenta granulomas em vários tecidos, envolvendo o sistema nervoso central (cérebro e medula espinal). Pode ter muitas manifestações, mas anormalidades dos nervos cranianos (um grupo de doze nervos que inervam a cabeça e o pescoço) são as mais comuns."
+          }
+        },
+        {
+          "4B20.2": {
+            "confidence_embedding": 0.771,
+            "text": "Representação de doença CID-11: Sarcoidose do sistema digestivo. Definição: Essa síndrome envolve aglomerados anormais de células inflamatórias crônicas (granulomas) que podem formar nodulações no sistema digestivo."
+          }
+        },
+        {
+          "4B20.Z": {
+            "confidence_embedding": 0.7549,
+            "text": "Representação de doença CID-11: Sarcoidose, não especificada. Definição: "
+          }
+        },
+        {
+          "4B20.4": {
+            "confidence_embedding": 0.748,
+            "text": "Representação de doença CID-11: Sarcoidose ocular. Definição: Síndrome envolvendo agrupamentos anormais de células inflamatórias crônicas (granulomas), que podem se formar em múltiplos órgãos."
+          }
+        }
+      ]
+    },
+    "diarréia crônica": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DB94": {
+            "confidence_embedding": 0.8129,
+            "text": "Representação de doença CID-11: Doença alcoólica do fígado. Definição: Doença hepática alcoólica é um dano ao fígado e à sua função devido ao consumo excessivo de álcool durante um prolongado período de tempo. O diagnóstico é feito pela história de consumo alcoólico excessivo e exclusão de outras causas de doenças hepáticas. Entretanto, é importante salientar que o consumo excessivo de álcool interage com outras causas de doença hepática crônica piorando a gravidade patológica e o desfecho clínico; exemplos importantes (relativamente comuns) são a associação com hepatite C crônica, obesidade e fígado gorduroso relacionado a diabetes e hemocromatose."
+          }
+        },
+        {
+          "DA60.3": {
+            "confidence_embedding": 0.7951,
+            "text": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago."
+          }
+        },
+        {
+          "DE11": {
+            "confidence_embedding": 0.7894,
+            "text": "Representação de doença CID-11: Síndrome de dumping. Definição: Síndrome de dumping é um grupo de sinais e sintomas que se desenvolve mais frequentemente em pessoas que foram submetidas a cirurgia para ressecção total ou parcial do estômago, ou em quem foi submetido a um bypass cirúrgico. Pode ocorrer precocemente (durante a refeição ou após 15-30 minutos com náuseas, vômitos, dor abdominal, cólicas, diarreia, tontura e palpitações cardíacas) ou tardiamente (1 a 3 horas após a refeição com sudorese, fraqueza, fadiga, tonturas, vertigens, palpitações cardíacas e desmaios)."
+          }
+        },
+        {
+          "DB33.20": {
+            "confidence_embedding": 0.788,
+            "text": "Representação de doença CID-11: Proctite ou colite infantil induzida por proteína de alimentos. Definição: Hipersensibilidade intestinal não mediada por IgE (na ausência de anticorpos IgE) induzida por proteína alimentar que provoca resposta inflamatória principalmente do cólon sigmoide distal e do reto. É uma condição em bebês que resulta de resposta imune desencadeada por proteínas da dieta, principalmente do leite (através da amamentação). Os pacientes geralmente parecem saudáveis e têm fezes normais e macias com manchas ou raias de sangue. O diagnóstico é feito usualmente baseado na resolução dos sintomas com a retirada do suposto antígeno alimentar. O início usual é nos primeiros 2 meses de vida, mas pode também ocorrer em bebês de 1 dia a 6 meses de idade."
+          }
+        },
+        {
+          "DB32.0": {
+            "confidence_embedding": 0.7831,
+            "text": "Representação de doença CID-11: Pseudo-obstrução do cólon. Definição: A pseudo-obstrução do cólon é uma condição rara, com sintomas de diminuição da capacidade do cólon de fazer transitar líquidos, alimentos e ar, como aqueles causados ​​por uma obstrução cólica. Os achados clínicos e radiológicos são frequentemente semelhantes à obstrução verdadeira, mas nenhum bloqueio mecânico verdadeiro é encontrado. Os sintomas geralmente incluem dispepsia, constipação crônica e cólicas abdominais nos momentos em que está presente. Síndrome de Ogilvie: a pseudo-obstrução aguda do cólon em pacientes debilitados gravemente enfermos está incluída aqui como a forma aguda."
+          }
+        }
+      ]
+    },
+    "hipotireoidismo": {
+      "capitulo": "05",
+      "opcoes": [
+        {
+          "5A00.20": {
+            "confidence_embedding": 0.8251,
+            "text": "Representação de doença CID-11: Hipotireoidismo devido a medicamentos ou outras substâncias exógenas. Definição: Condição causada por uma hipofunção da tireoide devido a medicamentos ou outras substâncias exógenas. Essa condição pode se apresentar com fadiga, aumento da sensibilidade ao frio, constipação, pele seca, ganho de peso, fraqueza e dor muscular, aumento de colesterol, dores ou inchaços nas articulações, períodos menstruais mais intensos ou irregulares, enfraquecimento do cabelo, depressão e memória deficiente."
+          }
+        },
+        {
+          "5A00.03": {
+            "confidence_embedding": 0.8246,
+            "text": "Representação de doença CID-11: Hipotireoidismo congênito transitório. Definição: Hipotireoidismo congênito transitório é definido com uma disfunção tireoidiana transitória com discreta elevação do hormônio tiroestimulante (TSH) e baixos níveos de T4 livre que retornam ao normal espontaneamente ou após muitos meses de terapia com levotiroxina. Este transtorno é devido a várias causas como deficiência de iodo, exposição a compostos contendo iodo, passagem transplacentária de anticorpos maternos bloqueadores e disormonogênese."
+          }
+        },
+        {
+          "5A02.6": {
+            "confidence_embedding": 0.8079,
+            "text": "Representação de doença CID-11: Hipertireoidismo secundário. Definição: Excesso de produção do hormônio tireoidiano pela glândula tireoide causado por disfunção na glândula hipófise ou hipotálamo."
+          }
+        },
+        {
+          "5A61.0": {
+            "confidence_embedding": 0.7932,
+            "text": "Representação de doença CID-11: Hipopituitarismo. Definição: Transtorno que manifesta deficiência ou diminuição de um ou mais hormônios hipofisários, que é causado por várias doenças , tais como tumor, traumatismo/cirurgia, irradiação, inflamação e hemorragia/infarto."
+          }
+        },
+        {
+          "5A00.0": {
+            "confidence_embedding": 0.7904,
+            "text": "Representação de doença CID-11: Hipotireoidismo congênito. Definição: Hipotireoidismo congênito é caracterizado quando ao nascimento observar-se pouca ou nenhuma produção dos hormônios tireoidianos. Achados clínicos comuns incluem atividade diminuída e sonolência exacerbada, dificuldade de alimentação e constipação, icterícia prolongada, fácies mixedematosa, alargamento de fontanelas (especialmente fontanela posterior), macroglossia, abdome distendido com hérnia umbilical e hipotonia."
+          }
+        }
+      ]
+    },
+    "tenesmo": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MB41.3": {
+            "confidence_embedding": 0.7632,
+            "text": "Representação de doença CID-11: Hiposmia. Definição: Diminuição da capacidade de sentir cheiro."
+          }
+        },
+        {
+          "ME66.2": {
+            "confidence_embedding": 0.746,
+            "text": "Representação de doença CID-11: Pele redundante e excessiva. Definição: Condição que tipicamente ocorre em indivíduos previamente bastante obesos após perda de peso maciça, como após cirurgia bariátrica ou restrição calórica estrita."
+          }
+        },
+        {
+          "MF95": {
+            "confidence_embedding": 0.7424,
+            "text": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular."
+          }
+        },
+        {
+          "MB23.H": {
+            "confidence_embedding": 0.7421,
+            "text": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas."
+          }
+        },
+        {
+          "MG43.5": {
+            "confidence_embedding": 0.7388,
+            "text": "Representação de doença CID-11: Perda de peso excessiva. Definição: Redução da massa corporal total, devido à perda de fluido, gordura corporal ou tecido adiposo, ou massa magra (muscular) que é em quantidade suficiente para criar risco para a saúde do indivíduo."
+          }
+        }
+      ]
+    },
+    "diabética": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA01": {
+            "confidence_embedding": 0.8016,
+            "text": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração."
+          }
+        },
+        {
+          "BD10": {
+            "confidence_embedding": 0.7956,
+            "text": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos."
+          }
+        },
+        {
+          "BC81.30": {
+            "confidence_embedding": 0.7853,
+            "text": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+          }
+        },
+        {
+          "BA83": {
+            "confidence_embedding": 0.7851,
+            "text": "Representação de doença CID-11: Fístula da artéria coronária, adquirida. Definição: Comunicação anormal entre uma artéria coronária e câmara cardíaca ou vasos principais, adquirida após cirurgia coronária ou cardíaca, angioplastia coronária, ruptura ou aneurisma da artéria coronária ou lesão do coração."
+          }
+        },
+        {
+          "BE10": {
+            "confidence_embedding": 0.785,
+            "text": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite."
+          }
+        }
+      ]
+    },
+    "obesidade grau 2": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FB32.20": {
+            "confidence_embedding": 0.7576,
+            "text": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave."
+          }
+        },
+        {
+          "FA38.2": {
+            "confidence_embedding": 0.737,
+            "text": "Representação de doença CID-11: Artropatia associada a reações de hipersensibilidade classificadas em outra parte. Definição: "
+          }
+        },
+        {
+          "FB83.11": {
+            "confidence_embedding": 0.7165,
+            "text": "Representação de doença CID-11: Osteoporose pós-menopausa. Definição: Suscetibilidade a fraturas ósseas secundária à redução sistêmica na massa óssea e à deterioração da microarquitetura do tecido ósseo relacionada a alterações hormonais associadas à menopausa."
+          }
+        },
+        {
+          "FA25": {
+            "confidence_embedding": 0.7158,
+            "text": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato."
+          }
+        },
+        {
+          "FB86.11": {
+            "confidence_embedding": 0.7126,
+            "text": "Representação de doença CID-11: Hipertrofia óssea. Definição: "
+          }
+        }
+      ]
+    },
+    "fezes pastosas": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DA42.6": {
+            "confidence_embedding": 0.7573,
+            "text": "Representação de doença CID-11: Doença de Ménétrier. Definição: Gastrite caracterizada por hipertrofia da mucosa gástrica, que pode causar pregas gigantes. O espessamento das pregas é causado predominantemente pela expansão do compartimento de células epiteliais da mucosa gástrica. Os pacientes com doença de Ménétrier mais \r\nfrequentemente apresentam hipoalbuminemia secundária à perda de albumina para o lúmen gástrico."
+          }
+        },
+        {
+          "DB33.20": {
+            "confidence_embedding": 0.7382,
+            "text": "Representação de doença CID-11: Proctite ou colite infantil induzida por proteína de alimentos. Definição: Hipersensibilidade intestinal não mediada por IgE (na ausência de anticorpos IgE) induzida por proteína alimentar que provoca resposta inflamatória principalmente do cólon sigmoide distal e do reto. É uma condição em bebês que resulta de resposta imune desencadeada por proteínas da dieta, principalmente do leite (através da amamentação). Os pacientes geralmente parecem saudáveis e têm fezes normais e macias com manchas ou raias de sangue. O diagnóstico é feito usualmente baseado na resolução dos sintomas com a retirada do suposto antígeno alimentar. O início usual é nos primeiros 2 meses de vida, mas pode também ocorrer em bebês de 1 dia a 6 meses de idade."
+          }
+        },
+        {
+          "DA60.3": {
+            "confidence_embedding": 0.7356,
+            "text": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago."
+          }
+        },
+        {
+          "DA21.20": {
+            "confidence_embedding": 0.7347,
+            "text": "Representação de doença CID-11: Peristaltismo hipertensivo. Definição: Transtorno de motilidade do esôfago caracterizado por peristaltismo hipertensivo. Esta anormalidade da motilidade inclui o esôfago em quebra-nozes, que foi relatado em associação com disfagia, dor torácica não cardíaca e azia."
+          }
+        },
+        {
+          "DE11": {
+            "confidence_embedding": 0.7344,
+            "text": "Representação de doença CID-11: Síndrome de dumping. Definição: Síndrome de dumping é um grupo de sinais e sintomas que se desenvolve mais frequentemente em pessoas que foram submetidas a cirurgia para ressecção total ou parcial do estômago, ou em quem foi submetido a um bypass cirúrgico. Pode ocorrer precocemente (durante a refeição ou após 15-30 minutos com náuseas, vômitos, dor abdominal, cólicas, diarreia, tontura e palpitações cardíacas) ou tardiamente (1 a 3 horas após a refeição com sudorese, fraqueza, fadiga, tonturas, vertigens, palpitações cardíacas e desmaios)."
+          }
+        }
+      ]
+    },
+    "iam": {
+      "capitulo": "19",
+      "opcoes": [
+        {
+          "KB87.3": {
+            "confidence_embedding": 0.7653,
+            "text": "Representação de doença CID-11: Íleo transitório do recém-nascido. Definição: Obstrução intestinal transitória de origem funcional e não anatômica, que não é incomum nos primeiros dias de vida. Como a cirurgia pode ser fortemente contraindicada neste grupo, o diagnóstico diferencial é extremamente importante."
+          }
+        },
+        {
+          "KA62.8": {
+            "confidence_embedding": 0.7584,
+            "text": "Representação de doença CID-11: Síndrome da rubéola congênita. Definição: Doença causada por infecção intrauterina pelo vírus da rubéola. Esta doença se apresenta com sintomas que dependem do momento de infecção do feto e pode apresentar defeitos congênitos (como perda auditiva) ou retardo de crescimento intrauterino. A transmissão ocorre por transmissão vertical. A confirmação é feita pela identificação do vírus da rubéola ou detecção de anticorpos IgM antivírus da rubéola no recém-nascido ou lactente."
+          }
+        },
+        {
+          "KB63.21": {
+            "confidence_embedding": 0.7548,
+            "text": "Representação de doença CID-11: Hipernatremia do recém-nascido. Definição: Hipernetremia é definida por sódio sérico acima de 145 mmol/L."
+          }
+        },
+        {
+          "KB61": {
+            "confidence_embedding": 0.7483,
+            "text": "Representação de doença CID-11: Distúrbios neonatais transitórios do metabolismo do cálcio ou magnésio. Definição: Grupo de afecções pediátricas em que há um transtorno temporário em um recém-nascido associado a reações químicas anormais no corpo, interrompendo os processos normais de reações catalisadas por enzimas para utilizar cálcio e magnésio para outras funções corporais."
+          }
+        },
+        {
+          "KD30.0": {
+            "confidence_embedding": 0.7476,
+            "text": "Representação de doença CID-11: Depressão no parto com escore de Apgar aos 5 minutos entre 0 a 3. Definição: Condição caracterizada por depressão cardiorrespiratória e neurológica, definida como um escore de Apgar entre 0 a 3 nos 5 minutos após o nascimento."
+          }
+        }
+      ]
+    },
+    "dm descompensado": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BD93": {
+            "confidence_embedding": 0.7426,
+            "text": "Representação de doença CID-11: Linfedema. Definição: Edema devido ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Geralmente afeta as extremidades, mas pode envolver qualquer parte do corpo. É desfigurante e aumenta a suscetibilidade a infecções recorrentes e malignidades locais."
+          }
+        },
+        {
+          "BA01": {
+            "confidence_embedding": 0.7394,
+            "text": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração."
+          }
+        },
+        {
+          "BD54": {
+            "confidence_embedding": 0.7377,
+            "text": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos."
+          }
+        },
+        {
+          "BD10": {
+            "confidence_embedding": 0.7364,
+            "text": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos."
+          }
+        },
+        {
+          "BC43.0": {
+            "confidence_embedding": 0.7343,
+            "text": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida."
+          }
+        }
+      ]
+    },
+    "dlp": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MD11.7": {
+            "confidence_embedding": 0.7556,
+            "text": "Representação de doença CID-11: Hiperventilação. Definição: Hiperventilação refere-se a um aumento na frequência da ventilação alveolar que é excessivo para a taxa de produção metabólica de gás carbônico, resultando na diminuição do PCO2 arterial abaixo da faixa de 37 a 43 mmHg. Hiperventilação deve ser diferenciada de taquipneia, um aumento na frequência respiratória, e de hiperpneia, um aumento no volume minuto da ventilação."
+          }
+        },
+        {
+          "MB41.3": {
+            "confidence_embedding": 0.7494,
+            "text": "Representação de doença CID-11: Hiposmia. Definição: Diminuição da capacidade de sentir cheiro."
+          }
+        },
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7369,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MD81": {
+            "confidence_embedding": 0.7364,
+            "text": "Representação de doença CID-11: Dor abdominal ou pélvica. Definição: Dor, uma sensação desagradável de desconforto ocorrendo em variados graus de intensidade, recebida pelas terminações nervosas na região abdominal e pélvica."
+          }
+        },
+        {
+          "ME66.2": {
+            "confidence_embedding": 0.7364,
+            "text": "Representação de doença CID-11: Pele redundante e excessiva. Definição: Condição que tipicamente ocorre em indivíduos previamente bastante obesos após perda de peso maciça, como após cirurgia bariátrica ou restrição calórica estrita."
+          }
+        }
+      ]
+    },
+    "varizes": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FB32.20": {
+            "confidence_embedding": 0.7531,
+            "text": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave."
+          }
+        },
+        {
+          "FA38.2": {
+            "confidence_embedding": 0.7343,
+            "text": "Representação de doença CID-11: Artropatia associada a reações de hipersensibilidade classificadas em outra parte. Definição: "
+          }
+        },
+        {
+          "FA22": {
+            "confidence_embedding": 0.7174,
+            "text": "Representação de doença CID-11: Polimialgia reumática. Definição: A polimialgia reumática (PMR) é uma síndrome caracterizada por dores nas porções proximais das extremidades e do tronco. Os critérios de classificação provisórios para PMR pela European League Against Rheumatism / American College of Rheumatology Collaborative Initiative devem ser aplicados em pacientes com 50 anos ou mais com dor nos ombros bilateral e PCR e / ou VHS anormais. O algoritmo de pontuação é baseado na rigidez matinal> 45 minutos (2 pontos), dor / amplitude de movimento limitada no quadril (1 ponto), ausência de fator reumatoide e / ou anticorpo anti-proteína citrulinada (1 ponto), com critério de ultrassom opcional. Mais comumente, a PMR ocorre de forma isolada, mas pode ser observada em 40-50% dos pacientes com arterite de células gigantes."
+          }
+        },
+        {
+          "FB84.4": {
+            "confidence_embedding": 0.7109,
+            "text": "Representação de doença CID-11: Osteomielite crônica com seio drenante. Definição: "
+          }
+        },
+        {
+          "FB83.0Z": {
+            "confidence_embedding": 0.7067,
+            "text": "Representação de doença CID-11: Osteopenia, não especificada. Definição: "
+          }
+        }
+      ]
+    },
+    "avc": {
+      "capitulo": "19",
+      "opcoes": [
+        {
+          "KB63.21": {
+            "confidence_embedding": 0.7601,
+            "text": "Representação de doença CID-11: Hipernatremia do recém-nascido. Definição: Hipernetremia é definida por sódio sérico acima de 145 mmol/L."
+          }
+        },
+        {
+          "KD30.0": {
+            "confidence_embedding": 0.7548,
+            "text": "Representação de doença CID-11: Depressão no parto com escore de Apgar aos 5 minutos entre 0 a 3. Definição: Condição caracterizada por depressão cardiorrespiratória e neurológica, definida como um escore de Apgar entre 0 a 3 nos 5 minutos após o nascimento."
+          }
+        },
+        {
+          "KD30.1": {
+            "confidence_embedding": 0.7539,
+            "text": "Representação de doença CID-11: Depressão no parto com escore de Apgar aos 5 minutos entre 4 a 6. Definição: Condição caracterizada por depressão cardiorrespiratória e neurológica, definida como um escore de Apgar entre 4 a 6 nos 5 minutos após o nascimento."
+          }
+        },
+        {
+          "KB23.0": {
+            "confidence_embedding": 0.7465,
+            "text": "Representação de doença CID-11: Síndrome da desconforto respiratório do recém-nascido. Definição: A síndrome do desconforto respiratório (SDR) é uma doença aguda, geralmente em recém-nascidos pré-termos, devida à deficiência de surfactante pulmonar, que se desenvolve dentro de 4-6 horas após o nascimento, e é caracterizada por dificuldade respiratória (taquipneia, retrações intercostais e esternais, grunhido expiratório e cianose), com radiografia de tórax anormal mostrando densidades reticulogranulares difusas e broncogramas aéreos, evidência de complacência pulmonar e capacidade residual funcional reduzidas, evidência de troca gasosa anormal (hipoxemia, hipercapnia, cianose) cuja gravidade é suficiente para requerer oxigênio e/ou suporte ventilatório com pressão positiva contínua ou intermitente por mais de 24 horas."
+          }
+        },
+        {
+          "KB87.3": {
+            "confidence_embedding": 0.7457,
+            "text": "Representação de doença CID-11: Íleo transitório do recém-nascido. Definição: Obstrução intestinal transitória de origem funcional e não anatômica, que não é incomum nos primeiros dias de vida. Como a cirurgia pode ser fortemente contraindicada neste grupo, o diagnóstico diferencial é extremamente importante."
+          }
+        }
+      ]
+    },
+    "ansiedade": {
+      "capitulo": "06",
+      "opcoes": [
+        {
+          "6C48.2": {
+            "confidence_embedding": 0.801,
+            "text": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais."
+          }
+        },
+        {
+          "6C45.3": {
+            "confidence_embedding": 0.7706,
+            "text": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia."
+          }
+        },
+        {
+          "6B80": {
+            "confidence_embedding": 0.7576,
+            "text": "Representação de doença CID-11: Anorexia nervosa. Definição: Anorexia nervosa é caracterizada por peso corporal significativamente baixo para a altura, idade e estágio de desenvolvimento do indivíduo que não se deve a outra condição de saúde ou à indisponibilidade de alimentos. Um limite comumente usado é o índice de massa corporal (IMC) inferior a 18,5 kg/m² em adultos e o IMC para a idade abaixo do 5º percentil em crianças e adolescentes. A perda rápida de peso (p. ex., mais de 20% do peso corporal total em seis meses) pode substituir esta referência de baixo peso corporal, desde que outros critérios diagnósticos sejam preenchidos. Crianças e adolescentes podem apresentar falha em ganhar peso conforme o esperado, com base na trajetória de desenvolvimento individual, em vez de perda de peso. O baixo peso corporal é acompanhado por um padrão persistente de comportamentos para evitar a restauração do peso normal, que pode incluir comportamentos destinados a reduzir a ingestão de energia (restrição alimentar), comportamentos purgativos (p. ex., vômito autoinduzido, uso indevido de laxantes) e comportamentos destinados a aumentar o gasto de energia (p. ex., excesso de exercício), tipicamente associados a um medo de ganhar peso. O baixo peso ou a forma corporal é um aspecto central na autoavaliação do indivíduo ou é erroneamente percebido como normal ou até mesmo excessivo."
+          }
+        },
+        {
+          "6C46.3": {
+            "confidence_embedding": 0.7575,
+            "text": "Representação de doença CID-11: Intoxicação por estimulantes, incluindo anfetaminas, metanfetamina ou metcatinona. Definição: Intoxicação por estimulantes, incluindo anfetaminas, metanfetamina e metcatinona, mas excluindo cafeína, cocaína e catinonas sintéticas é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de anfetaminas ou outros estimulantes, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos das anfetaminas ou outros estimulantes e sua intensidade está intimamente relacionada à quantidade de anfetaminas ou outros estimulantes consumida. Têm duração limitada, e diminuem à medida que as anfetaminas ou outros estimulantes são eliminados do corpo. Sintomas de apresentação podem incluir ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (possivelmente de intensidade delirante), alucinações auditivas transitórias, confusão transitória, mudanças na sociabilidade. Sudorese ou calafrios, nausea ou vômitos, e palpitações podem estar presentes. Sinais físicos podem incluir taquicardia, elevação da pressão arterial, dilatação pupilar, discinesias e distonias, e feridas na pele. Em casos raros, geralmente na intoxicação grave, o uso de estimulantes, incluindo anfetaminas, metanfetamina e metcatinona pode resultar em convulsões."
+          }
+        },
+        {
+          "6C49.3": {
+            "confidence_embedding": 0.7518,
+            "text": "Representação de doença CID-11: Intoxicação por alucinógenos. Definição: Intoxicação por alucinógenos é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de alucinógenos, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos dos alucinógenos e sua intensidade está intimamente relacionada à quantidade de alucinógenos consumida. Têm duração limitada, e diminuem à medida que o alucinógeno é eliminado do corpo. A apresentação pode incluir alucinações, ilusões, alterações perceptivas como despersonalização, desrealização, ou sinestesias (fusão de sentidos, como um estímulo visual evocando um cheiro), ansiedade, humor deprimido ou disfórico, ideias de referência, ideação paranoide, julgamento comprometido, palpitações, sudorese, visão turva, tremores e descoordenação. Sinais físicos podem incluir taquicardia, pressão arterial elevada, dilatação pupilar. Em casos raros, a intoxicação por alucinógenos pode facilitar ideação e comportamento suicidas."
+          }
+        }
+      ]
+    },
+    "sedentária": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MB41.3": {
+            "confidence_embedding": 0.7851,
+            "text": "Representação de doença CID-11: Hiposmia. Definição: Diminuição da capacidade de sentir cheiro."
+          }
+        },
+        {
+          "MD11.7": {
+            "confidence_embedding": 0.7722,
+            "text": "Representação de doença CID-11: Hiperventilação. Definição: Hiperventilação refere-se a um aumento na frequência da ventilação alveolar que é excessivo para a taxa de produção metabólica de gás carbônico, resultando na diminuição do PCO2 arterial abaixo da faixa de 37 a 43 mmHg. Hiperventilação deve ser diferenciada de taquipneia, um aumento na frequência respiratória, e de hiperpneia, um aumento no volume minuto da ventilação."
+          }
+        },
+        {
+          "MB23.H": {
+            "confidence_embedding": 0.7716,
+            "text": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas."
+          }
+        },
+        {
+          "MF95": {
+            "confidence_embedding": 0.7713,
+            "text": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular."
+          }
+        },
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7711,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        }
+      ]
+    },
+    "diarreia esporadica": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DA90.0": {
+            "confidence_embedding": 0.8028,
+            "text": "Representação de doença CID-11: Diarreia sindrômica. Definição: Diarreia sindrômica, também conhecida como diarreia fenotípica ou síndrome trico-hepato-entérica, é uma enteropatia congênita que se apresenta com início precoce de diarreia grave exigindo uso de nutrição parenteral (NP), associada a dismorfismo facial, cabelo lanoso e pouco pigmentado, e doença hepática, com fibrose ou cirrose extensa, em cerca de metade dos pacientes."
+          }
+        },
+        {
+          "DA94.22": {
+            "confidence_embedding": 0.7649,
+            "text": "Representação de doença CID-11: Síndrome de enterocolite induzida por proteína alimentar. Definição: Inflamação crônica persistente com hipersensibilidade não mediada por IgE e mediada por células no trato intestinal, que afeta primariamente crianças. Os alimentos causadores mais comuns são: leite de vaca, soja, arroz, aveia, carne. Nos casos de exposição crônica, os sintomas mais frequentes são vômitos, diarreia, crescimento comprometido e letargia. Quando reexposto após restrição, o paciente pode apresentar vômitos, diarreia e hipotensão (15%) 2 horas após a ingestão."
+          }
+        },
+        {
+          "DA43.3": {
+            "confidence_embedding": 0.7644,
+            "text": "Representação de doença CID-11: Gastropatia hipertensiva portal. Definição: Alterações na mucosa do estômago em pacientes com hipertensão portal; de longe a sua causa mais comum é a cirrose hepática."
+          }
+        },
+        {
+          "DD91.2": {
+            "confidence_embedding": 0.7626,
+            "text": "Representação de doença CID-11: Diarreia funcional. Definição: Diarreia funcional é uma síndrome contínua ou recorrente caracterizada pela passagem de fezes moles (pastosas) ou aquosas sem dor ou desconforto abdominal."
+          }
+        },
+        {
+          "DA60.3": {
+            "confidence_embedding": 0.759,
+            "text": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago."
+          }
+        }
+      ]
+    },
+    "mto ansiosa": {
+      "capitulo": "06",
+      "opcoes": [
+        {
+          "6C48.2": {
+            "confidence_embedding": 0.7646,
+            "text": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais."
+          }
+        },
+        {
+          "6C45.3": {
+            "confidence_embedding": 0.7248,
+            "text": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia."
+          }
+        },
+        {
+          "6C46.3": {
+            "confidence_embedding": 0.7248,
+            "text": "Representação de doença CID-11: Intoxicação por estimulantes, incluindo anfetaminas, metanfetamina ou metcatinona. Definição: Intoxicação por estimulantes, incluindo anfetaminas, metanfetamina e metcatinona, mas excluindo cafeína, cocaína e catinonas sintéticas é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de anfetaminas ou outros estimulantes, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos das anfetaminas ou outros estimulantes e sua intensidade está intimamente relacionada à quantidade de anfetaminas ou outros estimulantes consumida. Têm duração limitada, e diminuem à medida que as anfetaminas ou outros estimulantes são eliminados do corpo. Sintomas de apresentação podem incluir ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (possivelmente de intensidade delirante), alucinações auditivas transitórias, confusão transitória, mudanças na sociabilidade. Sudorese ou calafrios, nausea ou vômitos, e palpitações podem estar presentes. Sinais físicos podem incluir taquicardia, elevação da pressão arterial, dilatação pupilar, discinesias e distonias, e feridas na pele. Em casos raros, geralmente na intoxicação grave, o uso de estimulantes, incluindo anfetaminas, metanfetamina e metcatinona pode resultar em convulsões."
+          }
+        },
+        {
+          "6C46.71": {
+            "confidence_embedding": 0.7235,
+            "text": "Representação de doença CID-11: Transtorno de ansiedade induzido por estimulantes, incluindo anfetaminas, metanfetamina ou metcatinona. Definição: Transtorno de ansiedade induzido por estimulantes, incluindo anfetaminas, metanfetamina e metcatinona é caracterizado por sintomas ansiosos (p. ex., apreensão ou preocupação, medo, sintomas fisiológicos de ativação autonômica excessiva, comportamento de evitação) que se desenvolvem durante ou logo após intoxicação por ou abstinência de estimulantes. A intensidade ou duração dos sintomas é consideravelmente maior do que sintomas ansiosos característicos da intoxicação por estimulantes ou abstinência de estimulantes. A quantidade e duração do uso de estimulantes devem ser capazes de produzir sintomas de ansiedade. Os sintomas não são mais bem explicados por um transtorno mental primário (p.ex., transtorno de ansiedade e relacionado ao medo, transtorno depressivo com sintomas ansiosos proeminentes), como pode ser o caso se os sintomas de ansiedade precederam o início do uso de estimulantes, se os sintomas persistem por um período de tempo considerável após a cessação do uso ou a abstinência de estimulantes, ou se há outra evidência de um transtorno mental primário preexistente com sintomas ansiosos (p. ex., história de episódios anteriores não associados ao uso de estimulantes)."
+          }
+        },
+        {
+          "6C46.11": {
+            "confidence_embedding": 0.7162,
+            "text": "Representação de doença CID-11: Padrão de uso nocivo de estimulantes, incluindo anfetaminas, metanfetamina ou metcatinona, contínuo. Definição: Padrão de uso de estimulantes, incluindo anfetaminas, metanfetamina e metcatinona, mas excluindo a cafeína, cocaína e catinonas sintéticas, que tenha causado dano a saúde física ou mental do indivíduo, ou tenha resultado em comportamento que levou a dano à saúde de terceiros. O padrão de uso contínuo de estimulantes é evidente ao longo de um período de pelo menos 12 meses se o uso da substância for episódico, ou pelo menos um mês se o uso for contínuo (ou seja, diário ou quase diário). O dano à saúde do indivíduo ocorre devido a um ou mais dos seguintes fatores: (1) comportamento relacionado à intoxicação; (2) efeitos tóxicos diretos ou secundários sobre órgãos e sistemas corporais; ou (3) uma via de administração perigosa. Dano à saúde de terceiros inclui qualquer forma de dano físico, incluindo traumatismo, ou transtorno mental que seja diretamente atribuível ao comportamento relacionado à intoxicação por estimulantes por parte da pessoa a quem o diagnóstico de padrão de uso nocivo de estimulantes, incluindo anfetaminas, metanfetamina e metcatinona se aplica."
+          }
+        }
+      ]
+    }
+  }
+}

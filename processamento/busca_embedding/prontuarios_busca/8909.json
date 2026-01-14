@@ -1,0 +1,588 @@
+{
+  "prontuario_id": 233,
+  "text": "Paciente em Pré-operatório de FX fêmur E, consciente, orientado, comunicativo, ansioso, em jejum para realização de procedimento cirúrgico hoje, com acesso venoso periférico heparinizado MSE, com tração transesquelética MIE, eliminações fisiológicas pres. FRATURA DO COLO DO FÊMUR. 18:24: PROVENIENTE DO CC LÚCIDA, COMUNICATIVA, MANTÉM ACESSO VENOSO PERIFÉRICO EM MMSS, MANTÉM CTVO EM ABD, SEM DIURESE ATÉ O MOMENTO, PERMANECE EM JEJUM. CALCULOSE DA VESÍCULA BILIAR SEM COLECISTITE. 12:30h: Consciente, comunicativo, acamado, afebril, eupnéico, SNE com dieta em BI, acesso venoso periférico em MSD, foi trocada trach care pela cânula de metal, tração transesquelética em MIE, apresentou dor em MIE, realizado troca de fralda com micção. TRAUMATISMOS MÚLTIPLOS NÃO ESPECIFICADOS. 09:00: RECEBEU ALTA E ORIENTAÇÕES PELO Dr. VITAL BRASIL, SEM QUEIXAS ÁLGICAS NO MOMENTO, DEAMBULANDO, AGUARDA FAMÍLIA VIR BUSCÁ-LA. TRANSTORNOS DA CONTINUIDADE DO OSSO. 12:56 Hr: 4º PO de fratura luxação de cotovelo direito, segue com algia moderada no local, mantém tala gessada e fixador externo em MSD com edema local, boa perfusão distal e pulso periférico preservado. Mantém gesso em perna direita com boa perfusão distal. FRATURA DA EXTREMIDADE DISTAL DO RÁDIO. 15:45HRS: CONSCIENTE, ORIENTADA, ALERTA, DISARTRIA. EUPNÉICA E AFEBRIL. ACEITANDO POUCO A DIETA VO. AVP EM MSE PERMEÁVEL. APRESENTOU ESPASMO FACIAL À DIREITA NO PERÍODO DA MANHÃ. HEMIPARESIA À ESQUERDA. FAZ USO DE FRALDA, COM DIURESE E EVACUAÇÃO PRESENTES. OUTRAS HEMORRAGIAS INTRACEREBRAIS.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Conceito Temporal": [
+      "Pré-operatório",
+      "PO",
+      "PERÍODO DA MANHÃ"
+    ],
+    "Abreviação": [
+      "E",
+      "MSE",
+      "CC",
+      "MMSS",
+      "CTVO",
+      "ABD",
+      "SNE",
+      "MSD",
+      "PO",
+      "AVP",
+      "eliminações fisiológicas",
+      "dieta em BI"
+    ],
+    "Conceito Espacial": [
+      "E",
+      "direito",
+      "direita",
+      "DIREITA",
+      "ESQUERDA"
+    ],
+    "Achado": [
+      "consciente",
+      "orientado",
+      "comunicativo",
+      "jejum",
+      "LÚCIDA",
+      "COMUNICATIVA",
+      "Consciente",
+      "afebril",
+      "eupnéico",
+      "DEAMBULANDO",
+      "CONSCIENTE",
+      "ORIENTADA",
+      "ALERTA",
+      "EUPNÉICA",
+      "AFEBRIL",
+      "acesso venoso periférico",
+      "pulso periférico preservado"
+    ],
+    "Sinal ou Sintoma": [
+      "ansioso",
+      "dor",
+      "edema",
+      "HEMIPARESIA",
+      "algia moderada",
+      "ESPASMO FACIAL"
+    ],
+    "Localização ou Região Corporal": [
+      "MSE",
+      "MIE",
+      "MMSS",
+      "MSD"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CC"
+    ],
+    "Negação": [
+      "afebril",
+      "AFEBRIL"
+    ],
+    "Função de Organismo": [
+      "micção"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ALTA",
+      "procedimento cirúrgico"
+    ],
+    "Grupo Familiar": [
+      "FAMÍLIA"
+    ],
+    "Conceito Qualitativo": [
+      "boa",
+      "ACEITANDO POUCO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "gesso",
+      "AVP",
+      "acesso venoso periférico",
+      "tração transesquelética",
+      "ACESSO VENOSO PERIFÉRICO",
+      "dieta em BI",
+      "tala gessada",
+      "fixador externo",
+      "DIETA VO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "perna"
+    ],
+    "Disfunção Mental ou Comportamental": [
+      "DISARTRIA"
+    ],
+    "Dispositivo Médico": [
+      "AVP",
+      "acesso venoso periférico",
+      "ACESSO VENOSO PERIFÉRICO",
+      "trach care",
+      "cânula de metal",
+      "tala gessada",
+      "fixador externo"
+    ],
+    "Função Fisiológica": [
+      "eliminações fisiológicas"
+    ],
+    "Lesão ou Envenenamento": [
+      "FRATURA DO COLO DO FÊMUR",
+      "fratura luxação de cotovelo",
+      "FRATURA DA EXTREMIDADE DISTAL DO RÁDIO"
+    ],
+    "Doença ou Síndrome": [
+      "CALCULOSE DA VESÍCULA BILIAR",
+      "TRANSTORNOS DA CONTINUIDADE DO OSSO",
+      "HEMORRAGIAS INTRACEREBRAIS"
+    ],
+    "Anormalidade Adquirida": [
+      "TRANSTORNOS DA CONTINUIDADE DO OSSO"
+    ]
+  },
+  "labels": {
+    "fratura do colo do fêmur": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FA38.3": {
+            "confidence_embedding": 0.7475,
+            "text": "Representação de doença CID-11: Artropatia hemofílica. Definição: Trata-se da destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia. Esta condição inclui a ocorrência de hemartrose aguda, artrite subaguda ou crônica e artropatia hemofílica em estágio terminal. Quase todos os pacientes com hemofilia A ou B grave e metade dos pacientes com atividade de doença moderada apresentam hemartrose. Os sintomas incluem dor nas articulações (artralgias), edema articular, fibrose articular, desenvolvimento de deformidades em flexão e erosão da cartilagem articular. As articulações mais comumente afetadas são joelhos, tornozelos, cotovelos, ombros e quadris (em ordem de frequência). O sangramento nos músculos e partes moles também pode causar disfunção musculoesquelética."
+          }
+        },
+        {
+          "FA38.1": {
+            "confidence_embedding": 0.7369,
+            "text": "Representação de doença CID-11: Artropatia neuropática. Definição: A artropatia neuropática é uma artrite progressiva, destrutiva, associada à perda da sensibilidade dolorosa, da propriocepção, ou de ambas. Os reflexos musculares normais que modulam os movimentos articulares também estão diminuídos. Sem estes mecanismos de proteção, as articulações ficam sujeitas ao trauma repetitivo, o que resulta no dano cartilaginoso e ósseo progressivo. Os sintomas adicionais incluem alterações cutâneas, tais como eritema, edema, hiperpigmentação ou púrpura, e úlceras de tecidos moles sobre as áreas afetadas, bem como afrouxamento ou instabilidade das articulações e deformidades articulares."
+          }
+        },
+        {
+          "FB32.20": {
+            "confidence_embedding": 0.7176,
+            "text": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave."
+          }
+        },
+        {
+          "FA27.2": {
+            "confidence_embedding": 0.7139,
+            "text": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos."
+          }
+        },
+        {
+          "FB81": {
+            "confidence_embedding": 0.7132,
+            "text": "Representação de doença CID-11: Osteonecrose. Definição: Osteonecrose é o termo médico usado para a morte do tecido ósseo que ocorre quando o suprimento sanguíneo para o osso é interrompido por algum motivo. Os médicos algumas vezes se referem a esta condição como necrose avascular, necrose asséptica ou necrose isquêmica do osso."
+          }
+        }
+      ]
+    },
+    "calculose da vesícula biliar": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DC11.6": {
+            "confidence_embedding": 0.8188,
+            "text": "Representação de doença CID-11: Calculose de via biliar sem colangite ou colecistite. Definição: Cálculos na via biliar presentes sem inflamação de parede da vesícula biliar e via biliar."
+          }
+        },
+        {
+          "DC11.5": {
+            "confidence_embedding": 0.8186,
+            "text": "Representação de doença CID-11: Calculo de via biliar com colecistite. Definição: Cálculos na via biliar presentes com inflamação da parede de vesícula biliar."
+          }
+        },
+        {
+          "DC11": {
+            "confidence_embedding": 0.778,
+            "text": "Representação de doença CID-11: Colelitíase. Definição: Colelitíase é o cálculo de vesícula biliar, ducto cístico ou ducto biliar. A maioria das pedras na vesícula biliar é assintomática, mas o sintoma inicial mais comum é a cólica biliar antes do desenvolvimento de complicações, incluindo colecistite aguda ou colangite."
+          }
+        },
+        {
+          "DC12": {
+            "confidence_embedding": 0.7672,
+            "text": "Representação de doença CID-11: Colecistite. Definição: Inflamação da parede da vesícula biliar por infecção de vários organismos e/ou transtornos não especificados."
+          }
+        },
+        {
+          "DC11.3": {
+            "confidence_embedding": 0.766,
+            "text": "Representação de doença CID-11: Cálculo de vesícula biliar ou ducto cístico sem colecistite ou colangite. Definição: Cálculos na vesícula biliar presentes sem inflamação de parede da vesícula biliar e via biliar."
+          }
+        }
+      ]
+    },
+    "transtornos da continuidade do osso": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FB81": {
+            "confidence_embedding": 0.7305,
+            "text": "Representação de doença CID-11: Osteonecrose. Definição: Osteonecrose é o termo médico usado para a morte do tecido ósseo que ocorre quando o suprimento sanguíneo para o osso é interrompido por algum motivo. Os médicos algumas vezes se referem a esta condição como necrose avascular, necrose asséptica ou necrose isquêmica do osso."
+          }
+        },
+        {
+          "FB80.5": {
+            "confidence_embedding": 0.7282,
+            "text": "Representação de doença CID-11: Cisto ósseo solitário. Definição: O cisto ósseo soliário é uma lesão óssea cavitária benigna, sem revestimento epitelial, assintomática, mais comumente encontrada ao acaso, na segunda década de vida. Os ossos longos são afetados mais frequentemente, mas o envolvimento do osso da mandíbula foi relatado."
+          }
+        },
+        {
+          "FB41.1": {
+            "confidence_embedding": 0.7189,
+            "text": "Representação de doença CID-11: Ruptura espontânea de sinóvia. Definição: Trata-se da ruptura espontânea da bainha sinovial (saco com fluido contendo líquido viscoso), que normalmente diminui o atrito e fornece um amortecimento entre os ossos e tendões e/ou músculo periarticulares."
+          }
+        },
+        {
+          "FB80.0": {
+            "confidence_embedding": 0.7128,
+            "text": "Representação de doença CID-11: Displasia fibrosa do osso. Definição: A displasia fibrosa do osso é uma doença óssea benigna, congênita, não hereditária, na qual o osso normal é substituído por um tecido semelhante à fibrose, com osteogênese imatura. Lesões ósseas são mono ou poliostóticas e podem associar-se à dor e fragilidade, levando a fraturas. Em alguns pacientes ou localizações ósseas, as lesões são hipertróficas e podem levar a complicações neurológicas."
+          }
+        },
+        {
+          "FA38.3": {
+            "confidence_embedding": 0.7097,
+            "text": "Representação de doença CID-11: Artropatia hemofílica. Definição: Trata-se da destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia. Esta condição inclui a ocorrência de hemartrose aguda, artrite subaguda ou crônica e artropatia hemofílica em estágio terminal. Quase todos os pacientes com hemofilia A ou B grave e metade dos pacientes com atividade de doença moderada apresentam hemartrose. Os sintomas incluem dor nas articulações (artralgias), edema articular, fibrose articular, desenvolvimento de deformidades em flexão e erosão da cartilagem articular. As articulações mais comumente afetadas são joelhos, tornozelos, cotovelos, ombros e quadris (em ordem de frequência). O sangramento nos músculos e partes moles também pode causar disfunção musculoesquelética."
+          }
+        }
+      ]
+    },
+    "hemiparesia": {
+      "capitulo": "08",
+      "opcoes": [
+        {
+          "8C01.0": {
+            "confidence_embedding": 0.7695,
+            "text": "Representação de doença CID-11: Polineuropatia desmielinizante inflamatória aguda. Definição: Fraqueza progressiva dos membros ao longo de alguns dias a 28 dias, déficit simétrico, arreflexia, distúrbio sensorial ausente ou leve, proteína do líquido cefalorraquidiano elevada e redução das velocidades de condução nervosa são as características principais. O transtorno pode ser precedido por infecção respiratória superior ou gastrointestinal ou imunização 1 a 4 semanas antes do início da doença. A paralisia bifacial pode estar presente."
+          }
+        },
+        {
+          "8B24": {
+            "confidence_embedding": 0.7635,
+            "text": "Representação de doença CID-11: Encefalopatia hipóxico-isquêmica. Definição: Dano cerebral devido à hipóxia-isquemia: o termo anterior \"Dano cerebral anóxico\" foi alterado. O novo termo é agora amplamente aceito e descreve melhor a fisiopatologia, ou seja, a combinação de isquemia cerebral global transitória completa e incompleta juntamente com uma combinação de anóxia e hipóxia. Em um paciente sobrevivente, a encefalopatia anóxica pura é muito incomum."
+          }
+        },
+        {
+          "8A64": {
+            "confidence_embedding": 0.7569,
+            "text": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo."
+          }
+        },
+        {
+          "8B11.40": {
+            "confidence_embedding": 0.7516,
+            "text": "Representação de doença CID-11: Acidente vascular cerebral isquêmico devido à hipoperfusão global com infarto em zona de fronteira. Definição: Perda súbita da função cerebral devida à falta de fluxo sanguíneo adequado. Ocorre em associação com baixo fluxo sanguíneo para o cérebro. As \"zonas de fronteira\" do cérebro, regiões que são supridas pelas extremidades ramificadas de duas grandes artérias, são particularmente sensíveis ao baixo suprimento de oxigênio quando as artérias não mantêm o fluxo adequado."
+          }
+        },
+        {
+          "8A42": {
+            "confidence_embedding": 0.7483,
+            "text": "Representação de doença CID-11: Encefalomielite aguda disseminada. Definição: Encefalomielite disseminada aguda é transtorno desmielinizante do sistema nervoso central. Usualmente ocorre subsequente a infecção viral ou bacteriana aguda ou vacinação, com início abrupto de irritabilidade e letargia após período prodrômico de 1-4 semanas. Os sintomas principais incluem febre, cefaleia, tontura, alterações do estado mental, convulsões e coma. Fraqueza, vômitos, perda de peso ponderal, rigidez de nuca, ataxia, neurite óptica bilateral e delirium são comuns. Envolvimento de sistema nervoso periférico (paralisia de um único membro ou hemiplegia) podem ocorrer."
+          }
+        }
+      ]
+    },
+    "disartria": {
+      "capitulo": "06",
+      "opcoes": [
+        {
+          "6C48.2": {
+            "confidence_embedding": 0.7442,
+            "text": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais."
+          }
+        },
+        {
+          "6C45.3": {
+            "confidence_embedding": 0.7372,
+            "text": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia."
+          }
+        },
+        {
+          "6C21": {
+            "confidence_embedding": 0.7354,
+            "text": "Representação de doença CID-11: Disforia de integridade corporal. Definição: A disforia de integridade corporal é caracterizada por um desejo intenso e persistente de se tornar fisicamente deficiente de um modo significativo (p. ex., ter um grande membro amputado, ficar paraplégico, cego) que surge no início da adolescência, acompanhado por desconforto persistente ou sentimentos intensos de inadequação em relação à configuração não deficiente atual do corpo. O desejo de se tornar fisicamente deficiente resulta em consequências danosas, que se manifestam pela interferência significativa da preocupação com o desejo (incluindo tempo gasto fingindo ser deficiente) na produtividade, atividades de lazer ou funcionamento social (p. ex., a pessoa não está disposta a ter relacionamentos próximos porque isso tornaria difícil fingir) ou por risco significativo à vida causado por tentativas de realmente se tornar deficiente. O distúrbio não é mais bem explicado por outro transtorno mental, comportamental ou do neurodesenvolvimento ou por uma doença do sistema nervoso ou outra condição médica ou por simulação."
+          }
+        },
+        {
+          "6D86.3": {
+            "confidence_embedding": 0.7332,
+            "text": "Representação de doença CID-11: Apatia na demência. Definição: Além dos distúrbios cognitivos característicos de demência, o quadro clínico atual inclui indiferença ou falta de interesse clinicamente significativos."
+          }
+        },
+        {
+          "6C40.4": {
+            "confidence_embedding": 0.7323,
+            "text": "Representação de doença CID-11: Abstinência de álcool. Definição: Abstinência de álcool é um conjunto clinicamente significativo de sintomas, comportamentos e/ou manifestações fisiológicas, variando em grau de gravidade e duração, que ocorre quando da cessação ou redução do uso de álcool em indivíduos que tenham desenvolvido dependência de álcool ou que tenham usado álcool por um período prolongado ou em grandes quantidades. Sintomas de apresentação da abstinência de álcool podem incluir hiperatividade autonômica (p. ex., taquicardia, hipertensão, sudorese), tremores aumentados nas mãos, náusea, ânsia de vômito ou vômito, insônia, ansiedade, agitação psicomotora, humor deprimido ou disfórico, ilusões ou alucinações visuais, táteis ou auditivas transitórias e distratibilidade. Menos comumente, o estado de abstinência é complicado por convulsões tônico-clônicas. O estado de abstinência pode progredir para uma forma muito grave de delirium, caracterizada por confusão e desorientação, delírios e alucinações visuais, táteis ou auditivas prolongadas. Nesses casos, um diagnóstico separado de delirium induzido por álcool também deve ser atribuído."
+          }
+        }
+      ]
+    },
+    "fratura luxação de cotovelo": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FA38.3": {
+            "confidence_embedding": 0.748,
+            "text": "Representação de doença CID-11: Artropatia hemofílica. Definição: Trata-se da destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia. Esta condição inclui a ocorrência de hemartrose aguda, artrite subaguda ou crônica e artropatia hemofílica em estágio terminal. Quase todos os pacientes com hemofilia A ou B grave e metade dos pacientes com atividade de doença moderada apresentam hemartrose. Os sintomas incluem dor nas articulações (artralgias), edema articular, fibrose articular, desenvolvimento de deformidades em flexão e erosão da cartilagem articular. As articulações mais comumente afetadas são joelhos, tornozelos, cotovelos, ombros e quadris (em ordem de frequência). O sangramento nos músculos e partes moles também pode causar disfunção musculoesquelética."
+          }
+        },
+        {
+          "FA38.1": {
+            "confidence_embedding": 0.7305,
+            "text": "Representação de doença CID-11: Artropatia neuropática. Definição: A artropatia neuropática é uma artrite progressiva, destrutiva, associada à perda da sensibilidade dolorosa, da propriocepção, ou de ambas. Os reflexos musculares normais que modulam os movimentos articulares também estão diminuídos. Sem estes mecanismos de proteção, as articulações ficam sujeitas ao trauma repetitivo, o que resulta no dano cartilaginoso e ósseo progressivo. Os sintomas adicionais incluem alterações cutâneas, tais como eritema, edema, hiperpigmentação ou púrpura, e úlceras de tecidos moles sobre as áreas afetadas, bem como afrouxamento ou instabilidade das articulações e deformidades articulares."
+          }
+        },
+        {
+          "FB32.1": {
+            "confidence_embedding": 0.7047,
+            "text": "Representação de doença CID-11: Ruptura muscular espontânea. Definição: Esta é uma condição em que ocorre um afastamento ou ruptura entre fibras musculares e outras fibras musculares, tendões ou fáscias, na ausência de trauma"
+          }
+        },
+        {
+          "FA72.3": {
+            "confidence_embedding": 0.7031,
+            "text": "Representação de doença CID-11: Fratura vertebral por fadiga. Definição: "
+          }
+        },
+        {
+          "FB32.20": {
+            "confidence_embedding": 0.7031,
+            "text": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave."
+          }
+        }
+      ]
+    },
+    "algia moderada": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FB32.20": {
+            "confidence_embedding": 0.7505,
+            "text": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave."
+          }
+        },
+        {
+          "FA38.3": {
+            "confidence_embedding": 0.7453,
+            "text": "Representação de doença CID-11: Artropatia hemofílica. Definição: Trata-se da destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia. Esta condição inclui a ocorrência de hemartrose aguda, artrite subaguda ou crônica e artropatia hemofílica em estágio terminal. Quase todos os pacientes com hemofilia A ou B grave e metade dos pacientes com atividade de doença moderada apresentam hemartrose. Os sintomas incluem dor nas articulações (artralgias), edema articular, fibrose articular, desenvolvimento de deformidades em flexão e erosão da cartilagem articular. As articulações mais comumente afetadas são joelhos, tornozelos, cotovelos, ombros e quadris (em ordem de frequência). O sangramento nos músculos e partes moles também pode causar disfunção musculoesquelética."
+          }
+        },
+        {
+          "FA27.2": {
+            "confidence_embedding": 0.7392,
+            "text": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos."
+          }
+        },
+        {
+          "FA38.1": {
+            "confidence_embedding": 0.7334,
+            "text": "Representação de doença CID-11: Artropatia neuropática. Definição: A artropatia neuropática é uma artrite progressiva, destrutiva, associada à perda da sensibilidade dolorosa, da propriocepção, ou de ambas. Os reflexos musculares normais que modulam os movimentos articulares também estão diminuídos. Sem estes mecanismos de proteção, as articulações ficam sujeitas ao trauma repetitivo, o que resulta no dano cartilaginoso e ósseo progressivo. Os sintomas adicionais incluem alterações cutâneas, tais como eritema, edema, hiperpigmentação ou púrpura, e úlceras de tecidos moles sobre as áreas afetadas, bem como afrouxamento ou instabilidade das articulações e deformidades articulares."
+          }
+        },
+        {
+          "FA38.2": {
+            "confidence_embedding": 0.7293,
+            "text": "Representação de doença CID-11: Artropatia associada a reações de hipersensibilidade classificadas em outra parte. Definição: "
+          }
+        }
+      ]
+    },
+    "espasmo facial": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MB23.H": {
+            "confidence_embedding": 0.7324,
+            "text": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas."
+          }
+        },
+        {
+          "MD11.8": {
+            "confidence_embedding": 0.7232,
+            "text": "Representação de doença CID-11: Respiração pela boca. Definição: Respirar pela boca. Obstrução nasal pode também tornar necessária a respiração oral, o que por si só pode causar apneia obstrutiva. Respirar pela boca pode também aumentar o risco para apneia obstrutiva do sono, pelos seus efeitos na língua. A língua forma a parede anterior da orofaringe; tanto a postura supina quanto abertura da boca tendem a deslocar a língua posteriormente e promovem o fechamento da via aérea."
+          }
+        },
+        {
+          "MC20.2": {
+            "confidence_embedding": 0.7168,
+            "text": "Representação de doença CID-11: Hipópio. Definição: Hipópio é a presença de células inflamatórias na câmara anterior do olho. Corresponde a um exsudato leucocitário, observado na câmara anterior, geralmente acompanhado de hiperemia de conjuntiva e episclera subjacente. É um sinal de inflamação da úvea anterior e da íris, ou seja, irite, que é uma forma de uveíte anterior. O exsudado deposita-se no fundo devido à ação da gravidade."
+          }
+        },
+        {
+          "MG30.63": {
+            "confidence_embedding": 0.7161,
+            "text": "Representação de doença CID-11: Cefaleia ou dor orofacial associada a transtornos temporomandibulares secundários crônicos. Definição: Dor crônica secundária à disfunção temporomandibular é a dor crônica na(s) articulação(ões) temporomandibular(es) ou nos músculos masseter ou temporal(is) associada com inflamação persistente (devida a, por exemplo, infecção, deposição de cristais ou transtornos autoimunes), alterações estruturais (como osteoartrite ou espondilose), lesão ou doenças do sistema nervoso. Ocorre em pelo menos 50% dos dias, durante pelo menos três meses. A duração da dor no dia é de pelo menos 2 horas. Se a etiologia for vaga, considere o uso de códigos na seção de dor primária crônica."
+          }
+        },
+        {
+          "MD11.A": {
+            "confidence_embedding": 0.7131,
+            "text": "Representação de doença CID-11: Espirro. Definição: Espirrar é um dos reflexos mais fundamentais da via aérea, caracterizado por uma inspiração profunda preparatória seguida de um aumento abrupto na pressão subglótica, refletindo uma expiração ativa forçada semelhante à tosse. Estímulos químicos ou físicos à mucosa nasal podem iniciar reflexos respiratórios e cardiovasculares potentes pela estimulação de nervos trigeminais. Estímulos leves resultam em espirros e hipersecreção nasal. Essas respostas reflexas protegem as vias aéreas inferiores da inalação de irritantes físicos e químicos."
+          }
+        }
+      ]
+    },
+    "edema": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MG29": {
+            "confidence_embedding": 0.7915,
+            "text": "Representação de doença CID-11: Edema. Definição: Acúmulo anormal de líquido em tecidos ou cavidades corporais, não codificado em outra parte."
+          }
+        },
+        {
+          "MG29.Z": {
+            "confidence_embedding": 0.7737,
+            "text": "Representação de doença CID-11: Edema, não especificado. Definição: "
+          }
+        },
+        {
+          "MG29.0Y": {
+            "confidence_embedding": 0.7706,
+            "text": "Representação de doença CID-11: Outro edema localizado especificado. Definição: "
+          }
+        },
+        {
+          "MG29.10": {
+            "confidence_embedding": 0.7702,
+            "text": "Representação de doença CID-11: Edema devido a pressão capilar aumentada. Definição: O aumento da pressão capilar aumenta o vazamento de fluido do compartimento vascular para os tecidos intersticiais, resultando em edema. Causas incluem o comprometimento ou obstrução do retorno venoso (sobrecarga de fluido, trombose venosa, insuficiência cardíaca direita, compressão venosa por tumor), aumento do fluxo sanguíneo (resposta fisiológica à exposição ao calor, malformações arteriovenosas, controle vasomotor cutâneo prejudicado devido a drogas ou neuropatia autonômica), ou pressão oncótica plasmática reduzida por hipoproteinemia."
+          }
+        },
+        {
+          "MG29.1Y": {
+            "confidence_embedding": 0.7683,
+            "text": "Representação de doença CID-11: Outro edema generalizado especificado. Definição: "
+          }
+        }
+      ]
+    },
+    "ansioso": {
+      "capitulo": "06",
+      "opcoes": [
+        {
+          "6C48.2": {
+            "confidence_embedding": 0.7508,
+            "text": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais."
+          }
+        },
+        {
+          "6C40.3": {
+            "confidence_embedding": 0.7367,
+            "text": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas."
+          }
+        },
+        {
+          "6A80.0": {
+            "confidence_embedding": 0.7348,
+            "text": "Representação de doença CID-11: Sintomas ansiosos proeminentes em episódios de humor. Definição: No contexto de um episódio depressivo, maníaco, misto ou hipomaníaco atual, sintomas ansiosos proeminentes e clinicamente significativos (p. ex., sentir-se nervoso, ansioso ou no limite, não ser capaz de controlar pensamentos preocupantes, medo de que algo terrível aconteça, dificuldade para relaxar, tensão motora, sintomas autonômicos) estiveram presentes na maior parte do tempo durante o episódio. Se houve ataques de pânico durante um episódio depressivo ou misto atual, eles devem ser registrados separadamente.\r\n\r\nQuando os critérios diagnósticos tanto para um transtorno de humor quanto para um transtorno de ansiedade ou relacionado ao medo são preenchidos, o transtorno de ansiedade ou relacionado ao medo também deve ser diagnosticado."
+          }
+        },
+        {
+          "6C45.3": {
+            "confidence_embedding": 0.7345,
+            "text": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia."
+          }
+        },
+        {
+          "6A23.01": {
+            "confidence_embedding": 0.7329,
+            "text": "Representação de doença CID-11: Transtorno psicótico agudo e transitório, primeiro episódio, em remissão parcial. Definição: Todos os critérios diagnósticos para transtorno psicótico agudo e transitório, primeiro episódio em termos de sintomas e duração foram preenchidos anteriormente. Os sintomas melhoraram de tal forma que os critérios diagnósticos para o transtorno não foram preenchidos por pelo menos um mês, mas alguns sintomas clinicamente significativos persistem, que podem ou não estar associados a comprometimento funcional. A remissão parcial pode ter ocorrido em resposta a medicamento ou outro tratamento."
+          }
+        }
+      ]
+    },
+    "hemorragias intracerebrais": {
+      "capitulo": "08",
+      "opcoes": [
+        {
+          "8B00.5": {
+            "confidence_embedding": 0.7873,
+            "text": "Representação de doença CID-11: Hemorragia de múltiplos territórios. Definição: Disfunção neurológica aguda causada por hemorragia de vários territórios, dentro do parênquima cerebral, ou no sistema ventricular combinada com hemorragia no parênquima cerebral."
+          }
+        },
+        {
+          "8B00.1": {
+            "confidence_embedding": 0.7842,
+            "text": "Representação de doença CID-11: Hemorragia lobar. Definição: Disfunção neurológica aguda causada por hemorragia dentro dos lobos do cérebro e fora do subcórtex, gânglios da base e diencéfalo (tálamo)."
+          }
+        },
+        {
+          "8B00": {
+            "confidence_embedding": 0.7782,
+            "text": "Representação de doença CID-11: Hemorragia intracerebral. Definição: Disfunção neurológica aguda causada por hemorragia no parênquima cerebral ou no sistema ventricular."
+          }
+        },
+        {
+          "8B00.4": {
+            "confidence_embedding": 0.7763,
+            "text": "Representação de doença CID-11: Hemorragia intraventricular sem hemorragia parenquimatosa. Definição: Disfunção neurológica aguda causada por hemorragia no sistema ventricular, sem um componente de hemorragia parenquimatosa."
+          }
+        },
+        {
+          "8B00.0": {
+            "confidence_embedding": 0.7762,
+            "text": "Representação de doença CID-11: Hemorragia hemisférica profunda. Definição: Disfunção neurológica aguda causada por hemorragia localizada no subcórtex, gânglios da base e diencéfalo (tálamo)."
+          }
+        }
+      ]
+    },
+    "fratura da extremidade distal do rádio": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FA38.3": {
+            "confidence_embedding": 0.7363,
+            "text": "Representação de doença CID-11: Artropatia hemofílica. Definição: Trata-se da destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia. Esta condição inclui a ocorrência de hemartrose aguda, artrite subaguda ou crônica e artropatia hemofílica em estágio terminal. Quase todos os pacientes com hemofilia A ou B grave e metade dos pacientes com atividade de doença moderada apresentam hemartrose. Os sintomas incluem dor nas articulações (artralgias), edema articular, fibrose articular, desenvolvimento de deformidades em flexão e erosão da cartilagem articular. As articulações mais comumente afetadas são joelhos, tornozelos, cotovelos, ombros e quadris (em ordem de frequência). O sangramento nos músculos e partes moles também pode causar disfunção musculoesquelética."
+          }
+        },
+        {
+          "FB32.20": {
+            "confidence_embedding": 0.7157,
+            "text": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave."
+          }
+        },
+        {
+          "FA38.1": {
+            "confidence_embedding": 0.7136,
+            "text": "Representação de doença CID-11: Artropatia neuropática. Definição: A artropatia neuropática é uma artrite progressiva, destrutiva, associada à perda da sensibilidade dolorosa, da propriocepção, ou de ambas. Os reflexos musculares normais que modulam os movimentos articulares também estão diminuídos. Sem estes mecanismos de proteção, as articulações ficam sujeitas ao trauma repetitivo, o que resulta no dano cartilaginoso e ósseo progressivo. Os sintomas adicionais incluem alterações cutâneas, tais como eritema, edema, hiperpigmentação ou púrpura, e úlceras de tecidos moles sobre as áreas afetadas, bem como afrouxamento ou instabilidade das articulações e deformidades articulares."
+          }
+        },
+        {
+          "FB32.1": {
+            "confidence_embedding": 0.7032,
+            "text": "Representação de doença CID-11: Ruptura muscular espontânea. Definição: Esta é uma condição em que ocorre um afastamento ou ruptura entre fibras musculares e outras fibras musculares, tendões ou fáscias, na ausência de trauma"
+          }
+        },
+        {
+          "FB81": {
+            "confidence_embedding": 0.7021,
+            "text": "Representação de doença CID-11: Osteonecrose. Definição: Osteonecrose é o termo médico usado para a morte do tecido ósseo que ocorre quando o suprimento sanguíneo para o osso é interrompido por algum motivo. Os médicos algumas vezes se referem a esta condição como necrose avascular, necrose asséptica ou necrose isquêmica do osso."
+          }
+        }
+      ]
+    },
+    "dor": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MG30.2": {
+            "confidence_embedding": 0.8023,
+            "text": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente."
+          }
+        },
+        {
+          "MG30.20": {
+            "confidence_embedding": 0.8022,
+            "text": "Representação de doença CID-11: Dor crônica pós-traumática. Definição: Dor pós-traumática crônica é a dor que se desenvolve ou aumenta de intensidade após uma lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após o traumatismo tecidual. A dor é ou localizada na área da lesão, ou referida no território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente por um problema doloroso preexistente."
+          }
+        },
+        {
+          "MG30.21": {
+            "confidence_embedding": 0.7934,
+            "text": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática."
+          }
+        },
+        {
+          "MG30.04": {
+            "confidence_embedding": 0.775,
+            "text": "Representação de doença CID-11: Síndrome da dor regional complexa. Definição: A síndrome de dor regional complexa (SDCR) é uma condição de dor crônica em uma extremidade com curso variável ao longo do tempo. É caracterizada por dor regional contínua (não em um território nervoso ou dermátomo específico), geralmente com predominância distal ou gradiente distal para proximal. Geralmente surge após trauma de tecido e é aparentemente desproporcional em magnitude ou duração ao curso normal da dor após esse trauma de tecido.\r\n\r\nA SDCR é caracterizada por sinais que indicam alterações autonômicas e neuroinflamatórias na região corporal afetada, variando entre os pacientes e ao longo do tempo. Frequentemente, a SDCR é acompanhado por sofrimento emocional significativo ou deficiência funcional. SDCR é multifatorial."
+          }
+        },
+        {
+          "MG30.3": {
+            "confidence_embedding": 0.7671,
+            "text": "Representação de doença CID-11: Dor musculoesquelética secundária crônica. Definição: Dor musculoesquelética secundária crônica é u a dor crônica que surge de osso(s), articulação(ões), músculo(s), coluna vertebral, tendão(ões) ou tecido(s) mole(s) relacionado(s). É um grupo heterogêneo de condições dolorosas crônicas originadas de nocicepção persistente em articulações, ossos, músculos, coluna vertebral, tendões e tecidos moles relacionados, com etiologias locais e sistêmicas, mas também relacionadas a lesões somáticas profundas. A dor pode ser espontânea ou induzida por movimento."
+          }
+        }
+      ]
+    }
+  }
+}

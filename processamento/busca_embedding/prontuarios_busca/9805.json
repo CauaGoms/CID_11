@@ -1,0 +1,434 @@
+{
+  "prontuario_id": 277,
+  "text": "03:45 H CLIENTE PROVENIENTE DO PRONTO ATENDIMENTO NO PERIODO DA TARDE, PARA TRATAMENTO DE ESCARA SACRAL, INTERNA PARA REALIZAR DEBRIDAMENTO. ACAMADA, ALERTA, EUPNEICA, AFEBRIL, ORIENTADA, EMAGRECIDA, HEMATOMA EM FACE ESQUERDA. ACEITA DIETA OFERECIDA. MANTEM ACESSO PERIFERICO EM MSD SALINIZADO. ABDOMEM GLOBOSO E FLACIDO. APRESENTA CURATIVO REGIÃO DE ÚLCERA SACRA COM ODOR FÉTIDO E PRESENÇA DE NECROSE. ELIMINAÇÕES EM FRALDA. REALIZADO MEDIDAS DE CONFORTO E MUDANÇA DE DECUBITO. SEGUE EM OBSERVAÇÃO E CUIDADOS. Enfermeira Florence Nightingale . EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO.",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "TRATAMENTO",
+      "OBSERVAÇÃO",
+      "CUIDADOS",
+      "MEDIDAS DE CONFORTO",
+      "EXAME GERAL"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TRATAMENTO",
+      "DEBRIDAMENTO",
+      "DIETA",
+      "CURATIVO",
+      "ACESSO PERIFERICO",
+      "MUDANÇA DE DECUBITO"
+    ],
+    "Sinal ou Sintoma": [
+      "ACAMADA",
+      "AFEBRIL",
+      "EMAGRECIDA",
+      "HEMATOMA",
+      "NECROSE",
+      "QUEIXAS",
+      "ODOR FÉTIDO"
+    ],
+    "Achado": [
+      "ALERTA",
+      "EUPNEICA",
+      "ORIENTADA",
+      "GLOBOSO",
+      "FLACIDO"
+    ],
+    "Negação": [
+      "AFEBRIL",
+      "SEM"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MSD",
+      "ABDOMEM"
+    ],
+    "Abreviação": [
+      "MSD"
+    ],
+    "Dispositivo Médico": [
+      "CURATIVO",
+      "FRALDA",
+      "ACESSO PERIFERICO"
+    ],
+    "Função de Órgão ou Tecido": [
+      "NECROSE"
+    ],
+    "Objeto Manufaturado": [
+      "FRALDA"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Organização Relacionada à Saúde": [
+      "PRONTO ATENDIMENTO"
+    ],
+    "Conceito Temporal": [
+      "PERIODO DA TARDE"
+    ],
+    "Doença ou Síndrome": [
+      "ESCARA SACRAL",
+      "DIAGNOSTICO RELATADO ."
+    ],
+    "Localização ou Região Corporal": [
+      "FACE ESQUERDA",
+      "REGIÃO DE ÚLCERA SACRA"
+    ],
+    "Conceito Qualitativo": [
+      "ODOR FÉTIDO"
+    ],
+    "Procedimento Diagnóstico": [
+      "INVESTIGACAO DE PESSOAS"
+    ]
+  },
+  "labels": {
+    "acamada": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NB51.2": {
+            "confidence_embedding": 0.7508,
+            "text": "Representação de doença CID-11: Ferimento perfurante sem corpo estranho do abdome, região lombar ou pelve. Definição: "
+          }
+        },
+        {
+          "NA00.02": {
+            "confidence_embedding": 0.7464,
+            "text": "Representação de doença CID-11: Corpo estranho superficial no couro cabeludo. Definição: "
+          }
+        },
+        {
+          "NB51.3": {
+            "confidence_embedding": 0.7441,
+            "text": "Representação de doença CID-11: Ferimento perfurante com corpo estranho do abdome, região lombar ou pelve. Definição: "
+          }
+        },
+        {
+          "NC91.0": {
+            "confidence_embedding": 0.743,
+            "text": "Representação de doença CID-11: Laceração sem corpo estranho da perna. Definição: "
+          }
+        },
+        {
+          "ND92.02": {
+            "confidence_embedding": 0.7428,
+            "text": "Representação de doença CID-11: Queimadura da parede abdominal, queimadura epidérmica. Definição: "
+          }
+        }
+      ]
+    },
+    "flacido": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FB32.20": {
+            "confidence_embedding": 0.7405,
+            "text": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave."
+          }
+        },
+        {
+          "FA80.8": {
+            "confidence_embedding": 0.7161,
+            "text": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: "
+          }
+        },
+        {
+          "FA80.4": {
+            "confidence_embedding": 0.7157,
+            "text": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica sem prolapso de disco. Definição: "
+          }
+        },
+        {
+          "FB56.1": {
+            "confidence_embedding": 0.713,
+            "text": "Representação de doença CID-11: Corpo estranho residual no tecido mole. Definição: "
+          }
+        },
+        {
+          "FA80.5": {
+            "confidence_embedding": 0.7118,
+            "text": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica com prolapso de disco. Definição: "
+          }
+        }
+      ]
+    },
+    "hematoma": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "EB31": {
+            "confidence_embedding": 0.7816,
+            "text": "Representação de doença CID-11: Eritema nodoso. Definição: Erupção eritematosa comumente associada a reações a medicamentos ou infecção e caracterizada por nódulos inflamatórios que geralmente são dolorosos, múltiplos e bilaterais. Esses nódulos localizam-se predominantemente na face anterior das pernas, com ocorrência menos comum nas coxas e antebraços. Eles sofrem mudanças de cor características que terminam em áreas temporárias semelhantes a hematomas. Esta condição geralmente desaparece em 3-6 semanas sem cicatriz ou atrofia."
+          }
+        },
+        {
+          "EB13.1": {
+            "confidence_embedding": 0.7604,
+            "text": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável."
+          }
+        },
+        {
+          "EB02.0": {
+            "confidence_embedding": 0.7531,
+            "text": "Representação de doença CID-11: Urticária colinérgica. Definição: Urticária colinérgica apresenta-se como uma erupção de múltiplas lesões papulares monomórficas pequenas de 2-3 mm, em resposta a estímulos indutores de sudorese como esforço físico, banhos quentes, comidas apimentadas ou estresse emocional súbito. As pápulas tendem a ser rosadas em casos leves, mas brancas com eritema macular de permeio quando o edema é mais intenso. Angioedema e manifestações sistêmicas incluindo cefaleia, palpitações, sibilância e síncope podem ocorrer em casos graves."
+          }
+        },
+        {
+          "EB51": {
+            "confidence_embedding": 0.7469,
+            "text": "Representação de doença CID-11: Lúpus eritematoso cutâneo crônico. Definição: Lúpus eritematoso cutâneo crônico (LECC) é caracterizado pela presença de placas cutâneas circunscritas apresentando graus variados de edema, eritema, descamação, tamponamento e atrofia folicular. Apresenta-se mais comumente como placas discoides envolvendo face, orelhas e couro cabeludo, mas pode ser amplamente disseminada ou acometer predominantemente extremidades (lúpus Chilblain) ou a gordura subcutânea (paniculite lúpica). Pode causar desfiguração acentuada com cicatrizes faciais proeminentes e perda de cabelo permanente. A maioria dos pacientes permanece com boa saúde, mas 5-10% podem desenvolver lúpus eritematoso sistêmico. A fotossensibilidade é menos evidente do que no lúpus eritematoso cutâneo subagudo."
+          }
+        },
+        {
+          "ED70.30": {
+            "confidence_embedding": 0.7377,
+            "text": "Representação de doença CID-11: Eflúvio telógeno agudo. Definição: Eflúvio telógeno agudo é uma queda de cabelos do couro cabeludo de início agudo que ocorre dois a três meses após um estresse desencadeante, muitas vezes com risco à vida, e que interrompe o crescimento anágeno normal do fio. É comumente observado em sobreviventes que necessitaram de cuidados intensivos para sepse, hemorragia, doença inflamatória ou traumatismo graves. Também pode resultar de desnutrição aguda. Um grande número de fios anágenos são convertidos em telógenos e são eliminados dois a três meses depois, resultando em uma alopecia difusa."
+          }
+        }
+      ]
+    },
+    "escara sacral": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "EB60": {
+            "confidence_embedding": 0.7368,
+            "text": "Representação de doença CID-11: Líquen escleroso. Definição: O líquen escleroso é uma dermatose inflamatória crônica de etiologia desconhecida. Afeta tanto mulheres como homens de todas as idades. Caracteriza-se pelo desenvolvimento de placas brancas, lisas e atróficas na pele vulvar e perianal nas mulheres e no prepúcio e glande do pênis nos homens. Muitas vezes resulta na formação de cicatriz levando a um intróito estreito ou fimose com comprometimento da função urinária e sexual. O risco de carcinoma de células escamosas anogenital é ligeiramente aumentado. Menos comumente, outros locais da pele são afetados, independentemente ou em conjunto com o envolvimento anogenital."
+          }
+        },
+        {
+          "EB60.0": {
+            "confidence_embedding": 0.734,
+            "text": "Representação de doença CID-11: Líquen escleroso da vulva. Definição: Líquen escleroso da vulva é um transtorno inflamatório de etiologia desconhecida que afeta a pele da vulva e da área perianal. Tipicamente afeta mulheres na quinta e sexta décadas de vida, embora não seja incomum em meninas pré-púberes. Ele se apresenta com prurido, dor ou dispareunia. A pele afetada é branca e atrófica, embora alterações secundárias, incluindo maceração, púrpura e erosão, possam dominar o quadro clínico. Em casos de longa data, pode haver redução acentuada da vulva, fusão labial e um risco aumentado de transformação maligna."
+          }
+        },
+        {
+          "EB13.1": {
+            "confidence_embedding": 0.7312,
+            "text": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável."
+          }
+        },
+        {
+          "EB60.1": {
+            "confidence_embedding": 0.7235,
+            "text": "Representação de doença CID-11: Líquen escleroso do pênis. Definição: Líquen escleroso do pênis se desenvolve quase exclusivamente em homens não circuncidados e é o resultado do contato oclusivo crônico de epitélio suscetível à urina. Frequentemente, causa dispareunia e dificuldades com a micção. Manifesta-se tipicamente como fimose esclerótica do prepúcio, que pode não ser possível de retração, junto com inflamação e esclerose da superfície mucocutânea do prepúcio e da glande do pênis. Estenose e ocasionalmente obliteração do orifício meatal externo podem ocorrer em casos graves. Embora mais comumente reconhecida em homens adultos, é uma causa comum de fimose adquirida em meninos."
+          }
+        },
+        {
+          "EB51": {
+            "confidence_embedding": 0.7228,
+            "text": "Representação de doença CID-11: Lúpus eritematoso cutâneo crônico. Definição: Lúpus eritematoso cutâneo crônico (LECC) é caracterizado pela presença de placas cutâneas circunscritas apresentando graus variados de edema, eritema, descamação, tamponamento e atrofia folicular. Apresenta-se mais comumente como placas discoides envolvendo face, orelhas e couro cabeludo, mas pode ser amplamente disseminada ou acometer predominantemente extremidades (lúpus Chilblain) ou a gordura subcutânea (paniculite lúpica). Pode causar desfiguração acentuada com cicatrizes faciais proeminentes e perda de cabelo permanente. A maioria dos pacientes permanece com boa saúde, mas 5-10% podem desenvolver lúpus eritematoso sistêmico. A fotossensibilidade é menos evidente do que no lúpus eritematoso cutâneo subagudo."
+          }
+        }
+      ]
+    },
+    "necrose": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "EB13.1": {
+            "confidence_embedding": 0.7954,
+            "text": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável."
+          }
+        },
+        {
+          "EB31": {
+            "confidence_embedding": 0.7684,
+            "text": "Representação de doença CID-11: Eritema nodoso. Definição: Erupção eritematosa comumente associada a reações a medicamentos ou infecção e caracterizada por nódulos inflamatórios que geralmente são dolorosos, múltiplos e bilaterais. Esses nódulos localizam-se predominantemente na face anterior das pernas, com ocorrência menos comum nas coxas e antebraços. Eles sofrem mudanças de cor características que terminam em áreas temporárias semelhantes a hematomas. Esta condição geralmente desaparece em 3-6 semanas sem cicatriz ou atrofia."
+          }
+        },
+        {
+          "EE80.1": {
+            "confidence_embedding": 0.7613,
+            "text": "Representação de doença CID-11: Necrobiose lipoídica. Definição: Necrobiose lipoídica é uma condição cutânea incomum na qual o colágeno dérmico degenerado é cercado por uma resposta inflamatória granulomatosa de modo a produzir placas brilhantes, marrom-avermelhadas ou amareladas na pele, particularmente na face anterior das pernas. Em casos graves, a pele afetada pode ulcerar. Está associada, na maioria dos casos, mas não em todos, a diabetes mellitus subjacente, cujo início pode preceder."
+          }
+        },
+        {
+          "EB60": {
+            "confidence_embedding": 0.7606,
+            "text": "Representação de doença CID-11: Líquen escleroso. Definição: O líquen escleroso é uma dermatose inflamatória crônica de etiologia desconhecida. Afeta tanto mulheres como homens de todas as idades. Caracteriza-se pelo desenvolvimento de placas brancas, lisas e atróficas na pele vulvar e perianal nas mulheres e no prepúcio e glande do pênis nos homens. Muitas vezes resulta na formação de cicatriz levando a um intróito estreito ou fimose com comprometimento da função urinária e sexual. O risco de carcinoma de células escamosas anogenital é ligeiramente aumentado. Menos comumente, outros locais da pele são afetados, independentemente ou em conjunto com o envolvimento anogenital."
+          }
+        },
+        {
+          "EA90.2": {
+            "confidence_embedding": 0.7575,
+            "text": "Representação de doença CID-11: Psoríase instável. Definição: Psoríase instável é uma forma inflamatória de psoríase que pode ser precursora de psoríase eritrodérmica ou pustulosa generalizada. Caracteriza-se por inflamação em torno das margens das placas existentes e/ou aparecimento de múltiplas pequenas pápulas e placas inflamatórias. Alguns pacientes podem ter uma tendência por toda a vida para psoríase instável. Tende a ser difícil de controlar sem recorrer a terapia sistêmica."
+          }
+        }
+      ]
+    },
+    "alerta": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7723,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MA15.0": {
+            "confidence_embedding": 0.7571,
+            "text": "Representação de doença CID-11: Bacteremia. Definição: Presença de bactérias no sangue. Isto pode ser detectado, por exemplo, por uma hemocultura positiva."
+          }
+        },
+        {
+          "MB22.7": {
+            "confidence_embedding": 0.7558,
+            "text": "Representação de doença CID-11: Cansaço. Definição: Sensação de redução do estado de alerta e de redução concomitante da acuidade mental, em alguns casos resultando no impulso ou tendência de adormecer."
+          }
+        },
+        {
+          "ME62.9": {
+            "confidence_embedding": 0.7546,
+            "text": "Representação de doença CID-11: Escoriação cutânea aguda. Definição: Diagnóstico provisório de erupção cutânea de natureza desconhecida ou incerta, que surge abruptamente e que consiste em múltiplas escoriações. Na maioria dos casos, a escoriação é secundária ao prurido intenso decorrente de um transtornos sistêmico subjacente, como icterícia colestática, ou de uma doença cutânea pruriginosa, como eczema. Em alguns casos, entretanto, fatores psicogênicos podem ser responsáveis."
+          }
+        },
+        {
+          "ME05.0": {
+            "confidence_embedding": 0.75,
+            "text": "Representação de doença CID-11: Constipação. Definição: A constipação é uma condição aguda ou crônica na qual os movimentos intestinais ocorrem com menor frequência do que o normal ou consiste em fezes secas e duras que costumam ser dolorosas ou difíceis de evacuar. Aqui está descrita a constipação que não está especificamente descrita em outra parte, como em transtornos da motilidade do intestino ou em doenças funcionais do intestino."
+          }
+        }
+      ]
+    },
+    "odor fétido": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "EC90.4": {
+            "confidence_embedding": 0.7644,
+            "text": "Representação de doença CID-11: Prurido psicogênico. Definição: Prurido crônico episódico na ausência de uma causa orgânica identificável e tipicamente associado a estresse e/ou depressão."
+          }
+        },
+        {
+          "EB13.1": {
+            "confidence_embedding": 0.7608,
+            "text": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável."
+          }
+        },
+        {
+          "EA90.2": {
+            "confidence_embedding": 0.7486,
+            "text": "Representação de doença CID-11: Psoríase instável. Definição: Psoríase instável é uma forma inflamatória de psoríase que pode ser precursora de psoríase eritrodérmica ou pustulosa generalizada. Caracteriza-se por inflamação em torno das margens das placas existentes e/ou aparecimento de múltiplas pequenas pápulas e placas inflamatórias. Alguns pacientes podem ter uma tendência por toda a vida para psoríase instável. Tende a ser difícil de controlar sem recorrer a terapia sistêmica."
+          }
+        },
+        {
+          "EB60": {
+            "confidence_embedding": 0.7464,
+            "text": "Representação de doença CID-11: Líquen escleroso. Definição: O líquen escleroso é uma dermatose inflamatória crônica de etiologia desconhecida. Afeta tanto mulheres como homens de todas as idades. Caracteriza-se pelo desenvolvimento de placas brancas, lisas e atróficas na pele vulvar e perianal nas mulheres e no prepúcio e glande do pênis nos homens. Muitas vezes resulta na formação de cicatriz levando a um intróito estreito ou fimose com comprometimento da função urinária e sexual. O risco de carcinoma de células escamosas anogenital é ligeiramente aumentado. Menos comumente, outros locais da pele são afetados, independentemente ou em conjunto com o envolvimento anogenital."
+          }
+        },
+        {
+          "EB60.1": {
+            "confidence_embedding": 0.7461,
+            "text": "Representação de doença CID-11: Líquen escleroso do pênis. Definição: Líquen escleroso do pênis se desenvolve quase exclusivamente em homens não circuncidados e é o resultado do contato oclusivo crônico de epitélio suscetível à urina. Frequentemente, causa dispareunia e dificuldades com a micção. Manifesta-se tipicamente como fimose esclerótica do prepúcio, que pode não ser possível de retração, junto com inflamação e esclerose da superfície mucocutânea do prepúcio e da glande do pênis. Estenose e ocasionalmente obliteração do orifício meatal externo podem ocorrer em casos graves. Embora mais comumente reconhecida em homens adultos, é uma causa comum de fimose adquirida em meninos."
+          }
+        }
+      ]
+    },
+    "globoso": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FB32.20": {
+            "confidence_embedding": 0.7303,
+            "text": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave."
+          }
+        },
+        {
+          "FA80.8": {
+            "confidence_embedding": 0.7266,
+            "text": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: "
+          }
+        },
+        {
+          "FA80.4": {
+            "confidence_embedding": 0.7227,
+            "text": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica sem prolapso de disco. Definição: "
+          }
+        },
+        {
+          "FB80.5": {
+            "confidence_embedding": 0.7206,
+            "text": "Representação de doença CID-11: Cisto ósseo solitário. Definição: O cisto ósseo soliário é uma lesão óssea cavitária benigna, sem revestimento epitelial, assintomática, mais comumente encontrada ao acaso, na segunda década de vida. Os ossos longos são afetados mais frequentemente, mas o envolvimento do osso da mandíbula foi relatado."
+          }
+        },
+        {
+          "FB50.0": {
+            "confidence_embedding": 0.7205,
+            "text": "Representação de doença CID-11: Bursite infecciosasa. Definição: Esta é uma inflamação de uma ou mais bursas (pequenas bolsas) sinoviais que geralmente resulta em dor e é causada por um agente infeccioso."
+          }
+        }
+      ]
+    },
+    "queixas": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "ME86": {
+            "confidence_embedding": 0.776,
+            "text": "Representação de doença CID-11: Sintoma ou queixa de uma parte do corpo. Definição: "
+          }
+        },
+        {
+          "MF33": {
+            "confidence_embedding": 0.7672,
+            "text": "Representação de doença CID-11: Sintoma ou queixa pré-menstrual. Definição: Um sintoma idiopático da síndrome pré-menstrual que afeta mulheres e é idiopático. Caracterizado por sintomas emocionais, físicos ou comportamentais cíclicos, como alterações de humor, alterações psicológicas, retenção de líquidos, alterações neurológicas, alterações gastrointestinais, sensação de peso pélvico ou alterações dermatológicas que afetam mulheres na fase lútea do ciclo menstrual e que interferem com o estilo de vida da pessoa."
+          }
+        },
+        {
+          "MF39": {
+            "confidence_embedding": 0.7665,
+            "text": "Representação de doença CID-11: Sintoma ou queixa da vulva. Definição: "
+          }
+        },
+        {
+          "MF34": {
+            "confidence_embedding": 0.7651,
+            "text": "Representação de doença CID-11: Sintoma ou queixa da gravidez. Definição: "
+          }
+        },
+        {
+          "MB23.7": {
+            "confidence_embedding": 0.7599,
+            "text": "Representação de doença CID-11: Aparência descuidada. Definição: Aparência desarrumada ou descuidada, refletindo uma falta de atenção a um ou mais aspectos da higiene, aparência ou vestimenta."
+          }
+        }
+      ]
+    },
+    "diagnostico relatado": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MG00": {
+            "confidence_embedding": 0.7566,
+            "text": "Representação de doença CID-11: Achados clínicos de exames para diagnóstico por imagem da mama. Definição: Achados clínicos no diagnóstico por imagem da mama são achados diagnósticos de imagem da mama que não aparecem no estado normal do corpo. Diagnóstico por imagem refere-se a tecnologias que os médicos usam para olhar dentro do corpo em busca de pistas sobre uma condição médica. Raios-X, tomografias computadorizadas, exames de medicina nuclear, exames de ressonância magnética e ultrassom são todos tipos diagnóstico por imagem."
+          }
+        },
+        {
+          "MA15.0": {
+            "confidence_embedding": 0.7565,
+            "text": "Representação de doença CID-11: Bacteremia. Definição: Presença de bactérias no sangue. Isto pode ser detectado, por exemplo, por uma hemocultura positiva."
+          }
+        },
+        {
+          "MB20.1": {
+            "confidence_embedding": 0.7486,
+            "text": "Representação de doença CID-11: Coma. Definição: Estado agudo com duração de mais de uma hora e geralmente menos de um mês. O paciente em coma está arresponsivo, fica com os olhos fechados e não pode ser despertado nem mesmo por estímulos vigorosos e dolorosos. As respostas motoras à estimulação dolorosa estão limitadas a reflexos. As etiologias incluem, mas não estão limitadas a, lesões cerebrais traumáticas, anóxicas, infecciosas, neoplásicas, vasculares, inflamatórias e metabólicas."
+          }
+        },
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7484,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MG30.2": {
+            "confidence_embedding": 0.7429,
+            "text": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente."
+          }
+        }
+      ]
+    }
+  }
+}

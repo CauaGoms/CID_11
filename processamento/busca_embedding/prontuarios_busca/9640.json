@@ -1,0 +1,155 @@
+{
+  "prontuario_id": 443,
+  "text": "ins cardiac com retorno com exames \nchagas nao reagente em 3 metodos. \nhb glicada 6,15 \ncreat 0,91, glicose 98m ct 164, hdl 38, ldl 96, tg 151, tsh 0,96\necocardo ve 9,4 / 8,5, feve 20, vd 24, ae 5\nrefere melhora da dispmia..\nporem ainda em classe funcional III\nprescrevo enalapril 10 / 10, furosemida 40 / 40, carvedilol 6,25 / 6,25 , apresolina 50 / 50 , espironoloactona 25 / dia\n \n \n \n ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "retorno",
+      "prescrevo"
+    ],
+    "Procedimento Laboratorial": [
+      "exames"
+    ],
+    "Abreviação": [
+      "ecocardo",
+      "ins cardiac",
+      "hb glicada 6 , 15",
+      "creat 0 , 91",
+      "glicose 98m",
+      "ct 164",
+      "hdl 38",
+      "ldl 96",
+      "tg 151",
+      "tsh 0 , 96",
+      "ve 9 , 4 / 8 , 5",
+      "feve 20",
+      "vd 24",
+      "ae 5"
+    ],
+    "Procedimento Diagnóstico": [
+      "ecocardo"
+    ],
+    "Substância Química Orgânica": [
+      "enalapril",
+      "furosemida",
+      "carvedilol",
+      "apresolina",
+      "espironoloactona"
+    ],
+    "Substância Farmacológica": [
+      "enalapril",
+      "furosemida",
+      "carvedilol",
+      "apresolina",
+      "espironoloactona"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "enalapril"
+    ],
+    "Conceito Quantitativo": [
+      "25",
+      "10 / 10",
+      "40 / 40",
+      "6 , 25 / 6 , 25",
+      "50 / 50"
+    ],
+    "Conceito Temporal": [
+      "dia"
+    ],
+    "Doença ou Síndrome": [
+      "ins cardiac"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "chagas nao reagente",
+      "hb glicada 6 , 15",
+      "creat 0 , 91",
+      "glicose 98m",
+      "ct 164",
+      "hdl 38",
+      "ldl 96",
+      "tg 151",
+      "tsh 0 , 96",
+      "ve 9 , 4 / 8 , 5",
+      "feve 20",
+      "vd 24",
+      "ae 5"
+    ],
+    "Achado": [
+      "melhora da dispmia"
+    ],
+    "Classificação": [
+      "classe funcional III"
+    ]
+  },
+  "labels": {
+    "melhora da dispmia": {
+      "capitulo": "V",
+      "opcoes": [
+        {
+          "VV3Z": {
+            "confidence_embedding": 0.6834,
+            "text": "Representação de doença CID-11: Funções dos sistemas cardiovascular, hematológico, imunológico e respiratório, não especificadas. Definição: "
+          }
+        },
+        {
+          "VV3Y": {
+            "confidence_embedding": 0.6779,
+            "text": "Representação de doença CID-11: Outras funções dos sistemas cardiovascular, hematológico, imunológico e respiratório, especificadas. Definição: "
+          }
+        },
+        {
+          "VE10": {
+            "confidence_embedding": 0.667,
+            "text": "Representação de doença CID-11: Funções da energia e de impulsos [BMDS]. Definição: "
+          }
+        },
+        {
+          "VE00": {
+            "confidence_embedding": 0.6666,
+            "text": "Representação de doença CID-11: Visão e funções relacionadas [BMDS]. Definição: "
+          }
+        },
+        {
+          "VE12": {
+            "confidence_embedding": 0.6631,
+            "text": "Representação de doença CID-11: Funções emocionais [BMDS]. Definição: "
+          }
+        }
+      ]
+    },
+    "ins cardiac": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA41": {
+            "confidence_embedding": 0.7964,
+            "text": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)"
+          }
+        },
+        {
+          "BA41.0": {
+            "confidence_embedding": 0.7755,
+            "text": "Representação de doença CID-11: Infarto agudo do miocárdio com supradesnível de ST. Definição: Infarto agudo do miocárdio com supradesnível de ST (IAMCSST) é um infarto agudo do miocárdio com desenvolvimento de supradesnível de ST em duas derivações contíguas do eletrocardiograma. Os critérios de elevação do ST são os seguintes; novo supradesnível de ST no ponto J em duas derivações contíguas aplicando os pontos de corte: 0,2mV em homens> 40 anos; > 0,25mV em homens <40 anos, e > 0,15mV em mulheres."
+          }
+        },
+        {
+          "BA60": {
+            "confidence_embedding": 0.7742,
+            "text": "Representação de doença CID-11: Algumas complicações atuais subsequentes ao infarto agudo do miocárdio. Definição: Condições secundárias que podem ocorrer no curso após o ataque cardíaco. Elas incluem pericardite, arritmia, choque cardiogênico, insuficiência cardíaca, ruptura ventricular, aneurisma ventricular (com trombo) e infarto recorrente."
+          }
+        },
+        {
+          "BA01": {
+            "confidence_embedding": 0.7715,
+            "text": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração."
+          }
+        },
+        {
+          "BE10": {
+            "confidence_embedding": 0.7714,
+            "text": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite."
+          }
+        }
+      ]
+    }
+  }
+}

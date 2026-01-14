@@ -1,0 +1,310 @@
+{
+  "prontuario_id": 301,
+  "text": "PACIENTE HAS , DPOC , TABAGISTA , EX-ETILISTA , INTERNA COM QUADRO CLÍNICO DE DOR TORÁCICA IRRADIADA PARA COTOVELO DIREITO , EM REPOUSO , CARACTERÍSTICA DE APERTO , DURAÇÃO DE 4 HORAS , A QUAL TERIA INICADO HÁ 4 SEMANAS AOS ESFORÇOS .  INTERNA NO CTI-HCPA COM SUSPEITA DIAGNÓSTICA DE ANGINA PROGRESSIVA . NA INVESTIGAÇÃO , REALIZOU CATETERISMO CARDÍACO , O QUAL DEMONSTROU CORONÁRIAS SEM LESÕES OBSTRUTIVAS SIGNIFICATIVAS , E ECOCARDIOGRAMA COM AE = 50 , VE = 56/37 ,  FE = 65% , S = 16 , PP = 12  E ESTENOSE AÓRTICA LEVE-MODERADA COM GRADIENTE MÉDIO DE 31 MMHG . TERÁ ALTA HOSPITALAR ASSINTOMÁTICA , COM MEDICAÇÃO ANTIHIPERTENSIVA E COM PROFILAXIA PARA ENDOCARDITE .",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Abreviação": [
+      "HAS",
+      "DPOC",
+      "AE = 50",
+      "VE = 56/37",
+      "FE = 65%",
+      "S = 16",
+      "PP = 12"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DPOC",
+      "TABAGISTA",
+      "ANGINA PROGRESSIVA"
+    ],
+    "Achado": [
+      "EX-ETILISTA"
+    ],
+    "Procedimento Diagnóstico": [
+      "INVESTIGAÇÃO",
+      "CATETERISMO CARDÍACO",
+      "E ECOCARDIOGRAMA"
+    ],
+    "Negação": [
+      "SEM",
+      "ASSINTOMÁTICA"
+    ],
+    "Sinal ou Sintoma": [
+      "ASSINTOMÁTICA",
+      "DOR TORÁCICA",
+      "IRRADIADA PARA COTOVELO DIREITO",
+      "EM REPOUSO",
+      "CARACTERÍSTICA DE APERTO",
+      "ANGINA PROGRESSIVA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CATETERISMO CARDÍACO",
+      "PROFILAXIA PARA ENDOCARDITE"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "LESÕES OBSTRUTIVAS SIGNIFICATIVAS",
+      "AE = 50",
+      "VE = 56/37",
+      "FE = 65%",
+      "S = 16",
+      "PP = 12",
+      "ESTENOSE AÓRTICA LEVE-MODERADA COM GRADIENTE MÉDIO DE 31 MMHG"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ALTA HOSPITALAR"
+    ],
+    "Substância Farmacológica": [
+      "MEDICAÇÃO ANTIHIPERTENSIVA"
+    ]
+  },
+  "labels": {
+    "tabagista": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA60.1": {
+            "confidence_embedding": 0.7883,
+            "text": "Representação de doença CID-11: Outra pericardite como complicação atual subsequente a infarto agudo do miocárdio. Definição: Inflamação do pericárdio que pode causar dor no peito, que ocorre tão precocemente quanto o primeiro dia e até 6 semanas após o infarto agudo do miocárdio. A dor da pericardite irradia para qualquer crista do trapézio. O infarto do miocárdio transmural é responsável pela inflamação pericárdica local. Atritos pericárdicos transitórios são relativamente comuns em pacientes com infarto transmural nas primeiras 48 horas. Uma pericardite fibrinosa aguda ocorre comumente após o infarto transmural, enquanto o risco de pericardite hemorrágica está aumentado por anticoagulação."
+          }
+        },
+        {
+          "BE10": {
+            "confidence_embedding": 0.7792,
+            "text": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite."
+          }
+        },
+        {
+          "BA51": {
+            "confidence_embedding": 0.7696,
+            "text": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas."
+          }
+        },
+        {
+          "BE1F.0": {
+            "confidence_embedding": 0.7691,
+            "text": "Representação de doença CID-11: Perfuração atrial esquerda pós procedimento. Definição: Perfuração da parede do átrio morfologicamente esquerdo que ocorreu durante ou após uma intervenção"
+          }
+        },
+        {
+          "BA41": {
+            "confidence_embedding": 0.7647,
+            "text": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)"
+          }
+        }
+      ]
+    },
+    "característica de aperto": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MG30.2": {
+            "confidence_embedding": 0.7917,
+            "text": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente."
+          }
+        },
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7813,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MG30.20": {
+            "confidence_embedding": 0.78,
+            "text": "Representação de doença CID-11: Dor crônica pós-traumática. Definição: Dor pós-traumática crônica é a dor que se desenvolve ou aumenta de intensidade após uma lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após o traumatismo tecidual. A dor é ou localizada na área da lesão, ou referida no território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente por um problema doloroso preexistente."
+          }
+        },
+        {
+          "MG30.21": {
+            "confidence_embedding": 0.7787,
+            "text": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática."
+          }
+        },
+        {
+          "MD11.5": {
+            "confidence_embedding": 0.7767,
+            "text": "Representação de doença CID-11: Dispneia. Definição: Dispneia é o termo utilizado para descrever percepções de dificuldade ou sofrimento relacionados à respiração e é reconhecido como sintoma de doença quando ocorre em circunstâncias inapropriadas. Dispneia é uma queixa apresentada por pacientes com uma ampla variedade de condições médicas, causadas por múltiplos mecanismos.\r\nA dispneia é considerada aguda quando dura de horas a 3 semanas, subaguda de 3 a 8 semanas e a dispneia crônica dura mais de 8 semanas."
+          }
+        }
+      ]
+    },
+    "irradiada para cotovelo direito": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA60.1": {
+            "confidence_embedding": 0.7828,
+            "text": "Representação de doença CID-11: Outra pericardite como complicação atual subsequente a infarto agudo do miocárdio. Definição: Inflamação do pericárdio que pode causar dor no peito, que ocorre tão precocemente quanto o primeiro dia e até 6 semanas após o infarto agudo do miocárdio. A dor da pericardite irradia para qualquer crista do trapézio. O infarto do miocárdio transmural é responsável pela inflamação pericárdica local. Atritos pericárdicos transitórios são relativamente comuns em pacientes com infarto transmural nas primeiras 48 horas. Uma pericardite fibrinosa aguda ocorre comumente após o infarto transmural, enquanto o risco de pericardite hemorrágica está aumentado por anticoagulação."
+          }
+        },
+        {
+          "BA01": {
+            "confidence_embedding": 0.7559,
+            "text": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração."
+          }
+        },
+        {
+          "BE10": {
+            "confidence_embedding": 0.7558,
+            "text": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite."
+          }
+        },
+        {
+          "BE1F.0": {
+            "confidence_embedding": 0.7555,
+            "text": "Representação de doença CID-11: Perfuração atrial esquerda pós procedimento. Definição: Perfuração da parede do átrio morfologicamente esquerdo que ocorreu durante ou após uma intervenção"
+          }
+        },
+        {
+          "BC62": {
+            "confidence_embedding": 0.7506,
+            "text": "Representação de doença CID-11: Via acessória. Definição: Conexão elétrica adicional que tipicamente desvia do nó AV, tipicamente inserindo-se diretamente no miocárdio atrial e ventricular, mas também pode se conectar ao sistema de condução especializado (p.ex., o feixe de His, feixes direito ou esquerdo, ou um dos fascículos)."
+          }
+        }
+      ]
+    },
+    "angina progressiva": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA40.Y": {
+            "confidence_embedding": 0.7992,
+            "text": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: "
+          }
+        },
+        {
+          "BA85": {
+            "confidence_embedding": 0.7986,
+            "text": "Representação de doença CID-11: Doença vasoespástica coronariana. Definição: O termo doença coronariana vasoespástica refere-se a uma vasoconstrição súbita e intensa de uma artéria coronária epicárdica que causa a oclusão ou quasi-oclusão do vaso. Embora possa estar envolvido em outras síndromes coronárias, representa a causa habitual de angina variante."
+          }
+        },
+        {
+          "BA40.Z": {
+            "confidence_embedding": 0.7891,
+            "text": "Representação de doença CID-11: Angina pectoris não especificada. Definição: "
+          }
+        },
+        {
+          "BC43": {
+            "confidence_embedding": 0.7719,
+            "text": "Representação de doença CID-11: Cardiomiopatia. Definição: Transtornos do miocárdio em que o músculo cardíaco é estrutural e funcionalmente anormal, na ausência de doença arterial coronariana, hipertensão, doença valvar e doença cardíaca congênita suficiente para causar a anormalidade miocárdica observada."
+          }
+        },
+        {
+          "BA60.1": {
+            "confidence_embedding": 0.7703,
+            "text": "Representação de doença CID-11: Outra pericardite como complicação atual subsequente a infarto agudo do miocárdio. Definição: Inflamação do pericárdio que pode causar dor no peito, que ocorre tão precocemente quanto o primeiro dia e até 6 semanas após o infarto agudo do miocárdio. A dor da pericardite irradia para qualquer crista do trapézio. O infarto do miocárdio transmural é responsável pela inflamação pericárdica local. Atritos pericárdicos transitórios são relativamente comuns em pacientes com infarto transmural nas primeiras 48 horas. Uma pericardite fibrinosa aguda ocorre comumente após o infarto transmural, enquanto o risco de pericardite hemorrágica está aumentado por anticoagulação."
+          }
+        }
+      ]
+    },
+    "dpoc": {
+      "capitulo": "06",
+      "opcoes": [
+        {
+          "6C45.3": {
+            "confidence_embedding": 0.7732,
+            "text": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia."
+          }
+        },
+        {
+          "6C48.2": {
+            "confidence_embedding": 0.7625,
+            "text": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais."
+          }
+        },
+        {
+          "6C40.3": {
+            "confidence_embedding": 0.761,
+            "text": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas."
+          }
+        },
+        {
+          "6E61": {
+            "confidence_embedding": 0.7577,
+            "text": "Representação de doença CID-11: Síndrome psicótica secundária. Definição: Síndrome caracterizada pela presença de alucinações ou delírios proeminentes, considerados consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental, com base em evidências de anamnese, exame físico ou achados laboratoriais. Os sintomas não são explicados por delirium ou por outro transtorno mental e comportamental, e não são uma resposta psicologicamente mediada a uma condição médica grave (p. ex., uma reação aguda ao estresse em resposta ao diagnóstico de uma doença potencialmente fatal). Essa categoria deve ser utilizada somada ao diagnóstico do transtorno ou doença subjacente presumido, quando os sintomas psicóticos forem suficientemente graves para exigir atenção clínica específica."
+          }
+        },
+        {
+          "6E40.2": {
+            "confidence_embedding": 0.7571,
+            "text": "Representação de doença CID-11: Traços de personalidade ou estilos de enfrentamento afetando transtornos ou doenças classificados em outra parte. Definição: Todos os critérios diagnósticos para fatores psicológicos ou comportamentais afetando transtornos ou doenças classificados em outra parte são preenchidos. O indivíduo apresenta traços de personalidade ou estilos de enfrentamento que não preenchem critérios diagnósticos para um transtorno mental, comportamental ou do neurodesenvolvimento, que afetam de forma adversa a manifestação, o tratamento ou curso de um transtorno ou doença classificado em outro capítulo (p.ex., negação patológica da necessidade de cirurgia em um paciente com câncer; comportamento hostil e tenso contribuindo para doença cardíaca)."
+          }
+        }
+      ]
+    },
+    "ex-etilista": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BE10": {
+            "confidence_embedding": 0.778,
+            "text": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite."
+          }
+        },
+        {
+          "BA51": {
+            "confidence_embedding": 0.7668,
+            "text": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas."
+          }
+        },
+        {
+          "BA60.1": {
+            "confidence_embedding": 0.7651,
+            "text": "Representação de doença CID-11: Outra pericardite como complicação atual subsequente a infarto agudo do miocárdio. Definição: Inflamação do pericárdio que pode causar dor no peito, que ocorre tão precocemente quanto o primeiro dia e até 6 semanas após o infarto agudo do miocárdio. A dor da pericardite irradia para qualquer crista do trapézio. O infarto do miocárdio transmural é responsável pela inflamação pericárdica local. Atritos pericárdicos transitórios são relativamente comuns em pacientes com infarto transmural nas primeiras 48 horas. Uma pericardite fibrinosa aguda ocorre comumente após o infarto transmural, enquanto o risco de pericardite hemorrágica está aumentado por anticoagulação."
+          }
+        },
+        {
+          "BB72.0": {
+            "confidence_embedding": 0.7611,
+            "text": "Representação de doença CID-11: Estenose aórtica reumática com insuficiência. Definição: A estenose aórtica por cardiopatia reumática crônica tipicamente está associada à insuficiência aórtica. As comissuras e cúspides da válvula tornam-se aderentes e fundidas, e o orifício da valva torna-se pequeno. Na ausculta, S2 pode ser única porque os folhetos aórticos estão imóveis e não produzem um som de fechamento aórtico"
+          }
+        },
+        {
+          "BC81.30": {
+            "confidence_embedding": 0.7593,
+            "text": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+          }
+        }
+      ]
+    },
+    "dor torácica": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA60.1": {
+            "confidence_embedding": 0.815,
+            "text": "Representação de doença CID-11: Outra pericardite como complicação atual subsequente a infarto agudo do miocárdio. Definição: Inflamação do pericárdio que pode causar dor no peito, que ocorre tão precocemente quanto o primeiro dia e até 6 semanas após o infarto agudo do miocárdio. A dor da pericardite irradia para qualquer crista do trapézio. O infarto do miocárdio transmural é responsável pela inflamação pericárdica local. Atritos pericárdicos transitórios são relativamente comuns em pacientes com infarto transmural nas primeiras 48 horas. Uma pericardite fibrinosa aguda ocorre comumente após o infarto transmural, enquanto o risco de pericardite hemorrágica está aumentado por anticoagulação."
+          }
+        },
+        {
+          "BE10": {
+            "confidence_embedding": 0.8052,
+            "text": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite."
+          }
+        },
+        {
+          "BA83": {
+            "confidence_embedding": 0.8019,
+            "text": "Representação de doença CID-11: Fístula da artéria coronária, adquirida. Definição: Comunicação anormal entre uma artéria coronária e câmara cardíaca ou vasos principais, adquirida após cirurgia coronária ou cardíaca, angioplastia coronária, ruptura ou aneurisma da artéria coronária ou lesão do coração."
+          }
+        },
+        {
+          "BA81": {
+            "confidence_embedding": 0.8008,
+            "text": "Representação de doença CID-11: Aneurisma de artéria coronária. Definição: Dilatação coronária que excede o diâmetro dos segmentos adjacentes normais ou o diâmetro do maior vaso coronário do paciente em 1,5 vezes."
+          }
+        },
+        {
+          "BA60.8": {
+            "confidence_embedding": 0.7995,
+            "text": "Representação de doença CID-11: Arritmia como complicação atual subsequente a infarto agudo do miocárdio. Definição: Grupo grande e heterogêneo de condições nas quais o coração bate com um ritmo irregular ou anormal que pode complicar o curso de pacientes com infarto agudo do miocárdio."
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,760 @@
+{
+  "prontuario_id": 87,
+  "text": "LUCAS, 69 anos.\n\nHMA: paciente relata cansaço, dor precordial quando tosse. Nega dispneia, ortopneia e DNP. Paciente relata apenas um episodio no momento de gripe.\nHAS, ICC, nega DM.\ncarvedilol 1 cp 12/12, furosemida 20mg 2 cp de 12/12, sinvastatina 1cp a noite, AAS 100mg apos almoço e Omeprazol 20mg 1 xdia.\n\nHMP: paciente relata 4 angioplastia, ultima em 2012.\n\nCHV: tabagista de mais de maço dia ha 3 anos. etilista de moderado de cerveja.\n\nS # paciente relata cansaço.\n\nO # BEG, orientado, anicterico, afebril.\nCardiaco: sp, FC: 74bpm. \nPulmonar: sp.\nMMII: sem edema e sem empastamento.\nAbdome: flacido, indolor, RHA+.\n\n# C: solicito exames laboratoriais e encaminho para Doutor Vital Brazil.",
+  "entities": {
+    "Abreviação": [
+      "HMA",
+      "DNP",
+      "HAS",
+      "ICC",
+      "DM",
+      "AAS",
+      "HMP",
+      "CHV",
+      "S",
+      "O",
+      "BEG",
+      "sp",
+      "FC",
+      "MMII",
+      "RHA+"
+    ],
+    "Achado": [
+      "HMA",
+      "HMP",
+      "CHV",
+      "S",
+      "BEG",
+      "orientado",
+      "sp",
+      "flacido",
+      "RHA+"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "paciente",
+      "Paciente"
+    ],
+    "Sinal ou Sintoma": [
+      "cansaço",
+      "tosse",
+      "dispneia",
+      "ortopneia",
+      "DNP",
+      "anicterico",
+      "afebril",
+      "edema",
+      "empastamento",
+      "indolor",
+      "dor precordial"
+    ],
+    "Negação": [
+      "Nega",
+      "nega",
+      "anicterico",
+      "afebril",
+      "sem",
+      "indolor"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "ICC",
+      "DM"
+    ],
+    "Substância Química Orgânica": [
+      "carvedilol",
+      "furosemida",
+      "sinvastatina",
+      "AAS",
+      "Omeprazol"
+    ],
+    "Substância Farmacológica": [
+      "carvedilol",
+      "furosemida",
+      "sinvastatina",
+      "AAS",
+      "Omeprazol"
+    ],
+    "Conceito Temporal": [
+      "12/12",
+      "no momento de gripe",
+      "1cp a noite",
+      "apos almoço",
+      "1 xdia"
+    ],
+    "Conceito Quantitativo": [
+      "20mg",
+      "100mg",
+      "74bpm",
+      "um episodio",
+      "1 xdia",
+      "mais de maço dia"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "angioplastia"
+    ],
+    "Disfunção Mental ou Comportamental": [
+      "tabagista"
+    ],
+    "Alimento": [
+      "cerveja"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O",
+      "solicito",
+      "encaminho"
+    ],
+    "Localização ou Região Corporal": [
+      "Cardiaco",
+      "Pulmonar"
+    ],
+    "Atributo Clínico": [
+      "FC"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "Pulmonar",
+      "MMII",
+      "Abdome"
+    ],
+    "Função Patológica": [
+      "edema"
+    ],
+    "Produto Intelectual": [
+      "C"
+    ],
+    "Procedimento Laboratorial": [
+      "exames laboratoriais"
+    ]
+  },
+  "labels": {
+    "ortopneia": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CA22.0": {
+            "confidence_embedding": 0.7819,
+            "text": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia."
+          }
+        },
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.7808,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.7478,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        },
+        {
+          "CA70.Y": {
+            "confidence_embedding": 0.7416,
+            "text": "Representação de doença CID-11: Outra pneumonite de hipersensibilidade especificada devida a poeiras orgânicas. Definição: "
+          }
+        },
+        {
+          "CB21.0": {
+            "confidence_embedding": 0.7339,
+            "text": "Representação de doença CID-11: Pneumotórax hipertensivo espontâneo. Definição: Pneumotórax hipertensivo ocorre quando a pressão intrapleural é superior à atmosférica em toda a expiração e frequentemente também também durante a inspiração. O mecanismo responsável pelo pneumotórax hipertensivo é a ruptura da pleura visceral ou parietal de tal forma que uma válvula unidirecional se desenvolve. Um pneumotórax hipertensivo pode ocorrer após qualquer tipo de pneumotórax; é independentemente da sua etiologia. Algumas vezes pode ocorrer após um pneumotórax espontâneo, mas é mais comum após um pneumotórax traumático, com ventilação mecânica ou durante ressuscitação cardiopulmonar."
+          }
+        }
+      ]
+    },
+    "tabagista": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA51": {
+            "confidence_embedding": 0.7323,
+            "text": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas."
+          }
+        },
+        {
+          "BE10": {
+            "confidence_embedding": 0.7311,
+            "text": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite."
+          }
+        },
+        {
+          "BC43.0": {
+            "confidence_embedding": 0.7305,
+            "text": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida."
+          }
+        },
+        {
+          "BA60.9": {
+            "confidence_embedding": 0.7283,
+            "text": "Representação de doença CID-11: Choque cardiogênico, não relacionado a complicações mecânicas, como complicação atual subsequente a infarto agudo do miocárdio. Definição: A expressão clínica mais grave da insuficiência ventricular esquerda e está associada a extensos danos ao miocárdio ventricular esquerdo após infarto agudo do miocárdio, não relacionado a um defeito mecânico como ruptura do septo ventricular ou do músculo papilar. Choque é definido como pressão arterial (PA) sistólica <90 mmHg e hipoperfusão de órgãos."
+          }
+        },
+        {
+          "BA01": {
+            "confidence_embedding": 0.7282,
+            "text": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração."
+          }
+        }
+      ]
+    },
+    "sp": {
+      "capitulo": "09",
+      "opcoes": [
+        {
+          "9A94.1": {
+            "confidence_embedding": 0.7317,
+            "text": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso."
+          }
+        },
+        {
+          "9C61.25": {
+            "confidence_embedding": 0.7251,
+            "text": "Representação de doença CID-11: Crise glaucomatociclítica. Definição: Crise glaucomatociclítica apresenta-se com precipitados ceráticos leves e flare do aquoso, elevação aguda da pressão intraocular e dano ao nervo óptico quando ataques repetidos ocorrem."
+          }
+        },
+        {
+          "9C40.A0": {
+            "confidence_embedding": 0.7009,
+            "text": "Representação de doença CID-11: Papiledema. Definição: Edema de disco óptico que resulta da pressão intracraniana aumentada."
+          }
+        },
+        {
+          "9A03.0Y": {
+            "confidence_embedding": 0.6954,
+            "text": "Representação de doença CID-11: Outra blefaroptose especificada. Definição: "
+          }
+        },
+        {
+          "9A03.24": {
+            "confidence_embedding": 0.6944,
+            "text": "Representação de doença CID-11: Síndrome da frouxidão palpebral. Definição: Transtorno adquirido de origem desconhecida, que se manifesta por pálpebras superiores frouxas facilmente evertidas e conjuntivite papilar da conjuntiva palpebral superior. Está associado primariamente a homens obesos e apneia obstrutiva do sono. O tarso da pálpebra superior se torna mais macio e frouxo provavelmente devido a forças mecânicas e mudanças enzimáticas. A pálpebra superior everte durante o sono, resultando em irritação, conjuntivite papilar e queratinização conjuntival. O tratamento efetivo consiste em prevenir que a pálpebra superior everta enquanto o paciente dorme."
+          }
+        }
+      ]
+    },
+    "hma": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MD24": {
+            "confidence_embedding": 0.7416,
+            "text": "Representação de doença CID-11: Hemorragia pulmonar aguda idiopática em bebês acima de 28 dias de idade. Definição: "
+          }
+        },
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7111,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MB41.3": {
+            "confidence_embedding": 0.7105,
+            "text": "Representação de doença CID-11: Hiposmia. Definição: Diminuição da capacidade de sentir cheiro."
+          }
+        },
+        {
+          "MD11.7": {
+            "confidence_embedding": 0.7074,
+            "text": "Representação de doença CID-11: Hiperventilação. Definição: Hiperventilação refere-se a um aumento na frequência da ventilação alveolar que é excessivo para a taxa de produção metabólica de gás carbônico, resultando na diminuição do PCO2 arterial abaixo da faixa de 37 a 43 mmHg. Hiperventilação deve ser diferenciada de taquipneia, um aumento na frequência respiratória, e de hiperpneia, um aumento no volume minuto da ventilação."
+          }
+        },
+        {
+          "MC82.0": {
+            "confidence_embedding": 0.7041,
+            "text": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico."
+          }
+        }
+      ]
+    },
+    "chv": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA60.9": {
+            "confidence_embedding": 0.756,
+            "text": "Representação de doença CID-11: Choque cardiogênico, não relacionado a complicações mecânicas, como complicação atual subsequente a infarto agudo do miocárdio. Definição: A expressão clínica mais grave da insuficiência ventricular esquerda e está associada a extensos danos ao miocárdio ventricular esquerdo após infarto agudo do miocárdio, não relacionado a um defeito mecânico como ruptura do septo ventricular ou do músculo papilar. Choque é definido como pressão arterial (PA) sistólica <90 mmHg e hipoperfusão de órgãos."
+          }
+        },
+        {
+          "BA51": {
+            "confidence_embedding": 0.748,
+            "text": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas."
+          }
+        },
+        {
+          "BA01": {
+            "confidence_embedding": 0.7468,
+            "text": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração."
+          }
+        },
+        {
+          "BE10": {
+            "confidence_embedding": 0.7459,
+            "text": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite."
+          }
+        },
+        {
+          "BC42.2": {
+            "confidence_embedding": 0.742,
+            "text": "Representação de doença CID-11: Miocardite por hipersensibilidade. Definição: Miocardite de hipersensibilidade é a presença de cardiomiopatia dilatada em associação com um transtorno relacionado conhecido {síndrome hipereosinofílica (geralmente uma cardiomiopatia restritiva), síndrome de Churg-Strauss, malignidade, infecção parasitária, drogas ou vacinas) e achados de infiltração intersticial linfocítica e eosinofílica, células gigantes, e possível necrose miocárdica na biópsia, geralmente com eosinofilia periférica."
+          }
+        }
+      ]
+    },
+    "rha+": {
+      "capitulo": "16",
+      "opcoes": [
+        {
+          "GC40.60": {
+            "confidence_embedding": 0.7184,
+            "text": "Representação de doença CID-11: Bexiga hiperativa associada a prolapso de órgão pélvico. Definição: Condição da bexiga, causada por função renal prejudicada, inervação nervosa disfuncional ou ausente, contração involuntária dos músculos da bexiga, diabetes, uso de medicamentos ou infecção. Esta condição é caracterizada por uma necessidade repentina de urinar, aumento da frequência urinária e incontinência de urgência. Essa condição também pode se manifestar com noctúria."
+          }
+        },
+        {
+          "GB40": {
+            "confidence_embedding": 0.7148,
+            "text": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose."
+          }
+        },
+        {
+          "GB22": {
+            "confidence_embedding": 0.7146,
+            "text": "Representação de doença CID-11: Hipertrofia da mama. Definição: Uma afecção que afeta a mama, caracterizada por alargamento ou espessamento unilateral ou bilateral dos tecidos conjuntivos que excede 3% do peso corporal total. Essa afecção pode estar associada a um aumento da sensibilidade histológica ou a níveis anormalmente elevados de prolactina, estrogênio e progesterona no sangue."
+          }
+        },
+        {
+          "GA91.4": {
+            "confidence_embedding": 0.7037,
+            "text": "Representação de doença CID-11: Hemorragia da próstata. Definição: Condição da próstata, causada por ruptura das paredes dos vasos da próstata. Esta condição é caracterizada por perda excessiva de sangue da próstata."
+          }
+        },
+        {
+          "GA32": {
+            "confidence_embedding": 0.7031,
+            "text": "Representação de doença CID-11: Complicações relacionadas com reprodução medicamente assistida. Definição: Qualquer complicação causada por ou subsequente a qualquer intervenção para alcançar gestação por meios artificiais ou parcialmente artificiais."
+          }
+        }
+      ]
+    },
+    "cansaço": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MD24": {
+            "confidence_embedding": 0.7579,
+            "text": "Representação de doença CID-11: Hemorragia pulmonar aguda idiopática em bebês acima de 28 dias de idade. Definição: "
+          }
+        },
+        {
+          "MC82.0": {
+            "confidence_embedding": 0.743,
+            "text": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico."
+          }
+        },
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7409,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MB41.3": {
+            "confidence_embedding": 0.7251,
+            "text": "Representação de doença CID-11: Hiposmia. Definição: Diminuição da capacidade de sentir cheiro."
+          }
+        },
+        {
+          "MD11.7": {
+            "confidence_embedding": 0.7228,
+            "text": "Representação de doença CID-11: Hiperventilação. Definição: Hiperventilação refere-se a um aumento na frequência da ventilação alveolar que é excessivo para a taxa de produção metabólica de gás carbônico, resultando na diminuição do PCO2 arterial abaixo da faixa de 37 a 43 mmHg. Hiperventilação deve ser diferenciada de taquipneia, um aumento na frequência respiratória, e de hiperpneia, um aumento no volume minuto da ventilação."
+          }
+        }
+      ]
+    },
+    "hmp": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA60.9": {
+            "confidence_embedding": 0.7514,
+            "text": "Representação de doença CID-11: Choque cardiogênico, não relacionado a complicações mecânicas, como complicação atual subsequente a infarto agudo do miocárdio. Definição: A expressão clínica mais grave da insuficiência ventricular esquerda e está associada a extensos danos ao miocárdio ventricular esquerdo após infarto agudo do miocárdio, não relacionado a um defeito mecânico como ruptura do septo ventricular ou do músculo papilar. Choque é definido como pressão arterial (PA) sistólica <90 mmHg e hipoperfusão de órgãos."
+          }
+        },
+        {
+          "BA01": {
+            "confidence_embedding": 0.7498,
+            "text": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração."
+          }
+        },
+        {
+          "BE10": {
+            "confidence_embedding": 0.7429,
+            "text": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite."
+          }
+        },
+        {
+          "BA51": {
+            "confidence_embedding": 0.7421,
+            "text": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas."
+          }
+        },
+        {
+          "BD50.0Z": {
+            "confidence_embedding": 0.7377,
+            "text": "Representação de doença CID-11: Dissecção da aorta torácica, dissecção da aorta ascendente e propagação além do arco, sem menção de perfuração ao ruptura. Definição: "
+          }
+        }
+      ]
+    },
+    "dnp": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CA22.0": {
+            "confidence_embedding": 0.7777,
+            "text": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia."
+          }
+        },
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.7687,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.7421,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        },
+        {
+          "CB21.0": {
+            "confidence_embedding": 0.7339,
+            "text": "Representação de doença CID-11: Pneumotórax hipertensivo espontâneo. Definição: Pneumotórax hipertensivo ocorre quando a pressão intrapleural é superior à atmosférica em toda a expiração e frequentemente também também durante a inspiração. O mecanismo responsável pelo pneumotórax hipertensivo é a ruptura da pleura visceral ou parietal de tal forma que uma válvula unidirecional se desenvolve. Um pneumotórax hipertensivo pode ocorrer após qualquer tipo de pneumotórax; é independentemente da sua etiologia. Algumas vezes pode ocorrer após um pneumotórax espontâneo, mas é mais comum após um pneumotórax traumático, com ventilação mecânica ou durante ressuscitação cardiopulmonar."
+          }
+        },
+        {
+          "CB00": {
+            "confidence_embedding": 0.7316,
+            "text": "Representação de doença CID-11: Síndrome do desconforto respiratório agudo. Definição: Síndrome do desconforto respiratório agudo (SDRA) é uma inflamação e edema nos pulmões com risco de vida iminente, que leva a insuficiência respiratória aguda grave. A SDRA é uma síndrome clínica de lesão pulmonar com insuficiência respiratória aguda hipoxêmica causada por intensa inflamação pulmonar que se desenvolve após lesão fisiopatológica grave."
+          }
+        }
+      ]
+    },
+    "icc": {
+      "capitulo": "06",
+      "opcoes": [
+        {
+          "6C48.2": {
+            "confidence_embedding": 0.7603,
+            "text": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais."
+          }
+        },
+        {
+          "6C45.3": {
+            "confidence_embedding": 0.7432,
+            "text": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia."
+          }
+        },
+        {
+          "6C49.3": {
+            "confidence_embedding": 0.7247,
+            "text": "Representação de doença CID-11: Intoxicação por alucinógenos. Definição: Intoxicação por alucinógenos é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de alucinógenos, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos dos alucinógenos e sua intensidade está intimamente relacionada à quantidade de alucinógenos consumida. Têm duração limitada, e diminuem à medida que o alucinógeno é eliminado do corpo. A apresentação pode incluir alucinações, ilusões, alterações perceptivas como despersonalização, desrealização, ou sinestesias (fusão de sentidos, como um estímulo visual evocando um cheiro), ansiedade, humor deprimido ou disfórico, ideias de referência, ideação paranoide, julgamento comprometido, palpitações, sudorese, visão turva, tremores e descoordenação. Sinais físicos podem incluir taquicardia, pressão arterial elevada, dilatação pupilar. Em casos raros, a intoxicação por alucinógenos pode facilitar ideação e comportamento suicidas."
+          }
+        },
+        {
+          "6D85.6": {
+            "confidence_embedding": 0.7227,
+            "text": "Representação de doença CID-11: Demência devida à hidrocefalia de pressão normal. Definição: Demência devida à hidrocefalia de pressão normal resulta do acúmulo excessivo de líquido cefalorraquidiano no cérebro, como resultado de causas idiopáticas não obstrutivas, mas também pode ser secundário a hemorragia, infecção ou inflamação. A progressão é gradativa, mas a intervenção (p. ex., derivação) pode resultar em melhora dos sintomas, especialmente se realizada precocemente no curso da condição. Tipicamente, comprometimentos cognitivos incluem velocidade de processamento reduzida e déficits na funcionalidade executiva e na atenção. Esses sintomas também são tipicamente acompanhados de anormalidades da marcha e incontinência urinária. Exame de imagem cerebral para mostrar o volume ventricular e caracterizar o deslocamento cerebral frequentemente é necessário para confirmar o diagnóstico."
+          }
+        },
+        {
+          "6C40.3": {
+            "confidence_embedding": 0.718,
+            "text": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas."
+          }
+        }
+      ]
+    },
+    "dispneia": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.7856,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA22.0": {
+            "confidence_embedding": 0.7827,
+            "text": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia."
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.7655,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        },
+        {
+          "CA70.Y": {
+            "confidence_embedding": 0.7459,
+            "text": "Representação de doença CID-11: Outra pneumonite de hipersensibilidade especificada devida a poeiras orgânicas. Definição: "
+          }
+        },
+        {
+          "CB21.0": {
+            "confidence_embedding": 0.7425,
+            "text": "Representação de doença CID-11: Pneumotórax hipertensivo espontâneo. Definição: Pneumotórax hipertensivo ocorre quando a pressão intrapleural é superior à atmosférica em toda a expiração e frequentemente também também durante a inspiração. O mecanismo responsável pelo pneumotórax hipertensivo é a ruptura da pleura visceral ou parietal de tal forma que uma válvula unidirecional se desenvolve. Um pneumotórax hipertensivo pode ocorrer após qualquer tipo de pneumotórax; é independentemente da sua etiologia. Algumas vezes pode ocorrer após um pneumotórax espontâneo, mas é mais comum após um pneumotórax traumático, com ventilação mecânica ou durante ressuscitação cardiopulmonar."
+          }
+        }
+      ]
+    },
+    "dor precordial": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA60.9": {
+            "confidence_embedding": 0.7738,
+            "text": "Representação de doença CID-11: Choque cardiogênico, não relacionado a complicações mecânicas, como complicação atual subsequente a infarto agudo do miocárdio. Definição: A expressão clínica mais grave da insuficiência ventricular esquerda e está associada a extensos danos ao miocárdio ventricular esquerdo após infarto agudo do miocárdio, não relacionado a um defeito mecânico como ruptura do septo ventricular ou do músculo papilar. Choque é definido como pressão arterial (PA) sistólica <90 mmHg e hipoperfusão de órgãos."
+          }
+        },
+        {
+          "BC61": {
+            "confidence_embedding": 0.7691,
+            "text": "Representação de doença CID-11: Despolarização juncional prematura. Definição: Despolarização elétrica cardíaca originando-se do nó atrioventricular compacto ou feixe de His, ocorrendo antes do batimento sinusal esperado."
+          }
+        },
+        {
+          "BC70": {
+            "confidence_embedding": 0.7608,
+            "text": "Representação de doença CID-11: Despolarização ventricular prematura. Definição: Despolarização ventricular ocorrendo antes da despolarização ventricular esperada iniciada pelo nó sinoatrial ou outro marcapasso supraventricular."
+          }
+        },
+        {
+          "BC81.30": {
+            "confidence_embedding": 0.7591,
+            "text": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+          }
+        },
+        {
+          "BC63.40": {
+            "confidence_embedding": 0.7577,
+            "text": "Representação de doença CID-11: Bloqueio do fascículo anterior esquerdo. Definição: Transtorno do sistema de condução atrioventricular caracterizado por desvio do eixo para a esquerda para a idade (eixo do plano frontal entre -45 ° e -90 °), padrão qR na derivação aVL, tempo de pico R na derivação aVL de 45 ms ou mais e duração do QRS que não atende aos critérios dependentes da idade para bloqueio completo de ramo (menos de 120 ms em adultos, menos de 100 ms em crianças de 4 a 16 anos de idade e menos de 90 ms em crianças com menos de 4 anos de idade)"
+          }
+        }
+      ]
+    },
+    "edema": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FA38.2": {
+            "confidence_embedding": 0.7262,
+            "text": "Representação de doença CID-11: Artropatia associada a reações de hipersensibilidade classificadas em outra parte. Definição: "
+          }
+        },
+        {
+          "FA27.2": {
+            "confidence_embedding": 0.7229,
+            "text": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos."
+          }
+        },
+        {
+          "FA38.3": {
+            "confidence_embedding": 0.7109,
+            "text": "Representação de doença CID-11: Artropatia hemofílica. Definição: Trata-se da destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia. Esta condição inclui a ocorrência de hemartrose aguda, artrite subaguda ou crônica e artropatia hemofílica em estágio terminal. Quase todos os pacientes com hemofilia A ou B grave e metade dos pacientes com atividade de doença moderada apresentam hemartrose. Os sintomas incluem dor nas articulações (artralgias), edema articular, fibrose articular, desenvolvimento de deformidades em flexão e erosão da cartilagem articular. As articulações mais comumente afetadas são joelhos, tornozelos, cotovelos, ombros e quadris (em ordem de frequência). O sangramento nos músculos e partes moles também pode causar disfunção musculoesquelética."
+          }
+        },
+        {
+          "FB50.2": {
+            "confidence_embedding": 0.7087,
+            "text": "Representação de doença CID-11: Cisto sinovial do espaço poplíteo. Definição: Este é o edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho"
+          }
+        },
+        {
+          "FA22": {
+            "confidence_embedding": 0.7034,
+            "text": "Representação de doença CID-11: Polimialgia reumática. Definição: A polimialgia reumática (PMR) é uma síndrome caracterizada por dores nas porções proximais das extremidades e do tronco. Os critérios de classificação provisórios para PMR pela European League Against Rheumatism / American College of Rheumatology Collaborative Initiative devem ser aplicados em pacientes com 50 anos ou mais com dor nos ombros bilateral e PCR e / ou VHS anormais. O algoritmo de pontuação é baseado na rigidez matinal> 45 minutos (2 pontos), dor / amplitude de movimento limitada no quadril (1 ponto), ausência de fator reumatoide e / ou anticorpo anti-proteína citrulinada (1 ponto), com critério de ultrassom opcional. Mais comumente, a PMR ocorre de forma isolada, mas pode ser observada em 40-50% dos pacientes com arterite de células gigantes."
+          }
+        }
+      ]
+    },
+    "tosse": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.7732,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA22.0": {
+            "confidence_embedding": 0.7693,
+            "text": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia."
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.7608,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        },
+        {
+          "CA82.0": {
+            "confidence_embedding": 0.739,
+            "text": "Representação de doença CID-11: Manifestações pulmonares agudas devidas a radiação. Definição: Reação inflamatória aguda dos pulmões em resposta à exposição a doses altas ou repetidas de irradiação."
+          }
+        },
+        {
+          "CB00": {
+            "confidence_embedding": 0.7329,
+            "text": "Representação de doença CID-11: Síndrome do desconforto respiratório agudo. Definição: Síndrome do desconforto respiratório agudo (SDRA) é uma inflamação e edema nos pulmões com risco de vida iminente, que leva a insuficiência respiratória aguda grave. A SDRA é uma síndrome clínica de lesão pulmonar com insuficiência respiratória aguda hipoxêmica causada por intensa inflamação pulmonar que se desenvolve após lesão fisiopatológica grave."
+          }
+        }
+      ]
+    },
+    "has": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MD24": {
+            "confidence_embedding": 0.7486,
+            "text": "Representação de doença CID-11: Hemorragia pulmonar aguda idiopática em bebês acima de 28 dias de idade. Definição: "
+          }
+        },
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7397,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MC82.0": {
+            "confidence_embedding": 0.7381,
+            "text": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico."
+          }
+        },
+        {
+          "MB41.3": {
+            "confidence_embedding": 0.7294,
+            "text": "Representação de doença CID-11: Hiposmia. Definição: Diminuição da capacidade de sentir cheiro."
+          }
+        },
+        {
+          "MD11.7": {
+            "confidence_embedding": 0.7191,
+            "text": "Representação de doença CID-11: Hiperventilação. Definição: Hiperventilação refere-se a um aumento na frequência da ventilação alveolar que é excessivo para a taxa de produção metabólica de gás carbônico, resultando na diminuição do PCO2 arterial abaixo da faixa de 37 a 43 mmHg. Hiperventilação deve ser diferenciada de taquipneia, um aumento na frequência respiratória, e de hiperpneia, um aumento no volume minuto da ventilação."
+          }
+        }
+      ]
+    },
+    "dm": {
+      "capitulo": "05",
+      "opcoes": [
+        {
+          "5B5A.0": {
+            "confidence_embedding": 0.7485,
+            "text": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina."
+          }
+        },
+        {
+          "5A60.2": {
+            "confidence_embedding": 0.7402,
+            "text": "Representação de doença CID-11: Síndrome da secreção inapropriada do hormônio antidiurético. Definição: Síndrome da secreção inapropriada do hormônio antidiurético (ADH)- SIADH- é caracterizada pela secreção contínua de ADH causando hiponatremia, hiposmolalidade e natriurese. A prevelência exata é desconhecida. A doença tem sido descrita em grupos de todas as idades. SIADH é frequentemente associada a tumores, doenças pulmonares, transtornos do sistema nervoso central ou exposição a drogas. Ocasionalmente ela é encontrada em pacientes com insuficiência adrenal, tireoidiana ou hipofisária. O transtorno é causado por mutações com ganho de função em genes que codificam o receptor de vasopressina V2. Restrição hídrica é o tratamento mais comum. O resultado está relacionado aos distúrbios subjacentes e associados."
+          }
+        },
+        {
+          "5C78": {
+            "confidence_embedding": 0.7387,
+            "text": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem."
+          }
+        },
+        {
+          "5B5K.7": {
+            "confidence_embedding": 0.7383,
+            "text": "Representação de doença CID-11: Deficiência de selênio. Definição: Deficiência de selênio é rara mas tem sido observada em indivíduos em uso prolongado de dieta parenteral total(NPT) sem selênio. Manifestações clínicas da deficiência decorrente de tal situação são incomuns e pouco definidas. Elas incluem fraqueza muscular e mialgia com, em casos graves, o desenvolvimento de insuficiência cardíaca congestiva. A importância do selênio para o metabolismo dos hormônios tireoidianos é evidente, a partir de mudanças na proporção T3-T4 que se desenvolvem após uma depleção de selênio relativamente leve em bebês e idosos"
+          }
+        },
+        {
+          "5C73.0": {
+            "confidence_embedding": 0.7377,
+            "text": "Representação de doença CID-11: Acidose respiratória aguda. Definição: É uma condição aguda na qual a diminuição da ventilação (hipoventilação) leva a um aumento da concentração de dióxido de carbono no sangue e diminuição do pH ( chamada acidose). O dióxido de carbono (CO2) é produzido continuamente à medida que as células do corpo respiram, e esse CO2 se acumulará rapidamente caso não seja adequadamente expulso/eliminado pelos pulmões através da ventilação alveolar. A hipoventilação alveolar, portanto, leva a um aumento da PaCO2 (chamada de hipercapnia). O aumento da PaCO2, por sua vez, reduz a relação HCO3/PaCO2, diminuindo assim o pH."
+          }
+        }
+      ]
+    },
+    "empastamento": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FA38.2": {
+            "confidence_embedding": 0.7135,
+            "text": "Representação de doença CID-11: Artropatia associada a reações de hipersensibilidade classificadas em outra parte. Definição: "
+          }
+        },
+        {
+          "FA22": {
+            "confidence_embedding": 0.7087,
+            "text": "Representação de doença CID-11: Polimialgia reumática. Definição: A polimialgia reumática (PMR) é uma síndrome caracterizada por dores nas porções proximais das extremidades e do tronco. Os critérios de classificação provisórios para PMR pela European League Against Rheumatism / American College of Rheumatology Collaborative Initiative devem ser aplicados em pacientes com 50 anos ou mais com dor nos ombros bilateral e PCR e / ou VHS anormais. O algoritmo de pontuação é baseado na rigidez matinal> 45 minutos (2 pontos), dor / amplitude de movimento limitada no quadril (1 ponto), ausência de fator reumatoide e / ou anticorpo anti-proteína citrulinada (1 ponto), com critério de ultrassom opcional. Mais comumente, a PMR ocorre de forma isolada, mas pode ser observada em 40-50% dos pacientes com arterite de células gigantes."
+          }
+        },
+        {
+          "FB32.20": {
+            "confidence_embedding": 0.6988,
+            "text": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave."
+          }
+        },
+        {
+          "FA38.3": {
+            "confidence_embedding": 0.6846,
+            "text": "Representação de doença CID-11: Artropatia hemofílica. Definição: Trata-se da destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia. Esta condição inclui a ocorrência de hemartrose aguda, artrite subaguda ou crônica e artropatia hemofílica em estágio terminal. Quase todos os pacientes com hemofilia A ou B grave e metade dos pacientes com atividade de doença moderada apresentam hemartrose. Os sintomas incluem dor nas articulações (artralgias), edema articular, fibrose articular, desenvolvimento de deformidades em flexão e erosão da cartilagem articular. As articulações mais comumente afetadas são joelhos, tornozelos, cotovelos, ombros e quadris (em ordem de frequência). O sangramento nos músculos e partes moles também pode causar disfunção musculoesquelética."
+          }
+        },
+        {
+          "FA27.2": {
+            "confidence_embedding": 0.6812,
+            "text": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos."
+          }
+        }
+      ]
+    },
+    "s": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MD24": {
+            "confidence_embedding": 0.7538,
+            "text": "Representação de doença CID-11: Hemorragia pulmonar aguda idiopática em bebês acima de 28 dias de idade. Definição: "
+          }
+        },
+        {
+          "MC82.0": {
+            "confidence_embedding": 0.7369,
+            "text": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico."
+          }
+        },
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7331,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MB41.3": {
+            "confidence_embedding": 0.7198,
+            "text": "Representação de doença CID-11: Hiposmia. Definição: Diminuição da capacidade de sentir cheiro."
+          }
+        },
+        {
+          "MD11.7": {
+            "confidence_embedding": 0.7146,
+            "text": "Representação de doença CID-11: Hiperventilação. Definição: Hiperventilação refere-se a um aumento na frequência da ventilação alveolar que é excessivo para a taxa de produção metabólica de gás carbônico, resultando na diminuição do PCO2 arterial abaixo da faixa de 37 a 43 mmHg. Hiperventilação deve ser diferenciada de taquipneia, um aumento na frequência respiratória, e de hiperpneia, um aumento no volume minuto da ventilação."
+          }
+        }
+      ]
+    }
+  }
+}

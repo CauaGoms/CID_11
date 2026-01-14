@@ -1,0 +1,121 @@
+{
+  "prontuario_id": 64,
+  "text": "17:53 CLIENTE FOI ENCAMINHADO A CAMERA HIPERBARICA NO PERIODO DA MANHA, REALIZADO TROCA DE CTVO PELO Doutor Vital Brazil NO QUARTO E ORIENTADO A ENTRAR EM JEJUM APARTIR DAS 24:00 PARA PROCEDIMENTO CIRURGICO AMANHA 16/111. Enfermeira Florence Nightingale.  EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "CLIENTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ENCAMINHADO",
+      "REALIZADO",
+      "EXAME GERAL"
+    ],
+    "Conceito Temporal": [
+      "PERIODO",
+      "MANHA"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Doutor",
+      "Enfermeira"
+    ],
+    "Achado": [
+      "ORIENTADO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "JEJUM",
+      "CAMERA HIPERBARICA",
+      "TROCA DE CTVO",
+      "PROCEDIMENTO CIRURGICO"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS"
+    ],
+    "Dispositivo Médico": [
+      "CAMERA HIPERBARICA"
+    ],
+    "Abreviação": [
+      "TROCA DE CTVO"
+    ],
+    "Procedimento Diagnóstico": [
+      "INVESTIGACAO DE PESSOAS"
+    ],
+    "Doença ou Síndrome": [
+      "DIAGNOSTICO RELATADO"
+    ]
+  },
+  "labels": {
+    "queixas": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MG00": {
+            "confidence_embedding": 0.7644,
+            "text": "Representação de doença CID-11: Achados clínicos de exames para diagnóstico por imagem da mama. Definição: Achados clínicos no diagnóstico por imagem da mama são achados diagnósticos de imagem da mama que não aparecem no estado normal do corpo. Diagnóstico por imagem refere-se a tecnologias que os médicos usam para olhar dentro do corpo em busca de pistas sobre uma condição médica. Raios-X, tomografias computadorizadas, exames de medicina nuclear, exames de ressonância magnética e ultrassom são todos tipos diagnóstico por imagem."
+          }
+        },
+        {
+          "ME86": {
+            "confidence_embedding": 0.7567,
+            "text": "Representação de doença CID-11: Sintoma ou queixa de uma parte do corpo. Definição: "
+          }
+        },
+        {
+          "ME86.G": {
+            "confidence_embedding": 0.7487,
+            "text": "Representação de doença CID-11: Sintoma ou queixa do músculo, sem outra especificação. Definição: "
+          }
+        },
+        {
+          "MF34": {
+            "confidence_embedding": 0.7485,
+            "text": "Representação de doença CID-11: Sintoma ou queixa da gravidez. Definição: "
+          }
+        },
+        {
+          "ME86.F": {
+            "confidence_embedding": 0.7418,
+            "text": "Representação de doença CID-11: Sintoma ou queixa da articulação, sem outra especificação. Definição: "
+          }
+        }
+      ]
+    },
+    "orientado": {
+      "capitulo": "24",
+      "opcoes": [
+        {
+          "QA47.0Z": {
+            "confidence_embedding": 0.7566,
+            "text": "Representação de doença CID-11: Criança única, nascida em hospital, não especificada. Definição: "
+          }
+        },
+        {
+          "QA47.6Z": {
+            "confidence_embedding": 0.7562,
+            "text": "Representação de doença CID-11: Outros nascimentos múltiplos que não gêmeos, em hospital, não especificados. Definição: "
+          }
+        },
+        {
+          "QA77": {
+            "confidence_embedding": 0.7557,
+            "text": "Representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano. Definição: "
+          }
+        },
+        {
+          "QA47.0": {
+            "confidence_embedding": 0.7512,
+            "text": "Representação de doença CID-11: Criança única, nascida em hospital. Definição: "
+          }
+        },
+        {
+          "QA8D": {
+            "confidence_embedding": 0.7508,
+            "text": "Representação de doença CID-11: Paciente que recebeu um teste diagnóstico ou tratamento destinado a outro paciente, sem lesão ou dano. Definição: "
+          }
+        }
+      ]
+    }
+  }
+}

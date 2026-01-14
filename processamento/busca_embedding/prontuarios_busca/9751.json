@@ -1,0 +1,267 @@
+{
+  "prontuario_id": 53,
+  "text": "TX RENAL.\nEM USO DE MS 1/1, TACROLIMO 4/4, PRED 10, VQALCYTE 450, OMEPRAZOL.\n\nINTERNOU EM 20/11 PARA BX , PULSO E IVIG.\nCR CHEGOU A 5.\nHOJE EM 1,48.\n\n\nS # SEM QUEIXAS.\n     SEM DIARRÉIA E SEM TREMEDEIRA.\nO # PESO 37.\nPA 100/70.\nPALIDEZ CUTANEA.\n \nTROCO MS POR LEUCOPENIA E ANEMIA PERSISTENTE PARA M TOR.\nPEÇO IVIG.\nSITUO QUANTO A PLASMAFERESE.\nTX RENAL CR 1,48, TACROLIMO 6.\nPANCITO: SECUNDÁRIA VALCYTE? MS?\n ",
+  "entities": {
+    "Abreviação": [
+      "MS",
+      "PRED",
+      "BX",
+      "PULSO",
+      "IVIG",
+      "S",
+      "O",
+      "PA",
+      "PANCITO",
+      "TX RENAL",
+      "TROCO MS",
+      "M TOR",
+      "PEÇO IVIG",
+      "CR 1 , 48"
+    ],
+    "Substância Farmacológica": [
+      "MS",
+      "TACROLIMO",
+      "PRED",
+      "VQALCYTE",
+      "OMEPRAZOL",
+      "VALCYTE"
+    ],
+    "Substância Química Orgânica": [
+      "MS",
+      "TACROLIMO",
+      "PRED",
+      "VQALCYTE",
+      "OMEPRAZOL"
+    ],
+    "Conceito Quantitativo": [
+      "1/1",
+      "4/4",
+      "10",
+      "450",
+      "37",
+      "100/70",
+      "6"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "INTERNOU",
+      "O",
+      "TROCO MS",
+      "PEÇO IVIG",
+      "SITUO QUANTO A PLASMAFERESE"
+    ],
+    "Procedimento Diagnóstico": [
+      "BX"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "PULSO",
+      "IVIG",
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "5",
+      "1 , 48",
+      "CR 1 , 48"
+    ],
+    "Achado": [
+      "S",
+      "TX RENAL"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "DIARRÉIA",
+      "TREMEDEIRA",
+      "PALIDEZ CUTANEA"
+    ],
+    "Atributo Clínico": [
+      "PESO",
+      "PA"
+    ],
+    "Função Patológica": [
+      "LEUCOPENIA",
+      "PANCITO"
+    ],
+    "Doença ou Síndrome": [
+      "ANEMIA PERSISTENTE"
+    ]
+  },
+  "labels": {
+    "pancito": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DB99.60": {
+            "confidence_embedding": 0.7268,
+            "text": "Representação de doença CID-11: Colestase da nutrição parenteral. Definição: Condição em que a bile não pode fluir do fígado para o duodeno, então faz-se necessário alimentar o indivíduo por via endovenosa, evitando o processo usual de alimentação e digestão."
+          }
+        },
+        {
+          "DA90.0": {
+            "confidence_embedding": 0.7255,
+            "text": "Representação de doença CID-11: Diarreia sindrômica. Definição: Diarreia sindrômica, também conhecida como diarreia fenotípica ou síndrome trico-hepato-entérica, é uma enteropatia congênita que se apresenta com início precoce de diarreia grave exigindo uso de nutrição parenteral (NP), associada a dismorfismo facial, cabelo lanoso e pouco pigmentado, e doença hepática, com fibrose ou cirrose extensa, em cerca de metade dos pacientes."
+          }
+        },
+        {
+          "DB99.5": {
+            "confidence_embedding": 0.7182,
+            "text": "Representação de doença CID-11: Encefalopatia hepática. Definição: Encefalopatia hepática é uma complicação da cirrose hepática e uma marca da falência hepática aguda, sendo também observada em pacientes com shunts portossistêmicos sem cirrose. A encefalopatia hepática é caracterizada por mudanças de personalidade, incapacidade intelectual, asterixe e uma diminuição do nível de consciência. Em estágios avançados é chamada de coma hepático, o qual pode levar a morte. O diagnóstico da encefalopatia hepática é feito primariamente pelo reconhecimento das mudanças neuropsiquiátricas que ocorrem em um paciente com doença hepática, após a exclusão de doenças cerebrais."
+          }
+        },
+        {
+          "DC32.0": {
+            "confidence_embedding": 0.7115,
+            "text": "Representação de doença CID-11: Pancreatite calcificante. Definição: Inflamação do pâncreas que requer atenção médica imediata e hospitalização durante um ataque, cujos sais de cálcio se acumulam em tecidos moles, causando seu endurecimento."
+          }
+        },
+        {
+          "DA91.31": {
+            "confidence_embedding": 0.7084,
+            "text": "Representação de doença CID-11: Enterólito do intestino delgado. Definição: Esta é uma concreção mineral ou cálculo formado em qualquer parte do sistema gastrointestinal, mas neste caso no intestino delgado."
+          }
+        }
+      ]
+    },
+    "palidez cutanea": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "EB50": {
+            "confidence_embedding": 0.7306,
+            "text": "Representação de doença CID-11: Lúpus eritematoso cutâneo subagudo. Definição: Lúpus eritematoso cutâneo subagudo é uma forma não cicatricial de lúpus eritematoso, tipificada pela presença de anticorpos anti-Ro/SSA circulantes e manchas eritematosas inflamadas discoides ou anulares com descamação fina variável em pele exposta ao sol, especialmente nos lados de face e pescoço, no V do decote, nas superfícies extensoras dos braços e na parte superior do dorso: em contraste com o lúpus eritematoso sistêmico, as bochechas tendem a ser poupadas. A doença visceral é menos frequente do que no lúpus eritematoso sistêmico: o envolvimento renal é raro e leve."
+          }
+        },
+        {
+          "EC90.10": {
+            "confidence_embedding": 0.73,
+            "text": "Representação de doença CID-11: Prurido urêmico. Definição: Prurido em pacientes com insuficiência renal crônica. Embora comum na doença renal crônica não tratada, é particularmente prevalente em pacientes que submetidos a diálise peritoneal ou hemodiálise. O prurido não se deve a níveis elevados de ureia sérica. Os mecanismos precisos não são totalmente compreendidos."
+          }
+        },
+        {
+          "EK91.2": {
+            "confidence_embedding": 0.7142,
+            "text": "Representação de doença CID-11: Plasmocitose cutânea primária. Definição: Transtorno cutâneo resultante da infiltração densa focal ou multifocal da pele por agregados de plasmócitos. Pode estar associada a níveis elevados de IgG4 no soro. Tipicamente se apresenta como pápulas vermelho-amarronzadas disseminadas, nódulos e placas pigmentadas enduradas envolvendo tronco e membros, mas pode se apresentar como um único nódulo ou placa. A maioria dos pacientes com este transtorno de pele incomum são descendentes do leste asiático. Existe um risco de progressão para malignidade linfoproliferativa sistêmica."
+          }
+        },
+        {
+          "EF02.3": {
+            "confidence_embedding": 0.7139,
+            "text": "Representação de doença CID-11: Celulite. Definição: A celulite é um desarranjo arquitetônico comum do tecido adiposo subcutâneo que resulta em ondulações e nodularidade da pele sobrejacente. É mais comum em mulheres pós-púberes e acomete principalmente a região pélvica, membros inferiores e abdome. Acredita-se que resulte da herniação de múltiplos pequenos agregados de gordura subcutânea através do tecido fibroso na junção dermo-hipodérmica. A obesidade predispõe, mas não é necessária para o seu desenvolvimento. O termo está em uso generalizado, mas é enganoso, pois não tem nada a ver com \"cellulitis\" (NT: infecção de pele). A condição é assintomática, mas pode causar constrangimento considerável."
+          }
+        },
+        {
+          "EB51": {
+            "confidence_embedding": 0.7138,
+            "text": "Representação de doença CID-11: Lúpus eritematoso cutâneo crônico. Definição: Lúpus eritematoso cutâneo crônico (LECC) é caracterizado pela presença de placas cutâneas circunscritas apresentando graus variados de edema, eritema, descamação, tamponamento e atrofia folicular. Apresenta-se mais comumente como placas discoides envolvendo face, orelhas e couro cabeludo, mas pode ser amplamente disseminada ou acometer predominantemente extremidades (lúpus Chilblain) ou a gordura subcutânea (paniculite lúpica). Pode causar desfiguração acentuada com cicatrizes faciais proeminentes e perda de cabelo permanente. A maioria dos pacientes permanece com boa saúde, mas 5-10% podem desenvolver lúpus eritematoso sistêmico. A fotossensibilidade é menos evidente do que no lúpus eritematoso cutâneo subagudo."
+          }
+        }
+      ]
+    },
+    "leucopenia": {
+      "capitulo": "03",
+      "opcoes": [
+        {
+          "3A71.2": {
+            "confidence_embedding": 0.7955,
+            "text": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue."
+          }
+        },
+        {
+          "3A72.0": {
+            "confidence_embedding": 0.7846,
+            "text": "Representação de doença CID-11: Anemias sideroblásticas congênitas. Definição: Doença causada por determinantes surgindo no período pré-natal levando à produção de sideroblastos em anel; eritroblastos nucleados anormais. Esta doença é caracterizada pela incapacidade dos glóbulos vermelhos incorporarem a hemoglobina adequadamente , sendo necessária aos glóbulos vermelhos para transportar o oxigênio eficientemente. Esta doença pode se manifestar com palidez, fadiga, tonturas e aumento do baço e fígado, doença cardíaca, lesão hepática e insuficiência renal."
+          }
+        },
+        {
+          "3A72.1": {
+            "confidence_embedding": 0.7627,
+            "text": "Representação de doença CID-11: Anemias sideroblásticas adquiridas. Definição: Doença causada por determinantes surgindo após o nascimento como as síndromes mielodisplásicas, antimicrobianos, deficiência de piridoxina, envenenamento por chumbo ou deficiência de cobre. O zinco pode causar anemia sideroblástica indiretamente diminuindo aa absorção e aumentando a excreção do cobre. Esta doença é caracterizada pela incapacidade da incorporação da hemoglobina nos glóbulos vermelhos, que é necessária para o transporte eficiente do oxigênio. Esta doença pode se manifestar com palidez, fadiga, tontura e aumento do baço e fígado, doença cardíaca, lesão hepática e insuficiência renal."
+          }
+        },
+        {
+          "3B64.13": {
+            "confidence_embedding": 0.7625,
+            "text": "Representação de doença CID-11: Trombocitopenia aloimune. Definição: Doença causada por determinantes como transfusão de sangue que leva a uma resposta imune a antígenos estranhos. Esta doença é caracterizada por níveis diminuídos de plaquetas no organismo devido a uma resposta imune reativa a antígenos plaquetários estranhos. Esta doença pode se manifestar com aumento de equimoses e sangramentos. A confirmação é feita pela identificação de contagem diminuída de plaquetas e presença de autoanticorpos na amostra de sangue"
+          }
+        },
+        {
+          "3A20.Y": {
+            "confidence_embedding": 0.7609,
+            "text": "Representação de doença CID-11: Outra anemia hemolítica adquirida especificada, imune. Definição: "
+          }
+        }
+      ]
+    },
+    "tx renal": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA02": {
+            "confidence_embedding": 0.7465,
+            "text": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica."
+          }
+        },
+        {
+          "BD71.2": {
+            "confidence_embedding": 0.7188,
+            "text": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal"
+          }
+        },
+        {
+          "BD54": {
+            "confidence_embedding": 0.7098,
+            "text": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos."
+          }
+        },
+        {
+          "BD53.4": {
+            "confidence_embedding": 0.7047,
+            "text": "Representação de doença CID-11: Ateroembolismo de colesterol. Definição: Oclusão embólica de pequenas artérias e arteríolas distais por cristais de colesterol liberados de placa aterosclerótica em artérias maiores mais centrais. A isquemia microvascular resultante é acompanhada por uma resposta inflamatória à presença de cristais de colesterol. Isso pode ocorrer espontaneamente ou como uma complicação de angiografia ou cirurgia vascular. Os órgãos mais comumente afetados incluem pele, rins, trato gastrointestinal e cérebro. Manifestações cutâneas, presentes na maioria dos casos, incluem livedo reticularis e necrose e ulceração isquêmicas focais; estas estão comumente associadas a lesão renal aguda."
+          }
+        },
+        {
+          "BA01": {
+            "confidence_embedding": 0.6924,
+            "text": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração."
+          }
+        }
+      ]
+    },
+    "anemia persistente": {
+      "capitulo": "03",
+      "opcoes": [
+        {
+          "3A71.2": {
+            "confidence_embedding": 0.8189,
+            "text": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue."
+          }
+        },
+        {
+          "3A72.0": {
+            "confidence_embedding": 0.7953,
+            "text": "Representação de doença CID-11: Anemias sideroblásticas congênitas. Definição: Doença causada por determinantes surgindo no período pré-natal levando à produção de sideroblastos em anel; eritroblastos nucleados anormais. Esta doença é caracterizada pela incapacidade dos glóbulos vermelhos incorporarem a hemoglobina adequadamente , sendo necessária aos glóbulos vermelhos para transportar o oxigênio eficientemente. Esta doença pode se manifestar com palidez, fadiga, tonturas e aumento do baço e fígado, doença cardíaca, lesão hepática e insuficiência renal."
+          }
+        },
+        {
+          "3A20.Y": {
+            "confidence_embedding": 0.7862,
+            "text": "Representação de doença CID-11: Outra anemia hemolítica adquirida especificada, imune. Definição: "
+          }
+        },
+        {
+          "3A72.1": {
+            "confidence_embedding": 0.7844,
+            "text": "Representação de doença CID-11: Anemias sideroblásticas adquiridas. Definição: Doença causada por determinantes surgindo após o nascimento como as síndromes mielodisplásicas, antimicrobianos, deficiência de piridoxina, envenenamento por chumbo ou deficiência de cobre. O zinco pode causar anemia sideroblástica indiretamente diminuindo aa absorção e aumentando a excreção do cobre. Esta doença é caracterizada pela incapacidade da incorporação da hemoglobina nos glóbulos vermelhos, que é necessária para o transporte eficiente do oxigênio. Esta doença pode se manifestar com palidez, fadiga, tontura e aumento do baço e fígado, doença cardíaca, lesão hepática e insuficiência renal."
+          }
+        },
+        {
+          "3A70.1": {
+            "confidence_embedding": 0.7806,
+            "text": "Representação de doença CID-11: Anemias aplásticas adquiridas. Definição: Condição que ocorre secundária a outros transtornos ou por meio de uma reposta autoimune direcionada à medula óssea que surge após o nascimento. Esta doença é caracterizada por ausência quase completa das células tronco hematopoiéticas, resultando em níveis diminuídos de glóbulos vermelhos e brancos e plaquetas. Esta condição pode se manifestar com fadiga, infecções crônicas, tontura, fraqueza, dores de cabeça e episódios de sangramento, geralmente em pele e mucosas."
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,497 @@
+{
+  "prontuario_id": 850,
+  "text": "LUCAS, 5 anos  Paciente com epilepsia de difícil controle, RDNPM, em uso de topiramato e VPA, iniciou com crises convulsivas, além de queixa de febre, tosse e rinorréia. Realizado Rx Tx: FC em LIE. Iniciado amoxicilina. Em 20/06, iniciado beta-2 1/1h, O2 1l/min e CTC VO, por tempo expiratório aumentado e sibilância; à noite, espaçado beta-2 para de 2/2h. Neuro avaliou caso; aumentou topiramato para 75mg 2x/dia e manteve dose do valproato (impressão: escape? dose inadequada de anticonvulsivantes?). Evoluiu afebril, com melhora do ponto de vista respiratório, sendo retirado O2 em 21/06 pela manhã. Afebril há 24h. Paciente mantém tempo expiratório levemente aumentado, saturando 95% em ar ambiente, nebulizando de 2/2h, caminhando, em bom estado geral. Mãe insiste em ir embora e refere ter recursos para recorrer se piora do quadro. Explico que seria mais prudente aguardar melhora completa. Alta hospitalar com beta-2 de 3/3 horas, CTC VO e amoxicilina, além de anticonvulsivantes. Retornar se necessário.",
+  "entities": {
+    "Doença ou Síndrome": [
+      "epilepsia",
+      "RDNPM"
+    ],
+    "Abreviação": [
+      "RDNPM",
+      "FC",
+      "LIE",
+      "O2",
+      "Neuro",
+      "Rx Tx",
+      "CTC VO"
+    ],
+    "Substância Química Orgânica": [
+      "topiramato",
+      "amoxicilina",
+      "valproato"
+    ],
+    "Substância Farmacológica": [
+      "topiramato",
+      "beta-2",
+      "valproato",
+      "anticonvulsivantes",
+      "CTC VO"
+    ],
+    "Sinal ou Sintoma": [
+      "queixa",
+      "febre",
+      "tosse",
+      "rinorréia",
+      "afebril",
+      "Afebril",
+      "quadro",
+      "crises convulsivas"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "LIE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Iniciado",
+      "iniciado",
+      "avaliou",
+      "aumentou",
+      "Evoluiu",
+      "retirado",
+      "Explico",
+      "aguardar",
+      "Retornar",
+      "Alta hospitalar"
+    ],
+    "Antibiótico": [
+      "amoxicilina"
+    ],
+    "Conceito Quantitativo": [
+      "1/1h",
+      "1l/min",
+      "2/2h",
+      "95%",
+      "75mg 2x/dia",
+      "dose inadequada",
+      "3/3 horas"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "O2",
+      "nebulizando",
+      "CTC VO",
+      "manteve dose"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Neuro"
+    ],
+    "Conceito Temporal": [
+      "Evoluiu",
+      "manhã",
+      "à noite"
+    ],
+    "Negação": [
+      "afebril",
+      "Afebril"
+    ],
+    "Atributo Clínico": [
+      "saturando"
+    ],
+    "Achado": [
+      "caminhando",
+      "melhora do ponto de vista respiratório",
+      "bom bom estado estado geral geral",
+      "melhora completa"
+    ],
+    "Grupo Familiar": [
+      "Mãe"
+    ],
+    "Conceito Qualitativo": [
+      "piora",
+      "difícil controle",
+      "dose inadequada"
+    ],
+    "Procedimento Diagnóstico": [
+      "Rx Tx"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "tempo expiratório aumentado",
+      "tempo expiratório levemente aumentado"
+    ]
+  },
+  "labels": {
+    "caminhando": {
+      "capitulo": "V",
+      "opcoes": [
+        {
+          "VE00": {
+            "confidence_embedding": 0.6623,
+            "text": "Representação de doença CID-11: Visão e funções relacionadas [BMDS]. Definição: "
+          }
+        },
+        {
+          "VE12": {
+            "confidence_embedding": 0.658,
+            "text": "Representação de doença CID-11: Funções emocionais [BMDS]. Definição: "
+          }
+        },
+        {
+          "VD57": {
+            "confidence_embedding": 0.6579,
+            "text": "Representação de doença CID-11: Problemas com relaxamento ou prazer [WHODAS]. Definição: "
+          }
+        },
+        {
+          "VE01": {
+            "confidence_embedding": 0.6556,
+            "text": "Representação de doença CID-11: Funções auditivas e vestibulares [BMDS]. Definição: "
+          }
+        },
+        {
+          "VV3Z": {
+            "confidence_embedding": 0.6528,
+            "text": "Representação de doença CID-11: Funções dos sistemas cardiovascular, hematológico, imunológico e respiratório, não especificadas. Definição: "
+          }
+        }
+      ]
+    },
+    "febre": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CB41.1": {
+            "confidence_embedding": 0.7507,
+            "text": "Representação de doença CID-11: Insuficiência respiratória crônica. Definição: Na insuficiência respiratória crônica a hipoxemia ocorre ao longo de semanas ou meses (mais de 7 dias) e a insuficiência respiratória se desenvolve mais lentamente e dura mais tempo do que na insuficiência respiratória aguda."
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.7498,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        },
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.7382,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA23.0": {
+            "confidence_embedding": 0.7345,
+            "text": "Representação de doença CID-11: Asma alérgica. Definição: Asma alérgica é o fenótipo de asma mais facilmente reconhecido. Frequentemente, inicia-se na infância e é associada a um histórico pessoal ou familiar de doença alérgica, como eczema, rinite alérgica, ou alergia a drogas e alimentos. O exame do escarro induzido desses pacientes, antes do tratamento, geralmente revela uma inflamação eosinofílica das vias aéreas. O principal gatilho é a exposição a alérgenos, como o ácaro da poeira doméstica e ao pólen, aos quais o indivíduo tenha sido, previamente, sensibilizado. Os pacientes com esse fenótipo de asma, usualmente, respondem bem a corticoide inalatório e à imunoterapia alérgeno-específica."
+          }
+        },
+        {
+          "CA0F.0": {
+            "confidence_embedding": 0.7288,
+            "text": "Representação de doença CID-11: Hipertrofia das amígdalas. Definição: "
+          }
+        }
+      ]
+    },
+    "tosse": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.7408,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        },
+        {
+          "CA23.0": {
+            "confidence_embedding": 0.734,
+            "text": "Representação de doença CID-11: Asma alérgica. Definição: Asma alérgica é o fenótipo de asma mais facilmente reconhecido. Frequentemente, inicia-se na infância e é associada a um histórico pessoal ou familiar de doença alérgica, como eczema, rinite alérgica, ou alergia a drogas e alimentos. O exame do escarro induzido desses pacientes, antes do tratamento, geralmente revela uma inflamação eosinofílica das vias aéreas. O principal gatilho é a exposição a alérgenos, como o ácaro da poeira doméstica e ao pólen, aos quais o indivíduo tenha sido, previamente, sensibilizado. Os pacientes com esse fenótipo de asma, usualmente, respondem bem a corticoide inalatório e à imunoterapia alérgeno-específica."
+          }
+        },
+        {
+          "CB41.1": {
+            "confidence_embedding": 0.7323,
+            "text": "Representação de doença CID-11: Insuficiência respiratória crônica. Definição: Na insuficiência respiratória crônica a hipoxemia ocorre ao longo de semanas ou meses (mais de 7 dias) e a insuficiência respiratória se desenvolve mais lentamente e dura mais tempo do que na insuficiência respiratória aguda."
+          }
+        },
+        {
+          "CA23.22": {
+            "confidence_embedding": 0.7268,
+            "text": "Representação de doença CID-11: Asma variante com tosse. Definição: Asma variante com tosse é uma forma oculta de asma em que o único sinal ou sintoma é tosse crônica."
+          }
+        },
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.7172,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        }
+      ]
+    },
+    "melhora completa": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7264,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MD11.2": {
+            "confidence_embedding": 0.7252,
+            "text": "Representação de doença CID-11: Respiração atáxica. Definição: Um padrão respiratório anormal que usualmente progride para apneia completa."
+          }
+        },
+        {
+          "MF95": {
+            "confidence_embedding": 0.7229,
+            "text": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular."
+          }
+        },
+        {
+          "ME10.1": {
+            "confidence_embedding": 0.716,
+            "text": "Representação de doença CID-11: Icterícia não especificada. Definição: Manifestação clínica de hiperbilirrubinemia de origem não especificada, caracterizada por coloração amarelada da pele, mucosas e esclera."
+          }
+        },
+        {
+          "MB20.1": {
+            "confidence_embedding": 0.7085,
+            "text": "Representação de doença CID-11: Coma. Definição: Estado agudo com duração de mais de uma hora e geralmente menos de um mês. O paciente em coma está arresponsivo, fica com os olhos fechados e não pode ser despertado nem mesmo por estímulos vigorosos e dolorosos. As respostas motoras à estimulação dolorosa estão limitadas a reflexos. As etiologias incluem, mas não estão limitadas a, lesões cerebrais traumáticas, anóxicas, infecciosas, neoplásicas, vasculares, inflamatórias e metabólicas."
+          }
+        }
+      ]
+    },
+    "quadro": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7446,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "ME10.1": {
+            "confidence_embedding": 0.7443,
+            "text": "Representação de doença CID-11: Icterícia não especificada. Definição: Manifestação clínica de hiperbilirrubinemia de origem não especificada, caracterizada por coloração amarelada da pele, mucosas e esclera."
+          }
+        },
+        {
+          "MC82.0": {
+            "confidence_embedding": 0.7343,
+            "text": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico."
+          }
+        },
+        {
+          "MB20.1": {
+            "confidence_embedding": 0.7293,
+            "text": "Representação de doença CID-11: Coma. Definição: Estado agudo com duração de mais de uma hora e geralmente menos de um mês. O paciente em coma está arresponsivo, fica com os olhos fechados e não pode ser despertado nem mesmo por estímulos vigorosos e dolorosos. As respostas motoras à estimulação dolorosa estão limitadas a reflexos. As etiologias incluem, mas não estão limitadas a, lesões cerebrais traumáticas, anóxicas, infecciosas, neoplásicas, vasculares, inflamatórias e metabólicas."
+          }
+        },
+        {
+          "MH15": {
+            "confidence_embedding": 0.7269,
+            "text": "Representação de doença CID-11: Morte súbita inesperada na epilepsia. Definição: Morte súbita inesperada na epilepsia (SUDEP) é uma categoria de morte em pessoas com epilepsia que ocorre em circunstâncias benignas e na ausência de causas estruturais conhecidas de morte (ou seja, não devido a afogamento, lesão, intoxicação e outros fatores internos ou externos). A evidência de uma crise epiléptica anterior pode estar presente ou não. Uma “SUDEP definitiva” é confirmada se um exame post-mortem não revelar uma causa alternativa de morte. Se tal exame não for feito, mas as causas potencialmente letais alternativas forem excluídas e todos os outros critérios forem preenchidos, a morte é rotulada como “SUDEP provável”. O termo “possível SUDEP” é usado em casos com causas de morte concorrentes ou quando os dados são insuficientes para permitir razoavelmente sua classificação. O termo “SUDEP plus” se aplica quando um paciente também sofria de outras doenças que podem ter contribuído para a morte, mas não há indícios de que a condição alternativa realmente a tenha causado. Casos em que a ressuscitação cardiopulmonar evitou a morte são chamados de “quase SUDEP”."
+          }
+        }
+      ]
+    },
+    "epilepsia": {
+      "capitulo": "08",
+      "opcoes": [
+        {
+          "8A60.00": {
+            "confidence_embedding": 0.8098,
+            "text": "Representação de doença CID-11: Epilepsia devida a insultos vasculares pré-natais ou perinatais. Definição: Epilepsia que ocorre em relação a um acidente vascular cerebral (AVC) isquêmico ou hemorrágico, com o AVC ocorrendo ou presumivelmente ocorrendo antes do nascimento (pré-natal) ou entre 22 semanas de gestação e 7 dias após o nascimento (perinatal). Nenhuma outra condição associada a um risco substancialmente aumentado de desenvolver epilepsia está presente. O início da epilepsia pode ocorrer na primeira infância, na infância ou na idade adulta."
+          }
+        },
+        {
+          "8A60.1": {
+            "confidence_embedding": 0.8072,
+            "text": "Representação de doença CID-11: Epilepsia devida a transtornos cerebrovasculares. Definição: Epilepsia que ocorre em relação a acidente vascular cerebral, com início pelo menos uma semana após um acidente vascular cerebral isquêmico ou hemorrágico."
+          }
+        },
+        {
+          "8A60.B": {
+            "confidence_embedding": 0.8037,
+            "text": "Representação de doença CID-11: Epilepsia devida a esclerose múltipla ou outros transtornos desmielinizantes. Definição: Epilepsia com início em paciente com diagnóstico estabelecido de esclerose múltipla (EM) ou outro transtorno desmielinizante. Convulsões devem ocorrer durante o curso da doença, mas não em estreita relação temporal com a fase aguda. A duração dos sintomas de EM antes da primeira crise epiléptica é geralmente de vários anos."
+          }
+        },
+        {
+          "8A61.22": {
+            "confidence_embedding": 0.8032,
+            "text": "Representação de doença CID-11: Epilepsia com crises epilépticas mioclônicas-astáticas. Definição: Epilepsia iniciando entre o segundo e quinto ano de vida em uma criança previamente normal com história familiar de convulsões, que inicialmente se manifesta com convulsões tônico-clônicas e com crises mioclônicas-astáticas começando várias semanas depois. Estas convulsões são caracterizadas por súbita perda do tônus mucular associada a propulsão para frente ou para trás que podem resultar em lesão de face e cabeça se o paciente cair."
+          }
+        },
+        {
+          "8A61.Z": {
+            "confidence_embedding": 0.7995,
+            "text": "Representação de doença CID-11: Síndromes genéticas ou supostamente genéticas expressas primariamente como epilepsia, não especificadas. Definição: "
+          }
+        }
+      ]
+    },
+    "queixa": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.758,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "ME10.1": {
+            "confidence_embedding": 0.7296,
+            "text": "Representação de doença CID-11: Icterícia não especificada. Definição: Manifestação clínica de hiperbilirrubinemia de origem não especificada, caracterizada por coloração amarelada da pele, mucosas e esclera."
+          }
+        },
+        {
+          "MB20.1": {
+            "confidence_embedding": 0.7275,
+            "text": "Representação de doença CID-11: Coma. Definição: Estado agudo com duração de mais de uma hora e geralmente menos de um mês. O paciente em coma está arresponsivo, fica com os olhos fechados e não pode ser despertado nem mesmo por estímulos vigorosos e dolorosos. As respostas motoras à estimulação dolorosa estão limitadas a reflexos. As etiologias incluem, mas não estão limitadas a, lesões cerebrais traumáticas, anóxicas, infecciosas, neoplásicas, vasculares, inflamatórias e metabólicas."
+          }
+        },
+        {
+          "MH15": {
+            "confidence_embedding": 0.7223,
+            "text": "Representação de doença CID-11: Morte súbita inesperada na epilepsia. Definição: Morte súbita inesperada na epilepsia (SUDEP) é uma categoria de morte em pessoas com epilepsia que ocorre em circunstâncias benignas e na ausência de causas estruturais conhecidas de morte (ou seja, não devido a afogamento, lesão, intoxicação e outros fatores internos ou externos). A evidência de uma crise epiléptica anterior pode estar presente ou não. Uma “SUDEP definitiva” é confirmada se um exame post-mortem não revelar uma causa alternativa de morte. Se tal exame não for feito, mas as causas potencialmente letais alternativas forem excluídas e todos os outros critérios forem preenchidos, a morte é rotulada como “SUDEP provável”. O termo “possível SUDEP” é usado em casos com causas de morte concorrentes ou quando os dados são insuficientes para permitir razoavelmente sua classificação. O termo “SUDEP plus” se aplica quando um paciente também sofria de outras doenças que podem ter contribuído para a morte, mas não há indícios de que a condição alternativa realmente a tenha causado. Casos em que a ressuscitação cardiopulmonar evitou a morte são chamados de “quase SUDEP”."
+          }
+        },
+        {
+          "MB23.H": {
+            "confidence_embedding": 0.7222,
+            "text": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas."
+          }
+        }
+      ]
+    },
+    "melhora do ponto de vista respiratório": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CB41.1": {
+            "confidence_embedding": 0.7285,
+            "text": "Representação de doença CID-11: Insuficiência respiratória crônica. Definição: Na insuficiência respiratória crônica a hipoxemia ocorre ao longo de semanas ou meses (mais de 7 dias) e a insuficiência respiratória se desenvolve mais lentamente e dura mais tempo do que na insuficiência respiratória aguda."
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.7254,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        },
+        {
+          "CA26.1": {
+            "confidence_embedding": 0.7171,
+            "text": "Representação de doença CID-11: Panbronquiolite difusa. Definição: Panbronquiolite difusa (PBD) é uma doença inflamatória idiopática que afeta principalmente os bronquíolos respiratórios, causando um transtorno respiratório obstrutivo grave progressivo de natureza supurativa. O início ocorre entre a segunda e quinta décadas da vida, e se manifesta com tosse crônica, dispneia ao esforço e produção de escarro. A maioria dos pacientes apresenta também sinusite crônica. Se não tratada, a PBD progride para bronquiectasias, insuficiência respiratória e morte. Melhora significativa do prognóstico foi relatada graças ao uso de antibióticos macrolídeos, cujo efeito é atribuído a uma ação anti-inflamatória e autorreguladora."
+          }
+        },
+        {
+          "CA23.0": {
+            "confidence_embedding": 0.7108,
+            "text": "Representação de doença CID-11: Asma alérgica. Definição: Asma alérgica é o fenótipo de asma mais facilmente reconhecido. Frequentemente, inicia-se na infância e é associada a um histórico pessoal ou familiar de doença alérgica, como eczema, rinite alérgica, ou alergia a drogas e alimentos. O exame do escarro induzido desses pacientes, antes do tratamento, geralmente revela uma inflamação eosinofílica das vias aéreas. O principal gatilho é a exposição a alérgenos, como o ácaro da poeira doméstica e ao pólen, aos quais o indivíduo tenha sido, previamente, sensibilizado. Os pacientes com esse fenótipo de asma, usualmente, respondem bem a corticoide inalatório e à imunoterapia alérgeno-específica."
+          }
+        },
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.7092,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        }
+      ]
+    },
+    "rdnpm": {
+      "capitulo": "08",
+      "opcoes": [
+        {
+          "8A61.00": {
+            "confidence_embedding": 0.7508,
+            "text": "Representação de doença CID-11: Epilepsia dependente de piridoxal-5-fosfato. Definição: A epilepsia dependente de piridoxal-5-fosfato geralmente se apresenta com crises epilépticas neonatais intratáveis ​​e é diagnosticada por análise do líquido cefalorraquidiano (LCR), teste genético e resposta clínica. A maioria dos pacientes tem mutações causadas pelo gene da piridoxamina 5'-fosfato oxidase (PNPO). O diagnóstico precoce e o tratamento eficaz podem levar a um resultado de neurodesenvolvimento relativamente favorável."
+          }
+        },
+        {
+          "8A45.30": {
+            "confidence_embedding": 0.7467,
+            "text": "Representação de doença CID-11: Transtorno da substância branca devido à deficiência de vitamina B12. Definição: Características neurológicas ocorrem em 40% dos pacientes com deficiência de vitamina B12. Degeneração combinada subaguda é uma complicação neurológica reversível potencial de deficiência de vitamina B12. Sintomas desenvolvem de forma insidiosa e as manifestações neuropáticas incluem parestesia distal, dormência, ataxia de marcha e diminuição da propriocepção dos membros inferiores, enquanto componente mielopático leva à prejuízo motor variável devido à disfunção do trato piramidal. Incontinência fecal e urinária com impotência e hipotensão postural podem ocorrer como parte da mielopatia. Manifestações centrais incluem confusão, depressão, alucinação progressiva e lentificação mental. Pode ocorrer e neuropatia óptica."
+          }
+        },
+        {
+          "8A61.Z": {
+            "confidence_embedding": 0.7464,
+            "text": "Representação de doença CID-11: Síndromes genéticas ou supostamente genéticas expressas primariamente como epilepsia, não especificadas. Definição: "
+          }
+        },
+        {
+          "8A61.Y": {
+            "confidence_embedding": 0.746,
+            "text": "Representação de doença CID-11: Síndromes genéticas ou supostamente genéticas expressas primariamente como epilepsia, especificadas. Definição: "
+          }
+        },
+        {
+          "8A61.0": {
+            "confidence_embedding": 0.7446,
+            "text": "Representação de doença CID-11: Síndromes epilépticas genéticas de início neonatal. Definição: Epilepsia com início nos primeiros 30 dias de vida, resultante de um ou mais defeitos genéticos conhecidos ou presumidos, nos quais as crises epilépticas são o sintoma principal do transtorno."
+          }
+        }
+      ]
+    },
+    "crises convulsivas": {
+      "capitulo": "08",
+      "opcoes": [
+        {
+          "8A61.22": {
+            "confidence_embedding": 0.8068,
+            "text": "Representação de doença CID-11: Epilepsia com crises epilépticas mioclônicas-astáticas. Definição: Epilepsia iniciando entre o segundo e quinto ano de vida em uma criança previamente normal com história familiar de convulsões, que inicialmente se manifesta com convulsões tônico-clônicas e com crises mioclônicas-astáticas começando várias semanas depois. Estas convulsões são caracterizadas por súbita perda do tônus mucular associada a propulsão para frente ou para trás que podem resultar em lesão de face e cabeça se o paciente cair."
+          }
+        },
+        {
+          "8A60.3": {
+            "confidence_embedding": 0.7857,
+            "text": "Representação de doença CID-11: Epilepsia devida a demências. Definição: Epilepsia com início em paciente com diagnóstico estabelecido de demência. Crises epilépticas podem ocorrer em qualquer período após início da doença. Crises epilépticas focais são o tipo prevalente na doença de Alzheimer enquanto crises epilépticas com atividade convulsiva bilateral predominam em outros transtornos demenciais. Mioclonia é outro achado comum em pacientes com doença de Alzheimer."
+          }
+        },
+        {
+          "8A66.0": {
+            "confidence_embedding": 0.785,
+            "text": "Representação de doença CID-11: Estado epiléptico convulsivo. Definição: Status epilepticus convulsivo é definido como 5 minutos ou mais de (i) atividade epiléptica convulsiva clínica contínua ou (ii) atividade epiléptica recorrente sem recuperação (retorno ao estado basal) entre as crises epilépticas."
+          }
+        },
+        {
+          "8A6Z": {
+            "confidence_embedding": 0.784,
+            "text": "Representação de doença CID-11: Epilepsia ou crises epilépticas, não especificadas. Definição: "
+          }
+        },
+        {
+          "8A61.40": {
+            "confidence_embedding": 0.7814,
+            "text": "Representação de doença CID-11: Epilepsias reflexas. Definição: As epilepsias reflexas são síndromes epilépticas raras com crises epilépticas induzidas por fatores desencadeantes específicos (por estimulação visual, auditiva, somato-sensitiva ou somato-motora, ou por atividades de função cortical superior). As epilepsias fotossensíveis são a forma mais frequente. Também podem ocorrer crises epilépticas espontâneas. As \"crises reflexas\" podem ser classificadas em uma epilepsia reflexa \"pura\" simples e um grupo complexo. A primeira compreende as crises desencadeadas por estímulos sensoriais simples ou por movimentos (epilepsias fotossensíveis). As últimas são desencadeadas por complexos processos mentais e emocionais (epilepsias verbais e não verbais)."
+          }
+        }
+      ]
+    },
+    "rinorréia": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.7537,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        },
+        {
+          "CB41.1": {
+            "confidence_embedding": 0.7504,
+            "text": "Representação de doença CID-11: Insuficiência respiratória crônica. Definição: Na insuficiência respiratória crônica a hipoxemia ocorre ao longo de semanas ou meses (mais de 7 dias) e a insuficiência respiratória se desenvolve mais lentamente e dura mais tempo do que na insuficiência respiratória aguda."
+          }
+        },
+        {
+          "CA23.0": {
+            "confidence_embedding": 0.7386,
+            "text": "Representação de doença CID-11: Asma alérgica. Definição: Asma alérgica é o fenótipo de asma mais facilmente reconhecido. Frequentemente, inicia-se na infância e é associada a um histórico pessoal ou familiar de doença alérgica, como eczema, rinite alérgica, ou alergia a drogas e alimentos. O exame do escarro induzido desses pacientes, antes do tratamento, geralmente revela uma inflamação eosinofílica das vias aéreas. O principal gatilho é a exposição a alérgenos, como o ácaro da poeira doméstica e ao pólen, aos quais o indivíduo tenha sido, previamente, sensibilizado. Os pacientes com esse fenótipo de asma, usualmente, respondem bem a corticoide inalatório e à imunoterapia alérgeno-específica."
+          }
+        },
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.7343,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA0F.0": {
+            "confidence_embedding": 0.7325,
+            "text": "Representação de doença CID-11: Hipertrofia das amígdalas. Definição: "
+          }
+        }
+      ]
+    }
+  }
+}

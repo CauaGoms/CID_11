@@ -1,0 +1,158 @@
+{
+  "prontuario_id": 600,
+  "text": "TX RENAL .\nEM USO DE TACROLIMO 1 /0,5, SRL 1 DA, PRED 5, RSV 10, LST 50, BACTRIM, CVDL 25 2X.\n\nS # SEM QUEIXAS.\n\nO # PESO 75,9.\nPA 120/80,\nEXAME FISICO NORMAL.\n \nREDUZO TACROLIMO PARA 0,5 / 0,5 \nE SIROLIMO PARA 1.\nTX RENAL CR 2,1, TACROLIMO 5, SRL 6 (ESSE 24H APÓS) É 2 48H APÓS).\nHAS COMPENSADA.\nBK URINA ÚLTIMO DECOY NEGATIVO.\n ",
+  "entities": {
+    "Substância Farmacológica": [
+      "TACROLIMO",
+      "PRED",
+      "RSV",
+      "LST",
+      "BACTRIM",
+      "CVDL"
+    ],
+    "Substância Química Orgânica": [
+      "TACROLIMO",
+      "SRL",
+      "PRED",
+      "RSV",
+      "BACTRIM",
+      "CVDL",
+      "SIROLIMO"
+    ],
+    "Abreviação": [
+      "SRL",
+      "PRED",
+      "RSV",
+      "LST",
+      "CVDL",
+      "PA",
+      "TX RENAL",
+      "CR 2 , 1"
+    ],
+    "Antibiótico": [
+      "SRL",
+      "SIROLIMO"
+    ],
+    "Conceito Quantitativo": [
+      "1",
+      "5",
+      "10",
+      "50",
+      "120/80",
+      "1 /0 , 5",
+      "25 2X",
+      "75 , 9",
+      "0 , 5 / 0 , 5",
+      "PARA 1"
+    ],
+    "Hormônio": [
+      "PRED"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS"
+    ],
+    "Atributo Clínico": [
+      "PESO",
+      "PA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "REDUZO"
+    ],
+    "Vírus": [
+      "BK"
+    ],
+    "Conceito Temporal": [
+      "ÚLTIMO",
+      "24H APÓS",
+      "48H APÓS"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Achado": [
+      "EXAME FISICO NORMAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 2 , 1",
+      "DECOY NEGATIVO"
+    ],
+    "Doença ou Síndrome": [
+      "HAS COMPENSADA"
+    ]
+  },
+  "labels": {
+    "bk": {
+      "capitulo": "16",
+      "opcoes": [
+        {
+          "GB60.1": {
+            "confidence_embedding": 0.784,
+            "text": "Representação de doença CID-11: Insuficiência renal aguda, estágio 2. Definição: Taxa de alteração da creatinina sérica: 2,0-2,9 vezes a linha de base OU Magnitude da produção de urina: < 0,5 ml/kg/h por > = 12 horas"
+          }
+        },
+        {
+          "GB60.0": {
+            "confidence_embedding": 0.7804,
+            "text": "Representação de doença CID-11: Insuficiência renal aguda, estágio 1. Definição: Taxa de alteração da creatinina sérica: aumento 1,5-1,9 vezes o valor basal em 7 dias OU aumento de 0,3 mg/dl em 48 h OU Magnitude da produção de urina: <0,5 ml/kg/h por 6-12 horas"
+          }
+        },
+        {
+          "GB57": {
+            "confidence_embedding": 0.7798,
+            "text": "Representação de doença CID-11: Nefrocalcinose. Definição: Uma afecção do rim, causada por inflamação ou degeneração anterior, quando acompanhada por insuficiência renal prévia. Essa afecção é caracterizada por litíase renal ou deposição à base de cálcio no parênquima renal. Essa afecção também pode se manifestar com infecção, hematúria, cólica anal ou diminuição da função renal. A confirmação é feita por imagens médicas abdominais para determinar a localização dos depósitos."
+          }
+        },
+        {
+          "GB90.48": {
+            "confidence_embedding": 0.7729,
+            "text": "Representação de doença CID-11: Transtornos da excreção de cálcio ou fosfato. Definição: Condições nas quais a excreção renal de cálcio e/ou fosfato está alterada."
+          }
+        },
+        {
+          "GB40": {
+            "confidence_embedding": 0.7718,
+            "text": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose."
+          }
+        }
+      ]
+    },
+    "has compensada": {
+      "capitulo": "16",
+      "opcoes": [
+        {
+          "GB80.Z": {
+            "confidence_embedding": 0.7616,
+            "text": "Representação de doença CID-11: Doença renal cística não familiar não especificada, não especificada. Definição: "
+          }
+        },
+        {
+          "GB40": {
+            "confidence_embedding": 0.7581,
+            "text": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose."
+          }
+        },
+        {
+          "GB90.48": {
+            "confidence_embedding": 0.7535,
+            "text": "Representação de doença CID-11: Transtornos da excreção de cálcio ou fosfato. Definição: Condições nas quais a excreção renal de cálcio e/ou fosfato está alterada."
+          }
+        },
+        {
+          "GB60.1": {
+            "confidence_embedding": 0.7534,
+            "text": "Representação de doença CID-11: Insuficiência renal aguda, estágio 2. Definição: Taxa de alteração da creatinina sérica: 2,0-2,9 vezes a linha de base OU Magnitude da produção de urina: < 0,5 ml/kg/h por > = 12 horas"
+          }
+        },
+        {
+          "GB80": {
+            "confidence_embedding": 0.7529,
+            "text": "Representação de doença CID-11: Doença renal cística não familiar não genética. Definição: Doenças em que há alterações anatômicas ou patológicas do desenvolvimento na substância renal que não ocorrem em uma distribuição familiar e não são conhecidas por terem uma causa monogenética."
+          }
+        }
+      ]
+    }
+  }
+}

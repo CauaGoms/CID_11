@@ -1,0 +1,156 @@
+{
+  "prontuario_id": 7,
+  "text": "PACIENTE COM DIAGNÓSTICO DE CA DE MAMA POR CORE BIOPSY,  SUBMETIDA A SETORECTOMIA + PESQ . LINFONODO SENTINELA ( GAMA PROBE ) EM 13/06/07. LINFONODO SENTINELA NEGATIVO NA CONGLAÇÃO. PROCEDIMENTO SEM INTERCORRÊNCIAS . APRESENTOU BOA EVOLUÇÃO PÓS-OPERATÓRIA. RCEBE ALTA EM BOAS CONDIÇÕES CLÍNICAS COM AS ORIENTAÇÕES ABAIXO.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Procedimento Diagnóstico": [
+      "DIAGNÓSTICO",
+      "CONGLAÇÃO",
+      "CORE BIOPSY"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SETORECTOMIA",
+      "PROCEDIMENTO"
+    ],
+    "Abreviação": [
+      "PESQ",
+      "CA DE MAMA"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "INTERCORRÊNCIAS"
+    ],
+    "Conceito Temporal": [
+      "PÓS-OPERATÓRIA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "PÓS-OPERATÓRIA",
+      "ORIENTAÇÕES"
+    ],
+    "Processo Neoplásico": [
+      "CA DE MAMA"
+    ],
+    "Dispositivo Médico": [
+      "GAMA PROBE"
+    ],
+    "Achado": [
+      "LINFONODO SENTINELA NEGATIVO",
+      "BOA EVOLUÇÃO",
+      "BOAS CONDIÇÕES CLÍNICAS"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "LINFONODO SENTINELA NEGATIVO"
+    ]
+  },
+  "labels": {
+    "ca de mama": {
+      "capitulo": "02",
+      "opcoes": [
+        {
+          "2C62": {
+            "confidence_embedding": 0.8106,
+            "text": "Representação de doença CID-11: Carcinoma inflamatório de mama. Definição: Adenocarcinoma de mama invasivo avançado, caracterizado pela presença de alterações distintas na pele subjacente. Essas alterações incluem eritema difuso, edema, aparência de casca de laranja, sensibilidade, endurecimento, calor, aumento e, em alguns casos, uma massa palpável. As alterações cutâneas são consequência da obstrução linfática do adenocarcinoma invasivo da mama. Microscopicamente, os linfáticos dérmicos mostram infiltração proeminente por células malignas. O adenocarcinoma invasivo da mama é geralmente do tipo ductal SOE. Não há infiltrado de células inflamatórias significativo presente, apesar do nome desse carcinoma."
+          }
+        },
+        {
+          "2C61.4": {
+            "confidence_embedding": 0.789,
+            "text": "Representação de doença CID-11: Carcinoma invasivo de mama, tipo não identificável. Definição: Carcinoma que se infiltra no parênquima mamário e do qual o tipo histopatológico não foi identificado."
+          }
+        },
+        {
+          "2C61": {
+            "confidence_embedding": 0.7726,
+            "text": "Representação de doença CID-11: Carcinoma invasivo da mama. Definição: "
+          }
+        },
+        {
+          "2F30.1": {
+            "confidence_embedding": 0.7713,
+            "text": "Representação de doença CID-11: Adenoma lactante da mama. Definição: Adenoma do tipo tubular da mama no qual, durante a gravidez e a lactação, as células epiteliais apresentam extensas alterações secretoras."
+          }
+        },
+        {
+          "2E65.5": {
+            "confidence_embedding": 0.7615,
+            "text": "Representação de doença CID-11: Doença de Paget do mamilo. Definição: Doença de Paget do mamilo descreve uma apresentação rara de câncer da mama, observada mais frequentemente em mulheres com idade entre 50-60 anos, manifestando-se com drenagem mamilar e coceira, eritema, mamilo escoriado com crostas, placas espessadas e hiperpigmentação (menos frequentemente). Ocorre devido à invasão de células tumorais no complexo aréolo-mamilar e representa 1%-3% de todos os novos diagnósticos de câncer de mama."
+          }
+        }
+      ]
+    },
+    "intercorrências": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NE81.0Z": {
+            "confidence_embedding": 0.7426,
+            "text": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: "
+          }
+        },
+        {
+          "NB93": {
+            "confidence_embedding": 0.7409,
+            "text": "Representação de doença CID-11: Lesão por esmagamento ou amputação traumática de parte do abdome, região lombar ou pelve. Definição: "
+          }
+        },
+        {
+          "NB32.6Z": {
+            "confidence_embedding": 0.7394,
+            "text": "Representação de doença CID-11: Lesão da pleura, não especificada. Definição: "
+          }
+        },
+        {
+          "NB75": {
+            "confidence_embedding": 0.7381,
+            "text": "Representação de doença CID-11: Lesão de nervo periférico do abdome, região lombar ou pelve. Definição: "
+          }
+        },
+        {
+          "NB90.Y": {
+            "confidence_embedding": 0.7378,
+            "text": "Representação de doença CID-11: Lesão de outros vasos sanguíneos especificados ao nível do abdome, região lombar ou pelve. Definição: "
+          }
+        }
+      ]
+    },
+    "linfonodo sentinela negativo": {
+      "capitulo": "02",
+      "opcoes": [
+        {
+          "2A84.1": {
+            "confidence_embedding": 0.749,
+            "text": "Representação de doença CID-11: Doença da cadeia pesada gama. Definição: Transtorno clonal caracterizado pela secreção de uma cadeia gama truncada. Na maioria dos casos, está associada a alterações morfológicas também observadas em linfomas linfoplasmocitários, mas o curso clínico é tipicamente mais agressivo do que no linfoma linfoplasmocitário/macroglobulinemia de Waldenström."
+          }
+        },
+        {
+          "2C61.4": {
+            "confidence_embedding": 0.715,
+            "text": "Representação de doença CID-11: Carcinoma invasivo de mama, tipo não identificável. Definição: Carcinoma que se infiltra no parênquima mamário e do qual o tipo histopatológico não foi identificado."
+          }
+        },
+        {
+          "2B0Z": {
+            "confidence_embedding": 0.712,
+            "text": "Representação de doença CID-11: Linfoma cutâneo primário de células T de tipo indeterminado ou não especificado. Definição: "
+          }
+        },
+        {
+          "2A90.8": {
+            "confidence_embedding": 0.7116,
+            "text": "Representação de doença CID-11: Linfoma hepatoesplênico de células T. Definição: Linfoma não Hodgkin de células T maduras extranodal que se origina de células T citotóxicas, geralmente do tipo células T gama/delta. É caracterizado pela presença de linfócitos neoplásicos de médio porte infiltrando os sinusoides hepáticos. Um padrão de infiltração semelhante também está presente no baço e na medula óssea, que geralmente estão envolvidos no momento do diagnóstico."
+          }
+        },
+        {
+          "2B03.0": {
+            "confidence_embedding": 0.7097,
+            "text": "Representação de doença CID-11: Linfoma cutâneo primário anaplásico de grandes|células CD30 positivo. Definição: Linfoma anaplásico de grandes células que está limitado à pele no momento do diagnóstico. A maioria dos pacientes apresenta lesões cutâneas solitárias ou localizadas na forma de nódulos ou pápulas, que podem ser tumores. A translocação t(2;5), que está presente em muitos casos de linfoma anaplásico sistêmico de grandes células, não é encontrada nessa doença."
+          }
+        }
+      ]
+    }
+  }
+}

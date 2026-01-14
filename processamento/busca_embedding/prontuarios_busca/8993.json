@@ -1,0 +1,748 @@
+{
+  "prontuario_id": 456,
+  "text": "Cliente em glasgow 7, pupilas iso / foto +, traqueostomizado com cânula de metal, respiração espontânea em aa com auxilio de oxigenoterapia em nevoa umida á 4 L/min, eupneico, face corada, mucosa oral hidratada, boa perfusão periferica, no leito com cabeceira elevada á 45°. Mantem com monitorização de multiparametros, ECG, PNI, SpO2, SNE aberta com dietoterapia em curso BI á 75 ml/hr, cateter venoso central duplo-lumen em subclavia ESQ com infusão de insulina BI com vazão conforme valor glicemico, srt em curso gravitacional. Apresenta ausculta cardiaca ritmica e normofonetica, ausculta pulmonar MV + com roncos esparsos, abdomen flacido e RHA +, edemas em MMSS e II cacifo II/III, UP em região sacra-coccigeana estagio III/IV, com placa de necrose. Faz uso de uropen com debito diuretico ++ de coloração amarelo claro, eliminação fecal presente +++ de aspecto pastoso. segue cuidados em precaução de contato por MRSA + Acinetobacter baumannii. Às 22:24h: Paciente com medicação Staficilin prescrita, porém com ficha de solicitação vencida, comunico plantão da ortopedia.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Cliente",
+      "Paciente"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "traqueostomizado",
+      "oxigenoterapia",
+      "infusão",
+      "nevoa umida",
+      "leito com cabeceira elevada á 45°",
+      "SNE aberta",
+      "com dietoterapia",
+      "cateter venoso central duplo-lumen",
+      "srt em curso gravitacional",
+      "precaução de contato"
+    ],
+    "Achado": [
+      "traqueostomizado",
+      "eupneico",
+      "ritmica",
+      "normofonetica",
+      "pupilas iso / foto",
+      "respiração espontânea",
+      "face corada",
+      "mucosa oral hidratada",
+      "boa perfusão periferica",
+      "SNE aberta",
+      "MV +",
+      "RHA +",
+      "debito diuretico ++",
+      "coloração amarelo claro",
+      "eliminação fecal presente"
+    ],
+    "Abreviação": [
+      "ECG",
+      "PNI",
+      "SpO2",
+      "BI",
+      "MMSS",
+      "UP",
+      "MRSA",
+      "pupilas iso / foto",
+      "SNE aberta",
+      "subclavia ESQ",
+      "srt em curso gravitacional",
+      "MV +",
+      "RHA +",
+      "debito diuretico ++"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECG",
+      "PNI",
+      "monitorização de multiparametros",
+      "ausculta cardiaca",
+      "ausculta pulmonar"
+    ],
+    "Dispositivo Médico": [
+      "BI",
+      "uropen",
+      "cânula de metal",
+      "SNE aberta",
+      "cateter venoso central duplo-lumen"
+    ],
+    "Substância Farmacológica": [
+      "insulina",
+      "Staficilin",
+      "nevoa umida"
+    ],
+    "Localização ou Região Corporal": [
+      "abdomen",
+      "MMSS",
+      "região sacra-coccigeana"
+    ],
+    "Sinal ou Sintoma": [
+      "edemas",
+      "roncos esparsos",
+      "placa de necrose",
+      "aspecto pastoso"
+    ],
+    "Função Patológica": [
+      "edemas"
+    ],
+    "Doença ou Síndrome": [
+      "UP"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "cuidados",
+      "plantão"
+    ],
+    "Bactéria": [
+      "MRSA",
+      "Acinetobacter baumannii"
+    ],
+    "Antibiótico": [
+      "Staficilin"
+    ],
+    "Organização Relacionada à Saúde": [
+      "ortopedia"
+    ],
+    "Conceito Quantitativo": [
+      "4 L/min",
+      "75 ml/hr"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "subclavia ESQ"
+    ],
+    "Conceito Qualitativo": [
+      "cacifo II/III",
+      "estagio III/IV"
+    ]
+  },
+  "labels": {
+    "mrsa": {
+      "capitulo": "24",
+      "opcoes": [
+        {
+          "QC04.4": {
+            "confidence_embedding": 0.7327,
+            "text": "Representação de doença CID-11: Imunização não realizada devido a alergia do paciente à vacina ou a algum de seus componentes. Definição: "
+          }
+        },
+        {
+          "QA02.8": {
+            "confidence_embedding": 0.7208,
+            "text": "Representação de doença CID-11: Observação por suspeita de alergia ou hipersensibilidade, descartada. Definição: "
+          }
+        },
+        {
+          "QA77": {
+            "confidence_embedding": 0.7163,
+            "text": "Representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano. Definição: "
+          }
+        },
+        {
+          "QC90.0Z": {
+            "confidence_embedding": 0.6959,
+            "text": "Representação de doença CID-11: Contato com ou exposição a doenças infeciosas intestinais, não especificado. Definição: "
+          }
+        },
+        {
+          "QA47.6Z": {
+            "confidence_embedding": 0.6951,
+            "text": "Representação de doença CID-11: Outros nascimentos múltiplos que não gêmeos, em hospital, não especificados. Definição: "
+          }
+        }
+      ]
+    },
+    "placa de necrose": {
+      "capitulo": "02",
+      "opcoes": [
+        {
+          "2F20.3": {
+            "confidence_embedding": 0.6827,
+            "text": "Representação de doença CID-11: Nevos melanocíticos eruptivos generalizados. Definição: Este fenômeno descreve o rápido aparecimento simultâneo de múltiplos nevos melanocíticos, frequentemente centenas em número, em pele exposta ao sol previamente não acometida. O fenômeno tem sido associado a imunossupressão, particularmente em indivíduos que realizaram transplante renal e em indivíduos que estão recebendo quimioterapia contra câncer, e pode ser considerado uma contraparte mais avançada de lentiginose eruptiva generalizada."
+          }
+        },
+        {
+          "2C25.0": {
+            "confidence_embedding": 0.6817,
+            "text": "Representação de doença CID-11: Adenocarcinoma de brônquio ou pulmão. Definição: Carcinoma que surge do pulmão e é caracterizado pela presença de células epiteliais glandulares malignas. Existe uma predileção pelo sexo masculino com uma proporção de sexo masculino para feminino de 2:1. Geralmente o adenocarcinoma pulmonar é assintomático e é identificado por meio de estudos de triagem ou como um achado radiológico incidental. Se sintomas clínicos estiverem presentes, eles incluem falta de ar, tosse, hemoptise, dor no peito e febre. A fumaça do tabaco é fator de risco reconhecido."
+          }
+        },
+        {
+          "2A38": {
+            "confidence_embedding": 0.6779,
+            "text": "Representação de doença CID-11: Citopenia refratária da infância. Definição: O subtipo mais comum de síndromes mielodisplásicas que afetam crianças. É caracterizada por citopenia persistente com menos de 5% de blastos na medula óssea e menos de 2% de blastos no sangue periférico."
+          }
+        },
+        {
+          "2F20.1": {
+            "confidence_embedding": 0.6689,
+            "text": "Representação de doença CID-11: Nevo melanocítico atípico. Definição: Lesões solitárias ou múltiplas, levemente elevadas, pigmentadas e com bordas irregulares, geralmente medindo mais de 0,6 cm na maior dimensão. Morfologicamente, há atipia melanocítica e o diagnóstico diferencial com melanoma pode ser difícil. Os pacientes apresentam risco aumentado de desenvolver melanoma."
+          }
+        },
+        {
+          "2B72.0": {
+            "confidence_embedding": 0.6666,
+            "text": "Representação de doença CID-11: Adenocarcinoma gástrico. Definição: Adenocarcinoma originado do epitélio glandular do estômago. O adenocarcinoma gástrico é principalmente uma doença de indivíduos mais velhos. Ela se desenvolve mais comumente após um longo período de gastrite atrófica e está fortemente associada à infecção por Helicobacter pylori. A falta de sintomas precoces muitas vezes atrasa o diagnóstico de câncer gástrico. A maioria dos pacientes apresenta tumores avançados com baixas taxas de cura. Microscopicamente, dois tipos histológicos importantes de adenocarcinoma gástrico são reconhecidos: o tipo intestinal e o tipo difuso. O prognóstico geral dos adenocarcinomas gástricos é ruim, mesmo nos pacientes que recebem uma ressecção curativa."
+          }
+        }
+      ]
+    },
+    "edemas": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CB00": {
+            "confidence_embedding": 0.7563,
+            "text": "Representação de doença CID-11: Síndrome do desconforto respiratório agudo. Definição: Síndrome do desconforto respiratório agudo (SDRA) é uma inflamação e edema nos pulmões com risco de vida iminente, que leva a insuficiência respiratória aguda grave. A SDRA é uma síndrome clínica de lesão pulmonar com insuficiência respiratória aguda hipoxêmica causada por intensa inflamação pulmonar que se desenvolve após lesão fisiopatológica grave."
+          }
+        },
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.7533,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.7504,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        },
+        {
+          "CB01": {
+            "confidence_embedding": 0.7439,
+            "text": "Representação de doença CID-11: Edema pulmonar. Definição: Edema pulmonar é uma condição causada por excesso de líquido nos pulmões, que se acumula nos sacos alveolares do pulmão, dificultando a respiração."
+          }
+        },
+        {
+          "CA0K.1": {
+            "confidence_embedding": 0.7424,
+            "text": "Representação de doença CID-11: Abscesso periamigdaliano. Definição: Abscesso periamigdaliano é definido como uma formação abcedada situada entre a cápsula tonsilar e os músculos constritores da amígdala. O abcesso periamigdaliano vem, na maioria das vezes, de uma periamigdalite. Febre alta, dor faríngea e dor à deglutição são os principais sintomas, mas ele pode também causar voz abafada. A úvula é desviada para o lado não afetado, e edema e vermelhidão em volta da amígdala afetada são evidentes. O exame bacteriológico do pus peritonsilar revela frequentemente o estreptococos beta hemolíticos do grupo A como bactéria aeróbica e a taxa de detecção de bactérias anaeróbicas também representa mais da metade dos casos. O tratamento consiste em antibioticoterapia e incisão e drenagem do abscesso. Os sintomas melhoram com este tratamento na maioria dos casos, enquanto alguns casos progridem para uma infecção profunda mortal do pescoço e abcesso mediastinal. Atenção especial é necessária se existem complicações sistêmicas como diabetes mellitus."
+          }
+        }
+      ]
+    },
+    "traqueostomizado": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CA27.0": {
+            "confidence_embedding": 0.7549,
+            "text": "Representação de doença CID-11: Traqueobroncopatia osteocondroplática. Definição: Traqueobroncopatia osteocondroplástica é um transtorno raro de causa desconhecida, observado em 0,4 por cento das broncoscopias, que afeta as grandes vias aéreas. É caracterizada pelo desenvolvimento de múltiplos nódulos submucosos ósseos e cartilaginosos conectados a cartilagem traqueal. A anormalidade poupa a parede membranosa posterior da traqueia. A despeito de alterações radiológicas marcantes, os pacientes apenas raramente são sintomáticos pois a obstrução grave da via aérea é incomum. A traqueoplastia linear pode ser necessária em pacientes com obstrução sintomática de vias aéreas."
+          }
+        },
+        {
+          "CB60": {
+            "confidence_embedding": 0.7516,
+            "text": "Representação de doença CID-11: Mau funcionamento de traqueostomia. Definição: "
+          }
+        },
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.7438,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA27.1": {
+            "confidence_embedding": 0.7434,
+            "text": "Representação de doença CID-11: Traqueobroncomegalia. Definição: Traqueobroncomegalia é um transtorno de causa desconhecida, definido pela dilatação da traqueia e dos grandes brônquios que ocorre em adultos."
+          }
+        },
+        {
+          "CB05.41": {
+            "confidence_embedding": 0.7406,
+            "text": "Representação de doença CID-11: Transtornos respiratórios na poliangeíte microscópica. Definição: Abrange condições patológicas que afetam órgãos e tecidos que possibilitam a troca gasosa em organismos superiores, e inclui condições do trato respiratório superior, traqueia, brônquios e bronquíolos, alvéolos pleura e cavidade pleural, nervos e músculos envolvidos na respiração. Este diagnóstico é quando há uma doença autoimune mal definida caracterizada por uma vasculite sistêmica, pauci-imune, necrotizante, de pequenos vasos sem evidência clínica ou patológica de uma inflamação granulomatosa necrotizante."
+          }
+        }
+      ]
+    },
+    "eliminação fecal presente": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DB33.3": {
+            "confidence_embedding": 0.7695,
+            "text": "Representação de doença CID-11: Colite de desvio. Definição: Condição inflamatória que ocorre em segmentos do cólon e do reto que são desviados do fluxo fecal por cirurgia."
+          }
+        },
+        {
+          "DA42.9": {
+            "confidence_embedding": 0.7641,
+            "text": "Representação de doença CID-11: Flegmão gástrico. Definição: Processo inflamatório difuso alastrante com formação de exsudato supurativo/ purulento ou pus na parede gástrica. Muitas vezes evolui para uma coleção delimitada de pus, abscesso gástrico. Isso se deve principalmente devido a uma inflamação aguda por infecção bacteriana."
+          }
+        },
+        {
+          "DA24.00": {
+            "confidence_embedding": 0.7629,
+            "text": "Representação de doença CID-11: Flegmão esofágico. Definição: Processo inflamatório difuso alastrante com formação de exsudato supurativo/purulento ou pus na parede esofágica. Muitas vezes evolui para uma coleção delimitada de pus, abscesso esofágico. Isso se deve majoritariamente a inflamação aguda por infecção bacteriana."
+          }
+        },
+        {
+          "DA23": {
+            "confidence_embedding": 0.7526,
+            "text": "Representação de doença CID-11: Epitélio metaplásico colunar do esôfago. Definição: Condição adquirida na qual o tecido que reveste o esôfago é substituído por tecido semelhante ao revestimento do intestino ou do estômago subsequente a refluxo gastroesofágico crônico."
+          }
+        },
+        {
+          "DB33.42": {
+            "confidence_embedding": 0.7521,
+            "text": "Representação de doença CID-11: Proctite por radiação. Definição: Proctite por radiação é uma doença retal rara induzida diretamente pela radioterapia pélvica e caracterizada por sangramento retal, alteração do hábito intestinal, tenesmo e sepse."
+          }
+        }
+      ]
+    },
+    "pupilas iso / foto": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7393,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MF95": {
+            "confidence_embedding": 0.7363,
+            "text": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular."
+          }
+        },
+        {
+          "MC20.0": {
+            "confidence_embedding": 0.7224,
+            "text": "Representação de doença CID-11: Estafiloma. Definição: Protusão anormal do tecido uveal através de um ponto frágil do globo ocular. A protrução geralmente é de cor preta, devido às camadas internas do olho. Ocorre devido ao enfraquecimento da camada externa do olho (córnea ou esclera) por uma condição inflamatória ou degenerativa. Pode ser de 5 tipos, dependendo da localização no globo ocular (bulbus oculi)."
+          }
+        },
+        {
+          "MF97": {
+            "confidence_embedding": 0.722,
+            "text": "Representação de doença CID-11: Piúria. Definição: Piúria é uma condição urinária caracterizada por um número elevado de leucócitos na urina. Número alto é definido como pelo menos 10 leucócitos por milímetro cúbico (mm³) de urina centrifugada. A piúria pode fazer com que a urina pareça turva ou com pus."
+          }
+        },
+        {
+          "MD11.4": {
+            "confidence_embedding": 0.7167,
+            "text": "Representação de doença CID-11: Respiração de Cheyne-Stokes relacionada ao sono. Definição: Respiração periódica, uma variante da respiração de Cheyne-Stokes, é caracterizada por ciclos regulares e recorrentes de mudanças no volume corrente, nas quais o menor volume corrente é menor que a metade do volume corrente máximo do mesmo ciclo. É o padrão respiratório anormal mais frequentemente relacionado ao acidente vascular cerebral, mais do que nas doenças sistêmicas, ocorrendo em aproximadamente 25% daqueles. A respiração periódica pode ser mais comum em pacientes com hemorragia subaracnóidea."
+          }
+        }
+      ]
+    },
+    "debito diuretico ++": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DA60.3": {
+            "confidence_embedding": 0.7309,
+            "text": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago."
+          }
+        },
+        {
+          "DA42.9": {
+            "confidence_embedding": 0.7264,
+            "text": "Representação de doença CID-11: Flegmão gástrico. Definição: Processo inflamatório difuso alastrante com formação de exsudato supurativo/ purulento ou pus na parede gástrica. Muitas vezes evolui para uma coleção delimitada de pus, abscesso gástrico. Isso se deve principalmente devido a uma inflamação aguda por infecção bacteriana."
+          }
+        },
+        {
+          "DE11": {
+            "confidence_embedding": 0.7263,
+            "text": "Representação de doença CID-11: Síndrome de dumping. Definição: Síndrome de dumping é um grupo de sinais e sintomas que se desenvolve mais frequentemente em pessoas que foram submetidas a cirurgia para ressecção total ou parcial do estômago, ou em quem foi submetido a um bypass cirúrgico. Pode ocorrer precocemente (durante a refeição ou após 15-30 minutos com náuseas, vômitos, dor abdominal, cólicas, diarreia, tontura e palpitações cardíacas) ou tardiamente (1 a 3 horas após a refeição com sudorese, fraqueza, fadiga, tonturas, vertigens, palpitações cardíacas e desmaios)."
+          }
+        },
+        {
+          "DA24.00": {
+            "confidence_embedding": 0.7261,
+            "text": "Representação de doença CID-11: Flegmão esofágico. Definição: Processo inflamatório difuso alastrante com formação de exsudato supurativo/purulento ou pus na parede esofágica. Muitas vezes evolui para uma coleção delimitada de pus, abscesso esofágico. Isso se deve majoritariamente a inflamação aguda por infecção bacteriana."
+          }
+        },
+        {
+          "DA23": {
+            "confidence_embedding": 0.7099,
+            "text": "Representação de doença CID-11: Epitélio metaplásico colunar do esôfago. Definição: Condição adquirida na qual o tecido que reveste o esôfago é substituído por tecido semelhante ao revestimento do intestino ou do estômago subsequente a refluxo gastroesofágico crônico."
+          }
+        }
+      ]
+    },
+    "normofonetica": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7047,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MD11.4": {
+            "confidence_embedding": 0.7041,
+            "text": "Representação de doença CID-11: Respiração de Cheyne-Stokes relacionada ao sono. Definição: Respiração periódica, uma variante da respiração de Cheyne-Stokes, é caracterizada por ciclos regulares e recorrentes de mudanças no volume corrente, nas quais o menor volume corrente é menor que a metade do volume corrente máximo do mesmo ciclo. É o padrão respiratório anormal mais frequentemente relacionado ao acidente vascular cerebral, mais do que nas doenças sistêmicas, ocorrendo em aproximadamente 25% daqueles. A respiração periódica pode ser mais comum em pacientes com hemorragia subaracnóidea."
+          }
+        },
+        {
+          "MD11.2": {
+            "confidence_embedding": 0.7017,
+            "text": "Representação de doença CID-11: Respiração atáxica. Definição: Um padrão respiratório anormal que usualmente progride para apneia completa."
+          }
+        },
+        {
+          "MF95": {
+            "confidence_embedding": 0.701,
+            "text": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular."
+          }
+        },
+        {
+          "MD22": {
+            "confidence_embedding": 0.699,
+            "text": "Representação de doença CID-11: Hemoptise. Definição: Expectoração ou cuspe de sangue originário de qualquer parte do trato respiratório, usualmente resultado de hemorragia no parênquima pulmonar e artérias bronquiais."
+          }
+        }
+      ]
+    },
+    "roncos esparsos": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.7314,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.7093,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        },
+        {
+          "CA72": {
+            "confidence_embedding": 0.7018,
+            "text": "Representação de doença CID-11: Síndrome de Mendelson. Definição: Esta pneumonite química é causada por aspiração durante anestesia, especialmente durante a gravidez. O conteúdo da aspiração pode incluir suco gástrico, sangue, bile, água ou uma associação destes."
+          }
+        },
+        {
+          "CB05.41": {
+            "confidence_embedding": 0.6982,
+            "text": "Representação de doença CID-11: Transtornos respiratórios na poliangeíte microscópica. Definição: Abrange condições patológicas que afetam órgãos e tecidos que possibilitam a troca gasosa em organismos superiores, e inclui condições do trato respiratório superior, traqueia, brônquios e bronquíolos, alvéolos pleura e cavidade pleural, nervos e músculos envolvidos na respiração. Este diagnóstico é quando há uma doença autoimune mal definida caracterizada por uma vasculite sistêmica, pauci-imune, necrotizante, de pequenos vasos sem evidência clínica ou patológica de uma inflamação granulomatosa necrotizante."
+          }
+        },
+        {
+          "CA22.0": {
+            "confidence_embedding": 0.6968,
+            "text": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia."
+          }
+        }
+      ]
+    },
+    "respiração espontânea": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.7962,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.7864,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        },
+        {
+          "CA22.0": {
+            "confidence_embedding": 0.7802,
+            "text": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia."
+          }
+        },
+        {
+          "CA42.3": {
+            "confidence_embedding": 0.7704,
+            "text": "Representação de doença CID-11: Bronquite aguda devida a vírus parainfluenza. Definição: Doenças dos brônquios, causada por infecção aguda por vírus parainfluenza. Esta doença é caracterizada por inflamação aguda dos brônquios, levando a tosse, produção de catarro, chieira torácica ou falta de ar. A transmissão ocorre por inalação de secreções respiratórias infectadas, por contato direto ou por meio de fômites. A confirmação é feita pela identificação do vírus parainfluenza nas secreções respiratórias, pela detecção de elevação significativa de anticorpos IgG específicos para o parainfluenza em amostras pareadas de soro ou pela detecção de IgM específica para o parainfluenza em uma única amostra de soro."
+          }
+        },
+        {
+          "CB41.1": {
+            "confidence_embedding": 0.7681,
+            "text": "Representação de doença CID-11: Insuficiência respiratória crônica. Definição: Na insuficiência respiratória crônica a hipoxemia ocorre ao longo de semanas ou meses (mais de 7 dias) e a insuficiência respiratória se desenvolve mais lentamente e dura mais tempo do que na insuficiência respiratória aguda."
+          }
+        }
+      ]
+    },
+    "mv +": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.7552,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        },
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.7498,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA22.0": {
+            "confidence_embedding": 0.737,
+            "text": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia."
+          }
+        },
+        {
+          "CA42.3": {
+            "confidence_embedding": 0.7299,
+            "text": "Representação de doença CID-11: Bronquite aguda devida a vírus parainfluenza. Definição: Doenças dos brônquios, causada por infecção aguda por vírus parainfluenza. Esta doença é caracterizada por inflamação aguda dos brônquios, levando a tosse, produção de catarro, chieira torácica ou falta de ar. A transmissão ocorre por inalação de secreções respiratórias infectadas, por contato direto ou por meio de fômites. A confirmação é feita pela identificação do vírus parainfluenza nas secreções respiratórias, pela detecção de elevação significativa de anticorpos IgG específicos para o parainfluenza em amostras pareadas de soro ou pela detecção de IgM específica para o parainfluenza em uma única amostra de soro."
+          }
+        },
+        {
+          "CB41.0": {
+            "confidence_embedding": 0.7257,
+            "text": "Representação de doença CID-11: Insuficiência respiratória aguda. Definição: A insuficiência respiratória pode ser aguda (de curta duração) ou crônica (em evolução), usando o tempo como o principal parâmetro. Na insuficiência respiratória aguda a hipoxemia ocorre em um período de horas ou dias (menos de 7 dias) e a insuficiência respiratória pode se desenvolver rapidamente, e exigir tratamento de emergência."
+          }
+        }
+      ]
+    },
+    "coloração amarelo claro": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MF95": {
+            "confidence_embedding": 0.7124,
+            "text": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular."
+          }
+        },
+        {
+          "MC20.2": {
+            "confidence_embedding": 0.7066,
+            "text": "Representação de doença CID-11: Hipópio. Definição: Hipópio é a presença de células inflamatórias na câmara anterior do olho. Corresponde a um exsudato leucocitário, observado na câmara anterior, geralmente acompanhado de hiperemia de conjuntiva e episclera subjacente. É um sinal de inflamação da úvea anterior e da íris, ou seja, irite, que é uma forma de uveíte anterior. O exsudado deposita-se no fundo devido à ação da gravidade."
+          }
+        },
+        {
+          "MD11.2": {
+            "confidence_embedding": 0.7048,
+            "text": "Representação de doença CID-11: Respiração atáxica. Definição: Um padrão respiratório anormal que usualmente progride para apneia completa."
+          }
+        },
+        {
+          "MD11.4": {
+            "confidence_embedding": 0.7015,
+            "text": "Representação de doença CID-11: Respiração de Cheyne-Stokes relacionada ao sono. Definição: Respiração periódica, uma variante da respiração de Cheyne-Stokes, é caracterizada por ciclos regulares e recorrentes de mudanças no volume corrente, nas quais o menor volume corrente é menor que a metade do volume corrente máximo do mesmo ciclo. É o padrão respiratório anormal mais frequentemente relacionado ao acidente vascular cerebral, mais do que nas doenças sistêmicas, ocorrendo em aproximadamente 25% daqueles. A respiração periódica pode ser mais comum em pacientes com hemorragia subaracnóidea."
+          }
+        },
+        {
+          "MB41.3": {
+            "confidence_embedding": 0.6994,
+            "text": "Representação de doença CID-11: Hiposmia. Definição: Diminuição da capacidade de sentir cheiro."
+          }
+        }
+      ]
+    },
+    "acinetobacter baumannii": {
+      "capitulo": "24",
+      "opcoes": [
+        {
+          "QC04.4": {
+            "confidence_embedding": 0.688,
+            "text": "Representação de doença CID-11: Imunização não realizada devido a alergia do paciente à vacina ou a algum de seus componentes. Definição: "
+          }
+        },
+        {
+          "QA02.8": {
+            "confidence_embedding": 0.6681,
+            "text": "Representação de doença CID-11: Observação por suspeita de alergia ou hipersensibilidade, descartada. Definição: "
+          }
+        },
+        {
+          "QA77": {
+            "confidence_embedding": 0.6679,
+            "text": "Representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano. Definição: "
+          }
+        },
+        {
+          "QC00.Y": {
+            "confidence_embedding": 0.6672,
+            "text": "Representação de doença CID-11: Outra necessidade especificada de imunização contra doenças bacterianas individualizadas. Definição: "
+          }
+        },
+        {
+          "QC90.0Z": {
+            "confidence_embedding": 0.6652,
+            "text": "Representação de doença CID-11: Contato com ou exposição a doenças infeciosas intestinais, não especificado. Definição: "
+          }
+        }
+      ]
+    },
+    "up": {
+      "capitulo": "16",
+      "opcoes": [
+        {
+          "GB40": {
+            "confidence_embedding": 0.7411,
+            "text": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose."
+          }
+        },
+        {
+          "GB90.47": {
+            "confidence_embedding": 0.7378,
+            "text": "Representação de doença CID-11: Aminoacidúria. Definição: Condições em que os aminoácidos são encontrados na urina devido à superprodução (níveis elevados no sangue) ou falha da reabsorção tubular"
+          }
+        },
+        {
+          "GC40.53": {
+            "confidence_embedding": 0.7331,
+            "text": "Representação de doença CID-11: Incontinência por transbordamento associada a prolapso de órgão pélvico. Definição: Condição do sistema urinário, causada pelo esvaziamento incompleto de urina da bexiga e por um músculo detrusor acontrátil. Esta condição é caracterizada por incontinência urinária e perda de urina em pequenos volumes. Essa condição pode estar associada a obstrução, músculos da bexiga enfraquecidos, lesão, uso de medicamentos, diabetes mellitus, dano a nervo ou disfunção do sistema nervoso."
+          }
+        },
+        {
+          "GC40.50": {
+            "confidence_embedding": 0.7241,
+            "text": "Representação de doença CID-11: Incontinência de esforço associada a prolapso de órgão pélvico. Definição: Condição do sistema urinário, causada por fraqueza dos músculos do assoalho pélvico e aumento da pressão intra-abdominal, causando pressão na bexiga. Esta condição é caracterizada por uma mudança na posição da uretra, permitindo que a urina saia facilmente, e incontinência urinária ao tossir, rir, espirrar, praticar exercícios ou outras atividades físicas que aumentem a pressão intra-abdominal."
+          }
+        },
+        {
+          "GA18.7": {
+            "confidence_embedding": 0.7231,
+            "text": "Representação de doença CID-11: Atrofia adquirida de ovário ou tuba uterina. Definição: Condição do ovário e da tuba uterina, causada por determinantes como infecção, quimioterapia ou radioterapia, ou choque, que surge após o nascimento. Esta condição é caracterizada pela diminuição parcial ou total do tamanho e função do ovário e da tuba uterina, menopausa prematura, fadiga, menstruação irregular, ganho de peso e irritabilidade. A confirmação é feita pela identificação de níveis elevados de estrogênio e do hormônio folículo estimulante em uma amostra de sangue."
+          }
+        }
+      ]
+    },
+    "aspecto pastoso": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DA60.3": {
+            "confidence_embedding": 0.7269,
+            "text": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago."
+          }
+        },
+        {
+          "DA24.00": {
+            "confidence_embedding": 0.7119,
+            "text": "Representação de doença CID-11: Flegmão esofágico. Definição: Processo inflamatório difuso alastrante com formação de exsudato supurativo/purulento ou pus na parede esofágica. Muitas vezes evolui para uma coleção delimitada de pus, abscesso esofágico. Isso se deve majoritariamente a inflamação aguda por infecção bacteriana."
+          }
+        },
+        {
+          "DA42.9": {
+            "confidence_embedding": 0.7115,
+            "text": "Representação de doença CID-11: Flegmão gástrico. Definição: Processo inflamatório difuso alastrante com formação de exsudato supurativo/ purulento ou pus na parede gástrica. Muitas vezes evolui para uma coleção delimitada de pus, abscesso gástrico. Isso se deve principalmente devido a uma inflamação aguda por infecção bacteriana."
+          }
+        },
+        {
+          "DA40.1": {
+            "confidence_embedding": 0.7112,
+            "text": "Representação de doença CID-11: Fístula gástrica adquirida. Definição: Fístula gástrica adquirida é uma comunicação através da parede gástrica com a cavidade peritoneal, ou com outro órgão e vasos que normalmente não se conectam, ou através da parede abdominal."
+          }
+        },
+        {
+          "DB33.20": {
+            "confidence_embedding": 0.7076,
+            "text": "Representação de doença CID-11: Proctite ou colite infantil induzida por proteína de alimentos. Definição: Hipersensibilidade intestinal não mediada por IgE (na ausência de anticorpos IgE) induzida por proteína alimentar que provoca resposta inflamatória principalmente do cólon sigmoide distal e do reto. É uma condição em bebês que resulta de resposta imune desencadeada por proteínas da dieta, principalmente do leite (através da amamentação). Os pacientes geralmente parecem saudáveis e têm fezes normais e macias com manchas ou raias de sangue. O diagnóstico é feito usualmente baseado na resolução dos sintomas com a retirada do suposto antígeno alimentar. O início usual é nos primeiros 2 meses de vida, mas pode também ocorrer em bebês de 1 dia a 6 meses de idade."
+          }
+        }
+      ]
+    },
+    "face corada": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MG31.0": {
+            "confidence_embedding": 0.7254,
+            "text": "Representação de doença CID-11: Dor aguda na face, não classificada em outra parte. Definição: "
+          }
+        },
+        {
+          "MD11.8": {
+            "confidence_embedding": 0.7039,
+            "text": "Representação de doença CID-11: Respiração pela boca. Definição: Respirar pela boca. Obstrução nasal pode também tornar necessária a respiração oral, o que por si só pode causar apneia obstrutiva. Respirar pela boca pode também aumentar o risco para apneia obstrutiva do sono, pelos seus efeitos na língua. A língua forma a parede anterior da orofaringe; tanto a postura supina quanto abertura da boca tendem a deslocar a língua posteriormente e promovem o fechamento da via aérea."
+          }
+        },
+        {
+          "MF97": {
+            "confidence_embedding": 0.7039,
+            "text": "Representação de doença CID-11: Piúria. Definição: Piúria é uma condição urinária caracterizada por um número elevado de leucócitos na urina. Número alto é definido como pelo menos 10 leucócitos por milímetro cúbico (mm³) de urina centrifugada. A piúria pode fazer com que a urina pareça turva ou com pus."
+          }
+        },
+        {
+          "MC20.2": {
+            "confidence_embedding": 0.6929,
+            "text": "Representação de doença CID-11: Hipópio. Definição: Hipópio é a presença de células inflamatórias na câmara anterior do olho. Corresponde a um exsudato leucocitário, observado na câmara anterior, geralmente acompanhado de hiperemia de conjuntiva e episclera subjacente. É um sinal de inflamação da úvea anterior e da íris, ou seja, irite, que é uma forma de uveíte anterior. O exsudado deposita-se no fundo devido à ação da gravidade."
+          }
+        },
+        {
+          "ME62.9": {
+            "confidence_embedding": 0.6894,
+            "text": "Representação de doença CID-11: Escoriação cutânea aguda. Definição: Diagnóstico provisório de erupção cutânea de natureza desconhecida ou incerta, que surge abruptamente e que consiste em múltiplas escoriações. Na maioria dos casos, a escoriação é secundária ao prurido intenso decorrente de um transtornos sistêmico subjacente, como icterícia colestática, ou de uma doença cutânea pruriginosa, como eczema. Em alguns casos, entretanto, fatores psicogênicos podem ser responsáveis."
+          }
+        }
+      ]
+    },
+    "sne aberta": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MD11.8": {
+            "confidence_embedding": 0.7002,
+            "text": "Representação de doença CID-11: Respiração pela boca. Definição: Respirar pela boca. Obstrução nasal pode também tornar necessária a respiração oral, o que por si só pode causar apneia obstrutiva. Respirar pela boca pode também aumentar o risco para apneia obstrutiva do sono, pelos seus efeitos na língua. A língua forma a parede anterior da orofaringe; tanto a postura supina quanto abertura da boca tendem a deslocar a língua posteriormente e promovem o fechamento da via aérea."
+          }
+        },
+        {
+          "MD11.2": {
+            "confidence_embedding": 0.6949,
+            "text": "Representação de doença CID-11: Respiração atáxica. Definição: Um padrão respiratório anormal que usualmente progride para apneia completa."
+          }
+        },
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.6944,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MD11.4": {
+            "confidence_embedding": 0.6925,
+            "text": "Representação de doença CID-11: Respiração de Cheyne-Stokes relacionada ao sono. Definição: Respiração periódica, uma variante da respiração de Cheyne-Stokes, é caracterizada por ciclos regulares e recorrentes de mudanças no volume corrente, nas quais o menor volume corrente é menor que a metade do volume corrente máximo do mesmo ciclo. É o padrão respiratório anormal mais frequentemente relacionado ao acidente vascular cerebral, mais do que nas doenças sistêmicas, ocorrendo em aproximadamente 25% daqueles. A respiração periódica pode ser mais comum em pacientes com hemorragia subaracnóidea."
+          }
+        },
+        {
+          "MG31.0": {
+            "confidence_embedding": 0.6883,
+            "text": "Representação de doença CID-11: Dor aguda na face, não classificada em outra parte. Definição: "
+          }
+        }
+      ]
+    },
+    "ritmica": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MF95": {
+            "confidence_embedding": 0.7199,
+            "text": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular."
+          }
+        },
+        {
+          "MF97": {
+            "confidence_embedding": 0.7114,
+            "text": "Representação de doença CID-11: Piúria. Definição: Piúria é uma condição urinária caracterizada por um número elevado de leucócitos na urina. Número alto é definido como pelo menos 10 leucócitos por milímetro cúbico (mm³) de urina centrifugada. A piúria pode fazer com que a urina pareça turva ou com pus."
+          }
+        },
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7094,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MC82.1": {
+            "confidence_embedding": 0.707,
+            "text": "Representação de doença CID-11: Parada cardíaca com bradicardia. Definição: Ritmo de escape lento associado a colapso hemodinâmico."
+          }
+        },
+        {
+          "MF90": {
+            "confidence_embedding": 0.7003,
+            "text": "Representação de doença CID-11: Acetonúria. Definição: A acetonúria é uma condição médica em que a acetona está presente na urina."
+          }
+        }
+      ]
+    }
+  }
+}

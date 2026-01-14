@@ -1,0 +1,59 @@
+{
+  "prontuario_id": 303,
+  "text": "PACIENTE EM ACOMPANHAMENTO POS-IAM HA 2 ANOS. NEGA QUEIXAS. SOLICITO NOVA ROTINA DE EXAMES. RENOVO RECEITA.        ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "SOLICITO",
+      "RENOVO RECEITA"
+    ],
+    "Abreviação": [
+      "ACOMPANHAMENTO POS-IAM"
+    ],
+    "Procedimento Diagnóstico": [
+      "ROTINA DE EXAMES"
+    ]
+  },
+  "labels": {
+    "queixas": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7239,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MF34": {
+            "confidence_embedding": 0.7201,
+            "text": "Representação de doença CID-11: Sintoma ou queixa da gravidez. Definição: "
+          }
+        },
+        {
+          "MD11.5": {
+            "confidence_embedding": 0.7198,
+            "text": "Representação de doença CID-11: Dispneia. Definição: Dispneia é o termo utilizado para descrever percepções de dificuldade ou sofrimento relacionados à respiração e é reconhecido como sintoma de doença quando ocorre em circunstâncias inapropriadas. Dispneia é uma queixa apresentada por pacientes com uma ampla variedade de condições médicas, causadas por múltiplos mecanismos.\r\nA dispneia é considerada aguda quando dura de horas a 3 semanas, subaguda de 3 a 8 semanas e a dispneia crônica dura mais de 8 semanas."
+          }
+        },
+        {
+          "ME66.6": {
+            "confidence_embedding": 0.7185,
+            "text": "Representação de doença CID-11: Rash. Definição: Termo inespecífico que indica a presença de um distúrbio cutâneo adquirido, que deve ser usado somente quando nenhuma informação mais precisa estiver disponível."
+          }
+        },
+        {
+          "ME66.4": {
+            "confidence_embedding": 0.715,
+            "text": "Representação de doença CID-11: Sintoma ou queixa relativos às unhas. Definição: Termo muito inespecífico para indicar um problema real ou percebido afetando as unhas das mãos ou dos pés, e que não pode ser codificado com mais precisão em outra parte."
+          }
+        }
+      ]
+    }
+  }
+}

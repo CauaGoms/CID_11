@@ -1,0 +1,105 @@
+{
+  "prontuario_id": 919,
+  "text": "# PO AMPUTAÇÃO MIE.\n# PACIENTE EM USO DE GABAPENTINA E AMITRIPTILINA.\n# FERIDA LIMPA, SEM SINAIS FLOGÍSTICOS.\n# RETORNO 7 DIAS.\n\nR3 Lucas\nR4 Nome_Genérico         ",
+  "entities": {
+    "Abreviação": [
+      "PO",
+      "MIE",
+      "R3"
+    ],
+    "Conceito Temporal": [
+      "PO"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Substância Farmacológica": [
+      "GABAPENTINA",
+      "AMITRIPTILINA"
+    ],
+    "Lesão ou Envenenamento": [
+      "FERIDA"
+    ],
+    "Achado": [
+      "LIMPA"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "SINAIS FLOGÍSTICOS"
+    ]
+  },
+  "labels": {
+    "ferida": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NC91.4": {
+            "confidence_embedding": 0.7666,
+            "text": "Representação de doença CID-11: Ferida aberta por mordedura na perna. Definição: "
+          }
+        },
+        {
+          "NA07.08": {
+            "confidence_embedding": 0.7499,
+            "text": "Representação de doença CID-11: Concussão com perda da consciência, duração não especificada ou desconhecida devido aos efeitos da terapia. Definição: "
+          }
+        },
+        {
+          "NB2Z": {
+            "confidence_embedding": 0.7493,
+            "text": "Representação de doença CID-11: Lesão de nervos ou da medula espinal ao nível do tórax, não especificada. Definição: "
+          }
+        },
+        {
+          "NF0A.3": {
+            "confidence_embedding": 0.7468,
+            "text": "Representação de doença CID-11: Infecção pós-traumática da ferida, não classificada em outra parte. Definição: "
+          }
+        },
+        {
+          "NB7Z": {
+            "confidence_embedding": 0.7466,
+            "text": "Representação de doença CID-11: Lesão de nervos ao nível do abdome, região lombar ou pelve, não especificada. Definição: "
+          }
+        }
+      ]
+    },
+    "sinais flogísticos": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MB24.A": {
+            "confidence_embedding": 0.7886,
+            "text": "Representação de doença CID-11: Medo. Definição: Resposta emocional diante da percepção de ameaça ou perigo iminente, associada ao desejo de fugir ou lutar."
+          }
+        },
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7858,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MB23.H": {
+            "confidence_embedding": 0.7811,
+            "text": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas."
+          }
+        },
+        {
+          "ME66.6": {
+            "confidence_embedding": 0.7775,
+            "text": "Representação de doença CID-11: Rash. Definição: Termo inespecífico que indica a presença de um distúrbio cutâneo adquirido, que deve ser usado somente quando nenhuma informação mais precisa estiver disponível."
+          }
+        },
+        {
+          "ME08": {
+            "confidence_embedding": 0.7756,
+            "text": "Representação de doença CID-11: Flatulência e afecções correlatas. Definição: Produção ou presença de gás no trato gastrointestinal que pode ser expelido pelo ânus e outras condições associadas à produção ou presença de gás no trato GI."
+          }
+        }
+      ]
+    }
+  }
+}

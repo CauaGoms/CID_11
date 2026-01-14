@@ -1,0 +1,445 @@
+{
+  "prontuario_id": 629,
+  "text": "PACIENTE INTERNA PARA TIMPANOPLASTIA EM ORELHA DIREITA. PROCEDIMENTO SEM INTERCORRÊNCIAS. RECEBE ALTA EM BOAS CONDIÇÕES. Paciente interna para tratamento cirúrgico fratura maléolo lateral. Procedimento realizado sem intercorrências. Boa evolução no pós operatório. Recebe alta em bom estado geral, com orientações, analgesia e retorno em ambulatório. Paciente com ICC, vem ao XXXX por dispnéia + tosse com escarro amarelado. Tratada para ICC com melhora da dispnéia. Rx de tórax sem BCP. Iniciado tratamento com amoxicilina para infecção respiratória. Recebe alta com plano de tratamento dociliar com amoxi VO. # DPOC --> ex-tabagista (parou há 4 meses) Veio à emergência por dispneía + tosse com escarro amarelado + febre. Realizado Rx de tórax sem consolidação. Iniciado manejo com nebulizações, hidrocortisona e bactrin. Paciente apresentou melhora do quadro. Recebe alta em bom estado geral, com plano de seguimento ambulatorial com seu médico.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE",
+      "Paciente"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TIMPANOPLASTIA",
+      "PROCEDIMENTO",
+      "Procedimento",
+      "analgesia",
+      "nebulizações",
+      "tratamento cirúrgico",
+      "Tratada para ICC",
+      "plano de tratamento dociliar"
+    ],
+    "Negação": [
+      "SEM",
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "INTERCORRÊNCIAS",
+      "intercorrências",
+      "dispnéia",
+      "dispneía",
+      "febre",
+      "tosse com escarro amarelado"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ALTA",
+      "alta",
+      "orientações"
+    ],
+    "Organização Relacionada à Saúde": [
+      "ambulatório",
+      "emergência"
+    ],
+    "Abreviação": [
+      "ICC",
+      "DPOC",
+      "Tratada para ICC",
+      "Rx de tórax",
+      "amoxi VO"
+    ],
+    "Doença ou Síndrome": [
+      "ICC",
+      "DPOC",
+      "infecção respiratória"
+    ],
+    "Antibiótico": [
+      "amoxicilina",
+      "amoxi VO"
+    ],
+    "Substância Química Orgânica": [
+      "amoxicilina",
+      "hidrocortisona"
+    ],
+    "Achado": [
+      "ex-tabagista",
+      "BOAS CONDIÇÕES",
+      "Boa evolução",
+      "bom estado geral",
+      "melhora da dispnéia",
+      "melhora do quadro"
+    ],
+    "Substância Farmacológica": [
+      "hidrocortisona"
+    ],
+    "Hormônio": [
+      "hidrocortisona"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "médico"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ORELHA DIREITA"
+    ],
+    "Lesão ou Envenenamento": [
+      "fratura maléolo lateral"
+    ],
+    "Conceito Temporal": [
+      "pós operatório"
+    ],
+    "Procedimento Diagnóstico": [
+      "Rx de tórax"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Rx de tórax"
+    ]
+  },
+  "labels": {
+    "febre": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NE81.0Z": {
+            "confidence_embedding": 0.7095,
+            "text": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: "
+          }
+        },
+        {
+          "NB32.6Z": {
+            "confidence_embedding": 0.7065,
+            "text": "Representação de doença CID-11: Lesão da pleura, não especificada. Definição: "
+          }
+        },
+        {
+          "ND92.02": {
+            "confidence_embedding": 0.7048,
+            "text": "Representação de doença CID-11: Queimadura da parede abdominal, queimadura epidérmica. Definição: "
+          }
+        },
+        {
+          "NA07": {
+            "confidence_embedding": 0.7041,
+            "text": "Representação de doença CID-11: Traumatismo intracraniano. Definição: Dano infligido aos tecidos do cérebro como o resultado direto ou indireto de uma força externa, com ou sem interrupção da continuidade estrutural."
+          }
+        },
+        {
+          "NE81.0": {
+            "confidence_embedding": 0.7037,
+            "text": "Representação de doença CID-11: Hemorragia ou hematoma complicando um procedimento, não classificado em outra parte. Definição: "
+          }
+        }
+      ]
+    },
+    "tosse com escarro amarelado": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CA22.0": {
+            "confidence_embedding": 0.7366,
+            "text": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia."
+          }
+        },
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.7241,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA42.3": {
+            "confidence_embedding": 0.7119,
+            "text": "Representação de doença CID-11: Bronquite aguda devida a vírus parainfluenza. Definição: Doenças dos brônquios, causada por infecção aguda por vírus parainfluenza. Esta doença é caracterizada por inflamação aguda dos brônquios, levando a tosse, produção de catarro, chieira torácica ou falta de ar. A transmissão ocorre por inalação de secreções respiratórias infectadas, por contato direto ou por meio de fômites. A confirmação é feita pela identificação do vírus parainfluenza nas secreções respiratórias, pela detecção de elevação significativa de anticorpos IgG específicos para o parainfluenza em amostras pareadas de soro ou pela detecção de IgM específica para o parainfluenza em uma única amostra de soro."
+          }
+        },
+        {
+          "CA05.1": {
+            "confidence_embedding": 0.7091,
+            "text": "Representação de doença CID-11: Traqueíte aguda. Definição: Esta condição se refere à inflamação aguda da traqueia."
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.704,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        }
+      ]
+    },
+    "icc": {
+      "capitulo": "04",
+      "opcoes": [
+        {
+          "4A43.3": {
+            "confidence_embedding": 0.7206,
+            "text": "Representação de doença CID-11: Doença mista do tecido conjuntivo. Definição: Doença mista do tecido conjuntivo é uma síndrome de sobreposição que combina características de lúpus eritematoso sistêmico, esclerose sistêmica e polimiosite com a presença de autoanticorpos para U1-ribonucleoproteína (RNP-U1). O fenômeno de Raynaud é visto em quase todos os pacientes e a hipertensão arterial pulmonar é a causa mais comum de morte em pacientes com DMTC."
+          }
+        },
+        {
+          "4B24.0": {
+            "confidence_embedding": 0.7192,
+            "text": "Representação de doença CID-11: Doença do enxerto versus hospedeiro aguda. Definição: Doença do enxerto-versus-hospedeiro apresentando-se normalmente nos primeiros 100 dias após o transplante. Manifesta-se mais comumente com erupção maculopapular acompanhada de febre. O prognóstico se correlaciona com a extensão do acometimento cutâneo, que pode evoluir para necrólise epidérmica generalizada, e com a gravidade do acometimento gastrointestinal e hepático que pode se manifestar com diarreia e icterícia respectivamente. A mortalidade é alta na doença do enxerto-versus-hospedeiro aguda grave."
+          }
+        },
+        {
+          "4A62": {
+            "confidence_embedding": 0.7137,
+            "text": "Representação de doença CID-11: Doença de Behçet. Definição: Doença de Behçet é uma doença de etiopatogenia não completamente compreendida caracterizada por úlceras aftosas orais e/ou genitais recorrentes acompanhadas de lesões inflamatórias cutâneas, oculares, articulares, gastrointestinais e/ou do sistema nervoso central. Podem ocorrer vasculites de pequenos vasos, vasculopatia trombótica, arterites e aneurismas arteriais. Tem uma alta prevalência do Mediterrâneo Oriental através de toda a Ásia Central até a China e Japão."
+          }
+        },
+        {
+          "4A41.20": {
+            "confidence_embedding": 0.7086,
+            "text": "Representação de doença CID-11: Miosite por corpúsculos de inclusão (inflamatória). Definição: A miosite por corpos de inclusão (MCI) é a miopatia inflamatória idiopática mais comum após os 50 anos de idade. Apresenta-se, tipicamente, com fraqueza muscular assimétrica, insidiosa e crônica, proximal de pernas e/ou distal em braços, levando a quedas recorrentes e perda de destreza. A creatinofosfoquinase (CPK) está aumentada em até 15 vezes na MCI e a eletroneuromiografia por agulha mostra principalmente uma miopatia irritativa crônica. A histopatologia do músculo demonstra exsudatos inflamatórios no endomísio circundando e invadindo as fibras musculares não necróticas, muitas vezes acompanhados de vacúolos marginados e depósitos de proteínas. Apesar da histopatologia muscular inflamatória, é provável que a MCI tenha um componente degenerativo proeminente, suportado pela refratariedade à terapia imunossupressora."
+          }
+        },
+        {
+          "4A44.B": {
+            "confidence_embedding": 0.707,
+            "text": "Representação de doença CID-11: Vasculite leucocitoclástica. Definição: Vasculite leucocitoclástica (vasculite de hipersensibilidade; angeíte de hipersensibilidade) é um termo histopatológico comumente usado para descrever uma vasculite de pequenos vasos. Pode ser localizada na pele ou pode se manifestar em outros órgãos. Os órgãos internos mais comumente afetados incluem as articulações, o trato gastrointestinal e os rins. O prognóstico é bom na ausência de envolvimento interno. A vasculite leucocitoclástica tem muitas causas, incluindo infecções, drogas e doenças autoimunes sistêmicas, mas nenhuma causa é identificada em até 50% dos pacientes com essa condição."
+          }
+        }
+      ]
+    },
+    "dispneía": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CA22.0": {
+            "confidence_embedding": 0.7766,
+            "text": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia."
+          }
+        },
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.7583,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA05.1": {
+            "confidence_embedding": 0.747,
+            "text": "Representação de doença CID-11: Traqueíte aguda. Definição: Esta condição se refere à inflamação aguda da traqueia."
+          }
+        },
+        {
+          "CA42.3": {
+            "confidence_embedding": 0.7429,
+            "text": "Representação de doença CID-11: Bronquite aguda devida a vírus parainfluenza. Definição: Doenças dos brônquios, causada por infecção aguda por vírus parainfluenza. Esta doença é caracterizada por inflamação aguda dos brônquios, levando a tosse, produção de catarro, chieira torácica ou falta de ar. A transmissão ocorre por inalação de secreções respiratórias infectadas, por contato direto ou por meio de fômites. A confirmação é feita pela identificação do vírus parainfluenza nas secreções respiratórias, pela detecção de elevação significativa de anticorpos IgG específicos para o parainfluenza em amostras pareadas de soro ou pela detecção de IgM específica para o parainfluenza em uma única amostra de soro."
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.7408,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        }
+      ]
+    },
+    "dispnéia": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CA22.0": {
+            "confidence_embedding": 0.7766,
+            "text": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia."
+          }
+        },
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.7583,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA05.1": {
+            "confidence_embedding": 0.747,
+            "text": "Representação de doença CID-11: Traqueíte aguda. Definição: Esta condição se refere à inflamação aguda da traqueia."
+          }
+        },
+        {
+          "CA42.3": {
+            "confidence_embedding": 0.7429,
+            "text": "Representação de doença CID-11: Bronquite aguda devida a vírus parainfluenza. Definição: Doenças dos brônquios, causada por infecção aguda por vírus parainfluenza. Esta doença é caracterizada por inflamação aguda dos brônquios, levando a tosse, produção de catarro, chieira torácica ou falta de ar. A transmissão ocorre por inalação de secreções respiratórias infectadas, por contato direto ou por meio de fômites. A confirmação é feita pela identificação do vírus parainfluenza nas secreções respiratórias, pela detecção de elevação significativa de anticorpos IgG específicos para o parainfluenza em amostras pareadas de soro ou pela detecção de IgM específica para o parainfluenza em uma única amostra de soro."
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.7408,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        }
+      ]
+    },
+    "intercorrências": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NA06.00": {
+            "confidence_embedding": 0.7365,
+            "text": "Representação de doença CID-11: Avulsão da pálpebra. Definição: Lesão em que uma estrutura corporal é forçadamente destacada do seu ponto normal de inserção por traumatismo ou cirurgia. O termo mais comumente se refere a um traumatismo de superfície em que todas as camadas da pele foram laceradas, expondo estruturas subjacentes (isto é, tecido subcutâneo, músculo, tendões ou osso). É semelhante a uma abrasão, mas mais grave, em que a pálpebra pode estar parcial ou completamente destacada do corpo."
+          }
+        },
+        {
+          "NA60.3Z": {
+            "confidence_embedding": 0.7326,
+            "text": "Representação de doença CID-11: Lesão da veia jugular interna, não especificada. Definição: "
+          }
+        },
+        {
+          "NE81.0Z": {
+            "confidence_embedding": 0.7314,
+            "text": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: "
+          }
+        },
+        {
+          "ND92.02": {
+            "confidence_embedding": 0.7286,
+            "text": "Representação de doença CID-11: Queimadura da parede abdominal, queimadura epidérmica. Definição: "
+          }
+        },
+        {
+          "NA60.2Z": {
+            "confidence_embedding": 0.7248,
+            "text": "Representação de doença CID-11: Lesão da veia jugular externa, não especificada. Definição: "
+          }
+        }
+      ]
+    },
+    "dpoc": {
+      "capitulo": "24",
+      "opcoes": [
+        {
+          "QC11": {
+            "confidence_embedding": 0.7622,
+            "text": "Representação de doença CID-11: Procedimento não realizado devido à decisão do paciente por razões de crença ou grupo de pressão. Definição: "
+          }
+        },
+        {
+          "QC04.3": {
+            "confidence_embedding": 0.7608,
+            "text": "Representação de doença CID-11: Imunização não realizada devido a estado de comprometimento imune do paciente. Definição: "
+          }
+        },
+        {
+          "QC12": {
+            "confidence_embedding": 0.7597,
+            "text": "Representação de doença CID-11: Procedimento não realizado devido à decisão do paciente por outras razões que não as de crença ou grupo de pressão. Definição: "
+          }
+        },
+        {
+          "QC04.2": {
+            "confidence_embedding": 0.7402,
+            "text": "Representação de doença CID-11: Imunização não realizada devido a doença ou condição crônica do paciente. Definição: "
+          }
+        },
+        {
+          "QA8D": {
+            "confidence_embedding": 0.735,
+            "text": "Representação de doença CID-11: Paciente que recebeu um teste diagnóstico ou tratamento destinado a outro paciente, sem lesão ou dano. Definição: "
+          }
+        }
+      ]
+    },
+    "infecção respiratória": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CA22.0": {
+            "confidence_embedding": 0.778,
+            "text": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia."
+          }
+        },
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.7663,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA05.1": {
+            "confidence_embedding": 0.7561,
+            "text": "Representação de doença CID-11: Traqueíte aguda. Definição: Esta condição se refere à inflamação aguda da traqueia."
+          }
+        },
+        {
+          "CA42.3": {
+            "confidence_embedding": 0.754,
+            "text": "Representação de doença CID-11: Bronquite aguda devida a vírus parainfluenza. Definição: Doenças dos brônquios, causada por infecção aguda por vírus parainfluenza. Esta doença é caracterizada por inflamação aguda dos brônquios, levando a tosse, produção de catarro, chieira torácica ou falta de ar. A transmissão ocorre por inalação de secreções respiratórias infectadas, por contato direto ou por meio de fômites. A confirmação é feita pela identificação do vírus parainfluenza nas secreções respiratórias, pela detecção de elevação significativa de anticorpos IgG específicos para o parainfluenza em amostras pareadas de soro ou pela detecção de IgM específica para o parainfluenza em uma única amostra de soro."
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.7527,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        }
+      ]
+    },
+    "ex-tabagista": {
+      "capitulo": "24",
+      "opcoes": [
+        {
+          "QA8D": {
+            "confidence_embedding": 0.7358,
+            "text": "Representação de doença CID-11: Paciente que recebeu um teste diagnóstico ou tratamento destinado a outro paciente, sem lesão ou dano. Definição: "
+          }
+        },
+        {
+          "QC04.5": {
+            "confidence_embedding": 0.7212,
+            "text": "Representação de doença CID-11: Imunização não realizada devido a recusa do paciente. Definição: "
+          }
+        },
+        {
+          "QC12": {
+            "confidence_embedding": 0.72,
+            "text": "Representação de doença CID-11: Procedimento não realizado devido à decisão do paciente por outras razões que não as de crença ou grupo de pressão. Definição: "
+          }
+        },
+        {
+          "QC11": {
+            "confidence_embedding": 0.7182,
+            "text": "Representação de doença CID-11: Procedimento não realizado devido à decisão do paciente por razões de crença ou grupo de pressão. Definição: "
+          }
+        },
+        {
+          "QC04.3": {
+            "confidence_embedding": 0.7173,
+            "text": "Representação de doença CID-11: Imunização não realizada devido a estado de comprometimento imune do paciente. Definição: "
+          }
+        }
+      ]
+    },
+    "fratura maléolo lateral": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FA84.1": {
+            "confidence_embedding": 0.7164,
+            "text": "Representação de doença CID-11: Espondilolistese sem defeito na 'pars'. Definição: Esta é uma condição caracterizada pelo deslizamento anterior do corpo vertebral, sobre a vértebra abaixo, sem um defeito na \"pars articularis\""
+          }
+        },
+        {
+          "FA84": {
+            "confidence_embedding": 0.714,
+            "text": "Representação de doença CID-11: Espondilolistese. Definição: Este é o deslizamento anterior do corpo vertebral, com a porção anterior da vértebra à frente do corpo vertebral da vértebra abaixo."
+          }
+        },
+        {
+          "FA70.0": {
+            "confidence_embedding": 0.7113,
+            "text": "Representação de doença CID-11: Cifose. Definição: Esta é uma curvatura da coluna vertebral que causa um arqueamento ou arredondamento das costas, o que leva a uma postura corcunda ou curvada."
+          }
+        },
+        {
+          "FA38.3": {
+            "confidence_embedding": 0.7079,
+            "text": "Representação de doença CID-11: Artropatia hemofílica. Definição: Trata-se da destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia. Esta condição inclui a ocorrência de hemartrose aguda, artrite subaguda ou crônica e artropatia hemofílica em estágio terminal. Quase todos os pacientes com hemofilia A ou B grave e metade dos pacientes com atividade de doença moderada apresentam hemartrose. Os sintomas incluem dor nas articulações (artralgias), edema articular, fibrose articular, desenvolvimento de deformidades em flexão e erosão da cartilagem articular. As articulações mais comumente afetadas são joelhos, tornozelos, cotovelos, ombros e quadris (em ordem de frequência). O sangramento nos músculos e partes moles também pode causar disfunção musculoesquelética."
+          }
+        },
+        {
+          "FA72.3": {
+            "confidence_embedding": 0.7032,
+            "text": "Representação de doença CID-11: Fratura vertebral por fadiga. Definição: "
+          }
+        }
+      ]
+    }
+  }
+}

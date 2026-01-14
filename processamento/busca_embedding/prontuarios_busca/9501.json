@@ -1,0 +1,606 @@
+{
+  "prontuario_id": 14,
+  "text": "LUCAS , 55 ANOS, RETORNO PARA AVALIAÇÃO DE EXAMES  EM ACOMPANHAMENTO POR DM 2, EM USO METFORMINA 850 MG 2 CP AO DIA  DISLIPIDEMICO EM USO DE ROVASTATINA 10 MG, FIBRATO 100 MG HIPERTENSO EM USO DE LOSARTANA 100 MG, ENALAPRIL 25 MG, AAS 100 MG ( AUTO MEDICAÇÃO ) GOTA EM USO DE ALOPURINOL 300 MG NEGA INTERNAMENTOS ANTERIORES, MAS RELATA DOIS EPISODIOS ALERGICOS DE FORTE INTENSIDADE COM EDEMA DE GLOTE   NEGA CXS  HMP : PAIS FALECIDOS PO CA ( NAO SOUBE ESPECIFICAR ) E IRMA POR CA DE BAÇO FILHOS SAUDAVEIS, O MAIS VELHO ALERGICO   EXAMES : 17/10/2014  HMG  HB 15 HT 45,2 LEUCOCITOS 7800 PLAQUETAS 248000  CR 1,1 CKD EPI 84 UREIA 37 ACIDO URICO 5,6  HDL 45 CT 213 TG 407 LDL  CALCULO SBC 86,6  GLICOSE 83  HB GLICADA 6,09% INSULINA BASAL 3,2 M UI/ML  GAMA GT 43  CPK 170  U/L  SINAIS VITAIS  PA 110/ 80 PULSO 80   AUSCULTA PULMONAR SP AUSCULTA CARDIACA DESDOBRAMENTO DE B2 CAROTIDAS AUSCULTA SEM ANORMALIDADES    CONDUTA: MANTIDOS TODAS AS MEDICAÇOES",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "RETORNO",
+      "ACOMPANHAMENTO",
+      "INTERNAMENTOS",
+      "PO",
+      "MANTIDOS",
+      "AVALIAÇÃO DE EXAMES"
+    ],
+    "Substância Química Orgânica": [
+      "METFORMINA",
+      "ROVASTATINA",
+      "FIBRATO",
+      "AAS",
+      "ALOPURINOL"
+    ],
+    "Substância Farmacológica": [
+      "METFORMINA",
+      "ROVASTATINA",
+      "FIBRATO",
+      "LOSARTANA",
+      "ENALAPRIL",
+      "AAS",
+      "ALOPURINOL",
+      "ALERGICO",
+      "MEDICAÇOES"
+    ],
+    "Abreviação": [
+      "CP",
+      "AAS",
+      "CXS",
+      "HMP",
+      "PO",
+      "CA",
+      "HMG",
+      "PA",
+      "SP",
+      "DM 2",
+      "CA DE BAÇO",
+      "HB 15",
+      "HT 45 , 2",
+      "CR 1 , 1",
+      "CT 213",
+      "TG 407",
+      "HB GLICADA 6 , 09%"
+    ],
+    "Doença ou Síndrome": [
+      "DISLIPIDEMICO",
+      "HIPERTENSO",
+      "GOTA",
+      "CA",
+      "DM 2"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "ENALAPRIL"
+    ],
+    "Negação": [
+      "NEGA",
+      "NAO",
+      "SP",
+      "SEM"
+    ],
+    "Conceito Temporal": [
+      "ANTERIORES",
+      "PO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CXS",
+      "MEDICAÇOES"
+    ],
+    "Achado": [
+      "HMP",
+      "FALECIDOS",
+      "SAUDAVEIS",
+      "SP"
+    ],
+    "Grupo Familiar": [
+      "PAIS",
+      "IRMA",
+      "FILHOS"
+    ],
+    "Procedimento Laboratorial": [
+      "EXAMES"
+    ],
+    "Procedimento Diagnóstico": [
+      "HMG",
+      "AUSCULTA PULMONAR",
+      "AUSCULTA CARDIACA",
+      "CAROTIDAS AUSCULTA"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "PULSO",
+      "SINAIS VITAIS",
+      "AUSCULTA PULMONAR",
+      "AUSCULTA CARDIACA"
+    ],
+    "Conceito Quantitativo": [
+      "80",
+      "850 MG",
+      "10 MG",
+      "100 MG",
+      "25 MG",
+      "300 MG",
+      "110/ 80"
+    ],
+    "Sinal ou Sintoma": [
+      "ANORMALIDADES",
+      "AUTO MEDICAÇÃO",
+      "EPISODIOS ALERGICOS DE FORTE INTENSIDADE",
+      "EDEMA DE GLOTE",
+      "DESDOBRAMENTO DE B2"
+    ],
+    "Produto Intelectual": [
+      "CONDUTA"
+    ],
+    "Comportamento Individual": [
+      "AUTO MEDICAÇÃO"
+    ],
+    "Função Patológica": [
+      "EPISODIOS ALERGICOS DE FORTE INTENSIDADE"
+    ],
+    "Processo Neoplásico": [
+      "CA DE BAÇO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "HB 15",
+      "HT 45 , 2",
+      "LEUCOCITOS 7800",
+      "PLAQUETAS 248000",
+      "CR 1 , 1",
+      "CKD EPI 84",
+      "UREIA 37",
+      "ACIDO URICO 5 , 6",
+      "HDL 45",
+      "CT 213",
+      "TG 407",
+      "LDL CALCULO SBC 86 , 6",
+      "GLICOSE 83",
+      "HB GLICADA 6 , 09%",
+      "INSULINA BASAL 3 , 2 M UI/ML",
+      "GAMA GT 43",
+      "CPK 170 U/L"
+    ]
+  },
+  "labels": {
+    "ca de baço": {
+      "capitulo": "03",
+      "opcoes": [
+        {
+          "3B81.3": {
+            "confidence_embedding": 0.7861,
+            "text": "Representação de doença CID-11: Laceração ou ruptura não traumática do baço. Definição: Doença causada por determinantes não traumáticos como doenças infecciosas, procedimentos médicos como colonoscopia, doenças hematológicas, medicações ou gravidez. Essa doença é caracterizada por laceração ou ruptura do baço, levando à perda de função. Pode se apresentar com sangramento e aumento na susceptibilidade a infecções. A confirmação é feita por métodos de imagem."
+          }
+        },
+        {
+          "3B64.14": {
+            "confidence_embedding": 0.7788,
+            "text": "Representação de doença CID-11: Púrpura trombocitopênica trombótica. Definição: Esta condição é idiopática. Esta condição é caracterizada por anormalidade da coagulação do sangue causando a formação de coágulos microscópicos de forma extensa nos pequenos vasos sanguíneos do corpo, resultando em baixa contagem de plaquetas. Esta condição pode se apresentar com convulsões, hemiplegia, parestesias, distúrbio visual e afasia ou anemia. A confirmação é pela identificação de tromboses."
+          }
+        },
+        {
+          "3B62.00": {
+            "confidence_embedding": 0.7741,
+            "text": "Representação de doença CID-11: Doenças dos grânulos alfa. Definição: Condição causada por determinantes que surgem após o nascimento, no período neonatal. Essa condição é causada por defeitos nos grânulos alfa das plaquetas, levando a anormalidades nos mecanismos de coagulação. Pode apresentar-se com sangramento prolongado, epistaxe, menorragia, equimoses fáceis, anemia, fadiga e fôlego curto. A confirmação é feita pela identificação de defeitos plaquetários em amostra de sangue."
+          }
+        },
+        {
+          "3A70.1": {
+            "confidence_embedding": 0.7739,
+            "text": "Representação de doença CID-11: Anemias aplásticas adquiridas. Definição: Condição que ocorre secundária a outros transtornos ou por meio de uma reposta autoimune direcionada à medula óssea que surge após o nascimento. Esta doença é caracterizada por ausência quase completa das células tronco hematopoiéticas, resultando em níveis diminuídos de glóbulos vermelhos e brancos e plaquetas. Esta condição pode se manifestar com fadiga, infecções crônicas, tontura, fraqueza, dores de cabeça e episódios de sangramento, geralmente em pele e mucosas."
+          }
+        },
+        {
+          "3B64.13": {
+            "confidence_embedding": 0.7729,
+            "text": "Representação de doença CID-11: Trombocitopenia aloimune. Definição: Doença causada por determinantes como transfusão de sangue que leva a uma resposta imune a antígenos estranhos. Esta doença é caracterizada por níveis diminuídos de plaquetas no organismo devido a uma resposta imune reativa a antígenos plaquetários estranhos. Esta doença pode se manifestar com aumento de equimoses e sangramentos. A confirmação é feita pela identificação de contagem diminuída de plaquetas e presença de autoanticorpos na amostra de sangue"
+          }
+        }
+      ]
+    },
+    "ca": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7814,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MD11.7": {
+            "confidence_embedding": 0.7736,
+            "text": "Representação de doença CID-11: Hiperventilação. Definição: Hiperventilação refere-se a um aumento na frequência da ventilação alveolar que é excessivo para a taxa de produção metabólica de gás carbônico, resultando na diminuição do PCO2 arterial abaixo da faixa de 37 a 43 mmHg. Hiperventilação deve ser diferenciada de taquipneia, um aumento na frequência respiratória, e de hiperpneia, um aumento no volume minuto da ventilação."
+          }
+        },
+        {
+          "MF95": {
+            "confidence_embedding": 0.7596,
+            "text": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular."
+          }
+        },
+        {
+          "MB23.H": {
+            "confidence_embedding": 0.7541,
+            "text": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas."
+          }
+        },
+        {
+          "MG00": {
+            "confidence_embedding": 0.7501,
+            "text": "Representação de doença CID-11: Achados clínicos de exames para diagnóstico por imagem da mama. Definição: Achados clínicos no diagnóstico por imagem da mama são achados diagnósticos de imagem da mama que não aparecem no estado normal do corpo. Diagnóstico por imagem refere-se a tecnologias que os médicos usam para olhar dentro do corpo em busca de pistas sobre uma condição médica. Raios-X, tomografias computadorizadas, exames de medicina nuclear, exames de ressonância magnética e ultrassom são todos tipos diagnóstico por imagem."
+          }
+        }
+      ]
+    },
+    "hipertenso": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BA01": {
+            "confidence_embedding": 0.8412,
+            "text": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração."
+          }
+        },
+        {
+          "BA03": {
+            "confidence_embedding": 0.7995,
+            "text": "Representação de doença CID-11: Crise hipertensiva. Definição: "
+          }
+        },
+        {
+          "BA02": {
+            "confidence_embedding": 0.7847,
+            "text": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica."
+          }
+        },
+        {
+          "BC43.1": {
+            "confidence_embedding": 0.7727,
+            "text": "Representação de doença CID-11: Cardiomiopatia hipertrófica. Definição: A cardiomiopatia hipertrófica é a presença de um ventrículo hipertrofiado e não dilatado na ausência de uma causa hemodinâmica que seja capaz de produzir a magnitude existente de espessamento da parede, excluindo tanto a hipertrofia fisiológica secundária à atividade física quanto a hipertrofia patológica devida a hipertensão arterial sistêmica, estenose valvar aórtica e coarctação da aorta."
+          }
+        },
+        {
+          "BC42.2": {
+            "confidence_embedding": 0.7669,
+            "text": "Representação de doença CID-11: Miocardite por hipersensibilidade. Definição: Miocardite de hipersensibilidade é a presença de cardiomiopatia dilatada em associação com um transtorno relacionado conhecido {síndrome hipereosinofílica (geralmente uma cardiomiopatia restritiva), síndrome de Churg-Strauss, malignidade, infecção parasitária, drogas ou vacinas) e achados de infiltração intersticial linfocítica e eosinofílica, células gigantes, e possível necrose miocárdica na biópsia, geralmente com eosinofilia periférica."
+          }
+        }
+      ]
+    },
+    "episodios alergicos de forte intensidade": {
+      "capitulo": "04",
+      "opcoes": [
+        {
+          "4A44.1": {
+            "confidence_embedding": 0.7798,
+            "text": "Representação de doença CID-11: Síndrome do arco aórtico. Definição: Arterite, frequentemente granulomatosa, acometendo predominantemente a aorta e/ou seus ramos principais. Início geralmente em pacientes com menos de 50 anos."
+          }
+        },
+        {
+          "4A85.1": {
+            "confidence_embedding": 0.7532,
+            "text": "Representação de doença CID-11: Hipersensibilidade a ervas ou a outras terapias medicinais alternativas. Definição: Hipersensibilidade a ervas e terapias medicinais alternativas refere-se a reações imprevisíveis, clinicamente similares à alergia que causam sintomas ou sinais objetivos reprodutíveis, desencadeados pela exposição a ervas e outras terapias medicinais alternativas, como homeopatia, ventosas ou acupuntura. Ervas e terapias medicinais alternativas não são, costumeiramente, consideradas drogas, mas podem desencadear reações imunomediadas ou não, que ocorrem em indivíduos suscetíveis. Tais reações são desencadeadas por doses e procedimentos usualmente, toleradas por indivíduos normais."
+          }
+        },
+        {
+          "4A85.2": {
+            "confidence_embedding": 0.7532,
+            "text": "Representação de doença CID-11: Hipersensibilidade alimentar. Definição: Reações de hipersensibilidade alimentar são efeitos adversos de comida ou de aditivos da comida que são clinicamente semelhantes à alergia. Alergia alimentar é uma reação adversa à comida mediada por um mecanismo imunológico, envolvendo IgE específicas (mediados por IgE), mecanismos mediados por células (não mediados por IgE), ou ambos (mistos mediados e não mediados por IgE)."
+          }
+        },
+        {
+          "4A85.3": {
+            "confidence_embedding": 0.752,
+            "text": "Representação de doença CID-11: Alergia ou reações de hipersensibilidade a artrópodes. Definição: Isto inclui tanto reações alérgicas quanto de hipersensibilidade, tanto cutâneas locais quanto sistêmicas, ao contato com insetos (p.ex. abelhas, vespas e formigas-de-fogo) e outros artrópodes (p.ex. escorpiões e aranhas). As reações são usualmente imunomediadas (alergia mediada por IgE ou não mediada por IgE)."
+          }
+        },
+        {
+          "4A8Y": {
+            "confidence_embedding": 0.7501,
+            "text": "Representação de doença CID-11: Condições alérgicas ou de hipersensibilidade de outro tipo especificado. Definição: "
+          }
+        }
+      ]
+    },
+    "dislipidemico": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BD54": {
+            "confidence_embedding": 0.7746,
+            "text": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos."
+          }
+        },
+        {
+          "BA51": {
+            "confidence_embedding": 0.774,
+            "text": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas."
+          }
+        },
+        {
+          "BD10": {
+            "confidence_embedding": 0.7688,
+            "text": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos."
+          }
+        },
+        {
+          "BC43": {
+            "confidence_embedding": 0.7654,
+            "text": "Representação de doença CID-11: Cardiomiopatia. Definição: Transtornos do miocárdio em que o músculo cardíaco é estrutural e funcionalmente anormal, na ausência de doença arterial coronariana, hipertensão, doença valvar e doença cardíaca congênita suficiente para causar a anormalidade miocárdica observada."
+          }
+        },
+        {
+          "BB24": {
+            "confidence_embedding": 0.7653,
+            "text": "Representação de doença CID-11: Hemopericárdio. Definição: Hemopericárdio causado por doenças não classificadas em outra parte. Hemopericárdio geralmente se refere a sangue no saco pericárdico do coração. É clinicamente semelhante ao derrame pericárdico e, dependendo do volume e da rapidez com que se desenvolve, pode causar tamponamento cardíaco."
+          }
+        }
+      ]
+    },
+    "gota": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BD52.71": {
+            "confidence_embedding": 0.7715,
+            "text": "Representação de doença CID-11: Dilatação adquirida da aorta ascendente ou da raiz. Definição: Aumento do diâmetro luminal da aorta entre a junção ventrículo-aórtica e a origem do primeiro ramo braquiocefálico acima do limite superior do normal ajustado para o tamanho do corpo que se desenvolve após o nascimento"
+          }
+        },
+        {
+          "BC81.30": {
+            "confidence_embedding": 0.7683,
+            "text": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+          }
+        },
+        {
+          "BD12": {
+            "confidence_embedding": 0.7678,
+            "text": "Representação de doença CID-11: Síndromes de alto débito. Definição: Aumento do débito cardíaco acima do normal associado a anemia, fístulas arteriovenosas, tireotoxicose e outras síndromes. Pode resultar em insuficiência cardíaca."
+          }
+        },
+        {
+          "BA40.Y": {
+            "confidence_embedding": 0.7636,
+            "text": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: "
+          }
+        },
+        {
+          "BB72.0": {
+            "confidence_embedding": 0.763,
+            "text": "Representação de doença CID-11: Estenose aórtica reumática com insuficiência. Definição: A estenose aórtica por cardiopatia reumática crônica tipicamente está associada à insuficiência aórtica. As comissuras e cúspides da válvula tornam-se aderentes e fundidas, e o orifício da valva torna-se pequeno. Na ausculta, S2 pode ser única porque os folhetos aórticos estão imóveis e não produzem um som de fechamento aórtico"
+          }
+        }
+      ]
+    },
+    "sp": {
+      "capitulo": "09",
+      "opcoes": [
+        {
+          "9A94.1": {
+            "confidence_embedding": 0.7581,
+            "text": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso."
+          }
+        },
+        {
+          "9C61.25": {
+            "confidence_embedding": 0.7452,
+            "text": "Representação de doença CID-11: Crise glaucomatociclítica. Definição: Crise glaucomatociclítica apresenta-se com precipitados ceráticos leves e flare do aquoso, elevação aguda da pressão intraocular e dano ao nervo óptico quando ataques repetidos ocorrem."
+          }
+        },
+        {
+          "9A03.24": {
+            "confidence_embedding": 0.7338,
+            "text": "Representação de doença CID-11: Síndrome da frouxidão palpebral. Definição: Transtorno adquirido de origem desconhecida, que se manifesta por pálpebras superiores frouxas facilmente evertidas e conjuntivite papilar da conjuntiva palpebral superior. Está associado primariamente a homens obesos e apneia obstrutiva do sono. O tarso da pálpebra superior se torna mais macio e frouxo provavelmente devido a forças mecânicas e mudanças enzimáticas. A pálpebra superior everte durante o sono, resultando em irritação, conjuntivite papilar e queratinização conjuntival. O tratamento efetivo consiste em prevenir que a pálpebra superior everta enquanto o paciente dorme."
+          }
+        },
+        {
+          "9A73": {
+            "confidence_embedding": 0.7324,
+            "text": "Representação de doença CID-11: Ceratite de exposição. Definição: condição de exposição em que a córnea do olho, a parte frontal do olho, fica inflamada. A condição é frequentemente marcada por dor moderada a intensa e geralmente envolve comprometimento da visão. Pode causar sensação de areia cada vez que o indivíduo pisca os olhos."
+          }
+        },
+        {
+          "9C41": {
+            "confidence_embedding": 0.7313,
+            "text": "Representação de doença CID-11: Transtorno do quiasma óptico. Definição: Grupo de condições associadas ao quiasma óptico, a parte do cérebro em que os nervos ópticos (NC II) se cruzam parcialmente."
+          }
+        }
+      ]
+    },
+    "desdobramento de b2": {
+      "capitulo": "08",
+      "opcoes": [
+        {
+          "8A45.30": {
+            "confidence_embedding": 0.7807,
+            "text": "Representação de doença CID-11: Transtorno da substância branca devido à deficiência de vitamina B12. Definição: Características neurológicas ocorrem em 40% dos pacientes com deficiência de vitamina B12. Degeneração combinada subaguda é uma complicação neurológica reversível potencial de deficiência de vitamina B12. Sintomas desenvolvem de forma insidiosa e as manifestações neuropáticas incluem parestesia distal, dormência, ataxia de marcha e diminuição da propriocepção dos membros inferiores, enquanto componente mielopático leva à prejuízo motor variável devido à disfunção do trato piramidal. Incontinência fecal e urinária com impotência e hipotensão postural podem ocorrer como parte da mielopatia. Manifestações centrais incluem confusão, depressão, alucinação progressiva e lentificação mental. Pode ocorrer e neuropatia óptica."
+          }
+        },
+        {
+          "8A02.00": {
+            "confidence_embedding": 0.7683,
+            "text": "Representação de doença CID-11: Blefarospasmo benigno essencial. Definição: Esta é uma condição neurológica caracterizada por fechamento forçado das pálpebras devido a contração involuntária e sustentada dos músculos ao redor dos olhos."
+          }
+        },
+        {
+          "8C84": {
+            "confidence_embedding": 0.7585,
+            "text": "Representação de doença CID-11: Rabdomiólise secundária. Definição: Rabdomiólise secundária ocorre quando o efeito primário de um fator etiológico resulta em um estado funcional ou bioquímico que conduz ao desenvolvimento de alterações isquêmicas, degenerativas, necróticas ou desestabilizadoras da membrana no músculo, produzindo as manifestações clínicas e bioquímicas de rabdomiólise. Mais frequentemente, a rabdomiólise é secundária a um desequilíbrio metabólico, muitas vezes de natureza genética, como resultado de movimento anormalmente excessivo, tensão isométrica excessiva por tentativa de movimento contra resistência, ou coma levando a aumento de pressão, isquemia, hipóxia e necrose intramusculares. A rabdomiólise secundária também pode ser causada por uma mutação em vários genes (RYR1, LPIN)."
+          }
+        },
+        {
+          "8B25": {
+            "confidence_embedding": 0.7473,
+            "text": "Representação de doença CID-11: Efeitos tardios de doença cerebrovascular. Definição: Efeitos da doença cerebrovascular após 1 mês do início da doença. Os códigos para AVC agudo devem ser usados ​​exclusivamente para AVC agudo e episódios de hospitalização imediatamente relacionados."
+          }
+        },
+        {
+          "8D64.10": {
+            "confidence_embedding": 0.746,
+            "text": "Representação de doença CID-11: Hidrocefalia devida a malformações estruturais. Definição: Aumento ventricular devido a um acúmulo de líquido cefalorraquidiano secundário à obstrução causada por uma anormalidade estrutural, como malformações de Chiari ou estenose do aqueduto."
+          }
+        }
+      ]
+    },
+    "hmp": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MD24": {
+            "confidence_embedding": 0.7737,
+            "text": "Representação de doença CID-11: Hemorragia pulmonar aguda idiopática em bebês acima de 28 dias de idade. Definição: "
+          }
+        },
+        {
+          "MD11.7": {
+            "confidence_embedding": 0.7619,
+            "text": "Representação de doença CID-11: Hiperventilação. Definição: Hiperventilação refere-se a um aumento na frequência da ventilação alveolar que é excessivo para a taxa de produção metabólica de gás carbônico, resultando na diminuição do PCO2 arterial abaixo da faixa de 37 a 43 mmHg. Hiperventilação deve ser diferenciada de taquipneia, um aumento na frequência respiratória, e de hiperpneia, um aumento no volume minuto da ventilação."
+          }
+        },
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7616,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MF95": {
+            "confidence_embedding": 0.758,
+            "text": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular."
+          }
+        },
+        {
+          "MF96": {
+            "confidence_embedding": 0.7545,
+            "text": "Representação de doença CID-11: Proteinúria. Definição: O excesso de proteínas séricas na urina, como na doença renal, em que a albumina é a proteína principal, porém também pode ser devido a outras proteínas, como imunoglobulinas de cadeias leves na discrasia de células plasmáticas como o mieloma múltiplo."
+          }
+        }
+      ]
+    },
+    "anormalidades": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "MD11": {
+            "confidence_embedding": 0.767,
+            "text": "Representação de doença CID-11: Anormalidades da respiração. Definição: Anormalidades da respiração incluem dispneia, estridor, chiado, respiração irregular, hiperventilação, respiração oral, soluço, espirros, e outras anormalidades da respiração."
+          }
+        },
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7654,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MA19.2": {
+            "confidence_embedding": 0.7624,
+            "text": "Representação de doença CID-11: Anormalidade das globulinas. Definição: "
+          }
+        },
+        {
+          "MA19.0": {
+            "confidence_embedding": 0.7613,
+            "text": "Representação de doença CID-11: Anormalidade da albumina. Definição: "
+          }
+        },
+        {
+          "MB70.1": {
+            "confidence_embedding": 0.7572,
+            "text": "Representação de doença CID-11: Nível hormonal anormal no líquido cefalorraquidiano. Definição: "
+          }
+        }
+      ]
+    },
+    "dm 2": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BB72.0": {
+            "confidence_embedding": 0.7696,
+            "text": "Representação de doença CID-11: Estenose aórtica reumática com insuficiência. Definição: A estenose aórtica por cardiopatia reumática crônica tipicamente está associada à insuficiência aórtica. As comissuras e cúspides da válvula tornam-se aderentes e fundidas, e o orifício da valva torna-se pequeno. Na ausculta, S2 pode ser única porque os folhetos aórticos estão imóveis e não produzem um som de fechamento aórtico"
+          }
+        },
+        {
+          "BA51": {
+            "confidence_embedding": 0.7686,
+            "text": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas."
+          }
+        },
+        {
+          "BD52.71": {
+            "confidence_embedding": 0.7645,
+            "text": "Representação de doença CID-11: Dilatação adquirida da aorta ascendente ou da raiz. Definição: Aumento do diâmetro luminal da aorta entre a junção ventrículo-aórtica e a origem do primeiro ramo braquiocefálico acima do limite superior do normal ajustado para o tamanho do corpo que se desenvolve após o nascimento"
+          }
+        },
+        {
+          "BA60.8": {
+            "confidence_embedding": 0.7627,
+            "text": "Representação de doença CID-11: Arritmia como complicação atual subsequente a infarto agudo do miocárdio. Definição: Grupo grande e heterogêneo de condições nas quais o coração bate com um ritmo irregular ou anormal que pode complicar o curso de pacientes com infarto agudo do miocárdio."
+          }
+        },
+        {
+          "BD54": {
+            "confidence_embedding": 0.7624,
+            "text": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos."
+          }
+        }
+      ]
+    },
+    "auto medicação": {
+      "capitulo": "24",
+      "opcoes": [
+        {
+          "QA30.Y": {
+            "confidence_embedding": 0.7629,
+            "text": "Representação de doença CID-11: Outro contato especificado com os serviços de saúde para reprodução medicamente assistida. Definição: "
+          }
+        },
+        {
+          "QA77": {
+            "confidence_embedding": 0.7624,
+            "text": "Representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano. Definição: "
+          }
+        },
+        {
+          "QA02.8": {
+            "confidence_embedding": 0.7586,
+            "text": "Representação de doença CID-11: Observação por suspeita de alergia ou hipersensibilidade, descartada. Definição: "
+          }
+        },
+        {
+          "QA30.02": {
+            "confidence_embedding": 0.7556,
+            "text": "Representação de doença CID-11: Pessoa em contato com os serviços de saúde para inseminação de esperma medicamente assistida. Definição: "
+          }
+        },
+        {
+          "QA30": {
+            "confidence_embedding": 0.7538,
+            "text": "Representação de doença CID-11: Pessoa em contato com os serviços de saúde para reprodução medicamente assistida. Definição: "
+          }
+        }
+      ]
+    },
+    "edema de glote": {
+      "capitulo": "04",
+      "opcoes": [
+        {
+          "4A85.21": {
+            "confidence_embedding": 0.7813,
+            "text": "Representação de doença CID-11: Urticária ou angioedema induzido pelo alimento. Definição: Urticária e/ou angioedema desencadeados por ingestão ou contato direto com alérgeno da comida em paciente sensibilizado."
+          }
+        },
+        {
+          "4A00.14": {
+            "confidence_embedding": 0.7592,
+            "text": "Representação de doença CID-11: Angioedema hereditário. Definição: Angioedema hereditário é causado na maioria dos casos por baixos níveis absolutos (tipo I) ou funcionais (tipo II) geneticamente determinados do inibidor de C1, um inibidor da proteinase plasmática envolvido na regulação da ativação do complemento. É caracterizado clinicamente por edema subcutâneo e/ou submucoso recorrente e pode resultar em obstrução laríngea com risco de vida. O envolvimento do trato digestivo geralmente causa dor abdominal. Isso e a ausência de pápulas urticariformes ou coceira a distinguem da forma comum de angioedema, que faz parte do espectro da urticária."
+          }
+        },
+        {
+          "4A44.1": {
+            "confidence_embedding": 0.7522,
+            "text": "Representação de doença CID-11: Síndrome do arco aórtico. Definição: Arterite, frequentemente granulomatosa, acometendo predominantemente a aorta e/ou seus ramos principais. Início geralmente em pacientes com menos de 50 anos."
+          }
+        },
+        {
+          "4A85.3": {
+            "confidence_embedding": 0.7428,
+            "text": "Representação de doença CID-11: Alergia ou reações de hipersensibilidade a artrópodes. Definição: Isto inclui tanto reações alérgicas quanto de hipersensibilidade, tanto cutâneas locais quanto sistêmicas, ao contato com insetos (p.ex. abelhas, vespas e formigas-de-fogo) e outros artrópodes (p.ex. escorpiões e aranhas). As reações são usualmente imunomediadas (alergia mediada por IgE ou não mediada por IgE)."
+          }
+        },
+        {
+          "4A80.1": {
+            "confidence_embedding": 0.7413,
+            "text": "Representação de doença CID-11: Broncoespasmo provocado por alergia a substância alimentar. Definição: Broncoespasmo provocado por alergia a alérgenos da comida é manifestação clínica desencadeada por vários alimentos como um fenótipo de hipersensibilidade alimentar. É mais frequente em pacientes atópicos mais jovens e os alimentos mais comuns responsáveis leite de vaca, amendoim, ovos e castanhas. Esta apresentação clínica pode se manifestar como um evento isolado ou em combinação com outros sintomas como representação da anafilaxia induzida por drogas."
+          }
+        }
+      ]
+    }
+  }
+}

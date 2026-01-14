@@ -1,0 +1,236 @@
+{
+  "prontuario_id": 204,
+  "text": "PACIENTE COM HISTÓRIA DE HIPERTENSÃO ARTERIAL GRAVE , INICIOU COM DOR TORÁCICA COM IRRADIAÇÃO PARA DORSO E ABDÔMEN EM 12/10 , DE FORTE INTENSIDADE . RX DE TÓRAX COM ALARGAMENTO DE MEDIASTINO . TC DE TÓRAX E ABDÔMEN COM DISSECÇÃO DE AORTA DESCENDENTE A PARTIR DA EMERGÊNCIA DA SUBCLÁVIA ESQUERDA . ECO TRANSESOFÁGICO NÃO EVIDENCIOU DISSECÇÃO DE AORTA ASCENDENTE. EVOLUIU COM PERDA DE FUNÇÃO RENAL E ANÚRIA , PERDA FUNCIONAL DO MIE . AVALIADO PELA CIRURGIA VASCULAR , QUE CONTRA INDICOU CIRURGIA EM VIRTUDE DA EXTREMA GRAVIDADE DO CASO E AUSÊNCIA DE OPÇÃO TERAPÊUTIC CIRÚRGICA EM VIGÊNCIA DE COMPLICAÇÕES JÁ ESTABELECIDAS . EVOLUIU A ASSISTOLIA E ÓBITO EM 13/120 ÀS 9H35MIN .",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Localização ou Região Corporal": [
+      "DORSO",
+      "ABDÔMEN",
+      "TÓRAX"
+    ],
+    "Procedimento Diagnóstico": [
+      "TC",
+      "RX DE TÓRAX",
+      "ECO TRANSESOFÁGICO"
+    ],
+    "Abreviação": [
+      "TC",
+      "RX DE TÓRAX",
+      "ECO TRANSESOFÁGICO",
+      "PERDA FUNCIONAL DO MIE"
+    ],
+    "Negação": [
+      "NÃO",
+      "AUSÊNCIA"
+    ],
+    "Doença ou Síndrome": [
+      "ASSISTOLIA",
+      "HIPERTENSÃO ARTERIAL GRAVE",
+      "DISSECÇÃO DE AORTA DESCENDENTE"
+    ],
+    "Função de Organismo": [
+      "ÓBITO"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR TORÁCICA",
+      "PERDA FUNCIONAL DO MIE"
+    ],
+    "Conceito Qualitativo": [
+      "FORTE INTENSIDADE"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ALARGAMENTO DE MEDIASTINO",
+      "DISSECÇÃO DE AORTA DESCENDENTE",
+      "PARTIR DA EMERGÊNCIA DA SUBCLÁVIA ESQUERDA",
+      "EVIDENCIOU DISSECÇÃO DE AORTA ASCENDENTE"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "CIRURGIA VASCULAR"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CIRURGIA VASCULAR"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TERAPÊUTIC CIRÚRGICA"
+    ]
+  },
+  "labels": {
+    "assistolia": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NB30.0Z": {
+            "confidence_embedding": 0.7526,
+            "text": "Representação de doença CID-11: Lesão da aorta torácica, não especificada. Definição: "
+          }
+        },
+        {
+          "NB90.0Z": {
+            "confidence_embedding": 0.7505,
+            "text": "Representação de doença CID-11: Lesão da aorta abdominal, não especificada. Definição: "
+          }
+        },
+        {
+          "NB30.00": {
+            "confidence_embedding": 0.7382,
+            "text": "Representação de doença CID-11: Laceração menor da aorta torácica. Definição: "
+          }
+        },
+        {
+          "NB30.01": {
+            "confidence_embedding": 0.7355,
+            "text": "Representação de doença CID-11: Laceração maior da aorta torácica. Definição: "
+          }
+        },
+        {
+          "NA60.2Z": {
+            "confidence_embedding": 0.7343,
+            "text": "Representação de doença CID-11: Lesão da veia jugular externa, não especificada. Definição: "
+          }
+        }
+      ]
+    },
+    "dor torácica": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BD52.71": {
+            "confidence_embedding": 0.829,
+            "text": "Representação de doença CID-11: Dilatação adquirida da aorta ascendente ou da raiz. Definição: Aumento do diâmetro luminal da aorta entre a junção ventrículo-aórtica e a origem do primeiro ramo braquiocefálico acima do limite superior do normal ajustado para o tamanho do corpo que se desenvolve após o nascimento"
+          }
+        },
+        {
+          "BD50.0Z": {
+            "confidence_embedding": 0.8267,
+            "text": "Representação de doença CID-11: Dissecção da aorta torácica, dissecção da aorta ascendente e propagação além do arco, sem menção de perfuração ao ruptura. Definição: "
+          }
+        },
+        {
+          "BE14.9": {
+            "confidence_embedding": 0.817,
+            "text": "Representação de doença CID-11: Transtorno aórtico pós-procedimento relacionado a anomalia cardíaca congênita. Definição: Evento ou ocorrência afetando a aorta em consequência da presença de doença cardiovascular congênita, que está associada a uma intervenção de cuidado de saúde, sendo um desvio do curso desejado de eventos e pode causar, ou estar associado a, um resultado subótimo."
+          }
+        },
+        {
+          "BD50.00": {
+            "confidence_embedding": 0.8126,
+            "text": "Representação de doença CID-11: Dissecção da aorta torácica, dissecção da aorta ascendente e propagação além do arco com perfuração. Definição: "
+          }
+        },
+        {
+          "BD50.01": {
+            "confidence_embedding": 0.8123,
+            "text": "Representação de doença CID-11: Dissecção da aorta torácica, dissecção da aorta ascendente e propagação além do arco com ruptura. Definição: "
+          }
+        }
+      ]
+    },
+    "hipertensão arterial grave": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BD50.2": {
+            "confidence_embedding": 0.8013,
+            "text": "Representação de doença CID-11: Dissecção da aorta descendente e propagação distal. Definição: Isso ocorre quando uma ruptura na parede interna da aorta faz com que o sangue flua entre as camadas da parede da aorta, forçando a separação das camadas e propagação distal."
+          }
+        },
+        {
+          "BD52.71": {
+            "confidence_embedding": 0.8004,
+            "text": "Representação de doença CID-11: Dilatação adquirida da aorta ascendente ou da raiz. Definição: Aumento do diâmetro luminal da aorta entre a junção ventrículo-aórtica e a origem do primeiro ramo braquiocefálico acima do limite superior do normal ajustado para o tamanho do corpo que se desenvolve após o nascimento"
+          }
+        },
+        {
+          "BD50.0Z": {
+            "confidence_embedding": 0.799,
+            "text": "Representação de doença CID-11: Dissecção da aorta torácica, dissecção da aorta ascendente e propagação além do arco, sem menção de perfuração ao ruptura. Definição: "
+          }
+        },
+        {
+          "BE14.9": {
+            "confidence_embedding": 0.7889,
+            "text": "Representação de doença CID-11: Transtorno aórtico pós-procedimento relacionado a anomalia cardíaca congênita. Definição: Evento ou ocorrência afetando a aorta em consequência da presença de doença cardiovascular congênita, que está associada a uma intervenção de cuidado de saúde, sendo um desvio do curso desejado de eventos e pode causar, ou estar associado a, um resultado subótimo."
+          }
+        },
+        {
+          "BD50": {
+            "confidence_embedding": 0.7866,
+            "text": "Representação de doença CID-11: Aneurisma ou dissecção da aorta. Definição: Aneurisma da aorta é um termo para qualquer aumento (dilatação ou aneurisma) da aorta maior que 1,5 vezes o normal, geralmente representando uma fraqueza subjacente da parede da aorta naquela localização. A dissecção da aorta ocorre quando uma ruptura na parede interna da aorta faz com que o sangue flua entre as camadas da parede da aorta, forçando a separação dessas camadas."
+          }
+        }
+      ]
+    },
+    "dissecção de aorta descendente": {
+      "capitulo": "11",
+      "opcoes": [
+        {
+          "BD50.2": {
+            "confidence_embedding": 0.8493,
+            "text": "Representação de doença CID-11: Dissecção da aorta descendente e propagação distal. Definição: Isso ocorre quando uma ruptura na parede interna da aorta faz com que o sangue flua entre as camadas da parede da aorta, forçando a separação das camadas e propagação distal."
+          }
+        },
+        {
+          "BD50.2Y": {
+            "confidence_embedding": 0.8403,
+            "text": "Representação de doença CID-11: Outra dissecção da aorta descendente e propagação distal, especificada. Definição: "
+          }
+        },
+        {
+          "BD50.2Z": {
+            "confidence_embedding": 0.8392,
+            "text": "Representação de doença CID-11: Dissecção da aorta descendente e propagação distal, não especificada. Definição: "
+          }
+        },
+        {
+          "BD50.20": {
+            "confidence_embedding": 0.8349,
+            "text": "Representação de doença CID-11: Dissecção da aorta descendente e propagação distal com perfuração. Definição: "
+          }
+        },
+        {
+          "BD52.71": {
+            "confidence_embedding": 0.8311,
+            "text": "Representação de doença CID-11: Dilatação adquirida da aorta ascendente ou da raiz. Definição: Aumento do diâmetro luminal da aorta entre a junção ventrículo-aórtica e a origem do primeiro ramo braquiocefálico acima do limite superior do normal ajustado para o tamanho do corpo que se desenvolve após o nascimento"
+          }
+        }
+      ]
+    },
+    "perda funcional do mie": {
+      "capitulo": "16",
+      "opcoes": [
+        {
+          "GB40": {
+            "confidence_embedding": 0.7506,
+            "text": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose."
+          }
+        },
+        {
+          "GB81": {
+            "confidence_embedding": 0.7434,
+            "text": "Representação de doença CID-11: Doença renal policística autossômica dominante. Definição: Cistos múltiplos em ambos os rins aumentando em número e tamanho a partir da adolescência, associados ao desenvolvimento de hipertensão e insuficiência renal crônica. O padrão familiar autossômico dominante é comum e devido a mutações nos cromossomos 16 e 4. As manifestações não renais podem incluir cistos no fígado e menos comumente no pâncreas. Aneurismas arteriais cerebrais com hemorragia subaracnoide e outras anormalidades vasculares não renais também podem ocorrer."
+          }
+        },
+        {
+          "GA10.C2": {
+            "confidence_embedding": 0.7337,
+            "text": "Representação de doença CID-11: Endometriose do peritônio pélvico. Definição: Condição que é frequentemente idiopática. Esta condição é caracterizada por crescimento e função ectópicos de tecido endometrial com extensão de 5 milímetros ou menos sob a superfície visceral ou parietal do peritônio e aparecendo como lesões preta-amarronzadas ou vermelho-alaranjadas claras. Esta condição pode ser associada a tecido vestigial remanescente do ducto wolfiano ou mulleriano, ou a refluxo retrogrado de fragmentos de endométrio para a cavidade peritoneal durante a menstruação. Esta condição pode se apresentar com dismenorreia, dispareunia, dor pélvica não menstrual, infertilidade, alteração da menstruação, ou pode ser assintomática. A confirmação é feita por identificação laparoscópica de fragmentos ectópicos."
+          }
+        },
+        {
+          "GA10": {
+            "confidence_embedding": 0.7302,
+            "text": "Representação de doença CID-11: Endometriose. Definição: Uma afecção do útero que é frequentemente idiopática. Esta afecção é caracterizada por crescimento e função ectópicos de tecido endometrial fora da cavidade uterina. Esta afecção pode ser associada com tecido vestigial remanescente do ducto de Wolf ou mulleriano, ou por refluxo retrógrado de fragmentos de endométrio para a cavidade peritoneal durante a menstruação. Esta afecção pode também se apresentar com dismenorreia, dispareunia, dor pélvica não menstrual, infertilidade, alteração da menstruação, ou pode ser assintomática. A confirmação é feita por laparoscopia e identificação histológica de fragmentos ectópicos."
+          }
+        },
+        {
+          "GC74": {
+            "confidence_embedding": 0.7267,
+            "text": "Representação de doença CID-11: Mau funcionamento ou complicação do estoma externo do trato urinário. Definição: Uma condição causada por uma abertura criada cirurgicamente que conecta o trato urinário ao ambiente externo. Esta condição é caracterizada por disfunção ou diminuição da função da incisão."
+          }
+        }
+      ]
+    }
+  }
+}

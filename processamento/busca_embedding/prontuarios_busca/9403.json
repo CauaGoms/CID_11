@@ -1,0 +1,273 @@
+{
+  "prontuario_id": 325,
+  "text": "15:00 - 1ª DI - VITIMA DE QUEDA DE NIVEL COM Fx RADIO DO MSD - ACOMPANHADO DA MAE, CONSCIENTE, LUCIDO, EUPNEICO, COMUNICATIVO, DEAMBULANDO, SEM QUEIXAS ALGICAS NO MOMENTO, APRESENTA PUPILAS ISOCORICAS, PELE E MUCOSA CORADA E HIDRATADA, AUSCULTA PULMONAR COM MV +, MANTEM TALA GESSADA EM MSD, REALIZADO PUNÇAO VENOSA EM MSE, AGUARDA PROCEDIMENTO CIRURGICO HOJE;  EM JEJUM DESDE AS 10:00; DESCONHECE ALERGIA MEDICAMENTOSA; EXAME MEDICO GERAL.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "VITIMA"
+    ],
+    "Grupo Familiar": [
+      "MAE"
+    ],
+    "Achado": [
+      "CONSCIENTE",
+      "LUCIDO",
+      "EUPNEICO",
+      "COMUNICATIVO",
+      "DEAMBULANDO",
+      "CORADA",
+      "HIDRATADA",
+      "JEJUM",
+      "PUPILAS ISOCORICAS",
+      "MV +"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PELE"
+    ],
+    "Localização ou Região Corporal": [
+      "MUCOSA",
+      "MSE"
+    ],
+    "Abreviação": [
+      "MSE",
+      "1ª DI",
+      "MV +"
+    ],
+    "Conceito Temporal": [
+      "1ª DI"
+    ],
+    "Lesão ou Envenenamento": [
+      "QUEDA DE NIVEL"
+    ],
+    "Procedimento Diagnóstico": [
+      "AUSCULTA PULMONAR"
+    ],
+    "Dispositivo Médico": [
+      "TALA GESSADA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "PUNÇAO VENOSA",
+      "PROCEDIMENTO CIRURGICO"
+    ],
+    "Doença ou Síndrome": [
+      "ALERGIA MEDICAMENTOSA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "EXAME MEDICO GERAL"
+    ]
+  },
+  "labels": {
+    "alergia medicamentosa": {
+      "capitulo": "24",
+      "opcoes": [
+        {
+          "QA02.8": {
+            "confidence_embedding": 0.786,
+            "text": "Representação de doença CID-11: Observação por suspeita de alergia ou hipersensibilidade, descartada. Definição: "
+          }
+        },
+        {
+          "QC04.4": {
+            "confidence_embedding": 0.7654,
+            "text": "Representação de doença CID-11: Imunização não realizada devido a alergia do paciente à vacina ou a algum de seus componentes. Definição: "
+          }
+        },
+        {
+          "QA77": {
+            "confidence_embedding": 0.7569,
+            "text": "Representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano. Definição: "
+          }
+        },
+        {
+          "QA30.02": {
+            "confidence_embedding": 0.7462,
+            "text": "Representação de doença CID-11: Pessoa em contato com os serviços de saúde para inseminação de esperma medicamente assistida. Definição: "
+          }
+        },
+        {
+          "QA8D": {
+            "confidence_embedding": 0.7455,
+            "text": "Representação de doença CID-11: Paciente que recebeu um teste diagnóstico ou tratamento destinado a outro paciente, sem lesão ou dano. Definição: "
+          }
+        }
+      ]
+    },
+    "deambulando": {
+      "capitulo": "15",
+      "opcoes": [
+        {
+          "FB32.3": {
+            "confidence_embedding": 0.7125,
+            "text": "Representação de doença CID-11: Síndrome de imobilidade. Definição: "
+          }
+        },
+        {
+          "FB32.20": {
+            "confidence_embedding": 0.7022,
+            "text": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave."
+          }
+        },
+        {
+          "FA80.4": {
+            "confidence_embedding": 0.702,
+            "text": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica sem prolapso de disco. Definição: "
+          }
+        },
+        {
+          "FA80.8": {
+            "confidence_embedding": 0.6996,
+            "text": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: "
+          }
+        },
+        {
+          "FB32.2Y": {
+            "confidence_embedding": 0.6995,
+            "text": "Representação de doença CID-11: Outro Infarto isquêmico muscular, especificado. Definição: "
+          }
+        }
+      ]
+    },
+    "jejum": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NA60.30": {
+            "confidence_embedding": 0.7409,
+            "text": "Representação de doença CID-11: Laceração da veia jugular interna, menor. Definição: "
+          }
+        },
+        {
+          "NA60.2Z": {
+            "confidence_embedding": 0.7399,
+            "text": "Representação de doença CID-11: Lesão da veia jugular externa, não especificada. Definição: "
+          }
+        },
+        {
+          "NA60.3Z": {
+            "confidence_embedding": 0.7399,
+            "text": "Representação de doença CID-11: Lesão da veia jugular interna, não especificada. Definição: "
+          }
+        },
+        {
+          "NA60.21": {
+            "confidence_embedding": 0.7393,
+            "text": "Representação de doença CID-11: Laceração da veia jugular externa, maior. Definição: "
+          }
+        },
+        {
+          "NA60.31": {
+            "confidence_embedding": 0.7378,
+            "text": "Representação de doença CID-11: Laceração da veia jugular interna, maior. Definição: "
+          }
+        }
+      ]
+    },
+    "mv +": {
+      "capitulo": "12",
+      "opcoes": [
+        {
+          "CA22.0": {
+            "confidence_embedding": 0.78,
+            "text": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia."
+          }
+        },
+        {
+          "CA23.00": {
+            "confidence_embedding": 0.778,
+            "text": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide."
+          }
+        },
+        {
+          "CB21.1": {
+            "confidence_embedding": 0.764,
+            "text": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar."
+          }
+        },
+        {
+          "CA23.0": {
+            "confidence_embedding": 0.7617,
+            "text": "Representação de doença CID-11: Asma alérgica. Definição: Asma alérgica é o fenótipo de asma mais facilmente reconhecido. Frequentemente, inicia-se na infância e é associada a um histórico pessoal ou familiar de doença alérgica, como eczema, rinite alérgica, ou alergia a drogas e alimentos. O exame do escarro induzido desses pacientes, antes do tratamento, geralmente revela uma inflamação eosinofílica das vias aéreas. O principal gatilho é a exposição a alérgenos, como o ácaro da poeira doméstica e ao pólen, aos quais o indivíduo tenha sido, previamente, sensibilizado. Os pacientes com esse fenótipo de asma, usualmente, respondem bem a corticoide inalatório e à imunoterapia alérgeno-específica."
+          }
+        },
+        {
+          "CB0Z": {
+            "confidence_embedding": 0.7606,
+            "text": "Representação de doença CID-11: Doenças respiratórias que afetam principalmente o interstício pulmonar, não especificadas. Definição: "
+          }
+        }
+      ]
+    },
+    "queda de nivel": {
+      "capitulo": "22",
+      "opcoes": [
+        {
+          "NC14.1": {
+            "confidence_embedding": 0.7287,
+            "text": "Representação de doença CID-11: Lesão do nervo mediano ao nível do braço. Definição: "
+          }
+        },
+        {
+          "NC34.1": {
+            "confidence_embedding": 0.7287,
+            "text": "Representação de doença CID-11: Lesão do nervo mediano ao nível do antebraço. Definição: "
+          }
+        },
+        {
+          "NA60.3Z": {
+            "confidence_embedding": 0.7279,
+            "text": "Representação de doença CID-11: Lesão da veia jugular interna, não especificada. Definição: "
+          }
+        },
+        {
+          "NC55.1": {
+            "confidence_embedding": 0.7269,
+            "text": "Representação de doença CID-11: Lesão do nervo mediano ao nível do punho ou mão. Definição: "
+          }
+        },
+        {
+          "NA60.2Z": {
+            "confidence_embedding": 0.7218,
+            "text": "Representação de doença CID-11: Lesão da veia jugular externa, não especificada. Definição: "
+          }
+        }
+      ]
+    },
+    "corada": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "ED90.0": {
+            "confidence_embedding": 0.7595,
+            "text": "Representação de doença CID-11: Rosácea. Definição: O termo rosácea engloba um espectro de alterações que ocorrem principalmente na pele facial, mas também podem envolver os olhos. A maioria dos pacientes com rosácea apresenta eritema facial e instabilidade vascular que estão variavelmente associados a pápulas e pústulas inflamatórias, alterações hipertróficas e envolvimento ocular. A causa da rosácea é desconhecida. É questionável que um único fator etiológico seja responsável pelas diversas características que compõem esse transtorno."
+          }
+        },
+        {
+          "ED70.4": {
+            "confidence_embedding": 0.7386,
+            "text": "Representação de doença CID-11: Eflúvio anágeno. Definição: Eflúvio anágeno ocorre após qualquer insulto ao folículo piloso que comprometa sua atividade mitótica ou metabólica. Os pacientes apresentam queda de cabelos difusa após exposição a drogas ou produtos químicos tóxicos. Agentes quimioterápicos são mais comumente responsáveis por queda de cabelo. A queda de cabelo mais grave ocorre em associação com a doxorrubicina, as nitrosoureias e a ciclofosfamida. A queda de cabelos geralmente começa 7-14 dias após um único pulso de quimioterapia. A queda de cabelo é clinicamente mais aparente após 1-2 meses."
+          }
+        },
+        {
+          "EB13.1": {
+            "confidence_embedding": 0.7357,
+            "text": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável."
+          }
+        },
+        {
+          "ED70.30": {
+            "confidence_embedding": 0.7351,
+            "text": "Representação de doença CID-11: Eflúvio telógeno agudo. Definição: Eflúvio telógeno agudo é uma queda de cabelos do couro cabeludo de início agudo que ocorre dois a três meses após um estresse desencadeante, muitas vezes com risco à vida, e que interrompe o crescimento anágeno normal do fio. É comumente observado em sobreviventes que necessitaram de cuidados intensivos para sepse, hemorragia, doença inflamatória ou traumatismo graves. Também pode resultar de desnutrição aguda. Um grande número de fios anágenos são convertidos em telógenos e são eliminados dois a três meses depois, resultando em uma alopecia difusa."
+          }
+        },
+        {
+          "EA90.3": {
+            "confidence_embedding": 0.7343,
+            "text": "Representação de doença CID-11: Psoríase eritrodérmica. Definição: Psoríase eritrodérmica é uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele. A psoríase eritrodérmica geralmente se desenvolve a partir da psoríase em placas extensa mas pode surgir de forma nova. Fatores precipitantes ou desencadeantes incluem a retirada de glicocorticoides sistêmicos e, menos frequentemente, a descontinuação abrupta do metotrexato, queimaduras ou infecções intercorrentes. Os pacientes podem desenvolver hipotermia ou insuficiência cardíaca de alto débito."
+          }
+        }
+      ]
+    }
+  }
+}

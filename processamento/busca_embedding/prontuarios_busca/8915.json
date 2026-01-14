@@ -1,0 +1,981 @@
+{
+  "prontuario_id": 545,
+  "text": "Paciente com mesmo quadro neurológico, com abertura ocular espontânea, não contactuante, em uso de SNE com dieta, permanece aguardando familiares para orientações, pois já encontra-se de alta. NEOPLASIA MALIGNA DA BASE DA LÍNGUA. 18:08: TENTADO AGENDAR ECOCARDIO HOJE NA SANTA CASA COMO DE COSTUME, E FUI INFORMADA PELO SETOR DE RX QUE REALIZA O CONTATO QUE O EXAME NÃO TEM COMO SER REALIZADO DEVIDO A PACIENTE ESTAR EM PRECAUÇÃO DE CONTATO. ÚLCERA GÁSTRICA AGUDA COM HEMORRAGIA. 17:19HRS: RETORNOU DO CC ÀS 14:30HRS. CONSCIENTE, ORIENTADA, ALERTA, VERBALIZANDO. LIBERADO DIETA VO. AVP EM MSD COM SRT EM CURSO. NÃO REFERE ALGIA. CURATIVO NO MIE LIMPO E SECO EXTERNAMENTE COM FIXADOR EXTERNO. MANTÉM REPOUSO NO LEITO. PERMANECE COM SVD. NEOPLASIA MALIGNA DOS OSSOS LONGOS DOS MEMBROS INFERIORES. 11:20 hs: Lúcida, orientada, comunicativa, sinais vitais estáveis, acesso venoso periférico em membro superior esquerdo salinizado, curativo em flanco direito limpo e seco externamente, diurese presente, evacução ausente no período, seguem cuidados de enferm. APENDICITE AGUDA SEM OUTRA ESPECIFICAÇÃO. 13:45: 40º DI, EVOLUI REFERINDO CEFALÉIA DE CARÁTER LEVE. MANTÉM-SE ALERTA, ORIENTADO E COMUNICATIVO. HIPOCORADO, ACEITANDO BEM DIETA VO. AVC EM JUGULAR ESQUERDA, SEM SINAIS FLOGÍSTICOS, COM SOROTERAPIA EM CURSO. RELATA ELIMINAÇÕES VESICAIS E INTESTINAIS. RIM TRANSPLANTADO.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente",
+      "PACIENTE"
+    ],
+    "Conceito Funcional": [
+      "uso"
+    ],
+    "Dispositivo Médico": [
+      "SNE",
+      "AVP",
+      "CURATIVO",
+      "SVD",
+      "curativo",
+      "AVC",
+      "FIXADOR EXTERNO",
+      "acesso venoso periférico"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SNE",
+      "AVP",
+      "SRT",
+      "CURATIVO",
+      "SVD",
+      "curativo",
+      "AVC",
+      "SOROTERAPIA",
+      "PRECAUÇÃO DE CONTATO",
+      "DIETA VO",
+      "FIXADOR EXTERNO",
+      "REPOUSO NO LEITO",
+      "acesso venoso periférico"
+    ],
+    "Abreviação": [
+      "SNE",
+      "CC",
+      "AVP",
+      "MSD",
+      "SRT",
+      "MIE",
+      "SVD",
+      "enferm",
+      "DI",
+      "AVC",
+      "DIETA VO"
+    ],
+    "Alimento": [
+      "dieta"
+    ],
+    "Grupo Familiar": [
+      "familiares"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "orientações",
+      "alta",
+      "EXAME",
+      "LIBERADO",
+      "cuidados",
+      "enferm"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECOCARDIO"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CC",
+      "SANTA CASA",
+      "SETOR DE RX"
+    ],
+    "Achado": [
+      "CONSCIENTE",
+      "ORIENTADA",
+      "ALERTA",
+      "VERBALIZANDO",
+      "LIMPO",
+      "SECO",
+      "Lúcida",
+      "orientada",
+      "comunicativa",
+      "limpo",
+      "seco",
+      "ORIENTADO",
+      "COMUNICATIVO",
+      "HIPOCORADO",
+      "INTESTINAIS",
+      "abertura ocular espontânea",
+      "REPOUSO NO LEITO",
+      "sinais vitais estáveis",
+      "diurese presente"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD",
+      "MIE",
+      "MEMBROS INFERIORES",
+      "flanco direito"
+    ],
+    "Sinal ou Sintoma": [
+      "ALGIA",
+      "CEFALÉIA",
+      "quadro neurológico",
+      "não contactuante"
+    ],
+    "Conceito Espacial": [
+      "EXTERNAMENTE",
+      "esquerdo",
+      "externamente",
+      "ESQUERDA"
+    ],
+    "Conceito Qualitativo": [
+      "salinizado",
+      "CARÁTER LEVE"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "enferm"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "JUGULAR",
+      "membro superior"
+    ],
+    "Negação": [
+      "não contactuante",
+      "NÃO TEM COMO SER REALIZADO",
+      "NÃO REFERE",
+      "evacução ausente",
+      "SEM OUTRA ESPECIFICAÇÃO",
+      "SEM SINAIS FLOGÍSTICOS"
+    ],
+    "Processo Neoplásico": [
+      "NEOPLASIA MALIGNA DA BASE DA LÍNGUA",
+      "NEOPLASIA MALIGNA DOS OSSOS LONGOS"
+    ],
+    "Doença ou Síndrome": [
+      "ÚLCERA GÁSTRICA AGUDA COM HEMORRAGIA",
+      "APENDICITE AGUDA"
+    ]
+  },
+  "labels": {
+    "orientado": {
+      "capitulo": "06",
+      "opcoes": [
+        {
+          "6C45.3": {
+            "confidence_embedding": 0.7705,
+            "text": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia."
+          }
+        },
+        {
+          "6E40.2": {
+            "confidence_embedding": 0.7698,
+            "text": "Representação de doença CID-11: Traços de personalidade ou estilos de enfrentamento afetando transtornos ou doenças classificados em outra parte. Definição: Todos os critérios diagnósticos para fatores psicológicos ou comportamentais afetando transtornos ou doenças classificados em outra parte são preenchidos. O indivíduo apresenta traços de personalidade ou estilos de enfrentamento que não preenchem critérios diagnósticos para um transtorno mental, comportamental ou do neurodesenvolvimento, que afetam de forma adversa a manifestação, o tratamento ou curso de um transtorno ou doença classificado em outro capítulo (p.ex., negação patológica da necessidade de cirurgia em um paciente com câncer; comportamento hostil e tenso contribuindo para doença cardíaca)."
+          }
+        },
+        {
+          "6C49.3": {
+            "confidence_embedding": 0.7606,
+            "text": "Representação de doença CID-11: Intoxicação por alucinógenos. Definição: Intoxicação por alucinógenos é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de alucinógenos, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos dos alucinógenos e sua intensidade está intimamente relacionada à quantidade de alucinógenos consumida. Têm duração limitada, e diminuem à medida que o alucinógeno é eliminado do corpo. A apresentação pode incluir alucinações, ilusões, alterações perceptivas como despersonalização, desrealização, ou sinestesias (fusão de sentidos, como um estímulo visual evocando um cheiro), ansiedade, humor deprimido ou disfórico, ideias de referência, ideação paranoide, julgamento comprometido, palpitações, sudorese, visão turva, tremores e descoordenação. Sinais físicos podem incluir taquicardia, pressão arterial elevada, dilatação pupilar. Em casos raros, a intoxicação por alucinógenos pode facilitar ideação e comportamento suicidas."
+          }
+        },
+        {
+          "6C40.3": {
+            "confidence_embedding": 0.7598,
+            "text": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas."
+          }
+        },
+        {
+          "6C48.2": {
+            "confidence_embedding": 0.7596,
+            "text": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais."
+          }
+        }
+      ]
+    },
+    "intestinais": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DB33.20": {
+            "confidence_embedding": 0.8197,
+            "text": "Representação de doença CID-11: Proctite ou colite infantil induzida por proteína de alimentos. Definição: Hipersensibilidade intestinal não mediada por IgE (na ausência de anticorpos IgE) induzida por proteína alimentar que provoca resposta inflamatória principalmente do cólon sigmoide distal e do reto. É uma condição em bebês que resulta de resposta imune desencadeada por proteínas da dieta, principalmente do leite (através da amamentação). Os pacientes geralmente parecem saudáveis e têm fezes normais e macias com manchas ou raias de sangue. O diagnóstico é feito usualmente baseado na resolução dos sintomas com a retirada do suposto antígeno alimentar. O início usual é nos primeiros 2 meses de vida, mas pode também ocorrer em bebês de 1 dia a 6 meses de idade."
+          }
+        },
+        {
+          "DA60.3": {
+            "confidence_embedding": 0.8125,
+            "text": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago."
+          }
+        },
+        {
+          "DB32.20": {
+            "confidence_embedding": 0.8118,
+            "text": "Representação de doença CID-11: Megacólon tóxico. Definição: Megacólon tóxico é uma forma aguda de distensão do cólon, caracterizada por dilatação acentuada do cólon, acompanhada por distensão abdominal (inchaço) e, às vezes, febre, dor abdominal ou choque. \"Tóxico\" significa que esta complicação ocorre com inflamação. O megacólon tóxico é uma rara dilatação do intestino grosso com risco de vida, que evolui em poucos dias, ocorrendo como complicação de doença inflamatória intestinal, tais como colite ulcerativa e doença de Crohn, ou colite de origem infecciosa."
+          }
+        },
+        {
+          "DA94.01": {
+            "confidence_embedding": 0.8116,
+            "text": "Representação de doença CID-11: Úlceras crônicas múltiplas não específicas do intestino delgado. Definição: Em pacientes afetados, as úlceras crônicas múltiplas não específicas são predominantemente encontradas no íleo, de forma circular ou irregular. As margens das úlceras são sempre claras e a mucosa interposta parece normal. O quadro destas é frequentemente caracterizado por anemia e hipoalbuminemia devido a sangramento e perda de proteínas pelas úlceras múltiplas."
+          }
+        },
+        {
+          "DB35.0": {
+            "confidence_embedding": 0.8053,
+            "text": "Representação de doença CID-11: Pólipo hiperplásico do intestino grosso. Definição: Pólipos hiperplásicos são lesões verdadeiramente benignas, sem possuir potencial de progressão para câncer colorretal. Patologicamente, os pólipos hiperplásicos não têm displasia."
+          }
+        }
+      ]
+    },
+    "cefaléia": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7915,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MG00": {
+            "confidence_embedding": 0.7873,
+            "text": "Representação de doença CID-11: Achados clínicos de exames para diagnóstico por imagem da mama. Definição: Achados clínicos no diagnóstico por imagem da mama são achados diagnósticos de imagem da mama que não aparecem no estado normal do corpo. Diagnóstico por imagem refere-se a tecnologias que os médicos usam para olhar dentro do corpo em busca de pistas sobre uma condição médica. Raios-X, tomografias computadorizadas, exames de medicina nuclear, exames de ressonância magnética e ultrassom são todos tipos diagnóstico por imagem."
+          }
+        },
+        {
+          "MB23.H": {
+            "confidence_embedding": 0.7846,
+            "text": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas."
+          }
+        },
+        {
+          "MF40.3": {
+            "confidence_embedding": 0.7819,
+            "text": "Representação de doença CID-11: Ejaculação retrógrada. Definição: A ejaculação retrógrada é uma condição na qual o sêmen, que normalmente é ejaculado pela uretra, é redirecionado para a bexiga urinária. A ejaculação retrógrada é tipicamente acompanhada por orgasmo subjetivo, embora o homem possa notar que a liberação de sêmen é limitada ou ausente. A ejaculação retrógrada ocorre mais comumente como uma complicação da ressecção transuretral da próstata, porém também pode ser causada por outra cirurgia pélvica, disfunção do sistema nervoso ou uso de agentes farmacológicos. A confirmação é feita pela identificação de espermatozoides em uma amostra de urina."
+          }
+        },
+        {
+          "MB20.1": {
+            "confidence_embedding": 0.7782,
+            "text": "Representação de doença CID-11: Coma. Definição: Estado agudo com duração de mais de uma hora e geralmente menos de um mês. O paciente em coma está arresponsivo, fica com os olhos fechados e não pode ser despertado nem mesmo por estímulos vigorosos e dolorosos. As respostas motoras à estimulação dolorosa estão limitadas a reflexos. As etiologias incluem, mas não estão limitadas a, lesões cerebrais traumáticas, anóxicas, infecciosas, neoplásicas, vasculares, inflamatórias e metabólicas."
+          }
+        }
+      ]
+    },
+    "seco": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "ED70.30": {
+            "confidence_embedding": 0.7899,
+            "text": "Representação de doença CID-11: Eflúvio telógeno agudo. Definição: Eflúvio telógeno agudo é uma queda de cabelos do couro cabeludo de início agudo que ocorre dois a três meses após um estresse desencadeante, muitas vezes com risco à vida, e que interrompe o crescimento anágeno normal do fio. É comumente observado em sobreviventes que necessitaram de cuidados intensivos para sepse, hemorragia, doença inflamatória ou traumatismo graves. Também pode resultar de desnutrição aguda. Um grande número de fios anágenos são convertidos em telógenos e são eliminados dois a três meses depois, resultando em uma alopecia difusa."
+          }
+        },
+        {
+          "ED90.0": {
+            "confidence_embedding": 0.7896,
+            "text": "Representação de doença CID-11: Rosácea. Definição: O termo rosácea engloba um espectro de alterações que ocorrem principalmente na pele facial, mas também podem envolver os olhos. A maioria dos pacientes com rosácea apresenta eritema facial e instabilidade vascular que estão variavelmente associados a pápulas e pústulas inflamatórias, alterações hipertróficas e envolvimento ocular. A causa da rosácea é desconhecida. É questionável que um único fator etiológico seja responsável pelas diversas características que compõem esse transtorno."
+          }
+        },
+        {
+          "EB13.1": {
+            "confidence_embedding": 0.7845,
+            "text": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável."
+          }
+        },
+        {
+          "ED70.4": {
+            "confidence_embedding": 0.7747,
+            "text": "Representação de doença CID-11: Eflúvio anágeno. Definição: Eflúvio anágeno ocorre após qualquer insulto ao folículo piloso que comprometa sua atividade mitótica ou metabólica. Os pacientes apresentam queda de cabelos difusa após exposição a drogas ou produtos químicos tóxicos. Agentes quimioterápicos são mais comumente responsáveis por queda de cabelo. A queda de cabelo mais grave ocorre em associação com a doxorrubicina, as nitrosoureias e a ciclofosfamida. A queda de cabelos geralmente começa 7-14 dias após um único pulso de quimioterapia. A queda de cabelo é clinicamente mais aparente após 1-2 meses."
+          }
+        },
+        {
+          "EK12": {
+            "confidence_embedding": 0.7744,
+            "text": "Representação de doença CID-11: Sensibilização alérgica por contato. Definição: A presença de hipersensibilidade tardia tipo IV do sistema imune a uma determinada substância sem definição de doença prévia ou atual. Tal sensibilização é normalmente adquirida por contato prévio de pele ou mucosa com a própria substância ou com outra quimicamente similar (reatividade cruzada). Contato subsequente com a substância pode provocar reação alérgica. Em determinadas circunstâncias, essa sensibilização pode impedir que um indivíduo aceite ou continue em um emprego em que a exposição ao alérgeno não pode ser evitada. Alguns indivíduos sensibilizados para um alérgeno específico, entretanto, podem nunca manifestar sintomas caso ocorra o contato."
+          }
+        }
+      ]
+    },
+    "comunicativo": {
+      "capitulo": "06",
+      "opcoes": [
+        {
+          "6C40.3": {
+            "confidence_embedding": 0.7776,
+            "text": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas."
+          }
+        },
+        {
+          "6C48.3": {
+            "confidence_embedding": 0.7756,
+            "text": "Representação de doença CID-11: Abstinência de cafeína. Definição: Abstinência de cafeína é um conjunto clinicamente significativo de sintomas, comportamentos e/ou manifestações fisiológicas, variando em grau de gravidade e duração, que ocorre quando da cessação ou redução do uso de cafeína (tipicamente na forma de café, bebidas cafeinadas, ou como ingrediente de alguns medicamentos de venda livre) em indivíduos que tenham usado cafeína por um período prolongado ou em grandes quantidades. Sintomas de apresentação da abstinência de cafeína podem incluir dor de cabeça, fadiga acentuada ou sonolência, irritabilidade, humor deprimido ou disfórico, náusea ou vômitos e dificuldade de concentração."
+          }
+        },
+        {
+          "6C45.3": {
+            "confidence_embedding": 0.7754,
+            "text": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia."
+          }
+        },
+        {
+          "6A23.01": {
+            "confidence_embedding": 0.772,
+            "text": "Representação de doença CID-11: Transtorno psicótico agudo e transitório, primeiro episódio, em remissão parcial. Definição: Todos os critérios diagnósticos para transtorno psicótico agudo e transitório, primeiro episódio em termos de sintomas e duração foram preenchidos anteriormente. Os sintomas melhoraram de tal forma que os critérios diagnósticos para o transtorno não foram preenchidos por pelo menos um mês, mas alguns sintomas clinicamente significativos persistem, que podem ou não estar associados a comprometimento funcional. A remissão parcial pode ter ocorrido em resposta a medicamento ou outro tratamento."
+          }
+        },
+        {
+          "6C48.2": {
+            "confidence_embedding": 0.7719,
+            "text": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais."
+          }
+        }
+      ]
+    },
+    "neoplasia maligna dos ossos longos": {
+      "capitulo": "02",
+      "opcoes": [
+        {
+          "2C82": {
+            "confidence_embedding": 0.7958,
+            "text": "Representação de doença CID-11: Neoplasia maligna da próstata. Definição: O câncer de próstata contribui significativamente para a carga geral de câncer, sendo a neoplasia maligna mais frequente em homens. O número de casos tem aumentado continuamente nas últimas décadas, em parte devido à maior expectativa de vida. Um fator adicional é o estilo de vida ocidental, caracterizado por uma dieta altamente calórica e falta de exercícios físicos. Os dados epidemiológicos indicam que os negros são os mais suscetíveis, seguidos pelos brancos, enquanto os asiáticos apresentam o menor risco. Até que ponto a mortalidade por câncer de próstata pode ser reduzida pelo exame de PSA, está atualmente sendo avaliada. O diagnóstico histopatológico e a graduação desempenham um papel importante no tratamento do câncer de próstata"
+          }
+        },
+        {
+          "2B51": {
+            "confidence_embedding": 0.7914,
+            "text": "Representação de doença CID-11: Osteossarcoma, localização primária. Definição: Tumor mesenquimal maligno formador de osso geralmente agressivo, que afeta predominantemente adolescentes e adultos jovens. Ele geralmente acomete ossos e, menos frequentemente, localizações extraósseas. Frequentemente acomete os ossos longos (particularmente fêmur distal, tíbia proximal e úmero proximal). Dor com ou sem uma massa palpável é o sintoma clínico mais frequente. Ele pode disseminar para outras localizações anatômicas, particularmente os pulmões."
+          }
+        },
+        {
+          "2E05.0": {
+            "confidence_embedding": 0.7907,
+            "text": "Representação de doença CID-11: Metástase de neoplasia maligna no ovário. Definição: Propagação do câncer para o ovário. Pode ser oriunda de um câncer de ovário primário envolvendo o ovário oposto ou de um câncer em uma localização distante."
+          }
+        },
+        {
+          "2E03": {
+            "confidence_embedding": 0.7828,
+            "text": "Representação de doença CID-11: Metástase de neoplasia maligna em osso ou medula óssea. Definição: Propagação de uma neoplasia maligna de uma localização primária para o sistema esquelético. A maioria das neoplasias metastáticas para os ossos são carcinomas."
+          }
+        },
+        {
+          "2B71": {
+            "confidence_embedding": 0.7809,
+            "text": "Representação de doença CID-11: Neoplasias malignas da junção esofagogástrica. Definição: Neoplasias malignas que surgem das células da junção esofagogástrica (JEG), que é definido como o ponto em que o esôfago termina e o estômago começa. Isso define principalmente os adenocarcinomas que se estendem pela junção do esôfago com o estômago. Esta definição inclui muitos tumores formalmente chamados de cânceres da cárdia gástrica."
+          }
+        }
+      ]
+    },
+    "limpo": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "ED70.30": {
+            "confidence_embedding": 0.7887,
+            "text": "Representação de doença CID-11: Eflúvio telógeno agudo. Definição: Eflúvio telógeno agudo é uma queda de cabelos do couro cabeludo de início agudo que ocorre dois a três meses após um estresse desencadeante, muitas vezes com risco à vida, e que interrompe o crescimento anágeno normal do fio. É comumente observado em sobreviventes que necessitaram de cuidados intensivos para sepse, hemorragia, doença inflamatória ou traumatismo graves. Também pode resultar de desnutrição aguda. Um grande número de fios anágenos são convertidos em telógenos e são eliminados dois a três meses depois, resultando em uma alopecia difusa."
+          }
+        },
+        {
+          "ED90.0": {
+            "confidence_embedding": 0.7821,
+            "text": "Representação de doença CID-11: Rosácea. Definição: O termo rosácea engloba um espectro de alterações que ocorrem principalmente na pele facial, mas também podem envolver os olhos. A maioria dos pacientes com rosácea apresenta eritema facial e instabilidade vascular que estão variavelmente associados a pápulas e pústulas inflamatórias, alterações hipertróficas e envolvimento ocular. A causa da rosácea é desconhecida. É questionável que um único fator etiológico seja responsável pelas diversas características que compõem esse transtorno."
+          }
+        },
+        {
+          "EB13.1": {
+            "confidence_embedding": 0.7787,
+            "text": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável."
+          }
+        },
+        {
+          "ED70.4": {
+            "confidence_embedding": 0.7721,
+            "text": "Representação de doença CID-11: Eflúvio anágeno. Definição: Eflúvio anágeno ocorre após qualquer insulto ao folículo piloso que comprometa sua atividade mitótica ou metabólica. Os pacientes apresentam queda de cabelos difusa após exposição a drogas ou produtos químicos tóxicos. Agentes quimioterápicos são mais comumente responsáveis por queda de cabelo. A queda de cabelo mais grave ocorre em associação com a doxorrubicina, as nitrosoureias e a ciclofosfamida. A queda de cabelos geralmente começa 7-14 dias após um único pulso de quimioterapia. A queda de cabelo é clinicamente mais aparente após 1-2 meses."
+          }
+        },
+        {
+          "EK12": {
+            "confidence_embedding": 0.7612,
+            "text": "Representação de doença CID-11: Sensibilização alérgica por contato. Definição: A presença de hipersensibilidade tardia tipo IV do sistema imune a uma determinada substância sem definição de doença prévia ou atual. Tal sensibilização é normalmente adquirida por contato prévio de pele ou mucosa com a própria substância ou com outra quimicamente similar (reatividade cruzada). Contato subsequente com a substância pode provocar reação alérgica. Em determinadas circunstâncias, essa sensibilização pode impedir que um indivíduo aceite ou continue em um emprego em que a exposição ao alérgeno não pode ser evitada. Alguns indivíduos sensibilizados para um alérgeno específico, entretanto, podem nunca manifestar sintomas caso ocorra o contato."
+          }
+        }
+      ]
+    },
+    "sinais vitais estáveis": {
+      "capitulo": "08",
+      "opcoes": [
+        {
+          "8A64": {
+            "confidence_embedding": 0.7761,
+            "text": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo."
+          }
+        },
+        {
+          "8E21": {
+            "confidence_embedding": 0.7418,
+            "text": "Representação de doença CID-11: Estado vegetativo permanente. Definição: Termo prognóstico aplicado a pacientes em um estado vegetativo persistente para os quais nenhuma recuperação é esperada."
+          }
+        },
+        {
+          "8E20": {
+            "confidence_embedding": 0.7401,
+            "text": "Representação de doença CID-11: Estado vegetativo persistente. Definição: Estado subagudo ou crônico de distúrbio grave de consciência com duração de pelo menos um mês, caracterizado pela recuperação de estados cíclicos de despertar que simulam ciclos de sono/vigília após uma lesão cerebral grave. Pacientes com esta condição estão arresponsivos e não apresentam evidência de consciência de si mesmos ou do ambiente. A regulação autonômica cardiopulmonar e visceral é mantida pelo tronco encefálico."
+          }
+        },
+        {
+          "8E40.2": {
+            "confidence_embedding": 0.735,
+            "text": "Representação de doença CID-11: Meningite inflamatória. Definição: Termo geral para descrever um grupo de transtornos em que há inflamação das meninges devida a um transtorno inflamatório subjacente. A síndrome é clinicamente caracterizada por cefaleia, rigidez de nuca, febre e fotofobia. Outras manifestações dos sistemas nervosos central e periférico podem estar presentes. Manifestações não neurológicas, incluindo envolvimento de pele, olhos e órgãos, também podem estar presentes. O diagnóstico pode ser auxiliado por testes sorológicos, exames de neuroimagem e, se apropriado, uma biópsia tecidual. A análise do líquido cefalorraquiano pode revelar uma pleocitose linfocítica, uma proteína elevada e a presença de bandas oligoclonais."
+          }
+        },
+        {
+          "8A02.00": {
+            "confidence_embedding": 0.7337,
+            "text": "Representação de doença CID-11: Blefarospasmo benigno essencial. Definição: Esta é uma condição neurológica caracterizada por fechamento forçado das pálpebras devido a contração involuntária e sustentada dos músculos ao redor dos olhos."
+          }
+        }
+      ]
+    },
+    "verbalizando": {
+      "capitulo": "06",
+      "opcoes": [
+        {
+          "6E40.2": {
+            "confidence_embedding": 0.7974,
+            "text": "Representação de doença CID-11: Traços de personalidade ou estilos de enfrentamento afetando transtornos ou doenças classificados em outra parte. Definição: Todos os critérios diagnósticos para fatores psicológicos ou comportamentais afetando transtornos ou doenças classificados em outra parte são preenchidos. O indivíduo apresenta traços de personalidade ou estilos de enfrentamento que não preenchem critérios diagnósticos para um transtorno mental, comportamental ou do neurodesenvolvimento, que afetam de forma adversa a manifestação, o tratamento ou curso de um transtorno ou doença classificado em outro capítulo (p.ex., negação patológica da necessidade de cirurgia em um paciente com câncer; comportamento hostil e tenso contribuindo para doença cardíaca)."
+          }
+        },
+        {
+          "6C40.3": {
+            "confidence_embedding": 0.7929,
+            "text": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas."
+          }
+        },
+        {
+          "6C40.4": {
+            "confidence_embedding": 0.7921,
+            "text": "Representação de doença CID-11: Abstinência de álcool. Definição: Abstinência de álcool é um conjunto clinicamente significativo de sintomas, comportamentos e/ou manifestações fisiológicas, variando em grau de gravidade e duração, que ocorre quando da cessação ou redução do uso de álcool em indivíduos que tenham desenvolvido dependência de álcool ou que tenham usado álcool por um período prolongado ou em grandes quantidades. Sintomas de apresentação da abstinência de álcool podem incluir hiperatividade autonômica (p. ex., taquicardia, hipertensão, sudorese), tremores aumentados nas mãos, náusea, ânsia de vômito ou vômito, insônia, ansiedade, agitação psicomotora, humor deprimido ou disfórico, ilusões ou alucinações visuais, táteis ou auditivas transitórias e distratibilidade. Menos comumente, o estado de abstinência é complicado por convulsões tônico-clônicas. O estado de abstinência pode progredir para uma forma muito grave de delirium, caracterizada por confusão e desorientação, delírios e alucinações visuais, táteis ou auditivas prolongadas. Nesses casos, um diagnóstico separado de delirium induzido por álcool também deve ser atribuído."
+          }
+        },
+        {
+          "6C45.3": {
+            "confidence_embedding": 0.7898,
+            "text": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia."
+          }
+        },
+        {
+          "6C49.3": {
+            "confidence_embedding": 0.7887,
+            "text": "Representação de doença CID-11: Intoxicação por alucinógenos. Definição: Intoxicação por alucinógenos é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de alucinógenos, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos dos alucinógenos e sua intensidade está intimamente relacionada à quantidade de alucinógenos consumida. Têm duração limitada, e diminuem à medida que o alucinógeno é eliminado do corpo. A apresentação pode incluir alucinações, ilusões, alterações perceptivas como despersonalização, desrealização, ou sinestesias (fusão de sentidos, como um estímulo visual evocando um cheiro), ansiedade, humor deprimido ou disfórico, ideias de referência, ideação paranoide, julgamento comprometido, palpitações, sudorese, visão turva, tremores e descoordenação. Sinais físicos podem incluir taquicardia, pressão arterial elevada, dilatação pupilar. Em casos raros, a intoxicação por alucinógenos pode facilitar ideação e comportamento suicidas."
+          }
+        }
+      ]
+    },
+    "úlcera gástrica aguda com hemorragia": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DA60.3": {
+            "confidence_embedding": 0.8037,
+            "text": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago."
+          }
+        },
+        {
+          "DB91": {
+            "confidence_embedding": 0.79,
+            "text": "Representação de doença CID-11: Insuficiência hepática aguda ou subaguda. Definição: Insuficiência hepática aguda e subaguda é caracterizada pelo início de coagulopatia e/ou encefalopatia hepática dentro de 8 semanas do início de sintomas em um paciente sem doença hepática conhecida previamente."
+          }
+        },
+        {
+          "DB98.A": {
+            "confidence_embedding": 0.7861,
+            "text": "Representação de doença CID-11: Hemorragia hepática. Definição: Sangramento espontâneo traumático ou não traumático no fígado. A causa mais comum deste último é a ruptura de tumores hepáticos."
+          }
+        },
+        {
+          "DB10.0": {
+            "confidence_embedding": 0.7799,
+            "text": "Representação de doença CID-11: Apendicite aguda. Definição: Inflamação aguda e aumento do apêndice vermiforme. Foi reconhecida como uma das causas mais comuns de dor abdominal aguda grave em todo o mundo. A maioria dos casos requer tratamento médico adequado ou remoção do apêndice inflamado. Se não tratada, a mortalidade é alta, principalmente pelo risco de ruptura levando a peritonite e choque. Nesta categoria, está incluída apenas a apendicite aguda devida a infecção bacteriana comum, sendo descartada a apendicite devida a organismos específicos está excluída desta entidade e descrita em outra parte."
+          }
+        },
+        {
+          "DC72.Z": {
+            "confidence_embedding": 0.774,
+            "text": "Representação de doença CID-11: Divertículo do intestino delgado, sem especificação sobre a presença ou ausência de hemorragia. Definição: "
+          }
+        }
+      ]
+    },
+    "quadro neurológico": {
+      "capitulo": "08",
+      "opcoes": [
+        {
+          "8A64": {
+            "confidence_embedding": 0.7824,
+            "text": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo."
+          }
+        },
+        {
+          "8C01.0": {
+            "confidence_embedding": 0.7579,
+            "text": "Representação de doença CID-11: Polineuropatia desmielinizante inflamatória aguda. Definição: Fraqueza progressiva dos membros ao longo de alguns dias a 28 dias, déficit simétrico, arreflexia, distúrbio sensorial ausente ou leve, proteína do líquido cefalorraquidiano elevada e redução das velocidades de condução nervosa são as características principais. O transtorno pode ser precedido por infecção respiratória superior ou gastrointestinal ou imunização 1 a 4 semanas antes do início da doença. A paralisia bifacial pode estar presente."
+          }
+        },
+        {
+          "8A45.30": {
+            "confidence_embedding": 0.7574,
+            "text": "Representação de doença CID-11: Transtorno da substância branca devido à deficiência de vitamina B12. Definição: Características neurológicas ocorrem em 40% dos pacientes com deficiência de vitamina B12. Degeneração combinada subaguda é uma complicação neurológica reversível potencial de deficiência de vitamina B12. Sintomas desenvolvem de forma insidiosa e as manifestações neuropáticas incluem parestesia distal, dormência, ataxia de marcha e diminuição da propriocepção dos membros inferiores, enquanto componente mielopático leva à prejuízo motor variável devido à disfunção do trato piramidal. Incontinência fecal e urinária com impotência e hipotensão postural podem ocorrer como parte da mielopatia. Manifestações centrais incluem confusão, depressão, alucinação progressiva e lentificação mental. Pode ocorrer e neuropatia óptica."
+          }
+        },
+        {
+          "8D64.10": {
+            "confidence_embedding": 0.7559,
+            "text": "Representação de doença CID-11: Hidrocefalia devida a malformações estruturais. Definição: Aumento ventricular devido a um acúmulo de líquido cefalorraquidiano secundário à obstrução causada por uma anormalidade estrutural, como malformações de Chiari ou estenose do aqueduto."
+          }
+        },
+        {
+          "8A80": {
+            "confidence_embedding": 0.7435,
+            "text": "Representação de doença CID-11: Enxaqueca. Definição: Transtorno de cefaleia primária, na maioria dos casos episódica. Ataques incapacitantes com duração de 4-72 horas são caracterizados por cefaleia moderada ou grave, geralmente acompanhada por náuseas, vômitos e/ou fotofobia e fonofobia e algumas vezes precedidos por uma aura de curta duração de sintomas visuais, sensoriais ou outros sintomas do sistema nervoso central, unilaterais e totalmente reversíveis. Numa pequena minoria de casos, a cefaleia, mas não necessariamente os sintomas associados, torna-se muito frequente, com perda da episodicidade."
+          }
+        }
+      ]
+    },
+    "alerta": {
+      "capitulo": "06",
+      "opcoes": [
+        {
+          "6C45.3": {
+            "confidence_embedding": 0.7855,
+            "text": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia."
+          }
+        },
+        {
+          "6C48.2": {
+            "confidence_embedding": 0.7789,
+            "text": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais."
+          }
+        },
+        {
+          "6C40.3": {
+            "confidence_embedding": 0.7732,
+            "text": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas."
+          }
+        },
+        {
+          "6C49.3": {
+            "confidence_embedding": 0.7721,
+            "text": "Representação de doença CID-11: Intoxicação por alucinógenos. Definição: Intoxicação por alucinógenos é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de alucinógenos, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos dos alucinógenos e sua intensidade está intimamente relacionada à quantidade de alucinógenos consumida. Têm duração limitada, e diminuem à medida que o alucinógeno é eliminado do corpo. A apresentação pode incluir alucinações, ilusões, alterações perceptivas como despersonalização, desrealização, ou sinestesias (fusão de sentidos, como um estímulo visual evocando um cheiro), ansiedade, humor deprimido ou disfórico, ideias de referência, ideação paranoide, julgamento comprometido, palpitações, sudorese, visão turva, tremores e descoordenação. Sinais físicos podem incluir taquicardia, pressão arterial elevada, dilatação pupilar. Em casos raros, a intoxicação por alucinógenos pode facilitar ideação e comportamento suicidas."
+          }
+        },
+        {
+          "6D85.6": {
+            "confidence_embedding": 0.762,
+            "text": "Representação de doença CID-11: Demência devida à hidrocefalia de pressão normal. Definição: Demência devida à hidrocefalia de pressão normal resulta do acúmulo excessivo de líquido cefalorraquidiano no cérebro, como resultado de causas idiopáticas não obstrutivas, mas também pode ser secundário a hemorragia, infecção ou inflamação. A progressão é gradativa, mas a intervenção (p. ex., derivação) pode resultar em melhora dos sintomas, especialmente se realizada precocemente no curso da condição. Tipicamente, comprometimentos cognitivos incluem velocidade de processamento reduzida e déficits na funcionalidade executiva e na atenção. Esses sintomas também são tipicamente acompanhados de anormalidades da marcha e incontinência urinária. Exame de imagem cerebral para mostrar o volume ventricular e caracterizar o deslocamento cerebral frequentemente é necessário para confirmar o diagnóstico."
+          }
+        }
+      ]
+    },
+    "abertura ocular espontânea": {
+      "capitulo": "09",
+      "opcoes": [
+        {
+          "9A94.1": {
+            "confidence_embedding": 0.8164,
+            "text": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso."
+          }
+        },
+        {
+          "9A03.24": {
+            "confidence_embedding": 0.8029,
+            "text": "Representação de doença CID-11: Síndrome da frouxidão palpebral. Definição: Transtorno adquirido de origem desconhecida, que se manifesta por pálpebras superiores frouxas facilmente evertidas e conjuntivite papilar da conjuntiva palpebral superior. Está associado primariamente a homens obesos e apneia obstrutiva do sono. O tarso da pálpebra superior se torna mais macio e frouxo provavelmente devido a forças mecânicas e mudanças enzimáticas. A pálpebra superior everte durante o sono, resultando em irritação, conjuntivite papilar e queratinização conjuntival. O tratamento efetivo consiste em prevenir que a pálpebra superior everta enquanto o paciente dorme."
+          }
+        },
+        {
+          "9C61.34": {
+            "confidence_embedding": 0.7833,
+            "text": "Representação de doença CID-11: Glaucoma secundário de ângulo fechado devido a invasão por células epiteliais. Definição: Invasão de células epiteliais é uma condição subsequente a traumatismo ocular aberto ou cirurgia em que células epiteliais conjuntivais ou corneanas ganham acesso à câmara anterior e crescem além da malha trabecular com subsequente elevação da pressão ocular e dano ao nervo óptico."
+          }
+        },
+        {
+          "9C61.25": {
+            "confidence_embedding": 0.7783,
+            "text": "Representação de doença CID-11: Crise glaucomatociclítica. Definição: Crise glaucomatociclítica apresenta-se com precipitados ceráticos leves e flare do aquoso, elevação aguda da pressão intraocular e dano ao nervo óptico quando ataques repetidos ocorrem."
+          }
+        },
+        {
+          "9A04.0": {
+            "confidence_embedding": 0.7782,
+            "text": "Representação de doença CID-11: Triquíase sem entrópio. Definição: Refere-se a cílios anormalmente posicionados que crescem para trás em direção ao olho, tocando a córnea ou conjuntiva. Pode ser causado por infecção, inflamação, condições autoimunes, defeitos congênitos, agenesia palpebral e traumatismos como queimaduras ou lesões palpebrais. Esse diagnóstico é feito na ausência da condição em que a pálpebra (usualmente a inferior) dobra para dentro. É muito desconfortável, pois os cílios constantemente se esfregam contra a córnea e a irritam."
+          }
+        }
+      ]
+    },
+    "comunicativa": {
+      "capitulo": "06",
+      "opcoes": [
+        {
+          "6C40.3": {
+            "confidence_embedding": 0.7773,
+            "text": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas."
+          }
+        },
+        {
+          "6C45.3": {
+            "confidence_embedding": 0.7751,
+            "text": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia."
+          }
+        },
+        {
+          "6C48.3": {
+            "confidence_embedding": 0.7723,
+            "text": "Representação de doença CID-11: Abstinência de cafeína. Definição: Abstinência de cafeína é um conjunto clinicamente significativo de sintomas, comportamentos e/ou manifestações fisiológicas, variando em grau de gravidade e duração, que ocorre quando da cessação ou redução do uso de cafeína (tipicamente na forma de café, bebidas cafeinadas, ou como ingrediente de alguns medicamentos de venda livre) em indivíduos que tenham usado cafeína por um período prolongado ou em grandes quantidades. Sintomas de apresentação da abstinência de cafeína podem incluir dor de cabeça, fadiga acentuada ou sonolência, irritabilidade, humor deprimido ou disfórico, náusea ou vômitos e dificuldade de concentração."
+          }
+        },
+        {
+          "6C48.2": {
+            "confidence_embedding": 0.7708,
+            "text": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais."
+          }
+        },
+        {
+          "6C49.3": {
+            "confidence_embedding": 0.7646,
+            "text": "Representação de doença CID-11: Intoxicação por alucinógenos. Definição: Intoxicação por alucinógenos é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de alucinógenos, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos dos alucinógenos e sua intensidade está intimamente relacionada à quantidade de alucinógenos consumida. Têm duração limitada, e diminuem à medida que o alucinógeno é eliminado do corpo. A apresentação pode incluir alucinações, ilusões, alterações perceptivas como despersonalização, desrealização, ou sinestesias (fusão de sentidos, como um estímulo visual evocando um cheiro), ansiedade, humor deprimido ou disfórico, ideias de referência, ideação paranoide, julgamento comprometido, palpitações, sudorese, visão turva, tremores e descoordenação. Sinais físicos podem incluir taquicardia, pressão arterial elevada, dilatação pupilar. Em casos raros, a intoxicação por alucinógenos pode facilitar ideação e comportamento suicidas."
+          }
+        }
+      ]
+    },
+    "lúcida": {
+      "capitulo": "06",
+      "opcoes": [
+        {
+          "6C45.3": {
+            "confidence_embedding": 0.817,
+            "text": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia."
+          }
+        },
+        {
+          "6C40.3": {
+            "confidence_embedding": 0.8125,
+            "text": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas."
+          }
+        },
+        {
+          "6C48.2": {
+            "confidence_embedding": 0.8091,
+            "text": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais."
+          }
+        },
+        {
+          "6C49.3": {
+            "confidence_embedding": 0.8071,
+            "text": "Representação de doença CID-11: Intoxicação por alucinógenos. Definição: Intoxicação por alucinógenos é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de alucinógenos, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos dos alucinógenos e sua intensidade está intimamente relacionada à quantidade de alucinógenos consumida. Têm duração limitada, e diminuem à medida que o alucinógeno é eliminado do corpo. A apresentação pode incluir alucinações, ilusões, alterações perceptivas como despersonalização, desrealização, ou sinestesias (fusão de sentidos, como um estímulo visual evocando um cheiro), ansiedade, humor deprimido ou disfórico, ideias de referência, ideação paranoide, julgamento comprometido, palpitações, sudorese, visão turva, tremores e descoordenação. Sinais físicos podem incluir taquicardia, pressão arterial elevada, dilatação pupilar. Em casos raros, a intoxicação por alucinógenos pode facilitar ideação e comportamento suicidas."
+          }
+        },
+        {
+          "6E40.2": {
+            "confidence_embedding": 0.805,
+            "text": "Representação de doença CID-11: Traços de personalidade ou estilos de enfrentamento afetando transtornos ou doenças classificados em outra parte. Definição: Todos os critérios diagnósticos para fatores psicológicos ou comportamentais afetando transtornos ou doenças classificados em outra parte são preenchidos. O indivíduo apresenta traços de personalidade ou estilos de enfrentamento que não preenchem critérios diagnósticos para um transtorno mental, comportamental ou do neurodesenvolvimento, que afetam de forma adversa a manifestação, o tratamento ou curso de um transtorno ou doença classificado em outro capítulo (p.ex., negação patológica da necessidade de cirurgia em um paciente com câncer; comportamento hostil e tenso contribuindo para doença cardíaca)."
+          }
+        }
+      ]
+    },
+    "consciente": {
+      "capitulo": "06",
+      "opcoes": [
+        {
+          "6C45.3": {
+            "confidence_embedding": 0.801,
+            "text": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia."
+          }
+        },
+        {
+          "6C49.3": {
+            "confidence_embedding": 0.7943,
+            "text": "Representação de doença CID-11: Intoxicação por alucinógenos. Definição: Intoxicação por alucinógenos é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de alucinógenos, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos dos alucinógenos e sua intensidade está intimamente relacionada à quantidade de alucinógenos consumida. Têm duração limitada, e diminuem à medida que o alucinógeno é eliminado do corpo. A apresentação pode incluir alucinações, ilusões, alterações perceptivas como despersonalização, desrealização, ou sinestesias (fusão de sentidos, como um estímulo visual evocando um cheiro), ansiedade, humor deprimido ou disfórico, ideias de referência, ideação paranoide, julgamento comprometido, palpitações, sudorese, visão turva, tremores e descoordenação. Sinais físicos podem incluir taquicardia, pressão arterial elevada, dilatação pupilar. Em casos raros, a intoxicação por alucinógenos pode facilitar ideação e comportamento suicidas."
+          }
+        },
+        {
+          "6C40.3": {
+            "confidence_embedding": 0.7939,
+            "text": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas."
+          }
+        },
+        {
+          "6C48.2": {
+            "confidence_embedding": 0.7883,
+            "text": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais."
+          }
+        },
+        {
+          "6C44.3": {
+            "confidence_embedding": 0.7764,
+            "text": "Representação de doença CID-11: Intoxicação por sedativos, hipnóticos ou ansiolíticos. Definição: Intoxicação por sedativos, hipnóticos ou ansiolíticos é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de sedativos, hipnóticos ou ansiolíticos, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos de sedativos, hipnóticos ou ansiolíticos, e sua intensidade está intimamente relacionada à quantidade de sedativos, hipnóticos ou ansiolíticos consumida. Têm duração limitada, e diminuem à medida que os sedativos, hipnóticos ou ansiolíticos são eliminados do corpo. Sintomas de apresentação podem incluir sonolência, julgamento comprometido, comportamento inadequado (incluindo comportamento sexual ou agressão), fala arrastada, prejuízo na coordenação motora, marcha instável, mudanças de humor, bem como prejuízo na memória, atenção e concentração. Nistagmo (movimentos oculares repetitivos não controlados) é um sinal físico comum. Em casos graves pode ocorrer estupor ou coma."
+          }
+        }
+      ]
+    },
+    "repouso no leito": {
+      "capitulo": "24",
+      "opcoes": [
+        {
+          "QA8D": {
+            "confidence_embedding": 0.7637,
+            "text": "Representação de doença CID-11: Paciente que recebeu um teste diagnóstico ou tratamento destinado a outro paciente, sem lesão ou dano. Definição: "
+          }
+        },
+        {
+          "QA77": {
+            "confidence_embedding": 0.7625,
+            "text": "Representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano. Definição: "
+          }
+        },
+        {
+          "QB81": {
+            "confidence_embedding": 0.7527,
+            "text": "Representação de doença CID-11: Contato com os serviços de saúde para cirurgia plástica por razões estéticas outras que não transplante de cabelo. Definição: "
+          }
+        },
+        {
+          "QA82": {
+            "confidence_embedding": 0.751,
+            "text": "Representação de doença CID-11: Problema associado à transferência física do paciente sem lesão ou dano. Definição: "
+          }
+        },
+        {
+          "QC04.2": {
+            "confidence_embedding": 0.7504,
+            "text": "Representação de doença CID-11: Imunização não realizada devido a doença ou condição crônica do paciente. Definição: "
+          }
+        }
+      ]
+    },
+    "neoplasia maligna da base da língua": {
+      "capitulo": "02",
+      "opcoes": [
+        {
+          "2C82": {
+            "confidence_embedding": 0.8319,
+            "text": "Representação de doença CID-11: Neoplasia maligna da próstata. Definição: O câncer de próstata contribui significativamente para a carga geral de câncer, sendo a neoplasia maligna mais frequente em homens. O número de casos tem aumentado continuamente nas últimas décadas, em parte devido à maior expectativa de vida. Um fator adicional é o estilo de vida ocidental, caracterizado por uma dieta altamente calórica e falta de exercícios físicos. Os dados epidemiológicos indicam que os negros são os mais suscetíveis, seguidos pelos brancos, enquanto os asiáticos apresentam o menor risco. Até que ponto a mortalidade por câncer de próstata pode ser reduzida pelo exame de PSA, está atualmente sendo avaliada. O diagnóstico histopatológico e a graduação desempenham um papel importante no tratamento do câncer de próstata"
+          }
+        },
+        {
+          "2E05.0": {
+            "confidence_embedding": 0.8198,
+            "text": "Representação de doença CID-11: Metástase de neoplasia maligna no ovário. Definição: Propagação do câncer para o ovário. Pode ser oriunda de um câncer de ovário primário envolvendo o ovário oposto ou de um câncer em uma localização distante."
+          }
+        },
+        {
+          "2D00.1": {
+            "confidence_embedding": 0.8088,
+            "text": "Representação de doença CID-11: Neoplasia maligna da carúncula. Definição: Trata-se de um amplo grupo de doenças que envolvem o crescimento celular desregulado de uma pequena porção vermelha do canto do olho que contém as glândulas sebáceas e sudoríparas modificadas."
+          }
+        },
+        {
+          "2B71": {
+            "confidence_embedding": 0.8036,
+            "text": "Representação de doença CID-11: Neoplasias malignas da junção esofagogástrica. Definição: Neoplasias malignas que surgem das células da junção esofagogástrica (JEG), que é definido como o ponto em que o esôfago termina e o estômago começa. Isso define principalmente os adenocarcinomas que se estendem pela junção do esôfago com o estômago. Esta definição inclui muitos tumores formalmente chamados de cânceres da cárdia gástrica."
+          }
+        },
+        {
+          "2B67": {
+            "confidence_embedding": 0.793,
+            "text": "Representação de doença CID-11: Neoplasias malignas da glândula parótida. Definição: Os tumores das glândulas salivares podem mostrar uma gama impressionante de diversidade morfológica entre os diferentes tipos de tumor e, às vezes, dentro de uma massa tumoral individual. Além disso, nos tumores híbridos, a desdiferenciação e propensão de alguns tumores benignos progredirem para malignidade podem confundir a interpretação histopatológica. Essas características, juntamente com a relativa raridade de uma série de tumores, às vezes podem dificultar o diagnóstico, apesar da abundância de entidades tumorais nomeadas. O uso crescente de biópsias aspirativas com agulha fina no pré-operatório também deve ser levado em consideração, uma vez que alterações artificiais podem estar sobrepostas aos tumores. Infelizmente, a variabilidade morfológica desses tumores é espelhada pelos perfis imunocitoquímicos, de modo que colorações especiais raramente são úteis no diagnóstico de rotina de neoplasias epiteliais de glândulas salivares."
+          }
+        }
+      ]
+    },
+    "algia": {
+      "capitulo": "21",
+      "opcoes": [
+        {
+          "ME62.7": {
+            "confidence_embedding": 0.7727,
+            "text": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica."
+          }
+        },
+        {
+          "MB23.H": {
+            "confidence_embedding": 0.7686,
+            "text": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas."
+          }
+        },
+        {
+          "ME08": {
+            "confidence_embedding": 0.7627,
+            "text": "Representação de doença CID-11: Flatulência e afecções correlatas. Definição: Produção ou presença de gás no trato gastrointestinal que pode ser expelido pelo ânus e outras condições associadas à produção ou presença de gás no trato GI."
+          }
+        },
+        {
+          "MG00": {
+            "confidence_embedding": 0.7627,
+            "text": "Representação de doença CID-11: Achados clínicos de exames para diagnóstico por imagem da mama. Definição: Achados clínicos no diagnóstico por imagem da mama são achados diagnósticos de imagem da mama que não aparecem no estado normal do corpo. Diagnóstico por imagem refere-se a tecnologias que os médicos usam para olhar dentro do corpo em busca de pistas sobre uma condição médica. Raios-X, tomografias computadorizadas, exames de medicina nuclear, exames de ressonância magnética e ultrassom são todos tipos diagnóstico por imagem."
+          }
+        },
+        {
+          "MB20.1": {
+            "confidence_embedding": 0.7614,
+            "text": "Representação de doença CID-11: Coma. Definição: Estado agudo com duração de mais de uma hora e geralmente menos de um mês. O paciente em coma está arresponsivo, fica com os olhos fechados e não pode ser despertado nem mesmo por estímulos vigorosos e dolorosos. As respostas motoras à estimulação dolorosa estão limitadas a reflexos. As etiologias incluem, mas não estão limitadas a, lesões cerebrais traumáticas, anóxicas, infecciosas, neoplásicas, vasculares, inflamatórias e metabólicas."
+          }
+        }
+      ]
+    },
+    "hipocorado": {
+      "capitulo": "14",
+      "opcoes": [
+        {
+          "ED70.30": {
+            "confidence_embedding": 0.7759,
+            "text": "Representação de doença CID-11: Eflúvio telógeno agudo. Definição: Eflúvio telógeno agudo é uma queda de cabelos do couro cabeludo de início agudo que ocorre dois a três meses após um estresse desencadeante, muitas vezes com risco à vida, e que interrompe o crescimento anágeno normal do fio. É comumente observado em sobreviventes que necessitaram de cuidados intensivos para sepse, hemorragia, doença inflamatória ou traumatismo graves. Também pode resultar de desnutrição aguda. Um grande número de fios anágenos são convertidos em telógenos e são eliminados dois a três meses depois, resultando em uma alopecia difusa."
+          }
+        },
+        {
+          "ED90.0": {
+            "confidence_embedding": 0.7745,
+            "text": "Representação de doença CID-11: Rosácea. Definição: O termo rosácea engloba um espectro de alterações que ocorrem principalmente na pele facial, mas também podem envolver os olhos. A maioria dos pacientes com rosácea apresenta eritema facial e instabilidade vascular que estão variavelmente associados a pápulas e pústulas inflamatórias, alterações hipertróficas e envolvimento ocular. A causa da rosácea é desconhecida. É questionável que um único fator etiológico seja responsável pelas diversas características que compõem esse transtorno."
+          }
+        },
+        {
+          "EE01.1": {
+            "confidence_embedding": 0.764,
+            "text": "Representação de doença CID-11: Hipoidrose devida a anormalidades genéticas da estrutura ou função da glândula écrina. Definição: Hipoidrose devida a um transtorno hereditário do desenvolvimento de glândula ou ducto sudoríparos. A sudorese pode estar gravemente diminuída ou ausente devido a escassez ou ausência de glândulas écrinas ou à inervação autonômica defeituosa. A ausência de sudorese leva a uma incapacidade de termorregulação por resfriamento evaporativo, e a hipertermia pode ocorrer com esforço físico ou em um ambiente quente."
+          }
+        },
+        {
+          "ED70.4": {
+            "confidence_embedding": 0.7611,
+            "text": "Representação de doença CID-11: Eflúvio anágeno. Definição: Eflúvio anágeno ocorre após qualquer insulto ao folículo piloso que comprometa sua atividade mitótica ou metabólica. Os pacientes apresentam queda de cabelos difusa após exposição a drogas ou produtos químicos tóxicos. Agentes quimioterápicos são mais comumente responsáveis por queda de cabelo. A queda de cabelo mais grave ocorre em associação com a doxorrubicina, as nitrosoureias e a ciclofosfamida. A queda de cabelos geralmente começa 7-14 dias após um único pulso de quimioterapia. A queda de cabelo é clinicamente mais aparente após 1-2 meses."
+          }
+        },
+        {
+          "EA90.3": {
+            "confidence_embedding": 0.7514,
+            "text": "Representação de doença CID-11: Psoríase eritrodérmica. Definição: Psoríase eritrodérmica é uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele. A psoríase eritrodérmica geralmente se desenvolve a partir da psoríase em placas extensa mas pode surgir de forma nova. Fatores precipitantes ou desencadeantes incluem a retirada de glicocorticoides sistêmicos e, menos frequentemente, a descontinuação abrupta do metotrexato, queimaduras ou infecções intercorrentes. Os pacientes podem desenvolver hipotermia ou insuficiência cardíaca de alto débito."
+          }
+        }
+      ]
+    },
+    "diurese presente": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DA60.3": {
+            "confidence_embedding": 0.7699,
+            "text": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago."
+          }
+        },
+        {
+          "DB99.5": {
+            "confidence_embedding": 0.7628,
+            "text": "Representação de doença CID-11: Encefalopatia hepática. Definição: Encefalopatia hepática é uma complicação da cirrose hepática e uma marca da falência hepática aguda, sendo também observada em pacientes com shunts portossistêmicos sem cirrose. A encefalopatia hepática é caracterizada por mudanças de personalidade, incapacidade intelectual, asterixe e uma diminuição do nível de consciência. Em estágios avançados é chamada de coma hepático, o qual pode levar a morte. O diagnóstico da encefalopatia hepática é feito primariamente pelo reconhecimento das mudanças neuropsiquiátricas que ocorrem em um paciente com doença hepática, após a exclusão de doenças cerebrais."
+          }
+        },
+        {
+          "DB32.0": {
+            "confidence_embedding": 0.753,
+            "text": "Representação de doença CID-11: Pseudo-obstrução do cólon. Definição: A pseudo-obstrução do cólon é uma condição rara, com sintomas de diminuição da capacidade do cólon de fazer transitar líquidos, alimentos e ar, como aqueles causados ​​por uma obstrução cólica. Os achados clínicos e radiológicos são frequentemente semelhantes à obstrução verdadeira, mas nenhum bloqueio mecânico verdadeiro é encontrado. Os sintomas geralmente incluem dispepsia, constipação crônica e cólicas abdominais nos momentos em que está presente. Síndrome de Ogilvie: a pseudo-obstrução aguda do cólon em pacientes debilitados gravemente enfermos está incluída aqui como a forma aguda."
+          }
+        },
+        {
+          "DB33.20": {
+            "confidence_embedding": 0.7427,
+            "text": "Representação de doença CID-11: Proctite ou colite infantil induzida por proteína de alimentos. Definição: Hipersensibilidade intestinal não mediada por IgE (na ausência de anticorpos IgE) induzida por proteína alimentar que provoca resposta inflamatória principalmente do cólon sigmoide distal e do reto. É uma condição em bebês que resulta de resposta imune desencadeada por proteínas da dieta, principalmente do leite (através da amamentação). Os pacientes geralmente parecem saudáveis e têm fezes normais e macias com manchas ou raias de sangue. O diagnóstico é feito usualmente baseado na resolução dos sintomas com a retirada do suposto antígeno alimentar. O início usual é nos primeiros 2 meses de vida, mas pode também ocorrer em bebês de 1 dia a 6 meses de idade."
+          }
+        },
+        {
+          "DB98.B": {
+            "confidence_embedding": 0.7426,
+            "text": "Representação de doença CID-11: Lesão por isquemia de reperfusão do fígado. Definição: Lesão hepática causada por reperfusão sanguínea após uma isquemia não letal do fígado."
+          }
+        }
+      ]
+    },
+    "orientada": {
+      "capitulo": "06",
+      "opcoes": [
+        {
+          "6C45.3": {
+            "confidence_embedding": 0.7626,
+            "text": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia."
+          }
+        },
+        {
+          "6E40.2": {
+            "confidence_embedding": 0.7619,
+            "text": "Representação de doença CID-11: Traços de personalidade ou estilos de enfrentamento afetando transtornos ou doenças classificados em outra parte. Definição: Todos os critérios diagnósticos para fatores psicológicos ou comportamentais afetando transtornos ou doenças classificados em outra parte são preenchidos. O indivíduo apresenta traços de personalidade ou estilos de enfrentamento que não preenchem critérios diagnósticos para um transtorno mental, comportamental ou do neurodesenvolvimento, que afetam de forma adversa a manifestação, o tratamento ou curso de um transtorno ou doença classificado em outro capítulo (p.ex., negação patológica da necessidade de cirurgia em um paciente com câncer; comportamento hostil e tenso contribuindo para doença cardíaca)."
+          }
+        },
+        {
+          "6C49.3": {
+            "confidence_embedding": 0.7531,
+            "text": "Representação de doença CID-11: Intoxicação por alucinógenos. Definição: Intoxicação por alucinógenos é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de alucinógenos, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos dos alucinógenos e sua intensidade está intimamente relacionada à quantidade de alucinógenos consumida. Têm duração limitada, e diminuem à medida que o alucinógeno é eliminado do corpo. A apresentação pode incluir alucinações, ilusões, alterações perceptivas como despersonalização, desrealização, ou sinestesias (fusão de sentidos, como um estímulo visual evocando um cheiro), ansiedade, humor deprimido ou disfórico, ideias de referência, ideação paranoide, julgamento comprometido, palpitações, sudorese, visão turva, tremores e descoordenação. Sinais físicos podem incluir taquicardia, pressão arterial elevada, dilatação pupilar. Em casos raros, a intoxicação por alucinógenos pode facilitar ideação e comportamento suicidas."
+          }
+        },
+        {
+          "6D72": {
+            "confidence_embedding": 0.7528,
+            "text": "Representação de doença CID-11: Transtorno amnéstico. Definição: O transtorno amnéstico é caracterizado por comprometimento proeminente da memória em relação ao esperado pela idade e nível pré-mórbido do funcionamento cognitivo geral, que representa um declínio em relação ao nível prévio de funcionamento do indivíduo, na ausência de outro comprometimento cognitivo significativo. Manifesta-se por um déficit na aquisição, aprendizado e/ou retenção de novas informações, e pode incluir a incapacidade de recordar informações previamente aprendidas, sem perturbação da consciência, estado mental alterado ou \"delirium\". A memória recente é tipicamente mais comprometida do que a memória remota, e a capacidade de recordar imediatamente uma quantidade limitada de informação geralmente permanece relativamente preservada. O comprometimento da memória é grave o suficiente para resultar em comprometimento significativo no funcionamento pessoal, familiar, social, educacional, ocupacional, ou em outras áreas importantes. Presume-se que se deva a uma doença subjacente adquirida do sistema nervoso, um trauma, infecção ou outra doença que afete o cérebro, ao uso de substâncias específicas ou medicamentos, deficiência nutricional ou exposição a toxinas, ou a etiologia pode ser indeterminada. O comprometimento não se deve a intoxicação ou abstinência atual de substância."
+          }
+        },
+        {
+          "6D85.6": {
+            "confidence_embedding": 0.7527,
+            "text": "Representação de doença CID-11: Demência devida à hidrocefalia de pressão normal. Definição: Demência devida à hidrocefalia de pressão normal resulta do acúmulo excessivo de líquido cefalorraquidiano no cérebro, como resultado de causas idiopáticas não obstrutivas, mas também pode ser secundário a hemorragia, infecção ou inflamação. A progressão é gradativa, mas a intervenção (p. ex., derivação) pode resultar em melhora dos sintomas, especialmente se realizada precocemente no curso da condição. Tipicamente, comprometimentos cognitivos incluem velocidade de processamento reduzida e déficits na funcionalidade executiva e na atenção. Esses sintomas também são tipicamente acompanhados de anormalidades da marcha e incontinência urinária. Exame de imagem cerebral para mostrar o volume ventricular e caracterizar o deslocamento cerebral frequentemente é necessário para confirmar o diagnóstico."
+          }
+        }
+      ]
+    },
+    "não contactuante": {
+      "capitulo": "24",
+      "opcoes": [
+        {
+          "QA77": {
+            "confidence_embedding": 0.7857,
+            "text": "Representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano. Definição: "
+          }
+        },
+        {
+          "QA8D": {
+            "confidence_embedding": 0.7827,
+            "text": "Representação de doença CID-11: Paciente que recebeu um teste diagnóstico ou tratamento destinado a outro paciente, sem lesão ou dano. Definição: "
+          }
+        },
+        {
+          "QC04.0": {
+            "confidence_embedding": 0.7675,
+            "text": "Representação de doença CID-11: Imunização não realizada devido ao fato de que o paciente já teve a doença. Definição: "
+          }
+        },
+        {
+          "QC04.2": {
+            "confidence_embedding": 0.7645,
+            "text": "Representação de doença CID-11: Imunização não realizada devido a doença ou condição crônica do paciente. Definição: "
+          }
+        },
+        {
+          "QA82": {
+            "confidence_embedding": 0.7599,
+            "text": "Representação de doença CID-11: Problema associado à transferência física do paciente sem lesão ou dano. Definição: "
+          }
+        }
+      ]
+    },
+    "apendicite aguda": {
+      "capitulo": "13",
+      "opcoes": [
+        {
+          "DB10.0": {
+            "confidence_embedding": 0.8234,
+            "text": "Representação de doença CID-11: Apendicite aguda. Definição: Inflamação aguda e aumento do apêndice vermiforme. Foi reconhecida como uma das causas mais comuns de dor abdominal aguda grave em todo o mundo. A maioria dos casos requer tratamento médico adequado ou remoção do apêndice inflamado. Se não tratada, a mortalidade é alta, principalmente pelo risco de ruptura levando a peritonite e choque. Nesta categoria, está incluída apenas a apendicite aguda devida a infecção bacteriana comum, sendo descartada a apendicite devida a organismos específicos está excluída desta entidade e descrita em outra parte."
+          }
+        },
+        {
+          "DB10.1": {
+            "confidence_embedding": 0.8108,
+            "text": "Representação de doença CID-11: Apendicite crônica. Definição: Forma corretamente diagnosticada de apendicite não aguda. A apendicite crônica é um transtorno causado por inflamação do apêndice durante um período de tempo. Enquanto a apendicite aguda apresenta a manifestação típica de um apêndice inflamado, a apendicite crônica pode causar sintomas relacionados a desconforto abdominal ou sintomas mais gerais. Nesta categoria, está incluída apenas a apendicite aguda devida a infecção bacteriana comum, sendo descartada a apendicite devida a organismos específicos está excluída desta entidade e descrita em outra parte."
+          }
+        },
+        {
+          "DB10.00": {
+            "confidence_embedding": 0.7902,
+            "text": "Representação de doença CID-11: Apendicite aguda com peritonite generalizada. Definição: Condição caracterizada por inflamação aguda do apêndice vermiforme que se estende para uma inflamação livre e não contida do peritônio. Há usualmente uma perfuração livre e tratamento cirúrgico é recomendado."
+          }
+        },
+        {
+          "DB10.01": {
+            "confidence_embedding": 0.7874,
+            "text": "Representação de doença CID-11: Apendicite aguda com peritonite localizada. Definição: Esta condição é caracterizada por inflamação aguda do apêndice vermiforme com peritonite que está confinado a em abscesso ou flegmão. Frequentemente há uma perfuração coberta subjacente do apêndice com drenagem do lúmen do apêndice."
+          }
+        },
+        {
+          "DB10.02": {
+            "confidence_embedding": 0.7763,
+            "text": "Representação de doença CID-11: Apendicite aguda sem peritonite localizada ou generalizada. Definição: Esta condição é caracterizada por inflamação aguda do apêndice vermiforme em que não há menção sobre a extensão da peritonite. Apendicite aguda sem peritonite está incluída aqui. Apendicite aguda sem perfuração ou abscesso e apendicite apenas flegmonosa ou supurativa, que geralmente podem ser tratadas de forma conservadora, também estão incluídas aqui."
+          }
+        }
+      ]
+    }
+  }
+}
