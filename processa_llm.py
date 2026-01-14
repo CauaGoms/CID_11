@@ -8,6 +8,14 @@ MODELO = "llama3.1:8b"
 PASTA_ENTRADA = "processamento/pront_teste"
 PASTA_SAIDA = "processamento/prontuarios_classificados"
 
+# Categorias clínicas para filtrar ruído (Abreviações, Dispositivos, etc. ficam de fora)
+CATEGORIAS_CLINICAS = [
+    "Doença ou Síndrome", "Sinal ou Sintoma", "Lesão ou Envenenamento", 
+    "Achado", "Processo Neoplásico", "Disfunção Mental ou Comportamental", 
+    "Anormalidade Congênita", "Anormalidade Anatômica", "Anormalidade Adquirida",
+    "Bactéria", "Vírus", "Fungo", "Função Patológica", "Disfunção Celular ou Molecular"
+]
+
 CAPITULOS_CID = {
     "01": "Algumas doenças infecciosas ou parasitárias: Doenças causadas por agentes infecciosos como bactérias, vírus, parasitas e fungos, transmitidas por contato direto, vetores, alimentos, água ou outras vias.",
     "02": "Neoplasias: Proliferação celular anormal e descontrolada, benigna ou maligna, que pode invadir tecidos adjacentes ou produzir metástases.",
@@ -40,103 +48,91 @@ CAPITULOS_CID = {
 }
 
 
-CATEGORIAS_CLINICAS = [
-    "Doença ou Síndrome", 
-    "Sinal ou Sintoma", 
-    "Lesão ou Envenenamento", 
-    "Achado", 
-    "Processo Neoplásico", 
-    "Disfunção Mental ou Comportamental", 
-    "Anormalidade Congênita",
-    "Bactéria",
-    "Vírus",
-    "Fungo",
-    "Anormalidade Anatômica",
-    "Anormalidade Adquirida",
-    "Função Patológica",
-    "Disfunção Celular ou Molecular"
-]
-
 def chamar_llm(prompt):
     payload = {
         "model": MODELO,
         "prompt": prompt,
         "stream": False,
         "format": "json",
-        "options": {
-            "temperature": 0  # Determinismo total para evitar alucinações
-        }
+        "options": {"temperature": 0}
     }
     try:
         response = requests.post(OLLAMA_API, json=payload, timeout=120)
         return json.loads(response.json()['response'])
     except:
-        return None
+        return {}
 
-def extrair_entidades_capitulo(texto, num_cap, desc_cap, entidades_candidatas):
-    # Prompt focado em validação e não em invenção
+def classificar_entidades(texto, candidatos):
+    if not candidatos: return {}
+    
     prompt = f"""
-Atue como um perito em codificação CID-11.
-OBJETIVO: Identificar quais entidades da lista 'CANDIDATOS' pertencem ao Capítulo {num_cap} ({desc_cap}).
+Você é um Especialista em CID-11. Atribua o capítulo correto para cada entidade da lista abaixo.
+Contexto do Prontuário: "{texto}"
 
-TEXTO DE CONTEXTO: "{texto}"
-CANDIDATOS: {entidades_candidatas}
+LISTA DE ENTIDADES PARA CLASSIFICAR:
+{candidatos}
+
+CAPÍTULOS CID-11 DISPONÍVEIS:
+{CAPITULOS_CID}
 
 REGRAS:
-1. Analise cada termo em CANDIDATOS. 
-2. Se o termo pertencer inequivocamente ao Capítulo {num_cap}, inclua-o na saída.
-3. Se o termo NÃO pertencer ao Capítulo {num_cap}, ignore-o.
-4. NUNCA invente termos que não estão na lista de CANDIDATOS.
-5. Se nenhum termo servir, retorne uma lista vazia.
+1. Responda apenas para as entidades da LISTA.
+2. Use apenas o código do capítulo (ex: "01", "11", "V", "X").
+3. Se a entidade não for uma doença/lesão/sintoma real, use "IGNORAR".
 
-Retorne EXCLUSIVAMENTE um JSON: {{ "termos": ["TERMO1", "TERMO2"] }}
+Retorne EXCLUSIVAMENTE um JSON:
+{{ "NOME_DA_ENTIDADE": "CODIGO_DO_CAPITULO" }}
 """
-    res = chamar_llm(prompt)
-    return res.get("termos", []) if res else []
+    return chamar_llm(prompt)
 
 def processar():
     if not os.path.exists(PASTA_SAIDA): os.makedirs(PASTA_SAIDA)
     
     for nome_arquivo in os.listdir(PASTA_ENTRADA):
         if not nome_arquivo.endswith('.json'): continue
-        print(f"-> Processando: {nome_arquivo}")
+        print(f"Lendo {nome_arquivo}...")
         
         with open(os.path.join(PASTA_ENTRADA, nome_arquivo), 'r', encoding='utf-8') as f:
             dados = json.load(f)
         
         texto = dados.get('text', "")
         
-        # Filtro de categorias (Reduz o ruído antes de enviar)
+        # 1. Filtro de Candidatos (SemClinBR) e Referências Totais
         candidatos = []
         referencias_totais = []
         for cat, termos in dados.get('entities', {}).items():
+            # Todas as entidades originais entram aqui para checar is_inferred depois
             referencias_totais.extend([t.upper() for t in termos])
+            # Apenas as clínicas vão para a LLM classificar
             if cat in CATEGORIAS_CLINICAS:
                 candidatos.extend([t.upper() for t in termos])
         
-        candidatos = list(set(candidatos)) # Remove duplicatas
+        candidatos = list(set(candidatos)) # Remover duplicatas
+        
+        # 2. Classificação em Bloco (1 chamada por prontuário)
+        print(f"Classificando {len(candidatos)} entidades...")
+        classificacoes = classificar_entidades(texto, candidatos)
+        
+        # 3. Formatação Final
         labels_finais = {}
-
-        for num, desc in CAPITULOS_CID.items():
-            if not candidatos: break
-            
-            print(f"   Checando Cap {num}...")
-            encontrados = extrair_entidades_capitulo(texto, num, desc, candidatos)
-            
-            for termo in encontrados:
+        if isinstance(classificacoes, dict):
+            for termo, cap in classificacoes.items():
                 termo_up = termo.upper()
-                # A lógica de inferência agora é feita pelo Python (mais confiável)
-                # is_inferred é falso se o termo exato foi extraído pelo SemClinBR
+                if cap == "IGNORAR": continue
+                
+                # O is_inferred é FALSE se o termo exato foi extraído pelo SemClinBR
                 is_inferred = termo_up not in referencias_totais
                 
                 labels_finais[termo_up] = {
-                    "capitulo": num,
+                    "capitulo": str(cap),
                     "is_inferred": is_inferred
                 }
 
         dados['labels'] = labels_finais
+        
         with open(os.path.join(PASTA_SAIDA, nome_arquivo), 'w', encoding='utf-8') as f:
             json.dump(dados, f, ensure_ascii=False, indent=2)
+        print(f"Salvo: {nome_arquivo}\n")
 
 if __name__ == "__main__":
     processar()
