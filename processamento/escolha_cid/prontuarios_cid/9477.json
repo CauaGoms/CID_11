@@ -1,0 +1,115 @@
+{
+  "prontuario_id": 901,
+  "text": "paciente interna com quadro de hemorragia digestiva alta, endoscopia de urgencia mostrou 2 ulceras, 1 com sangramento, colocado clip metalico. não apresentou mais sangramento, mas descompensou da angina, com muitos episódios de dor. Hematócrito estava 9,3, optou-se por transfundir 2 ui CHAD para melhora do controle dos sintomas. Realizou endoscopia de controle 72 horas apos, com resultado favorável das ulceras, em fase de cicatrização, sem evidencia de sangramento. Alta em condições estáveis, com o mesmo perfil de angina dos ultimos meses. Orientado para manter medicação prescrita e acompanhamento com equipe da dor e psiquiatria.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "paciente"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "interna",
+      "colocado",
+      "controle",
+      "Alta",
+      "Orientado",
+      "prescrita",
+      "acompanhamento"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "endoscopia",
+      "transfundir",
+      "clip metalico",
+      "endoscopia de controle"
+    ],
+    "Procedimento Diagnóstico": [
+      "endoscopia",
+      "endoscopia de controle"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ulceras",
+      "9 , 3",
+      "resultado favorável",
+      "em fase de cicatrização",
+      "evidencia de sangramento"
+    ],
+    "Função Patológica": [
+      "sangramento"
+    ],
+    "Negação": [
+      "não",
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "sangramento",
+      "descompensou",
+      "angina",
+      "sintomas"
+    ],
+    "Doença ou Síndrome": [
+      "angina",
+      "hemorragia digestiva alta"
+    ],
+    "Procedimento Laboratorial": [
+      "Hematócrito"
+    ],
+    "Substância Farmacológica": [
+      "CHAD",
+      "medicação"
+    ],
+    "Abreviação": [
+      "CHAD"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "psiquiatria",
+      "equipe da dor"
+    ],
+    "Dispositivo Médico": [
+      "clip metalico"
+    ],
+    "Conceito Quantitativo": [
+      "muitos episódios",
+      "9 , 3",
+      "2 ui"
+    ],
+    "Conceito Temporal": [
+      "72 horas apos",
+      "ultimos meses"
+    ],
+    "Achado": [
+      "resultado favorável",
+      "condições estáveis"
+    ],
+    "Função de Organismo": [
+      "em fase de cicatrização"
+    ]
+  },
+  "labels": {
+    "DA26.3": {
+      "term_original": "descompensou",
+      "capitulo": "13",
+      "confidence_embedding": 0.7492,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da laceração hemorrágica gastroesofágica. Definição: Sangramento por lacerações na mucosa na junção do estômago com esôfago, geralmente causado por vômitos intensos, espasmos de vômito ou tosse.",
+      "classification_reasoning": "A escolha do código DA26.3 se baseia na descrição de 'descompensou' no contexto, que sugere que o paciente apresentou um agravamento da doença, especificamente uma hemorragia digestiva alta, e não apenas uma úlcera isolada. A síndrome da laceração hemorrágica gastroesofágica (DA26.3) é uma condição caracterizada por sangramento na junção do estômago com esôfago, o que se alinha melhor com a descrição do quadro clínico do paciente."
+    },
+    "DA60.3": {
+      "term_original": "hemorragia digestiva alta",
+      "capitulo": "13",
+      "confidence_embedding": 0.8052,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A hemorragia digestiva alta é característica das úlceras de estresse do estômago, que são lesões agudas da mucosa gástrica que podem resultar em sangramento alto. Como o paciente apresentou 2 úlceras com sangramento, a escolha pela opção DA60.3 é a mais precisa para descrever a condição clínica."
+    },
+    "ME86.0": {
+      "term_original": "sintomas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7423,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa do tornozelo. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'sintomas' no contexto do prontuário é a representação de doença CID-11 relacionada ao sintoma ou queixa do tornozelo, pois o paciente apresenta sintomas de dor em seu quadro clínico."
+    },
+    "BA40.Y": {
+      "term_original": "angina",
+      "capitulo": "11",
+      "confidence_embedding": 0.8037,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A paciente apresentou quadro de angina, com episódios de dor e descompensação da doença. A escolha do código BA40.Y (Outra angina pectoris especificada) é mais precisa porque o prontuário não menciona características específicas de outras síndromes coronárias, como a doença coronariana vasoespástica ou aneurisma de artéria coronária."
+    }
+  }
+}

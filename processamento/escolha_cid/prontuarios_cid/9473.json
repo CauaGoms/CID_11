@@ -1,0 +1,115 @@
+{
+  "prontuario_id": 67,
+  "text": "14:00 POI RECONSTRUÇÃO DE LCA DE JOELHO ESQUERDO, ACORDADO, VERBALIZANDO, AFEBRIL, EUPNEICO, SEM QUEIXAS ALGICAS, ACEITANDO DIETA OFERECIDA, MANTEM ACESSO VENOSO PERIFERICO EM MSE SALINIZADO SEM SINAIS FLOGISTICOS, CURATIVO EM MIE EXTERNAMENTE LIMPO E SECO, PERFUSÃO DISTAL PRESERVADA, PULSOS PALPAVEIS, DIURESE ESPONTANEA. Enfermeira Florence Nightingale,  INSTABILIDADE CRONICA DO JOELHO",
+  "entities": {
+    "Abreviação": [
+      "POI",
+      "MSE",
+      "MIE",
+      "RECONSTRUÇÃO DE LCA"
+    ],
+    "Conceito Temporal": [
+      "POI"
+    ],
+    "Achado": [
+      "ACORDADO",
+      "VERBALIZANDO",
+      "AFEBRIL",
+      "EUPNEICO",
+      "LIMPO",
+      "SECO",
+      "ACEITANDO DIETA",
+      "PERFUSÃO DISTAL PRESERVADA",
+      "PULSOS PALPAVEIS",
+      "DIURESE ESPONTANEA"
+    ],
+    "Negação": [
+      "AFEBRIL",
+      "SEM"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "MANTEM"
+    ],
+    "Localização ou Região Corporal": [
+      "MSE",
+      "MIE"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SALINIZADO",
+      "CURATIVO",
+      "RECONSTRUÇÃO DE LCA",
+      "ACESSO VENOSO PERIFERICO"
+    ],
+    "Dispositivo Médico": [
+      "CURATIVO",
+      "ACESSO VENOSO PERIFERICO"
+    ],
+    "Conceito Espacial": [
+      "EXTERNAMENTE"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "JOELHO ESQUERDO"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS ALGICAS",
+      "SINAIS FLOGISTICOS"
+    ],
+    "Função de Organismo": [
+      "DIURESE ESPONTANEA"
+    ],
+    "Doença ou Síndrome": [
+      "INSTABILIDADE CRONICA DO JOELHO"
+    ]
+  },
+  "labels": {
+    "BD73.2": {
+      "term_original": "perfusão distal preservada",
+      "capitulo": "11",
+      "confidence_embedding": 0.754,
+      "descricao_cid": "Representação de doença CID-11: Obstrução de veia sistêmica. Definição: Condição patológica pós-natal de uma veia sistêmica em que o fluxo é impedido ou bloqueado devido a estreitamento ou atresia.",
+      "classification_reasoning": "A preservação da perfusão distal é um indicador de que o fluxo sanguíneo nos membros inferiores está sendo mantido, o que é consistente com a obstrução de veia periférica (Código BD73.2), mas não com outras opções que descrevem doenças mais graves ou relacionadas a órgãos cardíacos."
+    },
+    "MC24.0": {
+      "term_original": "pulsos palpaveis",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A presença de 'pulsos palpaveis' indica que o paciente tem um ritmo cardíaco regular e perceptível, caracterizando uma circulação sanguínea normal."
+    },
+    "MB23.H": {
+      "term_original": "sinais flogisticos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7661,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sinais flogisticos' é Crise de pânico (Código CID-11: MB23.H), pois a descrição da crise de pânico inclui sintomas como palpitagações ou aumento da frequência cardíaca, que podem estar relacionados aos sintomas descritos nos sinais flogisticos."
+    },
+    "EB13.1": {
+      "term_original": "limpo",
+      "capitulo": "14",
+      "confidence_embedding": 0.7859,
+      "descricao_cid": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável.",
+      "classification_reasoning": "A palavra 'limpo' refere-se à condição do curativo em MIE externamente, o que indica a ausência de secreções ou substâncias nocivas. A Necrólise epidérmica tóxica (NET) é uma doença caracterizada por extenso eritema, necrose e descolamento bolhoso da epiderme, e não está relacionada à condição do curativo mencionado no prontuário."
+    },
+    "6C40.3": {
+      "term_original": "verbalizando",
+      "capitulo": "06",
+      "confidence_embedding": 0.7945,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas.",
+      "classification_reasoning": "A presença do termo 'verbalizando' no contexto sugere que o paciente tem habilidade para comunicar-se de forma consciente e verbal, sem apresentar alterações perceptuais ou cognitivas severas. Isso é consistente com a definição de Intoxicação por álcool (6C40.3), que caracteriza perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação, mas não menciona perda da capacidade verbal."
+    },
+    "QE23": {
+      "term_original": "aceitando dieta",
+      "capitulo": "24",
+      "confidence_embedding": 0.8089,
+      "descricao_cid": "Representação de doença CID-11: Problemas com dieta ou hábitos alimentares inapropriados. Definição: ",
+      "classification_reasoning": "O termo 'aceitando dieta' sugere que o paciente está seguindo um plano alimentar específico, indicando uma representação de doença relacionada a problemas com dieta ou hábitos alimentares inapropriados."
+    },
+    "FA33.4": {
+      "term_original": "instabilidade cronica do joelho",
+      "capitulo": "15",
+      "confidence_embedding": 0.7685,
+      "descricao_cid": "Representação de doença CID-11: Instabilidade crônica do joelho. Definição: ",
+      "classification_reasoning": "A instabilidade crônica do joelho mencionada no contexto clínico é a mais próxima da definição do código FA33.4, que refere-se à representação de doença CID-11: Instabilidade crônica do joelho."
+    }
+  }
+}

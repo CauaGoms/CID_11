@@ -1,0 +1,89 @@
+{
+  "prontuario_id": 123,
+  "text": "Paciente internada para observação após cateterismo cardíaco , realizado com sucesso . Apresentou reação adversa leve ao contraste Hexabrix ® utilizado para o exame , com pápulas e prurido cutâneo manejado com anti-histamínico e sem maiores repercussões , com regressão total durante o período de observação . Recebe alta para seguimento com seu médico .",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "internada",
+      "observação",
+      "manejado",
+      "alta",
+      "seguimento"
+    ],
+    "Conceito Temporal": [
+      "após",
+      "período de observação"
+    ],
+    "Procedimento Diagnóstico": [
+      "exame",
+      "cateterismo cardíaco"
+    ],
+    "Achado": [
+      "pápulas",
+      "realizado com sucesso"
+    ],
+    "Substância Farmacológica": [
+      "anti-histamínico"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "médico"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "cateterismo cardíaco"
+    ],
+    "Medicamento Clínico": [
+      "reação adversa leve ao contraste"
+    ],
+    "Função Patológica": [
+      "reação adversa leve ao contraste",
+      "regressão total"
+    ],
+    "Sinal ou Sintoma": [
+      "reação adversa leve ao contraste",
+      "prurido cutâneo",
+      "maiores repercussões"
+    ]
+  },
+  "labels": {
+    "BD70.3": {
+      "term_original": "reação adversa leve ao contraste",
+      "capitulo": "11",
+      "confidence_embedding": 0.6992,
+      "descricao_cid": "Representação de doença CID-11: Doença de Mondor. Definição: Forma de tromboflebite venosa superficial localizada que tipicamente afeta a parede torácica e se manifesta como um cordão fibroso com retração da pele circundante e ausência de inflamação cutânea sobreposta. Nenhuma causa é encontrada em muitos casos, mas traumatismo e cirurgia de mama estão frequentemente implicados.",
+      "classification_reasoning": "A reação adversa leve ao contraste Hexabrix ® é caracterizada por pápulas e prurido cutâneo, o que é compatível com a definição de Doença de Mondor (BD70.3), uma forma de tromboflebite venosa superficial localizada."
+    },
+    "EC90.3": {
+      "term_original": "prurido cutâneo",
+      "capitulo": "14",
+      "confidence_embedding": 0.8253,
+      "descricao_cid": "Representação de doença CID-11: Prurido devido a transtorno neurológico. Definição: Prurido resultante de dano ou irritação dos nervos sensoriais ou de suas conexões centrais.",
+      "classification_reasoning": "A reação adversa leve ao contraste Hexabrix ® utilizado para o exame, com pápulas e prurido cutâneo, sugere uma resposta alérgica ou irritativa da pele ao agente químico. A definição de EC90.3 como 'Prurido resultante de dano ou irritação dos nervos sensoriais ou de suas conexões centrais' se aplica melhor ao contexto do prontuário, considerando a reação cutânea e a resposta alérgica"
+    },
+    "EA90.2": {
+      "term_original": "pápulas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7992,
+      "descricao_cid": "Representação de doença CID-11: Psoríase instável. Definição: Psoríase instável é uma forma inflamatória de psoríase que pode ser precursora de psoríase eritrodérmica ou pustulosa generalizada. Caracteriza-se por inflamação em torno das margens das placas existentes e/ou aparecimento de múltiplas pequenas pápulas e placas inflamatórias. Alguns pacientes podem ter uma tendência por toda a vida para psoríase instável. Tende a ser difícil de controlar sem recorrer a terapia sistêmica.",
+      "classification_reasoning": "A presença de pápulas no contexto do cateterismo cardíaco sugere uma reação alérgica leve, característica da psoríase instável (EA90.2). A descrição desta doença CID-11 destaca a formação de inflamação em torno das margens das placas existentes e/ou aparecimento de múltiplas pequenas pápulas e placas inflamatórias, o que coincide com os sintomas apresentados pelo paciente."
+    },
+    "ME66.61": {
+      "term_original": "regressão total",
+      "capitulo": "21",
+      "confidence_embedding": 0.7457,
+      "descricao_cid": "Representação de doença CID-11: Rash (cutâneo) generalizado. Definição: Termo muito inespecífico para denotar uma alteração cutânea generalizada adquirida visível em situações onde uma descrição ou um diagnóstico mais precisos não podem ser feitos. Se o diagnóstico não puder ser feito, então a escolha entre as classes \"Erupção cutânea aguda de natureza incerta ou não especificada\" e \"Transtorno cutâneo crônico de natureza incerta ou não especificada\" é preferível.",
+      "classification_reasoning": "A escolha do código ME66.61 (Rash cutâneo generalizado) é mais precisa para o termo 'regressão total' no contexto clínico, pois descreve uma alteração cutânea generalizada adquirida que regressou totalmente durante o período de observação."
+    },
+    "ME62.9": {
+      "term_original": "maiores repercussões",
+      "capitulo": "21",
+      "confidence_embedding": 0.7385,
+      "descricao_cid": "Representação de doença CID-11: Escoriação cutânea aguda. Definição: Diagnóstico provisório de erupção cutânea de natureza desconhecida ou incerta, que surge abruptamente e que consiste em múltiplas escoriações. Na maioria dos casos, a escoriação é secundária ao prurido intenso decorrente de um transtornos sistêmico subjacente, como icterícia colestática, ou de uma doença cutânea pruriginosa, como eczema. Em alguns casos, entretanto, fatores psicogênicos podem ser responsáveis.",
+      "classification_reasoning": "A expressão 'maiores repercussões' refere-se ao grau de gravidade da reação adversa ao contraste utilizado no cateterismo cardíaco, que apresentou apenas pápulas e prurido cutâneo leves, mas foi controlado com anti-histamínico sem maiores complicações."
+    }
+  }
+}

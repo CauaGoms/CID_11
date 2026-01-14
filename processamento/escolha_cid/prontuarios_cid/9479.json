@@ -1,0 +1,70 @@
+{
+  "prontuario_id": 208,
+  "text": "19:00 RETORNA DA HEMODINÂMICA POI DE ATC DE PONTE DE SAFENA COM STENT. CONSCIENTE COMUNICATIVO, ORIENTADO, VE EM AA, CURATIVO COMPRESSIVO EM RID LIMPO E SECO. Enfermeira Florence Nightingale . EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO",
+  "entities": {
+    "Organização Relacionada à Saúde": [
+      "HEMODINÂMICA"
+    ],
+    "Conceito Temporal": [
+      "POI"
+    ],
+    "Abreviação": [
+      "POI",
+      "ATC",
+      "VE EM AA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ATC",
+      "PONTE DE SAFENA COM STENT",
+      "CURATIVO COMPRESSIVO"
+    ],
+    "Achado": [
+      "CONSCIENTE",
+      "COMUNICATIVO",
+      "ORIENTADO",
+      "LIMPO",
+      "SECO",
+      "VE EM AA"
+    ],
+    "Localização ou Região Corporal": [
+      "RID"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS"
+    ],
+    "Dispositivo Médico": [
+      "CURATIVO COMPRESSIVO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "EXAME GERAL"
+    ],
+    "Procedimento Diagnóstico": [
+      "INVESTIGACAO DE PESSOAS"
+    ],
+    "Doença ou Síndrome": [
+      "DIAGNOSTICO RELATADO"
+    ]
+  },
+  "labels": {
+    "MC90": {
+      "term_original": "diagnostico relatado",
+      "capitulo": "21",
+      "confidence_embedding": 0.7376,
+      "descricao_cid": "Representação de doença CID-11: Achados clínicos em exames diagnósticos por imagem do coração ou da circulação coronariana. Definição: ",
+      "classification_reasoning": "A opção MC90 se encaixa melhor no contexto, pois o paciente retornado de uma hemodinâmica e há menção a um stent colocado em ponte de Saphena. Além disso, a descrição do código MC90 refere-se a achados clínicos em exames diagnósticos por imagem do coração ou da circulação coronariana, o que se relaciona à procedência do paciente e ao tratamento realizado."
+    },
+    "ME86": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7626,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa de uma parte do corpo. Definição: ",
+      "classification_reasoning": "A opção ME86 é a mais precisa porque o termo 'queixas' se refere a sintomas ou problemas relativos à doença, e não há indicações de gravidez, perna ou coxa, pelve feminina ou erupção cutânea descamativa aguda. Portanto, a opção ME86 é a mais adequada para representar a queixa mencionada no contexto clínico."
+    }
+  }
+}

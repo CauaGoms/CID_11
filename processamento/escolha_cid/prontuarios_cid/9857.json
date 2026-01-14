@@ -1,0 +1,96 @@
+{
+  "prontuario_id": 280,
+  "text": "Paciente interna para realização de ablação por radiofrequência de feixe de condução anômalo atrioventricular. - Síndrome de pré-excitação - realizado em 22/03/2006. Permaneceu internada devido a formação de extenso hematoma em coxa direita após retirada de introdutores. Realizado ecografia doppler sem evidência de lesões em vasos e presença de hematoma de cerca de 250-300 mL. Recebe alta com hematoma limitado sem expansão, ausência de sopro femoral e com pulso periférico 4+/4+. Orientada a retornar caso haja piora clínica.",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "interna",
+      "realizado",
+      "internada",
+      "alta",
+      "Orientada a retornar"
+    ],
+    "Conceito Temporal": [
+      "após"
+    ],
+    "Negação": [
+      "sem",
+      "ausência"
+    ],
+    "Sinal ou Sintoma": [
+      "hematoma",
+      "expansão",
+      "extenso hematoma",
+      "hematoma limitado",
+      "sopro femoral"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ablação por radiofrequência",
+      "retirada de introdutores"
+    ],
+    "Doença ou Síndrome": [
+      "Síndrome de pré-excitação"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "coxa direita"
+    ],
+    "Procedimento Diagnóstico": [
+      "ecografia doppler"
+    ],
+    "Lesão ou Envenenamento": [
+      "lesões em vasos"
+    ],
+    "Conceito Quantitativo": [
+      "250-300 mL"
+    ],
+    "Achado": [
+      "pulso periférico 4+/4+"
+    ],
+    "Conceito Qualitativo": [
+      "piora clínica"
+    ]
+  },
+  "labels": {
+    "NC75.3": {
+      "term_original": "lesões em vasos",
+      "capitulo": "22",
+      "confidence_embedding": 0.7946,
+      "descricao_cid": "Representação de doença CID-11: Lesão de múltiplos vasos sanguíneos ao nível do quadril ou coxa. Definição: ",
+      "classification_reasoning": "A lesão descrita no prontuário refere-se a lesões em vasos sanguíneos ao nível do quadril ou coxa, o que é compatível com a descrição do código NC75.3."
+    },
+    "NE81.0": {
+      "term_original": "hematoma",
+      "capitulo": "22",
+      "confidence_embedding": 0.8014,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "O termo 'hematoma' refere-se a uma hemorragia ou coágulo de sangue resultante de um procedimento, e não está relacionado a localizações específicas do corpo como é o caso dos códigos NA06.01, NA07.49 e NA07.83. A opção NE81.0Z é similar a NE81.0, mas acrescenta que o localização do hematoma não foi especificada."
+    },
+    "BC62": {
+      "term_original": "síndrome de pré-excitação",
+      "capitulo": "11",
+      "confidence_embedding": 0.8138,
+      "descricao_cid": "Representação de doença CID-11: Via acessória. Definição: Conexão elétrica adicional que tipicamente desvia do nó AV, tipicamente inserindo-se diretamente no miocárdio atrial e ventricular, mas também pode se conectar ao sistema de condução especializado (p.ex., o feixe de His, feixes direito ou esquerdo, ou um dos fascículos).",
+      "classification_reasoning": "A Síndrome de pré-excitação é uma condição cardíaca caracterizada por uma via acessória anômala que conecta o sistema de condução do coração à câmara auricular ou ventricular. Esta descrição coincide com a definição da doença CID-11, BC62: Via acessória."
+    },
+    "NE81.0Z": {
+      "term_original": "hematoma limitado",
+      "capitulo": "22",
+      "confidence_embedding": 0.7804,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NE81.0Z, pois o termo 'hematoma limitado' está relacionado à formação de um hematoma em resultado do procedimento de ablação por radiofrequência, e não especifica se é localizado na coxa direita ou em outro local."
+    },
+    "MC82.0": {
+      "term_original": "expansão",
+      "capitulo": "21",
+      "confidence_embedding": 0.7702,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico.",
+      "classification_reasoning": "A expansão referida no contexto clínico se refere à parada cardíaca com taquicardia e fibrilação ventricular, caracterizada por colapso hemodinâmico, o que está relacionado ao termo extraído. Esse código é a mais precisa para o termo dentro do contexto clínico."
+    },
+    "MG30.2": {
+      "term_original": "sopro femoral",
+      "capitulo": "21",
+      "confidence_embedding": 0.6974,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A opção mais precisa é MG30.2 pois o termo 'sopro femoral' se refere a uma dor no quadril ou coxa, com possível lesão nos nervos periféricos. Isso é consistente com a descrição da doença CID-11 de Dor crônica pós-operatória ou pós-traumática, que pode estar relacionada à ablação por radiofrequência realizada no paciente."
+    }
+  }
+}

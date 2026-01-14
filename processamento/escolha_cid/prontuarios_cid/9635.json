@@ -1,0 +1,190 @@
+{
+  "prontuario_id": 334,
+  "text": "POS TX RENAL\nPOS TX RENAL DC - CR 0,93 - FK 3,0\nDM COMPENSADO\nHAS COMPENSADA\nDSLP OK\nPOS TX RENAL HÁ 3 ANOS - DC\nEM USO DE: MTC 5, FK 1 / 0, MS 1 / 2, CRESTOR 10MG DIAS ALTERNADOS, AAS 100, OMEPRAZOL 20, CARVEDILOL 12,5, MONOCORDIL 20, CILOSTAZOL 100 / 100, LOSARTAN 50MG / DIA, LANTUS 30U\nS # ASSINTOMÁTICO\nO # BEG, CORADO, HIDRATADO\nP 74,5\nMUCOSAS CORADAS, HIDRATADAS\nMV POSITIVO, SIMETRICO\nBCRNF COM SOPRO SISTOLICO\nABDOMEN GLOBOSO, FLACIDO, SEM MASSAS, RHA POSITIVOS\nMEMBROS SEM EDEMA",
+  "entities": {
+    "Conceito Temporal": [
+      "POS",
+      "DIA",
+      "HÁ 3 ANOS",
+      "DIAS ALTERNADOS"
+    ],
+    "Achado": [
+      "DC",
+      "BEG",
+      "CORADO",
+      "HIDRATADO",
+      "BCRNF",
+      "GLOBOSO",
+      "FLACIDO",
+      "MUCOSAS CORADAS",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Abreviação": [
+      "DC",
+      "DM",
+      "HAS",
+      "DSLP",
+      "MTC",
+      "FK",
+      "MS",
+      "AAS",
+      "30U",
+      "BEG",
+      "BCRNF",
+      "TX RENAL",
+      "CR 0 , 93",
+      "FK 3 , 0",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Doença ou Síndrome": [
+      "DM",
+      "HAS",
+      "DSLP"
+    ],
+    "Conceito Qualitativo": [
+      "COMPENSADO",
+      "COMPENSADA"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "FK",
+      "MS",
+      "CRESTOR",
+      "AAS",
+      "OMEPRAZOL",
+      "CARVEDILOL",
+      "MONOCORDIL",
+      "CILOSTAZOL",
+      "LOSARTAN",
+      "LANTUS"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "FK",
+      "MS",
+      "CRESTOR",
+      "AAS",
+      "OMEPRAZOL",
+      "CARVEDILOL",
+      "MONOCORDIL",
+      "CILOSTAZOL",
+      "LOSARTAN",
+      "LANTUS"
+    ],
+    "Hormônio": [
+      "MTC",
+      "LANTUS"
+    ],
+    "Antibiótico": [
+      "MTC",
+      "MS"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "10MG",
+      "100",
+      "20",
+      "50MG",
+      "30U",
+      "1 / 0",
+      "1 / 2",
+      "12 , 5",
+      "100 / 100",
+      "74 , 5"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "LANTUS"
+    ],
+    "Negação": [
+      "ASSINTOMÁTICO",
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "ASSINTOMÁTICO",
+      "MASSAS",
+      "EDEMA",
+      "SOPRO SISTOLICO"
+    ],
+    "Atributo Clínico": [
+      "P"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABDOMEN",
+      "MEMBROS"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 93",
+      "FK 3 , 0"
+    ]
+  },
+  "labels": {
+    "DB34.4": {
+      "term_original": "flacido",
+      "capitulo": "13",
+      "confidence_embedding": 0.7412,
+      "descricao_cid": "Representação de doença CID-11: Úlcera retal hemorrágica aguda. Definição: Úlcera retal hemorrágica aguda é considerada como um transtorno isquêmico agudo da mucosa, que ocorre em pacientes idosos que sofrem de redução incipiente do fluxo sanguíneo devida a fatores arterioscleróticos. Estes pacientes estão frequentemente acamados, e isso causa uma diminuição no fluxo sanguíneo da mucosa do reto inferior, o que por sua vez desencadeia essa doença.",
+      "classification_reasoning": "A opção mais precisa para o termo 'flacido' no contexto clínico é a úlcera retal hemorrágica aguda (Código: DB34.4). A descrição da doença menciona redução incipiente do fluxo sanguíneo, o que pode causar inchaço e flacidez na região anal."
+    },
+    "DA60.3": {
+      "term_original": "globoso",
+      "capitulo": "13",
+      "confidence_embedding": 0.7482,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A palavra-chave 'globoso' na descrição do abdome, combinada com a falta de massa ou lesão, sugere que o termo se refere à presença de uma úlcera de estresse no duodeno, caracterizada pela ausência de massa e pela hipótese de que a úlcera está relacionada ao estado de doença renal do paciente."
+    },
+    "FA27.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7454,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A presença de edema nas articulações e a falta de outras características clínicas que sugiram outra causa, como a hipertrofia sinovial ou cisto sinovial, faz com que o reumatismo palindrômico seja a escolha mais precisa."
+    },
+    "8A45.30": {
+      "term_original": "mv positivo",
+      "capitulo": "08",
+      "confidence_embedding": 0.719,
+      "descricao_cid": "Representação de doença CID-11: Transtorno da substância branca devido à deficiência de vitamina B12. Definição: Características neurológicas ocorrem em 40% dos pacientes com deficiência de vitamina B12. Degeneração combinada subaguda é uma complicação neurológica reversível potencial de deficiência de vitamina B12. Sintomas desenvolvem de forma insidiosa e as manifestações neuropáticas incluem parestesia distal, dormência, ataxia de marcha e diminuição da propriocepção dos membros inferiores, enquanto componente mielopático leva à prejuízo motor variável devido à disfunção do trato piramidal. Incontinência fecal e urinária com impotência e hipotensão postural podem ocorrer como parte da mielopatia. Manifestações centrais incluem confusão, depressão, alucinação progressiva e lentificação mental. Pode ocorrer e neuropatia óptica.",
+      "classification_reasoning": "A presença de MV positivo sugere uma lesão na substância branca, o que é compatível com a deficiência de vitamina B12, um transtorno da substância branca devido à deficiência de vitamina B12."
+    },
+    "5B5K.7": {
+      "term_original": "dm",
+      "capitulo": "05",
+      "confidence_embedding": 0.7726,
+      "descricao_cid": "Representação de doença CID-11: Deficiência de selênio. Definição: Deficiência de selênio é rara mas tem sido observada em indivíduos em uso prolongado de dieta parenteral total(NPT) sem selênio. Manifestações clínicas da deficiência decorrente de tal situação são incomuns e pouco definidas. Elas incluem fraqueza muscular e mialgia com, em casos graves, o desenvolvimento de insuficiência cardíaca congestiva. A importância do selênio para o metabolismo dos hormônios tireoidianos é evidente, a partir de mudanças na proporção T3-T4 que se desenvolvem após uma depleção de selênio relativamente leve em bebês e idosos",
+      "classification_reasoning": "A deficiência de selênio (5B5K.7) é a opção mais precisa para o termo 'dm' no contexto clínico, pois a doença mencionada como 'compensada' sugere uma condição crônica que afeta a função renal e pode estar relacionada à deficiência de selênio"
+    },
+    "BD54": {
+      "term_original": "sopro sistolico",
+      "capitulo": "11",
+      "confidence_embedding": 0.7402,
+      "descricao_cid": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos.",
+      "classification_reasoning": "O termo 'sopro sistólico' é comummente relacionado a lesões cardíacas e renais, e o contexto do prontuário menciona BCRNF com sopro sistólico. A opção BD54, Úlcera de pé diabético, não parece relacionada ao termo 'sopro sistólico', portanto, é improvável que seja a opção certa. As outras opções parecem mais próximas do contexto clínico."
+    },
+    "BD71.2": {
+      "term_original": "bcrnf",
+      "capitulo": "11",
+      "confidence_embedding": 0.7386,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A presença do termo 'bcrnf' no contexto sugere que há uma trombose venosa na veia renal, justificando a escolha do código BD71.2."
+    },
+    "MF56": {
+      "term_original": "dc",
+      "capitulo": "21",
+      "confidence_embedding": 0.8048,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A escolha do código MF56 se baseia na presença de DC (dor renal) no contexto clínico, o que é consistente com a definição da Cólica renal CID-11."
+    },
+    "EB13.0": {
+      "term_original": "mucosas coradas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7548,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de Stevens-Johnson. Definição: A síndrome de Stevens-Johnson é um transtorno de hipersensibilidade mediado por imunocomplexos envolvendo mucosas (conjuntiva, mucosa oral e mucosa genital) com, por definição, envolvimento da pele limitado a não mais que 9% da área de superfície corporal. Está relacionado à necrólise epidérmica tóxica e compartilha muitos dos mesmos gatilhos, notavelmente drogas, mas a inflamação é centrada em e próxima a superfícies mucosas. Embora a mortalidade seja baixa, a morbidade aguda é alta e o envolvimento conjuntival tem o potencial de causar cegueira.",
+      "classification_reasoning": "A descrição do termo 'mucosas coradas' sugere inflamação e descamação fina variável em pele exposta ao sol, o que é similar ao envolvimento mucoso na Síndrome de Stevens-Johnson (EB13.0). Além disso, a presença de prurido urêmico (EC90.10) não se ajusta à descrição do termo."
+    }
+  }
+}

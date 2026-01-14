@@ -1,0 +1,62 @@
+{
+  "prontuario_id": 307,
+  "text": "PACIENTE REFERE OBSTRUÇÃO NASAL E QUEIXA ESTETICA NASAL APOS TRAUMA. RELATA TAMBEM SINTOMAS ALERGICOS NASAIS.\n\nO: RINO: ESPORAO À ESQUERDA, HCCII. CALO OSSEO EM DORSO.\n\nC: DEIXO NA FILA DE ESPERA PARA VISITA COM DR VITAL BRASIL.\n\nR2 LUCAS.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Conceito Temporal": [
+      "APOS"
+    ],
+    "Lesão ou Envenenamento": [
+      "TRAUMA"
+    ],
+    "Abreviação": [
+      "RINO",
+      "C",
+      "DR",
+      "R2",
+      "HCCII"
+    ],
+    "Doença ou Síndrome": [
+      "ESPORAO"
+    ],
+    "Conceito Espacial": [
+      "ESQUERDA"
+    ],
+    "Sinal ou Sintoma": [
+      "OBSTRUÇÃO NASAL",
+      "SINTOMAS ALERGICOS NASAIS"
+    ]
+  },
+  "labels": {
+    "CA08.01": {
+      "term_original": "sintomas alergicos nasais",
+      "capitulo": "12",
+      "confidence_embedding": 0.7585,
+      "descricao_cid": "Representação de doença CID-11: Rinite alérgica devida a outros alérgenos sazonais. Definição: Refere-se a inflamações alérgicas das vias aéreas nasais provocadas por outros alérgenos, além de pólen e ácaro da poeira doméstica, em pacientes com sensibilização múltipla ou como parte de condição complexa, como alergia a látex. Caracteriza-se, clinicamente, pelos seguintes sintomas: espirros, prurido nasal, coriza e obstrução nasal. Ocorre quando um alérgeno, como pelo de animal (partículas de pele descamada ou cabelo), inseto (partículas do corpo de baratas), ou partículas fúngicas, é inalado por indivíduo com o sistema imune sensibilizado.",
+      "classification_reasoning": "A escolha do código CA08.01 (Rinite alérgica devida a outros alérgenos sazonais) é mais precisa porque o paciente relata sintomas alergicos nasais e refere obstrução nasal após trauma, o que sugere uma inflamação alérgica das vias aéreas nasais."
+    },
+    "NA00": {
+      "term_original": "trauma",
+      "capitulo": "22",
+      "confidence_embedding": 0.7635,
+      "descricao_cid": "Representação de doença CID-11: Traumatismo superficial da cabeça. Definição: Danos causados ​​na superfície ou nos tecidos superficiais da cabeça como resultado direto ou indireto de uma força externa, com ou sem interrupção da continuidade estrutural.",
+      "classification_reasoning": "A opção mais precisa para o termo 'trauma' no contexto clínico é a representação de doença CID-11: Traumatismo superficial da cabeça, pois o paciente refere obstrução nasal e queixa estética nasal após trauma, sugerindo um dano superficiais na região da face ou crânio."
+    },
+    "CA08.1": {
+      "term_original": "obstrução nasal",
+      "capitulo": "12",
+      "confidence_embedding": 0.7683,
+      "descricao_cid": "Representação de doença CID-11: Rinite não alérgica. Definição: Rinite não alérgica é uma inflamação da mucosa nasal em que mecanismos alérgicos não estão envolvidos. Essa condição inclui vários fenótipos diferentes.",
+      "classification_reasoning": "A obstrução nasal e sintomas alérgicos narrados pelo paciente são características clinicamente relevantes para a rinite não alérgica, que é uma inflamação da mucosa nasal em que mecanismos alérgicos não estão envolvidos."
+    },
+    "AA91.2": {
+      "term_original": "esporao",
+      "capitulo": "10",
+      "confidence_embedding": 0.6792,
+      "descricao_cid": "Representação de doença CID-11: Outra otite média crônica supurativa. Definição: Isso envolve uma perfuração (orifício) na membrana timpânica e infecção bacteriana ativa no espaço da orelha média por várias semanas ou mais. Pode haver pus suficiente para drenar para fora da orelha (otorreia), ou a purulência pode ser mínima o suficiente para ser observada apenas no exame com um microscópio binocular.",
+      "classification_reasoning": "A opção mais precisa para o termo 'esporao' é AA91.2, que descreve Outra otite média crônica supurativa, caracterizada por uma perfuração na membrana timpânica e infecção bacteriana ativa no espaço da orelha média. Isso se alinha com a descrição do prontuário de 'esporao à esquerda', que sugere uma lesão ou obstrução nasal."
+    }
+  }
+}

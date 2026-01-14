@@ -1,0 +1,143 @@
+{
+  "prontuario_id": 753,
+  "text": " \nTX RENAL HÁ 5 ANOS COM CR 0,96.\nDLP NÃO IDEAL, MAS MELHOR.\nHAS COMPENSADA,\nDMPT COMPENSADO,\nITU s REPETIÇÃO,\n \n \nTX RENAL DC HÁ 5 ANOS E 2 MESES.\nMTC 5, TAC 2/1, MPS 2/2, CLORTALIDONA 25 X1, PPNL 40 X2, BEZAFIBRATO 200, OMEPRAZOL 20, AAS 100, ROSUVASTATINA, FLUOXETINA 20, DAONIL X2, NPH 30.\nS: URINA COM ODOR FÉTIDO.\nFLATULENCIA E SENSAÇÃO DE REFLUXO.\nO: PESO 75,45;  PA 140/80;  P 80;  AFEBRIL.\nEX SEGMNETRA NORMAL.",
+  "entities": {
+    "Abreviação": [
+      "DLP",
+      "DMPT",
+      "MTC",
+      "TAC",
+      "PPNL",
+      "AAS",
+      "NPH",
+      "S",
+      "O",
+      "PA",
+      "P",
+      "TX RENAL",
+      "CR 0 , 96",
+      "ITU s REPETIÇÃO",
+      "TX RENAL DC",
+      "EX SEGMNETRA NORMAL"
+    ],
+    "Doença ou Síndrome": [
+      "DLP",
+      "DMPT",
+      "ITU s REPETIÇÃO"
+    ],
+    "Negação": [
+      "NÃO",
+      "AFEBRIL"
+    ],
+    "Achado": [
+      "MELHOR",
+      "COMPENSADA",
+      "COMPENSADO",
+      "S",
+      "TX RENAL",
+      "TX RENAL DC",
+      "EX SEGMNETRA NORMAL"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "TAC",
+      "MPS",
+      "CLORTALIDONA",
+      "PPNL",
+      "BEZAFIBRATO",
+      "OMEPRAZOL",
+      "AAS",
+      "ROSUVASTATINA",
+      "FLUOXETINA",
+      "DAONIL",
+      "NPH"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "TAC",
+      "MPS",
+      "CLORTALIDONA",
+      "PPNL",
+      "BEZAFIBRATO",
+      "OMEPRAZOL",
+      "AAS",
+      "ROSUVASTATINA",
+      "FLUOXETINA",
+      "DAONIL"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "2/1",
+      "2/2",
+      "200",
+      "20",
+      "100",
+      "X2",
+      "30",
+      "140/80",
+      "80",
+      "75 , 45"
+    ],
+    "Substância Corporal": [
+      "URINA"
+    ],
+    "Sinal ou Sintoma": [
+      "FLATULENCIA",
+      "AFEBRIL",
+      "ODOR FÉTIDO",
+      "SENSAÇÃO DE REFLUXO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O"
+    ],
+    "Atributo Clínico": [
+      "PESO",
+      "PA",
+      "P"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL",
+      "TX RENAL DC"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 96"
+    ]
+  },
+  "labels": {
+    "GB61.0": {
+      "term_original": "dmpt",
+      "capitulo": "16",
+      "confidence_embedding": 0.7785,
+      "descricao_cid": "Representação de doença CID-11: Doença renal crônica, estágio 1. Definição: Danos renais com TFG normal ou aumentada (> 90 ml/min/1,73m²)",
+      "classification_reasoning": "A presença de DMPT compensado e HAS compensada indica uma doença renal crônica, estabelecida há 5 anos. Portanto, a opção mais precisa para o termo é GB61.0."
+    },
+    "DA22.0": {
+      "term_original": "flatulencia",
+      "capitulo": "13",
+      "confidence_embedding": 0.7374,
+      "descricao_cid": "Representação de doença CID-11: Doença do refluxo gastroesofágico não erosiva. Definição: Condição patológica em que os pacientes apresentam sintomas clássicos de doença do refluxo gastroesofágico (DRGE), mas não têm esofagite aparente ou lesão da mucosa esofágica.",
+      "classification_reasoning": "A flatulência e a sensação de refluxo descritas no paciente sugerem uma doença do refluxo gastroesofágico não erosiva, o que é caracterizado pela falta de lesão na mucosa esofágica."
+    },
+    "MF56": {
+      "term_original": "s",
+      "capitulo": "21",
+      "confidence_embedding": 0.8058,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A opção MF56 é a mais precisa para o termo 's' porque o contexto menciona sintomas como odor fétido na urina e sensação de refluxo, o que sugere Cólica renal (Cólico nefrítico), caracterizado por dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios."
+    },
+    "BD53.4": {
+      "term_original": "tx renal dc",
+      "capitulo": "11",
+      "confidence_embedding": 0.7045,
+      "descricao_cid": "Representação de doença CID-11: Ateroembolismo de colesterol. Definição: Oclusão embólica de pequenas artérias e arteríolas distais por cristais de colesterol liberados de placa aterosclerótica em artérias maiores mais centrais. A isquemia microvascular resultante é acompanhada por uma resposta inflamatória à presença de cristais de colesterol. Isso pode ocorrer espontaneamente ou como uma complicação de angiografia ou cirurgia vascular. Os órgãos mais comumente afetados incluem pele, rins, trato gastrointestinal e cérebro. Manifestações cutâneas, presentes na maioria dos casos, incluem livedo reticularis e necrose e ulceração isquêmicas focais; estas estão comumente associadas a lesão renal aguda.",
+      "classification_reasoning": "A opção mais precisa para o termo 'tx renal dc' é a trombose renal devido à obstrução das artérias renais por cristais de colesterol, como descrito na definição do código BD53.4."
+    },
+    "MF95": {
+      "term_original": "itu s repetição",
+      "capitulo": "21",
+      "confidence_embedding": 0.7777,
+      "descricao_cid": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular.",
+      "classification_reasoning": "A presença de 'ITU s repetição' no prontuário sugere que há uma lesão muscular ou muscular renal, o que pode estar relacionado à mioglobinúria, um tipo de doença caracterizada pela presença de mioglobina na urina. Além disso, a história de urina com odor fétido e flatulência sugerem problemas renais."
+    }
+  }
+}

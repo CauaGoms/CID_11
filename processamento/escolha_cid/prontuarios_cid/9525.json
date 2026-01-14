@@ -1,0 +1,96 @@
+{
+  "prontuario_id": 701,
+  "text": "AVALIAÇÃO NEFROLOGIA GERAL\nHAS \nIRC  \n83A , VEIO COM NORA Lucas\nHAS HÁ 2 ANOS, \nNEGA DM, USO DE AINES, GOTA, CARDIOPATIAS, DLP, UROLITÍASE, ITU \nENCAMIHADA POR CLEARANCE DE CREATINIA EM 36\nEM USO DE ENALAPRIL 10 1X DIA, HCTZ 25\nALT 150,  PESO 58\nPA 130/80\nEXAME FISICO SP",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "AVALIAÇÃO",
+      "ENCAMIHADA",
+      "EXAME FISICO"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "IRC",
+      "DM",
+      "GOTA",
+      "CARDIOPATIAS",
+      "DLP",
+      "UROLITÍASE",
+      "ITU"
+    ],
+    "Abreviação": [
+      "HAS",
+      "IRC",
+      "DM",
+      "AINES",
+      "DLP",
+      "ITU",
+      "HCTZ",
+      "ALT",
+      "PA"
+    ],
+    "Negação": [
+      "NEGA",
+      "SP"
+    ],
+    "Substância Farmacológica": [
+      "AINES",
+      "ENALAPRIL",
+      "HCTZ",
+      "ALT"
+    ],
+    "Conceito Quantitativo": [
+      "25",
+      "150",
+      "58",
+      "130/80",
+      "10 1X DIA"
+    ],
+    "Atributo Clínico": [
+      "PESO",
+      "PA"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "NEFROLOGIA GERAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CLEARANCE DE CREATINIA EM 36"
+    ]
+  },
+  "labels": {
+    "IRC": {
+      "term_original": "irc",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'irc' se refere à Investigação de Representação de Cardiopatia, justificando a escolha do código IRC."
+    },
+    "GB40": {
+      "term_original": "urolitíase",
+      "capitulo": "16",
+      "confidence_embedding": 0.7955,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A opção mais precisa para o termo 'urolitíase' no contexto é a síndrome nefrítica, que apresenta sintomas de hematuria e oligúria, característicos de uma urolitíase."
+    },
+    "BC43": {
+      "term_original": "cardiopatias",
+      "capitulo": "11",
+      "confidence_embedding": 0.807,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia. Definição: Transtornos do miocárdio em que o músculo cardíaco é estrutural e funcionalmente anormal, na ausência de doença arterial coronariana, hipertensão, doença valvar e doença cardíaca congênita suficiente para causar a anormalidade miocárdica observada.",
+      "classification_reasoning": "A opção BC43 (Cardiomiopatia) é a mais precisa para o termo 'cardiopatias' no contexto clínico, pois é uma representação de doença CID-11 que engloba transtornos do miocárdio estrutural e funcionalmente anormais, sem uma causa específica como doença arterial coronariana, hipertensão, doença valvar ou doença cardíaca congênita."
+    },
+    "MF95": {
+      "term_original": "itu",
+      "capitulo": "21",
+      "confidence_embedding": 0.732,
+      "descricao_cid": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular.",
+      "classification_reasoning": "A escolha mais precisa para o termo 'itu' no contexto de uma avaliação nefrologia geral é a mioglobinúria (Código: MF95), pois a presença de mioglobina na urina é um indicador importante de lesão renal aguda, comum em casos de ITU (Insuficiência Tubular Renal)."
+    },
+    "BD54": {
+      "term_original": "gota",
+      "capitulo": "11",
+      "confidence_embedding": 0.7542,
+      "descricao_cid": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos.",
+      "classification_reasoning": "A opção mais precisa é a úlcera de pé diabético (BD54), pois o termo 'gota' refere-se às lesões nos pés, que são comum em pacientes diabéticos."
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "prontuario_id": 717,
+  "text": "Lucas, 56 anos\n\n# CA colorretal ( sigmóide ) há 4 anos ( CX + QTX )\n# HAS em uso de atenol\n# DSLP em uso de svt\n# Prurido generalizado\n# Ex tabagista há 7 anos ( fumou por aprox 30 anos).\n\nTraz exames 03/11/14: hmg, cr, ureia, glicose, tgo, tgp, fa, ggt, Bt e frações, albumina, CEA: normais.\n\nS: Paciente com prurido generalizado após QT há 4 anos por Ca colorretal.\nCom uso de hidroxizine 25 mg dia paciente permanece assintomatica.\n\nnega hx de atopia.\n\no: Ausência de lesões elementares.\n\na: prurido generalizado idiopático\n\np: mantemos hidroxizine 25 mg / dia e hidratante ( EA 8% + MK 5 + OAD 5 + alantoina 1 ).\nRetorno em 6 meses.\n\nDoutor Vital Brazil ",
+  "entities": {
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "sigmóide"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CX",
+      "QTX",
+      "QT"
+    ],
+    "Abreviação": [
+      "CX",
+      "QTX",
+      "HAS",
+      "DSLP",
+      "svt",
+      "hmg",
+      "cr",
+      "fa",
+      "ggt",
+      "CEA",
+      "QT",
+      "EA",
+      "MK",
+      "OAD",
+      "CA colorretal",
+      "Bt e frações",
+      "Ca colorretal"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DSLP"
+    ],
+    "Substância Farmacológica": [
+      "atenol",
+      "svt",
+      "hidroxizine",
+      "hidratante",
+      "EA",
+      "MK",
+      "OAD"
+    ],
+    "Substância Química Orgânica": [
+      "atenol",
+      "svt",
+      "hidroxizine"
+    ],
+    "Sinal ou Sintoma": [
+      "Prurido",
+      "assintomatica",
+      "lesões",
+      "prurido generalizado",
+      "prurido generalizado idiopático"
+    ],
+    "Conceito Espacial": [
+      "generalizado"
+    ],
+    "Conceito Quantitativo": [
+      "7",
+      "8%",
+      "5",
+      "1",
+      "25 mg"
+    ],
+    "Conceito Temporal": [
+      "anos",
+      "após",
+      "dia",
+      "há 4 anos",
+      "6 meses"
+    ],
+    "Procedimento Laboratorial": [
+      "exames",
+      "hmg",
+      "cr",
+      "ureia",
+      "glicose",
+      "tgo",
+      "tgp",
+      "fa",
+      "ggt",
+      "albumina",
+      "CEA",
+      "Bt e frações"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "normais"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente",
+      "paciente"
+    ],
+    "Negação": [
+      "assintomatica",
+      "nega",
+      "Ausência"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "mantemos",
+      "Retorno"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Doutor"
+    ],
+    "Processo Neoplásico": [
+      "CA colorretal",
+      "Ca colorretal"
+    ],
+    "Achado": [
+      "Ex tabagista"
+    ]
+  },
+  "labels": {
+    "200000.0": {
+      "term_original": "ca colorretal",
+      "capitulo": "02",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'ca colorretal' refere-se ao câncer colorretal, que é um tipo de neoplasia maligna do intestino grosso. Embora haja outras opções com código CID-11, a escolha mais precisa é o Código 2E05.0, que corresponde à representação da doença CID-11: Metástase de neoplasia maligna no ovário. No entanto, dado o contexto clínico do paciente (Lucas, 56 anos, com histórico de câncer colorretal há 4 anos) e a menção explícita ao 'ca colorretal', a opção mais precisa é o Código 2E05.0."
+    },
+    "BD54": {
+      "term_original": "dslp",
+      "capitulo": "11",
+      "confidence_embedding": 0.7501,
+      "descricao_cid": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'dslp' é a úlcera de pé diabético (BD54), pois Lucas tem diabetes melito controlada com svt e apresenta prurido generalizado. A presença de DSLP em uso sugere que há uma complicação relacionada à diabetes, como úlceras nos pés."
+    },
+    "EC90.10": {
+      "term_original": "prurido generalizado",
+      "capitulo": "14",
+      "confidence_embedding": 0.7716,
+      "descricao_cid": "Representação de doença CID-11: Prurido urêmico. Definição: Prurido em pacientes com insuficiência renal crônica. Embora comum na doença renal crônica não tratada, é particularmente prevalente em pacientes que submetidos a diálise peritoneal ou hemodiálise. O prurido não se deve a níveis elevados de ureia sérica. Os mecanismos precisos não são totalmente compreendidos.",
+      "classification_reasoning": "A escolha pelo código EC90.10 é justificada porque o paciente apresenta prurido generalizado, e embora não haja níveis elevados de ureia sérica, a causa do prurido pode estar relacionada à doença renal crônica, tendo em vista que o paciente tem história de Ca colorretal e está usando atenol e svt. Além disso, não há indícios de lesões elementares ou atopia, e o paciente permanece assintomático com o uso de hidroxizine."
+    },
+    "ME66.61": {
+      "term_original": "prurido generalizado idiopático",
+      "capitulo": "21",
+      "confidence_embedding": 0.79,
+      "descricao_cid": "Representação de doença CID-11: Rash (cutâneo) generalizado. Definição: Termo muito inespecífico para denotar uma alteração cutânea generalizada adquirida visível em situações onde uma descrição ou um diagnóstico mais precisos não podem ser feitos. Se o diagnóstico não puder ser feito, então a escolha entre as classes \"Erupção cutânea aguda de natureza incerta ou não especificada\" e \"Transtorno cutâneo crônico de natureza incerta ou não especificada\" é preferível.",
+      "classification_reasoning": "A escolha do código ME66.61 é justificada porque o prurido generalizado idiopático não apresenta características específicas que permitam uma classificação mais precisa. O termo 'prurido generalizado idiopático' é muito inespecífico e não permite uma descrição mais detalhada da alteração cutânea."
+    },
+    "ND91.4": {
+      "term_original": "lesões",
+      "capitulo": "22",
+      "confidence_embedding": 0.7436,
+      "descricao_cid": "Representação de doença CID-11: Queimadura de face, exceto olho ou anexos oculares, lesão mais profunda ou queimadura complexa. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'lesões' é a queimadura complexa (ND91.4), pois há ausência de lesões elementares mencionadas no prontuário, o que sugere uma lesão mais profunda ou complexa."
+    }
+  }
+}

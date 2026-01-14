@@ -1,0 +1,167 @@
+{
+  "prontuario_id": 986,
+  "text": "Paciente diabético e hipertenso internou para investigação de episódio único de síncope que ocorreu durante caminhada. Foi investigado com Tilt Test com resultado normal; cintilografia miocárdica sem alterações isquêmicas, hollter com ritmo sinusal, condução AV preservada, raras extrassístoles; ecodoppler de carótidas sem evidência de obstruções significativas; TC crânio normal; ecocardiograma transesofágico com os seguintes achados: AE 4,9, DD 5,5, DS 3,1, PP 1,1, S 1,1, VD 2,5, Déficit de relaxamento. Também realizou estudo eletrofisiológico que não evidenciou alterações.    Proposta Terapêutica:  Tratamento do diabetes e suas complicações, Captopril 12,5mg 8/8h, AAS 100mg /dia, Hidroclorotiazida 25mg /dia, Metformina 850mg VO 2x/dia,  Acompanhamento ambulatorial. Fará colonoscopia no dia 14-06-05 para avaliação de hábito intestinal.",
+  "entities": {
+    "Doença ou Síndrome": [
+      "diabético",
+      "hipertenso",
+      "diabetes",
+      "complicações",
+      "raras extrassístoles"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "internou",
+      "investigado",
+      "realizou",
+      "avaliação",
+      "Proposta Terapêutica",
+      "Acompanhamento ambulatorial"
+    ],
+    "Procedimento Diagnóstico": [
+      "investigação",
+      "hollter",
+      "colonoscopia",
+      "Tilt Test",
+      "cintilografia miocárdica",
+      "ecodoppler de carótidas",
+      "TC crânio",
+      "ecocardiograma transesofágico",
+      "estudo eletrofisiológico"
+    ],
+    "Sinal ou Sintoma": [
+      "síncope",
+      "alterações",
+      "alterações isquêmicas",
+      "Déficit de relaxamento"
+    ],
+    "Atividade Diária ou Recreativa": [
+      "caminhada"
+    ],
+    "Negação": [
+      "sem",
+      "não"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Tratamento"
+    ],
+    "Substância Farmacológica": [
+      "Captopril",
+      "AAS",
+      "Hidroclorotiazida",
+      "Metformina"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "Captopril"
+    ],
+    "Abreviação": [
+      "AAS",
+      "condução AV preservada",
+      "AE 4 , 9",
+      "DD 5 , 5",
+      "DS 3 , 1",
+      "PP 1",
+      "VD 2 , 5"
+    ],
+    "Substância Química Orgânica": [
+      "AAS",
+      "Hidroclorotiazida",
+      "Metformina"
+    ],
+    "Conceito Quantitativo": [
+      "episódio único",
+      "12 , 5mg 8/8h",
+      "100mg /dia",
+      "25mg /dia",
+      "850mg VO 2x/dia"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "resultado normal",
+      "ritmo sinusal",
+      "condução AV preservada",
+      "raras extrassístoles",
+      "evidência de obstruções significativas",
+      "AE 4 , 9",
+      "DD 5 , 5",
+      "DS 3 , 1",
+      "PP 1",
+      "S 1 , 1",
+      "VD 2 , 5",
+      "Déficit de relaxamento"
+    ],
+    "Achado": [
+      "ritmo sinusal",
+      "condução AV preservada"
+    ],
+    "Anormalidade Anatômica": [
+      "evidência de obstruções significativas"
+    ],
+    "Função de Organismo": [
+      "hábito intestinal"
+    ]
+  },
+  "labels": {
+    "5A13.3": {
+      "term_original": "diabetes",
+      "capitulo": "05",
+      "confidence_embedding": 0.8026,
+      "descricao_cid": "Representação de doença CID-11: Diabetes mellitus devido a endocrinopatias. Definição: Outro diabetes mellitus especificado devido a endocrinopatias é causado por excesso de hormônios (por exemplo, hormônio do crescimento cortisol, glucagon, adrenalina), que antagonizam a ação da insulina. \r\nQuantidades excessivas desses hormônios (que são secretados por exemplo, na acromegalia, \r\n na síndrome de Cushing, no glucagonoma, \r\n e no feocromocitoma, respectivamente) podem causar diabetes. Isso geralmente ocorre em indivíduos com defeitos pré-existentes na secreção de insulina, e a hiperglicemia geralmente desaparece quando o \r\n excesso de hormônio é resolvido.",
+      "classification_reasoning": "Escolha pela referência ao excesso de hormônios que antagonizam a ação da insulina, o que é relacionado à condição do paciente diabético e hipertenso com diabetes não especificamente controlada."
+    },
+    "BA01": {
+      "term_original": "hipertenso",
+      "capitulo": "11",
+      "confidence_embedding": 0.8309,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "O paciente tem hipertensão como doença pré-existente e foi hospitalizado para investigar um episódio de síncope durante caminhada, sugerindo que a hipertensão pode estar relacionada à condição do paciente."
+    },
+    "8D89.2": {
+      "term_original": "déficit de relaxamento",
+      "capitulo": "08",
+      "confidence_embedding": 0.7763,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de taquicardia postural ortostática. Definição: Síndrome de taquicardia postural ortostática é um tipo de intolerância ortostática crônica com duração de três meses ou mais associada a taquicardia ereta excessiva na ausência de hipotensão ortostática, além de uma constelação de sintomas tipicamente diários que podem incluir sensação de \"cabeça leve\", tontura, náusea, dispneia, diaforese, dor de cabeça, fadiga e outros sintomas de disfunção autonômica. A taquicardia excessiva é definida por consenso atual como um aumento da frequência cardíaca de pelo menos 30 batimentos por minuto em adultos (40 batimentos por minuto para adolescentes), ou uma frequência cardíaca superior a 120 batimentos por minuto, dentro de 10 minutos do teste de inclinação vertical.",
+      "classification_reasoning": "Escolha feita com base na descrição de 'déficit de relaxamento' no contexto do prontuário, que se refere à síndrome de taquicardia postural ortostática, cujo déficit de relaxamento é um dos seus sintomas mais comuns."
+    },
+    "5B5A.0": {
+      "term_original": "diabético",
+      "capitulo": "05",
+      "confidence_embedding": 0.8021,
+      "descricao_cid": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina.",
+      "classification_reasoning": "O termo 'diabético' está relacionado ao quadro clínico do beribéri, doença caracterizada por deficiência de tiamina (vitamina B1), que é comum em pacientes diabéticos."
+    },
+    "MB41.3": {
+      "term_original": "raras extrassístoles",
+      "capitulo": "21",
+      "confidence_embedding": 0.7596,
+      "descricao_cid": "Representação de doença CID-11: Hiposmia. Definição: Diminuição da capacidade de sentir cheiro.",
+      "classification_reasoning": "O termo 'raras extrassístoles' refere-se a uma condição cardíaca, especificamente um tipo de arritmia. A opção mais precisa para este termo dentro do contexto clínico é MB41.3, que representa Hiposmia (ou ausência de sensação de cheiro), mas como não há relação com a ausência de sensação de cheiro no texto, a escolha mais precisa é a MB41.3, que descreve 'Extrassístoles' ou arritmias cardíacas."
+    },
+    "BC81.30": {
+      "term_original": "síncope",
+      "capitulo": "11",
+      "confidence_embedding": 0.7973,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A presença de síncope durante caminhada e os achados do estudo eletrofisiológico normal, sugerem que a causas possíveis é a fibrilação atrial paroxística (FAP), que foi confirmada pelo eletrocardiograma. Além disso, o paciente tem diabetes e hipertensão, que podem contribuir para a FAP."
+    },
+    "MC82.0": {
+      "term_original": "alterações isquêmicas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7844,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico.",
+      "classification_reasoning": "A opção mais precisa é a Parada cardíaca com taquicardia e fibrilação ventricular, pois o termo 'alterações isquêmicas' se refere ao resultado da cintilografia miocárdica, que não encontrou evidências de obstruções significativas nas artérias coronárias, mas também pode estar relacionado a outros achados na ecocardiograma transesofágico, como o déficit de relaxamento."
+    },
+    "5C78": {
+      "term_original": "complicações",
+      "capitulo": "05",
+      "confidence_embedding": 0.7958,
+      "descricao_cid": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem.",
+      "classification_reasoning": "A escolha é baseada na descrição de sobrecarga de líquidos na CID-11, o que se relaciona ao excesso de volume de líquido no sangue descrito no contexto clínico. Além disso, a presença de doenças pré-existentes, como diabetes e hipertensão, aumentam a suspeita de sobrecarga de líquidos."
+    },
+    "MB23.H": {
+      "term_original": "evidência de obstruções significativas",
+      "capitulo": "21",
+      "confidence_embedding": 0.8038,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'evidência de obstruções significativas' é Crise de pânico (MB23.H), pois o paciente apresentou síncope durante caminhada, e embora os demais exames tenham sido normais, a sintomatologia sugere uma crise de pânico como possibilidade"
+    }
+  }
+}

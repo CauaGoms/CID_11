@@ -1,0 +1,90 @@
+{
+  "prontuario_id": 141,
+  "text": "LOMBOCIATALGIA A ESQUERDA.\n\nDEAMBULA COM AUXILIO DE MULETA.\nFORÇA MM PRESERVADA.\nREFLEXOS PRESENTES.\nSEM ALTERAÇÕES DE SENSIBILIDADE.\nSEM SINAIS DE MIELOPATIA.\nLASEGUE + A ESQ.\n\nRNM - ESPONDILOARTROSE.\nDEGENERACAO DISCAL TORACOLOMBAR.\nPROTUBERANCIA DISCAL DIFUSA DE L3-L4 A L5-S1, ESTREITANDO OS FORAMES NEURAIS NESTES SEGMENTOS.\nHERNIA DISCAL MERGULHANTE MEDIANAMENTE A DIREITA NO SEGMENTO L4-L5, ESTREITANDO O CANAL VERTEBRAL.\n\nINDICAÇÃO CIRÚRGICA.\nRETORNO PARA DISCUSSÃO COM CHEFE DIA 22/05 (PCTE ESCOLHEU A DATA, NÃO É DE Cidade XXXX).\nOR GERAIS.\n\nR1 LUCAS\nR4 LUCAS\n \n \n \n ",
+  "entities": {
+    "Conceito Espacial": [
+      "ESQUERDA",
+      "A ESQ"
+    ],
+    "Dispositivo Médico": [
+      "MULETA"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Procedimento Diagnóstico": [
+      "RNM"
+    ],
+    "Abreviação": [
+      "RNM",
+      "PCTE",
+      "R1",
+      "R4",
+      "FORÇA MM PRESERVADA",
+      "A ESQ",
+      "OR GERAIS"
+    ],
+    "Doença ou Síndrome": [
+      "ESPONDILOARTROSE",
+      "DEGENERACAO DISCAL TORACOLOMBAR",
+      "HERNIA DISCAL MERGULHANTE"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ESPONDILOARTROSE",
+      "LASEGUE +",
+      "DEGENERACAO DISCAL TORACOLOMBAR",
+      "PROTUBERANCIA DISCAL DIFUSA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "R1",
+      "R4"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "R1",
+      "R4"
+    ],
+    "Achado": [
+      "FORÇA MM PRESERVADA",
+      "REFLEXOS PRESENTES"
+    ],
+    "Sinal ou Sintoma": [
+      "ALTERAÇÕES DE SENSIBILIDADE",
+      "SINAIS DE MIELOPATIA",
+      "PROTUBERANCIA DISCAL DIFUSA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "INDICAÇÃO CIRÚRGICA",
+      "OR GERAIS"
+    ]
+  },
+  "labels": {
+    "FA80.8": {
+      "term_original": "degeneracao discal toracolombar",
+      "capitulo": "15",
+      "confidence_embedding": 0.7387,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A degeneração discal toracolombar descrita no contexto clínico se encaixa melhor com a definição de FA80.8, que é a representação CID-11 para Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. A descrição da degeneração discal toracolombar envolvendo os segmentos L3-L4, L5-S1 e estreitamento dos forames neuronais nestes segmentos também é consistente com essa escolha."
+    },
+    "ME65": {
+      "term_original": "alterações de sensibilidade",
+      "capitulo": "21",
+      "confidence_embedding": 0.7535,
+      "descricao_cid": "Representação de doença CID-11: Distúrbios da sensibilidade cutânea de etiologia não especificada. Definição: Grupo de sintomas cutâneos para os quais freqüentemente é impossível identificar uma causa precisa.",
+      "classification_reasoning": "A opção ME65 é a mais precisa para o termo 'alterações de sensibilidade' no contexto clínico, pois refere-se a distúrbios da sensibilidade cutânea de etiologia não especificada. Embora haja outras opções que mencionem sintomas relacionados à sensibilidade (como MB4B.5), ME65 é o código mais específico para alterações de sensibilidade em geral."
+    },
+    "FA80.9": {
+      "term_original": "hernia discal mergulhante",
+      "capitulo": "15",
+      "confidence_embedding": 0.7188,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral em coluna lombar com prolapso de disco. Definição: ",
+      "classification_reasoning": "A hernia discal mergulhante descrita no contexto clínico é um tipo de degeneração do disco intervertebral com prolapso, o que coincide com a descrição do código FA80.9."
+    },
+    "ME93.43": {
+      "term_original": "sinais de mielopatia",
+      "capitulo": "21",
+      "confidence_embedding": 0.7486,
+      "descricao_cid": "Representação de doença CID-11: Estenose de disco intervertebral do canal medular, região lombar. Definição: ",
+      "classification_reasoning": "A escolha do código ME93.43 é mais precisa para o termo 'sinais de mielopatia' pois refere-se à estenose de disco intervertebral do canal medular, região lombar, que está presente no contexto clínico (LASEGUE + A ESQ., HERNIA DISCAL MERGULHANTE MEDIANAMENTE A DIREITA NO SEGMENTO L4-L5, ESTREITANDO O CANAL VERTEBRAL). Isso sugere que a compressão do canal medular é provável e justifica a indicação cirúrgica."
+    }
+  }
+}

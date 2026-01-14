@@ -1,0 +1,164 @@
+{
+  "prontuario_id": 941,
+  "text": "Nefro Geral.\n \n \n \nLucas, 78 anos.\n\nHAS, em uso de ENL 20 x2, ATN 50 x2, HCTZ.\nHPB, episodio de obstrução urinária há 6 anos.\nnega cirurgias abdominais, ex-tabagista (parou há 30 anos).\nAVC em 2013, sem sequelas.\nexames agosto/2014: pH 7, 29;  Bic 22;  PU 1,015; leuc 6M, hem 1M, GJ 93, Na 143,  CT 165,  Cr 2,02;  K 5,8,  Ur 101,  Ca 9,2,  Fe 91,   P 3,6 , HDL 23 , TGL 161,  acido urico 9,4 , LDL 110,  UC neg.\nRx com ectasia da aorta.\nUS: cistos renais simples bilaterais, espessura cortical normal, sem litiase, sem dilatação, próstata 44g, com resíduo vesical pós-miccional (139ml).\nAo exame: 147 cm, 69 kg, IMC 31.\nCorado, hidratado, PA 150 x 70 (MSD e MSE), FC 80, crepitantes bibasais, abdomen globoso sem VCM, edema periférico.",
+  "entities": {
+    "Abreviação": [
+      "HAS",
+      "ENL",
+      "ATN",
+      "HCTZ",
+      "HPB",
+      "AVC",
+      "Rx",
+      "US",
+      "PA",
+      "MSD",
+      "MSE",
+      "FC",
+      "VCM",
+      "Nefro Geral",
+      "Bic 22",
+      "PU 1 , 015",
+      "leuc 6M",
+      "hem 1M",
+      "GJ 93",
+      "CT 165",
+      "Cr 2 , 02",
+      "K 5 , 8",
+      "Ur 101",
+      "Ca 9 , 2",
+      "Fe 91",
+      "próstata 44g"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "HPB",
+      "AVC",
+      "ectasia da aorta"
+    ],
+    "Substância Farmacológica": [
+      "ENL",
+      "ATN",
+      "HCTZ"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "ENL"
+    ],
+    "Substância Química Orgânica": [
+      "ATN",
+      "HCTZ"
+    ],
+    "Negação": [
+      "nega",
+      "sem"
+    ],
+    "Achado": [
+      "ex-tabagista",
+      "Corado",
+      "hidratado",
+      "globoso"
+    ],
+    "Procedimento Laboratorial": [
+      "exames"
+    ],
+    "Procedimento Diagnóstico": [
+      "Rx",
+      "US",
+      "exame"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "litiase",
+      "dilatação",
+      "pH 7 , 29",
+      "Bic 22",
+      "PU 1 , 015",
+      "leuc 6M",
+      "hem 1M",
+      "GJ 93",
+      "Na 143",
+      "CT 165",
+      "Cr 2 , 02",
+      "K 5 , 8",
+      "Ur 101",
+      "Ca 9 , 2",
+      "Fe 91",
+      "P 3 , 6",
+      "HDL 23",
+      "TGL 161",
+      "acido urico 9 , 4",
+      "LDL 110",
+      "UC neg",
+      "ectasia da aorta",
+      "cistos renais simples bilaterais",
+      "espessura cortical normal",
+      "próstata 44g",
+      "com resíduo vesical pós-miccional ( 139ml )",
+      "IMC 31"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MSD",
+      "MSE",
+      "abdomen"
+    ],
+    "Conceito Quantitativo": [
+      "80",
+      "147 cm",
+      "69 kg",
+      "150 x 70"
+    ],
+    "Sinal ou Sintoma": [
+      "VCM",
+      "obstrução urinária",
+      "crepitantes bibasais",
+      "edema periférico"
+    ],
+    "Conceito Temporal": [
+      "há 6 anos",
+      "há 30 anos"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "cirurgias abdominais"
+    ]
+  },
+  "labels": {
+    "GB40": {
+      "term_original": "hpb",
+      "capitulo": "16",
+      "confidence_embedding": 0.77,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A escolha do código GB40 se justifica pela presença de obstrução urinária há 6 anos e a sintomatologia descrita no prontuário, que inclui edema periférico e aumento da pressão arterial. A síndrome nefrítica é uma condição caracterizada por início súbito de doença glomerular, com hematúria grave e oligúria, o que se encaixa na história clínica do paciente."
+    },
+    "BD50.4Z": {
+      "term_original": "ectasia da aorta",
+      "capitulo": "11",
+      "confidence_embedding": 0.7523,
+      "descricao_cid": "Representação de doença CID-11: Aneurisma de aorta abdominal, sem menção de perfuração ou ruptura. Definição: ",
+      "classification_reasoning": "A escolha pelo código BD50.4Z se deve ao fato de que o termo 'ectasia da aorta' sugere uma dilatação adquirida da aorta abdominal, sem menção de perfuração ou ruptura. Esta opção é a mais precisa para descrever o achado clínico."
+    },
+    "ME01": {
+      "term_original": "crepitantes bibasais",
+      "capitulo": "21",
+      "confidence_embedding": 0.7213,
+      "descricao_cid": "Representação de doença CID-11: Distensão abdominal. Definição: Esta é uma condição em que o abdômen parece cheio e tenso por causa do inchaço do abdômen, geralmente devido a um aumento da quantidade de gases intestinais, mas ocorre às vezes quando fluidos, substâncias ou massa estão se acumulando ou se expandindo no abdômen.",
+      "classification_reasoning": "A descrição 'crepitantes bibasais' refere-se ao som de roncos e estalos audíveis na área abdominal, sugerindo a presença de gases intestinais aumentados, o que é característico da distensão abdominal (Código ME01)"
+    },
+    "FB50.2": {
+      "term_original": "edema periférico",
+      "capitulo": "15",
+      "confidence_embedding": 0.7646,
+      "descricao_cid": "Representação de doença CID-11: Cisto sinovial do espaço poplíteo. Definição: Este é o edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho",
+      "classification_reasoning": "A presença de edema periférico na avaliação física do paciente, associado à história de HPB e idade avançada, sugere uma representação benigna do edema sinovial do espaço poplíteo (código FB50.2), mais provável do que outras opções."
+    },
+    "8B25.4": {
+      "term_original": "avc",
+      "capitulo": "08",
+      "confidence_embedding": 0.7453,
+      "descricao_cid": "Representação de doença CID-11: Efeitos tardios de acidente vascular cerebral desconhecido se isquêmico ou hemorrágico. Definição: Efeitos tardios ocorrendo após 1 mês ou mais do início da doença. Os códigos para acidente vascular cerebral (AVC) agudo devem ser usados ​​exclusivamente para AVC agudo e episódios de hospitalização imediatamente relacionados.",
+      "classification_reasoning": "A escolha do código 8B25.4 é mais precisa pois Lucas tem história de AVC em 2013, sem sequelas, e os códigos para acidente vascular cerebral (AVC) agudo devem ser usados ​​exclusivamente para AVC agudo e episódios de hospitalização imediatamente relacionados."
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "prontuario_id": 529,
+  "text": "TX RENAL.\n\nTX RENAL COM CR 1,2 - 1,5 COM NS FK 8,0.\nDM / HAS.\nLOMBOCIATALGIA.\n \n \nTX RENAL.\nMTC 10, TAC 3 / 2, MS 2 / 2, ATENOL 100, OMEPRAZOL 40, NISTATINA , BACTRIM, METFORMINA X 2, PURAN 50, AMIODARONA 200, NPH 55 / 10 / 10, REGULAR 15 / 10\n\nS: NÃO USOU O ROCEFIN IM PRESRITO.\nLOMBOCIATALGIA D COM IMPOTENCIA FUNCIONAL.\n\nO: PA 120/90,  P 78,  AFEBRIL.  \nEX SEGMNETAR CONTRATURA PARAVERTEBRAL D.\nLASSEGUE +  AD.\nSEM GIORDANO.",
+  "entities": {
+    "Abreviação": [
+      "DM",
+      "HAS",
+      "MTC",
+      "TAC",
+      "MS",
+      "PA",
+      "P",
+      "TX RENAL",
+      "CR 1 , 2 - 1 , 5",
+      "NS FK 8 , 0",
+      "EX SEGMNETAR",
+      "CONTRATURA PARAVERTEBRAL D"
+    ],
+    "Doença ou Síndrome": [
+      "DM",
+      "HAS",
+      "LOMBOCIATALGIA"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "TAC",
+      "MS",
+      "ATENOL",
+      "OMEPRAZOL",
+      "BACTRIM",
+      "METFORMINA",
+      "PURAN",
+      "AMIODARONA",
+      "NPH",
+      "REGULAR"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "ATENOL",
+      "OMEPRAZOL",
+      "NISTATINA",
+      "BACTRIM",
+      "METFORMINA",
+      "PURAN",
+      "AMIODARONA",
+      "ROCEFIN IM"
+    ],
+    "Conceito Quantitativo": [
+      "10",
+      "100",
+      "40",
+      "50",
+      "200",
+      "120/90",
+      "78",
+      "3 / 2",
+      "/ 2",
+      "X 2",
+      "55 / 10 / 10",
+      "15 / 10"
+    ],
+    "Antibiótico": [
+      "NISTATINA",
+      "ROCEFIN IM"
+    ],
+    "Hormônio": [
+      "PURAN",
+      "NPH",
+      "REGULAR"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "NPH",
+      "REGULAR"
+    ],
+    "Negação": [
+      "NÃO",
+      "AFEBRIL",
+      "SEM"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "PRESRITO"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P"
+    ],
+    "Sinal ou Sintoma": [
+      "AFEBRIL",
+      "IMPOTENCIA FUNCIONAL",
+      "CONTRATURA PARAVERTEBRAL D"
+    ],
+    "Localização ou Região Corporal": [
+      "AD"
+    ],
+    "Procedimento Diagnóstico": [
+      "GIORDANO",
+      "EX SEGMNETAR"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 1 , 2 - 1 , 5",
+      "NS FK 8 , 0",
+      "LASSEGUE +"
+    ]
+  },
+  "labels": {
+    "8C80": {
+      "term_original": "lombociatalgia",
+      "capitulo": "08",
+      "confidence_embedding": 0.7411,
+      "descricao_cid": "Representação de doença CID-11: Miopatia induzida por drogas. Definição: Miopatia causada por medicamentos que variam de mialgias leves com ou sem fraqueza leve até miopatia crônica com fraqueza grave, e rabdomiólise maciça com insuficiência renal aguda. Pode ser devida a vários mecanismos diferentes, incluindo miotoxicidade direta, danos musculares imunomediados e indiretos por meio de coma induzido por drogas, hipocalemia induzida por drogas, estados hipercinéticos induzidos por drogas ou estados distônicos.",
+      "classification_reasoning": "A lombociatalgia é descrita como um sintoma presente no paciente, associada à impotência funcional. Acredita-se que isso seja relacionado a uma miopatia induzida por drogas, considerando o uso de vários medicamentos mencionados no prontuário (atenolol, omeprazol, amiodarona, metformina)."
+    },
+    "5C51.20": {
+      "term_original": "has",
+      "capitulo": "05",
+      "confidence_embedding": 0.7901,
+      "descricao_cid": "Representação de doença CID-11: Hiperoxalúria primária tipo I. Definição: A hiperoxalúria tipo 1 é devido a um defeito numa enzima hepática peroxissomal alanina glioxilato aminotransferase. A forma infantil é caracterizada por insuficiência renal crônica por deposição excessiva de oxalato. Em outros pacientes apresenta-se como urolitíase recidivante , que se deteriora com infecções, hematúria, cólicas nefréticas ou comprometimento renal agudo por obstrução completa. Doença renal terminal ocorre antes dos 15 anos de idade em metade dos casos e acabam levando a deposição de oxalato em outros tecidos, causando defeitos de condução cardíaca, hipertensão, gangrena distal e redução da mobilidade e dor articular.",
+      "classification_reasoning": "A presença do termo 'has' no contexto sugeriu a possibilidade de hiperoxalúria primária tipo I, caracterizada por representação de doença renal com deposição excessiva de oxalato."
+    },
+    "HA01.1": {
+      "term_original": "impotencia funcional",
+      "capitulo": "17",
+      "confidence_embedding": 0.7067,
+      "descricao_cid": "Representação de doença CID-11: Disfunção erétil do homem. Definição: A disfunção erétil peniana é caracterizada pela incapacidade ou redução acentuada na capacidade dos homens de atingir ou manter uma ereção peniana de duração ou rigidez suficiente para permitir a atividade sexual. O padrão de dificuldade erétil ocorre apesar do desejo de atividade sexual e estimulação sexual adequadas, de forma episódica ou persistente por um período de pelo menos vários meses e está associado a sofrimento clinicamente significativo.",
+      "classification_reasoning": "A impotência funcional descrita no termo é uma disfunção erétil do homem, caracterizada pela incapacidade de atingir ou manter uma ereção peniana de duração ou rigidez suficiente para permitir a atividade sexual."
+    },
+    "FA80.8": {
+      "term_original": "contratura paravertebral d",
+      "capitulo": "15",
+      "confidence_embedding": 0.7426,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A contratura paravertebral D é mais provável ser uma degeneração de disco intervertebral da coluna lombar sem prolapso de disco, considerando a presença de dor lombociatalgia e a referência à coluna lombar no contexto do prontuário."
+    },
+    "5C50.10": {
+      "term_original": "dm",
+      "capitulo": "05",
+      "confidence_embedding": 0.765,
+      "descricao_cid": "Representação de doença CID-11: Alcaptonúria. Definição: A alcaptonúria é caracterizada pelo acúmulo de ácido homogentísico (HGA) e seu produto oxidado ácido benzoquinona acético (BQA), levando ao escurecimento da urina quando deixada exposta ao ar, coloração cinza-azulada da esclera do olho e da hélice da orelha (ocronose), e doença articular incapacitante que envolve as articulações axiais e periféricas (artropatia ocronótica).",
+      "classification_reasoning": "A presença do termo 'DM' no contexto clínico sugere a presença de diabetes melito, o que é relacionado à alcaptonúria (5C50.10) e não com outras opções listadas."
+    }
+  }
+}

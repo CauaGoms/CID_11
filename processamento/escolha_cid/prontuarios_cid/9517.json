@@ -1,0 +1,107 @@
+{
+  "prontuario_id": 628,
+  "text": "DRC ESTAGIO 5 EM HD\nASMA BRONQUICA SEM SEGUIMENTO\nCRISE HIPERTENSIVA HÁ 2 SEMANAS EM AJUSTE DE PESO SECO\nFALENCIA ENXERTO RENAL > CAUSA ? PRA SEM DSA\nNEFRECTOMIA ENXERTO\nFAV RC D NÃO FUNCIONANTE\nS : DESEJO DE NOVO TX RENAL\nO : PA 140/100  P 76  AFEBRIL\nSEGMENTAR INALTERADO\nDRC ESTAGIO 5\nUSO PERMCATH\nASMA COMPENSADA\nDESEJO DE RE - TX\n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "HD",
+      "PRA",
+      "DSA",
+      "FAV",
+      "RC",
+      "D",
+      "PA",
+      "P",
+      "DRC ESTAGIO 5",
+      "TX RENAL",
+      "RE - TX"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "HD",
+      "SEGUIMENTO",
+      "NEFRECTOMIA",
+      "ENXERTO",
+      "FAV",
+      "AJUSTE DE PESO SECO",
+      "TX RENAL",
+      "RE - TX"
+    ],
+    "Negação": [
+      "SEM",
+      "NÃO",
+      "AFEBRIL"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "SEGUIMENTO"
+    ],
+    "Procedimento Laboratorial": [
+      "PRA",
+      "DSA"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "DSA"
+    ],
+    "Fator Imunológico": [
+      "DSA"
+    ],
+    "Achado": [
+      "FUNCIONANTE",
+      "AFEBRIL",
+      "SEGMENTAR INALTERADO"
+    ],
+    "Conceito Qualitativo": [
+      "FUNCIONANTE"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P"
+    ],
+    "Conceito Quantitativo": [
+      "140/100",
+      "76"
+    ],
+    "Dispositivo Médico": [
+      "PERMCATH"
+    ],
+    "Doença ou Síndrome": [
+      "DRC ESTAGIO 5",
+      "ASMA BRONQUICA",
+      "CRISE HIPERTENSIVA",
+      "ASMA COMPENSADA"
+    ],
+    "Sinal ou Sintoma": [
+      "CRISE HIPERTENSIVA",
+      "AJUSTE DE PESO SECO",
+      "FALENCIA ENXERTO RENAL"
+    ]
+  },
+  "labels": {
+    "CA23.00": {
+      "term_original": "asma compensada",
+      "capitulo": "12",
+      "confidence_embedding": 0.7851,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide.",
+      "classification_reasoning": "A escolha é baseada no termo 'asma compensada', que se refere à situação do paciente, que tem asma bronquica, e a descrição da doença é consistente com o termo extraído."
+    },
+    "BA03": {
+      "term_original": "crise hipertensiva",
+      "capitulo": "11",
+      "confidence_embedding": 0.7663,
+      "descricao_cid": "Representação de doença CID-11: Crise hipertensiva. Definição: ",
+      "classification_reasoning": "A crise hipertensiva é um termo específico que se refere a uma situação aguda de pressão arterial elevada, o que é descrita no prontuário como 'crise hipertensiva há 2 semanas em ajuste de peso seco'. Dessa forma, a opção mais precisa para o termo dentro do contexto clínico é BA03."
+    },
+    "MF54.2": {
+      "term_original": "drc estagio 5",
+      "capitulo": "21",
+      "confidence_embedding": 0.748,
+      "descricao_cid": "Representação de doença CID-11: Hipoplasia renal. Definição: Condição caracterizada por um rim menor em tamanho e peso do que a média (menos de 11 centímetros de comprimento, 5-7,5 centímetros de largura, 2,5 centímetros de espessura e pesando menos de 120 gramas).",
+      "classification_reasoning": "A opção mais precisa é a hipoplasia renal (Código MF54.2), pois o termo 'DRC Estágio 5' refere-se à função renal e não está relacionado às outras opções apresentadas. Além disso, a hipoplasia renal é uma condição que pode estar associada a doenças renais crônicas, como a nefropatia, o que se encontra descrita no contexto clínico."
+    },
+    "GB50": {
+      "term_original": "falencia enxerto renal",
+      "capitulo": "16",
+      "confidence_embedding": 0.7789,
+      "descricao_cid": "Representação de doença CID-11: Nefrite túbulo-intersticial aguda. Definição: Doença caracterizada por inflamação aguda dos, e dano aos, túbulos e interstício renal, geralmente acompanhada por insuficiência renal aguda (lesão renal aguda). A histologia mostra infiltrado inflamatório agudo no interstício com edema e necrose de células tubulares, e frequentemente eosinófilos e plasmócitos proeminentes. Geralmente devida a uma reação alérgica ou imunológica a um alérgeno identificável. Geralmente acompanhada por insuficiência renal aguda, que pode ser reversível se o alérgeno for retirado rapidamente com ou sem administração de corticosteroides. Pode causar nefrite tubulointersticial crônica, particularmente se a exposição ao alérgeno não for de curto prazo. Pode estar associada a outros sinais de uma reação alérgica, como erupção cutânea ou febre.",
+      "classification_reasoning": "A falência do enxerto renal é um resultado esperado de uma nefrite tubulointersticial aguda, que caracteriza-se por inflamação e dano nos túbulos e interstício renal. Além disso, a presença de Síndrome de Doença Renal Crônica (DRC) Estágio 5 e Nefrectomia Enxerto também aponta para essa opção."
+    }
+  }
+}

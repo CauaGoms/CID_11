@@ -1,0 +1,138 @@
+{
+  "prontuario_id": 119,
+  "text": "POS TX RENAL.\nPOS TX RENAL - CR 0,7, SEM NS FK;\nHAS COMPENSADA.\nDSLP.\n \n \nPOS TX RENAL 2,5 A - DC.\nUSO DE: MTC 5,  MS 2/1, FK 1/1, ATENOLOL 50 X2, NFD 20 X2, OMZ 20, SVT 20.\nS # QUADRO DE IVAS RECENTE.\nO # BEG, CORADA, HIDRATADA.\nPA 130/60;\nMV POSITIVO, SIMETRICO.\nBCRNF.\nABDOMEN FLACIDO, INDOLOR, SEM MASSAS,\nRHA POSITIVOS.\nMEMBROS DISCRETO EDEMA.",
+  "entities": {
+    "Negação": [
+      "SEM",
+      "INDOLOR"
+    ],
+    "Doença ou Síndrome": [
+      "DSLP"
+    ],
+    "Abreviação": [
+      "DSLP",
+      "DC",
+      "MTC",
+      "MS",
+      "FK",
+      "OMZ",
+      "SVT",
+      "S",
+      "IVAS",
+      "O",
+      "BEG",
+      "PA",
+      "BCRNF",
+      "POS TX RENAL",
+      "CR 0 , 7",
+      "HAS COMPENSADA",
+      "POS TX",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "ATENOLOL",
+      "OMZ",
+      "SVT"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "MS",
+      "FK",
+      "ATENOLOL",
+      "NFD",
+      "OMZ",
+      "SVT"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "2/1",
+      "1/1",
+      "20",
+      "130/60"
+    ],
+    "Achado": [
+      "S",
+      "BEG",
+      "CORADA",
+      "HIDRATADA",
+      "SIMETRICO",
+      "BCRNF",
+      "POS TX RENAL",
+      "HAS COMPENSADA",
+      "POS TX",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Localização ou Região Corporal": [
+      "ABDOMEN",
+      "MEMBROS"
+    ],
+    "Sinal ou Sintoma": [
+      "INDOLOR",
+      "MASSAS",
+      "EDEMA"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Conceito Temporal": [
+      "POS TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 7",
+      "NS FK"
+    ],
+    "Procedimento Laboratorial": [
+      "NS FK"
+    ]
+  },
+  "labels": {
+    "EC90.1": {
+      "term_original": "massas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7112,
+      "descricao_cid": "Representação de doença CID-11: Prurido devido a transtorno sistêmico. Definição: Prurido devido a transtorno sistêmico subjacente, como insuficiência renal ou icterícia colestática.",
+      "classification_reasoning": "A opção mais precisa para o termo 'massas' no contexto clínico é a síndrome de prurido devido a transtorno sistêmico (EC90.1), pois não há indicações de lúpus eritematoso cutâneo subagudo (EB50) ou necrólise epidérmica tóxica (EB13.0). Além disso, o prurido urêmico (EC90.10) e o prurido associado à hemodiálise (EC90.12) também não são a escolha mais adequada porque não estão relacionados às massas descritas no contexto."
+    },
+    "BD71.2": {
+      "term_original": "pos tx",
+      "capitulo": "11",
+      "confidence_embedding": 0.7116,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A opção mais precisa é a BD71.2, pois o termo 'pos tx renal' indica que se refere ao tratamento de doença renal e a descrição da Trombose da veia renal (BD71.2) combina melhor com as informações do prontuário, como a hipertensão controlada e a presença de RHA positivos."
+    },
+    "FA27.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.6959,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'edema' no contexto clínico é a reumatismo palindrômico, pois apresenta crises agudas de dor e edema nas articulações, caracterizando a ocorrência de edema nos membros. Além disso, a descrição da doença menciona a possibilidade de desenvolvimento da artrite reumatoide."
+    },
+    "GB40": {
+      "term_original": "has compensada",
+      "capitulo": "16",
+      "confidence_embedding": 0.7571,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A opção mais precisa é a Síndrome nefrítica (Código GB40), pois o termo 'has compensada' sugere que a doença renal está controlada e não há indicações de insuficiência renal aguda. Além disso, a presença de edema leve e albuminúria ou proteinúria subnefrótica também apoia essa escolha."
+    },
+    "BA02": {
+      "term_original": "pos tx renal",
+      "capitulo": "11",
+      "confidence_embedding": 0.7609,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A escolha do código BA02 se baseia na presença de 'POS TX RENAL' no contexto clínico, o que indica que o paciente foi submetido a uma procededura de tratamento renal. Além disso, há referências à doença renal hipertensiva e ao quadro de IVAS recente, o que reforça a escolha do código BA02 como a mais precisa."
+    },
+    "BA01": {
+      "term_original": "mv positivo",
+      "capitulo": "11",
+      "confidence_embedding": 0.7244,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A opção mais precisa é a Doença cardíaca hipertensiva (Código: BA01), pois o termo 'mv positivo' sugere uma alteração na função ventricular do coração, compatível com a hipertensão crônica e as consequências cardiovasculares descritas no contexto."
+    }
+  }
+}

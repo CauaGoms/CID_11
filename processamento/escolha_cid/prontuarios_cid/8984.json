@@ -1,0 +1,175 @@
+{
+  "prontuario_id": 349,
+  "text": "Às 07:58Hrs: Cliente em glw 15, pupilas iso / foto + , respiração espontânea em aa, eupneica, face corada, mucosa oral hidratada, boa perfusão periferica, no leito com cabeceira elevada á 30°. Jejum para procedimento cx. Mantem com monitorização de multiparametros, ECG, PNI, SpO2, acesso venoso periferico em MSE com srt em curso gravitacional. Apresenta ausculta cardiaca ritmica e normofonetica, ausculta pulmonar MV +, sem R/A, abdomen plano e flacido, com RHA + . Faz uso de SVD aberta com debito diuretico presente ++ de coloração amarelo claro, eliminação fecal ausente. segue cuidados. Às 10:20hs: Boa aceitação de dieta líquida pastosa VO. Sentado na poltrona. Ás 23:00h, encaminhado de ambulância para o X-Leme para realizar RNM, sob cuidados da aux de enfermagem, retorno por volta das 01:30h, exame realizado sem intercorrências. Laudo da RNM mantido juntamente como prontuário do pcte. Aguarda reavaliação e conduta médica.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Cliente",
+      "pcte"
+    ],
+    "Achado": [
+      "eupneica",
+      "ritmica",
+      "normofonetica",
+      "plano",
+      "flacido",
+      "glw 15",
+      "pupilas iso / foto +",
+      "respiração espontânea em aa",
+      "face corada",
+      "mucosa oral hidratada",
+      "boa perfusão periferica",
+      "MV +",
+      "RHA +",
+      "debito diuretico presente",
+      "coloração amarelo claro",
+      "eliminação fecal",
+      "Boa aceitação de dieta líquida pastosa VO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Jejum",
+      "SpO2",
+      "cabeceira elevada á 30°",
+      "procedimento cx",
+      "acesso venoso periferico",
+      "srt em curso gravitacional",
+      "SVD aberta"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECG",
+      "PNI",
+      "RNM",
+      "monitorização de multiparametros",
+      "ausculta cardiaca",
+      "ausculta pulmonar"
+    ],
+    "Abreviação": [
+      "ECG",
+      "PNI",
+      "SpO2",
+      "MSE",
+      "R/A",
+      "RNM",
+      "pcte",
+      "glw 15",
+      "pupilas iso / foto +",
+      "respiração espontânea em aa",
+      "procedimento cx",
+      "srt em curso gravitacional",
+      "MV +",
+      "RHA +",
+      "SVD aberta",
+      "Boa aceitação de dieta líquida pastosa VO",
+      "aux de enfermagem",
+      "Laudo da RNM"
+    ],
+    "Localização ou Região Corporal": [
+      "MSE",
+      "abdomen"
+    ],
+    "Negação": [
+      "sem",
+      "ausente"
+    ],
+    "Sinal ou Sintoma": [
+      "R/A",
+      "intercorrências"
+    ],
+    "Conceito Funcional": [
+      "uso"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "cuidados",
+      "exame"
+    ],
+    "Dispositivo Médico": [
+      "ambulância",
+      "acesso venoso periferico",
+      "SVD aberta"
+    ],
+    "Produto Intelectual": [
+      "prontuário"
+    ],
+    "Função Fisiológica": [
+      "debito diuretico presente",
+      "eliminação fecal"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "aux de enfermagem"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Laudo da RNM"
+    ]
+  },
+  "labels": {
+    "BC63.3": {
+      "term_original": "rha +",
+      "capitulo": "11",
+      "confidence_embedding": 0.7855,
+      "descricao_cid": "Representação de doença CID-11: Bloqueio de ramo direito. Definição: Transtorno do sistema de condução atrioventricular caracterizado por duração prolongada do QRS (maior ou igual a 120 ms em adultos, maior que 100 ms em crianças de 4 a 16 anos e maior que 90 ms em crianças menores de 4 anos), rsr , rsR ou rSR nas derivações V1 ou V2, onda S de duração maior do que a onda R (ou maior que 40 ms nas derivações I e V6 em adultos)",
+      "classification_reasoning": "A presença de RHA+ no prontuário sugere um bloqueio de ramo direito, caracterizado pelo duração prolongada do QRS e padrão qR na derivação aVL."
+    },
+    "CB41.1": {
+      "term_original": "glw 15",
+      "capitulo": "12",
+      "confidence_embedding": 0.77,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência respiratória crônica. Definição: Na insuficiência respiratória crônica a hipoxemia ocorre ao longo de semanas ou meses (mais de 7 dias) e a insuficiência respiratória se desenvolve mais lentamente e dura mais tempo do que na insuficiência respiratória aguda.",
+      "classification_reasoning": "O termo 'glw 15' sugere que o paciente apresenta insuficiência respiratória crônica, pois a glóculo (glw) é uma unidade de medida para a capacidade residual pulmonar (CVR), e um valor de 15 indica uma redução significativa da função pulmonar. Além disso, a presença de outros achados clínicos, como ausculta cardiaca ritmica e normofonetica, ausculta pulmonar MV+, sem R/A, sugere que a insuficiência respiratória é crônica e não aguda."
+    },
+    "BB24": {
+      "term_original": "debito diuretico presente",
+      "capitulo": "11",
+      "confidence_embedding": 0.7364,
+      "descricao_cid": "Representação de doença CID-11: Hemopericárdio. Definição: Hemopericárdio causado por doenças não classificadas em outra parte. Hemopericárdio geralmente se refere a sangue no saco pericárdico do coração. É clinicamente semelhante ao derrame pericárdico e, dependendo do volume e da rapidez com que se desenvolve, pode causar tamponamento cardíaco.",
+      "classification_reasoning": "A opção mais precisa para o termo 'debito diuretico presente' é Hemopericárdio (BB24), pois este termo sugere a presença de fluidos no saco pericárdico, o que está relacionado ao aumento da produção de líquido e eliminação insuficiente, característico do debito diuretico."
+    },
+    "CA23.0": {
+      "term_original": "mv +",
+      "capitulo": "12",
+      "confidence_embedding": 0.7538,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica. Definição: Asma alérgica é o fenótipo de asma mais facilmente reconhecido. Frequentemente, inicia-se na infância e é associada a um histórico pessoal ou familiar de doença alérgica, como eczema, rinite alérgica, ou alergia a drogas e alimentos. O exame do escarro induzido desses pacientes, antes do tratamento, geralmente revela uma inflamação eosinofílica das vias aéreas. O principal gatilho é a exposição a alérgenos, como o ácaro da poeira doméstica e ao pólen, aos quais o indivíduo tenha sido, previamente, sensibilizado. Os pacientes com esse fenótipo de asma, usualmente, respondem bem a corticoide inalatório e à imunoterapia alérgeno-específica.",
+      "classification_reasoning": "A opção mais precisa para o termo 'MV+' é a Asma alérgica (CA23.0) pois na auscultação pulmonar, há um sinal de aumento da resistência à ventilação (MV+), característico da asma."
+    },
+    "MC20.2": {
+      "term_original": "face corada",
+      "capitulo": "21",
+      "confidence_embedding": 0.7387,
+      "descricao_cid": "Representação de doença CID-11: Hipópio. Definição: Hipópio é a presença de células inflamatórias na câmara anterior do olho. Corresponde a um exsudato leucocitário, observado na câmara anterior, geralmente acompanhado de hiperemia de conjuntiva e episclera subjacente. É um sinal de inflamação da úvea anterior e da íris, ou seja, irite, que é uma forma de uveíte anterior. O exsudado deposita-se no fundo devido à ação da gravidade.",
+      "classification_reasoning": "A face corada indica a presença de hiperemia de conjuntiva e episclera subjacente, característica da uveíte anterior, que é uma forma de irite. Isso é consistente com o código MC20.2, que descreve hipópio, um tipo de uveíte anterior."
+    },
+    "MC82.0": {
+      "term_original": "plano",
+      "capitulo": "21",
+      "confidence_embedding": 0.7553,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico.",
+      "classification_reasoning": "A presença de taquicardia e fibrilação ventricular na ausculta cardiaca, juntamente com a ausência de razão aparente para a elevação da cabeceira, sugerem uma possível parada cardíaca com taquicardia e fibrilação ventricular."
+    },
+    "MF95": {
+      "term_original": "pupilas iso / foto +",
+      "capitulo": "21",
+      "confidence_embedding": 0.7646,
+      "descricao_cid": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular.",
+      "classification_reasoning": "A presença de pupilas iso/foto+ sugere uma possível mioglobinúria, que é caracterizada pela presença de mioglobina na urina. Isso está relacionado a problemas musculares e pode estar associado à rabdomiólise."
+    },
+    "ME07.Y": {
+      "term_original": "eliminação fecal",
+      "capitulo": "21",
+      "confidence_embedding": 0.7968,
+      "descricao_cid": "Representação de doença CID-11: Outra incontinência fecal especificada. Definição: ",
+      "classification_reasoning": "A eliminação fecal ausente pode ser uma indicação de incontinência fecal não especificada, ou seja, ME07.Z. No entanto, ao considerar o contexto clínico e a falta de outras alterações gastrointestinais mencionadas (flatulência, etc.), é mais provável que se trate de uma constipação aguda com incontinência fecal, descrita como ME07.Y."
+    },
+    "Z98.4": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'intercorrências' se refere a eventuais complicações ou problemas que ocorreram durante o procedimento RNM. A opção mais precisa é Z98.4, que descreve representação de doença CID-11: Outra complicação da terapia médica. Isso inclui qualquer problema que possa ter surgido durante a realização do exame RNM."
+    },
+    "MG31.0": {
+      "term_original": "r/a",
+      "capitulo": "21",
+      "confidence_embedding": 0.7603,
+      "descricao_cid": "Representação de doença CID-11: Dor aguda na face, não classificada em outra parte. Definição: ",
+      "classification_reasoning": "A ausculta cardiaca e pulmonar descrita no contexto clínico sugere que a dor aguda na face está relacionada ao sistema cardiovascular ou respiratório, o que justifica a escolha do código MG31.0."
+    }
+  }
+}

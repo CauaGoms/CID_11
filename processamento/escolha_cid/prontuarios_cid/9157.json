@@ -1,0 +1,68 @@
+{
+  "prontuario_id": 856,
+  "text": "PO LE + TADF EM 01/12/15.\nASSINTOMATICO.\nNEGA QUEIXA TORACOABDOMINAL.\nMV + SIMETRICO, BILATERAL.\nABD FLACIDO, SEM DOR, FO LIMPOS, SEM SECREÇÕES, RETIRO GRAMPOS DE PELE.\nRETORNO 1 MÊS.\n\nR2 LUCAS.\nDR VITAL BRASIL.",
+  "entities": {
+    "Abreviação": [
+      "PO",
+      "FO",
+      "R2",
+      "DR",
+      "LE + TADF",
+      "MV +"
+    ],
+    "Conceito Temporal": [
+      "PO",
+      "1 MÊS"
+    ],
+    "Conceito Espacial": [
+      "BILATERAL"
+    ],
+    "Localização ou Região Corporal": [
+      "ABD"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR",
+      "QUEIXA TORACOABDOMINAL"
+    ],
+    "Achado": [
+      "LIMPOS",
+      "MV +"
+    ],
+    "Substância Corporal": [
+      "SECREÇÕES"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "RETORNO",
+      "RETIRO GRAMPOS DE PELE"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "LE + TADF"
+    ],
+    "Dispositivo Médico": [
+      "RETIRO GRAMPOS DE PELE"
+    ]
+  },
+  "labels": {
+    "ED64": {
+      "term_original": "limpos",
+      "capitulo": "14",
+      "confidence_embedding": 0.7773,
+      "descricao_cid": "Representação de doença CID-11: Pigmentação anormal da pele. Definição: Pigmentação anormal da pele sem especificação do tipo ou causa.",
+      "classification_reasoning": "A opção mais precisa para o termo 'limpos' no contexto do prontuário é ED64, que corresponde à representação de doença CID-11: Pigmentação anormal da pele. A descrição da opção menciona a falta de especificação do tipo ou causa, o que se adequa ao fato de não haver informações adicionais sobre as características da pele em questão."
+    },
+    "FB54.1": {
+      "term_original": "dor",
+      "capitulo": "15",
+      "confidence_embedding": 0.7092,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da banda iliotibial. Definição: Esta é a lesão mais comum da porção lateral do joelho de corredores. Ela é uma lesão não traumática, pelo uso excessivo, causada pela flexão e extensão repetida do joelho, que leva à irritação das estruturas ao redor do joelho e consequente dor.",
+      "classification_reasoning": "A opção mais precisa é a síndrome da banda iliotibial (FB54.1) porque o termo 'dor' está associado à queixa toracoabdominal negada e ao MV + simétrico, bilateral, sem dor, o que sugere que a dor pode estar relacionada ao joelho ou à coluna."
+    },
+    "FA25.20": {
+      "term_original": "mv +",
+      "capitulo": "15",
+      "confidence_embedding": 0.7259,
+      "descricao_cid": "Representação de doença CID-11: Gota tofácea. Definição: Os tofos são deposições de cristais de urato monossódico nos tecidos de pacientes com hiperuricemia e podem estar associados a outras manifestações como a artropatia da gota. Eles são identificados principalmente na pele e no tecido subcutâneo. A hélice da orelha é uma das localizações mais comuns de acometimento dos tofos.",
+      "classification_reasoning": "A presença de 'MV +' no contexto clínico sugere a possibilidade de gota tofácea, pois a definição desse termo refere-se às deposições de cristais de urato monossódico nos tecidos, o que é compatível com a descrição de lesões na pele e subcutâneo."
+    }
+  }
+}

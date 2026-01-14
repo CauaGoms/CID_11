@@ -1,0 +1,124 @@
+{
+  "prontuario_id": 566,
+  "text": "LUCAS, 68 A.\nVALVOPLASTIA AORTICA 2008.\nFLUTTER DESDE 16/08/13. \n\nEM USO DE : MAREVAN, CVD 12,5MG 2X/D,   ENL 10MG  2X/D,  CLOPIDOGREL 75MG.\n\nS:\nSEM QUEIXAS. NEGA PALPITACOES OU OUTROS SINCOPES.\nFOI ATENDIDO PELO Doutor Vital Brazil HA 1M, REALIZADO ECG E ESTAVA EM RITMO SINUSAL.\n\nO:\nPA 120X70,   P 70.\nBCANF SS (EXTRA SISTOLES?),\nCPP LIVRES,\nABD SP.\n\nA:\nFLUTTER + ESV? SINUSAL + ESV?\n\nP:\nMANTIDO ACO.\nSOLICITO ECG E HOLTER.\nRETORNO COM EXAMES.\n\nR4C Lucas\nDoutor Vital Brazil. ",
+  "entities": {
+    "Doença ou Síndrome": [
+      "FLUTTER"
+    ],
+    "Substância Farmacológica": [
+      "MAREVAN",
+      "CVD",
+      "ENL",
+      "CLOPIDOGREL"
+    ],
+    "Substância Química Orgânica": [
+      "CVD",
+      "CLOPIDOGREL"
+    ],
+    "Abreviação": [
+      "CVD",
+      "ENL",
+      "S",
+      "O",
+      "PA",
+      "P",
+      "A",
+      "ESV",
+      "BCANF SS",
+      "CPP LIVRES",
+      "ABD SP",
+      "MANTIDO ACO"
+    ],
+    "Conceito Quantitativo": [
+      "2X/D",
+      "10MG",
+      "75MG",
+      "120X70",
+      "70",
+      "12 , 5MG"
+    ],
+    "Conceito Temporal": [
+      "2X/D"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "ENL"
+    ],
+    "Achado": [
+      "S",
+      "SINUSAL",
+      "CPP LIVRES",
+      "ABD SP"
+    ],
+    "Negação": [
+      "SEM",
+      "NEGA"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "PALPITACOES",
+      "SINCOPES",
+      "BCANF SS",
+      "EXTRA SISTOLES"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ATENDIDO",
+      "REALIZADO",
+      "SOLICITO",
+      "RETORNO"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECG",
+      "A",
+      "HOLTER"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ESV",
+      "SINUSAL",
+      "RITMO SINUSAL"
+    ],
+    "Produto Intelectual": [
+      "P"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "VALVOPLASTIA AORTICA",
+      "MANTIDO ACO"
+    ],
+    "Função Patológica": [
+      "EXTRA SISTOLES"
+    ]
+  },
+  "labels": {
+    "BC61": {
+      "term_original": "sincopes",
+      "capitulo": "11",
+      "confidence_embedding": 0.7893,
+      "descricao_cid": "Representação de doença CID-11: Despolarização juncional prematura. Definição: Despolarização elétrica cardíaca originando-se do nó atrioventricular compacto ou feixe de His, ocorrendo antes do batimento sinusal esperado.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sincopes' é o despolarização juncional prematura (BC61), pois a descrição indica que se trata de uma despolarização elétrica cardíaca originando-se do nó atrioventricular compacto ou feixe de His, ocorrendo antes do batimento sinusal esperado. Isso coincide com a sintomatologia descrita no contexto clínico de 'FLUTTER' e 'SINUSAL'."
+    },
+    "30.0": {
+      "term_original": "extra sistoles",
+      "capitulo": "03",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'extra sistoles' é a deslocação do septo interventricular, característica de flutter atrial. A presença de flutter desde 16/08/13 e a normalidade do ECG realizada há um mês são sugestivas da presença de uma condição mais avançada."
+    },
+    "MC81.1": {
+      "term_original": "bcanf ss",
+      "capitulo": "21",
+      "confidence_embedding": 0.6884,
+      "descricao_cid": "Representação de doença CID-11: Bradicardia não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'BCANF SS' é a Bradicardia não especificada, pois o paciente apresenta um flutter desde 16/08/13 e o termo SS sugere uma freqüência cardíaca regular, embora não especificamente sinusal."
+    },
+    "BC80.2": {
+      "term_original": "sinusal",
+      "capitulo": "11",
+      "confidence_embedding": 0.7825,
+      "descricao_cid": "Representação de doença CID-11: Disfunção do nó sinusal. Definição: Termo inespecífico que se refere a anormalidades na formação e propagação do impulso do nó sinusal e inclui bradicardia sinusal, pausa/parada sinusal, incompetência cronotrópica e bloqueio de saída sinoatrial.",
+      "classification_reasoning": "A opção mais precisa é o códgo BC80.2, pois a descrição da síntese clínica refere-se à disfunção do nó sinusal, que inclui anormalidades na formação e propagação do impulso do nó sinusal. O termo 'sinusal' presente no contexto clínico se refere ao funcionamento normal ou anormal do nó sinusal."
+    }
+  }
+}

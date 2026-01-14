@@ -1,0 +1,103 @@
+{
+  "prontuario_id": 262,
+  "text": "Lucas 22 ANOS \nPACIENTE COM ANTECEDENTE DE HERNIA INGUINAL A DIREITA HA TREIS ANOS  REFERE DOR EM QUEINAÇÃO QUE AUMENTA NA MESTURAÇÃO HA 8 MESES,\nRETORNA NO AMBULATORIO COM US DE ABDOMEN TOTAL NORMAL.\nEF PACIENTE CIENTE ORIENTADA HIDRATADA NORCMOCORADA\nCARDIOPULMONAR ESTAVEL, MV CONSERVADO.\nABDOMEN BRANDO PLANO DEPRESIVEL, LEVE DOR NA PALPAÇÃO NA FID RHA + NORMOATIVOS \nRESTO SP\nUS DE ABDOMEN TOTAL DENTO DE PARAMETROS NORMAIS SEM ALTERAÇÃO\n\nPLANO ENCAMINHO A GINECOLOGISTA.\nALTA PELA CIRUGIA GERAL \n\nR1 Doutor Vital Brazil ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Achado": [
+      "ANTECEDENTE",
+      "CIENTE",
+      "ORIENTADA",
+      "HIDRATADA",
+      "NORCMOCORADA",
+      "CARDIOPULMONAR ESTAVEL",
+      "MV CONSERVADO",
+      "RHA + NORMOATIVOS"
+    ],
+    "Conceito Qualitativo": [
+      "QUEINAÇÃO",
+      "AUMENTA",
+      "LEVE"
+    ],
+    "Função de Organismo": [
+      "MESTURAÇÃO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "RETORNA",
+      "PLANO",
+      "ENCAMINHO",
+      "ALTA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "AMBULATORIO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "NORMAL",
+      "PARAMETROS NORMAIS"
+    ],
+    "Abreviação": [
+      "EF",
+      "SP",
+      "R1",
+      "US DE ABDOMEN TOTAL",
+      "MV CONSERVADO",
+      "RHA + NORMOATIVOS"
+    ],
+    "Procedimento Diagnóstico": [
+      "PALPAÇÃO",
+      "US DE ABDOMEN TOTAL"
+    ],
+    "Localização ou Região Corporal": [
+      "FID"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "ALTERAÇÃO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "GINECOLOGISTA",
+      "R1",
+      "Doutor"
+    ],
+    "Anormalidade Anatômica": [
+      "HERNIA INGUINAL A DIREITA"
+    ],
+    "Conceito Temporal": [
+      "HA TREIS ANOS",
+      "HA 8 MESES"
+    ]
+  },
+  "labels": {
+    "FA32.2": {
+      "term_original": "hernia inguinal a direita",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha do código FA32.2 é a mais precisa para o termo \"hernia inguinal a direita\" no contexto clínico, pois refere-se à hernia inguinal, que é um tipo de doença que afeta o abdome inferior e pode causar dor e outros sintomas."
+    },
+    "BD10": {
+      "term_original": "mv conservado",
+      "capitulo": "11",
+      "confidence_embedding": 0.7563,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos.",
+      "classification_reasoning": "A opção mais precisa é a insuficiência cardíaca congestiva (BD10) pois o termo 'mv conservado' refere-se à função ventricular normal e não há evidências de obstrução de veia visceral ou aneurisma de artéria coronária. Além disso, a paciente apresenta dor na palpação da fossa ilíaca esquerda (+), o que sugere uma lesão cardíaca ou cardiovascular."
+    },
+    "BC43.6": {
+      "term_original": "cardiopulmonar estavel",
+      "capitulo": "11",
+      "confidence_embedding": 0.7667,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia ventricular arritmogênica. Definição: A cardiomiopatia ventricular arritmogênica é uma cardiomiopatia caracterizada pela perda de células miocárdicas com substituição parcial ou total do músculo ventricular direito por tecido adiposo e fibroso, começando pelo subepicárdio e se tornando transmural com o tempo, poupando os músculos papilares e trabéculas, e frequentemente associada a aneurismas, particularmente da via de saída ventricular direita. Há comprometimento sistólico progressivo com dilatação ventricular e acentuada propensão a arritmias ventriculares de origem ventricular direita, e também esquerda. Classicamente uma doença do ventrículo direito, evidências mais recentes sugerem envolvimento do ventrículo esquerdo em extensão variável em até 75% dos casos, assim como doença isolada do ventrículo esquerdo.",
+      "classification_reasoning": "A opção mais precisa para o termo 'cardiopulmonar estável' é a cardiomiopatia ventricular arritmogênica, pois embora não haja evidências de insuficiência cardíaca ou doença cardiovascular, a palavra 'estável' sugere uma condição cardíaca normal, o que se compatibiliza com a descrição da cardiomiopatia ventricular arritmogênica."
+    },
+    "MD81.3": {
+      "term_original": "alteração",
+      "capitulo": "21",
+      "confidence_embedding": 0.825,
+      "descricao_cid": "Representação de doença CID-11: Abdome agudo. Definição: Síndrome clínica com dor abdominal aguda, que é intensa e de início rápido. O abdome agudo pode ser causado por uma variedade de transtornos, lesões ou doenças.",
+      "classification_reasoning": "A dor abdominal aguda descrita no prontuário, com aumento na mesturação há 8 meses, é a mais precisa opção para o termo 'alteração' no contexto clínico."
+    }
+  }
+}

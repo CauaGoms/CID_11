@@ -1,0 +1,167 @@
+{
+  "prontuario_id": 256,
+  "text": "Lucas, 68 ANOS.\n\nCAT EM 2008.\nVALVOPLASTIA AÓRTICA EM 2008. VALVA BIOLÓGICA.\n40 DIAS DE ARRITMIA. CARDIOVERSAO, FICOU BOM.\nQUEIXA DE CANSAÇO ANTES DA CX - PNEUMONIA (SIC).\nFUMANTE POR 40 ANOS, 25 CIGARROS POR DIA.\n\nREFERE ESTAR SEM SINTOMAS CARDIOVASC.\nULTIMA CONSULTA HÁ 1 ANO.\nPA BAIXA (SIC).\n\nEM USO DE:\n- ENALAPRIL 10 - 12/12;\n- CARVEDILOL 6,25 - 12/12;\n- AAS 100;\n- ATORVASTATINA 20 - 2 A NOITE.\n\nEXAME FISICO:\nFC 80,\tPA 150/100,\tFR 16;\nBCRNF COM SOPRO SISTÓLICO EM FOCO AORTICO,\nMV+ BILATERAL, SEM RA.\nRH+, SEM VISCEROMEGALIA OU DOR A PALPAÇÃO. HERNIA UMBULICAL, ANEL HERNIÁRIO DE 5CM, REDUTÍVEL.\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "CAT",
+      "SIC",
+      "AAS",
+      "FC",
+      "PA",
+      "FR",
+      "BCRNF",
+      "RA",
+      "RH+",
+      "SINTOMAS CARDIOVASC",
+      "PA BAIXA",
+      "MV+ BILATERAL"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CAT",
+      "CARDIOVERSAO",
+      "CX",
+      "VALVOPLASTIA AÓRTICA"
+    ],
+    "Doença ou Síndrome": [
+      "ARRITMIA",
+      "PNEUMONIA"
+    ],
+    "Disfunção Mental ou Comportamental": [
+      "FUMANTE"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Substância Farmacológica": [
+      "ENALAPRIL",
+      "CARVEDILOL",
+      "AAS",
+      "ATORVASTATINA"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "ENALAPRIL"
+    ],
+    "Conceito Quantitativo": [
+      "10",
+      "12/12",
+      "100",
+      "20",
+      "80",
+      "150/100",
+      "16",
+      "5CM",
+      "25 CIGARROS POR DIA",
+      "6 , 25"
+    ],
+    "Conceito Temporal": [
+      "12/12",
+      "40 DIAS",
+      "POR 40 ANOS",
+      "2 A NOITE"
+    ],
+    "Substância Química Orgânica": [
+      "CARVEDILOL",
+      "AAS",
+      "ATORVASTATINA"
+    ],
+    "Atributo Clínico": [
+      "FC",
+      "PA",
+      "FR"
+    ],
+    "Achado": [
+      "BCRNF",
+      "RH+",
+      "VALVA BIOLÓGICA",
+      "FICOU BOM",
+      "PA BAIXA",
+      "MV+ BILATERAL"
+    ],
+    "Sinal ou Sintoma": [
+      "RA",
+      "VISCEROMEGALIA",
+      "QUEIXA DE CANSAÇO",
+      "SINTOMAS CARDIOVASC",
+      "SOPRO SISTÓLICO EM FOCO AORTICO"
+    ],
+    "Procedimento Diagnóstico": [
+      "PALPAÇÃO",
+      "EXAME FISICO"
+    ],
+    "Conceito Qualitativo": [
+      "REDUTÍVEL"
+    ],
+    "Dispositivo Médico": [
+      "VALVA BIOLÓGICA"
+    ],
+    "Anormalidade Anatômica": [
+      "HERNIA UMBULICAL",
+      "ANEL HERNIÁRIO"
+    ]
+  },
+  "labels": {
+    "CA40.10": {
+      "term_original": "pneumonia",
+      "capitulo": "12",
+      "confidence_embedding": 0.796,
+      "descricao_cid": "Representação de doença CID-11: Pneumonia devida a Adenovírus. Definição: Doença do sistema pulmonar, causada por uma infecção por um adenovírus. Esta doença caracterizada por febre, calafrios, ou rigores. Pode também se apresentar com dor torácica, tosse produtiva, dispneia, taquipneia, hipóxia e taquicardia. A transmissão ocorre por gotículas. A confirmação é feita pela identificação do adenovírus em amostra de escarro.",
+      "classification_reasoning": "A escolha do Código CA40.10 se baseia na queixa de cansaço antes da CX (pneumonia) e a história de fumar por 40 anos, o que aumenta a suspeita de uma doença pulmonar"
+    },
+    "BC63.3": {
+      "term_original": "ra",
+      "capitulo": "11",
+      "confidence_embedding": 0.7892,
+      "descricao_cid": "Representação de doença CID-11: Bloqueio de ramo direito. Definição: Transtorno do sistema de condução atrioventricular caracterizado por duração prolongada do QRS (maior ou igual a 120 ms em adultos, maior que 100 ms em crianças de 4 a 16 anos e maior que 90 ms em crianças menores de 4 anos), rsr , rsR ou rSR nas derivações V1 ou V2, onda S de duração maior do que a onda R (ou maior que 40 ms nas derivações I e V6 em adultos)",
+      "classification_reasoning": "A opção mais precisa é a BC63.3, Bloqueio de ramo direito, pois o termo 'ra' se refere ao ramo direito do coração e a presença de BCRNF com sopro sistólico em foco aortico sugere um bloqueio do ramo direito."
+    },
+    "FB51.40": {
+      "term_original": "hernia umbulical",
+      "capitulo": "15",
+      "confidence_embedding": 0.701,
+      "descricao_cid": "Representação de doença CID-11: Fibrose retroperitoenal primária. Definição: Esta é a forma mais comum de fibrose retroperitoneal. Por definição, nenhum fator desencadeante (ex. medicamentos ou neoplasia maligna) pode ser determinado, apesar de haver uma associação frequente com a aterosclerose da aorta abdominal. Foi postulado que a aterosclerose poderia ter um papel etiológico em alguns casos.",
+      "classification_reasoning": "A hernia umbilical está descrita como um anel herináriode 5cm, redutível, o que sugere uma lesão congênita ou adquirida na parede abdominal, e não é relacionada a nenhuma outra patologia citada no prontuário."
+    },
+    "MG24.7": {
+      "term_original": "mv+ bilateral",
+      "capitulo": "21",
+      "confidence_embedding": 0.6934,
+      "descricao_cid": "Representação de doença CID-11: Medo de doença cardiovascular. Definição: ",
+      "classification_reasoning": "A opção mais precisa é MG24.7, pois o termo 'mv+ bilateral' refere-se a mediastinal widening ou bilateral mediastinal widening, que é um achado radiológico característico de doenças cardíacas, como infarto do miocárdio ou pericardite, e não está relacionado às outras opções apresentadas."
+    },
+    "MD12.0": {
+      "term_original": "queixa de cansaço",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A queixa de cansaço está relacionada à fadiga crônica, comum em pacientes com doenças cardiovasculares, como a cardiomiopatia e a insuficiência cardíaca. Como Lucas tem uma história de CAT e valvoplastia aoórtica, é provável que ele tenha uma certa medida de fadiga crônica."
+    },
+    "BE12.3": {
+      "term_original": "valva biológica",
+      "capitulo": "11",
+      "confidence_embedding": 0.7853,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência pós procedimento da valva aórtica. Definição: Insuficiência da valva aórtica pós-procedimento do coração que faz com que o sangue flua na direção reversa durante a diástole ventricular, da aorta para o ventrículo esquerdo.",
+      "classification_reasoning": "A valva biológica mencionada no contexto é resultado de um procedimento cardiovascular, como a valvoplastia aórtica, e não é uma cardiomiopatia ventricular arritmogênica (BC43.6) ou insuficiência da valva aórtica (BB71). A escolha pela opção BE12.3 se baseia na definição de insuficiência pós-procedimento da valva aórtica, que é compatível com o histórico clínico de Lucas."
+    },
+    "MC82.0": {
+      "term_original": "sopro sistólico em foco aortico",
+      "capitulo": "21",
+      "confidence_embedding": 0.7223,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico.",
+      "classification_reasoning": "A presença de um 'sopro sistólico em foco aortico' indica uma possível alteração na função ventricular, possivelmente relacionada à valvoplastia aórtica e ao histórico de arritmias. O código MC82.0, que representa parada cardíaca com taquicardia e fibrilação ventricular, é mais preciso para descrever esse termo dentro do contexto clínico."
+    },
+    "BC60": {
+      "term_original": "arritmia",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A presença de arritmia na história do paciente, associada à valvoplastia aórtica e ao uso de cardiopertensivos, indica uma patologia cardiovascular mais ampla. A opção BC60 é mais precisa pois inclui arritmias como uma das complicações atuais subsequentes ao infarto agudo do miocárdio."
+    },
+    "FA24.4": {
+      "term_original": "anel herniário",
+      "capitulo": "15",
+      "confidence_embedding": 0.7126,
+      "descricao_cid": "Representação de doença CID-11: Artrite juvenil sistêmica. Definição: A artrite idiopática juvenil de início sistêmico representa 10-11% dos casos de artrite idiopática juvenil (AIJ), é marcada pela gravidade das manifestações extra-articulares (febre, erupção cutanea) e pela frequência semelhante entre os sexos. Os picos febris são associados com erupções cutâneas transitórias e lesões eritematosas difusas ou urticariformes. A presença de artrite é essencial para o diagnóstico, mas pode se manifestar tardiamente no curso da doença. O acometimento articular é variável (mono, oligo ou poliartrite), em pequenas e grandes articulações, de forma predominantemente simétrica. Essa tríade diagnóstica característica também pode estar associada a adenopatia e hepatoesplenomegalia. As complicações viscerais (pericardite, derrame pleural ou peritonite serosa com dor abdominal) podem estar presentes.",
+      "classification_reasoning": "A descrição do termo 'anel herniário' se refere a uma característica física observada no exame físico, específicamente na região umbilical. A opção FA24.4 é mais precisa para o termo dentro do contexto clínico, pois não há outras opções que descrevam anel herniário como um sintoma ou achado físico."
+    }
+  }
+}

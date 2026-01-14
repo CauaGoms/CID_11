@@ -1,0 +1,82 @@
+{
+  "prontuario_id": 364,
+  "text": "Paciente com quadro clínico de insuficiência cardíca secundária à dupla lesão aórtica com predomínio de insuficiência,  vinha em uso de digital, diuréticos e vasodilatadores. Foi submetido em 03/07 à implante de prótese aórtica  mecânica. Pós-op sem complicações, apresentou boa evolução, INR em 10/07 : 2,2. Ecocárdio pós-op em anexo. Tem alta em bom estado geral, com anemia leve, assintomático, deverá manter o uso das medicações do pré-op, além de warfarin.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Abreviação": [
+      "digital",
+      "Pós-op",
+      "INR",
+      "Ecocárdio",
+      "pós-op",
+      "pré-op"
+    ],
+    "Substância Farmacológica": [
+      "digital",
+      "diuréticos",
+      "vasodilatadores",
+      "medicações",
+      "warfarin"
+    ],
+    "Conceito Temporal": [
+      "Pós-op",
+      "pós-op",
+      "pré-op"
+    ],
+    "Negação": [
+      "sem",
+      "assintomático"
+    ],
+    "Sinal ou Sintoma": [
+      "complicações",
+      "assintomático"
+    ],
+    "Procedimento Diagnóstico": [
+      "Ecocárdio"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "alta"
+    ],
+    "Substância Química Orgânica": [
+      "warfarin"
+    ],
+    "Dispositivo Médico": [
+      "implante de prótese aórtica mecânica"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "implante de prótese aórtica mecânica"
+    ],
+    "Achado": [
+      "boa evolução",
+      "bom estado geral"
+    ],
+    "Doença ou Síndrome": [
+      "anemia leve"
+    ]
+  },
+  "labels": {
+    "": {
+      "term_original": "assintomático",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": ""
+    },
+    "3A71.0": {
+      "term_original": "anemia leve",
+      "capitulo": "03",
+      "confidence_embedding": 0.8103,
+      "descricao_cid": "Representação de doença CID-11: Anemia em doença neoplásica. Definição: Doença causada por doenças neoplásicas crônicas. Esta doença é caracterizada por respostas inflamatórias direcionadas as células vermelhas levando a baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "A escolha é baseada na descrição de 'anemia leve' no contexto do prontuário, que sugere uma anemia relacionada a doença crônica ou neoplásica, e não há indicações de perda sanguínea crônica ou deficiência de ferro. Além disso, a presença de insuficiência cardíaca secundária à dupla lesão aórtica sugere que a anemia é mais provávelmente relacionada a doenças crônicas do que a perda sanguínea."
+    },
+    "NA00.9": {
+      "term_original": "complicações",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'complicações' é NA00.9, que representa representação de doença CID-11: Complicação inespecífica da cirurgia e procedimentos médicos"
+    }
+  }
+}

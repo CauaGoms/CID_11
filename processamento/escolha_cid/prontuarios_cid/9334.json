@@ -1,0 +1,76 @@
+{
+  "prontuario_id": 715,
+  "text": "# ANGIOPLASTIA + IMPLANTE DE STENT NA ADA     PACIENTE COM HISTORIA DE ANGINA PROGRESSIVA ,  INTERNA PARA A REALIZAÇÃO DE ANGIOPLASTIA  DA ARTÉRIA CORONÁRIA DESCENDENTE ANTERIOR . PROCEDIMENTO REALIZADO ATRAVÉS DE PUNÇÃO DA ARTÉRIA RADIAL DIERITA , SEM INTERCORRÊNCIAS . COLOCADO STENT EM ADA .     RECEBE ALTA EM BOAS CONDIÇÕES CLINICAS , COM ORIENTAÇÃO DE MANTER ACOMPANHAMENTO AMBULATORIAL .  #RECOMENDAÇÕES PÓS-ALTA : RETORNO À EMERGÊNCIA EM CASO INTERCORRÊNCIAS . USO DE TICLOPIDINA POR 30 DIAS . RETORNO AO MÉDICO ASSISTENTE .",
+  "entities": {
+    "Procedimento Terapêutico ou Preventivo": [
+      "ANGIOPLASTIA",
+      "PROCEDIMENTO",
+      "IMPLANTE DE STENT"
+    ],
+    "Abreviação": [
+      "ADA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ADA",
+      "ARTÉRIA CORONÁRIA DESCENDENTE ANTERIOR",
+      "ARTÉRIA RADIAL DIERITA"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "INTERNA",
+      "PUNÇÃO",
+      "ALTA",
+      "ORIENTAÇÃO",
+      "RECOMENDAÇÕES",
+      "RETORNO",
+      "ACOMPANHAMENTO AMBULATORIAL"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "INTERCORRÊNCIAS",
+      "ANGINA PROGRESSIVA"
+    ],
+    "Dispositivo Médico": [
+      "STENT"
+    ],
+    "Conceito Temporal": [
+      "PÓS-ALTA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "EMERGÊNCIA"
+    ],
+    "Achado": [
+      "INTERCORRÊNCIAS",
+      "BOAS CONDIÇÕES CLINICAS"
+    ],
+    "Substância Química Orgânica": [
+      "TICLOPIDINA"
+    ],
+    "Substância Farmacológica": [
+      "TICLOPIDINA"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "MÉDICO ASSISTENTE"
+    ]
+  },
+  "labels": {
+    "BA40.Y": {
+      "term_original": "angina progressiva",
+      "capitulo": "11",
+      "confidence_embedding": 0.778,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A escolha do código BA40.Y é mais precisa porque a paciente tem uma história de angina progressiva, o que sugere uma doença coronariana vasoespástica (angina pectoris especificada) e não apenas uma angina pectoris não especificada (BA40.Z). Além disso, a presença de stent em ADA é um indicador de doença coronariana, reforçando a escolha do código BA40.Y."
+    },
+    "NE47.3": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A palavra 'intercorrências' refere-se a situações que ocorrem durante o procedimento ou no pós-operatório, como complicações ou eventos inesperados. O código NE47.3 (Representação de doença CID-11: Consequência indesejável da cirurgia ou procedimento médico) melhor se adapta ao contexto clínico e ao termo extraído."
+    }
+  }
+}

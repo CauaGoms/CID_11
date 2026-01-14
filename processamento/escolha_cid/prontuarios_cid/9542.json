@@ -1,0 +1,82 @@
+{
+  "prontuario_id": 716,
+  "text": "Lucas, 44 anos\nQP : Hérnia incisional. Retorno com exames pré - operatórios\nGastroplastia Sleeve. Re-sleeve Santoro modificada. Reoperado  ( bariátrica ) há 2 anos\nPaciente retornou com solicitação da cardiologia para descrição da intervenção cirúrgica para avaliação cardiológica. \nEcocardiograma: VE hipertrófico e comprometimento discreto da função sistólica, aumento importante de AD, aumento de AD, insuficiencia mitral de grau discreto, dupla lesão aórtica com estenose moderada e refluxo discreto, \naumento discreto da aorta ascendente, hipertensão pulmonar de grau discreto.\nConduta : enviamos carta descrevendo o tipo de intervenção cirúrgica para cardiologia. Aguardando avaliação da cardiologia.\n \n \n \n ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "QP",
+      "Retorno",
+      "retornou",
+      "Conduta",
+      "enviamos",
+      "solicitação da cardiologia",
+      "avaliação cardiológica",
+      "Aguardando avaliação"
+    ],
+    "Abreviação": [
+      "QP",
+      "VE hipertrófico e comprometimento discreto da função sistólica",
+      "aumento importante de AD",
+      "aumento de AD"
+    ],
+    "Achado": [
+      "Retorno",
+      "Reoperado"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Procedimento Diagnóstico": [
+      "Ecocardiograma",
+      "exames pré - operatórios"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "cardiologia"
+    ],
+    "Anormalidade Anatômica": [
+      "Hérnia incisional"
+    ],
+    "Procedimento Laboratorial": [
+      "exames pré - operatórios"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Gastroplastia Sleeve",
+      "Re-sleeve Santoro modificada",
+      "intervenção cirúrgica"
+    ],
+    "Conceito Temporal": [
+      "há 2 anos"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "VE hipertrófico e comprometimento discreto da função sistólica",
+      "aumento importante de AD",
+      "aumento de AD",
+      "insuficiencia mitral de grau discreto",
+      "dupla lesão aórtica com estenose moderada e refluxo discreto",
+      "aumento discreto da aorta ascendente",
+      "hipertensão pulmonar de grau discreto"
+    ]
+  },
+  "labels": {
+    "NC90.9Z": {
+      "term_original": "retorno",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A palavra 'retorno' refere-se ao fato de o paciente ter retornado com exames pré-operatórios e resultados de exame ecocardiográfico, indicando a necessidade de descrição da intervenção cirúrgica para avaliação cardiológica."
+    },
+    "NE85.2": {
+      "term_original": "reoperado",
+      "capitulo": "22",
+      "confidence_embedding": 0.7381,
+      "descricao_cid": "Representação de doença CID-11: Complicações de outras partes reimplantadas do corpo. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'reoperado' é NE85.2, pois a intervenção cirúrgica descrita como 'Re-sleeve Santoro modificada. Reoperado (bariátrica) há 2 anos' refere-se à reimplantação de uma parte do corpo (a barriga), o que atende à definição da opção NE85.2"
+    },
+    "DD56": {
+      "term_original": "hérnia incisional",
+      "capitulo": "13",
+      "confidence_embedding": 0.777,
+      "descricao_cid": "Representação de doença CID-11: Hernia incisional. Definição: A hérnia que ocorre em área fragilizada pela incisão de cirurgia abdominal prévia ou de trauma abdominal maior.",
+      "classification_reasoning": "A hérnia incisional é a opção mais precisa porque a descrição do termo refere-se à hérnia que ocorre em área fragilizada pela incisão de cirurgia abdominal prévia ou de trauma abdominal maior, o que se encaixa com a história clínica do paciente (QP: Hérnia incisional)."
+    }
+  }
+}

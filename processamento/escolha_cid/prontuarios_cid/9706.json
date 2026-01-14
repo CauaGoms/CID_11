@@ -1,0 +1,122 @@
+{
+  "prontuario_id": 330,
+  "text": "DRC ESTAGIO 5 EM HD POR PERMCATH EM SUBCLAVIA D.\n\nS: SEM QUEIXAS.\n\nO: PA 140/100,  P 76,  AFEBRIL,  NORMOLINEA.\nHIPOCORADA E HIDRATADA.\nCPP LIVRES.\nPC RITMO REGULAR.\nABD RHA+, FLÁCIDO, INDOLOR.\nMMII SEM EDEMA.\n\nDRC ESTAGIO 5 EM HD.\nPOTENCIAL DOADOR: LUCAS (MARIDO), XM NEGATIVO.\nEXAMES DE AVALIÇÃO PRE´TX : ADEQUADOS PARA REALIZAÇÃO TX.\n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "HD",
+      "PA",
+      "P",
+      "ABD",
+      "RHA+",
+      "MMII",
+      "DRC ESTAGIO 5",
+      "SUBCLAVIA D",
+      "CPP LIVRES",
+      "EXAMES DE AVALIÇÃO",
+      "REALIZAÇÃO TX"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "HD",
+      "REALIZAÇÃO TX"
+    ],
+    "Dispositivo Médico": [
+      "PERMCATH"
+    ],
+    "Negação": [
+      "SEM",
+      "AFEBRIL",
+      "INDOLOR"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "AFEBRIL",
+      "HIPOCORADA",
+      "INDOLOR",
+      "EDEMA"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PC"
+    ],
+    "Conceito Quantitativo": [
+      "140/100",
+      "76"
+    ],
+    "Achado": [
+      "NORMOLINEA",
+      "HIDRATADA",
+      "RHA+",
+      "FLÁCIDO",
+      "CPP LIVRES",
+      "RITMO REGULAR"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABD",
+      "MMII",
+      "SUBCLAVIA SUBCLAVIA D D"
+    ],
+    "Grupo Familiar": [
+      "MARIDO"
+    ],
+    "Doença ou Síndrome": [
+      "DRC ESTAGIO 5"
+    ],
+    "Grupo Populacional": [
+      "POTENCIAL DOADOR"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "XM NEGATIVO"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAMES DE AVALIÇÃO"
+    ],
+    "Procedimento Laboratorial": [
+      "EXAMES DE AVALIÇÃO"
+    ]
+  },
+  "labels": {
+    "BC71": {
+      "term_original": "ritmo regular",
+      "capitulo": "11",
+      "confidence_embedding": 0.7438,
+      "descricao_cid": "Representação de doença CID-11: Taquiarritmia ventricular. Definição: Qualquer distúrbio do ritmo ventricular com uma frequência mais rápida do que a frequência de escape ventricular normal para a idade.",
+      "classification_reasoning": "A descrição do termo 'ritmo regular' na anamnese sugere que o paciente tem taquiarritmia ventricular, ou seja, um distúrbio do ritmo ventricular com uma frequência mais rápida do que a frequência de escape ventricular normal para a idade."
+    },
+    "FB50.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7486,
+      "descricao_cid": "Representação de doença CID-11: Cisto sinovial do espaço poplíteo. Definição: Este é o edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho",
+      "classification_reasoning": "A opção mais precisa é a Cisto sinovial do espaço poplíteo (FB50.2), pois o termo 'edema' está presente no contexto clínico e se refere ao MMII SEM EDEMA, sugerindo que não há edema nas mãos ou pés, mas sim no local específico mencionado."
+    },
+    "MG30.31": {
+      "term_original": "flácido",
+      "capitulo": "21",
+      "confidence_embedding": 0.729,
+      "descricao_cid": "Representação de doença CID-11: Dor musculoesquelética secundária crônica associada a alterações estruturais. Definição: Dor musculoesquelética secundária crônica associada a alterações estruturais é uma dor crônica de mecanismo(s) desconhecido(s), que é atribuível a alterações anatômicas em articulação(ões), osso(s) ou tendão(ões). A alteração estrutural precisa ser inferida a partir de exame clínico e/ou demonstrável por exame de imagem. A dor pode ser espontânea ou induzida por movimento. É caracterizada por aspectos clínicos como inchaço, alodinia ou restrição de movimentos.\r\n\r\nCritérios de Diagnóstico:\r\n\r\nAs condições de A a D são preenchidas:\r\n\r\nA) Dor crônica (persistente ou recorrente por mais de 3 meses) em articulação(ões), osso(s) ou tendão(ões) está presente. A dor pode ser espontânea ou induzida por movimento.\r\n\r\nB) Pelo menos um dos seguintes critérios atendidos:\r\nB1) Inchaço está presente.\r\nB2) Alodinia sobre a parte está presente.\r\n\r\nC) A alteração estrutural é inferida a partir de exame clínico ou de imagem.\r\n\r\nD) A dor não é melhor explicada por outro diagnóstico de dor crônica.",
+      "classification_reasoning": "A opção mais precisa para o termo 'flácido' é MG30.31, pois descreve uma dor musculoesquelética secundária crônica associada a alterações estruturais, que pode ser caracterizada por aspectos clínicos como inchaço e indolor. A presença de 'ABD RHA+, FLÁCIDO' no prontuário aponta para uma possível condição relacionada à dor musculoesquelética."
+    },
+    "ME62.7": {
+      "term_original": "hipocorada",
+      "capitulo": "21",
+      "confidence_embedding": 0.7053,
+      "descricao_cid": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica.",
+      "classification_reasoning": "A opção mais precisa para o termo 'hipocorada' é a Erupção cutânea descamativa aguda (Código CID-11: ME62.7), pois hipocorada refere-se a uma condição de pele com características de perda de cor e/ou temperatura, que está descrita na definição da ERUPÇÃO CUTÂNEA DESCAMATIVA AGUDA."
+    },
+    "BB72.0": {
+      "term_original": "drc estagio 5",
+      "capitulo": "11",
+      "confidence_embedding": 0.7042,
+      "descricao_cid": "Representação de doença CID-11: Estenose aórtica reumática com insuficiência. Definição: A estenose aórtica por cardiopatia reumática crônica tipicamente está associada à insuficiência aórtica. As comissuras e cúspides da válvula tornam-se aderentes e fundidas, e o orifício da valva torna-se pequeno. Na ausculta, S2 pode ser única porque os folhetos aórticos estão imóveis e não produzem um som de fechamento aórtico",
+      "classification_reasoning": "A descrição do termo 'DRC ESTAGIO 5 EM HD' sugere a presença de uma doença cardíaca reumática crônica com estenose aórtica, o que é compatível com o código BB72.0."
+    },
+    "FA38.2": {
+      "term_original": "rha+",
+      "capitulo": "15",
+      "confidence_embedding": 0.7148,
+      "descricao_cid": "Representação de doença CID-11: Artropatia associada a reações de hipersensibilidade classificadas em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a artropatia associada à reações de hipersensibilidade, pois o termo 'RHA+' é utilizado para indicar uma resposta hiperativa ao antígeno (reagente) em um paciente com doença crônica. Isso sugere uma conexão entre a hemodinâmica e as manifestações cutâneas."
+    }
+  }
+}

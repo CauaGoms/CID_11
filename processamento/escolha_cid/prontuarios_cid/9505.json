@@ -1,0 +1,145 @@
+{
+  "prontuario_id": 187,
+  "text": "1 DI HX QUEDA DE MOTO HA 7 DIAS COM CELULITE EM PE E CONSCIENTE. ORIENTADO. VERBALIZANDO. RESPIRAÇÃO ESPONTANEA EM AR AMBIENTE. REFERE BOA ACEITAÇAÕ DA DIETA VO. PUPILAS ISO E FOTO. AP MV+ S / RA. AC BCRNF. ABDOME FLACIDO, RHA+ APRESENTA CELULITE EM PE E. DIURESE PRESENTE. SEGUE SOB CUIDADOS MULTI. AGUARDA VAGA EM UI.  EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO",
+  "entities": {
+    "Doença ou Síndrome": [
+      "CELULITE",
+      "DIAGNOSTICO"
+    ],
+    "Achado": [
+      "CONSCIENTE",
+      "ORIENTADO",
+      "VERBALIZANDO",
+      "ISO",
+      "FOTO",
+      "MV+",
+      "BCRNF",
+      "FLACIDO",
+      "RHA+",
+      "RESPIRAÇÃO ESPONTANEA EM AR AMBIENTE",
+      "BOA ACEITAÇAÕ DA DIETA VO",
+      "DIURESE PRESENTE"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PUPILAS",
+      "PE E"
+    ],
+    "Abreviação": [
+      "ISO",
+      "FOTO",
+      "AP",
+      "MV+",
+      "S",
+      "RA",
+      "AC",
+      "BCRNF",
+      "RHA+",
+      "PE E",
+      "BOA ACEITAÇAÕ DA DIETA VO"
+    ],
+    "Procedimento Diagnóstico": [
+      "AP",
+      "AC",
+      "INVESTIGACAO DE PESSOAS"
+    ],
+    "Sinal ou Sintoma": [
+      "RA",
+      "QUEIXAS"
+    ],
+    "Localização ou Região Corporal": [
+      "ABDOME"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Lesão ou Envenenamento": [
+      "QUEDA DE MOTO"
+    ],
+    "Função de Organismo": [
+      "DIURESE PRESENTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CUIDADOS MULTI",
+      "EXAME GERAL"
+    ]
+  },
+  "labels": {
+    "QA03.Y": {
+      "term_original": "orientado",
+      "capitulo": "24",
+      "confidence_embedding": 0.7473,
+      "descricao_cid": "Representação de doença CID-11: Outro exame geral de rotina ('check-up') especificado de subpopulação definida. Definição: ",
+      "classification_reasoning": "A opção mais precisa é QA03.Y porque o termo 'orientado' refere-se a um exame geral de rotina, especificamente para uma subpopulação definida, como no caso do paciente que está sendo avaliado e segue cuidados multiplos."
+    },
+    "FA26.1": {
+      "term_original": "flacido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7165,
+      "descricao_cid": "Representação de doença CID-11: Doença por deposição de hidroxiapatita. Definição: A doença por deposição de cristais de hidroxiapatita de cálcio é caracterizada pela presença de cristais de fosfato de cálcio básico - predominantemente hidroxiapatita - em tecidos moles periarticulares, especialmente os tendões. Essa entidade é melhor reconhecida como \"tendinite calcificada\" no local mais frequente de acometimento no ombro, mas manifesta-se em vários outros locais, com a denominação mais adequada de periartrite calcificada.",
+      "classification_reasoning": "A descrição do termo 'flacido' se refere ao estado de relaxamento muscular e a presença de celulite na pele, o que sugere uma lesão muscular ou tendinosa. A opção FA26.1 - Doença por deposição de hidroxiapatita - é mais precisa porque apresenta um quadro clínico similar à celulite, com deposição de cristais em tecidos moles periarticulares."
+    },
+    "BC81.30": {
+      "term_original": "mv+",
+      "capitulo": "11",
+      "confidence_embedding": 0.7519,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "Foi escolhido o código BC81.30 porque o termo 'MV+' se refere à fibrilação atrial paroxística, que é descrita na definição do código como FA recorrente que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+    },
+    "NE11": {
+      "term_original": "queda de moto",
+      "capitulo": "22",
+      "confidence_embedding": 0.7236,
+      "descricao_cid": "Representação de doença CID-11: Queimadura de região do corpo não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'queda de moto' é NE11, pois descreve uma queimadura não especificada do corpo. O contexto clínico menciona a queixa de celulite em PE e, embora não haja explicitamente um dano térmico, a expressão 'queda de moto' sugere que o paciente apresenta danos cutâneos semelhantes à queimadura."
+    },
+    "EF02.3": {
+      "term_original": "celulite",
+      "capitulo": "14",
+      "confidence_embedding": 0.8485,
+      "descricao_cid": "Representação de doença CID-11: Celulite. Definição: A celulite é um desarranjo arquitetônico comum do tecido adiposo subcutâneo que resulta em ondulações e nodularidade da pele sobrejacente. É mais comum em mulheres pós-púberes e acomete principalmente a região pélvica, membros inferiores e abdome. Acredita-se que resulte da herniação de múltiplos pequenos agregados de gordura subcutânea através do tecido fibroso na junção dermo-hipodérmica. A obesidade predispõe, mas não é necessária para o seu desenvolvimento. O termo está em uso generalizado, mas é enganoso, pois não tem nada a ver com \"cellulitis\" (NT: infecção de pele). A condição é assintomática, mas pode causar constrangimento considerável.",
+      "classification_reasoning": "A celulite é um desarranjo arquitetônico comum do tecido adiposo subcutâneo que resulta em ondulações e nodularidade da pele sobrejacente, o que se encaixa no contexto descrito (quedas de moto há 7 dias com celulite em PE e consciente). A descrição do termo extraído 'celulite' está relacionada à condição CID-11: Celulite definida pelo código EF02.3."
+    },
+    "XX2QG9": {
+      "term_original": "foto",
+      "capitulo": "X",
+      "confidence_embedding": 0.7614,
+      "descricao_cid": "Representação de doença CID-11: Condição do feto e do recém-nascido relatada no contexto da mãe. Definição: Este código tem como objetivo sinalizar que um código adicional da seção perinatal foi usado para identificar o resultado do parto no prontuário da mãe.",
+      "classification_reasoning": "A opção XX2QG9 se refere à condição do feto e do recém-nascido relatada no contexto da mãe, o que faz sentido dado que a paciente está grvida e menciona 'celulite em pe' (pé), sugerindo um exame de imagem como uma possível investigação."
+    },
+    "QE23": {
+      "term_original": "boa aceitaçaõ da dieta vo",
+      "capitulo": "24",
+      "confidence_embedding": 0.7517,
+      "descricao_cid": "Representação de doença CID-11: Problemas com dieta ou hábitos alimentares inapropriados. Definição: ",
+      "classification_reasoning": "A opção QE23 se refere a problemas com dieta ou hábitos alimentares inapropriados, o que é relacionado à 'boa aceitaçaõ da dieta vo' mencionada no prontuário."
+    },
+    "XE3FA": {
+      "term_original": "bcrnf",
+      "capitulo": "X",
+      "confidence_embedding": 0.7394,
+      "descricao_cid": "Representação de doença CID-11: Ocupante de posição fornecida para paciente em ambulância. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a representação de doença CID-11: Ocupante de posição fornecida para paciente em ambulância, pois o termo 'bcrnf' parece estar relacionado ao transporte do paciente em ambulância, como mencionado na prontuário ('AGUARDA VAGA EM UI')."
+    },
+    "MF95": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7675,
+      "descricao_cid": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular.",
+      "classification_reasoning": "A opção mais precisa para o termo 'queixas' é a mioglobinúria (MF95), pois a presença de queixas refere-se ao estado clínico do paciente, e a mioglobinúria está relacionada às lesões musculares e à necessidade de atenção médica."
+    },
+    "XD3ZH8": {
+      "term_original": "iso",
+      "capitulo": "X",
+      "confidence_embedding": 0.7573,
+      "descricao_cid": "Representação de doença CID-11: Luvas de exame/tratamento, nitrílicas. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a representação de doença CID-11: Luvas de exame/tratamento, nitrílicas (XD3ZH8), pois o termo 'iso' é frequentemente utilizado em contexto clínico para descrever luvas de exame/tratamento. Nesse caso, as pupilas são descritas como 'pupilas iso', sugerindo que as pupilas estão isentas ou igualmente dilatadas, indicando a utilização de luvas de exame."
+    },
+    "MF50.0": {
+      "term_original": "diagnostico",
+      "capitulo": "21",
+      "confidence_embedding": 0.7724,
+      "descricao_cid": "Representação de doença CID-11: Micção frequente. Definição: Necessidade de urinar com mais frequência do que o normal.",
+      "classification_reasoning": "A opção mais precisa é a Micção frequente (MF50.0) pois o paciente refere uma diurese presente e não há outros motivos para a mioglobinúria, poliúria ou outras condições mencionadas nas opções."
+    }
+  }
+}

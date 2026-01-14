@@ -1,0 +1,131 @@
+{
+  "prontuario_id": 527,
+  "text": "02:25h: Paciente encaminhado ao centro cirúrgico as 20h, retornando as 23:45h no POI de transplantectomia, acomodado no leito, apresentando-se sonolento, mantem SSVV estáveis : PA : 150x70 mmhg, Temp: 36,2° C, P: 105, FR: 19, Spo2: 90 %, instalado névoa umida a 3l/mim, porém paciente recusa-se a permanecer por muito tempo com o oxigênio, mantem acesso venoso periférico pérvio em MSD , curativo em flanco inferior direito limpo e seco externamente, não refere queixas álgicas. Iniciou com transfusão de 1 unidade de concentrados de hemáceas a 01:40h, até o momento sem intercorrências, segue sob cuidados de enfermagem. Enfermeira Florence Nightingale . EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO.",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "encaminhado",
+      "cuidados",
+      "EXAME GERAL"
+    ],
+    "Abreviação": [
+      "POI",
+      "PA",
+      "Temp",
+      "P",
+      "FR",
+      "Spo2",
+      "MSD",
+      "SSVV estáveis"
+    ],
+    "Conceito Temporal": [
+      "POI",
+      "momento"
+    ],
+    "Sinal ou Sintoma": [
+      "sonolento",
+      "intercorrências",
+      "QUEIXAS",
+      "queixas álgicas"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "Temp",
+      "P",
+      "FR",
+      "Spo2"
+    ],
+    "Conceito Quantitativo": [
+      "105",
+      "19",
+      "3l/mim",
+      "150x70 mmhg",
+      "36 , 2° C",
+      "90 %"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "oxigênio",
+      "curativo",
+      "névoa umida",
+      "acesso venoso periférico",
+      "transfusão de 1 unidade de concentrados de hemáceas"
+    ],
+    "Conceito Qualitativo": [
+      "pérvio",
+      "limpo"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MSD"
+    ],
+    "Dispositivo Médico": [
+      "curativo",
+      "acesso venoso periférico"
+    ],
+    "Conceito Espacial": [
+      "externamente"
+    ],
+    "Negação": [
+      "não",
+      "sem",
+      "SEM"
+    ],
+    "Organização Relacionada à Saúde": [
+      "enfermagem",
+      "centro cirúrgico"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "enfermagem",
+      "Enfermeira"
+    ],
+    "Doença ou Síndrome": [
+      "QUEIXAS",
+      "DIAGNOSTICO RELATADO"
+    ],
+    "Achado": [
+      "acomodado no leito",
+      "SSVV estáveis"
+    ],
+    "Localização ou Região Corporal": [
+      "flanco inferior direito"
+    ],
+    "Procedimento Diagnóstico": [
+      "INVESTIGACAO DE PESSOAS"
+    ]
+  },
+  "labels": {
+    "MB20.1": {
+      "term_original": "diagnostico relatado",
+      "capitulo": "21",
+      "confidence_embedding": 0.7253,
+      "descricao_cid": "Representação de doença CID-11: Coma. Definição: Estado agudo com duração de mais de uma hora e geralmente menos de um mês. O paciente em coma está arresponsivo, fica com os olhos fechados e não pode ser despertado nem mesmo por estímulos vigorosos e dolorosos. As respostas motoras à estimulação dolorosa estão limitadas a reflexos. As etiologias incluem, mas não estão limitadas a, lesões cerebrais traumáticas, anóxicas, infecciosas, neoplásicas, vasculares, inflamatórias e metabólicas.",
+      "classification_reasoning": "A paciente apresenta-se sonolenta e mantém SSVV estáveis, o que sugere uma possível alteração no estado de consciência do paciente, justificando a escolha da representação de doença CID-11: Coma."
+    },
+    "NA60.3Z": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.7719,
+      "descricao_cid": "Representação de doença CID-11: Lesão da veia jugular interna, não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'intercorrências' é a lesão da veia jugular interna não especificada (NA60.3Z), pois as intercorrências se referem a complicações ou eventos imprevistos durante o procedimento, processo ou condição do paciente, e a transfusão de hemáceas realizada às 01:40h pode ser considerada uma intercorrência."
+    },
+    "7A42.5": {
+      "term_original": "sonolento",
+      "capitulo": "07",
+      "confidence_embedding": 0.7964,
+      "descricao_cid": "Representação de doença CID-11: Hipoventilação relacionada ao sono devida a condição médica. Definição: A hipoventilação relacionada ao sono devida a condição médica é caracterizada por hipoventilação durante o sono devida a doença de via aérea ou do parênquima pulmonar, comprometimento da parede torácica, hipertensão pulmonar ou distúrbios neurológicos e neuromusculares. Hipercapnia diurna pode também estar presente. A hipoxemia durante o sono pode ser grave. Os pacientes podem ser assintomáticos ou apresentar-se com queixas de dispneia, aperto no peito ou fadiga.\r\n\r\nNota: Um diagnóstico definitivo requer evidência objetiva baseada na polissonografia com monitorização de dióxido de carbono (CO2) por medida arterial, expiratória ou transcutânea, na presença de uma condição médica julgada como causadora dos sintomas.",
+      "classification_reasoning": "A sonolência do paciente é caracterizada como hipoventilação relacionada ao sono devida a condição médica, apesar de não ter queixas ou diagnóstico relatado. A opção mais precisa para o termo 'sonolento' é a hipoventilação relacionada ao sono devida a condição médica, que pode estar relacionada à doença do parênquima pulmonar, comprometimento da parede torácica ou hipertensão pulmonar."
+    },
+    "BC63.3": {
+      "term_original": "ssvv estáveis",
+      "capitulo": "11",
+      "confidence_embedding": 0.7326,
+      "descricao_cid": "Representação de doença CID-11: Bloqueio de ramo direito. Definição: Transtorno do sistema de condução atrioventricular caracterizado por duração prolongada do QRS (maior ou igual a 120 ms em adultos, maior que 100 ms em crianças de 4 a 16 anos e maior que 90 ms em crianças menores de 4 anos), rsr , rsR ou rSR nas derivações V1 ou V2, onda S de duração maior do que a onda R (ou maior que 40 ms nas derivações I e V6 em adultos)",
+      "classification_reasoning": "A presença de SSVV estáveis sugere que o paciente não apresenta obstrução significativa na veia cava superior, portanto, a opção mais precisa é Bloqueio de ramo direito (BC63.3), que afeta a condução atrioventricular e não há referência a qualquer sintoma clínico relacionado à obstrução da veia cava superior."
+    },
+    "ME86": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7365,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa de uma parte do corpo. Definição: ",
+      "classification_reasoning": "O termo 'queixas' se refere às queixas ou reclamações do paciente, e o código ME86 descreve sintomas ou queixas de uma parte do corpo. Nesse contexto clínico, a escolha mais precisa é a opção ME86 pois o paciente recusa-se a permanecer por muito tempo com o oxigênio, sugerindo que ele tem alguma incomodidade ou queixa relacionada à utilização do oxigênio."
+    }
+  }
+}

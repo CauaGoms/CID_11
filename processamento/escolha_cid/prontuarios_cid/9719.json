@@ -1,0 +1,140 @@
+{
+  "prontuario_id": 170,
+  "text": "APKD.\nTx renal maio/15 DC - indução com ATG.\nPDN 5, FK 1 /0,5, Rapa 1, CVd 25 x2, RSV 10, LST 25, Bactrim.\nbx prévia com vacuolização isométrica no citoplasma e edema intimal discreto.\n\nS: Sem queixas.\nO: PA 140 x 90, FC 80, sem edema, Peso 75kg.\nExames: Cr 2,4 (flutuante) / Hb 14 / PU e UC OK / NS FK 4,0 / NS Rapa 8,0 / lipidograma OK.\n \naguarda Decoy.\nrepito Doppler - leve piora função renal após início LST.\nsirolimus 1mg DA.\nretorno em 3 semanas.\n \n ",
+  "entities": {
+    "Doença ou Síndrome": [
+      "APKD"
+    ],
+    "Abreviação": [
+      "APKD",
+      "DC",
+      "ATG",
+      "PDN",
+      "FK",
+      "Rapa",
+      "CVd",
+      "RSV",
+      "LST",
+      "PA",
+      "FC",
+      "PU",
+      "UC",
+      "Tx renal",
+      "Cr 2 , 4",
+      "NS FK 4 , 0",
+      "NS Rapa 8 , 0"
+    ],
+    "Grupo Populacional": [
+      "DC"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "indução",
+      "ATG",
+      "Tx renal"
+    ],
+    "Substância Biologicamente Ativa": [
+      "ATG"
+    ],
+    "Substância Farmacológica": [
+      "ATG",
+      "PDN",
+      "FK",
+      "CVd",
+      "RSV",
+      "LST",
+      "Bactrim"
+    ],
+    "Hormônio": [
+      "PDN"
+    ],
+    "Substância Química Orgânica": [
+      "PDN",
+      "FK",
+      "Rapa",
+      "CVd",
+      "RSV",
+      "Bactrim",
+      "sirolimus"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "1",
+      "10",
+      "25",
+      "80",
+      "75kg",
+      "1mg",
+      "1 /0 , 5",
+      "25 x2",
+      "140 x 90"
+    ],
+    "Antibiótico": [
+      "Rapa",
+      "sirolimus"
+    ],
+    "Conceito Temporal": [
+      "prévia",
+      "após"
+    ],
+    "Negação": [
+      "Sem",
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "queixas",
+      "edema"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC",
+      "Peso"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Exames",
+      "vacuolização isométrica no citoplasma",
+      "edema intimal discreto",
+      "Cr 2 , 4",
+      "Hb 14",
+      "NS FK 4 , 0",
+      "NS Rapa 8 , 0",
+      "leve piora função renal"
+    ],
+    "Conceito Qualitativo": [
+      "flutuante"
+    ],
+    "Procedimento Laboratorial": [
+      "PU",
+      "UC",
+      "lipidograma"
+    ],
+    "Achado": [
+      "OK"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "retorno"
+    ]
+  },
+  "labels": {
+    "MG02": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7461,
+      "descricao_cid": "Representação de doença CID-11: Resultados de estudos de função renal. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'queixas' é a Representação de doença CID-11: Resultados de estudos de função renal, pois o paciente não apresenta queixas ou sintomas, apenas foi avaliado e seus resultados foram registrados no prontuário."
+    },
+    "BD93": {
+      "term_original": "edema",
+      "capitulo": "11",
+      "confidence_embedding": 0.7777,
+      "descricao_cid": "Representação de doença CID-11: Linfedema. Definição: Edema devido ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Geralmente afeta as extremidades, mas pode envolver qualquer parte do corpo. É desfigurante e aumenta a suscetibilidade a infecções recorrentes e malignidades locais.",
+      "classification_reasoning": "A opção mais precisa para o termo 'edema' é a Linfedema (BD93) pois o contexto clínico descreve edema intimal discreto no citoplasma, sugerindo um acúmulo excessivo de linfa nos tecidos."
+    },
+    "GB40": {
+      "term_original": "apkd",
+      "capitulo": "16",
+      "confidence_embedding": 0.8056,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A escolha do código GB40 é justificada pela descrição de 'APKD' no prontuário, que sugere a presença de síndrome nefrítica caracterizada por hematúria grave e oligúria."
+    }
+  }
+}

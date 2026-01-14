@@ -1,0 +1,90 @@
+{
+  "prontuario_id": 909,
+  "text": "INVESTIGAVA  DOR ATIPICA \nCINTILO ISQUEMIA  DISCRETA   P INFERIOR  VE    FE 34 - 46 \n2-6-15   CATE  TORTUOSIDADES -- MIOCSRDIOPATIA   VE   DISCRETA MODERADA\nS  MELHORA  GRADATIVA DOS  SINTOMAS\nO  NDN\nA  MCP DILATADA X\nP  AO  AMB IC\nHOLTER\nOTIMIZO\nCVD  12,5 12-12   DEMAIS MANTIDO\n \n \n \n ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "INVESTIGAVA",
+      "OTIMIZO",
+      "DEMAIS MANTIDO"
+    ],
+    "Procedimento Diagnóstico": [
+      "CINTILO",
+      "CATE",
+      "A",
+      "HOLTER"
+    ],
+    "Abreviação": [
+      "CINTILO",
+      "CATE",
+      "S",
+      "NDN",
+      "A",
+      "P",
+      "CVD",
+      "ISQUEMIA DISCRETA P INFERIOR VE",
+      "FE 34",
+      "MIOCSRDIOPATIA VE DISCRETA MODERADA",
+      "MCP DILATADA",
+      "AMB IC"
+    ],
+    "Negação": [
+      "S"
+    ],
+    "Achado": [
+      "NDN",
+      "MELHORA GRADATIVA DOS SINTOMAS"
+    ],
+    "Produto Intelectual": [
+      "P"
+    ],
+    "Substância Farmacológica": [
+      "CVD"
+    ],
+    "Substância Química Orgânica": [
+      "CVD"
+    ],
+    "Conceito Temporal": [
+      "12-12"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR ATIPICA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ISQUEMIA DISCRETA P INFERIOR VE",
+      "FE 34",
+      "MIOCSRDIOPATIA VE DISCRETA MODERADA"
+    ],
+    "Doença ou Síndrome": [
+      "MCP DILATADA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "AMB IC"
+    ],
+    "Conceito Quantitativo": [
+      "12 , 5"
+    ]
+  },
+  "labels": {
+    "8B10": {
+      "term_original": "dor atipica",
+      "capitulo": "08",
+      "confidence_embedding": 0.7311,
+      "descricao_cid": "Representação de doença CID-11: Ataque isquêmico transitório. Definição: Episódio transitório de disfunção neurológica focal causada por isquemia cerebral focal sem infarto agudo na área clinicamente relevante do cérebro ou perda visual monocular transitória devida à isquemia retiniana. Os sintomas devem desaparecer completamente em 24 horas.",
+      "classification_reasoning": "A dor atipica descrita no contexto clínico é compatível com a descrição do ataque isquêmico transitório, uma condição caracterizada por episódios transitórios de disfunção neurológica focal causada por isquemia cerebral focal."
+    },
+    "MC80.Y": {
+      "term_original": "ndn",
+      "capitulo": "21",
+      "confidence_embedding": 0.7468,
+      "descricao_cid": "Representação de doença CID-11: Outro valor anormal da pressão arterial especificado, sem diagnóstico. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'ndn' é MC80.Y, pois a busca vetorial indica que 'ndn' se refere a um valor anormal da pressão arterial especificado, sem diagnóstico."
+    },
+    "9C40.A0": {
+      "term_original": "mcp dilatada",
+      "capitulo": "09",
+      "confidence_embedding": 0.6967,
+      "descricao_cid": "Representação de doença CID-11: Papiledema. Definição: Edema de disco óptico que resulta da pressão intracraniana aumentada.",
+      "classification_reasoning": "A opção mais precisa para o termo 'MCP dilatada' é a Papiledema (9C40.A0), pois a dilatação da artéria mamária proximal (MCP) é um sintoma comum em pacientes com doenças cerebrovasculares, como o caso descrito no prontuário ('VE 34 - 46'). A dilatação da artéria mamária proximal é uma manifestação de pressão intracraniana aumentada, que pode estar relacionada à isquemia cerebral e ao edema cerebral."
+    }
+  }
+}

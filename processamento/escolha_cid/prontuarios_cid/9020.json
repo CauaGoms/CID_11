@@ -1,0 +1,38 @@
+{
+  "prontuario_id": 570,
+  "text": "CEFALEIA FREQUENTE, PIOR À NOITE, QUASE DIÁRIA, PP PARTE POSTERIOR DO CRANIO E CERVICAL. NEGA OUTRAS PATOLOGIAS. HMP: HISTÓRIA DE HIPERTIREOIDISMO.\n\nEXAME FÍSICO NORMAL.",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "CEFALEIA"
+    ],
+    "Doença ou Síndrome": [
+      "PATOLOGIAS",
+      "HIPERTIREOIDISMO"
+    ],
+    "Abreviação": [
+      "HMP"
+    ],
+    "Localização ou Região Corporal": [
+      "PARTE POSTERIOR DO CRANIO"
+    ],
+    "Achado": [
+      "EXAME FÍSICO NORMAL"
+    ]
+  },
+  "labels": {
+    "8A81": {
+      "term_original": "cefaleia",
+      "capitulo": "08",
+      "confidence_embedding": 0.7714,
+      "descricao_cid": "Representação de doença CID-11: Cefaleia tensional. Definição: Transtorno de cefaleia primária e de alta prevalência, na maioria dos casos episódica. Ataques de frequência e duração altamente variáveis ​​são caracterizados por cefaleia leve a moderada sem sintomas associados, embora sensibilidade pericraniana possa estar presente. Em uma minoria de casos, o transtorno evolui, com cefaleias cada vez mais frequentes e algumas vezes perda da episodicidade.",
+      "classification_reasoning": "A cefaleia frequentemente pior à noite e é quase diária, com localização na parte posterior do crânio e cervical. Essas características sugerem um padrão de dor tensional, como visto em casos de cefaleia tensional episódica frequente (8A81). A história de hipertireoidismo pode estar relacionada ao desenvolvimento da doença, mas não é suficiente para justificar a escolha de outro código."
+    },
+    "5A02.6": {
+      "term_original": "hipertireoidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.806,
+      "descricao_cid": "Representação de doença CID-11: Hipertireoidismo secundário. Definição: Excesso de produção do hormônio tireoidiano pela glândula tireoide causado por disfunção na glândula hipófise ou hipotálamo.",
+      "classification_reasoning": "A história de hipertireoidismo e a descrição de cefaleia frequente, pior à noite, sugerem que o termo mais preciso é Hipertireoidismo secundário, pois a produção excessiva do hormônio tireoidiano pela glândula tireoide pode causar sintomas como cefaleia e hipertireoidismo."
+    }
+  }
+}

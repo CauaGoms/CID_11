@@ -1,0 +1,104 @@
+{
+  "prontuario_id": 58,
+  "text": "# CONTINUA com Doutor Vital Brazil, \n# ficou bem neste ano que passou,\n# sem intercorrencias,\n \n \n# hoje avaliação exclusiva de mp.\n\n# mp camara-dupla,\n# programado em modo DDD 60-50,\n# ritmo espontaneo = bav-t com escape minimo, \n# bat = ok.\n# para eri = 7 anos, \n# operando = 96% em vat. \n# A - IMP = 390, SENSE = 2,3 , CLA = MENOR QUE 1,0 X 0,4;\n# V - IMP = 487, SENSE = 3,8, CLV = MENOR QUE 1,0 X 0,4.\n\n# cd = programada auto captura, retorno em 12 meses, se intercorrencias = procura direta, sempre manter com cardio geral.\n ",
+  "entities": {
+    "Negação": [
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "intercorrencias"
+    ],
+    "Conceito Temporal": [
+      "hoje"
+    ],
+    "Abreviação": [
+      "mp",
+      "A",
+      "V",
+      "CLV",
+      "cd",
+      "mp camara-dupla",
+      "bav-t com escape minimo",
+      "bat = ok",
+      "para eri = 7 anos",
+      "operando = 96% em vat",
+      "IMP = 390",
+      "SENSE = 2 , 3",
+      "SENSE = 3 , 8",
+      "sempre manter com cardio geral"
+    ],
+    "Dispositivo Médico": [
+      "mp",
+      "mp camara-dupla"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "A",
+      "V"
+    ],
+    "Produto Intelectual": [
+      "cd"
+    ],
+    "Achado": [
+      "ficou bem neste ano que passou",
+      "programado em modo DDD 60-50",
+      "ritmo espontaneo",
+      "para eri = 7 anos",
+      "operando = 96% em vat",
+      "CLA = MENOR QUE 1 , 0 X 0 ,"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "avaliação exclusiva",
+      "programada auto captura",
+      "retorno em 12 meses",
+      "procura direta",
+      "sempre manter com cardio geral"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "bav-t com escape minimo"
+    ]
+  },
+  "labels": {
+    "BC81.30": {
+      "term_original": "para eri = 7 anos",
+      "capitulo": "11",
+      "confidence_embedding": 0.7209,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A opção mais precisa é a fibrilação atrial paroxística (BC81.30) porque o termo 'para eri = 7 anos' sugere um período de duração da condição, o que combina com a definição de FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas)."
+    },
+    "BC8Z": {
+      "term_original": "programado em modo ddd 60-50",
+      "capitulo": "11",
+      "confidence_embedding": 0.7245,
+      "descricao_cid": "Representação de doença CID-11: Alteração do ritmo supraventricular não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'programado em modo ddd 60-50' é o código BC8Z, que corresponde à representação de doença CID-11: Alteração do ritmo supraventricular não especificada. Isso porque a descrição do código se refere a uma alteração no ritmo cardíaco, e o termo 'modo ddd 60-50' é comum em contextos clínicos para descrever um tipo de programa de ritmo cardíaco."
+    },
+    "MC81": {
+      "term_original": "ritmo espontaneo",
+      "capitulo": "21",
+      "confidence_embedding": 0.705,
+      "descricao_cid": "Representação de doença CID-11: Anormalidades do batimento cardíaco. Definição: Anormalidades do batimento cardíaco são chamadas arritmia, que é qualquer distúrbio da frequência ou ritmo cardíacos. Isso significa que o coração bate muito rápido, muito devagar ou com um padrão irregular.",
+      "classification_reasoning": "A opção mais precisa é o código MC81, pois o termo 'ritmo espontâneo' se refere à frequência natural do batimento cardíaco. A definição da anormalidade do batimento cardíaco, apresentada pelo código MC81, melhor se adapta ao contexto clínico fornecido."
+    },
+    "BC81.6": {
+      "term_original": "operando = 96% em vat",
+      "capitulo": "11",
+      "confidence_embedding": 0.7297,
+      "descricao_cid": "Representação de doença CID-11: Taquicardia sinusal inapropriada. Definição: Frequência cardíaca que está elevada em relação ao nível de atividade; geralmente exibe características de automaticidade.",
+      "classification_reasoning": "A descrição do termo 'operando = 96% em vat' sugere que a frequência cardíaca está elevada e dentro de um nível compatível com o estado de atividade, caracterizando uma taquicardia sinusal inapropriada."
+    },
+    "NA07.02": {
+      "term_original": "intercorrencias",
+      "capitulo": "22",
+      "confidence_embedding": 0.7168,
+      "descricao_cid": "Representação de doença CID-11: Concussão com perda da consciência, curta duração, menos de 30 minutos. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'intercorrencias' no contexto do prontuário é a concussão com perda da consciência, curta duração, menos de 30 minutos (NA07.02). Isso porque as intercorrências referem-se à ocorrência de eventos ou situações que interrompem um processo ou padrão normal, e na descrição desta opção, é mencionada a perda da consciência com duração curta, o que se adequa ao contexto do prontuário."
+    },
+    "ME66.4": {
+      "term_original": "cla = menor que 1 , 0 x 0 ,",
+      "capitulo": "21",
+      "confidence_embedding": 0.724,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa relativos às unhas. Definição: Termo muito inespecífico para indicar um problema real ou percebido afetando as unhas das mãos ou dos pés, e que não pode ser codificado com mais precisão em outra parte.",
+      "classification_reasoning": "A descrição 'CLA = menor que 1,0 x 0,4' é referente a uma representação de doença CID-11 e o termo é muito inespecífico para indicar um problema real ou percebido afetando as unhas das mãos ou dos pés."
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "prontuario_id": 63,
+  "text": "Paciente com historia de fx de 4 mtc.\n\nAo exame: adm limitada pelo fk.\n\nRx: sinais de consolidação.\n\nConduta:\n- fst,\n- fortalecimento,\n- analgesia,\n- retorno em 6 s.\n\nR3 Lucas, \nGrupo do quadril\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Procedimento Diagnóstico": [
+      "exame",
+      "Rx"
+    ],
+    "Abreviação": [
+      "Rx",
+      "fst",
+      "s",
+      "R3",
+      "4 mtc",
+      "adm limitada"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Conduta",
+      "retorno"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "fst",
+      "fortalecimento",
+      "analgesia"
+    ],
+    "Conceito Temporal": [
+      "s"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "4 mtc"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "adm limitada",
+      "sinais de consolidação"
+    ],
+    "Sinal ou Sintoma": [
+      "adm limitada"
+    ],
+    "Achado": [
+      "sinais de consolidação"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Grupo do quadril"
+    ]
+  },
+  "labels": {
+    "CA23.00": {
+      "term_original": "sinais de consolidação",
+      "capitulo": "12",
+      "confidence_embedding": 0.7297,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide.",
+      "classification_reasoning": "A presença de sinais de consolidação no exame e a história de fx de 4 mtc sugerem uma resposta ao tratamento em curso, o que é compatível com a exacerbação da asma alérgica. Além disso, a conduta do paciente inclui analgesia e fortalecimento, o que também está relacionado à asma."
+    },
+    "FA22": {
+      "term_original": "adm limitada",
+      "capitulo": "15",
+      "confidence_embedding": 0.6589,
+      "descricao_cid": "Representação de doença CID-11: Polimialgia reumática. Definição: A polimialgia reumática (PMR) é uma síndrome caracterizada por dores nas porções proximais das extremidades e do tronco. Os critérios de classificação provisórios para PMR pela European League Against Rheumatism / American College of Rheumatology Collaborative Initiative devem ser aplicados em pacientes com 50 anos ou mais com dor nos ombros bilateral e PCR e / ou VHS anormais. O algoritmo de pontuação é baseado na rigidez matinal> 45 minutos (2 pontos), dor / amplitude de movimento limitada no quadril (1 ponto), ausência de fator reumatoide e / ou anticorpo anti-proteína citrulinada (1 ponto), com critério de ultrassom opcional. Mais comumente, a PMR ocorre de forma isolada, mas pode ser observada em 40-50% dos pacientes com arterite de células gigantes.",
+      "classification_reasoning": "A opção FA22, Polimialgia reumática, é a mais precisa para o termo 'adm limitada' dentro do contexto clínico, pois o paciente tem história de fx de 4 mtc e no exame há adm limitada pelo fk, sugerindo que o paciente pode estar com artropatia reativa."
+    }
+  }
+}

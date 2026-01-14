@@ -1,0 +1,209 @@
+{
+  "prontuario_id": 225,
+  "text": "11:25hs - Glasgow 15, pupilas isocóricas fotorreagentes, respiração espontânea em ar ambiente, SpO2 96%, passado SNG nº16 e mantida aberta devido a presença de vômito de aspecto bilioso em média quantidade, acesso venoso central D com NPT a 84 ml/h, monitorizado, estável hemodinamicamente, MV+ sem R/A, dreno de tórax E sem débito, abdome plano, flácido, indolor a palpação, RHA+, FO abdominal limpa e seca, SVD com diurese efetiva, evacuação presente, úlcera sacra grau II, extremidades bem perfundidas, higienizado e sentado no leito. Enfermeira Florence Nightingale.  EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO.",
+  "entities": {
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "pupilas",
+      "abdome"
+    ],
+    "Achado": [
+      "isocóricas",
+      "fotorreagentes",
+      "MV+",
+      "débito",
+      "plano",
+      "flácido",
+      "RHA+",
+      "higienizado",
+      "Glasgow 15",
+      "respiração espontânea",
+      "estável hemodinamicamente",
+      "evacuação presente",
+      "extremidades bem perfundidas",
+      "sentado no leito"
+    ],
+    "Abreviação": [
+      "SpO2",
+      "NPT",
+      "MV+",
+      "R/A",
+      "RHA+",
+      "FO",
+      "SVD",
+      "SNG nº16"
+    ],
+    "Atributo Clínico": [
+      "SpO2"
+    ],
+    "Conceito Quantitativo": [
+      "96%",
+      "média quantidade",
+      "84 ml/h"
+    ],
+    "Sinal ou Sintoma": [
+      "vômito",
+      "R/A",
+      "indolor",
+      "QUEIXAS",
+      "aspecto bilioso"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "NPT",
+      "SVD",
+      "SNG nº16"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "monitorizado",
+      "EXAME GERAL"
+    ],
+    "Negação": [
+      "sem",
+      "indolor",
+      "SEM"
+    ],
+    "Conceito Espacial": [
+      "E"
+    ],
+    "Função de Organismo": [
+      "débito",
+      "diurese efetiva",
+      "evacuação presente"
+    ],
+    "Procedimento Diagnóstico": [
+      "palpação",
+      "INVESTIGACAO DE PESSOAS"
+    ],
+    "Lesão ou Envenenamento": [
+      "FO"
+    ],
+    "Localização ou Região Corporal": [
+      "abdominal"
+    ],
+    "Conceito Qualitativo": [
+      "limpa",
+      "seca",
+      "aspecto bilioso"
+    ],
+    "Dispositivo Médico": [
+      "SVD",
+      "SNG nº16"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Objeto Manufaturado": [
+      "dreno de tórax"
+    ],
+    "Doença ou Síndrome": [
+      "úlcera sacra grau II",
+      "DIAGNOSTICO RELATADO"
+    ]
+  },
+  "labels": {
+    "BB82.0": {
+      "term_original": "flácido",
+      "capitulo": "11",
+      "confidence_embedding": 0.8128,
+      "descricao_cid": "Representação de doença CID-11: Estenose tricúspide reumática com insuficiência. Definição: Insuficiência da valva tricúspide devida a anormalidades nos folhetos pode ser secundária a cardiopatia reumática. Quando devida a esta última, geralmente ocorre em combinação com estenose tricúspide",
+      "classification_reasoning": "A opção mais precisa para o termo 'flácido' está relacionada à descrição de estenose tricúspide reumática com insuficiência, que pode causar debilidade muscular e perda de tonus muscular, caracterizada por uma representação clínica flácida."
+    },
+    "DA60.3": {
+      "term_original": "vômito",
+      "capitulo": "13",
+      "confidence_embedding": 0.8261,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A presença de vômito bilioso sugere lesões agudas na mucosa gástrica, o que é consistente com úlceras de estresse do estômago."
+    },
+    "MF34": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7778,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa da gravidez. Definição: ",
+      "classification_reasoning": "A opção MF34, Sintoma ou queixa da gravidez, é a mais precisa para o termo 'queixas' no contexto clínico, pois há mencionado anteriormente de 'passado SNG nº16 e mantida aberta devido a presença de vômito de aspecto bilioso em média quantidade', o que sugere possivelmente uma situação relacionada à gravidez."
+    },
+    "NC56.Y": {
+      "term_original": "débito",
+      "capitulo": "22",
+      "confidence_embedding": 0.8035,
+      "descricao_cid": "Representação de doença CID-11: Lesão de outros vasos sanguíneos especificados ao nível de punho ou mão. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'débito' é a lesão de outros vasos sanguíneos especificados ao nível de punho ou mão (NC56.Y), pois o contexto clínico refere-se à presença de um dreno de tórax E sem débito, o que sugere uma lesão vascular na região do peito."
+    },
+    "BA01": {
+      "term_original": "estável hemodinamicamente",
+      "capitulo": "11",
+      "confidence_embedding": 0.7894,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A expressão 'estável hemodinamicamente' sugere que o paciente não está apresentando sinais de insuficiência cardíaca ou hipotensão, o que é mais comummente associado à doença cardíaca hipertensiva (BA01). Além disso, a presença de várias outras condições clínicas, como úlcera sacra e evacuação presente, sugere uma estabilidade geral do paciente, que também apoia a escolha da doença cardíaca hipertensiva."
+    },
+    "JA20.1": {
+      "term_original": "evacuação presente",
+      "capitulo": "18",
+      "confidence_embedding": 0.8277,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva preexistente complicando a gravidez, o parto ou o puerpério. Definição: Condição que acomete mulheres grávidas, causada por hipertensão e doença cardíaca associada previamente diagnosticadas ou diagnosticadas nas primeiras 20 semanas. Essa condição é caracterizada por pressão arterial maior ou igual a 140/90 mmHg, levando a uma complicação durante a gravidez, o parto ou o puerpério. A confirmação é feita por esfigmomanômetro.",
+      "classification_reasoning": "A presença de evacuação presente no contexto clínico sugere a possibilidade de complicações ginecológicas ou obstétricas, o que é consistente com a definição da hipertensão preexistente complicando a gravidez, o parto ou o puerpério (JA20.1)"
+    },
+    "CB41.1": {
+      "term_original": "respiração espontânea",
+      "capitulo": "12",
+      "confidence_embedding": 0.8247,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência respiratória crônica. Definição: Na insuficiência respiratória crônica a hipoxemia ocorre ao longo de semanas ou meses (mais de 7 dias) e a insuficiência respiratória se desenvolve mais lentamente e dura mais tempo do que na insuficiência respiratória aguda.",
+      "classification_reasoning": "A presença de respiração espontânea indica que a paciente está com uma insuficiência respiratória crônica, que é caracterizada por hipoxemia ao longo de semanas ou meses."
+    },
+    "DA26.3": {
+      "term_original": "mv+",
+      "capitulo": "13",
+      "confidence_embedding": 0.7774,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da laceração hemorrágica gastroesofágica. Definição: Sangramento por lacerações na mucosa na junção do estômago com esôfago, geralmente causado por vômitos intensos, espasmos de vômito ou tosse.",
+      "classification_reasoning": "A presença de vômito de aspecto bilioso em média quantidade e a menção de MV+ (monitorizado, estável hemodinamicamente) sugere que o paciente pode ter sofrido lesões na mucosa gástrica ou esofágica, como a síndrome da laceração hemorrágica gastroesofágica."
+    },
+    "ME01": {
+      "term_original": "plano",
+      "capitulo": "21",
+      "confidence_embedding": 0.8098,
+      "descricao_cid": "Representação de doença CID-11: Distensão abdominal. Definição: Esta é uma condição em que o abdômen parece cheio e tenso por causa do inchaço do abdômen, geralmente devido a um aumento da quantidade de gases intestinais, mas ocorre às vezes quando fluidos, substâncias ou massa estão se acumulando ou se expandindo no abdômen.",
+      "classification_reasoning": "A opção ME01 é a mais precisa para o termo 'plano' no contexto clínico, pois descreve uma condição em que o abdômen parece cheio e tenso, caracterizado por um inchaço do abdômen. Nesse caso, o paciente apresenta um abdome plano e flácido, o que é consistente com a definição da distensão abdominal."
+    },
+    "8A63.01": {
+      "term_original": "glasgow 15",
+      "capitulo": "08",
+      "confidence_embedding": 0.7663,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica febril complexa. Definição: Crises epilépticas febris com duração superior a 15 minutos ou episódios múltiplos ocorrendo em 24 horas ou crises epilépticas com características focais.",
+      "classification_reasoning": "A escolha do código 8A63.01 foi feita porque o paciente apresentou Glasgow 15, indicando uma crise epiléptica febril complexa com duração superior a 15 minutos. Além disso, a presença de vômito de aspecto bilioso em média quantidade e monitoramento estável hemodinamicamente também apontam para essa escolha."
+    },
+    "GB40": {
+      "term_original": "úlcera sacra grau ii",
+      "capitulo": "16",
+      "confidence_embedding": 0.7826,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A presença de úlcera sacra grau II é um indicador de lesão cutânea em consequência de incontinência fecal, o que está relacionado à síndrome nefrítica, doença caracterizada por hematúria grave e oligúria."
+    },
+    "9B02.0": {
+      "term_original": "isocóricas",
+      "capitulo": "09",
+      "confidence_embedding": 0.7845,
+      "descricao_cid": "Representação de doença CID-11: Pupila de Argyll Robertson. Definição: São pupilas pequenas bilaterais que se contraem quando o paciente focaliza um objeto próximo, mas não se contraem quando exposto à luz forte (elas não “reagem” à luz).",
+      "classification_reasoning": "A descrição do termo 'isocóricas' indica que as pupilas são iguais e reagem à luz, o que está relacionado ao Pupila de Argyll Robertson (Código 9B02.0), caracterizado por pupilas pequenas bilaterais que se contraem quando o paciente focaliza um objeto próximo, mas não se contraem quando exposto à luz forte."
+    },
+    "QB85": {
+      "term_original": "higienizado",
+      "capitulo": "24",
+      "confidence_embedding": 0.7754,
+      "descricao_cid": "Representação de doença CID-11: Cuidados a curativos, drenos ou suturas cirúrgicos. Definição: ",
+      "classification_reasoning": "A opção mais precisa é QB85, pois o termo 'higienizado' se refere a cuidados de curativos e procedimentos para manter limpo e higiêno um paciente em recuperação, como pode ser visto no contexto do prontuário."
+    },
+    "BD54": {
+      "term_original": "extremidades bem perfundidas",
+      "capitulo": "11",
+      "confidence_embedding": 0.763,
+      "descricao_cid": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'extremidades bem perfundidas' é a úlcera de pé diabético (Código: BD54), pois as extremidades referem-se ao pé e a descrição do termo está relacionada à presença de úlceras nos pés diabéticos."
+    },
+    "ME08": {
+      "term_original": "r/a",
+      "capitulo": "21",
+      "confidence_embedding": 0.7884,
+      "descricao_cid": "Representação de doença CID-11: Flatulência e afecções correlatas. Definição: Produção ou presença de gás no trato gastrointestinal que pode ser expelido pelo ânus e outras condições associadas à produção ou presença de gás no trato GI.",
+      "classification_reasoning": "A opção ME08, Flatulência e afecções correlatas, é a mais precisa para o termo 'r/a' dentro do contexto clínico. A expressão 'MV+ sem R/A' indica que o paciente não apresenta resistência à ventilação, sugerindo que há um problema com a eliminação de gases do trato gastrointestinal, caracterizado pela flatulência."
+    }
+  }
+}

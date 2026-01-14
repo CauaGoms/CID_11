@@ -1,0 +1,211 @@
+{
+  "prontuario_id": 790,
+  "text": "HAS / DLP,\nPos-operatorio recente de retirada de \"Tumor\" em regtião cervical, não conseguiram controlar,\nBronquite,\nObesidade,\n# Tosse com captopril.\n\n# Losartana 50 /12h, anlodipino 5, HCTZ 25, Alenia 6/6h, AAS 100 (dias alternados).\n\nQueixa de dor em MSE e irradiação para região precordial duração de 15 minutos, com dificuldade para mexer o braço.\nDispnéia aos esforços (400 / 500 metros).\n\n\nPA 150/80,\nEF: BEG, corada, hidratada, eupneica, acinaotioca, anicterica.\ns/ sopro carotideo.\nMV + c/ sibilos expiratorios.\nBR2t s/ sopros.\nmembors perfundidos, sem edemas, dermatite ocre.\n\nCD: LAb  + Ergometrico + ETT.\nAumento anlodipina.\nUsar aradois como losartana.\nRetorno em 2 meses.\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "HAS",
+      "DLP",
+      "HCTZ",
+      "AAS",
+      "MSE",
+      "PA",
+      "EF",
+      "BEG",
+      "s/",
+      "CD",
+      "LAb",
+      "ETT",
+      "MV +"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DLP",
+      "Bronquite",
+      "Obesidade"
+    ],
+    "Negação": [
+      "não",
+      "acinaotioca",
+      "anicterica",
+      "s/",
+      "sem"
+    ],
+    "Substância Química Orgânica": [
+      "Losartana",
+      "anlodipino",
+      "HCTZ",
+      "Alenia",
+      "AAS",
+      "anlodipina",
+      "losartana"
+    ],
+    "Substância Farmacológica": [
+      "Losartana",
+      "anlodipino",
+      "HCTZ",
+      "Alenia",
+      "AAS",
+      "anlodipina",
+      "aradois",
+      "losartana"
+    ],
+    "Conceito Temporal": [
+      "/12h",
+      "6/6h",
+      "Pos-operatorio recente"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "25",
+      "6/6h",
+      "100",
+      "150/80",
+      "400 / 500 metros"
+    ],
+    "Sinal ou Sintoma": [
+      "Queixa",
+      "dor",
+      "irradiação",
+      "acinaotioca",
+      "anicterica",
+      "sopros",
+      "edemas",
+      "dificuldade para mexer",
+      "Dispnéia aos esforços",
+      "sibilos expiratorios",
+      "dermatite ocre"
+    ],
+    "Localização ou Região Corporal": [
+      "MSE",
+      "membors",
+      "região precordial"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Procedimento Diagnóstico": [
+      "EF",
+      "Ergometrico",
+      "ETT"
+    ],
+    "Achado": [
+      "BEG",
+      "corada",
+      "hidratada",
+      "eupneica",
+      "perfundidos",
+      "Tosse com captopril",
+      "MV +"
+    ],
+    "Função Patológica": [
+      "edemas"
+    ],
+    "Produto Intelectual": [
+      "CD"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CD",
+      "Aumento",
+      "Retorno"
+    ],
+    "Procedimento Laboratorial": [
+      "LAb"
+    ],
+    "Processo Neoplásico": [
+      "\"Tumor\" em regtião cervical"
+    ]
+  },
+  "labels": {
+    "EB51": {
+      "term_original": "edemas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7993,
+      "descricao_cid": "Representação de doença CID-11: Lúpus eritematoso cutâneo crônico. Definição: Lúpus eritematoso cutâneo crônico (LECC) é caracterizado pela presença de placas cutâneas circunscritas apresentando graus variados de edema, eritema, descamação, tamponamento e atrofia folicular. Apresenta-se mais comumente como placas discoides envolvendo face, orelhas e couro cabeludo, mas pode ser amplamente disseminada ou acometer predominantemente extremidades (lúpus Chilblain) ou a gordura subcutânea (paniculite lúpica). Pode causar desfiguração acentuada com cicatrizes faciais proeminentes e perda de cabelo permanente. A maioria dos pacientes permanece com boa saúde, mas 5-10% podem desenvolver lúpus eritematoso sistêmico. A fotossensibilidade é menos evidente do que no lúpus eritematoso cutâneo subagudo.",
+      "classification_reasoning": "A opção mais precisa é EB51, Lúpus eritematoso cutâneo crônico, pois o termo 'edemas' está relacionado à presença de placas cutâneas circunscritas com edema, eritema e descamação. Além disso, a menção de dermatite ocre e membros perfundidos sem edemas sugere que a referência ao edema se refere às características da Lúpus eritematoso cutâneo crônico."
+    },
+    "CA42.0": {
+      "term_original": "bronquite",
+      "capitulo": "12",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A paciente tem bronquite, como descrita no prontuário, com sintomas de tosse e dispnéia aos esforços. O código CA42.0 é a representação mais precisa da doença CID-11: Bronquite aguda."
+    },
+    "EK00.1": {
+      "term_original": "dermatite ocre",
+      "capitulo": "14",
+      "confidence_embedding": 0.7691,
+      "descricao_cid": "Representação de doença CID-11: Dermatite alérgica de contato devida a cosméticos ou fragrâncias. Definição: Dermatite alérgica de contato devido à sensibilização a um dos inúmeros alérgenos presentes em cosméticos e outros produtos em que são adicionadas fragâncias. Alérgenos comuns incluem colofônia, fragâncias como hidroxicitronela, emolientes como lanolina (àlcoois de cera de lã), surfactantes como cocamidopropil betaína, conservantes como isotiazolinonas, agentes liberadores de parabeno ou formaldeído. Fragâncias são encontradas em vários produtos de limpeza doméstica, assim como em cosméticos.",
+      "classification_reasoning": "A dermatite ocre é descrita como uma reação alérgica à exposição a cosméticos ou fragrâncias, o que está em consonância com a presença de medicamentos cosmeceuticos e outras substâncias nos tratamentos do paciente. Esta opção parece mais precisa porque não há evidências de doenças autoimmune (Lupus eritematoso cutâneo crônico) ou hipertróficas (Hidradenite supurativa), nem tampouco de produtos dentários ou capilares causando a reação alérgica."
+    },
+    "CA22.0": {
+      "term_original": "tosse com captopril",
+      "capitulo": "12",
+      "confidence_embedding": 0.7719,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A queixa de tosse com captopril e a presença de doença pulmonar obstrutiva crônica (DPOC) justificam a escolha do código CA22.0, que descreve a exacerbação aguda não especificada da DPOC."
+    },
+    "MC62.9": {
+      "term_original": "queixa",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A queixa de dor em MSE e irradiação para região precordial duração de 15 minutos, com dificuldade para mexer o braço, indica uma possível referência à dor torácica, embora não seja especificamente mencionada como tal. O Código MC62.9 melhor representa essa queixa."
+    },
+    "2B67": {
+      "term_original": "\"tumor\" em regtião cervical",
+      "capitulo": "02",
+      "confidence_embedding": 0.7945,
+      "descricao_cid": "Representação de doença CID-11: Neoplasias malignas da glândula parótida. Definição: Os tumores das glândulas salivares podem mostrar uma gama impressionante de diversidade morfológica entre os diferentes tipos de tumor e, às vezes, dentro de uma massa tumoral individual. Além disso, nos tumores híbridos, a desdiferenciação e propensão de alguns tumores benignos progredirem para malignidade podem confundir a interpretação histopatológica. Essas características, juntamente com a relativa raridade de uma série de tumores, às vezes podem dificultar o diagnóstico, apesar da abundância de entidades tumorais nomeadas. O uso crescente de biópsias aspirativas com agulha fina no pré-operatório também deve ser levado em consideração, uma vez que alterações artificiais podem estar sobrepostas aos tumores. Infelizmente, a variabilidade morfológica desses tumores é espelhada pelos perfis imunocitoquímicos, de modo que colorações especiais raramente são úteis no diagnóstico de rotina de neoplasias epiteliais de glândulas salivares.",
+      "classification_reasoning": "A presença de um tumor cervical e a falta de controle sugerem que o termo 'tumor' se refere a uma neoplasia cervical. Além disso, a doença não é mencionada como sendo maligna, o que também apoia a escolha do código 2B67."
+    },
+    "8C84": {
+      "term_original": "irradiação",
+      "capitulo": "08",
+      "confidence_embedding": 0.7799,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise secundária. Definição: Rabdomiólise secundária ocorre quando o efeito primário de um fator etiológico resulta em um estado funcional ou bioquímico que conduz ao desenvolvimento de alterações isquêmicas, degenerativas, necróticas ou desestabilizadoras da membrana no músculo, produzindo as manifestações clínicas e bioquímicas de rabdomiólise. Mais frequentemente, a rabdomiólise é secundária a um desequilíbrio metabólico, muitas vezes de natureza genética, como resultado de movimento anormalmente excessivo, tensão isométrica excessiva por tentativa de movimento contra resistência, ou coma levando a aumento de pressão, isquemia, hipóxia e necrose intramusculares. A rabdomiólise secundária também pode ser causada por uma mutação em vários genes (RYR1, LPIN).",
+      "classification_reasoning": "A irradiação descrita na queixa do paciente sugere uma possível rabdomiólise secundária, especialmente considerando a recente retirada de tumor cervical e a presença de dor em MSE com irradição para região precordial. Isso justifica a escolha do código 8C84."
+    },
+    "FB32.20": {
+      "term_original": "dificuldade para mexer",
+      "capitulo": "15",
+      "confidence_embedding": 0.7536,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A dificuldade para mexer o braço e a dor irradiada para a região precordial sugerem um quadro de rabdomiólise, que é caracterizado por lesão muscular seguida de mioglobinúria. Além disso, a presença de dispnéia aos esforços e os achados cardíacos (PA 150/80, EF: BEG) também se encaixam com essa hipótese."
+    },
+    "R96.0": {
+      "term_original": "dispnéia aos esforços",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A dispnéia aos esforços é um sintoma comum em doenças cardiovasculares, como insuficiência cardíaca. Com base no contexto clínico, o paciente apresenta dor no músculo esquelético e irradiação para a região precordial, além de dificuldade para mexer o braço, o que sugere comprometimento da função cardíaca. Além disso, a presença de bronquite e obesidade pode contribuir para a dispnéia."
+    },
+    "MG30.11": {
+      "term_original": "has",
+      "capitulo": "21",
+      "confidence_embedding": 0.7571,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica subsequente a tratamento oncológico. Definição: Dor crônica pós tratamento do câncer é uma dor causada por qualquer tratamento administrado para tratar o tumor primário ou metástases. As formas mais comuns são:\r\n\r\n(i) Polineuropatia induzida por quimioterapia dolorosa crônica (CIPN): dor neuropática periférica crônica causada por quimioterapia oral ou intravenosa.\r\n\r\n(ii) Dor crônica pós-radioterapia: dor crônica causada por dano local tardio ao sistema nervoso no campo da radioterapia. É diferente da dor causada pela recorrência do tumor ou comorbidades.\r\n\r\nOutros tratamentos incluem cirurgia e terapia hormonal.\r\n\r\nCritérios diagnósticos\r\nAs condições de A a C estão preenchidas:\r\n\r\nA. A dor crônica (persistente ou recorrente por mais de 3 meses) está presente e caracterizada por todos os seguintes:\r\nA1 História de tratamento com quimioterapia ou radioterapia neurotóxica ou qualquer tratamento realizado para tratar o tumor primário ou metástases\r\nA2 É provável que a dor seja causada pelo tratamento do câncer.\r\n\r\nB. Um dos seguintes se aplica:\r\nB1 Um tumor ativo ou recorrente ou metástases foram especificamente excluídos na investigação radiológica.\r\nB2 Se um tumor ativo ou recorrente ou metástases estiverem presentes, a dor não é melhor explicada por eles.\r\n\r\nC. A dor não é melhor explicada por outro diagnóstico de dor crônica.",
+      "classification_reasoning": "A queixa de dor em MSE e irradiação para região precordial duração de 15 minutos, com dificuldade para mexer o braço, sugere a presença de dor crônica subsequente a tratamento oncológico."
+    },
+    "CB21.1": {
+      "term_original": "sopros",
+      "capitulo": "12",
+      "confidence_embedding": 0.7755,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sopros' no contexto clínico é o Código CB21.1, que refere-se a outro pneumotórax espontâneo, considerando a presença de tosse com captopril e os sintomas respiratórios descritos."
+    },
+    "8E43.0": {
+      "term_original": "dor",
+      "capitulo": "08",
+      "confidence_embedding": 0.7643,
+      "descricao_cid": "Representação de doença CID-11: Dor neuropática. Definição: Dor neuropática é descrita como elétrica, queimação ou choque, causada por processos metabólicos, nutricionais, infecciosos, genéticos, autoimunes e/ou vasculíticos. A dor pode ocorrer espontaneamente, sem provocação, ou ser provocada por estímulos dolorosos ou não. A dor é característica da neuropatia de fibras pequenas, mas mesmo nas neuropatias de fibras grandes, um número suficiente de fibras pequenas pode estar danificado para causar dor. A dor neuropática geralmente afeta pele e estruturas subcutâneas distais. A dor pode ser constante ou intermitente e pode ser descrita como lancinante, em queimação ou fria como gelo.\r\n\r\nA síndrome de dor regional complexa segue-se ao trauma e compreende dor regional, alterações sensitivas, anormalidades de temperatura, atividade sudomotora, alterações de cor da pele e edema.",
+      "classification_reasoning": "A dor descrita como 'dor em MSE e irradiação para região precordial duração de 15 minutos, com dificuldade para mexer o braço' é mais consistente com a definição da dor neuropática (Código CID-11: 8E43.0). A presença de dor neuropática pode ser relacionada à retirada do tumor cervical e ao fato de não ter sido possível controlar a doença, além da bronquite e obesidade."
+    },
+    "5B81.0": {
+      "term_original": "obesidade",
+      "capitulo": "05",
+      "confidence_embedding": 0.8373,
+      "descricao_cid": "Representação de doença CID-11: Obesidade devido a desequilíbrio energético. Definição: A obesidade é uma doença crônica e complexa, definida por adiposidade excessiva que pode prejudicar a saúde. Na maioria dos casos, é uma doença multifatorial devido a ambientes obesogênicos, fatores psicossociais e variantes genéticas. Em um subgrupo de pacientes, fatores etiológicos principais únicos podem ser identificados (doenças, imobilização, procedimentos iatrogênicos, doença monogênica / síndrome genética).",
+      "classification_reasoning": "A obesidade é mencionada como um dos problemas de saúde do paciente, e o código 5B81.0 é mais preciso pois descreve a obesidade devido a desequilíbrio energético, que é um dos fatores contribuintes para a obesidade."
+    }
+  }
+}

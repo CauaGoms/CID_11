@@ -1,0 +1,242 @@
+{
+  "prontuario_id": 87,
+  "text": "LUCAS, 69 anos.\n\nHMA: paciente relata cansaço, dor precordial quando tosse. Nega dispneia, ortopneia e DNP. Paciente relata apenas um episodio no momento de gripe.\nHAS, ICC, nega DM.\ncarvedilol 1 cp 12/12, furosemida 20mg 2 cp de 12/12, sinvastatina 1cp a noite, AAS 100mg apos almoço e Omeprazol 20mg 1 xdia.\n\nHMP: paciente relata 4 angioplastia, ultima em 2012.\n\nCHV: tabagista de mais de maço dia ha 3 anos. etilista de moderado de cerveja.\n\nS # paciente relata cansaço.\n\nO # BEG, orientado, anicterico, afebril.\nCardiaco: sp, FC: 74bpm. \nPulmonar: sp.\nMMII: sem edema e sem empastamento.\nAbdome: flacido, indolor, RHA+.\n\n# C: solicito exames laboratoriais e encaminho para Doutor Vital Brazil.",
+  "entities": {
+    "Abreviação": [
+      "HMA",
+      "DNP",
+      "HAS",
+      "ICC",
+      "DM",
+      "AAS",
+      "HMP",
+      "CHV",
+      "S",
+      "O",
+      "BEG",
+      "sp",
+      "FC",
+      "MMII",
+      "RHA+"
+    ],
+    "Achado": [
+      "HMA",
+      "HMP",
+      "CHV",
+      "S",
+      "BEG",
+      "orientado",
+      "sp",
+      "flacido",
+      "RHA+"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "paciente",
+      "Paciente"
+    ],
+    "Sinal ou Sintoma": [
+      "cansaço",
+      "tosse",
+      "dispneia",
+      "ortopneia",
+      "DNP",
+      "anicterico",
+      "afebril",
+      "edema",
+      "empastamento",
+      "indolor",
+      "dor precordial"
+    ],
+    "Negação": [
+      "Nega",
+      "nega",
+      "anicterico",
+      "afebril",
+      "sem",
+      "indolor"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "ICC",
+      "DM"
+    ],
+    "Substância Química Orgânica": [
+      "carvedilol",
+      "furosemida",
+      "sinvastatina",
+      "AAS",
+      "Omeprazol"
+    ],
+    "Substância Farmacológica": [
+      "carvedilol",
+      "furosemida",
+      "sinvastatina",
+      "AAS",
+      "Omeprazol"
+    ],
+    "Conceito Temporal": [
+      "12/12",
+      "no momento de gripe",
+      "1cp a noite",
+      "apos almoço",
+      "1 xdia"
+    ],
+    "Conceito Quantitativo": [
+      "20mg",
+      "100mg",
+      "74bpm",
+      "um episodio",
+      "1 xdia",
+      "mais de maço dia"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "angioplastia"
+    ],
+    "Disfunção Mental ou Comportamental": [
+      "tabagista"
+    ],
+    "Alimento": [
+      "cerveja"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O",
+      "solicito",
+      "encaminho"
+    ],
+    "Localização ou Região Corporal": [
+      "Cardiaco",
+      "Pulmonar"
+    ],
+    "Atributo Clínico": [
+      "FC"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "Pulmonar",
+      "MMII",
+      "Abdome"
+    ],
+    "Função Patológica": [
+      "edema"
+    ],
+    "Produto Intelectual": [
+      "C"
+    ],
+    "Procedimento Laboratorial": [
+      "exames laboratoriais"
+    ]
+  },
+  "labels": {
+    "CB21.1": {
+      "term_original": "ortopneia",
+      "capitulo": "12",
+      "confidence_embedding": 0.7808,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A opção mais precisa é o Código CB21.1, pois o paciente relata ortopneia (dor precordial quando tosse), que sugere um possível diagnóstico de pneumotórax espontâneo."
+    },
+    "BC43.0": {
+      "term_original": "tabagista",
+      "capitulo": "11",
+      "confidence_embedding": 0.7305,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida.",
+      "classification_reasoning": "Lucas é tabagista há mais de 3 anos, o que aumenta a suspeita de cardiomiopatia dilatada, levando em consideração sua idade e episódio anterior de gripe. Além disso, seu histórico de angioplastias sugere possivelmente doença cardíaca preexistente."
+    },
+    "9C40.A0": {
+      "term_original": "sp",
+      "capitulo": "09",
+      "confidence_embedding": 0.7009,
+      "descricao_cid": "Representação de doença CID-11: Papiledema. Definição: Edema de disco óptico que resulta da pressão intracraniana aumentada.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sp' é a Síndrome de Papiledema, caracterizada por edema do disco óptico resultante da pressão intracraniana aumentada. Este código se encaixa melhor no contexto clínico, pois o paciente apresenta apenas sintomas oculares e não há indicações de doenças graves ou complicadas."
+    },
+    "ME62.7": {
+      "term_original": "hma",
+      "capitulo": "21",
+      "confidence_embedding": 0.7111,
+      "descricao_cid": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica.",
+      "classification_reasoning": "A dor precordial e cansaço relatados pelo paciente são possíveis manifestações de uma doença cutânea, justificando a escolha do código ME62.7 (Erupção cutânea descamativa aguda)"
+    },
+    "BA51": {
+      "term_original": "chv",
+      "capitulo": "11",
+      "confidence_embedding": 0.748,
+      "descricao_cid": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas.",
+      "classification_reasoning": "O termo 'CHV' indica que o paciente é tabagista há mais de 3 anos, o que sugere possivelmente doença miocárdica isquêmica. Além disso, a história de cansaço e dor precordial quando tosse também está relacionada à essa condição."
+    },
+    "GA91.4": {
+      "term_original": "rha+",
+      "capitulo": "16",
+      "confidence_embedding": 0.7037,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia da próstata. Definição: Condição da próstata, causada por ruptura das paredes dos vasos da próstata. Esta condição é caracterizada por perda excessiva de sangue da próstata.",
+      "classification_reasoning": "O termo 'RHA+' indica a presença de Hemorragia da próstata, considerando que o contexto clínico descreve um paciente com história de cardiopatia e uso de medicamentos, como carvedilol e sinvastatina."
+    },
+    "MB21.8": {
+      "term_original": "cansaço",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'cansaço' é descrito na CID-11 como sintoma de fadiga ou falta de energia, o que se encaixa perfeitamente no contexto do paciente Lucas que relata cansaço. O código MB21.8 refere-se a Fadiga generalizada e não especificada."
+    },
+    "HMP": {
+      "term_original": "hmp",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "Escolha do termo HMP porque o paciente relata ter realizado 4 angioplastias, e a última foi em 2012. Isso sugere que ele tem histórico de doença cardíaca."
+    },
+    "CA22.0": {
+      "term_original": "tosse",
+      "capitulo": "12",
+      "confidence_embedding": 0.7693,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A presença de tosse e dor precordial quando tosse, associada a história de gripe recente, sugere uma possível exacerbação aguda da doença pulmonar obstrutiva crônica (DPOC)."
+    },
+    "6C40.3": {
+      "term_original": "icc",
+      "capitulo": "06",
+      "confidence_embedding": 0.718,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'icc' é a Intoxicação por álcool (6C40.3), pois o paciente relata tabagista de mais de 30 dias há 3 anos e etilista de moderado consumo de cerveja, o que sugere um histórico de uso de substâncias psicoativas."
+    },
+    "BC70": {
+      "term_original": "dor precordial",
+      "capitulo": "11",
+      "confidence_embedding": 0.7608,
+      "descricao_cid": "Representação de doença CID-11: Despolarização ventricular prematura. Definição: Despolarização ventricular ocorrendo antes da despolarização ventricular esperada iniciada pelo nó sinoatrial ou outro marcapasso supraventricular.",
+      "classification_reasoning": "A dor precordial é uma queixa descrita pelo paciente, o que sugere uma possível doença cardíaca. A prematura despolarização ventricular (BC70) é um código CID-11 mais apropriado para essa queixa, considerando as características clínicas do paciente."
+    },
+    "FA27.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7229,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A opção mais precisa é FA27.2, Reumatismo palindrômico, pois o paciente apresenta edema articular e doença aguda em um episódio recente de gripe, caracterizando crises agudas de dor e edema nas articulações."
+    },
+    "HAS": {
+      "term_original": "has",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'has' dentro do contexto clínico é a Representação de doença CID-11: História de doença arterial coronariana. Isso porque o paciente relata cansaço e dor precordial quando tosse, o que sugere uma história prévia de doença cardiovascular."
+    },
+    "5C78": {
+      "term_original": "dm",
+      "capitulo": "05",
+      "confidence_embedding": 0.7387,
+      "descricao_cid": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem.",
+      "classification_reasoning": "A presença de edema e a utilização de furosemida no tratamento sugerem que o paciente tem uma sobrecarga de líquidos, justificando a escolha do código 5C78."
+    },
+    "FB32.20": {
+      "term_original": "empastamento",
+      "capitulo": "15",
+      "confidence_embedding": 0.6988,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A descrição do termo 'empastamento' se refere à rabdomiólise idiopática, que caracteriza-se pelo extravazamento maciço de conteúdo muscular e mioglobinúria. Isso é consistente com o contexto clínico da paciente, que apresenta cansaço e dor precordial quando tosse, sugerindo lesão muscular ou empastamento."
+    },
+    "MC82.0": {
+      "term_original": "s",
+      "capitulo": "21",
+      "confidence_embedding": 0.7369,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico.",
+      "classification_reasoning": "A paciente relata cansaço e dor precordial quando tosse, o que pode ser relacionado a um problema cardíaco. Além disso, o paciente tem história de angioplastia e está recebendo tratamento com carvedilol e sinvastatina. A opção MC82.0 melhor se adapta ao contexto clínico da paciente, pois combina sintomas cardíacos com taquicardia e fibrilação ventricular."
+    }
+  }
+}

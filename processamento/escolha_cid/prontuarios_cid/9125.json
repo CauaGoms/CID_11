@@ -1,0 +1,41 @@
+{
+  "prontuario_id": 733,
+  "text": "QP: encaminhado para Cirurgia bariatrica com IMC > 40.\n\nNega comorbidades.\n\nCD: encaminhamento para cx bariatrica.        ",
+  "entities": {
+    "Abreviação": [
+      "QP",
+      "IMC",
+      "CD",
+      "&gt; 40",
+      "cx bariatrica"
+    ],
+    "Atributo Clínico": [
+      "IMC"
+    ],
+    "Negação": [
+      "Nega"
+    ],
+    "Doença ou Síndrome": [
+      "comorbidades"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "encaminhamento"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Cirurgia bariatrica",
+      "cx bariatrica"
+    ],
+    "Conceito Quantitativo": [
+      "&gt; 40"
+    ]
+  },
+  "labels": {
+    "4A85.2": {
+      "term_original": "comorbidades",
+      "capitulo": "04",
+      "confidence_embedding": 0.6494,
+      "descricao_cid": "Representação de doença CID-11: Hipersensibilidade alimentar. Definição: Reações de hipersensibilidade alimentar são efeitos adversos de comida ou de aditivos da comida que são clinicamente semelhantes à alergia. Alergia alimentar é uma reação adversa à comida mediada por um mecanismo imunológico, envolvendo IgE específicas (mediados por IgE), mecanismos mediados por células (não mediados por IgE), ou ambos (mistos mediados e não mediados por IgE).",
+      "classification_reasoning": "Como o termo 'comorbidades' está relacionado ao QP que menciona ausência de comorbidades, é mais provável que 'comorbidades' se refira a doenças associadas à obesidade e não a síndromes imunológicas ou deficiências. Nesse sentido, a opção mais precisa é 'Hipersensibilidade alimentar' (4A85.2), que pode estar relacionada à obesidade."
+    }
+  }
+}

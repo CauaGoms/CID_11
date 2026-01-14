@@ -1,0 +1,134 @@
+{
+  "prontuario_id": 100,
+  "text": "RE-TX RENAL.\nPRED 5, SRL 1, FK 4/4, SRL 2, OMEPRAZOL 20.\nS: SEM QUEIXAS.\nAVALIADO NA ENDO, EM INVESTIGAÇÃO PARA USO GH.\nO: PA 120/70,  P 76,  AFEBRIL,  PESO 39,9.\nCORADO E HIDRATADO.\nCPP LIVRES.\nPC RITMO REGULAR.\nABD RHA+, FLÁCIDO, ENXERTO SP.\nMMII SEM EDEMA.\nRE-TX RENAL COM CR 1,4 E NS FK 3 E NS SRL 5.\n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "PRED",
+      "SRL",
+      "FK",
+      "S",
+      "ENDO",
+      "O",
+      "PA",
+      "P",
+      "ABD",
+      "RHA+",
+      "SP",
+      "MMII",
+      "RE-TX RENAL",
+      "EM INVESTIGAÇÃO PARA USO GH",
+      "CPP LIVRES",
+      "PC RITMO REGULAR",
+      "CR 1 , 4",
+      "NS FK 3",
+      "NS SRL 5"
+    ],
+    "Substância Farmacológica": [
+      "PRED",
+      "SRL",
+      "FK",
+      "OMEPRAZOL"
+    ],
+    "Substância Química Orgânica": [
+      "PRED",
+      "SRL",
+      "FK",
+      "OMEPRAZOL"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "1",
+      "4/4",
+      "2",
+      "20",
+      "120/70",
+      "76",
+      "39 , 9"
+    ],
+    "Achado": [
+      "S",
+      "CORADO",
+      "HIDRATADO",
+      "RHA+",
+      "FLÁCIDO",
+      "SP",
+      "RE-TX RENAL",
+      "CPP LIVRES",
+      "PC RITMO REGULAR"
+    ],
+    "Negação": [
+      "SEM",
+      "AFEBRIL"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "AFEBRIL",
+      "EDEMA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "AVALIADO",
+      "O",
+      "EM INVESTIGAÇÃO PARA USO GH"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ENDO"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PESO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABD",
+      "MMII"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "RE-TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 1 , 4",
+      "NS FK 3",
+      "NS SRL 5"
+    ]
+  },
+  "labels": {
+    "GB40": {
+      "term_original": "edema",
+      "capitulo": "16",
+      "confidence_embedding": 0.7946,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A escolha do código GB40 é justificada pelo termo 'edema' no contexto, pois a síndrome nefrítica pode estar associada à presença de edema leve, como descrito na definição do código. Além disso, o relatório também menciona RE-TX RENAL COM CR 1,4 E NS FK 3 E NS SRL 5, sugerindo uma possível insuficiência renal aguda ou síndrome nefrítica."
+    },
+    "FA25": {
+      "term_original": "flácido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7417,
+      "descricao_cid": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato.",
+      "classification_reasoning": "A escolha do código FA25 se baseia na descrição de 'flácido' como característica da artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares, o que é consistente com a avaliação clínica do paciente apresentando Abd RHA+, flácido."
+    },
+    "BD51.4": {
+      "term_original": "re-tx renal",
+      "capitulo": "11",
+      "confidence_embedding": 0.6871,
+      "descricao_cid": "Representação de doença CID-11: Aneurisma ou dissecção de artéria renal. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 're-tx renal' é a BD51.4, que se refere à aneurisma ou dissecção de artéria renal, uma condição clínica relacionada ao tratamento cirúrgico (re-tx) do rim."
+    },
+    "LB30.4": {
+      "term_original": "sp",
+      "capitulo": "20",
+      "confidence_embedding": 0.761,
+      "descricao_cid": "Representação de doença CID-11: Oligomeganefronia. Definição: Hipoplasia renal oligomeganefrônica é um defeito grave de desenvolvimento de ambos os rins, caracterizado por um número reduzido de néfrons (a unidade funcional do rim), glomérulos hipertróficos com diâmetros duas vezes maiores do que o normal, túbulos hipertróficos e espessamento da cápsula de Bowman, ocorrendo na ausência de uma malformação do trato urinário.",
+      "classification_reasoning": "A presença de Re-TX Renal com CR 1,4 e NS FK 3 e NS SRL 5 aponta para um problema relacionado à agenesia renal ou outros defeitos de redução do rim, o que coincide com a descrição da Oligomeganefronia (LB30.4)."
+    },
+    "MF54.2": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7612,
+      "descricao_cid": "Representação de doença CID-11: Hipoplasia renal. Definição: Condição caracterizada por um rim menor em tamanho e peso do que a média (menos de 11 centímetros de comprimento, 5-7,5 centímetros de largura, 2,5 centímetros de espessura e pesando menos de 120 gramas).",
+      "classification_reasoning": "A opção MF54.2 é a mais precisa para o termo 'queixas' no contexto clínico, pois não há menção a queixas específicas, como dor ou desconforto, mas sim à avaliação do paciente como 'sem queixas', sugerindo que o quadro clínico está bem controlado e sem sintomas relevantes."
+    }
+  }
+}

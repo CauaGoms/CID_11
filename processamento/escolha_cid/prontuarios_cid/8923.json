@@ -1,0 +1,115 @@
+{
+  "prontuario_id": 757,
+  "text": "16:22: CLIENTE FOI ENCAMINHADO AO HOSPITAL DO EXÉRCITO  ÀS 15:15, FOI TRANSFERIDO PELO ECO SALVA. ENFª FLORENCE XXXXX. EXAME GERAL E INVESTIGAÇÃO DE PESSOAS SEM QUEIXAS OU DIAGNÓSTICO. RELATADO EM TEMPO: Paciente encaminhado ao CC, por volta das 06:30. TRAUMATISMO DO MÚSCULO FLEXOR E TENDÃO DE OUTRO DEDO AO NÍVEL DO PUNHO E DA MÃO. 11:34 HS: CONSCIENTE, ORIENTADO, EUPNÉICO, EMAGRECIDO, COM DIETA EM SONDA ENTERAL, EM BI A 60ML/H, ACESSO VENOSO CENTRAL EM SUBCLÁVIA D, PERMEÁVEL PARA HD, CURATIVO EM REGIÃO ABDOMINAL SANGUINOLENTO, COM BOLSA ESCROTAL EDEMACIADA, CURATIVO COM CARVÃO ATIVADO, REALIZADO PELA ENF FLORENCE. ORIENTO REALIZAR TROCA DE CURATIVO SECUNDÁRIO. REFERIU CEFALÉIA, MEDICADO CONF PRESCRIÇÃO MÉDICA, MANTÉM PRECAUÇÃO DE CONTATO E VIAS AÉREAS. ENF FLORENCE, COREN 9999. SEPTICEMIA NÃO ESPECIFICADA.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "CLIENTE",
+      "Paciente"
+    ],
+    "Abreviação": [
+      "ENFª",
+      "CC",
+      "BI",
+      "60ML/H",
+      "HD",
+      "ENF",
+      "SUBCLÁVIA D"
+    ],
+    "Grupo Populacional": [
+      "PESSOAS"
+    ],
+    "Conceito Temporal": [
+      "TEMPO"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CC",
+      "ECO SALVA"
+    ],
+    "Achado": [
+      "CONSCIENTE",
+      "ORIENTADO",
+      "EUPNÉICO",
+      "PERMEÁVEL",
+      "SANGUINOLENTO",
+      "BOLSA ESCROTAL EDEMACIADA"
+    ],
+    "Sinal ou Sintoma": [
+      "EMAGRECIDO",
+      "CEFALÉIA"
+    ],
+    "Dispositivo Médico": [
+      "BI",
+      "CURATIVO",
+      "ACESSO VENOSO CENTRAL",
+      "CURATIVO COM CARVÃO ATIVADO"
+    ],
+    "Conceito Quantitativo": [
+      "60ML/H"
+    ],
+    "Conceito Qualitativo": [
+      "PERMEÁVEL",
+      "SANGUINOLENTO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "HD",
+      "CURATIVO",
+      "MEDICADO",
+      "DIETA EM SONDA ENTERAL",
+      "ACESSO VENOSO CENTRAL",
+      "CURATIVO COM CARVÃO ATIVADO",
+      "TROCA DE CURATIVO SECUNDÁRIO",
+      "PRECAUÇÃO DE CONTATO",
+      "VIAS AÉREAS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "MEDICADO",
+      "EXAME GERAL"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "SUBCLÁVIA D"
+    ],
+    "Localização ou Região Corporal": [
+      "REGIÃO ABDOMINAL"
+    ],
+    "Produto Intelectual": [
+      "PRESCRIÇÃO MÉDICA"
+    ]
+  },
+  "labels": {
+    "6C40.3": {
+      "term_original": "cefaléia",
+      "capitulo": "06",
+      "confidence_embedding": 0.8137,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas.",
+      "classification_reasoning": "A cefaléia descrita no prontuário é sintoma comum de intoxicação por álcool, caracterizado por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Embora a descrição do termo extraído seja breve, a presença da cefaléia é consistente com os sintomas de intoxicação por álcool."
+    },
+    "FB50.0": {
+      "term_original": "bolsa escrotal edemaciada",
+      "capitulo": "15",
+      "confidence_embedding": 0.75,
+      "descricao_cid": "Representação de doença CID-11: Bursite infecciosasa. Definição: Esta é uma inflamação de uma ou mais bursas (pequenas bolsas) sinoviais que geralmente resulta em dor e é causada por um agente infeccioso.",
+      "classification_reasoning": "A escolha do código FB50.0 é baseada na descrição de 'bolsa escrotal edemaciada', que se refere a uma bursite infecciosa, caracterizada por inflamação e dor nas bolsas sinoviais. A presença de edema na bolsa escrotal sugere a presença de uma lesão infecciosa na área."
+    },
+    "NE81.0Z": {
+      "term_original": "sanguinolento",
+      "capitulo": "22",
+      "confidence_embedding": 0.7834,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'sanguinolento' é a NE81.0Z, pois a descrição refere-se à hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, o que se ajusta ao contexto clínico do paciente com curativo sanguinolento na região abdominal."
+    },
+    "MG30.2": {
+      "term_original": "permeável",
+      "capitulo": "21",
+      "confidence_embedding": 0.7869,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A palavra 'permeável' está relacionada à descrição de dor crônica pós-operatória ou pós-traumática, especificamente no contexto do paciente que apresenta trauma muscular flexor e tendão de outro dedo ao nível do punho e da mão."
+    },
+    "5C78": {
+      "term_original": "emagrecido",
+      "capitulo": "05",
+      "confidence_embedding": 0.79,
+      "descricao_cid": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem.",
+      "classification_reasoning": "A palavra 'emagrecido' sugere que o paciente está apresentando uma condição de sobrecarga de líquidos, o que é confirmado pela descrição do código 5C78. Além disso, a presença de edema abdominal e emagrecimento apoia essa escolha."
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "prontuario_id": 831,
+  "text": "NEFROPATIA DIABETICA EM TTO CONSERVADOR\nCANDIDATA A TX RENAL PREEMPTIVO \nLIBERADA PELA URO E ANESTESIO \nCANDIDATA A TX RENAL PREEMPTIVO\nASSINTOMÁTICA, EXCETO PELOS SINAIS E SINTOMAS ASSOCIADOS A NEUROPATIA PERIFERICA ( DIABETICA / UREMIA)\nSEM SINTOMAS URINARIOS\nAO EXAME PA 150/100   P 108  T 36  DIURESE FRR NORMAL\nHIPOCORADA +\nCPP LIVRES\nPC RITMO REGULAR, TAQUICARDICO\nABD RHA+, PLANO, FLÁCIDO, CIC CX CST\nMMII PULSOS PRESENTES E SIMETRICOS",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "CANDIDATA"
+    ],
+    "Abreviação": [
+      "URO",
+      "ANESTESIO",
+      "PA",
+      "P",
+      "T",
+      "FRR",
+      "PC",
+      "ABD",
+      "RHA+",
+      "CIC",
+      "MMII",
+      "TTO CONSERVADOR",
+      "TX RENAL",
+      "CPP LIVRES",
+      "CX CST"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "URO",
+      "ANESTESIO"
+    ],
+    "Negação": [
+      "ASSINTOMÁTICA",
+      "EXCETO",
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "ASSINTOMÁTICA",
+      "SINAIS",
+      "SINTOMAS",
+      "UREMIA",
+      "HIPOCORADA",
+      "TAQUICARDICO",
+      "SINTOMAS URINARIOS"
+    ],
+    "Doença ou Síndrome": [
+      "DIABETICA",
+      "NEFROPATIA DIABETICA",
+      "NEUROPATIA PERIFERICA"
+    ],
+    "Atributo Clínico": [
+      "EXAME",
+      "PA",
+      "P",
+      "T",
+      "FRR",
+      "PC",
+      "PULSOS",
+      "CPP LIVRES"
+    ],
+    "Conceito Quantitativo": [
+      "150/100",
+      "108",
+      "36"
+    ],
+    "Função de Organismo": [
+      "DIURESE"
+    ],
+    "Achado": [
+      "NORMAL",
+      "RHA+",
+      "PLANO",
+      "FLÁCIDO",
+      "CPP LIVRES",
+      "RITMO REGULAR"
+    ],
+    "Localização ou Região Corporal": [
+      "ABD",
+      "MMII"
+    ],
+    "Função Patológica": [
+      "CIC"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TTO CONSERVADOR",
+      "TX RENAL",
+      "CX CST"
+    ]
+  },
+  "labels": {
+    "8B94": {
+      "term_original": "neuropatia periferica",
+      "capitulo": "08",
+      "confidence_embedding": 0.7766,
+      "descricao_cid": "Representação de doença CID-11: Radiculoplexoneuropatia diabética. Definição: Radiculoplexoneuropatia diabética é uma complicação rara, mas bem estabelecida, de uma neuropatia focal que ocorre em pacientes com diabetes tipo 2. Alterações etiologicamente inflamatórias de microvasculites são presumidas. É independente do estágio do diabetes e muitas vezes ocorre em associação usual com perda de peso, não antes da 4ª ou 5ª década. Apresenta-se com dor aguda intensa e envolvimento predominantemente motor do plexo lombar, frequentemente assimétrico e geralmente unilateral. A atrofia muscular ocorre precocemente. É autolimitada, mas incapacidade pode persistir.\r\n\r\nSempre atribua um código adicional para o tipo de diabetes mellitus.",
+      "classification_reasoning": "A neuropatia periferica diabética é a opção mais precisa para o termo extraído 'neuropatia periferica' no contexto clínico de uma paciente com nefropatia diabética em estágio conservador, candidata à tx renal preemption e apresentando sintomas associados à neuropatia periférica (diabética/uremica) sem sintomas urinários."
+    },
+    "MB2A": {
+      "term_original": "sintomas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7698,
+      "descricao_cid": "Representação de doença CID-11: Sintomas ou sinais relativos à eliminação de fezes e urina. Definição: Sintomas e sinais relativos aos componentes comportamentais da defecação (sujidade, eliminação fecal) e micção.",
+      "classification_reasoning": "A escolha do código MB2A é mais precisa porque o termo 'sintomas' refere-se a sinais e sintomas relativos à eliminação de fezes e urina, que incluem doenças relacionadas à função renal, como neuropatia periférica (diabética/uremica) descrita no contexto clínico."
+    },
+    "FA25": {
+      "term_original": "flácido",
+      "capitulo": "15",
+      "confidence_embedding": 0.737,
+      "descricao_cid": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato.",
+      "classification_reasoning": "O termo 'flácido' descrito no prontuário refere-se à apresentação física do paciente, que tem abdomem plano e flácido. A escolha do código FA25 (Gota) é mais precisa porque a gota pode causar dor articular e rigidez articulares, levando ao afrouxamento muscular (flacidez), especialmente nos membros inferiores."
+    },
+    "GB40": {
+      "term_original": "uremia",
+      "capitulo": "16",
+      "confidence_embedding": 0.7938,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A opção mais precisa para o termo 'uremia' no contexto clínico é a Síndrome Nefrítica (GB40). Embora a uremia seja uma característica comum em doenças renais, no contexto de um paciente com nefropatia diabética em estágio avançado e apresentando sintomas de neuropatia periférica e uremia, é mais provável que a uremia esteja relacionada à Síndrome Nefrítica do que a outras opções."
+    },
+    "BC43.1": {
+      "term_original": "hipocorada",
+      "capitulo": "11",
+      "confidence_embedding": 0.7319,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia hipertrófica. Definição: A cardiomiopatia hipertrófica é a presença de um ventrículo hipertrofiado e não dilatado na ausência de uma causa hemodinâmica que seja capaz de produzir a magnitude existente de espessamento da parede, excluindo tanto a hipertrofia fisiológica secundária à atividade física quanto a hipertrofia patológica devida a hipertensão arterial sistêmica, estenose valvar aórtica e coarctação da aorta.",
+      "classification_reasoning": "A presença de hipocorada (+) no exame físico e a normalidade da diurese sugerem uma cardiomiopatia hipertrófica, mais especificamente cardiópata hipertrófica do ventrículo esquerdo (BC43.1)"
+    },
+    "MF50.60": {
+      "term_original": "cic",
+      "capitulo": "21",
+      "confidence_embedding": 0.7681,
+      "descricao_cid": "Representação de doença CID-11: Hesitação miccional. Definição: Dificuldade em iniciar o fluxo de urina ou manter um jato urinário",
+      "classification_reasoning": "A opção MF50.60, Hesitação miccional, é a mais precisa para o termo 'cic' dentro do contexto clínico de nefropatia diabética em TTO conservador candidata a TX renal preemptivo, pois 'cic' parece referir-se ao esforço urinário ou hesitação miccional, o que está relacionado à dificuldade em iniciar o fluxo de urina ou manter um jato urinário."
+    },
+    "8D88.1": {
+      "term_original": "taquicardico",
+      "capitulo": "08",
+      "confidence_embedding": 0.7418,
+      "descricao_cid": "Representação de doença CID-11: Neuropatia autonômica devida a diabetes mellitus. Definição: Disfunção do sistema nervoso autônomo devida a diabetes mellitus que se apresenta como complicações funcionais tais como taquicardia em repouso, intolerância ao exercício, hipotensão ortostática, constipação, gastroparesia, sudorese, distensão da bexiga e impotência.",
+      "classification_reasoning": "A presença de taquicardia no prontuário, associada à neuropatia periférica diabética e uremia, sugere que a neuropatia autonômica diabética é mais provável do que outra opção."
+    },
+    "GB90.4A": {
+      "term_original": "nefropatia diabetica",
+      "capitulo": "16",
+      "confidence_embedding": 0.7987,
+      "descricao_cid": "Representação de doença CID-11: Diabetes insípido nefrogênico. Definição: Diabetes insípido nefrogênico é uma condição na qual os túbulos renais respondem mal ao hormônio antidiurético secretado pela hipófise, resultando em falha na concentração da urina e perda de água. Poliúria com urina diluída e polidipsia (sede excessiva) estão presentes. Pode ser congênita ou adquirida por várias causas. As formas congênitas podem ser atribuídas a defeitos no receptor da vasopressina ou da aquaporina-2. Eles são caracterizados por poliúria com polidipsia, episódios recorrentes de picos de febre, constipação e desidratação hipernatrêmica aguda após o nascimento, e que podem causar sequelas neurológicas.",
+      "classification_reasoning": "Escolha do código GB90.4A por ser a nefropatia diabetica, doença relacionada à diabetes insípida, que é caracterizada pela poliúria e polidipsia, sintomas presentes no caso."
+    },
+    "MF50.63": {
+      "term_original": "sinais",
+      "capitulo": "21",
+      "confidence_embedding": 0.7727,
+      "descricao_cid": "Representação de doença CID-11: Urgência miccional. Definição: Uma vontade repentina e intensa de urinar junto com desconforto na bexiga",
+      "classification_reasoning": "A paciente apresenta sintomas de urgência miccional, caracterizados pela vontade repentina e intensa de urinar junto com desconforto na bexiga, embora não esteja relacionada a problemas urinários, mas sim à neuropatia periférica (diabética/uremica)."
+    }
+  }
+}

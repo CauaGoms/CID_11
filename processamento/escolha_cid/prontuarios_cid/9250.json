@@ -1,0 +1,115 @@
+{
+  "prontuario_id": 340,
+  "text": "Paciente proveniente de XXXX, em acompanhamento no ambulatório de ICC do XXXX, internado na CTI desde 08/03 com quadro de insuficiência cardiaca refratária ao tratamento clínico e choque cardiogênico. Apesar das medidas terapêuticas adotadas, inserção de cateter de Swan-Ganz e uso de drogas vasoativas ( Dobutamina e Milrinona ), não apresentou melhora clinica. Foram tomadas medidas para inclusão do paciente em lista de transplante cardiaco, o qual não foi concretizado por falta de condições clínicas do mesmo. Complicou durante a internação com perda progressiva de função renal e infecção no local de introdução do cateter ( septicemia não especificada ). Dia 18/03 apresentou piora importante do quadro, necessitando de ventilação mecânica. Apesar das medidas instituidas em vigência da piora clínica, evoluiu para obito às 08:00 h de 19/03. PACIENTE COM CARDIOPATIA ISQUEMICA INTERNA PARA REALIZAÇÃO DE ANGIOPLASTIA COM IMPLANTE DE STENT EM ARTÉRIA DESCENDENTE ANTERIOR ESQUERDA REALIZADA COM SUCESSO, SEM INTERCORRÊNCIAS. RECEBE ALTA EM BOM ESTADO GERAL, COM RECOMENDAÇÕES.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente",
+      "paciente",
+      "PACIENTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "internado",
+      "internação",
+      "INTERNA",
+      "ALTA",
+      "RECOMENDAÇÕES"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CTI"
+    ],
+    "Abreviação": [
+      "CTI",
+      "ambulatório de ICC"
+    ],
+    "Substância Química Orgânica": [
+      "Dobutamina",
+      "Milrinona"
+    ],
+    "Substância Farmacológica": [
+      "Dobutamina",
+      "Milrinona",
+      "drogas vasoativas"
+    ],
+    "Negação": [
+      "não",
+      "SEM"
+    ],
+    "Função Patológica": [
+      "infecção",
+      "choque cardiogênico"
+    ],
+    "Função de Organismo": [
+      "obito"
+    ],
+    "Achado": [
+      "SUCESSO",
+      "melhora clinica",
+      "piora clínica",
+      "BOM ESTADO GERAL"
+    ],
+    "Sinal ou Sintoma": [
+      "INTERCORRÊNCIAS"
+    ],
+    "Doença ou Síndrome": [
+      "insuficiência cardiaca refratária",
+      "choque cardiogênico",
+      "CARDIOPATIA ISQUEMICA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "inserção de cateter de Swan-Ganz",
+      "transplante cardiaco",
+      "ventilação mecânica",
+      "ANGIOPLASTIA COM IMPLANTE DE"
+    ],
+    "Localização ou Região Corporal": [
+      "local de introdução do cateter"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ARTÉRIA DESCENDENTE ANTERIOR ESQUERDA"
+    ]
+  },
+  "labels": {
+    "BA60.9": {
+      "term_original": "choque cardiogênico",
+      "capitulo": "11",
+      "confidence_embedding": 0.8522,
+      "descricao_cid": "Representação de doença CID-11: Choque cardiogênico, não relacionado a complicações mecânicas, como complicação atual subsequente a infarto agudo do miocárdio. Definição: A expressão clínica mais grave da insuficiência ventricular esquerda e está associada a extensos danos ao miocárdio ventricular esquerdo após infarto agudo do miocárdio, não relacionado a um defeito mecânico como ruptura do septo ventricular ou do músculo papilar. Choque é definido como pressão arterial (PA) sistólica <90 mmHg e hipoperfusão de órgãos.",
+      "classification_reasoning": "A opção mais precisa é o Código BA60.9, que descreve o choque cardiogênico não relacionado a complicações mecânicas, como complicação atual subsequente a infarto agudo do miocárdio. O paciente apresenta quadro de insuficiência cardiaca refratária ao tratamento clínico e choque cardiogênico, o que é consistente com essa opção."
+    },
+    "MG30.2": {
+      "term_original": "piora clínica",
+      "capitulo": "21",
+      "confidence_embedding": 0.7359,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A piora clínica é uma situação crítica do paciente que envolveu o quadro de insuficiência cardiaca refratária e choque cardiogênico, levando à necessidade de ventilação mecânica e finalmente ao óbito. Esta situação não se ajusta às outras opções listadas, pois não há relação com dor pós-operatória ou pós-traumática, nem é uma pirose, cólica renal ou dor crônica."
+    },
+    "BA51": {
+      "term_original": "insuficiência cardiaca refratária",
+      "capitulo": "11",
+      "confidence_embedding": 0.7886,
+      "descricao_cid": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas.",
+      "classification_reasoning": "A escolha do código BA51 (Miocardiopatia isquêmica) é a mais precisa para o termo 'insuficiência cardiaca refratária' no contexto clínico, pois o paciente apresenta uma cardiomiopatia isquêmica interna para realização de angioplastia com implante de stent em artéria descendente anterior esquerda. Além disso, o paciente tem quadro de insuficiência cardiaca refratária ao tratamento clínico e choque cardiogênico, o que é consistente com a definição de miocardiopatia isquêmica."
+    },
+    "NE99.9Z": {
+      "term_original": "infecção",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A infecção mencionada é septicemia não especificada, característica de uma infecção grave e generalizada, que não está relacionada às lesões ou lacerações de veias jugulares (NA60). A cardiomiopatia induzida por estimulação (NE82.03) também não é relevante para a infecção mencionada."
+    },
+    "BC43.0": {
+      "term_original": "cardiopatia isquemica",
+      "capitulo": "11",
+      "confidence_embedding": 0.7795,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida.",
+      "classification_reasoning": "A condição do paciente apresenta cardiopatia isquemica interna para realização de angioplastia com implante de stent em artéria descendente anterior esquerda, o que sugere doença cardíaca relacionada ao miocárdio. A definição da cardiomiopatia dilatada coincide melhor com a apresentação clínica do paciente."
+    },
+    "MG30.21": {
+      "term_original": "melhora clinica",
+      "capitulo": "21",
+      "confidence_embedding": 0.7171,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática.",
+      "classification_reasoning": "A opção mais precisa para o termo 'melhora clinicamente' no contexto do prontuário é a dor crônica pós-operatória (CID-11: MG30.21). Isso porque o paciente apresentou melhora clínica antes de deteriorar e requerer ventilação mecânica, sugerindo uma possível melhora em sua condição clínica após tratamento."
+    }
+  }
+}

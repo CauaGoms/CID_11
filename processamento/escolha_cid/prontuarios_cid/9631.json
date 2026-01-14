@@ -1,0 +1,218 @@
+{
+  "prontuario_id": 424,
+  "text": "Lucas, 68 ANOS\nS # Primeira consulta.Paciente encaminhada po Doutor Vital Brazil cardiologista. Paciente realizou angiopplastia apos IAM há cerca de 01 mês. Refere sintomas depressivos, que segundo paciente, já existiam, no entanto exacerbaram desde então. Refere humor deprimido, choro facil,anedonia, avolia, ideação passiva de morte. Relata tratamento prévio por episodio depressivo há cerca de 04 anos - tomou fluoxetina 40 mg / dia e amitriptilina 25 mg / dia,e parou por conta propria.Refere diminuiçao do apetite e insonia intermediaria. Situação social complicada, é casada há 51 anos e esposo é alcoolatra e agride fisica e verbalmente a esposa \" ele nao da suporte nenhum,nem foi me ver no hospital \"( sic ).Tem dois filhos e alguns netos, que a ajudam. Nega episodio de hiperativção.\nCDTA # Prescrevo escitalopram 10 mg (1 - 0 - 0 )- forneço amostra de exodus, oriento iniciar com 1/2 cp ao dia e aumenta para 01 cp após uma semana. Retorno em janeiro para reavaliação.\nEEM # Asseada,cooperayiva, orientada alo e auto, normovigil, normotenaz, sem alt de sensopercepçao, humor hipotimico afeto congruente, critica e insght preservados.\n ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "consulta",
+      "encaminhada",
+      "CDTA",
+      "Prescrevo",
+      "forneço",
+      "oriento",
+      "aumenta",
+      "Retorno",
+      "reavaliação"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente",
+      "paciente"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Doutor",
+      "cardiologista"
+    ],
+    "Doença ou Síndrome": [
+      "IAM",
+      "alcoolatra"
+    ],
+    "Conceito Qualitativo": [
+      "exacerbaram",
+      "facil",
+      "preservados"
+    ],
+    "Sinal ou Sintoma": [
+      "choro",
+      "anedonia",
+      "avolia",
+      "hiperativção",
+      "sintomas depressivos",
+      "ideação passiva de morte",
+      "episodio depressivo",
+      "diminuiçao do apetite",
+      "insonia intermediaria",
+      "alt de sensopercepçao",
+      "humor hipotimico"
+    ],
+    "Disfunção Mental ou Comportamental": [
+      "anedonia",
+      "avolia",
+      "ideação passiva de morte",
+      "episodio depressivo",
+      "alt de sensopercepçao",
+      "humor hipotimico"
+    ],
+    "Substância Farmacológica": [
+      "fluoxetina",
+      "amitriptilina",
+      "escitalopram",
+      "exodus"
+    ],
+    "Substância Química Orgânica": [
+      "fluoxetina",
+      "amitriptilina",
+      "escitalopram",
+      "exodus"
+    ],
+    "Conceito Temporal": [
+      "dia",
+      "há cerca de 01 mês",
+      "há cerca de 04 anos",
+      "após uma semana"
+    ],
+    "Grupo Familiar": [
+      "esposo",
+      "netos"
+    ],
+    "Negação": [
+      "Nega",
+      "sem"
+    ],
+    "Abreviação": [
+      "CDTA",
+      "EEM",
+      "1/2 cp",
+      "01 cp",
+      "orientada alo e auto",
+      "alt de sensopercepçao"
+    ],
+    "Substância Química Inorgânica": [
+      "exodus"
+    ],
+    "Atributo Clínico": [
+      "EEM"
+    ],
+    "Achado": [
+      "Asseada",
+      "cooperayiva",
+      "normovigil",
+      "normotenaz",
+      "humor deprimido",
+      "parou por conta propria",
+      "diminuiçao do apetite",
+      "Situação social complicada",
+      "orientada alo e auto",
+      "afeto congruente"
+    ],
+    "Processo Mental": [
+      "critica",
+      "insght"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "tratamento prévio"
+    ],
+    "Conceito Quantitativo": [
+      "40 mg",
+      "25 mg",
+      "10 mg",
+      "1 - 0 - 0",
+      "1/2 cp",
+      "01 cp"
+    ],
+    "Lesão ou Envenenamento": [
+      "agride fisica e verbalmente"
+    ]
+  },
+  "labels": {
+    "QA30.02": {
+      "term_original": "alcoolatra",
+      "capitulo": "24",
+      "confidence_embedding": 0.7496,
+      "descricao_cid": "Representação de doença CID-11: Pessoa em contato com os serviços de saúde para inseminação de esperma medicamente assistida. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'alcoolatra' é QA30.02, pois refere-se a pessoa em contato com os serviços de saúde para inseminação de esperma medicamente assistada. Nesse contexto clínico, o esposo do paciente apresenta problemas de alcoolismo e agressão verbal e física, caracterizando um caso de abuso doméstico."
+    },
+    "6E62.0": {
+      "term_original": "humor hipotimico",
+      "capitulo": "06",
+      "confidence_embedding": 0.8356,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de humor secundária com sintomas depressivos. Definição: Síndrome caracterizada pela presença de sintomas depressivos proeminentes, como humor persistentemente deprimido, perda de interesse em atividades anteriormente prazerosas ou sinais como aparência chorosa e oprimida, que são considerados consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental, com base em evidências de anamnese, exame físico ou achados laboratoriais. Os sintomas não são explicados por delirium ou por outro transtorno mental e comportamental, e não são uma resposta psicologicamente mediada a uma condição médica grave (p. ex., sintomas depressivos em resposta ao diagnóstico de uma doença potencialmente fatal). Essa categoria deve ser utilizada somada ao diagnóstico do transtorno ou doença subjacente presumido, quando os sintomas de humor forem suficientemente graves para exigir atenção clínica específica.",
+      "classification_reasoning": "O paciente apresenta sintomas depressivos, humor deprimido e ideação passiva de morte, que são considerados consequência fisiopatológica direta da condição médica subjacente (angioplastia após IAM há cerca de 01 mês). Além disso, a presença de sintomas depressivos exacerbados desde a angioplastia apoiam a escolha da síndrome de humor secundária com sintomas depressivos."
+    },
+    "6e+61": {
+      "term_original": "hiperativção",
+      "capitulo": "06",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A falta de hiperativação e a presença de sintomas depressivos, ideação passiva de morte e anedonia sugerem uma síndrome psicótica secundária com alucinações e delírios (6E61.2). Além disso, o contexto do prontuário revela que o paciente apresentou episódios depressivos anteriores e tem uma situação social complicada."
+    },
+    "7A24": {
+      "term_original": "insonia intermediaria",
+      "capitulo": "07",
+      "confidence_embedding": 0.7504,
+      "descricao_cid": "Representação de doença CID-11: Hipersonia devida ao uso de medicamento ou substância. Definição: Hipersonia devido ao uso de medicamento ou substância é caracterizada por sono noturno excessivo, sonolência diurna, ou cochilos excessivos que é atribuído aos efeitos sedativos do medicamento, álcool, ou outras substâncias psicoativas, incluindo as síndromes de abstinência (p.ex. de estimulantes) e é grave o suficiente para constituir um foco independente de atenção clínica.\r\n\r\nNota: Um diagnóstico definitivo requer o uso de polissonografia e do teste das múltiplas latências do sono (TMLS) para excluir outros transtornos de hipersonolência ou outros transtornos do sono (e.g. apneia obstrutiva do sono) que podem explicar melhor a sonolência.",
+      "classification_reasoning": "A sintomatologia de insonia intermediária, no contexto de um paciente com histórico de depressão e uso recente de angioplastia após IAM, sugere que a hipersonia pode ser devida ao uso de medicamento ou substância. A escolha do código 7A24 também é justificada pela presença de sintomas depressivos exacerbados desde o procedimento."
+    },
+    "NB2Y": {
+      "term_original": "agride fisica e verbalmente",
+      "capitulo": "22",
+      "confidence_embedding": 0.7316,
+      "descricao_cid": "Representação de doença CID-11: Outra lesão especificada de nervos ou da medula espinal ao nível do tórax. Definição: ",
+      "classification_reasoning": "A agressão física e verbal é uma forma de lesão especificada de nervos ou da medula espinal ao nível do tórax, justificando a escolha do código NB2Y."
+    },
+    "MG43.8": {
+      "term_original": "diminuiçao do apetite",
+      "capitulo": "21",
+      "confidence_embedding": 0.7726,
+      "descricao_cid": "Representação de doença CID-11: perda de apetite. Definição: Diminuição, intermitente ou persistente, da motivação ou do desejo de comer alimentos, em comparação com o habitual do indivíduo.",
+      "classification_reasoning": "A perda de apetite é um sintoma depressivo comum, e a descrição do paciente menciona 'diminuiçao do apetite', o que se encaixa melhor no código MG43.8."
+    },
+    "6A70.5": {
+      "term_original": "ideação passiva de morte",
+      "capitulo": "06",
+      "confidence_embedding": 0.8055,
+      "descricao_cid": "Representação de doença CID-11: Transtorno depressivo, episódio único, gravidade não especificada. Definição: Transtorno depressivo, episódio único, gravidade não especificada é diagnosticado quando os critérios diagnósticos para episódio depressivo são preenchidos, não há história de episódios depressivos prévios e as informações são insuficientes para determinar a gravidade do episódio depressivo atual. Um episódio depressivo é caracterizado por um período de humor deprimido ou diminuição do interesse em atividades que ocorre na maior parte do dia, quase todos os dias, durante um período de pelo menos duas semanas, acompanhado por outros sintomas, como dificuldade de concentração, sentimentos de inutilidade ou culpa excessiva ou inadequada, desesperança, pensamentos recorrentes de morte ou suicídio, alterações no apetite ou no sono, agitação ou lentificação psicomotora e redução da energia ou fadiga. Os sintomas estão associados a pelo menos alguma dificuldade em continuar as atividades normais de trabalho, sociais ou domésticas.",
+      "classification_reasoning": "O termo 'ideação passiva de morte' sugere um estado depressivo intenso e pensamentos suicidas, o que é característico do transtorno depressivo episódio único não especificado (Código CID-11: 6A70.5)."
+    },
+    "QA04.6": {
+      "term_original": "orientada alo e auto",
+      "capitulo": "24",
+      "confidence_embedding": 0.7318,
+      "descricao_cid": "Representação de doença CID-11: Exame mental geral, requerido por autoridade. Definição: ",
+      "classification_reasoning": "A paciente está orientada a alo e auto, o que sugere uma intervenção psicológica ou de saúde mental. A opção QA04.6 se encaixa melhor nesse contexto, pois refere-se a um exame mental geral requerido por autoridade, o que é consistente com a orientação dada à paciente."
+    },
+    "BA41": {
+      "term_original": "iam",
+      "capitulo": "11",
+      "confidence_embedding": 0.7507,
+      "descricao_cid": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)",
+      "classification_reasoning": "O termo 'IAM' é mencionado no relatório como o procedimento realizado pelo paciente, que foi angioplastia após infarto do miocárdio há cerca de 01 mês. Portanto, a escolha mais precisa é o código BA41 para Infarto agudo do miocárdio."
+    },
+    "6A80.5": {
+      "term_original": "avolia",
+      "capitulo": "06",
+      "confidence_embedding": 0.7985,
+      "descricao_cid": "Representação de doença CID-11: Ciclagem rápida. Definição: No contexto do transtorno bipolar tipo I ou bipolar tipo II, houve uma alta frequência de episódios de humor (pelo menos quatro) nos últimos 12 meses. Pode haver uma mudança de uma polaridade de humor para outra, ou os episódios de humor podem ser demarcados por um período de remissão. Em indivíduos com alta frequência de episódios de humor, alguns podem ter uma duração mais curta do que aqueles geralmente observados no transtorno bipolar tipo I ou bipolar tipo II. Em particular, os períodos depressivos podem durar apenas vários dias. Se os sintomas depressivos e maníacos se alternam muito rapidamente (ou seja, de um dia para o outro ou no mesmo dia), um episódio misto deve ser diagnosticado em vez de ciclagem rápida.",
+      "classification_reasoning": "O termo 'avolia' é relacionado a sintomas de depressão e anedonia, que são características do episódio depressivo atual com melancolia (Código 6A80.3). A presença de ideação passiva de morte e humor deprimido também apoiam essa escolha."
+    },
+    "6A80.3": {
+      "term_original": "anedonia",
+      "capitulo": "06",
+      "confidence_embedding": 0.819,
+      "descricao_cid": "Representação de doença CID-11: Episódio depressivo atual com melancolia. Definição: No contexto de um episódio depressivo atual, vários dos seguintes sintomas estiveram presentes durante o pior período do episódio atual: perda de interesse ou prazer na maioria das atividades que são normalmente prazerosas ​​para o indivíduo (ou seja, anedonia generalizada); falta de reatividade emocional a estímulos ou circunstâncias normalmente prazerosos​​(ou seja, o humor não melhora nem mesmo temporariamente com a exposição); insônia terminal (ou seja, acordar pela manhã duas ou mais horas antes do horário usual); os sintomas depressivos são piores pela manhã; lentificação ou agitação psicomotora acentuada; perda acentuada de apetite ou perda de peso.",
+      "classification_reasoning": "O paciente apresenta sintomas depressivos, incluindo anedonia, que está presente desde antes do episódio atual e se agravou após a realização de angioplastia. Além disso, o paciente relata humor deprimido, choro fácil e ideação passiva de morte. Esses sintomas se encaixam na definição do código 6A80.3: Representação de doença CID-11: Episódio depressivo atual com melancolia."
+    },
+    "QC12": {
+      "term_original": "situação social complicada",
+      "capitulo": "24",
+      "confidence_embedding": 0.7574,
+      "descricao_cid": "Representação de doença CID-11: Procedimento não realizado devido à decisão do paciente por outras razões que não as de crença ou grupo de pressão. Definição: ",
+      "classification_reasoning": "A situação social complicada refere-se à agressão física e verbal do esposo, que está comprometendo a vida conjugal do paciente. Isso é um problema associado à transferência física do paciente sem lesão ou dano."
+    },
+    "MB24.A": {
+      "term_original": "alt de sensopercepçao",
+      "capitulo": "21",
+      "confidence_embedding": 0.7667,
+      "descricao_cid": "Representação de doença CID-11: Medo. Definição: Resposta emocional diante da percepção de ameaça ou perigo iminente, associada ao desejo de fugir ou lutar.",
+      "classification_reasoning": "A opção mais precisa é o código MB24.A - Medo, pois o paciente refere 'ideação passiva de morte' e tem sintomas depressivos exacerbados desde a angiopastia, o que sugere uma resposta emocional diante da percepção de ameaça ou perigo iminente."
+    }
+  }
+}

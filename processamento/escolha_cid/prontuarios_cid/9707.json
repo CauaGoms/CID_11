@@ -1,0 +1,125 @@
+{
+  "prontuario_id": 579,
+  "text": "Candidata a tx renal.\nIRC por eclampsia;\nHD há 3 meses; Anurica neste periodo;\nSem queixas urinárias prévias; \nNega hematuria, nega ITU ou litíase renal.\n\nHMP: G II, C I, A I; Implante de permicath a D; Nega outras comorbidades;\nPU: normal; \nAo exame: FI livre; pulsos ffemorais e pediosos palpa´veis e simétricos bilaterais; \n\nP # Liberada para transplante.\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "IRC",
+      "HD",
+      "ITU",
+      "HMP",
+      "D",
+      "tx renal",
+      "G II",
+      "C I",
+      "A I",
+      "PU : normal",
+      "FI livre"
+    ],
+    "Doença ou Síndrome": [
+      "IRC",
+      "eclampsia",
+      "ITU",
+      "comorbidades",
+      "litíase renal"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "HD",
+      "Implante",
+      "transplante",
+      "tx renal"
+    ],
+    "Negação": [
+      "Anurica",
+      "Sem",
+      "Nega",
+      "nega"
+    ],
+    "Sinal ou Sintoma": [
+      "hematuria",
+      "queixas urinárias prévias"
+    ],
+    "Dispositivo Médico": [
+      "permicath"
+    ],
+    "Conceito Espacial": [
+      "D",
+      "bilaterais"
+    ],
+    "Procedimento Diagnóstico": [
+      "exame"
+    ],
+    "Atributo Clínico": [
+      "pulsos",
+      "G II",
+      "C I",
+      "A I"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ffemorais",
+      "pediosos"
+    ],
+    "Achado": [
+      "palpa´veis",
+      "PU : normal",
+      "FI livre"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Liberada"
+    ],
+    "Conceito Temporal": [
+      "3 meses",
+      "neste periodo"
+    ]
+  },
+  "labels": {
+    "BD51.4": {
+      "term_original": "irc",
+      "capitulo": "11",
+      "confidence_embedding": 0.7013,
+      "descricao_cid": "Representação de doença CID-11: Aneurisma ou dissecção de artéria renal. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a BD51.4, pois o termo 'IRC' se refere ao aneurisma ou dissecção de artéria renal, que está descrito no prontuário como uma das condições presentes na paciente."
+    },
+    "JA20.2": {
+      "term_original": "eclampsia",
+      "capitulo": "18",
+      "confidence_embedding": 0.8361,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva preexistente complicando a gravidez, o parto ou o puerpério. Definição: Condição que acomete mulheres grávidas, causada por hipertensão e doença renal associada previamente diagnosticadas ou diagnosticadas durante as primeiras 20 semanas (de gestação). Essa condição é caracterizada por pressão arterial maior ou igual a 140/90 mmHg, levando a uma complicação durante a gravidez, parto e puerpério. A confirmação é feita pela aferição com esfigmomanômetro.",
+      "classification_reasoning": "A eclampsia é um tipo de hipertensão grave que pode ocorrer durante a gravidez, caracterizada por convulsões e alterações neurológicas. No contexto clínico fornecido, a paciente tem história de IRC por eclampsia, o que sugere uma doença renal hipertensiva preexistente complicando a gravidez. Portanto, a escolha mais precisa para o termo 'eclampsia' é o código JA20.2."
+    },
+    "4.44": {
+      "term_original": "comorbidades",
+      "capitulo": "04",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'comorbidades' no contexto clínico é a vasculite leucocitoclástica (4A44.B), pois essa condição pode estar associada a outras doenças e transtornos, como hipersensibilidade renal induzida por drogas ou síndrome de Good. Além disso, o paciente tem implante de permicath em D e não apresenta queixas urinárias prévias, o que pode sugerir alguma forma de doença renal crônica."
+    },
+    "GB40": {
+      "term_original": "hematuria",
+      "capitulo": "16",
+      "confidence_embedding": 0.7812,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A escolha do código GB40 é baseada na falta de queixas urinárias prévias e a negativação de hematuria, ITU ou litíase renal. Além disso, o paciente apresenta síndrome nefrítica com eclampsia em seu histórico, o que apoia a escolha do código GB40."
+    },
+    "MF56": {
+      "term_original": "palpa´veis",
+      "capitulo": "21",
+      "confidence_embedding": 0.7462,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A opção MF56 (Cólica renal) foi escolhida porque o termo 'palpa´veis' se refere à percepção de sensações tátil pela palpação, característica da dor na cólica renal. Além disso, a ausência de queixas urinárias prévias e a anúria recente sugerem uma possível obstrução do trato urinário superior, o que é comum em casos de cólica renal."
+    },
+    "GB71.1": {
+      "term_original": "itu",
+      "capitulo": "16",
+      "confidence_embedding": 0.7608,
+      "descricao_cid": "Representação de doença CID-11: Cálculo uretral. Definição: Uma afecção causada por desidratação, diminuição do volume de urina ou das taxas de fluxo de fluido, ou aumento da excreção de minerais como cálcio, oxalato, magnésio, cistina e fosfato. Essa condição é caracterizada por cálculos urinários localizados na uretra, onde pode levar à cólica renal. Essa afecção também pode se manifestar com hematúria, disúria ou dor no flanco, abdome inferior, virilha, coxas ou genitália. A confirmação é feita por radiografia abdominal para determinar a presença e localização de cálculos.",
+      "classification_reasoning": "A presença do termo \"ITU\" no contexto clínico sugere que a candidata tem uma lesão renal aguda ou crônica, e o código GB71.1 para Cálculo uretral se ajusta melhor à essa situação, considerando-se a ausência de outros sintomas que justificassem a escolha do termo \"Síndrome nefrítica\" (GB40) ou da Nefrite túbulo-intersticial aguda (GB50). Além disso, não há evidências de doença renal policística autossômica dominante (GB81), e o Cálculo de Staghorn (GB70.00) também não se ajusta ao contexto."
+    },
+    "GB80": {
+      "term_original": "litíase renal",
+      "capitulo": "16",
+      "confidence_embedding": 0.7912,
+      "descricao_cid": "Representação de doença CID-11: Doença renal cística não familiar não genética. Definição: Doenças em que há alterações anatômicas ou patológicas do desenvolvimento na substância renal que não ocorrem em uma distribuição familiar e não são conhecidas por terem uma causa monogenética.",
+      "classification_reasoning": "A litíase renal não está relacionada a síndrome nefrítica (GB40) ou nefrite túbulo-intersticial aguda (GB50), e tampouco é uma doença policística autossômica dominante (GB81). A opção mais precisa é a Doença renal cística não familiar não genética, pois a paciente tem história de HD há 3 meses e anúria neste período, sugerindo que a litíase renal está relacionada ao desenvolvimento da doença renal."
+    }
+  }
+}

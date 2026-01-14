@@ -1,0 +1,111 @@
+{
+  "prontuario_id": 684,
+  "text": "11:30 - 2ª DI - VITIMA DE COLISÃO AUTO/MOTO CO Fx L2 - CONSCIENTE, LUCIDO, EUPNEICO, COMUNICATIVO, EM REPOUSO NO LEITO, SEM QUEIXAS ALGICAS NO MOMENTO, APRESENTA PUPILAS ISOCORICAS, PELE E MUCOSA CORADA E HIDRATADA, AUSCULTA PULMONAR COM MVv+, RUIDOS DIFUSOS, ABDOMEM FLACIDO, RHA +, MANTEM ACESSO VENOSO PERIFERICO SALINIZADO EM MSE, RELATA BOA ACEITAÇAO DA DIETA OFERECIDA, DIURESE ESPONTANEA PRESENTE.  REALIZOU TAC COM SUCESSO; MANTEM REPOUSO ABSOLUTO NO LEITO; DESCONHECE ALERGIA A MEDICAÇÕIES; NEGA COMORBIDADES; TRAUMATISMO INTRACRANIANO.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "VITIMA"
+    ],
+    "Achado": [
+      "CONSCIENTE",
+      "LUCIDO",
+      "EUPNEICO",
+      "COMUNICATIVO",
+      "CORADA",
+      "HIDRATADA",
+      "MVv+",
+      "SALINIZADO",
+      "SUCESSO",
+      "EM REPOUSO NO LEITO",
+      "PUPILAS ISOCORICAS",
+      "RHA +",
+      "BOA ACEITAÇAO DA DIETA",
+      "DIURESE ESPONTANEA PRESENTE"
+    ],
+    "Negação": [
+      "SEM",
+      "NEGA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PELE"
+    ],
+    "Localização ou Região Corporal": [
+      "MUCOSA",
+      "MSE"
+    ],
+    "Abreviação": [
+      "MVv+",
+      "MSE",
+      "TAC",
+      "2ª DI",
+      "Fx L2",
+      "RHA +"
+    ],
+    "Procedimento Diagnóstico": [
+      "TAC",
+      "AUSCULTA PULMONAR"
+    ],
+    "Sinal ou Sintoma": [
+      "COMORBIDADES",
+      "QUEIXAS ALGICAS",
+      "RUIDOS DIFUSOS"
+    ],
+    "Conceito Temporal": [
+      "2ª DI"
+    ],
+    "Lesão ou Envenenamento": [
+      "Fx L2",
+      "TRAUMATISMO INTRACRANIANO ."
+    ],
+    "Dispositivo Médico": [
+      "ACESSO VENOSO PERIFERICO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ACESSO VENOSO PERIFERICO",
+      "REPOUSO ABSOLUTO"
+    ]
+  },
+  "labels": {
+    "VV40": {
+      "term_original": "boa aceitaçao da dieta",
+      "capitulo": "V",
+      "confidence_embedding": 0.7409,
+      "descricao_cid": "Representação de doença CID-11: Funções relacionadas ao sistema digestivo. Definição: ",
+      "classification_reasoning": "A opção mais precisa é VV40, pois o termo 'boa aceitaçao da dieta' refere-se à função relacionada ao sistema digestivo e ao cuidado com a alimentação do paciente."
+    },
+    "ND16.Y": {
+      "term_original": "mvv+",
+      "capitulo": "22",
+      "confidence_embedding": 0.7576,
+      "descricao_cid": "Representação de doença CID-11: Lesão de outros vasos sanguíneos especificados ao nível do tornozelo ou pé. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a ND16.Y, pois o termo 'mvv+' indica uma lesão de vasos sanguíneos ao nível do tornozelo ou pé, o que coincide com a descrição do prontuário (oxigenação pulmonar aumentada). Além disso, a lesão de L2 na colisão automobilística também sugere lesão em áreas inferiores do corpo."
+    },
+    "8B25.3": {
+      "term_original": "traumatismo intracraniano .",
+      "capitulo": "08",
+      "confidence_embedding": 0.7789,
+      "descricao_cid": "Representação de doença CID-11: Efeitos tardios de hemorragia intracraniana não traumática. Definição: Efeitos tardios de outra hemorragia intracraniana não traumática após 1 mês ou mais do início da doença. Os códigos para episódios agudos devem ser usados ​​exclusivamente para hemorragias agudas e episódios de hospitalização imediatamente relacionados.",
+      "classification_reasoning": "A opção mais precisa para o termo 'traumatismo intracraniano' é a Código 8B25.3, Efeitos tardios de hemorragia intracraniana não traumática, pois o paciente sofreu uma colisão auto/moto e apresenta traumatismo em L2, o que sugere uma lesão cerebral possivelmente hemorrágica."
+    },
+    "CA05.1": {
+      "term_original": "ruidos difusos",
+      "capitulo": "12",
+      "confidence_embedding": 0.7543,
+      "descricao_cid": "Representação de doença CID-11: Traqueíte aguda. Definição: Esta condição se refere à inflamação aguda da traqueia.",
+      "classification_reasoning": "A descrição do termo 'ruidos difusos' sugere a presença de um processo inflamatório ou edema nos pulmões, característico da traqueíte aguda."
+    },
+    "EK12": {
+      "term_original": "corada",
+      "capitulo": "14",
+      "confidence_embedding": 0.8028,
+      "descricao_cid": "Representação de doença CID-11: Sensibilização alérgica por contato. Definição: A presença de hipersensibilidade tardia tipo IV do sistema imune a uma determinada substância sem definição de doença prévia ou atual. Tal sensibilização é normalmente adquirida por contato prévio de pele ou mucosa com a própria substância ou com outra quimicamente similar (reatividade cruzada). Contato subsequente com a substância pode provocar reação alérgica. Em determinadas circunstâncias, essa sensibilização pode impedir que um indivíduo aceite ou continue em um emprego em que a exposição ao alérgeno não pode ser evitada. Alguns indivíduos sensibilizados para um alérgeno específico, entretanto, podem nunca manifestar sintomas caso ocorra o contato.",
+      "classification_reasoning": "A presença de pele corada e mucosa no contexto da vítima após colisão automobilística sugere sensibilização alérgica por contato, justificando a escolha do código EK12."
+    },
+    "NC54.52": {
+      "term_original": "fx l2",
+      "capitulo": "22",
+      "confidence_embedding": 0.7422,
+      "descricao_cid": "Representação de doença CID-11: Ruptura traumática da placa volar do dedo da mão na articulação metacarpofalangeana ou interfalangeana. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a ruptura traumática da placa volar do dedo da mão na articulação metacarpofalangeana ou interfalangeana (NC54.52), pois o termo 'Fx L2' sugere uma lesão ou fratura no segundo segmento de uma vértebra (L2), o que coincide com a descrição fornecida."
+    }
+  }
+}

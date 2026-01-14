@@ -1,0 +1,182 @@
+{
+  "prontuario_id": 177,
+  "text": "Tx renal DVR mar/2015\nCMV tratado / DM lábil\nMTc 5, FK 1 / 2, SRL 1 / 2, CVD 3,125 x2, macrodantina 100, OMP 40, Lantus 40, Lispro 5 / 10 / 8\nfev/16 : Bx renal com RCA -> pulsoterapia D5\ninternamento recente com bx e pulsoterapia\nabr/16: bx renal com IFTA moderada, sem RA\nS : Refere astenia aos esforços.\nO : PA 100x 60 FC 80 sem edema\nExames : Cr 1,3 / Hb 11 / NS FK 8 / NS Rapa 8 / NS FK 8\nretorno em 3 semanas com exames opto por não abaixar dose dos IS por histórico de RA - abaixar na próxima se níveis se mantiverem elevados\n \n ",
+  "entities": {
+    "Achado": [
+      "DVR",
+      "RA",
+      "S",
+      "histórico de RA"
+    ],
+    "Abreviação": [
+      "DVR",
+      "CMV",
+      "DM",
+      "MTc",
+      "FK",
+      "SRL",
+      "CVD",
+      "OMP",
+      "RCA",
+      "bx",
+      "RA",
+      "S",
+      "O",
+      "PA",
+      "FC",
+      "Tx renal",
+      "Bx renal",
+      "bx renal",
+      "IFTA moderada",
+      "Cr 1 , 3",
+      "Hb 11",
+      "NS FK 8",
+      "NS Rapa 8",
+      "histórico de RA"
+    ],
+    "Doença ou Síndrome": [
+      "CMV",
+      "DM"
+    ],
+    "Vírus": [
+      "CMV"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "tratado",
+      "internamento",
+      "O",
+      "abaixar na próxima se níveis se mantiverem elevados"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "tratado",
+      "bx",
+      "pulsoterapia",
+      "Tx renal",
+      "pulsoterapia D5",
+      "bx renal"
+    ],
+    "Sinal ou Sintoma": [
+      "lábil",
+      "edema",
+      "astenia aos esforços"
+    ],
+    "Substância Farmacológica": [
+      "MTc",
+      "FK",
+      "SRL",
+      "CVD",
+      "macrodantina",
+      "OMP",
+      "Lantus",
+      "Lispro",
+      "IS"
+    ],
+    "Substância Química Orgânica": [
+      "MTc",
+      "FK",
+      "SRL",
+      "CVD",
+      "macrodantina",
+      "OMP",
+      "Lantus",
+      "Lispro"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "x2",
+      "100",
+      "40",
+      "80",
+      "1 / 2",
+      "3 , 125",
+      "5 / 10 / 8",
+      "100x 60"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "SRL",
+      "RCA",
+      "exames",
+      "IFTA moderada",
+      "Cr 1 , 3",
+      "Hb 11",
+      "NS FK 8",
+      "NS Rapa 8"
+    ],
+    "Conceito Temporal": [
+      "x2",
+      "recente"
+    ],
+    "Antibiótico": [
+      "macrodantina"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "Lantus"
+    ],
+    "Hormônio": [
+      "Lantus",
+      "Lispro"
+    ],
+    "Procedimento Diagnóstico": [
+      "bx",
+      "Bx renal",
+      "bx renal"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC"
+    ],
+    "Função Patológica": [
+      "edema"
+    ],
+    "Procedimento Laboratorial": [
+      "Exames"
+    ]
+  },
+  "labels": {
+    "4A85.01": {
+      "term_original": "ra",
+      "capitulo": "04",
+      "confidence_embedding": 0.7539,
+      "descricao_cid": "Representação de doença CID-11: Hipersensibilidade renal induzida por droga. Definição: Hipersensibilidade renal induzida por droga constitui uma importante causa de insuficiência renal aguda e doença renal crônica na prática clínica atual. Diferentes classes de drogas, em virtude de mecanismos imunológicos, desencadeiam respostas inflamatórias renais específicas, que se manifestam por diferentes padrões clínicos, como a nefrite intersticial induzida por drogas. A hipersensibilidade renal induzida por drogas pode se manifestar isoladamente ou em combinação com outros transtornos de hipersensibilidades induzida por drogas em outro órgão ou sistema.",
+      "classification_reasoning": "A opção mais precisa para o termo 'RA' é a hipersensibilidade renal induzida por droga (Código: 4A85.01), pois no contexto clínico, a paciente refere astenia aos esforços e apresenta história de RA, o que sugere uma reação adversa à medicação, mais especificamente à dor renal."
+    },
+    "BD93": {
+      "term_original": "edema",
+      "capitulo": "11",
+      "confidence_embedding": 0.7601,
+      "descricao_cid": "Representação de doença CID-11: Linfedema. Definição: Edema devido ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Geralmente afeta as extremidades, mas pode envolver qualquer parte do corpo. É desfigurante e aumenta a suscetibilidade a infecções recorrentes e malignidades locais.",
+      "classification_reasoning": "A presença de edema na observação física (O: PA 100x60 FC 80 sem edema) e a menção específica do termo \"edema\" no contexto clínico leva à escolha da código BD93 para Linfedema."
+    },
+    "1D82": {
+      "term_original": "cmv",
+      "capitulo": "01",
+      "confidence_embedding": 0.7731,
+      "descricao_cid": "Representação de doença CID-11: Doença por citomegalovírus. Definição: Qualquer condição causada por uma infecção por citomegalovírus (CMV). Essas condições são comumente assintomáticas. A transmissão ocorre por contato direto com fluidos corporais infectados.",
+      "classification_reasoning": "A presença do termo 'CMV' no contexto clínico, especialmente no contexto de tratamento e exames relacionados à doença renal, sugere que a doença é causada por citomegalovírus (CMV) e não outra opção."
+    },
+    "5C78": {
+      "term_original": "dm",
+      "capitulo": "05",
+      "confidence_embedding": 0.7715,
+      "descricao_cid": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem.",
+      "classification_reasoning": "A escolha pelo Código CID-11 5C78 é baseada na presença de 'DM lábil' no contexto do prontuário, o que sugere a existência de uma doença renal crônica. Além disso, o termo 'Tx renal' também aponta para uma intervenção renal, compatível com uma condição de sobrecarga de líquidos."
+    },
+    "GB60.1": {
+      "term_original": "dvr",
+      "capitulo": "16",
+      "confidence_embedding": 0.7829,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência renal aguda, estágio 2. Definição: Taxa de alteração da creatinina sérica: 2,0-2,9 vezes a linha de base OU Magnitude da produção de urina: < 0,5 ml/kg/h por > = 12 horas",
+      "classification_reasoning": "A opção mais precisa para o termo 'DVR' é a insuficiência renal aguda, estágio 2 (GB60.1), pois a frase 'Tx renal DVR mar/2015' sugere que foi realizada alguma intervenção renal em março de 2015 e que o paciente apresentou insuficiência renal aguda no passado recente."
+    },
+    "MF56": {
+      "term_original": "astenia aos esforços",
+      "capitulo": "21",
+      "confidence_embedding": 0.7522,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A astenia aos esforços é um sintoma comum em pacientes com doenças renais, como doença renal crônica. A dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios é característica da cólica renal (MF56), que pode estar relacionada à doença renal presente nesse paciente."
+    }
+  }
+}

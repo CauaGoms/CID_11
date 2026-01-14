@@ -1,0 +1,60 @@
+{
+  "prontuario_id": 760,
+  "text": "PAcinete com sequela de poliomielite. Deformidade se deficit motor.\nCom dor de caracteriticas da compressao do nervo mediano.\nAguardando avaliacao por neurologista.\n\nAlta coluna.\nRetorno anual.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PAcinete"
+    ],
+    "Sinal ou Sintoma": [
+      "dor",
+      "sequela de poliomielite"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "neurologista"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Alta",
+      "Retorno"
+    ],
+    "Conceito Temporal": [
+      "anual"
+    ],
+    "Doença ou Síndrome": [
+      "sequela de poliomielite"
+    ],
+    "Achado": [
+      "deficit motor",
+      "compressao do nervo mediano"
+    ]
+  },
+  "labels": {
+    "8B60": {
+      "term_original": "deficit motor",
+      "capitulo": "08",
+      "confidence_embedding": 0.7437,
+      "descricao_cid": "Representação de doença CID-11: Doença do neurônio motor. Definição: Doença do neurônio motor é um transtorno neurodegenerativo de etiologia indeterminada, caracterizado por degeneração de neurônios motores superiores (células corticais de Betz e trato corticoespinal) ou neurônios motores inferiores (cornos ventrais da medula espinal e núcleos motores dos nervos cranianos) ou ambos. Características de envolvimento dos neurônios motores inferiores (NMI) são atrofia, fraqueza, fasciculações, hipotonia, diminuição ou ausência de reflexos tendinosos profundos. Características de envolvimento dos neurônios motores superiores (NMS) são espasticidade, reflexos tendinosos profundos exacerbados e respostas plantares extensoras. Dependendo da localização de início e da presença de características de NMI ou NMS ou ambos, a DNM têm padrões e distribuições variáveis de sinais e sintomas.",
+      "classification_reasoning": "A escolha do código 8B60 é a mais precisa para o termo 'deficit motor' dentro do contexto clínico, pois apresenta sintomas de atrofia e fraqueza muscular, características comuns da Doença do neurônio motor (DNM). A presença de deformidade e dor de característica de compressão do nervo mediano também são consistentes com a DNM. Além disso, a alta coluna e o retorno anual indicam um seguimento contínuo da doença, o que é compatível com a evolução cronificada da DNM."
+    },
+    "G88.4": {
+      "term_original": "sequela de poliomielite",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A sequela de poliomielite é a causa mais provável da deformidade e déficit motor, além da dor característica da compressão do nervo mediano."
+    },
+    "MG30.20": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7593,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-traumática. Definição: Dor pós-traumática crônica é a dor que se desenvolve ou aumenta de intensidade após uma lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após o traumatismo tecidual. A dor é ou localizada na área da lesão, ou referida no território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente por um problema doloroso preexistente.",
+      "classification_reasoning": "A dor de caracteristicas da compressao do nervo mediano é provavelmente uma dor crônica pós-traumática, considerando a sequela de poliomielite e a deformidade motor deficitaria. A alta coluna e o retorno anual sugerem que a dor é relacionada à lesão anterior."
+    },
+    "8C10.0": {
+      "term_original": "compressao do nervo mediano",
+      "capitulo": "08",
+      "confidence_embedding": 0.7853,
+      "descricao_cid": "Representação de doença CID-11: Síndrome do túnel do carpo. Definição: Neuropatia compressiva causada por compressão do nervo mediano dentro do túnel do carpo no punho.",
+      "classification_reasoning": "A dor de características da compressão do nervo mediano e a deformidade secundária à poliomielite sugerem uma neuropatia compressiva causada pela compressão do nervo mediano dentro do túnel do carpo, que é caracterizado por síndrome do túnel do carpo."
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "prontuario_id": 522,
+  "text": "# Lucas, 58 anos\n# Comorbidades: HAS, Dislipidemia, Tabagismo 115 maços/ano\n# HMA: IAM ST - Killip I em 10 de junho de 2013. Realizado ATC com stent em DA com sucesso\n# Em uso de:\nAAS 100 mg - 1cp ao dia\nEnalapril 10 mg - 1 cp de 12/12h\nBrilinta 90 mg - 1 cp de 12/12h\nSelozok 50 mg - 2 cp ao dia\nSinvastatina 40 mg - 1 cp ao dia\nEspironolactona 25 mg- 1 cp ao dia\n# S: dispneia paroxística noturna e dispneia durante o dia também. angina leve\n# O:\nP = 84 bpm\nPA = 110x80 mmHg\nEstetores finos\n# A: paciente pós IAM evoluiu com dispneia paroxística noturna\n# P: Furosemida 40 mg - 1 cp ao dia\n       Ecocardiograma transtorácico\n       Espirometria\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "HAS",
+      "AAS",
+      "1cp",
+      "12/12h",
+      "P",
+      "PA",
+      "IAM",
+      "IAM ST",
+      "1 cp",
+      "2 cp",
+      "84 bpm"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "Dislipidemia",
+      "Tabagismo",
+      "IAM",
+      "IAM ST",
+      "angina leve"
+    ],
+    "Dispositivo Médico": [
+      "stent"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "DA"
+    ],
+    "Substância Farmacológica": [
+      "AAS",
+      "Enalapril",
+      "Brilinta",
+      "Selozok",
+      "Sinvastatina",
+      "Espironolactona",
+      "Furosemida"
+    ],
+    "Substância Química Orgânica": [
+      "AAS",
+      "Enalapril",
+      "Selozok",
+      "Sinvastatina",
+      "Espironolactona",
+      "Furosemida"
+    ],
+    "Conceito Quantitativo": [
+      "1cp",
+      "115 maços/ano",
+      "100 mg",
+      "10 mg",
+      "1 cp",
+      "90 mg",
+      "50 mg",
+      "2 cp",
+      "40 mg",
+      "25 mg-",
+      "84 bpm",
+      "110x80 mmHg"
+    ],
+    "Conceito Temporal": [
+      "dia",
+      "12/12h",
+      "pós"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "Enalapril"
+    ],
+    "Ácido Nucleico, Nucleosídeo ou Nucleotídeo": [
+      "Brilinta"
+    ],
+    "Sinal ou Sintoma": [
+      "dispneia",
+      "dispneia paroxística noturna",
+      "angina leve",
+      "Estetores finos"
+    ],
+    "Atributo Clínico": [
+      "P",
+      "PA"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "paciente"
+    ],
+    "Procedimento Diagnóstico": [
+      "Espirometria",
+      "Ecocardiograma transtorácico"
+    ],
+    "Classificação": [
+      "Killip I"
+    ]
+  },
+  "labels": {
+    "BC81.30": {
+      "term_original": "has",
+      "capitulo": "11",
+      "confidence_embedding": 0.7852,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A opção mais precisa para o termo 'has' é a Fibrilação Atrial Paroxística (BC81.30), pois o paciente tem uma história de IAM e evoluiu com dispneia paroxística noturna, sugerindo possivelmente um problema cardíaco."
+    },
+    "BA41.0": {
+      "term_original": "iam st",
+      "capitulo": "11",
+      "confidence_embedding": 0.8128,
+      "descricao_cid": "Representação de doença CID-11: Infarto agudo do miocárdio com supradesnível de ST. Definição: Infarto agudo do miocárdio com supradesnível de ST (IAMCSST) é um infarto agudo do miocárdio com desenvolvimento de supradesnível de ST em duas derivações contíguas do eletrocardiograma. Os critérios de elevação do ST são os seguintes; novo supradesnível de ST no ponto J em duas derivações contíguas aplicando os pontos de corte: 0,2mV em homens> 40 anos; > 0,25mV em homens <40 anos, e > 0,15mV em mulheres.",
+      "classification_reasoning": "O termo 'IAM ST' está relacionado ao Infarto Agudo do Miocárdio com Supradesnível de ST, o que é descrito no código CID-11 BA41.0."
+    },
+    "CA22.0": {
+      "term_original": "dispneia",
+      "capitulo": "12",
+      "confidence_embedding": 0.7627,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A dispneia paroxística noturna e durante o dia, associada à angina leve, sugere uma exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC) em um paciente com história de IAM. A presença de tratamentos para a DPOC, como Selozok e Espironolactona, reforça essa hipótese."
+    },
+    "MC80.01": {
+      "term_original": "estetores finos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7342,
+      "descricao_cid": "Representação de doença CID-11: Valor elevado combinado da pressão arterial sistólica e diastólica sem diagnóstico de hipertensão. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'estetores finos' é a pressão arterial sistólica (P) igual a 110 mmHg e pressão arterial diastólica (PA) igual a 80 mmHg, conforme registrado no O: (Observações)"
+    },
+    "QC48.0": {
+      "term_original": "tabagismo",
+      "capitulo": "24",
+      "confidence_embedding": 0.7427,
+      "descricao_cid": "Representação de doença CID-11: História pessoal de uso de longo prazo de anticoagulantes. Definição: ",
+      "classification_reasoning": "O paciente tem história de tabagismo, o que é relacionado ao uso de longo prazo de anticoagulantes."
+    },
+    "BA40.Y": {
+      "term_original": "angina leve",
+      "capitulo": "11",
+      "confidence_embedding": 0.814,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A paciente apresenta angina leve, o que sugere uma representação de doença por angina pectoris especificada. A opção BA40.Z não é precisa pois a angina não é não especificada e as outras opções (BC43, BA85 e BC81.30) não se aplicam ao caso."
+    },
+    "5A60.2": {
+      "term_original": "dislipidemia",
+      "capitulo": "05",
+      "confidence_embedding": 0.7591,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da secreção inapropriada do hormônio antidiurético. Definição: Síndrome da secreção inapropriada do hormônio antidiurético (ADH)- SIADH- é caracterizada pela secreção contínua de ADH causando hiponatremia, hiposmolalidade e natriurese. A prevelência exata é desconhecida. A doença tem sido descrita em grupos de todas as idades. SIADH é frequentemente associada a tumores, doenças pulmonares, transtornos do sistema nervoso central ou exposição a drogas. Ocasionalmente ela é encontrada em pacientes com insuficiência adrenal, tireoidiana ou hipofisária. O transtorno é causado por mutações com ganho de função em genes que codificam o receptor de vasopressina V2. Restrição hídrica é o tratamento mais comum. O resultado está relacionado aos distúrbios subjacentes e associados.",
+      "classification_reasoning": "A presença de dispneia paroxística noturna e durante o dia, além da história de IAM ST - Killip I, sugere a possibilidade de síndrome da secreção inapropriada do hormônio antidiurético (SIADH). Além disso, a combinação de AAS, Enalapril e Furosemida pode ter contribuído para o excesso de líquido no corpo."
+    }
+  }
+}

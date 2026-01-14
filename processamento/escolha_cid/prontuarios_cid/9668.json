@@ -1,0 +1,70 @@
+{
+  "prontuario_id": 671,
+  "text": "# 1 CONSULTA OTORRINO. \n\nS # PACIENTE COM HISTORIA DE CIRURGIA OTOLOGICA EM OUVIDO DIREITO - REFERE DESCONFORTO EM OUVIDO DIREITO/OTALGIA. \n\nO # CERUME IMPACTADO EM OD - TENTATIVA DE CURETAGEM SEM SUCESSO - CERUME ENDIRECIDO.\nOE MT INTEGRA SP.\n\nCD # CERUMIN. \nRETORNO NA VAGA. \n\nR2 LUCAS\n \n \n \n ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "CONSULTA",
+      "O",
+      "CD",
+      "RETORNO NA VAGA"
+    ],
+    "Abreviação": [
+      "OTORRINO",
+      "S",
+      "O",
+      "OE",
+      "CD",
+      "MT",
+      "INTEGRA"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "OTORRINO"
+    ],
+    "Achado": [
+      "S",
+      "CERUME ENDIRECIDO",
+      "INTEGRA"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "OD",
+      "OE",
+      "OUVIDO DIREITO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CURETAGEM",
+      "CIRURGIA OTOLOGICA"
+    ],
+    "Negação": [
+      "SEM",
+      "SP"
+    ],
+    "Produto Intelectual": [
+      "CD"
+    ],
+    "Substância Farmacológica": [
+      "CERUMIN"
+    ],
+    "Sinal ou Sintoma": [
+      "DESCONFORTO EM OUVIDO DIREITO/OTALGIA"
+    ]
+  },
+  "labels": {
+    "AA42": {
+      "term_original": "cerume endirecido",
+      "capitulo": "10",
+      "confidence_embedding": 0.7946,
+      "descricao_cid": "Representação de doença CID-11: Cerume impactado. Definição: Cerume impactado é a presença de cera aura oclusiva no conduto auditivo externo. A cera pode causar zumbido ou otalgia e a remoção pode ser necessária para permitir o exame otoscópico adequado e/ou aliviar sintomas.",
+      "classification_reasoning": "A opção mais precisa é a do termo 'cerume endirecido' que se refere à presença de cera aura oclusiva no conduto auditivo externo, causando sintomas como zumbido ou otalgia."
+    },
+    "AB70.2": {
+      "term_original": "desconforto em ouvido direito/otalgia",
+      "capitulo": "10",
+      "confidence_embedding": 0.7791,
+      "descricao_cid": "Representação de doença CID-11: Otalgia. Definição: Dor em um ou em ambas orelhas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'desconforto em ouvido direito/otalgia' é a otalgia (Código: AB70.2), que se refere especificamente à dor em um ou em ambas as orelhas."
+    }
+  }
+}

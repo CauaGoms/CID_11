@@ -1,0 +1,63 @@
+{
+  "prontuario_id": 621,
+  "text": "LUCAS, 2M,  TRAZIDA A EMERGÊNCIA DIA 05/06 COM UQADRO DE TOSSE E DISFUNÇÃO RESPIRATÓRIA HÁ 2 DIAS. FICOU INTERNADA EM SOP E RECEBEU ALTA DIA 06/06. RETORNOU DIA 07/06 POR PIORA DA DISFUNÇÃO RESPIRATÓRIA E 1 PICO FEBRIL. FOI REINTERNADA, DEIXADO COM O2. EVOLUIU COM MELHORA CLÍNICA, SUSPENSO O2 DIA 09/06. DIA 10/06 PERMANECEU BEM CLINICAMENTE, SEM DISFUNÇÃO. CONDIÇÕES DE ALTA HOSPITALAR.",
+  "entities": {
+    "Organização Relacionada à Saúde": [
+      "EMERGÊNCIA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "INTERNADA",
+      "ALTA",
+      "REINTERNADA",
+      "SUSPENSO O2",
+      "ALTA HOSPITALAR"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "DISFUNÇÃO",
+      "UQADRO DE TOSSE",
+      "PICO FEBRIL"
+    ],
+    "Função Patológica": [
+      "DISFUNÇÃO",
+      "DISFUNÇÃO RESPIRATÓRIA"
+    ],
+    "Achado": [
+      "PIORA DA DISFUNÇÃO RESPIRATÓRIA",
+      "MELHORA CLÍNICA",
+      "BEM CLINICAMENTE"
+    ],
+    "Abreviação": [
+      "DEIXADO COM O2",
+      "SUSPENSO O2"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "DEIXADO COM O2"
+    ]
+  },
+  "labels": {
+    "CA22.0": {
+      "term_original": "uqadro de tosse",
+      "capitulo": "12",
+      "confidence_embedding": 0.762,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A escolha do código CA22.0 se baseia na descrição de 'uqadro de tosse' no prontuário, que indica a presença de sintomas respiratórios agudos e piora da função pulmonar. Além disso, a história clínica descrita, com tosse e disfunção respiratória, é consistente com uma exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC)."
+    },
+    "CB41.1": {
+      "term_original": "disfunção respiratória",
+      "capitulo": "12",
+      "confidence_embedding": 0.7971,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência respiratória crônica. Definição: Na insuficiência respiratória crônica a hipoxemia ocorre ao longo de semanas ou meses (mais de 7 dias) e a insuficiência respiratória se desenvolve mais lentamente e dura mais tempo do que na insuficiência respiratória aguda.",
+      "classification_reasoning": "A disfunção respiratória apresentada pelo paciente é caracterizada como insuficiência respiratória crônica, pois houve hipoxemia ao longo de semanas (2 dias), e a insuficiência respiratória se desenvolveu mais lentamente e durou mais tempo do que na insuficiência respiratória aguda."
+    },
+    "MD11.5": {
+      "term_original": "melhora clínica",
+      "capitulo": "21",
+      "confidence_embedding": 0.7338,
+      "descricao_cid": "Representação de doença CID-11: Dispneia. Definição: Dispneia é o termo utilizado para descrever percepções de dificuldade ou sofrimento relacionados à respiração e é reconhecido como sintoma de doença quando ocorre em circunstâncias inapropriadas. Dispneia é uma queixa apresentada por pacientes com uma ampla variedade de condições médicas, causadas por múltiplos mecanismos.\r\nA dispneia é considerada aguda quando dura de horas a 3 semanas, subaguda de 3 a 8 semanas e a dispneia crônica dura mais de 8 semanas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'melhora clínica' é a dispneia (Código CID-11: MD11.5), pois a paciente apresentou melhora na sua condição clínica após ter sido suspensa do uso de oxigênio, sugerindo uma possível resolução da dispneia aguda que havia sido reportada anteriormente."
+    }
+  }
+}

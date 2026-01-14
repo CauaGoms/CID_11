@@ -1,0 +1,88 @@
+{
+  "prontuario_id": 951,
+  "text": "14:45 hrs paciente acordada, respondendo a comandos verbais,orientada, apresenta leve dispnéia mantém oxigenoterapia sob máscara de névoa úmida saturando acima de 96%, taquicardica, normotensa, acamada, sne com dieta em curso, realizado medidas de conforto e mudança de decubito de 2/2 horas, diurese presente em fralda, seguem cuidados de enfermagem. MELANOMA IN SITU DE OUTRAS PARTES E DE PARTES NAO ESPECIFICADAS DA FACE",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "paciente"
+    ],
+    "Achado": [
+      "acordada",
+      "orientada",
+      "normotensa",
+      "respondendo a comandos verbais",
+      "saturando acima de 96%",
+      "diurese presente"
+    ],
+    "Conceito Qualitativo": [
+      "leve"
+    ],
+    "Sinal ou Sintoma": [
+      "taquicardica",
+      "acamada"
+    ],
+    "Abreviação": [
+      "sne"
+    ],
+    "Dispositivo Médico": [
+      "sne",
+      "máscara de névoa úmida"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "sne",
+      "dieta",
+      "medidas de conforto",
+      "mudança de decubito"
+    ],
+    "Alimento": [
+      "dieta"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "realizado",
+      "medidas de conforto",
+      "mudança de decubito",
+      "cuidados de enfermagem"
+    ],
+    "Localização ou Região Corporal": [
+      "FACE"
+    ],
+    "Conceito Temporal": [
+      "2/2 horas"
+    ],
+    "Função de Organismo": [
+      "diurese presente"
+    ],
+    "Processo Neoplásico": [
+      "MELANOMA IN SITU"
+    ]
+  },
+  "labels": {
+    "BC81.6": {
+      "term_original": "taquicardica",
+      "capitulo": "11",
+      "confidence_embedding": 0.7564,
+      "descricao_cid": "Representação de doença CID-11: Taquicardia sinusal inapropriada. Definição: Frequência cardíaca que está elevada em relação ao nível de atividade; geralmente exibe características de automaticidade.",
+      "classification_reasoning": "A paciente apresenta taquicardia sinusal inapropriada, como indicado pela presença de freqüência cardíaca elevada em relação ao nível de atividade, o que é compatível com a condição clínica descrita no prontuário."
+    },
+    "FA90": {
+      "term_original": "acamada",
+      "capitulo": "15",
+      "confidence_embedding": 0.7233,
+      "descricao_cid": "Representação de doença CID-11: Infecção da vértebra. Definição: Afecção da vértebra, causada por infecção bacteriana, viral, fúngica ou parasitária. Geralmente se apresenta com febre, calafrios, cefaleia, perda de peso, mas pode ser assintomática. A confirmação diagnóstica é feita pela identificação do agente infeccioso em amostra de sangue ou por exames de imagem.",
+      "classification_reasoning": "A paciente está descrita como 'acamada', o que sugere uma situação de dor ou desconforto, fazendo com que a infecção da vértebra (FA90) seja a opção mais precisa para essa descrição."
+    },
+    "BA01": {
+      "term_original": "normotensa",
+      "capitulo": "11",
+      "confidence_embedding": 0.757,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A opção mais precisa para o termo 'normotensa' no contexto do prontuário é a Doença cardíaca hipertensiva (CID-11: BA01), pois o paciente apresenta taquicardica e normotensa, sugerindo que sua pressão arterial está dentro da faixa normal."
+    },
+    "2E63.0": {
+      "term_original": "melanoma in situ",
+      "capitulo": "02",
+      "confidence_embedding": 0.8182,
+      "descricao_cid": "Representação de doença CID-11: Melanoma cutâneo in situ. Definição: Melanoma maligno confinado à epiderme e descrito como em fase de crescimento radial.",
+      "classification_reasoning": "O termo 'melanoma in situ de outras partes e de partes não especificadas da face' sugere que a lesão está localizada na pele, portanto o código mais preciso é o 2E63.0 que descreve o melanoma cutâneo in situ."
+    }
+  }
+}

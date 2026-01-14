@@ -1,0 +1,130 @@
+{
+  "prontuario_id": 929,
+  "text": "TX RENAL DC.\nCMV  TRATADO.\nPREDSIM 5, FK 1 / 0,5, SRL 1, BO, CVD 25 X2.\nS: SENTE-SE BEM.\nSENSAÇÃO FISGADAS E QUEIMAÇÃO EM TRAJETO DO NERVO MEDIANO.\nO: PA 120/80,  P 78,  AFEBRIL,  PESO 72,6.\nEX SEGMENTAR INALTERADO.\nTX RENAL ( DC COM CE ) COM CR 2,18 E NS FK 4,0 E SRL 7.\nZOSTER ? > PEÇO PARA OBSERVAR - S/N PS E ACICLOVIR.\nHAS.\nDISLIPIDEMIA.\n \n \n ",
+  "entities": {
+    "Substância Farmacológica": [
+      "PREDSIM",
+      "FK",
+      "BO",
+      "CVD",
+      "ACICLOVIR"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "1",
+      "120/80",
+      "78",
+      "7",
+      "0 , 5",
+      "25 X2",
+      "72 , 6"
+    ],
+    "Substância Química Orgânica": [
+      "FK",
+      "SRL",
+      "CVD"
+    ],
+    "Abreviação": [
+      "FK",
+      "SRL",
+      "BO",
+      "CVD",
+      "PA",
+      "P",
+      "DC",
+      "CE",
+      "S/N",
+      "PS",
+      "HAS",
+      "TX RENAL",
+      "CMV TRATADO",
+      "EX SEGMENTAR",
+      "CR 2 , 18",
+      "NS FK 4"
+    ],
+    "Antibiótico": [
+      "SRL"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIMAÇÃO",
+      "AFEBRIL",
+      "SENSAÇÃO FISGADAS"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PESO"
+    ],
+    "Negação": [
+      "AFEBRIL"
+    ],
+    "Grupo Populacional": [
+      "DC"
+    ],
+    "Doença ou Síndrome": [
+      "ZOSTER",
+      "HAS",
+      "DISLIPIDEMIA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "PS"
+    ],
+    "Ácido Nucleico, Nucleosídeo ou Nucleotídeo": [
+      "ACICLOVIR"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Achado": [
+      "CMV TRATADO",
+      "SENTE-SE BEM"
+    ],
+    "Procedimento Diagnóstico": [
+      "EX SEGMENTAR"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 2 , 18",
+      "NS FK 4"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "PEÇO PARA OBSERVAR"
+    ]
+  },
+  "labels": {
+    "8A42.0": {
+      "term_original": "queimação",
+      "capitulo": "08",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A descrição de 'queimação' no contexto do prontuário refere-se à dor ou sensação desagradável no trajeto do nervo médiano, o que é característico da Encefalomielite aguda disseminada (8A42.0). A presença de outros sintomas, como sensação fisgadas e queimação no trajeto do nervo medial, também sugere a possibilidade de encefalomielite."
+    },
+    "1D82": {
+      "term_original": "cmv tratado",
+      "capitulo": "01",
+      "confidence_embedding": 0.7672,
+      "descricao_cid": "Representação de doença CID-11: Doença por citomegalovírus. Definição: Qualquer condição causada por uma infecção por citomegalovírus (CMV). Essas condições são comumente assintomáticas. A transmissão ocorre por contato direto com fluidos corporais infectados.",
+      "classification_reasoning": "A opção mais precisa para o termo 'CMV tratado' é a doença causada por citomegalovírus (CMV), uma infecção viral comuns em indivíduos imunes comprometidos. A descrição da opção 1D82 se ajusta melhor ao contexto clínico, que menciona a CMV como uma condição tratada e não como uma doença aguda ou hemorrágica."
+    },
+    "5B90.2": {
+      "term_original": "dislipidemia",
+      "capitulo": "05",
+      "confidence_embedding": 0.7303,
+      "descricao_cid": "Representação de doença CID-11: Hipervitaminose D. Definição: A hipervitaminose D é secundária à ingestão excessiva de vitamina D. Pode ocorrer com ingestão elevada a longo prazo ou por ingestão aguda em excesso. O excesso de quantidades resulta em concentrações anormalmente altas de cálcio e fosfato no soro. Os sinais e sintomas da intoxicação por vitamina D são secundários à hipercalcemia. As manifestações gastrointestinais incluem náuseas, vômitos, constipação, dor abdominal e pancreatite. Os possíveis achados cardíacos são hipertensão, diminuição do intervalo Q-T e arritmias. Os efeitos da hipercalcemia no sistema nervoso central incluem letargia, hipotonia, confusão, desorientação, depressão, psicose, alucinações e coma. A hipercalcemia danifica os mecanismos de concentração renal, o que pode levar à poliúria, desidratação e hipernatremia. A hipercalcemia também pode causar insuficiência renal aguda, nefrolitíase e nefrocalcinose, que pode resultar em insuficiência renal crônica. As mortes geralmente estão associadas a arritmias ou desidratação.",
+      "classification_reasoning": "A palavra 'dislipidemia' não está presente no texto, mas como o termo extraído está relacionado a doenças metabólicas e é mencionada a presença de dislipidemia, considerando-se que a hipervitaminose D (CID-11 5B90.2) é uma condição caracterizada por alterações na homeostase dos lipídios no sangue, escolho este código como o mais preciso."
+    },
+    "MF82.3": {
+      "term_original": "sensação fisgadas",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha por MF82.3 (representação de doença CID-11: Neuropatia periférica) é baseada na descrição do sintoma 'SENSAÇÃO FISGADAS E QUEIMAÇÃO EM TRAJETO DO NERVO MEDIANO', que sugere lesão ou compressão do nervo médiano, caracterizando neuropatia periférica."
+    },
+    "1E91.0": {
+      "term_original": "zoster",
+      "capitulo": "01",
+      "confidence_embedding": 0.7732,
+      "descricao_cid": "Representação de doença CID-11: Zoster sem complicações. Definição: Erupção cutânea com bolhas dolorosas seguindo a distribuição por dermátomos resultante da reativação do vírus Varicella zoster em gânglios de raiz nervosa dorsal.",
+      "classification_reasoning": "A escolha pela opção 1E91.0 é devido à descrição de sensação fisgadas e queimação em trajeto do nervo mediano, o que sugere uma neuropatia aguda relacionada ao zoster, sem complicações mencionadas."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "prontuario_id": 659,
+  "text": "Há 1 ano dor nas costas que melhorou.\nAtualmente, dores esporádicas quando faz esforços. Desvio postural coluna toracica.      ",
+  "entities": {
+    "Conceito Temporal": [
+      "1 ano"
+    ],
+    "Sinal ou Sintoma": [
+      "dor nas costas",
+      "dores esporádicas",
+      "quando faz esforços"
+    ],
+    "Achado": [
+      "Desvio postural"
+    ]
+  },
+  "labels": {
+    "FA80.4": {
+      "term_original": "quando faz esforços",
+      "capitulo": "15",
+      "confidence_embedding": 0.7262,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa é FA80.4 pois a descrição coincide com o contexto do prontuário, que menciona dor nas costas (coluna torácica) e desvio postural coluna toracica, sugerindo degeneração de disco intervertebral na coluna torácica sem prolapso de disco."
+    },
+    "FA84": {
+      "term_original": "desvio postural",
+      "capitulo": "15",
+      "confidence_embedding": 0.7138,
+      "descricao_cid": "Representação de doença CID-11: Espondilolistese. Definição: Este é o deslizamento anterior do corpo vertebral, com a porção anterior da vértebra à frente do corpo vertebral da vértebra abaixo.",
+      "classification_reasoning": "O desvio postural coluna toracica e as dores esporádicas quando faz esforços sugerem a possibilidade de uma espondilolistese, que é o deslizamento anterior do corpo vertebral, com a porção anterior da vértebra à frente do corpo vertebral da vértebra abaixo."
+    }
+  }
+}

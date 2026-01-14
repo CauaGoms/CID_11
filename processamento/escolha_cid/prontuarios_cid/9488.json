@@ -1,0 +1,115 @@
+{
+  "prontuario_id": 156,
+  "text": "14:00 CONSCIENTE COMUNICATIVA,   RESPIRANDO COM AUXILIO DE NEVUA UMIDA. HIPERTENSA 200/100 MEDICADA , NOMOCARDICA, PERIODO DE DISPNEIA. AFEBRIL. ACESSO VENOSO NO ANTEBRAÇO ESQUERDO SEM SINAIS FLOGISTICO.ABDOMEN FLACIDO INDOLOR A PALPAÇÃO. ENCAMINHADA  PARA O RAIO-X.  18:00 PA = 150/80  RESP = 16 MRP GLICEMIA = 210   Enfermeira Florence Nightingale.   SINDROME DO DESCONFORTO RESPIRATORIO DO ADULTO",
+  "entities": {
+    "Achado": [
+      "CONSCIENTE",
+      "COMUNICATIVA",
+      "NOMOCARDICA",
+      "AFEBRIL",
+      "FLACIDO"
+    ],
+    "Função de Organismo": [
+      "RESPIRANDO"
+    ],
+    "Doença ou Síndrome": [
+      "HIPERTENSA",
+      "SINDROME DO DESCONFORTO RESPIRATORIO DO ADULTO"
+    ],
+    "Conceito Quantitativo": [
+      "200/100",
+      "150/80",
+      "16 MRP"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "MEDICADA",
+      "ACESSO VENOSO"
+    ],
+    "Conceito Temporal": [
+      "PERIODO"
+    ],
+    "Sinal ou Sintoma": [
+      "DISPNEIA",
+      "SINAIS FLOGISTICO"
+    ],
+    "Negação": [
+      "AFEBRIL",
+      "SEM"
+    ],
+    "Localização ou Região Corporal": [
+      "ABDOMEN"
+    ],
+    "Procedimento Diagnóstico": [
+      "PALPAÇÃO",
+      "RAIO-X"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ENCAMINHADA"
+    ],
+    "Abreviação": [
+      "PA",
+      "RESP"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "RESP"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Dispositivo Médico": [
+      "NEVUA UMIDA",
+      "ACESSO VENOSO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ANTEBRAÇO ESQUERDO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "GLICEMIA = 210"
+    ]
+  },
+  "labels": {
+    "6C45.3": {
+      "term_original": "consciente",
+      "capitulo": "06",
+      "confidence_embedding": 0.7671,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A presença do termo 'consciente' no contexto sugeriu uma alteração significativa na consciência, o que é comum em intoxicação por cocaína. Além disso, a apresentação clínica descrita (euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância) é consistente com os sintomas da intoxicação por cocaína."
+    },
+    "FA34.0": {
+      "term_original": "flacido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7078,
+      "descricao_cid": "Representação de doença CID-11: Corpo flutuante na articulação. Definição: ",
+      "classification_reasoning": "A opção FA34.0 melhor se adapta ao termo 'flacido' encontrado no prontuário, que descreve o abdomen como 'flácido indolor à palpação'. Isso sugere a presença de uma condição neurológica ou muscular que afeta a rigidez do abdome, característica da Artropatia associada a reações de hipersensibilidade classificadas em outra parte (FA34.0)."
+    },
+    "BA01": {
+      "term_original": "hipertensa",
+      "capitulo": "11",
+      "confidence_embedding": 0.805,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A escolha do código BA01 (Doença cardíaca hipertensiva) é a mais precisa pois o paciente apresenta hipertensão (200/100 mmHg), nominalmente medicada, e síndrome de desconforto respiratório do adulto, que pode estar relacionado à pressão arterial elevada."
+    },
+    "MD22": {
+      "term_original": "sinais flogistico",
+      "capitulo": "21",
+      "confidence_embedding": 0.748,
+      "descricao_cid": "Representação de doença CID-11: Hemoptise. Definição: Expectoração ou cuspe de sangue originário de qualquer parte do trato respiratório, usualmente resultado de hemorragia no parênquima pulmonar e artérias bronquiais.",
+      "classification_reasoning": "O termo 'sinais flogistico' se refere à presença de sangue na expectoração ou cuspe, o que é característico da hemoptise (MD22) e não apresenta relacionamento com os outros códigos propostos."
+    },
+    "CB00": {
+      "term_original": "sindrome do desconforto respiratorio do adulto",
+      "capitulo": "12",
+      "confidence_embedding": 0.7611,
+      "descricao_cid": "Representação de doença CID-11: Síndrome do desconforto respiratório agudo. Definição: Síndrome do desconforto respiratório agudo (SDRA) é uma inflamação e edema nos pulmões com risco de vida iminente, que leva a insuficiência respiratória aguda grave. A SDRA é uma síndrome clínica de lesão pulmonar com insuficiência respiratória aguda hipoxêmica causada por intensa inflamação pulmonar que se desenvolve após lesão fisiopatológica grave.",
+      "classification_reasoning": "A paciente apresenta sintomas de desconforto respiratório agudo, com dispneia e necessidade de oxigênio suplementar, o que leva à escolha da opção CB00, Síndrome do desconforto respiratório agudo."
+    },
+    "CA22.0": {
+      "term_original": "dispneia",
+      "capitulo": "12",
+      "confidence_embedding": 0.8088,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A presença de dispneia no contexto clínico, associada a hipertensão arterial e período de dispneia, sugere uma exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC). A escolha do código CA22.0 se baseia na definição de exacerbação aguda da DPOC como um agravamento dos sintomas respiratórios caracterizados por dispneia basal, tosse e/ou produção de escarro."
+    }
+  }
+}

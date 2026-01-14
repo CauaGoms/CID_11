@@ -1,0 +1,112 @@
+{
+  "prontuario_id": 683,
+  "text": "TX RENAL EM USO DE RAPA 1, TACROLIMO 0,5 / 0,5, PRED 5, CVDL 25 2X, ROSOVASTATINA 10, ENALAPRIL 10, ANLO 5. \n\nS # SEM QUEIXAS.\n\nO # PESO 75,5.\nEXAME FISICO NORMAL.\nPA 130/80.\n \nMANTENHO CUIDADOS.\nTX RENAL CR 1,7, SRL 7, FK 3.\nHAS COMPENSAOD .\nDLP PROXIMO ALVO.\nPKD / TENDENDO POLIGLOBILIA. \nPROTEINÚRIA.\n ",
+  "entities": {
+    "Substância Química Orgânica": [
+      "RAPA",
+      "TACROLIMO",
+      "PRED",
+      "CVDL",
+      "ROSOVASTATINA",
+      "ANLO",
+      "FK"
+    ],
+    "Abreviação": [
+      "RAPA",
+      "PRED",
+      "CVDL",
+      "ANLO",
+      "PA",
+      "SRL",
+      "FK",
+      "DLP",
+      "PKD",
+      "TX RENAL",
+      "CR 1 , 7",
+      "HAS COMPENSAOD"
+    ],
+    "Antibiótico": [
+      "RAPA"
+    ],
+    "Conceito Quantitativo": [
+      "1",
+      "5",
+      "10",
+      "130/80",
+      "7",
+      "3",
+      "0 , 5 / 0 , 5",
+      "25 2X",
+      "75 , 5"
+    ],
+    "Substância Farmacológica": [
+      "TACROLIMO",
+      "PRED",
+      "CVDL",
+      "ROSOVASTATINA",
+      "ENALAPRIL",
+      "ANLO",
+      "FK"
+    ],
+    "Hormônio": [
+      "PRED"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "ENALAPRIL"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "PROTEINÚRIA"
+    ],
+    "Atributo Clínico": [
+      "PESO",
+      "PA"
+    ],
+    "Doença ou Síndrome": [
+      "DLP",
+      "PKD",
+      "HAS COMPENSAOD",
+      "TENDENDO POLIGLOBILIA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "PROTEINÚRIA",
+      "CR 1 , 7"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Achado": [
+      "EXAME FISICO NORMAL",
+      "PROXIMO ALVO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "MANTENHO CUIDADOS"
+    ]
+  },
+  "labels": {
+    "GB60.1": {
+      "term_original": "dlp",
+      "capitulo": "16",
+      "confidence_embedding": 0.801,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência renal aguda, estágio 2. Definição: Taxa de alteração da creatinina sérica: 2,0-2,9 vezes a linha de base OU Magnitude da produção de urina: < 0,5 ml/kg/h por > = 12 horas",
+      "classification_reasoning": "Aumento na taxa de alteração da creatinina sérica para 1,7 e a presença de proteínaúria apontam para um estágio mais avançado de insuficiência renal aguda, configurando o código GB60.1."
+    },
+    "GB40": {
+      "term_original": "pkd",
+      "capitulo": "16",
+      "confidence_embedding": 0.7964,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A presença de proteinúria e PKD (Polycystic Kidney Disease) na história clínica sugere a possibilidade de uma síndrome nefrítica, justificando a escolha do código GB40."
+    },
+    "3B65": {
+      "term_original": "tendendo poliglobilia",
+      "capitulo": "03",
+      "confidence_embedding": 0.7142,
+      "descricao_cid": "Representação de doença CID-11: Microangiopatia trombótica, não classificada em outra parte.. Definição: Microangiopatias trombóticas são transtornos de oclusão microvascular caracterizados por agregação sistêmica ou intrarrenal de plaquetas, trombocitopenia e lesão mecânica dos eritrócitos. A púrpura trombocitopênica trombótica (PTT) e a síndrome hemolítico-urêmica (SHU) representam um espectro das microangiopatias trombóticas. Na PTT, a agregação sistêmica de plaquetas na microcirculação causa isquemia no cérebro e em outros órgãos. Na SHU, trombos de fibrina-plaquetas ocluem predominantemente a circulação renal.",
+      "classification_reasoning": "O termo 'tendendo poliglobilia' sugere a possibilidade de desenvolvimento de microangiopatia trombótica, caracterizada pela agregação sistêmica ou intrarrenal de plaquetas, trombocitopenia e lesão mecânica dos eritrócitos. Esta hipótese é sustentada pelo contexto clínico que apresenta TX renal crônica com SRL elevado e proteínaúria."
+    }
+  }
+}

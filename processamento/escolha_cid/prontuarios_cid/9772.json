@@ -1,0 +1,121 @@
+{
+  "prontuario_id": 595,
+  "text": "TX RENAL.\nTX COM CR 0,6 E NS FK 5;\nHAS COM HVE.\n \n \nTX RENAL.\nMTC 5, MS 2/2, TACROLIMO 1/1, OMZ 20 X2, SINVASTATINA 20, ATENOL 100, NFD 20 X2.\nS: SEM QUEIXAS.\nO: PA 120/80,  P 78,  AFEBRIL,  PESO 59.\nEX SEGMNETAR SP.",
+  "entities": {
+    "Abreviação": [
+      "TX",
+      "HAS",
+      "HVE",
+      "MTC",
+      "MS",
+      "OMZ",
+      "S",
+      "O",
+      "PA",
+      "P",
+      "SP",
+      "TX RENAL",
+      "CR 0 , 6",
+      "NS FK 5",
+      "EX SEGMNETAR"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX",
+      "TX RENAL"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "HVE"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "MS",
+      "TACROLIMO",
+      "OMZ",
+      "SINVASTATINA",
+      "ATENOL",
+      "NFD"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "2/2",
+      "1/1",
+      "20",
+      "100",
+      "120/80",
+      "78",
+      "59"
+    ],
+    "Substância Química Orgânica": [
+      "OMZ",
+      "SINVASTATINA",
+      "ATENOL"
+    ],
+    "Achado": [
+      "S",
+      "SP",
+      "TX RENAL"
+    ],
+    "Negação": [
+      "SEM",
+      "AFEBRIL",
+      "SP"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "AFEBRIL"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O",
+      "EX SEGMNETAR"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P"
+    ],
+    "Atributo de Organismo": [
+      "PESO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 6",
+      "NS FK 5"
+    ]
+  },
+  "labels": {
+    "8B25.4": {
+      "term_original": "hve",
+      "capitulo": "08",
+      "confidence_embedding": 0.7032,
+      "descricao_cid": "Representação de doença CID-11: Efeitos tardios de acidente vascular cerebral desconhecido se isquêmico ou hemorrágico. Definição: Efeitos tardios ocorrendo após 1 mês ou mais do início da doença. Os códigos para acidente vascular cerebral (AVC) agudo devem ser usados ​​exclusivamente para AVC agudo e episódios de hospitalização imediatamente relacionados.",
+      "classification_reasoning": "A escolha do código 8B25.4 é baseada na presença do termo 'hve' no prontuário, que sugere a presença de efeitos tardios de acidente vascular cerebral desconhecido se isquêmico ou hemorrágico. Além disso, a falta de outras comorbidades cardiovasculares e o resultado normal da pressão arterial e peso sugerem que a doença não é relacionada à hipertensão ou ao diabetes."
+    },
+    "4A85.01": {
+      "term_original": "has",
+      "capitulo": "04",
+      "confidence_embedding": 0.7054,
+      "descricao_cid": "Representação de doença CID-11: Hipersensibilidade renal induzida por droga. Definição: Hipersensibilidade renal induzida por droga constitui uma importante causa de insuficiência renal aguda e doença renal crônica na prática clínica atual. Diferentes classes de drogas, em virtude de mecanismos imunológicos, desencadeiam respostas inflamatórias renais específicas, que se manifestam por diferentes padrões clínicos, como a nefrite intersticial induzida por drogas. A hipersensibilidade renal induzida por drogas pode se manifestar isoladamente ou em combinação com outros transtornos de hipersensibilidades induzida por drogas em outro órgão ou sistema.",
+      "classification_reasoning": "Como o termo 'HAS' está relacionado ao hígado e a função renal, é mais provável que se refira à hipersensibilidade renal induzida por drogas, considerando-se a presença de nefrite intersticial e a utilização de medicamentos como TACROLIMO e SINVASTATINA."
+    },
+    "MF56": {
+      "term_original": "s",
+      "capitulo": "21",
+      "confidence_embedding": 0.7385,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A presença de 'Cólica renal' no prontuário, juntamente com a menção à TX Renal e ao uso de medicamentos para dor abdominal (OMZ), sugere que o termo mais preciso é Cólica Renal (MF56)."
+    },
+    "QB63.8": {
+      "term_original": "sp",
+      "capitulo": "24",
+      "confidence_embedding": 0.6845,
+      "descricao_cid": "Representação de doença CID-11: Presença de célula tronco transplantada. Definição: ",
+      "classification_reasoning": "A opção mais precisa é QB63.8, pois o paciente tem uma história de transplante renal (TX RENAL), e a descrição do código refere-se à presença de célula tronco transplantada."
+    },
+    "GB80.9": {
+      "term_original": "tx renal",
+      "capitulo": "16",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A presença de CR 0,6 e NS FK 5 na primeira parte do prontuário sugere uma doença renal crônica não especificada, que coincide com a descrição do código GB80.9."
+    }
+  }
+}

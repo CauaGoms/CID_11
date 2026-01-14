@@ -1,0 +1,151 @@
+{
+  "prontuario_id": 965,
+  "text": "TOSSE RESIDUAL\nHAS/ DM / DLP \nPOT TX RENAL CR 0,84\nTX RENAL HÁ 1 ANO E 11 MESES\nATC POPLITEA E FEMORAIS ? FECHAMENTO FERIDA DE CALCANEO\nAMPUTAÇÃO PODODACTILOS\nUSA: MTC 5, MPS 1 / 1, CRESTOR 10, AAS, CVDL 12,5 X2, MONOCORDIL 20 X2, CILOSTAZOL 100 X2, LST 50, LANTUS 30\nS: PERSISTE COM TOSSE PRODUTIVA MARELO CLARO. NEGA FEBRE\nO: PA 120/80  P 78   AFEBRIL\nCROSTA SECA SOBRE FERIDA DE CALCANEO - FECHADA\nDEMAIS INALTERADO",
+  "entities": {
+    "Abreviação": [
+      "HAS/",
+      "DM",
+      "DLP",
+      "MTC",
+      "MPS",
+      "AAS",
+      "CVDL",
+      "X2",
+      "LST",
+      "PA",
+      "P",
+      "TX RENAL",
+      "CR 0 , 84",
+      "ATC POPLITEA E FEMORAIS"
+    ],
+    "Doença ou Síndrome": [
+      "HAS/",
+      "DM",
+      "DLP"
+    ],
+    "Conceito Temporal": [
+      "POT",
+      "HÁ 1 ANO E 11 MESES"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "MPS",
+      "CRESTOR",
+      "AAS",
+      "CVDL",
+      "MONOCORDIL",
+      "CILOSTAZOL",
+      "LST",
+      "LANTUS"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "MPS",
+      "CRESTOR",
+      "AAS",
+      "CVDL",
+      "MONOCORDIL",
+      "CILOSTAZOL",
+      "LST",
+      "LANTUS"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "10",
+      "X2",
+      "20",
+      "100",
+      "50",
+      "30",
+      "120/80",
+      "78",
+      "1 / 1",
+      "12 , 5"
+    ],
+    "Hormônio": [
+      "LANTUS"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "LANTUS"
+    ],
+    "Negação": [
+      "NEGA",
+      "AFEBRIL"
+    ],
+    "Sinal ou Sintoma": [
+      "FEBRE",
+      "AFEBRIL",
+      "TOSSE RESIDUAL",
+      "TOSSE PRODUTIVA"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P"
+    ],
+    "Achado": [
+      "INALTERADO",
+      "FECHAMENTO FERIDA DE CALCANEO",
+      "CROSTA SECA SOBRE FERIDA DE CALCANEO",
+      "FECHADA DEMAIS"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL",
+      "ATC POPLITEA E FEMORAIS",
+      "AMPUTAÇÃO PODODACTILOS"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 84"
+    ]
+  },
+  "labels": {
+    "CB41.1": {
+      "term_original": "tosse residual",
+      "capitulo": "12",
+      "confidence_embedding": 0.707,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência respiratória crônica. Definição: Na insuficiência respiratória crônica a hipoxemia ocorre ao longo de semanas ou meses (mais de 7 dias) e a insuficiência respiratória se desenvolve mais lentamente e dura mais tempo do que na insuficiência respiratória aguda.",
+      "classification_reasoning": "A tosse residual é um sintoma comum em pacientes com insuficiência respiratória crônica, que é caracterizada pela hipoxemia ao longo de semanas ou meses. A presença de outros sintomas como calafrios e falta de ar também apontam para essa condição."
+    },
+    "BD54": {
+      "term_original": "dm",
+      "capitulo": "11",
+      "confidence_embedding": 0.7811,
+      "descricao_cid": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'DM' é a úlcera de pé diabético, considerando-se que o paciente tem histórico de tratamento renal e medicação com insulina e outras drogas para diabetes."
+    },
+    "NC12.24": {
+      "term_original": "febre",
+      "capitulo": "22",
+      "confidence_embedding": 0.7683,
+      "descricao_cid": "Representação de doença CID-11: Fratura da tuberosidade menor do úmero. Definição: ",
+      "classification_reasoning": "A busca pelo termo 'febre' não encontrou relação direta com a opção de ferimento perfurante ou laceração, portanto, a escolha mais precisa é a representação de doença CID-11: Fratura da tuberosidade menor do úmero, que não apresenta sintomas relacionados à febre."
+    },
+    "MF54.2": {
+      "term_original": "fechada demais",
+      "capitulo": "21",
+      "confidence_embedding": 0.766,
+      "descricao_cid": "Representação de doença CID-11: Hipoplasia renal. Definição: Condição caracterizada por um rim menor em tamanho e peso do que a média (menos de 11 centímetros de comprimento, 5-7,5 centímetros de largura, 2,5 centímetros de espessura e pesando menos de 120 gramas).",
+      "classification_reasoning": "A opção mais precisa é a hipoplasia renal (MF54.2) pois o termo 'fechada demais' se refere ao fechamento da ferida de calcâneo, o que pode estar relacionado a alterações na forma ou tamanho do osso. Além disso, a presença de doença renal crônica (POT TX RENAL CR 0,84) e a história de amputação pododáctil também são sugestivas de comprometimento renal."
+    },
+    "CA70.4": {
+      "term_original": "tosse produtiva",
+      "capitulo": "12",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A tosse produtiva persistente e a ausência de febre apontam para uma possível pneumonia ou pneumonite de origem alérgica, o que é compatível com a descrição do Código CA70.4: Pulmão dos criadores de pássaros."
+    },
+    "FB54.3": {
+      "term_original": "fechamento ferida de calcaneo",
+      "capitulo": "15",
+      "confidence_embedding": 0.7482,
+      "descricao_cid": "Representação de doença CID-11: Esporão calcâneo. Definição: Este é um transtorno em que ocorre uma exostose no calcâneo (o osso do calcanhar)",
+      "classification_reasoning": "A opção mais precisa para o termo 'fechamento ferida de calcaneo' é a Código FB54.3: Esporão calcâneo, que descreve uma exostose no calcâneo (osso do calcanhar), o que concorda com a situação clínica apresentada no prontuário."
+    },
+    "EF02.3": {
+      "term_original": "crosta seca sobre ferida de calcaneo",
+      "capitulo": "14",
+      "confidence_embedding": 0.7393,
+      "descricao_cid": "Representação de doença CID-11: Celulite. Definição: A celulite é um desarranjo arquitetônico comum do tecido adiposo subcutâneo que resulta em ondulações e nodularidade da pele sobrejacente. É mais comum em mulheres pós-púberes e acomete principalmente a região pélvica, membros inferiores e abdome. Acredita-se que resulte da herniação de múltiplos pequenos agregados de gordura subcutânea através do tecido fibroso na junção dermo-hipodérmica. A obesidade predispõe, mas não é necessária para o seu desenvolvimento. O termo está em uso generalizado, mas é enganoso, pois não tem nada a ver com \"cellulitis\" (NT: infecção de pele). A condição é assintomática, mas pode causar constrangimento considerável.",
+      "classification_reasoning": "A crosta seca sobre ferida de calcaneo não está relacionada às outras condições apresentadas no contexto, portanto, a opção mais precisa é Celulite (EF02.3), que é um desarranjo arquitetônico comum do tecido adiposo subcutâneo que resulta em ondulações e nodularidade da pele sobrejacente."
+    }
+  }
+}

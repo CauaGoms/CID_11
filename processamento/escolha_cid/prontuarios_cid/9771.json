@@ -1,0 +1,161 @@
+{
+  "prontuario_id": 258,
+  "text": "POS TRANSPLANTE RENAL.\nPOS TX RENAL - 1 A 9 M, CREATININA 0,67;  FK 5.\nHAS - CONTROLADA.\n \n \nPO TX RENAL DC EM SET/12.\nMTC 5, MS 2/2, FK 1/1, OMZ 20/20, SINVASTATINA 20, ATENOLOL 100MG, NIFEDIPINA 40.\n\nTEVE REAÇÃO A VACINA DA GRIPE COM DIARRÉIA, COM MELHORA COMPLETA.\n\nO # BEG, CORADA, HIDRATADA.\nP 49,5.\nMV POSITIVO, SIMETRICO.\nBCRNF.\nABDOMEN GLOBOSO, FLACIDO, INDOLOR, SEM MASSAS, RHA POSITIVOS.\nMEMBROS SEM EDEMA.",
+  "entities": {
+    "Abreviação": [
+      "HAS",
+      "MTC",
+      "MS",
+      "FK",
+      "OMZ",
+      "O",
+      "BEG",
+      "P",
+      "BCRNF",
+      "TX RENAL",
+      "TX RENAL DC",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Doença ou Síndrome": [
+      "HAS"
+    ],
+    "Achado": [
+      "CONTROLADA",
+      "BEG",
+      "CORADA",
+      "HIDRATADA",
+      "SIMETRICO",
+      "BCRNF",
+      "FLACIDO",
+      "TX RENAL DC",
+      "MELHORA COMPLETA",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "MS",
+      "FK",
+      "OMZ",
+      "SINVASTATINA",
+      "ATENOLOL",
+      "NIFEDIPINA"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "OMZ",
+      "SINVASTATINA",
+      "ATENOLOL",
+      "NIFEDIPINA"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "2/2",
+      "1/1",
+      "20/20",
+      "20",
+      "100MG",
+      "40",
+      "49 , 5"
+    ],
+    "Sinal ou Sintoma": [
+      "REAÇÃO",
+      "DIARRÉIA",
+      "GLOBOSO",
+      "INDOLOR",
+      "MASSAS",
+      "EDEMA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O"
+    ],
+    "Atributo Clínico": [
+      "P"
+    ],
+    "Negação": [
+      "INDOLOR",
+      "SEM"
+    ],
+    "Localização ou Região Corporal": [
+      "MEMBROS"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL",
+      "TX RENAL DC",
+      "VACINA DA GRIPE"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CREATININA 0 , 67",
+      "FK 5"
+    ]
+  },
+  "labels": {
+    "4B24.0": {
+      "term_original": "controlada",
+      "capitulo": "04",
+      "confidence_embedding": 0.7629,
+      "descricao_cid": "Representação de doença CID-11: Doença do enxerto versus hospedeiro aguda. Definição: Doença do enxerto-versus-hospedeiro apresentando-se normalmente nos primeiros 100 dias após o transplante. Manifesta-se mais comumente com erupção maculopapular acompanhada de febre. O prognóstico se correlaciona com a extensão do acometimento cutâneo, que pode evoluir para necrólise epidérmica generalizada, e com a gravidade do acometimento gastrointestinal e hepático que pode se manifestar com diarreia e icterícia respectivamente. A mortalidade é alta na doença do enxerto-versus-hospedeiro aguda grave.",
+      "classification_reasoning": "A paciente apresenta sintomas de doença do enxerto-versus-hospedeiro aguda, como diarreia e melhora completa após a reação à vacina da gripe, o que é compatível com a definição da doença do enxerto-versus-hospedeiro aguda (4B24.0) em relação às características clínicas apresentadas."
+    },
+    "DB34.4": {
+      "term_original": "flacido",
+      "capitulo": "13",
+      "confidence_embedding": 0.6942,
+      "descricao_cid": "Representação de doença CID-11: Úlcera retal hemorrágica aguda. Definição: Úlcera retal hemorrágica aguda é considerada como um transtorno isquêmico agudo da mucosa, que ocorre em pacientes idosos que sofrem de redução incipiente do fluxo sanguíneo devida a fatores arterioscleróticos. Estes pacientes estão frequentemente acamados, e isso causa uma diminuição no fluxo sanguíneo da mucosa do reto inferior, o que por sua vez desencadeia essa doença.",
+      "classification_reasoning": "A opção mais precisa para o termo 'flacido' no contexto clínico é a úlcera retal hemorrágica aguda (Código DB34.4). A descrição do abdomen como 'globoso, flácido, indolor e sem massas' sugere que houve alguma lesão ou distensão abdominal, o que coincide com a definição de úlcera retal hemorrágica aguda."
+    },
+    "GB60.0": {
+      "term_original": "tx renal dc",
+      "capitulo": "16",
+      "confidence_embedding": 0.7564,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência renal aguda, estágio 1. Definição: Taxa de alteração da creatinina sérica: aumento 1,5-1,9 vezes o valor basal em 7 dias OU aumento de 0,3 mg/dl em 48 h OU Magnitude da produção de urina: <0,5 ml/kg/h por 6-12 horas",
+      "classification_reasoning": "A paciente tem um histórico de transplante renal (POS TX RENAL DC) e apresenta valores de creatinina sérica dentro do normal (CREATININA 0,67). Além disso, há controle da doença (HAS - CONTROLADA), o que sugere que a paciente está em estágio de insuficiência renal aguda, estágio 1 (GB60.0)"
+    },
+    "DE11": {
+      "term_original": "diarréia",
+      "capitulo": "13",
+      "confidence_embedding": 0.7155,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de dumping. Definição: Síndrome de dumping é um grupo de sinais e sintomas que se desenvolve mais frequentemente em pessoas que foram submetidas a cirurgia para ressecção total ou parcial do estômago, ou em quem foi submetido a um bypass cirúrgico. Pode ocorrer precocemente (durante a refeição ou após 15-30 minutos com náuseas, vômitos, dor abdominal, cólicas, diarreia, tontura e palpitações cardíacas) ou tardiamente (1 a 3 horas após a refeição com sudorese, fraqueza, fadiga, tonturas, vertigens, palpitações cardíacas e desmaios).",
+      "classification_reasoning": "A diarréia é um sintoma comum na síndrome de dumping, caracterizada por rejeição alimentar e problemas gástricos após cirurgia do estômago ou bypass. O contexto clínico apresenta uma história de reação à vacina da gripe com melhora completa, o que não está relacionado às outras opções."
+    },
+    "NE84": {
+      "term_original": "reação",
+      "capitulo": "22",
+      "confidence_embedding": 0.7594,
+      "descricao_cid": "Representação de doença CID-11: Falha ou rejeição de órgãos ou tecidos transplantados. Definição: ",
+      "classification_reasoning": "A reação à vacina da gripe mencionada no prontuário refere-se a uma rejeição ou falha do transplante renal, justificando a escolha do código NE84."
+    },
+    "MF54.2": {
+      "term_original": "melhora completa",
+      "capitulo": "21",
+      "confidence_embedding": 0.7756,
+      "descricao_cid": "Representação de doença CID-11: Hipoplasia renal. Definição: Condição caracterizada por um rim menor em tamanho e peso do que a média (menos de 11 centímetros de comprimento, 5-7,5 centímetros de largura, 2,5 centímetros de espessura e pesando menos de 120 gramas).",
+      "classification_reasoning": "A opção MF54.2 se refere à Hipoplasia renal, que pode ser relacionada ao pos-transplante renal e às informações de exame físico (abdomen globoso, flácido, indolor, sem massas) e laboratorial (creatina 0,67; FK 5), mostrando que o termo 'melhora completa' está associado a uma melhora no estado geral do paciente após o transplante renal."
+    },
+    "FB50.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7297,
+      "descricao_cid": "Representação de doença CID-11: Cisto sinovial do espaço poplíteo. Definição: Este é o edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho",
+      "classification_reasoning": "A opção mais precisa é a Cisto sinovial do espaço poplíteo, pois o termo 'edema' está relacionado à descrição de abdomen globoso e flácido no texto clínico, sugerindo uma lesão benigna em uma bolsa ou bursa."
+    },
+    "DD57": {
+      "term_original": "globoso",
+      "capitulo": "13",
+      "confidence_embedding": 0.6953,
+      "descricao_cid": "Representação de doença CID-11: Hérnia paraestomal. Definição: Hérnia que ocorre através da área paraestomal fragilizada após a abertura do estoma.",
+      "classification_reasoning": "A opção mais precisa para o termo 'globoso' é a Hérnia paraestomal (DD57), pois a descrição do abdome como 'GLOBOSO, FLACIDO, INDOLOR' sugere uma distensão abdominal não dolorosa, característica da hérnia paraestomal."
+    },
+    "MF02": {
+      "term_original": "mv positivo",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é MF02, pois o termo 'mv positivo' refere-se ao resultado de estudos de função renal, especificamente a função renal positiva. Isso é consistente com os dados do prontuário que menciona creatinina 0,67 e FK 5."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "prontuario_id": 857,
+  "text": "retorno p/ retirada de pontos FAV B-C dir.\nFAV com frêmito, boa cicatrização.\npontos retirados.        ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "retorno"
+    ],
+    "Abreviação": [
+      "FAV"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "FAV",
+      "retirada de pontos",
+      "pontos retirados"
+    ],
+    "Sinal ou Sintoma": [
+      "com frêmito"
+    ],
+    "Achado": [
+      "boa cicatrização"
+    ]
+  },
+  "labels": {
+    "EC33": {
+      "term_original": "boa cicatrização",
+      "capitulo": "14",
+      "confidence_embedding": 0.6946,
+      "descricao_cid": "Representação de doença CID-11: Epidermólise bolhosa sindrômica. Definição: Pequeno grupo de transtornos incluindo a síndrome de Kindler, em que a formação de bolhas na pele está associada a outros defeitos.",
+      "classification_reasoning": "A descrição do termo 'boa cicatrização' sugere que a pele está se recuperando bem após uma lesão, o que é comum na síndrome de epidermólise bolhosa. Isso justifica a escolha do código EC33."
+    },
+    "8A06.21": {
+      "term_original": "com frêmito",
+      "capitulo": "08",
+      "confidence_embedding": 0.6827,
+      "descricao_cid": "Representação de doença CID-11: Soluços crônicos. Definição: Soluço crônico é um transtorno raro causando espasmos inspiratórios repetitivos em um período de 48 horas ou mais.",
+      "classification_reasoning": "O termo 'com frêmito' sugere uma reação nervosa ao procedimento de retirada de pontos, o que é mais consistente com a descrição da crise epiléptica de ausência atípica (8A68.1) ou com soluços crônicos (8A06.21), ambos envolvendo reações nervosas espontâneas."
+    }
+  }
+}

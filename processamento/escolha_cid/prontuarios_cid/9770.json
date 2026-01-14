@@ -1,0 +1,158 @@
+{
+  "prontuario_id": 860,
+  "text": "CONSULTA.\nPO TX RENAL - FUNÇÃO RENAL NORMAL.\nULTIMO FK 12 (COLETA INADEQUADA).\nREAÇAO A VACINA DA GRIPE COM DIARRÉIA.\n \n \nTX RENAL DC EM SET/2012.\nMTC 5, MS 2/2, FK 1/1, OMZ 20/20, SINVASTATINA 20, ATENOLOL 100, NIFEDIPINO 4O.\nS # REFERE VACINA DA GRIPE EM 08/05, PORÉM APRESENTOU DIARREIA, MAL ESTAR DE FORMA AUTO LIMITADA.\nBEG,CORADA, HIDRATADA.\nPA 150/80.\nMV POSITIVO, SIMETRICO.\nBCRNF.\nABDOMEN FLACIDO, INDOLOR, RHA POSITIVOS.\nMEMBROS SEM EDEMA.",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "CONSULTA"
+    ],
+    "Conceito Temporal": [
+      "PO"
+    ],
+    "Abreviação": [
+      "PO",
+      "MTC",
+      "MS",
+      "FK",
+      "OMZ",
+      "S",
+      "BEG",
+      "PA",
+      "BCRNF",
+      "TX RENAL",
+      "FK 12",
+      "TX RENAL DC",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Sinal ou Sintoma": [
+      "REAÇAO",
+      "DIARRÉIA",
+      "DIARREIA",
+      "INDOLOR",
+      "EDEMA",
+      "MAL ESTAR"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "MS",
+      "FK",
+      "OMZ",
+      "SINVASTATINA",
+      "ATENOLOL",
+      "NIFEDIPINO"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "2/2",
+      "1/1",
+      "20/20",
+      "20",
+      "100",
+      "4O",
+      "150/80"
+    ],
+    "Substância Química Orgânica": [
+      "MS",
+      "FK",
+      "OMZ",
+      "SINVASTATINA",
+      "ATENOLOL"
+    ],
+    "Achado": [
+      "S",
+      "BEG",
+      "CORADA",
+      "HIDRATADA",
+      "SIMETRICO",
+      "BCRNF",
+      "FUNÇÃO RENAL NORMAL",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABDOMEN"
+    ],
+    "Negação": [
+      "INDOLOR",
+      "SEM"
+    ],
+    "Localização ou Região Corporal": [
+      "MEMBROS"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL",
+      "TX RENAL DC",
+      "VACINA DA GRIPE"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "FK 12"
+    ],
+    "Conceito Qualitativo": [
+      "AUTO LIMITADA"
+    ]
+  },
+  "labels": {
+    "FA27.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7522,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A opção mais precisa é a FA27.2, Reumatismo palindrômico, pois apresenta edema nas articulações, o que coincide com a descrição do termo 'edema' no contexto clínico."
+    },
+    "6C45.3": {
+      "term_original": "mal estar",
+      "capitulo": "06",
+      "confidence_embedding": 0.746,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A apresentação de 'mal estar' com diarréia e reação à vacina da gripe sugere uma resposta alógena negativa à vacina, o que é consistente com a descrição da intoxicação por cocaína (CID-11: Intoxicação por cocaína). A combinação de sintomas e a história de mal estar sugerem que o paciente apresentou um quadro de ansiedade ou raiva após a vacinação, o que também é consistente com a descrição da intoxicação por cocaína."
+    },
+    "8C01.0": {
+      "term_original": "mv positivo",
+      "capitulo": "08",
+      "confidence_embedding": 0.7208,
+      "descricao_cid": "Representação de doença CID-11: Polineuropatia desmielinizante inflamatória aguda. Definição: Fraqueza progressiva dos membros ao longo de alguns dias a 28 dias, déficit simétrico, arreflexia, distúrbio sensorial ausente ou leve, proteína do líquido cefalorraquidiano elevada e redução das velocidades de condução nervosa são as características principais. O transtorno pode ser precedido por infecção respiratória superior ou gastrointestinal ou imunização 1 a 4 semanas antes do início da doença. A paralisia bifacial pode estar presente.",
+      "classification_reasoning": "A opção mais precisa é a polineuropatia desmielinizante inflamatória aguda, pois o termo 'mv positivo' sugere uma lesão nervosa ou neurológica, e a descrição dessa condição CID-11 menciona fraqueza progressiva dos membros, déficit simétrico e arreflexia, características que se alinham com os sintomas descritos no contexto clínico."
+    },
+    "GB40": {
+      "term_original": "bcrnf",
+      "capitulo": "16",
+      "confidence_embedding": 0.8058,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A opção mais precisa para o termo BCRNF é a Síndrome nefrítica (Código GB40), pois apresenta características semelhantes àquelas descritas no contexto clínico, como hematúria grave e oligúria, pressão arterial elevada e edema leve."
+    },
+    "4B24.0": {
+      "term_original": "reaçao",
+      "capitulo": "04",
+      "confidence_embedding": 0.7798,
+      "descricao_cid": "Representação de doença CID-11: Doença do enxerto versus hospedeiro aguda. Definição: Doença do enxerto-versus-hospedeiro apresentando-se normalmente nos primeiros 100 dias após o transplante. Manifesta-se mais comumente com erupção maculopapular acompanhada de febre. O prognóstico se correlaciona com a extensão do acometimento cutâneo, que pode evoluir para necrólise epidérmica generalizada, e com a gravidade do acometimento gastrointestinal e hepático que pode se manifestar com diarreia e icterícia respectivamente. A mortalidade é alta na doença do enxerto-versus-hospedeiro aguda grave.",
+      "classification_reasoning": "A reação à vacina da gripe com diarréia sugere uma resposta de hipersensibilidade, o que é compatível com a doença do enxerto-versus-hospedeiro aguda (Código CID-11: 4B24.0)."
+    },
+    "8C84": {
+      "term_original": "simetrico",
+      "capitulo": "08",
+      "confidence_embedding": 0.7477,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise secundária. Definição: Rabdomiólise secundária ocorre quando o efeito primário de um fator etiológico resulta em um estado funcional ou bioquímico que conduz ao desenvolvimento de alterações isquêmicas, degenerativas, necróticas ou desestabilizadoras da membrana no músculo, produzindo as manifestações clínicas e bioquímicas de rabdomiólise. Mais frequentemente, a rabdomiólise é secundária a um desequilíbrio metabólico, muitas vezes de natureza genética, como resultado de movimento anormalmente excessivo, tensão isométrica excessiva por tentativa de movimento contra resistência, ou coma levando a aumento de pressão, isquemia, hipóxia e necrose intramusculares. A rabdomiólise secundária também pode ser causada por uma mutação em vários genes (RYR1, LPIN).",
+      "classification_reasoning": "A opção mais precisa é a rabdomiólise secundária (Código: 8C84) pois o termo 'simetrico' refere-se à contagem de raios muscular positiva e simétrica, o que sugere uma lesão muscular isquêmica ou degenerativa. Além disso, a presença de diarreia e mal estar de forma auto-limitada após vacinação contra gripe apoia a hipótese de rabdomiólise secundária."
+    },
+    "DA90.0": {
+      "term_original": "diarréia",
+      "capitulo": "13",
+      "confidence_embedding": 0.7715,
+      "descricao_cid": "Representação de doença CID-11: Diarreia sindrômica. Definição: Diarreia sindrômica, também conhecida como diarreia fenotípica ou síndrome trico-hepato-entérica, é uma enteropatia congênita que se apresenta com início precoce de diarreia grave exigindo uso de nutrição parenteral (NP), associada a dismorfismo facial, cabelo lanoso e pouco pigmentado, e doença hepática, com fibrose ou cirrose extensa, em cerca de metade dos pacientes.",
+      "classification_reasoning": "A diarreia é um sintoma presente no paciente, e o termo 'diarréia' foi extraído do contexto clínico como termost externo. A escolha mais precisa para esse termo dentro do contexto clínico é a Diarreia Sindrômica (DA90.0), uma condição caracterizada por diarreia grave e associada à síndrome trico-hepato-entérica."
+    },
+    "DD91.2": {
+      "term_original": "diarreia",
+      "capitulo": "13",
+      "confidence_embedding": 0.8107,
+      "descricao_cid": "Representação de doença CID-11: Diarreia funcional. Definição: Diarreia funcional é uma síndrome contínua ou recorrente caracterizada pela passagem de fezes moles (pastosas) ou aquosas sem dor ou desconforto abdominal.",
+      "classification_reasoning": "A diarreia mencionada no prontuário é descrita como uma reação à vacina da gripe, sem outra especificidade sobre a natureza ou severidade da diarreia. O código DD91.2, Diarreia funcional, é mais preciso porque não há indicações de complicações graves ou doenças sistêmicas associadas, e a sintomatologia descrita se ajusta melhor à definição de diarreia funcional."
+    }
+  }
+}

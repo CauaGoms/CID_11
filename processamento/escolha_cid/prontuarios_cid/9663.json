@@ -1,0 +1,203 @@
+{
+  "prontuario_id": 763,
+  "text": "TX RENAL.\n\nEM USO DE PRED 5, MS 2 / 2, TACROLIMO 2 / 2; OMEPRAZOL - PAROU E VOLTOU, CVDL 25 1X, AAS - PAROU POR CONTA, ENALAPRIL 5 - PAROU HOJE, ACICLOVIR, FLUCONAZOL E CETOCONAZOL. \n\n\nS # IVAS HÁ 1 MES , \nLESÕES ''ALERGICAS'' EM TRONCO, EM USO DE FLUCONAZOL E CETOCONAZOL, MAS SEM MELHORA\nDIARRÉIA. \n\nO # PESO 80.\nPA 120/80.\nEXAME FISICO :  LESÕES HIPEREMIADAS EM COLO E ABDOME>> SUGERE DERMATITE DE CONTATO, PROVÁVEL SABONETE ANTISSEPTICO.\nCPP LIVRES.\n \nSUSPENDO ACICLOVIR, REDUZO MS.\nSUSPENDO FLUCONAZOL E CETOCONAZOL.\nCIPRO 7 DIAS.\nTX RENAL CR 1,1, TACROLIMO 5.\nLESÕES DE PELE /  DERMATITE CONTATO ?\nHAS COMPENSADO.\nDISPEPSIA.\nIVAS : EXACERBAÇÃO AGUDA DE BRONQUITE CRONICA\n ",
+  "entities": {
+    "Substância Farmacológica": [
+      "PRED",
+      "TACROLIMO",
+      "OMEPRAZOL",
+      "CVDL",
+      "AAS",
+      "ENALAPRIL",
+      "ACICLOVIR",
+      "FLUCONAZOL",
+      "CETOCONAZOL",
+      "MS",
+      "CIPRO"
+    ],
+    "Abreviação": [
+      "PRED",
+      "MS",
+      "CVDL",
+      "AAS",
+      "S",
+      "IVAS",
+      "O",
+      "PA",
+      "CIPRO",
+      "HAS",
+      "TX RENAL",
+      "CPP LIVRES",
+      "CR 1 , 1"
+    ],
+    "Substância Química Orgânica": [
+      "PRED",
+      "MS",
+      "TACROLIMO",
+      "OMEPRAZOL",
+      "CVDL",
+      "AAS",
+      "ACICLOVIR",
+      "FLUCONAZOL",
+      "CETOCONAZOL",
+      "CIPRO"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "2",
+      "25",
+      "1X",
+      "80",
+      "120/80"
+    ],
+    "Achado": [
+      "S",
+      "MELHORA",
+      "COMPENSADO",
+      "TX RENAL",
+      "PAROU E VOLTOU",
+      "PAROU POR CONTA",
+      "PAROU HOJE",
+      "CPP LIVRES"
+    ],
+    "Doença ou Síndrome": [
+      "IVAS",
+      "HAS",
+      "DISPEPSIA",
+      "DERMATITE DE CONTATO",
+      "DERMATITE CONTATO",
+      "BRONQUITE CRONICA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "TRONCO",
+      "ABDOME&gt;&gt;"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "DIARRÉIA",
+      "LESÕES ''ALERGICAS''",
+      "LESÕES HIPEREMIADAS"
+    ],
+    "Procedimento Diagnóstico": [
+      "O",
+      "EXAME FISICO"
+    ],
+    "Atributo de Organismo": [
+      "PESO"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Localização ou Região Corporal": [
+      "COLO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "SUSPENDO",
+      "REDUZO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 1 , 1"
+    ],
+    "Lesão ou Envenenamento": [
+      "LESÕES DE PELE"
+    ]
+  },
+  "labels": {
+    "QA77": {
+      "term_original": "parou hoje",
+      "capitulo": "24",
+      "confidence_embedding": 0.6975,
+      "descricao_cid": "Representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano. Definição: ",
+      "classification_reasoning": "O termo 'parou hoje' refere-se à suspensão do uso de enalapril, o que sugere que a paciente tem alergia ou intolerância a essa medicação."
+    },
+    "JA20.2": {
+      "term_original": "compensado",
+      "capitulo": "18",
+      "confidence_embedding": 0.7554,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva preexistente complicando a gravidez, o parto ou o puerpério. Definição: Condição que acomete mulheres grávidas, causada por hipertensão e doença renal associada previamente diagnosticadas ou diagnosticadas durante as primeiras 20 semanas (de gestação). Essa condição é caracterizada por pressão arterial maior ou igual a 140/90 mmHg, levando a uma complicação durante a gravidez, parto e puerpério. A confirmação é feita pela aferição com esfigmomanômetro.",
+      "classification_reasoning": "A paciente apresenta TX renal e hipertensão (PA 120/80), com lesões hiperemiadas em colo e abdome, sugerindo dermatite de contato provável pelo sabonete antisseptico. Além disso, há exacerbação aguda de bronquite crônica. A condição 'compensado' sugere que a paciente está estabilizada após intervenções médicas. Portanto, o código mais preciso é JA20.2, que se refere à doença renal hipertensiva preexistente complicando a gravidez, parto ou puerpério."
+    },
+    "NC95.Z": {
+      "term_original": "has",
+      "capitulo": "22",
+      "confidence_embedding": 0.7104,
+      "descricao_cid": "Representação de doença CID-11: Lesão de vaso sanguíneo não especificado na perna. Definição: ",
+      "classification_reasoning": "A lesão descrita como 'lesões alérgicas' em tronco, associada à dermatite de contato provávelmente causada por sabonete antiséptico, é mais compatível com a lesão não especificada na perna (NC95.Z) do que as outras opções."
+    },
+    "EK00.C": {
+      "term_original": "dermatite de contato",
+      "capitulo": "14",
+      "confidence_embedding": 0.7906,
+      "descricao_cid": "Representação de doença CID-11: Dermatite alérgica de contato devida a medicamentos tópicos. Definição: Dermatite alérgica de contato devida à exposição a medicamentos tópicos como corticosteroides, antibióticos, antimicóticos, antissépticos, anestésicos locais ou anti-inflamatórios não hormonais.",
+      "classification_reasoning": "A dermatite alérgica de contato é provável devido à exposição a medicamentos tópicos, como sabonetes antissecptivos, considerando as lesões hiperemiadas em colo e abdome, sugerindo dermatite de contato."
+    },
+    "EK10.0": {
+      "term_original": "lesões ''alergicas''",
+      "capitulo": "14",
+      "confidence_embedding": 0.7505,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de alergia oral. Definição: Reação imune imediata tipo I mediada pelo IgE, limitada aos lábios, cavidade oral, língua e orofaringe, causada pelo contato direto com alérgeno do paciente sensibilizado. Os sintomas incluem inchaço da mucosa, prurido ou sensação de queimação.",
+      "classification_reasoning": "A presença de lesões ''alergicas'' em tronco, associadas ao uso de flucanazol e cetoconazol, sugere uma reação alérgica ou hipersensibilidade à substância responsável pelas lesões. A síndrome de alergia oral (EK10.0) é a opção mais precisa para este termo dentro do contexto clínico."
+    },
+    "MF54.2": {
+      "term_original": "lesões hiperemiadas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7393,
+      "descricao_cid": "Representação de doença CID-11: Hipoplasia renal. Definição: Condição caracterizada por um rim menor em tamanho e peso do que a média (menos de 11 centímetros de comprimento, 5-7,5 centímetros de largura, 2,5 centímetros de espessura e pesando menos de 120 gramas).",
+      "classification_reasoning": "A lesão hiperemiada descrita no exame físico sugere uma reação alérgica ou de contato, provávelmente relacionada ao sabonete antisséptico usado anteriormente. Como a paciente está com doença renal e está em uso de medicamentos inmunossupressores, é possível que essa lesão seja um sinal de comprometimento imune."
+    },
+    "CA42.3": {
+      "term_original": "bronquite cronica",
+      "capitulo": "12",
+      "confidence_embedding": 0.7658,
+      "descricao_cid": "Representação de doença CID-11: Bronquite aguda devida a vírus parainfluenza. Definição: Doenças dos brônquios, causada por infecção aguda por vírus parainfluenza. Esta doença é caracterizada por inflamação aguda dos brônquios, levando a tosse, produção de catarro, chieira torácica ou falta de ar. A transmissão ocorre por inalação de secreções respiratórias infectadas, por contato direto ou por meio de fômites. A confirmação é feita pela identificação do vírus parainfluenza nas secreções respiratórias, pela detecção de elevação significativa de anticorpos IgG específicos para o parainfluenza em amostras pareadas de soro ou pela detecção de IgM específica para o parainfluenza em uma única amostra de soro.",
+      "classification_reasoning": "A escolha se baseia na apresentação de lesões alérgicas em tronco, associadas à exposição a flucanazol e cetoconazol, sugerindo dermatite de contato provável com sabonete antissético. Além disso, a bronquite crônica mencionada no prontuário é compatível com o código CA42.3, que descreve a bronquiolite aguda causada por vírus parainfluenza."
+    },
+    "EF40": {
+      "term_original": "lesões de pele",
+      "capitulo": "14",
+      "confidence_embedding": 0.7934,
+      "descricao_cid": "Representação de doença CID-11: Vasculite ou capilarite envolvendo a pele. Definição: Uma gama de condições caracterizadas por inflamação dos vasos sanguíneos cutâneos com ou sem extravasamento de hemácias para o interstício.",
+      "classification_reasoning": "A lesão hiperemiada na pele, associada à história de uso de fluticazona e cetoconazol, sugere uma reação alérgica cutânea. O código EF40 (Vasculite ou capilarite envolvendo a pele) é mais preciso para descrever essa condição do que os outros opções apresentadas."
+    },
+    "NB30.2Z": {
+      "term_original": "ivas",
+      "capitulo": "22",
+      "confidence_embedding": 0.6996,
+      "descricao_cid": "Representação de doença CID-11: Lesão da veia cava superior, não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'ivas' é NB30.2Z, pois refere-se a lesão da veia cava superior não especificada, que se relaciona à exacerbação aguda de bronquite crônica mencionada no contexto clínico."
+    },
+    "DA90.0": {
+      "term_original": "diarréia",
+      "capitulo": "13",
+      "confidence_embedding": 0.7491,
+      "descricao_cid": "Representação de doença CID-11: Diarreia sindrômica. Definição: Diarreia sindrômica, também conhecida como diarreia fenotípica ou síndrome trico-hepato-entérica, é uma enteropatia congênita que se apresenta com início precoce de diarreia grave exigindo uso de nutrição parenteral (NP), associada a dismorfismo facial, cabelo lanoso e pouco pigmentado, e doença hepática, com fibrose ou cirrose extensa, em cerca de metade dos pacientes.",
+      "classification_reasoning": "A diarreia é um sintoma presente no paciente e não há evidências de outras causas específicas, portanto a opção mais precisa é a DA90.0, que descreve a diarreia sindrômica."
+    },
+    "BD53.4": {
+      "term_original": "tx renal",
+      "capitulo": "11",
+      "confidence_embedding": 0.7193,
+      "descricao_cid": "Representação de doença CID-11: Ateroembolismo de colesterol. Definição: Oclusão embólica de pequenas artérias e arteríolas distais por cristais de colesterol liberados de placa aterosclerótica em artérias maiores mais centrais. A isquemia microvascular resultante é acompanhada por uma resposta inflamatória à presença de cristais de colesterol. Isso pode ocorrer espontaneamente ou como uma complicação de angiografia ou cirurgia vascular. Os órgãos mais comumente afetados incluem pele, rins, trato gastrointestinal e cérebro. Manifestações cutâneas, presentes na maioria dos casos, incluem livedo reticularis e necrose e ulceração isquêmicas focais; estas estão comumente associadas a lesão renal aguda.",
+      "classification_reasoning": "A opção mais precisa para o termo 'tx renal' é a doença CID-11: Ateroembolismo de colesterol (BD53.4). Isso porque as lesões hiperemiadas na pele e no abdome sugerem uma possibilidade de dermatite de contato, provável causada por sabonete antiséptico. Além disso, a presença de úlceras e necrose isquêmicas focais está associada à lesão renal aguda, o que também aponta para a doença renal crônica."
+    },
+    "DD90.3": {
+      "term_original": "dispepsia",
+      "capitulo": "13",
+      "confidence_embedding": 0.7033,
+      "descricao_cid": "Representação de doença CID-11: Dispepsia funcional. Definição: Dispepsia funcional é um transtorno definido como a presença de sintomas de dispepsia supostamente originados da região gastroduodenal, na ausência de qualquer doença orgânica, sistêmica ou metabólica que possa explicar os sintomas, como dor epigástrica, queimação epigástrica, plenitude pós-prandial e saciedade precoce.",
+      "classification_reasoning": "A dispepsia é o sintoma mais provável, considerando a descrição de diarréia e alterações gastrointestinais apresentadas no prontuário. A escolha do código DD90.3 se baseou na definição da dispepsia funcional como uma condição caracterizada por sintomas de dispepsia supostamente originados da região gastroduodenal, na ausência de qualquer doença orgânica, sistêmica ou metabólica que possa explicar os sintomas."
+    },
+    "QA80": {
+      "term_original": "parou e voltou",
+      "capitulo": "24",
+      "confidence_embedding": 0.6666,
+      "descricao_cid": "Representação de doença CID-11: Não administração de um medicamento necessário sem lesão ou dano. Definição: ",
+      "classification_reasoning": "A expressão 'parou e voltou' sugere que o paciente apresentou reação adversa à medicação, suspendeu seu uso e posteriormente o readministrou. Isso é consistente com a definição de QA80: Não administração de um medicamento necessário sem lesão ou dano."
+    }
+  }
+}

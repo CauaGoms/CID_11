@@ -1,0 +1,106 @@
+{
+  "prontuario_id": 69,
+  "text": "TX RENAL .\nEM USO DE RAPA 2, TACROLIMO 5/5, PRED 5, OMPRAZOL.\n\nS # VISÃO EMBAÇADA A DIREITA.\nDOR JOELHO DIREITO.\n\nO # PESO 41,\nPA 90/60,\nLESÃO ULCERADA NO LOCAL DA GASTROSTOMIA.\n \nAUMENTO SRL PARA 3.\nAGUARDA GH.\nPRA NOVO.\nRETORNO 3 DIAS.\nTX RENAL CR1,53, TACROLIMO 3, RAPA 5..\nLESÃO ULCERADA EPIGASTRICA\nMIELODISPLASIA, POREM SEM ANEMIA PELA PRIMEIRA VEZ.\n ",
+  "entities": {
+    "Abreviação": [
+      "RAPA",
+      "PRED",
+      "S",
+      "O",
+      "PA",
+      "TX RENAL",
+      "AUMENTO SRL PARA 3",
+      "AGUARDA GH",
+      "CR1 , 53"
+    ],
+    "Substância Farmacológica": [
+      "RAPA",
+      "TACROLIMO",
+      "PRED",
+      "OMPRAZOL"
+    ],
+    "Substância Química Orgânica": [
+      "RAPA",
+      "PRED",
+      "OMPRAZOL"
+    ],
+    "Conceito Quantitativo": [
+      "2",
+      "5/5",
+      "5",
+      "41",
+      "90/60",
+      "3"
+    ],
+    "Achado": [
+      "S",
+      "TX RENAL",
+      "AGUARDA GH"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR",
+      "VISÃO EMBAÇADA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O",
+      "RETORNO"
+    ],
+    "Atributo Clínico": [
+      "PESO",
+      "PA"
+    ],
+    "Localização ou Região Corporal": [
+      "EPIGASTRICA",
+      "LOCAL DA GASTROSTOMIA"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Doença ou Síndrome": [
+      "ANEMIA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL",
+      "AUMENTO SRL PARA 3"
+    ],
+    "Conceito Espacial": [
+      "A DIREITA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "JOELHO DIREITO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR1 , 53"
+    ]
+  },
+  "labels": {
+    "9A94.1": {
+      "term_original": "visão embaçada",
+      "capitulo": "09",
+      "confidence_embedding": 0.7459,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso.",
+      "classification_reasoning": "A descrição da visão embaçada a direita sugere uma condição que afeta a formação de imagem no olho, e o termo CID-11 Catarata diabética não foi considerado pois não há referência à diabetes no contexto. A opção mais precisa é a síndrome da íris flácida (9A94.1), uma condição que pode causar visão embaçada e outros sintomas."
+    },
+    "FA25.20": {
+      "term_original": "dor",
+      "capitulo": "15",
+      "confidence_embedding": 0.7329,
+      "descricao_cid": "Representação de doença CID-11: Gota tofácea. Definição: Os tofos são deposições de cristais de urato monossódico nos tecidos de pacientes com hiperuricemia e podem estar associados a outras manifestações como a artropatia da gota. Eles são identificados principalmente na pele e no tecido subcutâneo. A hélice da orelha é uma das localizações mais comuns de acometimento dos tofos.",
+      "classification_reasoning": "A dor joelho direito sugere a possibilidade de gota tofácea, considerando o contexto de uso de raloxifeno e tacrolimo, que podem estar relacionados à hiperuricemia."
+    },
+    "BD71.2": {
+      "term_original": "tx renal",
+      "capitulo": "11",
+      "confidence_embedding": 0.7076,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A opção mais precisa para o termo 'tx renal' é a trombose da veia renal, visto que há referência a lesão ulcerada no local da gastrostomia e aumento da SRL (sistolic blood pressure) para 3, sugerindo comprometimento da função renal."
+    },
+    "MF56": {
+      "term_original": "s",
+      "capitulo": "21",
+      "confidence_embedding": 0.7847,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A dor joelho direito e a lesão ulcerada no local da gastrostomia sugerem uma possível cólica renal, justificando a escolha do código MF56."
+    }
+  }
+}

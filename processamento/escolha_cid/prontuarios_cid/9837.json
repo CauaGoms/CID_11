@@ -1,0 +1,118 @@
+{
+  "prontuario_id": 48,
+  "text": "Paciente interna com quadro de angina instável. Tem história de IAM inferior há 5 anos e colocação de stent em CD há 3 anos. Realizou cateterismo cardíaco em 16/04/04 que mostrou CD pervia e lesão de 60-70% em TCE. Foi submetido a CRM dia 23/04/04 ( mamária para DA e safena para 1ª e 2ª marginais). Evoluiu bem no pós operatório, sem intercorrências. Recebe alta em bom estado geral, em uso de: AAS 100mg /dia, sinvastatina 40mg /dia, metoprolol tartarato 150mg bid.",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "interna",
+      "submetido",
+      "alta"
+    ],
+    "Sinal ou Sintoma": [
+      "quadro",
+      "intercorrências",
+      "angina instável"
+    ],
+    "Conceito Temporal": [
+      "história",
+      "pós operatório"
+    ],
+    "Abreviação": [
+      "CD",
+      "CRM",
+      "mamária",
+      "DA",
+      "AAS",
+      "IAM inferior",
+      "CD pervia",
+      "em TCE"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "CD",
+      "mamária",
+      "DA",
+      "safena",
+      "em TCE",
+      "1ª e 2ª marginais"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CRM",
+      "colocação de stent"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Substância Química Orgânica": [
+      "AAS",
+      "sinvastatina",
+      "metoprolol tartarato"
+    ],
+    "Substância Farmacológica": [
+      "AAS",
+      "sinvastatina",
+      "metoprolol tartarato"
+    ],
+    "Doença ou Síndrome": [
+      "IAM inferior"
+    ],
+    "Procedimento Diagnóstico": [
+      "cateterismo cardíaco"
+    ],
+    "Achado": [
+      "CD pervia",
+      "Evoluiu bem",
+      "bom bom estado estado geral geral"
+    ],
+    "Lesão ou Envenenamento": [
+      "lesão de 60-70%"
+    ],
+    "Conceito Quantitativo": [
+      "100mg /dia",
+      "40mg /dia",
+      "150mg bid"
+    ]
+  },
+  "labels": {
+    "BA41.Y": {
+      "term_original": "iam inferior",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha do código BA41.Y é a mais precisa para o termo 'IAM inferior' no contexto clínico, pois IAM é sinônimo de Infarto Agudo do Miocárdio e o termo especifica a localização inferior. O código BA41.Y é adequado para descrever o quadro de angina instável e a história de infarto do miocárdio anterior."
+    },
+    "BA85": {
+      "term_original": "cd pervia",
+      "capitulo": "11",
+      "confidence_embedding": 0.7379,
+      "descricao_cid": "Representação de doença CID-11: Doença vasoespástica coronariana. Definição: O termo doença coronariana vasoespástica refere-se a uma vasoconstrição súbita e intensa de uma artéria coronária epicárdica que causa a oclusão ou quasi-oclusão do vaso. Embora possa estar envolvido em outras síndromes coronárias, representa a causa habitual de angina variante.",
+      "classification_reasoning": "A expressão 'cd pervia' está relacionada à Doença Vasoespástica Coronariana, que é uma vasoconstrição súbita e intensa de uma artéria coronária epicárdica que causa a oclusão ou quasi-oclusão do vaso. Isso se encaixa com a história do paciente apresentada, que tem história de IAM inferior há 5 anos e lesão de 60-70% em TCE mostrado no cateterismo cardíaco, e subsequentemente realizou CRM para DA e safena para 1ª e 2ª marginais."
+    },
+    "MC80.0": {
+      "term_original": "quadro",
+      "capitulo": "21",
+      "confidence_embedding": 0.7536,
+      "descricao_cid": "Representação de doença CID-11: Valor elevado da pressão arterial sem diagnóstico de hipertensão. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'quadro' neste contexto clínico refere-se ao valor elevado da pressão arterial sem diagnóstico de hipertensão, o que está relacionado à doença cardíaca do paciente."
+    },
+    "NE82.1Z": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.7732,
+      "descricao_cid": "Representação de doença CID-11: Disfunção do marcapasso ou cardioversor desfibrilador implantável, não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo \"intercorrências\" no contexto do prontuário é NE82.1Z, pois refere-se a disfunção do marcapasso ou cardioversor desfibrilador implantável não especificada, o que pode estar relacionado a complicações ou eventos adversos durante o tratamento do paciente com doença cardíaca."
+    },
+    "BA40.Y": {
+      "term_original": "angina instável",
+      "capitulo": "11",
+      "confidence_embedding": 0.8237,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A escolha do código BA40.Y é baseada na presença de quadro de angina instável, indicando uma representação de doença coronária especificada, e não há evidência de outra causa para a síndrome."
+    },
+    "BA51": {
+      "term_original": "lesão de 60-70%",
+      "capitulo": "11",
+      "confidence_embedding": 0.7797,
+      "descricao_cid": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas.",
+      "classification_reasoning": "A lesão de 60-70% em TCE é uma indicação de doença cardíaca isquêmica, caracterizada pela estenose ou obstrução de vasos coronários. Esta descrição se encaixa mais precisamente com o termo 'Miocardiopatia isquêmica' do que as outras opções."
+    }
+  }
+}

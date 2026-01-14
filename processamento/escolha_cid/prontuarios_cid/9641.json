@@ -1,0 +1,142 @@
+{
+  "prontuario_id": 536,
+  "text": "Lucas\n# MCP dilatada\nCansaço CF III\nPA 120/80 mmHg\nsem ingurgitamento jugular\nMV+ bilateral sem RA\nRCR 2t SS\nSem VCM\nSem edema MMII\nCAT 09/06/2014: ausência de coronariopatia obstrutiva crítica\nIC 3,449 pré / 3,602 pós\nRVP em woods 0,217 pré / 0,147 pós\nEspirometria normal\nCD # Retorno 3 semanas\n \n \n \n ",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "Cansaço",
+      "RA",
+      "SS",
+      "edema",
+      "ingurgitamento jugular"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Abreviação": [
+      "PA",
+      "RA",
+      "SS",
+      "VCM",
+      "MMII",
+      "CAT",
+      "IC",
+      "CD",
+      "MCP dilatada",
+      "CF III",
+      "MV+ bilateral",
+      "RCR 2t",
+      "3 , 449 pré / 3 , 602 pós RVP"
+    ],
+    "Negação": [
+      "sem",
+      "SS",
+      "Sem",
+      "ausência"
+    ],
+    "Achado": [
+      "VCM",
+      "MV+ bilateral",
+      "RCR 2t"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MMII"
+    ],
+    "Localização ou Região Corporal": [
+      "MMII"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CAT"
+    ],
+    "Doença ou Síndrome": [
+      "IC",
+      "MCP dilatada",
+      "coronariopatia obstrutiva crítica"
+    ],
+    "Procedimento Diagnóstico": [
+      "Espirometria"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "normal"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CD",
+      "Retorno"
+    ],
+    "Classificação": [
+      "CF III"
+    ],
+    "Conceito Quantitativo": [
+      "120/80 mmHg",
+      "3 , 449 pré / 3 , 602 pós RVP",
+      "0 , 217 pré / 0 , 147 pós"
+    ],
+    "Conceito Temporal": [
+      "3 semanas"
+    ]
+  },
+  "labels": {
+    "BC43.12": {
+      "term_original": "coronariopatia obstrutiva crítica",
+      "capitulo": "11",
+      "confidence_embedding": 0.8125,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia obstrutiva hipertrófica. Definição: Cardiomiopatia hipertrófica obstrutiva é uma cardiomiopatia hipertrófica que manifesta estreitamento fixo ou dinâmico suficiente em um ou ambos os ventrículos para resultar em um gradiente de pressão significativo entre o ápice ventricular e a valva de via de saída (aórtica ou pulmonar).",
+      "classification_reasoning": "A escolha pelo código BC43.12 é justificada pela ausência de doença arterial coronariana, hipertensão, doença valvar e doença cardíaca congênita suficiente para causar a anormalidade miocárdica observada no relatório. Além disso, o termo 'coronariopatia obstrutiva crítica' presente no relatório sugere a presença de uma cardiomiopatia hipertrófica obstrutiva."
+    },
+    "3B64.13": {
+      "term_original": "ra",
+      "capitulo": "03",
+      "confidence_embedding": 0.7073,
+      "descricao_cid": "Representação de doença CID-11: Trombocitopenia aloimune. Definição: Doença causada por determinantes como transfusão de sangue que leva a uma resposta imune a antígenos estranhos. Esta doença é caracterizada por níveis diminuídos de plaquetas no organismo devido a uma resposta imune reativa a antígenos plaquetários estranhos. Esta doença pode se manifestar com aumento de equimoses e sangramentos. A confirmação é feita pela identificação de contagem diminuída de plaquetas e presença de autoanticorpos na amostra de sangue",
+      "classification_reasoning": "A opção mais precisa para o termo 'RA' é a trombocitopenia aloimune, pois RA refere-se à retinopatia arterial e não ao rim ou ao baço. A presença de MV+ bilateral sem RA indica que a busca se refere ao músculo vascular e não ao rim."
+    },
+    "FA27.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7024,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'edema' no contexto clínico é a reumatismo palindrômico, que caracteriza crises agudas de dor e edema nas articulações, especialmente nas mãos e nos pés."
+    },
+    "FA38.2": {
+      "term_original": "mcp dilatada",
+      "capitulo": "15",
+      "confidence_embedding": 0.706,
+      "descricao_cid": "Representação de doença CID-11: Artropatia associada a reações de hipersensibilidade classificadas em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'MCP dilatada' é a artropatia associada a reações de hipersensibilidade, visto que a metacarpofalange (MCP) é uma articulação das mãos e a dilatação sugere inflamação ou dor nessa região."
+    },
+    "FA22": {
+      "term_original": "mv+ bilateral",
+      "capitulo": "15",
+      "confidence_embedding": 0.6692,
+      "descricao_cid": "Representação de doença CID-11: Polimialgia reumática. Definição: A polimialgia reumática (PMR) é uma síndrome caracterizada por dores nas porções proximais das extremidades e do tronco. Os critérios de classificação provisórios para PMR pela European League Against Rheumatism / American College of Rheumatology Collaborative Initiative devem ser aplicados em pacientes com 50 anos ou mais com dor nos ombros bilateral e PCR e / ou VHS anormais. O algoritmo de pontuação é baseado na rigidez matinal> 45 minutos (2 pontos), dor / amplitude de movimento limitada no quadril (1 ponto), ausência de fator reumatoide e / ou anticorpo anti-proteína citrulinada (1 ponto), com critério de ultrassom opcional. Mais comumente, a PMR ocorre de forma isolada, mas pode ser observada em 40-50% dos pacientes com arterite de células gigantes.",
+      "classification_reasoning": "A opção mais precisa para o termo 'mv+ bilateral' é a polimialgia reumática (PMR), que apresenta sintomas de dor nas porções proximais das extremidades e do tronco, com rigidez matinal e / ou dor limitada no quadril. A presença de MV+ bilateral sem RA indica uma possível associação com a PMR."
+    },
+    "CB21.1": {
+      "term_original": "rcr 2t",
+      "capitulo": "12",
+      "confidence_embedding": 0.7283,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "O termo RCR 2T sugere a presença de pneumotórax espontâneo, justificando a escolha do código CB21.1. Além disso, não há indicação de pressão intrapleural hipertensiva, o que exclui a possibilidade de pneumotórax hipertensivo."
+    },
+    "BE10": {
+      "term_original": "ingurgitamento jugular",
+      "capitulo": "11",
+      "confidence_embedding": 0.7364,
+      "descricao_cid": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite.",
+      "classification_reasoning": "A opção mais precisa é a Síndrome Pós-Cardiotomia (Código BE10) porque o termo 'ingurgitamento jugular' não está relacionado à doença cardíaca hipertensiva (BA01), cardiomiopatia isquêmica (BA51), cardiomiopatia ventricular arritmogênica (BC43.6) ou cardiomiopatia em geral (BC43). Além disso, o fato de mencionar 'Retorno 3 semanas' no prontuário sugere que é um episódio recente e agudo, o que se encaixa com a definição da Síndrome Pós-Cardiotomia."
+    },
+    "5B81": {
+      "term_original": "ic",
+      "capitulo": "05",
+      "confidence_embedding": 0.7172,
+      "descricao_cid": "Representação de doença CID-11: Obesidade. Definição: A obesidade é uma doença crônica complexa definida por adiposidade excessiva que pode prejudicar a saúde. Na maioria dos casos, é uma doença multifatorial devido a ambientes obesogênicos, fatores psicossociais e variantes genéticas. Em um subgrupo de pacientes, fatores etiológicos únicos podem ser identificados (medicamentos, doenças, imobilização, procedimentos iatrogênicos, doença monogênica / síndrome genética).\r\nO índice de massa corporal (IMC) é um marcador substituto da adiposidade calculado como peso (kg)/altura² (m²). As categorias de IMC para definir obesidade variam por idade e sexo em bebês, crianças e adolescentes. Para adultos, a obesidade é definida por um IMC maior ou igual a 30,0 kg/m². Existem três níveis de gravidade em reconhecimento das diferentes opções de gerenciamento.",
+      "classification_reasoning": "A opção mais precisa para o termo 'IC' é a obesidade (Código: 5B81), pois o contexto menciona índice de massa corporal (IMC) e categories de IMC para definir obesidade. Além disso, a menção a paixão arterial (PA) e ao volume plasmático (VCP) sugere que houve avaliação da circulação sanguínea, o que é mais comummente associado à obesidade."
+    },
+    "MD11.4": {
+      "term_original": "ss",
+      "capitulo": "21",
+      "confidence_embedding": 0.7242,
+      "descricao_cid": "Representação de doença CID-11: Respiração de Cheyne-Stokes relacionada ao sono. Definição: Respiração periódica, uma variante da respiração de Cheyne-Stokes, é caracterizada por ciclos regulares e recorrentes de mudanças no volume corrente, nas quais o menor volume corrente é menor que a metade do volume corrente máximo do mesmo ciclo. É o padrão respiratório anormal mais frequentemente relacionado ao acidente vascular cerebral, mais do que nas doenças sistêmicas, ocorrendo em aproximadamente 25% daqueles. A respiração periódica pode ser mais comum em pacientes com hemorragia subaracnóidea.",
+      "classification_reasoning": "A presença de 'ss' no texto sugere que se trata de uma representação de doença relacionada ao sono, o que leva à escolha do código MD11.4 para Respiração de Cheyne-Stokes relacionada ao sono."
+    }
+  }
+}

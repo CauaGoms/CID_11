@@ -1,0 +1,132 @@
+{
+  "prontuario_id": 895,
+  "text": "PACIENTE QUEIXA-SE DE EMBAÇAMENTO AO, PIOR EM OE.\nEM USO DE: AAS, CARVEDILOL, FUROSEMIDA, SINVASTATINA, ENALAPRIL.\nNEGA CIRURGIAS E TRAUMAS OCULARES.\nREFERE QUE HA MAIS DE 5 ANOS, DEITOU NA MACA PARA INICIO DE CIRURGIA DE CATARATA POREM NAO REALIZOU PROCEDIMENTO.\nNEGA HF DE GLAUCOMA E CEGUEIRA.\n\nAV:\n20/40\nMM\n\nFO:\nVISUALIZAÇÃO DIFICIL POR OPACIDADE DE MEIOS AO.\n\nBIO:\nCATARATA AO.\n\nPIO: 12/12.\n\nCD:\nORIENTO PACIENTE SOBRE CATARATA, PACIENTE INDECISO SOBRE OPERAR, MAS SOLICITA QUE DEIXE AGENDADO RECONSULTA PARA TER TEMPO PARA DECIDIR.\nRETORNO PARA MR AO E CLASSIFICAÇÃO DE CATARATA OE DIA 07/05/15.\n\nR1 LUCAS\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXA-SE",
+      "EMBAÇAMENTO"
+    ],
+    "Abreviação": [
+      "AO",
+      "OE",
+      "AAS",
+      "HF",
+      "AV",
+      "FO",
+      "BIO",
+      "PIO",
+      "CD",
+      "VISUALIZAÇÃO DIFICIL POR OPACIDADE DE MEIOS AO",
+      "CATARATA AO",
+      "MR AO",
+      "CLASSIFICAÇÃO DE CATARATA OE"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "AO",
+      "OE"
+    ],
+    "Conceito Qualitativo": [
+      "PIOR"
+    ],
+    "Substância Farmacológica": [
+      "AAS",
+      "CARVEDILOL",
+      "FUROSEMIDA",
+      "SINVASTATINA",
+      "ENALAPRIL"
+    ],
+    "Substância Química Orgânica": [
+      "AAS",
+      "CARVEDILOL",
+      "FUROSEMIDA",
+      "SINVASTATINA"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "ENALAPRIL"
+    ],
+    "Negação": [
+      "NEGA",
+      "NAO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CIRURGIAS",
+      "PROCEDIMENTO",
+      "CIRURGIA DE CATARATA"
+    ],
+    "Achado": [
+      "HF",
+      "INDECISO SOBRE OPERAR"
+    ],
+    "Doença ou Síndrome": [
+      "GLAUCOMA",
+      "CATARATA",
+      "CATARATA AO"
+    ],
+    "Função Patológica": [
+      "CEGUEIRA"
+    ],
+    "Procedimento Diagnóstico": [
+      "AV",
+      "FO",
+      "BIO",
+      "PIO",
+      "CLASSIFICAÇÃO DE CATARATA OE"
+    ],
+    "Atributo Clínico": [
+      "PIO"
+    ],
+    "Conceito Quantitativo": [
+      "12/12"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "12/12",
+      "20/40 MM",
+      "VISUALIZAÇÃO DIFICIL POR OPACIDADE DE MEIOS AO"
+    ],
+    "Produto Intelectual": [
+      "CD"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CD",
+      "ORIENTO",
+      "RECONSULTA",
+      "RETORNO"
+    ],
+    "Lesão ou Envenenamento": [
+      "TRAUMAS OCULARES"
+    ]
+  },
+  "labels": {
+    "9A94.1": {
+      "term_original": "embaçamento",
+      "capitulo": "09",
+      "confidence_embedding": 0.8387,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso.",
+      "classification_reasoning": "O termo 'embaçamento' é frequentemente utilizado para descrever a síndrome da íris flácida, que apresenta sintomas semelhantes ao relatados pelo paciente, como dificuldade em visualizar por opacidade de meios ao. Além disso, o contexto do prontuário menciona catarata ao, o que reforça a escolha da síndrome da íris flácida como a mais precisa para o termo 'embaçamento'."
+    },
+    "9B10.02": {
+      "term_original": "catarata",
+      "capitulo": "09",
+      "confidence_embedding": 0.776,
+      "descricao_cid": "Representação de doença CID-11: Catarata relacionada à idade madura. Definição: Trata-se da turvação do cristalino, relacionado à idade madura, que leva a uma diminuição da visão. É a causa mais comum de cegueira e é tratada convencionalmente com cirurgia. Perda visual ocorre porque a opacificação do cristalino obstrui a passagem da luz e prejudica seu foco na retina no fundo do olho.",
+      "classification_reasoning": "A paciente apresenta queixa de embaçamento ao, pior em OE, e é tratada com medicação para hipertensão arterial e insuficiência cardíaca. A opacificação do cristalino relacionada à idade madura (catarata) é a causa mais provável da sua queixa, pois apresenta sintomas de diminuição da visão em um olho (OE), e não há indicação de glaucoma ou cegueira."
+    },
+    "MC20.2": {
+      "term_original": "traumas oculares",
+      "capitulo": "21",
+      "confidence_embedding": 0.7344,
+      "descricao_cid": "Representação de doença CID-11: Hipópio. Definição: Hipópio é a presença de células inflamatórias na câmara anterior do olho. Corresponde a um exsudato leucocitário, observado na câmara anterior, geralmente acompanhado de hiperemia de conjuntiva e episclera subjacente. É um sinal de inflamação da úvea anterior e da íris, ou seja, irite, que é uma forma de uveíte anterior. O exsudado deposita-se no fundo devido à ação da gravidade.",
+      "classification_reasoning": "A opção mais precisa é o códgio MC20.2, pois a paciente refere-se ao trauma ocular e a bioquímica menciona catarata, que pode estar relacionada à hipópio (inflamação da úvea anterior e da íris) e não a outras opções apresentadas."
+    },
+    "9C61.34": {
+      "term_original": "glaucoma",
+      "capitulo": "09",
+      "confidence_embedding": 0.8231,
+      "descricao_cid": "Representação de doença CID-11: Glaucoma secundário de ângulo fechado devido a invasão por células epiteliais. Definição: Invasão de células epiteliais é uma condição subsequente a traumatismo ocular aberto ou cirurgia em que células epiteliais conjuntivais ou corneanas ganham acesso à câmara anterior e crescem além da malha trabecular com subsequente elevação da pressão ocular e dano ao nervo óptico.",
+      "classification_reasoning": "A opção mais precisa é o glaucoma secundário de ângulo fechado devido a invasão por células epiteliais, considerando que o paciente tem catarata e nega cirurgias e traumatismos oculares, mas apresenta uma visão dificultada por opacidade dos meios ao. A descrição da doença coincide com os sintomas do paciente."
+    }
+  }
+}

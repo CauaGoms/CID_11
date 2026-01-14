@@ -1,0 +1,120 @@
+{
+  "prontuario_id": 53,
+  "text": "TX RENAL.\nEM USO DE MS 1/1, TACROLIMO 4/4, PRED 10, VQALCYTE 450, OMEPRAZOL.\n\nINTERNOU EM 20/11 PARA BX , PULSO E IVIG.\nCR CHEGOU A 5.\nHOJE EM 1,48.\n\n\nS # SEM QUEIXAS.\n     SEM DIARRÉIA E SEM TREMEDEIRA.\nO # PESO 37.\nPA 100/70.\nPALIDEZ CUTANEA.\n \nTROCO MS POR LEUCOPENIA E ANEMIA PERSISTENTE PARA M TOR.\nPEÇO IVIG.\nSITUO QUANTO A PLASMAFERESE.\nTX RENAL CR 1,48, TACROLIMO 6.\nPANCITO: SECUNDÁRIA VALCYTE? MS?\n ",
+  "entities": {
+    "Abreviação": [
+      "MS",
+      "PRED",
+      "BX",
+      "PULSO",
+      "IVIG",
+      "S",
+      "O",
+      "PA",
+      "PANCITO",
+      "TX RENAL",
+      "TROCO MS",
+      "M TOR",
+      "PEÇO IVIG",
+      "CR 1 , 48"
+    ],
+    "Substância Farmacológica": [
+      "MS",
+      "TACROLIMO",
+      "PRED",
+      "VQALCYTE",
+      "OMEPRAZOL",
+      "VALCYTE"
+    ],
+    "Substância Química Orgânica": [
+      "MS",
+      "TACROLIMO",
+      "PRED",
+      "VQALCYTE",
+      "OMEPRAZOL"
+    ],
+    "Conceito Quantitativo": [
+      "1/1",
+      "4/4",
+      "10",
+      "450",
+      "37",
+      "100/70",
+      "6"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "INTERNOU",
+      "O",
+      "TROCO MS",
+      "PEÇO IVIG",
+      "SITUO QUANTO A PLASMAFERESE"
+    ],
+    "Procedimento Diagnóstico": [
+      "BX"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "PULSO",
+      "IVIG",
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "5",
+      "1 , 48",
+      "CR 1 , 48"
+    ],
+    "Achado": [
+      "S",
+      "TX RENAL"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "DIARRÉIA",
+      "TREMEDEIRA",
+      "PALIDEZ CUTANEA"
+    ],
+    "Atributo Clínico": [
+      "PESO",
+      "PA"
+    ],
+    "Função Patológica": [
+      "LEUCOPENIA",
+      "PANCITO"
+    ],
+    "Doença ou Síndrome": [
+      "ANEMIA PERSISTENTE"
+    ]
+  },
+  "labels": {
+    "DC32.0": {
+      "term_original": "pancito",
+      "capitulo": "13",
+      "confidence_embedding": 0.7115,
+      "descricao_cid": "Representação de doença CID-11: Pancreatite calcificante. Definição: Inflamação do pâncreas que requer atenção médica imediata e hospitalização durante um ataque, cujos sais de cálcio se acumulam em tecidos moles, causando seu endurecimento.",
+      "classification_reasoning": "A opção mais precisa para o termo 'pancito' é a pancreatite calcificante, pois o paciente tem uma referência explícita à palavra 'pancito' em seu prontuário."
+    },
+    "EK91.2": {
+      "term_original": "palidez cutanea",
+      "capitulo": "14",
+      "confidence_embedding": 0.7142,
+      "descricao_cid": "Representação de doença CID-11: Plasmocitose cutânea primária. Definição: Transtorno cutâneo resultante da infiltração densa focal ou multifocal da pele por agregados de plasmócitos. Pode estar associada a níveis elevados de IgG4 no soro. Tipicamente se apresenta como pápulas vermelho-amarronzadas disseminadas, nódulos e placas pigmentadas enduradas envolvendo tronco e membros, mas pode se apresentar como um único nódulo ou placa. A maioria dos pacientes com este transtorno de pele incomum são descendentes do leste asiático. Existe um risco de progressão para malignidade linfoproliferativa sistêmica.",
+      "classification_reasoning": "A palidez cutanea é um sintoma característico da plasmocitose cutânea primária, uma condição rara e incomum que se apresenta como pápulas vermelho-amarronzadas disseminadas, nódulos e placas pigmentadas enduradas envolvendo tronco e membros."
+    },
+    "3A71.2": {
+      "term_original": "anemia persistente",
+      "capitulo": "03",
+      "confidence_embedding": 0.8189,
+      "descricao_cid": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "A escolha pelo código 3A71.2 é porque a anemia persistente é uma conseqüência comum da doença renal crônica, que é mencionada no contexto clínico como 'TX RENAL'. A definição do código 3A71.2 se encaixa melhor com a situação do paciente em relação à sua história médica e sintomas."
+    },
+    "BD71.2": {
+      "term_original": "tx renal",
+      "capitulo": "11",
+      "confidence_embedding": 0.7188,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A opção mais precisa para o termo 'tx renal' é a trombose da veia renal (Código: BD71.2), pois a descrição menciona a presença de TX RENAL e valores de creatinina (1,48) que indicam alteração renal."
+    }
+  }
+}

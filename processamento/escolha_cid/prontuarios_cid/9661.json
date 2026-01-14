@@ -1,0 +1,171 @@
+{
+  "prontuario_id": 508,
+  "text": "POS TX RENAL.\n\nPOS TX RENAL - CR 1,02 - NS FK 8,0.\nPOLIGLOBULIA - 17,5.\nHAS COMPENSADA.\nDSLP.\nHIPERCALCEMIA.\n \n \nTX RENAL EM JAN/2014.\nUSO DE: PDN 5, FK 4 / 4, MS 2 / 2, BACTRIM,  CVD 25, AAS 100, OMZ 20, ACICLOVIR 200.\nS # CONFUNDIU DOSES DAS MEDICAÇÕES.\n    MULTIPLAS QUEIXAS - LESÕES ERITEMATOSAS EM ABDOMEN.\n    DOR EM CALCANEO.\nO # BEG, CORADO, HIDRATADO.\nPA 120/80.\nMV POSITIVO, SIMETRICO\nBCRNF.\nABDOMEN FLACIDO, SEM MASSAS.\nMEMBROS SEM EDEMA.",
+  "entities": {
+    "Doença ou Síndrome": [
+      "POLIGLOBULIA",
+      "DSLP",
+      "HIPERCALCEMIA"
+    ],
+    "Achado": [
+      "COMPENSADA",
+      "S",
+      "BEG",
+      "CORADO",
+      "HIDRATADO",
+      "SIMETRICO",
+      "BCRNF",
+      "CONFUNDIU DOSES DAS MEDICAÇÕES",
+      "MV POSITIVO"
+    ],
+    "Abreviação": [
+      "DSLP",
+      "PDN",
+      "FK",
+      "MS",
+      "CVD",
+      "AAS",
+      "OMZ",
+      "S",
+      "O",
+      "BEG",
+      "PA",
+      "BCRNF",
+      "TX RENAL",
+      "CR 1 , 02",
+      "NS FK 8 , 0",
+      "MV POSITIVO"
+    ],
+    "Substância Farmacológica": [
+      "PDN",
+      "FK",
+      "MS",
+      "BACTRIM",
+      "CVD",
+      "AAS",
+      "OMZ",
+      "ACICLOVIR"
+    ],
+    "Substância Química Orgânica": [
+      "PDN",
+      "FK",
+      "MS",
+      "BACTRIM",
+      "CVD",
+      "AAS",
+      "OMZ"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "25",
+      "100",
+      "20",
+      "200",
+      "MULTIPLAS",
+      "120/80"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABDOMEN",
+      "CALCANEO",
+      "MEMBROS"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR",
+      "MASSAS",
+      "EDEMA",
+      "LESÕES ERITEMATOSAS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 1 , 02",
+      "NS FK 8 , 0",
+      "17 , 5"
+    ]
+  },
+  "labels": {
+    "3A70.1": {
+      "term_original": "compensada",
+      "capitulo": "03",
+      "confidence_embedding": 0.7065,
+      "descricao_cid": "Representação de doença CID-11: Anemias aplásticas adquiridas. Definição: Condição que ocorre secundária a outros transtornos ou por meio de uma reposta autoimune direcionada à medula óssea que surge após o nascimento. Esta doença é caracterizada por ausência quase completa das células tronco hematopoiéticas, resultando em níveis diminuídos de glóbulos vermelhos e brancos e plaquetas. Esta condição pode se manifestar com fadiga, infecções crônicas, tontura, fraqueza, dores de cabeça e episódios de sangramento, geralmente em pele e mucosas.",
+      "classification_reasoning": "O termo 'compensada' se refere à situação de equilíbrio entre as funções do rim e o sistema circulatório, apesar da doença renal crônica. A escolha pelo código 3A70.1 é justificada pois a anemia aplástica adquirida é uma consequência comum da doença renal crônica, e a descrição da situação 'HAS COMPENSADA' sugere que o paciente tem um equilíbrio entre suas funções renais e circulatórias, embora tenha anemia. Além disso, a presença de poliglobulia (17,5) também aponta para uma possível causa hematológica para a anemia."
+    },
+    "3A71.2": {
+      "term_original": "poliglobulia",
+      "capitulo": "03",
+      "confidence_embedding": 0.7252,
+      "descricao_cid": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "Poliglobulia é um sintoma comum em pacientes com doença renal crônica, caracterizado por aumento do número de glóbulos vermelhos no sangue. Nesse contexto, a opção mais precisa para o termo 'poliglobulia' é o código 3A71.2, que representa anemia na doença renal crônica."
+    },
+    "EC90.10": {
+      "term_original": "massas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7378,
+      "descricao_cid": "Representação de doença CID-11: Prurido urêmico. Definição: Prurido em pacientes com insuficiência renal crônica. Embora comum na doença renal crônica não tratada, é particularmente prevalente em pacientes que submetidos a diálise peritoneal ou hemodiálise. O prurido não se deve a níveis elevados de ureia sérica. Os mecanismos precisos não são totalmente compreendidos.",
+      "classification_reasoning": "O termo 'massas' está relacionado à descrição de 'massas' na secção do prontuário que descreve o abdomen, o que sugere a presença de lesões eritematosas no abdome. A opção EC90.10, Prurido urêmico, é a mais precisa para este termo pois está relacionada à doença renal e ao prurido, que é uma das queixas apresentadas no prontuário."
+    },
+    "FA25": {
+      "term_original": "dor",
+      "capitulo": "15",
+      "confidence_embedding": 0.7302,
+      "descricao_cid": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato.",
+      "classification_reasoning": "A dor mencionada no contexto pode ser relacionada à gota, uma artropatia aguda ou crônica que causa lesões nos tecidos articulares. A hiperuricemia mencionada anteriormente também é comum em casos de gota."
+    },
+    "BD12": {
+      "term_original": "mv positivo",
+      "capitulo": "11",
+      "confidence_embedding": 0.7209,
+      "descricao_cid": "Representação de doença CID-11: Síndromes de alto débito. Definição: Aumento do débito cardíaco acima do normal associado a anemia, fístulas arteriovenosas, tireotoxicose e outras síndromes. Pode resultar em insuficiência cardíaca.",
+      "classification_reasoning": "O termo 'mv positivo' refere-se à sinalização de um aumento no débito cardíaco, o que é descrito na definição do código BD12 (Síndromes de alto débito). Essa escolha é a mais precisa para o contexto clínico porque a poliglobulia e a hipercalçaemia podem estar relacionadas à síndrome de alta produção cardíaca."
+    },
+    "MG02": {
+      "term_original": "dslp",
+      "capitulo": "21",
+      "confidence_embedding": 0.7611,
+      "descricao_cid": "Representação de doença CID-11: Resultados de estudos de função renal. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'dslp' é MG02, Resultados de estudos de função renal. Como o paciente tem histórico de tratamento renal em janeiro de 2014 e apresenta hipercalcemia e poliglobulia, é provável que os resultados dos estudos de função renal sejam relevantes para a compreensão da sua situação clínica."
+    },
+    "MF56": {
+      "term_original": "simetrico",
+      "capitulo": "21",
+      "confidence_embedding": 0.7749,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A presença de dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, caracteriza a Cólica renal. A descrição da simetria do movimento vesical (MV POSITIVO, SIMETRICO) e a ausência de edema nos membros também são sugestivas de Cólica renal."
+    },
+    "EB50": {
+      "term_original": "lesões eritematosas",
+      "capitulo": "14",
+      "confidence_embedding": 0.8166,
+      "descricao_cid": "Representação de doença CID-11: Lúpus eritematoso cutâneo subagudo. Definição: Lúpus eritematoso cutâneo subagudo é uma forma não cicatricial de lúpus eritematoso, tipificada pela presença de anticorpos anti-Ro/SSA circulantes e manchas eritematosas inflamadas discoides ou anulares com descamação fina variável em pele exposta ao sol, especialmente nos lados de face e pescoço, no V do decote, nas superfícies extensoras dos braços e na parte superior do dorso: em contraste com o lúpus eritematoso sistêmico, as bochechas tendem a ser poupadas. A doença visceral é menos frequente do que no lúpus eritematoso sistêmico: o envolvimento renal é raro e leve.",
+      "classification_reasoning": "A presença de lesões eritematosas no abdome, associadas às múltiplas queixas e ao histórico de doença renal, sugere a possibilidade de lúpus eritematoso cutâneo subagudo (LECSS), considerando a falta de edema nos membros inferiores e o abdomen flácido."
+    },
+    "5B91.0": {
+      "term_original": "hipercalcemia",
+      "capitulo": "05",
+      "confidence_embedding": 0.8004,
+      "descricao_cid": "Representação de doença CID-11: Hipercalcemia. Definição: A hipercalcemia é uma condição causada pelo aumento dos níveis de cálcio no sangue(calcemia). Os sintomas dependem tanto da calcemia, quanto da velocidade da sua instalação. Quando presentes, os sintomas são causados ​​por desidratação secundária a perdas urinárias de cálcio, água e outros eletrólitos e por um aumento no potencial de membrana causado pela elevação da concentração de cálcio ionizado no fluido extracelular. Os doentes com hipercalcemia moderada a grave queixam-se frequentemente de náuseas e vómitos, sintomas provavelmente relacionados com desidratação, bem como com os efeitos da hipercalcemia na função do sistema nervoso central. Como a hipercalcemia tende a hiperpolarizar as membranas, uma série de sinais e sintomas neurológicos e neuromusculares podem ocorrer. Pacientes com hipercalcemia leve geralmente se queixam de fadiga, humor deprimido e astenia. A motilidade gastrointestinal está prejudicada; isso geralmente resulta em constipação.",
+      "classification_reasoning": "A hipercalcemia é a condição descrita no prontuário, caracterizada por concentrações anormalmente altas de cálcio no sangue e sintomas relacionados à desidratação e ao efeito da hipercalcemia na função do sistema nervoso central."
+    },
+    "MF96": {
+      "term_original": "confundiu doses das medicações",
+      "capitulo": "21",
+      "confidence_embedding": 0.7662,
+      "descricao_cid": "Representação de doença CID-11: Proteinúria. Definição: O excesso de proteínas séricas na urina, como na doença renal, em que a albumina é a proteína principal, porém também pode ser devido a outras proteínas, como imunoglobulinas de cadeias leves na discrasia de células plasmáticas como o mieloma múltiplo.",
+      "classification_reasoning": "A opção MF96 é a mais precisa para o termo 'confundiu doses das medicações' pois refere-se à representação de doença CID-11: Proteinúria, que pode estar relacionada ao uso inadequado de medicamentos."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "prontuario_id": 502,
+  "text": "PACIENTE COM FX DE TNZ ESQUERDO HÁ 4 MESES.\nAPRESENTA DEISCENCIA DE SUTURA EM FIBULA.\nAO RX: FRATURA CONSOLIDADA.\n\nCD: SOLICITO FST VIA UBS. RETORNO EM 2 MESES.\n\nR2 LUCAS.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Conceito Espacial": [
+      "ESQUERDO"
+    ],
+    "Procedimento Diagnóstico": [
+      "RX"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "FST"
+    ],
+    "Abreviação": [
+      "FST",
+      "UBS",
+      "R2",
+      "FX DE TNZ"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UBS"
+    ],
+    "Lesão ou Envenenamento": [
+      "FX DE TNZ"
+    ],
+    "Conceito Temporal": [
+      "4 MESES",
+      "2 MESES"
+    ],
+    "Sinal ou Sintoma": [
+      "DEISCENCIA DE SUTURA EM FIBULA"
+    ]
+  },
+  "labels": {
+    "FA38.1": {
+      "term_original": "deiscencia de sutura em fibula",
+      "capitulo": "15",
+      "confidence_embedding": 0.6763,
+      "descricao_cid": "Representação de doença CID-11: Artropatia neuropática. Definição: A artropatia neuropática é uma artrite progressiva, destrutiva, associada à perda da sensibilidade dolorosa, da propriocepção, ou de ambas. Os reflexos musculares normais que modulam os movimentos articulares também estão diminuídos. Sem estes mecanismos de proteção, as articulações ficam sujeitas ao trauma repetitivo, o que resulta no dano cartilaginoso e ósseo progressivo. Os sintomas adicionais incluem alterações cutâneas, tais como eritema, edema, hiperpigmentação ou púrpura, e úlceras de tecidos moles sobre as áreas afetadas, bem como afrouxamento ou instabilidade das articulações e deformidades articulares.",
+      "classification_reasoning": "A descrição do termo 'deiscencia de sutura em fibula' sugere uma lesão óssea secundária a uma condição crônica, característica da artropatia neuropática. Além disso, o paciente apresenta fratura consolidada na mesma região, o que reforça a escolha do código FA38.1."
+    },
+    "FA72.3": {
+      "term_original": "fx de tnz",
+      "capitulo": "15",
+      "confidence_embedding": 0.6938,
+      "descricao_cid": "Representação de doença CID-11: Fratura vertebral por fadiga. Definição: ",
+      "classification_reasoning": "A frase 'fx de tnz esquerdo' sugere uma lesão vertebral, e o termo 'fratura consolidada' indica que a lesão foi reparada. A opção FA72.3 é a mais precisa porque é a representação CID-11 de fratura vertebral por fadiga, que melhor se adapta ao contexto clínico do paciente com fratura no torno esquerdo e subsequente consolidação."
+    }
+  }
+}

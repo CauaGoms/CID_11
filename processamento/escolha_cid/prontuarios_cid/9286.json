@@ -1,0 +1,50 @@
+{
+  "prontuario_id": 253,
+  "text": "Pcte em acompanhamento comigo por úlcera linfática na perna esquerda.\nUm pouco de depressão.\nFoi realizado cultura ontem.\nIndico bota de UNNA.\nTrazer a bota e aguardar cultura.\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Pcte"
+    ],
+    "Abreviação": [
+      "Pcte"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "acompanhamento"
+    ],
+    "Doença ou Síndrome": [
+      "depressão",
+      "úlcera linfática"
+    ],
+    "Procedimento Laboratorial": [
+      "cultura"
+    ],
+    "Conceito Temporal": [
+      "ontem"
+    ],
+    "Localização ou Região Corporal": [
+      "perna esquerda"
+    ],
+    "Dispositivo Médico": [
+      "bota de UNNA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "bota de UNNA"
+    ]
+  },
+  "labels": {
+    "6C49": {
+      "term_original": "depressão",
+      "capitulo": "06",
+      "confidence_embedding": 0.7231,
+      "descricao_cid": "Representação de doença CID-11: Transtornos devidos ao uso de alucinógenos. Definição: Transtornos decorrentes do uso de alucinógenos são caracterizados pelo padrão e pelas consequências do uso de alucinógenos. Muitos milhares de compostos têm propriedades alucinógenas, muitos dos quais são encontrados em plantas (p. ex., mescalina) e fungos (p.ex. psilocibina) ou são sintetizados quimicamente (p. ex., dietilamida do ácido lisérgico [LSD]). Esses compostos têm propriedades primariamente alucinógenas mas alguns podem também ser estimulantes. Grande parte da morbidade associada a esses compostos resulta dos efeitos agudos relacionados à intoxicação por alucinógenos. A dependência de alucinógenos é rara e abstinência de alucinógenos não foi descrita . Entre os transtornos mentais relacionados ao uso de alucinógenos, o transtorno psicótico induzido por alucinógenos é o observado com maior frequência, embora ao redor do mundo ele ainda seja relativamente incomum.",
+      "classification_reasoning": "A depressão mencionada no prontuário não está relacionada ao uso de alucinógenos ou a outros comportamentos patológicos, portanto, é mais provável que se trate de uma forma leve de depressão não psicótica. O código 6C49 não se aplica aqui pois não há indício de efeitos agudos relacionados à intoxicação por alucinógenos ou dependência de alucinógenos."
+    },
+    "FB55.2": {
+      "term_original": "úlcera linfática",
+      "capitulo": "15",
+      "confidence_embedding": 0.6922,
+      "descricao_cid": "Representação de doença CID-11: Periartrite do punho. Definição: Este transtorno é caracterizado por inflamação de tecidos em torno da articulação do punho.",
+      "classification_reasoning": "A úlcera linfática na perna esquerda sugere inflamação de tecidos em torno da articulação, o que é consistente com a descrição da periartrite do punho, código FB55.2."
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "prontuario_id": 498,
+  "text": "DRC ESTAGIO 5 EM HD\nPLASTIA MITRAL / MARCAPASSO / HIPERTENSÃO PULMONAR\nHIDROCELE\nS: ASSINTOMÁTICO\nTQB HÁ 2 SEMANAS, AINDA COM TOSSE PRODUTIVA\nO: PA 120/70  P 68  AFEBRIL PESO 63\nCP SP\nCPP BOLHOSOS FINOS A ESQUERDA\nPC RITMO REGULAR\nABD RHA+, FLÁCIDO, INDOLOR\nMMII SEM EDEMA\nDRC ESTAGIO 5 EM HD EM PONTA GROSSA\nHIDROCELE EM SEGUIMENTO COM UROLOGIA\nPLASTIA MITRAL / MP EM SEGUIMENTO COM CARDIO\n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "HD",
+      "PA",
+      "P",
+      "CP",
+      "SP",
+      "PC",
+      "ABD",
+      "RHA+",
+      "MMII",
+      "MP",
+      "CARDIO",
+      "DRC ESTAGIO 5"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "HD",
+      "MARCAPASSO",
+      "MP",
+      "PLASTIA MITRAL"
+    ],
+    "Dispositivo Médico": [
+      "MARCAPASSO",
+      "MP"
+    ],
+    "Doença ou Síndrome": [
+      "HIDROCELE",
+      "DRC ESTAGIO 5",
+      "HIPERTENSÃO PULMONAR"
+    ],
+    "Negação": [
+      "ASSINTOMÁTICO",
+      "AFEBRIL",
+      "INDOLOR",
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "ASSINTOMÁTICO",
+      "AFEBRIL",
+      "INDOLOR",
+      "EDEMA",
+      "TOSSE PRODUTIVA"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PESO",
+      "PC"
+    ],
+    "Conceito Quantitativo": [
+      "120/70",
+      "68"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "CP",
+      "ABD",
+      "MMII"
+    ],
+    "Localização ou Região Corporal": [
+      "CPP"
+    ],
+    "Achado": [
+      "RHA+",
+      "FLÁCIDO",
+      "BOLHOSOS FINOS A ESQUERDA",
+      "RITMO REGULAR"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "SEGUIMENTO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "UROLOGIA"
+    ],
+    "Classificação": [
+      "DRC ESTAGIO 5"
+    ],
+    "Conceito Temporal": [
+      "HÁ 2 SEMANAS"
+    ]
+  },
+  "labels": {
+    "9A73": {
+      "term_original": "bolhosos finos a esquerda",
+      "capitulo": "09",
+      "confidence_embedding": 0.7434,
+      "descricao_cid": "Representação de doença CID-11: Ceratite de exposição. Definição: condição de exposição em que a córnea do olho, a parte frontal do olho, fica inflamada. A condição é frequentemente marcada por dor moderada a intensa e geralmente envolve comprometimento da visão. Pode causar sensação de areia cada vez que o indivíduo pisca os olhos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'bolhosos finos a esquerda' é a ceratite de exposição (Código: 9A73), pois essa condição é caracterizada por uma inflamação da córnea, que pode causar sensação de areia quando o indivíduo pisca os olhos. O termo 'bolhosos finos' sugere a presença de lesões pequenas e delicadas na córnea, o que se ajusta à descrição da ceratite de exposição."
+    },
+    "MG29.10": {
+      "term_original": "edema",
+      "capitulo": "21",
+      "confidence_embedding": 0.7737,
+      "descricao_cid": "Representação de doença CID-11: Edema devido a pressão capilar aumentada. Definição: O aumento da pressão capilar aumenta o vazamento de fluido do compartimento vascular para os tecidos intersticiais, resultando em edema. Causas incluem o comprometimento ou obstrução do retorno venoso (sobrecarga de fluido, trombose venosa, insuficiência cardíaca direita, compressão venosa por tumor), aumento do fluxo sanguíneo (resposta fisiológica à exposição ao calor, malformações arteriovenosas, controle vasomotor cutâneo prejudicado devido a drogas ou neuropatia autonômica), ou pressão oncótica plasmática reduzida por hipoproteinemia.",
+      "classification_reasoning": "A opção mais precisa é MG29.10, pois o termo 'edema' está relacionado à hidrocele mencionada no prontuário, que é um tipo de edema localizado causado pelo aumento da pressão capilar."
+    },
+    "MF40.3": {
+      "term_original": "flácido",
+      "capitulo": "21",
+      "confidence_embedding": 0.7726,
+      "descricao_cid": "Representação de doença CID-11: Ejaculação retrógrada. Definição: A ejaculação retrógrada é uma condição na qual o sêmen, que normalmente é ejaculado pela uretra, é redirecionado para a bexiga urinária. A ejaculação retrógrada é tipicamente acompanhada por orgasmo subjetivo, embora o homem possa notar que a liberação de sêmen é limitada ou ausente. A ejaculação retrógrada ocorre mais comumente como uma complicação da ressecção transuretral da próstata, porém também pode ser causada por outra cirurgia pélvica, disfunção do sistema nervoso ou uso de agentes farmacológicos. A confirmação é feita pela identificação de espermatozoides em uma amostra de urina.",
+      "classification_reasoning": "A opção mais precisa é a MF40.3, pois o termo 'flácido' se refere à ejaculação retrógrada, que é uma condição caracterizada por um fluxo de sêmen reduzido ou ausente durante a ereção."
+    },
+    "CA22.0": {
+      "term_original": "tosse produtiva",
+      "capitulo": "12",
+      "confidence_embedding": 0.7488,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A tosse produtiva é um sintoma característico de exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC), o que justifica a escolha do código CA22.0."
+    },
+    "BC43.0": {
+      "term_original": "drc estagio 5",
+      "capitulo": "11",
+      "confidence_embedding": 0.7549,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida.",
+      "classification_reasoning": "A doença renal crônica (DRC) está relacionada à cardiomiopatia dilatada, que é caracterizada pela disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos. A presença de hipertensão pulmonar também sugere uma cardiomiopatia dilatada."
+    },
+    "BB03.0": {
+      "term_original": "hipertensão pulmonar",
+      "capitulo": "11",
+      "confidence_embedding": 0.8226,
+      "descricao_cid": "Representação de doença CID-11: Obstrução venosa pulmonar adquirida. Definição: Condição patológica pós-natal de uma ou mais veias pulmonares em que o fluxo é impedido ou bloqueado devido a estreitamento ou atresia.",
+      "classification_reasoning": "A hipertensão pulmonar é uma condição em que há obstrução ou bloqueio do fluxo sanguíneo nos pulmões, caracterizada por aumento da pressão arterial púlmonar. Nesse contexto, a opção mais precisa é BB03.0, Representação de doença CID-11: Obstrução venosa pulmonar adquirida, pois a descrição refere-se à obstrução ou bloqueio do fluxo sanguíneo nos pulmões, o que se relaciona à hipertensão pulmonar mencionada no prontuário."
+    },
+    "GB00.0": {
+      "term_original": "hidrocele",
+      "capitulo": "16",
+      "confidence_embedding": 0.8125,
+      "descricao_cid": "Representação de doença CID-11: Hidrocele encistada. Definição: Afecção do testículo, causada por inflamação de epidídimo testicular, obstrução dos sistemas venoso ou linfático através do cordão ou uma anormalidade durante o período pré-natal. Esta afecção é caracterizada por um acúmulo circunscrito de fluido na túnica vaginal testicular ou ao longo do cordão espermático.",
+      "classification_reasoning": "A hidrocele está descrita como um sinal clínico no prontuário, especificamente 'HIDROCELE EM SEGUIMENTO COM UROLOGIA', o que sugere uma condição mais específica de hidrocele encistada, caracterizada por um acúmulo circunscrito de fluido na túnica vaginal testicular ou ao longo do cordão espermático."
+    }
+  }
+}

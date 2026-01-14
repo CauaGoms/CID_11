@@ -1,0 +1,244 @@
+{
+  "prontuario_id": 456,
+  "text": "Cliente em glasgow 7, pupilas iso / foto +, traqueostomizado com cânula de metal, respiração espontânea em aa com auxilio de oxigenoterapia em nevoa umida á 4 L/min, eupneico, face corada, mucosa oral hidratada, boa perfusão periferica, no leito com cabeceira elevada á 45°. Mantem com monitorização de multiparametros, ECG, PNI, SpO2, SNE aberta com dietoterapia em curso BI á 75 ml/hr, cateter venoso central duplo-lumen em subclavia ESQ com infusão de insulina BI com vazão conforme valor glicemico, srt em curso gravitacional. Apresenta ausculta cardiaca ritmica e normofonetica, ausculta pulmonar MV + com roncos esparsos, abdomen flacido e RHA +, edemas em MMSS e II cacifo II/III, UP em região sacra-coccigeana estagio III/IV, com placa de necrose. Faz uso de uropen com debito diuretico ++ de coloração amarelo claro, eliminação fecal presente +++ de aspecto pastoso. segue cuidados em precaução de contato por MRSA + Acinetobacter baumannii. Às 22:24h: Paciente com medicação Staficilin prescrita, porém com ficha de solicitação vencida, comunico plantão da ortopedia.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Cliente",
+      "Paciente"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "traqueostomizado",
+      "oxigenoterapia",
+      "infusão",
+      "nevoa umida",
+      "leito com cabeceira elevada á 45°",
+      "SNE aberta",
+      "com dietoterapia",
+      "cateter venoso central duplo-lumen",
+      "srt em curso gravitacional",
+      "precaução de contato"
+    ],
+    "Achado": [
+      "traqueostomizado",
+      "eupneico",
+      "ritmica",
+      "normofonetica",
+      "pupilas iso / foto",
+      "respiração espontânea",
+      "face corada",
+      "mucosa oral hidratada",
+      "boa perfusão periferica",
+      "SNE aberta",
+      "MV +",
+      "RHA +",
+      "debito diuretico ++",
+      "coloração amarelo claro",
+      "eliminação fecal presente"
+    ],
+    "Abreviação": [
+      "ECG",
+      "PNI",
+      "SpO2",
+      "BI",
+      "MMSS",
+      "UP",
+      "MRSA",
+      "pupilas iso / foto",
+      "SNE aberta",
+      "subclavia ESQ",
+      "srt em curso gravitacional",
+      "MV +",
+      "RHA +",
+      "debito diuretico ++"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECG",
+      "PNI",
+      "monitorização de multiparametros",
+      "ausculta cardiaca",
+      "ausculta pulmonar"
+    ],
+    "Dispositivo Médico": [
+      "BI",
+      "uropen",
+      "cânula de metal",
+      "SNE aberta",
+      "cateter venoso central duplo-lumen"
+    ],
+    "Substância Farmacológica": [
+      "insulina",
+      "Staficilin",
+      "nevoa umida"
+    ],
+    "Localização ou Região Corporal": [
+      "abdomen",
+      "MMSS",
+      "região sacra-coccigeana"
+    ],
+    "Sinal ou Sintoma": [
+      "edemas",
+      "roncos esparsos",
+      "placa de necrose",
+      "aspecto pastoso"
+    ],
+    "Função Patológica": [
+      "edemas"
+    ],
+    "Doença ou Síndrome": [
+      "UP"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "cuidados",
+      "plantão"
+    ],
+    "Bactéria": [
+      "MRSA",
+      "Acinetobacter baumannii"
+    ],
+    "Antibiótico": [
+      "Staficilin"
+    ],
+    "Organização Relacionada à Saúde": [
+      "ortopedia"
+    ],
+    "Conceito Quantitativo": [
+      "4 L/min",
+      "75 ml/hr"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "subclavia ESQ"
+    ],
+    "Conceito Qualitativo": [
+      "cacifo II/III",
+      "estagio III/IV"
+    ]
+  },
+  "labels": {
+    "QA02.8": {
+      "term_original": "mrsa",
+      "capitulo": "24",
+      "confidence_embedding": 0.7208,
+      "descricao_cid": "Representação de doença CID-11: Observação por suspeita de alergia ou hipersensibilidade, descartada. Definição: ",
+      "classification_reasoning": "A presença do termo 'MRSA' no contexto clínico indica que o paciente tem suspeita de alergia ou hipersensibilidade a esse tipo de bactéria, descartada. A descrição de QA02.8 se ajusta ao contexto."
+    },
+    "2F20.3": {
+      "term_original": "placa de necrose",
+      "capitulo": "02",
+      "confidence_embedding": 0.6827,
+      "descricao_cid": "Representação de doença CID-11: Nevos melanocíticos eruptivos generalizados. Definição: Este fenômeno descreve o rápido aparecimento simultâneo de múltiplos nevos melanocíticos, frequentemente centenas em número, em pele exposta ao sol previamente não acometida. O fenômeno tem sido associado a imunossupressão, particularmente em indivíduos que realizaram transplante renal e em indivíduos que estão recebendo quimioterapia contra câncer, e pode ser considerado uma contraparte mais avançada de lentiginose eruptiva generalizada.",
+      "classification_reasoning": "A placa de necrose mencionada no contexto clínico é mais provável ser referente a uma lesão cutânea, como um nevo melanocítico eruptivo generalizado, do que a uma doença maligna como o adenocarcinoma de brônquio ou pulmão (2C25.0), adenocarcinoma gástrico (2B72.0) ou citopenia refratária da infância (2A38). A lesão cutânea é também mais consistente com a descrição de nevo melanocítico atípico (2F20.1), que apresenta morfologicamente atipia melanocítica."
+    },
+    "CB01": {
+      "term_original": "edemas",
+      "capitulo": "12",
+      "confidence_embedding": 0.7439,
+      "descricao_cid": "Representação de doença CID-11: Edema pulmonar. Definição: Edema pulmonar é uma condição causada por excesso de líquido nos pulmões, que se acumula nos sacos alveolares do pulmão, dificultando a respiração.",
+      "classification_reasoning": "A presença de edemas em MMSS e II cacifo II/III, associada à apresentação do paciente com traqueostomia e respiração espontânea em AA com auxilio de oxigenoterapia, sugere que o termo 'edemas' se refere ao edema pulmonar."
+    },
+    "CB60": {
+      "term_original": "traqueostomizado",
+      "capitulo": "12",
+      "confidence_embedding": 0.7516,
+      "descricao_cid": "Representação de doença CID-11: Mau funcionamento de traqueostomia. Definição: ",
+      "classification_reasoning": "A escolha do código CB60 é a mais precisa porque o termo 'traqueostomizado' refere-se ao procedimento cirúrgico de traqueostomia, que é mencionado no contexto clínico. Isso indica que o paciente tem uma ferida artificial na traqueia, o que justifica a escolha desse código."
+    },
+    "DB33.3": {
+      "term_original": "eliminação fecal presente",
+      "capitulo": "13",
+      "confidence_embedding": 0.7695,
+      "descricao_cid": "Representação de doença CID-11: Colite de desvio. Definição: Condição inflamatória que ocorre em segmentos do cólon e do reto que são desviados do fluxo fecal por cirurgia.",
+      "classification_reasoning": "A eliminação fecal presente indica uma possível colite de desvio, considerando que o paciente está com colostomia e apresenta edemas em MMSS e II cacifo II/III."
+    },
+    "MC20.0": {
+      "term_original": "pupilas iso / foto",
+      "capitulo": "21",
+      "confidence_embedding": 0.7224,
+      "descricao_cid": "Representação de doença CID-11: Estafiloma. Definição: Protusão anormal do tecido uveal através de um ponto frágil do globo ocular. A protrução geralmente é de cor preta, devido às camadas internas do olho. Ocorre devido ao enfraquecimento da camada externa do olho (córnea ou esclera) por uma condição inflamatória ou degenerativa. Pode ser de 5 tipos, dependendo da localização no globo ocular (bulbus oculi).",
+      "classification_reasoning": "A opção MC20.0 'Estafiloma' é a mais precisa para o termo 'pupilas iso / foto', pois refere-se à protrução anormal do tecido uveal, que é descrita como preta, devido às camadas internas do olho. Isso coincide com a descrição de pupilas isoladas e fotos, sugerindo uma lesão ocular."
+    },
+    "DE11": {
+      "term_original": "debito diuretico ++",
+      "capitulo": "13",
+      "confidence_embedding": 0.7263,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de dumping. Definição: Síndrome de dumping é um grupo de sinais e sintomas que se desenvolve mais frequentemente em pessoas que foram submetidas a cirurgia para ressecção total ou parcial do estômago, ou em quem foi submetido a um bypass cirúrgico. Pode ocorrer precocemente (durante a refeição ou após 15-30 minutos com náuseas, vômitos, dor abdominal, cólicas, diarreia, tontura e palpitações cardíacas) ou tardiamente (1 a 3 horas após a refeição com sudorese, fraqueza, fadiga, tonturas, vertigens, palpitações cardíacas e desmaios).",
+      "classification_reasoning": "A opção mais precisa para o termo 'debito diuretico ++' é a síndrome de dumping (Código CID-11: DE11), pois os sintomas como náuseas, vômitos, dor abdominal e diarreia associados ao aumento do débito diúretico são comuns na síndrome de dumping."
+    },
+    "MD11.4": {
+      "term_original": "normofonetica",
+      "capitulo": "21",
+      "confidence_embedding": 0.7041,
+      "descricao_cid": "Representação de doença CID-11: Respiração de Cheyne-Stokes relacionada ao sono. Definição: Respiração periódica, uma variante da respiração de Cheyne-Stokes, é caracterizada por ciclos regulares e recorrentes de mudanças no volume corrente, nas quais o menor volume corrente é menor que a metade do volume corrente máximo do mesmo ciclo. É o padrão respiratório anormal mais frequentemente relacionado ao acidente vascular cerebral, mais do que nas doenças sistêmicas, ocorrendo em aproximadamente 25% daqueles. A respiração periódica pode ser mais comum em pacientes com hemorragia subaracnóidea.",
+      "classification_reasoning": "O termo 'normofonetica' se refere ao padrão respiratório normal, e o código MD11.4 Representa a Respiração de Cheyne-Stokes relacionada ao sono, que é um padrão anormal da respiração. Isso coincide com as informações clínicas fornecidas no contexto, como a ausculta pulmonar MV + com roncos esparsos."
+    },
+    "CA23.00": {
+      "term_original": "roncos esparsos",
+      "capitulo": "12",
+      "confidence_embedding": 0.7093,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide.",
+      "classification_reasoning": "A presença de roncos esparsos no contexto clínico sugere que o paciente apresenta sintomas de asma, o que justifica a escolha do código CA23.00 (Asma alérgica com exacerbação)."
+    },
+    "CA21.9": {
+      "term_original": "respiração espontânea",
+      "capitulo": "12",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'respiração espontânea' é a insuficiência respiratória crônica, que inclui a capacidade do paciente para realizar respiração espontânea com auxílio de oxigenoterapia."
+    },
+    "CB21.1": {
+      "term_original": "mv +",
+      "capitulo": "12",
+      "confidence_embedding": 0.7498,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A opção mais precisa é o Código CB21.1, que refere-se a outro pneumotórax espontâneo, pois o termo 'MV+' no contexto clínico sugere a presença de um pneumotórax ou outra lesão torácica."
+    },
+    "MF95": {
+      "term_original": "coloração amarelo claro",
+      "capitulo": "21",
+      "confidence_embedding": 0.7124,
+      "descricao_cid": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular.",
+      "classification_reasoning": "A coloração amarelo claro na urina sugere a presença de mioglobina, que é uma característica comum da mioglobinúria. Esta é uma escolha mais precisa considerando o contexto clínico do paciente, que apresenta edemas e placa de necrose."
+    },
+    "QA77": {
+      "term_original": "acinetobacter baumannii",
+      "capitulo": "24",
+      "confidence_embedding": 0.6679,
+      "descricao_cid": "Representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano. Definição: ",
+      "classification_reasoning": "A presença de Acinetobacter baumannii em um paciente com histórico de trauma e tratamento com cateter venoso central sugere a possibilidade de infecção hospitalar, o que justifica a escolha da opção QA77 (Medicação ou substância que se sabe está contraindicada para o paciente sem lesão ou dano)."
+    },
+    "GC40.53": {
+      "term_original": "up",
+      "capitulo": "16",
+      "confidence_embedding": 0.7331,
+      "descricao_cid": "Representação de doença CID-11: Incontinência por transbordamento associada a prolapso de órgão pélvico. Definição: Condição do sistema urinário, causada pelo esvaziamento incompleto de urina da bexiga e por um músculo detrusor acontrátil. Esta condição é caracterizada por incontinência urinária e perda de urina em pequenos volumes. Essa condição pode estar associada a obstrução, músculos da bexiga enfraquecidos, lesão, uso de medicamentos, diabetes mellitus, dano a nervo ou disfunção do sistema nervoso.",
+      "classification_reasoning": "A opção mais precisa para o termo 'UP' é a incontinência por transbordamento associada a prolapso de órgão pélvico (Código: GC40.53), pois UP se refere ao Urinary Incontinence (Incontinência Urinária) e essa condição está diretamente relacionada à perda de urina em pequenos volumes."
+    },
+    "DA24.00": {
+      "term_original": "aspecto pastoso",
+      "capitulo": "13",
+      "confidence_embedding": 0.7119,
+      "descricao_cid": "Representação de doença CID-11: Flegmão esofágico. Definição: Processo inflamatório difuso alastrante com formação de exsudato supurativo/purulento ou pus na parede esofágica. Muitas vezes evolui para uma coleção delimitada de pus, abscesso esofágico. Isso se deve majoritariamente a inflamação aguda por infecção bacteriana.",
+      "classification_reasoning": "A opção mais precisa para o termo 'aspecto pastoso' é a flegmão esofágico (DA24.00), pois as descrições de úlceras gástricas e intestinais não mencionam um aspecto pastoso, enquanto a flegmão pode apresentar exsudato purulento/pus com consistência pastosa."
+    },
+    "MC20.2": {
+      "term_original": "face corada",
+      "capitulo": "21",
+      "confidence_embedding": 0.6929,
+      "descricao_cid": "Representação de doença CID-11: Hipópio. Definição: Hipópio é a presença de células inflamatórias na câmara anterior do olho. Corresponde a um exsudato leucocitário, observado na câmara anterior, geralmente acompanhado de hiperemia de conjuntiva e episclera subjacente. É um sinal de inflamação da úvea anterior e da íris, ou seja, irite, que é uma forma de uveíte anterior. O exsudado deposita-se no fundo devido à ação da gravidade.",
+      "classification_reasoning": "A face corada é um sintoma característico de hipópio, que apresenta inflamação na câmara anterior do olho. Considerando o contexto clínico de um paciente com múltiplas doenças e procedimentos invasivos, a escolha pelo código MC20.2 como mais precisa para o termo 'face corada'."
+    },
+    "MD11.8": {
+      "term_original": "sne aberta",
+      "capitulo": "21",
+      "confidence_embedding": 0.7002,
+      "descricao_cid": "Representação de doença CID-11: Respiração pela boca. Definição: Respirar pela boca. Obstrução nasal pode também tornar necessária a respiração oral, o que por si só pode causar apneia obstrutiva. Respirar pela boca pode também aumentar o risco para apneia obstrutiva do sono, pelos seus efeitos na língua. A língua forma a parede anterior da orofaringe; tanto a postura supina quanto abertura da boca tendem a deslocar a língua posteriormente e promovem o fechamento da via aérea.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sne aberta' é a representação de doença CID-11: Respiração pela boca (MD11.8), pois o paciente apresenta respiração espontânea em AA com auxílio de oxigenoterapia em nevoa umida á 4 L/min, indicando que ele está respirando oralmente."
+    },
+    "MC82.1": {
+      "term_original": "ritmica",
+      "capitulo": "21",
+      "confidence_embedding": 0.707,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com bradicardia. Definição: Ritmo de escape lento associado a colapso hemodinâmico.",
+      "classification_reasoning": "A opção mais precisa para o termo 'ritmica' no contexto é a Parada cardíaca com bradicardia (MC82.1), pois descreve um ritmo cardíaco lento associado a colapso hemodinâmico, que se encaixa melhor na descrição de ausculta cardiaca ritmica fornecida no contexto."
+    }
+  }
+}

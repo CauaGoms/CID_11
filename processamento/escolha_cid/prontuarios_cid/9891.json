@@ -1,0 +1,165 @@
+{
+  "prontuario_id": 979,
+  "text": "PACIENTE EM PRIMEIRA CONSULTA REFERE BAV PARA PERTO HÁ ANOS LONGE HÁ ANOS \nREFERE DM TIPO 1 EM TTO DESCONTROLADA  HÁ 8 ANOS \nNEGA HAS\nHF DE CEGUEIRA E GLAUCOMA \nNEGA CX E TRAUMA OCULAR AO \nAV: 20 / 70// 20 / 200 \nESQ: -1,00 ESF AO \nTOL: -1,25 ESF VV 20 / 40 // -0,75 ESF VV 20 / 70  \nFO: PAPILA E MACULA NROMAIS AO SEM OUTRAS ALTERAÇÕES EVIDENTES AO \nPIO: 14/13\nBIO: CA CALMA E BEM FORMADA COM PUPILAS FOTOREAGNMETS BILATERAL E SIMETRICAMENTE AO \nMR AO E BIO DE FUNDO SEM ALTERAÇÕES EVIDENTES AO \nCDTA: SOLICITO ANGIO  E QUANDO CONSEGUIR DATA PARA EXAME BATER NA PORTA PARA MARCAR RETORNO \nR1 Doutor Vital Brazil\nR2 Doutor Vital Brazil\n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CONSULTA",
+      "CDTA",
+      "SOLICITO",
+      "RETORNO"
+    ],
+    "Abreviação": [
+      "BAV",
+      "TTO",
+      "HAS",
+      "HF",
+      "CX",
+      "AO",
+      "VV",
+      "ESF",
+      "FO",
+      "PIO",
+      "BIO",
+      "CA",
+      "MR",
+      "CDTA",
+      "ANGIO",
+      "R1",
+      "R2",
+      "DM TIPO 1",
+      "AV : 20 / 70// 20 / 200",
+      "ESQ : -1 , 00 ESF",
+      "TOL : -1 , 25 ESF",
+      "BIO DE FUNDO"
+    ],
+    "Sinal ou Sintoma": [
+      "BAV",
+      "CEGUEIRA",
+      "ALTERAÇÕES",
+      "AV : 20 / 70// 20 / 200",
+      "ESQ : -1 , 00 ESF",
+      "TOL : -1 , 25 ESF",
+      "OUTRAS ALTERAÇÕES"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TTO",
+      "CX"
+    ],
+    "Conceito Qualitativo": [
+      "DESCONTROLADA",
+      "SIMETRICAMENTE"
+    ],
+    "Negação": [
+      "NEGA",
+      "SEM"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "GLAUCOMA",
+      "DM TIPO 1"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "AO",
+      "CA",
+      "PUPILAS"
+    ],
+    "Procedimento Diagnóstico": [
+      "FO",
+      "PIO",
+      "BIO",
+      "MR",
+      "ANGIO",
+      "EXAME",
+      "BIO DE FUNDO"
+    ],
+    "Conceito Quantitativo": [
+      "14/13",
+      "20 / 70"
+    ],
+    "Achado": [
+      "CALMA",
+      "PAPILA E MACULA NROMAIS",
+      "BEM FORMADA"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "R1",
+      "Doutor",
+      "R2"
+    ],
+    "Conceito Temporal": [
+      "HÁ ANOS",
+      "HÁ 8 ANOS"
+    ],
+    "Lesão ou Envenenamento": [
+      "TRAUMA OCULAR"
+    ]
+  },
+  "labels": {
+    "9C61.25": {
+      "term_original": "bav",
+      "capitulo": "09",
+      "confidence_embedding": 0.7686,
+      "descricao_cid": "Representação de doença CID-11: Crise glaucomatociclítica. Definição: Crise glaucomatociclítica apresenta-se com precipitados ceráticos leves e flare do aquoso, elevação aguda da pressão intraocular e dano ao nervo óptico quando ataques repetidos ocorrem.",
+      "classification_reasoning": "A escolha pela Crise glaucomatociclítica (9C61.25) é a mais precisa, pois o paciente refere DM tipo 1 em TTO descontrolada há 8 anos e apresenta anomalias visuais, como alterações na visão periférica (AV: 20/70 e ESQ: -1,00 ESF ao). Isso sugere um comprometimento da saúde visual que pode estar relacionado à doença glaucomatosa."
+    },
+    "MB20.1": {
+      "term_original": "alterações",
+      "capitulo": "21",
+      "confidence_embedding": 0.7701,
+      "descricao_cid": "Representação de doença CID-11: Coma. Definição: Estado agudo com duração de mais de uma hora e geralmente menos de um mês. O paciente em coma está arresponsivo, fica com os olhos fechados e não pode ser despertado nem mesmo por estímulos vigorosos e dolorosos. As respostas motoras à estimulação dolorosa estão limitadas a reflexos. As etiologias incluem, mas não estão limitadas a, lesões cerebrais traumáticas, anóxicas, infecciosas, neoplásicas, vasculares, inflamatórias e metabólicas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'alterações' é a representação de doença CID-11: Coma (MC20.2), pois há referência à presença de cegueira e glaucoma, além da menção ao estado de inconsciente do paciente."
+    },
+    "MC20.2": {
+      "term_original": "outras alterações",
+      "capitulo": "21",
+      "confidence_embedding": 0.7659,
+      "descricao_cid": "Representação de doença CID-11: Hipópio. Definição: Hipópio é a presença de células inflamatórias na câmara anterior do olho. Corresponde a um exsudato leucocitário, observado na câmara anterior, geralmente acompanhado de hiperemia de conjuntiva e episclera subjacente. É um sinal de inflamação da úvea anterior e da íris, ou seja, irite, que é uma forma de uveíte anterior. O exsudado deposita-se no fundo devido à ação da gravidade.",
+      "classification_reasoning": "A opção mais precisa para o termo 'outras alterações' é a representação de doença CID-11: Hipópio, pois há referência à presença de células inflamatórias na câmara anterior do olho e ausência de outras informações que justifiquem as outras opções."
+    },
+    "9B75.01": {
+      "term_original": "av : 20 / 70// 20 / 200",
+      "capitulo": "09",
+      "confidence_embedding": 0.79,
+      "descricao_cid": "Representação de doença CID-11: Degeneração macular relacionada à idade intermediária. Definição: Consiste em drusas intermediárias extensas, pelo menos uma drusa grande (> = 125 mícrons de diâmetro) ou atrofia geográfica que não envolve o centro da fóvea",
+      "classification_reasoning": "A opção mais precisa para o termo 'av : 20 / 70// 20 / 200' é a degeneração macular relacionada à idade intermediária (Código 9B75.01). Isso porque os resultados de visão (AV) apresentam uma redução na acuidade visual lateral e central, o que é compatível com a degeneração macular."
+    },
+    "9C61.34": {
+      "term_original": "trauma ocular",
+      "capitulo": "09",
+      "confidence_embedding": 0.7977,
+      "descricao_cid": "Representação de doença CID-11: Glaucoma secundário de ângulo fechado devido a invasão por células epiteliais. Definição: Invasão de células epiteliais é uma condição subsequente a traumatismo ocular aberto ou cirurgia em que células epiteliais conjuntivais ou corneanas ganham acesso à câmara anterior e crescem além da malha trabecular com subsequente elevação da pressão ocular e dano ao nervo óptico.",
+      "classification_reasoning": "Escolho o código 9C61.34 porque o termo 'trauma ocular' é mencionado no contexto clínico e o descriptor se refere à invasão de células epiteliais após traumatismo ocular aberto ou cirurgia, o que está relacionado ao histórico do paciente."
+    },
+    "9D90.6": {
+      "term_original": "cegueira",
+      "capitulo": "09",
+      "confidence_embedding": 0.7511,
+      "descricao_cid": "Representação de doença CID-11: Cegueira. Definição: A definição numérica usada para as estatísticas da OMS se refere a perda visual profunda, quase total ou total. A definição funcional se refere a indivíduos que têm pouca ou nenhuma visão residual e que precisam contar predominantemente com habilidades de substituição de visão, ou seja, com usar outros sentidos que não a visão (Braille ou audiolivros para leitura, uma bengala longa ou cão-guia para mobilidade, ou o toque para manipulação).",
+      "classification_reasoning": "A referência à 'cegueira' no contexto clínico e a descrição da doença CID-11 como perda visual profunda, quase total ou total justificam a escolha desse código."
+    },
+    "BA41": {
+      "term_original": "dm tipo 1",
+      "capitulo": "11",
+      "confidence_embedding": 0.7481,
+      "descricao_cid": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)",
+      "classification_reasoning": "O termo 'DM tipo 1' se refere à diabetes mellitus tipo 1, que é uma doença caracterizada por perda de insulina e falta de regulação do nível de glicose no sangue. A presença da diabetes em combinação com a referência ao infarto agudo do miocárdio justifica a escolha do código BA41."
+    },
+    "9A94.1": {
+      "term_original": "esq : -1 , 00 esf",
+      "capitulo": "09",
+      "confidence_embedding": 0.783,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso.",
+      "classification_reasoning": "A opção mais precisa para o termo 'esq : -1,00 esf' é a Síndrome da íris flácida (9A94.1), pois o valor de -1,00 esf indica um grau de astigmatismo esquerdo, que pode estar relacionado à síndrome da íris flácida."
+    },
+    "9C61.31": {
+      "term_original": "glaucoma",
+      "capitulo": "09",
+      "confidence_embedding": 0.814,
+      "descricao_cid": "Representação de doença CID-11: Glaucoma secundário de ângulo fechado sem bloqueio pupilar. Definição: ",
+      "classification_reasoning": "A paciente refere glaucoma em contexto de diabetes mellitus tipo 1, descontrolada há 8 anos. A descrição do termo 'glaucoma' na consulta médica é mais compatível com o glaucoma secundário de ângulo fechado sem bloqueio pupilar (9C61.31)."
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "prontuario_id": 774,
+  "text": "DRC ESTAGIO 5 EM HD\nDRC ESTAGIO 5\nDESEJO DE TX RENAL\nPENDENTE: HLA, PRA E XMATCH  \nDRC ESTAGIO 5 EM HD\nHIPOCORADA\nCPP LIVRES\nPC RITMO REGULAR\nABD RHA+, FLACIDO\nMMII SEM EDEMA\n* LAB ANTI HBS REAGENTE , MAS < 100\n* USG DRC\n* TE NEGATIVO APRA ISQUEMIA\n* ECOCARDIO NORMAL\n* DOPPLER OK",
+  "entities": {
+    "Abreviação": [
+      "HD",
+      "HLA",
+      "PRA",
+      "CPP",
+      "PC",
+      "ABD",
+      "RHA+",
+      "MMII",
+      "LAB",
+      "MAS",
+      "USG",
+      "DRC",
+      "TE",
+      "ECOCARDIO",
+      "DRC ESTAGIO 5",
+      "TX RENAL"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "HD",
+      "TX RENAL"
+    ],
+    "Sinal ou Sintoma": [
+      "HIPOCORADA",
+      "EDEMA"
+    ],
+    "Localização ou Região Corporal": [
+      "CPP",
+      "ABD",
+      "MMII"
+    ],
+    "Atributo Clínico": [
+      "CPP",
+      "PC"
+    ],
+    "Achado": [
+      "LIVRES",
+      "RHA+",
+      "FLACIDO",
+      "RITMO REGULAR"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Procedimento Laboratorial": [
+      "LAB"
+    ],
+    "Procedimento Diagnóstico": [
+      "USG",
+      "TE",
+      "ECOCARDIO",
+      "DOPPLER"
+    ],
+    "Doença ou Síndrome": [
+      "DRC",
+      "DRC ESTAGIO 5"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "DRC",
+      "NORMAL",
+      "OK",
+      "ANTI HBS REAGENTE",
+      "NEGATIVO APRA ISQUEMIA"
+    ]
+  },
+  "labels": {
+    "BC71": {
+      "term_original": "ritmo regular",
+      "capitulo": "11",
+      "confidence_embedding": 0.7625,
+      "descricao_cid": "Representação de doença CID-11: Taquiarritmia ventricular. Definição: Qualquer distúrbio do ritmo ventricular com uma frequência mais rápida do que a frequência de escape ventricular normal para a idade.",
+      "classification_reasoning": "A opção mais precisa é BC71 por Taquiarritmia ventricular, pois o termo 'ritmo regular' indica que o paciente apresenta um ritmo cardíaco normal ou ligeiramente acelerado, característico da taquiarritmia ventricular."
+    },
+    "EA90.3": {
+      "term_original": "flacido",
+      "capitulo": "14",
+      "confidence_embedding": 0.7425,
+      "descricao_cid": "Representação de doença CID-11: Psoríase eritrodérmica. Definição: Psoríase eritrodérmica é uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele. A psoríase eritrodérmica geralmente se desenvolve a partir da psoríase em placas extensa mas pode surgir de forma nova. Fatores precipitantes ou desencadeantes incluem a retirada de glicocorticoides sistêmicos e, menos frequentemente, a descontinuação abrupta do metotrexato, queimaduras ou infecções intercorrentes. Os pacientes podem desenvolver hipotermia ou insuficiência cardíaca de alto débito.",
+      "classification_reasoning": "A descrição do termo 'flácido' se refere à pele com aspecto de flacidez, o que é característico da psoríase eritrodérmica (EA90.3). Esta condição pode causar eritema intenso confluente envolvendo mais de 90% da superfície da pele, o que se encaixa com a descrição do paciente com hipocorada e ABD RHA+, flácido."
+    },
+    "FA27.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7565,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A presença de 'edema' no prontuário é compatível com a definição do reumatismo palindrômico, que caracteriza crises agudas de dor e edema nas articulações. Além disso, o contexto clínico menciona hipocorada e abscesso renal hígido, o que sugere uma possibilidade de comprometimento articular."
+    },
+    "8A63.0": {
+      "term_original": "hipocorada",
+      "capitulo": "08",
+      "confidence_embedding": 0.7239,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica febril. Definição: Convulsões associadas a um aumento da temperatura corporal na ausência de infecção intracraniana, distúrbio metabólico ou história de crises epilépticas afebris. Ocorrem mais comumente em crianças com idades entre 6 meses e 5 anos.",
+      "classification_reasoning": "A palavra 'hipocorada' sugeriu a possibilidade de uma crise epiléptica, e o código 8A63.0 se adequa melhor à descrição clínica de uma crise epiléptica febril com disfunção neurológica aguda, sem qualquer indício de hemorragia cerebral ou hidrocefalia."
+    },
+    "BA02": {
+      "term_original": "drc estagio 5",
+      "capitulo": "11",
+      "confidence_embedding": 0.7413,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A presença de 'DRC ESTAGIO 5' no prontuário sugere uma lesão renal, o que justifica a escolha do código BA02 (Doença renal hipertensiva) como a mais precisa para o termo dentro do contexto clínico."
+    },
+    "BC81.30": {
+      "term_original": "drc",
+      "capitulo": "11",
+      "confidence_embedding": 0.7396,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A opção mais precisa para o termo 'drc' é a fibrilação atrial paroxística, pois o contexto clínico menciona 'DRC ESTAGIO 5 EM HD', o que sugere um estudo de eletrocardiograma (ECG) que detectou uma atividade irregular no coração, característica da Fibrilação Atrial Paroxística."
+    }
+  }
+}

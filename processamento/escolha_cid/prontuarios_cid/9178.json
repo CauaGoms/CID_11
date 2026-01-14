@@ -1,0 +1,60 @@
+{
+  "prontuario_id": 497,
+  "text": "TX RENAL.\nEM USO DE CSA 50/75, PRED 5, MS 2/1, MACRODANTINA, ATENOLOL 25 2X, DOXASOZINA 4.\n\n\nS: # URINA TURVA, MAS SEM SINTOMAS ITU.\n\nO: # PESO. PA 100/60. EXAME FISICO: SP.",
+  "entities": {
+    "Conceito Funcional": [
+      "USO"
+    ],
+    "Abreviação": [
+      "CSA",
+      "PRED",
+      "MS",
+      "SP",
+      "TX RENAL",
+      "SINTOMAS ITU"
+    ],
+    "Substância Farmacológica": [
+      "CSA",
+      "PRED",
+      "MS",
+      "MACRODANTINA",
+      "ATENOLOL",
+      "DOXASOZINA"
+    ],
+    "Conceito Quantitativo": [
+      "50/75",
+      "5",
+      "2/1",
+      "25",
+      "4",
+      "100/60"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Procedimento Diagnóstico": [
+      "PESO",
+      "EXAME FISICO"
+    ],
+    "Sinal ou Sintoma": [
+      "URINA TURVA",
+      "SINTOMAS ITU"
+    ]
+  },
+  "labels": {
+    "BD71.2": {
+      "term_original": "urina turva",
+      "capitulo": "11",
+      "confidence_embedding": 0.6825,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A urina turva sugere uma lesão renal, e a opção BD71.2 é a mais precisa para o termo dentro do contexto clínico, pois se refere à trombose da veia renal, que pode causar alterações na urina."
+    },
+    "6C48.2": {
+      "term_original": "sintomas itu",
+      "capitulo": "06",
+      "confidence_embedding": 0.7301,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais.",
+      "classification_reasoning": "A descrição do termo 'sintomas itu' indica a presença de sintomas relacionados à intoxicação, tendo em vista a presença de CSA 50/75 e Prednisolona 5 mg no prontuário. A escolha da opção 6C48.2 é baseada na definição da intoxicação por cafeína apresentada, que se refere a sintomas transitórios clinicamente significativos."
+    }
+  }
+}

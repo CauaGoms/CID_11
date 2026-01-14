@@ -1,0 +1,119 @@
+{
+  "prontuario_id": 86,
+  "text": "AVALIAÇÃO PÓS.\nTX RENAL CR 0,7, TACROLIMO ?\nHAS COMPENSADO.\nDLP .\n\nFALTOU DOPPLER ENXERTO PARA DEFINIR IECA.\n \n \nTX RENAL .\nEM USO DE MS 2/1, TACROLIMO 1/1, MET 5, NFD 20 2X, OMEPRAZOL, SINVASTATINA 20, ATENOLOL 50 2X.\n\nS # SEM QUEIXAS.\n\nO # PESO 59.\nJUGULARES ENGURGITADAS.\nCPP LIVRES.\nPA 130/80.",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "AVALIAÇÃO",
+      "O"
+    ],
+    "Conceito Temporal": [
+      "PÓS"
+    ],
+    "Substância Farmacológica": [
+      "TACROLIMO",
+      "IECA",
+      "MS",
+      "MET",
+      "NFD",
+      "OMEPRAZOL",
+      "SINVASTATINA",
+      "ATENOLOL"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DLP"
+    ],
+    "Abreviação": [
+      "HAS",
+      "DLP",
+      "IECA",
+      "MS",
+      "MET",
+      "S",
+      "O",
+      "PA",
+      "TX RENAL",
+      "CR 0 , 7",
+      "CPP LIVRES"
+    ],
+    "Achado": [
+      "COMPENSADO",
+      "S",
+      "TX RENAL",
+      "CPP LIVRES"
+    ],
+    "Procedimento Diagnóstico": [
+      "DOPPLER"
+    ],
+    "Conceito Quantitativo": [
+      "2/1",
+      "1/1",
+      "5",
+      "20",
+      "59",
+      "130/80"
+    ],
+    "Substância Química Orgânica": [
+      "MET",
+      "OMEPRAZOL",
+      "SINVASTATINA",
+      "ATENOLOL"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "JUGULARES ENGURGITADAS"
+    ],
+    "Atributo de Organismo": [
+      "PESO"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 7"
+    ]
+  },
+  "labels": {
+    "GB40": {
+      "term_original": "dlp",
+      "capitulo": "16",
+      "confidence_embedding": 0.7864,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A opção mais precisa é a síndrome nefrítica (Código GB40) pois o paciente apresenta TX renal cr 0,7 e há referência à insuficiência renal aguda (IRAA), característica da síndrome nefrítica. Além disso, a presença de hematúria grave e oligúria sugere uma lesão glomerular, compatível com a síndrome nefrítica."
+    },
+    "BA02": {
+      "term_original": "compensado",
+      "capitulo": "11",
+      "confidence_embedding": 0.7916,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "O termo 'compensado' sugere que a doença renal está bem controlada e não apresenta sintomas, o que é consistente com a representação de doença renal hipertensiva (CID-11: BA02)."
+    },
+    "MF54.2": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.763,
+      "descricao_cid": "Representação de doença CID-11: Hipoplasia renal. Definição: Condição caracterizada por um rim menor em tamanho e peso do que a média (menos de 11 centímetros de comprimento, 5-7,5 centímetros de largura, 2,5 centímetros de espessura e pesando menos de 120 gramas).",
+      "classification_reasoning": "A presença de queixas e o termo extraído 'queixas' sugerem que a paciente tem alguma doença renal, apesar do TX RENAL CR 0,7 ser normal. A Hipoplasia renal (Código: MF54.2) é uma possibilidade, pois pode estar associada a problemas renais e outras complicações."
+    },
+    "BA01": {
+      "term_original": "jugulares engurgitadas",
+      "capitulo": "11",
+      "confidence_embedding": 0.7413,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A opção BA01 se refere à representação de doença CID-11: Doença cardíaca hipertensiva, que inclui hipertrofia ventricular esquerda e outras alterações cardíacas relacionadas à hipertensão. No contexto clínico, a presença de 'jugulares engurgitadas' sugere uma possível compressão da jugular pela doença cardíaca, o que justifica a escolha da opção BA01."
+    },
+    "BD71.2": {
+      "term_original": "tx renal",
+      "capitulo": "11",
+      "confidence_embedding": 0.7445,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A opção mais precisa para o termo 'tx renal' é a trombose da veia renal (BD71.2), pois a paciente tem uma inspeção renal com valor de 0,7 e está em uso de tacrolimo, sugerindo uma possibilidade de doença renal aguda ou crônica."
+    }
+  }
+}

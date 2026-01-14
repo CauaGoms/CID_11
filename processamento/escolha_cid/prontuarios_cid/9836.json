@@ -1,0 +1,119 @@
+{
+  "prontuario_id": 463,
+  "text": "PTE COM DISFUNÇAO SITOLICA E TROMBO EM VE COM HIPOCINESIA DIFUSA ESTAVA EM USO DE VARFARIM VEIO AO XXXX COM HEMATOMAS EM MSUPERIORES. jA HAVIA SUSPENSO O ATC, POIS TINHA INR PREVIO (11- 03) DE 10,88.  nAO APRESENTAVA HEMORRAGIAS ATIVAS. jA TEM ATC COM 1/2 VARFARIM EM DIAS ALTERNADOS MANTENDO INR ENTRE 2-3. TBEM APRESENTAVA DIGOXINEMIA ELVADA (4, 8) COM PEQUENA PERDA DE FR (CREATININA 1,5). TEM ALTA EM BOAS CONDICOES, SEM SINTOMAS. RETORNO PARA CONSULTA NO SEU MEDICO ASSISTENTE.",
+  "entities": {
+    "Abreviação": [
+      "PTE",
+      "VE",
+      "ATC",
+      "FR",
+      "EM MSUPERIORES"
+    ],
+    "Função Patológica": [
+      "TROMBO",
+      "HEMATOMAS",
+      "DISFUNÇAO SITOLICA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "VE"
+    ],
+    "Substância Perigosa ou Venenosa": [
+      "VARFARIM"
+    ],
+    "Substância Farmacológica": [
+      "VARFARIM",
+      "ATC"
+    ],
+    "Substância Química Orgânica": [
+      "VARFARIM"
+    ],
+    "Sinal ou Sintoma": [
+      "HEMATOMAS",
+      "SINTOMAS",
+      "HIPOCINESIA DIFUSA",
+      "HEMORRAGIAS ATIVAS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "SUSPENSO",
+      "ALTA",
+      "RETORNO",
+      "CONSULTA"
+    ],
+    "Conceito Temporal": [
+      "PREVIO",
+      "DIAS ALTERNADOS"
+    ],
+    "Negação": [
+      "nAO",
+      "SEM"
+    ],
+    "Conceito Quantitativo": [
+      "1/2",
+      "10 , 88"
+    ],
+    "Procedimento Laboratorial": [
+      "INR"
+    ],
+    "Função de Organismo": [
+      "FR"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "DIGOXINEMIA ELVADA",
+      "4 , 8",
+      "CREATININA 1 , 5"
+    ],
+    "Conceito Qualitativo": [
+      "PEQUENA PERDA"
+    ],
+    "Achado": [
+      "BOAS CONDICOES"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "MEDICO ASSISTENTE"
+    ]
+  },
+  "labels": {
+    "6E20": {
+      "term_original": "sintomas",
+      "capitulo": "06",
+      "confidence_embedding": 0.7518,
+      "descricao_cid": "Representação de doença CID-11: Transtornos mentais ou comportamentais associados a gravidez, o parto ou o puerpério, sem sintomas psicóticos. Definição: Síndrome associada à gravidez ou ao puerpério (começando até cerca de 6 semanas após o parto) que envolve manifestações mentais e comportamentais significativas, mais comumente sintomas depressivos. A síndrome não inclui delírios, alucinações ou outros sintomas psicóticos. Se os sintomas preenchem os critérios diagnósticos para um transtorno mental específico, esse diagnóstico também deve ser atribuído. Essa categoria não deve ser usada para descrever sintomas depressivos leves e transitórios que que não preenchem os critérios diagnósticos para um episódio depressivo, pode ocorrer logo após o parto (o chamado \"blues\" pós-parto).",
+      "classification_reasoning": "A busca pelo termo 'sintomas' no contexto do prontuário aponta para a presença de sintomas mentais ou comportamentais associados à gravidez, o parto ou o puerpério, sem sintomas psicóticos. Embora haja referência a trombo e hipocinesia difusa, não há indicação de sintomas psicóticos como alucinações ou delírios."
+    },
+    "8B00.1": {
+      "term_original": "hipocinesia difusa",
+      "capitulo": "08",
+      "confidence_embedding": 0.755,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia lobar. Definição: Disfunção neurológica aguda causada por hemorragia dentro dos lobos do cérebro e fora do subcórtex, gânglios da base e diencéfalo (tálamo).",
+      "classification_reasoning": "A hipocinesia difusa está relacionada à hemorragia cerebral e a presença de hematomas em MSUPERIORES, o que sugere um dano cerebral significativo. A escolha do código 8B00.1 é mais precisa porque descreve uma hemorragia lobar, o que se encaixa melhor com a situação clínica apresentada."
+    },
+    "NA07.83": {
+      "term_original": "hemorragias ativas",
+      "capitulo": "22",
+      "confidence_embedding": 0.8043,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia traumática no tronco encefálico sem especificação se primária ou secundária. Definição: ",
+      "classification_reasoning": "O termo 'hemorragias ativas' refere-se a uma situação de sangramento recente e intenso, que não está relacionada à hemorragia secundária ou recorrente (NF0A.2), nem à hemorragia traumática primária ou secundária no tronco encefálico (NA07.84 ou NA07.85). A opção mais precisa é, portanto, representar a hemorragia como uma representação de doença CID-11: Hemorragia traumática no tronco encefálico sem especificação se primária ou secundária."
+    },
+    "BC46": {
+      "term_original": "trombo",
+      "capitulo": "11",
+      "confidence_embedding": 0.787,
+      "descricao_cid": "Representação de doença CID-11: Trombose intracardíaca. Definição: Formação intracardíaca de um coágulo sanguíneo. Trombose intracardíaca pode ocorrer subsequente a infarto do miocárdio com formação de trombo ventricular, ou com fibrilação atrial e estenose mitral onde trombos atriais predominam.\r\nTrombos intracardíacos são assintomáticos, a menos que haja embolização distal, resultando em acidente vascular cerebral isquêmico, infarto visceral ou isquemia distal de membro.",
+      "classification_reasoning": "A opção mais precisa para o termo 'trombo' é a representação de doença CID-11: Trombose intracardíaca, pois o contexto clínico refere-se à presença de trombo em veia comum (PTE) e a paciente apresenta sintomas de hipocinesia difusa, o que sugere um trombo cardíaco."
+    },
+    "NE81.0Z": {
+      "term_original": "hematomas",
+      "capitulo": "22",
+      "confidence_embedding": 0.8087,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "Escolhi esse código porque o termo 'hematomas' refere-se a lesões hemáticas em diferentes locais do corpo, não especificando se são secundárias a uma cirurgia ou outra intervenção médica (NE81.0Z). Isso é consistente com o contexto clínico que descreve pacientes com PTE (Acidente Vascular Cerebral) e uso de varfarina, que desenvolveram hematomas em diferentes áreas do corpo."
+    },
+    "3B64.0": {
+      "term_original": "disfunçao sitolica",
+      "capitulo": "03",
+      "confidence_embedding": 0.7925,
+      "descricao_cid": "Representação de doença CID-11: Trombocitopenia congênita. Definição: Doença causada por determinantes que surgem durante o período pré-natal e que levam a uma baixa contagem de plaquetas. Essa doença é caracterizada por níveis diminuídos de plaquetas no sangue. Pode apresentar-se com aumento na ocorrência de equimoses ou hemorragias. A confirmação é feita pela identificação de uma contagem plaquetária reduzida no sangue.",
+      "classification_reasoning": "A escolha do código 3B64.0 se baseia na presença de disfunção sitolica, que sugere uma baixa contagem de plaquetas, característica da trombocitopenia congênita. Além disso, o paciente apresenta hematomas em regiões superiores e tem histórico de uso de varfarina, o que reforça a escolha desse código."
+    }
+  }
+}

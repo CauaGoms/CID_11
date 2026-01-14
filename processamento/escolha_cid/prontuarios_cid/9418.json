@@ -1,0 +1,80 @@
+{
+  "prontuario_id": 539,
+  "text": "Diabético, hipertenso, ex-tabagista, interna para realização de angioplastia coronária mais implante de endoprótese coronariana em artéria descendente anterior. Procedimento realizado sem intercorrências em 30/06/04. Recebe alta em bom estado geral, assintomático, sinais vitais estáveis, afebril, pulsos periféricos normais e sem sinal de pseudoaneurisma em local de punção da artéria femoral direita. Orientado quanto a cuidados gerais e medicações. Retorno ao seu médico. Retorno à emergência se necessário.",
+  "entities": {
+    "Doença ou Síndrome": [
+      "Diabético",
+      "hipertenso"
+    ],
+    "Achado": [
+      "Diabético",
+      "hipertenso",
+      "ex-tabagista",
+      "bom estado geral",
+      "sinais vitais estáveis",
+      "pulsos periféricos normais"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "interna",
+      "alta",
+      "Retorno"
+    ],
+    "Negação": [
+      "sem",
+      "assintomático",
+      "afebril"
+    ],
+    "Sinal ou Sintoma": [
+      "intercorrências",
+      "assintomático",
+      "afebril",
+      "sinal de pseudoaneurisma"
+    ],
+    "Substância Farmacológica": [
+      "medicações"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "médico"
+    ],
+    "Organização Relacionada à Saúde": [
+      "emergência"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "implante de endoprótese"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "artéria descendente anterior",
+      "artéria femoral direita"
+    ]
+  },
+  "labels": {
+    "BA01": {
+      "term_original": "hipertenso",
+      "capitulo": "11",
+      "confidence_embedding": 0.8564,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A escolha do código BA01 é a mais precisa porque o paciente tem hipertensão como um fato clinicamente relevante e presente na sua história médica, o que se enquadra no conceito de doença cardíaca hipertensiva descrito no código. Além disso, a presença de hipertensão é mencionada como um fator importante para o procedimento realizado (angioplastia coronária mais implante de endoprótese coronariana em artéria descendente anterior)."
+    },
+    "Z98.5": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'intercorrências' se refere a situações imprevistas ou complicadas durante o procedimento médico, nesse caso, a angioplastia coronária e implante de endoprótese. A opção mais precisa é Z98.5, que representa Representação de doença CID-11: Complicações da cirurgia cardiovascular não especificada."
+    },
+    "BE10": {
+      "term_original": "diabético",
+      "capitulo": "11",
+      "confidence_embedding": 0.826,
+      "descricao_cid": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite.",
+      "classification_reasoning": "O termo 'diabético' está relacionado ao paciente que tem diabetes, o que é mencionado no contexto clínico como um fator de risco para doenças cardíacas. A escolha da opção BE10 (Síndrome pós-cardiotomia) é mais precisa porque a presença de diabetes é mencionada como parte do histórico médico e não há nenhuma indicação de que o termo 'diabético' esteja relacionado às outras opções apresentadas."
+    },
+    "MF40.3": {
+      "term_original": "sinal de pseudoaneurisma",
+      "capitulo": "21",
+      "confidence_embedding": 0.7093,
+      "descricao_cid": "Representação de doença CID-11: Ejaculação retrógrada. Definição: A ejaculação retrógrada é uma condição na qual o sêmen, que normalmente é ejaculado pela uretra, é redirecionado para a bexiga urinária. A ejaculação retrógrada é tipicamente acompanhada por orgasmo subjetivo, embora o homem possa notar que a liberação de sêmen é limitada ou ausente. A ejaculação retrógrada ocorre mais comumente como uma complicação da ressecção transuretral da próstata, porém também pode ser causada por outra cirurgia pélvica, disfunção do sistema nervoso ou uso de agentes farmacológicos. A confirmação é feita pela identificação de espermatozoides em uma amostra de urina.",
+      "classification_reasoning": "A escolha do código MF40.3 (Ejaculação retrógrada) é a mais precisa para o termo 'sinal de pseudoaneurisma' no contexto clínico, pois refere-se à presença de fluxo de fluido em um local onde não há uma artéria naturalmente presente, como na descrição da angioplastia coronária. A ejaculação retrógrada é similar ao sinal de pseudoaneurisma descrito no prontuário, que menciona a ausência de sinal de pseudoaneurisma em local de punção da artéria femoral direita."
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "prontuario_id": 828,
+  "text": "11:33h Realizo passagem de SNE para alimentação em narina direita; procedimento realizado com dificuldade, ´pois a pacietne apresenta-se agitada, não colaborativa com o procedimento. oriento contensão em MSE para evitar retirada acidental de sonda. Solicito RX de abdome simples no leito para 13:30h. Aguarda realização de RX para liberação da dieta.",
+  "entities": {
+    "Procedimento Terapêutico ou Preventivo": [
+      "passagem",
+      "SNE",
+      "alimentação",
+      "procedimento",
+      "contensão",
+      "dieta"
+    ],
+    "Abreviação": [
+      "SNE",
+      "MSE",
+      "RX"
+    ],
+    "Dispositivo Médico": [
+      "SNE",
+      "sonda"
+    ],
+    "Alimento": [
+      "alimentação",
+      "dieta"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "procedimento",
+      "oriento",
+      "Solicito",
+      "liberação"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "pacietne"
+    ],
+    "Sinal ou Sintoma": [
+      "agitada"
+    ],
+    "Negação": [
+      "não"
+    ],
+    "Achado": [
+      "colaborativa"
+    ],
+    "Localização ou Região Corporal": [
+      "MSE",
+      "abdome"
+    ],
+    "Procedimento Diagnóstico": [
+      "RX"
+    ],
+    "Objeto Manufaturado": [
+      "leito"
+    ],
+    "Espaço ou Junção Corporal": [
+      "narina direita"
+    ]
+  },
+  "labels": {
+    "6C20.1": {
+      "term_original": "colaborativa",
+      "capitulo": "06",
+      "confidence_embedding": 0.7118,
+      "descricao_cid": "Representação de doença CID-11: Transtorno de sofrimento corporal moderado. Definição: Todos os critérios diagnósticos para transtorno de sofrimento corporal são preenchidos. Há preocupação persistente com os sintomas angustiantes e suas consequências (p. ex., o indivíduo passa mais de uma hora por dia pensando neles), tipicamente associada a consultas médicas frequentes. A pessoa emprega muito de sua energia focando nos sintomas e suas consequências. Os sintomas e o sofrimento e preocupação associados causam prejuízo moderado na funcionalidade pessoal, familiar, social, educacional, ocupacional ou em outras áreas importantes da funcionalidade (p. ex., conflito em relacionamento, problemas de desempenho no trabalho, abandono de uma gama de atividades sociais e de lazer).",
+      "classification_reasoning": "A paciente apresenta-se agitada e não colaborativa com o procedimento, caracterizando um comportamento pouco cooperativo e ansioso. Isso se encaixa melhor na descrição do Transtorno de sofrimento corporal moderado (6C20.1) do que em qualquer outro código listado."
+    },
+    "Z91.8": {
+      "term_original": "agitada",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A agitada paciente não colaborativa com o procedimento de SNE é um indicador de ansiedade ou estresse, caracterizando uma reação emocional ao processo médico."
+    }
+  }
+}

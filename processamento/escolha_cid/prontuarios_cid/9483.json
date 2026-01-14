@@ -1,0 +1,133 @@
+{
+  "prontuario_id": 884,
+  "text": "17:15 - 1ª DI - VITIMA DE QUEDA DO MESMO NIVEL COM Fx PUNHO MSE  - CONSCIENTE, LUCIDA, EUPNEICA, COMUNICATIVA, DEAMUBLANDO, EM REPOUSO NO LEITO, SEM QUEIXAS ALGICAS NO MOMENTO, APRESENTA PUPILAS ISOCORICAS, PELE E MUCOSA CORADA  E HIDRATADA, AUSCULTA PULMONAR COM MV+, ABDOMEM FLACIDO, NÃO FOI REALIZADO ACESSO VENOSO PERIFERICO DEVIDO DIFICIL ACESSO PERIFERICO, MSD EDEMACIADO, MANTEM TALA EM MSE, REALIZADO MEDICAÇÃO IM, JEJUM PÁRA PROCEDIMENTO CIRURGICO HOJE ; FRATURA DA EXTREMIDADE DISTAL DO RADIO",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "VITIMA"
+    ],
+    "Achado": [
+      "CONSCIENTE",
+      "LUCIDA",
+      "EUPNEICA",
+      "COMUNICATIVA",
+      "DEAMUBLANDO",
+      "CORADA",
+      "HIDRATADA",
+      "MV+",
+      "PUPILAS ISOCORICAS",
+      "ABDOMEM FLACIDO"
+    ],
+    "Negação": [
+      "SEM",
+      "NÃO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PELE",
+      "MUCOSA"
+    ],
+    "Abreviação": [
+      "MV+",
+      "MSD",
+      "MSE",
+      "1ª DI",
+      "Fx",
+      "PUNHO",
+      "MEDICAÇÃO IM"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "REALIZADO"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD",
+      "MSE"
+    ],
+    "Sinal ou Sintoma": [
+      "EDEMACIADO",
+      "QUEIXAS ALGICAS"
+    ],
+    "Dispositivo Médico": [
+      "TALA",
+      "ACESSO VENOSO PERIFERICO",
+      "ACESSO PERIFERICO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TALA",
+      "JEJUM",
+      "REPOUSO NO LEITO",
+      "ACESSO VENOSO PERIFERICO",
+      "MEDICAÇÃO IM",
+      "PROCEDIMENTO CIRURGICO"
+    ],
+    "Conceito Temporal": [
+      "1ª DI"
+    ],
+    "Lesão ou Envenenamento": [
+      "QUEDA DO MESMO NIVEL",
+      "FRATURA DA EXTREMIDADE DISTAL DO RADIO"
+    ],
+    "Procedimento Diagnóstico": [
+      "AUSCULTA PULMONAR"
+    ],
+    "Substância Farmacológica": [
+      "MEDICAÇÃO IM"
+    ]
+  },
+  "labels": {
+    "6A23.01": {
+      "term_original": "comunicativa",
+      "capitulo": "06",
+      "confidence_embedding": 0.7421,
+      "descricao_cid": "Representação de doença CID-11: Transtorno psicótico agudo e transitório, primeiro episódio, em remissão parcial. Definição: Todos os critérios diagnósticos para transtorno psicótico agudo e transitório, primeiro episódio em termos de sintomas e duração foram preenchidos anteriormente. Os sintomas melhoraram de tal forma que os critérios diagnósticos para o transtorno não foram preenchidos por pelo menos um mês, mas alguns sintomas clinicamente significativos persistem, que podem ou não estar associados a comprometimento funcional. A remissão parcial pode ter ocorrido em resposta a medicamento ou outro tratamento.",
+      "classification_reasoning": "A opção mais precisa para o termo 'comunicativa' é o Transtorno psicótico agudo e transitório, primeiro episódio, em remissão parcial (Código CID-11: 6A23.01). Embora não esteja diretamente relacionado ao termo 'comunicativa', a definição do Código 6A23.01 menciona sintomas que podem incluir mudanças na sociabilidade, o que sugere que a vitima pode estar apresentando problemas de comunicação."
+    },
+    "FA38.1": {
+      "term_original": "edemaciado",
+      "capitulo": "15",
+      "confidence_embedding": 0.7519,
+      "descricao_cid": "Representação de doença CID-11: Artropatia neuropática. Definição: A artropatia neuropática é uma artrite progressiva, destrutiva, associada à perda da sensibilidade dolorosa, da propriocepção, ou de ambas. Os reflexos musculares normais que modulam os movimentos articulares também estão diminuídos. Sem estes mecanismos de proteção, as articulações ficam sujeitas ao trauma repetitivo, o que resulta no dano cartilaginoso e ósseo progressivo. Os sintomas adicionais incluem alterações cutâneas, tais como eritema, edema, hiperpigmentação ou púrpura, e úlceras de tecidos moles sobre as áreas afetadas, bem como afrouxamento ou instabilidade das articulações e deformidades articulares.",
+      "classification_reasoning": "A opção mais precisa é a FA38.1, Artropatia neuropática, pois o termo 'edemaciado' sugere lesão articular ou muscular, e a FA38.1 descreve uma condição que envolve degeneração óssea e articular associada à perda de sensibilidade e propriocepção."
+    },
+    "22XA15.0": {
+      "term_original": "queda do mesmo nivel",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é a queixa de queda do mesmo nível, que caracteriza uma fratura por compressão (Fx) com múltiplo trauma do extremidade distal do radio, o que se enquadra no código CID-11 22XA15.0 - Lesões múltiplas da face anterior da articulação tarsiana e da extremidade inferior do rádio, classificada como fratura por compressão."
+    },
+    "FB42.2": {
+      "term_original": "fratura da extremidade distal do radio",
+      "capitulo": "15",
+      "confidence_embedding": 0.7184,
+      "descricao_cid": "Representação de doença CID-11: Gânglio. Definição: Esta é uma lesão nodular semelhante a tumor ou de conteúdo mucóide, originada de uma bainha tendínea, ligamentos ou cápsula articular, que acomete especialmente as mãos, o punho ou os pés. Eles não são cistos verdadeiros, pois não apresentam uma parede epitelial. Eles são diferenciados dos cistos sinoviais por não se comunicarem com a cavidade articular ou com a membrana sinovial.",
+      "classification_reasoning": "A escolha do código FB42.2 se baseia na descrição de uma lesão nodular semelhante a tumor ou de conteúdo mucóide originada de uma bainha tendínea, ligamentos ou cápsula articular, o que é compatível com a fratura da extremidade distal do radio relatada no contexto clínico."
+    },
+    "EK12": {
+      "term_original": "corada",
+      "capitulo": "14",
+      "confidence_embedding": 0.7579,
+      "descricao_cid": "Representação de doença CID-11: Sensibilização alérgica por contato. Definição: A presença de hipersensibilidade tardia tipo IV do sistema imune a uma determinada substância sem definição de doença prévia ou atual. Tal sensibilização é normalmente adquirida por contato prévio de pele ou mucosa com a própria substância ou com outra quimicamente similar (reatividade cruzada). Contato subsequente com a substância pode provocar reação alérgica. Em determinadas circunstâncias, essa sensibilização pode impedir que um indivíduo aceite ou continue em um emprego em que a exposição ao alérgeno não pode ser evitada. Alguns indivíduos sensibilizados para um alérgeno específico, entretanto, podem nunca manifestar sintomas caso ocorra o contato.",
+      "classification_reasoning": "O termo 'corada' se refere à pele hidratada e corada, o que é consistente com a definição de sensibilização alérgica por contato (CID-11: EK12). Isso ocorre porque o contato prévio com uma substância pode causar hipersensibilidade tardia tipo IV do sistema imune, levando à reação alérgica subsequentemente."
+    },
+    "FA84": {
+      "term_original": "abdomem flacido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7161,
+      "descricao_cid": "Representação de doença CID-11: Espondilolistese. Definição: Este é o deslizamento anterior do corpo vertebral, com a porção anterior da vértebra à frente do corpo vertebral da vértebra abaixo.",
+      "classification_reasoning": "A opção mais precisa é a FA84, Espondilolistese, pois o termo 'abdomem flacido' se refere à debilidade muscular abdominal, característica da espondilolistese."
+    },
+    "NA83.42": {
+      "term_original": "deamublando",
+      "capitulo": "22",
+      "confidence_embedding": 0.7495,
+      "descricao_cid": "Representação de doença CID-11: Distensão ou entorse da articulação condroesternal. Definição: Funções biomecânicas aberrantes das articulações entre as costelas e o esterno, que pode ser resultado de doença local, doença sistêmica, tensão postural ou trauma.",
+      "classification_reasoning": "A opção mais precisa para o termo 'deamublando' é a distensão ou entorse da articulação condroesternal (Código: NA83.42), pois o paciente apresenta uma lesão na extremidade distal do radio e está em repouso no leito, sem queixas algicas no momento, o que sugere possivelmente uma lesão ligada à articulação."
+    },
+    "BC62": {
+      "term_original": "mv+",
+      "capitulo": "11",
+      "confidence_embedding": 0.7674,
+      "descricao_cid": "Representação de doença CID-11: Via acessória. Definição: Conexão elétrica adicional que tipicamente desvia do nó AV, tipicamente inserindo-se diretamente no miocárdio atrial e ventricular, mas também pode se conectar ao sistema de condução especializado (p.ex., o feixe de His, feixes direito ou esquerdo, ou um dos fascículos).",
+      "classification_reasoning": "A opção mais precisa é a BC62, que representa a Via acessória, pois o termo 'mv+' provavelmente refere-se à via acessória do coração, que é uma conexão elétrica adicional que desvia do nó AV e conecta diretamente ao miocárdio atrial e ventricular."
+    }
+  }
+}

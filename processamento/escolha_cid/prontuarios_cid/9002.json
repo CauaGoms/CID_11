@@ -1,0 +1,197 @@
+{
+  "prontuario_id": 739,
+  "text": "Às 02:10 H: CLIENTE MANTEM JEJUM PARA REALIZAR EXAME, ORIENTADA, AFEBRIL, EUPNEICA. SEGUE EM OBSERVAÇÃO E CUIDADOS. Às 20:00h: consciente, traqueostomizado, febril, tº 38.5º c, apresenta disfonia, mantendo oxigenioterapia sob névoa, dieta via gastro, acesso venoso periferico em região do pé esquerdo, abdomen distendido, incisão cirurgica em região cefalica seca; segue acompanhado pelos familiares e sob cuidados. Às 13:40H: PROVENIENTE DO PA, CALMA, COMUNICATIVA, EUPNEICA EM AR AMBIENTE, REFERE MELHORA DA DOR EM REGIÃO ABDOMINAL QUE IRRADIAVA PARA REGIÃO INGUINAL BILATERAL. REFERE TAMBÉM QUE APRESENTOU NAUSEAS E VOMITOS APÓS ADMINISTRAÇÃO DA MEDICAÇÃO AINDA NO PA. ACESSO VENOSO PERIFÉRICO SALINIZADO EM MSD. DIURESE PRESENTE ESPONTANEAMENTE. SEGUE CUIDADOS. Retorna do cc após realização de litotripsia, acordado, comunicativo, sem queixas algicas, mantendo avp permeável em mse com soroterapia em curso, segue sob cuidados e observação de enfermagem. EVOLUÇAO DIA 01/02/10: ACORDADO, RESPONSIVO, SEM QUEIXAS ALGICAS NO MOMENTO. AGENDADO TOMOGRAFIA DE ABDOMEN + PELVE PARA 02/02/10, AS 09:30H. E SOLICITADO ENDOSCOPIA NO SISTEMA.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "CLIENTE"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "JEJUM",
+      "traqueostomizado",
+      "litotripsia",
+      "avp",
+      "oxigenioterapia sob névoa",
+      "dieta via gastro",
+      "acesso venoso periferico",
+      "ACESSO VENOSO PERIFÉRICO",
+      "soroterapia em curso"
+    ],
+    "Achado": [
+      "JEJUM",
+      "ORIENTADA",
+      "AFEBRIL",
+      "EUPNEICA",
+      "consciente",
+      "traqueostomizado",
+      "seca",
+      "CALMA",
+      "COMUNICATIVA",
+      "SALINIZADO",
+      "acordado",
+      "comunicativo",
+      "permeável",
+      "ACORDADO",
+      "RESPONSIVO",
+      "oxigenioterapia sob névoa",
+      "EUPNEICA EM AR AMBIENTE",
+      "MELHORA DA DOR",
+      "DIURESE PRESENTE ESPONTANEAMENTE"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAME",
+      "TOMOGRAFIA",
+      "ENDOSCOPIA"
+    ],
+    "Negação": [
+      "AFEBRIL"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "OBSERVAÇÃO",
+      "CUIDADOS",
+      "cuidados",
+      "SOLICITADO",
+      "sob cuidados",
+      "observação de enfermagem"
+    ],
+    "Sinal ou Sintoma": [
+      "febril",
+      "disfonia",
+      "NAUSEAS",
+      "VOMITOS",
+      "abdomen distendido",
+      "queixas algicas",
+      "QUEIXAS ALGICAS"
+    ],
+    "Abreviação": [
+      "tº",
+      "PA",
+      "MSD",
+      "cc",
+      "avp",
+      "mse",
+      "dieta via gastro"
+    ],
+    "Atributo Clínico": [
+      "tº"
+    ],
+    "Conceito Quantitativo": [
+      "38"
+    ],
+    "Grupo Familiar": [
+      "familiares"
+    ],
+    "Organização Relacionada à Saúde": [
+      "PA",
+      "cc"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD",
+      "mse",
+      "ABDOMEN",
+      "região do pé esquerdo",
+      "região cefalica",
+      "REGIÃO ABDOMINAL",
+      "INGUINAL BILATERAL"
+    ],
+    "Dispositivo Médico": [
+      "avp",
+      "acesso venoso periferico",
+      "ACESSO VENOSO PERIFÉRICO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PELVE"
+    ],
+    "Lesão ou Envenenamento": [
+      "incisão cirurgica"
+    ],
+    "Função Fisiológica": [
+      "DIURESE PRESENTE ESPONTANEAMENTE"
+    ]
+  },
+  "labels": {
+    "ME01": {
+      "term_original": "queixas algicas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7694,
+      "descricao_cid": "Representação de doença CID-11: Distensão abdominal. Definição: Esta é uma condição em que o abdômen parece cheio e tenso por causa do inchaço do abdômen, geralmente devido a um aumento da quantidade de gases intestinais, mas ocorre às vezes quando fluidos, substâncias ou massa estão se acumulando ou se expandindo no abdômen.",
+      "classification_reasoning": "A escolha do código ME01 (Distensão abdominal) é mais precisa porque o termo 'queixas algicadas' no contexto clínico se refere ao fato de que o paciente apresenta dor abdominal irradiada para a região inguinal bilateral."
+    },
+    "CB60": {
+      "term_original": "traqueostomizado",
+      "capitulo": "12",
+      "confidence_embedding": 0.777,
+      "descricao_cid": "Representação de doença CID-11: Mau funcionamento de traqueostomia. Definição: ",
+      "classification_reasoning": "O paciente está traqueostomizado, o que sugere uma intervenção cirúrgica para estabelecer um acesso ao trato respiratório superior. A opção CB60, 'Mau funcionamento de traqueostomia', é a mais precisa para descrever a condição do paciente."
+    },
+    "DD50.1": {
+      "term_original": "jejum",
+      "capitulo": "13",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é a hérnia de parede não abdominal (DD50.1), pois o paciente está mantendo jejum para realizar exame, o que sugere uma abertura na parede abdominal."
+    },
+    "DD50": {
+      "term_original": "nauseas",
+      "capitulo": "13",
+      "confidence_embedding": 0.7755,
+      "descricao_cid": "Representação de doença CID-11: Hérnia de parede não abdominal. Definição: Hérnia que ocorre através do forame no diafragma, na parede pélvica e em outra abertura coberta por peritônio mas não através da parede abdominal.",
+      "classification_reasoning": "A presença de nauseas e vômitos após administração de medicação é um indicador de possível hérnia de parede não abdominal, que pode estar relacionada à dor abdominal irradiando para a região inguinal bilateral."
+    },
+    "DA26.3": {
+      "term_original": "vomitos",
+      "capitulo": "13",
+      "confidence_embedding": 0.7648,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da laceração hemorrágica gastroesofágica. Definição: Sangramento por lacerações na mucosa na junção do estômago com esôfago, geralmente causado por vômitos intensos, espasmos de vômito ou tosse.",
+      "classification_reasoning": "A opção mais precisa para o termo 'vomitos' é a Síndrome da laceração hemorrágica gastroesofágica (DA26.3), pois o paciente refere que apresentou vômitos após administração de medicação no PA, o que está relacionado às lesões agudas da mucosa do estômago."
+    },
+    "MG30.21": {
+      "term_original": "incisão cirurgica",
+      "capitulo": "21",
+      "confidence_embedding": 0.8052,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática.",
+      "classification_reasoning": "A incisão cirurgica mencionada no contexto clínico é provavelmente referente à dor crônica pós-operatória, que é a definição da code MG30.21."
+    },
+    "9A94.1": {
+      "term_original": "disfonia",
+      "capitulo": "09",
+      "confidence_embedding": 0.7967,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso.",
+      "classification_reasoning": "Disfonia é um sintoma descrito na história do paciente, que pode ser relacionado à síndrome da íris flácida, uma complicaçao que pode ocorrer durante a extração de catarata."
+    },
+    "CB41.1": {
+      "term_original": "salinizado",
+      "capitulo": "12",
+      "confidence_embedding": 0.771,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência respiratória crônica. Definição: Na insuficiência respiratória crônica a hipoxemia ocorre ao longo de semanas ou meses (mais de 7 dias) e a insuficiência respiratória se desenvolve mais lentamente e dura mais tempo do que na insuficiência respiratória aguda.",
+      "classification_reasoning": "A opção mais precisa para o termo 'salinizado' é a insuficiência respiratória crônica, pois não há evidências de doenças pulmonares agudas ou crônicas na história do paciente. Além disso, a administração de medicamentos e a presença de oxigenioterapia sugerem que o paciente tem uma condição crônica."
+    },
+    "DD50.2": {
+      "term_original": "abdomen distendido",
+      "capitulo": "13",
+      "confidence_embedding": 0.8217,
+      "descricao_cid": "Representação de doença CID-11: Hérnia intra-abdominal. Definição: Uma hérnia que ocorre dentro do abdômen através de abertura coberta pelo peritônio.",
+      "classification_reasoning": "A opção mais precisa é a hérnia intra-abdominal (DD50.2), pois o contexto clínico descreve que o paciente apresenta abdomen distendido, o que sugere uma expansão do abdômen causada pela hérnia."
+    },
+    "ME02": {
+      "term_original": "seca",
+      "capitulo": "21",
+      "confidence_embedding": 0.7562,
+      "descricao_cid": "Representação de doença CID-11: Rigidez abdominal. Definição: Rigidez abdominal é a rigidez dos músculos na região da barriga, que pode ser sentida quando tocada ou pressionada",
+      "classification_reasoning": "A descrição do termo 'seca' se refere à rigidez abdominal, pois a paciente apresenta um abdomen distendido e uma incisão cirurgica em região cefalica seca."
+    },
+    "CA22.0": {
+      "term_original": "oxigenioterapia sob névoa",
+      "capitulo": "12",
+      "confidence_embedding": 0.7991,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A escolha do Código CA22.0 se baseia na presença de oxigenioterapia sob névoa, o que sugere a necessidade de suporte ventilatório adicional em razão de uma possível exacerbação da doença pulmonar obstrutiva crônica (DPOC). Além disso, a história clínica do paciente inclui sintomas respiratórios e febre, o que é consistente com a exacerbação de DPOC."
+    },
+    "CC00.1": {
+      "term_original": "febril",
+      "capitulo": "12",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A febre é um sintoma comum em muitas doenças, e não há indicações de que ela esteja relacionada a uma doença pulmonar ou cardiovascular específica. Portanto, o código CC00.1 (Febre aguda não especificada) parece ser a escolha mais precisa para o termo 'febril' no contexto clínico fornecido."
+    }
+  }
+}

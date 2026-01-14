@@ -1,0 +1,167 @@
+{
+  "prontuario_id": 625,
+  "text": "TX RENAL 12 MESES DVR\nCMV TRATADO\nDMID LÁBIL\nPRED 5, FK 1 / 1, SRL < 2, CVD 3,125  X2, MACRODANTINA, OMEPRAZOL S/N, LANTUS 38 / LISPRO 5 / 10 / 8\nS : SONOLENCIA \nO : PA 120/80  P 76  AFEBRIL  PESO 50\nHIPOCORADA\nDEMAIS INALTERADO\nTX RENAL 12 MESES DVR : CR 1,33/ NS FK 4 E SRL < 2\nCMV TRATADO\nDMID LÁBILCOM HBA1C 9,4\nANEMIA\n \n \n ",
+  "entities": {
+    "Achado": [
+      "DVR",
+      "S",
+      "AFEBRIL",
+      "DEMAIS INALTERADO"
+    ],
+    "Abreviação": [
+      "DVR",
+      "CMV",
+      "DMID",
+      "PRED",
+      "FK",
+      "SRL",
+      "CVD",
+      "S/N",
+      "S",
+      "O",
+      "PA",
+      "P",
+      "TX RENAL",
+      "CR 1 , 33/",
+      "NS FK 4",
+      "SRL &lt; 2",
+      "HBA1C 9 , 4"
+    ],
+    "Vírus": [
+      "CMV"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "TRATADO",
+      "O"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TRATADO",
+      "TX RENAL"
+    ],
+    "Doença ou Síndrome": [
+      "DMID",
+      "CMV",
+      "ANEMIA"
+    ],
+    "Sinal ou Sintoma": [
+      "LÁBIL",
+      "SONOLENCIA",
+      "AFEBRIL",
+      "HIPOCORADA"
+    ],
+    "Conceito Qualitativo": [
+      "LÁBIL"
+    ],
+    "Substância Farmacológica": [
+      "PRED",
+      "FK",
+      "SRL",
+      "CVD",
+      "MACRODANTINA",
+      "OMEPRAZOL",
+      "LANTUS",
+      "LISPRO"
+    ],
+    "Substância Química Orgânica": [
+      "PRED",
+      "FK",
+      "SRL",
+      "CVD",
+      "MACRODANTINA",
+      "OMEPRAZOL",
+      "LANTUS",
+      "LISPRO"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "X2",
+      "38",
+      "120/80",
+      "76",
+      "50",
+      "1 / 1",
+      "&lt; 2",
+      "3 , 125",
+      "5 / 10 / 8"
+    ],
+    "Conceito Temporal": [
+      "X2",
+      "12 MESES"
+    ],
+    "Antibiótico": [
+      "MACRODANTINA"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "LANTUS"
+    ],
+    "Hormônio": [
+      "LANTUS",
+      "LISPRO"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PESO"
+    ],
+    "Negação": [
+      "AFEBRIL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 1 , 33/",
+      "NS FK 4",
+      "SRL &lt; 2",
+      "HBA1C 9 , 4"
+    ]
+  },
+  "labels": {
+    "BA02": {
+      "term_original": "afebril",
+      "capitulo": "11",
+      "confidence_embedding": 0.736,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A opção mais precisa para o termo 'afebril' no contexto do prontuário é a doença renal hipertensiva (Código: BA02). Isso porque o termo 'afebril' se refere à ausência de febre, e a doença renal hipertensiva não está relacionada à presença ou ausência de febre. Além disso, a descrição da doença renal hipertensiva (BD02) não menciona febre como sintoma característico."
+    },
+    "BA01": {
+      "term_original": "hipocorada",
+      "capitulo": "11",
+      "confidence_embedding": 0.7529,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A hipocorada se refere à doença cardíaca hipertensiva, que é uma das principais causas de morbidade e mortalidade em pacientes com doenças renais crônicas. Além disso, a presença de DMID LÁBIL e CVD 3,125 X2 também apoia essa escolha."
+    },
+    "1D82": {
+      "term_original": "cmv",
+      "capitulo": "01",
+      "confidence_embedding": 0.7947,
+      "descricao_cid": "Representação de doença CID-11: Doença por citomegalovírus. Definição: Qualquer condição causada por uma infecção por citomegalovírus (CMV). Essas condições são comumente assintomáticas. A transmissão ocorre por contato direto com fluidos corporais infectados.",
+      "classification_reasoning": "A escolha pelo código 1D82 é justificada pela menção à 'CMV tratado' no prontuário, o que sugere uma infecção por citomegalovírus (CMV) tratada. A opção 1D82 é a mais precisa para este termo dentro do contexto clínico."
+    },
+    "5B5K.8": {
+      "term_original": "dmid",
+      "capitulo": "05",
+      "confidence_embedding": 0.7311,
+      "descricao_cid": "Representação de doença CID-11: Deficiência de cromo. Definição: Deficiência em humanos é apenas descrita em pacientes recebendo nutrição parenteral total (NPT) prolongada insuficiente em cromo. Hiperglicemia ou tolerância alterada a glicose podem ocorrer. Elevadas concentrações séricas de ácidos graxos livres, neuropatia, encefalopatia e anormalidades no metabolismo do nitrogênio também são reportadas.",
+      "classification_reasoning": "A presença do termo 'DMID' no contexto clínico e a definição de deficiência de cromo na opção sugerem que o mais provável código CID-11 é 5B5K.8, Deficiência de cromo"
+    },
+    "7A42.4": {
+      "term_original": "sonolencia",
+      "capitulo": "07",
+      "confidence_embedding": 0.7677,
+      "descricao_cid": "Representação de doença CID-11: Hipoventilação relacionada ao sono devida a medicamento ou substância. Definição: Hipoventilação relacionada ao sono devida a medicamento ou substância química é caracterizada primariamente por hipoventilação e hipercapnia crônicas devidas ao uso prolongado de medicamentos ou substâncias químicas conhecidas por deprimirem o drive respiratório e/ou comprometer a mecânica dos músculos respiratórios (p.ex. narcóticos de longa ação, anestésicos, sedativos e relaxantes musculares). Hipoxemia está usualmente também presente. Hipercapnia pode também estar presente durante a vigília em alguns pacientes. Os pacientes podem ser assintomáticos ou se queixar de dispneia, opressão torácica ou fadiga.\r\n\r\nNota: O diagnóstico definitivo requer evidência objetiva baseada em polissonografia com monitorização do dióxido de carbono (CO2) (por medidas arterial, tidal final ou transcutânea) no contexto de uso de substâncias consideradas causadoras dos sintomas.",
+      "classification_reasoning": "A sonolência está relacionada ao uso de medicamento ou substância, considerando o histórico de CMV tratado e uso de opioides como Lantus e Lispro."
+    },
+    "GB42": {
+      "term_original": "dvr",
+      "capitulo": "16",
+      "confidence_embedding": 0.7598,
+      "descricao_cid": "Representação de doença CID-11: Proteinúria ou albuminúria persistente. Definição: Albuminúria persistente > 3mg/mmol de creatinina ou > 30mg/dia é considerada anormal, indicativa e frequentemente a primeira manifestação de doença renal crônica (DRC). Na vigilância da DRC em pacientes “em risco”, como diabéticos, a análise de urina para albuminúria é recomendada pela maioria das diretrizes de prática clínica. Este diagnóstico não se refere à proteinúria intermitente, como na proteinúria ortostática ou induzida por exercício, nem à proteinúria não albuminúrica, como a proteinúria de Bence Jones (cadeia leve de imunoglobulina).",
+      "classification_reasoning": "O termo 'dvr' está relacionado à representação de doença renal crônica, especificamente à proteinúria persistente. A opção GB42 melhor se adapta ao contexto clínico, que menciona TX RENAL 12 MESES DVR e SRL < 2, indicando uma monitoração da função renal e a presença de albuminúria persistente."
+    },
+    "3A71.2": {
+      "term_original": "anemia",
+      "capitulo": "03",
+      "confidence_embedding": 0.8303,
+      "descricao_cid": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "Anemia na doença renal crônica é a mais precisa opção para o termo 'anemia' dentro do contexto clínico, pois a paciente tem doença renal crônica e HBA1C de 9,4, indicando anemia relacionada à doença renal."
+    }
+  }
+}

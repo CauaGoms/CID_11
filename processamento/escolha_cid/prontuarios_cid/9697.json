@@ -1,0 +1,192 @@
+{
+  "prontuario_id": 460,
+  "text": "pos tx renal.\nTx renal há 11 meses.\nCr 1,21.\ndor incapacitante.\neosinofilia persistente.\nconstipação e empachamento.\nonicomicose.\nFK 3,0 (2 exames seguidos).\nDM mal controlado.\n \n \nTx renal dez/2013.\nMET 5, MS 2 / 1, FK 1 / 1, OMP 40, Amiodarona 200, ATN 50 x2, PT4 100, NPH 30 / 10 / 10, R 10 / 10 / 5.\ninternamento em maio/14 por lesão L5-S1 e diarreia aguda.\ncadeirante por lombociatalgia.\nobesidade, constipação.\nonicomicose.\n\nS: Refere melhora da obstipação com Metamucyl. Ainda cadeirante. Queixa de insônia.\n\nO: peso 80kg,  PA 150 x 80,  abdomen distendido,",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "constipação",
+      "empachamento",
+      "lombociatalgia",
+      "Queixa",
+      "dor incapacitante",
+      "diarreia aguda",
+      "abdomen distendido"
+    ],
+    "Doença ou Síndrome": [
+      "onicomicose",
+      "obesidade",
+      "DM mal controlado"
+    ],
+    "Substância Química Orgânica": [
+      "MET",
+      "MS",
+      "FK",
+      "OMP",
+      "Amiodarona",
+      "ATN",
+      "Metamucyl"
+    ],
+    "Abreviação": [
+      "MET",
+      "MS",
+      "FK",
+      "OMP",
+      "ATN",
+      "PT4",
+      "NPH",
+      "R",
+      "PA",
+      "tx renal",
+      "Tx renal",
+      "Cr 1 , 21",
+      "FK 3 , 0",
+      "DM mal controlado"
+    ],
+    "Substância Farmacológica": [
+      "MET",
+      "MS",
+      "FK",
+      "OMP",
+      "Amiodarona",
+      "ATN",
+      "PT4",
+      "NPH",
+      "R",
+      "Metamucyl"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "40",
+      "200",
+      "100",
+      "80kg",
+      "2 / 1",
+      "1 / 1",
+      "50 x2",
+      "30 / 10 / 10",
+      "10 / 10 / 5",
+      "150 x 80"
+    ],
+    "Hormônio": [
+      "NPH",
+      "R"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "NPH"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "internamento"
+    ],
+    "Achado": [
+      "cadeirante",
+      "melhora da obstipação"
+    ],
+    "Atributo Clínico": [
+      "peso",
+      "PA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "tx renal",
+      "Tx renal"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Cr 1 , 21",
+      "eosinofilia persistente"
+    ],
+    "Lesão ou Envenenamento": [
+      "lesão L5-S1"
+    ]
+  },
+  "labels": {
+    "FA80.8": {
+      "term_original": "lombociatalgia",
+      "capitulo": "15",
+      "confidence_embedding": 0.7239,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A lombociatalgia mencionada no contexto clínico se refere à degeneração do disco intervertebral da coluna lombar sem prolapso de disco, considerando a história de lesão L5-S1 e dor incapacitante."
+    },
+    "MD81": {
+      "term_original": "dor incapacitante",
+      "capitulo": "21",
+      "confidence_embedding": 0.7548,
+      "descricao_cid": "Representação de doença CID-11: Dor abdominal ou pélvica. Definição: Dor, uma sensação desagradável de desconforto ocorrendo em variados graus de intensidade, recebida pelas terminações nervosas na região abdominal e pélvica.",
+      "classification_reasoning": "A dor incapacitante apresentada pelo paciente é descrita como uma sensação desagradável de desconforto ocorrendo em variados graus de intensidade, recebida pelas terminações nervosas na região abdominal e pélvica. Como a paciente tem história de tx renal há 11 meses e dor incapacitante, a opção mais precisa é MD81: Dor abdominal ou pélvica."
+    },
+    "DA90.0": {
+      "term_original": "diarreia aguda",
+      "capitulo": "13",
+      "confidence_embedding": 0.8044,
+      "descricao_cid": "Representação de doença CID-11: Diarreia sindrômica. Definição: Diarreia sindrômica, também conhecida como diarreia fenotípica ou síndrome trico-hepato-entérica, é uma enteropatia congênita que se apresenta com início precoce de diarreia grave exigindo uso de nutrição parenteral (NP), associada a dismorfismo facial, cabelo lanoso e pouco pigmentado, e doença hepática, com fibrose ou cirrose extensa, em cerca de metade dos pacientes.",
+      "classification_reasoning": "A opção mais precisa para o termo 'diarreia aguda' no contexto clínico é a Diarreia Sindrômica (DA90.0), pois há menção à diarreia grave e necessidade de nutrição parenteral no prontuário, o que é característico da doença."
+    },
+    "FA25": {
+      "term_original": "cadeirante",
+      "capitulo": "15",
+      "confidence_embedding": 0.7328,
+      "descricao_cid": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato.",
+      "classification_reasoning": "A paciente é cadeirante e apresenta dor incapacitante, o que sugere uma lesão muscular ou articular crônica. Além disso, a eosinofilia persistente e a constipação sugerem possivelmente um processo inflamatório ou reumático subjacente. A gota (FA25) é uma das opções mais precisas para o termo 'cadeirante' no contexto clínico."
+    },
+    "NB90.7": {
+      "term_original": "lesão l5-s1",
+      "capitulo": "22",
+      "confidence_embedding": 0.7406,
+      "descricao_cid": "Representação de doença CID-11: Lesão de múltiplos vasos sanguíneos ao nível do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A lesão L5-S1 refere-se a uma lesão ao nível do abdome, região lombar ou pelve, o que coincide com a descrição do código NB90.7."
+    },
+    "DD50.0": {
+      "term_original": "abdomen distendido",
+      "capitulo": "13",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A descrição do termo 'abdomen distendido' se refere a uma representação de doença CID-11: Hérnia de parede não abdominal, não especificada. Embora haja opções mais específicas como DD50.Y e DD50.2, o termo 'distendido' sugere uma expansão anormal do abdômen, não necessariamente relacionada a uma hérnia intra-abdominal (DD50.2). Além disso, a ausência de sintomas agudos ou de dor intensa não justificam a escolha da apendicite aguda (DB10.0) como opção mais precisa."
+    },
+    "MF96": {
+      "term_original": "queixa",
+      "capitulo": "21",
+      "confidence_embedding": 0.7846,
+      "descricao_cid": "Representação de doença CID-11: Proteinúria. Definição: O excesso de proteínas séricas na urina, como na doença renal, em que a albumina é a proteína principal, porém também pode ser devido a outras proteínas, como imunoglobulinas de cadeias leves na discrasia de células plasmáticas como o mieloma múltiplo.",
+      "classification_reasoning": "A queixa refere-se à obstipação e insônia, o que não está diretamente relacionado às complicações renais. A eosinofilia persistente pode ser um sinal de doença inflamatória, mas a queixa parece mais se referir à síndrome do intestino irritável ou ao estresse psicológico decorrente da cadeirante e dor incapacitante."
+    },
+    "MF54.2": {
+      "term_original": "melhora da obstipação",
+      "capitulo": "21",
+      "confidence_embedding": 0.7933,
+      "descricao_cid": "Representação de doença CID-11: Hipoplasia renal. Definição: Condição caracterizada por um rim menor em tamanho e peso do que a média (menos de 11 centímetros de comprimento, 5-7,5 centímetros de largura, 2,5 centímetros de espessura e pesando menos de 120 gramas).",
+      "classification_reasoning": "A melhora da obstipação referida pelo paciente sugere uma relação com a constipação e empachamento mencionados no contexto, o que é consistente com a hipoplasia renal, um fenômeno notável em pacientes com doenças renais crônicas."
+    },
+    "DA94.22": {
+      "term_original": "constipação",
+      "capitulo": "13",
+      "confidence_embedding": 0.773,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de enterocolite induzida por proteína alimentar. Definição: Inflamação crônica persistente com hipersensibilidade não mediada por IgE e mediada por células no trato intestinal, que afeta primariamente crianças. Os alimentos causadores mais comuns são: leite de vaca, soja, arroz, aveia, carne. Nos casos de exposição crônica, os sintomas mais frequentes são vômitos, diarreia, crescimento comprometido e letargia. Quando reexposto após restrição, o paciente pode apresentar vômitos, diarreia e hipotensão (15%) 2 horas após a ingestão.",
+      "classification_reasoning": "A constipação é um sintoma comum em pacientes com doenças gastrointestinais, como síndrome de enterocolite induzida por proteína alimentar (entretanto, não há indicação específica de alérgico ou intolerância a determinado alimento). A paciente apresenta constipação e empachamento, o que pode estar relacionado à obesidade e ao tratamento renal. Além disso, a eosinofilia persistente também sugere uma possível resposta imune envolvida."
+    },
+    "EE12.1": {
+      "term_original": "onicomicose",
+      "capitulo": "14",
+      "confidence_embedding": 0.7339,
+      "descricao_cid": "Representação de doença CID-11: Onicomicose. Definição: Infecção fúngica das unhas das mãos e/ou dos pés devida mais comumente a dermatófitos (tinea unguium ou tinha ungueal) ou leveduras, especialmente espécies de Candida.",
+      "classification_reasoning": "A onicomicose está clinicamente descrita no prontuário como um sintoma presente há muito tempo, e não há outro termo que se ajuste melhor à descrição da doença."
+    },
+    "DD50": {
+      "term_original": "empachamento",
+      "capitulo": "13",
+      "confidence_embedding": 0.7349,
+      "descricao_cid": "Representação de doença CID-11: Hérnia de parede não abdominal. Definição: Hérnia que ocorre através do forame no diafragma, na parede pélvica e em outra abertura coberta por peritônio mas não através da parede abdominal.",
+      "classification_reasoning": "A opção mais precisa para o termo 'empachamento' é a hérnia de parede não abdominal, pois a descrição apresentada no contexto do prontuário refere-se à distensão abdominal, que é um sintoma comum associado a essa condição."
+    },
+    "5B81.01": {
+      "term_original": "obesidade",
+      "capitulo": "05",
+      "confidence_embedding": 0.8136,
+      "descricao_cid": "Representação de doença CID-11: Obesidade em adultos. Definição: A obesidade é definida como um índice de massa corporal (IMC) maior ou igual a 30,0 kg/m². Existem três níveis de gravidade em reconhecimento das diferentes opções de gerenciamento.",
+      "classification_reasoning": "A escolha foi feita porque o paciente tem obesidade, como referenciado no prontuário, e a categoria de IMC maior ou igual a 30,0 kg/m² é adequada para adultos."
+    },
+    "5C78": {
+      "term_original": "dm mal controlado",
+      "capitulo": "05",
+      "confidence_embedding": 0.7753,
+      "descricao_cid": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem.",
+      "classification_reasoning": "A hipervolume de líquidos está relacionada ao DM mal controlado, o que pode levar a um excesso de sódio no sangue e consequente aumento da água corporal extracelular."
+    }
+  }
+}

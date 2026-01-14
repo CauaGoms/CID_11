@@ -1,0 +1,127 @@
+{
+  "prontuario_id": 879,
+  "text": "# Lucas, 50 ANOS, \n# QUEDA DE CABELO E SOBRANCELHA HÁ 2 ANOS - AFF ?\n# HIPERCROMIA RESIDUAL PÓS DC - BRAÇOS\n# HIPOTIROIDISMO\n# S: REFRE PERSISTENCIA DE PRURIDO E QUEDA DE PELOS DE CABELO E SOBRAMCELHA\nAP DE BX REGIAÕ FRONTAL 17/12/15 \n15 / B06146: ASPECTO CONDIZENTE COM ALOPECIA CICATRICIAL COM INFLAMAÇÃO CRONICA E FIBROSE PERIFOLICULAR SUPERFICIAL- ALOPECIA FRONTAL FIBROSANTE\n# O: RAREFAÇÃO DE SOBRANCELHAS BILATERALMENTE E REGIÃO FRONTAL DIFUSAMENTE\nDESCAMAÇÃO FINA DIFUSA EM CC\nMANCHAS HIPERCRÔMICAS EM MÃOS E PUNHOS\n# A:\nAFF\nCD ?: LAB GERAL PARA INICIO HCQ\nR2 Doutor Vital Brazil ",
+  "entities": {
+    "Abreviação": [
+      "AFF",
+      "DC",
+      "CC",
+      "CD",
+      "HCQ",
+      "R2",
+      "LAB GERAL"
+    ],
+    "Doença ou Síndrome": [
+      "AFF",
+      "DC",
+      "HIPOTIROIDISMO",
+      "ALOPECIA CICATRICIAL COM INFLAMAÇÃO CRONICA",
+      "FIBROSE PERIFOLICULAR SUPERFICIAL-",
+      "ALOPECIA FRONTAL FIBROSANTE"
+    ],
+    "Conceito Temporal": [
+      "PÓS"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "BRAÇOS",
+      "CABELO",
+      "SOBRAMCELHA",
+      "CC",
+      "MÃOS",
+      "PUNHOS"
+    ],
+    "Sinal ou Sintoma": [
+      "PRURIDO",
+      "QUEDA DE CABELO E SOBRANCELHA",
+      "HIPERCROMIA RESIDUAL",
+      "QUEDA DE PELOS",
+      "RAREFAÇÃO DE SOBRANCELHAS",
+      "DESCAMAÇÃO FINA DIFUSA",
+      "MANCHAS HIPERCRÔMICAS"
+    ],
+    "Procedimento Diagnóstico": [
+      "AP",
+      "BX"
+    ],
+    "Localização ou Região Corporal": [
+      "FRONTAL"
+    ],
+    "Conceito Espacial": [
+      "BILATERALMENTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CD",
+      "INICIO"
+    ],
+    "Substância Química Orgânica": [
+      "HCQ"
+    ],
+    "Substância Farmacológica": [
+      "HCQ"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "R2"
+    ],
+    "Procedimento Laboratorial": [
+      "LAB GERAL"
+    ]
+  },
+  "labels": {
+    "EC21.2": {
+      "term_original": "hipercromia residual",
+      "capitulo": "14",
+      "confidence_embedding": 0.7438,
+      "descricao_cid": "Representação de doença CID-11: Alopecia hereditária ou hipotricose. Definição: Ausência ou rarefação dos cabelos geneticamente determinada.",
+      "classification_reasoning": "A hipercromia residual está relacionada à alopecia, e o termo é mais preciso para a descrição de 'alopecia hereditária ou hipotricose' que EC21.2."
+    },
+    "ED70.5": {
+      "term_original": "descamação fina difusa",
+      "capitulo": "14",
+      "confidence_embedding": 0.7904,
+      "descricao_cid": "Representação de doença CID-11: Alopecia cicatricial. Definição: Queda de cabelos em que há dano irreversível ao folículo piloso por inflamação, infecção, infiltração maligna ou trauma, resultando em destruição do folículo e cicatrização por fibrose. Regeneração não ocorre uma vez que o folículo é destruído.",
+      "classification_reasoning": "A descrição do termo 'descamação fina difusa' sugere uma lesão crônica e inflamatória na pele, o que é compatível com a alopecia cicatricial. Além disso, a presença de hipercromia residual pós DC no braço e manchas hipercrônicas em mãos e punhos também sugerem uma lesão cutânea crônica."
+    },
+    "ME64.3": {
+      "term_original": "queda de cabelo e sobrancelha",
+      "capitulo": "21",
+      "confidence_embedding": 0.7215,
+      "descricao_cid": "Representação de doença CID-11: Petéquias. Definição: Petéquias resultam do vazamento focal de sangue dos capilares da derme para o tecido conjuntivo dérmico adjacente. Apresentam-se como múltiplas máculas pontuais, vermelhas ou roxas, que não desaparecem à digitopressão. As muitas causas subjacentes variam de condições inócuas (p.ex., tosse ou esforço) a condições de risco de vida (p.ex., septicemia meningocócica).",
+      "classification_reasoning": "A escolha pelo código ME64.3 é baseada na descrição de 'queda de cabelo e sobrancelha' que pode estar relacionada à Petéquias, uma condição caracterizada por representação de doença CID-11: Petéquias, que apresenta múltiplas máculas pontuais vermelhas ou roxas na pele. Embora não haja explicitamente mencionado, a perda de cabelo e sobrancelha pode estar associada à patologia subjacente."
+    },
+    "ME65.1": {
+      "term_original": "prurido",
+      "capitulo": "21",
+      "confidence_embedding": 0.779,
+      "descricao_cid": "Representação de doença CID-11: Prurido. Definição: Sensação de prurido na pele. Para prurido persistente de causa desconhecida, o termo \"Prurido de causa desconhecida\" deve ser usado.",
+      "classification_reasoning": "O termo 'prurido' é diretamente relacionado à descrição do paciente, que refere-se à persistência de prurido e queda de pelos no cabelo e sobrancelhas."
+    },
+    "5A80.0": {
+      "term_original": "aff",
+      "capitulo": "05",
+      "confidence_embedding": 0.7494,
+      "descricao_cid": "Representação de doença CID-11: Hiperandrogenismo clínico. Definição: Presença de hirsutismo, acne ou alopecia androgênica (queda de cabelo no couro cabeludo em mulheres).",
+      "classification_reasoning": "A presença de queda de cabelo e sobrancelhas há 2 anos, associada a hipercromia residual pós DC e manchas hiper-crônicas em mãos e punhos, sugere que o termo 'AFF' pode estar relacionado ao hiperandrogenismo clínico (alopecia androgênica)."
+    },
+    "5A61.0": {
+      "term_original": "hipotiroidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.7717,
+      "descricao_cid": "Representação de doença CID-11: Hipopituitarismo. Definição: Transtorno que manifesta deficiência ou diminuição de um ou mais hormônios hipofisários, que é causado por várias doenças , tais como tumor, traumatismo/cirurgia, irradiação, inflamação e hemorragia/infarto.",
+      "classification_reasoning": "A escolha do código 5A61.0 está justificada pelo fato de o paciente ter hipotiroidismo, que é um tipo de hipopituitarismo, uma disfunção da glândula pituitária responsável pela produção de hormônios que regulam a função tireoidiana."
+    },
+    "FA27.1": {
+      "term_original": "alopecia cicatricial com inflamação cronica",
+      "capitulo": "15",
+      "confidence_embedding": 0.6648,
+      "descricao_cid": "Representação de doença CID-11: Sinovite vilonodular pigmentada. Definição: Esta condição caracteriza-se pela proliferação da membrana sinovial, com formação de vilosidades e nódulos fibrosos e histologicamente caracterizada por macrófagos contendo hemossiderina e lípidos e células gigantes multinucleadas. Geralmente manifesta-se no joelho e no quadril, e é frequentemente diagnosticada por Ressonância Magnética",
+      "classification_reasoning": "A escolha do código FA27.1 se baseia na descrição de alopecia cicatricial com inflamação crônica, que caracteriza a sinovite vilonodular pigmentada. A presença de inflamação crônica e fibrose perifolicular superficial sugere essa condição."
+    },
+    "FB51.4": {
+      "term_original": "fibrose perifolicular superficial-",
+      "capitulo": "15",
+      "confidence_embedding": 0.6716,
+      "descricao_cid": "Representação de doença CID-11: Fibrose retroperitoneal. Definição: Fibrose retroperitoneal (FRP) é uma doença caracterizada pela formação de extensa proliferação de tecido fibroso no retroperitônio, resultando em encarceramento e obstrução de estruturas retroperitoneais, particularmente os ureteres. A FRP pode ser classificada em primária (idiopática), o que significa que sua causa não é conhecida, ou secundária. No entanto, sua associação com várias condições imunomediadas e sua resposta ao tratamento imunossupressor têm levado á especulação de etiologia autoimune para a FRP idiopática. Um terço dos casos são secundários a neoplasias malignas, medicamentos, traumatismo e algumas infecções.",
+      "classification_reasoning": "A opção mais precisa para o termo 'fibrose perifolicular superficial' é a Fibrose Retroperitoneal (FB51.4), pois a descrição da condição menciona proliferação de tecido fibroso no retroperitônio, resultando em encarceramento e obstrução de estruturas retroperitoneais."
+    }
+  }
+}

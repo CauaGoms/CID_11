@@ -1,0 +1,147 @@
+{
+  "prontuario_id": 940,
+  "text": "TX RENAL.\nEM USO DE TAXCROLIMO 2/1, PRED 5, MS 2/1, ENALAPRIL 10 2X, ATENOLOL 50 2X, OMEPRAZOL, SIONVASTATINA 20.\n\nS # INCHAÇO NA FACE A DIREITA.\n\nO # PESO 51,\nPA 110,\nMASSA ENDURECIDA EM REGIÃO PERIMANDIBULAR A DIREITA,\nLINFONODO PALPAVEL.\nDEMAIS SP.\n \nENCAMINHO CX CABECA E PESCOÇO COM URGENCIA.\nRX  FACE.\n\nTX > RETORNO HABITUAL,\nTX RENAL CR 0,8, TACROLIMO 11;\nHAS COMPENSADO;\nLESÃO FACE > TUMOR ÓSSEO ? PAROTIDA ?\n ",
+  "entities": {
+    "Substância Química Orgânica": [
+      "TAXCROLIMO",
+      "PRED",
+      "MS",
+      "ATENOLOL",
+      "OMEPRAZOL",
+      "SIONVASTATINA"
+    ],
+    "Substância Farmacológica": [
+      "TAXCROLIMO",
+      "PRED",
+      "MS",
+      "ENALAPRIL",
+      "ATENOLOL",
+      "OMEPRAZOL",
+      "SIONVASTATINA",
+      "TACROLIMO"
+    ],
+    "Conceito Quantitativo": [
+      "2/1",
+      "5",
+      "20",
+      "51",
+      "110",
+      "11"
+    ],
+    "Abreviação": [
+      "PRED",
+      "MS",
+      "S",
+      "O",
+      "PA",
+      "TX",
+      "TX RENAL",
+      "DEMAIS SP",
+      "CX CABECA E PESCOÇO",
+      "RX FACE",
+      "HAS COMPENSADO"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "ENALAPRIL"
+    ],
+    "Achado": [
+      "S",
+      "TX RENAL",
+      "DEMAIS SP",
+      "HAS COMPENSADO"
+    ],
+    "Função Patológica": [
+      "INCHAÇO"
+    ],
+    "Sinal ou Sintoma": [
+      "INCHAÇO",
+      "MASSA ENDURECIDA",
+      "LINFONODO PALPAVEL",
+      "LESÃO FACE"
+    ],
+    "Atributo Clínico": [
+      "PESO",
+      "PA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ENCAMINHO",
+      "RETORNO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PAROTIDA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Localização ou Região Corporal": [
+      "FACE A DIREITA",
+      "REGIÃO PERIMANDIBULAR A DIREITA"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "CX CABECA E PESCOÇO"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CX CABECA E PESCOÇO"
+    ],
+    "Procedimento Diagnóstico": [
+      "RX FACE"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 8"
+    ],
+    "Processo Neoplásico": [
+      "TUMOR ÓSSEO"
+    ]
+  },
+  "labels": {
+    "FA25.20": {
+      "term_original": "inchaço",
+      "capitulo": "15",
+      "confidence_embedding": 0.7289,
+      "descricao_cid": "Representação de doença CID-11: Gota tofácea. Definição: Os tofos são deposições de cristais de urato monossódico nos tecidos de pacientes com hiperuricemia e podem estar associados a outras manifestações como a artropatia da gota. Eles são identificados principalmente na pele e no tecido subcutâneo. A hélice da orelha é uma das localizações mais comuns de acometimento dos tofos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'inchaço' é a Gota tofácea (FA25.20), pois a descrição menciona deposições de cristais de urato na pele e tecido subcutâneo, o que se relaciona ao inchaço descrito no contexto clínico."
+    },
+    "2B67": {
+      "term_original": "tumor ósseo",
+      "capitulo": "02",
+      "confidence_embedding": 0.7584,
+      "descricao_cid": "Representação de doença CID-11: Neoplasias malignas da glândula parótida. Definição: Os tumores das glândulas salivares podem mostrar uma gama impressionante de diversidade morfológica entre os diferentes tipos de tumor e, às vezes, dentro de uma massa tumoral individual. Além disso, nos tumores híbridos, a desdiferenciação e propensão de alguns tumores benignos progredirem para malignidade podem confundir a interpretação histopatológica. Essas características, juntamente com a relativa raridade de uma série de tumores, às vezes podem dificultar o diagnóstico, apesar da abundância de entidades tumorais nomeadas. O uso crescente de biópsias aspirativas com agulha fina no pré-operatório também deve ser levado em consideração, uma vez que alterações artificiais podem estar sobrepostas aos tumores. Infelizmente, a variabilidade morfológica desses tumores é espelhada pelos perfis imunocitoquímicos, de modo que colorações especiais raramente são úteis no diagnóstico de rotina de neoplasias epiteliais de glândulas salivares.",
+      "classification_reasoning": "Considerando a presença de inchaço na face à direita, massa endurecida em região perimandibular à direita e linfonodo palpável, mais a existência do termo \"tumor ósseo\", é mais provável que o tumor seja uma neoplasia maligna da glândula parótida."
+    },
+    "FA26.1": {
+      "term_original": "massa endurecida",
+      "capitulo": "15",
+      "confidence_embedding": 0.696,
+      "descricao_cid": "Representação de doença CID-11: Doença por deposição de hidroxiapatita. Definição: A doença por deposição de cristais de hidroxiapatita de cálcio é caracterizada pela presença de cristais de fosfato de cálcio básico - predominantemente hidroxiapatita - em tecidos moles periarticulares, especialmente os tendões. Essa entidade é melhor reconhecida como \"tendinite calcificada\" no local mais frequente de acometimento no ombro, mas manifesta-se em vários outros locais, com a denominação mais adequada de periartrite calcificada.",
+      "classification_reasoning": "A massa endurecida na região perimandibular à direita é mais provável ser uma lesão por deposição de hidroxiapatita, considerando a presença de lesão facial e tendência ao aumento de massas nos tecidos moles periarticulares. Além disso, a ausência de outras características clínicas que sugiram outra patologia, como radiculite ou doença reumatoide, também apoia essa escolha."
+    },
+    "GB90.0": {
+      "term_original": "linfonodo palpavel",
+      "capitulo": "16",
+      "confidence_embedding": 0.7769,
+      "descricao_cid": "Representação de doença CID-11: Nefroptose. Definição: Maior mobilidade do rim resultando em ptose quando o paciente está em pé. Mais comum à direita, associado a uma artéria renal mais longa e discutivelmente associado a hiperplasia fibromuscular e hipertensão.",
+      "classification_reasoning": "A opção mais precisa para o termo 'linfonodo palpável' é a nefroptose (Código: GB90.0), pois a presença de um linfonodo palpável na região perimandibular direita sugere uma lesão ou doença renal, como a ptose renal."
+    },
+    "BD71.2": {
+      "term_original": "tx renal",
+      "capitulo": "11",
+      "confidence_embedding": 0.7381,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A opção mais precisa para o termo 'tx renal' é a trombose da veia renal, pois há menção à doença renal e ao uso de taxrolimo em terapia."
+    },
+    "QA30.Z": {
+      "term_original": "demais sp",
+      "capitulo": "24",
+      "confidence_embedding": 0.7447,
+      "descricao_cid": "Representação de doença CID-11: Contato com os serviços de saúde para reprodução medicamente assistida, não especificado. Definição: ",
+      "classification_reasoning": "A opção mais precisa é QA30.Z porque o termo 'demais sp' sugere um contato com os serviços de saúde não especificado relacionado à reprodução medicamente assistida, tendo em vista que a paciente está em uso de taxrolimo e outras medicações para tratamento renal."
+    },
+    "AA12": {
+      "term_original": "lesão face",
+      "capitulo": "10",
+      "confidence_embedding": 0.6913,
+      "descricao_cid": "Representação de doença CID-11: Condrodermatite nodular. Definição: Nódulo ou úlcera doloroso comum induzido por pressão que afeta a orelha externa. Resulta de isquemia de pele e cartilagem subjacente a partir de um ponto focal de alta pressão pelo peso da cabeça em decúbito. A localização envolvida depende da forma do pavilhão auricular (mais comumente a hélice está envolvida, mas em alguns indivíduos é a anti-hélice que é mais proeminente) e de se o paciente está limitado a dormir de um lado apenas e, portanto, é incapaz de poupar a orelha da pressão constante ao se deitar na cama.",
+      "classification_reasoning": "A lesão facial descrita como uma massa endurecida na face direita e linfonodo palpável sugere a possibilidade de condrodermatite nodular, doença caracterizada pela formação de nódulos dolorosos e úlceras na orelha externa."
+    }
+  }
+}

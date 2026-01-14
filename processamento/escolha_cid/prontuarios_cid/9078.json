@@ -1,0 +1,168 @@
+{
+  "prontuario_id": 490,
+  "text": "Sedado, ainda anisocorico, D > E, presença de rinorreia acentuada, mantendo colar cervical de philadelphia, Sob VM, modo PCV, PI = 45, PEEP = 12, FIO2 = 96%, Hemodinamicamente instavel em uso de noradrenalina, AVP em MSD, Abdome distendido, estase gastrica. CONCUSSAO CEREBRAL. Em 07/08/2007, 09:59h: Acordado, alerta, responsivo, mucosas coradas e hidratadas. Mantém SNE para alimentação por bomba infusora. Apresenta abdome plano, flácido, indolor à palpação, RHA +. Diurese limpida em bom volume, não evacuou nas últimas 18h. FRATURA DA DIAFISE DA TIBIA. Às 09:42h: Acordado, alerta, responsivo, corado, hidratado. Mantém SNE para alimentação por bomba infusora. Apresenta abdome globoso, flácido, indolor à palpação, RHA +. Diurese limpida em bom volume, não evacuou (fezes pastosas). FRATURA DA DIAFISE DO FEMUR.",
+  "entities": {
+    "Procedimento Terapêutico ou Preventivo": [
+      "Sedado",
+      "VM",
+      "PI",
+      "PEEP",
+      "FIO2",
+      "AVP",
+      "colar cervical de philadelphia",
+      "modo PCV",
+      "SNE para alimentação"
+    ],
+    "Sinal ou Sintoma": [
+      "anisocorico",
+      "globoso",
+      "rinorreia acentuada",
+      "Hemodinamicamente instavel",
+      "Abdome distendido",
+      "estase gastrica"
+    ],
+    "Abreviação": [
+      "VM",
+      "PI",
+      "PEEP",
+      "FIO2",
+      "AVP",
+      "MSD",
+      "D &gt; E",
+      "modo PCV",
+      "SNE para alimentação",
+      "RHA +"
+    ],
+    "Conceito Quantitativo": [
+      "45",
+      "12",
+      "96%"
+    ],
+    "Hormônio": [
+      "noradrenalina"
+    ],
+    "Substância Farmacológica": [
+      "noradrenalina"
+    ],
+    "Substância Química Orgânica": [
+      "noradrenalina"
+    ],
+    "Dispositivo Médico": [
+      "AVP",
+      "colar cervical de philadelphia"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD",
+      "abdome"
+    ],
+    "Achado": [
+      "Acordado",
+      "alerta",
+      "responsivo",
+      "coradas",
+      "hidratadas",
+      "plano",
+      "flácido",
+      "limpida",
+      "corado",
+      "hidratado",
+      "evacuou",
+      "indolor à palpação",
+      "RHA +",
+      "bom volume",
+      "fezes pastosas"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "mucosas"
+    ],
+    "Negação": [
+      "não"
+    ],
+    "Função Fisiológica": [
+      "evacuou"
+    ],
+    "Lesão ou Envenenamento": [
+      "CONCUSSAO CEREBRAL",
+      "FRATURA DA DIAFISE DA TIBIA",
+      "FRATURA DA DIAFISE DO FEMUR"
+    ],
+    "Dispositivo de Administração de Medicamento": [
+      "bomba infusora"
+    ],
+    "Conceito Qualitativo": [
+      "bom volume"
+    ]
+  },
+  "labels": {
+    "NB52.1Y": {
+      "term_original": "fratura da diafise do femur",
+      "capitulo": "22",
+      "confidence_embedding": 0.7472,
+      "descricao_cid": "Representação de doença CID-11: Fratura de outro osso pélvico especificado sem ruptura do arco posterior do anel pélvico. Definição: ",
+      "classification_reasoning": "A fratura da diafise do femur é uma lesão óssea que envolve o osso longo da perna, e não há relação com a base do crânio (NA02.1) ou lesões nervosas (NC74.1). Além disso, as opções NB52.1Z e NA02.01 são mais genéricas e não especificam qual é o osso pélvico ou parietal afetado. A escolha pela opção NB52.1Y se justifica porque a fratura da diafise do femur está descrita no contexto clínico e não há indícios de lesões mais complexas ou envolvendo outros ossos."
+    },
+    "VV3Y": {
+      "term_original": "rha +",
+      "capitulo": "V",
+      "confidence_embedding": 0.6866,
+      "descricao_cid": "Representação de doença CID-11: Outras funções dos sistemas cardiovascular, hematológico, imunológico e respiratório, especificadas. Definição: ",
+      "classification_reasoning": "O termo 'RHA +' refere-se a uma função do sistema cardiovascular, hematológico e imunológico não especificada, o que justifica a escolha do código VV3Y."
+    },
+    "8B24": {
+      "term_original": "concussao cerebral",
+      "capitulo": "08",
+      "confidence_embedding": 0.7738,
+      "descricao_cid": "Representação de doença CID-11: Encefalopatia hipóxico-isquêmica. Definição: Dano cerebral devido à hipóxia-isquemia: o termo anterior \"Dano cerebral anóxico\" foi alterado. O novo termo é agora amplamente aceito e descreve melhor a fisiopatologia, ou seja, a combinação de isquemia cerebral global transitória completa e incompleta juntamente com uma combinação de anóxia e hipóxia. Em um paciente sobrevivente, a encefalopatia anóxica pura é muito incomum.",
+      "classification_reasoning": "A descrição de 'concussao cerebral' se ajusta melhor ao termo CID-11 Código 8B24, que define Encefalopatia hipóxico-isquêmica, ou seja, dano cerebral causado por hipóxia e isquemia. Isso é consistente com a descrição de sedação e anisocoria, além da presença de rinorreia e da concussão cerebral mencionada no prontuário."
+    },
+    "NB52.1Z": {
+      "term_original": "fratura da diafise da tibia",
+      "capitulo": "22",
+      "confidence_embedding": 0.7616,
+      "descricao_cid": "Representação de doença CID-11: Fratura do osso pélvico não especificado sem ruptura do arco posterior do anel pélvico. Definição: ",
+      "classification_reasoning": "A fratura descrita como 'fratura da diafise da tibia' se refere a uma lesão óssea no fêmur ou tibia, e não ao crânio (NA02.x) ou pélvico (NB52.y). A opção NB52.1Z é mais precisa porque não especifica qual osso pélvico foi fraturado, o que é consistente com a descrição da fratura na clínica."
+    },
+    "ME05.0": {
+      "term_original": "fezes pastosas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7264,
+      "descricao_cid": "Representação de doença CID-11: Constipação. Definição: A constipação é uma condição aguda ou crônica na qual os movimentos intestinais ocorrem com menor frequência do que o normal ou consiste em fezes secas e duras que costumam ser dolorosas ou difíceis de evacuar. Aqui está descrita a constipação que não está especificamente descrita em outra parte, como em transtornos da motilidade do intestino ou em doenças funcionais do intestino.",
+      "classification_reasoning": "A descrição do termo 'fezes pastosas' sugere a presença de constipação, que é caracterizada por fezes secas e duras que são dolorosas ou difíceis de evacuar."
+    },
+    "ME01": {
+      "term_original": "indolor à palpação",
+      "capitulo": "21",
+      "confidence_embedding": 0.7384,
+      "descricao_cid": "Representação de doença CID-11: Distensão abdominal. Definição: Esta é uma condição em que o abdômen parece cheio e tenso por causa do inchaço do abdômen, geralmente devido a um aumento da quantidade de gases intestinais, mas ocorre às vezes quando fluidos, substâncias ou massa estão se acumulando ou se expandindo no abdômen.",
+      "classification_reasoning": "A descrição de 'indolor à palpação' refere-se ao abdome, o que sugere distensão abdominal (distension of the abdomen) em vez de dor ou lesão muscular."
+    },
+    "DA60.3": {
+      "term_original": "estase gastrica",
+      "capitulo": "13",
+      "confidence_embedding": 0.7822,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A presença de 'estase gastrica' no contexto do prontuário sugere que há uma lesão aguda da mucosa gástrica, caracterizando úlceras de estresse do estômago. A opção DA60.3 é a mais precisa para o termo dentro do contexto clínico."
+    },
+    "BD10": {
+      "term_original": "hemodinamicamente instavel",
+      "capitulo": "11",
+      "confidence_embedding": 0.7455,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos.",
+      "classification_reasoning": "A opção mais precisa é a insuficiência cardíaca congestiva (Código: BD10), pois o termo 'hemodinamicamente instável' refere-se à instabilidade cardiovascular, característica da insuficiência cardíaca congestiva."
+    },
+    "CA08.10": {
+      "term_original": "rinorreia acentuada",
+      "capitulo": "12",
+      "confidence_embedding": 0.757,
+      "descricao_cid": "Representação de doença CID-11: Rinite não alérgica com eosinófilos. Definição: Rinite eosinofílica não alérgica é caracterizada por um elevado número (definido de forma inconsistente como >5% a >20%) de eosinófilos no esfregaço nasal. Os pacientes usualmente apresentam exacerbações paroxísticas de sintomas, incluindo, espirros, rinorreia aquosa profusa, prurido, congestão nasal, e anosmia ocasional. Tal quadro pode preceder o desenvolvimento de polipose nasal e hipersensibilidade à aspirina. Pacientes com rinite eosinofílica não alérgica têm risco aumentado para o desenvolvimento de apneia obstrutiva do sono.",
+      "classification_reasoning": "A presença de 'rinorreia acentuada' sugere uma inflamação crônica nos cornetos nasais, o que justifica a escolha do código CA08.10 para Representação de doença CID-11: Rinite não alérgica com eosinófilos."
+    },
+    "FB41.1": {
+      "term_original": "abdome distendido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7378,
+      "descricao_cid": "Representação de doença CID-11: Ruptura espontânea de sinóvia. Definição: Trata-se da ruptura espontânea da bainha sinovial (saco com fluido contendo líquido viscoso), que normalmente diminui o atrito e fornece um amortecimento entre os ossos e tendões e/ou músculo periarticulares.",
+      "classification_reasoning": "A ruptura espontânea de sinóvia é a mais provável causa do abdome distendido descrito no contexto clínico, pois não há evidências de lesão muscular ou renal associada."
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "prontuario_id": 201,
+  "text": "TX RENAL EM 6/8/2011 = PRA ZERO\nUSO MTC 5, TAC 1 / 1, MYF 1 / 1\nOMZ, LANTUS 30, AAS, MONOCORDIL, CILOSTASOL, LST, CRESTOR, CVL \nS : SENTE-SE BEM\nO: BEG, LOTE, CORADO\nPESO 73 KG PA 130*80\nEF NORMAL\nA : CR  0,8 VG 46% TAC 6,0 GJ 117 PU NORMAL URO NEG\nP : MANTIDO CONDUTA\n \n \n \n ",
+  "entities": {
+    "Substância Química Orgânica": [
+      "MTC",
+      "TAC",
+      "MYF",
+      "OMZ",
+      "AAS",
+      "MONOCORDIL",
+      "CILOSTASOL",
+      "LST",
+      "CRESTOR",
+      "CVL"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "TAC",
+      "MYF",
+      "OMZ",
+      "LANTUS",
+      "AAS",
+      "MONOCORDIL",
+      "CILOSTASOL",
+      "LST",
+      "CRESTOR",
+      "CVL"
+    ],
+    "Abreviação": [
+      "MTC",
+      "TAC",
+      "MYF",
+      "OMZ",
+      "AAS",
+      "LST",
+      "CVL",
+      "BEG",
+      "LOTE",
+      "PA",
+      "EF",
+      "TX RENAL",
+      "CR 0 , 8",
+      "VG 46%",
+      "TAC 6 , 0",
+      "GJ 117",
+      "PU NORMAL",
+      "URO NEG"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "30",
+      "130*80",
+      "1 / 1",
+      "73 KG"
+    ],
+    "Hormônio": [
+      "LANTUS"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "LANTUS"
+    ],
+    "Achado": [
+      "BEG",
+      "LOTE",
+      "CORADO",
+      "NORMAL",
+      "SENTE-SE BEM"
+    ],
+    "Atributo Clínico": [
+      "PESO",
+      "PA"
+    ],
+    "Procedimento Diagnóstico": [
+      "EF"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "MANTIDO",
+      "CONDUTA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 8",
+      "VG 46%",
+      "TAC 6 , 0",
+      "GJ 117",
+      "PU NORMAL",
+      "URO NEG"
+    ]
+  },
+  "labels": {
+    "BA02": {
+      "term_original": "lote",
+      "capitulo": "11",
+      "confidence_embedding": 0.7779,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A opção BA02, Representação de doença CID-11: Doença renal hipertensiva, é a mais precisa para o termo 'lote' no contexto clínico. A palavra 'lote' provavelmente se refere à contagem de lótus (lotes) no resultado da análise urinária ou sangüinea, que é comum em pacientes com doença renal hipertensiva."
+    },
+    "BC81.30": {
+      "term_original": "beg",
+      "capitulo": "11",
+      "confidence_embedding": 0.7678,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A opção BC81.30 (Fibrilação atrial paroxística) é a mais precisa para o termo 'beg' no contexto do prontuário, pois 'beg' provavelmente se refere ao termo médico 'bigeminal', que está relacionado à fibrilação atrial."
+    },
+    "DB98.B": {
+      "term_original": "corado",
+      "capitulo": "13",
+      "confidence_embedding": 0.7434,
+      "descricao_cid": "Representação de doença CID-11: Lesão por isquemia de reperfusão do fígado. Definição: Lesão hepática causada por reperfusão sanguínea após uma isquemia não letal do fígado.",
+      "classification_reasoning": "A palavra 'corado' pode estar relacionada à lesão por isquemia de reperfusão do fígado (Lesão hepática causada por reperfusão sanguínea após uma isquemia não letal do fígado), considerando que o paciente tem um história de doença renal e a presença de outros medicamentos como LANTUS, MONOCORDIL e CRESTOR, que podem estar relacionados à doença hepática."
+    }
+  }
+}

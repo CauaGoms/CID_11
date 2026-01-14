@@ -1,0 +1,85 @@
+{
+  "prontuario_id": 232,
+  "text": "Submetido no dia 26 de julho de 2004 a angioplastia coronariana seguida de implante de endoprótese em artéria descendente anterior esquerda. Procedimento realizado pelo Doutor Vital Brazil e Doutor Vital Brazil sem intercorrências e com sucesso angiográfico. Recebe alta em bom estado geral, assintomático, sinais vitais estáveis, afebril, membros inferiores perfundidos e com pulsos presentes e simétricos, sem apresentar hematoma ou sinais de pseudoaneurisma em local de punção. Orientado quanto a medicações, cuidados e retorno ao seu médico.",
+  "entities": {
+    "Procedimento Terapêutico ou Preventivo": [
+      "Procedimento",
+      "angioplastia coronariana",
+      "implante de endoprótese"
+    ],
+    "Negação": [
+      "sem",
+      "assintomático",
+      "afebril"
+    ],
+    "Sinal ou Sintoma": [
+      "intercorrências",
+      "assintomático",
+      "afebril",
+      "sinais de pseudoaneurisma"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "alta",
+      "cuidados",
+      "retorno"
+    ],
+    "Achado": [
+      "perfundidos",
+      "bom estado geral",
+      "sinais vitais estáveis",
+      "pulsos presentes e simétricos"
+    ],
+    "Função Patológica": [
+      "hematoma"
+    ],
+    "Substância Farmacológica": [
+      "medicações"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "médico"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "artéria descendente anterior esquerda"
+    ],
+    "Localização ou Região Corporal": [
+      "membros inferiores"
+    ]
+  },
+  "labels": {
+    "BC62": {
+      "term_original": "pulsos presentes e simétricos",
+      "capitulo": "11",
+      "confidence_embedding": 0.7743,
+      "descricao_cid": "Representação de doença CID-11: Via acessória. Definição: Conexão elétrica adicional que tipicamente desvia do nó AV, tipicamente inserindo-se diretamente no miocárdio atrial e ventricular, mas também pode se conectar ao sistema de condução especializado (p.ex., o feixe de His, feixes direito ou esquerdo, ou um dos fascículos).",
+      "classification_reasoning": "A opção mais precisa é o código BC62, Via acessória, pois o termo 'pulsos presentes e simétricos' sugere que a paciente tem uma boa circulação arterial e não apresenta sinais de doença cardiovascular significativos."
+    },
+    "NE81.0Z": {
+      "term_original": "hematoma",
+      "capitulo": "22",
+      "confidence_embedding": 0.8083,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A escolha do código NE81.0Z é a mais precisa porque o contexto clínico refere-se a hematoma ou hemorragia de outro localização ou não especificada, complicando um procedimento (angioplastia coronariana seguida de implante de endoprótese). Isso se ajusta perfeitamente ao termo 'hematoma' presente no prontuário e não há menção a localizações específicas como tronco encefálico ou pálpebra."
+    },
+    "MC21.9Y": {
+      "term_original": "intercorrências",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha é baseada no contexto do prontuário, que descreve um procedimento realizado com sucesso e sem intercorrências. Isso sugere que o termo 'intercorrências' está relacionado a complicações ou problemas durante o procedimento, mas não houve nenhum problema. Nesse sentido, o código mais preciso para esse termo é o MC21.9Y, que representa outro valor elevado da pressão arterial especificado, sem diagnóstico de hipertensão."
+    },
+    "BA60.2": {
+      "term_original": "sinais de pseudoaneurisma",
+      "capitulo": "11",
+      "confidence_embedding": 0.769,
+      "descricao_cid": "Representação de doença CID-11: Aneurisma ventricular como complicação atual subsequente a infarto agudo do miocárdio. Definição: Área discinética distinta da parede ventricular esquerda com uma base larga após infarto agudo do miocárdio. A parede do aneurisma verdadeiro é mais fina do que o resto do ventrículo esquerdo; geralmente é composta de tecido fibroso e músculo necrótico, ocasionalmente misturado com miocárdio viável. Em contraste, os pseudoaneurismas são compostos por hematoma e pericárdio organizados e carecem de quaisquer elementos da parede miocárdica original.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sinais de pseudoaneurisma' é a Código BA60.2, pois o contexto clínico refere-se à implantação de endoprótese em artéria descendente anterior esquerda e não há menções a infarto agudo do miocárdio ou doença cardíaca associada. O termo 'sinais de pseudoaneurisma' sugere a presença de uma área de hematoma organizado e carecendo de quaisquer elementos da parede miocárdica original, o que se encaixa com a definição do Código BA60.2."
+    },
+    "BD54": {
+      "term_original": "perfundidos",
+      "capitulo": "11",
+      "confidence_embedding": 0.7832,
+      "descricao_cid": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'perfundidos' no contexto clínico é a úlcera de pé diabético (Código BD54), pois 'perfundidos' refere-se à perfusão dos membros inferiores, que está presente e simétrica no paciente."
+    }
+  }
+}

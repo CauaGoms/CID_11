@@ -1,0 +1,88 @@
+{
+  "prontuario_id": 95,
+  "text": " \nPOTENCIAL DOADORA A IRMA\nITU POR ENTEROCOCCOS S CIPRO E AMPI\n31 ANOS\nirc classe 4/5 tratamento conservador\nEM AVALIAÇÃO PARA TRANSPLANTE RENAL \nCR 1,78, CL CR 16\nECOGRAIA RINS DIMINUIDOS E COM ALTERAÇÃO DE ECOGENICIDADE\nECOCARDIO NORMAL TE NAO CONCLUSIVO DEVIDO FC BAIXA ABO B",
+  "entities": {
+    "Grupo Familiar": [
+      "IRMA"
+    ],
+    "Doença ou Síndrome": [
+      "ITU",
+      "irc classe 4/5"
+    ],
+    "Abreviação": [
+      "ITU",
+      "CIPRO",
+      "AMPI",
+      "ECOCARDIO",
+      "TE",
+      "irc classe 4/5",
+      "CR 1 , 78",
+      "CL CR 16",
+      "DEVIDO FC BAIXA"
+    ],
+    "Antibiótico": [
+      "CIPRO",
+      "AMPI"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "AVALIAÇÃO"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECOGRAIA",
+      "ECOCARDIO",
+      "TE"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "NORMAL",
+      "CR 1 , 78",
+      "CL CR 16",
+      "RINS DIMINUIDOS",
+      "ALTERAÇÃO DE ECOGENICIDADE",
+      "DEVIDO FC BAIXA",
+      "ABO B"
+    ],
+    "Negação": [
+      "NAO"
+    ],
+    "Achado": [
+      "POTENCIAL DOADORA"
+    ],
+    "Bactéria": [
+      "ENTEROCOCCOS S"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "tratamento conservador",
+      "TRANSPLANTE RENAL"
+    ]
+  },
+  "labels": {
+    "GA30.6": {
+      "term_original": "potencial doadora",
+      "capitulo": "16",
+      "confidence_embedding": 0.7248,
+      "descricao_cid": "Representação de doença CID-11: Falência ovariana prematura. Definição: Menopausa que ocorre espontaneamente antes dos 40 anos de idade, geralmente resultando em amenorréia secundária, embora algumas mulheres possam apresentar função ovárica intermitente e ovulação, com uma minoria concebendo e dando à luz uma gravidez. FOP corre principalmente sem uma causa conhecida, mas pode ser causado pelas seguintes condições: anormalidades cromossômicas numéricas e estruturais, pré-mutações do X frágil, transtornos autoimunes, radioterapia, quimioterapia, galactosemia e outros defeitos enzimáticos raros ou mutações. É subdividido em 4 categorias de acordo com a causa: congênita, adquirida, iatrogênica e desconhecida.",
+      "classification_reasoning": "A paciente tem idade de 31 anos e está em avaliação para transplante renal, o que sugere uma situação relacionada à saúde reprodutiva. A menopausa prematura (FOP) é um fator que pode influenciar a capacidade de reprodução e é mencionado como uma possível causa da doença renal cística não familiar não especificada."
+    },
+    "NE84": {
+      "term_original": "itu",
+      "capitulo": "22",
+      "confidence_embedding": 0.7128,
+      "descricao_cid": "Representação de doença CID-11: Falha ou rejeição de órgãos ou tecidos transplantados. Definição: ",
+      "classification_reasoning": "A presença de 'ITU' no prontuário indica a possibilidade de falha ou rejeição do órgão transplantado (neste caso, o rim), justificando a escolha do código NE84."
+    },
+    "1C0F": {
+      "term_original": "enterococcos s",
+      "capitulo": "01",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é a Enterococcus, que é um gênero de bactérias Gram-positivas responsável por doenças como septicemia e infecções urinárias. Com base no contexto do prontuário, é provável que o paciente tenha desenvolvido uma infecção por Enterococcus, especificamente pela entrada S"
+    },
+    "MF56": {
+      "term_original": "irc classe 4/5",
+      "capitulo": "21",
+      "confidence_embedding": 0.711,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A escolha é baseada na menção de 'irc classe 4/5' no contexto do prontuário, que sugere uma condição relacionada à função renal. MF56 é o código mais preciso para a Cólica renal, que apresenta sintomas compatíveis com a doença, como dor paroxística intensa no flanco e irradiação para a virilha."
+    }
+  }
+}

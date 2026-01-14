@@ -1,0 +1,89 @@
+{
+  "prontuario_id": 284,
+  "text": "Paciente com hernia incisional pos apendicectomia, com correção previa, interna eletivamente para hernioplastia incisional realizada em 21/06/2007, procedimento sem intercorrencias. Paciente evolui bem, sinais vitais estaveis, aceitando dieta VO. Recebe alta em bom estado geral, com dreno de Portovac e orientações quanto ao seu uso, com plano de retorno ambulatorial com equipe assistente.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Conceito Temporal": [
+      "pos",
+      "previa"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "apendicectomia",
+      "correção",
+      "procedimento",
+      "hernioplastia incisional"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "interna",
+      "alta",
+      "orientações",
+      "retorno ambulatorial"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "intercorrencias"
+    ],
+    "Produto Intelectual": [
+      "plano"
+    ],
+    "Doença ou Síndrome": [
+      "hernia incisional"
+    ],
+    "Achado": [
+      "evolui bem",
+      "sinais vitais estaveis",
+      "aceitando dieta VO",
+      "bom estado geral"
+    ],
+    "Abreviação": [
+      "aceitando dieta VO"
+    ],
+    "Dispositivo Médico": [
+      "dreno de Portovac"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "equipe assistente"
+    ]
+  },
+  "labels": {
+    "VV40": {
+      "term_original": "evolui bem",
+      "capitulo": "V",
+      "confidence_embedding": 0.6547,
+      "descricao_cid": "Representação de doença CID-11: Funções relacionadas ao sistema digestivo. Definição: ",
+      "classification_reasoning": "O termo 'evolui bem' indica que o paciente está se recuperando normalmente após o procedimento de hernioplastia incisional, o que está relacionado às funções do sistema digestivo."
+    },
+    "ME02": {
+      "term_original": "sinais vitais estaveis",
+      "capitulo": "21",
+      "confidence_embedding": 0.712,
+      "descricao_cid": "Representação de doença CID-11: Rigidez abdominal. Definição: Rigidez abdominal é a rigidez dos músculos na região da barriga, que pode ser sentida quando tocada ou pressionada",
+      "classification_reasoning": "A opção ME02, Rigidez abdominal, é a mais precisa para o termo 'sinais vitais estaveis' no contexto do prontuário, pois refere-se à rigidez dos músculos na região da barriga, que é sentido quando tocada ou pressionada. No contexto, 'sinais vitais estaveis' provavelmente se refere às condições físicas do paciente após a cirurgia, incluindo a rigidez abdominal."
+    },
+    "NB30.5Z": {
+      "term_original": "intercorrencias",
+      "capitulo": "22",
+      "confidence_embedding": 0.7056,
+      "descricao_cid": "Representação de doença CID-11: Lesão de vasos sanguíneos intercostais, não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NB30.5Z, Lesão de vasos sanguíneos intercostais, não especificada, pois o termo 'intercorrencias' refere-se a uma condição que surgiu durante ou após um procedimento cirúrgico, no caso, a hernioplastia incisional realizada em 21/06/2007."
+    },
+    "QE23": {
+      "term_original": "aceitando dieta vo",
+      "capitulo": "24",
+      "confidence_embedding": 0.7365,
+      "descricao_cid": "Representação de doença CID-11: Problemas com dieta ou hábitos alimentares inapropriados. Definição: ",
+      "classification_reasoning": "O paciente está 'aceitando dieta VO', o que sugere um problema com a dieta ou hábitos alimentares inapropriados, caracterizando-se como uma representação de doença CID-11 no capítulo 24."
+    },
+    "FB51.40": {
+      "term_original": "hernia incisional",
+      "capitulo": "15",
+      "confidence_embedding": 0.681,
+      "descricao_cid": "Representação de doença CID-11: Fibrose retroperitoenal primária. Definição: Esta é a forma mais comum de fibrose retroperitoneal. Por definição, nenhum fator desencadeante (ex. medicamentos ou neoplasia maligna) pode ser determinado, apesar de haver uma associação frequente com a aterosclerose da aorta abdominal. Foi postulado que a aterosclerose poderia ter um papel etiológico em alguns casos.",
+      "classification_reasoning": "A hernia incisional é uma doença caracterizada pela protrusão do conteúdo abdominal através de uma ferida cirúrgica fechada anteriormente, e o código FB51.40 se refere especificamente à fibrose retroperitoenal primária, que pode estar relacionada a essa condição."
+    }
+  }
+}

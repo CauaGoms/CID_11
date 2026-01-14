@@ -1,0 +1,160 @@
+{
+  "prontuario_id": 263,
+  "text": "22:17 HS - GLASGOW 14, AGITADO, CONFUSO, MANTENDO SUPORTE NÉVOA-ÚMIDA 5 LITROS,  SNE DIETA ENTERAL EM CURSO, CATETER CENTRAL (D) NORA 30 ML/H E DOBUTA 30 ML/H, PVC 12 MMHG, ABDOMEM GLOBOSO, FLÁCIDO, RHA +,  SVD DIURESE VOLUME EFICAZ COLORAÇÃO CONCENTRADO, APRESENTA FISSURAS EM BOLSA ESCROTAL, ÚLCERA POR PRESSÃO SACRA GRAU II COM PRESENÇA NECROSE, PASADO KOLLAGENASE,  TROCADO CURATICO COTO MID BORDAS AFASTADAS, COM SECREÇÃO SANGUINOLENTA, EDEMA MIE EXTREMIDADES FRIAS, COMUNICADO PLANTONISATA VERIFICADO GLICEMIA  CAPILAR 165 MG/DL, SEGUE CUIDADOS PRECAUÇÃO CONTATO. (Enfermeira Florence Nightingale ). EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO.",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "AGITADO",
+      "CONFUSO",
+      "SANGUINOLENTA",
+      "EDEMA",
+      "QUEIXAS",
+      "GLASGOW 14",
+      "COLORAÇÃO CONCENTRADO",
+      "EXTREMIDADES FRIAS"
+    ],
+    "Dispositivo Médico": [
+      "SNE",
+      "SVD"
+    ],
+    "Abreviação": [
+      "SNE",
+      "NORA",
+      "DOBUTA",
+      "PVC",
+      "SVD",
+      "MIE",
+      "RHA +"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SNE",
+      "SVD",
+      "SUPORTE NÉVOA-ÚMIDA",
+      "DIETA ENTERAL",
+      "CUIDADOS PRECAUÇÃO CONTATO"
+    ],
+    "Hormônio": [
+      "NORA"
+    ],
+    "Substância Química Orgânica": [
+      "NORA",
+      "DOBUTA"
+    ],
+    "Substância Farmacológica": [
+      "NORA",
+      "DOBUTA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABDOMEM",
+      "MIE",
+      "BOLSA ESCROTAL"
+    ],
+    "Achado": [
+      "GLOBOSO",
+      "FLÁCIDO",
+      "RHA +"
+    ],
+    "Função de Organismo": [
+      "DIURESE"
+    ],
+    "Função de Órgão ou Tecido": [
+      "NECROSE"
+    ],
+    "Conceito Qualitativo": [
+      "SANGUINOLENTA",
+      "VOLUME EFICAZ",
+      "COLORAÇÃO CONCENTRADO",
+      "BORDAS AFASTADAS"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "PLANTONISATA"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Conceito Quantitativo": [
+      "5 LITROS",
+      "30 ML/H",
+      "12 MMHG"
+    ],
+    "Conceito Espacial": [
+      "D"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "GLICEMIA CAPILAR 165 MG/DL"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "EXAME GERAL"
+    ],
+    "Procedimento Diagnóstico": [
+      "INVESTIGACAO DE PESSOAS"
+    ],
+    "Doença ou Síndrome": [
+      "DIAGNOSTICO RELATADO"
+    ]
+  },
+  "labels": {
+    "MA15.0": {
+      "term_original": "diagnostico relatado",
+      "capitulo": "21",
+      "confidence_embedding": 0.7767,
+      "descricao_cid": "Representação de doença CID-11: Bacteremia. Definição: Presença de bactérias no sangue. Isto pode ser detectado, por exemplo, por uma hemocultura positiva.",
+      "classification_reasoning": "A opção MA15.0 (Bacteremia) é a mais precisa para o termo 'diagnóstico relatado' no contexto clínico, pois há uma referência à presença de bactérias no sangue (hemocultura positiva), o que sugere a existência de uma doença infecciosa."
+    },
+    "NB90.Y": {
+      "term_original": "extremidades frias",
+      "capitulo": "22",
+      "confidence_embedding": 0.7495,
+      "descricao_cid": "Representação de doença CID-11: Lesão de outros vasos sanguíneos especificados ao nível do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A escolha do código NB90.Y se baseia na descrição de 'extremidades frias' no contexto clínico, que sugere lesão ou danos nos vasos sanguíneos dos membros inferiores."
+    },
+    "FA27.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7432,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'edema' no contexto clínico é a reumatismo palindrômico (FA27.2), pois apresenta edema nas articulações, característica compatível com a descrição do prontuário."
+    },
+    "FA80.4": {
+      "term_original": "flácido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7605,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A escolha do código FA80.4 é mais precisa porque o termo 'flácido' se refere à perda de tônus muscular, característica da degeneração de disco intervertebral sem prolapso de disco na coluna torácica."
+    },
+    "6C45.3": {
+      "term_original": "confuso",
+      "capitulo": "06",
+      "confidence_embedding": 0.7706,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A paciente apresenta sintomas de confusão, o que é um dos principais sintomas da intoxicação por cocaína (6C45.3). Além disso, outros sintomas descritos no contexto clínico, como agitação psicomotora e alterações gastrointestinais, também são consistentes com essa condição."
+    },
+    "FA80.8": {
+      "term_original": "globoso",
+      "capitulo": "15",
+      "confidence_embedding": 0.7204,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa é FA80.8, Degeneração de disco intervertebral da coluna lombar sem prolapso de disco, pois o termo 'globoso' se refere ao abdome globoso descrito no prontuário, característica comum em pacientes com degeneração do disco intervertebral."
+    },
+    "MG27": {
+      "term_original": "sanguinolenta",
+      "capitulo": "21",
+      "confidence_embedding": 0.785,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia, não classificada em outra parte. Definição: Sangramento ou saída de sangue de um vaso.",
+      "classification_reasoning": "A palavra 'sanguinolenta' refere-se à presença de sangue ou substância sangrenta em uma secreção, o que é consistente com a definição da hemorragia não classificada em outra parte (Código: MG27)."
+    },
+    "6C48.2": {
+      "term_original": "agitado",
+      "capitulo": "06",
+      "confidence_embedding": 0.7749,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais.",
+      "classification_reasoning": "A presença de agitação no paciente sugere uma reação a um estimulante, como cafeína. A descrição do termo 'agitado' é mais consistente com o quadro clínico descrito na abstinência de cafeína (6C48.2) do que com os outros diagnósticos propostos."
+    },
+    "ME01": {
+      "term_original": "coloração concentrado",
+      "capitulo": "21",
+      "confidence_embedding": 0.7898,
+      "descricao_cid": "Representação de doença CID-11: Distensão abdominal. Definição: Esta é uma condição em que o abdômen parece cheio e tenso por causa do inchaço do abdômen, geralmente devido a um aumento da quantidade de gases intestinais, mas ocorre às vezes quando fluidos, substâncias ou massa estão se acumulando ou se expandindo no abdômen.",
+      "classification_reasoning": "A opção ME01 é a mais precisa para o termo 'coloração concentrado' no contexto do prontuário, pois refere-se à distensão abdominal, que pode estar relacionada ao abdômen globoso e flácido descrito no relatório."
+    }
+  }
+}

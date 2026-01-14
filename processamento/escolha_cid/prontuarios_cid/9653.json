@@ -1,0 +1,95 @@
+{
+  "prontuario_id": 742,
+  "text": "IRC DIALITICA. RELATA CONDROCALCINOSE. \nREFERE DOR NO JOELHO D E EDEMA DIFUSO. \nAO EF: APRESENTA EDEMA DIFUSO. DOR A PALPAÇÃO DA INTERLINHA. JOELHO ESTÁVEL. PALPAÇÃO DA REGIÃO DO LIGAMENTO PATELAR DOLOROSA. \nRX MOSTRA SINAIS DE CALCIFICAÇÃO INTRASUBSTANCIA DO MENISCO LATERAL. REDUÇÃO DO ESPAÇO ARTICULAR NO COMPARTIMENTO MEDIAL. \n\nP: SOLICITO RNM DE JOELHO + RETORNO NO GRUPO DO JOELHO PARA AVALIAÇÃO. FST PARA FORTALECIMENTO.\n \n \n \n ",
+  "entities": {
+    "Doença ou Síndrome": [
+      "CONDROCALCINOSE",
+      "IRC DIALITICA"
+    ],
+    "Procedimento Diagnóstico": [
+      "EF",
+      "PALPAÇÃO",
+      "RX",
+      "RNM DE JOELHO"
+    ],
+    "Abreviação": [
+      "EF",
+      "RX",
+      "P",
+      "FST",
+      "IRC DIALITICA",
+      "JOELHO D",
+      "RNM DE JOELHO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "INTERLINHA",
+      "JOELHO D",
+      "REGIÃO DO LIGAMENTO PATELAR"
+    ],
+    "Produto Intelectual": [
+      "P"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "SOLICITO",
+      "RETORNO",
+      "AVALIAÇÃO"
+    ],
+    "Organização Relacionada à Saúde": [
+      "FST",
+      "GRUPO DO JOELHO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "FST",
+      "FORTALECIMENTO"
+    ],
+    "Achado": [
+      "IRC DIALITICA",
+      "JOELHO ESTÁVEL"
+    ],
+    "Sinal ou Sintoma": [
+      "REFERE DOR",
+      "EDEMA DIFUSO",
+      "DOR A PALPAÇÃO"
+    ],
+    "Função Patológica": [
+      "EDEMA DIFUSO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "SINAIS DE CALCIFICAÇÃO INTRASUBSTANCIA DO MENISCO LATERAL",
+      "REDUÇÃO DO ESPAÇO ARTICULAR NO COMPARTIMENTO MEDIAL"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "GRUPO DO JOELHO"
+    ]
+  },
+  "labels": {
+    "Não encontrado": {
+      "term_original": "irc dialitica",
+      "capitulo": "06",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'IRC DIALITICA' não está relacionado a nenhum dos códigos de doenças CID-11 apresentados. O contexto do prontuário parece estar relacionado à condrocalcinose e ao joelho, o que sugere que a escolha deve ser um código pertencente ao capítulo 06 (Doenças do sistema musculoesquelético). Não há uma opção adequada dentre as apresentadas."
+    },
+    "FA33": {
+      "term_original": "dor a palpação",
+      "capitulo": "15",
+      "confidence_embedding": 0.7932,
+      "descricao_cid": "Representação de doença CID-11: Transtorno interno do joelho. Definição: Transtorno interno do joelho (TIJ) é uma condição crônica do joelho devido à lesão, ruptura ou transtorno do menisco do joelho, ou ruptura parcial ou completa dos ligamentos cruzados, com ou sem lesão do ligamento capsular, que resulta em um processo contínuo ou intermitente de sinais e sintomas como dor, instabilidade ou mobilidade anormal do joelho.\r\n\r\nNas situações em que o transtorno é causado por trauma, deverá ser utilizado o código de \"Lesões, envenenamentos ou algumas outras consequências de causas externas\", independentemente do tempo decorrido desde a lesão.",
+      "classification_reasoning": "A dor à palpação do joelho e a presença de edema difuso sugerem lesão ou ruptura do menisco do joelho, característica do Transtorno Interno do Joelho (TIJ). Além disso, o relato da redução do espaço articular no compartimento medial também é compatível com essa condição."
+    },
+    "FA26.2": {
+      "term_original": "condricalcinose",
+      "capitulo": "15",
+      "confidence_embedding": 0.7878,
+      "descricao_cid": "Representação de doença CID-11: Condrocalcinose. Definição: A condrocalcinose refere-se à calcificação radiográfica das estruturas fibrocartilaginosas e/ou cartilagem hialina e não é específica para DPFC ou outra doença por deposição de cristais. Nos diversos países em que doença por deposição de pirofosfato de cálcio familiar l (DPFC Familiar l ) foi descrita, alguns indivíduos com o mesmo grau de parentesco tiveram a DPFC associada à mutação ANKH no cromossomo 5p.",
+      "classification_reasoning": "A condrocalcinose é mencionada explicitamente no relatório, o que justifica a escolha do código FA26.2 como a mais precisa para o termo dentro do contexto clínico."
+    },
+    "FB50.2": {
+      "term_original": "edema difuso",
+      "capitulo": "15",
+      "confidence_embedding": 0.7364,
+      "descricao_cid": "Representação de doença CID-11: Cisto sinovial do espaço poplíteo. Definição: Este é o edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho",
+      "classification_reasoning": "A opção mais precisa para o termo 'edema difuso' é a Cisto sinovial do espaço poplíteo (FB50.2), pois o prontuário refere edema difuso e o contexto clínico sugere uma lesão ou problema na região posterior do joelho, o que está de acordo com a definição da opção FB50.2."
+    }
+  }
+}

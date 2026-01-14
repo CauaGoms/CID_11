@@ -1,0 +1,139 @@
+{
+  "prontuario_id": 653,
+  "text": "Tx renal maio/15 DC.\nindução ATG - vigilância BK e CMV.\nMTC 5, MS 2 / 2, FK 2 / 2, BO, OMP 20 x2, CVD 12.5 x 2, Omega 3.\n\nS: Refere fisgadas ocasionais em ferida operatória. Controle domiciliar mostra picos hipertensivos manhã/tarde.\nO: PA 150 x 100, FC 80, sem edema, Peso 72kg.\nExames: Hb 12,6 / Cr 2,0 / 4% eosin / GJ 83 / Pu com 80M leucócitos / NS FK 5.\n \nFK 2 / 3.\nretorno em 2 semanas com 2 exames.\npaciente insiste em exercícios vigorosos (bicicleta, natação) - oriento aguardar!!\nCVD 25 x2.\n \n ",
+  "entities": {
+    "Grupo Populacional": [
+      "DC"
+    ],
+    "Abreviação": [
+      "DC",
+      "BK",
+      "CMV",
+      "MTC",
+      "MS",
+      "FK",
+      "BO",
+      "OMP",
+      "CVD",
+      "PA",
+      "FC",
+      "Pu",
+      "Tx renal",
+      "indução ATG"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "vigilância",
+      "retorno",
+      "Controle domiciliar",
+      "oriento aguardar"
+    ],
+    "Bactéria": [
+      "BK"
+    ],
+    "Vírus": [
+      "CMV"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "FK",
+      "BO",
+      "OMP",
+      "CVD",
+      "Omega 3"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "MS",
+      "FK",
+      "OMP",
+      "CVD",
+      "Omega 3"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "12",
+      "80",
+      "72kg",
+      "2 / 2",
+      "20 x2",
+      "150 x 100",
+      "2 / 3",
+      "25 x2"
+    ],
+    "Antibiótico": [
+      "MS"
+    ],
+    "Conceito Temporal": [
+      "manhã/tarde",
+      "2 semanas"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC",
+      "Peso"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "edema",
+      "fisgadas ocasionais",
+      "picos hipertensivos"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Exames",
+      "exames"
+    ],
+    "Atividade Diária ou Recreativa": [
+      "bicicleta",
+      "natação"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Tx renal",
+      "indução ATG"
+    ],
+    "Substância Biologicamente Ativa": [
+      "Omega 3"
+    ],
+    "Lesão ou Envenenamento": [
+      "ferida operatória"
+    ]
+  },
+  "labels": {
+    "NB90.50": {
+      "term_original": "ferida operatória",
+      "capitulo": "22",
+      "confidence_embedding": 0.7431,
+      "descricao_cid": "Representação de doença CID-11: Laceração menor dos vasos sanguíneos renais. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NB90.50, Laceração menor dos vasos sanguíneos renais, pois a ferida operatória se refere à lesão na região renal, o que coincide com a definição do código."
+    },
+    "BD71.2": {
+      "term_original": "bk",
+      "capitulo": "11",
+      "confidence_embedding": 0.7562,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A opção mais precisa para o termo 'BK' é a trombose da veia renal (BD71.2), pois BK é um acrônimo comum utilizado em prontuários médicos para se referir à vigilância de trombose renal."
+    },
+    "MF95": {
+      "term_original": "fisgadas ocasionais",
+      "capitulo": "21",
+      "confidence_embedding": 0.7636,
+      "descricao_cid": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular.",
+      "classification_reasoning": "A paciente refere fisgadas ocasionais em ferida operatória, o que sugere lesão muscular (rabdomiólise) com liberação de mioglobina na urina. A escolha do código MF95 (Mioglobinúria) é justificada pela presença dessas características clínicas."
+    },
+    "4A44.0": {
+      "term_original": "cmv",
+      "capitulo": "04",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A presença do termo 'CMV' no contexto clínico e a vigilância feita para essa infecção sugerem que a doença relacionada ao enxerto-versus-hospedeiro aguda é mais provável, o que é compatível com a descrição da Código CID-11 4A44.0."
+    },
+    "BA03": {
+      "term_original": "picos hipertensivos",
+      "capitulo": "11",
+      "confidence_embedding": 0.7636,
+      "descricao_cid": "Representação de doença CID-11: Crise hipertensiva. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a Crise hipertensiva (Código: BA03) pois o termo 'picos hipertensivos' se refere a episódios de alta pressão arterial, que são característicos de uma crise hipertensiva."
+    }
+  }
+}

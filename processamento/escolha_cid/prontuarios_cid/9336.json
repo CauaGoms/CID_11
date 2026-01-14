@@ -1,0 +1,124 @@
+{
+  "prontuario_id": 578,
+  "text": "PCTE TRAZIDO À EM HCPA ÀS 12H DE HOJE , POR AMBULÂNCIA , PROVENIENTE DE CARAZINHO , ONDE ESTARIA INTERNADO , DESDE 30/4 . TERIA RECEBIDO ALTA PARA CONSULTAR NO AMBULATÓRIO  ICC , CFE . RELATO DA MÃE QUE O ACOMPANHAVA .TEM DIAGNÓSTICO ESTABELECIDO DE MIOCARDIOPATIA DILATADA IDIOPÁTICA( FEJ 16% ) , COM INTERNAÇÃO PRÉVIA - 2004 - NO HCPA POR ICC DESCOMPENSADA , PARTICIPOU DO PROTOCOLO EVEREST E TEM ÚLTIMO REGISTRO DE  CONSULTA NO HCPA EM NOVEMBRO DE 2005 .  POR VOLTA DAS 11 H , NO TRANSPORTE AO HCPA ,  SEGUNDO RELATO DA MÃE , APRESENTOU EPISÓDIO COMPATÍVEL COM SÍNCOPE . CHEGOU À EMERGÊNCIA  EM PCR - ASSISTOLIA , HAVENDO RESPOSTA ÀS MANOBRAS DE RCP . TRANSFERIDO AO CTI ÀS 12H30 , EM VM C/ EVIDÊNCIA CLÍNICA DE BAIXO DÉBITO . EVOLUIU C/ QUADRO DE CHOQUE E BRADIARRITMIA >>  NOVA PCR EM FV  >> ASSISTOLIA , NÃO RESPONDENDO ÀS MANOBRAS DE RCP , DURAÇÃO DE 45 MINUTOS . ÓBITO ÀS 12H48MIN .",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PCTE"
+    ],
+    "Abreviação": [
+      "PCTE",
+      "EM",
+      "PCR",
+      "CTI",
+      "VM",
+      "FV",
+      "AMBULATÓRIO ICC",
+      "ICC DESCOMPENSADA",
+      "MANOBRAS DE RCP",
+      "DURAÇÃO DE 45 MINUTOS ."
+    ],
+    "Organização Relacionada à Saúde": [
+      "EM",
+      "EMERGÊNCIA",
+      "CTI"
+    ],
+    "Dispositivo Médico": [
+      "AMBULÂNCIA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ALTA",
+      "CONSULTAR",
+      "INTERNAÇÃO",
+      "TRANSPORTE",
+      "TRANSFERIDO",
+      "AMBULATÓRIO ICC"
+    ],
+    "Grupo Familiar": [
+      "MÃE"
+    ],
+    "Conceito Temporal": [
+      "PRÉVIA",
+      "DURAÇÃO DE 45 MINUTOS ."
+    ],
+    "Doença ou Síndrome": [
+      "PCR",
+      "ASSISTOLIA",
+      "BRADIARRITMIA",
+      "FV",
+      "MIOCARDIOPATIA DILATADA IDIOPÁTICA",
+      "ICC DESCOMPENSADA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "VM",
+      "MANOBRAS DE RCP"
+    ],
+    "Função Patológica": [
+      "CHOQUE",
+      "BAIXO DÉBITO"
+    ],
+    "Negação": [
+      "NÃO"
+    ],
+    "Achado": [
+      "ÓBITO"
+    ],
+    "Produto Intelectual": [
+      "DIAGNÓSTICO ESTABELECIDO",
+      "ÚLTIMO REGISTRO DE CONSULTA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "FEJ 16%"
+    ],
+    "Atividade de Pesquisa": [
+      "PROTOCOLO EVEREST"
+    ],
+    "Sinal ou Sintoma": [
+      "EPISÓDIO COMPATÍVEL COM SÍNCOPE",
+      "EVIDÊNCIA CLÍNICA"
+    ]
+  },
+  "labels": {
+    "BC43.0": {
+      "term_original": "miocardiopatia dilatada idiopática",
+      "capitulo": "11",
+      "confidence_embedding": 0.8075,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida.",
+      "classification_reasoning": "A escolha do código BC43.0 é baseada na descrição de 'miocardiopatia dilatada idiopática' no termo extraído, que coincide com a definição de cardiomiopatia dilatada presente no código BC43.0. Além disso, o relato da mãe menciona uma história prévia de internação e diagnóstico de miocardiopatia dilatada em 2004."
+    },
+    "BA60.9": {
+      "term_original": "choque",
+      "capitulo": "11",
+      "confidence_embedding": 0.7992,
+      "descricao_cid": "Representação de doença CID-11: Choque cardiogênico, não relacionado a complicações mecânicas, como complicação atual subsequente a infarto agudo do miocárdio. Definição: A expressão clínica mais grave da insuficiência ventricular esquerda e está associada a extensos danos ao miocárdio ventricular esquerdo após infarto agudo do miocárdio, não relacionado a um defeito mecânico como ruptura do septo ventricular ou do músculo papilar. Choque é definido como pressão arterial (PA) sistólica <90 mmHg e hipoperfusão de órgãos.",
+      "classification_reasoning": "A escolha é baseada no termo 'choque' presente no prontuário, que se refere ao quadro de choque e bradiarritmia descrito na história clínica do paciente, caracterizando um estado de hipoperfusão de órgãos associado a uma insuficiência ventricular esquerda."
+    },
+    "8D64.10": {
+      "term_original": "bradiarritmia",
+      "capitulo": "08",
+      "confidence_embedding": 0.7203,
+      "descricao_cid": "Representação de doença CID-11: Hidrocefalia devida a malformações estruturais. Definição: Aumento ventricular devido a um acúmulo de líquido cefalorraquidiano secundário à obstrução causada por uma anormalidade estrutural, como malformações de Chiari ou estenose do aqueduto.",
+      "classification_reasoning": "A bradiarritmia descrita no relato sugere uma afecção cardíaca, especificamente um problema com o ritmo cardíaco. A hidrocefalia devida a malformações estruturais (Código 8D64.10) é menos provável, pois não há mencionado de aumento ventricular ou obstrução causada por uma anormalidade estrutural."
+    },
+    "NE81.0": {
+      "term_original": "assistolia",
+      "capitulo": "22",
+      "confidence_embedding": 0.7134,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A assistolia descrita como um quadro de choque e bradiarritmia, não respondendo às manobras de RCP, é compatível com uma hemorragia ou hematoma complicando um procedimento (neste caso, a transfusão ao CTI), o que justifica a escolha do código NE81.0."
+    },
+    "NE81.0Z": {
+      "term_original": "óbito",
+      "capitulo": "22",
+      "confidence_embedding": 0.7422,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "O termo 'óbito' indica que o paciente faleceu em consequência de um procedimento médico, justificando a escolha do código NE81.0Z como a mais precisa para representar a representação da doença no contexto clínico."
+    },
+    "MC82.0": {
+      "term_original": "episódio compatível com síncope",
+      "capitulo": "21",
+      "confidence_embedding": 0.7596,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico.",
+      "classification_reasoning": "A descrição do termo 'episódio compatível com síncope' refere-se ao colapso hemodinâmico resultante de despolarização ventricular rápida ou descoordenada, o que é descrito pelo código MC82.0"
+    }
+  }
+}

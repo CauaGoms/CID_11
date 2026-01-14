@@ -1,0 +1,102 @@
+{
+  "prontuario_id": 600,
+  "text": "TX RENAL .\nEM USO DE TACROLIMO 1 /0,5, SRL 1 DA, PRED 5, RSV 10, LST 50, BACTRIM, CVDL 25 2X.\n\nS # SEM QUEIXAS.\n\nO # PESO 75,9.\nPA 120/80,\nEXAME FISICO NORMAL.\n \nREDUZO TACROLIMO PARA 0,5 / 0,5 \nE SIROLIMO PARA 1.\nTX RENAL CR 2,1, TACROLIMO 5, SRL 6 (ESSE 24H APÓS) É 2 48H APÓS).\nHAS COMPENSADA.\nBK URINA ÚLTIMO DECOY NEGATIVO.\n ",
+  "entities": {
+    "Substância Farmacológica": [
+      "TACROLIMO",
+      "PRED",
+      "RSV",
+      "LST",
+      "BACTRIM",
+      "CVDL"
+    ],
+    "Substância Química Orgânica": [
+      "TACROLIMO",
+      "SRL",
+      "PRED",
+      "RSV",
+      "BACTRIM",
+      "CVDL",
+      "SIROLIMO"
+    ],
+    "Abreviação": [
+      "SRL",
+      "PRED",
+      "RSV",
+      "LST",
+      "CVDL",
+      "PA",
+      "TX RENAL",
+      "CR 2 , 1"
+    ],
+    "Antibiótico": [
+      "SRL",
+      "SIROLIMO"
+    ],
+    "Conceito Quantitativo": [
+      "1",
+      "5",
+      "10",
+      "50",
+      "120/80",
+      "1 /0 , 5",
+      "25 2X",
+      "75 , 9",
+      "0 , 5 / 0 , 5",
+      "PARA 1"
+    ],
+    "Hormônio": [
+      "PRED"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS"
+    ],
+    "Atributo Clínico": [
+      "PESO",
+      "PA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "REDUZO"
+    ],
+    "Vírus": [
+      "BK"
+    ],
+    "Conceito Temporal": [
+      "ÚLTIMO",
+      "24H APÓS",
+      "48H APÓS"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Achado": [
+      "EXAME FISICO NORMAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 2 , 1",
+      "DECOY NEGATIVO"
+    ],
+    "Doença ou Síndrome": [
+      "HAS COMPENSADA"
+    ]
+  },
+  "labels": {
+    "GB60.0": {
+      "term_original": "bk",
+      "capitulo": "16",
+      "confidence_embedding": 0.7804,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência renal aguda, estágio 1. Definição: Taxa de alteração da creatinina sérica: aumento 1,5-1,9 vezes o valor basal em 7 dias OU aumento de 0,3 mg/dl em 48 h OU Magnitude da produção de urina: <0,5 ml/kg/h por 6-12 horas",
+      "classification_reasoning": "A opção mais precisa para o termo 'BK' é a insuficiência renal aguda, estágio 1 (GB60.0), pois o prontuário menciona a redução do TACROLIMO para 0,5 / 0,5 e SIROLIMO para 1, e também menciona um exame físico normal e peso de 75,9. Além disso, a urina última apresentou resultados negativos."
+    },
+    "GB60.1": {
+      "term_original": "has compensada",
+      "capitulo": "16",
+      "confidence_embedding": 0.7534,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência renal aguda, estágio 2. Definição: Taxa de alteração da creatinina sérica: 2,0-2,9 vezes a linha de base OU Magnitude da produção de urina: < 0,5 ml/kg/h por > = 12 horas",
+      "classification_reasoning": "A opção mais precisa para o termo 'has compensada' é a insuficiência renal aguda, estágio 2 (GB60.1), pois há referência ao TX RENAL CR 2,1, o que indica uma compensação da função renal após ajustes nos medicamentos utilizados."
+    }
+  }
+}

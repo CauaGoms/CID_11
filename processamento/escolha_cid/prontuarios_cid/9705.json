@@ -1,0 +1,138 @@
+{
+  "prontuario_id": 572,
+  "text": "DRC ESTAGIO 5 EM CONSERVADOR.\n\nS: ABORTO EM 1o TRIMESTER COM PIORA DE BIOQUIMICA E ANEMIA.\nASTENIA E INAPETENCIA.\n\nO: PA 140/90,  P 78,  AFEBRIL,  DIURESE > 2L.\nHIPOCORADA.\nCPP LIVRES.\nPC RITMO REGULAR.\nABD RHA+, PLANO, FLÁCIDO.\nMMII SEM EDEMA.\n\nDRC ESATGIO 5.\n\n* POTENCIAL DOADOR MARIDO, 4MM, XM NEGATIVO.\n \n \n ",
+  "entities": {
+    "Procedimento Terapêutico ou Preventivo": [
+      "CONSERVADOR"
+    ],
+    "Conceito Qualitativo": [
+      "PIORA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "BIOQUIMICA",
+      "XM NEGATIVO"
+    ],
+    "Doença ou Síndrome": [
+      "ANEMIA",
+      "DRC ESTAGIO 5",
+      "DRC ESATGIO 5"
+    ],
+    "Sinal ou Sintoma": [
+      "ASTENIA",
+      "INAPETENCIA",
+      "AFEBRIL",
+      "HIPOCORADA",
+      "EDEMA"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PC"
+    ],
+    "Abreviação": [
+      "PA",
+      "P",
+      "PC",
+      "ABD",
+      "RHA+",
+      "MMII",
+      "DRC ESTAGIO 5",
+      "CPP LIVRES",
+      "DRC ESATGIO 5"
+    ],
+    "Conceito Quantitativo": [
+      "140/90",
+      "78",
+      "&gt; 2L"
+    ],
+    "Negação": [
+      "AFEBRIL",
+      "SEM"
+    ],
+    "Função de Organismo": [
+      "DIURESE"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABD",
+      "MMII"
+    ],
+    "Achado": [
+      "RHA+",
+      "PLANO",
+      "FLÁCIDO",
+      "CPP LIVRES",
+      "RITMO REGULAR"
+    ],
+    "Grupo Familiar": [
+      "MARIDO"
+    ],
+    "Função Patológica": [
+      "ABORTO EM 1o TRIMESTER"
+    ]
+  },
+  "labels": {
+    "JA00.16": {
+      "term_original": "aborto em 1o trimester",
+      "capitulo": "18",
+      "confidence_embedding": 0.8003,
+      "descricao_cid": "Representação de doença CID-11: Aborto induzido, completo ou não especificado, complicado por hemorragia excessiva ou tardia. Definição: Condição causada por intervenções cirúrgicas, farmacológicas, mecânicas, artificiais ou outras intervenções não especificadas e complicada por sangramento excessivo ou tardio. Esta condição é caracterizada pela interrupção da gravidez e morte embrionária ou fetal intencional com expulsão completa ou não especificada dos produtos da concepção do útero antes que o feto seja viável.",
+      "classification_reasoning": "A paciente sofreu um aborto em primeiro trimestre, com piora de bioquímica e anemia, o que sugere uma intervenção intencional para interromper a gravidez."
+    },
+    "3A72.0": {
+      "term_original": "anemia",
+      "capitulo": "03",
+      "confidence_embedding": 0.7928,
+      "descricao_cid": "Representação de doença CID-11: Anemias sideroblásticas congênitas. Definição: Doença causada por determinantes surgindo no período pré-natal levando à produção de sideroblastos em anel; eritroblastos nucleados anormais. Esta doença é caracterizada pela incapacidade dos glóbulos vermelhos incorporarem a hemoglobina adequadamente , sendo necessária aos glóbulos vermelhos para transportar o oxigênio eficientemente. Esta doença pode se manifestar com palidez, fadiga, tonturas e aumento do baço e fígado, doença cardíaca, lesão hepática e insuficiência renal.",
+      "classification_reasoning": "Anemia foi mencionada no prontuário como um sintoma, e a descrição da anemia é relacionada à piora de bioquímica e anemia após aborto em primeiro trimestre. Isso sugere que a anemia pode ser uma anemia sideroblástica congênita, pois foi mencionado na história clínica que o paciente tem potencial doador marido com 4mm de XM negativo, o que aumenta a probabilidade de anemia sideroblástica congênita."
+    },
+    "60000.0": {
+      "term_original": "astenia",
+      "capitulo": "06",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A astenia mencionada no prontuário é um sintoma comum de anemia, que também está descrita na paciente. Além disso, a anemia e a hipocorada também são mencionadas como sinais da gravidade do aborto."
+    },
+    "MC20.2": {
+      "term_original": "drc estagio 5",
+      "capitulo": "21",
+      "confidence_embedding": 0.6845,
+      "descricao_cid": "Representação de doença CID-11: Hipópio. Definição: Hipópio é a presença de células inflamatórias na câmara anterior do olho. Corresponde a um exsudato leucocitário, observado na câmara anterior, geralmente acompanhado de hiperemia de conjuntiva e episclera subjacente. É um sinal de inflamação da úvea anterior e da íris, ou seja, irite, que é uma forma de uveíte anterior. O exsudado deposita-se no fundo devido à ação da gravidade.",
+      "classification_reasoning": "A presença de DRC estágio 5 no prontuário sugere uma doença reprodutiva, e o termo extraído 'DRC Estágio 5' é mais provável ser relacionado à hipópio do que a bacteremia ou abdome agudo. Além disso, a sintomatologia descrita, como aborto em primeiro trimestre e anemia, também aponta para uma doença reprodutiva."
+    },
+    "MF34": {
+      "term_original": "drc esatgio 5",
+      "capitulo": "21",
+      "confidence_embedding": 0.6823,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa da gravidez. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'DRC ESATGIO 5' é a Representação de doença CID-11: Sintoma ou queixa da gravidez, pois o contexto clínico refere-se ao estágio 5 do parto e a situação atual da paciente (anemia, hipocorada, etc.), indicando que a escolha mais precisa é relacionada à gravidez."
+    },
+    "FA27.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7298,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A presença de edema na descrição do paciente, associada à hiperemia e anemia, sugere a possibilidade de reumatismo palindrômico, uma doença caracterizada por crises agudas de dor e edema nas articulações."
+    },
+    "FA80.4": {
+      "term_original": "flácido",
+      "capitulo": "15",
+      "confidence_embedding": 0.692,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'flácido' no contexto do prontuário é a degeneração de disco intervertebral da coluna torácica sem prolapso de disco, pois essa condição caracteriza-se por uma perda gradual de elasticidade e rigidez muscular, levando à flacidez."
+    },
+    "BD10": {
+      "term_original": "hipocorada",
+      "capitulo": "11",
+      "confidence_embedding": 0.6961,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos.",
+      "classification_reasoning": "A hipocorada descrita no exame físico é um sintoma comum em pacientes com insuficiência cardíaca congestiva, que é caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal. A escolha do código BD10 é mais precisa porque a hipocorada está relacionada à insuficiência cardíaca, o que não está diretamente ligado às outras opções de doenças."
+    },
+    "5A60.2": {
+      "term_original": "inapetencia",
+      "capitulo": "05",
+      "confidence_embedding": 0.7231,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da secreção inapropriada do hormônio antidiurético. Definição: Síndrome da secreção inapropriada do hormônio antidiurético (ADH)- SIADH- é caracterizada pela secreção contínua de ADH causando hiponatremia, hiposmolalidade e natriurese. A prevelência exata é desconhecida. A doença tem sido descrita em grupos de todas as idades. SIADH é frequentemente associada a tumores, doenças pulmonares, transtornos do sistema nervoso central ou exposição a drogas. Ocasionalmente ela é encontrada em pacientes com insuficiência adrenal, tireoidiana ou hipofisária. O transtorno é causado por mutações com ganho de função em genes que codificam o receptor de vasopressina V2. Restrição hídrica é o tratamento mais comum. O resultado está relacionado aos distúrbios subjacentes e associados.",
+      "classification_reasoning": "Inapetencia é um sintoma comum na Síndrome da Secreção Inapropriada do Hormônio Antidiurético (SIADH), caracterizada por uma secreção contínua de hormônio antidiurético que leva a hiponatremia, hiposmolalidade e natriurese. A presença de inapetencia em conjunto com outros sintomas descritos no prontuário, como astenia e anemia, faz da Síndrome da Secreção Inapropriada do Hormônio Antidiurético a escolha mais precisa para o termo."
+    }
+  }
+}

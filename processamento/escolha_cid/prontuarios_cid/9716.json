@@ -1,0 +1,114 @@
+{
+  "prontuario_id": 532,
+  "text": "TX RENAL DC,\nPKD.\nPREDSIM 5, FK 2 / 3, SRL 2, BO, CVD 25 X2, OMEGA 3.\n\nS: SEM QUEIXAS.\nO: PA 120/80, 130/80,  P 80,  AFEBRIL,  PESO 71,5.\nEX SEGMENTAR SP.\nTX RENAL 3 MESES COM CR 2,31 COM FK 12 E SRL PENDENTE.\nDISLIPIDEMIA.\nLEUCOPENIA EM USO BACTRIM E GANVIRAX.\nCMV TRATADO.\n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "PKD",
+      "FK",
+      "SRL",
+      "BO",
+      "CVD",
+      "PA",
+      "P",
+      "TX RENAL",
+      "EX SEGMENTAR SP",
+      "CR 2 , 31",
+      "SRL PENDENTE",
+      "CMV TRATADO"
+    ],
+    "Doença ou Síndrome": [
+      "PKD",
+      "DISLIPIDEMIA",
+      "LEUCOPENIA"
+    ],
+    "Substância Farmacológica": [
+      "PREDSIM",
+      "FK",
+      "SRL",
+      "BO",
+      "CVD",
+      "BACTRIM",
+      "GANVIRAX",
+      "OMEGA 3"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "2",
+      "120/80",
+      "130/80",
+      "80",
+      "12",
+      "2 / 3",
+      "25 X2",
+      "71 , 5"
+    ],
+    "Substância Química Orgânica": [
+      "FK",
+      "SRL",
+      "CVD",
+      "BACTRIM"
+    ],
+    "Antibiótico": [
+      "SRL"
+    ],
+    "Negação": [
+      "SEM",
+      "AFEBRIL"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "AFEBRIL"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PESO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "LEUCOPENIA",
+      "CR 2 , 31"
+    ],
+    "Ácido Nucleico, Nucleosídeo ou Nucleotídeo": [
+      "GANVIRAX"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Substância Biologicamente Ativa": [
+      "OMEGA 3"
+    ],
+    "Achado": [
+      "CMV TRATADO"
+    ]
+  },
+  "labels": {
+    "3A72.1": {
+      "term_original": "leucopenia",
+      "capitulo": "03",
+      "confidence_embedding": 0.7184,
+      "descricao_cid": "Representação de doença CID-11: Anemias sideroblásticas adquiridas. Definição: Doença causada por determinantes surgindo após o nascimento como as síndromes mielodisplásicas, antimicrobianos, deficiência de piridoxina, envenenamento por chumbo ou deficiência de cobre. O zinco pode causar anemia sideroblástica indiretamente diminuindo aa absorção e aumentando a excreção do cobre. Esta doença é caracterizada pela incapacidade da incorporação da hemoglobina nos glóbulos vermelhos, que é necessária para o transporte eficiente do oxigênio. Esta doença pode se manifestar com palidez, fadiga, tontura e aumento do baço e fígado, doença cardíaca, lesão hepática e insuficiência renal.",
+      "classification_reasoning": "A escolha do código 3A72.1 se justifica porque a leucopenia mencionada no prontuário é associada ao uso de medicamentos como Bactrim e Ganvirax, o que sugere anemia sideroblástica adquirida."
+    },
+    "1D82": {
+      "term_original": "cmv tratado",
+      "capitulo": "01",
+      "confidence_embedding": 0.7635,
+      "descricao_cid": "Representação de doença CID-11: Doença por citomegalovírus. Definição: Qualquer condição causada por uma infecção por citomegalovírus (CMV). Essas condições são comumente assintomáticas. A transmissão ocorre por contato direto com fluidos corporais infectados.",
+      "classification_reasoning": "A descrição 'Tratado' indica que a doença foi tratada e resolvida, o que se ajusta à definição de Doença por citomegalovírus (CMV) CID-11. A presença do termo 'Tratado' sugere que a paciente já teve CMV e foi tratada com sucesso."
+    },
+    "GB57": {
+      "term_original": "pkd",
+      "capitulo": "16",
+      "confidence_embedding": 0.7647,
+      "descricao_cid": "Representação de doença CID-11: Nefrocalcinose. Definição: Uma afecção do rim, causada por inflamação ou degeneração anterior, quando acompanhada por insuficiência renal prévia. Essa afecção é caracterizada por litíase renal ou deposição à base de cálcio no parênquima renal. Essa afecção também pode se manifestar com infecção, hematúria, cólica anal ou diminuição da função renal. A confirmação é feita por imagens médicas abdominais para determinar a localização dos depósitos.",
+      "classification_reasoning": "A presença de PKD (Poliquistese Renal) é sugerida pela história de doença renal crônica e a descrição de TX RENAL DC. O Código GB57 é a representação mais precisa da doença nefrocalcinose, que está relacionada à poliquisteRenal."
+    },
+    "BA02": {
+      "term_original": "dislipidemia",
+      "capitulo": "11",
+      "confidence_embedding": 0.7177,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A opção mais precisa para o termo 'dislipidemia' é a doença renal hipertensiva (Código BD71.2), pois dislipidemia se refere às alterações no perfil lipídico do sangue, que podem estar relacionadas à doença renal hipertensiva."
+    }
+  }
+}

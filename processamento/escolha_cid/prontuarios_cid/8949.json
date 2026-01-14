@@ -1,0 +1,173 @@
+{
+  "prontuario_id": 386,
+  "text": "Às 14:20 hrs: paciente consciente, comunicativo, eupneico em aa, em repouso no leito, sem queixas algicas. Aguarda marcar cx. seguem cuidados de enfermagem. OUTRA DEGENERACAO ESPECIFICADA DE DISCO INTERVERTEBRAL. ÀS 18:00: 2º DI POR ICTERÍCIA DE EMERGÊNCIA SOB VM EM MODO PCV, COM FIO2 50 %, FR 14, PEEP 5, PRESSÃO LIMITE 22 E MONITORIZAÇÃO CARDÍACA NÃO INVASIVA COM 97 bpM, 97% SAT O2, 97/57 mmHg. PUPILAS ISOMIÓTICAS. SNG ABERTA COM PEQUENA QUANTIDADE DE ESTASE GÁSTRICA. TOT Nº 7.5 EM RIMA 20. CVC EM SUBCLÁVIA DIREITA COM SEDAÇÃO EM CURSO (FENTANIL E DORMONID À 15 ML/H). BCRNF. AP LIVRE DE RUÍDOS ADVENTÍCIOS. ABDOMEN GLOBOSO FLÁCIDO E COM RHA +. SVD COM DÉBITO URINÁRIO PRESENTE DE COLORAÇÃO AMBAR COM GRUMOS. SEGUE SOB CUIDADOS DA EQUIPE MULTIPROFISSIONAL. AGUARDA VAGA DE UTI. FIGADO GORDUROSO ALCOOLICO.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "paciente"
+    ],
+    "Achado": [
+      "consciente",
+      "comunicativo",
+      "BCRNF",
+      "FLÁCIDO",
+      "eupneico em aa",
+      "repouso no leito",
+      "LIVRE DE RUÍDOS ADVENTÍCIOS",
+      "RHA +",
+      "DÉBITO URINÁRIO PRESENTE"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "cx",
+      "VM",
+      "CVC",
+      "SVD",
+      "repouso no leito",
+      "SNG ABERTA",
+      "SEDAÇÃO EM CURSO"
+    ],
+    "Abreviação": [
+      "cx",
+      "DI",
+      "VM",
+      "FIO2",
+      "FR",
+      "PEEP",
+      "bpM",
+      "CVC",
+      "BCRNF",
+      "AP",
+      "SVD",
+      "UTI",
+      "eupneico em aa",
+      "MODO PCV",
+      "SAT O2",
+      "97/57 mmHg",
+      "SNG ABERTA",
+      "TOT Nº",
+      "15 ML/H",
+      "RHA +"
+    ],
+    "Conceito Quantitativo": [
+      "14",
+      "5",
+      "22",
+      "97",
+      "97%",
+      "7",
+      "20",
+      "50 %",
+      "15 ML/H"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "RIMA",
+      "SUBCLÁVIA DIREITA"
+    ],
+    "Dispositivo Médico": [
+      "CVC",
+      "SVD",
+      "SNG ABERTA",
+      "TOT Nº"
+    ],
+    "Substância Farmacológica": [
+      "FENTANIL",
+      "DORMONID"
+    ],
+    "Substância Química Orgânica": [
+      "FENTANIL",
+      "DORMONID"
+    ],
+    "Procedimento Diagnóstico": [
+      "AP",
+      "MONITORIZAÇÃO CARDÍACA"
+    ],
+    "Localização ou Região Corporal": [
+      "ABDOMEN"
+    ],
+    "Sinal ou Sintoma": [
+      "GLOBOSO",
+      "GRUMOS",
+      "queixas algicas",
+      "ICTERÍCIA DE EMERGÊNCIA",
+      "PUPILAS ISOMIÓTICAS",
+      "ESTASE GÁSTRICA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UTI"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "cuidados de enfermagem",
+      "CUIDADOS DA EQUIPE MULTIPROFISSIONAL"
+    ],
+    "Doença ou Síndrome": [
+      "DEGENERACAO ESPECIFICADA DE DISCO INTERVERTEBRAL",
+      "FIGADO GORDUROSO ALCOOLICO"
+    ],
+    "Conceito Qualitativo": [
+      "PEQUENA QUANTIDADE"
+    ],
+    "Substância Corporal": [
+      "ESTASE GÁSTRICA"
+    ],
+    "Função Fisiológica": [
+      "DÉBITO URINÁRIO PRESENTE"
+    ]
+  },
+  "labels": {
+    "DA60.3": {
+      "term_original": "grumos",
+      "capitulo": "13",
+      "confidence_embedding": 0.7623,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "O termo 'grumos' se refere às úlceras de estresse do estômago, que são lesões agudas da mucosa gástrica com possibilidade de hemorragia digestiva alta aguda. A descrição de DB99.5 e DA20.3 não apresentam relação direta com o termo 'grumos'. Já as descrições de DB32.0 e DA60.3 mostram uma conexão com a formação de úlceras ou lesões na região gástrica."
+    },
+    "5e+71": {
+      "term_original": "figado gorduroso alcoolico",
+      "capitulo": "05",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "Escolha baseada na descrição de 'figado gorduroso alcoolico' no prontuário, que sugere uma história de abuso ou excesso de álcool, o que está relacionado à doença do fígado alcoólico (Cirrose hepática alcoólica)."
+    },
+    "GB90.47": {
+      "term_original": "débito urinário presente",
+      "capitulo": "16",
+      "confidence_embedding": 0.7675,
+      "descricao_cid": "Representação de doença CID-11: Aminoacidúria. Definição: Condições em que os aminoácidos são encontrados na urina devido à superprodução (níveis elevados no sangue) ou falha da reabsorção tubular",
+      "classification_reasoning": "A opção mais precisa para o termo 'débito urinário presente' é a aminoacidúria (GB90.47), pois apresenta sintomas de alterações na urina, como grumos, que estão relacionados ao déficit de proteínas na urina."
+    },
+    "MB23.H": {
+      "term_original": "queixas algicas",
+      "capitulo": "21",
+      "confidence_embedding": 0.776,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A opção mais precisa é 'Representação de doença CID-11: Crise de pânico' (Código MB23.H) porque o termo extraído 'queixas algicas' se refere a sintomas como dor no peito, náusea ou desconforto abdominal, que são comuns em crises de pânico."
+    },
+    "8D8A.2": {
+      "term_original": "pupilas isomióticas",
+      "capitulo": "08",
+      "confidence_embedding": 0.7489,
+      "descricao_cid": "Representação de doença CID-11: Anisocoria episódica. Definição: Este é um grupo de transtornos em que movimentos pupilares periódicos levam a mudanças de tamanho. Isso ocorre devido ao tônus parassimpático ou simpático anormal.",
+      "classification_reasoning": "O termo 'pupilas isomióticas' se refere à igualdade de tamanho entre as pupilas, o que é característico do anisocoria episódica (CID-11 code 8D8A.2). Isso é consistente com a descrição da condição, que envolve movimentos pupilares periódicos levando a mudanças de tamanho."
+    },
+    "9A25.4": {
+      "term_original": "livre de ruídos adventícios",
+      "capitulo": "09",
+      "confidence_embedding": 0.7842,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia da órbita. Definição: Trata-se da perda ou escape de sangue do sistema circulatório. Esse diagnóstico é relativo à cavidade ou arcabouço ósseo do crânio em que o olho e seus apêndices estão situados. \"Órbita\" pode se referir ao arcabouço ósseo mas também pode ser utilizado para implicar seu conteúdo.",
+      "classification_reasoning": "O termo 'livre de ruídos adventícios' se refere à ausência de ruídos anormais ou patológicos no aparelho respiratório, indicando que o paciente não apresenta qualquer doença pulmonar grave."
+    },
+    "BC74.33": {
+      "term_original": "icterícia de emergência",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A icterícia de emergência é um sintoma característico de doenças hepáticas, e o contexto do prontuário menciona que o paciente tem SVD com débito urinário presente de coração ambar com grumos, sugerindo uma possível insuficiência hepática ou doença biliar. Além disso, a presença de icterícia em combinação com outras alterações clínicas sugere que a paciente está sofrendo de um quadro de encefalopatia hepática, justificando a escolha do código BC74.33 para Representação de doença CID-11: Encefalopatia hepática não alcoólica."
+    },
+    "FA80.Y": {
+      "term_original": "degeneracao especificada de disco intervertebral",
+      "capitulo": "15",
+      "confidence_embedding": 0.8236,
+      "descricao_cid": "Representação de doença CID-11: Outra degeneração especificada de disco intervertebral. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'outro degeneracao especificada de disco intervertebral' é FA80.Y, pois a descrição coincide exatamente com o contexto clínico fornecido ('OUTRA DEGENERACAO ESPECIFICADA DE DISCO INTERVERTEBRAL')."
+    }
+  }
+}

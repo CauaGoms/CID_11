@@ -1,0 +1,67 @@
+{
+  "prontuario_id": 151,
+  "text": "ATQ A ESQ JUN/13.\nPCTE SEM QUEIXAS EM REGIAO DO QUADRIL.\nRELATA DIFICULDADE PARA DEAMBULAR DEVIDO A GONARTROSE.\nRX - SEM ALTERAÇÕES.\n\nCD - RETORNO EM 6 MESES.\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "ATQ",
+      "PCTE",
+      "RX",
+      "CD",
+      "A ESQ"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ATQ"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PCTE"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "ALTERAÇÕES"
+    ],
+    "Doença ou Síndrome": [
+      "GONARTROSE"
+    ],
+    "Procedimento Diagnóstico": [
+      "RX"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "RETORNO"
+    ],
+    "Conceito Temporal": [
+      "MESES"
+    ],
+    "Conceito Espacial": [
+      "A ESQ"
+    ],
+    "Localização ou Região Corporal": [
+      "REGIAO DO QUADRIL"
+    ]
+  },
+  "labels": {
+    "6A21.01": {
+      "term_original": "queixas",
+      "capitulo": "06",
+      "confidence_embedding": 0.7255,
+      "descricao_cid": "Representação de doença CID-11: Transtorno esquizoafetivo, primeiro episódio, em remissão parcial. Definição: Todos os critérios diagnósticos para transtorno esquizoafetivo, primeiro episódio em termos de sintomas e duração foram preenchidos anteriormente. Os sintomas melhoraram de tal forma que os critérios diagnósticos para o transtorno não foram preenchidos por pelo menos um mês, mas alguns sintomas clinicamente significativos persistem, que podem ou não estar associados a comprometimento funcional. A remissão parcial pode ter ocorrido em resposta a medicamento ou outro tratamento.",
+      "classification_reasoning": "A escolha do código 6A21.01 é devido à presença de queixas, embora não seja especificamente mencionada a natureza delas. A dificuldade para deambular e a referência à gonartrose sugerem um comprometimento funcional, o que está consistente com a definição do código 6A21.01."
+    },
+    "ME86.8": {
+      "term_original": "alterações",
+      "capitulo": "21",
+      "confidence_embedding": 0.7545,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa do quadril. Definição: ",
+      "classification_reasoning": "A palavra-chave 'alterações' se refere às mudanças fisiológicas ou patológicas descritas no prontuário, específicamente na região do quadril. A opção ME86.8 melhor se adequa ao contexto clínico pois se refere a sintomas ou queixas na região do quadril, o que é mencionado no prontuário."
+    },
+    "M11.54": {
+      "term_original": "gonartrose",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A gonartrose é uma condição que afeta a articulação do quadril, causando dor e dificuldade para caminhar (deambular). A descrição da doença refere-se à artrite degenerativa, caracterizada por lesões nos cartilagens e artrosclos. A escolha mais precisa para o termo 'gonartrose' é M11.54, que se refere ao quadro de artrite degenerativa do quadril."
+    }
+  }
+}

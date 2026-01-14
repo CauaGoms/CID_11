@@ -1,0 +1,187 @@
+{
+  "prontuario_id": 876,
+  "text": "\"retorno com exames\".  Paciente com DM diagnosticado há 8 anos. Em uso de Nesina 25mg 1 x/dia e outro ADO que não soube informar 2 x/dia; Metformina 850mg 3 x/dia. Insulina NPH 20U pela manhã e 10U após o jantar. Nega episódios recentes de hipoglicemia. Glicemia varia bastante com a alimentação (de 120 - 450). Refere \"dormência\" nos pés (fez exame do pé diabético há 6 meses). Refere disfagia frequentemente. Exames de 11/01/16: HbA1C 9,27%, Glicose 300, Creatinina 0,9 ( CL Cr  = 74 ml/ min  =  ckd-epi), CPK 233, Triglicerídeos 95, TGP 20,  TGO 19, HDL 38, CT 183,  LDL 126, TSH 1,19; Microalbuminúria 24 h 8,9. Pai falecido por AVC e mãe falecida por IAM. Retinopatia diabética há 3 anos, com perda da visão no olho direito. Nega nefropatia diabética e doenças cardiovasculares. HAS (?) - faz uso de cp sublingual quando a PA está muito alta. Nega etilismo e tabagismo. Alimentação controlada pela família (sic). Faz refeição na madrugada. HbA1C, Glicemia de jejum, Perfil lipídico.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Abreviação": [
+      "DM",
+      "ADO",
+      "AVC",
+      "IAM",
+      "HAS",
+      "PA",
+      "HbA1C",
+      "HbA1C 9 , 27%",
+      "CL Cr = 74 ml/ min = ckd-epi",
+      "CPK 233",
+      "HDL 38",
+      "CT 183",
+      "LDL 126"
+    ],
+    "Doença ou Síndrome": [
+      "DM",
+      "AVC",
+      "IAM",
+      "HAS",
+      "etilismo",
+      "tabagismo",
+      "Retinopatia diabética",
+      "nefropatia diabética",
+      "doenças cardiovasculares"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "diagnosticado"
+    ],
+    "Substância Farmacológica": [
+      "Nesina",
+      "Metformina",
+      "Insulina NPH"
+    ],
+    "Substância Química Orgânica": [
+      "Nesina",
+      "Metformina"
+    ],
+    "Conceito Quantitativo": [
+      "25mg",
+      "850mg",
+      "20U",
+      "10U",
+      "120 - 450"
+    ],
+    "Negação": [
+      "não",
+      "Nega"
+    ],
+    "Sinal ou Sintoma": [
+      "hipoglicemia",
+      "disfagia",
+      "\"dormência\" nos pés"
+    ],
+    "Alimento": [
+      "alimentação",
+      "Alimentação"
+    ],
+    "Conceito Temporal": [
+      "frequentemente",
+      "1 x/dia",
+      "2 x/dia",
+      "3 x/dia",
+      "pela manhã",
+      "após o jantar"
+    ],
+    "Grupo Familiar": [
+      "Pai",
+      "mãe"
+    ],
+    "Achado": [
+      "falecido",
+      "falecida"
+    ],
+    "Localização ou Região Corporal": [
+      "sublingual"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Procedimento Laboratorial": [
+      "HbA1C",
+      "Glicemia de jejum",
+      "Perfil lipídico"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "Insulina NPH"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "120 - 450",
+      "HbA1C 9 , 27%",
+      "Glicose 300",
+      "Creatinina 0 , 9",
+      "CL Cr = 74 ml/ min = ckd-epi",
+      "CPK 233",
+      "Triglicerídeos 95",
+      "TGP 20",
+      "TGO 19",
+      "HDL 38",
+      "CT 183",
+      "LDL 126",
+      "TSH 1 , 19",
+      "Microalbuminúria 24 h 8 , 9"
+    ],
+    "Procedimento Diagnóstico": [
+      "exame do pé diabético"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "olho direito"
+    ],
+    "Conceito Qualitativo": [
+      "muito alta"
+    ]
+  },
+  "labels": {
+    "BA01": {
+      "term_original": "has",
+      "capitulo": "11",
+      "confidence_embedding": 0.7196,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A opção mais precisa para o termo 'HAS' é a Doença cardíaca hipertensiva (Código: BA01), pois o paciente refere-se a problemas cardíacos e faz uso de um medicamento sublingual quando a pressão arterial está muito alta, sugerindo uma hipertensão não controlada."
+    },
+    "BD54": {
+      "term_original": "nefropatia diabética",
+      "capitulo": "11",
+      "confidence_embedding": 0.7378,
+      "descricao_cid": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'nefropatia diabética' é a úlcera de pé diabético, pois o paciente refere dormência nos pés e fez exame do pé diabético há 6 meses, o que sugere uma possível lesão nos tecidos dos pés."
+    },
+    "BC43.7": {
+      "term_original": "doenças cardiovasculares",
+      "capitulo": "11",
+      "confidence_embedding": 0.7666,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia diabética. Definição: Cardiomiopatia diabética é a presença de disfunção miocárdica na ausência de doença arterial coronariana clínica evidente, doença valvar e outros fatores de risco cardiovascular convencionais, como hipertensão e dislipidemia. Caracteriza-se inicialmente por fibrose miocárdica, remodelamento disfuncional e disfunção diastólica, evoluindo para disfunção sistólica e insuficiência cardíaca. \r\n\r\nInformações adicionais. O desenvolvimento e a progressão de cardiomiopatia diabética têm sido associados ao comprometimento da sinalização metabólica da insulina no coração, aumento do estresse oxidativo, redução da biodisponibilidade do óxido nítrico, rigidez da matriz extracelular e dos cardiomiócitos a base de colágeno, comprometimento do manuseio do cálcio por mitocôndrias e cardiomiócitos, inflamação, ativação do sistema renina-angiotensina-aldosterona, neuropatia autonômica cardíaca, estresse do retículo endoplasmático, disfunção microvascular e uma miríade de anormalidades metabólicas cardíacas.",
+      "classification_reasoning": "A escolha do código BC43.7 (Cardiomiopatia diabética) é a mais precisa para o termo 'doenças cardiovasculares' no contexto clínico, pois o paciente tem DM há 8 anos e refere disfagia frequentemente, sugerindo possível comprometimento da função cardíaca. Além disso, a presença de cardiopatia diabética é apoiada pelo fato do paciente ter retinopatia diabética há 3 anos e pela ausência de doenças cardiovasculares mencionadas."
+    },
+    "DD90.1": {
+      "term_original": "disfagia",
+      "capitulo": "13",
+      "confidence_embedding": 0.774,
+      "descricao_cid": "Representação de doença CID-11: Disfagia funcional. Definição: Disfagia funcional é um transtorno em que não há anormalidades estruturais e nem refluxo gastroesofágico como causa da \r\ndisfagia, caracterizado por sensação de alimentos sólidos e/ou líquidos grudando, alojando-se ou passando anormalmente pelo esôfago.",
+      "classification_reasoning": "A disfagia é um sintoma comum em pacientes diabéticos, e a presença de DM há 8 anos e uso de insulina NPH e Metformina sugerem que a disfagia pode estar relacionada à doença. Além disso, a presença de retinopatia diabética e microalbuminúria também apoiam essa escolha."
+    },
+    "BA41": {
+      "term_original": "avc",
+      "capitulo": "11",
+      "confidence_embedding": 0.7441,
+      "descricao_cid": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)",
+      "classification_reasoning": "O pai do paciente faleceu por AVC (Acidente Vascular Cerebral), o que sugere uma história familiar de doenças cardiovasculares. Além disso, a presença de retinopatia diabética e perda da visão no olho direito sugerem que o paciente tem uma patologia cardiovascular em curso."
+    },
+    "MA18.0Y": {
+      "term_original": "hipoglicemia",
+      "capitulo": "21",
+      "confidence_embedding": 0.7701,
+      "descricao_cid": "Representação de doença CID-11: Outro aumento especificado da glicemia. Definição: ",
+      "classification_reasoning": "A opção mais precisa é MA18.0Y, pois o paciente refere 'hipoglicemia' e apresenta variação de glicemia com a alimentação (de 120-450), apesar de negar episódios recentes de hipoglicemia."
+    },
+    "5A24": {
+      "term_original": "dm",
+      "capitulo": "05",
+      "confidence_embedding": 0.7857,
+      "descricao_cid": "Representação de doença CID-11: Diabetes mellitus não controlado ou instável. Definição: Diabetes instável ou lábil é um termo utilizado para descrever diabetes mellitus tipo 1 e tipo 2 com controle particularmente difícil. Isso resulta em oscilações extremas e frequentes nos níveis de glicose no sangue, causando hiperglicemia que pode levar à cetoacidose e hipoglicemia.",
+      "classification_reasoning": "O paciente tem diabetes mellitus diagnosticado há 8 anos e não está controlado, pois a glicemia varia muito com a alimentação (de 120-450) e tem sido tratado com várias medicações. A presença de disfagia frequentemente e dormência nos pés também sugere que o paciente tem diabetes não controlado ou instável."
+    },
+    "8A80.2": {
+      "term_original": "\"dormência\" nos pés",
+      "capitulo": "08",
+      "confidence_embedding": 0.7913,
+      "descricao_cid": "Representação de doença CID-11: Enxaqueca crônica. Definição: Cefaleia que ocorre em 15 ou mais dias por mês por mais de três meses, que, em pelo menos oito dias por mês, tem características de cefaleia migranosa e não está associada ao uso excessivo de medicamentos.",
+      "classification_reasoning": "Dormência nos pés é um sintoma comum em pacientes com diabetes, e a descrição de enxaqueca crônica (Código 8A80.2) melhor se ajusta ao termo extraído do contexto clínico, pois não há evidências de doenças neurológicas ou metabólicas que justifiquem o uso dos códigos mencionados anteriormente."
+    },
+    "9B71.0": {
+      "term_original": "retinopatia diabética",
+      "capitulo": "09",
+      "confidence_embedding": 0.8616,
+      "descricao_cid": "Representação de doença CID-11: Retinopatia diabética. Definição: Condição caracterizada como uma doença da retina (retinopatia) que envolve dano aos pequenos vasos sanguíneos da retina, o que é devido a níveis cronicamente elevados de glicose no sangue em pessoas com diabetes.",
+      "classification_reasoning": "A escolha pelo código 9B71.0 é baseada na descrição da retinopatia diabética no paciente, que refere a perda de visão no olho direito e apresenta história de diabetes mellitus há 8 anos. A definição do código 9B71.0 se ajusta à situação clínica do paciente."
+    }
+  }
+}

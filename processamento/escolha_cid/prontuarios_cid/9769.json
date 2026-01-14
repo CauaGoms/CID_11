@@ -1,0 +1,130 @@
+{
+  "prontuario_id": 627,
+  "text": "TX RENAL DC.\nTX RENAL COM CR 0,88; COM NS FK 7.\nHAS,\nDLP,\nITU.\n \n \nTX RENAL DC HÁ 1 ANO E 6 MESES.\nMTC 5, MS 2/2, FK 2/1, OMEPRAZOL 20, SINVASTTAINA 20, ATENOLOL 100, NFD 40.\nS: PERDEU O MARIDO POR IAM/ ACIDENTE DE TRANSITO.\nO: PA 120/80;  P 78;  AFEBRIL; PESO 52.\nEX SGEMNETAR NORMAL.",
+  "entities": {
+    "Abreviação": [
+      "HAS",
+      "DLP",
+      "ITU",
+      "MTC",
+      "MS",
+      "FK",
+      "NFD",
+      "S",
+      "IAM/",
+      "O",
+      "PA",
+      "P",
+      "TX RENAL DC",
+      "TX RENAL",
+      "NS FK 7",
+      "EX SGEMNETAR NORMAL"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DLP",
+      "ITU",
+      "IAM/"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "MS",
+      "FK",
+      "OMEPRAZOL",
+      "SINVASTTAINA",
+      "ATENOLOL",
+      "NFD"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "2/2",
+      "2/1",
+      "20",
+      "100",
+      "40",
+      "120/80",
+      "78",
+      "52"
+    ],
+    "Substância Química Orgânica": [
+      "MS",
+      "FK",
+      "OMEPRAZOL",
+      "SINVASTTAINA",
+      "ATENOLOL",
+      "NFD"
+    ],
+    "Achado": [
+      "S",
+      "TX RENAL DC",
+      "PERDEU O MARIDO",
+      "EX SGEMNETAR NORMAL"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PESO"
+    ],
+    "Negação": [
+      "AFEBRIL"
+    ],
+    "Sinal ou Sintoma": [
+      "AFEBRIL"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL DC",
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 88",
+      "NS FK 7"
+    ],
+    "Lesão ou Envenenamento": [
+      "ACIDENTE DE TRANSITO"
+    ]
+  },
+  "labels": {
+    "4A85.01": {
+      "term_original": "itu",
+      "capitulo": "04",
+      "confidence_embedding": 0.74,
+      "descricao_cid": "Representação de doença CID-11: Hipersensibilidade renal induzida por droga. Definição: Hipersensibilidade renal induzida por droga constitui uma importante causa de insuficiência renal aguda e doença renal crônica na prática clínica atual. Diferentes classes de drogas, em virtude de mecanismos imunológicos, desencadeiam respostas inflamatórias renais específicas, que se manifestam por diferentes padrões clínicos, como a nefrite intersticial induzida por drogas. A hipersensibilidade renal induzida por drogas pode se manifestar isoladamente ou em combinação com outros transtornos de hipersensibilidades induzida por drogas em outro órgão ou sistema.",
+      "classification_reasoning": "Escolha feita por conta do termo 'ITU' mencionado no prontuário, que é provavelmente referente à Hipersensibilidade Renal Induzida por Drogas (ITUR), o que justifica a escolha do código 4A85.01."
+    },
+    "PF7Z": {
+      "term_original": "acidente de transito",
+      "capitulo": "23",
+      "confidence_embedding": 0.6604,
+      "descricao_cid": "Representação de doença CID-11: Evento de intenção indeterminada de transporte ferroviário que resulta em traumatismo, não especificado. Definição: ",
+      "classification_reasoning": "A escolha do código PF7Z é a mais precisa porque o termo 'acidente de transito' refere-se explicitamente a um evento de transporte ferroviário que resulta em traumatismo, o que coincide com a definição do código."
+    },
+    "PK80.3": {
+      "term_original": "iam/",
+      "capitulo": "23",
+      "confidence_embedding": 0.7039,
+      "descricao_cid": "Representação de doença CID-11: Procedimento gastrointestinal, abdominal ou da parede abdominal associado à lesão ou dano durante uso terapêutico. Definição: ",
+      "classification_reasoning": "O termo 'iam/' encontrado no contexto indica que o paciente apresentou um acidente de transito, o que está relacionado ao código PK80.3, que representa procedimentos gastrointestinal ou abdominais associados à lesão ou dano durante uso terapêutico."
+    },
+    "GB90.49": {
+      "term_original": "tx renal dc",
+      "capitulo": "16",
+      "confidence_embedding": 0.7697,
+      "descricao_cid": "Representação de doença CID-11: Hipocalciúria renal. Definição: Afecção renal causada por retenção tubular renal, baixa ingestão dietética de cálcio ou anormalidades na absorção de cálcio e que pode estar associada à ingestão de diuréticos tiazídicos, doença de Gitelman ou hipercalcemia hipocalciúrica familiar. Esta afecção é caracterizada por uma diminuição do nível de cálcio na urina.",
+      "classification_reasoning": "A opção mais precisa para o termo 'tx renal dc' é a hipocalciúria renal (Código: GB90.49), considerando que o paciente apresenta uma retenção tubular renal, alteração na absorção de cálcio e baixo nível de cálcio na urina."
+    },
+    "QA51": {
+      "term_original": "perdeu o marido",
+      "capitulo": "24",
+      "confidence_embedding": 0.6989,
+      "descricao_cid": "Representação de doença CID-11: Corpo estranho acidentalmente deixado no corpo sem lesão ou dano.. Definição: ",
+      "classification_reasoning": "A perda do marido (íncolo acidental de morte) é um evento traumático que justifica a escolha desse código, pois não há relação direta com doenças renais ou diálise."
+    },
+    "MF56": {
+      "term_original": "s",
+      "capitulo": "21",
+      "confidence_embedding": 0.7742,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A escolha do código MF56 (Cólica renal) é a mais precisa para o termo 's' dentro do contexto clínico, pois há referência à dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, que é um sintoma característico da cólica renal."
+    }
+  }
+}

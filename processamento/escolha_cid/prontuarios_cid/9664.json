@@ -1,0 +1,182 @@
+{
+  "prontuario_id": 432,
+  "text": "POS TX RENAL.\n\nPOS TX RENAL - CR 0,83 - NS FK 3,0.\nHAS COMPENSADA.\nPOLIGLOBULIA - OK.\nTOSSE CRONICA - VARIANTE DA ASMA?\nHERPES.\n \n \nTX RENAL JAN/2015.\nUSO DE: PDN 5, FK 2 / 2, MS  2 / 1, OMZ 40, CVDL 25, AAS 100, ENL 5 X1.\nS # TEVE QUADRO DE IVAS, SEGUIDO COM REATIVAÇAO DE HERPES.\nTOSSE CRONICA NOTURNA.\nO # BEG, CORADO, HIDRATADO.\n130/90.\nMV POSITIVO, SIMETRICO.\nBCRNF.\nABDOMEN FLACIDO, SEM MASSAS.\nMEMBROS SEM EDEMA.\nLESÕES TIPO VESICULAS AGRUPADAS EM REGIÃO DE SACRO.",
+  "entities": {
+    "Conceito Temporal": [
+      "POS",
+      "NOTURNA"
+    ],
+    "Doença ou Síndrome": [
+      "POLIGLOBULIA",
+      "ASMA",
+      "HERPES",
+      "IVAS",
+      "HAS COMPENSADA",
+      "REATIVAÇAO DE HERPES"
+    ],
+    "Achado": [
+      "OK",
+      "S",
+      "BEG",
+      "CORADO",
+      "HIDRATADO",
+      "SIMETRICO",
+      "BCRNF",
+      "REATIVAÇAO DE HERPES",
+      "MV POSITIVO"
+    ],
+    "Substância Farmacológica": [
+      "PDN",
+      "FK",
+      "MS",
+      "OMZ",
+      "CVDL",
+      "AAS",
+      "ENL"
+    ],
+    "Substância Química Orgânica": [
+      "PDN",
+      "FK",
+      "MS",
+      "OMZ",
+      "CVDL",
+      "AAS"
+    ],
+    "Abreviação": [
+      "PDN",
+      "FK",
+      "MS",
+      "OMZ",
+      "CVDL",
+      "AAS",
+      "ENL",
+      "S",
+      "O",
+      "BEG",
+      "BCRNF",
+      "TX RENAL",
+      "CR 0 , 83",
+      "NS FK 3 , 0",
+      "HAS COMPENSADA",
+      "MV POSITIVO"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "40",
+      "25",
+      "100",
+      "130/90"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "ENL"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABDOMEN"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "MASSAS",
+      "EDEMA",
+      "TOSSE CRONICA",
+      "LESÕES TIPO VESICULAS AGRUPADAS"
+    ],
+    "Localização ou Região Corporal": [
+      "MEMBROS",
+      "REGIÃO DE SACRO"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 83",
+      "NS FK 3 , 0"
+    ]
+  },
+  "labels": {
+    "3B81.A": {
+      "term_original": "poliglobulia",
+      "capitulo": "03",
+      "confidence_embedding": 0.6935,
+      "descricao_cid": "Representação de doença CID-11: Periesplenite. Definição: Doença causada por infecção bacteriana ou viral, infestação parasitária, ou cistos. Essa doença é caracterizada por inflamação da superfície peritoneal do baço. Pode apresentar-se com dor abdominal, susceptibilidade a infecção e aumento do baço. A confirmação é feita pela identificação de infecção em amostra de sangue.",
+      "classification_reasoning": "A opção mais precisa é a periesplenite (Código 3B81.A) porque o texto apresenta lesões tipo vesiculares agrupadas na região do sacro, o que sugere uma inflamação da superfície peritoneal do baço, característica da periesplenite."
+    },
+    "EC90.10": {
+      "term_original": "massas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7332,
+      "descricao_cid": "Representação de doença CID-11: Prurido urêmico. Definição: Prurido em pacientes com insuficiência renal crônica. Embora comum na doença renal crônica não tratada, é particularmente prevalente em pacientes que submetidos a diálise peritoneal ou hemodiálise. O prurido não se deve a níveis elevados de ureia sérica. Os mecanismos precisos não são totalmente compreendidos.",
+      "classification_reasoning": "A presença de 'massas' no contexto clínico sugere a possibilidade de prurido urêmico, comum em pacientes com insuficiência renal crônica não tratada."
+    },
+    "FA27.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7258,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A opção mais precisa é a FA27.2, Reumatismo palindrômico, pois o termo 'edema' está relacionado à dor e ao edema nas articulações, característica desse distúrbio."
+    },
+    "NB92.1Z": {
+      "term_original": "lesões tipo vesiculas agrupadas",
+      "capitulo": "22",
+      "confidence_embedding": 0.7144,
+      "descricao_cid": "Representação de doença CID-11: Lesão do ureter, não especificada. Definição: ",
+      "classification_reasoning": "A descrição das lesões tipo vesiculas agrupadas em região de sacro sugere lesão do ureter, não especificada, considerando que o paciente tem história de tratamento renal e apresenta quadro de IVAS."
+    },
+    "BD71.2": {
+      "term_original": "mv positivo",
+      "capitulo": "11",
+      "confidence_embedding": 0.7248,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A opção mais precisa para o termo 'mv positivo' é a trombose da veia renal (BD71.2), considerando que o contexto menciona quadro de IVAS e reativação de herpes, o que sugere uma lesão vascular relacionada à doença renal."
+    },
+    "MF56": {
+      "term_original": "ivas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7852,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A presença de 'IVAS' no prontuário indica que o paciente apresentou um quadro de cólica renal, caracterizado por dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios."
+    },
+    "BA02": {
+      "term_original": "bcrnf",
+      "capitulo": "11",
+      "confidence_embedding": 0.7473,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A palavra-chave 'Bcrnf' está relacionada à doença renal hipertensiva, que é descrita como uma condição médica que se refere a danos ao rim devido à hipertensão crônica. Isso é consistente com a história do paciente, que tem POS TX RENAL e apresenta CR 0,83 - NS FK 3,0."
+    },
+    "CA23.0": {
+      "term_original": "asma",
+      "capitulo": "12",
+      "confidence_embedding": 0.7588,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica. Definição: Asma alérgica é o fenótipo de asma mais facilmente reconhecido. Frequentemente, inicia-se na infância e é associada a um histórico pessoal ou familiar de doença alérgica, como eczema, rinite alérgica, ou alergia a drogas e alimentos. O exame do escarro induzido desses pacientes, antes do tratamento, geralmente revela uma inflamação eosinofílica das vias aéreas. O principal gatilho é a exposição a alérgenos, como o ácaro da poeira doméstica e ao pólen, aos quais o indivíduo tenha sido, previamente, sensibilizado. Os pacientes com esse fenótipo de asma, usualmente, respondem bem a corticoide inalatório e à imunoterapia alérgeno-específica.",
+      "classification_reasoning": "A opção CA23.0 foi escolhida pois a paciente tem histórico de tosse crônica e há suspeita de asma alérgica, como mencionado na linha 'TOSSE CRONICA - VARIANTE DA ASMA?'"
+    },
+    "CA23.22": {
+      "term_original": "tosse cronica",
+      "capitulo": "12",
+      "confidence_embedding": 0.7227,
+      "descricao_cid": "Representação de doença CID-11: Asma variante com tosse. Definição: Asma variante com tosse é uma forma oculta de asma em que o único sinal ou sintoma é tosse crônica.",
+      "classification_reasoning": "A tosse cronica descrita no contexto do prontuário é mais consistente com a definição de Asma variante com tosse, CA23.22, em comparação às outras opções apresentadas."
+    },
+    "2A81.9": {
+      "term_original": "herpes",
+      "capitulo": "02",
+      "confidence_embedding": 0.7178,
+      "descricao_cid": "Representação de doença CID-11: Linfoma primário de efusão. Definição: Linfoma não Hodgkin agressivo de células B composto de células grandes, apresentando-se como um derrame seroso sem massas tumorais detectáveis. Está universalmente associado ao vírus do herpes humano 8 (HHV-8)/vírus do herpes do sarcoma de Kaposi (KSHV) [HHV-8/KSHV]. Ocorre principalmente no contexto de imunodeficiência; a maioria dos casos foi relatada em pacientes HIV positivos. As localizações de envolvimento mais comuns são as cavidades pleural, pericárdica e peritoneal. O prognóstico é extremamente desfavorável.",
+      "classification_reasoning": "A opção mais precisa para o termo 'herpes' é a doença de linfoma primário de efusão, que está universalmente associada ao vírus do herpes humano 8 (HHV-8)/vírus do herpes do sarcoma de Kaposi (KSHV). Além disso, o paciente apresenta quadro de reativação de herpes."
+    },
+    "4B24.0": {
+      "term_original": "reativaçao de herpes",
+      "capitulo": "04",
+      "confidence_embedding": 0.7277,
+      "descricao_cid": "Representação de doença CID-11: Doença do enxerto versus hospedeiro aguda. Definição: Doença do enxerto-versus-hospedeiro apresentando-se normalmente nos primeiros 100 dias após o transplante. Manifesta-se mais comumente com erupção maculopapular acompanhada de febre. O prognóstico se correlaciona com a extensão do acometimento cutâneo, que pode evoluir para necrólise epidérmica generalizada, e com a gravidade do acometimento gastrointestinal e hepático que pode se manifestar com diarreia e icterícia respectivamente. A mortalidade é alta na doença do enxerto-versus-hospedeiro aguda grave.",
+      "classification_reasoning": "A reativação de herpes é um sintoma que pode estar relacionado à doença do enxerto-versus-hospedeiro aguda, considerando a história de transplantado renal e o quadro clínico apresentado."
+    }
+  }
+}

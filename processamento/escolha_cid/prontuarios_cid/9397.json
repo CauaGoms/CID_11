@@ -1,0 +1,65 @@
+{
+  "prontuario_id": 749,
+  "text": "Paciente submetida a pielografia ascendente, sem intercorrencias, com achado transoperatório de meato ureteral direito edemaciado, com ausência de cálculos ureterais, visto pela pielografia, ou cálculos vesicais. A paciente tem alta em bom estado geral, sem dor, com plano de retorno ao médico assistente.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente",
+      "paciente"
+    ],
+    "Negação": [
+      "sem",
+      "ausência"
+    ],
+    "Sinal ou Sintoma": [
+      "intercorrencias",
+      "dor"
+    ],
+    "Conceito Temporal": [
+      "transoperatório"
+    ],
+    "Procedimento Diagnóstico": [
+      "pielografia",
+      "pielografia ascendente"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "alta",
+      "plano de retorno"
+    ],
+    "Doença ou Síndrome": [
+      "cálculos ureterais",
+      "cálculos vesicais"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "cálculos vesicais"
+    ],
+    "Achado": [
+      "bom estado geral"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "médico assistente"
+    ]
+  },
+  "labels": {
+    "DA84.9": {
+      "term_original": "cálculos vesicais",
+      "capitulo": "13",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'cálculos vesicais' é a DA84.9, pois essa denominação refere-se ao surgimento de pedras (cálculos) na bexiga urinária, que é um achado transoperatório descrito no contexto do prontuário."
+    },
+    "GB70.1": {
+      "term_original": "cálculos ureterais",
+      "capitulo": "16",
+      "confidence_embedding": 0.8293,
+      "descricao_cid": "Representação de doença CID-11: Cálculo do ureter. Definição: Uma afecção do ureter, causada por desidratação, diminuição do volume de urina ou das taxas de fluxo de fluido, ou aumento da excreção de minerais como cálcio, oxalato, magnésio, cistina e fosfato. Essa afecção é caracterizada por cálculos urinários localizados no ureter e pode levar à cólica renal. Essa afecção pode se manifestar com hematúria, disúria ou dor no flanco, abdome inferior, virilha, coxas ou genitália. A confirmação é feita por radiografia abdominal para determinar a presença e localização de cálculos.",
+      "classification_reasoning": "A escolha do código GB70.1 é a mais precisa pois o texto do prontuário menciona a presença de cálculos ureterais, caracterizando uma afecção do ureter causada por desidratação ou outras condições, sem mencionar obstrução do orifício ureteral, torção ou desvio ureteral, ou comunicação anormal entre o ureter e outro órgão."
+    },
+    "MG30.2": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7776,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A dor descrita no contexto não está relacionada a uma lesão tecidual ou traumatismo, mas sim é mencionada como ausente na avaliação do paciente. Portanto, a escolha mais precisa é a dor crônica pós-operatória (MG30.2), que se ajusta melhor ao quadro clínico descrito."
+    }
+  }
+}

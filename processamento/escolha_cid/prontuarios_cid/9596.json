@@ -1,0 +1,219 @@
+{
+  "prontuario_id": 296,
+  "text": "PACIENTE COM QUEIXA DE PALPITAÇÃO, RELATA TRÊS CRISES; A PRIMEIRA FOI 1 ANO ATRÁS A ÚLTIMA HÁ DOIS MESES. A ÚLTIMA TEVE DURAÇÃO MAIOR ( DUAS HORAS ) E SINTOMAS MAIS EXACERBADOS ASSOCIADOS ( DISPNEIA, DOR RETROESTERNAL EM APERTO E NÁUSEA ); DISPNEIA AOS MÉDIOS ESFORÇOS, ASSOCIADO A QUEIMAÇÃO NO PESCOÇO.\nHAS EM USO DE ATENOLOL 25 MG (3 VEZES POR DIA ).\nGASTRITE EM USO DE DOMPERIDONA E RANITIDINA.\nEX-TABAGISTA PAROU HÁ 22 ANOS.\nMÃE FALECEU DE IAM.\nECOCARDIO 04/10/14: DENTRO DOS LIMITES DA NORMALIDADE.\nECG DE REPOUSO 12/09/14: TAQUICARDIA PAROXÍSTICA SUPRA VENTRICULAR.\nFC: 68 BPM.\nPA: 140/100 MMHG.\nAUSCULTA PULMONAR: MV PRESENTE BILATERALMENTE, SEM RA.\nAUSCULTA CARDÍACA: BCRNF.\nMMII COM EDEMA +/4+.\nSOLICITADO NOVO ECG E RETORNO EM 2 MESES.\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Achado": [
+      "ASSOCIADOS",
+      "EX-TABAGISTA",
+      "PAROU",
+      "FALECEU",
+      "BCRNF",
+      "MV PRESENTE"
+    ],
+    "Sinal ou Sintoma": [
+      "DISPNEIA",
+      "NÁUSEA",
+      "QUEIMAÇÃO",
+      "RA",
+      "EDEMA",
+      "QUEIXA DE PALPITAÇÃO",
+      "DURAÇÃO MAIOR",
+      "SINTOMAS MAIS EXACERBADOS",
+      "DOR RETROESTERNAL",
+      "DISPNEIA AOS MÉDIOS ESFORÇOS"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PESCOÇO",
+      "MMII"
+    ],
+    "Abreviação": [
+      "HAS",
+      "IAM",
+      "ECOCARDIO",
+      "FC",
+      "PA",
+      "RA",
+      "BCRNF",
+      "MMII",
+      "ECG",
+      "ECG DE REPOUSO",
+      "MV PRESENTE"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "GASTRITE",
+      "IAM"
+    ],
+    "Substância Química Orgânica": [
+      "ATENOLOL",
+      "DOMPERIDONA",
+      "RANITIDINA"
+    ],
+    "Substância Farmacológica": [
+      "ATENOLOL",
+      "DOMPERIDONA",
+      "RANITIDINA"
+    ],
+    "Grupo Familiar": [
+      "MÃE"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECOCARDIO",
+      "ECG",
+      "ECG DE REPOUSO",
+      "AUSCULTA PULMONAR",
+      "AUSCULTA CARDÍACA"
+    ],
+    "Atributo Clínico": [
+      "FC",
+      "PA"
+    ],
+    "Conceito Espacial": [
+      "BILATERALMENTE"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "+/4+",
+      "DENTRO DOS LIMITES DA NORMALIDADE",
+      "TAQUICARDIA PAROXÍSTICA SUPRA VENTRICULAR"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "SOLICITADO"
+    ],
+    "Conceito Quantitativo": [
+      "TRÊS CRISES",
+      "25 MG",
+      "68 BPM",
+      "140/100 MMHG"
+    ],
+    "Conceito Qualitativo": [
+      "EM APERTO"
+    ],
+    "Conceito Temporal": [
+      "3 VEZES POR DIA",
+      "HÁ 22 ANOS"
+    ]
+  },
+  "labels": {
+    "NA60": {
+      "term_original": "ra",
+      "capitulo": "22",
+      "confidence_embedding": 0.735,
+      "descricao_cid": "Representação de doença CID-11: Lesão dos vasos sanguíneos ao nível do pescoço. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NB30.4Z, pois a representação de doença CID-11: Lesão dos vasos sanguíneos ao nível do pescoço se refere à lesão dos vasos pulmonares. No entanto, considerando que o paciente apresenta dor retroesternal em aperto e náusea associados, melhor é a opção NA60, que se refere à lesão de vasos sanguíneos ao nível do pescoço."
+    },
+    "BC81.30": {
+      "term_original": "queixa de palpitação",
+      "capitulo": "11",
+      "confidence_embedding": 0.7908,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A queixa de palpitação é caracterizada por crises recorrentes, incluindo a última com sintomas mais exacerbados e duração maior. A presença de taquicardia paroxística supraventricular no ECG de repouso apoia essa escolha."
+    },
+    "DA42.4": {
+      "term_original": "gastrite",
+      "capitulo": "13",
+      "confidence_embedding": 0.7969,
+      "descricao_cid": "Representação de doença CID-11: Gastrite alérgica. Definição: Gastrite devida a transtornos alérgicos, significando principalmente à gastrite aguda secundária a alergia alimentar. Porém, isso inclui também gastrite alérgica devida a substâncias não alimentares e gastrite devida a hipersensibilidade não mediada por IgE. Isto inclui gastroduodenite e gastroenterite.",
+      "classification_reasoning": "A gastrite alérgica é a opção mais precisa pois inclui gastrite aguda secundária a alergia alimentar e outras causas, o que se ajusta à descrição do paciente com gastrite em uso de domperidona e ranitidina."
+    },
+    "CA22.0": {
+      "term_original": "dispneia",
+      "capitulo": "12",
+      "confidence_embedding": 0.7513,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A escolha do código CA22.0 se baseia na presença de dispneia nos sintomas do paciente, o que indica uma possível exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC). Além disso, a descrição do paciente como tendo dispneia aos meios esforços e associada à queimação no peito é consistente com a definição de exacerbação aguda da DPOC."
+    },
+    "MF33": {
+      "term_original": "sintomas mais exacerbados",
+      "capitulo": "21",
+      "confidence_embedding": 0.7047,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa pré-menstrual. Definição: Um sintoma idiopático da síndrome pré-menstrual que afeta mulheres e é idiopático. Caracterizado por sintomas emocionais, físicos ou comportamentais cíclicos, como alterações de humor, alterações psicológicas, retenção de líquidos, alterações neurológicas, alterações gastrointestinais, sensação de peso pélvico ou alterações dermatológicas que afetam mulheres na fase lútea do ciclo menstrual e que interferem com o estilo de vida da pessoa.",
+      "classification_reasoning": "O termo 'sintomas mais exacerbados' se refere à intensificação dos sintomas na última crise de palpitação do paciente, caracterizada por dispneia, dor retroesternal em aperto e náusea. Isso é consistente com a definição da síndrome pré-menstrual, que inclui sintomas cíclicos e variáveis."
+    },
+    "QA77": {
+      "term_original": "ex-tabagista",
+      "capitulo": "24",
+      "confidence_embedding": 0.691,
+      "descricao_cid": "Representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano. Definição: ",
+      "classification_reasoning": "A palavra 'ex-tabagista' refere-se ao paciente que parou de fumar há 22 anos, o que indica uma situação passada e não atual. Com isso, a opção mais precisa é QA77, que se refere à representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano."
+    },
+    "QA02.8": {
+      "term_original": "has",
+      "capitulo": "24",
+      "confidence_embedding": 0.717,
+      "descricao_cid": "Representação de doença CID-11: Observação por suspeita de alergia ou hipersensibilidade, descartada. Definição: ",
+      "classification_reasoning": "A presença de has (atenolol) no prontuário indica que o paciente está em tratamento com essa medicação, e a razão pela qual o termo foi extraído é para descrever um problema associado à transferência física do paciente relacionado ao uso desse medicamento. Isso justifica a escolha da opção QA02.8."
+    },
+    "MC32.2": {
+      "term_original": "dor retroesternal",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A dor retroesternal descrita pelo paciente é mais relacionada a uma doença cardíaca do que a outros possíveis diagnósticos. A presença de taquicardia paroxística supra ventricular e sintomas como dispneia, dor retroesternal em aperto e náusea sugerem uma crise cardíaca, o que justifica a escolha do código MC32.2."
+    },
+    "MD11.5": {
+      "term_original": "queimação",
+      "capitulo": "21",
+      "confidence_embedding": 0.7697,
+      "descricao_cid": "Representação de doença CID-11: Dispneia. Definição: Dispneia é o termo utilizado para descrever percepções de dificuldade ou sofrimento relacionados à respiração e é reconhecido como sintoma de doença quando ocorre em circunstâncias inapropriadas. Dispneia é uma queixa apresentada por pacientes com uma ampla variedade de condições médicas, causadas por múltiplos mecanismos.\r\nA dispneia é considerada aguda quando dura de horas a 3 semanas, subaguda de 3 a 8 semanas e a dispneia crônica dura mais de 8 semanas.",
+      "classification_reasoning": "A palavra-chave 'queimação' está relacionada ao sintoma de dispneia relatado pelo paciente, caracterizado por queimação no pescoço. O código MD11.5 Descrição: Dispneia é o mais preciso para este termo dentro do contexto clínico."
+    },
+    "JA20.1": {
+      "term_original": "faleceu",
+      "capitulo": "18",
+      "confidence_embedding": 0.7865,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva preexistente complicando a gravidez, o parto ou o puerpério. Definição: Condição que acomete mulheres grávidas, causada por hipertensão e doença cardíaca associada previamente diagnosticadas ou diagnosticadas nas primeiras 20 semanas. Essa condição é caracterizada por pressão arterial maior ou igual a 140/90 mmHg, levando a uma complicação durante a gravidez, o parto ou o puerpério. A confirmação é feita por esfigmomanômetro.",
+      "classification_reasoning": "A mãe faleceu de IAM, sugerindo uma história familiar de doença cardíaca e hipertensão."
+    },
+    "BA60.0": {
+      "term_original": "associados",
+      "capitulo": "11",
+      "confidence_embedding": 0.7506,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de Dressler. Definição: Condição pós infarto do miocárdio (1 a 8 semanas), caracterizada por um conjunto de sintomas associados, incluindo mal-estar, febre, desconforto pericárdico, leucocitose, taxa de sedimentação elevada e derrame pericárdico. Os pacientes com essa síndrome geralmente demonstram pericardite fibrinosa localizada contendo leucócitos polimorfonucleares.",
+      "classification_reasoning": "A opção mais precisa para o termo 'associados' é a Síndrome de Dressler (Código CID-11: BA60.0), pois os sintomas descritos, como dor retroesternal em aperto e náusea, são características da síndrome pós-infarto do miocárdio, relacionada à presença de arritmia cardíaca."
+    },
+    "I48.5": {
+      "term_original": "iam",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A mãe do paciente faleceu de IAM (infarto agudo do miocárdio), o que sugere que o termo 'IAM' se refere a essa doença."
+    },
+    "8B89.2": {
+      "term_original": "bcrnf",
+      "capitulo": "08",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é a Síndrome de Taquicardia Postural Ortostática (8D89.2), pois o termo 'bcrnf' se refere à auscultação cardíaca e a descrição da síndrome inclui sintomas como taquicardia ereta excessiva, dor de cabeça e dispneia, que coincidem com os sintomas relatados no paciente."
+    },
+    "DA60.3": {
+      "term_original": "náusea",
+      "capitulo": "13",
+      "confidence_embedding": 0.7938,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A palavra 'náusea' é um sintoma comum em pacientes com úlceras de estresse do estômago, que são lesões agudas da mucosa gástrica frequentemente associadas à doença cardiovascular. Considerando o contexto clínico, a presença de palpite e outros sintomas cardíacos, a escolha mais precisa para o termo 'náusea' é a úlcera de estresse do estômago (DA60.3)."
+    },
+    "FB50.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7281,
+      "descricao_cid": "Representação de doença CID-11: Cisto sinovial do espaço poplíteo. Definição: Este é o edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho",
+      "classification_reasoning": "A opção mais precisa para o termo 'edema' no contexto clínico é a artropatia associada a edema, que é descrita como um edema benigno da bursa ou bolsa semimembranosa ou de alguma outra bursa ou bolsa sinovial. Isso se ajusta melhor à descrição do paciente com edema +/4+."
+    },
+    "AB31.6": {
+      "term_original": "mv presente",
+      "capitulo": "10",
+      "confidence_embedding": 0.7202,
+      "descricao_cid": "Representação de doença CID-11: Paroxismia vestibular. Definição: Paroxismia vestibular (PV) é caracterizada por crises recorrentes de vertigem ou tontura, durando segundos a minutos, frequentemente várias vezes ao dia. Os ataques geralmente ocorrem espontaneamente, mas podem ocasionalmente ser induzidos por mudanças na posição da cabeça (que então precisa ser diferenciada da vertigem posicional paroxística benigna). Possíveis sintomas concomitantes são ataques curtos de tinnitus ou alterações na audição. No intervalo livre de crise podem ser observados comprometimentos leves a moderados da função vestibular ou audiológica. A compressão cruzada neurovascular do oitavo nervo é o mecanismo presumido.",
+      "classification_reasoning": "A descrição do termo 'mv presente' sugere a presença de movimento vestibular, o que está relacionado à paroxismia vestibular (PV), uma condição caracterizada por crises recorrentes de vertigem ou tontura."
+    }
+  }
+}

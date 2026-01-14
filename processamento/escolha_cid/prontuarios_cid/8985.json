@@ -1,0 +1,118 @@
+{
+  "prontuario_id": 782,
+  "text": "ÀS 15:30HRS: PACIENTE EM REPOUSO NO LEITO, CONTIDA AO LEITO, COM GRADES ELEVADAS PARA PROTEÇÃO, COM LUVAS EM MMSS, DE CREPE. CORADA E HIDRATADA, COM SNE, COM DIETA EM CURSO 75 ML/HR. NÃO VERBALIZA. SSVVS ESTAVEIS, BOM PADRÃO CARDIACO E RESPIRATORIO. EM USO DE FRALDAS, DIURESE E EVACUAÇÃO PRESENTES E NORMAIS. ENFª FLORENCE NIGHTINGALE, COREN XXXX. EPILEPSIA E SINDROMES EPILEPTICAS IDIOPATICAS DEFINIDAS POR SUA LOCALIZACAO FOCAL PARCIAL COM CRISES DE INICIO FOCAL. Às 20:00h: EM TEMPO: Ulcera por Pressão estagio I. TRAUMATISMO CEREBRAL DIFUSO. ÀS 15:15: ENCAMINHADO AO RAIO-X COM SUCESSO, SEM INTERCORRENCIA NO TRANSPORTE. TRAUMATISMOS MULTIPLOS NAO ESPECIFICADOS. ÀS 12:45: REALIZO PASSAGEM SVD COM PEQUENA QUANTIDADE DE DIURESE CONCENTRADA. ENF FLORENCE NIGHTINGALE. SEPTICEMIA NAO ESPECIFICADA. ÀS 12H: DESLIGADO FENTANIL CONFORME ORIENTAÇÃO DR VITAL BRASIL, INICIARA COM ANALGESIA DE HORARIO. ENF FLORENCE NIGHTINGALE, COREN XXXX. SEPTICEMIA NAO ESPECIFICADA.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Dispositivo Médico": [
+      "CREPE",
+      "SNE",
+      "FRALDAS",
+      "SVD",
+      "LUVAS EM MMSS"
+    ],
+    "Achado": [
+      "CORADA",
+      "HIDRATADA",
+      "EVACUAÇÃO",
+      "PRESENTES",
+      "NORMAIS",
+      "REPOUSO NO LEITO",
+      "CONTIDA AO LEITO",
+      "SSVVS ESTAVEIS"
+    ],
+    "Abreviação": [
+      "SNE",
+      "ML/HR",
+      "ENFª",
+      "SVD",
+      "ENF",
+      "LUVAS EM MMSS",
+      "SSVVS ESTAVEIS"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SNE",
+      "SVD",
+      "ANALGESIA",
+      "REPOUSO NO LEITO",
+      "CONTIDA AO LEITO",
+      "GRADES ELEVADAS PARA PROTEÇÃO",
+      "LUVAS EM MMSS",
+      "DIETA EM CURSO"
+    ],
+    "Conceito Funcional": [
+      "USO"
+    ],
+    "Objeto Manufaturado": [
+      "FRALDAS"
+    ],
+    "Função Fisiológica": [
+      "DIURESE",
+      "EVACUAÇÃO",
+      "DIURESE CONCENTRADA"
+    ],
+    "Procedimento Diagnóstico": [
+      "RAIO-X"
+    ],
+    "Sinal ou Sintoma": [
+      "INTERCORRENCIA"
+    ],
+    "Substância Química Orgânica": [
+      "FENTANIL"
+    ],
+    "Substância Farmacológica": [
+      "FENTANIL"
+    ],
+    "Conceito Qualitativo": [
+      "BOM PADRÃO",
+      "PEQUENA QUANTIDADE"
+    ],
+    "Doença ou Síndrome": [
+      "EPILEPSIA E SINDROMES EPILEPTICAS IDIOPATICAS",
+      "Ulcera por Pressão",
+      "SEPTICEMIA NAO ESPECIFICADA"
+    ],
+    "Lesão ou Envenenamento": [
+      "TRAUMATISMO CEREBRAL DIFUSO",
+      "TRAUMATISMOS MULTIPLOS NAO ESPECIFICADOS"
+    ]
+  },
+  "labels": {
+    "8A61.12": {
+      "term_original": "epilepsia e sindromes epilepticas idiopaticas",
+      "capitulo": "08",
+      "confidence_embedding": 0.7995,
+      "descricao_cid": "Representação de doença CID-11: Epilepsia da infância com crises epilépticas migratórias focais. Definição: Síndrome epiléptica com início entre a primeira semana e os sete meses de vida de convulsões focais polimórficas intratáveis. O desenvolvimento psicomotor progressivamente se deteriora. Uma mutação de SCN1A pode ser encontrada. O EEG mostra locais variáveis e multifocais de início das convuslões e lentificação difusa.",
+      "classification_reasoning": "A escolha desse código se baseia na menção de 'epilepsia e síndromes epilepticas idiopáticas' no prontuário, que caracteriza a doença como uma epilepsia da infância com crises epilépticas migratórias focais. Além disso, o contexto clínico menciona encefalopatias epilépticas e septicemia não especificada, sugerindo um quadro de encefalite ou lesão cerebral subjacente à epilepsia."
+    },
+    "DA60.3": {
+      "term_original": "ulcera por pressão",
+      "capitulo": "13",
+      "confidence_embedding": 0.7689,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A opção mais precisa é a úlcera de estresse do estômago (Código: DA60.3), pois o texto menciona 'ulcera por pressão' no contexto clínico, que está relacionado às lesões agudas da mucosa gástrica com hemorragia digestiva alta aguda."
+    },
+    "8B24": {
+      "term_original": "traumatismo cerebral difuso",
+      "capitulo": "08",
+      "confidence_embedding": 0.7493,
+      "descricao_cid": "Representação de doença CID-11: Encefalopatia hipóxico-isquêmica. Definição: Dano cerebral devido à hipóxia-isquemia: o termo anterior \"Dano cerebral anóxico\" foi alterado. O novo termo é agora amplamente aceito e descreve melhor a fisiopatologia, ou seja, a combinação de isquemia cerebral global transitória completa e incompleta juntamente com uma combinação de anóxia e hipóxia. Em um paciente sobrevivente, a encefalopatia anóxica pura é muito incomum.",
+      "classification_reasoning": "A opção mais precisa para o termo 'traumatismo cerebral difuso' é o Código CID-11 8B24, que descreve a encefalopatia hipóxico-isquêmica, um dano cerebral devido à combinação de isquemia e anóxia. Isso se ajusta ao contexto clínico do paciente com trauma cerebral difuso e septicegemia não especificada."
+    },
+    "ND36": {
+      "term_original": "traumatismos multiplos nao especificados",
+      "capitulo": "22",
+      "confidence_embedding": 0.7776,
+      "descricao_cid": "Representação de doença CID-11: Outros traumatismos envolvendo regiões múltiplas do corpo, não classificados em outra parte. Definição: ",
+      "classification_reasoning": "A opção ND36 é a mais precisa para o termo 'traumatismos multiplos não especificados' no contexto clínico, pois descreve outros traumatismos envolvendo regiões múltiplas do corpo, não classificados em outra parte. Isso se ajusta ao caso da paciente com múltiplos traumatismos sem especificar as regiões afetadas."
+    },
+    "1C1C | 1C19.2": {
+      "term_original": "septicemia nao especificada",
+      "capitulo": "01",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A septicemia não especificada é um sintoma comum em doenças graves como meningocócica e síndrome respiratória aguda grave. A presença de traumatismo cerebral difuso e ulcera por pressão estagio I também sugere uma possível infecção secundária, tornando a escolha destas opções mais provável."
+    }
+  }
+}

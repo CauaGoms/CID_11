@@ -1,0 +1,121 @@
+{
+  "prontuario_id": 198,
+  "text": "TX RENAL 42 DIAS.\nD. BASE: PKD.\nS: SEM QUEIXAS.\nO: PA 130/90> 120/80  P 60  AFEBRIL  PESO 71,9.\nCORADO E HIDRATADO.\nCPP LIVRES.\nPC RITMO REGULAR.\nABD RHA+, FLÁCIDO, ENXERTO EM FID - PALPA-SE OS PONTOS DE PDS.\nMMII SEM EDEMA.\nTX RENAL COM CR 2,3 E NS FK 11.\nHAS COMPENSADA ( APESAR PAD 90 EM DOMICILIO > CHECAR CALIBRAGEM APARELHO).\nANEMIA COM MELHORA.\nLDL 134.\n \n \n ",
+  "entities": {
+    "Doença ou Síndrome": [
+      "PKD",
+      "HAS COMPENSADA",
+      "ANEMIA COM MELHORA"
+    ],
+    "Abreviação": [
+      "PKD",
+      "PA",
+      "P",
+      "PC",
+      "ABD",
+      "RHA+",
+      "FID",
+      "MMII",
+      "PAD",
+      "TX RENAL",
+      "CPP LIVRES",
+      "CR 2 , 3",
+      "NS FK 11",
+      "HAS COMPENSADA"
+    ],
+    "Negação": [
+      "SEM",
+      "AFEBRIL"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "AFEBRIL",
+      "EDEMA"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PESO",
+      "PC",
+      "PAD"
+    ],
+    "Conceito Quantitativo": [
+      "130/90&gt;",
+      "120/80",
+      "60",
+      "90",
+      "71 , 9"
+    ],
+    "Achado": [
+      "CORADO",
+      "HIDRATADO",
+      "RHA+",
+      "FLÁCIDO",
+      "CPP LIVRES",
+      "RITMO REGULAR"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABD",
+      "MMII"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ENXERTO",
+      "TX RENAL"
+    ],
+    "Localização ou Região Corporal": [
+      "FID"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "PALPA-SE"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 2 , 3",
+      "NS FK 11",
+      "LDL 134"
+    ]
+  },
+  "labels": {
+    "3A71.2": {
+      "term_original": "anemia com melhora",
+      "capitulo": "03",
+      "confidence_embedding": 0.8214,
+      "descricao_cid": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "A anemia com melhora está relacionada à doença renal crônica, o que justifica a escolha do código 3A71.2 como mais preciso para o termo dentro do contexto clínico."
+    },
+    "MG29.10": {
+      "term_original": "edema",
+      "capitulo": "21",
+      "confidence_embedding": 0.7794,
+      "descricao_cid": "Representação de doença CID-11: Edema devido a pressão capilar aumentada. Definição: O aumento da pressão capilar aumenta o vazamento de fluido do compartimento vascular para os tecidos intersticiais, resultando em edema. Causas incluem o comprometimento ou obstrução do retorno venoso (sobrecarga de fluido, trombose venosa, insuficiência cardíaca direita, compressão venosa por tumor), aumento do fluxo sanguíneo (resposta fisiológica à exposição ao calor, malformações arteriovenosas, controle vasomotor cutâneo prejudicado devido a drogas ou neuropatia autonômica), ou pressão oncótica plasmática reduzida por hipoproteinemia.",
+      "classification_reasoning": "A opção mais precisa para o termo 'edema' no contexto clínico é MG29.10, pois refere-se ao edema devido a pressão capilar aumentada, que está presente na história do paciente com TX RENAL e PA 130/90> 120/80."
+    },
+    "MF54.2": {
+      "term_original": "flácido",
+      "capitulo": "21",
+      "confidence_embedding": 0.8303,
+      "descricao_cid": "Representação de doença CID-11: Hipoplasia renal. Definição: Condição caracterizada por um rim menor em tamanho e peso do que a média (menos de 11 centímetros de comprimento, 5-7,5 centímetros de largura, 2,5 centímetros de espessura e pesando menos de 120 gramas).",
+      "classification_reasoning": "A opção mais precisa é MF54.2, pois o termo 'flácido' se refere à características de um rim hipoplasico, descrito na definição da hipoplasia renal (condição caracterizada por um rim menor em tamanho e peso do que a média)."
+    },
+    "GB40": {
+      "term_original": "pkd",
+      "capitulo": "16",
+      "confidence_embedding": 0.7909,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A presença de PKD (Poliquistose renal) e a descrição do TX RENAL 42 DIAS com CR 2,3 e NS FK 11 sugere uma possível síndrome nefrítica, justificando a escolha da opção GB40."
+    },
+    "MG02": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7538,
+      "descricao_cid": "Representação de doença CID-11: Resultados de estudos de função renal. Definição: ",
+      "classification_reasoning": "A opção MG02 é a mais precisa porque o termo 'queixas' refere-se ao fato de que o paciente não apresenta queixas, ou seja, não tem sintomas. Isso está relacionado à avaliação do estado geral da pessoa (S: SEM QUEIXAS) e não está relacionado a doenças específicas como hipoplasia renal, proteinúria, cólica renal ou glomerulopatia por lipoproteína."
+    },
+    "BD12": {
+      "term_original": "has compensada",
+      "capitulo": "11",
+      "confidence_embedding": 0.7344,
+      "descricao_cid": "Representação de doença CID-11: Síndromes de alto débito. Definição: Aumento do débito cardíaco acima do normal associado a anemia, fístulas arteriovenosas, tireotoxicose e outras síndromes. Pode resultar em insuficiência cardíaca.",
+      "classification_reasoning": "A expressão 'has compensada' sugere que o paciente tem uma síndrome de alta produção cardíaca, apesar do valor de pressão arterial moderado (130/90 mmHg), o que justifica a escolha da opção BD12."
+    }
+  }
+}

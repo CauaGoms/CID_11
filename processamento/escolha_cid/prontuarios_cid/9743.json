@@ -1,0 +1,112 @@
+{
+  "prontuario_id": 574,
+  "text": "# Lucas,\n\n# acompanha regularmente com cardio geral (Doutor Vital Brazil ),\n# mantem os mesmos medicamentos,\n# em uso de aas, gingko biloba, sinvastatina, aradois e ancoron,\n# sem queixas.\n \n \n# mp camara dupla,\n# programado ddd 60-50;,\n# 95% em vat\n# a - imp = 409, sense = o,8, cla = 0,8 x 0,4.\n# v - imp = 507, sense = x, clv = o,6 x 0,4. \n# bat = 75%, para eri = 8 a e 9 m.\n\n# cd = programação mantida, retorno em 12 meses ou se intercorrencias , não falta seu cardio.\n ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "acompanha",
+      "programação mantida",
+      "retorno em 12 meses"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "cardio"
+    ],
+    "Substância Farmacológica": [
+      "aas",
+      "sinvastatina",
+      "aradois",
+      "gingko biloba"
+    ],
+    "Substância Química Orgânica": [
+      "aas",
+      "sinvastatina",
+      "aradois",
+      "gingko biloba"
+    ],
+    "Abreviação": [
+      "aas",
+      "cd",
+      "cardio",
+      "mp camara dupla",
+      "95% em vat",
+      "imp = 409",
+      "sense = o , 8",
+      "cla = 0 , 8 x 0 , 4",
+      "imp = 507",
+      "sense = x",
+      "clv = o , 6 x 0 , 4",
+      "bat = 75%",
+      "eri = 8 a e 9 m"
+    ],
+    "Negação": [
+      "sem",
+      "não"
+    ],
+    "Sinal ou Sintoma": [
+      "queixas",
+      "intercorrencias"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "a",
+      "v"
+    ],
+    "Produto Intelectual": [
+      "cd"
+    ],
+    "Achado": [
+      "mantem os mesmos medicamentos",
+      "programado ddd 60-50",
+      "95% em vat",
+      "imp = 409",
+      "sense = o , 8",
+      "cla = 0 , 8 x 0 , 4",
+      "imp = 507",
+      "sense = x",
+      "clv = o , 6 x 0 , 4",
+      "bat = 75%",
+      "eri = 8 a e 9 m"
+    ],
+    "Dispositivo Médico": [
+      "mp camara dupla"
+    ],
+    "Conceito Temporal": [
+      "eri = 8 a e 9 m"
+    ]
+  },
+  "labels": {
+    "BC81.30": {
+      "term_original": "bat = 75%",
+      "capitulo": "11",
+      "confidence_embedding": 0.7575,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A opção mais precisa para o termo 'bat = 75%' é a fibrilação atrial paroxística, pois refere-se à representação de doença CID-11: Fibrilação atrial paroxística."
+    },
+    "BC81.6": {
+      "term_original": "programado ddd 60-50",
+      "capitulo": "11",
+      "confidence_embedding": 0.7674,
+      "descricao_cid": "Representação de doença CID-11: Taquicardia sinusal inapropriada. Definição: Frequência cardíaca que está elevada em relação ao nível de atividade; geralmente exibe características de automaticidade.",
+      "classification_reasoning": "A programaçao DDD 60-50 é um padrão de ritmo cardíaco, sugerindo a presença de taquicardia sinusal inapropriada."
+    },
+    "MC80.01": {
+      "term_original": "cla = 0 , 8 x 0 , 4",
+      "capitulo": "21",
+      "confidence_embedding": 0.7344,
+      "descricao_cid": "Representação de doença CID-11: Valor elevado combinado da pressão arterial sistólica e diastólica sem diagnóstico de hipertensão. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a MC80.01, pois o termo 'cla' se refere à classe arterial e o valor de 0,8 x 0,4 está relacionado ao grau de ampliação da pressão arterial sistólica e diastólica, respectivamente."
+    },
+    "KD32.2": {
+      "term_original": "intercorrencias",
+      "capitulo": "19",
+      "confidence_embedding": 0.7383,
+      "descricao_cid": "Representação de doença CID-11: Hiperalimentação do recém-nascido. Definição: Condição pediátrica caracterizada por um recém-nascido que consome comida demais e que tem vômitos excessivos subsequentes à alimentação ou ganho de peso além da média normal.",
+      "classification_reasoning": "A opção mais precisa para o termo 'intercorrencias' no contexto clínico é a hiperalimentação do recém-nascido (KD32.2), pois o termo refere-se à possibilidade de mudanças ou eventos durante o acompanhamento do paciente, que poderiam justificar uma reavaliação da situação."
+    },
+    "MC82.3": {
+      "term_original": "clv = o , 6 x 0 , 4",
+      "capitulo": "21",
+      "confidence_embedding": 0.7479,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com atividade elétrica sem pulso. Definição: Atividade elétrica do coração sem ativação mecânica resultando em colapso hemodinâmico",
+      "classification_reasoning": "A opção mais precisa é MC82.3 porque o termo 'clv' no contexto indica atividade elétrica do coração, e a descrição descreve parada cardíaca com atividade elétrica sem pulso."
+    }
+  }
+}

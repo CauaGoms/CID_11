@@ -1,0 +1,208 @@
+{
+  "prontuario_id": 15,
+  "text": "Às 17:40hrs: Transferido para posto 3 (816), de maca, na presença da enfermagem, segue aos cuidados do posto. Às 12:30HS: ALERTA. PERIODOS DE CONFUSÃO. EUPINEICA EM AR AMBIENTE. DVE FUNCIONANTE. INSERÇÃO DVE SEM SINAIS FLOGISTICOS. ACEITOU A DIETA OFERECIDA. NÃO REFERE ALGIA. DIURESE ESPONTANEA PRESENTE. SEGUE CUIDADOS. 10 TU cerebral, 9 PO ressecção de TU, TQT 27/04/2012, SNE 2 dia, 9 SVD, Glasgow 3, pupilas iso foto, região cefalica com FO com pequena qt de secreção serohematica, realizado curativo tipo capacete, abd  globoso, porem flacido, MMSS edema, MMII sem edemas. Traqueostomizada sob VM na modalidade controlada, recebendo dieta via SNE ha 75 ml/h, cvc em jugular D com soroterapia em curso, SVD com diurese efetiva. Mantem monitorização cardiaca continua; segue sob cuidados intensivos.",
+  "entities": {
+    "Dispositivo Médico": [
+      "maca",
+      "SNE",
+      "SVD",
+      "cvc",
+      "curativo tipo capacete"
+    ],
+    "Organização Relacionada à Saúde": [
+      "enfermagem"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "enfermagem"
+    ],
+    "Achado": [
+      "ALERTA",
+      "iso",
+      "foto",
+      "flacido",
+      "Traqueostomizada",
+      "EUPINEICA EM AR AMBIENTE",
+      "DVE FUNCIONANTE",
+      "ACEITOU A DIETA",
+      "DIURESE ESPONTANEA",
+      "secreção serohematica",
+      "diurese efetiva"
+    ],
+    "Sinal ou Sintoma": [
+      "ALGIA",
+      "globoso",
+      "edema",
+      "edemas",
+      "PERIODOS DE CONFUSÃO",
+      "SINAIS FLOGISTICOS",
+      "Glasgow 3"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CUIDADOS",
+      "cuidados do posto",
+      "cuidados intensivos"
+    ],
+    "Conceito Temporal": [
+      "PO"
+    ],
+    "Abreviação": [
+      "PO",
+      "TQT",
+      "SNE",
+      "SVD",
+      "iso",
+      "foto",
+      "FO",
+      "abd",
+      "MMSS",
+      "MMII",
+      "VM",
+      "cvc",
+      "DVE FUNCIONANTE",
+      "INSERÇÃO DVE",
+      "TU cerebral",
+      "ressecção de TU",
+      "dieta via SNE",
+      "jugular D"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TQT",
+      "SNE",
+      "SVD",
+      "Traqueostomizada",
+      "VM",
+      "cvc",
+      "ressecção de TU",
+      "curativo tipo capacete",
+      "modalidade controlada",
+      "dieta via SNE",
+      "soroterapia em curso"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "pupilas",
+      "jugular D"
+    ],
+    "Lesão ou Envenenamento": [
+      "FO"
+    ],
+    "Localização ou Região Corporal": [
+      "abd",
+      "MMSS",
+      "MMII",
+      "região cefalica"
+    ],
+    "Função Patológica": [
+      "edema",
+      "edemas"
+    ],
+    "Função Fisiológica": [
+      "DIURESE ESPONTANEA",
+      "diurese efetiva"
+    ],
+    "Processo Neoplásico": [
+      "TU cerebral"
+    ],
+    "Conceito Qualitativo": [
+      "pequena qt"
+    ],
+    "Conceito Quantitativo": [
+      "75 ml/h"
+    ],
+    "Procedimento Diagnóstico": [
+      "monitorização cardiaca continua"
+    ]
+  },
+  "labels": {
+    "9A94.1": {
+      "term_original": "foto",
+      "capitulo": "09",
+      "confidence_embedding": 0.8104,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso.",
+      "classification_reasoning": "Como o termo 'foto' está relacionado à descrição de secreção serohematica na região cefalica, a opção mais precisa é a Síndrome da íris flácida (9A94.1), que se refere à ondulação da íris em resposta a correntes do fluido intraocular."
+    },
+    "BD10": {
+      "term_original": "diurese efetiva",
+      "capitulo": "11",
+      "confidence_embedding": 0.7448,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos.",
+      "classification_reasoning": "A diurese efetiva refere-se à capacidade do paciente de eliminar líquidos em excesso, o que é característico da insuficiência cardíaca congestiva (ICCG). A presença de diurese espontânea e a necessidade de tratamento com soroterapia apontam para um quadro de ICCG."
+    },
+    "FA27.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7595,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A opção mais precisa é FA27.2 Reumatismo palindrômico, pois o termo 'edema' está relacionado à característica principal do reumatismo palindrômico, que é a ocorrência de dor e edema nas articulações."
+    },
+    "EB02.0": {
+      "term_original": "secreção serohematica",
+      "capitulo": "14",
+      "confidence_embedding": 0.7751,
+      "descricao_cid": "Representação de doença CID-11: Urticária colinérgica. Definição: Urticária colinérgica apresenta-se como uma erupção de múltiplas lesões papulares monomórficas pequenas de 2-3 mm, em resposta a estímulos indutores de sudorese como esforço físico, banhos quentes, comidas apimentadas ou estresse emocional súbito. As pápulas tendem a ser rosadas em casos leves, mas brancas com eritema macular de permeio quando o edema é mais intenso. Angioedema e manifestações sistêmicas incluindo cefaleia, palpitações, sibilância e síncope podem ocorrer em casos graves.",
+      "classification_reasoning": "A presença de 'secreção serohematica' no contexto do prontuário sugere a possibilidade de uma reação alérgica ou anafilática, o que é mais compatível com a urticária colinérgica (EB02.0) do que outras opções."
+    },
+    "MF50.63": {
+      "term_original": "eupineica em ar ambiente",
+      "capitulo": "21",
+      "confidence_embedding": 0.7409,
+      "descricao_cid": "Representação de doença CID-11: Urgência miccional. Definição: Uma vontade repentina e intensa de urinar junto com desconforto na bexiga",
+      "classification_reasoning": "A presença de 'eupineica em ar ambiente' no contexto indica que o paciente está com perda de controle urinário, característica da incontinência urinária (Urgência miccional, MF50.63)."
+    },
+    "6C48.2": {
+      "term_original": "periodos de confusão",
+      "capitulo": "06",
+      "confidence_embedding": 0.7814,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais.",
+      "classification_reasoning": "A presença de 'periodos de confusão' no contexto clínico sugere uma possível intoxicação por cafeína ou outro agente alucinógeno, o que justifica a escolha do código 6C48.2."
+    },
+    "8B24": {
+      "term_original": "tu cerebral",
+      "capitulo": "08",
+      "confidence_embedding": 0.8133,
+      "descricao_cid": "Representação de doença CID-11: Encefalopatia hipóxico-isquêmica. Definição: Dano cerebral devido à hipóxia-isquemia: o termo anterior \"Dano cerebral anóxico\" foi alterado. O novo termo é agora amplamente aceito e descreve melhor a fisiopatologia, ou seja, a combinação de isquemia cerebral global transitória completa e incompleta juntamente com uma combinação de anóxia e hipóxia. Em um paciente sobrevivente, a encefalopatia anóxica pura é muito incomum.",
+      "classification_reasoning": "A opção mais precisa para o termo 'tu cerebral' é a encefalopatia hipóxico-isquêmica (8B24), pois há referência à presença de período de confusão e dano cerebral pós-anóxico no contexto clínico."
+    },
+    "NA07.2Y": {
+      "term_original": "traqueostomizada",
+      "capitulo": "22",
+      "confidence_embedding": 0.7429,
+      "descricao_cid": "Representação de doença CID-11: Outro edema cerebral traumático especificado. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NA07.2Y, pois o termo 'traqueostomizada' refere-se à procedimento cirúrgico que envolve a abertura da traquéia para fins de ventilação artificial, caracterizando um tipo de lesão cerebral traumática especificada."
+    },
+    "PG1Z": {
+      "term_original": "alerta",
+      "capitulo": "23",
+      "confidence_embedding": 0.7691,
+      "descricao_cid": "Representação de doença CID-11: Evento de intenção indeterminada de transporte aquático que resulta em traumatismo, com dano à embarcação não especificado. Definição: ",
+      "classification_reasoning": "A palavra 'alerta' no contexto do prontuário indica um evento de transporte aquático que resultou em traumatismo, o que coincide com a descrição do código PG1Z."
+    },
+    "ME64": {
+      "term_original": "sinais flogisticos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7596,
+      "descricao_cid": "Representação de doença CID-11: Sinais vasculares cutâneos não específicos. Definição: Alterações perceptíveis na pele resultantes de alterações na composição do sangue, fluxo sanguíneo ou integridade dos vasos sanguíneos. Podem ser devidas a fatores locais ou podem indicar transtornos subjacentes, como anemia, hipovolemia, febre, hipóxia ou defeitos na coagulação.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sinais flogisticos' é ME64, Sinais vasculares cutâneos não específicos. Isso porque a presença de sinais flogisticos refere-se à presença de alterações perceptíveis na pele resultantes de alterações na composição do sangue, fluxo sanguíneo ou integridade dos vasos sanguíneos."
+    },
+    "FA80.8": {
+      "term_original": "globoso",
+      "capitulo": "15",
+      "confidence_embedding": 0.7367,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'globoso' é a degeneração de disco intervertebral da coluna lombar sem prolapso de disco (FA80.8), pois a descrição menciona 'abd globoso', o que sugere uma alteração anatômica na região abdominal relacionada à doença do disco intervertebral."
+    },
+    "9C40.A": {
+      "term_original": "fo",
+      "capitulo": "09",
+      "confidence_embedding": 0.7512,
+      "descricao_cid": "Representação de doença CID-11: Edema do disco óptico. Definição: Refere-se ao edema na localização em que os axônios das células ganglionares saem do olho para formar o nervo óptico. Não há bastonetes ou cones sensíveis à luz para responder a estímulos luminosos nesse ponto.",
+      "classification_reasoning": "A presença de 'fo' (fluxo ocular) na região cefálica com pequena quantidade de secreção serohemática sugere edema do disco óptico, justificando a escolha da opção 9C40.A."
+    },
+    "MD11.5": {
+      "term_original": "dve funcionante",
+      "capitulo": "21",
+      "confidence_embedding": 0.7732,
+      "descricao_cid": "Representação de doença CID-11: Dispneia. Definição: Dispneia é o termo utilizado para descrever percepções de dificuldade ou sofrimento relacionados à respiração e é reconhecido como sintoma de doença quando ocorre em circunstâncias inapropriadas. Dispneia é uma queixa apresentada por pacientes com uma ampla variedade de condições médicas, causadas por múltiplos mecanismos.\r\nA dispneia é considerada aguda quando dura de horas a 3 semanas, subaguda de 3 a 8 semanas e a dispneia crônica dura mais de 8 semanas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'dve funcionante' é a dispneia (código MD11.5), pois o contexto sugere que o paciente tem dificuldade para respirar e está recebendo tratamento com soroterapia em curso, o que é consistente com a definição de dispneia."
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "prontuario_id": 287,
+  "text": "Lucas, 58 ANOS\n\nQUEIXA DE DEFORMIDADE EM 2o QDD HA VARIOS MESES. INTERCALA PERIODOS DE DOR E SEM DOR.\nNO MOMENTO APENAS QUEIXA ESTETICA.\nSOLICITADOS EXAMES LABORATORIAIS NA ULTIMA CONSULTA (HMG, FÇ RENAL, FATOR REUMATOIDE, FAN) TODOS NORMAIS.\nSOLICITADO TBEM RX, PCTE AINDA NAO FEZ.\n\nEF: DISCRETO DESVIO RADIAL DA FALANGE DISTAL DO 2o QDD, PRATICAMENTE IMPERCEPTIVEL COM DEDOS ADUZIDOS.\nSEM DOR A PALP\nADM NORMAL\n\nP: PCTE TEM RX MARCADO PARA O FINAL DO MES\nRETORNA COM EXAME\nSE TD OK, ALTA DO AMBU DA MAO NO RETORNO\nR3 Dr Vital Brasil\n \n \n \n ",
+  "entities": {
+    "Conceito Temporal": [
+      "PERIODOS",
+      "VARIOS MESES",
+      "FINAL DO MES"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR",
+      "QUEIXA ESTETICA",
+      "DESVIO RADIAL DA FALANGE DISTAL DO 2o QDD"
+    ],
+    "Negação": [
+      "SEM",
+      "NAO",
+      "IMPERCEPTIVEL"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "SOLICITADOS",
+      "CONSULTA",
+      "SOLICITADO",
+      "RETORNA",
+      "ALTA",
+      "RETORNO"
+    ],
+    "Abreviação": [
+      "HMG",
+      "FAN",
+      "RX",
+      "PCTE",
+      "EF",
+      "ADM",
+      "R3",
+      "Dr",
+      "2o QDD",
+      "FÇ RENAL",
+      "DESVIO RADIAL DA FALANGE DISTAL DO 2o QDD",
+      "AMBU DA MAO"
+    ],
+    "Procedimento Laboratorial": [
+      "HMG",
+      "FAN",
+      "EXAMES LABORATORIAIS",
+      "FÇ RENAL",
+      "FATOR REUMATOIDE"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "NORMAIS"
+    ],
+    "Procedimento Diagnóstico": [
+      "RX"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PCTE"
+    ],
+    "Conceito Qualitativo": [
+      "DISCRETO"
+    ],
+    "Achado": [
+      "NORMAL",
+      "DEDOS ADUZIDOS"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "R3",
+      "Dr"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "2o QDD"
+    ],
+    "Fator Imunológico": [
+      "FATOR REUMATOIDE"
+    ],
+    "Organização Relacionada à Saúde": [
+      "AMBU DA MAO"
+    ]
+  },
+  "labels": {
+    "FB40.3": {
+      "term_original": "desvio radial da falange distal do 2o qdd",
+      "capitulo": "15",
+      "confidence_embedding": 0.7237,
+      "descricao_cid": "Representação de doença CID-11: Tendinite calcária. Definição: Este é um transtorno caracterizado pela deposição de hidroxiapatita em qualquer tendão do corpo, causando inflamação e dor.",
+      "classification_reasoning": "A desvião radial da falange distal do 2o QDD é um sintoma característico de tendinite calcária, que se manifesta por deposição de hidroxiapatita em qualquer tendão do corpo, causando inflamação e dor."
+    },
+    "MG31.0": {
+      "term_original": "queixa estetica",
+      "capitulo": "21",
+      "confidence_embedding": 0.757,
+      "descricao_cid": "Representação de doença CID-11: Dor aguda na face, não classificada em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'queixa estética' é MG31.0, pois a dor aguda na face não classificada em outra parte refere-se à queixa de deformidade estética do dedo da mão sem dor palpável mencionada no prontuário."
+    },
+    "MG30.3": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7979,
+      "descricao_cid": "Representação de doença CID-11: Dor musculoesquelética secundária crônica. Definição: Dor musculoesquelética secundária crônica é u a dor crônica que surge de osso(s), articulação(ões), músculo(s), coluna vertebral, tendão(ões) ou tecido(s) mole(s) relacionado(s). É um grupo heterogêneo de condições dolorosas crônicas originadas de nocicepção persistente em articulações, ossos, músculos, coluna vertebral, tendões e tecidos moles relacionados, com etiologias locais e sistêmicas, mas também relacionadas a lesões somáticas profundas. A dor pode ser espontânea ou induzida por movimento.",
+      "classification_reasoning": "A dor crônica descrita pelo paciente, caracterizada por intercalos de dor e períodos sem dor, é mais adequada à definição de Dor musculoesquelética secundária crônica (MG30.3). A presença de deformidade no 2o QDD e o fato de a dor ser descrita como estética sugerem que a dor está relacionada à estrutura óssea ou articulada, ao invés de uma resposta inflamatória persistente."
+    },
+    "FA26.1": {
+      "term_original": "dedos aduzidos",
+      "capitulo": "15",
+      "confidence_embedding": 0.7607,
+      "descricao_cid": "Representação de doença CID-11: Doença por deposição de hidroxiapatita. Definição: A doença por deposição de cristais de hidroxiapatita de cálcio é caracterizada pela presença de cristais de fosfato de cálcio básico - predominantemente hidroxiapatita - em tecidos moles periarticulares, especialmente os tendões. Essa entidade é melhor reconhecida como \"tendinite calcificada\" no local mais frequente de acometimento no ombro, mas manifesta-se em vários outros locais, com a denominação mais adequada de periartrite calcificada.",
+      "classification_reasoning": "A descrição do termo 'dedos aduzidos' sugere a presença de doença que afeta a articulação e os tendões, levando à deformidade em QDD. A opção FA26.1 se encaixa melhor nessa descrição, pois é uma doença caracterizada pela deposição de hidroxiapatita nos tecidos moles periarticulares, especialmente nos tendões."
+    }
+  }
+}

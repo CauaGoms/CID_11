@@ -1,0 +1,108 @@
+{
+  "prontuario_id": 295,
+  "text": "Paciente com: - DM2. - HAS. - CI ( ACTP com Stent em ADAE em 31/01/2005). Interna para ACTP com implante de Stent no 1/3 médio da ACD, realizada dia 21/02/2005 com sucesso angiográfico, sem lesão residual e fluxo TIMI 3. Recebe alta em bom estado geral, com os seguintes; - Ticlopidina 250 mg 1 cp 12/12 horas por 30 dias. - AAS 100 mg 1 cp no almoço, contínuo. - Uso das medicações habituais e seguir acompanhamento com seu médico.",
+  "entities": {
+    "Abreviação": [
+      "DM2",
+      "HAS",
+      "CI",
+      "ACTP",
+      "ACD",
+      "AAS"
+    ],
+    "Doença ou Síndrome": [
+      "DM2",
+      "HAS",
+      "CI"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ACTP",
+      "implante implante de de Stent Stent",
+      "medicações habituais"
+    ],
+    "Dispositivo Médico": [
+      "Stent"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ADAE",
+      "ACD"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Interna",
+      "realizada",
+      "acompanhamento",
+      "Recebe alta"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Substância Farmacológica": [
+      "Ticlopidina",
+      "AAS",
+      "medicações habituais"
+    ],
+    "Substância Química Orgânica": [
+      "Ticlopidina",
+      "AAS"
+    ],
+    "Conceito Temporal": [
+      "almoço",
+      "contínuo",
+      "12/12 horas",
+      "30 dias"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "médico"
+    ],
+    "Achado": [
+      "sucesso angiográfico",
+      "bom bom estado estado geral geral"
+    ],
+    "Lesão ou Envenenamento": [
+      "lesão residual"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "fluxo TIMI 3"
+    ],
+    "Conceito Quantitativo": [
+      "100 mg 1 cp"
+    ]
+  },
+  "labels": {
+    "BE10": {
+      "term_original": "sucesso angiográfico",
+      "capitulo": "11",
+      "confidence_embedding": 0.784,
+      "descricao_cid": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sucesso angiográfico' no contexto clínico é a Síndrome pós-cardiotomia (Código BE10). Isso porque, embora a angioformografia seja feita após a intervenção coronária, a presença de uma síndrome pós-cardiotomia não exclui o sucesso da angioplastia e implante de stent. Além disso, a descrição do Código BE10 se refere à reação de hipersensibilidade a antígeno derivado do miocárdio lesado, que pode estar relacionada ao procedimento realizado."
+    },
+    "40.0": {
+      "term_original": "has",
+      "capitulo": "04",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha do código 4E01 (Doença arterial obstrutiva crônica) é justificada pelo contexto de HAS, que se refere a Doença Arterial Substancial, caracterizada por obstrução crônica e progressiva da aorta e/ou seus ramos principais."
+    },
+    "BA81": {
+      "term_original": "ci",
+      "capitulo": "11",
+      "confidence_embedding": 0.7614,
+      "descricao_cid": "Representação de doença CID-11: Aneurisma de artéria coronária. Definição: Dilatação coronária que excede o diâmetro dos segmentos adjacentes normais ou o diâmetro do maior vaso coronário do paciente em 1,5 vezes.",
+      "classification_reasoning": "A escolha mais precisa para o termo 'ci' é a aneurisma de artéria coronária (BA81) porque no contexto clínico há menção à interna para ACTP com implante de Stent no 1/3 médio da ACD, realizada dia 21/02/2005. Isso sugere que o paciente tem uma doença relacionada à artéria coronária."
+    },
+    "NE82.00": {
+      "term_original": "lesão residual",
+      "capitulo": "22",
+      "confidence_embedding": 0.7543,
+      "descricao_cid": "Representação de doença CID-11: Erosão de bolsa de marcapasso ou cardioversor desfibrilador implantável. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NE82.00, pois a descrição refere-se à erosão de bolsa de marcapasso ou cardioversor desfibrilador implantável, o que se relaciona à possibilidade de lesão residual após a procedura de implante do stent na artéria coronária."
+    },
+    "5B5A.0": {
+      "term_original": "dm2",
+      "capitulo": "05",
+      "confidence_embedding": 0.7606,
+      "descricao_cid": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina.",
+      "classification_reasoning": "A escolha do código 5B5A.0 se baseia no fato de que o termo 'dm2' é uma abreviatura comum para diabetes mellitus tipo 2, cuja representação CID-11 está relacionada à doença Beribéri."
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "prontuario_id": 915,
+  "text": "PACIENTE QUEIXA-SE DE BAV PARA PERTO. ARDENCIA E LACRIMEJAMENTO AO.\nNEGA DM E HAS.\nNEGA CIRURGIAS E TRAUMAS OCULARES.\nNEGA HF DE GLAUCOMA E CEGUEIRA.\n\nAV: 20/25\n       20/30\n\nESQ OD: +0,25 ESF\n         OE: +0,25 ESF\n\nTOL: +0,50 ESF 20/25\n         +0,25 ESF 20/25\n         AD+1,75 LE J1\n\nBIO: CATARATA AO\nPINGUECULA OE\nBUT 5 SEGUNDOS AO\n\nFO: PAPILA E MACULA NORMAL AO\n\nPIO: 16/17\n\nHD: PRESBIOPIA, OLHO SECO\n\nCD: PRESCREVO OCULOS PARA PERTO SEGUNDO DESEJO E TOLERANCIA DO PACIENTE\nPRESCREVO LUBRIFICANTE\nALTA COM RETORNO ANUAL VIA UBS\n\n\nR1 Doutor Vital Brazil\n\n.\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Sinal ou Sintoma": [
+      "BAV",
+      "ARDENCIA",
+      "LACRIMEJAMENTO"
+    ],
+    "Abreviação": [
+      "AO",
+      "DM",
+      "HAS",
+      "HF",
+      "AV",
+      "ESQ",
+      "OD",
+      "OE",
+      "TOL",
+      "LE",
+      "J1",
+      "BIO",
+      "FO",
+      "PIO",
+      "HD",
+      "CD",
+      "UBS",
+      "R1",
+      "+0 , 25 ESF",
+      "+0 , 50 ESF",
+      "20/25 +0 , 25 ESF",
+      "20/25 AD+1 , 75"
+    ],
+    "Negação": [
+      "NEGA"
+    ],
+    "Doença ou Síndrome": [
+      "DM",
+      "HAS",
+      "GLAUCOMA",
+      "CATARATA",
+      "PRESBIOPIA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CIRURGIAS"
+    ],
+    "Achado": [
+      "HF",
+      "CEGUEIRA",
+      "J1",
+      "OLHO SECO"
+    ],
+    "Procedimento Diagnóstico": [
+      "AV",
+      "ESQ",
+      "TOL",
+      "BIO",
+      "FO",
+      "PIO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "AV",
+      "ESQ",
+      "TOL",
+      "CATARATA",
+      "PAPILA E MACULA NORMAL"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "OD",
+      "OE"
+    ],
+    "Dispositivo Médico": [
+      "LE"
+    ],
+    "Conceito Quantitativo": [
+      "16/17",
+      "20/25 20/30",
+      "+0 , 25 ESF",
+      "+0 , 50 ESF",
+      "20/25 +0 , 25 ESF",
+      "20/25 AD+1 , 75",
+      "5 SEGUNDOS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CD",
+      "PRESCREVO",
+      "ALTA",
+      "RETORNO"
+    ],
+    "Substância Farmacológica": [
+      "LUBRIFICANTE"
+    ],
+    "Conceito Temporal": [
+      "ANUAL"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UBS"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "R1",
+      "Doutor"
+    ],
+    "Lesão ou Envenenamento": [
+      "TRAUMAS OCULARES"
+    ]
+  },
+  "labels": {
+    "9A94.1": {
+      "term_original": "ardencia",
+      "capitulo": "09",
+      "confidence_embedding": 0.7865,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso.",
+      "classification_reasoning": "Ardencia e lacrimejamento ao são sintomas compatíveis com a síndrome da íris flácida, uma condição que pode ocorrer durante a extração de catarata em alguns pacientes."
+    },
+    "9D00.3": {
+      "term_original": "presbiopia",
+      "capitulo": "09",
+      "confidence_embedding": 0.7872,
+      "descricao_cid": "Representação de doença CID-11: Presbiopia. Definição: Diminuição normal da elasticidade do cristalino que leve a uma perda de acomodação.",
+      "classification_reasoning": "A presbiopia é a doença mais provável no contexto clínico, considerando que o paciente apresenta perda de acomodação (AV: 20/25 e AV OD: +0,25 ESF), além da referência à presbiopia na seção 'HD' do prontuário."
+    },
+    "9A10.3": {
+      "term_original": "olho seco",
+      "capitulo": "09",
+      "confidence_embedding": 0.7713,
+      "descricao_cid": "Representação de doença CID-11: Hiperlacrimação. Definição: Transbordamento de lágrimas devido a secreção excessiva pela glândula lacrimal. Pode ser causado por drogas (p.ex. pillocarpina), forte emoção; ou como reflexo de estimulação trigeminal por inflamação ocular; ou irritação da córnea ou conjuntiva por irritante químico no ar; vento frio; ou corpo estranho no olho. Os principais sintomas são desconforto e visão turva e algumas vezes constrangimento. A abordagem depende da causa.\r\n\r\n\r\n. É um sinal clínico ou condição que aponta para a drenagem insuficiente do filme lacrimal dos olhos, em que as lágrimas vão drenar pela face abaixo em vez de o fazerem pelo sistema nasolacrimal.",
+      "classification_reasoning": "A presença de olho seco (xerostomia) e ardência e lacrimejamento ao, associados a um exame ocular normal, sugerem uma hiperlacrimação, condição caracterizada por transbordamento de lágrimas. Isso é consistente com os sintomas apresentados pelo paciente."
+    },
+    "NA06.82": {
+      "term_original": "traumas oculares",
+      "capitulo": "22",
+      "confidence_embedding": 0.7767,
+      "descricao_cid": "Representação de doença CID-11: Trauma ocular fechado, unilateral. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NA06.82 pois o termo 'traumas oculares' se refere a um traumatismo ao olho fechado, unilateral, o que está descrito no prontuário como 'NEGA CIRURGIAS E TRAUMAS OCULARES'."
+    },
+    "9C61.40": {
+      "term_original": "cegueira",
+      "capitulo": "09",
+      "confidence_embedding": 0.76,
+      "descricao_cid": "Representação de doença CID-11: Glaucoma congênito primário. Definição: Glaucoma congênito primário é uma condição durante a infância precoce em que atraso do desenvolvimento e malformação da malha trabecular bloqueiam as rotas de drenagem do aquoso levando a elevação da pressão intraocular que causa o aumento do olho (buftalmo), edema corneano, roturas da Descemet, miopia e dano ao nervo óptico, frequentemente resultando em comprometimento visual grave ou cegueira.",
+      "classification_reasoning": "A paciente nega cegueira e não apresenta sinais de glaucoma, porém a presença de catarata e pinguecula sugere uma lesão anterior. O código escolhido é o glaucoma congênito primário (9C61.40) porque a paciente tem idade adulta e não há evidência de traumatismo ocular ou cirurgia, reforçando a hipótese de que a cegueira seja uma possibilidade."
+    },
+    "9B10.22": {
+      "term_original": "catarata",
+      "capitulo": "09",
+      "confidence_embedding": 0.767,
+      "descricao_cid": "Representação de doença CID-11: Pós-catarata. Definição: Pós-catarata é a complicação mais comum da cirurgia moderna para catarata, ocorrendo em cerca de 20 a 25% dos casos. Também é conhecida como opacificação de cápsula posterior.",
+      "classification_reasoning": "A presença de catarata ao e pinguecula oe, associada à queixa de bav para perto e ardência e lacrimejamento ao, sugere uma catarata relacionada à idade madura (pós-catarata) como a causa mais provável."
+    },
+    "9C61.0": {
+      "term_original": "glaucoma",
+      "capitulo": "09",
+      "confidence_embedding": 0.8209,
+      "descricao_cid": "Representação de doença CID-11: Glaucoma primário de ângulo aberto. Definição: Glaucoma primário de ângulo aberto é uma neuropatia óptica progressiva crônica com alterações morfológicas características na cabeça do nervo óptico e na camada de fibras nervosas da retina na ausência de outra doença ocular ou anomalias congênitas. A morte progressiva de células ganglionares retinianas e a perda de campo visual estão associados a essas alterações. A aparência do ângulo da câmara anterior é normal e os fatores de risco mais importantes incluem o valor da pressão intraocular e a idade avançada.",
+      "classification_reasoning": "O paciente apresenta sintomas de glaucoma secundário, como ardência e lacrimejamento ao, mas não há histórico de traumatismo ocular ou cirurgia. Além disso, a visão é normal no campo visível (AV: 20/25, AV esq OD: +0,25 ESF). A ausência de DM e HAS também sugere que o glaucoma pode ser secundário. Com base nessas informações, a escolha mais precisa é o código 9C61.0 para glaucoma primário de ângulo aberto."
+    }
+  }
+}

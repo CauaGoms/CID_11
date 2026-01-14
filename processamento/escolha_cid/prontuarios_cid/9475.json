@@ -1,0 +1,109 @@
+{
+  "prontuario_id": 722,
+  "text": "PACIENTE HIPERTENSA, COM INSUFICIENCIA CARDIACA INTERNA COM QUADRO DE EDEMA AGUDO DE PULMÃO SECUNDÁRIO À ALTA RESPOSTA VENTRICULAR DE FIBRILAÇÃO ATRIAL CRÔNICA. APRESENTOU MELHORA SIGNIFICATIVA COM CONTROLE DEA FV E DIURÉTICO ENDOVENOSO. SEGUNDO FAMILIARES A PACIENTE NÃO É ADERENTE AO TTO. RECEBE ALTA SEM SINAIS DE CONGESTÃO PULMONAR.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Doença ou Síndrome": [
+      "HIPERTENSA",
+      "INSUFICIENCIA CARDIACA",
+      "EDEMA AGUDO DE PULMÃO",
+      "FIBRILAÇÃO ATRIAL CRÔNICA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "VENTRICULAR"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CONTROLE",
+      "ALTA"
+    ],
+    "Abreviação": [
+      "DEA",
+      "FV",
+      "ADERENTE AO TTO"
+    ],
+    "Dispositivo Médico": [
+      "DEA"
+    ],
+    "Grupo Familiar": [
+      "FAMILIARES"
+    ],
+    "Negação": [
+      "NÃO",
+      "SEM"
+    ],
+    "Atributo Clínico": [
+      "ALTA RESPOSTA"
+    ],
+    "Sinal ou Sintoma": [
+      "ALTA RESPOSTA",
+      "SINAIS DE CONGESTÃO PULMONAR"
+    ],
+    "Achado": [
+      "MELHORA SIGNIFICATIVA",
+      "ADERENTE AO TTO"
+    ],
+    "Substância Farmacológica": [
+      "DIURÉTICO ENDOVENOSO"
+    ]
+  },
+  "labels": {
+    "VV3Y": {
+      "term_original": "melhora significativa",
+      "capitulo": "V",
+      "confidence_embedding": 0.6363,
+      "descricao_cid": "Representação de doença CID-11: Outras funções dos sistemas cardiovascular, hematológico, imunológico e respiratório, especificadas. Definição: ",
+      "classification_reasoning": "A melhora significativa do paciente se refere à sua condição cardiovascular, especificamente à fibração atrial crônica e à insuficiência cardíaca interna. A opção VV3Y é a mais precisa para este termo dentro do contexto clínico."
+    },
+    "BA01": {
+      "term_original": "hipertensa",
+      "capitulo": "11",
+      "confidence_embedding": 0.8191,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A opção mais precisa para o termo 'hipertensa' é a cardiopatia hipertensiva (BA01), pois a paciente apresenta insuficiência cardíaca interna com quadro de edema agudo de pulmão secundário à alta resposta ventricular de fibrilação atrial crônica, o que sugere uma doença cardíaca hipertensiva."
+    },
+    "CB01": {
+      "term_original": "edema agudo de pulmão",
+      "capitulo": "12",
+      "confidence_embedding": 0.789,
+      "descricao_cid": "Representação de doença CID-11: Edema pulmonar. Definição: Edema pulmonar é uma condição causada por excesso de líquido nos pulmões, que se acumula nos sacos alveolares do pulmão, dificultando a respiração.",
+      "classification_reasoning": "O termo 'edema agudo de pulmão' é mais precisamente descrito pelo código CB01, que representa Edema pulmonar em CID-11. Isso porque o edema pulmonar é uma condição caracterizada por excesso de líquido nos pulmões, dificultando a respiração, e não se refere à síndrome do desconforto respiratório agudo (SDRA), pneumotórax hipertensivo ou outros termos mencionados."
+    },
+    "MD22": {
+      "term_original": "sinais de congestão pulmonar",
+      "capitulo": "21",
+      "confidence_embedding": 0.7301,
+      "descricao_cid": "Representação de doença CID-11: Hemoptise. Definição: Expectoração ou cuspe de sangue originário de qualquer parte do trato respiratório, usualmente resultado de hemorragia no parênquima pulmonar e artérias bronquiais.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sinais de congestão pulmonar' é MD22, que descreve a expectoração ou cuspe de sangue originário de qualquer parte do trato respiratório. Isso se encaixa no contexto clínico da alta resposta ventricular e edema agudo de pulmão secundário à fibração atrial crônica, pois o paciente apresentou melhora significativa com controle de FV e diurético endovenoso."
+    },
+    "BC81.32": {
+      "term_original": "alta resposta",
+      "capitulo": "11",
+      "confidence_embedding": 0.7358,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial permanente. Definição: Termo usado para identificar indivíduos com FA persistente em que foi tomada a decisão de não mais seguir uma estratégia de controle do ritmo, ou em que a cardioversão falhou ou não foi tentada.",
+      "classification_reasoning": "A escolha do código BC81.32 (Fibrilação atrial permanente) é justificada porque o paciente apresenta quadro de alta resposta ventricular de fibrilação atrial crônica, o que indica uma condição persistente e não um episódio paroxístico."
+    },
+    "8A64.0": {
+      "term_original": "fibrilação atrial crônica",
+      "capitulo": "08",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A fibrilação atrial crônica é uma condição cardíaca que pode estar relacionada a hipertensão e insuficiência cardiaca, e embora não esteja diretamente listada como causa do quadro clínico apresentado pelo paciente, sua presença como comorbidade aumenta a probabilidade de crises epilépticas ou convulsões não provocadas, caracterizando o código 8A64.0 (Crise epiléptica única devida a causas remotas)."
+    },
+    "QA8D": {
+      "term_original": "aderente ao tto",
+      "capitulo": "24",
+      "confidence_embedding": 0.6908,
+      "descricao_cid": "Representação de doença CID-11: Paciente que recebeu um teste diagnóstico ou tratamento destinado a outro paciente, sem lesão ou dano. Definição: ",
+      "classification_reasoning": "A paciente não é aderente ao TTO (tratamento terapêutico), indicando que recebeu um tratamento destinado a outro paciente, sem lesão ou dano."
+    },
+    "BA51": {
+      "term_original": "insuficiencia cardiaca",
+      "capitulo": "11",
+      "confidence_embedding": 0.7773,
+      "descricao_cid": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas.",
+      "classification_reasoning": "A escolha foi feita porque o termo 'insuficiência cardiaca' está relacionado à doença cardíaca isquêmica, que é descrita no código BA51. Isso é apoiado pela presença de insuficiência cardiaca interna e alta resposta ventricular de fibrilação atrial crônica no contexto do prontuário."
+    }
+  }
+}

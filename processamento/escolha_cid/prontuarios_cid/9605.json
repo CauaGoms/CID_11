@@ -1,0 +1,134 @@
+{
+  "prontuario_id": 729,
+  "text": "AVALIAÇÃO PÓS\nTX RENAL CR 1,4 ( AUMENTADOU ) , FK 4\nDEEC\nDM DESCOMPENSADO\nTIRÓIDE COMPENSADO\nTX RENAL \nEM USO DE PRED 5, AZA 2, FK 2 / 2, BACTRIM, LEVOTIROXINA 25, INSULINA NPH 30 / 15, \nS # INAPETENCIA, NAUSEAS E VOMITOS. MELHORA COM PLASIL\nMELHORA HÁ 1 DIA\nO # PA 70 / 40\nMUCOSAS CORADAS, SECAS\nPC TAQUICARDIA",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "AVALIAÇÃO"
+    ],
+    "Conceito Temporal": [
+      "PÓS",
+      "HÁ 1 DIA"
+    ],
+    "Conceito Qualitativo": [
+      "AUMENTADOU",
+      "COMPENSADO",
+      "MELHORA"
+    ],
+    "Substância Química Orgânica": [
+      "FK",
+      "PRED",
+      "AZA",
+      "BACTRIM",
+      "LEVOTIROXINA",
+      "PLASIL"
+    ],
+    "Abreviação": [
+      "FK",
+      "DEEC",
+      "PRED",
+      "AZA",
+      "PA",
+      "PC",
+      "TX RENAL",
+      "CR 1 , 4",
+      "DM DESCOMPENSADO",
+      "INSULINA NPH"
+    ],
+    "Substância Farmacológica": [
+      "FK",
+      "PRED",
+      "AZA",
+      "BACTRIM",
+      "LEVOTIROXINA",
+      "PLASIL",
+      "INSULINA NPH"
+    ],
+    "Conceito Quantitativo": [
+      "4",
+      "5",
+      "2",
+      "25",
+      "2 / 2",
+      "30 / 15",
+      "70 / 40"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "TIRÓIDE"
+    ],
+    "Hormônio": [
+      "PRED",
+      "LEVOTIROXINA",
+      "INSULINA NPH"
+    ],
+    "Substância Perigosa ou Venenosa": [
+      "AZA"
+    ],
+    "Antibiótico": [
+      "BACTRIM"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "LEVOTIROXINA",
+      "INSULINA NPH"
+    ],
+    "Sinal ou Sintoma": [
+      "INAPETENCIA",
+      "NAUSEAS",
+      "VOMITOS",
+      "SECAS",
+      "TAQUICARDIA"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "PC"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 1 , 4"
+    ],
+    "Doença ou Síndrome": [
+      "DM DESCOMPENSADO"
+    ],
+    "Achado": [
+      "MUCOSAS CORADAS"
+    ]
+  },
+  "labels": {
+    "DA26.3": {
+      "term_original": "vomitos",
+      "capitulo": "13",
+      "confidence_embedding": 0.7702,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da laceração hemorrágica gastroesofágica. Definição: Sangramento por lacerações na mucosa na junção do estômago com esôfago, geralmente causado por vômitos intensos, espasmos de vômito ou tosse.",
+      "classification_reasoning": "A opção mais precisa é a DA26.3, pois o termo 'vomitos' está relacionado à síndrome da laceração hemorrágica gastroesofágica, que é caracterizada pelo sangramento por lacerações na mucosa na junção do estômago com esôfago, geralmente causado por vômitos intensos."
+    },
+    "BC71.02": {
+      "term_original": "taquicardia",
+      "capitulo": "11",
+      "confidence_embedding": 0.7691,
+      "descricao_cid": "Representação de doença CID-11: Taquicardia ventricular sustentada. Definição: Taquicardia ventricular que tem duração de >30 segundos ou que causa instabilidade hemodinâmica.",
+      "classification_reasoning": "A escolha do código BC71.02 é baseada na descrição de taquicardia no prontuário, especificamente 'TAQUICARDIA' em relação ao contexto clínico de paciente com doença renal crônica descompensada e uso de insulina NPH. Isso sugere que a taquicardia é sustentada e está relacionada à doença renal crônica ou ao uso de insulina, o que concorda com a definição do código BC71.02 para taquicardia ventricular sustentada."
+    },
+    "5C70.0": {
+      "term_original": "dm descompensado",
+      "capitulo": "05",
+      "confidence_embedding": 0.7553,
+      "descricao_cid": "Representação de doença CID-11: Desidratação. Definição: A desidratação ocorre quando há uma quantidade insuficiente ou perda excessiva de água no corpo. Isso pode ser causado por vômitos, diarreia, febre, uso de diuréticos, sudorese profusa ou diminuição da ingestão de água.",
+      "classification_reasoning": "A escolha do código 5C70.0 é baseada na presença de 'DM descompensado' no contexto, que refere-se a uma condição de doença renal crônica com comprometimento da função renal, levando à desidratação e possível descompensação"
+    },
+    "EC90.10": {
+      "term_original": "secas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7743,
+      "descricao_cid": "Representação de doença CID-11: Prurido urêmico. Definição: Prurido em pacientes com insuficiência renal crônica. Embora comum na doença renal crônica não tratada, é particularmente prevalente em pacientes que submetidos a diálise peritoneal ou hemodiálise. O prurido não se deve a níveis elevados de ureia sérica. Os mecanismos precisos não são totalmente compreendidos.",
+      "classification_reasoning": "A opção mais precisa é a EC90.10, Prurido urêmico, pois o prontuário menciona 'mucosas coradas, secas' e 'inapetência, nauseas e vomitos', sugerindo que o prurido pode estar relacionado à insuficiência renal crônica."
+    },
+    "EA91.43": {
+      "term_original": "mucosas coradas",
+      "capitulo": "14",
+      "confidence_embedding": 0.743,
+      "descricao_cid": "Representação de doença CID-11: Mucosite liquenoide. Definição: Mucosite liquenoide oral é um termo que descreve manifestações clinicopatológicas da mucosa oral que representam um desfecho comum em resposta a agentes extrínsecos como drogas ou alérgenos de contato, ou autoantígenos supostamente alterados, como no líquen plano. A apresentação clínica pode variar de estrias reticulares brancas assintomáticas\r\na eritema doloroso e erosões. O líquen plano idiopático nem sempre pode ser distinguido de reações liquenoides a agentes externos e, nessas circunstâncias, é apropriado rotular as alterações observadas como mucosite liquenoide oral até que um diagnóstico mais definitivo possa ser feito.",
+      "classification_reasoning": "A opção mais precisa é a Mucosite liquenoide (EA91.43) porque o termo 'mucosas coradas' refere-se à alteração visual da mucosa oral e não há outras referências ao prurido ou lúpus eritematoso cutâneo subagudo no contexto clínico fornecido."
+    }
+  }
+}

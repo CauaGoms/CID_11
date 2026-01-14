@@ -1,0 +1,122 @@
+{
+  "prontuario_id": 567,
+  "text": "PO ARTRODESE L5-S1 + DISCECTOMIA + CAGE PARA TTO DE ESPONDILOLISTESE L5-S1 GRAU II COM LOMBALGIA INTENSA E IRRADIAÇÃO PARA L5 À DIR.\nMELHORA COMPLETA DA DOR LOMBAR, COM FISGADAS LEVES ESPORADICAMENTE APÓS A CIRURGIA. SEM DOR ALGUMA MAIS EM MID QUE APRESENTAVA ANTES.\nF.O. COM CROSTAS EM POCESSO DE CICATRIZAÇÃO. RELATA QUE F.O. INFLAMAOU MAS CICATRIZOU ESPONTANEAMENTE E NÃO TEVE MAIS COMPLICAÇÕES.\n\nCD: RX DE CONTROLE E RETORNO COM EXAME.\nNO RETORNO AVALIAR F.O. SE BEM CICATRIZADA E POSICIONAMENTO DOS PARAFUSOS PARA POSSIVEL INICIO DE FISIOTERAPIA.",
+  "entities": {
+    "Abreviação": [
+      "PO",
+      "L5-S1",
+      "TTO",
+      "MID",
+      "CD",
+      "RX",
+      "L5 À DIR"
+    ],
+    "Conceito Temporal": [
+      "PO",
+      "APÓS",
+      "ANTES",
+      "ESPONTANEAMENTE"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ARTRODESE",
+      "DISCECTOMIA",
+      "TTO",
+      "CIRURGIA",
+      "FISIOTERAPIA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "L5-S1"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "TTO",
+      "CD",
+      "RETORNO",
+      "EXAME"
+    ],
+    "Doença ou Síndrome": [
+      "ESPONDILOLISTESE"
+    ],
+    "Sinal ou Sintoma": [
+      "IRRADIAÇÃO",
+      "DOR",
+      "CROSTAS",
+      "COMPLICAÇÕES",
+      "LOMBALGIA INTENSA",
+      "DOR LOMBAR",
+      "FISGADAS LEVES ESPORADICAMENTE"
+    ],
+    "Negação": [
+      "SEM",
+      "NÃO"
+    ],
+    "Localização ou Região Corporal": [
+      "MID",
+      "L5 À DIR"
+    ],
+    "Função Patológica": [
+      "INFLAMAOU"
+    ],
+    "Função Fisiológica": [
+      "CICATRIZOU"
+    ],
+    "Procedimento Diagnóstico": [
+      "RX",
+      "EXAME"
+    ],
+    "Dispositivo Médico": [
+      "PARAFUSOS"
+    ],
+    "Conceito Qualitativo": [
+      "GRAU II",
+      "BEM CICATRIZADA"
+    ],
+    "Achado": [
+      "MELHORA COMPLETA",
+      "BEM CICATRIZADA"
+    ]
+  },
+  "labels": {
+    "EA90.3": {
+      "term_original": "crostas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7422,
+      "descricao_cid": "Representação de doença CID-11: Psoríase eritrodérmica. Definição: Psoríase eritrodérmica é uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele. A psoríase eritrodérmica geralmente se desenvolve a partir da psoríase em placas extensa mas pode surgir de forma nova. Fatores precipitantes ou desencadeantes incluem a retirada de glicocorticoides sistêmicos e, menos frequentemente, a descontinuação abrupta do metotrexato, queimaduras ou infecções intercorrentes. Os pacientes podem desenvolver hipotermia ou insuficiência cardíaca de alto débito.",
+      "classification_reasoning": "A presença de crostas em processo de cicatrização na FO sugere que a lesão foi inflamatória e subseqüentemente cicatrizada, o que é consistente com a definição de psoríase eritrodérmica (EA90.3)."
+    },
+    "FA84.1": {
+      "term_original": "espondilolistese",
+      "capitulo": "15",
+      "confidence_embedding": 0.7721,
+      "descricao_cid": "Representação de doença CID-11: Espondilolistese sem defeito na 'pars'. Definição: Esta é uma condição caracterizada pelo deslizamento anterior do corpo vertebral, sobre a vértebra abaixo, sem um defeito na \"pars articularis\"",
+      "classification_reasoning": "A escolha do código FA84.1 é mais precisa porque o termo 'espondilolistese' está relacionado ao deslizamento anterior do corpo vertebral sem defeito na 'pars', o que se ajusta ao contexto clínico que descreve a espondilolistese L5-S1 grau II com lombalgia intensa e irradiação para L5 à direita."
+    },
+    "MG30.2": {
+      "term_original": "fisgadas leves esporadicamente",
+      "capitulo": "21",
+      "confidence_embedding": 0.7339,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A dor crônica pós-operatória ou pós-traumática é a mais precisa opção para o termo 'fisgadas leves esporadicamente' no contexto clínico, pois apresenta sintomas de dor crônica após um procedimento cirúrgico (po artrodesse L5-S1 + discectomia + cage) e descarta outras causas de dor."
+    },
+    "FA80.8": {
+      "term_original": "irradiação",
+      "capitulo": "15",
+      "confidence_embedding": 0.8207,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa é FA80.8, pois o termo 'irradiação' se refere ao envolvimento do sistema nervoso pela degeneração de disco intervertebral, descrita na cirurgia como espondilolistese L5-S1 grau II."
+    },
+    "MG30.21": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.8111,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática.",
+      "classification_reasoning": "A dor descrita como 'dor lombalgia intensa e irradiação para L5 à dir.' é uma dor crônica pós-operatória relacionada ao procedimento cirúrgico realização de artrodeses, discectomia e cage. A dor persistiu após a cirurgia e melhora completa foi alcançada com fisgadas leves espordicamente após a cirurgia."
+    },
+    "NB53.Y": {
+      "term_original": "complicações",
+      "capitulo": "22",
+      "confidence_embedding": 0.8002,
+      "descricao_cid": "Representação de doença CID-11: Outra luxação ou distensão ou entorse especificada das articulações ou ligamentos da coluna lombar ou pelve. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NB53.Y, pois a paciente apresenta luxação ou distensão das articulações ou ligamentos da coluna lombar (PO ARTRODESE L5-S1) e não há indicação de lesões na medula espinhal (NB6Z) ou lesões genéricas do abdômen ou coluna lombar (NB9Z/9Y). A palavra 'complicações' no contexto clínico se refere provavelmente às complicações relacionadas à artrose e não a lesões mais amplas."
+    }
+  }
+}

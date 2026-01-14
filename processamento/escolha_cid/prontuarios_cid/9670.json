@@ -1,0 +1,126 @@
+{
+  "prontuario_id": 632,
+  "text": "PACIENTE, 80 ANOS.\nELETROCARDIOGRAMA: ALTERAÇÕES DIFUSAS DA REPOLARIZAÇÃO VENTRICULAR.\nEXAMES LABORATORIAIS: CREATININA 1,3 / GLICOSE 107 /  UREIA 46 /  TRIGLICERIDEOS 259 /  HDL 42 / POTASSIO 5,4 / COLESTEROL TOTAL 257 / LDL 163 / KPTT 1,31.\nCX CARDÍACA REALIZADA EM 2005: 3 PONTES DE SAFENA, COM HISTÓRIA DE INFARTO EM 2005.\nPACIENTE RELATA VERTIGEM MESMO SENTADA, NAO RELATA ANGINA, NEGA DISPNÉIA, RELATA EDEMA DE MMII.\nEM USO DE: ATENOLOL (1 CP), CAPTOPRIL(2 CP), FUROSEMIDA(1 CP), SINVASTATINA (1 CP A NOITE), OMEPRAZOL.\n \n \nHIPERTENSA.\n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Procedimento Diagnóstico": [
+      "ELETROCARDIOGRAMA"
+    ],
+    "Conceito Quantitativo": [
+      "3",
+      "1 CP",
+      "2 CP",
+      "A NOITE"
+    ],
+    "Doença ou Síndrome": [
+      "INFARTO",
+      "HIPERTENSA"
+    ],
+    "Negação": [
+      "NAO",
+      "NEGA"
+    ],
+    "Sinal ou Sintoma": [
+      "ANGINA",
+      "DISPNÉIA",
+      "EDEMA",
+      "VERTIGEM MESMO SENTADA"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Abreviação": [
+      "MMII",
+      "CX CARDÍACA",
+      "1 CP",
+      "2 CP"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MMII"
+    ],
+    "Substância Farmacológica": [
+      "ATENOLOL",
+      "CAPTOPRIL",
+      "FUROSEMIDA",
+      "SINVASTATINA",
+      "OMEPRAZOL"
+    ],
+    "Substância Química Orgânica": [
+      "ATENOLOL",
+      "FUROSEMIDA",
+      "SINVASTATINA",
+      "OMEPRAZOL"
+    ],
+    "Achado": [
+      "HIPERTENSA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ALTERAÇÕES DIFUSAS DA REPOLARIZAÇÃO VENTRICULAR",
+      "CREATININA 1 , 3",
+      "GLICOSE 107",
+      "UREIA 46",
+      "TRIGLICERIDEOS 259",
+      "HDL 42",
+      "POTASSIO 5 , 4",
+      "COLESTEROL TOTAL 257",
+      "LDL 163",
+      "KPTT 1 , 31"
+    ],
+    "Procedimento Laboratorial": [
+      "EXAMES LABORATORIAIS"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CX CARDÍACA",
+      "PONTES DE SAFENA"
+    ],
+    "Conceito Temporal": [
+      "A NOITE"
+    ]
+  },
+  "labels": {
+    "BA41.0": {
+      "term_original": "infarto",
+      "capitulo": "11",
+      "confidence_embedding": 0.8047,
+      "descricao_cid": "Representação de doença CID-11: Infarto agudo do miocárdio com supradesnível de ST. Definição: Infarto agudo do miocárdio com supradesnível de ST (IAMCSST) é um infarto agudo do miocárdio com desenvolvimento de supradesnível de ST em duas derivações contíguas do eletrocardiograma. Os critérios de elevação do ST são os seguintes; novo supradesnível de ST no ponto J em duas derivações contíguas aplicando os pontos de corte: 0,2mV em homens> 40 anos; > 0,25mV em homens <40 anos, e > 0,15mV em mulheres.",
+      "classification_reasoning": "A opção mais precisa é o Infarto agudo do miocárdio com supradesnível de ST (BA41.0), pois o paciente relata história de infarto em 2005 e apresenta alterações difusas da repolarização ventricular no eletrocardiograma, sugerindo possivelmente um estado pós-infartivo"
+    },
+    "FB50.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7258,
+      "descricao_cid": "Representação de doença CID-11: Cisto sinovial do espaço poplíteo. Definição: Este é o edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho",
+      "classification_reasoning": "A opção mais precisa é FB50.2, pois o paciente relata edema (representado pelo termo "
+    },
+    "CA23.00": {
+      "term_original": "dispnéia",
+      "capitulo": "12",
+      "confidence_embedding": 0.7715,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide.",
+      "classification_reasoning": "A escolha pelo código CA23.00 se baseia no termo 'dispnéia', que é um sintoma descrito no prontuário do paciente, mais especificamente na frase 'Paciente relata vertigem mesmo sentada, não relata angina, nega dispnéia...' e está relacionado à asma alérgica com exacerbação, que é a escolha mais precisa para o termo."
+    },
+    "BA01": {
+      "term_original": "hipertensa",
+      "capitulo": "11",
+      "confidence_embedding": 0.8154,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A hipertensão é uma condição pré-existente mencionada no prontuário do paciente, e a cardiomiopatia hipertrófica (BC43.1) não se ajusta ao contexto clínico, pois o prontuário descreve alterações difusas na repolarização ventricular e doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas causadas por efeitos diretos ou indiretos da hipertensão."
+    },
+    "BA40.Y": {
+      "term_original": "angina",
+      "capitulo": "11",
+      "confidence_embedding": 0.8324,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A descrição do termo extraído é 'angina', que se refere a uma representação de doença CID-11: Outra angina pectoris especificada. Dado que o paciente não relata angina, mas sim vertigem mesmo sentada e não apresenta sintomas de angina, a escolha mais precisa para o termo é BA40.Y, que aborda uma forma específica de angina pectoris."
+    },
+    "MG29.10": {
+      "term_original": "vertigem mesmo sentada",
+      "capitulo": "21",
+      "confidence_embedding": 0.7348,
+      "descricao_cid": "Representação de doença CID-11: Edema devido a pressão capilar aumentada. Definição: O aumento da pressão capilar aumenta o vazamento de fluido do compartimento vascular para os tecidos intersticiais, resultando em edema. Causas incluem o comprometimento ou obstrução do retorno venoso (sobrecarga de fluido, trombose venosa, insuficiência cardíaca direita, compressão venosa por tumor), aumento do fluxo sanguíneo (resposta fisiológica à exposição ao calor, malformações arteriovenosas, controle vasomotor cutâneo prejudicado devido a drogas ou neuropatia autonômica), ou pressão oncótica plasmática reduzida por hipoproteinemia.",
+      "classification_reasoning": "A escolha mais precisa para o termo 'vertigem mesmo sentada' é a doença MG29.10 - Edema devido a pressão capilar aumentada, pois a vertigem relacionada ao edema é um sintoma comum em pacientes com insuficiência cardíaca ou problemas circulatórios."
+    }
+  }
+}

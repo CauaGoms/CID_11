@@ -1,0 +1,106 @@
+{
+  "prontuario_id": 947,
+  "text": "Paciente com história de Tx renal com falência do enxerto em outubro / 2006, há 3 meses com hematúria e prostração. Refere por +- 4 semanas antes da internação eletiva para nefrectomia, queixa de tosse paroxística, sendo admitida para internação previamente na instituição de origem, sendo afastadas causas infecciosas para o quadro. Admitida afebril e sem alterações no leucograma, sendo manejada com sintomáticos, com boa evolução do quadro. Nefrectomia de enxerto sem intercorrências, com boa evolução pós-operatória. Alta em 3o PO em boas condições, com retorno para reavaliação com urologia em 12/07/2007.",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "hematúria",
+      "prostração",
+      "queixa",
+      "quadro",
+      "afebril",
+      "intercorrências",
+      "tosse paroxística"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "nefrectomia",
+      "Tx renal",
+      "Nefrectomia de enxerto"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "admitida",
+      "internação",
+      "afastadas",
+      "Admitida",
+      "manejada",
+      "Alta",
+      "internação eletiva",
+      "retorno para reavaliação"
+    ],
+    "Negação": [
+      "afebril",
+      "sem"
+    ],
+    "Substância Farmacológica": [
+      "sintomáticos"
+    ],
+    "Conceito Temporal": [
+      "pós-operatória",
+      "3o PO"
+    ],
+    "Organização Relacionada à Saúde": [
+      "urologia",
+      "instituição de origem"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "urologia"
+    ],
+    "Abreviação": [
+      "Tx renal",
+      "3o PO"
+    ],
+    "Função Patológica": [
+      "causas infecciosas"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "alterações no leucograma"
+    ],
+    "Achado": [
+      "boa evolução do quadro",
+      "boas condições"
+    ]
+  },
+  "labels": {
+    "1D62.0": {
+      "term_original": "causas infecciosas",
+      "capitulo": "01",
+      "confidence_embedding": 0.7578,
+      "descricao_cid": "Representação de doença CID-11: Febre hemorrágica com síndrome renal. Definição: Doença viral zoonótica aguda com início abrupto de febre, dor lombar, com graus variados de manifestações hemorrágicas e envolvimento renal causada por certos hantavírus.",
+      "classification_reasoning": "A escolha do código 1D62.0 é mais precisa porque a história do paciente refere hematúria e prostração, o que é coerente com a descrição da Febre hemorrágica com síndrome renal (1D62.0). Além disso, a presença de tosse paroxística também está presente na definição da doença."
+    },
+    "MF56": {
+      "term_original": "queixa",
+      "capitulo": "21",
+      "confidence_embedding": 0.7635,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A queixa de tosse paroxística no paciente com história de Tx renal e falência do enxerto é compatível com Cólica Renal (MF56), uma condição caracterizada por dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios."
+    },
+    "NB93": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.755,
+      "descricao_cid": "Representação de doença CID-11: Lesão por esmagamento ou amputação traumática de parte do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A opção NB93 se refere a lesão por esmagamento ou amputação traumática de parte do abdome, região lombar ou pelve, o que é mais próximo ao contexto clínico da paciente, que apresenta uma história de nefrectomia com boa evolução pós-operatória."
+    },
+    "6A23.01": {
+      "term_original": "prostração",
+      "capitulo": "06",
+      "confidence_embedding": 0.7816,
+      "descricao_cid": "Representação de doença CID-11: Transtorno psicótico agudo e transitório, primeiro episódio, em remissão parcial. Definição: Todos os critérios diagnósticos para transtorno psicótico agudo e transitório, primeiro episódio em termos de sintomas e duração foram preenchidos anteriormente. Os sintomas melhoraram de tal forma que os critérios diagnósticos para o transtorno não foram preenchidos por pelo menos um mês, mas alguns sintomas clinicamente significativos persistem, que podem ou não estar associados a comprometimento funcional. A remissão parcial pode ter ocorrido em resposta a medicamento ou outro tratamento.",
+      "classification_reasoning": "O termo 'prostração' é um sintoma característico de transtorno psicótico agudo e transitório, primeiro episódio, em remissão parcial (Código 6A23.01). Nesse contexto clínico, a prostração pode estar relacionada à experiência recente do paciente com Tx renal com falência do enxerto, o que sugere uma possível intervenção psicológica decorrente da situação."
+    },
+    "CA23.22": {
+      "term_original": "tosse paroxística",
+      "capitulo": "12",
+      "confidence_embedding": 0.7348,
+      "descricao_cid": "Representação de doença CID-11: Asma variante com tosse. Definição: Asma variante com tosse é uma forma oculta de asma em que o único sinal ou sintoma é tosse crônica.",
+      "classification_reasoning": "A tosse paroxística no contexto do prontuário é mais consistente com a descrição de Asma variante com tosse, uma forma oculta de asma em que o único sinal ou sintoma é tosse crônica."
+    },
+    "GB40": {
+      "term_original": "hematúria",
+      "capitulo": "16",
+      "confidence_embedding": 0.8213,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A opção mais precisa para o termo 'hematúria' é a síndrome nefrítica, pois a paciente apresenta história de Tx renal com falência do enxerto em outubro/2006 e hematúria há 3 meses."
+    }
+  }
+}

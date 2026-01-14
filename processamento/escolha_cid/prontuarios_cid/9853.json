@@ -1,0 +1,131 @@
+{
+  "prontuario_id": 872,
+  "text": "Paciente com diagnóstico de cardiopatia reumática, internou com quadro de dor torácica e dispnéia. Ecocardiograma Válvula aórtica com características de envolvimento reumático com estenose leve (gradiente máx/méd de 46/26 mmHg) e jato regurgitante central leve. Ventrículo esquerdo com diâmetros e espessuras parietais normais, déficit de relaxamento, função sistólica global e segmentar preservadas. Válvula mitral com características de acometimento reumático com regurgitação leve e área valvular estimada em 2,6 - 2,8 cm2. Átrio esquerdo e cavidades direitas de tamanho normal. Regurgitação tricúspide leve com gradiente VD/AD de 25mmHg, estimando-se a pressão sistólica na artéria pulmonar em 30 - 35mmHg.  Ergometria: sem evidência de isquemia.  Plano: profilaxia de endocardite e seguir acompanhamento no ambulatório da Cardio.",
+  "entities": {
+    "Produto Intelectual": [
+      "diagnóstico"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "internou",
+      "Plano",
+      "acompanhamento"
+    ],
+    "Sinal ou Sintoma": [
+      "quadro",
+      "dispnéia",
+      "dor torácica"
+    ],
+    "Procedimento Diagnóstico": [
+      "Ecocardiograma",
+      "Ergometria"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Função Patológica": [
+      "isquemia",
+      "jato regurgitante central leve",
+      "déficit de relaxamento",
+      "regurgitação leve",
+      "Regurgitação tricúspide leve"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "isquemia",
+      "características de envolvimento reumático",
+      "estenose leve",
+      "gradiente máx/méd de 46/26 mmHg",
+      "jato regurgitante central leve",
+      "diâmetros e espessuras parietais normais",
+      "déficit de relaxamento",
+      "função sistólica global e segmentar preservadas",
+      "características de acometimento reumático",
+      "regurgitação leve",
+      "tamanho normal",
+      "Regurgitação tricúspide leve",
+      "gradiente VD/AD de 25mmHg",
+      "pressão sistólica na artéria pulmonar em 30 - 35mmHg"
+    ],
+    "Doença ou Síndrome": [
+      "cardiopatia reumática"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "Válvula aórtica",
+      "Ventrículo esquerdo",
+      "Válvula mitral",
+      "Átrio esquerdo",
+      "cavidades direitas"
+    ],
+    "Abreviação": [
+      "gradiente máx/méd de 46/26 mmHg",
+      "gradiente VD/AD de 25mmHg",
+      "ambulatório da Cardio"
+    ],
+    "Achado": [
+      "tamanho normal"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "profilaxia de endocardite"
+    ],
+    "Organização Relacionada à Saúde": [
+      "ambulatório da Cardio"
+    ]
+  },
+  "labels": {
+    "BA51": {
+      "term_original": "isquemia",
+      "capitulo": "11",
+      "confidence_embedding": 0.7819,
+      "descricao_cid": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas.",
+      "classification_reasoning": "A palavra 'isquemia' é utilizada no contexto para descrever a possibilidade de lesão ao miocárdio, o que está relacionado à cardiomiopatia isquêmica (BC51)."
+    },
+    "BB6Y": {
+      "term_original": "jato regurgitante central leve",
+      "capitulo": "11",
+      "confidence_embedding": 0.7575,
+      "descricao_cid": "Representação de doença CID-11: Outra doença da valva mitral especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa é o Código BB6Y, outra doença da valva mitral especificada, pois o termo 'jato regurgitante central leve' se refere ao achado de uma regurgitação leve na válvula aórtica, característica presente em outras doenças da valva mitral não especificadas."
+    },
+    "BC44": {
+      "term_original": "déficit de relaxamento",
+      "capitulo": "11",
+      "confidence_embedding": 0.8189,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia não compactada. Definição: A cardiomiopatia não compactada é uma anormalidade morfológica do miocárdio que afeta predominantemente o ápice do ventrículo, caracterizada por hipertrabeculação e recessos intertrabeculares profundos, geralmente acompanhados por uma camada subepicárdica anormalmente fina de miocárdio compactado, que geralmente, mas nem sempre, está associada à disfunção ventricular. \r\n\r\nInformações adicionais. A cardiomiopatia não compactada envolve classicamente o ventrículo esquerdo, mas também pode envolver apenas o ventrículo direito ou ambos. Pode ocorrer como um achado isolado ou em associação com um fenótipo cardiomiopático dilatado, hipertrófico ou misto. Foi descrita em associação a cardiopatia congênita complexa, anomalias das artérias coronárias e como um achado isolado, com e sem anormalidades musculoesqueléticas e outras anormalidades sistêmicas.",
+      "classification_reasoning": "A descrição de déficit de relaxamento no ecocardiograma é mais consistente com a cardiomiopatia não compactada (BC44), que envolve anormalidades morfológicas do miocárdio, incluindo hipertrabeculação e recessos intertrabeculares profundos."
+    },
+    "BC44.8": {
+      "term_original": "regurgitação tricúspide leve",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é a cardiomiopatia não compactada, pois o termo 'regurgitação tricúspide leve' indica uma anomalia na valva tricúspide, que é característica da cardiomiopatia não compactada. Além disso, a descrição da opção BC44 menciona hipertrabeculação e recessos intertrabeculares profundos no ápice do ventrículo esquerdo, o que está relacionado à lesão reumática descrita na história clínica."
+    },
+    "CA22.0": {
+      "term_original": "dor torácica",
+      "capitulo": "12",
+      "confidence_embedding": 0.7866,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A dor torácica é um sintoma comum em doenças respiratórias, como a DPOC, e está relacionada ao quadro de dispnéia descrito no prontuário."
+    },
+    "MC82.0": {
+      "term_original": "quadro",
+      "capitulo": "21",
+      "confidence_embedding": 0.7882,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico.",
+      "classification_reasoning": "O termo \"quadro\" refere-se ao estado de dor torácica e dispnéia do paciente, o que sugere uma situação aguda ou crítica relacionada à cardiopatia reumática. A opção MC82.0 'Parada cardíaca com taquicardia e fibrilação ventricular' é a mais precisa para descrever esse quadro."
+    },
+    "BB63.1": {
+      "term_original": "regurgitação leve",
+      "capitulo": "11",
+      "confidence_embedding": 0.7845,
+      "descricao_cid": "Representação de doença CID-11: Estenose mitral não reumática com insuficiência. Definição: É uma valvopatia não reumática caracterizada pelo estreitamento do orifício da valva mitral do coração, com regurgitação.",
+      "classification_reasoning": "A presença de regurgitação leve na avaliação ecocardiográfica sugere uma estenose mitral, caracterizada pelo estreitamento do orifício da valva mitral do coração com regurgitação."
+    },
+    "BC43.2": {
+      "term_original": "cardiopatia reumática",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A cardiopatia reumática é uma condição caracterizada por doença do coração causada pela síndrome de reumatismo, que pode levar à formação de calos e estenose nas válvulas cardíacas. Nesse contexto, a opção mais precisa é BC43.2, Cardiomiopatia hipertrófica não obstrutiva, pois o diagnóstico de cardiopatia reumática com envolvimento valvar sugere lesão nos tecidos cardíacos, levando à hipertrofia ventricular e possivelmente ao desenvolvimento de estenose ou regurgitação valvar."
+    }
+  }
+}

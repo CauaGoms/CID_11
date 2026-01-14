@@ -1,0 +1,164 @@
+{
+  "prontuario_id": 640,
+  "text": "HA 3 MESES INICIOU COM EDEMA DIFUSO , COM ASCITE SEM MOTIVO APARENTE      \nUS TV : MOSTRANDO UTERO 33ML , ENDOMETRIO MEDINDO ENTRE 3-4MM , LIQUIDO LIVRE NA CAVIDADE PELVICA , ASSIMETRIA NA SILHUETA CENTRAL HIPERECOGENICA , PODENDO CORRESPONDER A UM POLIPO\nEMAGRECIMENTO DE 3-4KG NESSES ULTIMOS 3 MESES\nQUEIXANDO SE DE CANSACO , SEM DISPNEIA , SEM ANGINA\nRELATA 1-2 EPISODIOS DE DIARREIA SEMANAIS\nEM USO DE : MONOCORDIL , ESPIRONOLACTONA , FUROSEMIDA , LOSARTANA , CARVEDILOL , METFORMINA\nCOMORBIDADES : HAS CONTROLADA , DM , \nUS DE ABDOME : MOSTRANDO ALTERACAO DIFUSA HEPATICA , PANCREAS DE TEXTURA HETEROGENEA E ASCITE\n \n \n \n ",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "ASCITE",
+      "EMAGRECIMENTO",
+      "QUEIXANDO",
+      "CANSACO",
+      "DISPNEIA",
+      "ANGINA",
+      "EDEMA DIFUSO",
+      "MOTIVO APARENTE",
+      "EPISODIOS DE DIARREIA SEMANAIS"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Anormalidade Anatômica": [
+      "POLIPO"
+    ],
+    "Conceito Quantitativo": [
+      "3-4KG"
+    ],
+    "Medicamento Clínico": [
+      "MONOCORDIL"
+    ],
+    "Substância Farmacológica": [
+      "MONOCORDIL",
+      "ESPIRONOLACTONA",
+      "FUROSEMIDA",
+      "LOSARTANA",
+      "CARVEDILOL",
+      "METFORMINA"
+    ],
+    "Substância Química Orgânica": [
+      "ESPIRONOLACTONA",
+      "FUROSEMIDA",
+      "LOSARTANA",
+      "CARVEDILOL",
+      "METFORMINA"
+    ],
+    "Doença ou Síndrome": [
+      "COMORBIDADES",
+      "DM"
+    ],
+    "Achado": [
+      "CONTROLADA",
+      "UTERO 33ML",
+      "ENDOMETRIO MEDINDO ENTRE 3-4MM",
+      "LIQUIDO LIVRE NA CAVIDADE PELVICA",
+      "ALTERACAO DIFUSA HEPATICA , PANCREAS DE TEXTURA HETEROGENEA E ASCITE"
+    ],
+    "Abreviação": [
+      "DM",
+      "US TV",
+      "ENDOMETRIO MEDINDO ENTRE 3-4MM",
+      "US DE ABDOME"
+    ],
+    "Função Patológica": [
+      "EDEMA DIFUSO"
+    ],
+    "Conceito Funcional": [
+      "MOTIVO APARENTE"
+    ],
+    "Procedimento Diagnóstico": [
+      "US TV",
+      "US DE ABDOME"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "UTERO 33ML",
+      "ENDOMETRIO MEDINDO ENTRE 3-4MM",
+      "LIQUIDO LIVRE NA CAVIDADE PELVICA",
+      "ASSIMETRIA NA SILHUETA CENTRAL HIPERECOGENICA",
+      "ALTERACAO DIFUSA HEPATICA , PANCREAS DE TEXTURA HETEROGENEA E ASCITE"
+    ]
+  },
+  "labels": {
+    "6C48.2": {
+      "term_original": "cansaco",
+      "capitulo": "06",
+      "confidence_embedding": 0.7786,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais.",
+      "classification_reasoning": "A descrição do termo 'cansaco' parece se referir a sintomas de fadiga e sonolência, que são comuns em casos de abstinência por cafeína (intoxicação por cafeína). A falta de informação sobre dor de cabeça ou outros sintomas associados à abstinência de cafeína reforça essa escolha."
+    },
+    "DA60.3": {
+      "term_original": "edema difuso",
+      "capitulo": "13",
+      "confidence_embedding": 0.7638,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "O termo 'edema difuso' sugere a presença de líquido na cavidade peritoneal, o que é compatível com a síndrome de ascite, observada no prontuário. A úlcera de estresse do estômago (DA60.3) também pode estar relacionada ao quadro clínico descrito."
+    },
+    "2E92.40": {
+      "term_original": "polipo",
+      "capitulo": "02",
+      "confidence_embedding": 0.7329,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de polipose. Definição: Síndromes de polipose intestinal podem ser divididas, com base na histologia, nas categorias amplas de polipose adenomatosa familiar (FAP), síndromes de polipose hamartomatosa e outras síndromes de polipose raras, como a síndrome de polipose mista hereditária (HMPS).",
+      "classification_reasoning": "A opção mais precisa é a síndrome de polipose, considerando que o US-TV apresenta alteração hiperecógena na silhueta central do útero, compatível com um polipo uterino."
+    },
+    "5B5A.0": {
+      "term_original": "emagrecimento",
+      "capitulo": "05",
+      "confidence_embedding": 0.7863,
+      "descricao_cid": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina.",
+      "classification_reasoning": "O termo 'emagrecimento' refere-se ao declínio de peso corporal, o que está relacionado à deficiência de tiamina (beribéri) caracterizada no contexto clínico."
+    },
+    "MF34": {
+      "term_original": "queixando",
+      "capitulo": "21",
+      "confidence_embedding": 0.7916,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa da gravidez. Definição: ",
+      "classification_reasoning": "O termo 'queixando' refere-se a queixa ou sintoma da paciente, o que se relaciona ao código MF34, Representação de doença CID-11: Sintoma ou queixa da gravidez."
+    },
+    "DA40.1": {
+      "term_original": "endometrio medindo entre 3-4mm",
+      "capitulo": "13",
+      "confidence_embedding": 0.7367,
+      "descricao_cid": "Representação de doença CID-11: Fístula gástrica adquirida. Definição: Fístula gástrica adquirida é uma comunicação através da parede gástrica com a cavidade peritoneal, ou com outro órgão e vasos que normalmente não se conectam, ou através da parede abdominal.",
+      "classification_reasoning": "A descrição 'endometrio medindo entre 3-4mm' sugere a presença de endometriose, que é uma anomalia não estrutural do desenvolvimento do intestino delgado (DA40.1). A medida de endometrio sugerida é compatível com a presença de endometriose, e o fato de ela estar localizada no interior do útero e não há outras indicações de lesão ou doença no contexto clínico."
+    },
+    "DC51.0": {
+      "term_original": "ascite",
+      "capitulo": "13",
+      "confidence_embedding": 0.7942,
+      "descricao_cid": "Representação de doença CID-11: Ascite quilosa. Definição: Ascite quilosa é uma forma rara de ascite causada por acúmulo de linfa na cavidade peritoneal, geralmente devido a malignidade intra-abdominal, cirrose hepática ou complicações de cirurgia abdominal, e se apresenta com distensão abdominal indolor, mas progressiva, dispneia e ganho de peso.",
+      "classification_reasoning": "A ascite quilosa é uma forma rara de ascite causada por acúmulo de linfa na cavidade peritoneal, geralmente devido a malignidade intra-abdominal, cirrose hepática ou complicações de cirurgia abdominal. No contexto clínico, a paciente apresenta edema difuso e ascite sem motivo aparente, o que é consistente com a descrição da ascite quilosa."
+    },
+    "DC50.10": {
+      "term_original": "liquido livre na cavidade pelvica",
+      "capitulo": "13",
+      "confidence_embedding": 0.7654,
+      "descricao_cid": "Representação de doença CID-11: Peritonite eosinofílica. Definição: Há 10% ou mais de eosinófilos no efluente peritoneal na apresentação inicial, e suas causas são frequentemente obscuras. No entanto, casos foram relatados com reações alérgicas, exposição a medicamentos como vancomicina, infecções fúngicas e virais, logo após a troca do cateter e no tratamento com icodextrina.",
+      "classification_reasoning": "A presença de líquido livre na cavidade pelvica e a descrição de ascite sem motivo aparente sugerem um processo inflamatório no peritônio, o que é compatível com a peritonite eosinofílica (DC50.10)."
+    },
+    "DB95.0": {
+      "term_original": "alteracao difusa hepatica , pancreas de textura heterogenea e ascite",
+      "capitulo": "13",
+      "confidence_embedding": 0.7639,
+      "descricao_cid": "Representação de doença CID-11: Doença hepática tóxica ou induzida por droga com necrose hepática aguda ou hepatite aguda. Definição: Lesão hepatocelular aguda que se desenvolve dentro de 1 a 20 semanas após o início do tratamento. As lesões histológicas consistem principalmente em necrose focal em ponte ou zonal, mas evidente inflamação lobular e do trato portal com hepatite por droga. Características extra-hepáticas de hipersensibilidade por droga incluindo erupção cutânea, linfadenopatia, eosinofilia ou outras manifestações sistêmicas são observadas em alguns casos.",
+      "classification_reasoning": "A presença de alteração difusa hepática e pancreas de textura heterogeneia sugere lesão hepatocelular aguda ou necrose hepática aguda, característica da doença DB95.0 (Doença hepática tóxica ou induzida por droga com necrose hepática aguda ou hepatite aguda)."
+    },
+    "GA10.C2": {
+      "term_original": "utero 33ml",
+      "capitulo": "16",
+      "confidence_embedding": 0.7951,
+      "descricao_cid": "Representação de doença CID-11: Endometriose do peritônio pélvico. Definição: Condição que é frequentemente idiopática. Esta condição é caracterizada por crescimento e função ectópicos de tecido endometrial com extensão de 5 milímetros ou menos sob a superfície visceral ou parietal do peritônio e aparecendo como lesões preta-amarronzadas ou vermelho-alaranjadas claras. Esta condição pode ser associada a tecido vestigial remanescente do ducto wolfiano ou mulleriano, ou a refluxo retrogrado de fragmentos de endométrio para a cavidade peritoneal durante a menstruação. Esta condição pode se apresentar com dismenorreia, dispareunia, dor pélvica não menstrual, infertilidade, alteração da menstruação, ou pode ser assintomática. A confirmação é feita por identificação laparoscópica de fragmentos ectópicos.",
+      "classification_reasoning": "A descrição do utero com tamanho de 33ml e a presença de endometrio medindo entre 3-4mm sugerem uma possível endometriose, especificamente do peritônio pélvico, o que é descrito pela opção GA10.C2."
+    },
+    "BA40.Z": {
+      "term_original": "angina",
+      "capitulo": "11",
+      "confidence_embedding": 0.8121,
+      "descricao_cid": "Representação de doença CID-11: Angina pectoris não especificada. Definição: ",
+      "classification_reasoning": "A paciente relata não ter dispneia nem angina, apenas cansaço. A US TV não revela qualquer alteração cardíaca significativa. Portanto, a opção mais precisa é a baixa especificidade da angina pectoris não especificada (BA40.Z)"
+    },
+    "DD91.2": {
+      "term_original": "episodios de diarreia semanais",
+      "capitulo": "13",
+      "confidence_embedding": 0.7466,
+      "descricao_cid": "Representação de doença CID-11: Diarreia funcional. Definição: Diarreia funcional é uma síndrome contínua ou recorrente caracterizada pela passagem de fezes moles (pastosas) ou aquosas sem dor ou desconforto abdominal.",
+      "classification_reasoning": "A paciente apresenta episodios de diarreia semanais, o que sugere uma doença funcional gastrointestinal, como a síndrome de diarreia funcional (DD91.2), em vez de uma doença estrutural ou inflamatória."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "prontuario_id": 269,
+  "text": "pot 6 meses de hernioplastia incisional.\nrefere dor no local da fo.\nsem outras queixas.\nexame fisico sem alterações.\nsolicito usg de parede abdominal.        ",
+  "entities": {
+    "Abreviação": [
+      "pot",
+      "local da fo"
+    ],
+    "Conceito Temporal": [
+      "pot"
+    ],
+    "Sinal ou Sintoma": [
+      "dor",
+      "queixas",
+      "alterações"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "solicito"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "hernioplastia incisional"
+    ],
+    "Localização ou Região Corporal": [
+      "local da fo"
+    ],
+    "Procedimento Diagnóstico": [
+      "exame fisico"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "parede abdominal"
+    ]
+  },
+  "labels": {
+    "ME02": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7796,
+      "descricao_cid": "Representação de doença CID-11: Rigidez abdominal. Definição: Rigidez abdominal é a rigidez dos músculos na região da barriga, que pode ser sentida quando tocada ou pressionada",
+      "classification_reasoning": "A opção ME02 'Representação de doença CID-11: Rigidez abdominal' é a mais precisa para o termo 'queixas', pois a paciente refere dor no local da fo, sem outras queixas, e o exame físico não apresenta alterações. A rigidez abdominal é uma descrição que se ajusta à situação clínica da paciente."
+    },
+    "MD81.3": {
+      "term_original": "alterações",
+      "capitulo": "21",
+      "confidence_embedding": 0.7992,
+      "descricao_cid": "Representação de doença CID-11: Abdome agudo. Definição: Síndrome clínica com dor abdominal aguda, que é intensa e de início rápido. O abdome agudo pode ser causado por uma variedade de transtornos, lesões ou doenças.",
+      "classification_reasoning": "A opção mais precisa é MD81.3, Representação de doença CID-11: Abdome agudo, pois a queixa descrita refere dor no local da ferida (local da hernioplastia incisional) e não há outras queixas ou alterações físicas detectadas."
+    },
+    "DD56": {
+      "term_original": "dor",
+      "capitulo": "13",
+      "confidence_embedding": 0.7818,
+      "descricao_cid": "Representação de doença CID-11: Hernia incisional. Definição: A hérnia que ocorre em área fragilizada pela incisão de cirurgia abdominal prévia ou de trauma abdominal maior.",
+      "classification_reasoning": "A dor no local da hernioplastia incisional e a solicitação de USG de parede abdominal sugerem que a dor pode estar relacionada à hérnia incisional. A escolha do código DD56 é a mais precisa para o termo 'dor' dentro do contexto clínico."
+    }
+  }
+}

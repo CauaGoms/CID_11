@@ -1,0 +1,58 @@
+{
+  "prontuario_id": 294,
+  "text": "PACIENTE POS-OPERATORIO CX HERNIA UMBILICAL.\nFO SEM SINAIS DE SECREÇÃO PURULENTA.\nPCTE SEM QUEIXAS.\nRETORNO EM 1 MES.\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE",
+      "PCTE"
+    ],
+    "Conceito Temporal": [
+      "POS-OPERATORIO",
+      "MES"
+    ],
+    "Abreviação": [
+      "FO",
+      "PCTE",
+      "CX HERNIA UMBILICAL"
+    ],
+    "Lesão ou Envenenamento": [
+      "FO"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "SECREÇÃO PURULENTA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "RETORNO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CX HERNIA UMBILICAL"
+    ]
+  },
+  "labels": {
+    "NB51.2": {
+      "term_original": "fo",
+      "capitulo": "22",
+      "confidence_embedding": 0.7267,
+      "descricao_cid": "Representação de doença CID-11: Ferimento perfurante sem corpo estranho do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NB51.2, pois o termo 'fo' se refere a ferimento perfurante sem corpo estranho do abdome, região lombar ou pelve, que está relacionado ao procedimento cirúrgico realizado no paciente (CX HERNIA UMBILICAL)"
+    },
+    "MF34": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.748,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa da gravidez. Definição: ",
+      "classification_reasoning": "A opção MF34 é a mais precisa porque 'queixas' refere-se a relatos de dor ou desconforto do paciente, o que está relacionado à representação de doença CID-11: Sintoma ou queixa da gravidez."
+    },
+    "1B75.1": {
+      "term_original": "secreção purulenta",
+      "capitulo": "01",
+      "confidence_embedding": 0.745,
+      "descricao_cid": "Representação de doença CID-11: Carbúnculo. Definição: Infecção cutânea estafilocócica folicular piogênica profunda, envolvendo um grupo de folículos pilosos adjacentes. Manifesta-se como uma massa lamacenta dolorosa contendo vários seios com secreção purulenta.",
+      "classification_reasoning": "A descrição do termo 'secreção purulenta' é compatível com a definição de carbúnculo, que é uma infecção cutânea estafilocócica folicular piogênica profunda e envolve um grupo de folículos pilosos adjacentes. A presença de secreção purulenta é um indicador da patologia."
+    }
+  }
+}

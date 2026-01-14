@@ -1,0 +1,104 @@
+{
+  "prontuario_id": 28,
+  "text": "PACIENTE DIABÉTICA, HIPERTENSA, COM CARDIOPATIA ISQUEMICA, INTERNA PARA ANGIOPLASTIA COM IMPLANTE DE STENT EM LESÃO SEGMENTAR SEVERA EM CORONÁRIA DAE, REALIZADA COM SUCESSO E SEM INTERCORRÊNCIAS. RECEBE ALTA EM BOM ESTADO GERAL, COM OS SEGUINTES : - TICLOPIDINA 250 MG 1 CP VO 12/12 HORAS POR 30 DIAS. - AAS 100M G2 CP NO ALMOÇO, CONTÍNUO. - DEMAIS MEDICAÇÕES A CRITÉRIO DO SEU MÉDICO.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Doença ou Síndrome": [
+      "DIABÉTICA",
+      "HIPERTENSA",
+      "CARDIOPATIA ISQUEMICA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "INTERNA",
+      "REALIZADA",
+      "ALTA"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "INTERCORRÊNCIAS",
+      "LESÃO SEGMENTAR SEVERA"
+    ],
+    "Substância Farmacológica": [
+      "TICLOPIDINA",
+      "AAS",
+      "MEDICAÇÕES"
+    ],
+    "Substância Química Orgânica": [
+      "TICLOPIDINA",
+      "AAS"
+    ],
+    "Abreviação": [
+      "VO",
+      "AAS",
+      "CORONÁRIA DAE",
+      "1 CP"
+    ],
+    "Conceito Temporal": [
+      "ALMOÇO",
+      "12/12 HORAS"
+    ],
+    "Conceito Qualitativo": [
+      "CONTÍNUO"
+    ],
+    "Produto Intelectual": [
+      "CRITÉRIO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "MÉDICO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ANGIOPLASTIA COM IMPLANTE DE STENT"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "CORONÁRIA DAE"
+    ],
+    "Achado": [
+      "BOM ESTADO GERAL"
+    ],
+    "Conceito Quantitativo": [
+      "250 MG",
+      "1 CP"
+    ]
+  },
+  "labels": {
+    "5A61.0": {
+      "term_original": "diabética",
+      "capitulo": "05",
+      "confidence_embedding": 0.7831,
+      "descricao_cid": "Representação de doença CID-11: Hipopituitarismo. Definição: Transtorno que manifesta deficiência ou diminuição de um ou mais hormônios hipofisários, que é causado por várias doenças , tais como tumor, traumatismo/cirurgia, irradiação, inflamação e hemorragia/infarto.",
+      "classification_reasoning": "O paciente tem diabetes, hipertensão e cardiopatia isquêmica, o que sugere uma história de doença complexa. A presença do termo 'diabética' no contexto clínico é significativa para a escolha do código CID-11 5A61.0, que representa hipopituitarismo, um transtorno endócrino que pode estar relacionado à doença da paciente."
+    },
+    "BA51": {
+      "term_original": "cardiopatia isquemica",
+      "capitulo": "11",
+      "confidence_embedding": 0.7827,
+      "descricao_cid": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas.",
+      "classification_reasoning": "A escolha do código BA51 (Miocardiopatia isquêmica) se justifica pois o paciente tem cardiopatia isquêmica, que é descrita como disfunção sistólica ventricular esquerda com antecedente de revascularização do miocárdio ou infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Essa definição combina com o fato da paciente ter realizado angioplastia com implante de stent em lesão segmentar severa na coronária, o que sugere uma doença cardíaca isquêmica."
+    },
+    "NA05.9": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'intercorrências' se refere a eventos adversos ou complicações que ocorrem durante ou após um procedimento médico, como a angioplastia com implante de stent. Como o paciente foi internado para essa procedura e não houve problemas durante ou após ela, a escolha mais precisa é a lesão dos vasos sanguíneos da cabeça, não especificada (NA05.9), que aborda a ausência de complicações significativas."
+    },
+    "BA01": {
+      "term_original": "hipertensa",
+      "capitulo": "11",
+      "confidence_embedding": 0.8424,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A hipertensão está relacionada à cardiopatia isquêmica e ao tratamento com ticlopidina, o que sugere uma doença cardíaca hipertensiva em vez de crises hipertensivas ou doenças renales hipertensivas."
+    },
+    "BA42.0": {
+      "term_original": "lesão segmentar severa",
+      "capitulo": "11",
+      "confidence_embedding": 0.7723,
+      "descricao_cid": "Representação de doença CID-11: Infarto miocárdico subsequente, infarto miocárdico com supradesnível do segmento ST. Definição: Infarto do miocárdio recorrente ou em progressão. Esta categoria deve ser atribuída para infarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) do início de um infarto prévio. Isso mais comumente resulta da oclusão total da artéria coronária culpada.",
+      "classification_reasoning": "A lesão segmentar severa na artéria coronária é consistentemente compatível com uma oclusão grave ou total da artéria, o que pode causar um infarto miocárdico subsequente."
+    }
+  }
+}

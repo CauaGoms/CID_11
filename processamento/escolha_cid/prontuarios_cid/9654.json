@@ -1,0 +1,120 @@
+{
+  "prontuario_id": 813,
+  "text": "IRC idiopático há 13 anos; 49 anos.\nHD há 13 anos; sem intercorrências; \nAnurico por 10 anos; \nSem queixas miccionais previas a anuria; nega pielonefrite ou queixas renais previas; \nNega afecções prostáticas; nega hematuria, nega litíase renal; \nNega hx urológico prévio; \nHMP: Postectomia, varicocelectomia na adolência; implante e retirada de tenkoff; \nExames; UCM: refluxo GIII bilateral, residuo moderado;\nUS> rins atroficos, bexiga nao visualizada; \nDoppler: iliacas normais;\n \n \n \n ",
+  "entities": {
+    "Procedimento Terapêutico ou Preventivo": [
+      "HD",
+      "Postectomia",
+      "varicocelectomia",
+      "implante e retirada de tenkoff"
+    ],
+    "Abreviação": [
+      "HD",
+      "HMP",
+      "UCM",
+      "US&gt;",
+      "IRC idiopático",
+      "hx urológico"
+    ],
+    "Negação": [
+      "sem",
+      "Anurico",
+      "Sem",
+      "nega",
+      "Nega"
+    ],
+    "Sinal ou Sintoma": [
+      "intercorrências",
+      "Anurico",
+      "anuria",
+      "hematuria",
+      "queixas miccionais",
+      "queixas renais"
+    ],
+    "Doença ou Síndrome": [
+      "pielonefrite",
+      "IRC idiopático",
+      "afecções prostáticas",
+      "litíase renal"
+    ],
+    "Conceito Temporal": [
+      "previas",
+      "prévio",
+      "na adolência"
+    ],
+    "Achado": [
+      "HMP"
+    ],
+    "Procedimento Diagnóstico": [
+      "Exames",
+      "UCM",
+      "US&gt;",
+      "Doppler"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "refluxo GIII bilateral",
+      "residuo moderado",
+      "rins atroficos",
+      "bexiga nao visualizada",
+      "iliacas normais"
+    ]
+  },
+  "labels": {
+    "8B25.3": {
+      "term_original": "irc idiopático",
+      "capitulo": "08",
+      "confidence_embedding": 0.7292,
+      "descricao_cid": "Representação de doença CID-11: Efeitos tardios de hemorragia intracraniana não traumática. Definição: Efeitos tardios de outra hemorragia intracraniana não traumática após 1 mês ou mais do início da doença. Os códigos para episódios agudos devem ser usados ​​exclusivamente para hemorragias agudas e episódios de hospitalização imediatamente relacionados.",
+      "classification_reasoning": "Como o termo 'IRC idiopático' está relacionado à crise epiléptica única e não há nenhuma outra indicação de um insulto ao SNC, a opção mais precisa é a Crise epiléptica tardia devido a causas remotas (8B25.3)."
+    },
+    "GC76": {
+      "term_original": "anurico",
+      "capitulo": "16",
+      "confidence_embedding": 0.7625,
+      "descricao_cid": "Representação de doença CID-11: Mau funcionamento do segmento eferente de uma bolsa urinária continente. Definição: Uma condição caracterizada pela disfunção ou falta de função de um reservatório de urina criado cirurgicamente dentro do corpo, especificamente ao longo do caminho pelo qual a urina sai da bolsa.",
+      "classification_reasoning": "Anúria é uma condição caracterizada pela falta total de urina na urina, e o termo extraído se refere a essa situação. Portanto, a opção mais precisa é GC76, que descreve representação de doença CID-11: Mau funcionamento do segmento eferente de uma bolsa urinária continente."
+    },
+    "GB70.00": {
+      "term_original": "litíase renal",
+      "capitulo": "16",
+      "confidence_embedding": 0.8051,
+      "descricao_cid": "Representação de doença CID-11: Cálculo de Staghorn. Definição: Condição do rim, caracterizada por cálculos grandes, ramificados, de estruvita ou de carbonato de cálcio apatita dentro da pelve renal e se estendendo para uma ou mais extensões caliciais, e febre, hematúria ou dor em flanco, levando à insuficiência renal e sepse com risco de vida. Essa condição pode estar associada a infecção do trato urinário. A confirmação é feita por exame de imagem da região abdominal.",
+      "classification_reasoning": "A escolha do cálculo de Staghorn (GB70.00) se baseia no termo 'litíase renal' presente no contexto clínico, que descreve a formação de cálculos grandes e ramificados dentro da pelve renal."
+    },
+    "MF56": {
+      "term_original": "queixas renais",
+      "capitulo": "21",
+      "confidence_embedding": 0.7425,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A opção MF56 é a mais precisa para o termo 'queixas renais' no contexto clínico, pois refere-se à cólica renal, que é uma dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter. Isso se relaciona às queixas renais mencionadas no prontuário."
+    },
+    "GB51": {
+      "term_original": "pielonefrite",
+      "capitulo": "16",
+      "confidence_embedding": 0.7662,
+      "descricao_cid": "Representação de doença CID-11: Pielonefrite aguda. Definição: Inflamação aguda da pelve renal e do parênquima devida a infecção bacteriana. É uma das infecções bacterianas mais comuns em mulheres adultas. Os sintomas incluem febre, dor lombar (rins), náuseas e vômitos. Podem ocorrer sintomas coincidentes de cistite aguda com disúria, aumento da frequência de micção e hematúria. A insuficiência renal não é uma característica, a menos que haja septicemia, hipotensão ou hipovolemia.",
+      "classification_reasoning": "O termo 'pielonefrite' foi extraído do contexto clínico, que menciona a presença de anurico por 10 anos e sem queixas miccionais previas à anuria. Isso sugere que a pielonefrite pode ser uma condição subjacente à anúria, o que justifica a escolha do código GB51."
+    },
+    "GB71.1": {
+      "term_original": "hematuria",
+      "capitulo": "16",
+      "confidence_embedding": 0.7684,
+      "descricao_cid": "Representação de doença CID-11: Cálculo uretral. Definição: Uma afecção causada por desidratação, diminuição do volume de urina ou das taxas de fluxo de fluido, ou aumento da excreção de minerais como cálcio, oxalato, magnésio, cistina e fosfato. Essa condição é caracterizada por cálculos urinários localizados na uretra, onde pode levar à cólica renal. Essa afecção também pode se manifestar com hematúria, disúria ou dor no flanco, abdome inferior, virilha, coxas ou genitália. A confirmação é feita por radiografia abdominal para determinar a presença e localização de cálculos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'hematuria' é a Cálculo uretral (GB71.1), pois a descrição desse código menciona a possibilidade de hematúria, que está presente no contexto clínico."
+    },
+    "GC75": {
+      "term_original": "afecções prostáticas",
+      "capitulo": "16",
+      "confidence_embedding": 0.7854,
+      "descricao_cid": "Representação de doença CID-11: Mau funcionamento do segmento aferente de uma bolsa urinária continente. Definição: Uma afecção caracterizada pela disfunção ou falta de função de um reservatório de urina criado cirurgicamente dentro do corpo, especificamente ao longo do caminho pelo qual a urina entra na bolsa.",
+      "classification_reasoning": "A opção mais precisa para o termo 'afecções prostáticas' é GC75, pois refere-se ao mau funcionamento do segmento aferente de uma bolsa urinária continente, que se relaciona à anatomia e fisiologia da próstata."
+    },
+    "GC80.1": {
+      "term_original": "anuria",
+      "capitulo": "16",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "Anúria idiopática é uma condição caracterizada por perda completa e persistente da função renal, resultando na produção de urina zero. Nesse contexto clínico, a anúria é o sintoma mais importante e a escolha do código GC80.1 (Representação de doença CID-11: Doença renal policística autossômica dominante) é a mais precisa para o termo 'anúria' pois a doença renal policística autossômica dominante pode levar à perda da função renal e anúria."
+    }
+  }
+}

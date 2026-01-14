@@ -1,0 +1,102 @@
+{
+  "prontuario_id": 43,
+  "text": "PACIENTE INTERNA COM QUADRO DE DOR ABDOMINAL, NÁUSEAS E VÔMITOS. SEM FEBRE NA INTERNAÇÃO. ECO DE AB COM VESÍCULA DE PEQUENAS PROPORÇÕES E CÁLCULO NO INFUNDÍBULO ). SEM CÁLCULOS NO COLÉDOCO. PELO MENOS DOIS CISTOS NA TRANSIÇÃO ENTRE O CORPO E A CAUDA DO PÂNCREAS, O MAIOR COM 1 CM DE DIÂMETRO. PRÓSTATA COM AUMENTO DE VOLUME. LABORATÓRIO COM AUMENTO DE BILIRRUBINAS TOTAIS, TGO, TGP E FOSFATASE ALCALINA, JÁ COM DIMINUIÇÃO DOS VALORES NA SEGUNDA MEDIDA.  PERMANECEU ASSINTOMÁTICO NA INTERNAÇÃO. EXAMES PROGRESSIVAMENTE MELHORES. RECEBE ALTA EM BOM ESTADO GERAL E MANTERÁ ACOMPANHAMENTO MEDICO NO CONSULTÓRIO DO SEU MÉDICO ASSISTENTE.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "INTERNA",
+      "INTERNAÇÃO",
+      "ALTA",
+      "ACOMPANHAMENTO MEDICO"
+    ],
+    "Sinal ou Sintoma": [
+      "QUADRO",
+      "NÁUSEAS",
+      "VÔMITOS",
+      "FEBRE",
+      "DOR ABDOMINAL",
+      "PRÓSTATA COM AUMENTO DE VOLUME",
+      "AUMENTO DE BILIRRUBINAS TOTAIS",
+      "DIMINUIÇÃO DOS VALORES"
+    ],
+    "Negação": [
+      "SEM",
+      "ASSINTOMÁTICO"
+    ],
+    "Conceito Quantitativo": [
+      "DOIS"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "LABORATÓRIO",
+      "TGO",
+      "TGP",
+      "VESÍCULA DE PEQUENAS PROPORÇÕES E CÁLCULO NO INFUNDÍBULO",
+      "CÁLCULOS NO COLÉDOCO",
+      "CISTOS NA TRANSIÇÃO",
+      "CORPO E A CAUDA DO PÂNCREAS",
+      "MAIOR COM 1 CM DE DIÂMETRO",
+      "AUMENTO DE BILIRRUBINAS TOTAIS",
+      "FOSFATASE ALCALINA",
+      "EXAMES PROGRESSIVAMENTE MELHORES"
+    ],
+    "Procedimento Laboratorial": [
+      "LABORATÓRIO"
+    ],
+    "Achado": [
+      "ASSINTOMÁTICO",
+      "EXAMES PROGRESSIVAMENTE MELHORES",
+      "BOM ESTADO GERAL"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CONSULTÓRIO"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECO DE AB"
+    ],
+    "Abreviação": [
+      "ECO DE AB"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "MÉDICO ASSISTENTE"
+    ]
+  },
+  "labels": {
+    "1B62.0": {
+      "term_original": "febre",
+      "capitulo": "01",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A febre não está presente na internação, mas é mencionada como um sintoma anterior ao paciente. Além disso, a doença não apresenta características de hantavírus ou legionários. A escolha do código 1D62 e 1C19.1 estão excluídas porque a febre não é um sintoma atual do paciente. O código 1B40.Y está incluído como opção, pois a doença pode estar relacionada à reumatismo, mas o contexto clínico não apresenta evidências de envolvimento cardíaco."
+    },
+    "GB70": {
+      "term_original": "próstata com aumento de volume",
+      "capitulo": "16",
+      "confidence_embedding": 0.7666,
+      "descricao_cid": "Representação de doença CID-11: Cálculo do trato urinário superior. Definição: Uma afecção do sistema urinário causada por desidratação, diminuição do volume urinário ou das taxas de fluxo de fluido, ou aumento da excreção de minerais como cálcio, oxalato, magnésio, cistina e fosfato. Esta afecção é caracterizada por cálculos urinários localizados no trato urinário superior (papila renal). Essa afecção pode se manifestar com hematúria, disúria ou dor no flanco, abdômen inferior ou virilha. A confirmação é feita por radiografia abdominal para determinar a presença e localização de cálculos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'próstata com aumento de volume' é a Cálculo do trato urinário superior (GB70), pois a descrição menciona aumento de volume e se refere à prostatite, uma afecção que pode ser relacionada ao crescimento anormal da próstata."
+    },
+    "DD50.2": {
+      "term_original": "dor abdominal",
+      "capitulo": "13",
+      "confidence_embedding": 0.8285,
+      "descricao_cid": "Representação de doença CID-11: Hérnia intra-abdominal. Definição: Uma hérnia que ocorre dentro do abdômen através de abertura coberta pelo peritônio.",
+      "classification_reasoning": "A dor abdominal é o principal sintoma do paciente, e a presença de cistos no pâncreas sugere uma possível hérnia intra-abdominal, o que justifica a escolha do código DD50.2."
+    },
+    "MD81.3": {
+      "term_original": "quadro",
+      "capitulo": "21",
+      "confidence_embedding": 0.7969,
+      "descricao_cid": "Representação de doença CID-11: Abdome agudo. Definição: Síndrome clínica com dor abdominal aguda, que é intensa e de início rápido. O abdome agudo pode ser causado por uma variedade de transtornos, lesões ou doenças.",
+      "classification_reasoning": "A dor abdominal aguda descrita no contexto é mais precisa para o termo 'quadro' do que as outras opções, pois abrange a sintomatologia de dor abdominal associada a náuseas e vômitos."
+    },
+    "DD50.20": {
+      "term_original": "vômitos",
+      "capitulo": "13",
+      "confidence_embedding": 0.8365,
+      "descricao_cid": "Representação de doença CID-11: Hérnia intra-abdominal primária. Definição: Hérnia que ocorre dentro do abdômen e primariamente através da uma abertura coberta por peritônio, sem cirurgia ou traumatismo.",
+      "classification_reasoning": "A presença de vômitos, dor abdominal e náuseas sugere uma possível causa gastrointestinal, como hérnia intra-abdominal primária (DD50.20). Esta opção é mais precisa do que as outras opções apresentadas."
+    }
+  }
+}

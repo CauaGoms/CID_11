@@ -1,0 +1,139 @@
+{
+  "prontuario_id": 479,
+  "text": "Masculino, 54 anos, internado em Bento Gonçalves por síndrome coronariana aguda sem supra ST e descompensação de ICC. Apresenta também como comorbidades HAS, DM e DPOC. Cateterismo cardíaco com lesão grave em artéria circunflexa. Interna em 15/10/04 para realização de angioplastia e implante de endoprótese nessa lesão. Procedimento realizado com sucesso e sem intercorrências pelo Doutor Vital Brazil no mesmo dia. Evoluiu bem, havendo compensação da ICC com tratamento farmacológico (diurético endovenoso). Ecografia com doppler em local de punção de artéria femoral mostra ausência de sinais de hematoma ou pseudoaneurisma. Recebe alta em bom estado geral, assintomático, sinais vitais estáveis, afebril, orientado quanto a medicações, cuidados e retorno ao seu médico.",
+  "entities": {
+    "Doença ou Síndrome": [
+      "comorbidades",
+      "HAS",
+      "DM",
+      "DPOC",
+      "ICC",
+      "síndrome coronariana aguda",
+      "descompensação de ICC"
+    ],
+    "Abreviação": [
+      "HAS",
+      "DM",
+      "DPOC",
+      "ICC",
+      "descompensação de ICC"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Interna",
+      "realizado",
+      "retorno",
+      "tratamento farmacológico"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "angioplastia",
+      "Procedimento",
+      "Cateterismo cardíaco",
+      "implante de endoprótese",
+      "tratamento farmacológico"
+    ],
+    "Achado": [
+      "sucesso",
+      "bem",
+      "compensação",
+      "assintomático",
+      "afebril",
+      "supra ST",
+      "bom estado geral",
+      "sinais vitais estáveis"
+    ],
+    "Negação": [
+      "sem",
+      "ausência",
+      "assintomático",
+      "afebril"
+    ],
+    "Sinal ou Sintoma": [
+      "intercorrências",
+      "sinais de hematoma"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "pseudoaneurisma",
+      "lesão grave em artéria circunflexa",
+      "sinais de hematoma"
+    ],
+    "Substância Farmacológica": [
+      "medicações",
+      "diurético endovenoso"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "médico"
+    ],
+    "Procedimento Diagnóstico": [
+      "Cateterismo cardíaco",
+      "Ecografia com doppler"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "artéria femoral"
+    ]
+  },
+  "labels": {
+    "BE10": {
+      "term_original": "compensação",
+      "capitulo": "11",
+      "confidence_embedding": 0.817,
+      "descricao_cid": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite.",
+      "classification_reasoning": "A compensação da ICC foi obtida com o tratamento farmacológico (diurético endovenoso), o que é consistente com a síndrome pós-cardiotomia, uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado."
+    },
+    "IC10.9": {
+      "term_original": "icc",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A comorbidade mencionada é ICC (Insuficiência Cardíaca Congestiva), que está relacionada à síndrome coronariana aguda e ao procedimento de angioplastia e implante de endoprótese."
+    },
+    "5B5A.0": {
+      "term_original": "dm",
+      "capitulo": "05",
+      "confidence_embedding": 0.8152,
+      "descricao_cid": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina.",
+      "classification_reasoning": "A opção mais precisa é a deficiência de tiamina (beribéri), pois o termo DM refere-se à Diabetes Mellitus, uma comorbidade mencionada no prontuário do paciente."
+    },
+    "BA60.9": {
+      "term_original": "has",
+      "capitulo": "11",
+      "confidence_embedding": 0.7792,
+      "descricao_cid": "Representação de doença CID-11: Choque cardiogênico, não relacionado a complicações mecânicas, como complicação atual subsequente a infarto agudo do miocárdio. Definição: A expressão clínica mais grave da insuficiência ventricular esquerda e está associada a extensos danos ao miocárdio ventricular esquerdo após infarto agudo do miocárdio, não relacionado a um defeito mecânico como ruptura do septo ventricular ou do músculo papilar. Choque é definido como pressão arterial (PA) sistólica <90 mmHg e hipoperfusão de órgãos.",
+      "classification_reasoning": "A HAS (Hipertensão Arterial Sistêmica) é uma comorbidade mencionada no contexto, e o código BA60.9 refere-se ao Choque cardiogênico não relacionado a complicações mecânicas, que pode estar relacionado à hipertensão arterial como um fator de risco"
+    },
+    "BC70.4": {
+      "term_original": "dpoc",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A doença pós-infarto do miocárdio é uma possibilidade, pois o paciente apresenta síndrome coronariana aguda sem supra ST e descompensação de ICC, e também tem HAS, DM e DPOC como comorbidades. Além disso, o procedimento realizado foi cateterismo cardíaco com lesão grave em artéria circunflexa e angioplastia e implante de endoprótese, o que pode ter contribuído para a evolução da doença."
+    },
+    "BA41.0": {
+      "term_original": "supra st",
+      "capitulo": "11",
+      "confidence_embedding": 0.7816,
+      "descricao_cid": "Representação de doença CID-11: Infarto agudo do miocárdio com supradesnível de ST. Definição: Infarto agudo do miocárdio com supradesnível de ST (IAMCSST) é um infarto agudo do miocárdio com desenvolvimento de supradesnível de ST em duas derivações contíguas do eletrocardiograma. Os critérios de elevação do ST são os seguintes; novo supradesnível de ST no ponto J em duas derivações contíguas aplicando os pontos de corte: 0,2mV em homens> 40 anos; > 0,25mV em homens <40 anos, e > 0,15mV em mulheres.",
+      "classification_reasoning": "O termo 'supra ST' refere-se ao elevação do segmento de ST no eletrocardiograma, característica da Síndrome Coronariana Aguda (SCA). Esta é a definição fornecida pelo código BA41.0, que descreve o infarto agudo do miocárdio com supradesnível de ST."
+    },
+    "NE81.0Z": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.7951,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'intercorrências' no contexto do prontuário é a hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, pois se refere à possibilidade de complicações durante e após o procedimento realizado (angioplastia e implante de endoprótese), como a formação de hematoma ou pseudoaneurisma, o que foi excluído pela ecografia com doppler."
+    },
+    "BA41": {
+      "term_original": "síndrome coronariana aguda",
+      "capitulo": "11",
+      "confidence_embedding": 0.8102,
+      "descricao_cid": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)",
+      "classification_reasoning": "A síndrome coronariana aguda descrita no contexto é um infarto agudo do miocárdio, que é a mais precisa opção entre as apresentadas para o termo extraído."
+    },
+    "ME64": {
+      "term_original": "sinais de hematoma",
+      "capitulo": "21",
+      "confidence_embedding": 0.7624,
+      "descricao_cid": "Representação de doença CID-11: Sinais vasculares cutâneos não específicos. Definição: Alterações perceptíveis na pele resultantes de alterações na composição do sangue, fluxo sanguíneo ou integridade dos vasos sanguíneos. Podem ser devidas a fatores locais ou podem indicar transtornos subjacentes, como anemia, hipovolemia, febre, hipóxia ou defeitos na coagulação.",
+      "classification_reasoning": "A opção ME64 é a mais precisa para o termo 'sinais de hematoma' porque refere-se a alterações perceptíveis na pele resultantes de alterações na composição do sangue, fluxo sanguíneo ou integridade dos vasos sanguíneos. Como o contexto clínico menciona ecografia com doppler em local de punção de artéria femoral mostrando ausência de sinais de hematoma ou pseudoaneurisma, é mais provável que sejam referidos 'sinais vasculares cutâneos não específicos' do que outra forma de hemorragia."
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "prontuario_id": 641,
+  "text": "s: paciente queixa-se de dor lombar com irradiação para membros inferiores . diz apresentar amortecimento nas duas pernas bilateralmente ao ficar sentado durante períodos prolongados . Refere não ter problemas por ficar de pé por períodos prolongados . Refere que o que mais o perturba é a parestesia ao ficar sentado .\n\no: força preservada\nsensibilidade preservada\ndor palpação sacroilíaca\nlasegue + direita\ntc : espondilolise l5\n\na : tendinite glutea\nespondilolise\n\nc: rnm\nrx dinamico\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "s",
+      "o",
+      "tc",
+      "a",
+      "rnm"
+    ],
+    "Achado": [
+      "s",
+      "força preservada",
+      "sensibilidade preservada"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "paciente"
+    ],
+    "Sinal ou Sintoma": [
+      "queixa-se",
+      "irradiação",
+      "amortecimento",
+      "dor lombar",
+      "ao ficar sentado durante períodos prolongados",
+      "problemas por ficar de pé por períodos prolongados",
+      "parestesia ao ficar sentado",
+      "dor palpação",
+      "lasegue + direita"
+    ],
+    "Negação": [
+      "não"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "o"
+    ],
+    "Localização ou Região Corporal": [
+      "sacroilíaca",
+      "membros inferiores",
+      "duas pernas bilateralmente"
+    ],
+    "Procedimento Diagnóstico": [
+      "tc",
+      "a",
+      "rnm",
+      "rx dinamico"
+    ],
+    "Doença ou Síndrome": [
+      "espondilolise l5",
+      "tendinite glutea espondilolise"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "espondilolise l5",
+      "tendinite glutea espondilolise"
+    ]
+  },
+  "labels": {
+    "FA81.0": {
+      "term_original": "amortecimento",
+      "capitulo": "15",
+      "confidence_embedding": 0.7275,
+      "descricao_cid": "Representação de doença CID-11: Espondilólise com deslizamento. Definição: Afecção caracterizada por degeneração de uma parte da vértebra, geralmente na “pars interarticularis” (a porção do arco vertebral que une as facetas articulares superior e inferior) associado a deslizamento anterior do corpo da vértebra superior sobre o corpo da vértebra inferior.",
+      "classification_reasoning": "A escolha do código FA81.0 é baseada na presença de dor lombar com irradiação para membros inferiores, amortecimento nas duas pernas bilateralmente ao ficar sentado durante períodos prolongados e espondilolise L5 mencionados no prontuário. A espondilólise é uma condição caracterizada por degeneração de uma parte da vértebra, geralmente na 'pars interarticularis', associada a deslizamento anterior do corpo da vértebra superior sobre o corpo da vértebra inferior."
+    },
+    "FA84.1": {
+      "term_original": "espondilolise l5",
+      "capitulo": "15",
+      "confidence_embedding": 0.7125,
+      "descricao_cid": "Representação de doença CID-11: Espondilolistese sem defeito na 'pars'. Definição: Esta é uma condição caracterizada pelo deslizamento anterior do corpo vertebral, sobre a vértebra abaixo, sem um defeito na \"pars articularis\"",
+      "classification_reasoning": "A descrição do paciente apresenta dor lombar com irradiação para membros inferiores e espondilolise L5, o que sugere um deslizamento anterior do corpo vertebral sem defeito na 'pars'. Esta escolha é mais precisa pois não há evidência de artropatia neuropática ou diástase muscular."
+    },
+    "FA84": {
+      "term_original": "lasegue + direita",
+      "capitulo": "15",
+      "confidence_embedding": 0.6943,
+      "descricao_cid": "Representação de doença CID-11: Espondilolistese. Definição: Este é o deslizamento anterior do corpo vertebral, com a porção anterior da vértebra à frente do corpo vertebral da vértebra abaixo.",
+      "classification_reasoning": "A opção mais precisa para o termo 'Lasegue + direita' é a espondilolistese (FA84), pois a Lasegue's test é um método clínico utilizado para avaliar a estabilidade da coluna vertebral e a presença de compressão nervosa, e o fato de apresentar resultado positivo (+) na direita sugere que há compressão ou lesão em nível lombar esquerdo."
+    },
+    "FA38.1": {
+      "term_original": "tendinite glutea espondilolise",
+      "capitulo": "15",
+      "confidence_embedding": 0.7031,
+      "descricao_cid": "Representação de doença CID-11: Artropatia neuropática. Definição: A artropatia neuropática é uma artrite progressiva, destrutiva, associada à perda da sensibilidade dolorosa, da propriocepção, ou de ambas. Os reflexos musculares normais que modulam os movimentos articulares também estão diminuídos. Sem estes mecanismos de proteção, as articulações ficam sujeitas ao trauma repetitivo, o que resulta no dano cartilaginoso e ósseo progressivo. Os sintomas adicionais incluem alterações cutâneas, tais como eritema, edema, hiperpigmentação ou púrpura, e úlceras de tecidos moles sobre as áreas afetadas, bem como afrouxamento ou instabilidade das articulações e deformidades articulares.",
+      "classification_reasoning": "A opção mais precisa é a FA38.1, Artropatia neuropática, pois o paciente apresenta dor lombar com irradiação para membros inferiores e amortecimento nas duas pernas bilateralmente ao ficar sentado durante períodos prolongados, sugerindo um dano articular de origem nervosa."
+    }
+  }
+}

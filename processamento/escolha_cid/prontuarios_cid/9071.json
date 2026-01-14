@@ -1,0 +1,145 @@
+{
+  "prontuario_id": 851,
+  "text": "Às 24:30h: Consciente, orientada no tempo e espaço, comunicativa. Aceita bem dieta oferecida, refere dormir bem e fazer bastante \"xixi\", relata algia em fêmur D. Ao exame físico, ausculta pulmonar com MV diminuídos bilateralmente. BCRNF s/ s. Abdomen globoso e flácido. Acesso venoso periférico em mão D, hematoma em MMSS. Incisão cirúrgica em região de fêmur D com curativo limpo e seco. Ac de enfermagem Florence e Maria. FRATURA DO FEMUR. Às 11:58h: Realizo passagem de SNE para alimentação; procedimento realizado sem intercorrência; Solicto RX de abdome simples no leito para 14h. Aguarda realização de RX para liberação da dieta. EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO.",
+  "entities": {
+    "Achado": [
+      "Consciente",
+      "comunicativa",
+      "BCRNF",
+      "flácido",
+      "limpo",
+      "seco",
+      "orientada no tempo e espaço",
+      "Aceita bem dieta",
+      "dormir bem"
+    ],
+    "Sinal ou Sintoma": [
+      "algia",
+      "globoso",
+      "hematoma",
+      "MV diminuídos bilateralmente"
+    ],
+    "Abreviação": [
+      "BCRNF",
+      "MMSS",
+      "RX",
+      "fêmur D",
+      "MV diminuídos bilateralmente",
+      "mão D",
+      "região de fêmur D",
+      "RX de abdome simples"
+    ],
+    "Localização ou Região Corporal": [
+      "Abdomen",
+      "MMSS",
+      "região de fêmur D"
+    ],
+    "Função Patológica": [
+      "hematoma"
+    ],
+    "Dispositivo Médico": [
+      "curativo",
+      "Acesso venoso periférico"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "curativo",
+      "procedimento",
+      "Acesso venoso periférico"
+    ],
+    "Organização Relacionada à Saúde": [
+      "enfermagem"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "enfermagem"
+    ],
+    "Procedimento Diagnóstico": [
+      "RX",
+      "exame físico",
+      "ausculta pulmonar",
+      "RX de abdome simples"
+    ],
+    "Alimento": [
+      "dieta"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "fêmur D",
+      "mão D"
+    ],
+    "Lesão ou Envenenamento": [
+      "Incisão cirúrgica",
+      "FRATURA DO FEMUR"
+    ]
+  },
+  "labels": {
+    "6C40.3": {
+      "term_original": "comunicativa",
+      "capitulo": "06",
+      "confidence_embedding": 0.78,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas.",
+      "classification_reasoning": "A paciente apresenta como consciente, orientada no tempo e espaço, comunicativa, o que sugere que não está sob o efeito de substância psicoativa. Além disso, a paciente relata algia em fêmur D, ausculta pulmonar com MV diminuídos bilateralmente e apresenta uma fratura do fémur, o que reforça a escolha da intoxicação por álcool (CID-11 6C40.3) como a mais precisa para o termo 'comunicativa' no contexto clínico."
+    },
+    "FA84": {
+      "term_original": "flácido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7595,
+      "descricao_cid": "Representação de doença CID-11: Espondilolistese. Definição: Este é o deslizamento anterior do corpo vertebral, com a porção anterior da vértebra à frente do corpo vertebral da vértebra abaixo.",
+      "classification_reasoning": "A palavra 'flácido' está relacionada ao termo 'abdomen globoso e flácido', o que é sintoma de espondilolistese, uma lesão vertebral caracterizada por deslizamento anterior do corpo vertebral."
+    },
+    "NE81.0Z": {
+      "term_original": "hematoma",
+      "capitulo": "22",
+      "confidence_embedding": 0.8257,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A descrição do termo 'hematoma' no contexto clínico refere-se a uma lesão hemorrágica secundária a um procedimento, especificamente a incisão cirúrgica em região de fêmur D com curativo limpo e seco. A opção NE81.0Z é mais precisa para descrever esta situação."
+    },
+    "ND56.7": {
+      "term_original": "incisão cirúrgica",
+      "capitulo": "22",
+      "confidence_embedding": 0.7915,
+      "descricao_cid": "Representação de doença CID-11: Lesão por esmagamento de região do corpo não especificada. Definição: ",
+      "classification_reasoning": "A incisão cirúrgica em região de fêmur D menciona na história clínica, o que sugere uma lesão por esmagamento (ou tração) da região do corpo não especificada, condizendo com a descrição do código ND56.7."
+    },
+    "EK12": {
+      "term_original": "seco",
+      "capitulo": "14",
+      "confidence_embedding": 0.7833,
+      "descricao_cid": "Representação de doença CID-11: Sensibilização alérgica por contato. Definição: A presença de hipersensibilidade tardia tipo IV do sistema imune a uma determinada substância sem definição de doença prévia ou atual. Tal sensibilização é normalmente adquirida por contato prévio de pele ou mucosa com a própria substância ou com outra quimicamente similar (reatividade cruzada). Contato subsequente com a substância pode provocar reação alérgica. Em determinadas circunstâncias, essa sensibilização pode impedir que um indivíduo aceite ou continue em um emprego em que a exposição ao alérgeno não pode ser evitada. Alguns indivíduos sensibilizados para um alérgeno específico, entretanto, podem nunca manifestar sintomas caso ocorra o contato.",
+      "classification_reasoning": "A opção EK12, Sensibilização alérgica por contato, é a mais precisa para o termo \"seco\" no contexto clínico, pois refere-se à ausência de liquido ou secreção em uma lesão ou ferida."
+    },
+    "EA10": {
+      "term_original": "limpo",
+      "capitulo": "14",
+      "confidence_embedding": 0.7746,
+      "descricao_cid": "Representação de doença CID-11: Pitiríase rósea. Definição: Pitiríase rósea é uma doença de pele aguda e autolimitada, provavelmente de origem infecciosa, que afeta principalmente crianças e adultos jovens, e caracterizada por uma erupção cutânea distintiva e sintomas constitucionais mínimos. A causa da pitiríase rósea é desconhecida, mas muitas características epidemiológicas e clínicas sugerem que um agente infeccioso pode estar envolvido. Na maioria dos casos, a doença segue um curso característico no qual uma lesão chamada placa-mãe, maior do que as lesões subsequentes, aparece vários dias antes da erupção de múltiplas máculas róseas escamosas predominantemente no tronco e região proximal dos membros.",
+      "classification_reasoning": "A presença do termo 'limpo' na descrição do curativo limpo e seco no contexto de uma fratura do fêmur sugere que a lesão é simples e não há complicações infecciosas. Isso é consistente com a definição da pitiríase rósea, doença autolimitada e sem complicações graves."
+    },
+    "FA80.8": {
+      "term_original": "globoso",
+      "capitulo": "15",
+      "confidence_embedding": 0.7227,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A palavra 'globoso' está relacionada à descrição de degeneração de disco intervertebral, especificamente na coluna lombar (FA80.8), que apresenta uma deformidade ou abaulamento do disco vertebral."
+    },
+    "FB32.20": {
+      "term_original": "fratura do femur",
+      "capitulo": "15",
+      "confidence_embedding": 0.7246,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A opção mais precisa é FB32.20 porque o prontuário menciona 'fratura do fêmur', o que sugere uma lesão muscular esquelética, e não uma condição relacionada à vértebra ou articulação. Além disso, a descrição da opção FA72.3 se refere à fratura vertebral por fadiga, enquanto as outras opções mencionam condições específicas que não condizem com o termo extraído."
+    },
+    "6C45.3": {
+      "term_original": "algia",
+      "capitulo": "06",
+      "confidence_embedding": 0.7996,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "O termo 'algia' refere-se a uma dor ou sensação desagradável, o que está presente na descrição de Fratura do Fêmur. A escolha do código 6C45.3 (Representação de doença CID-11: Intoxicação por cocaína) é improvável, pois não há indícios de consumo de drogas no relatório. O mesmo vale para os demais códigos listados. A escolha do código 6E61 (Síndrome psicótica secundária) também é improvável, pois não há indicações de alucinações ou delírios proeminentes no relatório. Portanto, a opção mais precisa para o termo 'algia' dentro do contexto clínico é a fratura do fêmur, caracterizada por dor ou sensação desagradável."
+    },
+    "CA22.0": {
+      "term_original": "mv diminuídos bilateralmente",
+      "capitulo": "12",
+      "confidence_embedding": 0.7635,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A redução bilateral dos movimentos vesiculares (MV) descrita no prontuário sugere um agravamento dos sintomas respiratórios, característico de uma exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC)."
+    }
+  }
+}

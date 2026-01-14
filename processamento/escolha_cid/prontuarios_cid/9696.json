@@ -1,0 +1,112 @@
+{
+  "prontuario_id": 582,
+  "text": "avaliação \nPÓS TX RENLA CR 1,2, TACROLIMO 3.\nDM COMPENSADO?\nHAS COMPENSADO,\nONICOMICOSE,\nCONSTIPAÇÃO,\nLOMBOCIATALGIA, \nEOSINOFILIA,\n \n \nTX RENAL.\nEM USO DE MET 5, MS 2 / 2, TACROLIMO 1 / 1, \nOMEPRAZOL 40, AMIODARONA 200, ATENOLOL 50 1X, LEVOID 100.\nINSULINA N 30 / 10 / 10, R 10 / 0 / 5.\n\nS # NÃO DEAMBULANDO SOZINHA DEVIDO PROBLEMA COLUNA.\nCONSTIPAÇÃO.\n\nO # PESO 78,\nPA 130/80,\nEXAME FISICO: ONICOMICOSE.",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "avaliação"
+    ],
+    "Substância Química Orgânica": [
+      "TACROLIMO",
+      "MET",
+      "MS",
+      "OMEPRAZOL",
+      "AMIODARONA",
+      "ATENOLOL"
+    ],
+    "Substância Farmacológica": [
+      "TACROLIMO",
+      "MET",
+      "OMEPRAZOL",
+      "AMIODARONA",
+      "ATENOLOL",
+      "LEVOID",
+      "INSULINA",
+      "R"
+    ],
+    "Conceito Quantitativo": [
+      "3",
+      "5",
+      "40",
+      "200",
+      "100",
+      "78",
+      "130/80",
+      "2 / 2",
+      "1 / 1",
+      "50 1X",
+      "30 / 10 / 10",
+      "10 / 0 / 5"
+    ],
+    "Doença ou Síndrome": [
+      "ONICOMICOSE",
+      "DM COMPENSADO",
+      "HAS COMPENSADO"
+    ],
+    "Sinal ou Sintoma": [
+      "CONSTIPAÇÃO",
+      "LOMBOCIATALGIA",
+      "PROBLEMA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "EOSINOFILIA",
+      "CR 1 , 2"
+    ],
+    "Abreviação": [
+      "MET",
+      "MS",
+      "N",
+      "R",
+      "PA",
+      "TX RENLA",
+      "CR 1 , 2",
+      "HAS COMPENSADO",
+      "TX RENAL"
+    ],
+    "Hormônio": [
+      "R"
+    ],
+    "Negação": [
+      "NÃO"
+    ],
+    "Achado": [
+      "DEAMBULANDO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "COLUNA"
+    ],
+    "Atributo Clínico": [
+      "PESO",
+      "PA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENLA",
+      "TX RENAL"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAME FISICO"
+    ]
+  },
+  "labels": {
+    "8C80": {
+      "term_original": "lombociatalgia",
+      "capitulo": "08",
+      "confidence_embedding": 0.7492,
+      "descricao_cid": "Representação de doença CID-11: Miopatia induzida por drogas. Definição: Miopatia causada por medicamentos que variam de mialgias leves com ou sem fraqueza leve até miopatia crônica com fraqueza grave, e rabdomiólise maciça com insuficiência renal aguda. Pode ser devida a vários mecanismos diferentes, incluindo miotoxicidade direta, danos musculares imunomediados e indiretos por meio de coma induzido por drogas, hipocalemia induzida por drogas, estados hipercinéticos induzidos por drogas ou estados distônicos.",
+      "classification_reasoning": "A lombociatalgia descrita no prontuário clínico é caracterizada como miopatia induzida por drogas, tendo em vista a presença de TACROLIMO e AMIODARONA no tratamento do paciente. Além disso, a constipação e onicomicose também são sintomas comuns em pacientes com miopatias."
+    },
+    "R19.82": {
+      "term_original": "constipação",
+      "capitulo": "13",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A constipação mencionada no contexto clínico é provavelmente uma referência à dispepsia ou dor abdominal crônica, comum em pacientes com doenças hepáticas e renais, como a cirrose hepática e nefropatia. O código R19.82 (Dispepsia não especificada) melhor se adequa ao sintoma descrito."
+    },
+    "EE12.1": {
+      "term_original": "onicomicose",
+      "capitulo": "14",
+      "confidence_embedding": 0.7649,
+      "descricao_cid": "Representação de doença CID-11: Onicomicose. Definição: Infecção fúngica das unhas das mãos e/ou dos pés devida mais comumente a dermatófitos (tinea unguium ou tinha ungueal) ou leveduras, especialmente espécies de Candida.",
+      "classification_reasoning": "A presença de onicomicose na avaliação pós-TX renal, associada à constipação e lombociatalgia, sugere uma infecção fúngica das unhas das mãos e/ou dos pés devida a dermatófitos ou leveduras. O código EE12.1 é o mais preciso para representar essa condição clínica."
+    }
+  }
+}

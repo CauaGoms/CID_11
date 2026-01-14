@@ -1,0 +1,185 @@
+{
+  "prontuario_id": 455,
+  "text": "Às 15:50: 1° DI COM HX DE DPOC + HEMIPARESIA A ESQUERDA. NO MOMENTO, CONSCIENTE, ORIENTADO, POUCO DISPNEICO, VERBALIZANDO COM DIFICULDADE, EM REPOUSO NO LEITO, O2 CONTÍNUO SOB UMIDIFICADOR, MANTÉM JEJUM, SEM QUEIXAS ÁLGICAS, ELIMINAÇÕES PRESENTES. ENF. FLORENCE NIGHTINGALE. ACIDENTE VASCULAR CEREBRAL NAO ESPECIFICADO COMO HEMORRAGICO OU ISQUEMICO. 3° DI COM HX DE DIVERTICULITE. CONSCIENTE, ORIENTADA, VERBALIZANDO. EM REPOUSO NO LEITO. COM CABECEIRA 45 GRAUS. PUPILAS ISO E FOTO. OXIMETRIA DE PULSO COM FC: 75, SAT DE O2: 93%. COM CVC À D. RESPIRAÇÃO ESPONTÂNEA COM AUXILIO DE O2 EM NÉVOA ÚMIDA à 6 L/MIN. DIVERTICULO DO ESOFAGO ADQUIRIDO. Às 5h: Paciente em preparo para Colonoscopia. Apesar de apresentar episódio de vômito, efeito intestinal satisfatório aparentemente. OUTRAS FORMAS DE OBSTRUCAO INTESTINAL E AS NAO ESPECIFICADAS. À 01:00: # precaução de contato. # Crise convulsiva. Abertura ocular espontanea, não responsivo. Traqueostomizado com O2 em névoa, sendo necessário aspiração intermitente, acesso venoso central em subclavia E com NPT em BI + medicação. Eliminações presentes. INTOXICACAO POR OUTRAS DROGAS MEDICAMENTOS E SUBSTANCIAS BIOLOGICAS E AS NAO ESPECIFICADAS.",
+  "entities": {
+    "Abreviação": [
+      "DI",
+      "ENF",
+      "FC",
+      "CVC",
+      "D",
+      "NPT",
+      "BI",
+      "HX DE DPOC",
+      "HX DE DIVERTICULITE",
+      "PUPILAS ISO E FOTO",
+      "SAT DE O2",
+      "subclavia E"
+    ],
+    "Sinal ou Sintoma": [
+      "HEMIPARESIA",
+      "DISPNEICO",
+      "vômito",
+      "VERBALIZANDO COM DIFICULDADE",
+      "Crise convulsiva",
+      "não responsivo"
+    ],
+    "Achado": [
+      "CONSCIENTE",
+      "ORIENTADO",
+      "JEJUM",
+      "ORIENTADA",
+      "VERBALIZANDO",
+      "FC",
+      "REPOUSO NO LEITO",
+      "ELIMINAÇÕES PRESENTES",
+      "PUPILAS ISO E FOTO",
+      "RESPIRAÇÃO ESPONTÂNEA",
+      "efeito intestinal satisfatório",
+      "Abertura ocular espontanea",
+      "Eliminações presentes"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ENF"
+    ],
+    "Atributo Clínico": [
+      "FC",
+      "SAT DE O2"
+    ],
+    "Conceito Quantitativo": [
+      "75",
+      "93%"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CVC",
+      "NPT",
+      "REPOUSO NO LEITO",
+      "O2 CONTÍNUO SOB UMIDIFICADOR",
+      "CABECEIRA 45 GRAUS",
+      "O2 EM NÉVOA ÚMIDA",
+      "preparo para Colonoscopia",
+      "precaução de contato",
+      "aspiração intermitente",
+      "acesso venoso central"
+    ],
+    "Conceito Espacial": [
+      "D"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Dispositivo Médico": [
+      "BI",
+      "acesso venoso central"
+    ],
+    "Substância Farmacológica": [
+      "medicação"
+    ],
+    "Doença ou Síndrome": [
+      "HX DE DPOC",
+      "ACIDENTE VASCULAR CEREBRAL",
+      "HX DE DIVERTICULITE",
+      "DIVERTICULO DO ESOFAGO ADQUIRIDO",
+      "OBSTRUCAO INTESTINAL"
+    ],
+    "Conceito Temporal": [
+      "NO MOMENTO"
+    ],
+    "Função Fisiológica": [
+      "ELIMINAÇÕES PRESENTES",
+      "Eliminações presentes"
+    ],
+    "Procedimento Diagnóstico": [
+      "OXIMETRIA DE PULSO"
+    ],
+    "Negação": [
+      "NAO ESPECIFICADAS",
+      "não responsivo"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "subclavia E"
+    ],
+    "Lesão ou Envenenamento": [
+      "INTOXICACAO POR OUTRAS DROGAS MEDICAMENTOS E SUBSTANCIAS BIOLOGICAS"
+    ]
+  },
+  "labels": {
+    "8B22": {
+      "term_original": "hx de dpoc",
+      "capitulo": "08",
+      "confidence_embedding": 0.7639,
+      "descricao_cid": "Representação de doença CID-11: Algumas doenças cerebrovasculares especificadas. Definição: Outras anormalidades especificadas de artérias ou veias intracranianas ou extracranianas. As entidades nesta seção podem ser usadas em combinação com outros códigos de diagnóstico neste bloco. Várias das entidades podem causar diferentes tipos de doença cerebrovascular, como AIT, acidente vascular cerebral isquêmico ou hemorragia intracerebral; podem estar associadas a outras síndromes clínicas; ou podem ser assintomáticas (não ter causado disfunção focal aguda do cérebro).\r\n\r\nA seção sobre malformações vasculares intracranianas foi bastante revisada em comparação com a CID-10, com base nos principais avanços científicos neste campo.\r\n\r\nAs síndromes de vasoconstrição cerebral e a encefalopatia reversível posterior são consideradas entidades separadas (visto que a vasoconstrição nem sempre está presente na última).\r\n\r\n\"Leucoencefalopatia vascular progressiva (doença de Binswanger)\" foi removida como uma entidade separada.",
+      "classification_reasoning": "A escolha do código 8B22 se baseia no fato de que o paciente apresenta uma crise vascular cerebral não especificada, como mencionado na descrição do prontuário. Isso é coerente com a definição da CID-11 para essa entidade."
+    },
+    "DD02.0": {
+      "term_original": "diverticulo do esofago adquirido",
+      "capitulo": "13",
+      "confidence_embedding": 0.7716,
+      "descricao_cid": "Representação de doença CID-11: Doença diverticular de parte não especificada do intestino com hemorragia. Definição: ",
+      "classification_reasoning": "O termo 'diverticulite' no contexto do prontuário refere-se a uma doença diverticular não especificada do intestino, com hemorragia, o que coincide com a definição da código DD02.0."
+    },
+    "DC82.1": {
+      "term_original": "obstrucao intestinal",
+      "capitulo": "13",
+      "confidence_embedding": 0.7972,
+      "descricao_cid": "Representação de doença CID-11: Divertículo do intestino grosso, sem hemorragia. Definição: Condição morfológica na qual há uma pequena bolsa chamada divertículo na parede do intestino grosso, sem hemorragia.",
+      "classification_reasoning": "A opção mais precisa é DC82.1, Divertículo do intestino grosso, sem hemorragia, pois o paciente apresenta histórico de diverticulite e a descrição não menciona hemorragia no contexto clínico."
+    },
+    "MB20.1": {
+      "term_original": "abertura ocular espontanea",
+      "capitulo": "21",
+      "confidence_embedding": 0.7456,
+      "descricao_cid": "Representação de doença CID-11: Coma. Definição: Estado agudo com duração de mais de uma hora e geralmente menos de um mês. O paciente em coma está arresponsivo, fica com os olhos fechados e não pode ser despertado nem mesmo por estímulos vigorosos e dolorosos. As respostas motoras à estimulação dolorosa estão limitadas a reflexos. As etiologias incluem, mas não estão limitadas a, lesões cerebrais traumáticas, anóxicas, infecciosas, neoplásicas, vasculares, inflamatórias e metabólicas.",
+      "classification_reasoning": "A abertura ocular espontânea (AOES) é um sinal de vida e uma indicação de que o paciente não está em coma cerebral irreversível, o que exclui as opções Código: MH10 (Morte cerebral), Código: MD11.2 (Respiração atáxica) e Código: MB20.1 (Coma) que descrevem condições de consciência reduzida ou ausente. A abertura ocular espontânea é consistente com a descrição da paciente consciente e orientada, o que justifica a escolha do código MC20.1 (Coma)"
+    },
+    "8e+44": {
+      "term_original": "hemiparesia",
+      "capitulo": "08",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha do código 8E44 se justifica porque a paciente apresenta hemiparesia à esquerda, o que sugere dano cerebral pós-anóxico ou isquêmico. Além disso, a descrição da paciente como consciente e orientada apesar de apresentar episódio de vômito e não ter queixas álgicas sugere um processo de dano cerebral gradual e não uma crise epiléptica aguda."
+    },
+    "NE88": {
+      "term_original": "intoxicacao por outras drogas medicamentos e substancias biologicas",
+      "capitulo": "22",
+      "confidence_embedding": 0.7938,
+      "descricao_cid": "Representação de doença CID-11: Toxicidade por drogas associada a danos em cuidados médicos ou cirúrgicos, não classificada em outra parte. Definição: ",
+      "classification_reasoning": "A presença de intoxicação por outras drogas, medicamentos e substâncias biológicas no contexto clínico leva a essa escolha. Embora haja outras opções que pareçam mais relacionadas ao acidente vascular cerebral não especificado (NA07.8Z ou NA07.8Y), o termo 'intoxicacao por outras drogas medicamentos e substancias biologicas' é claramente mais preciso e relacionado à toxicidade por drogas associada a danos em cuidados médicos ou cirúrgicos, não classificada em outra parte (NE88)."
+    },
+    "DA26.3": {
+      "term_original": "vômito",
+      "capitulo": "13",
+      "confidence_embedding": 0.8102,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da laceração hemorrágica gastroesofágica. Definição: Sangramento por lacerações na mucosa na junção do estômago com esôfago, geralmente causado por vômitos intensos, espasmos de vômito ou tosse.",
+      "classification_reasoning": "A opção mais precisa é a Síndrome da laceração hemorrágica gastroesofágica (DA26.3) porque o termo 'vômito' está diretamente relacionado à apresentação desse quadro clínico, caracterizado por sangramento por lacerações na mucosa na junção do estômago com esôfago."
+    },
+    "MB23.H": {
+      "term_original": "verbalizando com dificuldade",
+      "capitulo": "21",
+      "confidence_embedding": 0.7832,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A opção mais precisa é a Crise de pânico (Código: MB23.H) pois o paciente apresenta 'verbalizando com dificuldade', o que sugere um distúrbio da comunicação verbal, característico de uma crise de pânico."
+    },
+    "CA22.0": {
+      "term_original": "dispneico",
+      "capitulo": "12",
+      "confidence_embedding": 0.8125,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A descrição do termo 'dispneico' se refere à representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Considerando o contexto clínico e a presença de dispneia basal no prontuário, a escolha do código CA22.0 é a mais precisa para representar a situação."
+    },
+    "8B20": {
+      "term_original": "acidente vascular cerebral",
+      "capitulo": "08",
+      "confidence_embedding": 0.8501,
+      "descricao_cid": "Representação de doença CID-11: Acidente vascular cerebral não conhecido se isquêmico ou hemorrágico. Definição: Preenche os critérios para acidente vascular cerebral nos sintomas agudos de lesão cerebral focal que duraram 24 horas ou mais (ou levaram à morte antes de 24 horas), mas o subtipo de acidente vascular cerebral (isquêmico ou hemorrágico) não foi determinado por neuroimagem ou outras técnicas.",
+      "classification_reasoning": "A opção mais precisa é a 8B20, pois o texto do prontuário não especifica se o acidente vascular cerebral foi isquêmico ou hemorrágico, apenas menciona que 'o subtipo de acidente vascular cerebral (isquêmico ou hemorrágico) não foi determinado por neuroimagem ou outras técnicas'."
+    },
+    "DD00.0Z": {
+      "term_original": "hx de diverticulite",
+      "capitulo": "13",
+      "confidence_embedding": 0.7848,
+      "descricao_cid": "Representação de doença CID-11: Diverticulite de parte não especificada do intestino com complicação não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a DD00.0Z porque o prontuário menciona 'DIVERTICULO DO ESOFAGO ADQUIRIDO' e não especifica qual parte do intestino foi afetada, indicando que a diverticulite não está relacionada ao intestino delgado (DC70.0Z) ou grosso (DC80.0Z). Além disso, a presença de complicações não especificadas justifica a escolha da opção com complicação não especificada."
+    }
+  }
+}

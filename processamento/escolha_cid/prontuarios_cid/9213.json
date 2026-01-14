@@ -1,0 +1,193 @@
+{
+  "prontuario_id": 538,
+  "text": "03:21 Paciente consciente, lúcido, orientado, comunicativo, normotenso, normocorado, afebril, deambulando. MAntém acesso venoso salinizado em MSE. Permanece com gesso em MSD. Apresenta leve edema facial. Nega algias no momento. Segue sob cuidados. EXAME MEDICO GERAL. 00:24 Paciente consciente, lúcido, orientado, comunicativo, em repouso no leito. Mantém acesso venoso salinizado no momento. Permanece com curativo em MMII, com saídad e secreção em moderada quantidade e odor fétido. Realizada terceira troca do ctvo durante o período. Segue sob cuidados. VARIZES DOS MEMBROS INFERIORES COM ULCERA E INFLAMACAO. 03:14 em repouso no leito, sob névoa umida, dispneica, confusa,  edema em MMSS e MMII, faz uso de fraldas, eliminações intestinais presente, apresentou hipertenção 210/60 comunicado plantão Dra Maria, prescreveu captopril. Segue sob cuidados multiprofissionais. FLORENCE NIGHTINGALE, XXXX. DERRAME PLEURAL NAO CLASSIFICADO EM OUTRA PARTE.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Achado": [
+      "consciente",
+      "lúcido",
+      "orientado",
+      "comunicativo",
+      "normotenso",
+      "normocorado",
+      "afebril",
+      "deambulando",
+      "repouso no leito",
+      "eliminações intestinais presente"
+    ],
+    "Negação": [
+      "afebril",
+      "Nega"
+    ],
+    "Abreviação": [
+      "MSE",
+      "MSD",
+      "MMII",
+      "MMSS",
+      "Dra",
+      "troca do ctvo"
+    ],
+    "Localização ou Região Corporal": [
+      "MSE",
+      "MSD",
+      "MMII",
+      "MMSS"
+    ],
+    "Dispositivo Médico": [
+      "gesso",
+      "curativo",
+      "acesso venoso salinizado"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "gesso",
+      "curativo",
+      "acesso venoso salinizado",
+      "repouso no leito",
+      "troca do ctvo",
+      "sob névoa umida"
+    ],
+    "Sinal ou Sintoma": [
+      "algias",
+      "dispneica",
+      "confusa",
+      "edema",
+      "hipertenção",
+      "leve edema facial",
+      "odor fétido"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "cuidados",
+      "EXAME MEDICO GERAL",
+      "cuidados multiprofissionais"
+    ],
+    "Substância Corporal": [
+      "secreção"
+    ],
+    "Função Patológica": [
+      "edema"
+    ],
+    "Objeto Manufaturado": [
+      "fraldas"
+    ],
+    "Conceito Quantitativo": [
+      "210/60"
+    ],
+    "Organização Relacionada à Saúde": [
+      "plantão"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "captopril"
+    ],
+    "Substância Farmacológica": [
+      "captopril"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAME MEDICO GERAL"
+    ],
+    "Conceito Qualitativo": [
+      "moderada quantidade"
+    ],
+    "Doença ou Síndrome": [
+      "VARIZES DOS MEMBROS INFERIORES COM ULCERA E INFLAMACAO",
+      "DERRAME PLEURAL"
+    ],
+    "Função Fisiológica": [
+      "eliminações intestinais presente"
+    ]
+  },
+  "labels": {
+    "DB32.20": {
+      "term_original": "eliminações intestinais presente",
+      "capitulo": "13",
+      "confidence_embedding": 0.7956,
+      "descricao_cid": "Representação de doença CID-11: Megacólon tóxico. Definição: Megacólon tóxico é uma forma aguda de distensão do cólon, caracterizada por dilatação acentuada do cólon, acompanhada por distensão abdominal (inchaço) e, às vezes, febre, dor abdominal ou choque. \"Tóxico\" significa que esta complicação ocorre com inflamação. O megacólon tóxico é uma rara dilatação do intestino grosso com risco de vida, que evolui em poucos dias, ocorrendo como complicação de doença inflamatória intestinal, tais como colite ulcerativa e doença de Crohn, ou colite de origem infecciosa.",
+      "classification_reasoning": "A presença de eliminações intestinais presentes no contexto clínico sugere a possibilidade de uma condição que afete o funcionamento intestinal, como é o caso do megacólon tóxico (DB32.20). Esta opção parece mais precisa do que as outras, considerando-se os sintomas e achados descritos no prontuário."
+    },
+    "ME62.7": {
+      "term_original": "algias",
+      "capitulo": "21",
+      "confidence_embedding": 0.7683,
+      "descricao_cid": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica.",
+      "classification_reasoning": "A escolha pelo código ME62.7 se baseia na descrição do termo 'algias' e a presença de leve edema facial, o que sugere uma possível erupção cutânea aguda ou descamativa."
+    },
+    "CB27": {
+      "term_original": "derrame pleural",
+      "capitulo": "12",
+      "confidence_embedding": 0.7832,
+      "descricao_cid": "Representação de doença CID-11: Derrame pleural. Definição: Presença de líquido na cavidade pleural, resultante de transudação ou exsudação excessivas a partir das superfícies pleurais.",
+      "classification_reasoning": "A escolha do código CB27 (Derrame pleural) é baseada na descrição de 'derrame pleural não classificado em outra parte' no contexto clínico, o que sugere a presença de líquido na cavidade pleural sem outra causa específica mencionada."
+    },
+    "CA22.0": {
+      "term_original": "dispneica",
+      "capitulo": "12",
+      "confidence_embedding": 0.7796,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A presença de dispneia no paciente, associada a outros sintomas respiratórios, como edema facial e dispneia, sugere uma exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC)."
+    },
+    "FA27.2": {
+      "term_original": "deambulando",
+      "capitulo": "15",
+      "confidence_embedding": 0.7303,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "O termo 'deambulando' indica que o paciente está andando ou movendo-se com dificuldade, característica do reumatismo palindrômico."
+    },
+    "BA01": {
+      "term_original": "normotenso",
+      "capitulo": "11",
+      "confidence_embedding": 0.7758,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "O termo 'normotenso' refere-se à pressão arterial normal, e o código BA01 (Doença cardíaca hipertensiva) é a opção mais precisa pois descreve uma situação em que a pressão arterial está dentro dos padrões normais."
+    },
+    "FB54": {
+      "term_original": "varizes dos membros inferiores com ulcera e inflamacao",
+      "capitulo": "15",
+      "confidence_embedding": 0.6945,
+      "descricao_cid": "Representação de doença CID-11: Entesopatias dos membros inferiores. Definição: Trata-se de um grupo de afecções que levam a qualquer tipo de alteração nos pontos de inserção de tendões ou ligamentos dos membros inferiores. As principais alterações são inflamação e calcificação.",
+      "classification_reasoning": "O termo 'varizes dos membros inferiores com ulcera e inflamacao' sugere a presença de doença crônica que afeta os membros inferiores, caracterizada por inflamação e lesão (ulcera) nos tecidos subcutâneos. A opção mais precisa é o código FB54, que representa 'Entesopatias dos membros inferiores', um grupo de afecções que incluem alterações nos pontos de inserção de tendões ou ligamentos, frequentemente associadas à inflamação e calcificação."
+    },
+    "6C40.4": {
+      "term_original": "confusa",
+      "capitulo": "06",
+      "confidence_embedding": 0.7675,
+      "descricao_cid": "Representação de doença CID-11: Abstinência de álcool. Definição: Abstinência de álcool é um conjunto clinicamente significativo de sintomas, comportamentos e/ou manifestações fisiológicas, variando em grau de gravidade e duração, que ocorre quando da cessação ou redução do uso de álcool em indivíduos que tenham desenvolvido dependência de álcool ou que tenham usado álcool por um período prolongado ou em grandes quantidades. Sintomas de apresentação da abstinência de álcool podem incluir hiperatividade autonômica (p. ex., taquicardia, hipertensão, sudorese), tremores aumentados nas mãos, náusea, ânsia de vômito ou vômito, insônia, ansiedade, agitação psicomotora, humor deprimido ou disfórico, ilusões ou alucinações visuais, táteis ou auditivas transitórias e distratibilidade. Menos comumente, o estado de abstinência é complicado por convulsões tônico-clônicas. O estado de abstinência pode progredir para uma forma muito grave de delirium, caracterizada por confusão e desorientação, delírios e alucinações visuais, táteis ou auditivas prolongadas. Nesses casos, um diagnóstico separado de delirium induzido por álcool também deve ser atribuído.",
+      "classification_reasoning": "A presença de confusão na pacientes, associada a outros sintomas como dispneia e edema facial, é mais consistente com um quadro de abstinência de álcool do que com outro tipo de intoxicação."
+    },
+    "MD11.5": {
+      "term_original": "repouso no leito",
+      "capitulo": "21",
+      "confidence_embedding": 0.7507,
+      "descricao_cid": "Representação de doença CID-11: Dispneia. Definição: Dispneia é o termo utilizado para descrever percepções de dificuldade ou sofrimento relacionados à respiração e é reconhecido como sintoma de doença quando ocorre em circunstâncias inapropriadas. Dispneia é uma queixa apresentada por pacientes com uma ampla variedade de condições médicas, causadas por múltiplos mecanismos.\r\nA dispneia é considerada aguda quando dura de horas a 3 semanas, subaguda de 3 a 8 semanas e a dispneia crônica dura mais de 8 semanas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'repouso no leito' é a dispneia, pois o paciente está descrito como tendo dificuldade em respirar (dispneica) e sendo mantido em repouso no leito."
+    },
+    "FB32.20": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7344,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A opção mais precisa para o termo 'edema' é a Rabdomiólise idiopática, pois apresenta extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria e edema, o que se relaciona com a presença de edema facial e nos membros inferiores mencionados no contexto clínico."
+    },
+    "EB13.1": {
+      "term_original": "odor fétido",
+      "capitulo": "14",
+      "confidence_embedding": 0.7623,
+      "descricao_cid": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável.",
+      "classification_reasoning": "A presença de odor fétido no contexto do prontuário sugere uma possibilidade de necrólise epidérmica tóxica (NET), doença caracterizada por rápida progressão de eritema, necrose e descolamento bolhoso da epiderme."
+    },
+    "ED90.0": {
+      "term_original": "leve edema facial",
+      "capitulo": "14",
+      "confidence_embedding": 0.7838,
+      "descricao_cid": "Representação de doença CID-11: Rosácea. Definição: O termo rosácea engloba um espectro de alterações que ocorrem principalmente na pele facial, mas também podem envolver os olhos. A maioria dos pacientes com rosácea apresenta eritema facial e instabilidade vascular que estão variavelmente associados a pápulas e pústulas inflamatórias, alterações hipertróficas e envolvimento ocular. A causa da rosácea é desconhecida. É questionável que um único fator etiológico seja responsável pelas diversas características que compõem esse transtorno.",
+      "classification_reasoning": "A opção mais precisa para o termo 'leve edema facial' é a rosácea (Código ED90.0). A descrição da doença menciona eritema facial e alterações hipertróficas, que coincidem com a apresentação do paciente com 'leve edema facial'."
+    },
+    "BA55.3": {
+      "term_original": "hipertenção",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A hipertenção mencionada no contexto clínico se refere à pressão arterial elevada (210/60) que foi tratada com captopril, um medicamento anti-hipertensivo. Embora o contexto não seja explicitamente relacionado a doenças cardíacas, a presença de sintomas como dispneia e edema em MMSS e MMII sugere uma possível condição cardiovascular. Portanto, o código mais preciso para o termo 'hipertenção' é BA55.3, que refere-se à hipertensão arterial."
+    }
+  }
+}

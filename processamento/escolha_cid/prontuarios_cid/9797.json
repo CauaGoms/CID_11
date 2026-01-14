@@ -1,0 +1,184 @@
+{
+  "prontuario_id": 594,
+  "text": "01:25 horas. Paciente em 1º dia de Internamento. Proveniente do XXXX por suspeita de abdomem agudo. Apresentou broncoespasamo, suspeita de PNM. História prévia de AVC. Acamada, pouco comunicativa, apatica, hipocorada, desidratada e emagrecida. Pele fina e frágil. Equimoses em MMSS. Cabeceira elevada 45ºC. Dispnéica com suporte de 02 sob máscara de venturi em 4l/min. Taquidispnéica. Monitorização cardíaca e oxímetria de pulso contínua, FC: 120 bpm, sat: 96% e PA: 120/80 mmhg. Acesso venoso períferico mantendo soroterapia fravitacional. Tórax simétrico, apresentando esforço respiratório importante, ausculta pulmonar com presença de roncos e sibilos difusos. Abdomem levemente distendido, doloroso á palpação com rha diminuídos. SVD com débito citrico, evacuações ausentes até o momento. Segue sob os cuidados da equipe multiprofissional. Permanece em sala de emergência conforme ordem médica. PNEUMONIA NAO ESPECIFICADA.",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "Internamento",
+      "Permanece",
+      "cuidados da equipe multiprofissional",
+      "ordem médica"
+    ],
+    "Sinal ou Sintoma": [
+      "broncoespasamo",
+      "Acamada",
+      "apatica",
+      "hipocorada",
+      "desidratada",
+      "emagrecida",
+      "Equimoses",
+      "Dispnéica",
+      "Taquidispnéica",
+      "roncos",
+      "doloroso",
+      "pouco comunicativa",
+      "esforço respiratório importante",
+      "sibilos difusos",
+      "levemente distendido",
+      "rha diminuídos"
+    ],
+    "Abreviação": [
+      "PNM",
+      "AVC",
+      "MMSS",
+      "FC",
+      "sat",
+      "PA",
+      "SVD",
+      "rha diminuídos"
+    ],
+    "Doença ou Síndrome": [
+      "PNM",
+      "AVC",
+      "abdomem agudo"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "Pele",
+      "MMSS"
+    ],
+    "Conceito Qualitativo": [
+      "fina",
+      "frágil"
+    ],
+    "Conceito Quantitativo": [
+      "4l/min",
+      "96%",
+      "120 bpm",
+      "120/80 mmhg"
+    ],
+    "Atributo Clínico": [
+      "FC",
+      "sat",
+      "PA"
+    ],
+    "Localização ou Região Corporal": [
+      "Abdomem"
+    ],
+    "Procedimento Diagnóstico": [
+      "palpação",
+      "Monitorização cardíaca",
+      "oxímetria de pulso contínua",
+      "ausculta pulmonar"
+    ],
+    "Dispositivo Médico": [
+      "SVD",
+      "máscara de venturi",
+      "Acesso venoso períferico"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SVD",
+      "suporte de 02",
+      "soroterapia fravitacional"
+    ],
+    "Função Fisiológica": [
+      "evacuações"
+    ],
+    "Negação": [
+      "ausentes"
+    ],
+    "Conceito Temporal": [
+      "momento"
+    ],
+    "Achado": [
+      "Tórax simétrico"
+    ],
+    "Organização Relacionada à Saúde": [
+      "sala de emergência"
+    ]
+  },
+  "labels": {
+    "2A32": {
+      "term_original": "avc",
+      "capitulo": "02",
+      "confidence_embedding": 0.7362,
+      "descricao_cid": "Representação de doença CID-11: Trombocitopenia refratária. Definição: Síndrome mielodisplásica caracterizada pela presença de pelo menos 10% de megacariócitos displásicos, encontrados dentre pelo menos 30 megacariócitos examinados na medula óssea.",
+      "classification_reasoning": "A presença de AVC (Acidente Vascular Cerebral) na história do paciente e a sua condição atual, com sintomas de broncoespasmo e suspeita de Pneumonia Nao Especificada, sugere uma possível doença cardiovascular ou circulatória, o que é relacionado ao código 2A32: Trombocitopenia refratária. Embora não seja diretamente relacionado à AVC, a trombocitopenia pode ser um fator contributivo para o desenvolvimento de AVC."
+    },
+    "ED70.4": {
+      "term_original": "equimoses",
+      "capitulo": "14",
+      "confidence_embedding": 0.751,
+      "descricao_cid": "Representação de doença CID-11: Eflúvio anágeno. Definição: Eflúvio anágeno ocorre após qualquer insulto ao folículo piloso que comprometa sua atividade mitótica ou metabólica. Os pacientes apresentam queda de cabelos difusa após exposição a drogas ou produtos químicos tóxicos. Agentes quimioterápicos são mais comumente responsáveis por queda de cabelo. A queda de cabelo mais grave ocorre em associação com a doxorrubicina, as nitrosoureias e a ciclofosfamida. A queda de cabelos geralmente começa 7-14 dias após um único pulso de quimioterapia. A queda de cabelo é clinicamente mais aparente após 1-2 meses.",
+      "classification_reasoning": "A presença de equimoses em MMSS sugere uma lesão cutânea grave, provavelmente relacionada à patologia subjacente (PNM) e ao histórico prévio de AVC. A escolha pelo código ED70.4 (Eflúvio anágeno) é baseada na possibilidade de lesões cutâneas graves, como equimoses, decorrentes da patologia."
+    },
+    "CA22.0": {
+      "term_original": "roncos",
+      "capitulo": "12",
+      "confidence_embedding": 0.7863,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A presença de roncos difusos na ausculta pulmonar e a suspeita de Pneumonia Não Especificada (PNM) apontam para uma doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada."
+    },
+    "6B23.1": {
+      "term_original": "hipocorada",
+      "capitulo": "06",
+      "confidence_embedding": 0.7383,
+      "descricao_cid": "Representação de doença CID-11: Hipocondria com insight pobre a ausente. Definição: Todos os critérios diagnósticos para hipocondria são preenchidos. Na maior parte do tempo ou o tempo todo, o indivíduo está convencido de que as crenças específicas do transtorno são verdadeiras e não consegue aceitar uma explicação alternativa para sua experiência. A falta de \"insight\" apresentada pelo indivíduo não varia acentuadamente de acordo com o nível de ansiedade.",
+      "classification_reasoning": "A presença de hipocorada como sintoma do paciente, combinada com a apatia e desidratação, sugere que o indivíduo está apresentando um quadro clínico compatível com hipocondria, mais especificamente com insight pobre ou ausente. A falta de motivação para comunicação e a perda de interesse pelas coisas podem estar relacionadas à ansiedade e ao medo persistente de ter uma doença séria."
+    },
+    "DE11": {
+      "term_original": "levemente distendido",
+      "capitulo": "13",
+      "confidence_embedding": 0.7548,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de dumping. Definição: Síndrome de dumping é um grupo de sinais e sintomas que se desenvolve mais frequentemente em pessoas que foram submetidas a cirurgia para ressecção total ou parcial do estômago, ou em quem foi submetido a um bypass cirúrgico. Pode ocorrer precocemente (durante a refeição ou após 15-30 minutos com náuseas, vômitos, dor abdominal, cólicas, diarreia, tontura e palpitações cardíacas) ou tardiamente (1 a 3 horas após a refeição com sudorese, fraqueza, fadiga, tonturas, vertigens, palpitações cardíacas e desmaios).",
+      "classification_reasoning": "A descrição do termo 'levemente distendido' sugere uma expansão lenta e gradual do cólon, o que é consistente com a Síndrome de Dumping (DE11), onde a paciente apresenta dor abdominal e distensão abdominal. Além disso, a presença de dispepsia, constipação crônica e cólicas abdominais também são características da Síndrome de Dumping."
+    },
+    "CA23.21": {
+      "term_original": "broncoespasamo",
+      "capitulo": "12",
+      "confidence_embedding": 0.7819,
+      "descricao_cid": "Representação de doença CID-11: Broncoespasmo induzido pelo exercício. Definição: Broncoespasmo induzido pelo exercício (BIE) descreve o estreitamento das vias aéreas que ocorre em associação ao exercício. BIE ocorre em até 90% dos pacientes asmáticos e estima-se que ocorra em >10% da população geral. Revisões recentes identificaram a asma como fator de risco para morte súbita e relataram mortes atribuídas diretamente à BIE.",
+      "classification_reasoning": "A presença de broncoespasmo associada à suspeita de Pneumonia Nao Especificada e à história prévia de AVC sugere um quadro de broncoespasmo induzido pelo exercício (BIE), corroborado pela apresentação clínica do paciente com broncoespasmo, dispnéica e taquidispnéica."
+    },
+    "6C40.3": {
+      "term_original": "apatica",
+      "capitulo": "06",
+      "confidence_embedding": 0.7624,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas.",
+      "classification_reasoning": "O termo 'apatica' sugere uma perda de interesse e desinteresse pelas coisas, o que é característico de intoxicação por álcool. Além disso, a história do paciente menciona AVC e falta de comunicação, o que pode estar relacionado à intoxicação etílica."
+    },
+    "DA60.3": {
+      "term_original": "rha diminuídos",
+      "capitulo": "13",
+      "confidence_embedding": 0.7708,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A presença de 'rha diminuídos' no contexto do prontuário indica lesões agudas na mucosa gástrica, o que é consistente com úlceras de estresse do estômago (úlcera gástrica)."
+    },
+    "5B5A.0": {
+      "term_original": "emagrecida",
+      "capitulo": "05",
+      "confidence_embedding": 0.7549,
+      "descricao_cid": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina.",
+      "classification_reasoning": "O termo 'emagrecida' sugere déficit nutricional, e a deficiência de tiamina (beribéri) é uma possibilidade clínica para essa situação."
+    },
+    "6C48.2": {
+      "term_original": "pouco comunicativa",
+      "capitulo": "06",
+      "confidence_embedding": 0.7296,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais.",
+      "classification_reasoning": "A paciente apresenta pouca comunicatividade, o que sugere uma possível alteração de consciência ou atenção decorrente da intoxicação por cafeína, característica do Código 6C48.2."
+    },
+    "5C78": {
+      "term_original": "desidratada",
+      "capitulo": "05",
+      "confidence_embedding": 0.7657,
+      "descricao_cid": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem.",
+      "classification_reasoning": "A descrição do termo 'desidratada' sugere que o paciente está com excesso de líquido no corpo, o que é consistentemente descrito na definição da sobrecarga de líquidos (Código 5C78). Isso coincide com a observação clínica de que o paciente apresenta equimoses em MMSS e pele fina e frágil."
+    },
+    "CB21.1": {
+      "term_original": "abdomem agudo",
+      "capitulo": "12",
+      "confidence_embedding": 0.7975,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A presença de suspeita de PNM e broncoespasmo justifica a escolha do código CB21.1, que refere-se ao pneumotórax espontâneo não hipertensivo."
+    }
+  }
+}

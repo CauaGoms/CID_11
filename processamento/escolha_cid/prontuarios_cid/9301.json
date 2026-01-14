@@ -1,0 +1,110 @@
+{
+  "prontuario_id": 798,
+  "text": "12:16H PACIENTE LUCIDO, ORIENTADO, COMUNICATIVO, DEAMBULANTE. BOA ACEITAÇÃO DA DIETA OFERECIDA. SEM QUEIXAS ALGÉSICAS. ACESSO VENOSO PERIFÉRICO EM MSD SALINIZADO.ABDOME GLOBOSO E FLÁCIDO. EDEMA DISCRETO EM MMII. DIURESE ESPONTÂNEA. ELIMINAÇÕES FISIOLÓGICAS INTESTINAIS PRESENTES, PASTOSA.  Enfermeira Florence Nightingale  EXAME GERAL E INVESTIGAÇÃO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Achado": [
+      "LUCIDO",
+      "ORIENTADO",
+      "COMUNICATIVO",
+      "DEAMBULANTE",
+      "SALINIZADO",
+      "FLÁCIDO",
+      "PASTOSA",
+      "BOA ACEITAÇÃO DA DIETA",
+      "DIURESE ESPONTÂNEA",
+      "ELIMINAÇÕES FISIOLÓGICAS INTESTINAIS PRESENTES"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Abreviação": [
+      "MSD",
+      "MMII"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD",
+      "ABDOME",
+      "MMII"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SALINIZADO",
+      "ACESSO VENOSO PERIFÉRICO"
+    ],
+    "Sinal ou Sintoma": [
+      "GLOBOSO",
+      "QUEIXAS ALGÉSICAS",
+      "EDEMA DISCRETO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Dispositivo Médico": [
+      "ACESSO VENOSO PERIFÉRICO"
+    ],
+    "Função Fisiológica": [
+      "DIURESE ESPONTÂNEA",
+      "ELIMINAÇÕES FISIOLÓGICAS INTESTINAIS PRESENTES"
+    ]
+  },
+  "labels": {
+    "6C45.3": {
+      "term_original": "orientado",
+      "capitulo": "06",
+      "confidence_embedding": 0.7835,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A presença do termo 'orientado' indica que o paciente apresenta boa aceitação da dieta e comunicação, o que sugere que ele não está sob o efeito de substâncias psicoativas ou com sintomas psicóticos graves. Isso permite excluir as opções relacionadas a síndrome psicótica secundária (Código 6E61) e intoxicação por alucinógenos (Código 6C49). A opção mais adequada é a Intoxicação por cocaína (Código 6C45.3), pois essa apresentação de boa comunicação e orientação sugere que o paciente está sob o efeito de substância psicoativa, embora não seja especificamente mencionado no contexto."
+    },
+    "8A02.00": {
+      "term_original": "flácido",
+      "capitulo": "08",
+      "confidence_embedding": 0.7889,
+      "descricao_cid": "Representação de doença CID-11: Blefarospasmo benigno essencial. Definição: Esta é uma condição neurológica caracterizada por fechamento forçado das pálpebras devido a contração involuntária e sustentada dos músculos ao redor dos olhos.",
+      "classification_reasoning": "O termo 'flácido' se refere à textura do abdome, que é descrito como 'globoso e flácido', o que sugere uma conduta muscular relaxada ou atenuada. A opção mais precisa para esse termo é a doença CID-11: Blefarospasmo benigno essencial (8A02.00), que descreve uma condição neurológica caracterizada por contração involuntária e sustentada dos músculos ao redor dos olhos, o que pode se relacionar à perda de tonus muscular no abdome."
+    },
+    "DB33.20": {
+      "term_original": "eliminações fisiológicas intestinais presentes",
+      "capitulo": "13",
+      "confidence_embedding": 0.8261,
+      "descricao_cid": "Representação de doença CID-11: Proctite ou colite infantil induzida por proteína de alimentos. Definição: Hipersensibilidade intestinal não mediada por IgE (na ausência de anticorpos IgE) induzida por proteína alimentar que provoca resposta inflamatória principalmente do cólon sigmoide distal e do reto. É uma condição em bebês que resulta de resposta imune desencadeada por proteínas da dieta, principalmente do leite (através da amamentação). Os pacientes geralmente parecem saudáveis e têm fezes normais e macias com manchas ou raias de sangue. O diagnóstico é feito usualmente baseado na resolução dos sintomas com a retirada do suposto antígeno alimentar. O início usual é nos primeiros 2 meses de vida, mas pode também ocorrer em bebês de 1 dia a 6 meses de idade.",
+      "classification_reasoning": "A presença de eliminações fisiológicas intestinais presentes no prontuário indica a possibilidade de uma resposta imune desencadeada por proteína alimentar, provavelmente relacionada ao leite ou outro alimento, o que é consistente com a definição da síndrome de proctite ou colite infantil induzida por proteína de alimentos (DB33.20)."
+    },
+    "BD93": {
+      "term_original": "edema discreto",
+      "capitulo": "11",
+      "confidence_embedding": 0.7998,
+      "descricao_cid": "Representação de doença CID-11: Linfedema. Definição: Edema devido ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Geralmente afeta as extremidades, mas pode envolver qualquer parte do corpo. É desfigurante e aumenta a suscetibilidade a infecções recorrentes e malignidades locais.",
+      "classification_reasoning": "O edema discreto mencionado no contexto clínico se refere ao acúmulo excessivo de linfa nos tecidos, caracterizando um linfedema. Isso é consistente com a definição da doença CID-11 BD93."
+    },
+    "CA23.0": {
+      "term_original": "globoso",
+      "capitulo": "12",
+      "confidence_embedding": 0.7581,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica. Definição: Asma alérgica é o fenótipo de asma mais facilmente reconhecido. Frequentemente, inicia-se na infância e é associada a um histórico pessoal ou familiar de doença alérgica, como eczema, rinite alérgica, ou alergia a drogas e alimentos. O exame do escarro induzido desses pacientes, antes do tratamento, geralmente revela uma inflamação eosinofílica das vias aéreas. O principal gatilho é a exposição a alérgenos, como o ácaro da poeira doméstica e ao pólen, aos quais o indivíduo tenha sido, previamente, sensibilizado. Os pacientes com esse fenótipo de asma, usualmente, respondem bem a corticoide inalatório e à imunoterapia alérgeno-específica.",
+      "classification_reasoning": "A descrição do termo 'globoso' faz referência ao abdome globoso e flácido, o que sugere a presença de distensão abdominal, característica comum da asma alérgica."
+    },
+    "ME05.0": {
+      "term_original": "queixas algésicas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7972,
+      "descricao_cid": "Representação de doença CID-11: Constipação. Definição: A constipação é uma condição aguda ou crônica na qual os movimentos intestinais ocorrem com menor frequência do que o normal ou consiste em fezes secas e duras que costumam ser dolorosas ou difíceis de evacuar. Aqui está descrita a constipação que não está especificamente descrita em outra parte, como em transtornos da motilidade do intestino ou em doenças funcionais do intestino.",
+      "classification_reasoning": "A opção ME05.0 melhor se encaixa no contexto clínico, pois 'queixas algésicas' sugere dor ou desconforto abdominal, o que é compatível com a definição de constipação (ME05.0) como uma condição dolorosa ou difícil de evacuar."
+    },
+    "FA27.2": {
+      "term_original": "deambulante",
+      "capitulo": "15",
+      "confidence_embedding": 0.7485,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A opção FA27.2 é mais precisa para o termo 'deambulante' no contexto clínico, pois Reumatismo palindrômico pode causar crises agudas de dor e edema nas articulações, incluindo as do pé, o que poderia afetar a capacidade do paciente em realizar atividades diárias, incluindo andar. Além disso, a descrição da opção indica que os episódios podem durar várias horas a vários dias, o que também é consistente com o contexto clínico."
+    },
+    "BD73.21": {
+      "term_original": "salinizado",
+      "capitulo": "11",
+      "confidence_embedding": 0.7547,
+      "descricao_cid": "Representação de doença CID-11: Obstrução de veia visceral. Definição: Condição patológica pós-natal de uma veia visceral em que o fluxo é impedido ou bloqueado devido a estreitamento ou atresia.",
+      "classification_reasoning": "A presença de 'salinizado' no contexto clínico sugere a administração de uma solução salina via venosa, o que é comum em pacientes com obstrução de veia visceral."
+    }
+  }
+}

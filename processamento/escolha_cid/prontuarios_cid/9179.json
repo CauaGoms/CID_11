@@ -1,0 +1,76 @@
+{
+  "prontuario_id": 663,
+  "text": "Ha 2 meses com dor no tornozelo dir, apos torção. Nega trauma.\nDor desde entao.\n\nDor a palpaçao de tendao de aquiles dir.\nEspessamento proximal.\nSem Gap.\nThompson neg para lesão.\n\nhd: tendinose.\n\n\ncd: oriento, USG. retorno com exame.",
+  "entities": {
+    "Abreviação": [
+      "dir",
+      "Gap",
+      "USG"
+    ],
+    "Conceito Espacial": [
+      "dir"
+    ],
+    "Conceito Temporal": [
+      "apos",
+      "2 meses"
+    ],
+    "Lesão ou Envenenamento": [
+      "torção",
+      "trauma",
+      "lesão"
+    ],
+    "Negação": [
+      "Nega",
+      "Sem",
+      "neg"
+    ],
+    "Sinal ou Sintoma": [
+      "Dor",
+      "Espessamento proximal"
+    ],
+    "Procedimento Diagnóstico": [
+      "palpaçao",
+      "USG",
+      "exame"
+    ],
+    "Doença ou Síndrome": [
+      "tendinose"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "retorno"
+    ],
+    "Achado": [
+      "Espessamento proximal"
+    ]
+  },
+  "labels": {
+    "FB40.3": {
+      "term_original": "espessamento proximal",
+      "capitulo": "15",
+      "confidence_embedding": 0.7294,
+      "descricao_cid": "Representação de doença CID-11: Tendinite calcária. Definição: Este é um transtorno caracterizado pela deposição de hidroxiapatita em qualquer tendão do corpo, causando inflamação e dor.",
+      "classification_reasoning": "A dor na palpação de tendão de Aquiles direito e o espessamento proximal sugerem a presença de tendinose, caracterizada pela deposição de hidroxiapatita em qualquer tendão do corpo, causando inflamação e dor."
+    },
+    "ND14.73": {
+      "term_original": "lesão",
+      "capitulo": "22",
+      "confidence_embedding": 0.7987,
+      "descricao_cid": "Representação de doença CID-11: Distensão ou entorse de outro ligamento do tornozelo. Definição: ",
+      "classification_reasoning": "A dor no tornozelo direito com espessamento proximal e ausência de gap, associada a lesão, sugere uma distensão ou entorse de outro ligamento do tornozelo, o que justifica a escolha do código ND14.73."
+    },
+    "MG30.20": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7725,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-traumática. Definição: Dor pós-traumática crônica é a dor que se desenvolve ou aumenta de intensidade após uma lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após o traumatismo tecidual. A dor é ou localizada na área da lesão, ou referida no território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente por um problema doloroso preexistente.",
+      "classification_reasoning": "A dor crônica pós-traumática é a mais precisa opção para o termo 'dor' no contexto clínico, considerando a história de torção do tornozelo e dor desde então."
+    },
+    "ND14.Z": {
+      "term_original": "trauma",
+      "capitulo": "22",
+      "confidence_embedding": 0.7741,
+      "descricao_cid": "Representação de doença CID-11: Luxação ou distensão ou entorse das articulações ou ligamentos ao nível do tornozelo ou pé, não especificada. Definição: ",
+      "classification_reasoning": "A dor no tornozelo direito desde a torção e a negativa de trauma sugerem que a lesão pode ser uma entorse ou luxação do tornozelo, não especificada. Além disso, o termo 'trauma' encontrado no prontuário clínico apoia essa escolha."
+    }
+  }
+}

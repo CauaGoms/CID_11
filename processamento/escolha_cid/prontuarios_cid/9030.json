@@ -1,0 +1,36 @@
+{
+  "prontuario_id": 612,
+  "text": "# João, 25 anos.\n\n# Pós-Transplante.\n\n# Mantém queixas.\n\n# Exame físico sp.\n\n# Retiro Bactrim. Restante mantido. Retorno em 1 mês com exames.   ",
+  "entities": {
+    "Achado": [
+      "Pós-Transplante",
+      "Exame físico sp"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Retiro",
+      "Restante mantido"
+    ],
+    "Antibiótico": [
+      "Bactrim"
+    ],
+    "Abreviação": [
+      "Exame físico sp"
+    ]
+  },
+  "labels": {
+    "8A80.2": {
+      "term_original": "exame físico sp",
+      "capitulo": "08",
+      "confidence_embedding": 0.7165,
+      "descricao_cid": "Representação de doença CID-11: Enxaqueca crônica. Definição: Cefaleia que ocorre em 15 ou mais dias por mês por mais de três meses, que, em pelo menos oito dias por mês, tem características de cefaleia migranosa e não está associada ao uso excessivo de medicamentos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'exame físico sp' é a Enxaqueca crônica (Código: 8A80.2), pois a descrição da doença inclui sintomas como cefaleia, que é um dos principais motivos para realizar exames físicos em pacientes com doencas neurológicas."
+    },
+    "3B80": {
+      "term_original": "pós-transplante",
+      "capitulo": "03",
+      "confidence_embedding": 0.7125,
+      "descricao_cid": "Representação de doença CID-11: Transtornos congênitos do baço. Definição: Qualquer condição resultante da falha do baço em se desenvolver corretamente no período pré-natal.",
+      "classification_reasoning": "A opção mais precisa para o termo 'pós-transplante' é a condição de Transtornos congênitos do baço, pois o prontuário menciona um paciente com 25 anos que fez um transplante e apresenta queixas após isso. Isso sugere que o termo refere-se ao desenvolvimento ou complicações relacionadas ao transplante, e não a uma doença infecciosa ou inflamatória do baço."
+    }
+  }
+}

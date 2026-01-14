@@ -1,0 +1,176 @@
+{
+  "prontuario_id": 407,
+  "text": "HAS / DLP.\nBronquite,\nObesidade,\n# Tosse com captopril.\n\n# Losartana 100 /12h, anlodipino 5 , HCTZ 25, Alenia 6/6h.\n\n@ Melhora da dor torácica.\nDispnéia aos esforços (400 / 500 metros).\n\nTE 5,7 mets 108% Fc máxima.\n\nEF: BEG, corada, hidratada, eupneica, acinaotioca, anicterica.\ns/ sopro carotideo,\nMV + c/ sibilos expiratorios,\nBR2t s/ sopros,\nmembors perfundidos, sem edemas, dermatite ocre.\n\n\n Glicose 108; Hb glicada 5,78;\nPA 150/100.\n\n\nhD: Glicemia de JJ alterada.\n\nCD :MEV (dieta e alimentação).\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "HAS",
+      "DLP",
+      "HCTZ",
+      "TE",
+      "EF",
+      "BEG",
+      "s/",
+      "PA",
+      "hD",
+      "CD",
+      "MV +",
+      "Hb glicada 5 , 78",
+      "Glicemia de JJ alterada"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DLP",
+      "Bronquite",
+      "Obesidade"
+    ],
+    "Sinal ou Sintoma": [
+      "Tosse",
+      "acinaotioca",
+      "anicterica",
+      "sopros",
+      "edemas",
+      "Dispnéia aos esforços",
+      "sopro carotideo",
+      "sibilos expiratorios",
+      "dermatite ocre"
+    ],
+    "Substância Química Orgânica": [
+      "Losartana",
+      "anlodipino",
+      "Alenia"
+    ],
+    "Substância Farmacológica": [
+      "Losartana",
+      "anlodipino",
+      "HCTZ",
+      "Alenia"
+    ],
+    "Conceito Quantitativo": [
+      "100",
+      "5",
+      "25",
+      "150/100",
+      "400 / 500 metros"
+    ],
+    "Conceito Temporal": [
+      "/12h",
+      "6/6h"
+    ],
+    "Procedimento Diagnóstico": [
+      "EF"
+    ],
+    "Achado": [
+      "BEG",
+      "corada",
+      "hidratada",
+      "eupneica",
+      "Melhora da dor torácica",
+      "MV +"
+    ],
+    "Negação": [
+      "acinaotioca",
+      "anicterica",
+      "s/",
+      "sem"
+    ],
+    "Função Patológica": [
+      "edemas"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Produto Intelectual": [
+      "CD"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Glicose 108",
+      "Hb glicada 5 , 78"
+    ]
+  },
+  "labels": {
+    "NA90": {
+      "term_original": "edemas",
+      "capitulo": "22",
+      "confidence_embedding": 0.7938,
+      "descricao_cid": "Representação de doença CID-11: Concussão ou edema da medula espinhal torácica. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NA90, pois o termo 'edemas' está relacionado à concussão ou edema da medula espinhal torácica, o que coincide com o contexto clínico que descreve membros perifundidos e sem edemas. Além disso, a ausência de edemas mencionada no relatório clínico reforça essa escolha."
+    },
+    "3A70.1": {
+      "term_original": "anicterica",
+      "capitulo": "03",
+      "confidence_embedding": 0.78,
+      "descricao_cid": "Representação de doença CID-11: Anemias aplásticas adquiridas. Definição: Condição que ocorre secundária a outros transtornos ou por meio de uma reposta autoimune direcionada à medula óssea que surge após o nascimento. Esta doença é caracterizada por ausência quase completa das células tronco hematopoiéticas, resultando em níveis diminuídos de glóbulos vermelhos e brancos e plaquetas. Esta condição pode se manifestar com fadiga, infecções crônicas, tontura, fraqueza, dores de cabeça e episódios de sangramento, geralmente em pele e mucosas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'anicterica' é a anemia aplástica adquirida (Código CID-11: 3A70.1), pois essa condição está caracterizada por ausência quase completa das células tronco hematopoiéticas, resultando em níveis diminuídos de glóbulos vermelhos e brancos e plaquetas."
+    },
+    "8A45.30": {
+      "term_original": "sopro carotideo",
+      "capitulo": "08",
+      "confidence_embedding": 0.7208,
+      "descricao_cid": "Representação de doença CID-11: Transtorno da substância branca devido à deficiência de vitamina B12. Definição: Características neurológicas ocorrem em 40% dos pacientes com deficiência de vitamina B12. Degeneração combinada subaguda é uma complicação neurológica reversível potencial de deficiência de vitamina B12. Sintomas desenvolvem de forma insidiosa e as manifestações neuropáticas incluem parestesia distal, dormência, ataxia de marcha e diminuição da propriocepção dos membros inferiores, enquanto componente mielopático leva à prejuízo motor variável devido à disfunção do trato piramidal. Incontinência fecal e urinária com impotência e hipotensão postural podem ocorrer como parte da mielopatia. Manifestações centrais incluem confusão, depressão, alucinação progressiva e lentificação mental. Pode ocorrer e neuropatia óptica.",
+      "classification_reasoning": "A presença de sopro carotideo no prontuário sugere uma possibilidade de doença neurológica e o código 8A45.30, que refere-se a um transtorno da substância branca devido à deficiência de vitamina B12, é mais preciso para este termo dentro do contexto clínico."
+    },
+    "CA42 | Descrição: Representação de doença CID-11: Bronquite aguda. Definição: Doença aguda dos brônquios, geralmente causada por infecção bacteriana ou viral.": {
+      "term_original": "bronquite",
+      "capitulo": "12",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha do código CA42 se baseia no contexto clínico que menciona 'bronquite' e 'tosse com captopril', o que sugere uma doença aguda dos brônquios, possivelmente causada por infecção bacteriana ou viral."
+    },
+    "EB51": {
+      "term_original": "dermatite ocre",
+      "capitulo": "14",
+      "confidence_embedding": 0.786,
+      "descricao_cid": "Representação de doença CID-11: Lúpus eritematoso cutâneo crônico. Definição: Lúpus eritematoso cutâneo crônico (LECC) é caracterizado pela presença de placas cutâneas circunscritas apresentando graus variados de edema, eritema, descamação, tamponamento e atrofia folicular. Apresenta-se mais comumente como placas discoides envolvendo face, orelhas e couro cabeludo, mas pode ser amplamente disseminada ou acometer predominantemente extremidades (lúpus Chilblain) ou a gordura subcutânea (paniculite lúpica). Pode causar desfiguração acentuada com cicatrizes faciais proeminentes e perda de cabelo permanente. A maioria dos pacientes permanece com boa saúde, mas 5-10% podem desenvolver lúpus eritematoso sistêmico. A fotossensibilidade é menos evidente do que no lúpus eritematoso cutâneo subagudo.",
+      "classification_reasoning": "A escolha pela dermatite lúpus eritematoso cutâneo crônico (LECC) é justificada pelo fato de a paciente apresentar 'dermatite ocre', um sintoma comum nessa doença, que caracteriza-se por placas cutâneas circunscritas com graus variados de edema, eritema, descamação e atrofia folicular."
+    },
+    "CA23.00": {
+      "term_original": "sopros",
+      "capitulo": "12",
+      "confidence_embedding": 0.7563,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide.",
+      "classification_reasoning": "A presença de sopros em um paciente com bronquite, obesidade e uso de medicação para hipertensão arterial e anti-hiperlipidemia sugere a possibilidade de asma alérgica com exacerbação, levando à escolha do código CA23.00."
+    },
+    "MF95": {
+      "term_original": "mv +",
+      "capitulo": "21",
+      "confidence_embedding": 0.7652,
+      "descricao_cid": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular.",
+      "classification_reasoning": "A presença do termo 'mv+' no contexto sugeriu a presença de mioglobinúria, caracterizada pela presença de mioglobina na urina. Isso está relacionado à obesidade e ao aumento da pressão arterial (150/100) mencionados anteriormente."
+    },
+    "BD10": {
+      "term_original": "dlp",
+      "capitulo": "11",
+      "confidence_embedding": 0.7468,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos.",
+      "classification_reasoning": "A escolha pelo código BD10 (Insuficiência cardíaca congestiva) se baseia na presença de sintomas como dor torácica, dispnéia aos esforços e pressão arterial elevada (PA 150/100), o que sugere uma insuficiência cardíaca. Além disso, a terapêutica com losartana, anlodipino e HCTZ é consistente com um tratamento para hipertensão e insuficiência cardíaca congestiva."
+    },
+    "CA42.3": {
+      "term_original": "tosse",
+      "capitulo": "12",
+      "confidence_embedding": 0.7791,
+      "descricao_cid": "Representação de doença CID-11: Bronquite aguda devida a vírus parainfluenza. Definição: Doenças dos brônquios, causada por infecção aguda por vírus parainfluenza. Esta doença é caracterizada por inflamação aguda dos brônquios, levando a tosse, produção de catarro, chieira torácica ou falta de ar. A transmissão ocorre por inalação de secreções respiratórias infectadas, por contato direto ou por meio de fômites. A confirmação é feita pela identificação do vírus parainfluenza nas secreções respiratórias, pela detecção de elevação significativa de anticorpos IgG específicos para o parainfluenza em amostras pareadas de soro ou pela detecção de IgM específica para o parainfluenza em uma única amostra de soro.",
+      "classification_reasoning": "A presença de tosse e dispnéia aos esforços, associada à bronquite e obesidade, sugere uma possível bronquite aguda devida a vírus parainfluenza."
+    },
+    "MG43.5": {
+      "term_original": "has",
+      "capitulo": "21",
+      "confidence_embedding": 0.7667,
+      "descricao_cid": "Representação de doença CID-11: Perda de peso excessiva. Definição: Redução da massa corporal total, devido à perda de fluido, gordura corporal ou tecido adiposo, ou massa magra (muscular) que é em quantidade suficiente para criar risco para a saúde do indivíduo.",
+      "classification_reasoning": "A opção mais precisa é a MG43.5, pois o termo 'has' refere-se à obesidade, que é caracterizada pela perda de peso excessiva."
+    },
+    "MG30.3": {
+      "term_original": "melhora da dor torácica",
+      "capitulo": "21",
+      "confidence_embedding": 0.7556,
+      "descricao_cid": "Representação de doença CID-11: Dor musculoesquelética secundária crônica. Definição: Dor musculoesquelética secundária crônica é u a dor crônica que surge de osso(s), articulação(ões), músculo(s), coluna vertebral, tendão(ões) ou tecido(s) mole(s) relacionado(s). É um grupo heterogêneo de condições dolorosas crônicas originadas de nocicepção persistente em articulações, ossos, músculos, coluna vertebral, tendões e tecidos moles relacionados, com etiologias locais e sistêmicas, mas também relacionadas a lesões somáticas profundas. A dor pode ser espontânea ou induzida por movimento.",
+      "classification_reasoning": "A dor torácica melhorou com o tratamento, sugerindo que a bronquite é a principal causa da dor e que o tratamento está controlando os sintomas."
+    },
+    "5B81.0": {
+      "term_original": "obesidade",
+      "capitulo": "05",
+      "confidence_embedding": 0.8301,
+      "descricao_cid": "Representação de doença CID-11: Obesidade devido a desequilíbrio energético. Definição: A obesidade é uma doença crônica e complexa, definida por adiposidade excessiva que pode prejudicar a saúde. Na maioria dos casos, é uma doença multifatorial devido a ambientes obesogênicos, fatores psicossociais e variantes genéticas. Em um subgrupo de pacientes, fatores etiológicos principais únicos podem ser identificados (doenças, imobilização, procedimentos iatrogênicos, doença monogênica / síndrome genética).",
+      "classification_reasoning": "A escolha é por ser a obesidade descrita como uma doença crônica e complexa, definida por adiposidade excessiva que pode prejudicar a saúde, e o contexto clínico apresentado sugere que se trata de obesidade devido a desequilíbrio energético."
+    }
+  }
+}

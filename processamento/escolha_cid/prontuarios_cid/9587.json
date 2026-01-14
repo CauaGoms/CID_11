@@ -1,0 +1,163 @@
+{
+  "prontuario_id": 960,
+  "text": "POS TX RENAL.\nPOS TX RENAL - CR 1,1 - NS FK 4,0.\nHAS COMPENSADA.\nDSLO.\nDAC - ATC COM STENT.\nTX RENAL EM 2010 DC.\nDAC - CAT EM NOV/2014 E FEV/2015.\nUSO DE: MTC 5, FK 2 / 2, MS 1 / 1 / 1, CVD 6,25  X2, SOMALGIN, OMZ 20, CLOPIDOGREL 75, LST 50 X1, CACO 3 500, METOPROLOL 25 X2, ROSUVASTATINA 10, \nO # BEG, CORADA, HIDRATADA.\nPA 140/80,  FC 64.\nMV POSITIVO, SIMETRICO.\nBCRNF.\nABDOMEN FLACIDO, INDOLOR, SEM MASSAS, RHA POSITIVOS.\nMEMBROS - DOR DIFUSA EM COXAS.",
+  "entities": {
+    "Abreviação": [
+      "DSLO",
+      "DAC",
+      "DC",
+      "CAT",
+      "MTC",
+      "FK",
+      "MS",
+      "CVD",
+      "OMZ",
+      "LST",
+      "CACO",
+      "BEG",
+      "PA",
+      "FC",
+      "BCRNF",
+      "TX RENAL",
+      "CR 1 , 1",
+      "NS FK 4 , 0",
+      "HAS COMPENSADA",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Doença ou Síndrome": [
+      "DSLO",
+      "DAC",
+      "HAS COMPENSADA"
+    ],
+    "Dispositivo Médico": [
+      "STENT"
+    ],
+    "Grupo Populacional": [
+      "DC"
+    ],
+    "Procedimento Diagnóstico": [
+      "CAT"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CAT",
+      "TX RENAL"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "FK",
+      "CVD",
+      "SOMALGIN",
+      "OMZ",
+      "CLOPIDOGREL",
+      "LST",
+      "CACO",
+      "METOPROLOL",
+      "ROSUVASTATINA"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "FK",
+      "MS",
+      "CVD",
+      "OMZ",
+      "CLOPIDOGREL",
+      "LST",
+      "METOPROLOL",
+      "ROSUVASTATINA"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "20",
+      "75",
+      "10",
+      "140/80",
+      "64",
+      "2 / 2",
+      "1 / 1 / 1",
+      "6 , 25 X2",
+      "50 X1",
+      "3 500",
+      "25 X2"
+    ],
+    "Antibiótico": [
+      "MS"
+    ],
+    "Achado": [
+      "BEG",
+      "CORADA",
+      "HIDRATADA",
+      "SIMETRICO",
+      "BCRNF",
+      "FLACIDO",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABDOMEN",
+      "MEMBROS",
+      "COXAS"
+    ],
+    "Negação": [
+      "INDOLOR",
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "INDOLOR",
+      "MASSAS",
+      "DOR DIFUSA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 1 , 1",
+      "NS FK 4 , 0"
+    ]
+  },
+  "labels": {
+    "XM5US2": {
+      "term_original": "baclofen",
+      "capitulo": "X",
+      "confidence_embedding": 0.7185,
+      "descricao_cid": "Representação de doença CID-11: Baclofeno. Definição: ",
+      "classification_reasoning": "A escolha pelo código XM5US2 é justificada pela presença do termo 'baclofen' no contexto clínico, o que sugere a utilização de este medicamento em tratamento da doença renal. O código XM5US2 representa a representação de doença CID-11: Baclofeno, definido como um fármaco utilizado para tratar sintomas de espasticidade e dor neuropática."
+    },
+    "DD50": {
+      "term_original": "flacido",
+      "capitulo": "13",
+      "confidence_embedding": 0.71,
+      "descricao_cid": "Representação de doença CID-11: Hérnia de parede não abdominal. Definição: Hérnia que ocorre através do forame no diafragma, na parede pélvica e em outra abertura coberta por peritônio mas não através da parede abdominal.",
+      "classification_reasoning": "A opção mais precisa para o termo 'flacido' é a hérnia de parede não abdominal, pois 'flácido' pode se referir à ausência de resistência ou tensão na parede abdominal, características da hérnia"
+    },
+    "MF56": {
+      "term_original": "dslo",
+      "capitulo": "21",
+      "confidence_embedding": 0.7892,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A dor difusa em coxas descrita no contexto sugere uma possível cólica renal, justificando a escolha do código MF56."
+    },
+    "BD71.2": {
+      "term_original": "mv positivo",
+      "capitulo": "11",
+      "confidence_embedding": 0.7375,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A opção mais precisa para o termo 'mv positivo' é a trombose da veia renal (BD71.2), pois a expressão 'mv positivo' indica a presença de uma lesão ou doença na veia renal."
+    },
+    "FA25": {
+      "term_original": "dor difusa",
+      "capitulo": "15",
+      "confidence_embedding": 0.7223,
+      "descricao_cid": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato.",
+      "classification_reasoning": "A dor difusa na Coxas é mais consistente com a gota, doença caracterizada por dor articular aguda ou crônica, o que é compatível com o contexto clínico de pacientes com doenças renais e histórico de tratamento renal."
+    },
+    "XA3200": {
+      "term_original": "simetrico",
+      "capitulo": "X",
+      "confidence_embedding": 0.7487,
+      "descricao_cid": "Representação de doença CID-11: Veia renal. Definição: ",
+      "classification_reasoning": "A descrição do código XA3200 - Veia renal - se ajusta ao termo 'simetrico', pois refere-se à morfologia anatômica da veia renal, que é simétrica em relação ao corpo."
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "prontuario_id": 700,
+  "text": "01:25HS: PCTE POI DE FIXAÇÃO DE FRATURA DE FEMUR ESQUERDO, CTVO CIRURGICO LIMPO E SECO EXTERNAMENTE, LUCIDO, COMUNICTIVO, EUPNEICO, REFERINDO ALGIA C/ MELHORA APÓS MEDICADO, BOA ACEITAÇÃO DE DIETA, ACESSO VENOSO PERIFÉRICO C/ SOROTERAPIA EM CURSO, MANTENDO REPOUSO NO LEITO, DIURESE ESPONTANEA, SEGUE SOB CUIDADOS. FRATURAS MULTIPLAS DO FEMUR.",
+  "entities": {
+    "Abreviação": [
+      "PCTE",
+      "CTVO CIRURGICO LIMPO E SECO"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PCTE"
+    ],
+    "Conceito Temporal": [
+      "POI"
+    ],
+    "Achado": [
+      "LUCIDO",
+      "COMUNICTIVO",
+      "EUPNEICO",
+      "CTVO CIRURGICO LIMPO E SECO",
+      "MELHORA APÓS MEDICADO",
+      "BOA ACEITAÇÃO DE DIETA",
+      "DIURESE ESPONTANEA"
+    ],
+    "Sinal ou Sintoma": [
+      "ALGIA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "FIXAÇÃO DE FRATURA",
+      "SOROTERAPIA EM CURSO",
+      "REPOUSO NO LEITO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "FEMUR ESQUERDO"
+    ],
+    "Dispositivo Médico": [
+      "ACESSO VENOSO PERIFÉRICO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "SOB CUIDADOS"
+    ],
+    "Lesão ou Envenenamento": [
+      "FRATURAS MULTIPLAS DO FEMUR"
+    ]
+  },
+  "labels": {
+    "FB81": {
+      "term_original": "ctvo cirurgico limpo e seco",
+      "capitulo": "15",
+      "confidence_embedding": 0.7168,
+      "descricao_cid": "Representação de doença CID-11: Osteonecrose. Definição: Osteonecrose é o termo médico usado para a morte do tecido ósseo que ocorre quando o suprimento sanguíneo para o osso é interrompido por algum motivo. Os médicos algumas vezes se referem a esta condição como necrose avascular, necrose asséptica ou necrose isquêmica do osso.",
+      "classification_reasoning": "A opção mais precisa para o termo 'ctvo cirurgico limpo e seco' é a osteonecrose (Código FB81), pois a definição de osteonecrose refere-se à morte do tecido ósseo, que é característica da fixação de fratura do fémur descrita no contexto clínico. Além disso, a descrição de FA38 não se relaciona com o termo 'ctvo cirurgico limpo e seco', enquanto as outras opções também não são relevantes para este contexto."
+    },
+    "ME83": {
+      "term_original": "algia",
+      "capitulo": "21",
+      "confidence_embedding": 0.7521,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo, não especificado. Definição: É um grupo de doenças marcadas por inflamação ou dor em estruturas de tecido conjuntivo do corpo e é considerado não especificado.",
+      "classification_reasoning": "A opção ME83 foi escolhida pois a palavra 'algia' se refere à dor ou sensação de dor, e o reumatismo não especificado é uma doença caracterizada por inflamação ou dor em estruturas de tecido conjuntivo do corpo."
+    },
+    "MA32.3": {
+      "term_original": "fraturas multiplas do femur",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'fraturas multiplas do femur' é a Fratura múltipla da tíbia (FA32.3), que é uma condição caracterizada por uma lesão múltipla nos ossos longos, incluindo o fémur."
+    }
+  }
+}

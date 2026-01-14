@@ -1,0 +1,153 @@
+{
+  "prontuario_id": 257,
+  "text": "22:30 h s- Glasgow 3, pupilas midriáticas, SOG aberta com pouca estase de aspecto bilioso, entubado com TOT 8, rima 26, em VM, modo PCV, Pi 26, PEEP 5, FiO2 100%, secreção traqueobrônquica mucosa em pouca quantidade, acesso venoso central em jugular interna D com plano básico de hidratação, monitorizado, MV+ sem R/A, abdome plano, flácido, RHA +, mantendo curativo compressivo em região inguinal D, SVD com diurese efetiva, extremidades bem perfundidas, higienizado, pele íntegra. Enfermeira Florence Nightingale  ACIDENTE VASCULAR CEREBRAL NÃO ESPECIFICADO COMO HEMORRÁGICO OU ISQUÊMICO",
+  "entities": {
+    "Achado": [
+      "entubado",
+      "monitorizado",
+      "MV+",
+      "plano",
+      "flácido",
+      "higienizado",
+      "secreção traqueobrônquica mucosa",
+      "RHA +",
+      "diurese efetiva",
+      "extremidades bem perfundidas",
+      "pele íntegra"
+    ],
+    "Localização ou Região Corporal": [
+      "rima",
+      "abdome",
+      "região inguinal D"
+    ],
+    "Conceito Quantitativo": [
+      "26",
+      "5",
+      "100%"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "VM",
+      "Pi",
+      "PEEP",
+      "FiO2",
+      "SVD",
+      "higienizado",
+      "SOG aberta",
+      "modo PCV",
+      "acesso venoso central",
+      "plano básico de hidratação",
+      "curativo compressivo"
+    ],
+    "Abreviação": [
+      "VM",
+      "Pi",
+      "PEEP",
+      "FiO2",
+      "MV+",
+      "R/A",
+      "SVD",
+      "SOG aberta",
+      "TOT 8",
+      "modo PCV",
+      "jugular interna D",
+      "RHA +",
+      "região inguinal D"
+    ],
+    "Procedimento Diagnóstico": [
+      "monitorizado"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "R/A",
+      "Glasgow 3",
+      "pupilas midriáticas",
+      "pouca estase",
+      "aspecto bilioso"
+    ],
+    "Dispositivo Médico": [
+      "SVD",
+      "TOT 8",
+      "acesso venoso central",
+      "curativo compressivo"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Conceito Qualitativo": [
+      "pouca estase",
+      "pouca quantidade"
+    ],
+    "Substância Corporal": [
+      "secreção traqueobrônquica mucosa"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "jugular interna D"
+    ],
+    "Função Fisiológica": [
+      "diurese efetiva"
+    ],
+    "Doença ou Síndrome": [
+      "ACIDENTE VASCULAR CEREBRAL"
+    ]
+  },
+  "labels": {
+    "NA60.20": {
+      "term_original": "glasgow 3",
+      "capitulo": "22",
+      "confidence_embedding": 0.7608,
+      "descricao_cid": "Representação de doença CID-11: Laceração da veia jugular externa, menor. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a laceração da veia jugular externa, menor (NA60.20), pois o prontuário menciona 'acesso venoso central em jugular interna D'. Além disso, a presença de Glasgow 3 sugere um paciente com lesão cerebral, e a injecção de líquido no ânulo jugular externo pode ter causado a laceração da veia jugular externa."
+    },
+    "ME01": {
+      "term_original": "pouca estase",
+      "capitulo": "21",
+      "confidence_embedding": 0.7638,
+      "descricao_cid": "Representação de doença CID-11: Distensão abdominal. Definição: Esta é uma condição em que o abdômen parece cheio e tenso por causa do inchaço do abdômen, geralmente devido a um aumento da quantidade de gases intestinais, mas ocorre às vezes quando fluidos, substâncias ou massa estão se acumulando ou se expandindo no abdômen.",
+      "classification_reasoning": "A opção ME01 é a mais precisa para o termo 'pouca estase' no contexto do prontuário, pois a definição de Distensão abdominal (ME01) inclui a possibilidade de inchaço do abdômen, que poderia estar relacionado à pouca estase mencionada no prontuário. Além disso, a descrição da condição ME01 se refere ao aumento da quantidade de gases intestinais ou fluidos, substâncias ou massa acumulando-se no abdômen, o que é consistente com a menor quantificação de estase descrita."
+    },
+    "CB05.41": {
+      "term_original": "secreção traqueobrônquica mucosa",
+      "capitulo": "12",
+      "confidence_embedding": 0.7891,
+      "descricao_cid": "Representação de doença CID-11: Transtornos respiratórios na poliangeíte microscópica. Definição: Abrange condições patológicas que afetam órgãos e tecidos que possibilitam a troca gasosa em organismos superiores, e inclui condições do trato respiratório superior, traqueia, brônquios e bronquíolos, alvéolos pleura e cavidade pleural, nervos e músculos envolvidos na respiração. Este diagnóstico é quando há uma doença autoimune mal definida caracterizada por uma vasculite sistêmica, pauci-imune, necrotizante, de pequenos vasos sem evidência clínica ou patológica de uma inflamação granulomatosa necrotizante.",
+      "classification_reasoning": "A presença de 'secreção traqueobrônquica mucosa' e a caracterização do paciente com ACSVN não especificado sugere que o termo está relacionado à doença pulmonar, mais precisamente à poliangeíte microscópica."
+    },
+    "8D8A.2": {
+      "term_original": "pupilas midriáticas",
+      "capitulo": "08",
+      "confidence_embedding": 0.7836,
+      "descricao_cid": "Representação de doença CID-11: Anisocoria episódica. Definição: Este é um grupo de transtornos em que movimentos pupilares periódicos levam a mudanças de tamanho. Isso ocorre devido ao tônus parassimpático ou simpático anormal.",
+      "classification_reasoning": "Escolhi o código 8D8A.2 devido à descrição de 'pupilas midriáticas' no prontuário, que é característica de anisocoria episódica. Isso é um transtorno em que movimentos pupilares periódicos levam a mudanças de tamanho, o que está relacionado à tônus parassimpático ou simpático anormal."
+    },
+    "NC56.5Z": {
+      "term_original": "entubado",
+      "capitulo": "22",
+      "confidence_embedding": 0.7879,
+      "descricao_cid": "Representação de doença CID-11: Lesão do vaso sanguíneo do outro dedo da mão, não especificada. Definição: ",
+      "classification_reasoning": "A paciente está entubada, o que sugere uma intervenção invasiva para manter a via aérea aberta. A lesão vascular cerebral não especificado como hemorrágico ou isquêmico pode estar relacionada à lesão do vaso sanguíneo do outro dedo da mão (NC56.5Z), considerando a presença de entubação."
+    },
+    "CA22.0": {
+      "term_original": "aspecto bilioso",
+      "capitulo": "12",
+      "confidence_embedding": 0.7522,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A presença de 'aspecto bilioso' na SOG sugere a possibilidade de hemorragia interna, o que é característico de uma doença pulmonar obstrutiva crônica com exacerbação aguda (DPOC). Além disso, os sintomas descritos no prontuário também são compatíveis com DPOC."
+    },
+    "NA07.8": {
+      "term_original": "acidente vascular cerebral",
+      "capitulo": "22",
+      "confidence_embedding": 0.761,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia traumática no tecido cerebral. Definição: ",
+      "classification_reasoning": "A história de acidente vascular cerebral não especificado, associada a lesão cerebral e presença de hemorragia na secreção traqueobrônquica biliosa, sugere uma lesão vascular no tecido cerebral, o que justifica a escolha do código NA07.8 para representação da doença"
+    },
+    "MF40.3": {
+      "term_original": "r/a",
+      "capitulo": "21",
+      "confidence_embedding": 0.7788,
+      "descricao_cid": "Representação de doença CID-11: Ejaculação retrógrada. Definição: A ejaculação retrógrada é uma condição na qual o sêmen, que normalmente é ejaculado pela uretra, é redirecionado para a bexiga urinária. A ejaculação retrógrada é tipicamente acompanhada por orgasmo subjetivo, embora o homem possa notar que a liberação de sêmen é limitada ou ausente. A ejaculação retrógrada ocorre mais comumente como uma complicação da ressecção transuretral da próstata, porém também pode ser causada por outra cirurgia pélvica, disfunção do sistema nervoso ou uso de agentes farmacológicos. A confirmação é feita pela identificação de espermatozoides em uma amostra de urina.",
+      "classification_reasoning": "A opção MF40.3 - Ejaculação retrógrada é a mais precisa para o termo 'r/a' no contexto clínico, pois a expressão 'r/a' é comummente utilizada em enfermagem para se referir ao efeito residual do método de eliminação (ejaculação retrógrada). Nesse sentido, a escolha MF40.3 como mais precisa para o termo 'r/a' no contexto clínico."
+    }
+  }
+}

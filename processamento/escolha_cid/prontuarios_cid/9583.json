@@ -1,0 +1,78 @@
+{
+  "prontuario_id": 695,
+  "text": "sem queixas.\nsente-se bem.\n# hoje avaliação exclusiva de mp\n# mp camara-dupla\n# programado em modo ddd\n# bat ok\n# para eri = 2 meses\n# a - imp = 388, sense = 5,0, clv - menor que 1,0 x 0,4\n# v - imp = 395, sense = 11,5, clv = menor que 1,0 x 0,4\n# cd =  retorno como encaixe para avaliar bat - pcte ciente que NÃO PODE DIXAR DE VIR, se intercorrencias = procura direta.\n ",
+  "entities": {
+    "Negação": [
+      "sem",
+      "NÃO"
+    ],
+    "Sinal ou Sintoma": [
+      "queixas",
+      "intercorrencias"
+    ],
+    "Conceito Temporal": [
+      "hoje",
+      "2 meses"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "avaliação",
+      "programado",
+      "cd",
+      "retorno",
+      "encaixe",
+      "procura direta"
+    ],
+    "Dispositivo Médico": [
+      "mp"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "mp"
+    ],
+    "Abreviação": [
+      "mp",
+      "eri",
+      "bat",
+      "pcte",
+      "modo ddd",
+      "bat ok"
+    ],
+    "Atributo Clínico": [
+      "eri",
+      "bat"
+    ],
+    "Conceito Quantitativo": [
+      "388",
+      "395",
+      "5 , 0",
+      "menor que 1 , 0 x 0 , 4",
+      "11 , 5"
+    ],
+    "Achado": [
+      "sente-se bem",
+      "PODE DIXAR DE VIR"
+    ]
+  },
+  "labels": {
+    "ME66.4": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7398,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa relativos às unhas. Definição: Termo muito inespecífico para indicar um problema real ou percebido afetando as unhas das mãos ou dos pés, e que não pode ser codificado com mais precisão em outra parte.",
+      "classification_reasoning": "A opção ME66.4 é a mais precisa para o termo 'queixas' no contexto clínico, pois refere-se a sintomas ou queixas relativos às unhas, o que está relacionado ao Termo Extraído."
+    },
+    "PA83.2": {
+      "term_original": "pode dixar de vir",
+      "capitulo": "23",
+      "confidence_embedding": 0.7067,
+      "descricao_cid": "Representação de doença CID-11: Corte ou perfuração não intencional por outro ou não especificado objeto cortante ou perfurante. Definição: ",
+      "classification_reasoning": "A opção PA83.2 é a mais precisa para o termo 'pode dixar de vir' porque refere-se a corte ou perfuração não intencional por outro ou não especificado objeto cortante ou perfurante, o que sugere que a pessoa pode ser lesionada ou ferida em algum momento."
+    },
+    "NC30.3": {
+      "term_original": "intercorrencias",
+      "capitulo": "22",
+      "confidence_embedding": 0.698,
+      "descricao_cid": "Representação de doença CID-11: Contusão de outras parte ou parte não especificada do antebraço. Definição: ",
+      "classification_reasoning": "A palavra-chave 'intercorrencias' provavelmente se refere a lesões ou contusões em diferentes partes do corpo, e o código NC30.3 - Representação de doença CID-11: Contusão de outras parte ou parte não especificada do antebraço - melhor se ajusta ao contexto clínico"
+    }
+  }
+}

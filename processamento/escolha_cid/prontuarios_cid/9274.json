@@ -1,0 +1,54 @@
+{
+  "prontuario_id": 406,
+  "text": "JOÃO, 21 ANOS,\n\nPO DE FX ARTICULAR DE TIBIA EM 26/06/15.\n\nREFERE DOR NO LOCAL, BOA CICATRIZAÇÃO, BOA MOBILIDADE.\n \n \n \n ",
+  "entities": {
+    "Conceito Temporal": [
+      "ANOS",
+      "PO"
+    ],
+    "Abreviação": [
+      "PO",
+      "FX ARTICULAR DE TIBIA"
+    ],
+    "Lesão ou Envenenamento": [
+      "FX ARTICULAR DE TIBIA"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR NO LOCAL"
+    ],
+    "Achado": [
+      "BOA CICATRIZAÇÃO",
+      "BOA MOBILIDADE"
+    ]
+  },
+  "labels": {
+    "FA02.2": {
+      "term_original": "boa cicatrização",
+      "capitulo": "15",
+      "confidence_embedding": 0.7821,
+      "descricao_cid": "Representação de doença CID-11: Outra osteoartrite secundária do punho ou mão. Definição: ",
+      "classification_reasoning": "A frase 'boa cicatrização' sugere que o paciente apresentou alguma lesão ou trauma no local, e a cicatrização está bem adiantada. Com isso, a opção mais precisa é FA02.2, que se refere à osteoartrite secundária em outro local, como a tibia (no caso, FX articulare de tibia)."
+    },
+    "FA03.2": {
+      "term_original": "boa mobilidade",
+      "capitulo": "15",
+      "confidence_embedding": 0.7187,
+      "descricao_cid": "Representação de doença CID-11: Outra osteoartrite secundária de outra articulação especificada. Definição: ",
+      "classification_reasoning": "A opção FA03.2 é a mais precisa para o termo 'boa mobilidade' no contexto clínico, pois refere-se a outra osteoartrite secundária de outra articulação especificada, que não específica a tibia, mas pode estar relacionada à boa mobilidade da articulação."
+    },
+    "NC72.66": {
+      "term_original": "fx articular de tibia",
+      "capitulo": "22",
+      "confidence_embedding": 0.7708,
+      "descricao_cid": "Representação de doença CID-11: Fratura da extremidade distal do fêmur estendendo-se para a articulação, completa articular. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a fratura da extremidade distal do fêmur estendendo-se para a articulação, completa articular (NC72.66), pois o termo 'fx articular de tibia' sugere uma lesão específica na articulação tibio-talar, que é a característica principal da definição do código NC72.66."
+    },
+    "MG31.2": {
+      "term_original": "dor no local",
+      "capitulo": "21",
+      "confidence_embedding": 0.7541,
+      "descricao_cid": "Representação de doença CID-11: Dor pós-operatória aguda, não classificada em outra parte. Definição: Dor no local da intervenção ou causada por uma intervenção cirúrgica.",
+      "classification_reasoning": "A dor no local está relacionada à intervenção cirúrgica realizada em 26/06/15, o que indica uma dor pós-operatória aguda não classificada em outra parte."
+    }
+  }
+}

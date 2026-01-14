@@ -1,0 +1,61 @@
+{
+  "prontuario_id": 192,
+  "text": "Maria, 37 anos, doméstica.\nQP: retorno de consulta 10/12 para resultado anatomop de 19/09 (em incisão PO bariátrica 2012).\nDor e ânsia pós-prandial diariamente, tbm em esforço físico.\n\n# refere dor abdominal após alimentação + nauseas. \n\n# solicito retorno em 15 dias para visualizar ap. solicito usg de abdomen.",
+  "entities": {
+    "Grupo Profissional ou Ocupacional": [
+      "doméstica"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "retorno"
+    ],
+    "Lesão ou Envenenamento": [
+      "incisão"
+    ],
+    "Conceito Temporal": [
+      "PO",
+      "diariamente",
+      "37 anos",
+      "15 dias"
+    ],
+    "Abreviação": [
+      "PO",
+      "ap",
+      "resultado anatomop",
+      "usg de abdomen"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "bariátrica"
+    ],
+    "Sinal ou Sintoma": [
+      "Dor",
+      "nauseas",
+      "ânsia pós-prandial",
+      "em esforço físico"
+    ],
+    "Conceito Quantitativo": [
+      "37 anos"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "resultado anatomop"
+    ],
+    "Procedimento Diagnóstico": [
+      "usg de abdomen"
+    ]
+  },
+  "labels": {
+    "DD91.4": {
+      "term_original": "dor",
+      "capitulo": "13",
+      "confidence_embedding": 0.8061,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da dor abdominal funcional. Definição: Síndrome da dor abdominal funcional representa uma síndrome dolorosa atribuída ao abdome que está fracamente relacionada à função intestinal, está associada a alguma perda das atividades diárias e está presente há pelo menos 6 meses. A dor é constante, quase constante ou pelo menos recorrente. Também há a falta de relação dos sintomas com a ingestão de alimentos ou defecação.",
+      "classification_reasoning": "A dor abdominal diária pós-prandial e em esforço físico, sem relação com a ingestão de alimentos ou defecação, é consistente com a Síndrome da Dor Abdominal Funcional (DD91.4). A falta de correlação entre os sintomas e as condições mencionadas anteriormente também apoia essa escolha."
+    },
+    "MD81.1Z": {
+      "term_original": "incisão",
+      "capitulo": "21",
+      "confidence_embedding": 0.8059,
+      "descricao_cid": "Representação de doença CID-11: Dor abdominal localizada, não especificada. Definição: ",
+      "classification_reasoning": "A dor abdominal localizada, não especificada (MD81.1Z) é a opção mais precisa para o termo 'incisão' no contexto clínico, pois a incisão PO bariátrica realizada em 2012 está relacionada à dor abdominal após alimentação e esforço físico."
+    }
+  }
+}

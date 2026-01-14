@@ -1,0 +1,146 @@
+{
+  "prontuario_id": 743,
+  "text": "# IAM ínfero-lateral distal com acometimento de VD. # HAS . # Osteoartrose de joelho D.  Paciente encaminhada de XXXX, chega à EME - XXXX com quadro de IAM com supra de ST em 26/set/06. Foi submetida à ACTP primária e stent (tempo de evolução 9h) com recanalização da CD em seu treço prox, com sucesso angiográfico. Evolui de forma satisfatória e recebe alta com as seguintes medicações:  1) Ticlopidina 250mg VO 12/12h durante 30 dias, 2) AAS 100mg 1cp VO no almoço - contínuo 3), Metoprolol tartarato 25mg VO 1cp de 12/12h - contínuo 4), HCTZ 25mg VO 1 cp pela manhã - contínuo 5), Sinvastatina 40mg VO 1cp à noite.  Plano: - Retorno ao ambulatório de Cardiologia - XXXX - Otimizar tratamento para CI e prevenção secundária. - Solicito TSH para ser visto em consulta ambulatorial. - Avaliar necessidade de uso de anti-depressivo. - Retorno à Emergência de necessário. ",
+  "entities": {
+    "Abreviação": [
+      "IAM",
+      "HAS",
+      "EME",
+      "ACTP",
+      "CD",
+      "VO",
+      "AAS",
+      "HCTZ",
+      "1cp",
+      "TSH",
+      "acometimento de VD",
+      "joelho D",
+      "1 cp"
+    ],
+    "Doença ou Síndrome": [
+      "IAM",
+      "HAS",
+      "Osteoartrose"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "encaminhada",
+      "alta",
+      "Plano",
+      "Retorno",
+      "Solicito",
+      "consulta ambulatorial"
+    ],
+    "Organização Relacionada à Saúde": [
+      "EME",
+      "ambulatório de Cardiologia"
+    ],
+    "Procedimento Diagnóstico": [
+      "ACTP"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ACTP",
+      "stent",
+      "recanalização",
+      "prevenção secundária"
+    ],
+    "Conceito Qualitativo": [
+      "primária"
+    ],
+    "Dispositivo Médico": [
+      "stent"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "CD"
+    ],
+    "Substância Farmacológica": [
+      "medicações",
+      "Ticlopidina",
+      "AAS",
+      "HCTZ",
+      "Sinvastatina",
+      "Metoprolol tartarato"
+    ],
+    "Substância Química Orgânica": [
+      "Ticlopidina",
+      "AAS",
+      "HCTZ",
+      "Sinvastatina"
+    ],
+    "Conceito Quantitativo": [
+      "250mg",
+      "25mg",
+      "1cp",
+      "40mg",
+      "1 cp"
+    ],
+    "Conceito Temporal": [
+      "12/12h",
+      "almoço",
+      "contínuo",
+      "manhã",
+      "noite",
+      "tempo de evolução 9h",
+      "30 dias"
+    ],
+    "Produto Intelectual": [
+      "Plano"
+    ],
+    "Achado": [
+      "Plano",
+      "sucesso angiográfico",
+      "Evolui de forma satisfatória"
+    ],
+    "Procedimento Laboratorial": [
+      "TSH"
+    ],
+    "Localização ou Região Corporal": [
+      "ínfero-lateral distal"
+    ],
+    "Sinal ou Sintoma": [
+      "acometimento de VD"
+    ],
+    "Espaço ou Junção Corporal": [
+      "joelho D"
+    ]
+  },
+  "labels": {
+    "FA01.0": {
+      "term_original": "osteoartrose",
+      "capitulo": "15",
+      "confidence_embedding": 0.7927,
+      "descricao_cid": "Representação de doença CID-11: Osteoartrite primária do joelho. Definição: Osteoartrite primária ocorrendo em uma articulação do joelho de outra forma intacta, envolvendo degeneração relacionada geneticamente, relacionada à idade ou relacionada ao uso com alterações anatômicas microscópicas e macroscópicas, que, em última análise, limitam o movimento em uma ou mais articulações. As alterações na articulação incluem aumento da perda de cartilagem e transformação óssea, como esclerose, formação de osteófitos e cistos, bem como potenciais alterações inflamatórias em estruturas de tecido mole circundantes.",
+      "classification_reasoning": "A paciente tem osteoartrose do joelho direito, mencionada no prontuário como Osteoartrose de joelho D. Além disso, a doença foi descrita como degenerativa e relacionada à idade ou ao uso, o que se adequa à definição da Osteoartrite primária do joelho (FA01.0)"
+    },
+    "BE1F.0": {
+      "term_original": "sucesso angiográfico",
+      "capitulo": "11",
+      "confidence_embedding": 0.7954,
+      "descricao_cid": "Representação de doença CID-11: Perfuração atrial esquerda pós procedimento. Definição: Perfuração da parede do átrio morfologicamente esquerdo que ocorreu durante ou após uma intervenção",
+      "classification_reasoning": "A frase 'sucesso angiográfico' se refere ao resultado de uma intervenção cardíaca, especificamente a recanalização da artéria coronária em seu trecho proximal com sucesso angiográfico. Isso sugere que a paciente foi submetida à angioplastia (ACTP) com estentagem e que o procedimento foi bem-sucedido."
+    },
+    "QA30.1": {
+      "term_original": "plano",
+      "capitulo": "24",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'plano' refere-se à determinação do tratamento e seguimento do paciente após a alta hospitalar, o que é compatível com a definição de QA30.1 - Representação de doença CID-11: Contato com os serviços de saúde para planejamento da gestão da doença."
+    },
+    "BC81.30": {
+      "term_original": "iam",
+      "capitulo": "11",
+      "confidence_embedding": 0.7739,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A opção mais precisa para o termo 'iam' é a Representação de doença CID-11: Fibrilação atrial paroxística, pois o contexto clínico refere-se a um quadro de IAM (infarto agudo do miocárdio) com supra de ST, o que é consistente com a definição da Fibrilação atrial paroxística."
+    },
+    "BC62": {
+      "term_original": "acometimento de vd",
+      "capitulo": "11",
+      "confidence_embedding": 0.7769,
+      "descricao_cid": "Representação de doença CID-11: Via acessória. Definição: Conexão elétrica adicional que tipicamente desvia do nó AV, tipicamente inserindo-se diretamente no miocárdio atrial e ventricular, mas também pode se conectar ao sistema de condução especializado (p.ex., o feixe de His, feixes direito ou esquerdo, ou um dos fascículos).",
+      "classification_reasoning": "A comorbidade de VD (Via acessória) é sugerida pelo termo 'acometimento de VD' no contexto clínico, o que se refere à existência de uma conexão elétrica adicional que desvia do nó AV e tipicamente inserindo-se diretamente no miocárdio atrial e ventricular."
+    }
+  }
+}

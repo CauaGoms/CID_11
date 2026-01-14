@@ -1,0 +1,101 @@
+{
+  "prontuario_id": 305,
+  "text": "PACIENTE, 79 ANOS\n\nNEGA COMORBIDADES\n\nPCTE COM QUEIXA DE DOR DIARIAS A 1 ANOS EM REGIÃO DE FID , FIE E HIPOGASTRICA . REFERE QUE TEM ESSAS QUEIXAS A MAIS DE 30 ANOS .\nREFERE FEZES ENDURECIDAS. ALEGA HABITO INTESTINAL REGULAR ( 1 DIA )\nNEGA OUTRAS QUEIXAS\n\nCOLONOSCOPIA DO DIA 07/07/2014 MOSTRANDO OSTIO DIVERTICULAR \n\nEXAME FÍSICO: BEG , LOTE , CORADA , HIDRATADA , EUPNEICA , AFEBRIL\nABDOMEN FLÁCIDO E INDOLOR A PALPAÇÃO . RHA+ .\n\nTOQUE RETAL COM AMPOLA VAZIA\n\nCD: METAMUCIL + OLEO MINERAL\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE",
+      "PCTE"
+    ],
+    "Negação": [
+      "NEGA",
+      "AFEBRIL",
+      "INDOLOR"
+    ],
+    "Doença ou Síndrome": [
+      "COMORBIDADES"
+    ],
+    "Abreviação": [
+      "PCTE",
+      "FID",
+      "FIE",
+      "BEG",
+      "LOTE",
+      "RHA+",
+      "CD"
+    ],
+    "Localização ou Região Corporal": [
+      "FIE",
+      "HIPOGASTRICA",
+      "ABDOMEN"
+    ],
+    "Procedimento Diagnóstico": [
+      "COLONOSCOPIA",
+      "PALPAÇÃO",
+      "EXAME FÍSICO",
+      "TOQUE RETAL"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "COLONOSCOPIA"
+    ],
+    "Achado": [
+      "BEG",
+      "LOTE",
+      "CORADA",
+      "HIDRATADA",
+      "EUPNEICA",
+      "AFEBRIL",
+      "FLÁCIDO",
+      "RHA+",
+      "FEZES ENDURECIDAS",
+      "HABITO INTESTINAL REGULAR",
+      "AMPOLA VAZIA"
+    ],
+    "Produto Intelectual": [
+      "CD"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CD"
+    ],
+    "Substância Química Orgânica": [
+      "METAMUCIL",
+      "OLEO MINERAL"
+    ],
+    "Substância Farmacológica": [
+      "METAMUCIL",
+      "OLEO MINERAL"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR DIARIAS"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "OSTIO DIVERTICULAR",
+      "AMPOLA VAZIA"
+    ],
+    "Anormalidade Adquirida": [
+      "OSTIO DIVERTICULAR"
+    ]
+  },
+  "labels": {
+    "DD91.02": {
+      "term_original": "dor diarias",
+      "capitulo": "13",
+      "confidence_embedding": 0.7713,
+      "descricao_cid": "Representação de doença CID-11: Síndrome do intestino irritável, tipo misto. Definição: Subtipo de padrão intestinal da síndrome do intestino irritável, caracterizado por alteração do hábito intestinal, apresentando-se tanto com diarreia quanto com constipação. O subtipo com diarreia e constipação alternadamente variando muitas vezes ao longo do tempo também é considerado sinônimo.",
+      "classification_reasoning": "A dor diária na região de fígado, fémur e hipogástrica, associada a fezes endurecidas e hábito intestinal regular, aponta para uma síndrome do intestino irritável, tipo misto, que apresenta ambos sintomas de diarreia e constipação. Além disso, a presença de diverticulose no colonoscopia suporta essa escolha."
+    },
+    "DB33.20": {
+      "term_original": "fezes endurecidas",
+      "capitulo": "13",
+      "confidence_embedding": 0.7409,
+      "descricao_cid": "Representação de doença CID-11: Proctite ou colite infantil induzida por proteína de alimentos. Definição: Hipersensibilidade intestinal não mediada por IgE (na ausência de anticorpos IgE) induzida por proteína alimentar que provoca resposta inflamatória principalmente do cólon sigmoide distal e do reto. É uma condição em bebês que resulta de resposta imune desencadeada por proteínas da dieta, principalmente do leite (através da amamentação). Os pacientes geralmente parecem saudáveis e têm fezes normais e macias com manchas ou raias de sangue. O diagnóstico é feito usualmente baseado na resolução dos sintomas com a retirada do suposto antígeno alimentar. O início usual é nos primeiros 2 meses de vida, mas pode também ocorrer em bebês de 1 dia a 6 meses de idade.",
+      "classification_reasoning": "A queixa de fezes endurecidas e dor diária na região do fígado, fímbria e hipogástrica para mais de 30 anos é consistente com a descrição da proctite ou colite infantil induzida por proteína alimentar (DB33.20). A ausência de outras queixas e o resultado da colonoscopia mostrando ostio diverticular sugerem que a dor e as fezes endurecidas podem estar relacionadas à presença de diversos estomas intestinais."
+    },
+    "DD00.1": {
+      "term_original": "ostio diverticular",
+      "capitulo": "13",
+      "confidence_embedding": 0.7768,
+      "descricao_cid": "Representação de doença CID-11: Diverticulite de parte não especificada do intestino sem complicação. Definição: ",
+      "classification_reasoning": "A paciente apresenta queixa de dor diária há 1 ano, localizada na região de FID, FIE e hipogástrica, com referência a fezes endurecidas. A colonoscopia realizada em 07/07/2014 mostrou ostio diverticular. Considerando que a paciente não apresenta outras queixas e o exame físico está normal, a escolha mais precisa é DD00.1 (Diverticulite de parte não especificada do intestino sem complicação)"
+    }
+  }
+}

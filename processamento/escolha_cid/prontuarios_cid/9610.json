@@ -1,0 +1,126 @@
+{
+  "prontuario_id": 150,
+  "text": "NEFROLOGIA GERAL\nENCAMINHADO POR DISFUNÇÃO RENAL - CREATININA 2,1 E MACROALBUMINURIA\nNEFROLOGIA GERAL\nPACIENTE EM ACOMPANHAMENTO NA SANTA CASA / UROLOGIA - COM CISTOSTOMIA HÁ 2 ANOS\nCONTRA INDICAÇÃO RELATIVA PELA CARDIOPATIA PARA PROSTATECTOMIA ABERTA\nDM / HAS / HIPOTIREOIDISMO / CAT 2X\nENCAMINHADO PELA UBS\nEM USO:\nLOSARTAN 50 X2\nSELOZOK 50\nCOMBODART \nCLOPIDOGREL\nNPH 38 / 22\nLEVOTIROXINA 125\nSINVASTATINA\nAAS",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "ENCAMINHADO",
+      "ACOMPANHAMENTO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "MACROALBUMINURIA",
+      "CREATININA 2 , 1"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "UROLOGIA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CISTOSTOMIA",
+      "CAT",
+      "PROSTATECTOMIA ABERTA"
+    ],
+    "Doença ou Síndrome": [
+      "CARDIOPATIA",
+      "DM",
+      "HAS",
+      "HIPOTIREOIDISMO",
+      "DISFUNÇÃO RENAL"
+    ],
+    "Abreviação": [
+      "DM",
+      "HAS",
+      "CAT",
+      "2X",
+      "UBS",
+      "X2",
+      "NPH",
+      "AAS"
+    ],
+    "Conceito Quantitativo": [
+      "2X",
+      "50",
+      "X2",
+      "125",
+      "38 / 22"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UBS"
+    ],
+    "Substância Farmacológica": [
+      "LOSARTAN",
+      "SELOZOK",
+      "COMBODART",
+      "CLOPIDOGREL",
+      "NPH",
+      "LEVOTIROXINA",
+      "SINVASTATINA",
+      "AAS"
+    ],
+    "Substância Química Orgânica": [
+      "LOSARTAN",
+      "SELOZOK",
+      "COMBODART",
+      "CLOPIDOGREL",
+      "NPH",
+      "LEVOTIROXINA",
+      "SINVASTATINA",
+      "AAS"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "NPH",
+      "LEVOTIROXINA"
+    ],
+    "Hormônio": [
+      "NPH",
+      "LEVOTIROXINA"
+    ],
+    "Função Patológica": [
+      "DISFUNÇÃO RENAL"
+    ],
+    "Conceito Temporal": [
+      "HÁ 2 ANOS"
+    ],
+    "Ideia ou Conceito": [
+      "CONTRA INDICAÇÃO RELATIVA"
+    ]
+  },
+  "labels": {
+    "5C78": {
+      "term_original": "has",
+      "capitulo": "05",
+      "confidence_embedding": 0.7516,
+      "descricao_cid": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem.",
+      "classification_reasoning": "A definição de Sobrecarga de líquidos (CID-11: 5C78) é mais precisa para o termo 'has' no contexto do prontuário, pois refere-se a uma condição clínica relacionada à retaineria de líquidos no sangue."
+    },
+    "BC43.0": {
+      "term_original": "cardiopatia",
+      "capitulo": "11",
+      "confidence_embedding": 0.7889,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida.",
+      "classification_reasoning": "A cardiopatia mencionada no prontuário não é especificamente diabética ou hipertrófica, portanto, a opção mais precisa para o termo 'cardiopatia' é a Cardiomiopatia dilatada (BC43.0), que aborda a disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica"
+    },
+    "GB40": {
+      "term_original": "disfunção renal",
+      "capitulo": "16",
+      "confidence_embedding": 0.8501,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A escolha do código GB40 (Síndrome nefrítica) se baseia na presença de disfunção renal, macroalbuminúria e creatinina de 2,1, o que sugere uma doença glomerular aguda ou crônica. A história de paciente em acompanhamento por disfunção renal e uso de tratamentos farmacológicos (LOSARTAN, SELOZOK, COMBODART) também apoia essa escolha."
+    },
+    "5A00.20": {
+      "term_original": "hipotireoidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.8214,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo devido a medicamentos ou outras substâncias exógenas. Definição: Condição causada por uma hipofunção da tireoide devido a medicamentos ou outras substâncias exógenas. Essa condição pode se apresentar com fadiga, aumento da sensibilidade ao frio, constipação, pele seca, ganho de peso, fraqueza e dor muscular, aumento de colesterol, dores ou inchaços nas articulações, períodos menstruais mais intensos ou irregulares, enfraquecimento do cabelo, depressão e memória deficiente.",
+      "classification_reasoning": "A hipotireoidismo é mencionada como uma comorbidade do paciente, e a opção mais precisa é o código 5A00.20, que descreve a representação de doença CID-11: Hipotireoidismo devido a medicamentos ou outras substâncias exógenas."
+    },
+    "5C51.20": {
+      "term_original": "dm",
+      "capitulo": "05",
+      "confidence_embedding": 0.7745,
+      "descricao_cid": "Representação de doença CID-11: Hiperoxalúria primária tipo I. Definição: A hiperoxalúria tipo 1 é devido a um defeito numa enzima hepática peroxissomal alanina glioxilato aminotransferase. A forma infantil é caracterizada por insuficiência renal crônica por deposição excessiva de oxalato. Em outros pacientes apresenta-se como urolitíase recidivante , que se deteriora com infecções, hematúria, cólicas nefréticas ou comprometimento renal agudo por obstrução completa. Doença renal terminal ocorre antes dos 15 anos de idade em metade dos casos e acabam levando a deposição de oxalato em outros tecidos, causando defeitos de condução cardíaca, hipertensão, gangrena distal e redução da mobilidade e dor articular.",
+      "classification_reasoning": "O termo 'dm' refere-se à Doença Metabólica, e o código mais preciso é o Código CID-11: Hiperoxalúria primária tipo I."
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "prontuario_id": 920,
+  "text": "Paciente portadora de bócio uninodular internou para realização de tireoidectomia . Realizada lobectomia esquerda e istmectomia . Anatomopatológico por congelação demonstrou lesão folicular circunscrita . Inspeção do restante da tireoide no intra-operatório não demonstrou alterações .  Recebe alta em boas condições , incisão com bom aspecto , dor moderada .",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "internou",
+      "alta"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "tireoidectomia",
+      "istmectomia",
+      "lobectomia esquerda"
+    ],
+    "Procedimento Diagnóstico": [
+      "Inspeção",
+      "Anatomopatológico por congelação"
+    ],
+    "Conceito Temporal": [
+      "intra-operatório"
+    ],
+    "Negação": [
+      "não"
+    ],
+    "Lesão ou Envenenamento": [
+      "incisão"
+    ],
+    "Doença ou Síndrome": [
+      "bócio uninodular"
+    ],
+    "Procedimento Laboratorial": [
+      "Anatomopatológico por congelação"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "lesão folicular circunscrita"
+    ],
+    "Sinal ou Sintoma": [
+      "demonstrou alterações",
+      "dor moderada"
+    ],
+    "Achado": [
+      "boas condições",
+      "bom aspecto"
+    ]
+  },
+  "labels": {
+    "2D10.0": {
+      "term_original": "bócio uninodular",
+      "capitulo": "02",
+      "confidence_embedding": 0.6921,
+      "descricao_cid": "Representação de doença CID-11: Carcinoma folicular da glândula tireoide. Definição: Adenocarcinoma diferenciado originado das células foliculares da glândula tireoide. As características nucleares que caracterizam o carcinoma papilífero da glândula tireoide estão ausentes. A exposição à radiação é um fator de risco e abrange cerca de 10% a 15% dos cânceres da tireoide. Clinicamente, apresenta-se usualmente como uma massa solitária na glândula tireoide. Geralmente é unifocal e espessamente encapsulado, e mostra invasão da cápsula ou dos vasos. Os procedimentos diagnósticos incluem: ultrassonografia da tireoide e biópsia com agulha fina.",
+      "classification_reasoning": "A descrição do paciente como portadora de bócio uninodular internou para realização de tireoidectomia e a anatomopatológico por congelação demonstrou lesão folicular circunscrita sugere que o código mais preciso é o Carcinoma Folicular da Glândula Tireoide (2D10.0), uma vez que a biópsia revelou lesão folicular."
+    },
+    "NA06.00": {
+      "term_original": "incisão",
+      "capitulo": "22",
+      "confidence_embedding": 0.7544,
+      "descricao_cid": "Representação de doença CID-11: Avulsão da pálpebra. Definição: Lesão em que uma estrutura corporal é forçadamente destacada do seu ponto normal de inserção por traumatismo ou cirurgia. O termo mais comumente se refere a um traumatismo de superfície em que todas as camadas da pele foram laceradas, expondo estruturas subjacentes (isto é, tecido subcutâneo, músculo, tendões ou osso). É semelhante a uma abrasão, mas mais grave, em que a pálpebra pode estar parcial ou completamente destacada do corpo.",
+      "classification_reasoning": "A incisão é uma lesão em que a pele foi ferida, destacando estruturas subjacentes. Esta definição se encaixa melhor com a descrição de uma incisão no contexto da tireoidectomia, realizada lobectomia esquerda e istmectomia."
+    },
+    "MG30.21": {
+      "term_original": "dor moderada",
+      "capitulo": "21",
+      "confidence_embedding": 0.7736,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática.",
+      "classification_reasoning": "A dor moderada mencionada no contexto clínico se refere à dor crônica pós-operatória, uma vez que o paciente foi internado para realização de tireoidectomia e apresenta lesão folicular circunscrita na anatomopatológico."
+    }
+  }
+}

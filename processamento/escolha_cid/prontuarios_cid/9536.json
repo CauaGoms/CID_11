@@ -1,0 +1,140 @@
+{
+  "prontuario_id": 685,
+  "text": "tx renal\nTX RENAL COM CR 0,82 E NS FK 3,0\nCARDIOLOGIA INDICOU RETIRADA DE MONOCORDIL E AAS  \nTX RENAL\nMTC 5, TACROLIMO 1 / 0, MS 1 / 2, CRESTOR 10, AAS 100, OMEPRAZOL 20, CVD 12,5, MONOCORDIL 20, CILOSTAZOL 100 X2, LST 50, LANTUS 30\nS : SEM QUIEXAS\nO : PA 110/60  120/80   P 78    \nCPP LIVRES\nPC RITMO REGULAR\nABD RHA+, FLACIDO, INDOLOR\nMMII DAOP",
+  "entities": {
+    "Grupo Profissional ou Ocupacional": [
+      "CARDIOLOGIA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "RETIRADA"
+    ],
+    "Substância Química Orgânica": [
+      "MONOCORDIL",
+      "AAS",
+      "MTC",
+      "TACROLIMO",
+      "MS",
+      "CRESTOR",
+      "OMEPRAZOL",
+      "CVD",
+      "CILOSTAZOL",
+      "LST"
+    ],
+    "Substância Farmacológica": [
+      "MONOCORDIL",
+      "AAS",
+      "MTC",
+      "TACROLIMO",
+      "MS",
+      "CRESTOR",
+      "OMEPRAZOL",
+      "CVD",
+      "CILOSTAZOL",
+      "LST",
+      "LANTUS"
+    ],
+    "Abreviação": [
+      "AAS",
+      "MTC",
+      "MS",
+      "CVD",
+      "LST",
+      "PA",
+      "P",
+      "PC",
+      "ABD",
+      "RHA+",
+      "MMII",
+      "DAOP",
+      "tx renal",
+      "TX RENAL",
+      "CR 0 , 82",
+      "NS FK 3 , 0",
+      "CPP LIVRES"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "10",
+      "100",
+      "20",
+      "50",
+      "30",
+      "110/60",
+      "120/80",
+      "78",
+      "1 / 0",
+      "1 / 2",
+      "12 , 5",
+      "100 X2"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "LANTUS"
+    ],
+    "Hormônio": [
+      "LANTUS"
+    ],
+    "Negação": [
+      "SEM",
+      "INDOLOR"
+    ],
+    "Sinal ou Sintoma": [
+      "QUIEXAS"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P"
+    ],
+    "Localização ou Região Corporal": [
+      "ABD",
+      "MMII"
+    ],
+    "Achado": [
+      "RHA+",
+      "FLACIDO",
+      "INDOLOR",
+      "CPP LIVRES",
+      "RITMO REGULAR"
+    ],
+    "Doença ou Síndrome": [
+      "DAOP"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "tx renal",
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 82",
+      "NS FK 3 , 0"
+    ]
+  },
+  "labels": {
+    "8D64.04": {
+      "term_original": "ritmo regular",
+      "capitulo": "08",
+      "confidence_embedding": 0.7141,
+      "descricao_cid": "Representação de doença CID-11: Hidrocefalia de pressão normal. Definição: Síndrome clínica que compreende principalmente transtornos da marcha, demência e incontinência urinária, e associada à dilatação do sistema ventricular do cérebro. Na maioria das vezes, demonstra pressão normal do líquido cefalorraquidiano (LCR) na punção lombar.",
+      "classification_reasoning": "O termo 'ritmo regular' indica que o paciente tem um batimento cardíaco normal, característico de uma condição de saúde geral boa. A opção mais precisa para este contexto é a hidrocefalia de pressão normal (Código CID-11: 8D64.04)."
+    },
+    "FA25.20": {
+      "term_original": "indolor",
+      "capitulo": "15",
+      "confidence_embedding": 0.6764,
+      "descricao_cid": "Representação de doença CID-11: Gota tofácea. Definição: Os tofos são deposições de cristais de urato monossódico nos tecidos de pacientes com hiperuricemia e podem estar associados a outras manifestações como a artropatia da gota. Eles são identificados principalmente na pele e no tecido subcutâneo. A hélice da orelha é uma das localizações mais comuns de acometimento dos tofos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'indolor' é a gota tofácea, pois é comum apresentar lesões cutâneas características em pacientes com hiperuricemia e artropatia da gota."
+    },
+    "GB80": {
+      "term_original": "rha+",
+      "capitulo": "16",
+      "confidence_embedding": 0.7715,
+      "descricao_cid": "Representação de doença CID-11: Doença renal cística não familiar não genética. Definição: Doenças em que há alterações anatômicas ou patológicas do desenvolvimento na substância renal que não ocorrem em uma distribuição familiar e não são conhecidas por terem uma causa monogenética.",
+      "classification_reasoning": "A presença do termo 'RHA+' no prontuário indica que há uma doença renal cística não familiar, e o contexto de tratamento com medicamentos renais e cardíacos apoia essa escolha. A opção GB80 é a mais precisa para descrever essa condição clínica."
+    },
+    "MG02": {
+      "term_original": "cpp livres",
+      "capitulo": "21",
+      "confidence_embedding": 0.7627,
+      "descricao_cid": "Representação de doença CID-11: Resultados de estudos de função renal. Definição: ",
+      "classification_reasoning": "A expressão 'cpp livres' indica que o paciente está apresentando uma função renal normal, não há indicação de hipoplasia, cólica ou proteinúria. Além disso, não há sintomas associados à mioglobinúria. A opção mais precisa é a representação de resultados de estudos de função renal (MG02), pois 'cpp livres' se refere à normalidade da função renal."
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "prontuario_id": 504,
+  "text": "PRIMEIRA CONSULTA\nIRC - NEFROESCLEROSE HIPERTENSIVA? COM GESF SECUNDÁRIA? TGF ESTIMADA EM 20\nHEMATURIA - COM HISTÓRIA DE TABAGISMO\n  \nLucas, 53 ANOS\n\n- PACIENTE ENCAMINHADA POR PIORA DE FUNÇÃO RENAL - QUEIXA DE ASTENIA\n- PORTADORA DE HAS COM DIAGNÓSTICO HÁ CERCA DE 4 ANOS, COM CONTROLE REGULAR\n- HIPOTIREOIDISMO COM DX HÁ UM ANO.\n- NEGA CIRURGIAS PRÉVIAS\n- ITUS  PRÉVIAS\nUSO DE: LOSARTAN 50MG 12/12H, FUROSEMIDA 40MG, LEVOTIROXINA 100MCG, OMEPRAZOL 20MG.\n\n- EX TABAGISTA 40 ANOS MAÇO, PAROU HÁ 5 ANOS\n- SEDENTÁRIA\n- NEGA HISTÓRIA DE DOENÇA RENAL NA FAMÍLIA\n\nTROUXE EXAMES LABORATORIAIS:\n- HB 12\n- CREATININA 2,7 (TFG ESTIMADA 20ML/MIN)\n- HEMATURIA\n- US - RINS 9,2 E 9,4, COM CISTOS SIMPLES ( 3 NO TOTAL ), BEXIGA NORMAL\n- 2012 - PROTEINURIA DE 500MG\n\nAO EXAME:\nCORADA, HIDRATADA, AFEBRIL\nPA 140/90\nMV POSITIVO, SIMETRICO\nABDOMEN SP",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "CONSULTA",
+      "ENCAMINHADA",
+      "DX"
+    ],
+    "Doença ou Síndrome": [
+      "IRC",
+      "TABAGISMO",
+      "HAS",
+      "HIPOTIREOIDISMO",
+      "NEFROESCLEROSE HIPERTENSIVA",
+      "GESF SECUNDÁRIA",
+      "DOENÇA RENAL"
+    ],
+    "Abreviação": [
+      "IRC",
+      "HAS",
+      "DX",
+      "12/12H",
+      "US",
+      "PA",
+      "GESF SECUNDÁRIA",
+      "TGF ESTIMADA",
+      "ITUS PRÉVIAS",
+      "HB 12",
+      "TFG ESTIMADA",
+      "MV POSITIVO"
+    ],
+    "Sinal ou Sintoma": [
+      "HEMATURIA",
+      "QUEIXA",
+      "AFEBRIL",
+      "PIORA DE FUNÇÃO RENAL"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Negação": [
+      "NEGA",
+      "AFEBRIL"
+    ],
+    "Substância Química Orgânica": [
+      "LOSARTAN",
+      "FUROSEMIDA",
+      "OMEPRAZOL"
+    ],
+    "Substância Farmacológica": [
+      "LOSARTAN",
+      "FUROSEMIDA",
+      "LEVOTIROXINA",
+      "OMEPRAZOL"
+    ],
+    "Conceito Quantitativo": [
+      "50MG",
+      "40MG",
+      "100MCG",
+      "20MG",
+      "20ML/MIN",
+      "140/90",
+      "40 ANOS MAÇO"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "LEVOTIROXINA"
+    ],
+    "Hormônio": [
+      "LEVOTIROXINA"
+    ],
+    "Achado": [
+      "SEDENTÁRIA",
+      "CORADA",
+      "HIDRATADA",
+      "SIMETRICO",
+      "EX TABAGISTA",
+      "MV POSITIVO"
+    ],
+    "Grupo Familiar": [
+      "FAMÍLIA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "HEMATURIA",
+      "TGF ESTIMADA",
+      "HB 12",
+      "CREATININA 2 , 7",
+      "TFG ESTIMADA",
+      "RINS 9 , 2 E 9 , 4",
+      "CISTOS SIMPLES",
+      "BEXIGA NORMAL",
+      "PROTEINURIA DE 500MG"
+    ],
+    "Procedimento Diagnóstico": [
+      "US"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Conceito Temporal": [
+      "HÁ CERCA DE 4 ANOS",
+      "HÁ UM ANO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CIRURGIAS PRÉVIAS"
+    ],
+    "Procedimento Laboratorial": [
+      "EXAMES LABORATORIAIS"
+    ]
+  },
+  "labels": {
+    "BA02": {
+      "term_original": "nefroesclerose hipertensiva",
+      "capitulo": "11",
+      "confidence_embedding": 0.7778,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A paciente apresenta nefroesclerose hipertensiva com história de tabagismo e controle regular de HAS, o que sugere uma doença renal crônica causada pela hipertensão. O código BA02 é mais preciso para representar essa condição médica."
+    },
+    "5.0": {
+      "term_original": "hipotireoidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O paciente tem hipotireoidismo, de acordo com o prontuário e a descrição fornecida. A definição do Código 5A00.0 (Hipotireoidismo congênito) não se aplica porque não há menção à condição na infância ou ao nascimento. O Código 5A00.20 (Hipotireoidismo devido a medicamentos ou outras substâncias exógenas) também não é aplicável pois o paciente não está recebendo um tratamento que cause hipotireoidismo. O código escolhido foi 5E00, que é a categoria geral para Hipotireoidismo."
+    },
+    "MF94": {
+      "term_original": "hematuria",
+      "capitulo": "21",
+      "confidence_embedding": 0.7758,
+      "descricao_cid": "Representação de doença CID-11: Hemoglobinúria. Definição: Presença de hemoglobina livre na urina, indicando hemólise de eritrócitos dentro do sistema vascular. Depois de saturar as proteínas de ligação à hemoglobina (haptoglobinas), a hemoglobina livre começa a aparecer na urina.",
+      "classification_reasoning": "A escolha do código MF94 (Hemoglobinúria) é a mais precisa para o termo 'hematuria' no contexto clínico, pois a paciente apresenta hematuria e há uma história de tabagismo, que pode ter contribuído para a hemólise e subsequente presença de hemoglobina na urina."
+    },
+    "GB40": {
+      "term_original": "doença renal",
+      "capitulo": "16",
+      "confidence_embedding": 0.8397,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A paciente apresenta sintomas de doença renal, como astenia e hematúria, com história de tabagismo e hipotireoidismo. O exame físico revela pressão arterial elevada e a US do rim mostra cistos simples e bexiga normal, o que sugere nefroseclerose hipertensiva secundária. A TFG estimada é 20ml/min, o que está associado à doença renal."
+    },
+    "8A63.0": {
+      "term_original": "mv positivo",
+      "capitulo": "08",
+      "confidence_embedding": 0.7202,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica febril. Definição: Convulsões associadas a um aumento da temperatura corporal na ausência de infecção intracraniana, distúrbio metabólico ou história de crises epilépticas afebris. Ocorrem mais comumente em crianças com idades entre 6 meses e 5 anos.",
+      "classification_reasoning": "A escolha foi feita considerando a presença de 'mv positivo' no termo extraído, o que sugere uma crise epiléptica ou convulsão associada à febre. A definição da síndrome de Reye não é adequada pois não há indicações de problemas hepáticos e a síndrome de Reye é mais comum em crianças."
+    },
+    "MF96": {
+      "term_original": "queixa",
+      "capitulo": "21",
+      "confidence_embedding": 0.7543,
+      "descricao_cid": "Representação de doença CID-11: Proteinúria. Definição: O excesso de proteínas séricas na urina, como na doença renal, em que a albumina é a proteína principal, porém também pode ser devido a outras proteínas, como imunoglobulinas de cadeias leves na discrasia de células plasmáticas como o mieloma múltiplo.",
+      "classification_reasoning": "A presença de proteinúria na urina está relacionada à nefroseclerose hipertensiva e a história de proteinúria de 500mg em 2012, apoiando essa escolha."
+    },
+    "QA77": {
+      "term_original": "tabagismo",
+      "capitulo": "24",
+      "confidence_embedding": 0.7239,
+      "descricao_cid": "Representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano. Definição: ",
+      "classification_reasoning": "A busca por 'tabagismo' é um fator de risco para a nefroesclerose hipertensiva, e o paciente foi encaminhado por piora da função renal. A presença do tabagismo como um fator de risco para a doença justifica a escolha desse código."
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "prontuario_id": 674,
+  "text": "Paciente com IAM e angioplastia coronariana prévios, internado por dor torácica, sendo submetido a nova angioplastia com implante de prótese coronariana no segmento médio da coronária direita. Apresentou boa evolução após o procedimento, sem intercorrências, recebendo alta para seguir acompanhamento com seu médico.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Doença ou Síndrome": [
+      "IAM"
+    ],
+    "Abreviação": [
+      "IAM"
+    ],
+    "Conceito Temporal": [
+      "prévios",
+      "após"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "internado",
+      "submetido",
+      "recebendo",
+      "alta",
+      "acompanhamento"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "angioplastia",
+      "procedimento",
+      "angioplastia coronariana",
+      "implante de prótese coronariana"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "intercorrências",
+      "dor torácica"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "médico"
+    ],
+    "Dispositivo Médico": [
+      "implante de prótese coronariana"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "segmento médio da coronária direita"
+    ],
+    "Achado": [
+      "boa evolução"
+    ]
+  },
+  "labels": {
+    "BA85": {
+      "term_original": "iam",
+      "capitulo": "11",
+      "confidence_embedding": 0.7731,
+      "descricao_cid": "Representação de doença CID-11: Doença vasoespástica coronariana. Definição: O termo doença coronariana vasoespástica refere-se a uma vasoconstrição súbita e intensa de uma artéria coronária epicárdica que causa a oclusão ou quasi-oclusão do vaso. Embora possa estar envolvido em outras síndromes coronárias, representa a causa habitual de angina variante.",
+      "classification_reasoning": "A escolha do código BA85 (Doença vasoespástica coronariana) é a mais precisa para o termo 'IAM' no contexto de uma paciente com dor torácica e história prévia de angioplastia coronária, pois IAM refere-se à doença coronariana vasoespástica, que pode ser associada a sintomas como angina variante."
+    },
+    "NE82.0": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A palavra 'intercorrências' se refere a eventos inesperados ou adversos que podem ocorrer durante o procedimento, como complicações cardíacas ou outras reações. O código NE82.0 é a opção mais precisa porque aborda temas relacionados a eventos não planejados em pacientes com marcapasso ou cardioversor desfibrilador implantável."
+    }
+  }
+}

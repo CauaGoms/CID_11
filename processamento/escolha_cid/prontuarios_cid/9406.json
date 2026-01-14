@@ -1,0 +1,52 @@
+{
+  "prontuario_id": 517,
+  "text": "Paciente interna para realização de angioplastia coronariana mais implante de endoprótese em artéria circunflexa distal. Procedimento realizado em 17 de março sem intercorrências. Recebe alta em bom estado geral, sinais vitais estáveis, afebril, orientado quanto a cuidados, medicações e retorno ao médico assistente.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "interna",
+      "Recebe alta"
+    ],
+    "Negação": [
+      "sem",
+      "afebril"
+    ],
+    "Sinal ou Sintoma": [
+      "intercorrências",
+      "afebril"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "angioplastia coronariana",
+      "implante de endoprótese",
+      "Procedimento realizado"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "artéria circunflexa distal"
+    ],
+    "Achado": [
+      "bom estado geral",
+      "sinais vitais estáveis"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "médico assistente"
+    ]
+  },
+  "labels": {
+    "BA85": {
+      "term_original": "sinais vitais estáveis",
+      "capitulo": "11",
+      "confidence_embedding": 0.7647,
+      "descricao_cid": "Representação de doença CID-11: Doença vasoespástica coronariana. Definição: O termo doença coronariana vasoespástica refere-se a uma vasoconstrição súbita e intensa de uma artéria coronária epicárdica que causa a oclusão ou quasi-oclusão do vaso. Embora possa estar envolvido em outras síndromes coronárias, representa a causa habitual de angina variante.",
+      "classification_reasoning": "A opção BA85 'Doença vasoespástica coronariana' é a mais precisa para o termo 'sinais vitais estáveis' no contexto clínico, pois refere-se à uma vasoconstrição súbita e intensa de uma artéria coronária epicárdica que causa a oclusão ou quasi-oclusão do vaso. Isso sugere que o paciente não apresentou sinais vitais alterados ou instáveis após a realização da angioplastia coronariana mais implante de endoprótese."
+    },
+    "NA60.3Z": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.7544,
+      "descricao_cid": "Representação de doença CID-11: Lesão da veia jugular interna, não especificada. Definição: ",
+      "classification_reasoning": "Como o termo 'intercorrências' refere-se a eventos ou complicações que ocorrem durante um procedimento médico, e no contexto do prontuário está relacionado à realização de angioplastia coronariana mais implante de endoprótese em artéria circunflexa distal sem intercorrências, a opção mais precisa é NA60.3Z, Lesão da veia jugular interna, não especificada."
+    }
+  }
+}

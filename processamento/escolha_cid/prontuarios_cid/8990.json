@@ -1,0 +1,253 @@
+{
+  "prontuario_id": 105,
+  "text": "Às 22:10h: Avaliado pela medica, segue sob cuidados. Às 22:53h: Responsiva a estimulos dolorosos, face corada, mas de dor, principalmente em mobilizaçao, pupilas isomioticas / fotorreagentes. SNE em narina E com infusao de dieta. Traqueostomizada, sob suporte de nevoa umida 4 L/min, Saturando 98%, PA 153/90 mmhg, FC 104 bpm, ausculta pulmonar com roncos esparsos em apice, aspirada com media quantidade de secreçao. Acesso periferico Jugular E com infusao de sf 0,9%. Extremidades edemaciadas, perfusao periferica diminuida, liberaçao de exsudato. Abdomen flacido palpaçao, rha + . Lesao reg sacra sendo solicitado oleo mineral para plantao para curativo. MMII com cianose periferica + lesoes bolhosas sendo deixado abertos com odor fetido. Diurese por SVD presente em coletor amarelo concentrado. Monitorizada com cardioscopio + oximetria de pulso + Pam nao invasiva. Em precauçao por MRSA. ÀS 8:30: REALIZADO AUSCUTA ABDOMINAL, SNE POSICIONADA, FIXADA NA NARINA DIREITA. NARINA SEM SINAL DE LESÃO.  ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "Avaliado",
+      "cuidados",
+      "solicitado",
+      "REALIZADO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "medica"
+    ],
+    "Achado": [
+      "corada",
+      "fotorreagentes",
+      "Traqueostomizada",
+      "Saturando",
+      "Monitorizada",
+      "Responsiva a estimulos dolorosos",
+      "rha +",
+      "Diurese por SVD presente",
+      "amarelo concentrado"
+    ],
+    "Sinal ou Sintoma": [
+      "dor",
+      "secreçao",
+      "exsudato",
+      "roncos esparsos",
+      "Extremidades edemaciadas",
+      "perfusao periferica diminuida",
+      "cianose periferica",
+      "odor fetido",
+      "SINAL DE LESÃO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "mobilizaçao",
+      "SNE",
+      "infusao",
+      "Traqueostomizada",
+      "suporte",
+      "aspirada",
+      "curativo",
+      "Monitorizada",
+      "precauçao",
+      "nevoa umida",
+      "Acesso periferico",
+      "deixado abertos"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "pupilas",
+      "MMII",
+      "Jugular E"
+    ],
+    "Abreviação": [
+      "SNE",
+      "PA",
+      "FC",
+      "bpm",
+      "MMII",
+      "MRSA",
+      "narina E",
+      "Jugular E",
+      "sf 0 , 9%",
+      "rha +",
+      "reg sacra",
+      "Diurese por SVD presente"
+    ],
+    "Dispositivo Médico": [
+      "SNE",
+      "curativo",
+      "coletor",
+      "cardioscopio",
+      "Acesso periferico"
+    ],
+    "Alimento": [
+      "dieta"
+    ],
+    "Atributo Clínico": [
+      "Saturando",
+      "PA",
+      "FC"
+    ],
+    "Conceito Quantitativo": [
+      "98%",
+      "104",
+      "4 L/min",
+      "153/90 mmhg"
+    ],
+    "Substância Corporal": [
+      "secreçao",
+      "exsudato"
+    ],
+    "Localização ou Região Corporal": [
+      "Abdomen",
+      "reg sacra"
+    ],
+    "Procedimento Diagnóstico": [
+      "palpaçao",
+      "Monitorizada",
+      "cardioscopio",
+      "ausculta pulmonar",
+      "oximetria de pulso",
+      "AUSCUTA ABDOMINAL"
+    ],
+    "Lesão ou Envenenamento": [
+      "Lesao"
+    ],
+    "Organização Relacionada à Saúde": [
+      "plantao"
+    ],
+    "Bactéria": [
+      "MRSA"
+    ],
+    "Espaço ou Junção Corporal": [
+      "NARINA",
+      "narina E",
+      "NARINA DIREITA"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Substância Farmacológica": [
+      "nevoa umida",
+      "sf 0 , 9%",
+      "oleo mineral"
+    ],
+    "Função Fisiológica": [
+      "Diurese por SVD presente"
+    ]
+  },
+  "labels": {
+    "PK81.2": {
+      "term_original": "mrsa",
+      "capitulo": "23",
+      "confidence_embedding": 0.7168,
+      "descricao_cid": "Representação de doença CID-11: Aspiração ou drenagem da cavidade corporal ou coleta de fluidos associada à lesão ou dano durante uso terapêutico. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a aspiração ou drenagem da cavidade corporal, pois no contexto clínico é mencionado 'Aspirada com media quantidade de secreçao' e também há referência à narina com SNE, o que sugere a retirada de secreções do corpo."
+    },
+    "NC95.Y": {
+      "term_original": "cianose periferica",
+      "capitulo": "22",
+      "confidence_embedding": 0.7457,
+      "descricao_cid": "Representação de doença CID-11: Lesão de outros vasos sanguíneos especificados na perna. Definição: ",
+      "classification_reasoning": "A cianose periferica mencionada no contexto é uma lesão de outros vasos sanguíneos especificados na perna, justificando a escolha do código NC95.Y."
+    },
+    "MA15.0": {
+      "term_original": "monitorizada",
+      "capitulo": "21",
+      "confidence_embedding": 0.7385,
+      "descricao_cid": "Representação de doença CID-11: Bacteremia. Definição: Presença de bactérias no sangue. Isto pode ser detectado, por exemplo, por uma hemocultura positiva.",
+      "classification_reasoning": "A opção mais precisa para o termo 'monitorizada' no contexto do prontuário é a Bacteremia (MA15.0), pois a paciente está sendo monitorizada com cardioscopio, oximetria de pulso e Pam não invasiva, indicando que há um seguimento contínuo e atento à sua condição clínica."
+    },
+    "MF50.63": {
+      "term_original": "amarelo concentrado",
+      "capitulo": "21",
+      "confidence_embedding": 0.7159,
+      "descricao_cid": "Representação de doença CID-11: Urgência miccional. Definição: Uma vontade repentina e intensa de urinar junto com desconforto na bexiga",
+      "classification_reasoning": "A opção mais precisa é a urgência miccional, pois o termo 'amarelo concentrado' refere-se ao diurese por SVD presente em coletor amarelo concentrado, indicando uma necessidade intensa e repentina de urinar."
+    },
+    "CA27.0": {
+      "term_original": "traqueostomizada",
+      "capitulo": "12",
+      "confidence_embedding": 0.7458,
+      "descricao_cid": "Representação de doença CID-11: Traqueobroncopatia osteocondroplática. Definição: Traqueobroncopatia osteocondroplástica é um transtorno raro de causa desconhecida, observado em 0,4 por cento das broncoscopias, que afeta as grandes vias aéreas. É caracterizada pelo desenvolvimento de múltiplos nódulos submucosos ósseos e cartilaginosos conectados a cartilagem traqueal. A anormalidade poupa a parede membranosa posterior da traqueia. A despeito de alterações radiológicas marcantes, os pacientes apenas raramente são sintomáticos pois a obstrução grave da via aérea é incomum. A traqueoplastia linear pode ser necessária em pacientes com obstrução sintomática de vias aéreas.",
+      "classification_reasoning": "A paciente é traqueostomizada, o que sugere um procedimento cirúrgico para tratar de uma obstrução grave da via aérea, compatível com a definição de Traqueobroncopatia osteocondroplástica."
+    },
+    "CB21.1": {
+      "term_original": "roncos esparsos",
+      "capitulo": "12",
+      "confidence_embedding": 0.7393,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A presença de roncos esparsos na auscultação pulmonar sugere a possibilidade de um pneumotórax, o que é compatível com a descrição da doença CID-11 para este código."
+    },
+    "ME62.7": {
+      "term_original": "secreçao",
+      "capitulo": "21",
+      "confidence_embedding": 0.7816,
+      "descricao_cid": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica.",
+      "classification_reasoning": "A palavra 'secreção' se refere à presença de secreção na tracheostomia, o que é compatível com a definição de erupção cutânea descamativa aguda (ME62.7) em que a descamação é um aspecto proeminente."
+    },
+    "ME01": {
+      "term_original": "corada",
+      "capitulo": "21",
+      "confidence_embedding": 0.7415,
+      "descricao_cid": "Representação de doença CID-11: Distensão abdominal. Definição: Esta é uma condição em que o abdômen parece cheio e tenso por causa do inchaço do abdômen, geralmente devido a um aumento da quantidade de gases intestinais, mas ocorre às vezes quando fluidos, substâncias ou massa estão se acumulando ou se expandindo no abdômen.",
+      "classification_reasoning": "A palavra 'corada' é utilizada para descrever a face do paciente, indicando uma possível resposta dolorosa e hipoxia. A representação de doença CID-11 ME01, Distensão abdominal, não se aplica ao contexto clínico. A escolha mais precisa é o código ME62.9, Escoriação cutânea aguda, pois a palavra 'corada' pode estar relacionada à erupção cutânea descamativa ou escoriação aguda."
+    },
+    "MG30.5": {
+      "term_original": "responsiva a estimulos dolorosos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7374,
+      "descricao_cid": "Representação de doença CID-11: Dor neuropática crônica. Definição: Dor neuropática crônica é uma dor crônica causada por uma lesão ou doença do sistema nervoso somatossensorial. A dor pode ser espontânea ou evocada, como uma resposta aumentada a um estímulo doloroso (hiperalgesia) ou uma resposta dolorosa a um estímulo normalmente não doloroso (alodinia). O diagnóstico de dor neuropática crônica requer um antecedente de lesão ou doença do sistema nervoso e uma distribuição neuroanatomicamente plausível da dor. Sinais ou sintomas sensoriais negativos (por exemplo, diminuição ou perda de sensibilidade) e positivos (por exemplo, alodinia ou hiperalgesia) indicando o envolvimento do sistema nervoso somatossensorial devem ser compatíveis com o território de inervação da estrutura nervosa afetada.",
+      "classification_reasoning": "A paciente é responsiva a estimulos dolorosos, o que sugere dor crônica e não apenas uma resposta a um estímulo normalmente não doloroso. Além disso, há outros indícios de lesão periférica no contexto clínico, como extremidades edemaciadas e liberaçao de exsudato. Portanto, a escolha mais precisa é MG30.5, Representação de doença CID-11: Dor neuropática crônica."
+    },
+    "MC90": {
+      "term_original": "fotorreagentes",
+      "capitulo": "21",
+      "confidence_embedding": 0.7308,
+      "descricao_cid": "Representação de doença CID-11: Achados clínicos em exames diagnósticos por imagem do coração ou da circulação coronariana. Definição: ",
+      "classification_reasoning": "A opção MC90 é a mais precisa para o termo 'fotorreagentes' no contexto clínico, pois refere-se a achados clínicos em exames diagnósticos por imagem do coração ou da circulação coronariana."
+    },
+    "NB90.Y": {
+      "term_original": "extremidades edemaciadas",
+      "capitulo": "22",
+      "confidence_embedding": 0.753,
+      "descricao_cid": "Representação de doença CID-11: Lesão de outros vasos sanguíneos especificados ao nível do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A escolha do código NB90.Y é justificada pela presença de 'extremidades edemaciadas' no contexto, o que sugere lesão de vasos sanguíneos especificados ao nível das extremidades (perna ou braço). A falta de informação sobre a localização exata da lesão não permite escolher um código mais específico, como NC95.Y."
+    },
+    "ME62.5": {
+      "term_original": "exsudato",
+      "capitulo": "21",
+      "confidence_embedding": 0.7639,
+      "descricao_cid": "Representação de doença CID-11: Erupção cutânea exsudativa aguda. Definição: Diagnóstico provisório de erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual secreção exsudativa e crostas são características proeminentes. Causas comuns são eczema infectado, dermatite de contato alérgica aguda e impetigo.",
+      "classification_reasoning": "A opção mais precisa é ME62.5, Erupção cutânea exsudativa aguda, pois o termo 'exsudato' se refere à secreção líquida ou semi-líquida que está sendo produzida na pele e é um dos sintomas descrentados na descrição da opção. Além disso, a presença de lesões bolhosas com odor fetido também aponta para uma lesão cutânea exsudativa."
+    },
+    "MD10": {
+      "term_original": "odor fetido",
+      "capitulo": "21",
+      "confidence_embedding": 0.7409,
+      "descricao_cid": "Representação de doença CID-11: Escarro anormal. Definição: Essa categoria inclui anormalidades de quantidade, cor e odor do escarro, que podem sugerir etiologia. Pacientes com bronquite crônica tipicamente expectoram pequenas quantidades de material mucoide amarelado. Um odor desagradável ou fétido deve sugerir infecção por organismos anaeróbicos, usualmente em casos de abscesso pulmonar. Ocasionalmente, grandes quantidades de escarro ou \"broncorreia\" são associadas com carcinoma bronquioalveolar.",
+      "classification_reasoning": "A presença de odor fetido no contexto do prontuário sugere a possibilidade de uma doença que cause escarro anormal, como uma infecção por organismos anaeróbios, o que justifica a escolha do código MD10."
+    },
+    "NB90.7": {
+      "term_original": "lesao",
+      "capitulo": "22",
+      "confidence_embedding": 0.745,
+      "descricao_cid": "Representação de doença CID-11: Lesão de múltiplos vasos sanguíneos ao nível do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A lesão mencionada no prontuário é descrita como ocorrendo na região sacra, o que se adequa melhor à definição de NB90.7: Lesão de múltiplos vasos sanguíneos ao nível do abdome, região lombar ou pelve."
+    },
+    "NB90.Z": {
+      "term_original": "perfusao periferica diminuida",
+      "capitulo": "22",
+      "confidence_embedding": 0.7433,
+      "descricao_cid": "Representação de doença CID-11: Lesão de vasos sanguíneos não especificados ao nível do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A presença de lesão periferica com perfusao diminuida sugere uma lesão vascular não especificada ao nível do abdome, região lombar ou pelve, o que justifica a escolha da opção NB90.Z."
+    },
+    "NB90": {
+      "term_original": "sinal de lesão",
+      "capitulo": "22",
+      "confidence_embedding": 0.7394,
+      "descricao_cid": "Representação de doença CID-11: Lesão de vasos sanguíneos ao nível do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a lesão de vasos sanguíneos ao nível do abdome, região lombar ou pelve (NCB90), pois o termo 'sinal de lesão' está relacionado à lesão mencionada no prontuário na região sacra."
+    },
+    "MD81": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7823,
+      "descricao_cid": "Representação de doença CID-11: Dor abdominal ou pélvica. Definição: Dor, uma sensação desagradável de desconforto ocorrendo em variados graus de intensidade, recebida pelas terminações nervosas na região abdominal e pélvica.",
+      "classification_reasoning": "A dor mencionada no relatório é descrita como responsiva a estimulos dolorosos, principalmente em mobilização, o que sugere uma dor crônica. O código MD81 representa Dor abdominal ou pélvica e é mais preciso para a descrição da dor nesse contexto clínico."
+    }
+  }
+}

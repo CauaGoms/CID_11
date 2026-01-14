@@ -1,0 +1,67 @@
+{
+  "prontuario_id": 186,
+  "text": "12H: PACIENTE CHOROSO. BOA ACEITAÇÃO DA DIETA. ACESSO VENOSO PERIFERICO EM MEMBRO SUPERIOR ESQUERDO. EDEMA BIPALPEBRAL, BILATERAL COM SECREÇÃO EM QUANTIDADE MODERADA. ELIMINAÇÕES FISIOLOGICAS PRESENTES, FAZ USO DE FRALDA. Enfermeira Florence Nightingale.  OUTRAS AFECCOES ESPECIFICADAS DA PELE E DO TECIDO SUBCUTANEO EM DOENCAS CLASSIFICADAS EM OUTRA PARTE.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Achado": [
+      "CHOROSO",
+      "BOA ACEITAÇÃO DA DIETA",
+      "ELIMINAÇÕES FISIOLOGICAS PRESENTES"
+    ],
+    "Sinal ou Sintoma": [
+      "EDEMA",
+      "SECREÇÃO"
+    ],
+    "Localização ou Região Corporal": [
+      "BIPALPEBRAL",
+      "MEMBRO SUPERIOR ESQUERDO"
+    ],
+    "Objeto Manufaturado": [
+      "FRALDA"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Dispositivo Médico": [
+      "ACESSO VENOSO PERIFERICO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ACESSO VENOSO PERIFERICO"
+    ],
+    "Doença ou Síndrome": [
+      "AFECCOES ESPECIFICADAS DA PELE E DO TECIDO SUBCUTANEO"
+    ]
+  },
+  "labels": {
+    "EE20": {
+      "term_original": "edema",
+      "capitulo": "14",
+      "confidence_embedding": 0.7854,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de distensão cutânea aguda. Definição: Sequela comum de edema agudo, especialmente das extremidades inferiores. Manifesta-se como bolhas, que podem ser confundidas com uma doença imunobolhosa (bolhas de edema agudo); ou como fissura e inflamação superficiais da pele (eczema craquelê).",
+      "classification_reasoning": "A escolha do código EE20 é baseada na presença de edema bilateral com secreção moderada, o que sugere um processo inflamatório cutâneo agudo, característico da síndrome de distensão cutânea aguda."
+    },
+    "EB02.0": {
+      "term_original": "secreção",
+      "capitulo": "14",
+      "confidence_embedding": 0.7713,
+      "descricao_cid": "Representação de doença CID-11: Urticária colinérgica. Definição: Urticária colinérgica apresenta-se como uma erupção de múltiplas lesões papulares monomórficas pequenas de 2-3 mm, em resposta a estímulos indutores de sudorese como esforço físico, banhos quentes, comidas apimentadas ou estresse emocional súbito. As pápulas tendem a ser rosadas em casos leves, mas brancas com eritema macular de permeio quando o edema é mais intenso. Angioedema e manifestações sistêmicas incluindo cefaleia, palpitações, sibilância e síncope podem ocorrer em casos graves.",
+      "classification_reasoning": "A secreção em quantidade moderada mencionada no prontuário sugere a presença de urticária, uma erupção cutânea caracterizada pela liberação de substâncias químicas que causam edema e eritema."
+    },
+    "EA90.3": {
+      "term_original": "afeccoes especificadas da pele e do tecido subcutaneo",
+      "capitulo": "14",
+      "confidence_embedding": 0.7865,
+      "descricao_cid": "Representação de doença CID-11: Psoríase eritrodérmica. Definição: Psoríase eritrodérmica é uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele. A psoríase eritrodérmica geralmente se desenvolve a partir da psoríase em placas extensa mas pode surgir de forma nova. Fatores precipitantes ou desencadeantes incluem a retirada de glicocorticoides sistêmicos e, menos frequentemente, a descontinuação abrupta do metotrexato, queimaduras ou infecções intercorrentes. Os pacientes podem desenvolver hipotermia ou insuficiência cardíaca de alto débito.",
+      "classification_reasoning": "A opção mais precisa para o termo 'afeccoes especificadas da pele e do tecido subcutaneo' é a psoríase eritrodérmica (Código EA90.3), pois apresenta uma inflamação generalizada grave da pele, caracterizando um quadro de doença cutânea específica."
+    },
+    "MB23.A": {
+      "term_original": "choroso",
+      "capitulo": "21",
+      "confidence_embedding": 0.717,
+      "descricao_cid": "Representação de doença CID-11: Choro excessivo em criança, adolescente ou adulto. Definição: Episódios de choro por várias horas ao dia em vários dias da semana por várias semanas em uma criança, adolescente ou adulto saudável.",
+      "classification_reasoning": "A escolha do código MB23.A se justifica porque o termo 'choroso' descreve um paciente que apresenta episódios de choro excessivo, caracterizando uma reação emocional intensa. Embora outros sintomas sejam mencionados no prontuário, o termo 'choroso' é fundamental para a descrição da conduta do paciente e justifica a escolha desse código."
+    }
+  }
+}

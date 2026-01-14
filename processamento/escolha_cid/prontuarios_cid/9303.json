@@ -1,0 +1,140 @@
+{
+  "prontuario_id": 388,
+  "text": "12:16 horas. Paciente proveniente do CMUM Cajuru (4 dias de permanência), com Hx de dor abdominal a aproximadamente 15 dias associada a vomitos. Com SNG aberta em frasco com 300 ml de estase gástrica biliosa, consciente, lucida, respondendo ao comando verbal, pele e mucosa corada e hidratada, eupneica em ar ambiente. AVP em MSD para venóclise. Ausculta pulmonar livre, abdomen flácido, doloroso a palpação. RHA diminuídos. Diurese espontânea, eliminação intestinal ausente a aproximadamente 15 dias (SIC). Relata ainda que realizou ontem enema, porem, sem eficacia. Nega alergia medicamentosa. Afirma que interrompeu o tratamento de infecção urinaria. Paciente segue sobre avaliação medica. OUTRAS DOENÇAS ESPECIFICADAS DO PANCREAS",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Dispositivo Médico": [
+      "frasco",
+      "AVP"
+    ],
+    "Achado": [
+      "consciente",
+      "lucida",
+      "corada",
+      "hidratada",
+      "eficacia",
+      "respondendo ao comando verbal",
+      "eupneica em ar ambiente",
+      "Ausculta pulmonar livre",
+      "Diurese espontânea",
+      "eliminação intestinal"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "pele",
+      "mucosa"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "AVP",
+      "venóclise",
+      "SNG aberta",
+      "tratamento de infecção urinaria"
+    ],
+    "Abreviação": [
+      "AVP",
+      "MSD",
+      "SNG aberta",
+      "RHA diminuídos"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD",
+      "abdomen"
+    ],
+    "Negação": [
+      "ausente",
+      "sem",
+      "Nega"
+    ],
+    "Procedimento Diagnóstico": [
+      "enema"
+    ],
+    "Sinal ou Sintoma": [
+      "dor abdominal",
+      "associada a vomitos",
+      "estase gástrica biliosa",
+      "doloroso a palpação",
+      "RHA diminuídos",
+      "alergia medicamentosa"
+    ],
+    "Conceito Quantitativo": [
+      "300 ml"
+    ],
+    "Função Fisiológica": [
+      "Diurese espontânea",
+      "eliminação intestinal"
+    ],
+    "Doença ou Síndrome": [
+      "tratamento de infecção urinaria",
+      "DOENÇAS ESPECIFICADAS DO PANCREAS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "avaliação medica"
+    ]
+  },
+  "labels": {
+    "4A85.2": {
+      "term_original": "alergia medicamentosa",
+      "capitulo": "04",
+      "confidence_embedding": 0.7815,
+      "descricao_cid": "Representação de doença CID-11: Hipersensibilidade alimentar. Definição: Reações de hipersensibilidade alimentar são efeitos adversos de comida ou de aditivos da comida que são clinicamente semelhantes à alergia. Alergia alimentar é uma reação adversa à comida mediada por um mecanismo imunológico, envolvendo IgE específicas (mediados por IgE), mecanismos mediados por células (não mediados por IgE), ou ambos (mistos mediados e não mediados por IgE).",
+      "classification_reasoning": "A paciente nega alergia medicamentosa e relata ter interrompido o tratamento de infecção urinária, mas apresenta sintomas relacionados a dor abdominal e vomitos associados à falta de eliminação intestinal há 15 dias. Isso sugere que a hipersensibilidade alimentar é mais provável do que uma alergia medicamentosa."
+    },
+    "DA60.3": {
+      "term_original": "estase gástrica biliosa",
+      "capitulo": "13",
+      "confidence_embedding": 0.7971,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A presença de estase gástrica biliosa em um paciente com dor abdominal e vômitos sugere a possibilidade de úlceras de estresse do estômago, uma lesão aguda da mucosa gástrica que pode resultar em hemorragia digestiva alta aguda."
+    },
+    "DC31": {
+      "term_original": "doenças especificadas do pancreas",
+      "capitulo": "13",
+      "confidence_embedding": 0.8283,
+      "descricao_cid": "Representação de doença CID-11: Pancreatite aguda. Definição: Inflamação do pâncreas com início súbito. As alterações patológicas variam de edema a necrose. Enquanto os casos leves frequentemente se recuperam sem complicações, os casos graves apresentam alta mortalidade devido a complicações sistêmicas, apesar do tratamento intensivo.",
+      "classification_reasoning": "A opção DC31 é a mais precisa para o termo 'doenças especificadas do pancreas' no contexto clínico, pois a paciente apresenta dor abdominal associada a vomitos e ausência de eliminação intestinal há 15 dias, sugerindo uma possível inflamação aguda do pâncreas."
+    },
+    "ME05.0": {
+      "term_original": "eliminação intestinal",
+      "capitulo": "21",
+      "confidence_embedding": 0.8378,
+      "descricao_cid": "Representação de doença CID-11: Constipação. Definição: A constipação é uma condição aguda ou crônica na qual os movimentos intestinais ocorrem com menor frequência do que o normal ou consiste em fezes secas e duras que costumam ser dolorosas ou difíceis de evacuar. Aqui está descrita a constipação que não está especificamente descrita em outra parte, como em transtornos da motilidade do intestino ou em doenças funcionais do intestino.",
+      "classification_reasoning": "A escolha do código ME05.0 (Constipação) é a mais precisa para o termo 'eliminação intestinal' no contexto do prontuário, pois o paciente relata eliminação intestinal ausente há aproximadamente 15 dias, o que sugere uma constrição ou dificuldade na evacuação fecal."
+    },
+    "ME24.A5": {
+      "term_original": "doloroso a palpação",
+      "capitulo": "21",
+      "confidence_embedding": 0.7924,
+      "descricao_cid": "Representação de doença CID-11: Hematêmese. Definição: Vômito de sangue que pode ser vermelho vivo ou em \"borra de café\". Vomitar sangue é uma regurgitação de sangue pelo trato gastrointestinal superior e geralmente indica sangramento do trato gastrointestinal superior.",
+      "classification_reasoning": "A escolha pelo termo 'doloroso a palpação' como Hematêmese (ME24.A5) é mais precisa porque a dor abdominal é um sintoma comum em casos de sangramento gástrico ou intestino, o que é sugerido pela presença de SNG aberta com estase gástrica biliosa. Além disso, a dor associada à palpação do abdômen pode ser indicativa de um processo inflamatório ou lesivo no trato gastrointestinal."
+    },
+    "MD90": {
+      "term_original": "associada a vomitos",
+      "capitulo": "21",
+      "confidence_embedding": 0.8039,
+      "descricao_cid": "Representação de doença CID-11: Náusea ou vômitos. Definição: Náusea é a sensação de vontade de vomitar. Vômito é a saída forçada do conteúdo do estômago pelo esôfago e para fora da boca.",
+      "classification_reasoning": "A opção mais precisa para o termo 'associada a vomitos' é MD90, que representa náusea ou vômitos. O paciente apresenta dor abdominal e vomitos há aproximadamente 15 dias, o que sugere uma possível relação entre os sintomas."
+    },
+    "ME08": {
+      "term_original": "eficacia",
+      "capitulo": "21",
+      "confidence_embedding": 0.7848,
+      "descricao_cid": "Representação de doença CID-11: Flatulência e afecções correlatas. Definição: Produção ou presença de gás no trato gastrointestinal que pode ser expelido pelo ânus e outras condições associadas à produção ou presença de gás no trato GI.",
+      "classification_reasoning": "A opção ME08 se refere à produção ou presença de gás no trato gastrointestinal, o que é relacionado ao termo 'eficacia' no contexto do prontuário. O paciente relata ter realizado ontem enema sem eficácia, o que sugere uma possível condição relacionada ao trato gastrointestinal."
+    },
+    "DB32.20": {
+      "term_original": "tratamento de infecção urinária",
+      "capitulo": "13",
+      "confidence_embedding": 0.8332,
+      "descricao_cid": "Representação de doença CID-11: Megacólon tóxico. Definição: Megacólon tóxico é uma forma aguda de distensão do cólon, caracterizada por dilatação acentuada do cólon, acompanhada por distensão abdominal (inchaço) e, às vezes, febre, dor abdominal ou choque. \"Tóxico\" significa que esta complicação ocorre com inflamação. O megacólon tóxico é uma rara dilatação do intestino grosso com risco de vida, que evolui em poucos dias, ocorrendo como complicação de doença inflamatória intestinal, tais como colite ulcerativa e doença de Crohn, ou colite de origem infecciosa.",
+      "classification_reasoning": "A escolha do código DB32.20 se baseia na história de dor abdominal a aproximadamente 15 dias associada a vômitos e SNG aberta em frasco com estase gástrica biliosa, sugerindo uma doença inflamatória intestinal crônica ou aguda. Além disso, a presença de megacólon tóxico como complicação é compatível com a história do paciente interromper o tratamento de infecção urinária e realizar enema sem eficácia."
+    },
+    "DD91.4": {
+      "term_original": "dor abdominal",
+      "capitulo": "13",
+      "confidence_embedding": 0.8421,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da dor abdominal funcional. Definição: Síndrome da dor abdominal funcional representa uma síndrome dolorosa atribuída ao abdome que está fracamente relacionada à função intestinal, está associada a alguma perda das atividades diárias e está presente há pelo menos 6 meses. A dor é constante, quase constante ou pelo menos recorrente. Também há a falta de relação dos sintomas com a ingestão de alimentos ou defecação.",
+      "classification_reasoning": "A dor abdominal persistente associada a vomitos e ausência de eliminação intestinal há 15 dias sugere uma síndrome dolorosa funcional, característica do Código DD91.4."
+    }
+  }
+}

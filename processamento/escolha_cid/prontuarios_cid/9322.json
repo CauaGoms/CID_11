@@ -1,0 +1,173 @@
+{
+  "prontuario_id": 537,
+  "text": "PACIENTE DE 11 ANOS COM DIAGNÓSTICO DE ADRENOLEUCODISTROFIA , COM MANIFESTAÇÃO NEUROLÓGICA , EM USO DE FLUDROCORTISONA 0,05MG /DIA E PREDNISOLONA 4,8MG /DIA + RISPERIDONA 0,75MG /DIA . ACOMPANHA COM ENDÓCRINO E COM NEURO . INICIOU HOJE AO MEIO DIA (AO ACORDAR) COM PROSTRAÇÃO E VÔMITOS . LEVADO AO PRONTO ATENDIMENTO DA ULBRA , ONDE CHEGOU COM FEBRE DE 39,5 , PERFUSÃO RUIM , TREMORES E DESIDRATAÇÃO ( HGT 120 ) . FEZ PUSH DE SF 1000ML . RX DE TÓRAX NORMAL . ENCAMINHADO AO HCPA PARA AVALIAÇÃO . MÃE NEGA CRISE CONVULSIVA . APRESENTANDO PLACAS PURULENTAS NA AMIGDALA , RECEBEU PENICILINA BENZATINA E RECEBEU ALTA COM DOSE DOBRADA DA PREDNISOLONA POR MAIS 3 DIAS E SINTOMÁTICOS ENQUANTO SINTOMAS .  ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Doença ou Síndrome": [
+      "ADRENOLEUCODISTROFIA",
+      "DESIDRATAÇÃO"
+    ],
+    "Hormônio": [
+      "FLUDROCORTISONA"
+    ],
+    "Substância Farmacológica": [
+      "FLUDROCORTISONA",
+      "PREDNISOLONA",
+      "RISPERIDONA",
+      "SF",
+      "SINTOMÁTICOS",
+      "PENICILINA BENZATINA"
+    ],
+    "Substância Química Orgânica": [
+      "FLUDROCORTISONA",
+      "PREDNISOLONA",
+      "RISPERIDONA",
+      "PENICILINA BENZATINA"
+    ],
+    "Abreviação": [
+      "ENDÓCRINO",
+      "NEURO",
+      "HGT",
+      "RX DE TÓRAX"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ENDÓCRINO",
+      "NEURO"
+    ],
+    "Sinal ou Sintoma": [
+      "PROSTRAÇÃO",
+      "VÔMITOS",
+      "FEBRE",
+      "TREMORES",
+      "DESIDRATAÇÃO",
+      "SINTOMAS",
+      "MANIFESTAÇÃO NEUROLÓGICA",
+      "PERFUSÃO RUIM",
+      "CRISE CONVULSIVA",
+      "PLACAS PURULENTAS"
+    ],
+    "Procedimento Laboratorial": [
+      "HGT"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "120",
+      "NORMAL"
+    ],
+    "Conceito Quantitativo": [
+      "1000ML",
+      "0 , 05MG",
+      "4 , 8MG",
+      "0 , 75MG",
+      "39 , 5",
+      "DOSE DOBRADA"
+    ],
+    "Conceito Qualitativo": [
+      "1000ML"
+    ],
+    "Achado": [
+      "NORMAL"
+    ],
+    "Grupo Familiar": [
+      "MÃE"
+    ],
+    "Negação": [
+      "NEGA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "AMIGDALA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ALTA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "PRONTO ATENDIMENTO"
+    ],
+    "Procedimento Diagnóstico": [
+      "RX DE TÓRAX"
+    ],
+    "Antibiótico": [
+      "PENICILINA BENZATINA"
+    ]
+  },
+  "labels": {
+    "R79.82": {
+      "term_original": "febre",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A febre é um sintoma comum em infecções e reações alérgicas, portanto, o código R79.82 - Representação de doença CID-11: Febre não especificada é a escolha mais precisa para o termo 'febre' no contexto clínico."
+    },
+    "MG30.5": {
+      "term_original": "sintomas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7657,
+      "descricao_cid": "Representação de doença CID-11: Dor neuropática crônica. Definição: Dor neuropática crônica é uma dor crônica causada por uma lesão ou doença do sistema nervoso somatossensorial. A dor pode ser espontânea ou evocada, como uma resposta aumentada a um estímulo doloroso (hiperalgesia) ou uma resposta dolorosa a um estímulo normalmente não doloroso (alodinia). O diagnóstico de dor neuropática crônica requer um antecedente de lesão ou doença do sistema nervoso e uma distribuição neuroanatomicamente plausível da dor. Sinais ou sintomas sensoriais negativos (por exemplo, diminuição ou perda de sensibilidade) e positivos (por exemplo, alodinia ou hiperalgesia) indicando o envolvimento do sistema nervoso somatossensorial devem ser compatíveis com o território de inervação da estrutura nervosa afetada.",
+      "classification_reasoning": "A escolha do código MG30.5 (Dor neuropática crônica) se baseia na presença de sintomas como prostatação, vômitos e dor abdominal descritos no prontuário, que podem estar relacionados à doença neuroológica associada à adrenoleucodistrofia do paciente."
+    },
+    "5A74.1": {
+      "term_original": "adrenoleucodistrofia",
+      "capitulo": "05",
+      "confidence_embedding": 0.7905,
+      "descricao_cid": "Representação de doença CID-11: Crise adrenal. Definição: A crise adrenal é uma condição com risco de vida que se refere à insuficiência adrenal grave causada por níveis insuficientes de cortisol.",
+      "classification_reasoning": "Escolhi o código C5A74.1 porque a paciente apresenta sintomas de crise adrenal, como prostração e vómitos, e está recebendo tratamento com fludrocortisona e prednisolona para controlar a doença adrenoleucodistrofia."
+    },
+    "8A04.33": {
+      "term_original": "tremores",
+      "capitulo": "08",
+      "confidence_embedding": 0.833,
+      "descricao_cid": "Representação de doença CID-11: Tremor devido a algumas doenças especificadas do sistema nervoso central. Definição: ",
+      "classification_reasoning": "O paciente apresenta tremores, que podem ser associados a doenças especificadas do sistema nervoso central, como a adrenoleucodistrofia, que está previamente diagnosticada."
+    },
+    "BE89.1": {
+      "term_original": "desidratação",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A desidratação (HGT 120) é um sintoma que pode estar relacionado à doença subjacente de adrenoleucodistrofia do paciente, e não está diretamente ligada às outras opções apresentadas. A escolha da opção BE89.1 (Desidratação) se justifica por ser a mais adequada ao contexto clínico."
+    },
+    "6E69": {
+      "term_original": "prostração",
+      "capitulo": "06",
+      "confidence_embedding": 0.8433,
+      "descricao_cid": "Representação de doença CID-11: Síndrome catatônica secundária. Definição: Síndrome catatônica secundária é uma síndrome de alterações primariamente psicomotoras, caracterizada pela co-ocorrência de vários sintomas de atividade psicomotora diminuída, aumentada ou anormal, que ocorre como consequência fisiopatológica direta de uma condição médica não classificada como transtorno mental, comportamental ou do neurodesenvolvimento. Exemplos de condições médicas que podem estar associadas à catatonia incluem a cetoacidose diabética, hipercalcemia, encefalopatia hepática, homocistinúria, neoplasias, traumatismo encefálico, doença cerebrovascular e encefalite.",
+      "classification_reasoning": "A presença de prostração, juntamente com outros sintomas como febre, perfusão ruim, tremores e desidratação, sugere uma síndrome catatônica secundária, provavelmente relacionada ao quadro clínico da adrenoleucodistrofia do paciente."
+    },
+    "8A61.12": {
+      "term_original": "manifestação neurológica",
+      "capitulo": "08",
+      "confidence_embedding": 0.8041,
+      "descricao_cid": "Representação de doença CID-11: Epilepsia da infância com crises epilépticas migratórias focais. Definição: Síndrome epiléptica com início entre a primeira semana e os sete meses de vida de convulsões focais polimórficas intratáveis. O desenvolvimento psicomotor progressivamente se deteriora. Uma mutação de SCN1A pode ser encontrada. O EEG mostra locais variáveis e multifocais de início das convuslões e lentificação difusa.",
+      "classification_reasoning": "A manifestação neurológica do paciente, com sintomas como prostração e vômitos, associados a história de doença pré-existente (adrenoleucodistrofia) e tratamento com fludrocortisona, prednisolona e risperidona, sugerem que a manifestação neurológica pode ser relacionada à epilepsia da infância com crises epilépticas migratórias focais. Além disso, a presença de placas purulentas na amigdala também aponta para essa possibilidade."
+    },
+    "DA26.3": {
+      "term_original": "vômitos",
+      "capitulo": "13",
+      "confidence_embedding": 0.7757,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da laceração hemorrágica gastroesofágica. Definição: Sangramento por lacerações na mucosa na junção do estômago com esôfago, geralmente causado por vômitos intensos, espasmos de vômito ou tosse.",
+      "classification_reasoning": "A opção mais precisa é a síndrome da laceração hemorrágica gastroesofágica (DA26.3) devido à presença de vômitos como sintoma, o que é uma característica fundamental para este diagnóstico."
+    },
+    "EB51": {
+      "term_original": "placas purulentas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7725,
+      "descricao_cid": "Representação de doença CID-11: Lúpus eritematoso cutâneo crônico. Definição: Lúpus eritematoso cutâneo crônico (LECC) é caracterizado pela presença de placas cutâneas circunscritas apresentando graus variados de edema, eritema, descamação, tamponamento e atrofia folicular. Apresenta-se mais comumente como placas discoides envolvendo face, orelhas e couro cabeludo, mas pode ser amplamente disseminada ou acometer predominantemente extremidades (lúpus Chilblain) ou a gordura subcutânea (paniculite lúpica). Pode causar desfiguração acentuada com cicatrizes faciais proeminentes e perda de cabelo permanente. A maioria dos pacientes permanece com boa saúde, mas 5-10% podem desenvolver lúpus eritematoso sistêmico. A fotossensibilidade é menos evidente do que no lúpus eritematoso cutâneo subagudo.",
+      "classification_reasoning": "A presença de placas purulentas na amigdala sugere uma possível manifestação cutânea de lúpus eritematoso cutâneo crônico (LECC), que é caracterizado pela formação de placas purulentas e ulceradas."
+    },
+    "6C46.5": {
+      "term_original": "crise convulsiva",
+      "capitulo": "06",
+      "confidence_embedding": 0.7646,
+      "descricao_cid": "Representação de doença CID-11: Delirium induzido por estimulantes, incluindo anfetaminas, metanfetamina ou metcatinona. Definição: Delirium induzido por estimulantes, incluindo anfetaminas, metanfetamina e metcatinona é caracterizado por um estado agudo de perturbação da atenção e consciência com características específicas de delirium, que se desenvolve durante ou logo após intoxicação ou abstinência pela substância ou durante o uso de estimulantes. A quantidade e a duração do uso do estimulante devem ser capazes de produzir delirium. Os sintomas não são mais bem explicados por um transtorno mental primário ou pelo uso ou abstinência de uma substância diferente, ou por outra condição de saúde que não esteja classificada como transtornos mentais, comportamentais e do neurodesenvolvimento.",
+      "classification_reasoning": "A escolha do código 6C46.5, Delirium induzido por estimulantes, incluindo anfetaminas, metanfetamina ou metcatinona, se baseia na descrição de sintomas do paciente como próstata e vómitos, o que pode ser relacionado à intoxicação grave pelo uso de estimulantes. Além disso, a presença de febre, perfusão ruim, tremores e desidratação também são consistentes com este código."
+    },
+    "NB2Y": {
+      "term_original": "perfusão ruim",
+      "capitulo": "22",
+      "confidence_embedding": 0.7447,
+      "descricao_cid": "Representação de doença CID-11: Outra lesão especificada de nervos ou da medula espinal ao nível do tórax. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NB2Y, pois o termo 'perfusão ruim' refere-se à lesão de nervos ou medula espinal ao nível do tórax, não especificada. Isso se ajusta melhor à descrição do paciente que apresentou sintomas neurológicos e febre alta, com lesões em seu sistema nervoso."
+    }
+  }
+}

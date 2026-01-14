@@ -1,0 +1,133 @@
+{
+  "prontuario_id": 525,
+  "text": "Às 00:45HS: PACIENTE APRESENTANDO SECREÇÃO TRAQUEAL COM ESTRIAS DE SANGUE EM GRANDE QUANTIDADE NO INICIO DO PLANTÃO. APÓS ASPIRAÇÃO, INICIOU COM SANGRAMENTO ATIVO PELA TRAQUEOSTOMIA E COÁGULOS DE SANGUE. ENTRO EM CONTATO COM O PLANTÃO NA NEUROCX - VITAL BRASIL - PARA AVALIAÇÃO DO PACIENTE, PORÉM NÃO PODERIA AVALIAR NO MOMENTO E ORIENTOU SOLICITAR AVALIAÇÃO DA CX GERAL. CHAMO O PLANTÃO DA CX GERAL - VITAL BRASIL - PARA AVALIAÇÃO DO PACIENTE. ENF. FLORENCE NIGHTINGALE, COREN XXXX. OUTROS TRANSTORNOS RESPIRATORIOS POS-PROCEDIMENTOS. Às 10:50: acordada, hipocorada, eupneica em ar ambiente, curativo limpo e seco em MIE, nega algias, ansiosa pela alta, chorosa, solicita falar com médico, aviso Dr VITAL BRASIL. Enf. Florence Nightingale. FRATURA DA EXTREMIDADE DISTAL DO FEMUR.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "PLANTÃO",
+      "AVALIAR",
+      "AVALIAÇÃO DO PACIENTE",
+      "AVALIAÇÃO DA CX GERAL"
+    ],
+    "Conceito Temporal": [
+      "APÓS",
+      "NO MOMENTO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ASPIRAÇÃO",
+      "TRAQUEOSTOMIA",
+      "curativo"
+    ],
+    "Negação": [
+      "NÃO",
+      "nega"
+    ],
+    "Abreviação": [
+      "ENF",
+      "MIE",
+      "Enf",
+      "PLANTÃO NA NEUROCX",
+      "AVALIAÇÃO DA CX GERAL",
+      "PLANTÃO DA CX GERAL"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ENF",
+      "médico",
+      "Enf"
+    ],
+    "Achado": [
+      "acordada",
+      "limpo",
+      "seco",
+      "chorosa",
+      "ESTRIAS DE SANGUE",
+      "eupneica em ar ambiente",
+      "ansiosa pela alta"
+    ],
+    "Sinal ou Sintoma": [
+      "hipocorada",
+      "algias",
+      "SANGRAMENTO ATIVO",
+      "COÁGULOS DE SANGUE"
+    ],
+    "Dispositivo Médico": [
+      "curativo"
+    ],
+    "Localização ou Região Corporal": [
+      "MIE"
+    ],
+    "Conceito Qualitativo": [
+      "GRANDE QUANTIDADE"
+    ],
+    "Organização Relacionada à Saúde": [
+      "PLANTÃO NA NEUROCX",
+      "PLANTÃO DA CX GERAL"
+    ],
+    "Doença ou Síndrome": [
+      "TRANSTORNOS RESPIRATORIOS POS-PROCEDIMENTOS"
+    ],
+    "Lesão ou Envenenamento": [
+      "FRATURA DA EXTREMIDADE DISTAL DO FEMUR"
+    ]
+  },
+  "labels": {
+    "FB81": {
+      "term_original": "fratura da extremidade distal do femur",
+      "capitulo": "15",
+      "confidence_embedding": 0.7337,
+      "descricao_cid": "Representação de doença CID-11: Osteonecrose. Definição: Osteonecrose é o termo médico usado para a morte do tecido ósseo que ocorre quando o suprimento sanguíneo para o osso é interrompido por algum motivo. Os médicos algumas vezes se referem a esta condição como necrose avascular, necrose asséptica ou necrose isquêmica do osso.",
+      "classification_reasoning": "A fratura da extremidade distal do femur descrita no contexto clínico é mais provável ser uma representação de osteonecrose (Osteonecrose) do que outra condição, considerando a natureza da lesão e a ausência de informações sugerindo trauma ou doença inflamatória."
+    },
+    "MG27": {
+      "term_original": "chorosa",
+      "capitulo": "21",
+      "confidence_embedding": 0.7523,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia, não classificada em outra parte. Definição: Sangramento ou saída de sangue de um vaso.",
+      "classification_reasoning": "A presença de sangue na secreção traqueal e a descrição do paciente como 'chorosa' sugerem uma resposta emocional intenso, o que é mais consistente com um sangramento ou saída de sangue de um vaso (Hemorragia, não classificada em outra parte) do que com outras opções."
+    },
+    "8A64": {
+      "term_original": "hipocorada",
+      "capitulo": "08",
+      "confidence_embedding": 0.7641,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo.",
+      "classification_reasoning": "O termo 'hipocorada' sugere uma paciente que está ansiosa e preocupada, mas não há indicação de convulsões epilépticas ou alterações graves do estado de consciência. A escolha do código 8A64 se justifica pela representação de crise epiléptica única devida a causas remotas, considerando que o paciente está ansioso e preocupado com a alta."
+    },
+    "CB26": {
+      "term_original": "sangramento ativo",
+      "capitulo": "12",
+      "confidence_embedding": 0.7792,
+      "descricao_cid": "Representação de doença CID-11: Hemotórax. Definição: Hemotórax é a presença de sangue com ou sem ar no espaço pleural. A causa mais comum é o traumatismo torácico. O hemotórax deve ser considerado presente quando o hematócrito do líquido pleural for maior que a metade do do sangue periférico. Numerosas localizações de sangramento podem ser responsáveis pelo hemotórax, incluindo laceração pulmonar, laceração de vaso intercostal e ruptura de adesão pleural.",
+      "classification_reasoning": "A presença de sangramento ativo na traqueostomia indica a possibilidade de hemotórax, que é uma condição caracterizada pela presença de sangue no espaço pleural. Isso justifica a escolha do código CB26."
+    },
+    "6E63": {
+      "term_original": "ansiosa pela alta",
+      "capitulo": "06",
+      "confidence_embedding": 0.7572,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de ansiedade secundária. Definição: Síndrome caracterizada pela presença de sintomas ansiosos proeminentes, considerados consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental, com base em evidências de anamnese, exame físico ou achados laboratoriais. Os sintomas não são explicados por delirium ou por outro transtorno mental e comportamental, e não são uma resposta psicologicamente mediada a uma condição médica grave (p. ex., sintomas ansiosos ou ataques de pânico em resposta ao diagnóstico de uma doença potencialmente fatal). Essa categoria deve ser utilizada somada ao diagnóstico do transtorno ou doença subjacente presumido, quando os sintomas ansiosos forem suficientemente graves para exigir atenção clínica específica.",
+      "classification_reasoning": "A paciente está ansiosa pela alta, o que sugere sintomas ansiosos secundários à condição médica subjacente. A escolha do código 6E63 é a mais precisa porque os sintomas ansiosos não estão associados a delirium ou outro transtorno mental e comportamental, e são consequência fisiopatológica direta da condição de saúde."
+    },
+    "CB05.41": {
+      "term_original": "transtornos respiratorios pos-procedimentos",
+      "capitulo": "12",
+      "confidence_embedding": 0.7313,
+      "descricao_cid": "Representação de doença CID-11: Transtornos respiratórios na poliangeíte microscópica. Definição: Abrange condições patológicas que afetam órgãos e tecidos que possibilitam a troca gasosa em organismos superiores, e inclui condições do trato respiratório superior, traqueia, brônquios e bronquíolos, alvéolos pleura e cavidade pleural, nervos e músculos envolvidos na respiração. Este diagnóstico é quando há uma doença autoimune mal definida caracterizada por uma vasculite sistêmica, pauci-imune, necrotizante, de pequenos vasos sem evidência clínica ou patológica de uma inflamação granulomatosa necrotizante.",
+      "classification_reasoning": "O termo 'transtornos respiratorios pos-procedimentos' sugere a presença de um problema respiratório subsequente a um procedimento, o que é compatível com as descrições da doença CID-11: Transtornos respiratórios na poliangeíte microscópica (CB05.41). Aparentemente, há uma relação entre a secreção traqueal com estrías de sangue e o sangramento ativo pela traqueostomia, sugerindo possivelmente um problema respiratório subsequente ao procedimento."
+    },
+    "MD22": {
+      "term_original": "estrias de sangue",
+      "capitulo": "21",
+      "confidence_embedding": 0.7548,
+      "descricao_cid": "Representação de doença CID-11: Hemoptise. Definição: Expectoração ou cuspe de sangue originário de qualquer parte do trato respiratório, usualmente resultado de hemorragia no parênquima pulmonar e artérias bronquiais.",
+      "classification_reasoning": "A presença de estrias de sangue na secreção traqueal é característica de hemoptise, que é a expectoração ou cuspe de sangue originário de qualquer parte do trato respiratório. Nesse contexto, a escolha mais precisa para o termo 'estrias de sangue' é MD22, representando a representação de doença CID-11: Hemoptise."
+    },
+    "3B64.14": {
+      "term_original": "coágulos de sangue",
+      "capitulo": "03",
+      "confidence_embedding": 0.8019,
+      "descricao_cid": "Representação de doença CID-11: Púrpura trombocitopênica trombótica. Definição: Esta condição é idiopática. Esta condição é caracterizada por anormalidade da coagulação do sangue causando a formação de coágulos microscópicos de forma extensa nos pequenos vasos sanguíneos do corpo, resultando em baixa contagem de plaquetas. Esta condição pode se apresentar com convulsões, hemiplegia, parestesias, distúrbio visual e afasia ou anemia. A confirmação é pela identificação de tromboses.",
+      "classification_reasoning": "A presença de coágulos de sangue no contexto de secreção tracheal com estrias de sangue e sangramento ativo pela traqueostomia sugere a possibilidade de púrpura trombocitopênica trombótica, uma condição caracterizada por anormalidade na coagulação do sangue que leva à formação de coágulos microscópicos nos pequenos vasos sanguíneos."
+    }
+  }
+}

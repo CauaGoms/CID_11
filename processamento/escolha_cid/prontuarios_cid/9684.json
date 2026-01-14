@@ -1,0 +1,163 @@
+{
+  "prontuario_id": 521,
+  "text": "Paciente em acompanhamento com a cardiologia devido a 2 IAM previos ( em 2004  e 2012).\nEm uso de  : carvediol 6, 25 mg , AAS 100 mg , furosemida 40 mg , losartana 100 mg, atorvstatina 20 mg , omeprazol 20 mg.\nPaciente relata dispnéia e cansaço aos minimos esforços. Paciente relata parestesias em pé direito , dores musculares na panturrilha.\nComorbidades : HAS, ICC , dislipidemia.\nEventos: 2 CATs e 3 angioplastias.\nNa ultima consulta foi trocada sinvastatina por atorvastatina mas o paciente continua em uso de sinvastatina. \nPaciente nao traz exames.\nEF:\nPA: 120/80 mmhg.\nBCRNF.\nPulso MMII pedioso poplíteo e femoral presentes.\nConduta : troco sinvastatina por atorvastatina e solicito exames de sangue ( CT, LDL, HDL, TG ); mantenho as demais medicações.\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente",
+      "paciente"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "acompanhamento",
+      "trocada",
+      "Conduta",
+      "troco",
+      "mantenho"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "cardiologia"
+    ],
+    "Conceito Quantitativo": [
+      "2",
+      "3",
+      "6 , 25 mg",
+      "100 mg",
+      "40 mg",
+      "20 mg",
+      "120/80 mmhg"
+    ],
+    "Abreviação": [
+      "IAM",
+      "AAS",
+      "HAS",
+      "ICC",
+      "CATs",
+      "EF",
+      "PA",
+      "BCRNF",
+      "MMII",
+      "CT"
+    ],
+    "Doença ou Síndrome": [
+      "IAM",
+      "HAS",
+      "ICC",
+      "dislipidemia"
+    ],
+    "Conceito Temporal": [
+      "previos"
+    ],
+    "Substância Farmacológica": [
+      "carvediol",
+      "AAS",
+      "furosemida",
+      "losartana",
+      "atorvstatina",
+      "omeprazol",
+      "sinvastatina",
+      "atorvastatina",
+      "medicações"
+    ],
+    "Substância Química Orgânica": [
+      "carvediol",
+      "AAS",
+      "furosemida",
+      "losartana",
+      "atorvstatina",
+      "omeprazol",
+      "sinvastatina",
+      "atorvastatina"
+    ],
+    "Sinal ou Sintoma": [
+      "dispnéia",
+      "parestesias",
+      "cansaço aos minimos esforços",
+      "dores musculares"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CATs",
+      "angioplastias"
+    ],
+    "Negação": [
+      "nao"
+    ],
+    "Procedimento Diagnóstico": [
+      "EF"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "Pulso"
+    ],
+    "Achado": [
+      "BCRNF",
+      "presentes"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MMII",
+      "pedioso",
+      "poplíteo",
+      "femoral",
+      "pé direito"
+    ],
+    "Produto Intelectual": [
+      "Conduta"
+    ],
+    "Procedimento Laboratorial": [
+      "CT",
+      "LDL",
+      "HDL",
+      "TG",
+      "exames de sangue"
+    ]
+  },
+  "labels": {
+    "4A62": {
+      "term_original": "icc",
+      "capitulo": "04",
+      "confidence_embedding": 0.7389,
+      "descricao_cid": "Representação de doença CID-11: Doença de Behçet. Definição: Doença de Behçet é uma doença de etiopatogenia não completamente compreendida caracterizada por úlceras aftosas orais e/ou genitais recorrentes acompanhadas de lesões inflamatórias cutâneas, oculares, articulares, gastrointestinais e/ou do sistema nervoso central. Podem ocorrer vasculites de pequenos vasos, vasculopatia trombótica, arterites e aneurismas arteriais. Tem uma alta prevalência do Mediterrâneo Oriental através de toda a Ásia Central até a China e Japão.",
+      "classification_reasoning": "Escolha baseada na menção de 'ICC' no contexto do prontuário, que se refere à Doença de Behçet."
+    },
+    "8C60": {
+      "term_original": "parestesias",
+      "capitulo": "08",
+      "confidence_embedding": 0.7201,
+      "descricao_cid": "Representação de doença CID-11: Miastenia gravis. Definição: Miastenia gravis é o transtorno de transmissão neuromuscular mediado por autoanticorpo adquirido mais comum. A prevalência é de 1–2 por 10.000 pessoas. Fraqueza flutuante aumentando com a atividade repetida e melhorando após um período de descanso é a marca característica. Miastenia Gravis com anticorpos dirigidos contra proteínas pós-sinápticas, geralmente o receptor nicotínico de acetilcolina, são as mais prevalentes. Outros tipos são Miastenia Gravis associada a anticorpos quinase específicos do músculo e Miastenia Gravis com autoanticorpos desconhecidos (soronegativos).\r\nExistem três grupos: \r\n1. Miastenia Gravis puramente ocular\r\n2. Miastenia Gravis generalizada de início precoce (<40-50 anos)\r\n3. MG generalizada de início tardio.\r\nEm cerca de 15%, a doença pode ser classificada como paraneoplásica, geralmente associada a um timoma.",
+      "classification_reasoning": "Parestesias em pé direito sugerem uma doença neuromuscular, e a miastenia gravis é um diagnóstico que melhor se ajusta ao contexto clínico do paciente com HAS, ICC e dislipidemia, relatando dispnéia e cansaço aos mínimos esforços, parestesias e dores musculares."
+    },
+    "BD53.4": {
+      "term_original": "iam",
+      "capitulo": "11",
+      "confidence_embedding": 0.7353,
+      "descricao_cid": "Representação de doença CID-11: Ateroembolismo de colesterol. Definição: Oclusão embólica de pequenas artérias e arteríolas distais por cristais de colesterol liberados de placa aterosclerótica em artérias maiores mais centrais. A isquemia microvascular resultante é acompanhada por uma resposta inflamatória à presença de cristais de colesterol. Isso pode ocorrer espontaneamente ou como uma complicação de angiografia ou cirurgia vascular. Os órgãos mais comumente afetados incluem pele, rins, trato gastrointestinal e cérebro. Manifestações cutâneas, presentes na maioria dos casos, incluem livedo reticularis e necrose e ulceração isquêmicas focais; estas estão comumente associadas a lesão renal aguda.",
+      "classification_reasoning": "A escolha para o código BD53.4 (Ateroembolismo de colesterol) é baseada na descrição da paciente com IAM previos em 2004 e 2012, o que sugere uma possibilidade de aterosclerose como causa subjacente desses eventos. Além disso, a presença de dor musculares na panturrilha e parestesias nos membros inferiores pode ser relacionada à isquemia microvascular decorrente do atoembolismo de colesterol."
+    },
+    "BA01": {
+      "term_original": "has",
+      "capitulo": "11",
+      "confidence_embedding": 0.7446,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A escolha pelo código BA01 (Doença cardíaca hipertensiva) é a mais precisa porque o paciente tem história de HAS e comorbidades relacionadas à doença cardiovascular, como ICC e dislipidemia."
+    },
+    "CA23.00": {
+      "term_original": "dispnéia",
+      "capitulo": "12",
+      "confidence_embedding": 0.7586,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide.",
+      "classification_reasoning": "A dispnéia relatada pelo paciente é caracterizada como representação de doença CID-11: Asma alérgica com exacerbação (CA23.00). Embora não haja explicitamente informações sobre asma alérgica no contexto, a dispnéia é um sintoma comum em pacientes com asma e outras doenças respiratórias."
+    },
+    "FB32.20": {
+      "term_original": "dores musculares",
+      "capitulo": "15",
+      "confidence_embedding": 0.7324,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A descrição de 'dores musculares' no contexto do prontuário é mais consistente com a condição de rabdomiólise idiopática, caracterizada por lesão muscular e mioglobinúria."
+    },
+    "5C80.2": {
+      "term_original": "dislipidemia",
+      "capitulo": "05",
+      "confidence_embedding": 0.7341,
+      "descricao_cid": "Representação de doença CID-11: Hiperlipidemia mista. Definição: Níveis séricos elevados de colesterol LDL e triglicerídeos.",
+      "classification_reasoning": "A dislipidemia refere-se à presença de níveis séricos elevados de triglicerídeos e colesterol LDL, o que é consistente com a descrição da doença CID-11 Hiperlipidemia mista."
+    }
+  }
+}

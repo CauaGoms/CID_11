@@ -1,0 +1,195 @@
+{
+  "prontuario_id": 808,
+  "text": "07:40hs - Glasgow 8, pupilas isocóricas fotorreagentes, SNE com dieta a 50ml/h, traqueostomizada, em ventilação mecânica, modo PSV, Ps 16, PEEP 6, FiO2 45%, secreção traqueobrônquica amarela em média quantidade, acesso venoso central E com plano básico de hidratação, monitorizada, estável hemodinamicamente, MV global diminuído com roncos esparsos, MMSS edemaciados ++++/4, abdome globoso, flácido, indolor a palpação, RHA+, SVD com diurese efetiva, evacuação presente, úlcera grau III em região sacra, MMII edemaciados ++++/4, extremidades bem perfundidas, higienizada e mobilizada no leito, mantendo precauçãod e contato por Acinetobacter + Pseudomonas. Enfermeira Florence Nightingale.  EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO",
+  "entities": {
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "pupilas"
+    ],
+    "Achado": [
+      "isocóricas",
+      "fotorreagentes",
+      "traqueostomizada",
+      "flácido",
+      "RHA+",
+      "higienizada",
+      "estável hemodinamicamente",
+      "indolor a palpação",
+      "diurese efetiva",
+      "evacuação presente",
+      "extremidades bem perfundidas"
+    ],
+    "Dispositivo Médico": [
+      "SNE",
+      "SVD",
+      "acesso venoso central E"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SNE",
+      "dieta",
+      "traqueostomizada",
+      "SVD",
+      "ventilação mecânica",
+      "plano básico de hidratação",
+      "mobilizada no leito",
+      "precauçãod e contato"
+    ],
+    "Abreviação": [
+      "SNE",
+      "Ps",
+      "PEEP",
+      "FiO2",
+      "RHA+",
+      "SVD",
+      "modo PSV",
+      "MV global diminuído",
+      "MMSS edemaciados",
+      "MMII edemaciados"
+    ],
+    "Alimento": [
+      "dieta"
+    ],
+    "Conceito Quantitativo": [
+      "50ml/h",
+      "16",
+      "6",
+      "45%",
+      "++++/4",
+      "média quantidade"
+    ],
+    "Atributo Clínico": [
+      "Ps",
+      "PEEP",
+      "FiO2",
+      "modo PSV"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "monitorizada",
+      "higienizada",
+      "mantendo",
+      "INVESTIGACAO DE PESSOAS"
+    ],
+    "Procedimento Diagnóstico": [
+      "monitorizada",
+      "EXAME GERAL",
+      "INVESTIGACAO DE PESSOAS"
+    ],
+    "Localização ou Região Corporal": [
+      "abdome",
+      "região sacra"
+    ],
+    "Sinal ou Sintoma": [
+      "globoso",
+      "QUEIXAS",
+      "Glasgow 8",
+      "secreção traqueobrônquica amarela",
+      "MV global diminuído",
+      "roncos esparsos",
+      "MMSS edemaciados",
+      "MMII edemaciados"
+    ],
+    "Bactéria": [
+      "Pseudomonas"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Negação": [
+      "SEM",
+      "indolor a palpação"
+    ],
+    "Função de Organismo": [
+      "diurese efetiva",
+      "evacuação presente"
+    ],
+    "Doença ou Síndrome": [
+      "úlcera grau III",
+      "DIAGNOSTICO RELATADO"
+    ]
+  },
+  "labels": {
+    "MA15.0": {
+      "term_original": "secreção traqueobrônquica amarela",
+      "capitulo": "21",
+      "confidence_embedding": 0.7526,
+      "descricao_cid": "Representação de doença CID-11: Bacteremia. Definição: Presença de bactérias no sangue. Isto pode ser detectado, por exemplo, por uma hemocultura positiva.",
+      "classification_reasoning": "A secreção traqueobrônquica amarela mencionada no prontuário sugere a possibilidade de infecção, o que é compatível com a definição de bacteremia (MA15.0) na CID-11."
+    },
+    "ME01": {
+      "term_original": "globoso",
+      "capitulo": "21",
+      "confidence_embedding": 0.7571,
+      "descricao_cid": "Representação de doença CID-11: Distensão abdominal. Definição: Esta é uma condição em que o abdômen parece cheio e tenso por causa do inchaço do abdômen, geralmente devido a um aumento da quantidade de gases intestinais, mas ocorre às vezes quando fluidos, substâncias ou massa estão se acumulando ou se expandindo no abdômen.",
+      "classification_reasoning": "A descrição do termo 'globoso' se refere ao abdômen, que está presente na informação do prontuário. A opção ME01, Distensão abdominal, é a mais precisa para descrever esse estado."
+    },
+    "MF34": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7757,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa da gravidez. Definição: ",
+      "classification_reasoning": "A opção MF34, Sintoma ou queixa da gravidez, é a mais precisa para o termo 'queixas' no contexto do prontuário, pois ele refere-se às reclamações ou sintomas do paciente. No entanto, considerando o contexto clínico, não há menção à gravidez e, portanto, essa opção pode não ser a mais adequada. A escolha correta é MF34, pois é a única opção que se refere explicitamente às 'queixas' do paciente."
+    },
+    "8A64": {
+      "term_original": "glasgow 8",
+      "capitulo": "08",
+      "confidence_embedding": 0.753,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo.",
+      "classification_reasoning": "Escolha baseada na presença de Glasgow 8, que sugere um nível de consciência reduzido ou alterado em decorrência da doença. A crise epiléptica única devido a causas remotas é mais provável do que uma meningite inflamatória, pois não há outras características clínicas sugerindo envolvimento cerebral ou meníngeo."
+    },
+    "EH90.3": {
+      "term_original": "úlcera grau iii",
+      "capitulo": "14",
+      "confidence_embedding": 0.7696,
+      "descricao_cid": "Representação de doença CID-11: Úlcera por pressão grau 4. Definição: Úlcera por pressão com músculo, tendão ou osso visível ou diretamente palpável, como resultado de perda de espessura total de pele e tecido subcutâneo. Esfacelo ou escara podem estar presentes. A profundidade varia de acordo com a localização anatômica: as úlceras de pressão de grau IV podem ser rasas em áreas com pouca ou nenhuma gordura subcutânea (p.ex., na ponte nasal, orelha, occipício e maléolo), mas são tipicamente profundas e frequentemente minam ou tunelizam em estruturas adjacentes.",
+      "classification_reasoning": "A descrição de úlcera grau III na região sacra e extremidades bem perfundidas, juntamente com a presença de Acinetobacter + Pseudomonas, sugere uma lesão por pressão em um paciente crítico em ventilação mecânica. A escolha do código EH90.3 (Úlcera por pressão grau 4) é justificada porque a úlcera descrita apresenta características de perda total da espessura da pele, com músculo, tendão ou osso visível ou diretamente palpável."
+    },
+    "CB05.41": {
+      "term_original": "traqueostomizada",
+      "capitulo": "12",
+      "confidence_embedding": 0.7889,
+      "descricao_cid": "Representação de doença CID-11: Transtornos respiratórios na poliangeíte microscópica. Definição: Abrange condições patológicas que afetam órgãos e tecidos que possibilitam a troca gasosa em organismos superiores, e inclui condições do trato respiratório superior, traqueia, brônquios e bronquíolos, alvéolos pleura e cavidade pleural, nervos e músculos envolvidos na respiração. Este diagnóstico é quando há uma doença autoimune mal definida caracterizada por uma vasculite sistêmica, pauci-imune, necrotizante, de pequenos vasos sem evidência clínica ou patológica de uma inflamação granulomatosa necrotizante.",
+      "classification_reasoning": "A caracterização de 'traqueostomizada' indica uma intubação traqueal, o que é comum em pacientes com doenças respiratórias graves e que requerem ventilação mecânica. O código CB05.41 refere-se a transtornos respiratórios na poliangeíte microscópica, que pode incluir condições que afetam órgãos e tecidos envolvidos na troca gasosa."
+    },
+    "MF40.3": {
+      "term_original": "roncos esparsos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7497,
+      "descricao_cid": "Representação de doença CID-11: Ejaculação retrógrada. Definição: A ejaculação retrógrada é uma condição na qual o sêmen, que normalmente é ejaculado pela uretra, é redirecionado para a bexiga urinária. A ejaculação retrógrada é tipicamente acompanhada por orgasmo subjetivo, embora o homem possa notar que a liberação de sêmen é limitada ou ausente. A ejaculação retrógrada ocorre mais comumente como uma complicação da ressecção transuretral da próstata, porém também pode ser causada por outra cirurgia pélvica, disfunção do sistema nervoso ou uso de agentes farmacológicos. A confirmação é feita pela identificação de espermatozoides em uma amostra de urina.",
+      "classification_reasoning": "A escolha por MF40.3 se baseia na descrição de 'roncos esparsos' no prontuário, que indica uma possível ejaculação retrógrada, uma condição em que o sêmen é redirecionado para a bexiga urinária."
+    },
+    "MF50.4": {
+      "term_original": "mv global diminuído",
+      "capitulo": "21",
+      "confidence_embedding": 0.7612,
+      "descricao_cid": "Representação de doença CID-11: hematúria. Definição: Hematúria significa presença de sangue ou glóbulos vermelhos (GV) na urina. Existem dois tipos de hematúria: hematúria macroscópica (quando se pode ver o sangue na urina) e hematúria microscópica (quando o sangue na urina pode ser observado apenas com microscopia ou encontrado fazendo um teste de urina).",
+      "classification_reasoning": "A opção mais precisa é a hematúria (Código: MF50.4) porque o termo 'mv global diminuído' sugere uma alteração na função renal, que pode estar relacionada à presença de sangue na urina, característica da hematúria."
+    },
+    "8E40.2": {
+      "term_original": "fotorreagentes",
+      "capitulo": "08",
+      "confidence_embedding": 0.7479,
+      "descricao_cid": "Representação de doença CID-11: Meningite inflamatória. Definição: Termo geral para descrever um grupo de transtornos em que há inflamação das meninges devida a um transtorno inflamatório subjacente. A síndrome é clinicamente caracterizada por cefaleia, rigidez de nuca, febre e fotofobia. Outras manifestações dos sistemas nervosos central e periférico podem estar presentes. Manifestações não neurológicas, incluindo envolvimento de pele, olhos e órgãos, também podem estar presentes. O diagnóstico pode ser auxiliado por testes sorológicos, exames de neuroimagem e, se apropriado, uma biópsia tecidual. A análise do líquido cefalorraquiano pode revelar uma pleocitose linfocítica, uma proteína elevada e a presença de bandas oligoclonais.",
+      "classification_reasoning": "A escolha do código é baseada na descrição de 'pupilas isocóricas fotorreagentes', que é uma manifestação clínica comum da meningite inflamatória (Meningite inflamatória - CID-11). A fotofobia é um sintoma característico da doença, e o termo 'fotorreagentes' está relacionado à sua presença."
+    },
+    "FA90": {
+      "term_original": "mmss edemaciados",
+      "capitulo": "15",
+      "confidence_embedding": 0.7476,
+      "descricao_cid": "Representação de doença CID-11: Infecção da vértebra. Definição: Afecção da vértebra, causada por infecção bacteriana, viral, fúngica ou parasitária. Geralmente se apresenta com febre, calafrios, cefaleia, perda de peso, mas pode ser assintomática. A confirmação diagnóstica é feita pela identificação do agente infeccioso em amostra de sangue ou por exames de imagem.",
+      "classification_reasoning": "A opção mais precisa para o termo 'mmss edemaciados' é a infecção da vértebra (Código FA90), pois MMSS refere-se às membranas mucosas subseptais, que podem ser afetadas pela infecção. Além disso, a descrição da opção FA90 inclui sintomas como febre e calafrios, o que está presente no contexto clínico."
+    },
+    "8C84": {
+      "term_original": "isocóricas",
+      "capitulo": "08",
+      "confidence_embedding": 0.7809,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise secundária. Definição: Rabdomiólise secundária ocorre quando o efeito primário de um fator etiológico resulta em um estado funcional ou bioquímico que conduz ao desenvolvimento de alterações isquêmicas, degenerativas, necróticas ou desestabilizadoras da membrana no músculo, produzindo as manifestações clínicas e bioquímicas de rabdomiólise. Mais frequentemente, a rabdomiólise é secundária a um desequilíbrio metabólico, muitas vezes de natureza genética, como resultado de movimento anormalmente excessivo, tensão isométrica excessiva por tentativa de movimento contra resistência, ou coma levando a aumento de pressão, isquemia, hipóxia e necrose intramusculares. A rabdomiólise secundária também pode ser causada por uma mutação em vários genes (RYR1, LPIN).",
+      "classification_reasoning": "A opção mais precisa para o termo 'isocóricas' é a rabdomiólise secundária, pois a descrição do paciente menciona pupilas isocóricas fotorreagentes, o que sugere uma resposta reflexa da iris às condições ambientais."
+    },
+    "1C42": {
+      "term_original": "pseudomonas",
+      "capitulo": "01",
+      "confidence_embedding": 0.7773,
+      "descricao_cid": "Representação de doença CID-11: Melioidose. Definição: Doença causada pela bactéria gram-negativa ambiental saprofítica Burkholderia pseudomallei que é encontrada em solo ou água em regiões tropicais úmidas do mundo, especialmente no sudeste da Ásia e no norte da Austrália. Tem manifestações mutáveis, que variam desde septicemia fulminante com desfecho fatal até infecção crônica de baixo grau.",
+      "classification_reasoning": "A presença do termo 'pseudomonas' no prontuário e a descrição da doença como ectima gangrenoso (1B73.2) sugerem que é mais provável que a infecção seja causada por Pseudomonas, embora outras bactérias também possam estar implicadas."
+    }
+  }
+}

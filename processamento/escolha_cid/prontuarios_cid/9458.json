@@ -1,0 +1,150 @@
+{
+  "prontuario_id": 244,
+  "text": "01/02/12 Às 17h. Internou na UTI - IV, proveniente do CC ., PO de tocacotomia exploradora, consciente, comunicativo, pupilas isocóricas fotoreagentes. Respiração espontânea, em névoa úmida 3l. MV diminuído em ápice E e bibasalmente. Apresenta hematoma em região torácica E, dreno de tórax anterior e posterior em tórax E, com débito hemático. Abdomen flácido. RHA hiperativo. Apresenta escoriação em região abdominal, sem presença de exsudato. Curativo em MIE com tala gessada. Monitorizado, e colocada medidas de conforto. Enfermeira Florence Nightingale . EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "Internou",
+      "Monitorizado",
+      "EXAME GERAL"
+    ],
+    "Abreviação": [
+      "UTI",
+      "CC",
+      "PO",
+      "MIE",
+      "MV diminuído",
+      "ápice E",
+      "região torácica E",
+      "tórax E",
+      "RHA hiperativo"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UTI",
+      "CC"
+    ],
+    "Conceito Temporal": [
+      "PO"
+    ],
+    "Achado": [
+      "consciente",
+      "comunicativo",
+      "isocóricas",
+      "fotoreagentes",
+      "Respiração espontânea",
+      "Abdomen flácido"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "pupilas"
+    ],
+    "Conceito Quantitativo": [
+      "3l"
+    ],
+    "Conceito Espacial": [
+      "bibasalmente",
+      "anterior",
+      "posterior"
+    ],
+    "Função Patológica": [
+      "hematoma"
+    ],
+    "Lesão ou Envenenamento": [
+      "escoriação"
+    ],
+    "Negação": [
+      "sem",
+      "SEM"
+    ],
+    "Substância Corporal": [
+      "exsudato",
+      "débito hemático"
+    ],
+    "Sinal ou Sintoma": [
+      "exsudato",
+      "QUEIXAS",
+      "MV diminuído",
+      "débito hemático",
+      "RHA hiperativo"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Curativo",
+      "tocacotomia exploradora",
+      "névoa úmida",
+      "dreno de tórax",
+      "tala gessada",
+      "medidas de conforto"
+    ],
+    "Dispositivo Médico": [
+      "Curativo",
+      "dreno de tórax",
+      "tala gessada"
+    ],
+    "Localização ou Região Corporal": [
+      "MIE",
+      "ápice E",
+      "região torácica E",
+      "tórax E",
+      "região abdominal"
+    ],
+    "Procedimento Diagnóstico": [
+      "Monitorizado",
+      "INVESTIGACAO DE PESSOAS"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Função de Organismo": [
+      "Respiração espontânea"
+    ]
+  },
+  "labels": {
+    "BB24": {
+      "term_original": "mv diminuído",
+      "capitulo": "11",
+      "confidence_embedding": 0.7965,
+      "descricao_cid": "Representação de doença CID-11: Hemopericárdio. Definição: Hemopericárdio causado por doenças não classificadas em outra parte. Hemopericárdio geralmente se refere a sangue no saco pericárdico do coração. É clinicamente semelhante ao derrame pericárdico e, dependendo do volume e da rapidez com que se desenvolve, pode causar tamponamento cardíaco.",
+      "classification_reasoning": "O termo 'mv diminuído' refere-se à redução da função ventilatória, característica de hemopericárdio, que pode causar tamponamento cardíaco. A opção BB24 é a mais precisa para o contexto clínico."
+    },
+    "NE81.0Z": {
+      "term_original": "débito hemático",
+      "capitulo": "22",
+      "confidence_embedding": 0.8256,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A presença de débito hemático na região torácica e o fato de ser uma complicação de um procedimento (tocacotomia exploradora) sugerem que a lesão é relacionada ao processo cirúrgico, fazendo com que NE81.0Z seja a opção mais precisa para o termo dentro do contexto clínico."
+    },
+    "DD50.2": {
+      "term_original": "abdomen flácido",
+      "capitulo": "13",
+      "confidence_embedding": 0.8286,
+      "descricao_cid": "Representação de doença CID-11: Hérnia intra-abdominal. Definição: Uma hérnia que ocorre dentro do abdômen através de abertura coberta pelo peritônio.",
+      "classification_reasoning": "A descrição do termo 'abdomen flácido' sugere uma situação de doença ou lesão abdominal, mas sem indicação de hérnia mais específica. A opção DD50.2 é a mais precisa para representar uma hérnia intra-abdominal geralmente, sem especificação da localização ou tipo de hérnia."
+    },
+    "CB21": {
+      "term_original": "respiração espontânea",
+      "capitulo": "12",
+      "confidence_embedding": 0.8107,
+      "descricao_cid": "Representação de doença CID-11: Pneumotórax. Definição: Pneumotórax é uma coleção anormal de ar ou gás no espaço pleural, que separa os pulmões da caixa torácica, e que pode interferir com a respiração normal.",
+      "classification_reasoning": "A opção mais precisa para o termo 'respiração espontânea' é a Pneumotórax (CB21), pois a descrição refere-se à coleção anormal de ar ou gás no espaço pleural, que pode interferir com a respiração normal. A presença de respiração espontânea em névoa úmida 3l e MV diminuído aponta para alguma obstrução da vias aéreas superiores ou inferiores, o que é compatível com a doença descrita na opção CB21."
+    },
+    "MF34": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7809,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa da gravidez. Definição: ",
+      "classification_reasoning": "A opção MF34 se refere a sintomas ou queixas de gravidez, o que coincide com o contexto do prontuário mencionando 'queixas' sem especificar diagnóstico ou doença relacionada."
+    },
+    "3B81.3": {
+      "term_original": "rha hiperativo",
+      "capitulo": "03",
+      "confidence_embedding": 0.748,
+      "descricao_cid": "Representação de doença CID-11: Laceração ou ruptura não traumática do baço. Definição: Doença causada por determinantes não traumáticos como doenças infecciosas, procedimentos médicos como colonoscopia, doenças hematológicas, medicações ou gravidez. Essa doença é caracterizada por laceração ou ruptura do baço, levando à perda de função. Pode se apresentar com sangramento e aumento na susceptibilidade a infecções. A confirmação é feita por métodos de imagem.",
+      "classification_reasoning": "A hiperatividade do RHA (ritmo cardíaco) sugere a presença de sangramento interna, o que está compatível com a laceração ou ruptura não traumática do baço descrita no código 3B81.3."
+    },
+    "ED70.30": {
+      "term_original": "escoriação",
+      "capitulo": "14",
+      "confidence_embedding": 0.8252,
+      "descricao_cid": "Representação de doença CID-11: Eflúvio telógeno agudo. Definição: Eflúvio telógeno agudo é uma queda de cabelos do couro cabeludo de início agudo que ocorre dois a três meses após um estresse desencadeante, muitas vezes com risco à vida, e que interrompe o crescimento anágeno normal do fio. É comumente observado em sobreviventes que necessitaram de cuidados intensivos para sepse, hemorragia, doença inflamatória ou traumatismo graves. Também pode resultar de desnutrição aguda. Um grande número de fios anágenos são convertidos em telógenos e são eliminados dois a três meses depois, resultando em uma alopecia difusa.",
+      "classification_reasoning": "A escoriação descrita no contexto clínico se refere à perda de cabelo, característica do eflúvio telógeno agudo (ED70.30)."
+    }
+  }
+}

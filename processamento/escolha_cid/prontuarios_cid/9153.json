@@ -1,0 +1,66 @@
+{
+  "prontuario_id": 302,
+  "text": "6 meses PO tto cx de fratura L1-A2.\nRealizado fixação com pinos Schanz.\nPaciente bem, sem queixas.\nEx neurologico normal.\nNega dores locais.\nFO cicatrizada.\nOrientações, retorno em 6 meses.        ",
+  "entities": {
+    "Abreviação": [
+      "PO",
+      "tto cx",
+      "FO cicatrizada"
+    ],
+    "Conceito Temporal": [
+      "PO",
+      "6 meses"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Achado": [
+      "bem",
+      "FO cicatrizada"
+    ],
+    "Negação": [
+      "sem",
+      "Nega"
+    ],
+    "Sinal ou Sintoma": [
+      "queixas",
+      "dores locais"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Orientações",
+      "retorno"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "tto cx"
+    ],
+    "Lesão ou Envenenamento": [
+      "fratura L1-A2"
+    ],
+    "Procedimento Diagnóstico": [
+      "Ex neurologico"
+    ]
+  },
+  "labels": {
+    "FA70.0": {
+      "term_original": "dores locais",
+      "capitulo": "15",
+      "confidence_embedding": 0.6732,
+      "descricao_cid": "Representação de doença CID-11: Cifose. Definição: Esta é uma curvatura da coluna vertebral que causa um arqueamento ou arredondamento das costas, o que leva a uma postura corcunda ou curvada.",
+      "classification_reasoning": "A opção mais precisa para o termo 'dores locais' é a Cifose (FA70.0), pois as dores são descritas como 'nega dores locais', sugerindo que a dor está relacionada à lesão vertebral e não há outro local específico de dor referida."
+    },
+    "EL50.1": {
+      "term_original": "fo cicatrizada",
+      "capitulo": "14",
+      "confidence_embedding": 0.7382,
+      "descricao_cid": "Representação de doença CID-11: Cicatriz cirúrgica hipertrófica. Definição: Uma cicatriz cirúrgica elevada contendo um excesso de tecido fibroso que, em contraste com uma cicatriz queloidiana, tende a diminuir com o tempo.",
+      "classification_reasoning": "A opção mais precisa é EL50.1 - Cicatriz cirúrgica hipertrófica, pois a descrição do prontuário refere-se à cicatrização de uma ferida cirúrgica (FO) e não há indicações de que seja uma cicatriz queloidiana ou alargada."
+    },
+    "FB80.9": {
+      "term_original": "fratura l1-a2",
+      "capitulo": "15",
+      "confidence_embedding": 0.7303,
+      "descricao_cid": "Representação de doença CID-11: Atraso de consolidação de fratura. Definição: ",
+      "classification_reasoning": "A escolha do código FB80.9 é mais precisa para o termo 'fratura L1-A2' pois trata-se de uma representação de doença CID-11 relacionada ao atraso de consolidação de fratura, que é coerente com o contexto clínico da história do paciente."
+    }
+  }
+}

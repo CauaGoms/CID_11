@@ -1,0 +1,81 @@
+{
+  "prontuario_id": 422,
+  "text": "Pcte com historia de contusao em joelho esq ha 15 dias.\nPossivel fx de plato?\nPcte sem dor e sem sinais de fratura ao rx.\nAlta.\nRetorno se necessario\n\nR1 Lucas,\nR4 Lucas\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Pcte"
+    ],
+    "Abreviação": [
+      "Pcte",
+      "rx",
+      "R1",
+      "R4",
+      "joelho esq",
+      "fx de plato"
+    ],
+    "Lesão ou Envenenamento": [
+      "contusao",
+      "fx de plato"
+    ],
+    "Conceito Temporal": [
+      "dias"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "dor",
+      "sinais de fratura"
+    ],
+    "Procedimento Diagnóstico": [
+      "rx"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Alta",
+      "Retorno"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "R1",
+      "R4"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "joelho esq"
+    ],
+    "Espaço ou Junção Corporal": [
+      "joelho esq"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "sinais de fratura"
+    ]
+  },
+  "labels": {
+    "NC93.8": {
+      "term_original": "contusao",
+      "capitulo": "22",
+      "confidence_embedding": 0.7468,
+      "descricao_cid": "Representação de doença CID-11: Traumatismo de estruturas múltiplas do joelho. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NC93.8 pois o termo 'contusao' está relacionado ao traumatismo de estruturas múltiplas do joelho, que é a lesão descrita no prontuário como 'contusao em joelho esq ha 15 dias'."
+    },
+    "MG30.31": {
+      "term_original": "sinais de fratura",
+      "capitulo": "21",
+      "confidence_embedding": 0.6889,
+      "descricao_cid": "Representação de doença CID-11: Dor musculoesquelética secundária crônica associada a alterações estruturais. Definição: Dor musculoesquelética secundária crônica associada a alterações estruturais é uma dor crônica de mecanismo(s) desconhecido(s), que é atribuível a alterações anatômicas em articulação(ões), osso(s) ou tendão(ões). A alteração estrutural precisa ser inferida a partir de exame clínico e/ou demonstrável por exame de imagem. A dor pode ser espontânea ou induzida por movimento. É caracterizada por aspectos clínicos como inchaço, alodinia ou restrição de movimentos.\r\n\r\nCritérios de Diagnóstico:\r\n\r\nAs condições de A a D são preenchidas:\r\n\r\nA) Dor crônica (persistente ou recorrente por mais de 3 meses) em articulação(ões), osso(s) ou tendão(ões) está presente. A dor pode ser espontânea ou induzida por movimento.\r\n\r\nB) Pelo menos um dos seguintes critérios atendidos:\r\nB1) Inchaço está presente.\r\nB2) Alodinia sobre a parte está presente.\r\n\r\nC) A alteração estrutural é inferida a partir de exame clínico ou de imagem.\r\n\r\nD) A dor não é melhor explicada por outro diagnóstico de dor crônica.",
+      "classification_reasoning": "A escolha do código MG30.31 se justifica porque o paciente apresenta sintomas de dor musculoesquelética secundária crônica associada a alterações estruturais no joelho esquerdo, compossível fratura (fx) não detectada por imagem. O fato de não haver dor e sinais de fratura ao RX sugere que a lesão pode ser uma fratura não óbvia ou uma lesão soft tissue."
+    },
+    "MG30.20": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7507,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-traumática. Definição: Dor pós-traumática crônica é a dor que se desenvolve ou aumenta de intensidade após uma lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após o traumatismo tecidual. A dor é ou localizada na área da lesão, ou referida no território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente por um problema doloroso preexistente.",
+      "classification_reasoning": "A dor mencionada no relatório não é descrita como aguda, portanto, o código mais preciso para a dor crônica pós-traumática é MG30.20."
+    },
+    "NC92.0": {
+      "term_original": "fx de plato",
+      "capitulo": "22",
+      "confidence_embedding": 0.7007,
+      "descricao_cid": "Representação de doença CID-11: Fratura da patela. Definição: ",
+      "classification_reasoning": "A história de contusão no joelho esquerdo há 15 dias e a possibilidade de FX de plato sugerem uma lesão na patela, o que justifica a escolha do código NC92.0."
+    }
+  }
+}

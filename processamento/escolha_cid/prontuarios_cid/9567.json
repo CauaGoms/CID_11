@@ -1,0 +1,71 @@
+{
+  "prontuario_id": 825,
+  "text": "pcte acompanha no ambulatorio da cx bariatrica em espera para realização do procedimento. Vem ao ambulatorio da cx geral para correção de hernia umbilical. \nAo exame hernia umbilical pequena nao encarcerada sem sintomas. Nega alteração de habito intestinal\nPlanejada correção da hernia umbilical juntamente com a cx bariatrica\nAlta pelo ambulatorio da cx geral\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "pcte",
+      "cx bariatrica",
+      "cx geral",
+      "ambulatorio da cx geral"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "pcte"
+    ],
+    "Organização Relacionada à Saúde": [
+      "ambulatorio",
+      "cx geral",
+      "cx bariatrica",
+      "ambulatorio da cx geral"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "procedimento",
+      "cx bariatrica",
+      "correção de hernia umbilical",
+      "correção da hernia umbilical"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "exame"
+    ],
+    "Conceito Qualitativo": [
+      "pequena",
+      "encarcerada"
+    ],
+    "Negação": [
+      "nao",
+      "sem",
+      "Nega"
+    ],
+    "Sinal ou Sintoma": [
+      "encarcerada",
+      "sintomas",
+      "alteração de habito intestinal"
+    ],
+    "Anormalidade Anatômica": [
+      "correção de hernia umbilical",
+      "hernia umbilical"
+    ]
+  },
+  "labels": {
+    "DD53": {
+      "term_original": "correção de hernia umbilical",
+      "capitulo": "13",
+      "confidence_embedding": 0.7596,
+      "descricao_cid": "Representação de doença CID-11: Hérnia umbilical. Definição: Uma hérnia ocorre quando parte de um órgão interno protunde através de uma área fraca do músculo. Uma hérnia umbilical é uma protrusão de peritônio e fluido, omento ou uma porção de órgão(s) abdominal(s) através do anel umbilical. O anel umbilical é o tecido fibroso e muscular ao redor do umbigo. Hérnias pequenas geralmente fecham espontaneamente sem tratamento aos 1 ou 2 anos de idade. As hérnias umbilicais geralmente são indolores e são comuns em lactentes.",
+      "classification_reasoning": "A escolha pelo código DD53 se justifica pela descrição do termo 'correção de hernia umbilical', que refere-se a uma hérnia que ocorre quando parte de um órgano interno protende através de uma área fraca do músculo, especificamente na região do umbigo. Isso coincide com a definição da hérnia umbilical presente no código DD53."
+    },
+    "ME0Y": {
+      "term_original": "sintomas",
+      "capitulo": "21",
+      "confidence_embedding": 0.736,
+      "descricao_cid": "Representação de doença CID-11: Outros sintomas especificados relacionados ao trato gastrointestinal inferior ou abdome. Definição: ",
+      "classification_reasoning": "O termo 'sintomas' refere-se a uma queixa ou apresentação clínica de um paciente, e o código ME0Y se aplica melhor nesse contexto, pois describe sintomas relacionados ao trato gastrointestinal inferior ou abdome."
+    },
+    "ND92.02": {
+      "term_original": "encarcerada",
+      "capitulo": "22",
+      "confidence_embedding": 0.754,
+      "descricao_cid": "Representação de doença CID-11: Queimadura da parede abdominal, queimadura epidérmica. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a queimadura da parede abdominal (ND92.02), pois o termo 'encarcerada' sugere confinamento ou aprisionamento, o que se encontra relacionado com lesões cutâneas graves. Nesse contexto clínico, a hernia umbilical pequena não encarcerada sem sintomas apoia essa escolha."
+    }
+  }
+}

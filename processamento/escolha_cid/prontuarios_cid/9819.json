@@ -1,0 +1,175 @@
+{
+  "prontuario_id": 871,
+  "text": "14:43h - GLASGOW 15, TRAQUEOSTOMIZADO EM VENTILAÇÃO MECÂNICA EM MODO PCV, PEEP 5 cmH²O, FIO² 60%, COM FILTRO BARREIRA, SONDA NASOGÁSTRICA COM DIETA EM CURSO DE 75ml/h, ABERTURA OCULAR ESPONTÂNEA, PUPILAS ISOCÓRICAS, RESPONDENDO À ESTÍMULOS VERBAIS ASSENTINDO COM A CABEÇA E ESBOÇANDO FALA, CORADO, ACESSO VENOSO PERIFÉRICO EM BRAÇO DIREITO COM SOROTERAPIA EM CURSO E SEM SINAIS FLOGÍSTICOS, PELE ÍNTEGRA, ABDOMEN FLÁCIDO E INDOLOR À PALPAÇÃO, EXTREMIDADES AQUECIDAS. MMII SEM EDEMA. DIURESE EM UROPEN COM COLETOR DE SISTEMA ABERTO COM DÉBITO AMARELADO DE 150 ml. ACADÊMICA DE ENFERMAGEM DO 8º PERÍODO FLORENCE, ORIENTADA PELA Enfermeira Florence Nightingale . EXPOSICAO A OUTROS FATORES AMBIENTAIS ARTIFICIAIS E AOS NAO ESPECIFICADOS LOCAL NAO ESPECIFICADO.",
+  "entities": {
+    "Procedimento Terapêutico ou Preventivo": [
+      "TRAQUEOSTOMIZADO",
+      "PCV",
+      "DIETA",
+      "SOROTERAPIA",
+      "VENTILAÇÃO MECÂNICA",
+      "FILTRO BARREIRA",
+      "SONDA NASOGÁSTRICA",
+      "ACESSO VENOSO PERIFÉRICO",
+      "COLETOR DE SISTEMA ABERTO"
+    ],
+    "Abreviação": [
+      "PCV",
+      "PEEP",
+      "FIO²",
+      "MMII"
+    ],
+    "Atributo Clínico": [
+      "PEEP",
+      "FIO²"
+    ],
+    "Conceito Quantitativo": [
+      "60%",
+      "75ml/h",
+      "5 cmH²O",
+      "150 ml"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PUPILAS",
+      "ABDOMEN",
+      "MMII",
+      "BRAÇO DIREITO"
+    ],
+    "Achado": [
+      "ISOCÓRICAS",
+      "CORADO",
+      "FLÁCIDO",
+      "GLASGOW 15",
+      "ABERTURA OCULAR ESPONTÂNEA",
+      "RESPONDENDO À ESTÍMULOS VERBAIS",
+      "ASSENTINDO COM A CABEÇA",
+      "ESBOÇANDO FALA",
+      "PELE ÍNTEGRA",
+      "EXTREMIDADES AQUECIDAS"
+    ],
+    "Negação": [
+      "SEM",
+      "INDOLOR"
+    ],
+    "Sinal ou Sintoma": [
+      "INDOLOR",
+      "EDEMA",
+      "ESBOÇANDO FALA",
+      "SINAIS FLOGÍSTICOS"
+    ],
+    "Procedimento Diagnóstico": [
+      "PALPAÇÃO"
+    ],
+    "Função de Organismo": [
+      "DIURESE",
+      "DÉBITO"
+    ],
+    "Conceito Qualitativo": [
+      "AMARELADO"
+    ],
+    "Organização Relacionada à Saúde": [
+      "ENFERMAGEM"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ORIENTADA"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Dispositivo Médico": [
+      "FILTRO BARREIRA",
+      "SONDA NASOGÁSTRICA",
+      "ACESSO VENOSO PERIFÉRICO",
+      "COLETOR DE SISTEMA ABERTO"
+    ],
+    "Lesão ou Envenenamento": [
+      "EXPOSICAO A OUTROS FATORES AMBIENTAIS ARTIFICIAIS"
+    ]
+  },
+  "labels": {
+    "EF02.3": {
+      "term_original": "pele íntegra",
+      "capitulo": "14",
+      "confidence_embedding": 0.8262,
+      "descricao_cid": "Representação de doença CID-11: Celulite. Definição: A celulite é um desarranjo arquitetônico comum do tecido adiposo subcutâneo que resulta em ondulações e nodularidade da pele sobrejacente. É mais comum em mulheres pós-púberes e acomete principalmente a região pélvica, membros inferiores e abdome. Acredita-se que resulte da herniação de múltiplos pequenos agregados de gordura subcutânea através do tecido fibroso na junção dermo-hipodérmica. A obesidade predispõe, mas não é necessária para o seu desenvolvimento. O termo está em uso generalizado, mas é enganoso, pois não tem nada a ver com \"cellulitis\" (NT: infecção de pele). A condição é assintomática, mas pode causar constrangimento considerável.",
+      "classification_reasoning": "A opção mais precisa para o termo 'pele íntegra' é a celulite (Código EF02.3), pois a descrição menciona a ondulações e nodularidade da pele sobrejacente, característica comum dessa condição."
+    },
+    "8A02.00": {
+      "term_original": "isocóricas",
+      "capitulo": "08",
+      "confidence_embedding": 0.7942,
+      "descricao_cid": "Representação de doença CID-11: Blefarospasmo benigno essencial. Definição: Esta é uma condição neurológica caracterizada por fechamento forçado das pálpebras devido a contração involuntária e sustentada dos músculos ao redor dos olhos.",
+      "classification_reasoning": "O termo 'isocóricas' se refere às pupilas, que estão igualmente dilatadas e não respondem a estimulação luminosa. Isso é consistente com a descrição de Blefarospasmo benigno essencial (Código CID-11: 8A02.00), caracterizado por fechamento forçado das pálpebras e contração involuntária dos músculos ao redor dos olhos, o que pode estar relacionado à dilatação igual das pupilas."
+    },
+    "FA56.1": {
+      "term_original": "flácido",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é FB32.20, no entanto, o contexto do prontuário menciona 'PELE ÍNTEGRA', o que sugere a ausência de lesão muscular ou tecido mole, portanto, FB56.1 (Corpo estranho residual no tecido mole) é mais adequada para descrever a flacidez descrita no prontuário."
+    },
+    "NA90": {
+      "term_original": "edema",
+      "capitulo": "22",
+      "confidence_embedding": 0.8176,
+      "descricao_cid": "Representação de doença CID-11: Concussão ou edema da medula espinhal torácica. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NA90 porque o termo 'edema' se refere ao edema da medula espinhal torácica, o que está relacionado à localização do trauma e à falta de edema nos membros inferiores mencionados no prontuário (MMII sem edema)."
+    },
+    "CA21.0": {
+      "term_original": "glasgow 15",
+      "capitulo": "12",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'Glasgow 15' refere-se à Escala de Coma de Glasgow, que avalia o estado de consciência do paciente. O valor de 15 indica um paciente com coma leve a moderado, portanto, escolhi o código CA21.0, que representa Consciência alterada."
+    },
+    "6C48.2": {
+      "term_original": "respondendo à estímulos verbais",
+      "capitulo": "06",
+      "confidence_embedding": 0.7821,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais.",
+      "classification_reasoning": "A presença de 'respondendo à estímulos verbais' no contexto sugere que o paciente tem consciência e reage a estimulos, o que é característico da intoxicação por cafeína. Além disso, não há outros sintomas sugerindo intoxicação por álcool ou outras substâncias psicotrópicas."
+    },
+    "6C45.3": {
+      "term_original": "assentindo com a cabeça",
+      "capitulo": "06",
+      "confidence_embedding": 0.8102,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A paciente está assentindo com a cabeça, o que sugere uma possível influência de substância psicotrópica sobre sua consciência e comportamento. A combinação desses sintomas com a presença de sonda nasogástrica e dieta em curso leva à suspeita de intoxicação por cocaína."
+    },
+    "6C49.3": {
+      "term_original": "esboçando fala",
+      "capitulo": "06",
+      "confidence_embedding": 0.7773,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por alucinógenos. Definição: Intoxicação por alucinógenos é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de alucinógenos, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos dos alucinógenos e sua intensidade está intimamente relacionada à quantidade de alucinógenos consumida. Têm duração limitada, e diminuem à medida que o alucinógeno é eliminado do corpo. A apresentação pode incluir alucinações, ilusões, alterações perceptivas como despersonalização, desrealização, ou sinestesias (fusão de sentidos, como um estímulo visual evocando um cheiro), ansiedade, humor deprimido ou disfórico, ideias de referência, ideação paranoide, julgamento comprometido, palpitações, sudorese, visão turva, tremores e descoordenação. Sinais físicos podem incluir taquicardia, pressão arterial elevada, dilatação pupilar. Em casos raros, a intoxicação por alucinógenos pode facilitar ideação e comportamento suicidas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'esboçando fala' é a Intoxicação por alucinógenos, pois essa condição pode estar relacionada a alterações perceptivas e comportamentais que afetam a linguagem e comunicação."
+    },
+    "NC95.Y": {
+      "term_original": "extremidades aquecidas",
+      "capitulo": "22",
+      "confidence_embedding": 0.7532,
+      "descricao_cid": "Representação de doença CID-11: Lesão de outros vasos sanguíneos especificados na perna. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NC95.Y, Lesão de outros vasos sanguíneos especificados na perna, pois o contexto refere-se à extremidades aquecidas, que se refere às pernas."
+    },
+    "ME62.7": {
+      "term_original": "sinais flogísticos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7986,
+      "descricao_cid": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica.",
+      "classification_reasoning": "A opção mais precisa é ME62.7 porque o termo 'sinais flogísticos' refere-se à presença de erupções cutâneas descamativas agudas, caracterizando uma resposta inflamatória do tecido. Isso está alinhado com a definição da representação de doença CID-11 para ME62.7."
+    },
+    "EB60.1": {
+      "term_original": "corado",
+      "capitulo": "14",
+      "confidence_embedding": 0.7955,
+      "descricao_cid": "Representação de doença CID-11: Líquen escleroso do pênis. Definição: Líquen escleroso do pênis se desenvolve quase exclusivamente em homens não circuncidados e é o resultado do contato oclusivo crônico de epitélio suscetível à urina. Frequentemente, causa dispareunia e dificuldades com a micção. Manifesta-se tipicamente como fimose esclerótica do prepúcio, que pode não ser possível de retração, junto com inflamação e esclerose da superfície mucocutânea do prepúcio e da glande do pênis. Estenose e ocasionalmente obliteração do orifício meatal externo podem ocorrer em casos graves. Embora mais comumente reconhecida em homens adultos, é uma causa comum de fimose adquirida em meninos.",
+      "classification_reasoning": "A palavra 'corado' se refere à coloração da pele, que é uma característica patognomônica do líquen escleroso do pênis. Esta doença causa uma coração e esclerose da superfície mucocutânea do prepúcio e da glande do pênis."
+    },
+    "QA77": {
+      "term_original": "exposicao a outros fatores ambientais artificiais",
+      "capitulo": "24",
+      "confidence_embedding": 0.7529,
+      "descricao_cid": "Representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano. Definição: ",
+      "classification_reasoning": "A exposição a outros fatores ambientais artificiais se refere à presença de algo artificial no ambiente do paciente, como uma substância ou um dispositivo que pode afetar sua saúde. Nesse contexto clínico, o termo sugere a presença de algum tipo de medicamento ou substância não indicada para o paciente, que pode estar contraindicada ou incompatível com sua condição atual."
+    }
+  }
+}

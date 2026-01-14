@@ -1,0 +1,99 @@
+{
+  "prontuario_id": 931,
+  "text": "12:45 CONSCIENTE, ORIENTADO, VERBALIZA, DEAMBULA, NO MOMENTO REPOUSO NO LEITO, AFEBRIL, TRAQUEOSTOMIZADO COM SUPORTE DE 02 SOB NÉVOA, OXÍMETRO SATURAÇÃO DE 95%, MANTEM ACESSO VENOSO PERIFÉRICO EM MSD SALINIZADO, SEM SINAIS FLOGÍSTICOS, ACEITANDO DIETA OFERECIDA, DIURESE ESPONTÂNEA, EVACUAÇÃO AUSENTE. Enfermeira Florence Nightingale  INSUFICIÊNCIA RESPIRATÓRIA AGUDA",
+  "entities": {
+    "Achado": [
+      "CONSCIENTE",
+      "ORIENTADO",
+      "VERBALIZA",
+      "DEAMBULA",
+      "AFEBRIL",
+      "TRAQUEOSTOMIZADO",
+      "SALINIZADO",
+      "REPOUSO NO LEITO",
+      "ACEITANDO DIETA",
+      "DIURESE ESPONTÂNEA"
+    ],
+    "Negação": [
+      "AFEBRIL",
+      "SEM",
+      "AUSENTE"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TRAQUEOSTOMIZADO",
+      "SALINIZADO",
+      "SUPORTE DE 02",
+      "ACESSO VENOSO PERIFÉRICO"
+    ],
+    "Dispositivo Médico": [
+      "OXÍMETRO",
+      "ACESSO VENOSO PERIFÉRICO"
+    ],
+    "Procedimento Diagnóstico": [
+      "OXÍMETRO"
+    ],
+    "Atributo Clínico": [
+      "SATURAÇÃO"
+    ],
+    "Conceito Quantitativo": [
+      "95%"
+    ],
+    "Abreviação": [
+      "MSD",
+      "SUPORTE DE 02"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD"
+    ],
+    "Função Fisiológica": [
+      "EVACUAÇÃO",
+      "DIURESE ESPONTÂNEA"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Sinal ou Sintoma": [
+      "SINAIS FLOGÍSTICOS"
+    ],
+    "Doença ou Síndrome": [
+      "INSUFICIÊNCIA RESPIRATÓRIA AGUDA"
+    ]
+  },
+  "labels": {
+    "6C49.3": {
+      "term_original": "verbaliza",
+      "capitulo": "06",
+      "confidence_embedding": 0.7895,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por alucinógenos. Definição: Intoxicação por alucinógenos é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de alucinógenos, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos dos alucinógenos e sua intensidade está intimamente relacionada à quantidade de alucinógenos consumida. Têm duração limitada, e diminuem à medida que o alucinógeno é eliminado do corpo. A apresentação pode incluir alucinações, ilusões, alterações perceptivas como despersonalização, desrealização, ou sinestesias (fusão de sentidos, como um estímulo visual evocando um cheiro), ansiedade, humor deprimido ou disfórico, ideias de referência, ideação paranoide, julgamento comprometido, palpitações, sudorese, visão turva, tremores e descoordenação. Sinais físicos podem incluir taquicardia, pressão arterial elevada, dilatação pupilar. Em casos raros, a intoxicação por alucinógenos pode facilitar ideação e comportamento suicidas.",
+      "classification_reasoning": "O paciente verbaliza, o que sugere alterações em consciência e cognição, características comuns de intoxicação por alucinógenos."
+    },
+    "CB41.0": {
+      "term_original": "insuficiência respiratória aguda",
+      "capitulo": "12",
+      "confidence_embedding": 0.8298,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência respiratória aguda. Definição: A insuficiência respiratória pode ser aguda (de curta duração) ou crônica (em evolução), usando o tempo como o principal parâmetro. Na insuficiência respiratória aguda a hipoxemia ocorre em um período de horas ou dias (menos de 7 dias) e a insuficiência respiratória pode se desenvolver rapidamente, e exigir tratamento de emergência.",
+      "classification_reasoning": "A opção mais precisa é a CB41.0, pois o termo 'insuficiência respiratória aguda' refere-se à hipoxemia em um período de horas ou dias (menos de 7 dias), e a paciente está com insuficiência respiratória aguda tratada com suplimento de oxigênio por traqueostomia."
+    },
+    "MB24.A": {
+      "term_original": "sinais flogísticos",
+      "capitulo": "21",
+      "confidence_embedding": 0.795,
+      "descricao_cid": "Representação de doença CID-11: Medo. Definição: Resposta emocional diante da percepção de ameaça ou perigo iminente, associada ao desejo de fugir ou lutar.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sinais flogísticos' é a Medo (MB24.A), pois o termo refere-se a sintomas como dor no peito, sensação de falta de ar e outras reações emocionais intensas, caracterizando um estado de pânico."
+    },
+    "CB60": {
+      "term_original": "traqueostomizado",
+      "capitulo": "12",
+      "confidence_embedding": 0.7737,
+      "descricao_cid": "Representação de doença CID-11: Mau funcionamento de traqueostomia. Definição: ",
+      "classification_reasoning": "A paciente está traqueostomizada, o que indica um procedimento cirúrgico para auxiliar no funcionamento respiratório. A opção CB60 é a mais precisa para representar essa condição."
+    },
+    "XM0N15": {
+      "term_original": "salinizado",
+      "capitulo": "X",
+      "confidence_embedding": 0.7665,
+      "descricao_cid": "Representação de doença CID-11: Soluções que produzem diurese osmótica. Definição: ",
+      "classification_reasoning": "A opção mais precisa é XM0N15 porque o termo 'salinizado' se refere à solução salina utilizada no contexto de cuidado com pacientes críticos, como descrito na definição da representação de doença CID-11. Nesse caso, a infusão MSD (medicamento ou solução para administração intravenosa) é salinizada."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "prontuario_id": 76,
+  "text": "PACIENTE EM ACOMPANHAMENTO - TP - RNI.\nNEGA SANGRAMENTOS./ ALIMENTAÇÃO INADEQUADA ( FOLHAS VERDES?).\nANTEC DE. \nRNI 28/04/2014 = 3,48.\nCD: ORIENTAÇÕES,\n       MANTENHO MEDICAÇÃO. \n      RETORNO COM LAB TAP - RNI.\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ACOMPANHAMENTO",
+      "CD",
+      "ORIENTAÇÕES",
+      "MANTENHO MEDICAÇÃO"
+    ],
+    "Abreviação": [
+      "TP",
+      "RNI",
+      "ANTEC",
+      "CD",
+      "TAP"
+    ],
+    "Procedimento Laboratorial": [
+      "TP",
+      "RNI",
+      "LAB",
+      "TAP"
+    ],
+    "Negação": [
+      "NEGA"
+    ],
+    "Sinal ou Sintoma": [
+      "SANGRAMENTOS"
+    ],
+    "Produto Intelectual": [
+      "CD"
+    ],
+    "Achado": [
+      "ALIMENTAÇÃO INADEQUADA"
+    ],
+    "Alimento": [
+      "FOLHAS VERDES"
+    ]
+  },
+  "labels": {
+    "NE81.0Z": {
+      "term_original": "sangramentos",
+      "capitulo": "22",
+      "confidence_embedding": 0.6877,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NE81.0Z porque o termo 'sangramentos' (ou sangraments) está relacionado a hemorragia ou hematoma complicando um procedimento, não classificado em outra parte. A frase 'NEGA SANGRAMENTOS.' no prontuário sugere que o paciente não apresenta hemorragia atualmente, mas há referência à possibilidade de sangramento anterior."
+    },
+    "5C70.0": {
+      "term_original": "alimentação inadequada",
+      "capitulo": "05",
+      "confidence_embedding": 0.7008,
+      "descricao_cid": "Representação de doença CID-11: Desidratação. Definição: A desidratação ocorre quando há uma quantidade insuficiente ou perda excessiva de água no corpo. Isso pode ser causado por vômitos, diarreia, febre, uso de diuréticos, sudorese profusa ou diminuição da ingestão de água.",
+      "classification_reasoning": "A opção mais precisa é a desidratação, pois a frase 'alimentação inadequada' sugere que há uma perda ou insuficiência de nutrientes e água no corpo do paciente, o que está relacionado à definição da desidratação como uma condição caracterizada por uma quantidade insuficiente ou perda excessiva de água no corpo."
+    }
+  }
+}

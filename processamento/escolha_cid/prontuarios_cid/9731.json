@@ -1,0 +1,67 @@
+{
+  "prontuario_id": 331,
+  "text": "LUCAS,\n\nACOMPANHANDO COM Doutor Vital Brazil SEM SINCOPE, SEM PALPITAÇÃO, SEM TERAPIAS.\nSENTE-SE BEM.\n \n \n# hoje realizou avaliação de mp-cdi,\n# sem registro de arritmias-terapias,\n# bat ok.\n# eletrodos atrial e ventricular = ok.\n\n\n# retorno em 6 meses + se sintomas = procura direta + nunca faltar Doutor Vital Brazil. ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "ACOMPANHANDO"
+    ],
+    "Negação": [
+      "SEM",
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "SINCOPE",
+      "PALPITAÇÃO",
+      "sintomas"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TERAPIAS"
+    ],
+    "Conceito Temporal": [
+      "hoje"
+    ],
+    "Abreviação": [
+      "mp-cdi",
+      "bat ok"
+    ],
+    "Dispositivo Médico": [
+      "mp-cdi",
+      "eletrodos"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "atrial",
+      "ventricular"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ok",
+      "registro de arritmias-terapias",
+      "bat ok"
+    ],
+    "Achado": [
+      "SENTE-SE BEM"
+    ]
+  },
+  "labels": {
+    "6E20": {
+      "term_original": "sintomas",
+      "capitulo": "06",
+      "confidence_embedding": 0.7698,
+      "descricao_cid": "Representação de doença CID-11: Transtornos mentais ou comportamentais associados a gravidez, o parto ou o puerpério, sem sintomas psicóticos. Definição: Síndrome associada à gravidez ou ao puerpério (começando até cerca de 6 semanas após o parto) que envolve manifestações mentais e comportamentais significativas, mais comumente sintomas depressivos. A síndrome não inclui delírios, alucinações ou outros sintomas psicóticos. Se os sintomas preenchem os critérios diagnósticos para um transtorno mental específico, esse diagnóstico também deve ser atribuído. Essa categoria não deve ser usada para descrever sintomas depressivos leves e transitórios que que não preenchem os critérios diagnósticos para um episódio depressivo, pode ocorrer logo após o parto (o chamado \"blues\" pós-parto).",
+      "classification_reasoning": "A escolha pelo código 6E20 se baseia na menção de 'sintomas' no termo, que sugere uma síndrome associada à gravidez ou ao puerpério, mas sem sintomas psicóticos. Isso é coerente com a descrição do código 6E20, que descreve um transtorno mental ou comportamental associado à gravidez, o parto ou o puerpério, sem sintomas psicóticos."
+    },
+    "BC62": {
+      "term_original": "palpitação",
+      "capitulo": "11",
+      "confidence_embedding": 0.8207,
+      "descricao_cid": "Representação de doença CID-11: Via acessória. Definição: Conexão elétrica adicional que tipicamente desvia do nó AV, tipicamente inserindo-se diretamente no miocárdio atrial e ventricular, mas também pode se conectar ao sistema de condução especializado (p.ex., o feixe de His, feixes direito ou esquerdo, ou um dos fascículos).",
+      "classification_reasoning": "A presença de 'palpitação' no prontuário indica uma possível representação de doença CID-11 relacionada à via acessória, o que é descrito pelo código BC62. Isso justifica a escolha desse código como a mais precisa para o termo dentro do contexto clínico."
+    },
+    "BC80.2": {
+      "term_original": "sincope",
+      "capitulo": "11",
+      "confidence_embedding": 0.7622,
+      "descricao_cid": "Representação de doença CID-11: Disfunção do nó sinusal. Definição: Termo inespecífico que se refere a anormalidades na formação e propagação do impulso do nó sinusal e inclui bradicardia sinusal, pausa/parada sinusal, incompetência cronotrópica e bloqueio de saída sinoatrial.",
+      "classification_reasoning": "A presença de sincope no relatório do paciente, associada à ausência de sintomas e ao acompanhamento com o médico Vital Brazil sem terapia, sugere que a causa da sincope pode estar relacionada à desregulação do nodo sinusal ou à função do nodo atrioventricular, o que justifica a escolha do código BC80.2 (Desfunção do nó sinusal)"
+    }
+  }
+}

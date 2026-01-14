@@ -1,0 +1,84 @@
+{
+  "prontuario_id": 826,
+  "text": "PACIENTE SUBMETIDO A ANGIOPLASTIA CORONARIANA COM IMPLANTE DE STENT EM ADA E DIAGONAL EM 14 /04/2003. INTERNOU PARA INVESTIGAR DOR PRECORDIAL ATIPICA; REALIZADO VARIOS ECG(S) E SERIE DE ENZIMAS QUE RESULTARAM NORMAIS; FEZ CINTILOGRAFIA MIOCARDICA COM ESTRESSE FARMACOLÓGICO QUE EVIDENCIOU PERFUSÃO NORMAL; DURANTE A INTERNAÇÃO AUMENTOU-SE A DOSE DE NITRATO E ADMNISTROU-SE ENOXAPARINA. MELHOROU DOS SINTOMAS, MAS AINDA PERSISTE COM EPISIDIOS DE DOR PRECORDIAL ATIPICA, DE LEVE INTENSIDADE E ESPORADICA;  RECEBE ALTA HOSPITALAR COM A ORIENTAÇÃO DE CONSULTAR COM MEDICO ASSISTENTE E COM PLANO DE REALIZAR CINTILOGRAFIA MIOCARDICA DE ESFORÇO;",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "SUBMETIDO",
+      "INTERNOU",
+      "INVESTIGAR",
+      "REALIZADO",
+      "INTERNAÇÃO",
+      "ADMNISTROU-SE",
+      "ORIENTAÇÃO",
+      "REALIZAR",
+      "ALTA HOSPITALAR"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ADA",
+      "DIAGONAL"
+    ],
+    "Abreviação": [
+      "ADA",
+      "ECG"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECG",
+      "CINTILOGRAFIA MIOCARDICA COM ESTRESSE FARMACOLÓGICO",
+      "CINTILOGRAFIA MIOCARDICA DE ESFORÇO"
+    ],
+    "Achado": [
+      "NORMAIS",
+      "PERFUSÃO NORMAL",
+      "MELHOROU DOS SINTOMAS"
+    ],
+    "Conceito Quantitativo": [
+      "DOSE"
+    ],
+    "Substância Farmacológica": [
+      "NITRATO",
+      "ENOXAPARINA"
+    ],
+    "Substância Química Orgânica": [
+      "ENOXAPARINA"
+    ],
+    "Conceito Temporal": [
+      "EPISIDIOS",
+      "ESPORADICA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ANGIOPLASTIA CORONARIANA",
+      "IMPLANTE IMPLANTE DE DE STENT STENT"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR PRECORDIAL ATIPICA"
+    ],
+    "Procedimento Laboratorial": [
+      "SERIE DE ENZIMAS"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "PERFUSÃO NORMAL"
+    ],
+    "Conceito Qualitativo": [
+      "LEVE INTENSIDADE"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "MEDICO ASSISTENTE"
+    ]
+  },
+  "labels": {
+    "BC43": {
+      "term_original": "melhorou dos sintomas",
+      "capitulo": "11",
+      "confidence_embedding": 0.7346,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia. Definição: Transtornos do miocárdio em que o músculo cardíaco é estrutural e funcionalmente anormal, na ausência de doença arterial coronariana, hipertensão, doença valvar e doença cardíaca congênita suficiente para causar a anormalidade miocárdica observada.",
+      "classification_reasoning": "O termo 'melhorou dos sintomas' sugere que a dor precordial atipica está reduzida, o que é mais consistente com uma cardiomiopatia ou doença miocárdica crônica do que com um infarto agudo do miocárdio ou choque cardiogênico."
+    },
+    "BA60.1": {
+      "term_original": "dor precordial atipica",
+      "capitulo": "11",
+      "confidence_embedding": 0.7897,
+      "descricao_cid": "Representação de doença CID-11: Outra pericardite como complicação atual subsequente a infarto agudo do miocárdio. Definição: Inflamação do pericárdio que pode causar dor no peito, que ocorre tão precocemente quanto o primeiro dia e até 6 semanas após o infarto agudo do miocárdio. A dor da pericardite irradia para qualquer crista do trapézio. O infarto do miocárdio transmural é responsável pela inflamação pericárdica local. Atritos pericárdicos transitórios são relativamente comuns em pacientes com infarto transmural nas primeiras 48 horas. Uma pericardite fibrinosa aguda ocorre comumente após o infarto transmural, enquanto o risco de pericardite hemorrágica está aumentado por anticoagulação.",
+      "classification_reasoning": "A dor precordial atipica persistente em um paciente submetido a angioplastia coronária com implante de stent sugere pericardite como complicação subsequente ao infarto agudo do miocárdio, o que justifica a escolha do código BA60.1."
+    }
+  }
+}

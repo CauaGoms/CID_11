@@ -1,0 +1,31 @@
+{
+  "prontuario_id": 303,
+  "text": "PACIENTE EM ACOMPANHAMENTO POS-IAM HA 2 ANOS. NEGA QUEIXAS. SOLICITO NOVA ROTINA DE EXAMES. RENOVO RECEITA.        ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "SOLICITO",
+      "RENOVO RECEITA"
+    ],
+    "Abreviação": [
+      "ACOMPANHAMENTO POS-IAM"
+    ],
+    "Procedimento Diagnóstico": [
+      "ROTINA DE EXAMES"
+    ]
+  },
+  "labels": {
+    "MD11.5": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7198,
+      "descricao_cid": "Representação de doença CID-11: Dispneia. Definição: Dispneia é o termo utilizado para descrever percepções de dificuldade ou sofrimento relacionados à respiração e é reconhecido como sintoma de doença quando ocorre em circunstâncias inapropriadas. Dispneia é uma queixa apresentada por pacientes com uma ampla variedade de condições médicas, causadas por múltiplos mecanismos.\r\nA dispneia é considerada aguda quando dura de horas a 3 semanas, subaguda de 3 a 8 semanas e a dispneia crônica dura mais de 8 semanas.",
+      "classification_reasoning": "A queixa é mencionada como sendo negada pelo paciente, mas o médico solicita uma nova rotina de exames e reneva a receita. Isso sugere que o sintoma pode ser relacionado à condição do paciente e não apenas um problema cutâneo agudo, como indicado por ME62.7 ou ME66.6."
+    }
+  }
+}

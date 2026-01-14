@@ -1,0 +1,129 @@
+{
+  "prontuario_id": 991,
+  "text": "IAM  2013   + ATC.\nHAS /  DM / EX TBG.\nECG   FC  50,  BS  ZEI  AS   IS AL. \nUSA AAS,   CVD  25 - D,   ENL 5 - D;  MTF 850 - D,  SVT 20 - D.\n\nRERTORNA  COM  CINTILO  FIBROSE   PERSISTENTE   APICE   E  MEDIO  APICAL DA P  ANTERIOR  E  ANTERO SEPTAL  DISCRETA  ISQUEMIA ASSOCIADA;  FE   23-28%.\n1'2-80 50 15  \nP MANTEIDA. \nCONRTROLE NO AMB IC  COM ECO. \nLIBERADA  A CX  CATARATA.\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "IAM",
+      "ATC",
+      "HAS",
+      "DM",
+      "ECG",
+      "FC",
+      "BS",
+      "ZEI",
+      "AS",
+      "IS",
+      "AL",
+      "AAS",
+      "CVD",
+      "ENL",
+      "MTF",
+      "SVT",
+      "CINTILO",
+      "P",
+      "ECO",
+      "EX TBG",
+      "FE 23-28%",
+      "AMB IC",
+      "CX CATARATA"
+    ],
+    "Doença ou Síndrome": [
+      "IAM",
+      "HAS",
+      "DM"
+    ],
+    "Achado": [
+      "IAM",
+      "BS",
+      "EX TBG"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ATC",
+      "CX CATARATA"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECG",
+      "CINTILO",
+      "ECO"
+    ],
+    "Atributo Clínico": [
+      "FC"
+    ],
+    "Conceito Quantitativo": [
+      "50",
+      "25",
+      "5",
+      "850",
+      "20"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ZEI",
+      "AS",
+      "IS",
+      "AL",
+      "FIBROSE PERSISTENTE APICE E MEDIO APICAL DA P ANTERIOR",
+      "ANTERO SEPTAL DISCRETA ISQUEMIA ASSOCIADA",
+      "FE 23-28%"
+    ],
+    "Substância Química Orgânica": [
+      "AAS",
+      "CVD",
+      "MTF",
+      "SVT"
+    ],
+    "Substância Farmacológica": [
+      "AAS",
+      "CVD",
+      "ENL",
+      "MTF",
+      "SVT"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "ENL"
+    ],
+    "Produto Intelectual": [
+      "P"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "MANTEIDA",
+      "LIBERADA"
+    ]
+  },
+  "labels": {
+    "3A51.8": {
+      "term_original": "has",
+      "capitulo": "03",
+      "confidence_embedding": 0.7233,
+      "descricao_cid": "Representação de doença CID-11: Hemoglobina de baixa afinidade. Definição: Doença causada por determinantes que surgem após o nascimento, no período pré-natal, ou por fatores geneticamente herdados, levando à formação de hemoglobina com baixa afinidade pelo oxigênio. Essa doença é caracterizada por anormalidades das cadeias de globina que alteram a afinidade da molécula de hemoglobina pelo oxigênio, prejudicando o carregamento normal de oxigênio aos pulmões e a oferta de oxigênio aos tecidos. Essa doença pode apresentar-se com fadiga, fraqueza muscular, perda de apetite, perda de peso, diarreia, náusea, taquicardia, ou dormência de extremidades.",
+      "classification_reasoning": "A presença do termo 'HAS' no prontuário e a relação com outras informações, como o ECG e a hipercolesterolemia (ZEI), sugerem que o paciente tem hemoglobina de baixa afinidade, caracterizando uma doença relacionada à anemia."
+    },
+    "DB98.0": {
+      "term_original": "bs",
+      "capitulo": "13",
+      "confidence_embedding": 0.7197,
+      "descricao_cid": "Representação de doença CID-11: Infarto do fígado. Definição: Infarto do fígado é um dano hepático causado por suprimento sanguíneo limitado para o fígado, devido a obstrução ou redução do fluxo sanguíneo da artéria hepática, veia porta ou ambos.",
+      "classification_reasoning": "A presença de BS (Blood Stain) no contexto do prontuário sugere a possibilidade de lesão hepática, como infarto do fígado (DB98.0), que é uma opção mais precisa para o termo dentro do contexto clínico."
+    },
+    "1B41.2": {
+      "term_original": "iam",
+      "capitulo": "01",
+      "confidence_embedding": 0.7371,
+      "descricao_cid": "Representação de doença CID-11: Miocardite reumática aguda. Definição: Miocardite reumática aguda é uma inflamação cardíaca associada à febre reumática aguda desencadeada por uma reação autoimune à infecção por estreptococos do Grupo A, resultando em pancardite envolvendo inflamação do miocárdio, endocárdio e epicárdio, geralmente com envolvimento valvar do lado esquerdo.",
+      "classification_reasoning": "A escolha do código 1B41.2 se baseia na presença de febre reumática aguda (IAM 2013) e a descrição clínica da cardiopatia reumática, que inclui miocardite reumática aguda com inflamação cardíaca associada à febre reumática aguda."
+    },
+    "4A41.20": {
+      "term_original": "dm",
+      "capitulo": "04",
+      "confidence_embedding": 0.722,
+      "descricao_cid": "Representação de doença CID-11: Miosite por corpúsculos de inclusão (inflamatória). Definição: A miosite por corpos de inclusão (MCI) é a miopatia inflamatória idiopática mais comum após os 50 anos de idade. Apresenta-se, tipicamente, com fraqueza muscular assimétrica, insidiosa e crônica, proximal de pernas e/ou distal em braços, levando a quedas recorrentes e perda de destreza. A creatinofosfoquinase (CPK) está aumentada em até 15 vezes na MCI e a eletroneuromiografia por agulha mostra principalmente uma miopatia irritativa crônica. A histopatologia do músculo demonstra exsudatos inflamatórios no endomísio circundando e invadindo as fibras musculares não necróticas, muitas vezes acompanhados de vacúolos marginados e depósitos de proteínas. Apesar da histopatologia muscular inflamatória, é provável que a MCI tenha um componente degenerativo proeminente, suportado pela refratariedade à terapia imunossupressora.",
+      "classification_reasoning": "A palavra-chave 'DM' refere-se à doença de Miosite por corpos de inclusão (inflamatória), uma condição caracterizada pela inflamação muscular crônica e degenerativa, o que se alinha com a descrição da paciente apresentada no prontuário."
+    },
+    "NE82.1Y": {
+      "term_original": "ex tbg",
+      "capitulo": "22",
+      "confidence_embedding": 0.7235,
+      "descricao_cid": "Representação de doença CID-11: Outra disfunção especificada do marcapasso ou cardioversor desfibrilador implantável. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'ex tbg' é a NE82.1Y, pois refere-se a uma disfunção especificada do marcapasso ou cardioversor desfibrilador implantável, que é compatível com o contexto da ECG e da presença de um dispositivo cardiovascular."
+    }
+  }
+}

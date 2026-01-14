@@ -1,0 +1,69 @@
+{
+  "prontuario_id": 748,
+  "text": "Candidato a tx renal. doador vivo; \nAnurico a 10 anos; \nUCM: refluxo bilateral GII, sem queixas, residuo moderado;\nDoppler: normal;\nUrodinamica: cap 40 ml; complacencia de 0,8; pressão de detrussor 129 ao enchimento maximo; Qmax: 7, sem resíduo; \nP # hidrodistenção. discutir caso com Doutor Vital Brazil . retorno em 2 meses.\n \n \n \n ",
+  "entities": {
+    "Negação": [
+      "Anurico",
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "Anurico",
+      "queixas"
+    ],
+    "Abreviação": [
+      "UCM",
+      "P",
+      "Candidato a tx renal",
+      "refluxo bilateral GII",
+      "cap 40 ml",
+      "Qmax : 7"
+    ],
+    "Procedimento Diagnóstico": [
+      "UCM",
+      "Doppler",
+      "Urodinamica"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "normal",
+      "refluxo bilateral GII",
+      "residuo moderado",
+      "cap 40 ml",
+      "complacencia de 0 , 8",
+      "pressão de detrussor 129 ao enchimento maximo",
+      "Qmax : 7",
+      "sem resíduo"
+    ],
+    "Produto Intelectual": [
+      "P"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "hidrodistenção",
+      "Candidato a tx renal"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Candidato a tx renal"
+    ],
+    "Grupo Populacional": [
+      "doador vivo"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "discutir caso"
+    ]
+  },
+  "labels": {
+    "MF50.2": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7776,
+      "descricao_cid": "Representação de doença CID-11: Incontinência urinária. Definição: Qualquer condição do sistema urinário, causada por determinantes que surgem durante o período pré-natal ou após o nascimento, levando à perda do controle voluntário ou do suporte da uretra. Essas condições são caracterizadas por vazamento involuntário de grandes quantidades de urina, em associação com contrações não inibidas do músculo detrusor e a incapacidade de controlar a micção.",
+      "classification_reasoning": "A presença de 'queixas' no contexto do prontuário refere-se à incontinência urinária, pois o paciente não apresenta queixas apesar de ter refluxo bilateral GII e residuo moderado."
+    },
+    "GC40.51": {
+      "term_original": "anurico",
+      "capitulo": "16",
+      "confidence_embedding": 0.7613,
+      "descricao_cid": "Representação de doença CID-11: Incontinência de urgência associada a prolapso de órgão pélvico. Definição: Condição do sistema urinário, causada por disfunção do detrusor. Esta condição é caracterizada por incontinência urinária que acompanha a hiperreflexia do detrusor quando um volume específico da bexiga é atingido, perda de urina, falta de urgência para urinar ou falta de consciência do enchimento da bexiga.",
+      "classification_reasoning": "A opção mais precisa para o termo 'anurico' é a incontinência de urgência associada a prolapso de órgão pélvico, pois o paciente tem uma história de anurese (perda involuntária de urina) com residuo moderado e Qmax de 7, sem resíduo, o que sugere hiperreflexia do detrusor."
+    }
+  }
+}

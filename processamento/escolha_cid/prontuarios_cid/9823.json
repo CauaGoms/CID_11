@@ -1,0 +1,88 @@
+{
+  "prontuario_id": 550,
+  "text": "00:30h: Paciente apresentando rebaixamento de  nível de consciência, glasgow 13, disfásico, referindo forte cefaléia, comunico plantão da neurocirurgia que solicita Tomografia de crânio de emergência, libero e exame e paciente é encaminhado as 23h com  ambulância do hospital mas auxiliar de enfermagem, retornando as 23:30h com filme de imagem do exame, realizo ECG conforme solicitação médica. Encaminhado pedido de vaga de UTI na UTI 2  para Enfermeira Florence Nightingale . Segue sob cuidados de enfermagem. Solicito instação de oxigenioterapia. Enfermeira Florence Nightingale . TRAUMATISMO INTRACRANIANO.",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "disfásico",
+      "rebaixamento de nível de consciência",
+      "glasgow 13",
+      "forte cefaléia"
+    ],
+    "Organização Relacionada à Saúde": [
+      "neurocirurgia",
+      "emergência",
+      "UTI",
+      "enfermagem"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "neurocirurgia",
+      "Enfermeira",
+      "enfermagem"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "solicita",
+      "encaminhado",
+      "retornando",
+      "Encaminhado",
+      "cuidados",
+      "Solicito",
+      "comunico plantão",
+      "solicitação médica"
+    ],
+    "Procedimento Diagnóstico": [
+      "exame",
+      "ECG",
+      "Tomografia de crânio"
+    ],
+    "Abreviação": [
+      "ECG",
+      "UTI"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "oxigenioterapia"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "filme de imagem"
+    ],
+    "Doença ou Síndrome": [
+      "TRAUMATISMO INTRACRANIANO"
+    ]
+  },
+  "labels": {
+    "6E61.0": {
+      "term_original": "glasgow 13",
+      "capitulo": "06",
+      "confidence_embedding": 0.7546,
+      "descricao_cid": "Representação de doença CID-11: Síndrome psicótica secundária com alucinações. Definição: Síndrome caracterizada pela presença de alucinações proeminentes, consideradas consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental, com base em evidências de anamnese, exame físico ou achados laboratoriais. Delírios não são um aspecto proeminente da apresentação clínica. Os sintomas não são explicados por delirium ou por outro transtorno mental e comportamental, e não são uma resposta psicologicamente mediada a uma condição médica grave (p. ex., uma reação aguda ao estresse em resposta ao diagnóstico de uma condição de ameaça à vida). Essa categoria deve ser utilizada em conjunto com o diagnóstico do transtorno ou doença subjacente presumido, quando os sintomas psicóticos são suficientemente graves para exigir atenção clínica específica.",
+      "classification_reasoning": "A presença de alucinações e disfásico, junto com a cefaléia forte, sugere um quadro psicótico secundário ao trauma intracraniano. A escolha da opção 6E61.0 é baseada na presença de alucinações proeminentes como sintoma principal, característico de uma síndrome psicótica secundária."
+    },
+    "8D61": {
+      "term_original": "traumatismo intracraniano",
+      "capitulo": "08",
+      "confidence_embedding": 0.758,
+      "descricao_cid": "Representação de doença CID-11: Hipotensão intracraniana. Definição: A síndrome de hipotensão intracraniana é uma entidade fisiopatológica única de origem diversa. Geralmente é caracterizada por uma cefaleia ortostática, que ocorre ou piora com a postura ereta. Pacientes com cefaleias crônicas ou assintomáticos foram descritos.",
+      "classification_reasoning": "A escolha do código 8D61 (Hipotensão intracraniana) é a mais precisa porque o termo 'traumatismo intracraniano' sugere uma lesão cerebral grave, que pode levar à hipotensão. Além disso, a presença de cefaléia e disfásico também suportam essa escolha."
+    },
+    "MG30.2": {
+      "term_original": "forte cefaléia",
+      "capitulo": "21",
+      "confidence_embedding": 0.7454,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A dor crônica pós-operatória ou pós-traumática é a mais precisa opção para o termo 'forte cefaléia' no contexto clínico, pois o paciente refere-se forte cefaléia e apresenta rebaixamento de nível de consciência. Isso sugere lesão cerebral traumática ou inflamatória, o que pode ser associado a dor crônica pós-operatória ou pós-traumática."
+    },
+    "6C40.3": {
+      "term_original": "disfásico",
+      "capitulo": "06",
+      "confidence_embedding": 0.7887,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas.",
+      "classification_reasoning": "A presença de disfásico e referência a forte cefaléia sugere que o paciente pode estar intoxicado por álcool, levando a desordem do sistema nervoso central e consequente alteração da consciência."
+    },
+    "8A64": {
+      "term_original": "rebaixamento de nível de consciência",
+      "capitulo": "08",
+      "confidence_embedding": 0.7842,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo.",
+      "classification_reasoning": "Escolho o código 8A64 porque o termo 'rebaixamento de nível de consciência' sugere uma alteração no estado de consciência do paciente, o que é característico de crises epilépticas. Além disso, a presença de cefaléia e disfásia também suportam essa escolha."
+    }
+  }
+}

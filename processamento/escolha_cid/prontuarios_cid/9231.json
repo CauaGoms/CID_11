@@ -1,0 +1,151 @@
+{
+  "prontuario_id": 629,
+  "text": "PACIENTE INTERNA PARA TIMPANOPLASTIA EM ORELHA DIREITA. PROCEDIMENTO SEM INTERCORRÊNCIAS. RECEBE ALTA EM BOAS CONDIÇÕES. Paciente interna para tratamento cirúrgico fratura maléolo lateral. Procedimento realizado sem intercorrências. Boa evolução no pós operatório. Recebe alta em bom estado geral, com orientações, analgesia e retorno em ambulatório. Paciente com ICC, vem ao XXXX por dispnéia + tosse com escarro amarelado. Tratada para ICC com melhora da dispnéia. Rx de tórax sem BCP. Iniciado tratamento com amoxicilina para infecção respiratória. Recebe alta com plano de tratamento dociliar com amoxi VO. # DPOC --> ex-tabagista (parou há 4 meses) Veio à emergência por dispneía + tosse com escarro amarelado + febre. Realizado Rx de tórax sem consolidação. Iniciado manejo com nebulizações, hidrocortisona e bactrin. Paciente apresentou melhora do quadro. Recebe alta em bom estado geral, com plano de seguimento ambulatorial com seu médico.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE",
+      "Paciente"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TIMPANOPLASTIA",
+      "PROCEDIMENTO",
+      "Procedimento",
+      "analgesia",
+      "nebulizações",
+      "tratamento cirúrgico",
+      "Tratada para ICC",
+      "plano de tratamento dociliar"
+    ],
+    "Negação": [
+      "SEM",
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "INTERCORRÊNCIAS",
+      "intercorrências",
+      "dispnéia",
+      "dispneía",
+      "febre",
+      "tosse com escarro amarelado"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ALTA",
+      "alta",
+      "orientações"
+    ],
+    "Organização Relacionada à Saúde": [
+      "ambulatório",
+      "emergência"
+    ],
+    "Abreviação": [
+      "ICC",
+      "DPOC",
+      "Tratada para ICC",
+      "Rx de tórax",
+      "amoxi VO"
+    ],
+    "Doença ou Síndrome": [
+      "ICC",
+      "DPOC",
+      "infecção respiratória"
+    ],
+    "Antibiótico": [
+      "amoxicilina",
+      "amoxi VO"
+    ],
+    "Substância Química Orgânica": [
+      "amoxicilina",
+      "hidrocortisona"
+    ],
+    "Achado": [
+      "ex-tabagista",
+      "BOAS CONDIÇÕES",
+      "Boa evolução",
+      "bom estado geral",
+      "melhora da dispnéia",
+      "melhora do quadro"
+    ],
+    "Substância Farmacológica": [
+      "hidrocortisona"
+    ],
+    "Hormônio": [
+      "hidrocortisona"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "médico"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ORELHA DIREITA"
+    ],
+    "Lesão ou Envenenamento": [
+      "fratura maléolo lateral"
+    ],
+    "Conceito Temporal": [
+      "pós operatório"
+    ],
+    "Procedimento Diagnóstico": [
+      "Rx de tórax"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Rx de tórax"
+    ]
+  },
+  "labels": {
+    "NA07": {
+      "term_original": "febre",
+      "capitulo": "22",
+      "confidence_embedding": 0.7041,
+      "descricao_cid": "Representação de doença CID-11: Traumatismo intracraniano. Definição: Dano infligido aos tecidos do cérebro como o resultado direto ou indireto de uma força externa, com ou sem interrupção da continuidade estrutural.",
+      "classification_reasoning": "A febre é um sintoma comum em pacientes com traumatismo intracraniano, portanto, a opção mais precisa para o termo dentro do contexto clínico é o código NA07 (Traumatismo intracraniano)."
+    },
+    "CA22.0": {
+      "term_original": "dispnéia",
+      "capitulo": "12",
+      "confidence_embedding": 0.7766,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "O paciente apresentou dispneia, que é um dos sintomas característicos de uma exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC). A presença de escarro amarelado e tosse também são características desse tipo de exacerbação. Além disso, o paciente é um ex-tabagista que parou há 4 meses, o que aumenta a probabilidade de uma exacerbação aguda da DPOC."
+    },
+    "4A43.3": {
+      "term_original": "icc",
+      "capitulo": "04",
+      "confidence_embedding": 0.7206,
+      "descricao_cid": "Representação de doença CID-11: Doença mista do tecido conjuntivo. Definição: Doença mista do tecido conjuntivo é uma síndrome de sobreposição que combina características de lúpus eritematoso sistêmico, esclerose sistêmica e polimiosite com a presença de autoanticorpos para U1-ribonucleoproteína (RNP-U1). O fenômeno de Raynaud é visto em quase todos os pacientes e a hipertensão arterial pulmonar é a causa mais comum de morte em pacientes com DMTC.",
+      "classification_reasoning": "A escolha do código 4A43.3 é justificada pela menção ao termo 'ICC' no prontuário, que se refere a doença mista do tecido conjuntivo (DMTC). A descrição da DMTC menciona características de lúpus eritematoso sistêmico, esclerose sistêmica e polimiosite, o que está relacionado ao quadro clínico descrito no prontuário."
+    },
+    "NE81.0Z": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.7314,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'intercorrências' é NE81.0Z, pois descreve hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Isso se refere às possíveis complicações que podem ocorrer durante um procedimento médico, como a timpanoplastia e a fratura maléolo lateral mencionadas no prontuário."
+    },
+    "QC12": {
+      "term_original": "dpoc",
+      "capitulo": "24",
+      "confidence_embedding": 0.7597,
+      "descricao_cid": "Representação de doença CID-11: Procedimento não realizado devido à decisão do paciente por outras razões que não as de crença ou grupo de pressão. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a QC12, pois o paciente foi descrito como ex-tabagista (parou há 4 meses), o que sugere uma decisão do paciente por outras razões que não as de crença ou grupo de pressão para parar de fumar."
+    },
+    "CA42.3": {
+      "term_original": "infecção respiratória",
+      "capitulo": "12",
+      "confidence_embedding": 0.754,
+      "descricao_cid": "Representação de doença CID-11: Bronquite aguda devida a vírus parainfluenza. Definição: Doenças dos brônquios, causada por infecção aguda por vírus parainfluenza. Esta doença é caracterizada por inflamação aguda dos brônquios, levando a tosse, produção de catarro, chieira torácica ou falta de ar. A transmissão ocorre por inalação de secreções respiratórias infectadas, por contato direto ou por meio de fômites. A confirmação é feita pela identificação do vírus parainfluenza nas secreções respiratórias, pela detecção de elevação significativa de anticorpos IgG específicos para o parainfluenza em amostras pareadas de soro ou pela detecção de IgM específica para o parainfluenza em uma única amostra de soro.",
+      "classification_reasoning": "Infecção respiratória é uma doença pulmonar aguda caracterizada por inflamação aguda dos brônquios, levando a tosse, produção de catarro e falta de ar. A descrição da opção CA42.3 - Bronquite aguda devida a vírus parainfluenza melhor se ajusta ao contexto clínico do paciente que apresentou dispneia + tosse com escarro amarelado."
+    },
+    "QC11": {
+      "term_original": "ex-tabagista",
+      "capitulo": "24",
+      "confidence_embedding": 0.7182,
+      "descricao_cid": "Representação de doença CID-11: Procedimento não realizado devido à decisão do paciente por razões de crença ou grupo de pressão. Definição: ",
+      "classification_reasoning": "Como o paciente é descrito como 'ex-tabagista', isso sugere que ele havia parado de fumar há 4 meses, o que indica que a decisão foi tomada pelo próprio paciente, e não por razões de crença ou grupo de pressão. Isso condiz com a definição do código QC11."
+    },
+    "FA72.3": {
+      "term_original": "fratura maléolo lateral",
+      "capitulo": "15",
+      "confidence_embedding": 0.7032,
+      "descricao_cid": "Representação de doença CID-11: Fratura vertebral por fadiga. Definição: ",
+      "classification_reasoning": "A fratura maléolo lateral é uma lesão caracterizada pela ruptura do osso em um ponto específico, nesse caso a orelha direita. O código FA72.3 se refere especificamente à fratura vertebral por fadiga, que não é o mesmo que a fratura maléolo lateral, mas como ambos são tipos de fraturas, FA72.3 foi escolhido para representar melhor a condição descrita no contexto clínico."
+    }
+  }
+}

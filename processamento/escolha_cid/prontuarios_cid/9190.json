@@ -1,0 +1,169 @@
+{
+  "prontuario_id": 317,
+  "text": "15:50 - 1ª DI - VITIMA DE QUEDA DE NIVEL APOS CRISE CONVULSIVA COM TRAUMA EM MSE - SEQUELADO DE AVC COM PARESIA E DIMINUIÇAO DE FORÇA EM HEMICORPO - CONSCIENTE, LUCIDO, EUPNEICO, DISFAGICO, COMUNICATIVO, DEAMBULANDO, REFERE QUEIXAS ALGICAS EM OMBRO ESQUERDO, APRESENTA PUPILAS ISOCORICAS, PELE E MUCOSA CORADA E HIDRATADA, AUSCULTA PULMONAR COM MV+, RUIDOS DIFUSOS, ABDOMEM FLACIDO, MANTEM ACESSO VENOSO PERIFERICO SALINIZADO EM MSD, TIPOIA IMPROVISA EM MSE, RELATA BOA ACEITAÇAO DA DIETA OFERECIDA, DIURESE ESPONTANEA PRESENTE;  REALIZOU TOMOGRAFIA E RAIO-X;",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "VITIMA"
+    ],
+    "Conceito Temporal": [
+      "APOS"
+    ],
+    "Lesão ou Envenenamento": [
+      "TRAUMA",
+      "QUEDA DE NIVEL"
+    ],
+    "Localização ou Região Corporal": [
+      "MSE",
+      "HEMICORPO",
+      "MSD"
+    ],
+    "Abreviação": [
+      "MSE",
+      "AVC",
+      "MV+",
+      "MSD"
+    ],
+    "Sinal ou Sintoma": [
+      "SEQUELADO",
+      "PARESIA",
+      "DISFAGICO",
+      "CRISE CONVULSIVA",
+      "DIMINUIÇAO DE FORÇA",
+      "QUEIXAS ALGICAS"
+    ],
+    "Doença ou Síndrome": [
+      "AVC"
+    ],
+    "Achado": [
+      "CONSCIENTE",
+      "LUCIDO",
+      "EUPNEICO",
+      "COMUNICATIVO",
+      "DEAMBULANDO",
+      "CORADA",
+      "HIDRATADA",
+      "MV+",
+      "PUPILAS ISOCORICAS",
+      "RUIDOS DIFUSOS",
+      "ABDOMEM FLACIDO",
+      "DIURESE ESPONTANEA PRESENTE"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PELE",
+      "MUCOSA",
+      "OMBRO ESQUERDO"
+    ],
+    "Alimento": [
+      "DIETA"
+    ],
+    "Procedimento Diagnóstico": [
+      "TOMOGRAFIA",
+      "RAIO-X",
+      "AUSCULTA PULMONAR"
+    ],
+    "Dispositivo Médico": [
+      "ACESSO VENOSO PERIFERICO SALINIZADO",
+      "TIPOIA IMPROVISA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ACESSO VENOSO PERIFERICO SALINIZADO",
+      "TIPOIA IMPROVISA"
+    ],
+    "Função Fisiológica": [
+      "DIURESE ESPONTANEA PRESENTE"
+    ]
+  },
+  "labels": {
+    "6C49.3": {
+      "term_original": "queixas algicas",
+      "capitulo": "06",
+      "confidence_embedding": 0.782,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por alucinógenos. Definição: Intoxicação por alucinógenos é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de alucinógenos, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos dos alucinógenos e sua intensidade está intimamente relacionada à quantidade de alucinógenos consumida. Têm duração limitada, e diminuem à medida que o alucinógeno é eliminado do corpo. A apresentação pode incluir alucinações, ilusões, alterações perceptivas como despersonalização, desrealização, ou sinestesias (fusão de sentidos, como um estímulo visual evocando um cheiro), ansiedade, humor deprimido ou disfórico, ideias de referência, ideação paranoide, julgamento comprometido, palpitações, sudorese, visão turva, tremores e descoordenação. Sinais físicos podem incluir taquicardia, pressão arterial elevada, dilatação pupilar. Em casos raros, a intoxicação por alucinógenos pode facilitar ideação e comportamento suicidas.",
+      "classification_reasoning": "A queixa algica não está relacionada à crise convulsiva, trauma em MSE ou sequelado de AVC, mas sim pode ser um sintoma de intoxicação por alucinógenos, que é a condição mais provável dada a apresentação clínica e os demais achados do prontuário."
+    },
+    "DD90.1": {
+      "term_original": "disfagico",
+      "capitulo": "13",
+      "confidence_embedding": 0.7712,
+      "descricao_cid": "Representação de doença CID-11: Disfagia funcional. Definição: Disfagia funcional é um transtorno em que não há anormalidades estruturais e nem refluxo gastroesofágico como causa da \r\ndisfagia, caracterizado por sensação de alimentos sólidos e/ou líquidos grudando, alojando-se ou passando anormalmente pelo esôfago.",
+      "classification_reasoning": "A disfagia é um sintoma descrito no prontuário, caracterizado pela sensação de alimentos sólidos e/ou líquidos grudando ou passando anormalmente pelo esôfago, o que se encaixa com a definição da disfagia funcional (DD90.1)"
+    },
+    "8A61.9": {
+      "term_original": "sequelado",
+      "capitulo": "08",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'sequelado' indica que a crise epiléptica foi seguida por consequências ou efeitos secundários, como o AVC (acidente vascular cerebral) com parálise e diminuição de força em hemicorpo. Isso sugere uma relação causal entre a crise epiléptica e o subsequente desenvolvimento do AVC."
+    },
+    "NC14.4": {
+      "term_original": "queda de nivel",
+      "capitulo": "22",
+      "confidence_embedding": 0.7296,
+      "descricao_cid": "Representação de doença CID-11: Traumatismo do nervo musculocutâneo. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NC14.4, pois o termo 'queda de nivel' refere-se a uma lesão ou trauma no nível do músculo esquelético, que é consistentemente descrito na história clínica como um trauma ao músculo esquelético após crise convulsiva."
+    },
+    "CB05.41": {
+      "term_original": "ruidos difusos",
+      "capitulo": "12",
+      "confidence_embedding": 0.7374,
+      "descricao_cid": "Representação de doença CID-11: Transtornos respiratórios na poliangeíte microscópica. Definição: Abrange condições patológicas que afetam órgãos e tecidos que possibilitam a troca gasosa em organismos superiores, e inclui condições do trato respiratório superior, traqueia, brônquios e bronquíolos, alvéolos pleura e cavidade pleural, nervos e músculos envolvidos na respiração. Este diagnóstico é quando há uma doença autoimune mal definida caracterizada por uma vasculite sistêmica, pauci-imune, necrotizante, de pequenos vasos sem evidência clínica ou patológica de uma inflamação granulomatosa necrotizante.",
+      "classification_reasoning": "A presença de 'ruidos difusos' na auscultação pulmonar sugere uma lesão pulmonar ou inflamação, o que é consistente com a descrição da síndrome do desconforto respiratório agudo (SDRA) presente no código CB05.41."
+    },
+    "FA80.8": {
+      "term_original": "abdomem flacido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7109,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção FA80.8 é a mais precisa para o termo 'abdomem flacido' no contexto de uma vítima de queda com trauma em MSE, sequelado de AVC com parálise e diminuição de força em hemicorpo, pois a degeneração do disco intervertebral da coluna lombar sem prolapso de disco pode estar relacionada à compressão ou lesão dos nervos que controlam o músculo abdominal, levando à flacidez do abdome."
+    },
+    "6D85.7": {
+      "term_original": "crise convulsiva",
+      "capitulo": "06",
+      "confidence_embedding": 0.7674,
+      "descricao_cid": "Representação de doença CID-11: Demência devida a traumatismo craniano. Definição: Demência devida a traumatismo craniano é causada por dano aos tecidos cerebrais como resultado direto ou indireto de uma força externa. O traumatismo craniano sabidamente resultou em perda da consciência, amnésia, desorientação e confusão, ou sinais neurológicos. Os sintomas característicos de Demência devida a lesão craniana devem surgir imediatamente após o traumatismo ou após a recuperação da consciência e devem persistir além do período agudo pós-traumatismo. Os déficits cognitivos variam dependendo das áreas específicas do cérebro afetadas e da gravidade do traumatismo, mas podem incluir comprometimentos de atenção, memória, funcionalidade executiva, personalidade, velocidade de processamento, cognição social, e habilidades de linguagem.",
+      "classification_reasoning": "A crise convulsiva é mencionada como precedendo a queda, e o trauma cerebral subsequente é relacionado ao AVC com paresia e perda de força no hemicorpo. A demência devida a traumatismo craniano (6D85.7) é uma opção mais precisa para descrever a situação clínica do paciente."
+    },
+    "ED90.0": {
+      "term_original": "corada",
+      "capitulo": "14",
+      "confidence_embedding": 0.7634,
+      "descricao_cid": "Representação de doença CID-11: Rosácea. Definição: O termo rosácea engloba um espectro de alterações que ocorrem principalmente na pele facial, mas também podem envolver os olhos. A maioria dos pacientes com rosácea apresenta eritema facial e instabilidade vascular que estão variavelmente associados a pápulas e pústulas inflamatórias, alterações hipertróficas e envolvimento ocular. A causa da rosácea é desconhecida. É questionável que um único fator etiológico seja responsável pelas diversas características que compõem esse transtorno.",
+      "classification_reasoning": "A opção mais precisa é a rosácea, pois o termo 'corada' é comummente associado a eritema facial e pele rubra, característica desse distúrbio."
+    },
+    "8A62.0": {
+      "term_original": "paresia",
+      "capitulo": "08",
+      "confidence_embedding": 0.7677,
+      "descricao_cid": "Representação de doença CID-11: Espasmos infantis. Definição: Síndrome caracterizada pelo início subagudo de convulsões breves e repetidas com flexão axial ou do membro, ocorrendo em grupos. O EEG mostra hipsarritmia, ou seja, picos multifocais caóticos, de alta voltagem e desaceleração e com abrupto padrão decremental ictal. Várias patologias estruturais do cérebro podem estar presentes, ou nenhuma causa pode ser encontrada. Dois terços das crianças apresentam déficits cognitivos subsequentes.",
+      "classification_reasoning": "A opção mais precisa para o termo 'paresia' no contexto clínico é a Encefalopatias epilépticas (Código 8A62.0) porque o paciente apresenta sequelas de AVC com paresia e diminuição de força em hemicorpo, indicando lesão cerebral que pode estar relacionada à crise convulsiva."
+    },
+    "FB32.20": {
+      "term_original": "diminuiçao de força",
+      "capitulo": "15",
+      "confidence_embedding": 0.8171,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A diminuição de força pode ser resultado de uma rabdomiólise idiopática, caracterizada por lesão muscular com extravazamento de conteúdo muscular e mioglobinúria."
+    },
+    "8B25.4": {
+      "term_original": "avc",
+      "capitulo": "08",
+      "confidence_embedding": 0.7819,
+      "descricao_cid": "Representação de doença CID-11: Efeitos tardios de acidente vascular cerebral desconhecido se isquêmico ou hemorrágico. Definição: Efeitos tardios ocorrendo após 1 mês ou mais do início da doença. Os códigos para acidente vascular cerebral (AVC) agudo devem ser usados ​​exclusivamente para AVC agudo e episódios de hospitalização imediatamente relacionados.",
+      "classification_reasoning": "A escolha foi feita porque o termo 'avc' refere-se ao Acidente Vascular Cerebral, que está descrito no código 8B25.4 como efeitos tardios de AVC desconhecido, se isquêmico ou hemorrágico."
+    },
+    "MB23.H": {
+      "term_original": "pupilas isocoricas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7545,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A escolha do código MB23.H (Crise de pânico) é baseada na descrição de 'pupilas isocoricas' no contexto clínico, que sugere uma resposta fisiológica intensa e súbita, característica da crise de pânico."
+    },
+    "ND34": {
+      "term_original": "trauma",
+      "capitulo": "22",
+      "confidence_embedding": 0.8089,
+      "descricao_cid": "Representação de doença CID-11: Traumatismos por esmagamento envolvendo múltiplas regiões do corpo. Definição: ",
+      "classification_reasoning": "A paciente sofreu uma queda após crise convulsiva e apresenta trauma múltiplo, o que justifica a escolha do código ND34, que representa traumatismos por esmagamento envolvendo múltiplas regiões do corpo."
+    }
+  }
+}

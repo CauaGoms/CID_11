@@ -1,0 +1,117 @@
+{
+  "prontuario_id": 241,
+  "text": "17:05 Consciente, oreintado, verbalizando, respiração ar ambiente, eupneica, mucosa hipocorada e hidratada, aceitando bem a dieta oferecida, acesso venoso periférico MSE salinizado, repouso no leito, abdomem globoso flacido e indolor a palpação, diurese espontânea, evacuação ausente, nega algia no momento. Segue sob cuidados de enfermagem. Enfermeira Florence Nightingale.  ESCLEROSE MULTIPLA",
+  "entities": {
+    "Achado": [
+      "Consciente",
+      "oreintado",
+      "verbalizando",
+      "eupneica",
+      "hidratada",
+      "flacido",
+      "respiração ar ambiente",
+      "aceitando bem a dieta",
+      "repouso no leito",
+      "diurese espontânea"
+    ],
+    "Tecido": [
+      "mucosa"
+    ],
+    "Sinal ou Sintoma": [
+      "hipocorada",
+      "globoso",
+      "algia"
+    ],
+    "Abreviação": [
+      "MSE"
+    ],
+    "Localização ou Região Corporal": [
+      "MSE",
+      "abdomem"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "salinizado",
+      "acesso venoso periférico",
+      "repouso no leito"
+    ],
+    "Procedimento Diagnóstico": [
+      "palpação"
+    ],
+    "Função de Organismo": [
+      "evacuação",
+      "respiração ar ambiente",
+      "diurese espontânea"
+    ],
+    "Negação": [
+      "ausente",
+      "nega"
+    ],
+    "Dispositivo Médico": [
+      "acesso venoso periférico"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "cuidados de enfermagem"
+    ],
+    "Doença ou Síndrome": [
+      "ESCLEROSE MULTIPLA"
+    ]
+  },
+  "labels": {
+    "CA23.0": {
+      "term_original": "respiração ar ambiente",
+      "capitulo": "12",
+      "confidence_embedding": 0.7815,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica. Definição: Asma alérgica é o fenótipo de asma mais facilmente reconhecido. Frequentemente, inicia-se na infância e é associada a um histórico pessoal ou familiar de doença alérgica, como eczema, rinite alérgica, ou alergia a drogas e alimentos. O exame do escarro induzido desses pacientes, antes do tratamento, geralmente revela uma inflamação eosinofílica das vias aéreas. O principal gatilho é a exposição a alérgenos, como o ácaro da poeira doméstica e ao pólen, aos quais o indivíduo tenha sido, previamente, sensibilizado. Os pacientes com esse fenótipo de asma, usualmente, respondem bem a corticoide inalatório e à imunoterapia alérgeno-específica.",
+      "classification_reasoning": "A presença de 'respiração ar ambiente' no prontuário indica que o paciente está respirando normalmente, sem qualquer dificuldade, o que é consistente com a definição de asma alérgica. Além disso, não há indicações de pneumotórax ou qualquer outro problema pulmonar grave."
+    },
+    "FA32.5": {
+      "term_original": "flacido",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'flacido' é a degeneração de disco intervertebral da coluna torácica com prolapso de disco (FA80.5). Embora não seja diretamente relacionado à esclerose múltipla, a perda de mobilidade e dor abdominal podem ser consequências da compressão dos nervos por um disco degenerado."
+    },
+    "8A40": {
+      "term_original": "esclerose multipla",
+      "capitulo": "08",
+      "confidence_embedding": 0.7185,
+      "descricao_cid": "Representação de doença CID-11: Esclerose múltipla. Definição: A esclerose múltipla (EM) é uma doença desmielinizante inflamatória crônica do sistema nervoso central. Três categorias de esclerose múltipla foram descritas: esclerose múltipla recorrente-remitente, esclerose múltipla secundariamente progressiva e esclerose múltipla primariamente progressiva.",
+      "classification_reasoning": "A escolha do código 8A40 é baseada na descrição de 'Esclerose múltipla' no contexto do prontuário, que coincide com a definição da doença CID-11: Esclerose múltipla."
+    },
+    "EE01.1": {
+      "term_original": "hipocorada",
+      "capitulo": "14",
+      "confidence_embedding": 0.7691,
+      "descricao_cid": "Representação de doença CID-11: Hipoidrose devida a anormalidades genéticas da estrutura ou função da glândula écrina. Definição: Hipoidrose devida a um transtorno hereditário do desenvolvimento de glândula ou ducto sudoríparos. A sudorese pode estar gravemente diminuída ou ausente devido a escassez ou ausência de glândulas écrinas ou à inervação autonômica defeituosa. A ausência de sudorese leva a uma incapacidade de termorregulação por resfriamento evaporativo, e a hipertermia pode ocorrer com esforço físico ou em um ambiente quente.",
+      "classification_reasoning": "A escolha do código EE01.1 é devido à presença do termo 'hipocorada' no contexto, que se refere a uma característica da mucosa (membrana mucosa) como hipocora (sequioso). Isso é consistente com a definição de Hipoidrose devida a anormalidades genéticas da estrutura ou função da glândula écrina (EE01.1), que menciona ausência de sudorese e escassez de glândulas écrinas."
+    },
+    "FA80.4": {
+      "term_original": "globoso",
+      "capitulo": "15",
+      "confidence_embedding": 0.7213,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A palavra 'globoso' no contexto do prontuário sugere uma descrição de anatomia ou morfologia corporal, especialmente em relação ao abdome, o que é consistente com a degeneração de disco intervertebral da coluna torácica sem prolapso de disco (FA80.4), pois isso pode estar relacionado à forma como o paciente apresenta seu abdome."
+    },
+    "MF40.3": {
+      "term_original": "repouso no leito",
+      "capitulo": "21",
+      "confidence_embedding": 0.768,
+      "descricao_cid": "Representação de doença CID-11: Ejaculação retrógrada. Definição: A ejaculação retrógrada é uma condição na qual o sêmen, que normalmente é ejaculado pela uretra, é redirecionado para a bexiga urinária. A ejaculação retrógrada é tipicamente acompanhada por orgasmo subjetivo, embora o homem possa notar que a liberação de sêmen é limitada ou ausente. A ejaculação retrógrada ocorre mais comumente como uma complicação da ressecção transuretral da próstata, porém também pode ser causada por outra cirurgia pélvica, disfunção do sistema nervoso ou uso de agentes farmacológicos. A confirmação é feita pela identificação de espermatozoides em uma amostra de urina.",
+      "classification_reasoning": "A opção mais precisa para o termo 'repouso no leito' é a ejaculação retrógrada, pois embora os sintomas sejam incomuns em pacientes com esclerose múltipla, a representação de doença CID-11: Ejaculação retrógrada é a única opção que descreve uma situação em que o paciente está repousando no leito."
+    },
+    "6C49.3": {
+      "term_original": "verbalizando",
+      "capitulo": "06",
+      "confidence_embedding": 0.7878,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por alucinógenos. Definição: Intoxicação por alucinógenos é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de alucinógenos, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos dos alucinógenos e sua intensidade está intimamente relacionada à quantidade de alucinógenos consumida. Têm duração limitada, e diminuem à medida que o alucinógeno é eliminado do corpo. A apresentação pode incluir alucinações, ilusões, alterações perceptivas como despersonalização, desrealização, ou sinestesias (fusão de sentidos, como um estímulo visual evocando um cheiro), ansiedade, humor deprimido ou disfórico, ideias de referência, ideação paranoide, julgamento comprometido, palpitações, sudorese, visão turva, tremores e descoordenação. Sinais físicos podem incluir taquicardia, pressão arterial elevada, dilatação pupilar. Em casos raros, a intoxicação por alucinógenos pode facilitar ideação e comportamento suicidas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'verbalizando' é a intoxicação por alucinógenos, pois apresenta sintomas como alucinações e alterações perceptivas que podem incluir despersonalização, desrealização ou sinestesias. Isso condiz com o contexto clínico do prontuário, que menciona um paciente consciente e verbalizando."
+    },
+    "MB24.A": {
+      "term_original": "algia",
+      "capitulo": "21",
+      "confidence_embedding": 0.773,
+      "descricao_cid": "Representação de doença CID-11: Medo. Definição: Resposta emocional diante da percepção de ameaça ou perigo iminente, associada ao desejo de fugir ou lutar.",
+      "classification_reasoning": "O termo 'algia' refere-se ao fato de o paciente negar algia no momento, indicando que não está apresentando dor ou desconforto. O código MB24.A - Medo - é mais preciso para esse contexto clínico, pois a falta de dor não está relacionada à crise de pânico (MB23.H) ou tentativa de suicídio (MB23.R), e nem ao coma (MB20.1). Além disso, a aparição descuidada (MB23.7) também não é relevante para o termo 'algia'."
+    }
+  }
+}

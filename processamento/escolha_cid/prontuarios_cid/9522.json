@@ -1,0 +1,143 @@
+{
+  "prontuario_id": 769,
+  "text": "TX RENAL \nEM USO DE MET 5, TACROLIMO 4/4, MS 2/2, BON, AAS, CVDL 25 2X, ANLO 5 2X, FLUOXETINA 20 \nALTA RECENTE, ESTEVE NO PS POR INCONTINENCIA DEVIDO DUPLO JOTA \nS # TREMOR E CANSAÇO \nO # PESO 66.5\nPA 130/80\nEXAME FISICO: PALIDEZ CUTANEOMUCOSA\nABDOME GLOBOSO, RHA+, SEM VCM\nREGIÃO CIRURGICA: MASSA / HEMATOMA ? PALPAVEL \nTREMORES DE EXTREMIDADE  \nCONTROLE EM 1 SEMANA\nRE TX RENAL CR 2,18; TACROLIMO \nHAS COMPENSAOPD \nANEMIA\nDUPLO JOTA\n ",
+  "entities": {
+    "Abreviação": [
+      "MET",
+      "MS",
+      "BON",
+      "AAS",
+      "CVDL",
+      "ANLO",
+      "PS",
+      "PA",
+      "RHA+",
+      "VCM",
+      "TX RENAL",
+      "CR 2 , 18",
+      "HAS COMPENSAOPD"
+    ],
+    "Substância Farmacológica": [
+      "MET",
+      "TACROLIMO",
+      "MS",
+      "BON",
+      "AAS",
+      "CVDL",
+      "ANLO",
+      "FLUOXETINA"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "4/4",
+      "2/2",
+      "20",
+      "66",
+      "130/80",
+      "25 2X",
+      "5 2X"
+    ],
+    "Conceito Temporal": [
+      "RECENTE"
+    ],
+    "Organização Relacionada à Saúde": [
+      "PS"
+    ],
+    "Sinal ou Sintoma": [
+      "TREMOR",
+      "CANSAÇO",
+      "GLOBOSO",
+      "VCM",
+      "MASSA",
+      "HEMATOMA",
+      "POR INCONTINENCIA",
+      "PALIDEZ CUTANEOMUCOSA"
+    ],
+    "Atributo Clínico": [
+      "PESO",
+      "PA"
+    ],
+    "Localização ou Região Corporal": [
+      "ABDOME",
+      "EXTREMIDADE",
+      "REGIÃO CIRURGICA"
+    ],
+    "Achado": [
+      "RHA+"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Doença ou Síndrome": [
+      "ANEMIA",
+      "HAS COMPENSAOPD"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Dispositivo Médico": [
+      "DUPLO JOTA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 2 , 18"
+    ]
+  },
+  "labels": {
+    "GA19.0": {
+      "term_original": "hematoma",
+      "capitulo": "16",
+      "confidence_embedding": 0.7654,
+      "descricao_cid": "Representação de doença CID-11: Hematoma do ligamento largo. Definição: Condição que afeta mulheres, causada por parto, traumatismo ou cirurgia. Esta condição é caracterizada por uma laceração na parte superior da vagina, colo do útero ou útero que se estende para as artérias uterinas ou vaginais, sangramento (embora nem sempre com sangramento vaginal óbvio), dor nas costas, pressão na área retoanal, tontura, hipotensão ou anemia . A confirmação é feita por exame retovaginal para descartar coagulação e expansão do hematoma.",
+      "classification_reasoning": "A escolha do código GA19.0 é a mais precisa porque o termo 'hematoma' está relacionado à lesão do ligamento largo, comum em mulheres após parto, traumatismo ou cirurgia, e não tem relação com doenças renais ou nefríticas como GB40 ou GB90.48."
+    },
+    "EB31": {
+      "term_original": "palidez cutaneomucosa",
+      "capitulo": "14",
+      "confidence_embedding": 0.7263,
+      "descricao_cid": "Representação de doença CID-11: Eritema nodoso. Definição: Erupção eritematosa comumente associada a reações a medicamentos ou infecção e caracterizada por nódulos inflamatórios que geralmente são dolorosos, múltiplos e bilaterais. Esses nódulos localizam-se predominantemente na face anterior das pernas, com ocorrência menos comum nas coxas e antebraços. Eles sofrem mudanças de cor características que terminam em áreas temporárias semelhantes a hematomas. Esta condição geralmente desaparece em 3-6 semanas sem cicatriz ou atrofia.",
+      "classification_reasoning": "A opção EB31 (Eritema nodoso) é a mais precisa para o termo 'palidez cutaneomucosa' porque caracteriza uma erupção eritematosa com nódulos inflamatórios que podem apresentar mudanças de cor características e áreas temporárias semelhantes a hematomas, o que é consistente com a descrição de palidez cutaneomucosa no contexto clínico."
+    },
+    "FA25": {
+      "term_original": "massa",
+      "capitulo": "15",
+      "confidence_embedding": 0.7121,
+      "descricao_cid": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato.",
+      "classification_reasoning": "A opção mais precisa para o termo 'massa' é a gota (FA25), uma artropatia aguda ou crônica caracterizada pela deposição de cristais de urato em tecidos articulares, que pode estar associada à deposição focal de urato na pele e tecido subcutâneo."
+    },
+    "MF50.2": {
+      "term_original": "por incontinencia",
+      "capitulo": "21",
+      "confidence_embedding": 0.7512,
+      "descricao_cid": "Representação de doença CID-11: Incontinência urinária. Definição: Qualquer condição do sistema urinário, causada por determinantes que surgem durante o período pré-natal ou após o nascimento, levando à perda do controle voluntário ou do suporte da uretra. Essas condições são caracterizadas por vazamento involuntário de grandes quantidades de urina, em associação com contrações não inibidas do músculo detrusor e a incapacidade de controlar a micção.",
+      "classification_reasoning": "A opção mais precisa para o termo 'por incontinência' é a Incontinência urinária (Código MF50.2), pois o paciente apresenta incontinência devido ao duplo jota, caracterizando um vazamento involuntário de urina."
+    },
+    "DC82.0": {
+      "term_original": "globoso",
+      "capitulo": "13",
+      "confidence_embedding": 0.7202,
+      "descricao_cid": "Representação de doença CID-11: Divertículo do intestino grosso com hemorragia. Definição: Condição morfológica na qual há uma pequena bolsa chamada divertículo na parede do intestino grosso, com hemorragia.",
+      "classification_reasoning": "A palavra 'globoso' presente no exame físico do paciente, descrição de um abdome globoso, sugere uma referência ao divertículo do intestino grosso com hemorragia (Código CID-11: DC82.0), que é a opção mais precisa para o termo dentro do contexto clínico."
+    },
+    "8A04.30": {
+      "term_original": "tremor",
+      "capitulo": "08",
+      "confidence_embedding": 0.7796,
+      "descricao_cid": "Representação de doença CID-11: Tremor devido a transtornos metabólicos. Definição: Oscilação involuntária de uma parte do corpo devido a transtornos metabólicos.",
+      "classification_reasoning": "Escolhi esse código pois o tremor descrito no prontuário é associado ao uso de metilprednisolona e tacrolimo, sugerindo uma possível relação com um transtorno metabólico."
+    },
+    "3A71.2": {
+      "term_original": "anemia",
+      "capitulo": "03",
+      "confidence_embedding": 0.8106,
+      "descricao_cid": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "A anemia é mencionada no contexto como uma consequência da doença renal crônica, o que se alinha com a definição da anemia renal crônica presente no código CID-11 3A71.2."
+    },
+    "6C46.3": {
+      "term_original": "cansaço",
+      "capitulo": "06",
+      "confidence_embedding": 0.76,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por estimulantes, incluindo anfetaminas, metanfetamina ou metcatinona. Definição: Intoxicação por estimulantes, incluindo anfetaminas, metanfetamina e metcatinona, mas excluindo cafeína, cocaína e catinonas sintéticas é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de anfetaminas ou outros estimulantes, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos das anfetaminas ou outros estimulantes e sua intensidade está intimamente relacionada à quantidade de anfetaminas ou outros estimulantes consumida. Têm duração limitada, e diminuem à medida que as anfetaminas ou outros estimulantes são eliminados do corpo. Sintomas de apresentação podem incluir ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (possivelmente de intensidade delirante), alucinações auditivas transitórias, confusão transitória, mudanças na sociabilidade. Sudorese ou calafrios, nausea ou vômitos, e palpitações podem estar presentes. Sinais físicos podem incluir taquicardia, elevação da pressão arterial, dilatação pupilar, discinesias e distonias, e feridas na pele. Em casos raros, geralmente na intoxicação grave, o uso de estimulantes, incluindo anfetaminas, metanfetamina e metcatinona pode resultar em convulsões.",
+      "classification_reasoning": "A presença de cansaço e duplo jota sugere uma possível intoxicação por estimulantes, como a metilfenidato (met 5) ou outros agentes estimulantes presentes no prontuário. A escolha pelo código 6C46.3 é baseada na combinação de sintomas, incluindo cansaço e duplo jota, que são comuns em casos de intoxicação por estimulantes."
+    }
+  }
+}

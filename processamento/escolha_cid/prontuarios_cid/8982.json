@@ -1,0 +1,227 @@
+{
+  "prontuario_id": 446,
+  "text": "ÀS 12:15 HS: PROVENIENTE DA UTI 3 DE CADEIRA DE RODAS, COMUNICATIVA, ORIENTADA, AFEBRIL, NORMOTENSA, NORMOCORADA, EUPNEICA. BOA ACEITAÇÃO DA DIETA VO, BOA INGESTA HIDRICA. DEAMBULA COM AUXILIO, COM ACOMPANHANTE. MEDICAÇÃO DE USO CONTINUO COM FAMILIAR. SEGUE CUIDADOS DE ENFERMAGEM. ENF FLORENCE NIGHTINGALE, COREN XXXX. NEOPLASIA DE COMPORTAMENTO INCERTO OU DESCONHECIDO DO ENCEFALO E DO SISTEMA NERVOSO CENTRAL. Às 8:40h: pcte vitima de acidente de moto, fratura exposta de MID, lucido, comunicativo, deambula com auxilio, acesso venoso periferico em MSD salinizado, fixador externo em MID com ctvo limpo e seco externamente, membro edemaciado, refere eliminaçoes presentes. Enf Florence Nightingale (coren XXXX). LESAO POR ESMAGAMENTO DO TORNOZELO. Às 01:26: Lucido, comunicativo, orientado, deambulando, mobiliza 4 membros, referindo tontura, mal-estar gastrico, cefaleia, PA 110/80, presenta rubor + edema em face, aceita dieta oferecida, sem apresentar nauseas e ou emese, diurese presente, segue cuidados. TRAUMATISMO INTRACRANIANO. Às 08:00hs: Autorizada traqueostomia pela filha (Maria), termo de consentimento assinado e arquivado no prontuário. Enfª Florence Nightingale, XXXX. OUTROS TRANSTORNOS RESPIRATORIOS POS-PROCEDIMENTOS.",
+  "entities": {
+    "Abreviação": [
+      "UTI",
+      "ENF",
+      "pcte",
+      "MID",
+      "MSD",
+      "ctvo",
+      "Enf",
+      "PA",
+      "Enfª",
+      "BOA ACEITAÇÃO DA DIETA VO"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UTI"
+    ],
+    "Achado": [
+      "COMUNICATIVA",
+      "ORIENTADA",
+      "AFEBRIL",
+      "NORMOTENSA",
+      "NORMOCORADA",
+      "EUPNEICA",
+      "lucido",
+      "comunicativo",
+      "limpo",
+      "seco",
+      "Lucido",
+      "orientado",
+      "deambulando",
+      "BOA ACEITAÇÃO DA DIETA VO",
+      "BOA INGESTA HIDRICA",
+      "DEAMBULA COM AUXILIO",
+      "deambula com auxilio",
+      "eliminaçoes presentes",
+      "mobiliza 4 membros",
+      "aceita dieta",
+      "diurese presente"
+    ],
+    "Negação": [
+      "AFEBRIL",
+      "sem"
+    ],
+    "Grupo Populacional": [
+      "ACOMPANHANTE"
+    ],
+    "Grupo Familiar": [
+      "FAMILIAR",
+      "filha"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "pcte",
+      "vitima"
+    ],
+    "Localização ou Região Corporal": [
+      "MID",
+      "MSD",
+      "face"
+    ],
+    "Conceito Qualitativo": [
+      "salinizado"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ctvo",
+      "traqueostomia",
+      "acesso venoso periferico"
+    ],
+    "Dispositivo Médico": [
+      "ctvo",
+      "CADEIRA DE RODAS",
+      "acesso venoso periferico",
+      "fixador externo"
+    ],
+    "Conceito Espacial": [
+      "externamente"
+    ],
+    "Sinal ou Sintoma": [
+      "tontura",
+      "cefaleia",
+      "rubor",
+      "edema",
+      "nauseas",
+      "emese",
+      "membro edemaciado",
+      "mal-estar gastrico"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Conceito Quantitativo": [
+      "110/80"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "cuidados",
+      "CUIDADOS DE ENFERMAGEM"
+    ],
+    "Substância Farmacológica": [
+      "MEDICAÇÃO DE USO CONTINUO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ENCEFALO E DO SISTEMA NERVOSO CENTRAL"
+    ],
+    "Lesão ou Envenenamento": [
+      "acidente de moto",
+      "fratura exposta",
+      "LESAO POR ESMAGAMENTO DO TORNOZELO",
+      "TRAUMATISMO INTRACRANIANO"
+    ],
+    "Função Fisiológica": [
+      "eliminaçoes presentes",
+      "diurese presente"
+    ],
+    "Doença ou Síndrome": [
+      "TRANSTORNOS RESPIRATORIOS POS-PROCEDIMENTOS"
+    ]
+  },
+  "labels": {
+    "NB90.7": {
+      "term_original": "acidente de moto",
+      "capitulo": "22",
+      "confidence_embedding": 0.7287,
+      "descricao_cid": "Representação de doença CID-11: Lesão de múltiplos vasos sanguíneos ao nível do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NB90.7, pois o termo 'acidente de moto' indica uma lesão vascular ao nível do abdome ou região lombar/pelve, e a descrição da lesão exposta na MID (membro inferior direito) aponta para uma lesão múltipla nos vasos sanguíneos. Além disso, o contexto clínico menciona fratura exposta de MID, o que também é consistente com a opção escolhida."
+    },
+    "CA22.0": {
+      "term_original": "transtornos respiratorios pos-procedimentos",
+      "capitulo": "12",
+      "confidence_embedding": 0.7711,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A presença de 'transtornos respiratorios' e 'pos-procedimentos' sugere que o paciente está enfrentando uma crise respiratória após um procedimento, o que é consistente com a definição de exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC) descrita no código CA22.0."
+    },
+    "DA60.3": {
+      "term_original": "mal-estar gastrico",
+      "capitulo": "13",
+      "confidence_embedding": 0.7857,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "Escolhi o código DA60.3 pois o termo 'mal-estar gastrico' sugere uma possível reação adversa à dieta ou ao estresse, o que é característico das úlceras de estresse do estômago."
+    },
+    "BA01": {
+      "term_original": "normocorada",
+      "capitulo": "11",
+      "confidence_embedding": 0.7504,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A opção mais precisa é Doença cardíaca hipertensiva (Código BA01) porque o termo 'normocorada' refere-se à presença de uma pressão arterial normal e não há indicações de doenças coronárias ou úlceras crônicas nos pés."
+    },
+    "MF40.3": {
+      "term_original": "rubor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7461,
+      "descricao_cid": "Representação de doença CID-11: Ejaculação retrógrada. Definição: A ejaculação retrógrada é uma condição na qual o sêmen, que normalmente é ejaculado pela uretra, é redirecionado para a bexiga urinária. A ejaculação retrógrada é tipicamente acompanhada por orgasmo subjetivo, embora o homem possa notar que a liberação de sêmen é limitada ou ausente. A ejaculação retrógrada ocorre mais comumente como uma complicação da ressecção transuretral da próstata, porém também pode ser causada por outra cirurgia pélvica, disfunção do sistema nervoso ou uso de agentes farmacológicos. A confirmação é feita pela identificação de espermatozoides em uma amostra de urina.",
+      "classification_reasoning": "A opção mais precisa para o termo 'rubor' é a ejaculação retrógrada, pois apresenta como característica a liberação de fluidos (sêmen) para dentro da bexiga urinária, o que pode causar uma coloração vermelha na face (rubor), similar à observação descrita no prontuário."
+    },
+    "8B25.3": {
+      "term_original": "traumatismo intracraniano",
+      "capitulo": "08",
+      "confidence_embedding": 0.7449,
+      "descricao_cid": "Representação de doença CID-11: Efeitos tardios de hemorragia intracraniana não traumática. Definição: Efeitos tardios de outra hemorragia intracraniana não traumática após 1 mês ou mais do início da doença. Os códigos para episódios agudos devem ser usados ​​exclusivamente para hemorragias agudas e episódios de hospitalização imediatamente relacionados.",
+      "classification_reasoning": "A escolha foi feita porque o termo 'traumatismo intracraniano' refere-se a uma lesão cerebral causada por um acidente, como é mencionado no prontuário ('pcte vitima de acidente de moto'). O código 8B25.3 se ajusta melhor ao contexto clínico do que os outros códigos listados."
+    },
+    "ME01": {
+      "term_original": "emese",
+      "capitulo": "21",
+      "confidence_embedding": 0.7408,
+      "descricao_cid": "Representação de doença CID-11: Distensão abdominal. Definição: Esta é uma condição em que o abdômen parece cheio e tenso por causa do inchaço do abdômen, geralmente devido a um aumento da quantidade de gases intestinais, mas ocorre às vezes quando fluidos, substâncias ou massa estão se acumulando ou se expandindo no abdômen.",
+      "classification_reasoning": "A palavra 'emese' refere-se a evacuação intestinal, o que é descrito na opção ME01 como distensão abdominal, uma condição em que o abdômen parece cheio e tenso devido ao inchaço do abdômen."
+    },
+    "ME05.0": {
+      "term_original": "nauseas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7669,
+      "descricao_cid": "Representação de doença CID-11: Constipação. Definição: A constipação é uma condição aguda ou crônica na qual os movimentos intestinais ocorrem com menor frequência do que o normal ou consiste em fezes secas e duras que costumam ser dolorosas ou difíceis de evacuar. Aqui está descrita a constipação que não está especificamente descrita em outra parte, como em transtornos da motilidade do intestino ou em doenças funcionais do intestino.",
+      "classification_reasoning": "A opção ME05.0 é a mais precisa para o termo 'nauseas' no contexto clínico, pois descreve constipação com sintomas como dor ou desconforto abdominal, que incluem náusea."
+    },
+    "FA38.3": {
+      "term_original": "lesao por esmagamento do tornozelo",
+      "capitulo": "15",
+      "confidence_embedding": 0.7373,
+      "descricao_cid": "Representação de doença CID-11: Artropatia hemofílica. Definição: Trata-se da destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia. Esta condição inclui a ocorrência de hemartrose aguda, artrite subaguda ou crônica e artropatia hemofílica em estágio terminal. Quase todos os pacientes com hemofilia A ou B grave e metade dos pacientes com atividade de doença moderada apresentam hemartrose. Os sintomas incluem dor nas articulações (artralgias), edema articular, fibrose articular, desenvolvimento de deformidades em flexão e erosão da cartilagem articular. As articulações mais comumente afetadas são joelhos, tornozelos, cotovelos, ombros e quadris (em ordem de frequência). O sangramento nos músculos e partes moles também pode causar disfunção musculoesquelética.",
+      "classification_reasoning": "A lesão por esmagamento do tornozelo é mais compatível com a artropatia hemofílica, uma condição caracterizada pela destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia."
+    },
+    "ME62.9": {
+      "term_original": "eliminaçoes presentes",
+      "capitulo": "21",
+      "confidence_embedding": 0.7406,
+      "descricao_cid": "Representação de doença CID-11: Escoriação cutânea aguda. Definição: Diagnóstico provisório de erupção cutânea de natureza desconhecida ou incerta, que surge abruptamente e que consiste em múltiplas escoriações. Na maioria dos casos, a escoriação é secundária ao prurido intenso decorrente de um transtornos sistêmico subjacente, como icterícia colestática, ou de uma doença cutânea pruriginosa, como eczema. Em alguns casos, entretanto, fatores psicogênicos podem ser responsáveis.",
+      "classification_reasoning": "A opção mais precisa é ME62.9, Escoriação cutânea aguda, pois o termo 'eliminaçoes presentes' sugere a presença de lesões ou ferimentos na pele."
+    },
+    "FA80.4": {
+      "term_original": "membro edemaciado",
+      "capitulo": "15",
+      "confidence_embedding": 0.7227,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'membro edemaciado' é a degeneração de disco intervertebral da coluna torácica sem prolapso de disco (FA80.4), pois não há outras lesões musculares ou articulares mencionadas no contexto clínico que justificassem a escolha das outras opções."
+    },
+    "FB32.1": {
+      "term_original": "fratura exposta",
+      "capitulo": "15",
+      "confidence_embedding": 0.7242,
+      "descricao_cid": "Representação de doença CID-11: Ruptura muscular espontânea. Definição: Esta é uma condição em que ocorre um afastamento ou ruptura entre fibras musculares e outras fibras musculares, tendões ou fáscias, na ausência de trauma",
+      "classification_reasoning": "A opção mais precisa para o termo 'fratura exposta' é a Código FB32.1, Ruptura muscular espontânea. Isso porque a descrição da fratura exposta de MID (ossa do tornozelo) no paciente se encaixa melhor com uma lesão muscular do que com qualquer outra opção apresentada."
+    },
+    "MG29.1Y": {
+      "term_original": "edema",
+      "capitulo": "21",
+      "confidence_embedding": 0.773,
+      "descricao_cid": "Representação de doença CID-11: Outro edema generalizado especificado. Definição: ",
+      "classification_reasoning": "A opção mais precisa é o edema generalizado especificado, pois no contexto do prontuário, há referências a edemas em diferentes partes do corpo (face, membro), sugerindo um processo sistêmico e não apenas localizado."
+    },
+    "MG31.1": {
+      "term_original": "cefaleia",
+      "capitulo": "21",
+      "confidence_embedding": 0.7532,
+      "descricao_cid": "Representação de doença CID-11: Cefaleia aguda, não classificada em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'cefaleia' no contexto clínico é a cefaleia aguda, não classificada em outra parte, pois não há evidências de que a cefaleia seja crônica ou relacionada a uma substância ou ao tratamento. Além disso, a presença de trauma intracraniano e lesão exposta na médio-dorsalidade do membro inferior sugere um evento agudo e acidente com sequelas."
+    },
+    "MB23.7": {
+      "term_original": "tontura",
+      "capitulo": "21",
+      "confidence_embedding": 0.7382,
+      "descricao_cid": "Representação de doença CID-11: Aparência descuidada. Definição: Aparência desarrumada ou descuidada, refletindo uma falta de atenção a um ou mais aspectos da higiene, aparência ou vestimenta.",
+      "classification_reasoning": "A tontura mencionada no contexto clínico é mais provável ser referência à vertigem ou sensação de desmaio, característica da síndrome de pânico. Embora não seja exclusivamente uma condição neurológica, a escolha do código MB23.7 é a mais precisa para o termo dentro do contexto clínico."
+    }
+  }
+}

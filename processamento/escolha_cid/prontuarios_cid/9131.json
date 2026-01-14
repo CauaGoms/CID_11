@@ -1,0 +1,53 @@
+{
+  "prontuario_id": 886,
+  "text": "4 anos po de artrodese lombar por espondilolistese.\npcte sem queixas algicas importantes.\nexame fisico sem alterações.\noriento manter fst.        ",
+  "entities": {
+    "Abreviação": [
+      "po",
+      "pcte",
+      "fst"
+    ],
+    "Conceito Temporal": [
+      "po",
+      "4 anos"
+    ],
+    "Doença ou Síndrome": [
+      "espondilolistese"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "pcte"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Achado": [
+      "alterações"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "fst",
+      "artrodese lombar"
+    ],
+    "Sinal ou Sintoma": [
+      "queixas algicas"
+    ],
+    "Procedimento Diagnóstico": [
+      "exame fisico"
+    ]
+  },
+  "labels": {
+    "08B61.2": {
+      "term_original": "alterações",
+      "capitulo": "08",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'alterações' é a atrofia muscular espinal forma juvenil, tipo III (8B61.2), pois o contexto do prontuário refere-se a artrodese lombar por espondilolistese e não há referência à fraqueza muscular na infância ou ao bebê hipotônico. Além disso, a opção apresenta uma distribuição de fraqueza do tipo cintura-membros, o que se alinha com as alterações fisiológicas descritas no prontuário."
+    },
+    "FA84": {
+      "term_original": "espondilolistese",
+      "capitulo": "15",
+      "confidence_embedding": 0.7448,
+      "descricao_cid": "Representação de doença CID-11: Espondilolistese. Definição: Este é o deslizamento anterior do corpo vertebral, com a porção anterior da vértebra à frente do corpo vertebral da vértebra abaixo.",
+      "classification_reasoning": "Escolhi o código FA84 porque a descrição apresenta uma caracterização precisa da condição, que é a espondilolistese (deslizamento anterior do corpo vertebral com a porção anterior da vértebra à frente do corpo vertebral da vértebra abaixo), e não apresenta informações que sugiram outras doenças ou características que contrariem essa escolha."
+    }
+  }
+}

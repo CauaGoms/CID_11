@@ -1,0 +1,142 @@
+{
+  "prontuario_id": 251,
+  "text": "# HAS # DM # EX-TABAGISTA # EOSINOFILIA NÃO INVESTIGADA  PACIENTE VEM ENCAMINHADOAO HCPA POR INFARTO AGUDO DO MIOCÁRDIO COM SUPRA DE ST EM V2 - V3 + ALTERAÇÕES ENZIMATICAS. PACIENTE APRESENTAVA DOR TORÁCICA HÁ UMA SEMANA E PROCURAVA ATENDIMENTO MÉDICO RECEBENDO TRATAMENTO COM ANALGESIAS. NO DIA 21/03 PACIENTE APRESENTOU DOR TORÁCICA COM CIANOSE, SUDORESE SENDO ENTÃO ENCAMINHADO PARA O HCPA. NO HCPA REALIZOU-SE UMA ACTP QUE MOSTROU LESÃO EM DAE ( COLOCADO STENT COM SUCESSO ), ALÉM DE OUTRAS LESÕES EM CX ( DISCRETA IRREG ). E CD ( ATEROMATOSE DIFUSA ). NA INTERNAÇÃO PACIENTE APRESENTOU UMA HIPOTENSÃO COM O USO DE BETA BLOQUEADOR E O MESMO FOI SUSPENSO TEMPORARIAMENTE.",
+  "entities": {
+    "Abreviação": [
+      "HAS",
+      "DM",
+      "ACTP",
+      "CD",
+      "LESÃO EM DAE"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DM",
+      "INFARTO AGUDO DO MIOCÁRDIO",
+      "ATEROMATOSE DIFUSA"
+    ],
+    "Achado": [
+      "EX-TABAGISTA"
+    ],
+    "Negação": [
+      "NÃO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "INVESTIGADA",
+      "RECEBENDO",
+      "ENCAMINHADO",
+      "REALIZOU-SE",
+      "INTERNAÇÃO",
+      "SUSPENSO"
+    ],
+    "Procedimento Diagnóstico": [
+      "INVESTIGADA",
+      "ACTP"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Localização ou Região Corporal": [
+      "TORÁCICA"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "MÉDICO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TRATAMENTO",
+      "ANALGESIAS",
+      "ACTP",
+      "CX"
+    ],
+    "Substância Farmacológica": [
+      "ANALGESIAS",
+      "BETA BLOQUEADOR"
+    ],
+    "Sinal ou Sintoma": [
+      "CIANOSE",
+      "SUDORESE",
+      "HIPOTENSÃO",
+      "ALTERAÇÕES ENZIMATICAS",
+      "ATEROMATOSE DIFUSA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "HCPA"
+    ],
+    "Dispositivo Médico": [
+      "STENT"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "CD"
+    ],
+    "Conceito Temporal": [
+      "TEMPORARIAMENTE",
+      "UMA SEMANA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ALTERAÇÕES ENZIMATICAS",
+      "LESÃO EM DAE",
+      "ATEROMATOSE DIFUSA"
+    ],
+    "Lesão ou Envenenamento": [
+      "OUTRAS LESÕES"
+    ]
+  },
+  "labels": {
+    "BA60.1": {
+      "term_original": "hipotensão",
+      "capitulo": "11",
+      "confidence_embedding": 0.7924,
+      "descricao_cid": "Representação de doença CID-11: Outra pericardite como complicação atual subsequente a infarto agudo do miocárdio. Definição: Inflamação do pericárdio que pode causar dor no peito, que ocorre tão precocemente quanto o primeiro dia e até 6 semanas após o infarto agudo do miocárdio. A dor da pericardite irradia para qualquer crista do trapézio. O infarto do miocárdio transmural é responsável pela inflamação pericárdica local. Atritos pericárdicos transitórios são relativamente comuns em pacientes com infarto transmural nas primeiras 48 horas. Uma pericardite fibrinosa aguda ocorre comumente após o infarto transmural, enquanto o risco de pericardite hemorrágica está aumentado por anticoagulação.",
+      "classification_reasoning": "A hipotensão foi mencionada no contexto como uma consequência do uso de beta bloqueador, o que sugere que a pericardite pós-infarto agudo do miocárdio é mais provável do que outra condição."
+    },
+    "5B5K.7": {
+      "term_original": "alterações enzimaticas",
+      "capitulo": "05",
+      "confidence_embedding": 0.7435,
+      "descricao_cid": "Representação de doença CID-11: Deficiência de selênio. Definição: Deficiência de selênio é rara mas tem sido observada em indivíduos em uso prolongado de dieta parenteral total(NPT) sem selênio. Manifestações clínicas da deficiência decorrente de tal situação são incomuns e pouco definidas. Elas incluem fraqueza muscular e mialgia com, em casos graves, o desenvolvimento de insuficiência cardíaca congestiva. A importância do selênio para o metabolismo dos hormônios tireoidianos é evidente, a partir de mudanças na proporção T3-T4 que se desenvolvem após uma depleção de selênio relativamente leve em bebês e idosos",
+      "classification_reasoning": "A alteração enzimática mencionada no contexto clínico é atribuída à deficiência de selênio, comprovando a relação entre selênio e o metabolismo dos hormônios tireoidianos."
+    },
+    "NE81.0Z": {
+      "term_original": "sudorese",
+      "capitulo": "22",
+      "confidence_embedding": 0.7175,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A sudorese é descrita no contexto como um sintoma que ocorreu no dia em que o paciente foi encaminhado ao HCPA, após apresentar dor torácica com cianose e sudorese. Isso sugere uma situação de emergência cardiovascular, e a opção NE81.0Z é mais precisa pois refere-se à representação de doença por hemorragia ou hematoma complicando um procedimento, o que coincide com a situação do paciente."
+    },
+    "BA41": {
+      "term_original": "infarto agudo do miocárdio",
+      "capitulo": "11",
+      "confidence_embedding": 0.8446,
+      "descricao_cid": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)",
+      "classification_reasoning": "A opção mais precisa para o termo 'infarto agudo do miocárdio' é o código BA41, pois ele define infarto do miocárdio agudo como a necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. O paciente apresentou sintomas de dor torácica há uma semana e procurava atendimento médico recebendo tratamento com analgesias, o que é consistente com a definição do código BA41."
+    },
+    "CD71.0": {
+      "term_original": "ateromatose difusa",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha pelo código CD71.0 se baseia na descrição de 'ateromatose difusa' no contexto do prontuário, que refere-se à presença de ateroma (tumor tissular) difuso nos vasos coronários, o que é consistente com a lesão cardíaca detectada pela ACTP e a presença de lesões em CX e CD."
+    },
+    "NA07.83": {
+      "term_original": "cianose",
+      "capitulo": "22",
+      "confidence_embedding": 0.7112,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia traumática no tronco encefálico sem especificação se primária ou secundária. Definição: ",
+      "classification_reasoning": "A cianose é um sintoma de hipoxia e insuficiência respiratória, comumente associada a doenças cardiovasculares agudas, como o infarto agudo do miocárdio descrito no contexto. A opção NA07.83 se enquadra melhor, pois descreve hemorragia traumática no tronco encefálico sem especificação se primária ou secundária, o que não é diretamente relacionado à cianose."
+    },
+    "MB20.1": {
+      "term_original": "outras lesões",
+      "capitulo": "21",
+      "confidence_embedding": 0.7619,
+      "descricao_cid": "Representação de doença CID-11: Coma. Definição: Estado agudo com duração de mais de uma hora e geralmente menos de um mês. O paciente em coma está arresponsivo, fica com os olhos fechados e não pode ser despertado nem mesmo por estímulos vigorosos e dolorosos. As respostas motoras à estimulação dolorosa estão limitadas a reflexos. As etiologias incluem, mas não estão limitadas a, lesões cerebrais traumáticas, anóxicas, infecciosas, neoplásicas, vasculares, inflamatórias e metabólicas.",
+      "classification_reasoning": "A opção mais precisa é a Código MB20.1, pois o termo 'outras lesões' se refere às lesões cardíacas apresentadas no atendimento ao paciente, como a lesão em DAE (stent com sucesso) e as lesões em CX (discreta irreg) e CD (ateromatose difusa). Isso é compatível com o diagnóstico de infarto agudo do miocárdio."
+    },
+    "5C78": {
+      "term_original": "dm",
+      "capitulo": "05",
+      "confidence_embedding": 0.7545,
+      "descricao_cid": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem.",
+      "classification_reasoning": "A hipotensão com uso de beta bloqueador e suspensão temporária do mesmo sugere que o paciente apresenta sobrecarga de líquidos, como resultado da doença cardíaca (infarto agudo do miocárdio) e possivelmente a eosinofilia não investigada. Além disso, a história de dor torácica há uma semana e procuro atendimento médico recebendo tratamento com analgésicos é consistente com essa condição."
+    }
+  }
+}

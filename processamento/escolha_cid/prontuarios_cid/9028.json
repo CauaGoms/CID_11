@@ -1,0 +1,49 @@
+{
+  "prontuario_id": 577,
+  "text": "dor na coluna lombar de longa data, com irradiação para mid.\n\nTem rnm ha 10 meses com hdl (SIC).\n\nlasegue + .\nFORCA GRAU 4 EM L4-L5.\n\nSOLICITO RET COM EXAMES.",
+  "entities": {
+    "Abreviação": [
+      "rnm",
+      "hdl",
+      "irradiação para mid"
+    ],
+    "Procedimento Diagnóstico": [
+      "rnm",
+      "EXAMES"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "SOLICITO"
+    ],
+    "Sinal ou Sintoma": [
+      "dor na coluna lombar",
+      "irradiação para mid",
+      "lasegue +"
+    ],
+    "Conceito Temporal": [
+      "longa data"
+    ]
+  },
+  "labels": {
+    "8C43.0": {
+      "term_original": "irradiação para mid",
+      "capitulo": "08",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A irradiação para mid e a dor na coluna lombar com longa data apontam para uma neuropatia causando dor, característica da síndrome de dor regional complexa."
+    },
+    "FA80.8": {
+      "term_original": "dor na coluna lombar",
+      "capitulo": "15",
+      "confidence_embedding": 0.706,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A dor na coluna lombar com irradiação para mid e força grau 4 em L4-L5 sugere uma degeneração de disco intervertebral da coluna lombar sem prolapso de disco, o que se enquadra no código FA80.8."
+    },
+    "ME31.1": {
+      "term_original": "lasegue +",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'Lasegue +' é a representação de doença CID-11: Sintomatologia referida à dor lombar (ME31.1). Esta opção é justificada pelo contexto clínico, que apresenta dor na coluna lombar com irradiação para mid, e o termo 'Lasegue +' sugere uma resposta positiva ao teste de Lasegue, um exame utilizado para avaliar a dor lombar."
+    }
+  }
+}

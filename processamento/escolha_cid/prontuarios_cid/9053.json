@@ -1,0 +1,71 @@
+{
+  "prontuario_id": 952,
+  "text": "Dispneia importante aos esforços + dor tipo peso no peito no esforço.\nObeso, has, icc\n\nc # cintilografia miocardica para avaliar angina.        ",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "dor",
+      "esforço",
+      "angina"
+    ],
+    "Localização ou Região Corporal": [
+      "peito"
+    ],
+    "Doença ou Síndrome": [
+      "Obeso",
+      "has",
+      "icc",
+      "angina"
+    ],
+    "Abreviação": [
+      "has",
+      "icc"
+    ],
+    "Procedimento Diagnóstico": [
+      "cintilografia miocardica"
+    ]
+  },
+  "labels": {
+    "BA40.Y": {
+      "term_original": "icc",
+      "capitulo": "11",
+      "confidence_embedding": 0.7783,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A dor tipo peso no peito e dispneia importante aos esforços sugerem angina pectoris. O termo 'icc' refere-se ao IC (Ischaemia Chest) caracterizado pela isquemia do miocárdio, o que é compatível com a descrição da angina pectoris especificada pelo código BA40.Y."
+    },
+    "5B81.0": {
+      "term_original": "has",
+      "capitulo": "05",
+      "confidence_embedding": 0.7663,
+      "descricao_cid": "Representação de doença CID-11: Obesidade devido a desequilíbrio energético. Definição: A obesidade é uma doença crônica e complexa, definida por adiposidade excessiva que pode prejudicar a saúde. Na maioria dos casos, é uma doença multifatorial devido a ambientes obesogênicos, fatores psicossociais e variantes genéticas. Em um subgrupo de pacientes, fatores etiológicos principais únicos podem ser identificados (doenças, imobilização, procedimentos iatrogênicos, doença monogênica / síndrome genética).",
+      "classification_reasoning": "A obesidade é mencionada no contexto do prontuário, o que sugere a presença de excesso de peso corporal, justificando a escolha do código 5B81.0."
+    },
+    "FA38.2": {
+      "term_original": "obeso",
+      "capitulo": "15",
+      "confidence_embedding": 0.6922,
+      "descricao_cid": "Representação de doença CID-11: Artropatia associada a reações de hipersensibilidade classificadas em outra parte. Definição: ",
+      "classification_reasoning": "A presença de obesidade e dor tipo peso no peito nos esforços sugere uma possível artropatia associada à hipersensibilidade, justificando a escolha do código FA38.2"
+    },
+    "CA22.0": {
+      "term_original": "esforço",
+      "capitulo": "12",
+      "confidence_embedding": 0.762,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A dispneia importante aos esforços e dor tipo peso no peito no esforço sugere uma resposta ao esforço, o que está mais relacionado a Doença Pulmonar Obstrutiva Crônica (DPOC) com exacerbação aguda não especificada do que a outros diagnósticos listados. A referência à cintilografia miocardica para avaliar angina também apoia essa escolha, pois a dispneia importante aos esforços é um sintoma comum em pacientes com DPOC e exacerbação."
+    },
+    "MG30.40": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7601,
+      "descricao_cid": "Representação de doença CID-11: Dor visceral crônica por fatores mecânicos. Definição: Dor visceral crônica por fatores mecânicos é uma dor crônica decorrente de a) a obstrução de vísceras ocas como consequência de obstáculos migratórios internos (p.ex., pedras) ou estenose, com dilatação acima do obstáculo/estenose ou b) a tração de ligamentos e vasos de órgãos internos ou a compressão externa de órgãos internos.",
+      "classification_reasoning": "A dor descrita como 'dor tipo peso no peito no esforço' é mais compatível com a definição de Dor visceral crônica por fatores mecânicos, pois a obstrução de vísceras ocas pode causar dor na região torácica."
+    },
+    "BA40.0": {
+      "term_original": "angina",
+      "capitulo": "11",
+      "confidence_embedding": 0.7603,
+      "descricao_cid": "Representação de doença CID-11: Angina instável. Definição: ",
+      "classification_reasoning": "A opção BA40.0 é a mais precisa para o termo 'angina' no contexto clínico, pois a paciente apresenta dispneia importante aos esforços e dor tipo peso no peito ao esforço, características compatíveis com uma angina instável."
+    }
+  }
+}

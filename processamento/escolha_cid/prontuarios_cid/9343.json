@@ -1,0 +1,128 @@
+{
+  "prontuario_id": 999,
+  "text": "PACIENTE , 90 ANOS\n\n# NATURAL E PROCEDENTE DE CURITIBA . \n# APOSENTADA - EMPREGADA DOMESTICA\n\nHMA # PCTE REFERE HX DE NÓDULO ULCERADO EM ASA NASAL A ESQ , COM CRESCIMENTO RAPIDO E PROGRESSIVO HÁ 6 MESES. REFERE SANGRAMENTO LOCAL . \n\nHMP # NEGA COMORBIDADES . NEGA USO DE MEDICAMENTOS CONTINUOS .\nDEFICIENTE VISUAL .\n\nCHV # NEGA VICIOS .\n\nE . F # NÓDULO ULCERADO EM ASA NASAL ESQ , COM APROXIMADAMENTE 5 CM DE DIAMETRO .\n\nA # CBC ULCERADO ?? CEC ??\n\nP # ENCAIXO PUNCH PARA HOJE  R1 VITAL BRAZIL . \nRETORNO EM 45 DIAS NO AMBULATORIO DO CANCER DE PELE .\n\n\nR1 VITAL BRAZIL .\nDoutor Vital Brazil .\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE",
+      "PCTE"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "APOSENTADA",
+      "R1",
+      "EMPREGADA DOMESTICA"
+    ],
+    "Abreviação": [
+      "PCTE",
+      "HMP",
+      "CHV",
+      "A",
+      "CEC",
+      "P",
+      "R1",
+      "ASA NASAL ESQ",
+      "CBC ULCERADO"
+    ],
+    "Conceito Temporal": [
+      "MESES",
+      "HOJE",
+      "CRESCIMENTO RAPIDO"
+    ],
+    "Achado": [
+      "HMP",
+      "CHV"
+    ],
+    "Negação": [
+      "NEGA"
+    ],
+    "Doença ou Síndrome": [
+      "COMORBIDADES",
+      "VICIOS",
+      "DEFICIENTE VISUAL"
+    ],
+    "Disfunção Mental ou Comportamental": [
+      "VICIOS"
+    ],
+    "Procedimento Diagnóstico": [
+      "A",
+      "PUNCH"
+    ],
+    "Processo Neoplásico": [
+      "CEC",
+      "CBC ULCERADO"
+    ],
+    "Produto Intelectual": [
+      "P"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ENCAIXO",
+      "PUNCH",
+      "RETORNO"
+    ],
+    "Atividade Ocupacional": [
+      "EMPREGADA DOMESTICA"
+    ],
+    "Função Patológica": [
+      "NÓDULO ULCERADO",
+      "SANGRAMENTO LOCAL"
+    ],
+    "Sinal ou Sintoma": [
+      "NÓDULO ULCERADO",
+      "CRESCIMENTO RAPIDO",
+      "SANGRAMENTO LOCAL",
+      "5 CM DE DIAMETRO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ASA NASAL A ESQ",
+      "ASA NASAL ESQ"
+    ],
+    "Conceito Qualitativo": [
+      "CRESCIMENTO RAPIDO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "MEDICAMENTOS CONTINUOS"
+    ],
+    "Substância Farmacológica": [
+      "MEDICAMENTOS CONTINUOS"
+    ],
+    "Organização Relacionada à Saúde": [
+      "AMBULATORIO DO CANCER DE PELE"
+    ]
+  },
+  "labels": {
+    "9A04.0": {
+      "term_original": "5 cm de diametro",
+      "capitulo": "09",
+      "confidence_embedding": 0.7379,
+      "descricao_cid": "Representação de doença CID-11: Triquíase sem entrópio. Definição: Refere-se a cílios anormalmente posicionados que crescem para trás em direção ao olho, tocando a córnea ou conjuntiva. Pode ser causado por infecção, inflamação, condições autoimunes, defeitos congênitos, agenesia palpebral e traumatismos como queimaduras ou lesões palpebrais. Esse diagnóstico é feito na ausência da condição em que a pálpebra (usualmente a inferior) dobra para dentro. É muito desconfortável, pois os cílios constantemente se esfregam contra a córnea e a irritam.",
+      "classification_reasoning": "O termo '5 cm de diametro' encontrado no relatório refere-se ao tamanho do nódulo ulcerado em asa nasal esquerda, o que sugere uma lesão na região nasal. A opção mais precisa é a Síndrome de Triquíase sem entrópio (9A04.0), pois não há outras opções que mencionem lesões na região nasal com tamanho específico."
+    },
+    "2C32": {
+      "term_original": "crescimento rapido",
+      "capitulo": "02",
+      "confidence_embedding": 0.7097,
+      "descricao_cid": "Representação de doença CID-11: Carcinoma basocelular de pele. Definição: O carcinoma basocelular ou CBC é a doença maligna mais comum em humanos. Acredita-se que os CBCs surjam de células pluripotenciais da camada basal da epiderme ou, menos comumente, do folículo piloso. Os CBCs geralmente ocorrem em áreas de exposição crônica ao sol e se apresentam como pápulas, placas ou nódulos avermelhados de crescimento lento na cabeça e no pescoço, embora a variante superficial esteja frequentemente localizada no tronco. Os CBCs freqüentemente ulceram e criam crostas. Embora raramente metastatizem, podem causar destruição local significativa e desfiguração se negligenciados ou tratados inadequadamente, principalmente se forem do subtipo esclerosante ou infiltrativo.",
+      "classification_reasoning": "A escolha do código 2C32 é mais precisa porque o termo 'crescimento rápido' se refere ao crescimento rápido do nódulo ulcerado em asa nasal esquerda, característico de um carcinoma basocelular (CBC). Além disso, a descrição da doença menciona o sintoma de sangramento local e a definição de CBC coincide com esses sintomas."
+    },
+    "ME24.A1": {
+      "term_original": "sangramento local",
+      "capitulo": "21",
+      "confidence_embedding": 0.7451,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia do ânus e do reto. Definição: Sangramento do ânus e do canal anal. Exclui sangramento devido a doenças específicas classificadas em outra parte (hemorróidas, câncer, infecção, etc.).",
+      "classification_reasoning": "O sangramento local referido é provavelmente relacionado ao nódulo ulcerado em asa nasal esquerda, o que sugere uma hemorragia de origem cutânea."
+    },
+    "EA91.41": {
+      "term_original": "nódulo ulcerado",
+      "capitulo": "14",
+      "confidence_embedding": 0.754,
+      "descricao_cid": "Representação de doença CID-11: Líquen plano oral erosivo. Definição: Líquen plano oral em que o epitélio está ulcerado.",
+      "classification_reasoning": "A descrição do nódulo ulcerado na asa nasal esquerda com aproximadamente 5 cm de diâmetro sugere uma lesão oral erosiva, característica da líquen plano oral. Embora a paciente tenha déficit visual, não há indícios de envolvimento da pele facial ou conjuntival que seriam mais consistentes com síndromes como Stevens-Johnson ou necrólise epidérmica tóxica. A idade avançada e o déficit visual também sugem um quadro mais benigno e menos relacionado a doenças de pele graves."
+    },
+    "ME64.3": {
+      "term_original": "cbc ulcerado",
+      "capitulo": "21",
+      "confidence_embedding": 0.7111,
+      "descricao_cid": "Representação de doença CID-11: Petéquias. Definição: Petéquias resultam do vazamento focal de sangue dos capilares da derme para o tecido conjuntivo dérmico adjacente. Apresentam-se como múltiplas máculas pontuais, vermelhas ou roxas, que não desaparecem à digitopressão. As muitas causas subjacentes variam de condições inócuas (p.ex., tosse ou esforço) a condições de risco de vida (p.ex., septicemia meningocócica).",
+      "classification_reasoning": "A opção mais precisa para o termo 'cbc ulcerado' é ME64.3, Petéquias, pois há uma referência a sangramento local no histórico do paciente e o código ME64.3 descreve petéquias como um vazamento focal de sangue dos capilares da derme para o tecido conjuntivo dérmico adjacente."
+    }
+  }
+}

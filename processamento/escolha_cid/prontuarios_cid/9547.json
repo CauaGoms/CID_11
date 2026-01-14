@@ -1,0 +1,124 @@
+{
+  "prontuario_id": 248,
+  "text": "31 anos, candidata a tx renal doador vivo;\nIRC há 3 anos; pré - emptiva; diurese normal; \nIRC por DM, uso de insulina há 17 anos;\nJato bom, esvaziamento adequado, nocturia 0-1x;\nITU de repetição, 2-3 meses de intervalo, 7 anos de evolução. Nega pielonefrite; \nQuadro de litíase renal, unico episódio há 2 anos; eliminação espontanea;\nNega hematuria; \nHMP: GII, PI, CI;  Sem outras cirurgias;\nAo exame : \nUS : rins atróficos, bexiga discretamente espessada; \nPU : leucocituria e cultura + para Enterococcus faecalis; \nAo exame : pulsos pediosos normais, abdomen sp; \nP # Liberada\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "candidata"
+    ],
+    "Doença ou Síndrome": [
+      "IRC",
+      "DM",
+      "pielonefrite",
+      "ITU de repetição",
+      "litíase renal"
+    ],
+    "Abreviação": [
+      "IRC",
+      "DM",
+      "0-1x",
+      "HMP",
+      "US",
+      "PU",
+      "tx renal",
+      "ITU de repetição"
+    ],
+    "Conceito Temporal": [
+      "pré"
+    ],
+    "Substância Química Orgânica": [
+      "insulina"
+    ],
+    "Substância Farmacológica": [
+      "insulina"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "insulina"
+    ],
+    "Hormônio": [
+      "insulina"
+    ],
+    "Sinal ou Sintoma": [
+      "nocturia",
+      "hematuria"
+    ],
+    "Conceito Quantitativo": [
+      "0-1x"
+    ],
+    "Negação": [
+      "Nega",
+      "Sem",
+      "sp"
+    ],
+    "Achado": [
+      "hematuria",
+      "doador vivo",
+      "diurese normal",
+      "Jato bom",
+      "esvaziamento adequado",
+      "eliminação espontanea",
+      "pulsos pediosos normais"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "PI",
+      "CI",
+      "cirurgias",
+      "tx renal"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "exame",
+      "Liberada"
+    ],
+    "Procedimento Diagnóstico": [
+      "US"
+    ],
+    "Procedimento Laboratorial": [
+      "PU"
+    ],
+    "Localização ou Região Corporal": [
+      "abdomen"
+    ],
+    "Grupo Populacional": [
+      "doador vivo"
+    ],
+    "Função de Organismo": [
+      "diurese normal"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "rins atróficos",
+      "bexiga discretamente espessada"
+    ],
+    "Bactéria": [
+      "Enterococcus faecalis"
+    ]
+  },
+  "labels": {
+    "GB80.0": {
+      "term_original": "irc",
+      "capitulo": "16",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'irc' é a Doença renal cística não familiar não genética (GB80.0) pois a paciente tem IRC há 3 anos e apresenta litíase renal, unico episódio há 2 anos; eliminação espontanea."
+    },
+    "1D62.0": {
+      "term_original": "enterococcus faecalis",
+      "capitulo": "01",
+      "confidence_embedding": 0.7441,
+      "descricao_cid": "Representação de doença CID-11: Febre hemorrágica com síndrome renal. Definição: Doença viral zoonótica aguda com início abrupto de febre, dor lombar, com graus variados de manifestações hemorrágicas e envolvimento renal causada por certos hantavírus.",
+      "classification_reasoning": "A escolha por este código se baseia na presença de Enterococcus faecalis na cultura, o que sugere uma infecção bacteriana, e a história prévia de IRC e doença renal, tornando mais provável a febre hemorrágica com síndrome renal (Código 1D62.0) do que outras opções."
+    },
+    "5B5K.7": {
+      "term_original": "dm",
+      "capitulo": "05",
+      "confidence_embedding": 0.7645,
+      "descricao_cid": "Representação de doença CID-11: Deficiência de selênio. Definição: Deficiência de selênio é rara mas tem sido observada em indivíduos em uso prolongado de dieta parenteral total(NPT) sem selênio. Manifestações clínicas da deficiência decorrente de tal situação são incomuns e pouco definidas. Elas incluem fraqueza muscular e mialgia com, em casos graves, o desenvolvimento de insuficiência cardíaca congestiva. A importância do selênio para o metabolismo dos hormônios tireoidianos é evidente, a partir de mudanças na proporção T3-T4 que se desenvolvem após uma depleção de selênio relativamente leve em bebês e idosos",
+      "classification_reasoning": "A deficiência de selênio foi escolhida porque o termo 'DM' está relacionado à diabetes melito (melito é sinônimo de diabetes), que é mencionada no contexto clínico como um fator etiológico para a IRC. Além disso, a história de uso prolongado de insulina há 17 anos sugere uma evolução crônica da doença, o que pode estar relacionado à deficiência de selênio em pacientes com diabetes."
+    },
+    "GB70.00": {
+      "term_original": "litíase renal",
+      "capitulo": "16",
+      "confidence_embedding": 0.8294,
+      "descricao_cid": "Representação de doença CID-11: Cálculo de Staghorn. Definição: Condição do rim, caracterizada por cálculos grandes, ramificados, de estruvita ou de carbonato de cálcio apatita dentro da pelve renal e se estendendo para uma ou mais extensões caliciais, e febre, hematúria ou dor em flanco, levando à insuficiência renal e sepse com risco de vida. Essa condição pode estar associada a infecção do trato urinário. A confirmação é feita por exame de imagem da região abdominal.",
+      "classification_reasoning": "A litíase renal descrita no contexto é caracterizada por cálculos grandes e ramificados na pelve renal, o que se alinha com a descrição do Código GB70.00 (Cálculo de Staghorn). Além disso, o fato de ter sido mencionado um único episódio de litíase renal há 2 anos e a eliminação espontânea também são características compatíveis com essa entidade."
+    }
+  }
+}

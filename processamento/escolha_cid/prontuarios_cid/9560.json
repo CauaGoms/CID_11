@@ -1,0 +1,229 @@
+{
+  "prontuario_id": 199,
+  "text": "POS TX RENAL\nPOS TX RENAL  - CR 1,15 / NS FK 6  RAPA 6\nPOS QUADRO DE DIARRÉIA E IRA \nANEMIA - MELHOR ( TEVE TRANSFUSÃO ) - PERFIL DE FERRO OK\nTX RENAL DVR \nDM DIFICIL CONTROLE\nCMV TRATADO\nINTERNAMENTO : GECA, IRA E ANEMIA\nFK 1 / 1, SRL 1 , MTC 5, OMZ 40, CVDL 12,5 X2, LANTUS 35 / 14 / 0, PROLIV\nS # APÓS INTERNAMENTO, REFERE MAL ESTAR AINDA, FRAQUEZA, BAIXA ACEITAÇÃO DA DIETA\nTEVE PERDA PONDERAL DE 4KG, COM DIARRÉIA HÁ UM DIA, AUTO LIMITADA\nO # REG, CORADA, HIDRATADA\nPA 140/80\nMV POSITIVO, SIMETRICO\nBCRNF\nABDOMEN FLACIDO, SEM MASSAS\nMEMBROS SEM EDEMA",
+  "entities": {
+    "Conceito Temporal": [
+      "POS",
+      "X2",
+      "APÓS",
+      "HÁ UM DIA"
+    ],
+    "Sinal ou Sintoma": [
+      "DIARRÉIA",
+      "FRAQUEZA",
+      "MASSAS",
+      "EDEMA",
+      "DIFICIL CONTROLE",
+      "MAL ESTAR",
+      "BAIXA ACEITAÇÃO DA DIETA",
+      "PERDA PONDERAL",
+      "AUTO LIMITADA"
+    ],
+    "Abreviação": [
+      "IRA",
+      "DVR",
+      "DM",
+      "CMV",
+      "GECA",
+      "FK",
+      "SRL",
+      "MTC",
+      "OMZ",
+      "CVDL",
+      "X2",
+      "PROLIV",
+      "S",
+      "O",
+      "REG",
+      "PA",
+      "BCRNF",
+      "TX RENAL",
+      "CR 1 , 15",
+      "NS FK 6",
+      "MV POSITIVO"
+    ],
+    "Doença ou Síndrome": [
+      "IRA",
+      "ANEMIA",
+      "DM",
+      "CMV",
+      "GECA"
+    ],
+    "Achado": [
+      "MELHOR",
+      "DVR",
+      "TRATADO",
+      "S",
+      "REG",
+      "CORADA",
+      "HIDRATADA",
+      "SIMETRICO",
+      "BCRNF",
+      "FLACIDO",
+      "MV POSITIVO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TRANSFUSÃO",
+      "TRATADO",
+      "INTERNAMENTO",
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "OK",
+      "CR 1 , 15",
+      "NS FK 6",
+      "RAPA 6"
+    ],
+    "Vírus": [
+      "CMV"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "INTERNAMENTO",
+      "O"
+    ],
+    "Substância Farmacológica": [
+      "FK",
+      "SRL",
+      "MTC",
+      "OMZ",
+      "CVDL",
+      "LANTUS",
+      "PROLIV"
+    ],
+    "Substância Química Orgânica": [
+      "FK",
+      "SRL",
+      "MTC",
+      "OMZ",
+      "CVDL",
+      "LANTUS"
+    ],
+    "Conceito Quantitativo": [
+      "1",
+      "5",
+      "40",
+      "X2",
+      "140/80",
+      "1 / 1",
+      "12 , 5",
+      "35 / 14 / 0",
+      "DE 4KG"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Localização ou Região Corporal": [
+      "ABDOMEN",
+      "MEMBROS"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Procedimento Laboratorial": [
+      "PERFIL DE FERRO"
+    ]
+  },
+  "labels": {
+    "3A71.2": {
+      "term_original": "anemia",
+      "capitulo": "03",
+      "confidence_embedding": 0.8425,
+      "descricao_cid": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "Escolhi o código 3A71.2 porque a anemia é relacionada à doença renal crônica, como descrito no prontuário (anemia - melhorou após transfusão). Isso é consistente com a definição do código 3A71.2, que refere-se a anemia causada por doença renal crônica."
+    },
+    "DA60.3": {
+      "term_original": "ira",
+      "capitulo": "13",
+      "confidence_embedding": 0.7453,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A presença de IRA (inflamação rectal aguda) como componente do quadro clínico, associada a diarreia e anemia, sugere que o paciente está apresentando sintomas compatíveis com úlceras de estresse do estômago. Além disso, a presença de outros fatores como fraqueza, baixa aceitação da dieta e perda ponderal sugerem um quadro de doença crônica, que é característico das úlceras de estresse do estômago."
+    },
+    "5C78": {
+      "term_original": "dm",
+      "capitulo": "05",
+      "confidence_embedding": 0.7823,
+      "descricao_cid": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem.",
+      "classification_reasoning": "A descrição de DM DIFICIL CONTROLE no prontuário sugere que há um problema de controle glicêmico, o que é compatível com a sobrecarga de líquidos (hipervolemia) descrita pelo código CID-11: 5C78."
+    },
+    "6C45.3": {
+      "term_original": "fraqueza",
+      "capitulo": "06",
+      "confidence_embedding": 0.7251,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A fraqueza descrita no contexto clínico é similar ao sintoma de fraqueza muscular mencionado na definição da Intoxicação por cocaína (CID-11: 6C45.3). Além disso, o contexto também apresenta anemia e falta de aceitação da dieta, o que pode estar relacionado à falta de vitamina B3 ou triptofano, comumente observada em casos de intoxicação por cocaína."
+    },
+    "MD82": {
+      "term_original": "massas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7579,
+      "descricao_cid": "Representação de doença CID-11: Tumefação, massa ou tumoração intra-abdominal ou pélvica. Definição: Refere-se à presença de tumefação de parede abdominal ou pélvica, massa ou tumor nas regiões abdominal e pélvica. Essas massas ou tumores podem ser reconhecidos pela inspeção e/ou palpação.",
+      "classification_reasoning": "A opção mais precisa é MD82, pois o termo 'massas' se refere a uma massa ou tumor intra-abdominal ou pélvica, que está descrita no contexto clínico como 'ABDOMEN FLACIDO, SEM MASSAS', o que sugere a ausência de qualquer massa ou tumor abdominal."
+    },
+    "MF96": {
+      "term_original": "auto limitada",
+      "capitulo": "21",
+      "confidence_embedding": 0.7543,
+      "descricao_cid": "Representação de doença CID-11: Proteinúria. Definição: O excesso de proteínas séricas na urina, como na doença renal, em que a albumina é a proteína principal, porém também pode ser devido a outras proteínas, como imunoglobulinas de cadeias leves na discrasia de células plasmáticas como o mieloma múltiplo.",
+      "classification_reasoning": "A opção MF96 é a mais precisa para o termo 'auto limitada' no contexto clínico, pois se refere à proteinúria, que é um aspecto significativo da história do paciente com doença renal. A descrição de proteinúria na CID-11 se alinha com a ideia de uma função renal auto-limitada, ou seja, limitada por sua própria capacidade para eliminar proteínas da urina."
+    },
+    "BC81.30": {
+      "term_original": "mv positivo",
+      "capitulo": "11",
+      "confidence_embedding": 0.7331,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A opção mais precisa para o termo 'mv positivo' é a Fibrilação Atrial Paroxística (FAP), pois apresenta sintomas de frequência cardíaca aumentada e sem doença pré-existente que possa justificar essa freqüência."
+    },
+    "JA24.0": {
+      "term_original": "geca",
+      "capitulo": "18",
+      "confidence_embedding": 0.7661,
+      "descricao_cid": "Representação de doença CID-11: Pré-eclâmpsia leve a moderada. Definição: Condição caracterizada por pressão arterial sistólica maior que 140 mmHg e/ou diastólica igual ou maior que 90 mmHg em duas ocasiões com 4 horas ou mais de intervalo na presença de proteinúria ou outra disfunção orgânica materna de início recente caracterizada por trombocitopenia, creatinina sérica ou transaminases hepáticas elevadas, ou condições neurológicas ou restrição do crescimento fetal.",
+      "classification_reasoning": "A escolha do código JA24.0 é baseada na presença de anemia e internamento por Geca (Gravidez com Complicação) associado a pressão arterial PA 140/80, o que sugere uma possível pré-eclâmpsia leve a moderada."
+    },
+    "DA94.22": {
+      "term_original": "diarréia",
+      "capitulo": "13",
+      "confidence_embedding": 0.7627,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de enterocolite induzida por proteína alimentar. Definição: Inflamação crônica persistente com hipersensibilidade não mediada por IgE e mediada por células no trato intestinal, que afeta primariamente crianças. Os alimentos causadores mais comuns são: leite de vaca, soja, arroz, aveia, carne. Nos casos de exposição crônica, os sintomas mais frequentes são vômitos, diarreia, crescimento comprometido e letargia. Quando reexposto após restrição, o paciente pode apresentar vômitos, diarreia e hipotensão (15%) 2 horas após a ingestão.",
+      "classification_reasoning": "A escolha do código DA94.22 é porque o paciente apresenta diarreia, que é um dos principais sintomas da síndrome de enterocolite induzida por proteína alimentar. Além disso, a presença de anemia e fraqueza também são características desse distúrbio."
+    },
+    "FA25.20": {
+      "term_original": "flacido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7453,
+      "descricao_cid": "Representação de doença CID-11: Gota tofácea. Definição: Os tofos são deposições de cristais de urato monossódico nos tecidos de pacientes com hiperuricemia e podem estar associados a outras manifestações como a artropatia da gota. Eles são identificados principalmente na pele e no tecido subcutâneo. A hélice da orelha é uma das localizações mais comuns de acometimento dos tofos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'flacido' é a Gota tofácea (FA25.20), pois a descrição dessa doença menciona a deposição de cristais de urato nos tecidos, incluindo a pele e o tecido subcutâneo, o que pode causar edema e sensação de flacidez."
+    },
+    "MF54.2": {
+      "term_original": "perda ponderal",
+      "capitulo": "21",
+      "confidence_embedding": 0.7618,
+      "descricao_cid": "Representação de doença CID-11: Hipoplasia renal. Definição: Condição caracterizada por um rim menor em tamanho e peso do que a média (menos de 11 centímetros de comprimento, 5-7,5 centímetros de largura, 2,5 centímetros de espessura e pesando menos de 120 gramas).",
+      "classification_reasoning": "A perda ponderal de 4kg é um indicador de uma condição clínica mais ampla, como a doença renal crônica, que está relacionada ao contexto do prontuário (POS TX RENAL). A hipoplasia renal (MF54.2) é uma possibilidade clínica para explicar esta perda ponderal."
+    },
+    "BCRNF": {
+      "term_original": "bcrnf",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo \"bcrnf\" é a representação de doença CID-11: Doença renal hipertensiva, pois a descrição BCRNF refere-se à Doença Renal Hipertensiva."
+    },
+    "FB50.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7482,
+      "descricao_cid": "Representação de doença CID-11: Cisto sinovial do espaço poplíteo. Definição: Este é o edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho",
+      "classification_reasoning": "A opção mais precisa para o termo 'edema' é a cisto sinovial do espaço poplíteo (FB50.2), pois apresenta sintomas de edema articular, sem relação com os demais problemas clínicos descritos no prontuário."
+    },
+    "3A70.1": {
+      "term_original": "cmv",
+      "capitulo": "03",
+      "confidence_embedding": 0.7383,
+      "descricao_cid": "Representação de doença CID-11: Anemias aplásticas adquiridas. Definição: Condição que ocorre secundária a outros transtornos ou por meio de uma reposta autoimune direcionada à medula óssea que surge após o nascimento. Esta doença é caracterizada por ausência quase completa das células tronco hematopoiéticas, resultando em níveis diminuídos de glóbulos vermelhos e brancos e plaquetas. Esta condição pode se manifestar com fadiga, infecções crônicas, tontura, fraqueza, dores de cabeça e episódios de sangramento, geralmente em pele e mucosas.",
+      "classification_reasoning": "O termo 'CMV' é relacionado à infecção por Citomegalovirus, que é comum em pacientes com doença renal crônica e pode levar a anemia aplástica adquirida. A escolha do código 3A70.1 se justifica pela menção de anemia no prontuário e pelo histórico de tratamento da doença renal."
+    }
+  }
+}

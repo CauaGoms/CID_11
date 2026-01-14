@@ -1,0 +1,170 @@
+{
+  "prontuario_id": 473,
+  "text": "Às 03:47: Paciente consciente, lúcida, orientada, comunicativa, normotensa, normocorada, afebril, em repouso no leito. Mantém curativo em região abdominal, limpo e seco + curativo em perna D, também com aspecto seco. Apresenta diurese em SVD + fralda, porém sem evacuação no período. No início do plantão, paciente queixou-se de prurido intenso pelo corpo, o qual associa á reação medicamentosa do ATB. Feito Fenergan ás 21 horas (SNC), conforme prescrição médica. Logo após a realização da medicação, paciente começa a apresentar agitação motora, seguida  de ansiedade intensa, porém paciente mantém SSVV. Comunico DRa Alice. A filha da paciente, bastante aflita com o quadro que a mãe estava apresentando, entra em contato com Dr Vital Brasil, da cx geral, que logo após vem avaliar a paciente, e acrescenta mais medicação. Após ser medicada, paciente apresenta melhora do quadro de agitação e ansiedade. Segue em observação. AFECCOES DA PELE E DO TECIDO SUBCUTANEO NAO ESPECIFICADOS.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente",
+      "paciente"
+    ],
+    "Achado": [
+      "consciente",
+      "lúcida",
+      "orientada",
+      "comunicativa",
+      "normotensa",
+      "normocorada",
+      "afebril",
+      "limpo",
+      "seco",
+      "evacuação",
+      "repouso no leito",
+      "aspecto seco",
+      "mantém SSVV"
+    ],
+    "Negação": [
+      "afebril",
+      "sem"
+    ],
+    "Dispositivo Médico": [
+      "curativo",
+      "SVD",
+      "fralda"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "curativo",
+      "SVD",
+      "medicação",
+      "medicada",
+      "repouso no leito"
+    ],
+    "Objeto Manufaturado": [
+      "fralda"
+    ],
+    "Função Fisiológica": [
+      "evacuação"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "plantão",
+      "observação",
+      "prescrição médica"
+    ],
+    "Antibiótico": [
+      "ATB"
+    ],
+    "Substância Farmacológica": [
+      "Fenergan",
+      "medicação"
+    ],
+    "Abreviação": [
+      "SNC",
+      "DRa",
+      "Dr",
+      "perna D",
+      "mantém SSVV",
+      "cx geral"
+    ],
+    "Grupo Familiar": [
+      "filha"
+    ],
+    "Sinal ou Sintoma": [
+      "agitação",
+      "prurido intenso",
+      "agitação motora",
+      "ansiedade intensa"
+    ],
+    "Localização ou Região Corporal": [
+      "região abdominal"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "perna D"
+    ],
+    "Produto Intelectual": [
+      "prescrição médica"
+    ],
+    "Organização Relacionada à Saúde": [
+      "cx geral"
+    ],
+    "Doença ou Síndrome": [
+      "AFECCOES DA PELE E DO TECIDO SUBCUTANEO"
+    ]
+  },
+  "labels": {
+    "6e+43": {
+      "term_original": "comunicativa",
+      "capitulo": "06",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'comunicativa' se refere à capacidade do paciente de comunicar-se com os profissionais de saúde, o que é um sintoma normal em pacientes intoxicados por medicamentos ou substâncias. A escolha mais precisa para este termo dentro do contexto clínico é a representação de doença CID-11: Intoxicação por álcool (Código 6C40.3), Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool... e não apresenta sintomas específicos como agitação motora, ansiedade, prurido intenso, etc."
+    },
+    "DB33.0": {
+      "term_original": "evacuação",
+      "capitulo": "13",
+      "confidence_embedding": 0.7966,
+      "descricao_cid": "Representação de doença CID-11: Úlcera primária do cólon. Definição: Condição com úlceras únicas ou múltiplas (defeito da mucosa) que se desenvolvem no reto ou no cólon. As úlceras do cólon podem causar sangramento com o esforço evacuatório em pessoas com constipação crônica.",
+      "classification_reasoning": "A escolha do código DB33.0 é a mais precisa pois o termo 'evacuação' está relacionado ao déficit de evacuação do paciente, que apresenta diurese em SVD + fralda, porém sem evacuação no período."
+    },
+    "EB13.1": {
+      "term_original": "aspecto seco",
+      "capitulo": "14",
+      "confidence_embedding": 0.771,
+      "descricao_cid": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável.",
+      "classification_reasoning": "A opção mais precisa para o termo 'aspecto seco' é a Necrólise Epidérmica Tóxica (NET), pois apresenta características como necrose e descolamento bolhoso da epiderme, o que coincide com a descrição do aspecto seco mencionado no prontuário."
+    },
+    "6C40.3": {
+      "term_original": "orientada",
+      "capitulo": "06",
+      "confidence_embedding": 0.8028,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas.",
+      "classification_reasoning": "O termo 'orientada' indica que a paciente tem consciência e é capaz de se comunicar, o que é consistente com sintomas de intoxicação por álcool (CID-11: Intoxicação por álcool). A presença de prurido intenso após a medicação com Fenergan também sugere uma possível reação à medicação, o que é comum em casos de overdose alcoólica."
+    },
+    "EK12": {
+      "term_original": "limpo",
+      "capitulo": "14",
+      "confidence_embedding": 0.7877,
+      "descricao_cid": "Representação de doença CID-11: Sensibilização alérgica por contato. Definição: A presença de hipersensibilidade tardia tipo IV do sistema imune a uma determinada substância sem definição de doença prévia ou atual. Tal sensibilização é normalmente adquirida por contato prévio de pele ou mucosa com a própria substância ou com outra quimicamente similar (reatividade cruzada). Contato subsequente com a substância pode provocar reação alérgica. Em determinadas circunstâncias, essa sensibilização pode impedir que um indivíduo aceite ou continue em um emprego em que a exposição ao alérgeno não pode ser evitada. Alguns indivíduos sensibilizados para um alérgeno específico, entretanto, podem nunca manifestar sintomas caso ocorra o contato.",
+      "classification_reasoning": "O termo 'limpo' está relacionado à cura de ferida abdominal e perna, sugerindo uma sensibilização alérgica por contato com possível causa de reação cutânea."
+    },
+    "8A07": {
+      "term_original": "agitação motora",
+      "capitulo": "08",
+      "confidence_embedding": 0.7867,
+      "descricao_cid": "Representação de doença CID-11: Algum transtorno especificado do movimento. Definição: Distúrbios motores neurológicos que se apresentam com lentidão de movimentos (bradicinesia ou hipocinesia) ou movimentos involuntários anormais (hipercinesias) como resultado de anormalidades genéticas, infecciosas, tóxicas, metabólicas, inflamatórias ou vasculares.",
+      "classification_reasoning": "A escolha pelo código 8A07 (Algum transtorno especificado do movimento) é justificada porque o termo 'agitação motora' refere-se a uma condição caracterizada por lentidão de movimentos ou movimentos involuntários anormais, o que está em consonância com a definição do código. Além disso, o contexto clínico menciona a paciente apresentar agitação motora após a administração do Fenergan, o que sugere uma resposta neurológica ao medicamento."
+    },
+    "MF40.3": {
+      "term_original": "repouso no leito",
+      "capitulo": "21",
+      "confidence_embedding": 0.7735,
+      "descricao_cid": "Representação de doença CID-11: Ejaculação retrógrada. Definição: A ejaculação retrógrada é uma condição na qual o sêmen, que normalmente é ejaculado pela uretra, é redirecionado para a bexiga urinária. A ejaculação retrógrada é tipicamente acompanhada por orgasmo subjetivo, embora o homem possa notar que a liberação de sêmen é limitada ou ausente. A ejaculação retrógrada ocorre mais comumente como uma complicação da ressecção transuretral da próstata, porém também pode ser causada por outra cirurgia pélvica, disfunção do sistema nervoso ou uso de agentes farmacológicos. A confirmação é feita pela identificação de espermatozoides em uma amostra de urina.",
+      "classification_reasoning": "A opção mais precisa para o termo 'repouso no leito' é a ejaculação retrógrada (Código MF40.3), pois a paciente estava apresentando prurido intenso pelo corpo, associado à reação medicamentosa do ATB e subsequente agitação motora e ansiedade, indicando uma possível intervenção terapêutica relacionada ao trato urinário."
+    },
+    "EC90.10": {
+      "term_original": "prurido intenso",
+      "capitulo": "14",
+      "confidence_embedding": 0.8199,
+      "descricao_cid": "Representação de doença CID-11: Prurido urêmico. Definição: Prurido em pacientes com insuficiência renal crônica. Embora comum na doença renal crônica não tratada, é particularmente prevalente em pacientes que submetidos a diálise peritoneal ou hemodiálise. O prurido não se deve a níveis elevados de ureia sérica. Os mecanismos precisos não são totalmente compreendidos.",
+      "classification_reasoning": "A presença de prurido intenso em um paciente com história de reação medicamentosa ao ATB e subsequente uso do Fenergan sugere que o prurido pode estar relacionado à insuficiência renal crônica, uma característica comum desse tipo de prurido."
+    },
+    "6E63": {
+      "term_original": "ansiedade intensa",
+      "capitulo": "06",
+      "confidence_embedding": 0.7854,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de ansiedade secundária. Definição: Síndrome caracterizada pela presença de sintomas ansiosos proeminentes, considerados consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental, com base em evidências de anamnese, exame físico ou achados laboratoriais. Os sintomas não são explicados por delirium ou por outro transtorno mental e comportamental, e não são uma resposta psicologicamente mediada a uma condição médica grave (p. ex., sintomas ansiosos ou ataques de pânico em resposta ao diagnóstico de uma doença potencialmente fatal). Essa categoria deve ser utilizada somada ao diagnóstico do transtorno ou doença subjacente presumido, quando os sintomas ansiosos forem suficientemente graves para exigir atenção clínica específica.",
+      "classification_reasoning": "A ansiedade intensa descrita no contexto clínico é característica da síndrome de ansiedade secundária (6E63), que pode ser desencadeada por uma variedade de fatores, incluindo reações medicamentosas. A presença de sintomas ansiosos graves e a associação com o uso de ATB e a medicação subsequentemente administrada corroboram essa escolha."
+    },
+    "8A61": {
+      "term_original": "agitação",
+      "capitulo": "08",
+      "confidence_embedding": 0.7848,
+      "descricao_cid": "Representação de doença CID-11: Síndromes genéticas ou supostamente genéticas expressas primariamente como epilepsia. Definição: A epilepsia é, até onde se compreende, o resultado direto de um ou mais defeitos genéticos conhecidos ou presumidos, nos quais as crises epilépticas são o sintoma central da doença.",
+      "classification_reasoning": "A agitação apresentada pelo paciente após a medicação do Fenergan é uma reação adversa comum a essa droga, que pode causar ansiedade e excitação. A escolha da opção 8A61, Síndromes genéticas ou supostamente genéticas expressas primariamente como epilepsia, é porque a agitação não está necessariamente relacionada à epilepsia, mas sim à reação medicamentosa."
+    },
+    "EF02.3": {
+      "term_original": "afeccoes da pele e do tecido subcutaneo",
+      "capitulo": "14",
+      "confidence_embedding": 0.7981,
+      "descricao_cid": "Representação de doença CID-11: Celulite. Definição: A celulite é um desarranjo arquitetônico comum do tecido adiposo subcutâneo que resulta em ondulações e nodularidade da pele sobrejacente. É mais comum em mulheres pós-púberes e acomete principalmente a região pélvica, membros inferiores e abdome. Acredita-se que resulte da herniação de múltiplos pequenos agregados de gordura subcutânea através do tecido fibroso na junção dermo-hipodérmica. A obesidade predispõe, mas não é necessária para o seu desenvolvimento. O termo está em uso generalizado, mas é enganoso, pois não tem nada a ver com \"cellulitis\" (NT: infecção de pele). A condição é assintomática, mas pode causar constrangimento considerável.",
+      "classification_reasoning": "A paciente apresenta afeccoes da pele e do tecido subcutaneo, com prurido intenso pelo corpo associado à reação medicamentosa do ATB. A descrição da celulite como um desarranjo arquitetônico comum do tecido adiposo subcutâneo que resulta em ondulações e nodularidade da pele sobrejacente é a mais precisa para o contexto clínico"
+    }
+  }
+}

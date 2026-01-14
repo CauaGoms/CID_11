@@ -1,0 +1,72 @@
+{
+  "prontuario_id": 737,
+  "text": "PO de colecistectomia em junho 2013 por video, devido a litiase.\nnega dor e febre.\nnega outras queixas.\nAP: colecistite cronica, colesterolose vesicular.\nalta ambulatorial.        ",
+  "entities": {
+    "Abreviação": [
+      "PO"
+    ],
+    "Conceito Temporal": [
+      "PO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "colecistectomia"
+    ],
+    "Doença ou Síndrome": [
+      "litiase",
+      "colecistite cronica",
+      "colesterolose vesicular"
+    ],
+    "Sinal ou Sintoma": [
+      "dor",
+      "febre",
+      "queixas"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "alta ambulatorial"
+    ]
+  },
+  "labels": {
+    "NA98.4": {
+      "term_original": "febre",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A febre não é um sintoma de lesão corporal ou trauma, tampouco está relacionada a lesões ósseas ou articulares. Além disso, a ausência de dor e outras queixas sugere que a febre provavelmente está relacionada à doença subjacente (colelitíase crônica) e não é um sintoma isolado."
+    },
+    "DA62.0": {
+      "term_original": "litiase",
+      "capitulo": "13",
+      "confidence_embedding": 0.6837,
+      "descricao_cid": "Representação de doença CID-11: Erosão anastomótica. Definição: Erosão anastomótica representa uma ruptura da mucosa que se estende até a muscular da mucosa, porém sem ultrapassá-la. A erosão anastomótica pode constituir uma fase do desenvolvimento da úlcera ou acompanhar algumas formas de úlcera anastomótica.",
+      "classification_reasoning": "A opção mais precisa para o termo 'litiase' é a erosão anastomótica (Erosão anastomótica), pois litiase é um termo médico que se refere à ruptura da mucosa, e essa definição coincide com a descrição do código DA62.0."
+    },
+    "DA60.0": {
+      "term_original": "colesterolose vesicular",
+      "capitulo": "13",
+      "confidence_embedding": 0.6629,
+      "descricao_cid": "Representação de doença CID-11: Erosão gástrica. Definição: Erosão gástrica representa uma solução de continuidade da mucosa que se estende até a muscular da mucosa mas não a atravessa. A erosão gástrica pode constituir uma fase do desenvolvimento da úlcera ou acompanhar algumas formas de úlcera gástrica.",
+      "classification_reasoning": "A colesterolose vesicular é uma doença relacionada à glândula bile, portanto, a opção mais precisa para o termo dentro do contexto clínico é Erosão gástrica (DA60.0), que se refere ao estresse gástrico e úlceras, mas não está diretamente relacionada à glândula bile."
+    },
+    "MG30.21": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7352,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática.",
+      "classification_reasoning": "A dor não é mencionada como associada à infecção ou malignidade, e a colecistite cronica e colesterolose vesicular são condições pré-existentes que não justificam a dor crônica pós-operatória. A escolha do código MG30.21 (Dor crônica pós-operatória) é mais precisa porque o paciente apresentou litiase e foi submetido à colecistectomia, o que sugere que a dor está relacionada ao procedimento cirúrgico."
+    },
+    "DC14.1": {
+      "term_original": "colecistite cronica",
+      "capitulo": "13",
+      "confidence_embedding": 0.6804,
+      "descricao_cid": "Representação de doença CID-11: Síndrome pós-colecistectomia. Definição: Isso descreve a presença de sintomas abdominais subsequentes à remoção cirúrgica da vesícula biliar. Os sintomas podem incluir náuseas e vômitos, distensão e diarreia, e dor no abdome superior direito. A dor é frequentemente atribuída à descoordenação do esfíncter de Oddi.",
+      "classification_reasoning": "A escolha desse código é baseada na descrição do prontuário, que menciona a realização de colecistectomia em junho de 2013 e a presença de colecistite cronica, o que sugere uma condição relacionada à vesícul biliar. Além disso, a descrição do DC14.1 se ajusta ao contexto clínico, pois descreve sintomas abdominais subsequentes à remoção cirúrgica da vesícul biliar."
+    },
+    "ME66.6": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.6902,
+      "descricao_cid": "Representação de doença CID-11: Rash. Definição: Termo inespecífico que indica a presença de um distúrbio cutâneo adquirido, que deve ser usado somente quando nenhuma informação mais precisa estiver disponível.",
+      "classification_reasoning": "A opção ME66.6 (Rash) é a mais precisa para o termo 'queixas' no contexto do prontuário, pois não há outras queixas mencionadas além de uma possível reação à cirurgia ou ao processo inflamatório após a colecistectomia."
+    }
+  }
+}

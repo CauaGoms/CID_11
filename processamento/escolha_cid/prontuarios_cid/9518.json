@@ -1,0 +1,113 @@
+{
+  "prontuario_id": 38,
+  "text": "DRC ESTAGIO 5 EM HD TER / QUI / SAB NA ULISSES\nDIFICULDADE DE ACESSO VASCULAR\n- RETORNO VENOSO DE DIFICIL PUNÇÃO\n- INFECÇÃO DE PERMCATH\nASMA BRONQUICA ( SIC )\nAC ANTICARDIOLIPINA NEGATIVO\nFALENCIA DE PRIMEIRO ENXERTO RENAL POR TROMBOSE VENOSA\nS : INTERNAMENTO EM DEZ/15 POR INFECÇÃO DE PERMCATH\n25/03> AVALIAÇÃO PNEUMOLOGIA\nO : PA 140/90  P 88  AFEBRIL\nEX SEGMNETAR: RAREFAÇÃO DE CABELOS\nDEMAIS SP\nDRC ESTAGIO 5 EM HD TER / QUI / SAB NA ULISSES\nDIFICULDADE DE ACESSO VASCULAR\n- RETORNO VENOSO DE DIFICIL PUNÇÃO\n- INFECÇÃO DE PERMCATH\nASMA BRONQUICA ( SIC )\nAC ANTICARDIOLIPINA NEGATIVO\n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "HD",
+      "PA",
+      "P",
+      "DRC ESTAGIO 5",
+      "AC ANTICARDIOLIPINA NEGATIVO",
+      "EX SEGMNETAR"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "HD"
+    ],
+    "Função Patológica": [
+      "INFECÇÃO"
+    ],
+    "Dispositivo Médico": [
+      "PERMCATH"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "INTERNAMENTO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "PNEUMOLOGIA"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P"
+    ],
+    "Conceito Quantitativo": [
+      "140/90",
+      "88"
+    ],
+    "Sinal ou Sintoma": [
+      "AFEBRIL",
+      "DIFICULDADE DE ACESSO VASCULAR",
+      "RETORNO VENOSO DE DIFICIL PUNÇÃO",
+      "FALENCIA DE PRIMEIRO ENXERTO RENAL",
+      "RAREFAÇÃO DE CABELOS"
+    ],
+    "Negação": [
+      "AFEBRIL",
+      "SP"
+    ],
+    "Doença ou Síndrome": [
+      "DRC ESTAGIO 5",
+      "ASMA BRONQUICA",
+      "TROMBOSE VENOSA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "AC ANTICARDIOLIPINA NEGATIVO"
+    ],
+    "Achado": [
+      "FALENCIA DE PRIMEIRO ENXERTO RENAL"
+    ],
+    "Procedimento Diagnóstico": [
+      "EX SEGMNETAR"
+    ]
+  },
+  "labels": {
+    "CA23.0": {
+      "term_original": "asma bronquica",
+      "capitulo": "12",
+      "confidence_embedding": 0.7113,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica. Definição: Asma alérgica é o fenótipo de asma mais facilmente reconhecido. Frequentemente, inicia-se na infância e é associada a um histórico pessoal ou familiar de doença alérgica, como eczema, rinite alérgica, ou alergia a drogas e alimentos. O exame do escarro induzido desses pacientes, antes do tratamento, geralmente revela uma inflamação eosinofílica das vias aéreas. O principal gatilho é a exposição a alérgenos, como o ácaro da poeira doméstica e ao pólen, aos quais o indivíduo tenha sido, previamente, sensibilizado. Os pacientes com esse fenótipo de asma, usualmente, respondem bem a corticoide inalatório e à imunoterapia alérgeno-específica.",
+      "classification_reasoning": "A opção mais precisa para o termo 'asma bronquica' é a Asma alérgica (CA23.0), pois o prontuário menciona ASMA BRONQUICA (SIC) e há informações sobre exacerbações de asma alérgica em contexto clínico."
+    },
+    "1F2L.0": {
+      "term_original": "infecção",
+      "capitulo": "01",
+      "confidence_embedding": 0.7903,
+      "descricao_cid": "Representação de doença CID-11: Adiaspiromicose disseminada. Definição: Infecção fulminante cada vez mais relatada causada por Emmonsia e espécies de fungos semelhantes a Emmonsia. É observada no contexto de imunossupressão profunda, especialmente na infecção por HIV. Isso contrasta com a adiaspiromicose pulmonar, que também é causada por espécies de Emmonsia, mas tipicamente afeta indivíduos imunocompetentes. Sua apresentação clínica é semelhante à de histoplasmose e blastomicose. O envolvimento de pele e pulmões é característico, mas o SNC e o sangue também podem ser afetados.",
+      "classification_reasoning": "A infecção é mencionada como uma complicação da DRC estagio 5 em HD, e a descrição da doença CID-11 apresenta características semelhantes à de outras infecções agudas com sintomas sistêmicos."
+    },
+    "BB72.0": {
+      "term_original": "drc estagio 5",
+      "capitulo": "11",
+      "confidence_embedding": 0.7207,
+      "descricao_cid": "Representação de doença CID-11: Estenose aórtica reumática com insuficiência. Definição: A estenose aórtica por cardiopatia reumática crônica tipicamente está associada à insuficiência aórtica. As comissuras e cúspides da válvula tornam-se aderentes e fundidas, e o orifício da valva torna-se pequeno. Na ausculta, S2 pode ser única porque os folhetos aórticos estão imóveis e não produzem um som de fechamento aórtico",
+      "classification_reasoning": "O termo 'drc estagio 5' sugere uma doença cardíaca reumática crônica, e o código BB72.0 representação de doença CID-11: Estenose aórtica reumática com insuficiência, que está mais relacionada ao contexto clínico apresentado."
+    },
+    "BD71.3": {
+      "term_original": "trombose venosa",
+      "capitulo": "11",
+      "confidence_embedding": 0.7954,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia ilíaca. Definição: Trombose venosa nas veias ilíacas.",
+      "classification_reasoning": "A trombose venosa mencionada no contexto é especificamente na veia ilíaca, o que é detalhado pelo código BD71.3."
+    },
+    "NB90.1Z": {
+      "term_original": "retorno venoso de dificil punção",
+      "capitulo": "22",
+      "confidence_embedding": 0.7291,
+      "descricao_cid": "Representação de doença CID-11: Lesão da veia cava inferior, não especificada. Definição: ",
+      "classification_reasoning": "A descrição do termo 'retorno venoso de dificil punção' sugere lesão ou danos na veia cava inferior, o que se encaixa melhor com a definição da opção NB90.1Z."
+    },
+    "ME64.3": {
+      "term_original": "rarefação de cabelos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7446,
+      "descricao_cid": "Representação de doença CID-11: Petéquias. Definição: Petéquias resultam do vazamento focal de sangue dos capilares da derme para o tecido conjuntivo dérmico adjacente. Apresentam-se como múltiplas máculas pontuais, vermelhas ou roxas, que não desaparecem à digitopressão. As muitas causas subjacentes variam de condições inócuas (p.ex., tosse ou esforço) a condições de risco de vida (p.ex., septicemia meningocócica).",
+      "classification_reasoning": "A escolha do código ME64.3 se baseia na menção de 'rarefação de cabelos' no prontuário, que é um sintoma característico das petéquias. Além disso, a ausência de outras referências clínicas compatíveis com os outros códigos sugerem que a rarefação de cabelos seja uma manifestação cutânea da doença."
+    },
+    "GB40": {
+      "term_original": "falencia de primeiro enxerto renal",
+      "capitulo": "16",
+      "confidence_embedding": 0.7879,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A falência do primeiro enxerto renal é uma consequência possível da síndrome nefrítica, que apresenta como sintomas insuficiência renal aguda e representação de doença renal crônica."
+    }
+  }
+}

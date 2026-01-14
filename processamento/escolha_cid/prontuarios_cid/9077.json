@@ -1,0 +1,166 @@
+{
+  "prontuario_id": 47,
+  "text": "Às 17:13 HS: CONSCIENTE, ORIENTADO, EUPNEICO, CORADO, HIDRATADO, ACEITA DIETA, DIURESE ESPONTANEA, SEM QUEIXAS ALGICAS DURANTE O PERIODO, MANTEM PRECAUÇÃO DE CONTATO E VIAS AÉREAS. ENF FLORENCE NIGHTINGALE,COREN XXXX. FALENCIA OU REJEICAO DE TRANSPLANTE DE RIM. NA PASSAGEM DO PLANTÃO, APRESENTADO DISCRETO ESFORÇO RESPIRATORIO. EVOLUINDO AS 20:25h ESFORÇO RESPIRATORIO ACENTUADO, DISSATURANDO, COMUNICADO PLANTONISTA, QUE AUMENTOU PARAMETROS VENTILATORIOS, ADMINISTRADO PANCURONIO, NO PRIMEIRO MOMENTO (ACM); CERCA DE 40 MINUTOS + TARDE, ADMINISTRADO HALDOL (ACM), COM POUCA RESPOSTA, PLANTONISTA OPTARÁ POR SEDAR COM PROPOFOL (aguardando prescrição medica). APRESENTANDO SECREÇÃO NASO / ORAL (rosea) EM MEDIA QUANTIDADE, PLANTONISTA CIENTE. INFECCAO BACTERIANA DE LOCAL NAO ESPECIFICADO. Às 18:50hrs: paciente torporoso, dispneico com utilização da musculatura acessoria, mantém oxigenoterapia sob máscara de névoa úmida, sne com dieta em curso, não foi retirado todos os pontos cefalico, pois ao retirar o primeiro ponto apresentou deiscencia de sutura; tentado contato com dr Vital Brasil, sem sucesso. HEMORRAGIA INTRACEREBRAL CEREBELAR.",
+  "entities": {
+    "Achado": [
+      "CONSCIENTE",
+      "ORIENTADO",
+      "EUPNEICO",
+      "CORADO",
+      "HIDRATADO",
+      "sucesso",
+      "ACEITA DIETA",
+      "DIURESE ESPONTANEA",
+      "POUCA RESPOSTA"
+    ],
+    "Abreviação": [
+      "ENF",
+      "dr",
+      "SECREÇÃO NASO / ORAL",
+      "sne com dieta em curso"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ENF",
+      "PLANTONISTA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "PLANTÃO",
+      "ADMINISTRADO"
+    ],
+    "Organização Relacionada à Saúde": [
+      "PLANTÃO"
+    ],
+    "Sinal ou Sintoma": [
+      "DISSATURANDO",
+      "rosea",
+      "torporoso",
+      "dispneico",
+      "QUEIXAS ALGICAS",
+      "DISCRETO ESFORÇO RESPIRATORIO",
+      "ESFORÇO RESPIRATORIO ACENTUADO",
+      "utilização da musculatura acessoria",
+      "deiscencia de sutura"
+    ],
+    "Substância Farmacológica": [
+      "PANCURONIO",
+      "PROPOFOL"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SEDAR",
+      "PRECAUÇÃO DE CONTATO E VIAS AÉREAS",
+      "AUMENTOU PARAMETROS VENTILATORIOS",
+      "névoa úmida",
+      "sne com dieta em curso",
+      "retirado todos os pontos cefalico"
+    ],
+    "Substância Química Orgânica": [
+      "PROPOFOL"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "paciente"
+    ],
+    "Dispositivo Médico": [
+      "máscara"
+    ],
+    "Negação": [
+      "não"
+    ],
+    "Função Fisiológica": [
+      "DIURESE ESPONTANEA"
+    ],
+    "Doença ou Síndrome": [
+      "FALENCIA OU REJEICAO DE TRANSPLANTE DE RIM",
+      "INFECCAO BACTERIANA",
+      "HEMORRAGIA INTRACEREBRAL CEREBELAR"
+    ],
+    "Conceito Qualitativo": [
+      "ESFORÇO RESPIRATORIO ACENTUADO",
+      "MEDIA QUANTIDADE"
+    ],
+    "Produto Intelectual": [
+      "prescrição medica"
+    ],
+    "Substância Corporal": [
+      "SECREÇÃO NASO / ORAL"
+    ]
+  },
+  "labels": {
+    "6E61.0": {
+      "term_original": "orientado",
+      "capitulo": "06",
+      "confidence_embedding": 0.771,
+      "descricao_cid": "Representação de doença CID-11: Síndrome psicótica secundária com alucinações. Definição: Síndrome caracterizada pela presença de alucinações proeminentes, consideradas consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental, com base em evidências de anamnese, exame físico ou achados laboratoriais. Delírios não são um aspecto proeminente da apresentação clínica. Os sintomas não são explicados por delirium ou por outro transtorno mental e comportamental, e não são uma resposta psicologicamente mediada a uma condição médica grave (p. ex., uma reação aguda ao estresse em resposta ao diagnóstico de uma condição de ameaça à vida). Essa categoria deve ser utilizada em conjunto com o diagnóstico do transtorno ou doença subjacente presumido, quando os sintomas psicóticos são suficientemente graves para exigir atenção clínica específica.",
+      "classification_reasoning": "A opção mais precisa para o termo 'orientado' no contexto clínico é a Síndrome psicótica secundária com alucinações (CID-11: 6E61.0). Isso porque, embora não haja explicitamente mencionada a orientação como um sintoma na passagem do prontuário, o termo 'orientado' sugere que o paciente tem sua percepção e consciência preservadas, o que é compatível com a definição da síndrome psicótica secundária com alucinações."
+    },
+    "8E44": {
+      "term_original": "torporoso",
+      "capitulo": "08",
+      "confidence_embedding": 0.726,
+      "descricao_cid": "Representação de doença CID-11: Dano cerebral pós-anóxico. Definição: O dano cerebral pós-anóxico refere-se à gravidade variável da encefalopatia que resulta de parada circulatória, hipotensão ou asfixia.",
+      "classification_reasoning": "A paciente está descrita como 'torporoso', o que sugere uma perda de consciência e um estado de inconsciência, coerente com a descrição do dano cerebral pós-anóxico."
+    },
+    "MB25.3": {
+      "term_original": "deiscencia de sutura",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A deiscência de sutura é um problema comum após uma cirurgia e, nesse caso, está relacionada à retirada de pontos cefálicos no paciente. O código MB25.3 (Representação de doença CID-11: Deiscência de sutura) é a escolha mais precisa para o termo 'deiscencia de sutura' dentro do contexto clínico fornecido."
+    },
+    "MB53.1": {
+      "term_original": "utilização da musculatura acessoria",
+      "capitulo": "21",
+      "confidence_embedding": 0.7513,
+      "descricao_cid": "Representação de doença CID-11: Hemiplegia flácida. Definição: É uma perda grave ou completa da função motora em um lado do corpo, com músculos flácidos e relaxados.",
+      "classification_reasoning": "A opção mais precisa para o termo 'utilização da musculatura acessória' é a Hemiplegia flácida (MB53.1), pois essa condição é caracterizada por uma perda grave ou completa da função motora em um lado do corpo, com músculos flácidos e relaxados."
+    },
+    "ED90.0": {
+      "term_original": "rosea",
+      "capitulo": "14",
+      "confidence_embedding": 0.7578,
+      "descricao_cid": "Representação de doença CID-11: Rosácea. Definição: O termo rosácea engloba um espectro de alterações que ocorrem principalmente na pele facial, mas também podem envolver os olhos. A maioria dos pacientes com rosácea apresenta eritema facial e instabilidade vascular que estão variavelmente associados a pápulas e pústulas inflamatórias, alterações hipertróficas e envolvimento ocular. A causa da rosácea é desconhecida. É questionável que um único fator etiológico seja responsável pelas diversas características que compõem esse transtorno.",
+      "classification_reasoning": "A opção ED90.0 - Rosácea é a mais precisa para o termo 'rosea' no contexto clínico, pois o paciente apresenta secreção nasal e oral de média quantidade, característica da rosácea."
+    },
+    "2A00.10": {
+      "term_original": "hemorragia intracerebral cerebelar",
+      "capitulo": "02",
+      "confidence_embedding": 0.6727,
+      "descricao_cid": "Representação de doença CID-11: Meduloblastoma do cérebro. Definição: Neoplasia embrionária invasiva maligna originada do cerebelo. Ocorre predominantemente em crianças e tem tendência a metastatizar através das vias do líquido cefalorraquidiano. Os sinais e sintomas incluem ataxia troncular, distúrbio da marcha, letargia, cefaleia e vômitos. Existem quatro variantes histológicas: meduloblastoma anaplásico, meduloblastoma nodular/desmoplásico, meduloblastoma de células grandes e meduloblastoma com extensa nodularidade.",
+      "classification_reasoning": "Escolha baseada na presença de hemorragia intracerebral cerebelar, o que é consistente com a definição do meduloblastoma do cérebro (meduloblastoma cerebral) em crianças, que tem tendência a metastatizar através das vias do líquido cefalorraquidiano e apresenta sintomas como ataxia troncular, distúrbio da marcha, letargia, cefaleia e vômitos."
+    },
+    "CA22.0": {
+      "term_original": "dispneico",
+      "capitulo": "12",
+      "confidence_embedding": 0.7764,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A palavra-chave 'dispneico' refere-se ao agravamento dos sintomas respiratórios, o que é característico de uma exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC). Portanto, a escolha mais precisa para esse termo é CA22.0, representando Doença Pulmonar Obstrutiva Crônica com exacerbação aguda não especificada."
+    },
+    "MB20.1": {
+      "term_original": "pouca resposta",
+      "capitulo": "21",
+      "confidence_embedding": 0.7761,
+      "descricao_cid": "Representação de doença CID-11: Coma. Definição: Estado agudo com duração de mais de uma hora e geralmente menos de um mês. O paciente em coma está arresponsivo, fica com os olhos fechados e não pode ser despertado nem mesmo por estímulos vigorosos e dolorosos. As respostas motoras à estimulação dolorosa estão limitadas a reflexos. As etiologias incluem, mas não estão limitadas a, lesões cerebrais traumáticas, anóxicas, infecciosas, neoplásicas, vasculares, inflamatórias e metabólicas.",
+      "classification_reasoning": "A descrição do termo 'pouca resposta' sugere que o paciente está apresentando uma resposta anormal ou reduzida à estímulo, o que é característico de um estado de coma."
+    },
+    "1C03.0": {
+      "term_original": "infeccao bacteriana",
+      "capitulo": "01",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha é fundamentada na presença de infeccão bacteriana não especificada, associada a sintomas como secreção nasal/oral e torporoso com dispneico, sugerindo uma infecção grave que pode estar relacionada ao sistema nervoso central."
+    },
+    "CA23.0": {
+      "term_original": "dissaturando",
+      "capitulo": "12",
+      "confidence_embedding": 0.7646,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica. Definição: Asma alérgica é o fenótipo de asma mais facilmente reconhecido. Frequentemente, inicia-se na infância e é associada a um histórico pessoal ou familiar de doença alérgica, como eczema, rinite alérgica, ou alergia a drogas e alimentos. O exame do escarro induzido desses pacientes, antes do tratamento, geralmente revela uma inflamação eosinofílica das vias aéreas. O principal gatilho é a exposição a alérgenos, como o ácaro da poeira doméstica e ao pólen, aos quais o indivíduo tenha sido, previamente, sensibilizado. Os pacientes com esse fenótipo de asma, usualmente, respondem bem a corticoide inalatório e à imunoterapia alérgeno-específica.",
+      "classification_reasoning": "A escolha pelo código CA23.0 se justifica pois o termo 'dissaturando' está relacionado à evolução do estado respiratório do paciente, que passou de um esforço respiratório discreto a um esforço respiratório agudo e dissatutrador."
+    },
+    "GA32.2": {
+      "term_original": "falencia ou rejeicao de transplante de rim",
+      "capitulo": "16",
+      "confidence_embedding": 0.7176,
+      "descricao_cid": "Representação de doença CID-11: Infecção associada à reprodução medicamente assistida. Definição: Infecção genital ou pélvica significativa que ocorre após a retirada do óvulo ou outro tratamento com reprodução medicamente assistida",
+      "classification_reasoning": "A escolha do código GA32.2 se baseia na menção de 'falência ou rejeição de transplante de rim' no contexto, o que indica uma complicação relacionada à reprodução medicamente assistida, especificamente com o transplante de rim."
+    }
+  }
+}

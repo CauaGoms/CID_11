@@ -1,0 +1,232 @@
+{
+  "prontuario_id": 776,
+  "text": "18:01 SOLICITADO PSICOLOGIA DEVIDO QUADRO CLINICO DA CLIENTE, PSICOLOGA CAROLINE CIENTE. ENFª FLORENCE NIGHTINGALE XXXX. DIABETES MELLITUS NAO ESPECIFICADO COM OUTRAS COMPLICACOES ESPECIFICADAS. 21:25h: Comunico  Dr VITAL BRASIL plantão da ortopedia que o paciente esta sem prescrição médica ate o momento. Enf FLORENCE NIGHTINGALE. FRATURA DO MEMBRO INFERIOR NIVEL NAO ESPECIFICADO. 08:30 Horas. Paciente em 2 DI por atropelamento com TCE grave. Permanece em sala de emergencia com ventilação mecanica em modo PCV, FiO2 50%; FR 16; Tempo Insp.: 1.1; Pressão Limite 15; PEEP 4. Monitorizado FC 115; PA 95/45; SpO2 99%. Com curativo em fcc suturado em couro cabeludo e labios. Pupilas anisocoricas (E>D). SOG com debito. AVP em jugular esquerda com Dopamina a 10 ml/h e sedação a 30 ml/h. Ausculta pulmonar com discretos ruidos adventicios, abdomem plano, flaido e indolor a palpação. RHA+. SVD com debito concentrado e grumos laranjas. MMII com escoriações e AVP em MSE salinizado. Apresentou hipertermia, adiantado dipirona cpm. Paciente aguarda vaga em leito para UTI. TRAUMATISMO SUPERFICIAL DO PESCOCO.",
+  "entities": {
+    "Grupo Profissional ou Ocupacional": [
+      "PSICOLOGIA",
+      "PSICOLOGA",
+      "ENFª",
+      "Enf"
+    ],
+    "Organização Relacionada à Saúde": [
+      "PSICOLOGIA",
+      "UTI",
+      "plantão da ortopedia",
+      "sala de emergencia"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "CLIENTE",
+      "paciente",
+      "Paciente"
+    ],
+    "Abreviação": [
+      "ENFª",
+      "Dr",
+      "Enf",
+      "FiO2",
+      "FR",
+      "PEEP",
+      "FC",
+      "PA",
+      "SpO2",
+      "E&gt;D",
+      "AVP",
+      "RHA+",
+      "SVD",
+      "MSE",
+      "cpm",
+      "UTI",
+      "TCE grave",
+      "modo PCV",
+      "fcc suturado",
+      "SOG com debito",
+      "MMII com escoriações"
+    ],
+    "Negação": [
+      "sem",
+      "indolor"
+    ],
+    "Lesão ou Envenenamento": [
+      "atropelamento",
+      "FRATURA DO MEMBRO INFERIOR",
+      "TCE grave",
+      "MMII com escoriações",
+      "TRAUMATISMO SUPERFICIAL DO PESCOCO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "FiO2",
+      "PEEP",
+      "curativo",
+      "AVP",
+      "sedação",
+      "SVD",
+      "salinizado",
+      "ventilação mecanica",
+      "modo PCV",
+      "Pressão Limite",
+      "fcc suturado"
+    ],
+    "Conceito Quantitativo": [
+      "50%",
+      "16",
+      "15",
+      "4",
+      "115",
+      "95/45",
+      "99%",
+      "10 ml/h",
+      "30 ml/h"
+    ],
+    "Conceito Qualitativo": [
+      "4"
+    ],
+    "Procedimento Diagnóstico": [
+      "Monitorizado",
+      "palpação",
+      "Ausculta pulmonar"
+    ],
+    "Atributo Clínico": [
+      "FC",
+      "PA",
+      "SpO2"
+    ],
+    "Sinal ou Sintoma": [
+      "115",
+      "hipertermia",
+      "Pupilas anisocoricas",
+      "discretos ruidos adventicios",
+      "grumos laranjas"
+    ],
+    "Dispositivo Médico": [
+      "curativo",
+      "AVP",
+      "SVD"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "labios",
+      "couro cabeludo",
+      "jugular esquerda"
+    ],
+    "Substância Química Orgânica": [
+      "Dopamina",
+      "dipirona"
+    ],
+    "Substância Farmacológica": [
+      "Dopamina",
+      "dipirona"
+    ],
+    "Substância Biologicamente Ativa": [
+      "Dopamina"
+    ],
+    "Localização ou Região Corporal": [
+      "abdomem",
+      "MSE"
+    ],
+    "Achado": [
+      "plano",
+      "flaido",
+      "RHA+",
+      "salinizado",
+      "SOG com debito",
+      "debito concentrado"
+    ],
+    "Objeto Manufaturado": [
+      "leito"
+    ],
+    "Doença ou Síndrome": [
+      "DIABETES MELLITUS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "prescrição médica"
+    ],
+    "Produto Intelectual": [
+      "prescrição médica"
+    ]
+  },
+  "labels": {
+    "NE86": {
+      "term_original": "hipertermia",
+      "capitulo": "22",
+      "confidence_embedding": 0.7619,
+      "descricao_cid": "Representação de doença CID-11: Hipertermia maligna devida a anestesia. Definição: ",
+      "classification_reasoning": "A hipertermia mencionada no contexto clínico pode ser relacionada à reação anestésica ao atropelamento, o que justifica a escolha do código NE86."
+    },
+    "ND56.5": {
+      "term_original": "sog com debito",
+      "capitulo": "22",
+      "confidence_embedding": 0.7139,
+      "descricao_cid": "Representação de doença CID-11: Lesão de vaso sanguíneo de região corporal não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'sog com debito' é a lesão de vaso sanguíneo não especificada, pois o prontuário menciona que a paciente tem SVD com debito concentrado e grumos laranjas, indicando uma lesão vascular significativa."
+    },
+    "NA07": {
+      "term_original": "tce grave",
+      "capitulo": "22",
+      "confidence_embedding": 0.7235,
+      "descricao_cid": "Representação de doença CID-11: Traumatismo intracraniano. Definição: Dano infligido aos tecidos do cérebro como o resultado direto ou indireto de uma força externa, com ou sem interrupção da continuidade estrutural.",
+      "classification_reasoning": "A escolha pela opção NA07 (Traumatismo intracraniano) é a mais precisa para o termo 'tce grave' no contexto do prontuário, pois o paciente apresenta quadro clínico com traumatismo ao ser atropelado e temos informações sobre lesão cerebral (pupilas anisocóricas) e ventilação mecânica."
+    },
+    "FB54 | FB54.Z": {
+      "term_original": "fratura do membro inferior",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'fratura do membro inferior' é a representação de doença CID-11: Entesopatias dos membros inferiores (FB54). Além disso, considerando que não há especificação do nível da fratura, a opção FB54.Z também pode ser escolhida para representar as entesopatias dos membros inferiores não especificadas."
+    },
+    "MB23.H": {
+      "term_original": "mmii com escoriações",
+      "capitulo": "21",
+      "confidence_embedding": 0.746,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'mmii com escoriações' é a Crise de pânico (CID-11: MB23.H), pois a descrição da crise de pânico inclui sintomas como formigamento ou falta de sensação de extremidades, que são semelhantes aos descritos no contexto clínico como 'mmii com escoriações'."
+    },
+    "5A13.3": {
+      "term_original": "diabetes mellitus",
+      "capitulo": "05",
+      "confidence_embedding": 0.8086,
+      "descricao_cid": "Representação de doença CID-11: Diabetes mellitus devido a endocrinopatias. Definição: Outro diabetes mellitus especificado devido a endocrinopatias é causado por excesso de hormônios (por exemplo, hormônio do crescimento cortisol, glucagon, adrenalina), que antagonizam a ação da insulina. \r\nQuantidades excessivas desses hormônios (que são secretados por exemplo, na acromegalia, \r\n na síndrome de Cushing, no glucagonoma, \r\n e no feocromocitoma, respectivamente) podem causar diabetes. Isso geralmente ocorre em indivíduos com defeitos pré-existentes na secreção de insulina, e a hiperglicemia geralmente desaparece quando o \r\n excesso de hormônio é resolvido.",
+      "classification_reasoning": "A paciente tem diabetes mellitus não especificado, mas a descrição apresentada sugere uma doença endocrinológica associada à produção excessiva de hormônios, o que é característico da diabetes mellitus devido a endocrinopatias (5A13.3)."
+    },
+    "ME62.7": {
+      "term_original": "pupilas anisocoricas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7323,
+      "descricao_cid": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica.",
+      "classification_reasoning": "A escolha do código ME62.7 é mais precisa porque a descrição de 'pupilas anisocoricas' se refere a uma característica clínica específica da doença, que é uma erupção cutânea descamativa aguda com características fisiopatológicas semelhantes às do exantema viral agudo. A anisocoria (diferença de tamanho entre as pupilas) é um sinal importante para diagnosticar essa condição e o código ME62.7 se refere mais especificamente a esse sintoma."
+    },
+    "NA60.2Z": {
+      "term_original": "debito concentrado",
+      "capitulo": "22",
+      "confidence_embedding": 0.712,
+      "descricao_cid": "Representação de doença CID-11: Lesão da veia jugular externa, não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'debito concentrado' é a lesão da veia jugular externa não especificada (NA60.2Z), pois a pacientes tem uma AVP em jugular esquerda com Dopamina a 10 ml/h e sedação a 30 ml/h, o que sugere uma lesão vascular na região."
+    },
+    "MB20.1": {
+      "term_original": "discretos ruidos adventicios",
+      "capitulo": "21",
+      "confidence_embedding": 0.7478,
+      "descricao_cid": "Representação de doença CID-11: Coma. Definição: Estado agudo com duração de mais de uma hora e geralmente menos de um mês. O paciente em coma está arresponsivo, fica com os olhos fechados e não pode ser despertado nem mesmo por estímulos vigorosos e dolorosos. As respostas motoras à estimulação dolorosa estão limitadas a reflexos. As etiologias incluem, mas não estão limitadas a, lesões cerebrais traumáticas, anóxicas, infecciosas, neoplásicas, vasculares, inflamatórias e metabólicas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'discretos ruidos adventicios' é a codificação MB20.1, que representa Coma. A presença de ruidos adventicios pulmonares em um paciente com trauma crânioencefálico e ventilação mecânica pode indicar um estado de coma agudo."
+    },
+    "NC94.1": {
+      "term_original": "atropelamento",
+      "capitulo": "22",
+      "confidence_embedding": 0.7453,
+      "descricao_cid": "Representação de doença CID-11: Lesão do nervo fibular ao nível da perna. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NC94.1, pois o termo 'atropelamento' se refere à lesão causada pelo impacto na perna, o que está relacionado à descrição da lesão do nervo fibular ao nível da perna."
+    },
+    "FA32.8A": {
+      "term_original": "traumatismo superficial do pescoco",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "Escolhi o código FA32.8A pois o termo 'traumatismo superficial do pescoco' se refere a uma lesão leve na região cervical, que não envolve os tecidos profundos nem há ruptura muscular. O código FA32.8A é o mais preciso para este contexto clínico."
+    },
+    "MD11.2": {
+      "term_original": "grumos laranjas",
+      "capitulo": "21",
+      "confidence_embedding": 0.6989,
+      "descricao_cid": "Representação de doença CID-11: Respiração atáxica. Definição: Um padrão respiratório anormal que usualmente progride para apneia completa.",
+      "classification_reasoning": "A opção mais precisa para o termo 'grumos laranjas' é a representação de doença CID-11: Respiração atáxica, pois os grumos laranjas se referem aos hemorrágicos que podem ocorrer na tracheobronchite idiopática infantil, caracterizada por respiração atáxica."
+    }
+  }
+}

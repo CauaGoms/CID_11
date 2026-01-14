@@ -1,0 +1,123 @@
+{
+  "prontuario_id": 376,
+  "text": "PACIENTE COM: - DM 2. - OBESIDADE. - HAS. - DISLIPIDEMIA. - CARDIOPATIA ISQUEMICA ( STENT ADAE 1/3 PROXIMAL 03/2004 , STENT AMgCx 1/3 DISTAL 09/2004). APRESENTANDO ANGINA, REALIZOU ERGOMETRIA POSITIVA, TENDO FEITO CATETERISMO DIA 11/02 QUE DEMONSTROU REESTENOSE GRAVE INTRA-STENT DA AMgCx, INTERNOU PARA REALIZAÇÃO DE ANGIOPLASTIA INTRA-STENT, COM SUCESSO ANGIOGRÁFICO E FLUXO TIMI 3, SEM IMPLANTE DE STENT. RECEBE ALTA EM BOM ESTADO GERAL, COM OS SEGUINTES: - TICLOPIDINA 250 MG 1 CP 12/12 HORAS, CONTÍNUO. - AAS 100 MG 1 CP CONTÍNUO. - MANTER USO DAS MEDICAÇÕES HABITUAIS E ACOMPANHAR COM SEU MÉDICO.",
+  "entities": {
+    "Doença ou Síndrome": [
+      "OBESIDADE",
+      "HAS",
+      "DISLIPIDEMIA",
+      "DM 2",
+      "CARDIOPATIA ISQUEMICA",
+      "REESTENOSE GRAVE"
+    ],
+    "Abreviação": [
+      "HAS",
+      "AAS",
+      "DM 2",
+      "DA AMgCx"
+    ],
+    "Dispositivo Médico": [
+      "STENT"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ADAE",
+      "DA AMgCx"
+    ],
+    "Sinal ou Sintoma": [
+      "ANGINA"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "MÉDICO"
+    ],
+    "Conceito Espacial": [
+      "INTRA-STENT"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "INTERNOU",
+      "ALTA",
+      "ACOMPANHAR"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Substância Farmacológica": [
+      "TICLOPIDINA",
+      "AAS",
+      "MEDICAÇÕES HABITUAIS"
+    ],
+    "Substância Química Orgânica": [
+      "TICLOPIDINA",
+      "AAS"
+    ],
+    "Conceito Temporal": [
+      "CONTÍNUO",
+      "12/12 HORAS"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ANGIOPLASTIA INTRA-STENT",
+      "IMPLANTE IMPLANTE DE DE STENT STENT",
+      "MEDICAÇÕES HABITUAIS"
+    ],
+    "Achado": [
+      "SUCESSO ANGIOGRÁFICO",
+      "BOM BOM ESTADO ESTADO GERAL GERAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "FLUXO TIMI 3"
+    ],
+    "Conceito Quantitativo": [
+      "100 MG 1 CP"
+    ]
+  },
+  "labels": {
+    "BA51": {
+      "term_original": "cardiopatia isquemica",
+      "capitulo": "11",
+      "confidence_embedding": 0.7938,
+      "descricao_cid": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas.",
+      "classification_reasoning": "A cardiopatia isquêmica é a causa mais provável para o paciente com história de angina, ergometria positiva e reestenose grave intra-stent da AmgCx. Além disso, o histórico de stents aidae e AmgCx também apoiam essa escolha."
+    },
+    "BC43.0": {
+      "term_original": "reestenose grave",
+      "capitulo": "11",
+      "confidence_embedding": 0.764,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida.",
+      "classification_reasoning": "A reestenose grave referida no prontuário é uma complicação de doença cardiovascular, mais especificamente, uma forma de disfunção do músculo cardíaco que pode levar a problemas como isquemia e insuficiência cardíaca. A cardiomiopatia dilatada (BC43.0) é a mais adequada opção para descrever essa condição clínica."
+    },
+    "5B81.0": {
+      "term_original": "has",
+      "capitulo": "05",
+      "confidence_embedding": 0.7606,
+      "descricao_cid": "Representação de doença CID-11: Obesidade devido a desequilíbrio energético. Definição: A obesidade é uma doença crônica e complexa, definida por adiposidade excessiva que pode prejudicar a saúde. Na maioria dos casos, é uma doença multifatorial devido a ambientes obesogênicos, fatores psicossociais e variantes genéticas. Em um subgrupo de pacientes, fatores etiológicos principais únicos podem ser identificados (doenças, imobilização, procedimentos iatrogênicos, doença monogênica / síndrome genética).",
+      "classification_reasoning": "A escolha do código 5B81.0 se baseia na presença de obesidade no prontuário, que é uma condição crônica complexa definida por adiposidade excessiva."
+    },
+    "BA40.Y": {
+      "term_original": "angina",
+      "capitulo": "11",
+      "confidence_embedding": 0.8241,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A escolha pelo termo BA40.Y (Outra angina pectoris especificada) se justifica pela presença de sintomas de angina no paciente, confirmados por ergometria positiva e resultado da angiografia que mostrou reestenose grave intra-stent. A cardiopatia isquêmica também é mencionada, o que sugere um quadro clínico compatível com a definição da angina pectoris especificada."
+    },
+    "500000000000.0": {
+      "term_original": "dm 2",
+      "capitulo": "05",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A DM 2 é uma referência a Diabetes Mellitus tipo 2, doença caracterizada por hipersecreção de insulina e resistência à insulina."
+    },
+    "5B81.01": {
+      "term_original": "obesidade",
+      "capitulo": "05",
+      "confidence_embedding": 0.7913,
+      "descricao_cid": "Representação de doença CID-11: Obesidade em adultos. Definição: A obesidade é definida como um índice de massa corporal (IMC) maior ou igual a 30,0 kg/m². Existem três níveis de gravidade em reconhecimento das diferentes opções de gerenciamento.",
+      "classification_reasoning": "A opção mais precisa para o termo 'obesidade' no contexto clínico é a obesidade em adultos, definida como um índice de massa corporal (IMC) maior ou igual a 30,0 kg/m²."
+    },
+    "5C80.1": {
+      "term_original": "dislipidemia",
+      "capitulo": "05",
+      "confidence_embedding": 0.75,
+      "descricao_cid": "Representação de doença CID-11: Hipertrigliceridemia. Definição: Forma de hiperlipidemia caracterizada por níveis plasmáticos anormalmente elevados de lipoproteínas ricas em triglicerídeos. Está associada a um risco elevado de morbidade cardiovascular.",
+      "classification_reasoning": "A dislipidemia é uma condição caracterizada por níveis plasmáticos anormalmente elevados de lipoproteínas ricas em triglicerídeos, o que está associado a um risco elevado de morbidade cardiovascular. Dessa forma, a opção mais precisa para o termo dislipidemia é Código 5C80.1: Hipertrigliceridemia."
+    }
+  }
+}

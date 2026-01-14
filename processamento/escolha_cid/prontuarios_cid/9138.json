@@ -1,0 +1,49 @@
+{
+  "prontuario_id": 919,
+  "text": "# PO AMPUTAÇÃO MIE.\n# PACIENTE EM USO DE GABAPENTINA E AMITRIPTILINA.\n# FERIDA LIMPA, SEM SINAIS FLOGÍSTICOS.\n# RETORNO 7 DIAS.\n\nR3 Lucas\nR4 Nome_Genérico         ",
+  "entities": {
+    "Abreviação": [
+      "PO",
+      "MIE",
+      "R3"
+    ],
+    "Conceito Temporal": [
+      "PO"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Substância Farmacológica": [
+      "GABAPENTINA",
+      "AMITRIPTILINA"
+    ],
+    "Lesão ou Envenenamento": [
+      "FERIDA"
+    ],
+    "Achado": [
+      "LIMPA"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "SINAIS FLOGÍSTICOS"
+    ]
+  },
+  "labels": {
+    "NF0A.3": {
+      "term_original": "ferida",
+      "capitulo": "22",
+      "confidence_embedding": 0.7468,
+      "descricao_cid": "Representação de doença CID-11: Infecção pós-traumática da ferida, não classificada em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NF0A.3, Infecção pós-traumática da ferida, não classificada em outra parte, pois o contexto clínico descreve uma 'ferida limpa' sem sinais flogísticos, sugerindo que a paciente está com uma infecção aguda ou subaguda relacionada à amputação."
+    },
+    "ME62.7": {
+      "term_original": "sinais flogísticos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7858,
+      "descricao_cid": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica.",
+      "classification_reasoning": "A opção mais precisa é ME62.7, Erupção cutânea descamativa aguda, pois o termo 'sinais flogísticos' refere-se à presença de lesões ou feridas na pele que não estão apresentando sinais de inflamação ou resposta imune anormal."
+    }
+  }
+}

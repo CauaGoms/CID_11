@@ -1,0 +1,117 @@
+{
+  "prontuario_id": 154,
+  "text": "# Tx Renal Intervivos há 11 anos.\n- Imunossupressores: Myfortic 360 mg 2 x/dia + Prednisosna 15 mg dia.\n- Medicações de uso continuo: Anlodipino 5 mg 1x / Selozok 100 1x / Furosemida 40 mg 1x /  Atorvastatina 40 mg 1x / Omeprazol 20 mg 1x / Atensina 0,150 2x / Ciprofibrato 200 1x / Alopurinol 150 2x.\n\nPaciente retorna com exames periódicos, apresentando pico hipertensivo na triagem, segundo ele após caminhada sem repouso antes da aferiçao. Relata PA em casa em torno de 140 x 90 diariamente.\nExames sem alterações relevantes. Creatinina de 1,9 ( 2,2 >>> 2,1 >>> 1,9).\n\nConduta: Retorno em 3 meses com exames periódicos.\n \n \n \n ",
+  "entities": {
+    "Substância Farmacológica": [
+      "Imunossupressores",
+      "Myfortic",
+      "Prednisosna",
+      "Anlodipino",
+      "Selozok",
+      "Furosemida",
+      "Atorvastatina",
+      "Omeprazol",
+      "Atensina",
+      "Ciprofibrato",
+      "Alopurinol",
+      "Medicações de uso continuo"
+    ],
+    "Substância Química Orgânica": [
+      "Myfortic",
+      "Prednisosna",
+      "Anlodipino",
+      "Furosemida",
+      "Atorvastatina",
+      "Omeprazol",
+      "Atensina",
+      "Ciprofibrato",
+      "Alopurinol"
+    ],
+    "Conceito Temporal": [
+      "dia",
+      "1x",
+      "2x",
+      "após",
+      "diariamente",
+      "2 x/dia"
+    ],
+    "Conceito Quantitativo": [
+      "1x",
+      "100",
+      "2x",
+      "200",
+      "150",
+      "360 mg",
+      "2 x/dia",
+      "15 mg",
+      "5 mg",
+      "40 mg",
+      "20 mg",
+      "0 , 150",
+      "140 x 90"
+    ],
+    "Abreviação": [
+      "1x",
+      "2x",
+      "PA",
+      "Tx Renal Intervivos",
+      "2 x/dia"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "triagem",
+      "Conduta",
+      "Retorno"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "caminhada",
+      "Tx Renal Intervivos"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Função de Organismo": [
+      "repouso"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Procedimento Diagnóstico": [
+      "Exames",
+      "exames"
+    ],
+    "Produto Intelectual": [
+      "Conduta"
+    ],
+    "Achado": [
+      "Tx Renal Intervivos"
+    ],
+    "Conceito Espacial": [
+      "em casa"
+    ],
+    "Sinal ou Sintoma": [
+      "alterações relevantes"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Creatinina de 1 , 9",
+      "2 , 2",
+      "2 , 1",
+      "1 , 9"
+    ]
+  },
+  "labels": {
+    "MF96": {
+      "term_original": "alterações relevantes",
+      "capitulo": "21",
+      "confidence_embedding": 0.7748,
+      "descricao_cid": "Representação de doença CID-11: Proteinúria. Definição: O excesso de proteínas séricas na urina, como na doença renal, em que a albumina é a proteína principal, porém também pode ser devido a outras proteínas, como imunoglobulinas de cadeias leves na discrasia de células plasmáticas como o mieloma múltiplo.",
+      "classification_reasoning": "A escolha do código MF96 se deve ao fato de o termo 'alterações relevantes' estar relacionado à presença ou ausência de anomalias nos exames, e a despeito da falta de alterações significativas, a busca por novos achados na urina é um procedimento comum em pacientes com doenças renais crônicas. A escolha do código MF96 (Proteinúria) é mais precisa porque não há menção a uma doença específica que justifique o uso dos códigos MF95 (Mioglobinúria), MF56 (Cólica renal) ou MF55 (Poliúria). Além disso, não há indicações de piúria (MF97) na história clínica."
+    },
+    "BA02": {
+      "term_original": "tx renal intervivos",
+      "capitulo": "11",
+      "confidence_embedding": 0.7746,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A doença renal hipertensiva é a condição mais provável considerando o histórico de tx renal intervivos e as medicações apresentadas, além do pico hipertensivo na triagem e da relato de PA em casa."
+    }
+  }
+}
