@@ -21,37 +21,58 @@ LISTA_MOTIVOS_REPROVACAO = [
 def validar_vinculo_clinico_rigoroso(contexto, termo, codigo, descricao_cid, reasoning_original):
     # O prompt agora é focado em ENCONTRAR ERROS
     prompt = f"""
-Você é um AUDITOR MÉDICO CÉPTICO E PRECISO. Seu trabalho é identificar erros reais,
-forçação semântica e alucinações na codificação CID-11, sem descartar diagnósticos
-explicitamente declarados no prontuário.
+Você é um AUDITOR MÉDICO EXTREMAMENTE CÉTICO. 
+Assuma que a maioria das codificações CID-11 está incorreta até que se prove o contrário.
 
-PRONTUÁRIO REAL: "{contexto}"
-TERMO QUE FOI EXTRAÍDO: "{termo}"
-CÓDIGO CID-11 QUE FOI ATRIBUÍDO: "{codigo}"
-DESCRIÇÃO OFICIAL DO CÓDIGO: "{descricao_cid}"
-JUSTIFICATIVA DO SISTEMA ANTERIOR: "{reasoning_original}"
+PRONTUÁRIO REAL:
+\"\"\"{contexto}\"\"\"
 
-INSTRUÇÕES DE AUDITORIA:
-1. Se o termo estiver explicitamente NEGADO (ex: "sem febre") e o CID representar a condição negada, marque como 'negated_finding' e invalide.
-2. Se a associação entre termo e CID exigir inferência não sustentada pelo texto, marque como 'hallucinated_linking' e invalide.
-3. Se o termo for genérico e o CID excessivamente específico, marque como 'wrong_cid_granularity' e invalide.
-4. Verifique se a anatomia do código CID é compatível com a anatomia mencionada no prontuário.
-5. Se o diagnóstico estiver explicitamente afirmado pelo profissional de saúde, considere-o válido mesmo sem critérios diagnósticos detalhados.
+TERMO EXTRAÍDO:
+\"{termo}\"
 
-CRITÉRIO DE DECISÃO:
-- Marque "valido: true" quando houver correspondência semântica direta OU diagnóstico explicitamente declarado.
-- Marque "valido: false" apenas quando houver erro técnico claro.
+CÓDIGO CID-11 ATRIBUÍDO:
+\"{codigo}\"
 
-LISTA DE MOTIVOS TÉCNICOS (use apenas se valido = false):
+DESCRIÇÃO OFICIAL DO CÓDIGO CID-11:
+\"\"\"{descricao_cid}\"\"\"
+
+JUSTIFICATIVA DO SISTEMA ANTERIOR:
+\"\"\"{reasoning_original}\"\"\"
+
+MISSÃO:
+Determine se EXISTE PROVA TÉCNICA SUFICIENTE para manter esse código CID-11.
+Se não conseguir demonstrar claramente a adequação do código à definição CID-11,
+o código DEVE ser removido.
+
+REGRAS DE INVALIDAÇÃO (qualquer uma é suficiente):
+1. O termo é genérico, administrativo ou descritivo e não representa entidade CID.
+2. O código exige critérios (anatômicos, temporais, etiológicos ou psicogênicos)
+   que NÃO estão presentes explicitamente no prontuário.
+3. O vínculo entre termo e código depende de inferência clínica não demonstrada.
+4. A anatomia do código não corresponde claramente à anatomia mencionada.
+5. O termo representa sintoma, estado, achado ou contexto — não diagnóstico CID.
+
+REGRAS DE VALIDAÇÃO (pelo menos UMA deve ser provada explicitamente):
+A. O termo é a própria denominação canônica do código CID-11.
+B. A definição CID-11 é diretamente satisfeita pelo texto do prontuário.
+C. O código é o mapeamento padrão inequívoco usado na prática clínica para esse termo.
+
+IMPORTANTE:
+- Diagnósticos escritos pelo médico NÃO são automaticamente válidos.
+- Na dúvida, REMOVA.
+- Nunca presuma condições não descritas.
+
+Se INVALIDAR, escolha exatamente UM motivo técnico da lista:
 {LISTA_MOTIVOS_REPROVACAO}
 
-Responda EXCLUSIVAMENTE em formato JSON:
+RESPONDA EXCLUSIVAMENTE EM JSON:
 {{
   "valido": true ou false,
   "motivo_tecnico": "nome_do_motivo_ou_null",
-  "analise_critica": "Análise objetiva, técnica e concisa."
+  "prova_ou_falha": "Explique qual regra de validação foi provada OU por que nenhuma foi satisfeita."
 }}
 """
+
 
 
     payload = {
