@@ -5,13 +5,11 @@
 4_ Usar o modelo mxbai-embed-large para passar a entidade extraída e o prontuário a qual pertence para retornar as 5 melhores opções de correspondência com a entidade. [OK]
 5_ Usar uma LLM para decidir qual das 5 opções é a melhor 
 4_ Guardar no json_variabilidade o processamento extra especificado logo a seguir.
-6_ Usar uma LLM para retirar o nome da entidade do texto do prontuário do jsonl e substituir por [DIAG_1] por exemplo
-7_ Retornar o jsonl do prontuário no seguinte formato:
 
 
 {
   "prontuario_id": 1,
-  "text": ".. início de [DIAG_1] em calcâneo d..",
+  "text": ".. início de em calcâneo d..",
   "entities": {
     "Sinal ou Sintoma": ["sonolenta"],
     "Achado": ["Acamada", "Sudoréica"]

@@ -9,13 +9,14 @@ PASTA_ENTRADA = "processamento/escolha_cid/prontuarios_cid"
 PASTA_AUDITADA = "processamento/seleciona_labels/prontuarios_auditados"
 
 LISTA_MOTIVOS_REPROVACAO = [
-    "false_positive_entity", "missing_entity", "overly_generic_entity", 
-    "wrong_entity_type", "abbreviation_misclassification", "negated_finding",
-    "hypothetical_finding", "family_history_misread", "temporal_misinterpretation",
-    "anatomical_mismatch", "symptom_vs_diagnosis_confusion", "procedure_vs_diagnosis_confusion",
-    "medication_vs_substance_confusion", "semantic_drift_normalization", "wrong_cid_granularity",
-    "cid_overgeneralization", "cid_over_specificity", "context_ignorance",
-    "section_misinterpretation", "duplicated_entity", "hallucinated_linking", "confidence_overestimation"
+  "tipo_entidade_incorreto",
+  "entidade_generica_demais",
+  "inferencia_sem_suporte",
+  "incompatibilidade_anatomica",
+  "criterios_obrigatorios_ausentes",
+  "achado_negado",
+  "termo_nao_diagnostico",
+  "contexto_alucinado"
 ]
 
 def validar_vinculo_clinico_equilibrado(contexto, termo, codigo, descricao_cid, reasoning_original):
@@ -34,6 +35,7 @@ def validar_vinculo_clinico_equilibrado(contexto, termo, codigo, descricao_cid, 
     2. REMOVER se houver contradição óbvia (ex: termo negado "sem dor" mapeado para "dor").
     3. REMOVER se a associação for puramente imaginária ou sem qualquer base no texto (alucinação).
     4. Seja justo: se o termo for uma abreviação médica comum ou sinônimo que faz sentido no contexto, aceite a classificação.
+    5. Não proponha, sugira ou infira nenhum novo código CID. Avalie exclusivamente se o código atribuído é clinicamente válido ou inválido para o termo e o prontuário apresentados.
 
     Se decidir por REMOVER, use um destes motivos:
     {LISTA_MOTIVOS_REPROVACAO}
