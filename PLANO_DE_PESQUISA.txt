@@ -1,9 +1,9 @@
 1_ Dividir JSON em 26 json com separações oficiais. [OK]
 2_ Criar banco embbeding de cada um dos 26 jsons. [OK]
 
-3_ Usar uma LLM para extrair, em cada prontuário, entidades que classifiquem dentre os 26 tipos de códigos CID com ajuda das próprias entidades do semclinbr.
-4_ Guardar no json_variabilidade o processamento extra especificado logo a seguir.
+3_ Usar uma LLM para extrair, em cada prontuário, entidades que classifiquem dentre os 26 tipos de códigos CID com ajuda das próprias entidades do semclinbr. [OK]
 4_ Usar o modelo mxbai-embed-large para passar a entidade extraída e o prontuário a qual pertence para retornar as 5 melhores opções de correspondência com a entidade.
+4_ Guardar no json_variabilidade o processamento extra especificado logo a seguir.
 5_ Usar uma LLM para decidir qual das 5 opções é a melhor
 6_ Usar uma LLM para retirar o nome da entidade do texto do prontuário do jsonl e substituir por [DIAG_1] por exemplo
 7_ Retornar o jsonl do prontuário no seguinte formato:

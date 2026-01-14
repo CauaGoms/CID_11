@@ -5,8 +5,8 @@ import requests
 # --- CONFIGURAÇÕES ---
 OLLAMA_API = "http://localhost:11434/api/generate"
 MODELO = "llama3.1:8b"
-PASTA_ENTRADA = "processamento/pront_teste"
-PASTA_SAIDA = "processamento/prontuarios_classificados"
+PASTA_ENTRADA = "processamento/prontuarios"
+PASTA_SAIDA = "processamento/classifica_entidades/prontuarios_classificados"
 
 # Categorias do SemClinBR que filtram ruído (evita siglas de enfermagem e dispositivos)
 CATEGORIAS_CLINICAS = [
