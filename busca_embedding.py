@@ -11,6 +11,9 @@ PASTA_ENTRADA = "processamento/classifica_entidades/prontuarios_classificados"
 PASTA_SAIDA = "processamento/busca_embedding/prontuarios_busca"
 PASTA_BANCOS = "embedding_cid"
 
+# Cache para evitar ler o mesmo arquivo de capítulo várias vezes no mesmo processo
+cache_capitulos = {}
+
 def get_query_embedding(text):
     """Gera o embedding para a busca usando o Ollama."""
     payload = {"model": EMBED_MODEL, "prompt": text}
@@ -21,16 +24,34 @@ def get_query_embedding(text):
         print(f" Erro ao gerar embedding de busca: {e}")
         return None
 
-def buscar_no_banco_jsonl(termo, contexto, capitulo, top_k=5):
-    """Lê o JSONL do capítulo e compara os vetores."""
-    # Ajuste a extensão para .json ou .jsonl conforme seus arquivos
+def carregar_banco(capitulo):
+    """Carrega o banco do capítulo para a memória (com cache)."""
+    if capitulo in cache_capitulos:
+        return cache_capitulos[capitulo]
+    
     nome_arquivo = f"{capitulo}.jsonl" if os.path.exists(os.path.join(PASTA_BANCOS, f"{capitulo}.jsonl")) else f"{capitulo}.json"
     caminho_banco = os.path.join(PASTA_BANCOS, nome_arquivo)
     
     if not os.path.exists(caminho_banco):
+        return None
+
+    dados_capitulo = []
+    with open(caminho_banco, 'r', encoding='utf-8') as f:
+        for linha in f:
+            if linha.strip():
+                dados_capitulo.append(json.loads(linha))
+    
+    cache_capitulos[capitulo] = dados_capitulo
+    return dados_capitulo
+
+def buscar_no_banco_memoria(termo, contexto, capitulo, top_k=5):
+    """Realiza a busca vetorial usando os dados carregados em memória."""
+    banco_dados = carregar_banco(capitulo)
+    
+    if not banco_dados:
         return []
 
-    # 1. Gerar embedding do termo de busca (Termo + Contexto)
+    # 1. Gerar embedding do termo de busca
     query_text = f"Termo: {termo} | Contexto: {contexto}"
     query_vec = get_query_embedding(query_text)
     if not query_vec: return []
@@ -38,23 +59,17 @@ def buscar_no_banco_jsonl(termo, contexto, capitulo, top_k=5):
 
     candidatos = []
 
-    # 2. Ler o arquivo JSONL linha por linha
-    with open(caminho_banco, 'r', encoding='utf-8') as f:
-        for linha in f:
-            item = json.loads(linha)
-            
-            # Converter a lista de embedding do JSON para array numpy
-            item_vec = np.array(item["embedding"]).reshape(1, -1)
-            
-            # Calcular similaridade de cosseno
-            score = cosine_similarity(query_vec, item_vec)[0][0]
-            
-            candidatos.append({
-                item["id"]: {
-                    "confidence_embedding": round(float(score), 4),
-                    "text": item["text"][:100] # Opcional: apenas para debug
-                }
-            })
+    # 2. Comparar com os itens do banco
+    for item in banco_dados:
+        item_vec = np.array(item["embedding"]).reshape(1, -1)
+        score = cosine_similarity(query_vec, item_vec)[0][0]
+        
+        candidatos.append({
+            item["id"]: {
+                "confidence_embedding": round(float(score), 4),
+                "text": item["text"]  # TEXTO COMPLETO PRESERVADO AQUI
+            }
+        })
 
     # 3. Ordenar e retornar os Top K
     candidatos.sort(key=lambda x: list(x.values())[0]["confidence_embedding"], reverse=True)
@@ -65,6 +80,10 @@ def processar_busca_final():
 
     for nome_arquivo in os.listdir(PASTA_ENTRADA):
         if not nome_arquivo.endswith('.json'): continue
+        
+        # Limpar o cache a cada novo prontuário para não sobrecarregar a RAM 
+        # (Opcional, dependendo do tamanho da sua base CID)
+        cache_capitulos.clear()
         
         print(f"Processando busca vetorial: {nome_arquivo}")
         with open(os.path.join(PASTA_ENTRADA, nome_arquivo), 'r', encoding='utf-8') as f:
@@ -78,7 +97,7 @@ def processar_busca_final():
             cap = info.get("capitulo")
             print(f"   -> Buscando '{termo}' no capítulo {cap}")
             
-            opcoes = buscar_no_banco_jsonl(termo, contexto, cap)
+            opcoes = buscar_no_banco_memoria(termo, contexto, cap)
             
             novos_labels[termo] = {
                 "capitulo": cap,
