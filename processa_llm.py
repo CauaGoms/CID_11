@@ -8,24 +8,6 @@ MODELO = "llama3.1:8b"
 PASTA_ENTRADA = "processamento/pront_teste"
 PASTA_SAIDA = "processamento/prontuarios_classificados"
 
-# Categorias do SemClinBR que realmente importam para a CID-11
-CATEGORIAS_CLINICAS = [
-    "Doença ou Síndrome", 
-    "Sinal ou Sintoma", 
-    "Lesão ou Envenenamento", 
-    "Achado", 
-    "Processo Neoplásico", 
-    "Disfunção Mental ou Comportamental", 
-    "Anormalidade Congênita",
-    "Bactéria",
-    "Vírus",
-    "Fungo",
-    "Anormalidade Anatômica",
-    "Anormalidade Adquirida",
-    "Função Patológica",
-    "Disfunção Celular ou Molecular"
-]
-
 CAPITULOS_CID = {
     "01": "Algumas doenças infecciosas ou parasitárias: Doenças causadas por agentes infecciosos como bactérias, vírus, parasitas e fungos, transmitidas por contato direto, vetores, alimentos, água ou outras vias.",
     "02": "Neoplasias: Proliferação celular anormal e descontrolada, benigna ou maligna, que pode invadir tecidos adjacentes ou produzir metástases.",
@@ -58,98 +40,101 @@ CAPITULOS_CID = {
 }
 
 
+CATEGORIAS_CLINICAS = [
+    "Doença ou Síndrome", 
+    "Sinal ou Sintoma", 
+    "Lesão ou Envenenamento", 
+    "Achado", 
+    "Processo Neoplásico", 
+    "Disfunção Mental ou Comportamental", 
+    "Anormalidade Congênita",
+    "Bactéria",
+    "Vírus",
+    "Fungo",
+    "Anormalidade Anatômica",
+    "Anormalidade Adquirida",
+    "Função Patológica",
+    "Disfunção Celular ou Molecular"
+]
+
 def chamar_llm(prompt):
-    payload = {"model": MODELO, "prompt": prompt, "stream": False, "format": "json"}
+    payload = {
+        "model": MODELO,
+        "prompt": prompt,
+        "stream": False,
+        "format": "json",
+        "options": {
+            "temperature": 0  # Determinismo total para evitar alucinações
+        }
+    }
     try:
         response = requests.post(OLLAMA_API, json=payload, timeout=120)
         return json.loads(response.json()['response'])
     except:
         return None
 
-# ETAPA 1: EXTRAÇÃO FILTRADA
-def extrair_entidades_capitulo(texto, num_cap, desc_cap, referencias_filtradas):
-    # O prompt agora recebe as referências já limpas para guiar a extração
+def extrair_entidades_capitulo(texto, num_cap, desc_cap, entidades_candidatas):
+    # Prompt focado em validação e não em invenção
     prompt = f"""
-    Atue como médico codificador CID-11.
-    Analise o TEXTO e extraia apenas condições clínicas (doenças, lesões ou sintomas) que pertençam ao Capítulo {num_cap} ({desc_cap}).
-    
-    TEXTO: "{texto}"
-    DICAS DE REFERÊNCIA: {referencias_filtradas}
-    
-    REGRAS CRÍTICAS:
-    1. IGNORE siglas de dispositivos, procedimentos ou locais (AVP, SNG, CC, SVD, VM, TOT).
-    2. NÃO invente doenças não descritas.
-    3. Foque em termos que combinem com a descrição do Capítulo {num_cap}.
-    
-    Retorne JSON: {{ "termos": ["TERMO1", "TERMO2"] }}
-    Se nada for encontrado, retorne: {{ "termos": [] }}
-    """
+Atue como um perito em codificação CID-11.
+OBJETIVO: Identificar quais entidades da lista 'CANDIDATOS' pertencem ao Capítulo {num_cap} ({desc_cap}).
+
+TEXTO DE CONTEXTO: "{texto}"
+CANDIDATOS: {entidades_candidatas}
+
+REGRAS:
+1. Analise cada termo em CANDIDATOS. 
+2. Se o termo pertencer inequivocamente ao Capítulo {num_cap}, inclua-o na saída.
+3. Se o termo NÃO pertencer ao Capítulo {num_cap}, ignore-o.
+4. NUNCA invente termos que não estão na lista de CANDIDATOS.
+5. Se nenhum termo servir, retorne uma lista vazia.
+
+Retorne EXCLUSIVAMENTE um JSON: {{ "termos": ["TERMO1", "TERMO2"] }}
+"""
     res = chamar_llm(prompt)
     return res.get("termos", []) if res else []
-
-# ETAPA 2: VALIDAÇÃO DE INFERÊNCIA
-def verificar_inferencia(lista_termos, todas_referencias):
-    if not lista_termos: return []
-    prompt = f"""
-    Dada a lista de termos extraídos: {lista_termos}
-    E a lista de referências original: {todas_referencias}
-    
-    Para cada termo, determine:
-    - is_inferred: false (se o termo ou sinônimo exato está nas referências)
-    - is_inferred: true (se você o extraiu diretamente do texto bruto)
-    
-    Retorne JSON: {{ "validacao": [ {{ "termo": "...", "is_inferred": bool }}, ... ] }}
-    """
-    res = chamar_llm(prompt)
-    return res.get("validacao", []) if res else []
-
-def formatar_resultado_final(dados_validados, num_cap):
-    resultado_parcial = {}
-    for item in dados_validados:
-        termo = item.get("termo", "").upper()
-        if termo:
-            resultado_parcial[termo] = {
-                "capitulo": num_cap,
-                "is_inferred": item.get("is_inferred", True)
-            }
-    return resultado_parcial
 
 def processar():
     if not os.path.exists(PASTA_SAIDA): os.makedirs(PASTA_SAIDA)
     
     for nome_arquivo in os.listdir(PASTA_ENTRADA):
         if not nome_arquivo.endswith('.json'): continue
-        print(f"-> Analisando: {nome_arquivo}")
+        print(f"-> Processando: {nome_arquivo}")
         
         with open(os.path.join(PASTA_ENTRADA, nome_arquivo), 'r', encoding='utf-8') as f:
             dados = json.load(f)
         
         texto = dados.get('text', "")
         
-        # --- FILTRO DE CATEGORIAS ---
-        # Pegamos apenas o que é clinicamente relevante para evitar ruído de siglas
-        referencias_limpas = []
-        todas_referencias = []
+        # Filtro de categorias (Reduz o ruído antes de enviar)
+        candidatos = []
+        referencias_totais = []
         for cat, termos in dados.get('entities', {}).items():
-            todas_referencias.extend(termos) # Para o is_inferred
+            referencias_totais.extend([t.upper() for t in termos])
             if cat in CATEGORIAS_CLINICAS:
-                referencias_limpas.extend(termos)
+                candidatos.extend([t.upper() for t in termos])
         
-        labels_completas = {}
+        candidatos = list(set(candidatos)) # Remove duplicatas
+        labels_finais = {}
 
         for num, desc in CAPITULOS_CID.items():
-            print(f"   Verificando Cap {num}...")
+            if not candidatos: break
             
-            # Passamos as referências filtradas para o Especialista não se perder
-            termos_brutos = extrair_entidades_capitulo(texto, num, desc, referencias_limpas)
+            print(f"   Checando Cap {num}...")
+            encontrados = extrair_entidades_capitulo(texto, num, desc, candidatos)
             
-            if termos_brutos:
-                termos_validados = verificar_inferencia(termos_brutos, todas_referencias)
-                labels_capitulo = formatar_resultado_final(termos_validados, num)
-                labels_completas.update(labels_capitulo)
+            for termo in encontrados:
+                termo_up = termo.upper()
+                # A lógica de inferência agora é feita pelo Python (mais confiável)
+                # is_inferred é falso se o termo exato foi extraído pelo SemClinBR
+                is_inferred = termo_up not in referencias_totais
+                
+                labels_finais[termo_up] = {
+                    "capitulo": num,
+                    "is_inferred": is_inferred
+                }
 
-        dados['labels'] = labels_completas
-        
+        dados['labels'] = labels_finais
         with open(os.path.join(PASTA_SAIDA, nome_arquivo), 'w', encoding='utf-8') as f:
             json.dump(dados, f, ensure_ascii=False, indent=2)
 
