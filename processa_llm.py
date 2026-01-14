@@ -8,7 +8,7 @@ MODELO = "llama3.1:8b"
 PASTA_ENTRADA = "processamento/pront_teste"
 PASTA_SAIDA = "processamento/prontuarios_classificados"
 
-# Categorias clínicas para filtrar ruído (Abreviações, Dispositivos, etc. ficam de fora)
+# Categorias do SemClinBR que filtram ruído (evita siglas de enfermagem e dispositivos)
 CATEGORIAS_CLINICAS = [
     "Doença ou Síndrome", "Sinal ou Sintoma", "Lesão ou Envenenamento", 
     "Achado", "Processo Neoplásico", "Disfunção Mental ou Comportamental", 
@@ -47,7 +47,6 @@ CAPITULOS_CID = {
     "X": "Códigos de extensão: Códigos suplementares usados para detalhar características adicionais, contexto ou atributos de outras categorias, não utilizados como codificação primária."
 }
 
-
 def chamar_llm(prompt):
     payload = {
         "model": MODELO,
@@ -66,19 +65,23 @@ def classificar_entidades(texto, candidatos):
     if not candidatos: return {}
     
     prompt = f"""
-Você é um Especialista em CID-11. Atribua o capítulo correto para cada entidade da lista abaixo.
-Contexto do Prontuário: "{texto}"
+Atue como um Codificador Médico Especialista em CID-11. 
+Sua tarefa é classificar a lista de ENTIDADES fornecida nos capítulos corretos da CID-11.
+
+TEXTO DO PRONTUÁRIO PARA CONTEXTO:
+"{texto}"
 
 LISTA DE ENTIDADES PARA CLASSIFICAR:
 {candidatos}
 
-CAPÍTULOS CID-11 DISPONÍVEIS:
-{CAPITULOS_CID}
+CAPÍTULOS CID-11:
+{json.dumps(CAPITULOS_CID, ensure_ascii=False, indent=1)}
 
 REGRAS:
-1. Responda apenas para as entidades da LISTA.
+1. Responda apenas para as entidades da LISTA fornecida.
 2. Use apenas o código do capítulo (ex: "01", "11", "V", "X").
-3. Se a entidade não for uma doença/lesão/sintoma real, use "IGNORAR".
+3. Se a entidade descrever NORMALIDADE ou AUSÊNCIA de doença (ex: Afebril, Sem queixas, Lúcida, RHA presente, Diurese presente), use "IGNORAR".
+4. Sinais e achados que não formam um diagnóstico fechado devem ir para o Capítulo 21.
 
 Retorne EXCLUSIVAMENTE um JSON:
 {{ "NOME_DA_ENTIDADE": "CODIGO_DO_CAPITULO" }}
@@ -90,49 +93,42 @@ def processar():
     
     for nome_arquivo in os.listdir(PASTA_ENTRADA):
         if not nome_arquivo.endswith('.json'): continue
-        print(f"Lendo {nome_arquivo}...")
+        print(f"-> Processando arquivo: {nome_arquivo}")
         
         with open(os.path.join(PASTA_ENTRADA, nome_arquivo), 'r', encoding='utf-8') as f:
             dados = json.load(f)
         
         texto = dados.get('text', "")
         
-        # 1. Filtro de Candidatos (SemClinBR) e Referências Totais
+        # 1. Filtro de Candidatos (apenas categorias clínicas relevantes)
         candidatos = []
-        referencias_totais = []
         for cat, termos in dados.get('entities', {}).items():
-            # Todas as entidades originais entram aqui para checar is_inferred depois
-            referencias_totais.extend([t.upper() for t in termos])
-            # Apenas as clínicas vão para a LLM classificar
             if cat in CATEGORIAS_CLINICAS:
                 candidatos.extend([t.upper() for t in termos])
         
-        candidatos = list(set(candidatos)) # Remover duplicatas
+        candidatos = list(set(candidatos)) # Limpa duplicatas
         
-        # 2. Classificação em Bloco (1 chamada por prontuário)
-        print(f"Classificando {len(candidatos)} entidades...")
+        # 2. Classificação em Bloco (Alta precisão e baixo ruído)
+        print(f"   Classificando {len(candidatos)} termos encontrados...")
         classificacoes = classificar_entidades(texto, candidatos)
         
-        # 3. Formatação Final
+        # 3. Formatação do campo 'labels'
         labels_finais = {}
         if isinstance(classificacoes, dict):
             for termo, cap in classificacoes.items():
                 termo_up = termo.upper()
-                if cap == "IGNORAR": continue
-                
-                # O is_inferred é FALSE se o termo exato foi extraído pelo SemClinBR
-                is_inferred = termo_up not in referencias_totais
-                
-                labels_finais[termo_up] = {
-                    "capitulo": str(cap),
-                    "is_inferred": is_inferred
-                }
+                if cap != "IGNORAR":
+                    labels_finais[termo_up] = {
+                        "capitulo": str(cap)
+                    }
 
         dados['labels'] = labels_finais
         
-        with open(os.path.join(PASTA_SAIDA, nome_arquivo), 'w', encoding='utf-8') as f:
+        # Salva o resultado
+        caminho_saida = os.path.join(PASTA_SAIDA, nome_arquivo)
+        with open(caminho_saida, 'w', encoding='utf-8') as f:
             json.dump(dados, f, ensure_ascii=False, indent=2)
-        print(f"Salvo: {nome_arquivo}\n")
+        print(f"   Concluído: {nome_arquivo}\n")
 
 if __name__ == "__main__":
     processar()
