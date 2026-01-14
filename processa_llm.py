@@ -8,7 +8,8 @@ MODELO = "llama3.1:8b"
 PASTA_ENTRADA = "processamento/pront_teste"
 PASTA_SAIDA = "processamento/prontuarios_classificados"
 
-# Dicionário de Capítulos para o Loop
+# Lista de capítulos para o loop (Estratégia de Especialistas Individuais)
+# Você pode adicionar todos os 26 aqui seguindo este padrão
 CAPITULOS_CID = {
     "01": "Algumas doenças infecciosas ou parasitárias: Doenças causadas por agentes infecciosos como bactérias, vírus, parasitas e fungos, transmitidas por contato direto, vetores, alimentos, água ou outras vias.",
     "02": "Neoplasias: Proliferação celular anormal e descontrolada, benigna ou maligna, que pode invadir tecidos adjacentes ou produzir metástases.",
@@ -41,73 +42,92 @@ CAPITULOS_CID = {
 }
 
 
-def chamar_llm(prompt, format_json=True):
-    payload = {"model": MODELO, "prompt": prompt, "stream": False}
-    if format_json: payload["format"] = "json"
+def chamar_llm(prompt):
+    payload = {
+        "model": MODELO,
+        "prompt": prompt,
+        "stream": False,
+        "format": "json" # Força a saída JSON do Ollama
+    }
     try:
-        response = requests.post(OLLAMA_API, json=payload, timeout=90)
+        response = requests.post(OLLAMA_API, json=payload, timeout=120)
         return json.loads(response.json()['response'])
-    except: return [] if format_json else ""
+    except Exception as e:
+        return None
 
-# --- ETAPA 1: EXTRAÇÃO POR ESPECIALISTA ---
-def extrair_por_capitulo(texto, num_cap, desc_cap):
+# ETAPA 1: EXTRAÇÃO (Um prompt por capítulo)
+def extrair_entidades_capitulo(texto, num_cap, desc_cap):
     prompt = f"""
-    Como médico especialista em {desc_cap}, extraia do texto abaixo apenas termos que pertençam ao Capítulo {num_cap} da CID-11.
+    Atue como médico codificador. Extraia do texto apenas termos que pertençam ao Capítulo {num_cap} ({desc_cap}) da CID-11.
     TEXTO: "{texto}"
-    REGRAS: 
-    - Se não houver nada deste capítulo, retorne uma lista vazia [].
-    Retorne uma lista de strings: ["termo1", "termo2"]
+    Retorne no formato JSON: {{ "termos": ["termo1", "termo2"] }}
+    Se não houver nada, retorne: {{ "termos": [] }}
     """
-    return chamar_llm(prompt)
+    res = chamar_llm(prompt)
+    return res.get("termos", []) if res else []
 
-# --- ETAPA 2: VALIDAÇÃO DE INFERÊNCIA E CLASSIFICAÇÃO ---
-def validar_entidades(entidades_encontradas, num_cap, referencias):
-    if not entidades_encontradas: return {}
-    
+# ETAPA 2: VALIDAÇÃO DE INFERÊNCIA (Compara com SemClinBR)
+def verificar_inferencia(lista_termos, referencias_semclinbr):
+    if not lista_termos: return []
     prompt = f"""
-    Analise as entidades extraídas para o Capítulo {num_cap}.
-    ENTIDADES: {entidades_encontradas}
-    REFERÊNCIAS SEMCLINBR: {referencias}
+    Compare estes termos extraídos: {lista_termos}
+    Com as referências do SemClinBR: {referencias_semclinbr}
     
-    Para cada entidade:
-    1. Verifique se ela está na lista de REFERÊNCIAS (is_inferred = false).
-    2. Se não estiver, mas for uma doença real deste capítulo, is_inferred = true.
-    3. Se o termo estiver ERRADO para este capítulo, remova-o.
-    
-    Retorne um JSON:
-    {{ "termo": {{ "capitulo": "{num_cap}", "is_inferred": bool }} }}
+    Para cada termo, defina 'is_inferred' como false se ele estiver nas referências, ou true se não estiver.
+    Retorne no formato JSON: {{ "validacao": [ {{ "termo": "...", "is_inferred": bool }}, ... ] }}
     """
-    return chamar_llm(prompt)
+    res = chamar_llm(prompt)
+    return res.get("validacao", []) if res else []
+
+# ETAPA 3: FORMATAÇÃO FINAL (Gera a estrutura desejada)
+def formatar_resultado_final(dados_validados, num_cap):
+    # Esta função organiza os dados no formato final: "Termo": { "capitulo": "X", "is_inferred": bool }
+    resultado_parcial = {}
+    for item in dados_validados:
+        termo = item.get("termo", "").upper()
+        if termo:
+            resultado_parcial[termo] = {
+                "capitulo": num_cap,
+                "is_inferred": item.get("is_inferred", True)
+            }
+    return resultado_parcial
 
 def processar():
     if not os.path.exists(PASTA_SAIDA): os.makedirs(PASTA_SAIDA)
     
     for nome_arquivo in os.listdir(PASTA_ENTRADA):
         if not nome_arquivo.endswith('.json'): continue
-        print(f"Processando {nome_arquivo}...")
+        print(f"-> Analisando arquivo: {nome_arquivo}")
         
-        with open(os.path.join(PASTA_ENTRADA, nome_arquivo), 'r') as f:
+        with open(os.path.join(PASTA_ENTRADA, nome_arquivo), 'r', encoding='utf-8') as f:
             dados = json.load(f)
         
         texto = dados.get('text', "")
-        referencias = [t for cat in dados.get('entities', {}).values() for t in cat]
+        # Consolida todas as entidades de referência em uma lista simples
+        referencias = [t for lista in dados.get('entities', {}).values() for t in lista]
         
-        labels_finais = {}
+        labels_completas = {}
 
-        # Loop por capítulo (Estratégia de Especialistas)
+        # Loop de Especialistas (Vários prompts independentes)
         for num, desc in CAPITULOS_CID.items():
-            # Parte 1: Extração bruta
-            extraídos = extrair_por_capitulo(texto, num, desc)
+            print(f"   Analista Cap {num} verificando...")
             
-            if extraídos and isinstance(extraídos, list):
-                # Parte 2: Validação e Formatação
-                validados = validar_entidades(extraídos, num, referencias)
-                if isinstance(validados, dict):
-                    labels_finais.update(validados)
+            # 1. Extrai
+            termos_brutos = extrair_entidades_capitulo(texto, num, desc)
+            
+            if termos_brutos:
+                # 2. Valida Inferencia
+                termos_validados = verificar_inferencia(termos_brutos, referencias)
+                
+                # 3. Formata e Acumula
+                labels_capitulo = formatar_resultado_final(termos_validados, num)
+                labels_completas.update(labels_capitulo)
 
-        dados['labels'] = labels_finais
-        with open(os.path.join(PASTA_SAIDA, nome_arquivo), 'w') as f:
+        dados['labels'] = labels_completas
+        
+        with open(os.path.join(PASTA_SAIDA, nome_arquivo), 'w', encoding='utf-8') as f:
             json.dump(dados, f, ensure_ascii=False, indent=2)
+        print(f"Finalizado: {nome_arquivo}\n")
 
 if __name__ == "__main__":
     processar()
