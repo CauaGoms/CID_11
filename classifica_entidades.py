@@ -59,27 +59,19 @@ def chamar_medgemma_especialista(texto, candidatos):
     """
     MedGemma local analisa o contexto médico e retorna análise clínica.
     """
-    prompt = f"""Você é um Auditor Médico Especialista em CID-11. Sua tarefa é analisar termos médicos e atribuir os capítulos corretos da CID-11.
+    # Cria lista compacta de capítulos para não sobrecarregar o prompt
+    caps_compact = "\n".join([f"{k}: {v[:80]}" for k, v in CAPITULOS_CID.items()])
+    
+    prompt = f"""Analise os termos médicos e atribua os capítulos CID-11 corretos.
 
-TEXTO DO PRONTUÁRIO:
-"{texto}"
+TEXTO: "{texto[:500]}"
 
-TERMOS PARA CLASSIFICAR:
-{", ".join(candidatos)}
+TERMOS: {", ".join(candidatos[:10])}
 
-CAPÍTULOS CID-11 DISPONÍVEIS:
-{json.dumps(CAPITULOS_CID, ensure_ascii=False)}
+CAPÍTULOS: {caps_compact}
 
-REGRAS DE ANÁLISE:
-1. Para cada termo, verifique se ele corresponde a uma CID baseado no texto fornecido.
-2. Atribua o capítulo correto (ex: "01", "14", "21") conforme o significado clínico.
-3. Ignore termos que descrevem NORMALIDADE ou AUSÊNCIA (ex: "sem", "negado", "presente").
-4. Se houver dúvida, classifique em "21" (Sintomas, sinais ou achados clínicos).
-
-FORMATO DE SAÍDA (use este formato exato):
-(termo) -> (capítulo_CID)
-
-Análise:"""
+RETORNE APENAS:
+termo -> código"""
 
     # Prepara input
     inputs = processor(text=prompt, return_tensors="pt")
@@ -95,9 +87,7 @@ Análise:"""
         output = model_med.generate(
             **inputs,
             max_new_tokens=512,
-            temperature=0.3,
             do_sample=False,
-            repetition_penalty=1.2,
             pad_token_id=processor.tokenizer.eos_token_id
         )
     
