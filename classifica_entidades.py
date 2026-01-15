@@ -1,0 +1,219 @@
+
+import json
+import os
+import torch
+from transformers import AutoProcessor, PaliGemmaForConditionalGeneration
+
+# --- CONFIGURAÇÕES ---
+MODEL_ID = "google/medgemma-4b-it"
+PASTA_ENTRADA = "semclinbr/prontuarios"
+PASTA_SAIDA = "processamento_medgemma/classifica_entidades/prontuarios_classificados"
+
+# Categorias do SemClinBR que filtram ruído
+CATEGORIAS_CLINICAS = [
+    "Doença ou Síndrome", "Sinal ou Sintoma", "Lesão ou Envenenamento", 
+    "Achado", "Processo Neoplásico", "Disfunção Mental ou Comportamental", 
+    "Anormalidade Congênita", "Anormalidade Anatômica", "Anormalidade Adquirida",
+    "Bactéria", "Vírus", "Fungo", "Função Patológica", "Disfunção Celular ou Molecular"
+]
+
+CAPITULOS_CID = {
+    "01": "Algumas doenças infecciosas ou parasitárias: Doenças causadas por agentes infecciosos como bactérias, vírus, parasitas e fungos, transmitidas por contato direto, vetores, alimentos, água ou outras vias.",
+    "02": "Neoplasias: Proliferação celular anormal e descontrolada, benigna ou maligna, que pode invadir tecidos adjacentes ou produzir metástases.",
+    "03": "Doenças do sangue ou dos órgãos formadores do sangue: Condições que afetam o sangue, a coagulação e os órgãos hematopoéticos, como medula óssea e baço.",
+    "04": "Doenças do sistema imune: Distúrbios do sistema imunológico, incluindo imunodeficiências, doenças autoimunes, inflamatórias e reações de hipersensibilidade.",
+    "05": "Doenças endócrinas, nutricionais ou metabólicas: Distúrbios hormonais, nutricionais e metabólicos que afetam o crescimento, o metabolismo energético e a homeostase do organismo.",
+    "06": "Transtornos mentais, comportamentais ou do neurodesenvolvimento: Alterações clinicamente significativas da cognição, regulação emocional ou comportamento, com impacto funcional pessoal, social ou ocupacional.",
+    "07": "Transtornos de sono-vigília: Distúrbios relacionados à iniciação, manutenção ou regulação do sono, incluindo insônia, hipersonolência, parassonias e alterações do ritmo circadiano.",
+    "08": "Doenças do sistema nervoso: Condições que afetam o sistema nervoso central, periférico ou autonômico, incluindo doenças neurológicas estruturais, degenerativas ou funcionais.",
+    "09": "Doenças do sistema visual: Doenças que acometem os olhos, seus anexos, as vias visuais e áreas cerebrais responsáveis pela percepção visual.",
+    "10": "Doenças da orelha ou do processo mastoide: Condições que afetam a audição, o equilíbrio e as estruturas do ouvido externo, médio, interno e mastoide.",
+    "11": "Doenças do sistema circulatório: Doenças que afetam o coração, os vasos sanguíneos e a circulação sanguínea, comprometendo o transporte de oxigênio e nutrientes.",
+    "12": "Doenças do sistema respiratório: Condições que afetam as vias aéreas, pulmões e músculos respiratórios, interferindo na ventilação e nas trocas gasosas.",
+    "13": "Doenças do sistema digestivo: Doenças que afetam o trato gastrointestinal, fígado, vesícula biliar, pâncreas e estruturas associadas à digestão e absorção.",
+    "14": "Doenças da pele: Condições que afetam a pele, seus anexos (cabelos, unhas e glândulas), mucosas associadas e tecidos subjacentes.",
+    "15": "Doenças do sistema musculoesquelético ou do tecido conjuntivo: Doenças que afetam músculos, ossos, articulações, ligamentos, tendões e tecidos de sustentação.",
+    "16": "Doenças do sistema geniturinário: Condições que afetam os sistemas urinário e genital, incluindo rins, vias urinárias e órgãos reprodutivos.",
+    "17": "Condições relacionadas à saúde sexual: Condições associadas à função sexual, reprodução, identidade sexual e saúde sexual em geral, não classificadas em outros capítulos.",
+    "18": "Gravidez, parto ou puerpério: Condições associadas à gestação, ao trabalho de parto, ao parto e ao período pós-parto imediato.",
+    "19": "Algumas afecções originadas no período perinatal: Condições que têm origem no período perinatal, mesmo quando a morbidade ou mortalidade ocorre posteriormente.",
+    "20": "Anomalias do desenvolvimento: Alterações estruturais ou funcionais decorrentes de falhas no desenvolvimento pré-natal de órgãos ou sistemas.",
+    "21": "Sintomas, sinais ou achados clínicos, não classificados em outra parte: Sinais, sintomas e achados clínicos ou laboratoriais inespecíficos usados quando não há diagnóstico definitivo.",
+    "22": "Lesões, envenenamentos ou algumas outras consequências de causas externas: Danos corporais decorrentes de agentes físicos, químicos ou da privação de elementos vitais, com início geralmente agudo.",
+    "23": "Causas externas de morbidade ou mortalidade: Classificação das circunstâncias, eventos e intenções que resultam em lesões, envenenamentos ou morte.",
+    "24": "Fatores que influenciam o estado de saúde ou o contato com serviços de saúde: Situações, condições ou motivos de contato com serviços de saúde que não constituem doença ou lesão.",
+    "25": "Códigos para propósitos especiais: Códigos reservados para finalidades específicas, como vigilância epidemiológica, emergências de saúde pública ou usos administrativos.",
+    "26": "Capítulo Suplementar – Condições da Medicina Tradicional: Condições, padrões diagnósticos e conceitos utilizados em sistemas de medicina tradicional reconhecidos pela OMS.",
+    "V": "Seção suplementar para avaliação de funcionalidade: Instrumentos e categorias para descrever, medir e comparar níveis de funcionalidade e incapacidade.",
+    "X": "Códigos de extensão: Códigos suplementares usados para detalhar características adicionais, contexto ou atributos de outras categorias, não utilizados como codificação primária."
+}
+
+# --- CARREGAMENTO DO MODELO (UMA VEZ) ---
+print("Carregando MedGemma localmente...")
+processor = AutoProcessor.from_pretrained(MODEL_ID)
+model = PaliGemmaForConditionalGeneration.from_pretrained(
+    MODEL_ID,
+    torch_dtype=torch.bfloat16,
+    device_map="auto"
+)
+print(f"✓ Modelo carregado na GPU: {torch.cuda.is_available()}\n")
+
+def chamar_medgemma(prompt):
+    """
+    Chama MedGemma localmente e retorna resposta JSON.
+    """
+    try:
+        # Prepara input
+        inputs = processor(text=prompt, return_tensors="pt")
+        
+        # Move para GPU se disponível
+        if torch.cuda.is_available():
+            inputs = {k: v.cuda() for k, v in inputs.items()}
+        
+        # Gera resposta
+        with torch.no_grad():
+            output_ids = model.generate(
+                **inputs,
+                max_new_tokens=512,
+                temperature=0.0,  # Determinístico para classificação
+                do_sample=False
+            )
+        
+        # Decodifica
+        response_text = processor.decode(output_ids[0], skip_special_tokens=True)
+        
+        # Extrai JSON da resposta (MedGemma pode incluir o prompt)
+        json_start = response_text.rfind('{')
+        json_end = response_text.rfind('}') + 1
+        
+        if json_start != -1 and json_end > json_start:
+            json_str = response_text[json_start:json_end]
+            return json.loads(json_str)
+        else:
+            print(f"⚠ Aviso: Resposta sem JSON válido")
+            return {}
+            
+    except json.JSONDecodeError:
+        print(f"⚠ Erro ao decodificar JSON da resposta")
+        return {}
+    except Exception as e:
+        print(f"⚠ Erro na inferência: {e}")
+        return {}
+
+def classificar_entidades(texto, candidatos):
+    """
+    Classifica entidades médicas nos capítulos CID-11.
+    """
+    if not candidatos:
+        return {}
+    
+    # Limita a quantidade de entidades por prompt para melhor qualidade
+    MAX_ENTIDADES_POR_LOTE = 15
+    todas_classificacoes = {}
+    
+    for lote_idx in range(0, len(candidatos), MAX_ENTIDADES_POR_LOTE):
+        lote = candidatos[lote_idx:lote_idx + MAX_ENTIDADES_POR_LOTE]
+        
+        prompt = f"""Você é um Codificador Médico Especialista em CID-11.
+Sua tarefa é classificar a lista de ENTIDADES nos capítulos corretos da CID-11.
+
+TEXTO DO PRONTUÁRIO (para contexto):
+"{texto}"
+
+ENTIDADES PARA CLASSIFICAR:
+{json.dumps(lote, ensure_ascii=False)}
+
+CAPÍTULOS CID-11 DISPONÍVEIS:
+{json.dumps(CAPITULOS_CID, ensure_ascii=False, indent=1)}
+
+REGRAS OBRIGATÓRIAS:
+1. Responda APENAS para as entidades da lista fornecida.
+2. Use apenas o código do capítulo (ex: "01", "11", "V", "X", ou "IGNORAR").
+3. Se a entidade descrever NORMALIDADE ou AUSÊNCIA de doença (ex: Afebril, Sem queixas, Lúcida, RHA presente, Diurese presente), use "IGNORAR".
+4. Sinais e achados que não formam diagnóstico fechado devem ir para o Capítulo 21.
+5. Infecções → Capítulo 01
+6. Tumores/Câncer → Capítulo 02
+7. Sintomas/Achados anormais → Capítulo 21 (se não há diagnóstico claro)
+
+Retorne EXCLUSIVAMENTE um JSON válido (sem explicações):
+{{ "entidade": "CODIGO_DO_CAPITULO" }}"""
+
+        classificacoes = chamar_medgemma(prompt)
+        todas_classificacoes.update(classificacoes)
+    
+    return todas_classificacoes
+
+def processar():
+    """
+    Processa todos os arquivos JSON e classifica entidades com MedGemma.
+    """
+    if not os.path.exists(PASTA_SAIDA):
+        os.makedirs(PASTA_SAIDA)
+    
+    # Lista arquivos .json
+    arquivos = [f for f in os.listdir(PASTA_ENTRADA) if f.endswith('.json')]
+    total_arquivos = len(arquivos)
+    
+    if total_arquivos == 0:
+        print("❌ Nenhum arquivo encontrado para processar.")
+        return
+    
+    print(f"{'='*70}")
+    print(f"Iniciando classificação de {total_arquivos} arquivos com MedGemma")
+    print(f"{'='*70}\n")
+    
+    for i, nome_arquivo in enumerate(arquivos, 1):
+        # Cálculo do progresso
+        percentual_concluido = (i / total_arquivos) * 100
+        percentual_falta = 100 - percentual_concluido
+        
+        print(f"[{i}/{total_arquivos}] Processando: {nome_arquivo}")
+        print(f"   Progresso: {percentual_concluido:.1f}% | Falta: {percentual_falta:.1f}%")
+        
+        caminho_entrada = os.path.join(PASTA_ENTRADA, nome_arquivo)
+        
+        with open(caminho_entrada, 'r', encoding='utf-8') as f:
+            dados = json.load(f)
+        
+        texto = dados.get('text', "")
+        
+        # 1. Filtro de Candidatos (apenas categorias clínicas relevantes)
+        candidatos = []
+        for cat, termos in dados.get('entities', {}).items():
+            if cat in CATEGORIAS_CLINICAS:
+                candidatos.extend([t.lower() for t in termos])
+        
+        candidatos = list(set(candidatos))  # Remove duplicatas
+        
+        print(f"   Classificando {len(candidatos)} termos encontrados...")
+        
+        # 2. Classificação com MedGemma
+        classificacoes = classificar_entidades(texto, candidatos)
+        
+        # 3. Formatação do campo 'labels'
+        labels_finais = {}
+        if isinstance(classificacoes, dict):
+            for termo, cap in classificacoes.items():
+                termo_low = termo.lower()
+                if cap != "IGNORAR":
+                    labels_finais[termo_low] = {
+                        "capitulo": str(cap)
+                    }
+                    print(f"      ✓ {termo_low} → Capítulo {cap}")
+        
+        dados['labels'] = labels_finais
+        
+        # Salva resultado
+        caminho_saida = os.path.join(PASTA_SAIDA, nome_arquivo)
+        with open(caminho_saida, 'w', encoding='utf-8') as f:
+            json.dump(dados, f, ensure_ascii=False, indent=2)
+        
+        print(f"   ✓ Concluído: {nome_arquivo}\n")
+    
+    print(f"{'='*70}")
+    print(f"✓ Processamento Finalizado!")
+    print(f"   Arquivos salvos em: {PASTA_SAIDA}")
+    print(f"{'='*70}")
+
+if __name__ == "__main__":
+    processar()

@@ -1,0 +1,5 @@
+
+1_ Aquivo classifica_entidades.py da pasta classifica_entidades usa as anotações do SemClinBr para classifica-los dentre os caapítulos CID e retorna pasta prontuarios_classificados
+2_ Arquivo busca_embedding.py analisa todas as entidades e retorna as 5 melhores opções de códigos relacionados ao contexto clínico e retorna pasta prontuarios_busca
+3_ Arquivo escolha_cid.py seleciona a melhor das 5 opções para pertencer a entidade e retorna a pasta prontuarios_cid
+4_ Arquivo seleciona_labels.py faz a auditoria sobre quais as entidades e códigos realmente devem ser mantidos no prontuário, retornando a pasta prontuarios_auditados
