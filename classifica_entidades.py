@@ -1,20 +1,18 @@
 import json
 import os
 import torch
-import re
+import requests
 from transformers import AutoProcessor, PaliGemmaForConditionalGeneration
 
 # --- CONFIGURAÇÕES ---
-MODEL_ID = "google/medgemma-1.5-4b-it" # Recomendado usar a versão IT de texto se não for usar imagens
+# MedGemma local para o raciocínio médico
+MODELO_MEDGEMMA = "google/medgemma-1.5-4b-it" 
+# Llama via Ollama para a formatação JSON
+OLLAMA_API = "http://localhost:11434/api/generate"
+MODELO_LLAMA = "llama3.1:8b"
+
 PASTA_ENTRADA = "semclinbr/prontuarios"
 PASTA_SAIDA = "processamento_medgemma/classifica_entidades/prontuarios_classificados"
-
-CATEGORIAS_CLINICAS = [
-    "Doença ou Síndrome", "Sinal ou Sintoma", "Lesão ou Envenenamento", 
-    "Achado", "Processo Neoplásico", "Disfunção Mental ou Comportamental", 
-    "Anormalidade Congênita", "Anormalidade Anatômica", "Anormalidade Adquirida",
-    "Bactéria", "Vírus", "Fungo", "Função Patológica", "Disfunção Celular ou Molecular"
-]
 
 CAPITULOS_CID = {
     "01": "Algumas doenças infecciosas ou parasitárias: Doenças causadas por agentes infecciosos como bactérias, vírus, parasitas e fungos, transmitidas por contato direto, vetores, alimentos, água ou outras vias.",
@@ -47,93 +45,109 @@ CAPITULOS_CID = {
     "X": "Códigos de extensão: Códigos suplementares usados para detalhar características adicionais, contexto ou atributos de outras categorias, não utilizados como codificação primária."
 }
 
-# --- CARREGAMENTO ---
-print("Carregando MedGemma...")
-processor = AutoProcessor.from_pretrained(MODEL_ID)
-model = PaliGemmaForConditionalGeneration.from_pretrained(
-    MODEL_ID, torch_dtype=torch.bfloat16, device_map="auto"
+# --- CARREGAMENTO DO MEDGEMMA ---
+print("Carregando MedGemma como especialista clínico...")
+processor = AutoProcessor.from_pretrained(MODELO_MEDGEMMA)
+model_med = PaliGemmaForConditionalGeneration.from_pretrained(
+    MODELO_MEDGEMMA, torch_dtype=torch.bfloat16, device_map="auto"
 )
 
-def chamar_medgemma(prompt):
-    try:
-        # Adicionamos uma instrução de parada clara
-        inputs = processor(text=prompt, return_tensors="pt").to("cuda")
-        input_len = inputs["input_ids"].shape[-1]
+def chamar_medgemma_especialista(texto, candidatos):
+    prompt = f"""<bos>[INST] Você é um Auditor Médico Especialista em CID-11.
+Sua missão é validar se os termos extraídos são achados clínicos codificáveis e atribuir o capítulo correto da CID-11.
 
-        with torch.no_grad():
-            output = model.generate(
-                **inputs, 
-                max_new_tokens=256, 
-                do_sample=False,
-                pad_token_id=processor.tokenizer.eos_token_id
-            )
-        
-        # Corta o prompt e pega só o que foi gerado depois do "RESPOSTA_JSON:"
-        generation = output[0][input_len:]
-        response_text = processor.decode(generation, skip_special_tokens=True)
-        
-        # Debug opcional: descomente a linha abaixo se quiser ver o que ele está escrevendo
-        # print(f"DEBUG: {response_text}")
+TEXTO DO PRONTUÁRIO:
+"{texto}"
 
-        # Busca o JSON usando Regex de forma mais flexível
-        match = re.search(r'\{.*\}', response_text, re.DOTALL)
-        if match:
-            json_str = match.group().strip()
-            # Limpeza simples para caso o modelo use aspas simples
-            return json.loads(json_str.replace("'", '"'))
-        return {}
-    except Exception as e:
-        print(f"   ⚠ Erro na inferência: {e}")
-        return {}
+ENTIDADES AVALIADAS:
+{", ".join(candidatos)}
 
-def classificar_entidades(texto, candidatos):
-    if not candidatos: return {}
+### TAREFA:
+1. Avalie se a entidade representa uma patologia, sintoma ou achado clínico real no contexto deste prontuário.
+2. Se a entidade for uma abreviação de normalidade (ex: BEG, LOTE, RHA+), uma medida administrativa ou termo genérico sem doença, responda "IGNORAR".
+3. Se for um CID válido, identifique o capítulo (01 a 26, V ou X).
+
+### CRITÉRIOS DE CAPÍTULO:
+- Capítulo 08: Doenças do Sistema Nervoso (neurologia estrutural).
+- Capítulo 06: Transtornos Mentais e do Neurodesenvolvimento.
+- Capítulo 21: Sintomas e Sinais Inespecíficos (use este para queixas sem diagnóstico definido).
+
+### FORMATO DE RESPOSTA:
+Entidade: [Justificativa clínica] -> Decisão: [CÓDIGO DO CAPÍTULO ou IGNORAR]
+
+RESPOSTA DE AUDITORIA: [/INST]"""
     
-    # Criamos um prompt mais direto com tags de início e fim
-    prompt = f"""<bos>Analise o prontuário e classifique os termos nos capítulos da CID-11.
+    inputs = processor(text=prompt, return_tensors="pt").to("cuda")
+    input_len = inputs["input_ids"].shape[-1]
 
-PRONTUÁRIO: {texto}
-TERMOS: {", ".join(candidatos)}
+    with torch.no_grad():
+        output = model_med.generate(**inputs, max_new_tokens=512, do_sample=False)
+    
+    return processor.decode(output[0][input_len:], skip_special_tokens=True)
 
-CAPÍTULOS DISPONÍVEIS: {json.dumps(list(CAPITULOS_CID.keys()))}
+def chamar_llama_formatador(analise_medica, candidatos):
+    """O Llama 3.1 via Ollama recebe a análise do MedGemma e a converte em JSON válido."""
+    prompt = f"""
+Atue como um formatador de dados. Converta a análise médica abaixo em um JSON.
+
+ANÁLISE MÉDICA: {analise_medica}
+TERMOS ORIGINAIS: {candidatos}
 
 REGRAS:
-1. Responda apenas com um objeto JSON.
-2. Use "IGNORAR" para termos normais.
-3. Se o CID-11 for incerto, use "21".
+1. Retorne um JSON no formato: {{"termo": "codigo_capitulo"}}
+2. Se o médico indicou IGNORAR para um termo, não inclua no JSON.
+3. Use apenas os códigos fornecidos (ex: "01", "08", "21").
 
-RESPOSTA_JSON: """
-
-    return chamar_medgemma(prompt)
+RETORNE APENAS O JSON:"""
+    
+    payload = {
+        "model": MODELO_LLAMA,
+        "prompt": prompt,
+        "stream": False,
+        "format": "json",
+        "options": {"temperature": 0}
+    }
+    try:
+        response = requests.post(OLLAMA_API, json=payload, timeout=120)
+        return json.loads(response.json()['response'])
+    except:
+        return {}
 
 def processar():
     if not os.path.exists(PASTA_SAIDA): os.makedirs(PASTA_SAIDA)
     arquivos = [f for f in os.listdir(PASTA_ENTRADA) if f.endswith('.json')]
+    total_arquivos = len(arquivos)
     
+    if total_arquivos == 0: return print("Nenhum arquivo encontrado.")
+
     for i, nome_arquivo in enumerate(arquivos, 1):
-        print(f"[{i}/{len(arquivos)}] Processando: {nome_arquivo}")
+        print(f"[{i}/{total_arquivos}] -> {nome_arquivo}")
         
         with open(os.path.join(PASTA_ENTRADA, nome_arquivo), 'r', encoding='utf-8') as f:
             dados = json.load(f)
         
-        # Filtra candidatos
-        candidatos = list(set([t.lower() for cat, termos in dados.get('entities', {}).items() 
-                              if cat in CATEGORIAS_CLINICAS for t in termos]))
+        texto = dados.get('text', "")
+        candidatos = list(set([t.lower() for termos in dados.get('entities', {}).values() for t in termos]))
         
-        if not candidatos:
-            dados['labels'] = {}
-        else:
-            classificacoes = classificar_entidades(dados.get('text', ""), candidatos)
+        if candidatos:
+            # 1. MedGemma (Cérebro): Decisão clínica
+            print(f"   → MedGemma decidindo capítulos...")
+            analise_texto = chamar_medgemma_especialista(texto, candidatos)
+            
+            # 2. Llama 3.1 (Formatador): Organização técnica
+            print(f"   → Llama 3.1 formatando JSON...")
+            classificacoes = chamar_llama_formatador(analise_texto, candidatos)
             
             labels_finais = {}
-            for termo in candidatos:
-                # Busca o termo na resposta (tratando case insensitive)
-                cap = classificacoes.get(termo) or classificacoes.get(termo.capitalize())
-                if cap and cap != "IGNORAR":
-                    labels_finais[termo] = {"capitulo": str(cap)}
+            if isinstance(classificacoes, dict):
+                for termo, cap in classificacoes.items():
+                    if cap != "IGNORAR":
+                        labels_finais[termo.lower()] = {"capitulo": str(cap)}
             
             dados['labels'] = labels_finais
-            print(f"   ✓ {len(labels_finais)} labels geradas.")
+            print(f"   ✓ {len(labels_finais)} termos processados.")
+        else:
+            dados['labels'] = {}
 
         with open(os.path.join(PASTA_SAIDA, nome_arquivo), 'w', encoding='utf-8') as f:
             json.dump(dados, f, ensure_ascii=False, indent=2)
