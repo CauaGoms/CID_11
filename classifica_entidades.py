@@ -1,15 +1,14 @@
-
 import json
 import os
 import torch
+import re
 from transformers import AutoProcessor, PaliGemmaForConditionalGeneration
 
 # --- CONFIGURAÇÕES ---
-MODEL_ID = "google/medgemma-4b-it"
+MODEL_ID = "google/medgemma-1.5-4b-it" # Recomendado usar a versão IT de texto se não for usar imagens
 PASTA_ENTRADA = "semclinbr/prontuarios"
 PASTA_SAIDA = "processamento_medgemma/classifica_entidades/prontuarios_classificados"
 
-# Categorias do SemClinBR que filtram ruído
 CATEGORIAS_CLINICAS = [
     "Doença ou Síndrome", "Sinal ou Sintoma", "Lesão ou Envenenamento", 
     "Achado", "Processo Neoplásico", "Disfunção Mental ou Comportamental", 
@@ -48,172 +47,86 @@ CAPITULOS_CID = {
     "X": "Códigos de extensão: Códigos suplementares usados para detalhar características adicionais, contexto ou atributos de outras categorias, não utilizados como codificação primária."
 }
 
-# --- CARREGAMENTO DO MODELO (UMA VEZ) ---
-print("Carregando MedGemma localmente...")
+# --- CARREGAMENTO ---
+print("Carregando MedGemma...")
 processor = AutoProcessor.from_pretrained(MODEL_ID)
 model = PaliGemmaForConditionalGeneration.from_pretrained(
-    MODEL_ID,
-    torch_dtype=torch.bfloat16,
-    device_map="auto"
+    MODEL_ID, torch_dtype=torch.bfloat16, device_map="auto"
 )
-print(f"✓ Modelo carregado na GPU: {torch.cuda.is_available()}\n")
 
 def chamar_medgemma(prompt):
-    """
-    Chama MedGemma localmente e retorna resposta JSON.
-    """
     try:
-        # Prepara input
-        inputs = processor(text=prompt, return_tensors="pt")
-        
-        # Move para GPU se disponível
-        if torch.cuda.is_available():
-            inputs = {k: v.cuda() for k, v in inputs.items()}
-        
-        # Gera resposta
+        inputs = processor(text=prompt, return_tensors="pt").to("cuda")
+        input_len = inputs["input_ids"].shape[-1]
+
         with torch.no_grad():
-            output_ids = model.generate(
-                **inputs,
-                max_new_tokens=512,
-                temperature=0.0,  # Determinístico para classificação
-                do_sample=False
-            )
+            output = model.generate(**inputs, max_new_tokens=512, do_sample=False)
         
-        # Decodifica
-        response_text = processor.decode(output_ids[0], skip_special_tokens=True)
+        # Pega apenas os tokens novos gerados
+        generation = output[0][input_len:]
+        response_text = processor.decode(generation, skip_special_tokens=True)
         
-        # Extrai JSON da resposta (MedGemma pode incluir o prompt)
-        json_start = response_text.rfind('{')
-        json_end = response_text.rfind('}') + 1
-        
-        if json_start != -1 and json_end > json_start:
-            json_str = response_text[json_start:json_end]
-            return json.loads(json_str)
-        else:
-            print(f"⚠ Aviso: Resposta sem JSON válido")
-            return {}
-            
-    except json.JSONDecodeError:
-        print(f"⚠ Erro ao decodificar JSON da resposta")
+        # Busca o JSON dentro da string de resposta
+        match = re.search(r'\{.*\}', response_text, re.DOTALL)
+        if match:
+            return json.loads(match.group().replace("'", '"')) # Garante aspas duplas
         return {}
     except Exception as e:
-        print(f"⚠ Erro na inferência: {e}")
+        print(f"   ⚠ Erro na inferência: {e}")
         return {}
 
 def classificar_entidades(texto, candidatos):
-    """
-    Classifica entidades médicas nos capítulos CID-11.
-    """
-    if not candidatos:
-        return {}
+    if not candidatos: return {}
     
-    # Limita a quantidade de entidades por prompt para melhor qualidade
-    MAX_ENTIDADES_POR_LOTE = 15
-    todas_classificacoes = {}
+    # Exemplo real no prompt para o modelo não se perder
+    exemplo_json = '{"pneumonia": "01", "febre": "21", "normal": "IGNORAR"}'
     
-    for lote_idx in range(0, len(candidatos), MAX_ENTIDADES_POR_LOTE):
-        lote = candidatos[lote_idx:lote_idx + MAX_ENTIDADES_POR_LOTE]
-        
-        prompt = f"""Você é um Codificador Médico Especialista em CID-11.
-Sua tarefa é classificar a lista de ENTIDADES nos capítulos corretos da CID-11.
+    prompt = f"""<bos>Você é um Codificador Médico Especialista. Classifique as ENTIDADES nos capítulos da CID-11 baseando-se no TEXTO.
 
-TEXTO DO PRONTUÁRIO (para contexto):
-"{texto}"
+TEXTO: "{texto}"
+ENTIDADES: {json.dumps(candidatos, ensure_ascii=False)}
+CAPÍTULOS: {json.dumps(CAPITULOS_CID, ensure_ascii=False)}
 
-ENTIDADES PARA CLASSIFICAR:
-{json.dumps(lote, ensure_ascii=False)}
+REGRAS:
+1. Retorne APENAS um JSON.
+2. Use "IGNORAR" para termos normais ou ausência de doença.
+3. Formato esperado: {exemplo_json}
 
-CAPÍTULOS CID-11 DISPONÍVEIS:
-{json.dumps(CAPITULOS_CID, ensure_ascii=False, indent=1)}
+JSON: """
 
-REGRAS OBRIGATÓRIAS:
-1. Responda APENAS para as entidades da lista fornecida.
-2. Use apenas o código do capítulo (ex: "01", "11", "V", "X", ou "IGNORAR").
-3. Se a entidade descrever NORMALIDADE ou AUSÊNCIA de doença (ex: Afebril, Sem queixas, Lúcida, RHA presente, Diurese presente), use "IGNORAR".
-4. Sinais e achados que não formam diagnóstico fechado devem ir para o Capítulo 21.
-5. Infecções → Capítulo 01
-6. Tumores/Câncer → Capítulo 02
-7. Sintomas/Achados anormais → Capítulo 21 (se não há diagnóstico claro)
-
-Retorne EXCLUSIVAMENTE um JSON válido (sem explicações):
-{{ "entidade": "CODIGO_DO_CAPITULO" }}"""
-
-        classificacoes = chamar_medgemma(prompt)
-        todas_classificacoes.update(classificacoes)
-    
-    return todas_classificacoes
+    return chamar_medgemma(prompt)
 
 def processar():
-    """
-    Processa todos os arquivos JSON e classifica entidades com MedGemma.
-    """
-    if not os.path.exists(PASTA_SAIDA):
-        os.makedirs(PASTA_SAIDA)
-    
-    # Lista arquivos .json
+    if not os.path.exists(PASTA_SAIDA): os.makedirs(PASTA_SAIDA)
     arquivos = [f for f in os.listdir(PASTA_ENTRADA) if f.endswith('.json')]
-    total_arquivos = len(arquivos)
-    
-    if total_arquivos == 0:
-        print("❌ Nenhum arquivo encontrado para processar.")
-        return
-    
-    print(f"{'='*70}")
-    print(f"Iniciando classificação de {total_arquivos} arquivos com MedGemma")
-    print(f"{'='*70}\n")
     
     for i, nome_arquivo in enumerate(arquivos, 1):
-        # Cálculo do progresso
-        percentual_concluido = (i / total_arquivos) * 100
-        percentual_falta = 100 - percentual_concluido
+        print(f"[{i}/{len(arquivos)}] Processando: {nome_arquivo}")
         
-        print(f"[{i}/{total_arquivos}] Processando: {nome_arquivo}")
-        print(f"   Progresso: {percentual_concluido:.1f}% | Falta: {percentual_falta:.1f}%")
-        
-        caminho_entrada = os.path.join(PASTA_ENTRADA, nome_arquivo)
-        
-        with open(caminho_entrada, 'r', encoding='utf-8') as f:
+        with open(os.path.join(PASTA_ENTRADA, nome_arquivo), 'r', encoding='utf-8') as f:
             dados = json.load(f)
         
-        texto = dados.get('text', "")
+        # Filtra candidatos
+        candidatos = list(set([t.lower() for cat, termos in dados.get('entities', {}).items() 
+                              if cat in CATEGORIAS_CLINICAS for t in termos]))
         
-        # 1. Filtro de Candidatos (apenas categorias clínicas relevantes)
-        candidatos = []
-        for cat, termos in dados.get('entities', {}).items():
-            if cat in CATEGORIAS_CLINICAS:
-                candidatos.extend([t.lower() for t in termos])
-        
-        candidatos = list(set(candidatos))  # Remove duplicatas
-        
-        print(f"   Classificando {len(candidatos)} termos encontrados...")
-        
-        # 2. Classificação com MedGemma
-        classificacoes = classificar_entidades(texto, candidatos)
-        
-        # 3. Formatação do campo 'labels'
-        labels_finais = {}
-        if isinstance(classificacoes, dict):
-            for termo, cap in classificacoes.items():
-                termo_low = termo.lower()
-                if cap != "IGNORAR":
-                    labels_finais[termo_low] = {
-                        "capitulo": str(cap)
-                    }
-                    print(f"      ✓ {termo_low} → Capítulo {cap}")
-        
-        dados['labels'] = labels_finais
-        
-        # Salva resultado
-        caminho_saida = os.path.join(PASTA_SAIDA, nome_arquivo)
-        with open(caminho_saida, 'w', encoding='utf-8') as f:
+        if not candidatos:
+            dados['labels'] = {}
+        else:
+            classificacoes = classificar_entidades(dados.get('text', ""), candidatos)
+            
+            labels_finais = {}
+            for termo in candidatos:
+                # Busca o termo na resposta (tratando case insensitive)
+                cap = classificacoes.get(termo) or classificacoes.get(termo.capitalize())
+                if cap and cap != "IGNORAR":
+                    labels_finais[termo] = {"capitulo": str(cap)}
+            
+            dados['labels'] = labels_finais
+            print(f"   ✓ {len(labels_finais)} labels geradas.")
+
+        with open(os.path.join(PASTA_SAIDA, nome_arquivo), 'w', encoding='utf-8') as f:
             json.dump(dados, f, ensure_ascii=False, indent=2)
-        
-        print(f"   ✓ Concluído: {nome_arquivo}\n")
-    
-    print(f"{'='*70}")
-    print(f"✓ Processamento Finalizado!")
-    print(f"   Arquivos salvos em: {PASTA_SAIDA}")
-    print(f"{'='*70}")
 
 if __name__ == "__main__":
     processar()
