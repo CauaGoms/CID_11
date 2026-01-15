@@ -53,19 +53,19 @@ model_med = PaliGemmaForConditionalGeneration.from_pretrained(
 )
 
 def chamar_medgemma_especialista(texto, candidatos):
-    prompt = f"""<bos>[INST] Você é um Auditor Médico. Sua tarefa é filtrar a lista de termos e manter APENAS aqueles que são CIDs (O
-CID (Classificação Estatística Internacional de Doenças e Problemas Relacionados à Saúde) é um sistema de codificação padronizado e universal, criado e mantido pela Organização Mundial da Saúde (OMS). Seu objetivo é classificar doenças, lesões, sintomas e causas de morte) válidos conforme o texto e atribuir os capítulos dos quais pertencem.
+    prompt = f"""<bos>[INST] Você é um Auditor Médico. Sua tarefa é filtrar a lista de termos e manter APENAS aqueles que são CIDs (Classificação Estatística Internacional de Doenças e Problemas Relacionados à Saúde). Seu objetivo é classificar doenças, lesões, sintomas e causas de morte válidos conforme o texto e atribuir os capítulos dos quais pertencem.
 
 TEXTO: "{texto}"
 TERMOS: {", ".join(candidatos)}
-CAPÍTULOS CID: {CAPITULOS_CID}
 
 REGRAS:
 1. Para cada termo, verifique se ele de fato pode corresponder a uma CID com base no texto fornecido.
-2. Se o termo corresponder a uma CID, atribua o capítulo correto (ex: "01", "14", "21") conforme a lista de capítulos fornecida.
+2. Se o termo corresponder a uma CID, atribua o capítulo correto (ex: "01", "14", "21") conforme a lista de capítulos fornecida a seguir:
+
+CAPÍTULOS CID: {CAPITULOS_CID}
 
 FORMATO DE SAÍDA:
-termo -> capítulo_CID
+(termo) -> (capítulo_CID)
 [/INST]"""
     
     inputs = processor(text=prompt, return_tensors="pt").to("cuda")
@@ -127,10 +127,12 @@ def processar():
             # 1. MedGemma (Cérebro): Decisão clínica
             print(f"   → MedGemma decidindo capítulos...")
             analise_texto = chamar_medgemma_especialista(texto, candidatos)
+            print(analise_texto)
             
             # 2. Llama 3.1 (Formatador): Organização técnica
             print(f"   → Llama 3.1 formatando JSON...")
             classificacoes = chamar_llama_formatador(analise_texto, candidatos)
+            print(classificacoes)
             
             labels_finais = {}
             if isinstance(classificacoes, dict):
