@@ -5,8 +5,8 @@ import requests
 # --- CONFIGURAÇÕES ---
 OLLAMA_API_CHAT = "http://localhost:11434/api/chat"
 LLM_MODEL = "llama3" 
-PASTA_ENTRADA = "processamento/escolha_cid/prontuarios_cid"
-PASTA_AUDITADA = "processamento/seleciona_labels/prontuarios_auditados"
+PASTA_ENTRADA = "processamento/escolha_cid/prontuarios_vazios_cid"
+PASTA_AUDITADA = "processamento/seleciona_labels/prontuarios_vazios_auditados"
 
 LISTA_MOTIVOS_REPROVACAO = [
   "tipo_entidade_incorreto",
