@@ -1,0 +1,238 @@
+{
+  "prontuario_id": 2,
+  "text": "Paciente de 75 anos, cardiopata isquêmico (IAM inf mar/02 - ACTP + stent em Cx; SCA s/ ST em dez/03) hipertenso prévio, dislipidêmico, portador de Insuficiência Renal Crônica e gota. Vem transferido ao CTI / XXXX no dia 28/02/2004 por dispnéia progressiva e angina. Iniciado tratamento clínico para SCA e Edema Agudo de Pulmão, obtendo-se boa resposta. Apresentou elevação discreta de CK-MB (32), sem alterações compatíveis com isquemia recente ao ECG.  Submetido, em 02/03/2004, a avaliação angiográfica, que evidenciou restenose intra-stent e proximal ao stent em DAE e lesão em 1a diagonal. Realizada angioplastia de artéria diagonal e ACTP + stent em DA, com bom resultado angiografico. O paciente teve boa evoluçao após o procedimento, recebe alta em boas condições clínicas, estável. Orientaçao de manter medicações acima relacionadas, e utilizar ticlopidina 250 mg 12/12 h por 30 dias. Retorna ao ambulatório da cardio (previamente já em acompanhamento).",
+  "entities": {
+    "Doença ou Síndrome": [
+      "dislipidêmico",
+      "gota",
+      "SCA",
+      "cardiopata cardiopata isquêmico isquêmico",
+      "IAM inf",
+      "SCA s/ ST",
+      "hipertenso prévio",
+      "Insuficiência Renal Crônica",
+      "Edema Agudo de Pulmão"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "transferido",
+      "Iniciado",
+      "Submetido",
+      "recebe",
+      "alta",
+      "Retorna",
+      "acompanhamento",
+      "Orientaçao de manter medicações"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CTI",
+      "ambulatório da cardio"
+    ],
+    "Abreviação": [
+      "CTI",
+      "SCA",
+      "ECG",
+      "IAM inf",
+      "stent",
+      "SCA s/ ST",
+      "ambulatório da cardio"
+    ],
+    "Sinal ou Sintoma": [
+      "angina",
+      "alterações",
+      "dispnéia progressiva"
+    ],
+    "Conceito Quantitativo": [
+      "32",
+      "250 mg 12/12"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECG",
+      "procedimento",
+      "avaliação angiográfica"
+    ],
+    "Lesão ou Envenenamento": [
+      "lesão"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "DA",
+      "angioplastia de artéria diagonal"
+    ],
+    "Conceito Temporal": [
+      "após",
+      "previamente",
+      "30 dias"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "procedimento",
+      "stent",
+      "tratamento clínico",
+      "angioplastia de artéria diagonal"
+    ],
+    "Achado": [
+      "estável",
+      "boa resposta",
+      "bom resultado angiografico",
+      "boa evoluçao",
+      "boas condições clínicas"
+    ],
+    "Substância Química Orgânica": [
+      "ticlopidina"
+    ],
+    "Substância Farmacológica": [
+      "ticlopidina"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CK-MB",
+      "restenose intra-stent",
+      "bom resultado angiografico"
+    ],
+    "Função Patológica": [
+      "isquemia recente"
+    ]
+  },
+  "labels": {
+    "8B11.40": {
+      "term_original": "alterações",
+      "capitulo": "08",
+      "confidence_embedding": 0.7426,
+      "descricao_cid": "Representação de doença CID-11: Acidente vascular cerebral isquêmico devido à hipoperfusão global com infarto em zona de fronteira. Definição: Perda súbita da função cerebral devida à falta de fluxo sanguíneo adequado. Ocorre em associação com baixo fluxo sanguíneo para o cérebro. As \"zonas de fronteira\" do cérebro, regiões que são supridas pelas extremidades ramificadas de duas grandes artérias, são particularmente sensíveis ao baixo suprimento de oxigênio quando as artérias não mantêm o fluxo adequado.",
+      "classification_reasoning": "A opção mais precisa para o termo 'alterações' no contexto clínico é a Código CID-11: Acidente vascular cerebral isquêmico devido à hipoperfusão global com infarto em zona de fronteira. Isso porque o paciente apresenta sintomas de dispnéia progressiva e angina, e posteriormente, foi submetido a angioplastia de artéria diagonal e ACTP + stent em DA, o que sugere possivelmente uma lesão isquêmica cerebral ou cardiovascular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'alterações' no contexto clínico não é um Acidente Vascular Cerebral Isquêmico, pois o prontuário descreve sintomas de dispnéia progressiva e angina, e posteriormente, foi submetido a angioplastia de artéria diagonal e ACTP + stent em DA, o que sugere possivelmente uma lesão isquêmica cardiovascular. A codificação CID-11 não representa fielmente o termo ou condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5C78": {
+      "term_original": "dislipidêmico",
+      "capitulo": "05",
+      "confidence_embedding": 0.7737,
+      "descricao_cid": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem.",
+      "classification_reasoning": "A elevação discreta de CK-MB e a presença de edema agudo de pulmão no paciente sugerem sobrecarga de líquidos, o que é compatível com a hipertensão prévia e a insuficiência renal crônica. Além disso, a orientação para manter medicações relacionadas e utilizar ticlopidina para prevenir eventos cardiovasculares também aponta nessa direção.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 '5C78' - Sobrecarga de líquidos não está claramente relacionada ao prontuário do paciente. Embora o paciente tenha insuficiência renal crônica e hipertensão prévia, a sobrecarga de líquidos é uma condição mais geral que não se aplica especificamente ao caso do paciente. Além disso, a elevação discreta de CK-MB e a presença de edema agudo de pulmão sugerem um quadro mais específico de insuficiência cardíaca congestiva ou edema agudo de pulmão, que não é capturado pela codificação CID-11 '5C78'.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "NE82.3": {
+      "term_original": "lesão",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A lesão descrita no contexto clínico refere-se à lesão na artéria diagonal (DA) detectada durante a avaliação angiográfica, o que justifica a escolha do código NE82.3 - Representação de doença CID-11: Lesão da parede cardíaca.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão descrita no prontuário refere-se à lesão na artéria diagonal (DA) detectada durante a avaliação angiográfica, o que não é uma lesão da parede cardíaca. A escolha do código NE82.3 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA01": {
+      "term_original": "hipertenso prévio",
+      "capitulo": "11",
+      "confidence_embedding": 0.8421,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A paciente é descrita como hipertenso prévio, o que sugere uma doença cardíaca hipertensiva crônica. A presença de cardiopatia isquêmica e insuficiência renal crônica também aponta para a possibilidade de hipertensão crônica.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do prontuário menciona a hipertensão prévia, o que sugere uma doença cardíaca hipertensiva crônica. A presença de cardiopatia isquêmica e insuficiência renal crônica também aponta para a possibilidade de hipertensão crônica. Portanto, o código CID-11 BA01 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "GB70.00": {
+      "term_original": "gota",
+      "capitulo": "16",
+      "confidence_embedding": 0.7481,
+      "descricao_cid": "Representação de doença CID-11: Cálculo de Staghorn. Definição: Condição do rim, caracterizada por cálculos grandes, ramificados, de estruvita ou de carbonato de cálcio apatita dentro da pelve renal e se estendendo para uma ou mais extensões caliciais, e febre, hematúria ou dor em flanco, levando à insuficiência renal e sepse com risco de vida. Essa condição pode estar associada a infecção do trato urinário. A confirmação é feita por exame de imagem da região abdominal.",
+      "classification_reasoning": "A escolha do código GB70.00 se baseia na presença de gota, que é uma referência à formação de cálculos renais ou cistos múltiplos no rim, característica da síndrome de Staghorn.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A gota mencionada no prontuário refere-se à doença de gota, que é uma condição articular e não renal. A escolha do código GB70.00, que se refere a cálculos renais ou cistos múltiplos no rim, não representa fielmente o termo descrito no prontuário. Portanto, o código CID-11 atribuído é incorreto e deve ser removido.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA40.Y": {
+      "term_original": "angina",
+      "capitulo": "11",
+      "confidence_embedding": 0.8201,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A angina é uma característica clínica presente no paciente, referente a dor ou desconforto no peito, associado a obstrução das artérias coronárias. A opção BA40.Y melhor se adequa ao termo extraído 'angina' pois representa 'Outra angina pectoris especificada'. Embora haja outras opções que mencionem doenças cardíacas, a opção BA40.Y é mais precisa para descrever a síndrome de angina apresentada pelo paciente.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção BA40.Y 'Outra angina pectoris especificada' é a mais precisa para descrever a síndrome de angina apresentada pelo paciente, pois a angina é uma característica clínica presente no prontuário e não há contradição óbvia ou alucinação. A lógica clínica para manter essa opção é que a angina é um sintoma comum em doenças cardíacas e a opção BA40.Y captura essa informação de forma precisa.",
+      "tipo_erro_auditoria": null
+    },
+    "BA51": {
+      "term_original": "cardiopata isquêmico isquêmico",
+      "capitulo": "11",
+      "confidence_embedding": 0.7963,
+      "descricao_cid": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas.",
+      "classification_reasoning": "A cardiopatia isquêmica é a condición que melhor se adapta ao contexto clínico do paciente, pois apresenta história de revascularização do miocárdio e infarto do miocárdio prévios, o que está relacionado à cardiopata isquêmica descrita no prontuário.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A cardiopata isquêmica é a condição que melhor se adapta ao contexto clínico do paciente, pois apresenta história de revascularização do miocárdio e infarto do miocárdio prévios. A descrição do prontuário menciona IAM em março/02 e SCA em outubro/03, o que é consistente com a definição da cardiopata isquêmica CID-11. Além disso, a presença de restenose intra-stent e lesão em 1a diagonal após avaliação angiográfica também suporta a classificação como cardiopata isquêmica.",
+      "tipo_erro_auditoria": null
+    },
+    "NE82.03": {
+      "term_original": "sca",
+      "capitulo": "22",
+      "confidence_embedding": 0.7351,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia induzida por estimulação (por marcapasso). Definição: ",
+      "classification_reasoning": "A escolha por Código NE82.03 se deve ao fato de o paciente ter apresentado SCA (Síndrome do Coração Acalmoado), que é um tipo específico de cardiomiopatia induzida por estimulação, apoiada pela presença de ACTP + stent em Cx e história prévia de IAM.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A SCA (Síndrome do Coração Acalmoado) é um tipo de síndrome cardíaca, não uma cardiomiopatia induzida por estimulação. O código CID-11 NE82.03 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GB40": {
+      "term_original": "insuficiência renal crônica",
+      "capitulo": "16",
+      "confidence_embedding": 0.832,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A insuficiência renal crônica é uma condição que pode estar relacionada a doenças glomerulares, e o código GB40 (Síndrome nefrítica) é mais preciso para descrever essa condição do que os outros opções, pois apresenta sintomas como oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria, que são compatíveis com a situação clínica do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A insuficiência renal crônica descrita no prontuário não apresenta sintomas como oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria, que são compatíveis com a situação clínica do paciente. Além disso, o termo 'insuficiência renal crônica' não é uma síndrome nefrítica (GB40), mas sim uma condição renal crônica. Portanto, o código CID-11 atribuído não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA22.0": {
+      "term_original": "dispnéia progressiva",
+      "capitulo": "12",
+      "confidence_embedding": 0.7252,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A paciente apresentou dispnéia progressiva, o que é consistente com uma exacerbação aguda de doença pulmonar obstrutiva crônica (DPOC). Além disso, a história do paciente inclui cardiopatia isquêmica, hipertensão e insuficiência renal crônica, o que aumenta a probabilidade de DPOC. A escolha desse código é justificada pela apresentação clínica da dispnéia progressiva e pelas doenças subjacentes do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dispnéia progressiva pode ser um sintoma de várias doenças, incluindo cardiopatia isquêmica e insuficiência renal crônica. No entanto, a escolha do código CA22.0 (Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada) é excessivamente específica e não representa fielmente o termo 'dispnéia progressiva' descrito no prontuário. A análise clínica do paciente sugere que a dispnéia progressiva pode ser um sintoma de cardiopatia isquêmica ou insuficiência renal crônica, e não necessariamente uma exacerbação aguda de doença pulmonar obstrutiva crônica.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "8B11": {
+      "term_original": "isquemia recente",
+      "capitulo": "08",
+      "confidence_embedding": 0.7359,
+      "descricao_cid": "Representação de doença CID-11: Acidente cerebral isquêmico. Definição: Disfunção neurológica focal aguda causada por infarto focal em uma ou várias localizações do cérebro. A evidência de infarto agudo pode ser proveniente de a) duração dos sintomas por mais de 24 horas, ou b) neuroimagem ou outra técnica na área clinicamente relevante do cérebro. O termo não inclui infarto da retina.",
+      "classification_reasoning": "A elevação discreta de CK-MB e a presença de angina sugerem que o paciente está sofrendo de isquemia recente, apoiando a escolha do código 8B11 (Acidente Cerebral Isquêmico).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A elevação discreta de CK-MB e a presença de angina não são sintomas de isquemia recente, mas sim de doença cardíaca. A descrição do prontuário refere-se à cardiopata isquêmica e ao procedimento de angioplastia, não há evidência clínica de acidente cerebral isquêmico.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NE82.1Z": {
+      "term_original": "sca s/ st",
+      "capitulo": "22",
+      "confidence_embedding": 0.7144,
+      "descricao_cid": "Representação de doença CID-11: Disfunção do marcapasso ou cardioversor desfibrilador implantável, não especificada. Definição: ",
+      "classification_reasoning": "A escolha pela opção NE82.1Z é mais precisa porque o termo 'sca s/ st' sugere uma situação de parada cardíaca (SCA) seguida da reanimação cardiopulmonar, sem indicação de disfunção do marcapasso ou cardioversor desfibrilator implantável. A opção NE82.1Z se ajusta melhor à descrição clínica apresentada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'sca s/ st' sugere uma situação de parada cardíaca seguida da reanimação cardiopulmonar, mas a descrição clínica apresenta SCA como um evento passado, não há indicação de disfunção do marcapasso ou cardioversor desfibrilador implantável. A opção NE82.1Z não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "CB01": {
+      "term_original": "edema agudo de pulmão",
+      "capitulo": "12",
+      "confidence_embedding": 0.7393,
+      "descricao_cid": "Representação de doença CID-11: Edema pulmonar. Definição: Edema pulmonar é uma condição causada por excesso de líquido nos pulmões, que se acumula nos sacos alveolares do pulmão, dificultando a respiração.",
+      "classification_reasoning": "A escolha do código CB01, Edema pulmonar, é a mais precisa porque o paciente apresentou dispnéia progressiva e angina, indicando um edema pulmonar agudo. Além disso, o termo 'Edema Agudo de Pulmão' está explícito no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CB01, Edema pulmonar, é uma classificação muito geral e não representa fielmente o termo 'Edema Agudo de Pulmão' descrito no prontuário. O paciente apresentou dispnéia progressiva e angina, indicando um edema pulmonar agudo, mas a descrição do prontuário é mais específica e refere-se ao tratamento clínico para SCA e Edema Agudo de Pulmão, o que não se encaixa com a definição do código CB01. Além disso, a justificativa do sistema não é convincente, pois o termo 'Edema Agudo de Pulmão' está explícito no prontuário e não há evidência clínica para sustentar a escolha do código CB01.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BA41": {
+      "term_original": "iam inf",
+      "capitulo": "11",
+      "confidence_embedding": 0.7781,
+      "descricao_cid": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)",
+      "classification_reasoning": "A opção BA41 se refere a Infarto Agudo do Miocárdio (IAM), que é a condição clínica mencionada no contexto como 'Cardiopata isquêmico (IAM inf mar/02 - ACTP + stent em Cx; SCA s/ ST em dez/03)'. O termo 'iam inf' indica um evento de infarto do miocárdio anterior, o que é compatível com a definição da codificação CID-11 BA41.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção BA41 se refere a Infarto Agudo do Miocárdio (IAM), que é a condição clínica mencionada no contexto como 'Cardiopata isquêmico (IAM inf mar/02 - ACTP + stent em Cx; SCA s/ ST em dez/03)'. O termo 'iam inf' indica um evento de infarto do miocárdio anterior, o que é compatível com a definição da codificação CID-11 BA41. Ajusta-se às diretrizes de auditoria, pois o código CID representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "prontuario_id": 425,
+  "text": "Às 16H: CONSCIENTE, LÚCIDA, ORIENTADA, COMUNICATIVA, DEAMBULA COM AUXÍLIO, AFEBRIL, EUPNÉICA, NORMOCORADA, AVP EM MSD, ACEITA DIETA VO, FOI RETIRADO SVD, NÃO APRESENTOU MICÇÃO ESPONTANEA NO PERÍODO DA TARDE, EVACUAÇÃO AUSENTE, DRENO DE PENROSE NO ABDOMEN COM CALCULOSE DA VESICULA BILIAR COM OUTRAS FORMAS DE COLECISTITE. Às 02:00: Chamado plantão novamente pela dor que o cliente referia, houve pedido que lavassemos a sonda, a mesma não possuia sistema de irrigação, conversado com Dr Vital Brasil, que pediu avaliação da Urologia, ele conversou com Dr Vital Brasil e decidiram que o Dr. TRAUMATISMOS MULTIPLOS NAO ESPECIFICADOS. Às 16:20: PCTE ENCONTRA-SE NA HEMODIALISE. ULCERA GASTRICA CRONICA OU NAO ESPECIFICADA COM HEMORRAGIA. PROVENIENTE DO CC ÀS 09:00. LUCIDA, ORIENTADA, REFERINDO LEVE ALGIA ABDOMINAL. APRESENTA SNG FECHADA (SOLICITO FRASCO), CURATIVO ENFAIXADO EM REGIÃO ABDOMINAL DE ASPECTO SECO EXTERNAMENTE, DRENO DE SUCTOR COM DÉBITO SANGUINOLENTO, SVD COM DÉBITO. MANTÉM A HERNIA INGUINAL.",
+  "entities": {
+    "Achado": [
+      "CONSCIENTE",
+      "LÚCIDA",
+      "ORIENTADA",
+      "COMUNICATIVA",
+      "AFEBRIL",
+      "EUPNÉICA",
+      "NORMOCORADA",
+      "EVACUAÇÃO",
+      "LUCIDA",
+      "DÉBITO",
+      "DEAMBULA COM AUXÍLIO",
+      "ACEITA DIETA VO",
+      "MICÇÃO ESPONTANEA",
+      "SNG FECHADA",
+      "ASPECTO SECO",
+      "DÉBITO SANGUINOLENTO"
+    ],
+    "Negação": [
+      "AFEBRIL",
+      "AUSENTE"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "AVP",
+      "HEMODIALISE",
+      "SVD",
+      "RETIRADO SVD",
+      "DRENO DE PENROSE",
+      "lavassemos a sonda",
+      "SNG FECHADA",
+      "CURATIVO ENFAIXADO",
+      "DRENO DE SUCTOR"
+    ],
+    "Abreviação": [
+      "AVP",
+      "MSD",
+      "Dr",
+      "PCTE",
+      "CC",
+      "SVD",
+      "ACEITA DIETA VO",
+      "RETIRADO SVD",
+      "SNG FECHADA"
+    ],
+    "Dispositivo Médico": [
+      "AVP",
+      "SVD",
+      "DRENO DE PENROSE",
+      "CURATIVO ENFAIXADO",
+      "DRENO DE SUCTOR"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD",
+      "ABDOMINAL",
+      "NO ABDOMEN",
+      "REGIÃO ABDOMINAL"
+    ],
+    "Função Fisiológica": [
+      "EVACUAÇÃO",
+      "DÉBITO",
+      "MICÇÃO ESPONTANEA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "plantão",
+      "Urologia",
+      "CC"
+    ],
+    "Sinal ou Sintoma": [
+      "dor",
+      "COM HEMORRAGIA"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "cliente",
+      "PCTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "avaliação"
+    ],
+    "Conceito Espacial": [
+      "EXTERNAMENTE"
+    ],
+    "Doença ou Síndrome": [
+      "CALCULOSE DA VESICULA BILIAR",
+      "ULCERA GASTRICA CRONICA"
+    ],
+    "Lesão ou Envenenamento": [
+      "TRAUMATISMOS MULTIPLOS"
+    ],
+    "Substância Corporal": [
+      "DÉBITO SANGUINOLENTO"
+    ],
+    "Anormalidade Anatômica": [
+      "HERNIA INGUINAL"
+    ]
+  },
+  "labels": {
+    "DC11.6": {
+      "term_original": "calculose da vesicula biliar",
+      "capitulo": "13",
+      "confidence_embedding": 0.7765,
+      "descricao_cid": "Representação de doença CID-11: Calculose de via biliar sem colangite ou colecistite. Definição: Cálculos na via biliar presentes sem inflamação de parede da vesícula biliar e via biliar.",
+      "classification_reasoning": "A presença de cálculo na vesicula biliar sem evidência de inflamação (colelitíase) é a mais adequada para descrever o sintoma apresentado pelo paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de cálculo na vesicula biliar é descrita no prontuário como 'calculose da vesicula biliar', que não se encaixa com a definição do código CID-11 DC11.6, que refere-se à representação de doença sem inflamação de parede da vesícula biliar e via biliar. A descrição no prontuário sugere uma colecistite, enquanto o código CID-11 se refere a um cálculo na via biliar isolado. Portanto, não há correspondência clínica entre o termo extraído e o código CID-11 atribuído.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "XA99Q6": {
+      "term_original": "sng fechada",
+      "capitulo": "X",
+      "confidence_embedding": 0.7364,
+      "descricao_cid": "Representação de doença CID-11: Ramo genital do nervo genitofemoral. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'sng fechada' é a Representação de doença CID-11: Ramo genital do nervo genitofemoral, pois a expressão refere-se à compressão ou lesão do nervo que inerva a bainha pélvica (pudendo).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A expressão 'sng fechada' não se refere à compressão ou lesão do nervo que inerva a bainha pélvica (pudendo), como descrito na justificativa do sistema. Em vez disso, parece-se referir a uma condição anatômica ou fisiológica relacionada à bainha pélvica, o que não é representado pela Representação de doença CID-11: Ramo genital do nervo genitofemoral.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DA60.3": {
+      "term_original": "ulcera gastrica cronica",
+      "capitulo": "13",
+      "confidence_embedding": 0.7426,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A descrição de 'ulcera gastrica cronica' é mais consistente com a opção DA60.3, que refere-se às úlceras de estresse do estômago, em contraste com as outras opções que não se relacionam diretamente com uma lesão crônica no estômago.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição de 'ulcera gastrica cronica' no prontuário não se encaixa com a definição da opção CID-11 DA60.3, que refere-se às úlceras de estresse do estômago. A descrição do prontuário sugere uma lesão crônica no estômago, enquanto a opção CID-11 DA60.3 se refere a lesões agudas da mucosa gástrica. Portanto, é necessário remover o código CID-11 DA60.3 e substituí-lo por um código que melhor represente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME01": {
+      "term_original": "débito",
+      "capitulo": "21",
+      "confidence_embedding": 0.7808,
+      "descricao_cid": "Representação de doença CID-11: Distensão abdominal. Definição: Esta é uma condição em que o abdômen parece cheio e tenso por causa do inchaço do abdômen, geralmente devido a um aumento da quantidade de gases intestinais, mas ocorre às vezes quando fluidos, substâncias ou massa estão se acumulando ou se expandindo no abdômen.",
+      "classification_reasoning": "A opção mais precisa para o termo 'débito' é a distensão abdominal (Código: ME01), pois no contexto clínico, o paciente apresenta um débito sanguinolenho na região abdominal, sugerindo uma possível obstrução ou compressão de vasos sangüineos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção ME01 (Distensão abdominal) não é adequada porque o termo 'débito' no prontuário refere-se ao fluxo de sangue sanguinolenho, não à distensão abdominal. A classificação ME01 não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NE81.0Z": {
+      "term_original": "débito sanguinolento",
+      "capitulo": "22",
+      "confidence_embedding": 0.7461,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A escolha foi pela opção NE81.0Z porque a descrição 'Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte' se encaixa melhor com o termo 'débito sanguinolento' encontrado no contexto clínico, que refere uma hemorragia ou sangramento em algum lugar do corpo, provavelmente relacionado ao drenagem de suctor com débito sanguinolento.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 NE81.0Z não é clinicamente coerente com o prontuário, pois a descrição do código refere-se a hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, enquanto no prontuário se refere a débito sanguinolento em contexto de drenagem de suctor. A lógica clínica sugere que o termo 'débito sanguinolento' se refere a uma hemorragia ou sangramento específico, não um procedimento complicado. Portanto, é necessário remover o código CID-11 NE81.0Z e substituí-lo por um código mais adequado à descrição clínica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME00": {
+      "term_original": "evacuação",
+      "capitulo": "21",
+      "confidence_embedding": 0.7816,
+      "descricao_cid": "Representação de doença CID-11: Síndrome compartimental abdominal. Definição: A síndrome compartimental abdominal é uma condição de disfunção orgânica causada pelo aumento da pressão intra-abdominal (hipertensão intra-abdominal), possivelmente devido a hemorragia intra-abdominal, hematoma retroperitoneal ou edema intestinal. Ocorre frequentemente após intervenção cirúrgica ou traumatismo, ou frequentemente associada a condição séptica. A importância desta entidade clínica foi reconhecida recentemente, no final do século XX. Normalmente, a distensão abdominal devida a lesão intestinal isquêmica primária foi excluída desta entidade clínica.",
+      "classification_reasoning": "A opção ME00, Síndrome compartimental abdominal, é a mais precisa para o termo 'evacuação' no contexto clínico. A presença de dor abdominal aguda e distensão abdominal sugere que a paciente apresenta uma situação crítica de síndrome compartimental abdominal, caracterizada por aumento da pressão intra-abdominal, o que pode levar à falta de evacuação intestinal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção ME00, Síndrome compartimental abdominal, não é a mais precisa para o termo 'evacuação' no contexto clínico. A paciente apresenta sintomas de colelitase e dor abdominal aguda, mas não há evidência de síndrome compartimental abdominal. Além disso, a falta de evacuação intestinal pode ser relacionada à obstrução intestinal ou outra condição que não é abordada pela entidade ME00.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "XA9M74": {
+      "term_original": "aspecto seco",
+      "capitulo": "X",
+      "confidence_embedding": 0.7247,
+      "descricao_cid": "Representação de doença CID-11: Cavidade abdominal. Definição: ",
+      "classification_reasoning": "O termo 'aspecto seco' se refere à descrição de uma lesão ou ferida na região abdominal, o que é compatível com a representação CID-11 da cavidade abdominal.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do prontuário menciona 'aspecto seco' na região abdominal, o que é compatível com a representação CID-11 da cavidade abdominal. Ajuste clínico e lógico para manter a codificação.",
+      "tipo_erro_auditoria": null
+    },
+    "DC82.0": {
+      "term_original": "com hemorragia",
+      "capitulo": "13",
+      "confidence_embedding": 0.7727,
+      "descricao_cid": "Representação de doença CID-11: Divertículo do intestino grosso com hemorragia. Definição: Condição morfológica na qual há uma pequena bolsa chamada divertículo na parede do intestino grosso, com hemorragia.",
+      "classification_reasoning": "A opção mais precisa para o termo 'com hemorragia' é a diverticulose do intestino grosso com hemorragia, pois a descrição do prontuário refere-se à evacuação ausente e ao dreno de Penrose no abdome com calculose da vesícula biliar, o que sugere uma lesão abdominal com hemorragia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção DC82.0 não representa fielmente o termo 'com hemorragia' descrito no prontuário. A descrição do prontuário refere-se a uma lesão abdominal com hemorragia, enquanto o código CID-11 DC82.0 se refere especificamente à diverticulose do intestino grosso com hemorragia. Além disso, não há nenhuma menção ao intestino grosso ou ao divertículo no prontuário, o que sugere uma classificação incorreta.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA33": {
+      "term_original": "hernia inguinal",
+      "capitulo": "15",
+      "confidence_embedding": 0.7036,
+      "descricao_cid": "Representação de doença CID-11: Transtorno interno do joelho. Definição: Transtorno interno do joelho (TIJ) é uma condição crônica do joelho devido à lesão, ruptura ou transtorno do menisco do joelho, ou ruptura parcial ou completa dos ligamentos cruzados, com ou sem lesão do ligamento capsular, que resulta em um processo contínuo ou intermitente de sinais e sintomas como dor, instabilidade ou mobilidade anormal do joelho.\r\n\r\nNas situações em que o transtorno é causado por trauma, deverá ser utilizado o código de \"Lesões, envenenamentos ou algumas outras consequências de causas externas\", independentemente do tempo decorrido desde a lesão.",
+      "classification_reasoning": "A escolha do código FA33 é mais precisa para o termo 'hernia inguinal' dentro do contexto clínico, pois trata-se de uma lesão interna do joelho relacionada à ruptura ou transtorno do menisco do joelho. O uso do termo 'inguinal' na expressão 'hernia inguinal' sugere a relação com o joelho e não com outro tipo de lesão.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código FA33 é destinado a representar um Transtorno Interno do Joelho (TIJ), o que não está relacionado à hernia inguinal. A descrição do prontuário refere-se a uma lesão interna no abdome, e não no joelho. Portanto, o código CID-11 atribuído não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ND36": {
+      "term_original": "traumatismos multiplos",
+      "capitulo": "22",
+      "confidence_embedding": 0.7685,
+      "descricao_cid": "Representação de doença CID-11: Outros traumatismos envolvendo regiões múltiplas do corpo, não classificados em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'traumatismos multiplos' é ND36, pois essa definição CID-11 se refere a outros traumatismos envolvendo regiões múltiplas do corpo, não classificados em outra parte. Isso coincide com o contexto clínico que menciona 'TRAUMATISMOS MULTIPLOS NAO ESPECIFICADOS'.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção ND36 é justificada pois a definição CID-11 se refere a outros traumatismos envolvendo regiões múltiplas do corpo, não classificados em outra parte. Isso coincide com o contexto clínico que menciona 'TRAUMATISMOS MULTIPLOS NAO ESPECIFICADOS'. A codificação é clinicamente coerente e reflete fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MD81.2": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7929,
+      "descricao_cid": "Representação de doença CID-11: Dor abdominal generalizada. Definição: Dor, uma sensação desagradável de desconforto ocorrendo em variados graus de gravidade, ou cólicas, contrações espasmódicas causando dor intensa na região abdominal em geral.",
+      "classification_reasoning": "A dor é descrita como leve algia abdominal, sugerindo uma dor abdominal generalizada e não necessariamente relacionada a uma lesão ou cirurgia específicas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor descrita como 'leve algia abdominal' não é suficientemente específica para justificar a codificação MD81.2, que se refere a uma dor abdominal generalizada. A descrição do prontuário sugere que a dor pode estar relacionada à lesão ou cirurgia específicas (calculose da vesicula biliar e outras formas de colelitese), portanto, é necessário remover essa codificação e substituí-la por uma mais específica.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MD81.3": {
+      "term_original": "micção espontanea",
+      "capitulo": "21",
+      "confidence_embedding": 0.7587,
+      "descricao_cid": "Representação de doença CID-11: Abdome agudo. Definição: Síndrome clínica com dor abdominal aguda, que é intensa e de início rápido. O abdome agudo pode ser causado por uma variedade de transtornos, lesões ou doenças.",
+      "classification_reasoning": "A opção mais precisa para o termo 'micção espontanea' é a entidade CID-11 Abdome agudo (Código MD81.3), pois a paciente não apresentou micção espontânea no período da tarde, o que sugere uma lesão ou distúrbio na via urinária.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção do sistema é incorreta porque o termo 'micção espontânea' não se refere a uma síndrome clínica de abdome agudo. A paciente não apresentou micção espontânea no período da tarde, mas isso não significa que ela tenha um abdome agudo. A entidade CID-11 Abdome agudo (Código MD81.3) não é relacionada à falta de micção espontânea.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

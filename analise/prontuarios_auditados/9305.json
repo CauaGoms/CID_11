@@ -1,0 +1,253 @@
+{
+  "prontuario_id": 308,
+  "text": "08:20hs- Glasgow 15, pupilas isocóricas fotorreagentes, SNE com dieta a 60ml/h, traqueostomizada, em ventilação mecânica modo PSV, Ps 18, PEEP 6, fiO2 35%, secreção traqueobrônquica amarela em média quantidade, monitorizada, estável hemodinamicamente, MV global diminuído com roncos difusos, acesso venoso periférico em MSD com Imunoglobulina a 21ml/h, abdome globoso, flácido, indolor a palpação, RHA+, diurese espontânea efetiva, evacuação ausente, extremidades bem perfundidas, higienizada e mobilizada no leito, pele íntegra, escala de braden: 12 (risco elevado). Enfermeira Florence Nightingale  DOR TORÁCICA NÃO ESPECIFICADA",
+  "entities": {
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "pupilas"
+    ],
+    "Achado": [
+      "isocóricas",
+      "fotorreagentes",
+      "traqueostomizada",
+      "monitorizada",
+      "flácido",
+      "RHA+",
+      "evacuação",
+      "higienizada",
+      "Glasgow 15",
+      "secreção traqueobrônquica amarela",
+      "estável hemodinamicamente",
+      "diurese espontânea efetiva",
+      "extremidades bem perfundidas",
+      "pele íntegra"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SNE",
+      "dieta",
+      "traqueostomizada",
+      "Ps",
+      "PEEP",
+      "fiO2",
+      "higienizada",
+      "ventilação mecânica",
+      "modo PSV",
+      "acesso venoso periférico",
+      "mobilizada no leito"
+    ],
+    "Abreviação": [
+      "SNE",
+      "60ml/h",
+      "Ps",
+      "PEEP",
+      "fiO2",
+      "MSD",
+      "RHA+",
+      "modo PSV",
+      "MV global diminuído"
+    ],
+    "Dispositivo Médico": [
+      "SNE",
+      "acesso venoso periférico"
+    ],
+    "Conceito Quantitativo": [
+      "60ml/h",
+      "18",
+      "6",
+      "35%",
+      "21ml/h"
+    ],
+    "Conceito Qualitativo": [
+      "6",
+      "média quantidade",
+      "risco elevado"
+    ],
+    "Procedimento Diagnóstico": [
+      "monitorizada",
+      "palpação"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD",
+      "abdome"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "Imunoglobulina"
+    ],
+    "Substância Farmacológica": [
+      "Imunoglobulina"
+    ],
+    "Fator Imunológico": [
+      "Imunoglobulina"
+    ],
+    "Sinal ou Sintoma": [
+      "globoso",
+      "secreção traqueobrônquica amarela",
+      "MV global diminuído",
+      "roncos difusos",
+      "escala de braden : 12",
+      "DOR TORÁCICA"
+    ],
+    "Negação": [
+      "indolor",
+      "ausente"
+    ],
+    "Função Fisiológica": [
+      "evacuação",
+      "diurese espontânea efetiva"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ]
+  },
+  "labels": {
+    "EF02.3": {
+      "term_original": "pele íntegra",
+      "capitulo": "14",
+      "confidence_embedding": 0.8261,
+      "descricao_cid": "Representação de doença CID-11: Celulite. Definição: A celulite é um desarranjo arquitetônico comum do tecido adiposo subcutâneo que resulta em ondulações e nodularidade da pele sobrejacente. É mais comum em mulheres pós-púberes e acomete principalmente a região pélvica, membros inferiores e abdome. Acredita-se que resulte da herniação de múltiplos pequenos agregados de gordura subcutânea através do tecido fibroso na junção dermo-hipodérmica. A obesidade predispõe, mas não é necessária para o seu desenvolvimento. O termo está em uso generalizado, mas é enganoso, pois não tem nada a ver com \"cellulitis\" (NT: infecção de pele). A condição é assintomática, mas pode causar constrangimento considerável.",
+      "classification_reasoning": "A opção mais precisa é a celulite (EF02.3), pois o termo 'pele íntegra' não sugere doenças inflamatórias ou imunológicas, nem reações adversas à matéria orgânica. Acelulite é um desarranjo arquitetônico do tecido adiposo subcutâneo comum que não envolve inflamação ou lesão na pele, mantendo-a íntegra.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A celulite (EF02.3) é um desarranjo arquitetônico do tecido adiposo subcutâneo, enquanto o termo 'pele íntegra' refere-se à integridade da pele sem lesões ou inflamações. A condição descrita no prontuário não apresenta características de celulite e a classificação é incompatível com a descrição clínica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB32.20": {
+      "term_original": "flácido",
+      "capitulo": "15",
+      "confidence_embedding": 0.803,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A descrição do termo 'flácido' refere-se à perda de tonus muscular, o que é um sintoma característico da rabdomiólise idiopática. Além disso, a abdome globoso e flácido também aponta para essa condição.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A abdome globoso e flácido não é um sintoma exclusivo da rabdomiólise idiopática. A perda de tonus muscular pode ser causada por várias razões, incluindo lesão muscular, doenças neuromusculares ou até mesmo agravamento de uma condição preexistente. Além disso, o termo 'flácido' não é um termo médico específico para rabdomiólise idiopática e pode ser aplicado a outras situações clínicas.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MA15.0": {
+      "term_original": "monitorizada",
+      "capitulo": "21",
+      "confidence_embedding": 0.7768,
+      "descricao_cid": "Representação de doença CID-11: Bacteremia. Definição: Presença de bactérias no sangue. Isto pode ser detectado, por exemplo, por uma hemocultura positiva.",
+      "classification_reasoning": "O termo 'monitorizada' sugere que o paciente está sendo monitorado regularmente, provavelmente para avaliar seu estado clínico e resposta ao tratamento. A presença de bactérias no sangue (Bacteremia) é um possível resultado da traqueostomia e ventilação mecânica, tornando a escolha do código MA15.0 a mais precisa para o contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 MA15.0 (Bacteremia) não é diretamente relacionada ao termo 'monitorizada' descrito no prontuário. A presença de bactérias no sangue pode ser um resultado da traqueostomia e ventilação mecânica, mas a monitorização do paciente não está necessariamente relacionada à Bacteremia. Além disso, o termo 'monitorizada' sugere que o paciente está sendo observado regularmente para avaliar seu estado clínico e resposta ao tratamento, o que não é diretamente relacionado à presença de bactérias no sangue.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF40.3": {
+      "term_original": "evacuação",
+      "capitulo": "21",
+      "confidence_embedding": 0.8015,
+      "descricao_cid": "Representação de doença CID-11: Ejaculação retrógrada. Definição: A ejaculação retrógrada é uma condição na qual o sêmen, que normalmente é ejaculado pela uretra, é redirecionado para a bexiga urinária. A ejaculação retrógrada é tipicamente acompanhada por orgasmo subjetivo, embora o homem possa notar que a liberação de sêmen é limitada ou ausente. A ejaculação retrógrada ocorre mais comumente como uma complicação da ressecção transuretral da próstata, porém também pode ser causada por outra cirurgia pélvica, disfunção do sistema nervoso ou uso de agentes farmacológicos. A confirmação é feita pela identificação de espermatozoides em uma amostra de urina.",
+      "classification_reasoning": "A opção mais precisa para o termo 'evacuação' no contexto clínico é a ejaculação retrógrada (MF40.3), pois não há qualquer indicação de problemas urológicos ou ginecológicos no prontuário, e a evacuação ausente sugere que a opção mais provável é relacionada à função intestinal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 MF40.3 'Ejaculação retrógrada' não é clinicamente coerente com o prontuário, pois a evacuação ausente mencionada no prontuário refere-se à função intestinal e não está relacionada à ejaculação retrógrada. A opção mais precisa para o termo 'evacuação' no contexto clínico é uma condição que envolve a eliminação de fezes, como por exemplo, obstipação (K56.9) ou constipação (K56.8).",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA05.1": {
+      "term_original": "traqueostomizada",
+      "capitulo": "12",
+      "confidence_embedding": 0.7575,
+      "descricao_cid": "Representação de doença CID-11: Traqueíte aguda. Definição: Esta condição se refere à inflamação aguda da traqueia.",
+      "classification_reasoning": "A presença de traqueostomização e secreção traqueobrônquica amarela em média quantidade no contexto do prontuário sugere uma lesão na traqueia, justificando a escolha da opção CA05.1 - Traqueíte aguda.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de traqueostomização e secreção traqueobrônquica amarela em média quantidade no prontuário sugere uma lesão na traqueia, mas a condição descrita pelo código CID-11 CA05.1 - Traqueíte aguda é uma inflamação aguda da traqueia, que não se alinha com o contexto do prontuário. A lesão descrita no prontuário parece ser mais relacionada à lesão traqueal crônica ou subacútea do que uma inflamação aguda.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BB82.0": {
+      "term_original": "mv global diminuído",
+      "capitulo": "11",
+      "confidence_embedding": 0.7404,
+      "descricao_cid": "Representação de doença CID-11: Estenose tricúspide reumática com insuficiência. Definição: Insuficiência da valva tricúspide devida a anormalidades nos folhetos pode ser secundária a cardiopatia reumática. Quando devida a esta última, geralmente ocorre em combinação com estenose tricúspide",
+      "classification_reasoning": "A opção mais precisa para o termo 'mv global diminuído' é a estenose tricúspide reumática com insuficiência, pois a redução da circulação sistêmica pode estar relacionada à compressão cardíaca causada pela doença. Além disso, a ausência de sintomas específicos de outras opções sugere uma lesão mais geral nos sistemas cardiovascular e respiratório.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BB82.0 não representa fielmente o termo 'mv global diminuído' descrito no prontuário, que se refere a uma redução na circulação sistêmica, enquanto a estenose tricúspide reumática com insuficiência é uma doença cardíaca específica. A classificação não está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB23.J": {
+      "term_original": "higienizada",
+      "capitulo": "21",
+      "confidence_embedding": 0.7712,
+      "descricao_cid": "Representação de doença CID-11: Má higiene pessoal. Definição: Falta de vontade ou incapacidade de manter um nível de limpeza pessoal que esteja de acordo com os padrões da cultura, sociedade ou ambiente da pessoa, como não tomar banho ou escovar os dentes.",
+      "classification_reasoning": "A higienização referida no contexto clínico se refere à ausência de má higiene pessoal, e não ao término MF50.0 (Micção frequente) ou MF55 (Poliúria), que não têm relação com a aparição descuidada. Já MB23.7 (Representação de doença CID-11: Aparência descuidada) é o código mais preciso para descrever essa condição.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A higienização referida no prontuário não se refere à ausência de má higiene pessoal, mas sim ao término da realização de uma ação que mantém a limpeza do paciente. O código CID-11 MB23.J não representa fielmente essa condição clínica e é demasiado específico para descrever apenas a ausência de higienização. A representação mais adequada seria o código MB23.7 (Representação de doença CID-11: Aparência descuidada), que descreve a aparição descuidada do paciente, incluindo a falta de higienização.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "CA23.0": {
+      "term_original": "secreção traqueobrônquica amarela",
+      "capitulo": "12",
+      "confidence_embedding": 0.7426,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica. Definição: Asma alérgica é o fenótipo de asma mais facilmente reconhecido. Frequentemente, inicia-se na infância e é associada a um histórico pessoal ou familiar de doença alérgica, como eczema, rinite alérgica, ou alergia a drogas e alimentos. O exame do escarro induzido desses pacientes, antes do tratamento, geralmente revela uma inflamação eosinofílica das vias aéreas. O principal gatilho é a exposição a alérgenos, como o ácaro da poeira doméstica e ao pólen, aos quais o indivíduo tenha sido, previamente, sensibilizado. Os pacientes com esse fenótipo de asma, usualmente, respondem bem a corticoide inalatório e à imunoterapia alérgeno-específica.",
+      "classification_reasoning": "A secreção traqueobrônquica amarela sugere uma resposta inflamatória na via aérea, o que é consistente com a asma alérgica, doença caracterizada por inflamação eosinofílica das vias aéreas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A secreção traqueobrônquica amarela não é um sintoma característico da asma alérgica. A descrição do código CID-11 CA23.0 refere-se à asma alérgica, que é uma doença crônica caracterizada por inflamação eosinofílica das vias aéreas. A secreção traqueobrônquica amarela pode ser um sintoma de várias condições clínicas, incluindo infecções respiratórias e outras doenças pulmonares. Portanto, o código CID-11 CA23.0 não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A63.01": {
+      "term_original": "glasgow 15",
+      "capitulo": "08",
+      "confidence_embedding": 0.7488,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica febril complexa. Definição: Crises epilépticas febris com duração superior a 15 minutos ou episódios múltiplos ocorrendo em 24 horas ou crises epilépticas com características focais.",
+      "classification_reasoning": "O termo 'Glasgow 15' é um indicador de coma grave, caracterizando uma severidade moderada a gravíssima do estado clínico do paciente. A opção mais precisa para este termo é a Crise epiléptica febril complexa (Código: 8A63.01), pois a definição desse código inclui crises epilépticas com duração superior a 15 minutos, o que se ajusta ao valor de Glasgow 15.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'Glasgow 15' não representa uma crise epiléptica febril complexa, mas sim um valor de escala de coma que indica a gravidade do estado clínico do paciente. A opção mais precisa para este termo é o código CID-11 correspondente à Coma Grave (8A62.01), pois a definição desse código inclui valores de Glasgow entre 3 e 12, não superior a 15 minutos.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8D8A.2": {
+      "term_original": "fotorreagentes",
+      "capitulo": "08",
+      "confidence_embedding": 0.7443,
+      "descricao_cid": "Representação de doença CID-11: Anisocoria episódica. Definição: Este é um grupo de transtornos em que movimentos pupilares periódicos levam a mudanças de tamanho. Isso ocorre devido ao tônus parassimpático ou simpático anormal.",
+      "classification_reasoning": "O termo 'fotorreagentes' refere-se à reação das pupilas ao estímulo luminoso, o que é característico da anisocoria episódica (Código: 8D8A.2). A escolha desse código é justificada pela presença de pupilas isocóricas fotorreagentes no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A anisocoria episódica (Código: 8D8A.2) se refere a mudanças de tamanho das pupilas, não à reação das pupilas ao estímulo luminoso (fotorreagentes). A escolha desse código é inapropriada pois não há evidência clínica de anisocoria episódica no prontuário. O termo 'fotorreagentes' se refere a uma reação normal das pupilas e não é um sintoma patológico.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD49.8": {
+      "term_original": "roncos difusos",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A presença de roncos difusos no prontuário sugere uma possível doença respiratória, provavelmente relacionada à traqueostomia e ventilação mecânica. A escolha do código BD49.8 (Representação de doença CID-11: Disfagia) é mais precisa para o termo 'roncos difusos', pois a disfagia pode ser caracterizada por dificuldade em engolir, levando a roncos e outras manifestações respiratórias.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de roncos difusos no prontuário não está diretamente relacionada à disfagia. A disfagia é uma condição caracterizada por dificuldade em engolir, enquanto os roncos difusos podem ser causados por várias razões, incluindo problemas respiratórios ou traqueostomia. Portanto, o código BD49.8 (Disfagia) não representa fielmente o termo 'roncos difusos'.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A80.2": {
+      "term_original": "isocóricas",
+      "capitulo": "08",
+      "confidence_embedding": 0.7878,
+      "descricao_cid": "Representação de doença CID-11: Enxaqueca crônica. Definição: Cefaleia que ocorre em 15 ou mais dias por mês por mais de três meses, que, em pelo menos oito dias por mês, tem características de cefaleia migranosa e não está associada ao uso excessivo de medicamentos.",
+      "classification_reasoning": "O termo 'isocóricas' refere-se às pupilas, que são isocóricas fotorreagentes no contexto do prontuário. A escolha do código 8A80.2 (Enxaqueca crônica) é a mais precisa porque a enxaqueca pode causar alterações reativas na reação pupilar, incluindo pupilas isocóricas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A enxaqueca crônica (8A80.2) não está relacionada às pupilas isocóricas fotorreagentes descritas no prontuário. A escolha do código CID-11 é uma abstração puramente imaginária e não há nenhuma base clínica para essa associação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA25.20": {
+      "term_original": "globoso",
+      "capitulo": "15",
+      "confidence_embedding": 0.7179,
+      "descricao_cid": "Representação de doença CID-11: Gota tofácea. Definição: Os tofos são deposições de cristais de urato monossódico nos tecidos de pacientes com hiperuricemia e podem estar associados a outras manifestações como a artropatia da gota. Eles são identificados principalmente na pele e no tecido subcutâneo. A hélice da orelha é uma das localizações mais comuns de acometimento dos tofos.",
+      "classification_reasoning": "A descrição do termo 'globoso' faz referência ao abdome da paciente, que é descrito como 'globoso', o que sugere a presença de edema ou inchaço abdominal. A escolha do código FA25.20 (Gota tofácea) é baseada na possibilidade de hiperuricemia e artropatia associada à doença, o que poderia causar edema abdominal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'globoso' não é específica o suficiente para justificar a escolha do código FA25.20 (Gota tofácea). A presença de edema abdominal pode ser causada por várias razões, e a hiperuricemia e artropatia associadas à gota tofácea não são necessariamente relacionadas ao termo 'globoso'. Além disso, o prontuário não apresenta evidências clínicas de hiperuricemia ou artropatia.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MG30.21": {
+      "term_original": "dor torácica",
+      "capitulo": "21",
+      "confidence_embedding": 0.7876,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática.",
+      "classification_reasoning": "A dor torácica não especificada é mais consistente com a dor crônica pós-operatória, considerando que o paciente é traqueostomizado e em ventilação mecânica, sugerindo um procedimento cirúrgico recente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor torácica não especificada não é uma condição de dor crônica pós-operatória, como descrita no código CID-11. A dor torácica pode ser causada por várias razões, incluindo doenças cardíacas, pulmonares ou pleurais, e não há evidência clínica suficiente para associá-la a um procedimento cirúrgico recente. Além disso, o prontuário descreve uma paciente com traqueostomia e ventilação mecânica, o que sugere uma doença respiratória grave, e não há relação clara entre isso e a dor torácica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "VW21": {
+      "term_original": "escala de braden : 12",
+      "capitulo": "V",
+      "confidence_embedding": 0.7112,
+      "descricao_cid": "Representação de doença CID-11: Cuidado com partes do corpo. Definição: ",
+      "classification_reasoning": "A escala de Braden é um instrumento utilizado para avaliar o risco de desenvolvimento de úlceras pressure ulcers em pacientes com mobilidade reduzida. Nesse contexto, a pontuação de 12 indica que o paciente está com um alto risco de desenvolver úlceras por pressão. Isso justifica a escolha do código VW21.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escala de Braden é um instrumento utilizado para avaliar o risco de desenvolvimento de úlceras pressure ulcers, não uma condição clínica diretamente relacionada à dor torácica não especificada. A escolha do código VW21 não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

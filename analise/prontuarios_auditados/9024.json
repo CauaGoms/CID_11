@@ -1,0 +1,50 @@
+{
+  "prontuario_id": 768,
+  "text": "po de epifiodese de joelho esquerdo ha 2 semanas. fo limpa, seca, sem sinais de infecçao. \ncd:\noriento deambulação com mie,\nretorno ambulatorial,\ncuidados gerais.\nr2 Lucas \nDoutor Vital Brasil ",
+  "entities": {
+    "Abreviação": [
+      "po",
+      "fo",
+      "cd",
+      "r2",
+      "deambulação com mie"
+    ],
+    "Conceito Temporal": [
+      "po"
+    ],
+    "Achado": [
+      "limpa",
+      "seca"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "oriento",
+      "retorno ambulatorial",
+      "cuidados gerais"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "r2"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "joelho esquerdo"
+    ],
+    "Sinal ou Sintoma": [
+      "sinais de infecçao"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "deambulação com mie",
+      "cuidados gerais"
+    ]
+  },
+  "labels": {
+    "NC90.1": {
+      "term_original": "sinais de infecçao",
+      "capitulo": "22",
+      "confidence_embedding": 0.7475,
+      "descricao_cid": "Representação de doença CID-11: Contusão do joelho. Definição: ",
+      "classification_reasoning": "A descrição da contusão do joelho se adequa ao termo 'sinais de infecçao' pois a epifiodese é uma lesão traumática que pode causar hematoma e edema, mas não necessariamente infecção.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A epifiodese é uma lesão traumática que não está relacionada a infecção. A descrição do prontuário não menciona sinais de infecção, apenas relata a lesão e o estado atual da paciente (limpa, seca e sem sinais de infecção). Portanto, a codificação NC90.1, que representa contusão do joelho, não é clínica ou coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

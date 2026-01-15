@@ -1,0 +1,141 @@
+{
+  "prontuario_id": 84,
+  "text": "Lucas, 72 ANOS\n- AP PREVIOS SEM LESOES MALIGNAS CONFORME LAUDO VERBAL DE PATOLOGISTA\n# FOTOENVELHIMENTO\n# DERMOABRASÃO QUÍMICA COM JESSNER 5 CAMADAS + ATA 20% - PACIENTE REFERE TER FEITO EM FACE\n# EM 16/6/15:\n- JESSNER 10 CAMADAS + AR EM DORSO MÃOS e mmss\n- JESSNER 5 CAMADAS + ATA 20% EM COLO E CERVICAL\n- LASER EM MMSS 2013\n# S: QUEIXA-SE DE RUGAS EM ANTEBRACOS\n# O: FOTOENVELHECIMENTO\n# P:\nORIENTACOES\nATA 20% CERVICAL ATE FURCULA \nJESSNER 10 +AR COLO\nAR EM ANTEBRACOS\nEM 10 DIAS VITACID PLUS NOITES ALTERNADAS\nRET EM 26/1/16\nR2 Doutor Vital Brazil ",
+  "entities": {
+    "Negação": [
+      "SEM"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "LAUDO"
+    ],
+    "Conceito Qualitativo": [
+      "VERBAL"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "PATOLOGISTA",
+      "R2",
+      "Doutor"
+    ],
+    "Sinal ou Sintoma": [
+      "FOTOENVELHIMENTO",
+      "QUEIXA-SE",
+      "FOTOENVELHECIMENTO",
+      "LESOES MALIGNAS"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Localização ou Região Corporal": [
+      "FACE",
+      "COLO",
+      "CERVICAL",
+      "FURCULA"
+    ],
+    "Substância Farmacológica": [
+      "AR",
+      "JESSNER 5 CAMADAS",
+      "JESSNER 10 CAMADAS",
+      "ATA 20%",
+      "JESSNER 10",
+      "VITACID PLUS"
+    ],
+    "Substância Química Orgânica": [
+      "AR",
+      "JESSNER 5 CAMADAS",
+      "JESSNER 10 CAMADAS",
+      "ATA 20%",
+      "JESSNER 10",
+      "VITACID PLUS"
+    ],
+    "Abreviação": [
+      "AR",
+      "mmss",
+      "MMSS",
+      "RET",
+      "R2",
+      "AP PREVIOS",
+      "ATA 20%",
+      "JESSNER 10"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "mmss",
+      "MMSS",
+      "ANTEBRACOS"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "LASER",
+      "DERMOABRASÃO QUÍMICA",
+      "JESSNER 5 CAMADAS",
+      "ATA 20%",
+      "JESSNER 10 CAMADAS",
+      "JESSNER 10"
+    ],
+    "Dispositivo Médico": [
+      "LASER"
+    ],
+    "Achado": [
+      "RUGAS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ORIENTACOES",
+      "RET"
+    ],
+    "Conceito Quantitativo": [
+      "10"
+    ],
+    "Conceito Temporal": [
+      "DIAS"
+    ],
+    "Procedimento Diagnóstico": [
+      "AP PREVIOS"
+    ],
+    "Substância Química Inorgânica": [
+      "JESSNER 5 CAMADAS"
+    ],
+    "Substância Perigosa ou Venenosa": [
+      "VITACID PLUS"
+    ]
+  },
+  "labels": {
+    "6A21.01": {
+      "term_original": "queixa-se",
+      "capitulo": "06",
+      "confidence_embedding": 0.7252,
+      "descricao_cid": "Representação de doença CID-11: Transtorno esquizoafetivo, primeiro episódio, em remissão parcial. Definição: Todos os critérios diagnósticos para transtorno esquizoafetivo, primeiro episódio em termos de sintomas e duração foram preenchidos anteriormente. Os sintomas melhoraram de tal forma que os critérios diagnósticos para o transtorno não foram preenchidos por pelo menos um mês, mas alguns sintomas clinicamente significativos persistem, que podem ou não estar associados a comprometimento funcional. A remissão parcial pode ter ocorrido em resposta a medicamento ou outro tratamento.",
+      "classification_reasoning": "A opção mais precisa é o transtorno esquizoafetivo, primeiro episódio, em remissão parcial (6A21.01) porque a queixa do paciente está relacionada ao seu estado emocional e comportamental, e não apresenta sintomas compatíveis com intoxicação por cocaína ou cafeína.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa do paciente é sobre rugas em antebraços, mas o código CID-11 atribuído (6A21.01) refere-se a um transtorno esquizoafetivo, primeiro episódio, em remissão parcial. A relação entre a queixa e o diagnóstico não está claramente estabelecida no prontuário, indicando uma confusão entre sintoma e diagnóstico.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "2C82": {
+      "term_original": "lesoes malignas",
+      "capitulo": "02",
+      "confidence_embedding": 0.7781,
+      "descricao_cid": "Representação de doença CID-11: Neoplasia maligna da próstata. Definição: O câncer de próstata contribui significativamente para a carga geral de câncer, sendo a neoplasia maligna mais frequente em homens. O número de casos tem aumentado continuamente nas últimas décadas, em parte devido à maior expectativa de vida. Um fator adicional é o estilo de vida ocidental, caracterizado por uma dieta altamente calórica e falta de exercícios físicos. Os dados epidemiológicos indicam que os negros são os mais suscetíveis, seguidos pelos brancos, enquanto os asiáticos apresentam o menor risco. Até que ponto a mortalidade por câncer de próstata pode ser reduzida pelo exame de PSA, está atualmente sendo avaliada. O diagnóstico histopatológico e a graduação desempenham um papel importante no tratamento do câncer de próstata",
+      "classification_reasoning": "A opção mais precisa para o termo \"lesoes malignas\" dentro do contexto clínico é a neoplasia maligna da próstata (Código: 2C82), uma vez que não há informações sugerindo lesões malignas em outros locais do corpo, como ovário ou retroperitônio.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção de código CID-11 2C82, que representa neoplasia maligna da próstata, não é clínica ou lógica no contexto do prontuário. O termo 'lesoes malignas' não está relacionado à neoplasia maligna da próstata e não há informações sugerindo lesões malignas em outros locais do corpo. A classificação deve ser removida e substituída por um código que represente fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EJ20": {
+      "term_original": "fotoenvelhecimento",
+      "capitulo": "14",
+      "confidence_embedding": 0.742,
+      "descricao_cid": "Representação de doença CID-11: Fotoenvelhecimento da pele. Definição: As alterações na pele que podem ser atribuídas à exposição crônica a radiação ultravioleta e que se manifestam clinicamente principalmente como elastose actínica, rugas e despigmentação.",
+      "classification_reasoning": "A opção mais precisa é a fotoenvelhecimento da pele (Código EJ20), pois o termo extraído 'fotoenvelhecimento' está diretamente relacionado ao quadro clínico descrito no prontuário, que inclui rugas em antebraços e fotoenvelhecimento.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção EJ20 (Fotoenvelhecimento da pele) não é adequada porque o termo extraído 'fotoenvelhecimento' se refere ao processo de envelhecimento da pele, enquanto a condição clínica descrita no prontuário é mais específica e inclui rugas em antebraços. Além disso, a fotoenvelhecimento não é uma doença, mas sim um processo fisiológico natural do envelhecimento.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EA88.4": {
+      "term_original": "rugas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7529,
+      "descricao_cid": "Representação de doença CID-11: Pitiríase alba. Definição: Dermatose inflamatória de baixo grau comum de etiologia desconhecida, na qual múltiplas máculas pequenas com descamação fina aparecem na face e, menos comumente, em ombros e braços de crianças. Podem inicialmente ser levemente eritematosas, mas logo se tornam hipopigmentadas com escamas superficiais finas. Histopatologicamente há uma leve dermatite espongiótica subaguda com redução da melanina. É mais proeminente em crianças com pele pigmentada e pode levantar preocupação sobre vitiligo.",
+      "classification_reasoning": "A queixa do paciente é sobre rugas em antebraços, o que se relaciona à descrição de Pitiríase alba (EA88.4) como uma dermatose inflamatória com descamação fina na face e, menos comumente, em ombros e braços.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa do paciente é sobre rugas em antebraços, mas o código CID-11 atribuído (EA88.4) refere-se a Pitiríase alba, uma dermatose inflamatória com descamação fina na face e, menos comumente, em ombros e braços. Não há relação clínica direta entre as rugas no antebraço e a Pitiríase alba. A classificação é incoerente com o prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    }
+  }
+}

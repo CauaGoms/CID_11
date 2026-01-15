@@ -1,0 +1,198 @@
+{
+  "prontuario_id": 246,
+  "text": "Paciente previamente hígido procura a emergencia do XXXX por palpitações iniciadas há poucas horas. ECG com fibrilação atrial. Solicitados exames lab sem evidencia de alteração eletrolítica. Iniciado com amiodarona EV. Em cerca de 12h houve reversão para ritmo sinusal. Ecocardiograma normal. Tem alta hospitalar assintomático, em ritmo cardiaco regular, com orientação de procurar a emergencia se necessário. PACIENTE COM CARDIOPATIA ISQUEMICA, INTERNA PARA TENTATIVA DE ACTP CD - OCLUSÃO CRÔNICA. NÃO FOI POSSÍVEL ULTRAPASSAR A LESÃO C/ GUIA. RECEBE ALTA EM USO DAS MEDICAÇÕES ABAIXO E RETORNO AO SEU MÉDICO PARA SEGUIMENTO. Cardiopatia isquêmica = ACTP com stent em segmento médio da ACX em 02/04/07. Pcte internou de forma eletiva para realização do procedimento descrito acima, o qual foi realizado sem intercorrências.  Apresentou boa evolução clínica, sem complicações importantes. Tem alta em bom estado geral, sem sintomas anginosos.  RECOMENDAÇÕES: - AAS 200 mg ao dia CONTINUO, - Sinvastatina 20 mg ao dia CONTINUO, - Ticlopidina 250 mg 12/12h pelo menos por 1 mês, - Reavaliação breve com médico assistente (7 a 10 dias), - Demais medicamentos conforme médico assistente.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente",
+      "PACIENTE",
+      "Pcte"
+    ],
+    "Achado": [
+      "hígido",
+      "normal",
+      "assintomático",
+      "ritmo sinusal",
+      "ritmo cardiaco regular",
+      "boa evolução clínica",
+      "bom estado geral"
+    ],
+    "Sinal ou Sintoma": [
+      "palpitações",
+      "intercorrências",
+      "OCLUSÃO CRÔNICA",
+      "sintomas anginosos"
+    ],
+    "Conceito Temporal": [
+      "horas",
+      "12h",
+      "dia",
+      "CONTINUO",
+      "mês",
+      "breve",
+      "dias"
+    ],
+    "Abreviação": [
+      "ECG",
+      "EV",
+      "12h",
+      "ACTP",
+      "CD",
+      "Pcte",
+      "AAS",
+      "exames lab",
+      "ACTP com stent",
+      "segmento médio da ACX"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECG",
+      "Ecocardiograma"
+    ],
+    "Negação": [
+      "sem",
+      "assintomático",
+      "NÃO"
+    ],
+    "Substância Química Orgânica": [
+      "amiodarona",
+      "AAS",
+      "Ticlopidina"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "EV",
+      "ACTP",
+      "ULTRAPASSAR",
+      "procedimento",
+      "ACTP com stent"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "normal",
+      "fibrilação atrial",
+      "alteração eletrolítica"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "orientação",
+      "INTERNA",
+      "ALTA",
+      "RETORNO",
+      "SEGUIMENTO",
+      "internou",
+      "alta",
+      "RECOMENDAÇÕES",
+      "Reavaliação",
+      "alta hospitalar"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "CD",
+      "segmento médio da ACX"
+    ],
+    "Dispositivo Médico": [
+      "GUIA"
+    ],
+    "Substância Farmacológica": [
+      "MEDICAÇÕES",
+      "AAS",
+      "Sinvastatina",
+      "Ticlopidina",
+      "medicamentos"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "MÉDICO",
+      "médico assistente"
+    ],
+    "Doença ou Síndrome": [
+      "fibrilação atrial",
+      "CARDIOPATIA ISQUEMICA",
+      "Cardiopatia isquêmica"
+    ],
+    "Procedimento Laboratorial": [
+      "exames lab"
+    ],
+    "Conceito Quantitativo": [
+      "200 mg",
+      "20 mg",
+      "250 mg"
+    ]
+  },
+  "labels": {
+    "BC81.30": {
+      "term_original": "palpitações",
+      "capitulo": "11",
+      "confidence_embedding": 0.8161,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A opção mais precisa para o termo 'palpitações' é a fibrilação atrial paroxística, pois o paciente apresenta palpitações iniciadas há poucas horas e subsequente reversão para ritmo sinusal com ECG de fibrilação atrial.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'palpitações' não é a fibrilação atrial paroxística, pois o paciente apresenta palpitações iniciadas há poucas horas e subsequente reversão para ritmo sinusal com ECG de fibrilação atrial. A condição descrita no prontuário é mais próxima da representação CID-11 'BC81.90 - Palpitações', que não está relacionada à fibrilação atrial paroxística.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA41": {
+      "term_original": "sintomas anginosos",
+      "capitulo": "11",
+      "confidence_embedding": 0.7972,
+      "descricao_cid": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)",
+      "classification_reasoning": "O termo 'sintomas anginosos' é mais preciso para o código BA41, que representa a doença CID-11: Infarto agudo do miocárdio. O contexto clínico menciona cardiopatia isquêmica e alta hospitalar assintomática, sugerindo que o paciente tem uma história de infarto do miocárdio anteriormente tratado com stent.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'sintomas anginosos' não é diretamente relacionado ao diagnóstico de infarto agudo do miocárdio. A cardiopatia isquêmica e a alta hospitalar assintomática sugerem que o paciente tem uma história de doença cardíaca pré-existente, mas não há evidência clínica ou laboratorial de um novo infarto agudo.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BC44": {
+      "term_original": "cardiopatia isquêmica",
+      "capitulo": "11",
+      "confidence_embedding": 0.8086,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia não compactada. Definição: A cardiomiopatia não compactada é uma anormalidade morfológica do miocárdio que afeta predominantemente o ápice do ventrículo, caracterizada por hipertrabeculação e recessos intertrabeculares profundos, geralmente acompanhados por uma camada subepicárdica anormalmente fina de miocárdio compactado, que geralmente, mas nem sempre, está associada à disfunção ventricular. \r\n\r\nInformações adicionais. A cardiomiopatia não compactada envolve classicamente o ventrículo esquerdo, mas também pode envolver apenas o ventrículo direito ou ambos. Pode ocorrer como um achado isolado ou em associação com um fenótipo cardiomiopático dilatado, hipertrófico ou misto. Foi descrita em associação a cardiopatia congênita complexa, anomalias das artérias coronárias e como um achado isolado, com e sem anormalidades musculoesqueléticas e outras anormalidades sistêmicas.",
+      "classification_reasoning": "A cardiomiopatia não compactada foi excluída como possibilidade, pois o paciente tem uma cardiopatia isquêmica com stent em segmento médio da ACX. Além disso, a presença de palpitações e fibrilação atrial sugere um problema cardíaco que está relacionado à doença arterial coronariana.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A cardiomiopatia não compactada é uma condição cardíaca específica, enquanto a cardiopatia isquêmica é um tipo de doença cardiovascular. Embora o paciente tenha uma cardiopatia isquêmica com stent em segmento médio da ACX, a presença de palpitações e fibrilação atrial sugere que o problema cardíaco está relacionado à doença arterial coronariana, não à cardiomiopatia não compactada. Portanto, o código CID-11 BC44 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA60.8": {
+      "term_original": "oclusão crônica",
+      "capitulo": "11",
+      "confidence_embedding": 0.8231,
+      "descricao_cid": "Representação de doença CID-11: Arritmia como complicação atual subsequente a infarto agudo do miocárdio. Definição: Grupo grande e heterogêneo de condições nas quais o coração bate com um ritmo irregular ou anormal que pode complicar o curso de pacientes com infarto agudo do miocárdio.",
+      "classification_reasoning": "A opção mais precisa é a arritmia como complicação atual subsequente a infarto agudo do miocárdio, pois o paciente tem uma história de cardiopatia isquêmica e apresentou fibrilação atrial com reversão para ritmo sinusal após tratamento com amiodarona. Além disso, a presença de stent em segmento médio da artéria coronária (ACX) sugere que o paciente já teve um infarto agudo do miocárdio em algum momento.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BA60.8 não é precisa porque a codificação CID-11 para arritmia como complicação atual subsequente a infarto agudo do miocárdio não se aplica ao paciente, pois o termo 'oclusão crônica' refere-se à obstrução crônica da artéria coronária, que é uma condição diferente de arritmia. Além disso, a presença de stent em segmento médio da ACX sugere que o paciente já teve um infarto agudo do miocárdio em algum momento, mas isso não justifica a codificação BA60.8.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "MC82.7": {
+      "term_original": "ritmo sinusal",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é a MC82.7, pois o termo 'ritmo sinusal' refere-se ao ritmo normal do coração, que está presente no paciente após a reversão da fibrilação atrial e subsequente à administração de amiodarona.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'ritmo sinusal' é diretamente relacionado à condição clínica descrita no prontuário, que refere-se ao ritmo normal do coração após a reversão da fibrilação atrial. A opção MC82.7 é uma representação fiel e precisa do termo, pois descreve o estado normal do coração. Portanto, a codificação CID-11 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BA51": {
+      "term_original": "cardiopatia isquemica",
+      "capitulo": "11",
+      "confidence_embedding": 0.7873,
+      "descricao_cid": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas.",
+      "classification_reasoning": "A cardiopatia isquêmica é a causa subjacente do paciente, tendo sido realizada uma tentativa de ACTP com stent em segmento médio da ACX. A presença de cardiopatia isquêmica e o uso de medicamentos como antiplaquetários e estatinas suportam essa escolha.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A cardiopatia isquêmica é a causa subjacente do paciente, tendo sido realizada uma tentativa de ACTP com stent em segmento médio da ACX. A presença de cardiopatia isquêmica e o uso de medicamentos como antiplaquetários e estatinas suportam essa escolha. O termo 'cardiopatia isquêmica' é diretamente relacionado à condição clínica descrita no prontuário, portanto, a codificação CID-11 BA51 é CLINICAMENTE COERENTE com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MC82.1": {
+      "term_original": "intercorrências",
+      "capitulo": "21",
+      "confidence_embedding": 0.7637,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com bradicardia. Definição: Ritmo de escape lento associado a colapso hemodinâmico.",
+      "classification_reasoning": "A opção mais precisa para o termo 'intercorrências' no contexto clínico é a Código MC82.1, que representa Parada cardíaca com bradicardia. A presença de intercorrências se refere à reversão do ritmo cardiaco anormal (fibrilação atrial) para um ritmo sinusal após o tratamento com amiodarona EV.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção MC82.1, Parada cardíaca com bradicardia, é justificável pois a reversão do ritmo cardiaco anormal (fibrilação atrial) para um ritmo sinusal após o tratamento com amiodarona EV pode ser considerado uma intercorrência no contexto clínico. A descrição do código CID-11 se alinha com a situação descrita no prontuário, justificando a manutenção da codificação.",
+      "tipo_erro_auditoria": null
+    },
+    "MC82.0": {
+      "term_original": "ritmo cardiaco regular",
+      "capitulo": "21",
+      "confidence_embedding": 0.7619,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico.",
+      "classification_reasoning": "O termo 'ritmo cardiaco regular' indica que o paciente está em um ritmo normal e não apresenta parada cardíaca, portanto a opção mais precisa é MC82.0, que define parada cardíaca com taquicardia e fibrilação ventricular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'ritmo cardiaco regular' não representa parada cardíaca com taquicardia e fibrilação ventricular, como definido pelo código CID-11 MC82.0. A descrição do prontuário refere-se a um paciente que apresentou fibrilação atrial e posteriormente reverteu para ritmo sinusal, o que não é compatível com a definição de parada cardíaca. Portanto, o código CID-11 atribuído não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

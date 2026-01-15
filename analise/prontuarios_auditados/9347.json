@@ -1,0 +1,194 @@
+{
+  "prontuario_id": 665,
+  "text": "PACIENTE , 21 ANOS\n\nFOLICULITE QUELOIDEANA\nACNE GRAU III\nSD DOWN\n\nUSO DE: TRIANCIL + FRADEMICINA ( 0,75 / 0,25 )\nJÁ USOU ISOTRETINOÍNA , SUSPENSA POR AUMENTO DE TRIGLICERÍDEOS\n\nMÃE ACHA QUE O PACIENTE ESTÁ APRESENTANDO MELHORA EM COURO CABELUDO . PERSISTE COM ACNE NA FACE .\nNÃO FEZ USO DA TETRACICLINA PRESCRITA NA CONSULTA ANTERIOR .\n\nEF : PLACA ERITEMATOSA, CICATRICIAL , COM ÁREAS DE POLITRIQUIA E PÚSTULAS .\nPÁPULAS ERITEMATOSAS EM MENTO .\n\nTRAZ EXAMES LAB : COLEST T : 169 ;  TRIGL: 124 ; LDL: 103 ; HDL: 41\n\nCD: MANTENHO INFILTRAÇÃO COM TRIANCIL E FRADEMICINA\nTETRACICLINA 1G  /DIA 30 DIAS E 500 MG  /DIA POR 30 DIAS\nCLINDOXYL CONTROL\nORIENTO A MÂE\nRETORNO 2 MESES\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Medicamento Clínico": [
+      "TRIANCIL",
+      "FRADEMICINA"
+    ],
+    "Substância Farmacológica": [
+      "TRIANCIL",
+      "FRADEMICINA",
+      "ISOTRETINOÍNA",
+      "TETRACICLINA",
+      "CLINDOXYL"
+    ],
+    "Substância Química Orgânica": [
+      "ISOTRETINOÍNA",
+      "TETRACICLINA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "SUSPENSA",
+      "PRESCRITA",
+      "CONSULTA",
+      "EF",
+      "CD",
+      "MANTENHO",
+      "ORIENTO",
+      "RETORNO"
+    ],
+    "Grupo Familiar": [
+      "MÃE",
+      "MÂE"
+    ],
+    "Sinal ou Sintoma": [
+      "ACNE",
+      "PÚSTULAS",
+      "AUMENTO DE TRIGLICERÍDEOS",
+      "PLACA ERITEMATOSA",
+      "ÁREAS DE POLITRIQUIA",
+      "PÁPULAS ERITEMATOSAS"
+    ],
+    "Localização ou Região Corporal": [
+      "FACE",
+      "MENTO"
+    ],
+    "Negação": [
+      "NÃO"
+    ],
+    "Antibiótico": [
+      "TETRACICLINA"
+    ],
+    "Abreviação": [
+      "EF",
+      "TRIGL",
+      "LDL",
+      "HDL",
+      "SD DOWN",
+      "EXAMES LAB",
+      "COLEST T"
+    ],
+    "Achado": [
+      "CICATRICIAL",
+      "MELHORA EM COURO CABELUDO",
+      "PÁPULAS ERITEMATOSAS"
+    ],
+    "Conceito Quantitativo": [
+      "169",
+      "124",
+      "103",
+      "41",
+      "1G",
+      "0 , 75 / 0 , 25",
+      "500 MG"
+    ],
+    "Atributo Clínico": [
+      "TRIGL",
+      "LDL",
+      "HDL",
+      "COLEST T"
+    ],
+    "Procedimento Laboratorial": [
+      "TRIGL",
+      "LDL",
+      "HDL",
+      "EXAMES LAB",
+      "COLEST T"
+    ],
+    "Produto Intelectual": [
+      "CD"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "INFILTRAÇÃO"
+    ],
+    "Doença ou Síndrome": [
+      "FOLICULITE QUELOIDEANA",
+      "ACNE GRAU III",
+      "SD DOWN"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "AUMENTO DE TRIGLICERÍDEOS"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MELHORA EM COURO CABELUDO"
+    ],
+    "Conceito Temporal": [
+      "30 DIAS"
+    ]
+  },
+  "labels": {
+    "EB51.0": {
+      "term_original": "placa eritematosa",
+      "capitulo": "14",
+      "confidence_embedding": 0.7874,
+      "descricao_cid": "Representação de doença CID-11: Lúpus eritematoso discóide. Definição: Lúpus eritematoso discoide é caracterizado pela presença de placas discoides apresentando graus variados de edema, eritema, descamação, tamponamento e atrofia folicular. Tipicamente envolve face, orelhas e couro cabeludo, mas pode ocorrer disseminação generalizada. Pode causar desfiguração acentuada com cicatrizes faciais proeminentes e perda de cabelo permanente.",
+      "classification_reasoning": "A presença de placas eritematosas e cicatriciais na face e couro cabeludo, com áreas de politriquia e pústulas, é mais consistente com a descrição do Lúpus eritematoso discóide (EB51.0) do que com outras opções.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de placas eritematosas e cicatriciais na face e couro cabeludo, com áreas de politriquia e pústulas, não é consistente com a descrição do Lúpus eritematoso discóide (EB51.0). A condição descrita no prontuário apresenta características mais próximas ao Acne grave (L08.1) ou Foliculite keloidiana (L92.0), que são doenças inflamatórias crônicas da pele, em vez de uma forma de Lúpus eritematoso discóide.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EB12": {
+      "term_original": "pápulas eritematosas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7922,
+      "descricao_cid": "Representação de doença CID-11: Eritema multiforme. Definição: Eritema multiforme é uma dermatose inflamatória reativa autolimitada desencadeada por hipersensibilidade mediada por células, mais comumente a drogas ou infecções, particularmente Herpes simplex. Caracteriza-se por erupção de máculas, pápulas, nódulos, vesículas e/ou bolhas acometendo preferencialmente as faces dorsais de mãos e antebraços. Também pode envolver mucosas orais e genitais.",
+      "classification_reasoning": "A presença de pápulas eritematosas na mento sugere a possibilidade de eritema multiforme, uma dermatose inflamatória reativa autolimitada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de pápulas eritematosas na mento não é suficiente para confirmar a diagnose de eritema multiforme. A descrição do código CID-11 refere-se especificamente à dermatose inflamatória reativa autolimitada desencadeada por hipersensibilidade mediada por células, mais comumente a drogas ou infecções. Nesse contexto, não há evidência clínica suficiente para sustentar a diagnose de eritema multiforme.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ED80.1": {
+      "term_original": "pústulas",
+      "capitulo": "14",
+      "confidence_embedding": 0.792,
+      "descricao_cid": "Representação de doença CID-11: Acne superficial mista comedoniana e papulopustular. Definição: Acne na qual os comedões estão acompanhados por pequenas pápulas e pústulas inflamatórias",
+      "classification_reasoning": "A presença de pústulas na ef pode estar relacionada à acne inflamatória grave mencionada no prontuário, e ED80.1 é a opção mais precisa para descrever essa condição.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de pústulas na ef é diretamente relacionada à acne inflamatória grave mencionada no prontuário, o que justifica a escolha do código CID-11 ED80.1. A descrição do código coincide com a condição clínica descrita no prontuário, caracterizada por acne superficial mista comedoniana e papulopustular.",
+      "tipo_erro_auditoria": null
+    },
+    "ED80.4": {
+      "term_original": "acne grau iii",
+      "capitulo": "14",
+      "confidence_embedding": 0.7788,
+      "descricao_cid": "Representação de doença CID-11: Acne inflamatória grave. Definição: Acne intensamente inflamatória, que pode ser aguda (acne fulminans) ou subaguda e crônica (acne conglobata).",
+      "classification_reasoning": "A escolha para o termo 'acne grau III' é a representação de doença CID-11: Acne inflamatória grave (ED80.4). Isso porque a descrição do paciente apresenta características de acne intensamente inflamatória, com placas eritematosas, pústulas e polítrias.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código CID-11 ED80.4 (Acne inflamatória grave) é justificada pela descrição do paciente, que apresenta características de acne intensamente inflamatória, com placas eritematosas, pústulas e polítrias. A gravidade da doença é compatível com o termo 'acne grau III' e a escolha do código CID-11 ED80.4 é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "ED80.4Y": {
+      "term_original": "áreas de politriquia",
+      "capitulo": "14",
+      "confidence_embedding": 0.7877,
+      "descricao_cid": "Representação de doença CID-11: Outra acne inflamatória grave especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'áreas de politriquia' é a acne inflamatória grave especificada (ED80.4Y), pois a paciente apresenta placas eritematosas e pústulas, características compatíveis com uma forma grave de acne.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção ED80.4Y é muito genérica e não captura a especificidade da condição descrita no prontuário, que apresenta características de foliculite keloidiana e acne grave com placas eritematosas e pústulas. A descrição do código CID-11 não se ajusta às características clínicas da paciente.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "ED70.50": {
+      "term_original": "foliculite queloideana",
+      "capitulo": "14",
+      "confidence_embedding": 0.7879,
+      "descricao_cid": "Representação de doença CID-11: Foliculite descalvante. Definição: Foliculite descalvante é caracterizada pela progressão da foliculite do couro cabeludo para inflamação extensa, destruição folicular e cicatrizes. Em uma variante chamada foliculite em tufos, os fios de cabelo ficam aglomerados em tufos contendo uma dúzia ou mais fios. Em contraste com o curso na grande maioria das pessoas que desenvolvem uma foliculite pustulosa bacteriana do couro cabeludo, os indivíduos com foliculite descalvante parecem incapazes de erradicar Staphylococcus aureus do folículo piloso mesmo com antibioticoterapia apropriada. A formação recorrente de áreas pustulosas com inflamação e descamação circundantes leva a extensas cicatrizes permanentes e queda de cabelo.",
+      "classification_reasoning": "A foliculite descalvante é a condição mais precisa que se encaixa nos sintomas descritos, incluindo a progressão da foliculite do couro cabeludo para inflamação extensa, destruição folicular e cicatrizes.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A foliculite queloideana descrita no prontuário apresenta características de inflamação extensa, destruição folicular e cicatrizes, o que se encaixa perfeitamente com a definição da condição CID-11 ED70.50. Além disso, a presença de sintomas como acne grave III e SD Down também são consistentes com essa condição. Portanto, considero que a codificação CID-11 ED70.50 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "5B55.4": {
+      "term_original": "aumento de triglicerídeos",
+      "capitulo": "05",
+      "confidence_embedding": 0.7999,
+      "descricao_cid": "Representação de doença CID-11: Deficiência de vitamina A com úlcera de córnea ou ceratomalácia. Definição: Ulceração / ceratomalácia indica destruição permanente de parte ou de todo o estroma corneano, resultando em alteração estrutural permanente. As úlceras são classicamente arredondadas a ovais, \"perfuradas\", como se uma furadeira ou uma broca de cortiça tivessem sido aplicadas no olho. A córnea circundante é geralmente xerótica, mas, por outro lado, clara, e normalmente não tem a aparência cinzenta e infiltrada de úlceras de origem bacteriana. Pode haver mais de uma úlcera. As pequenas úlceras estão quase invariavelmente confinadas à periferia da córnea, especialmente em sua face inferior e nasal. A ulceração pode ser superficial, mas geralmente é profunda. As perfurações ficam ligadas com a íris, preservando assim a câmara anterior. Na doença mais avançada, o estroma necrótico descama, deixando uma grande úlcera ou descemetocele. Tal como acontece com úlceras menores, geralmente é periférica e cura como um leucoma denso, branco e aderente. Com a terapia, as úlceras superficiais costumam cicatrizar surpreendentemente com poucas cicatrizes; úlceras mais profundas, especialmente perfurações, formam densos leucomas periféricos aderentes.",
+      "classification_reasoning": "Aumento de triglicerídeos é um sinal de possível déficit de vitamina A com úlcera de córnea ou ceratomalácia, portanto, o código mais preciso para o termo 'aumento de triglicerídeos' é 5B55.4.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'aumento de triglicerídeos' não está relacionado à deficiência de vitamina A com úlcera de córnea ou ceratomalácia, descrita no código CID-11 5B55.4. O aumento de triglicerídeos é um achado laboratorial que pode ser encontrado em várias condições clínicas, incluindo a acne e a hiperlipidemia, mas não está diretamente relacionado à doença descrita pelo código CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "LD24.51": {
+      "term_original": "sd down",
+      "capitulo": "20",
+      "confidence_embedding": 0.7341,
+      "descricao_cid": "Representação de doença CID-11: Hipocondrogênese. Definição: Condição causada pela falha do sistema esquelético em se desenvolver corretamente durante o período pré-natal, devido à mutação do gene COL2A1. Esta condição é caracterizada por um corpo pequeno, membros curtos, pulmões subdesenvolvidos, face plana e oval, hipertelorismo, micrognatia, abdômen aumentado e ossificação em coluna e pelve. Essa condição também pode se apresentar com fenda palatina.",
+      "classification_reasoning": "A opção mais precisa para o termo 'SD Down' é a hipocondrogênese (LD24.51), uma condição congênita caracterizada por um corpo pequeno, membros curtos, pulmões subdesenvolvidos e outras anomalias faciais e corporais.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'SD Down' não está relacionado à hipocondrogênese (LD24.51). A condição de Down syndrome é uma doença congênita causada por um excesso de material cromossômico, caracterizada por um conjunto específico de características físicas e mentais. No entanto, o prontuário não apresenta nenhuma indicação clínica ou história familiar que sugira a presença da síndrome de Down. Portanto, a classificação CID-11 atribuída é incorreta.",
+      "tipo_erro_auditoria": "family_history_misread"
+    }
+  }
+}

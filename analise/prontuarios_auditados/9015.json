@@ -1,0 +1,41 @@
+{
+  "prontuario_id": 635,
+  "text": "fratura de antebraço direito,\nrx sem sinais de perda de redução,\nsem sinais de perda de redução.\ncd:\nretorno ambulatorial,\ncuidados gerias,\nanalgesia.\nr2 Lucas         ",
+  "entities": {
+    "Abreviação": [
+      "rx",
+      "r2"
+    ],
+    "Procedimento Diagnóstico": [
+      "rx"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "analgesia"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "r2"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "antebraço direito"
+    ],
+    "Sinal ou Sintoma": [
+      "perda de redução"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "retorno ambulatorial",
+      "cuidados gerias"
+    ]
+  },
+  "labels": {
+    "NA07.0": {
+      "term_original": "perda de redução",
+      "capitulo": "22",
+      "confidence_embedding": 0.7598,
+      "descricao_cid": "Representação de doença CID-11: Concussão. Definição: Perda ou diminuição da consciência devida a traumatismo.",
+      "classification_reasoning": "A escolha é justificada pois o termo 'perda de redução' se refere a uma perda ou diminuição da consciência decorrente de um traumatismo, que está relacionado ao conceito de concussão.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 NA07.0, que representa concussão, não é clinicamente coerente com o prontuário. A fratura de antebraço direito e a perda de redução não estão relacionadas à concussão. A perda de redução se refere à falta de redução da fratura, não à perda de consciência decorrente de um traumatismo.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

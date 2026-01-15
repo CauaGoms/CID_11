@@ -1,0 +1,169 @@
+{
+  "prontuario_id": 852,
+  "text": "05:35 HORAS. PACIENTE TRAZIDA AO PRONTO ATENDIMENTO POR REMOÇÃO PARTICULAR. POR CRISE CONVULSIVA. CHEGA EM CRISE ENCAMINHADA PARA SALA DE EMERGÊNCIA, PUNCIONADO ACESSO VENOSO PERÍFERICO PACIENTE DE DIFÍCIL ACESSO. COLOCADA EM SUPORTE DE 02 SOB MÁSCARA DE VENTURI EM 6 L/MIN E MONITORIZAÇÃO CARDÍACA E OXÍMETRIA DE PULSO CONTÍNUA - SSVV ESTÁVEIS. PERMANECE EM REPOUSO NO LEITO, CABECEIRA ELEVADA 45°C. APRESENTOU NOVO EPISÓDIO SEGUIDA DE VÔMITOS - MEDICADA CONFORME PRESCRIÇÃO. ENCAMINHADA PARA TOMOGRAFIA DE CRÂNIO - TRASPORTE SEM INTERCORRÊNCIAS. RETORNA PARA SALA DE EMERGÊNCIA, REALIZADA PASSAGEM DE SVD COM DÉBITO CLARO E PASSAGEM DE SNG SEM DÉBITO. PERMANECERÁ NO PRONTO ATENDIMENTO AGUARDANDO VAGA DE UTI. SEGUE SOB OS CUIDADOS DA EQUIPE MULTIPROFISSIONAL. ESTADO DE MAL EPILEPTICO. 02:37 Em repouso no leito, em ar ambiente, refeindo algia em halux D, diurese presente, evacução ausente, aceita a dieta oferecida , apresentou dextro 225 administrado 4 UI conforme esquema. Segue sob cuidados multiprofissionais. FLORENCE NIGHTINGALE XXXX. EXPOSICAO A OUTROS FATORES AMBIENTAIS ARTIFICIAIS E AOS NAO ESPECIFICADOS LOCAL NAO ESPECIFICADO.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Sinal ou Sintoma": [
+      "VÔMITOS",
+      "algia",
+      "CRISE CONVULSIVA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "MEDICADA",
+      "SVD",
+      "SNG",
+      "PUNCIONADO ACESSO VENOSO PERÍFERICO",
+      "SUPORTE DE 02",
+      "REPOUSO NO LEITO",
+      "CABECEIRA ELEVADA 45°C",
+      "repouso no leito"
+    ],
+    "Produto Intelectual": [
+      "PRESCRIÇÃO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "PRESCRIÇÃO",
+      "CUIDADOS DA EQUIPE MULTIPROFISSIONAL",
+      "cuidados multiprofissionais"
+    ],
+    "Negação": [
+      "SEM",
+      "ausente"
+    ],
+    "Achado": [
+      "INTERCORRÊNCIAS",
+      "DÉBITO",
+      "evacução",
+      "DIFÍCIL ACESSO",
+      "SSVV ESTÁVEIS",
+      "REPOUSO NO LEITO",
+      "DÉBITO CLARO",
+      "repouso no leito",
+      "ar ambiente",
+      "diurese presente",
+      "aceita a dieta"
+    ],
+    "Abreviação": [
+      "SVD",
+      "SNG",
+      "UTI",
+      "SSVV ESTÁVEIS",
+      "halux D",
+      "4 UI"
+    ],
+    "Dispositivo Médico": [
+      "SVD",
+      "SNG",
+      "PUNCIONADO ACESSO VENOSO PERÍFERICO",
+      "MÁSCARA DE VENTURI"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UTI",
+      "PRONTO ATENDIMENTO",
+      "SALA DE EMERGÊNCIA"
+    ],
+    "Função Fisiológica": [
+      "evacução",
+      "diurese presente"
+    ],
+    "Conceito Quantitativo": [
+      "225",
+      "6 L/MIN"
+    ],
+    "Procedimento Diagnóstico": [
+      "MONITORIZAÇÃO CARDÍACA",
+      "OXÍMETRIA DE PULSO CONTÍNUA",
+      "TOMOGRAFIA DE CRÂNIO"
+    ],
+    "Doença ou Síndrome": [
+      "ESTADO DE MAL EPILEPTICO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "halux D"
+    ]
+  },
+  "labels": {
+    "8A66": {
+      "term_original": "estado de mal epileptico",
+      "capitulo": "08",
+      "confidence_embedding": 0.8338,
+      "descricao_cid": "Representação de doença CID-11: Estado de mal epiléptico. Definição: Status epilepticus é definido como 5 minutos ou mais de (i) atividade epiléptica clínica e/ou eletrográfica contínua ou (ii) atividade epiléptica recorrente sem recuperação (retorno ao estado basal) entre as convulsões.",
+      "classification_reasoning": "Escolha pela descrição do termo 'estado de mal epileptico' que se ajusta ao contexto clínico, onde o paciente apresenta crise convulsiva e permanece em repouso no leito com monitorização cardíaca e oximetria contínua. A definição do código 8A66 é mais precisa para descrever esse estado de mal epiléptico, considerando a presença de atividade epiléptica clínica e eletrográfica contínua ou recorrente sem recuperação entre as crises.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código CID-11 8A66 'Representação de doença: Estado de mal epiléptico' é justificada pela presença de crise convulsiva e permanência em repouso no leito com monitorização cardíaca e oximetria contínua, o que se ajusta à definição do código. A lógica clínica para manter este código é a presença de atividade epiléptica clínica e eletrográfica contínua ou recorrente sem recuperação entre as crises, o que está presente no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "NC56.5Z": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.7643,
+      "descricao_cid": "Representação de doença CID-11: Lesão do vaso sanguíneo do outro dedo da mão, não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'intercorrências' é a lesão do vaso sanguíneo do outro dedo da mão, não especificada (NC56.5Z), pois na história clínica há referência à punção de acesso venoso periférico e ao transporte sem intercorrências, sugerindo que 'intercorrências' se refere a complicações ou problemas durante o procedimento médico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção NC56.5Z não representa fielmente o termo 'intercorrências' descrito no prontuário, que se refere a complicações ou problemas durante o procedimento médico. A lesão do vaso sanguíneo do outro dedo da mão, não especificada, é um código para uma condição clínica específica e não relaciona-se às intercorrências mencionadas no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DA60.3": {
+      "term_original": "vômitos",
+      "capitulo": "13",
+      "confidence_embedding": 0.7858,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "Vômitos são um sintoma comum em pacientes com úlceras de estresse do estômago, caracterizado pela presença de lesões agudas na mucosa gástrica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'vômitos' não está diretamente relacionado à úlceras de estresse do estômago, que é o diagnóstico CID-11 atribuído. Embora os vômitos possam ser um sintoma comum em pacientes com úlceras de estresse do estômago, a presença de vômitos não é suficiente para diagnosticar essa condição. A classificação é demasiado específica e não reflete a realidade clínica.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "ED70.30": {
+      "term_original": "algia",
+      "capitulo": "14",
+      "confidence_embedding": 0.788,
+      "descricao_cid": "Representação de doença CID-11: Eflúvio telógeno agudo. Definição: Eflúvio telógeno agudo é uma queda de cabelos do couro cabeludo de início agudo que ocorre dois a três meses após um estresse desencadeante, muitas vezes com risco à vida, e que interrompe o crescimento anágeno normal do fio. É comumente observado em sobreviventes que necessitaram de cuidados intensivos para sepse, hemorragia, doença inflamatória ou traumatismo graves. Também pode resultar de desnutrição aguda. Um grande número de fios anágenos são convertidos em telógenos e são eliminados dois a três meses depois, resultando em uma alopecia difusa.",
+      "classification_reasoning": "A palavra 'algia' sugere dor ou desconforto, e o contexto clínico descreve um paciente com repouso no leito, apresentando halux D (dorsal) e diurese presente, sugerindo que a dor pode estar relacionada ao sistema nervoso periférico. A escolha do código ED70.30 é mais precisa pois eflúvio telógeno agudo é uma condição que pode causar dor e desconforto nos pacientes afetados.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'algia' não está relacionada ao eflúvio telógeno agudo descrito no prontuário. A dor ou desconforto mencionado pode estar relacionado a outras condições clínicas, como lesões ou doenças, e não é um sintoma exclusivo do eflúvio telógeno agudo.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A64": {
+      "term_original": "crise convulsiva",
+      "capitulo": "08",
+      "confidence_embedding": 0.7825,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo.",
+      "classification_reasoning": "A crise convulsiva do paciente foi caracterizada como uma reacção a um insulto ao SNC, o que sugere que a crise foi não-provocada e ocorreu em um paciente sem história de antecedente de crises epilépticas. Além disso, o paciente apresentou duração prolongada da crise, o que também é consistente com a definição da código 8A64.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A crise convulsiva descrita no prontuário é consistente com a definição do código CID-11 8A64. A paciente apresentou uma reação não-provocada à um insulto ao SNC, sem história de antecedentes de crises epilépticas e com anormalidades do desenvolvimento cerebral ou condições clínicas potencialmente responsáveis. Além disso, a duração prolongada da crise também é consistente com a definição do código. Portanto, o código 8A64 representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MB20.1": {
+      "term_original": "débito claro",
+      "capitulo": "21",
+      "confidence_embedding": 0.7681,
+      "descricao_cid": "Representação de doença CID-11: Coma. Definição: Estado agudo com duração de mais de uma hora e geralmente menos de um mês. O paciente em coma está arresponsivo, fica com os olhos fechados e não pode ser despertado nem mesmo por estímulos vigorosos e dolorosos. As respostas motoras à estimulação dolorosa estão limitadas a reflexos. As etiologias incluem, mas não estão limitadas a, lesões cerebrais traumáticas, anóxicas, infecciosas, neoplásicas, vasculares, inflamatórias e metabólicas.",
+      "classification_reasoning": "A descrição do termo 'débito claro' no contexto clínico sugere que o paciente está apresentando uma lesão cerebral ou outra condição neurológica, caracterizada por um débito (ou fluxo sanguíneo) reduzido. Isso é consistente com a definição de coma na CID-11.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'débito claro' no contexto clínico sugere que o paciente está apresentando uma lesão cerebral ou outra condição neurológica, caracterizada por um débito (ou fluxo sanguíneo) reduzido. Isso não é consistente com a definição de coma na CID-11, que se refere a um estado agudo com duração de mais de uma hora e geralmente menos de um mês. Além disso, o termo 'débito claro' não está relacionado à condição de coma descrita na CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB21.9": {
+      "term_original": "débito",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "Escolha feita com base na presença de débito claro e passagem de SVD, sugerindo um quadro cardíaco relacionado à crise convulsiva apresentada pelo paciente.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de débito claro e passagem de SVD sugere um quadro cardíaco relacionado à crise convulsiva apresentada pelo paciente. A codificação CID-11 MB21.9 é justificável, pois representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "NC56.5": {
+      "term_original": "difícil acesso",
+      "capitulo": "22",
+      "confidence_embedding": 0.7408,
+      "descricao_cid": "Representação de doença CID-11: Lesão do vaso sanguíneo do outro dedo da mão. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'difícil acesso' é a lesão do vaso sanguíneo do outro dedo da mão, que refere-se ao acesso venoso periférico mencionado no contexto clínico como sendo de difícil acesso.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção NC56.5 não representa fielmente o termo 'difícil acesso' descrito no prontuário, que se refere ao acesso venoso periférico de difícil acesso do paciente. A lesão do vaso sanguíneo do outro dedo da mão (NC56.5) não está relacionada à dificuldade de acesso, portanto, a codificação é inapropriada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

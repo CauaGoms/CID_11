@@ -1,0 +1,171 @@
+{
+  "prontuario_id": 337,
+  "text": "G2P1, IG de 36 sem 6 dia (s) , TS O + . Interna para realizar cesárea eletiva por indicação fetal ( macrocrania + displasia óssea , com hipoplasia pulmonar importante ) . Parto Cesárea em 26/06/2007 19:24 hs , RN APGAR 1/2 , MASC , 3085 G . Morte neonatal prematura por multiplas malformações incompatíveis com a vida. Pré-natal neste hospital com Equipe Freitas. Exames HCPA : VDRL: nr Anti-HCV: nr Anti-HIV: nr HbSAg: negativo Toxo igg e igm: nr Recebe alta em bom estado geral , sinais vitais estáveis , mamas lactantes , lóquios fisiológicos , útero contraído , ferida operatória limpa e seca .",
+  "entities": {
+    "Atributo Clínico": [
+      "G2P1",
+      "IG"
+    ],
+    "Abreviação": [
+      "G2P1",
+      "IG",
+      "RN",
+      "MASC",
+      "3085 G"
+    ],
+    "Conceito Quantitativo": [
+      "G2P1",
+      "36 sem 6 dia ( s )",
+      "3085 G"
+    ],
+    "Achado": [
+      "G2P1",
+      "MASC",
+      "limpa",
+      "seca",
+      "Morte neonatal prematura",
+      "bom estado geral",
+      "sinais vitais estáveis",
+      "mamas lactantes",
+      "lóquios fisiológicos",
+      "útero contraído"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Interna",
+      "Pré-natal",
+      "alta"
+    ],
+    "Anormalidade Congênita": [
+      "macrocrania",
+      "multiplas malformações incompatíveis com a vida"
+    ],
+    "Conceito Qualitativo": [
+      "importante"
+    ],
+    "Grupo Etário": [
+      "RN"
+    ],
+    "Atributo de Organismo": [
+      "MASC"
+    ],
+    "Organização Relacionada à Saúde": [
+      "hospital"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Equipe"
+    ],
+    "Procedimento Laboratorial": [
+      "Exames",
+      "Toxo igg e igm : nr"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "TS O +",
+      "VDRL : nr",
+      "Anti-HCV : nr",
+      "Anti-HIV : nr",
+      "HbSAg : negativo",
+      "Toxo igg e igm : nr"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "cesárea eletiva por indicação fetal",
+      "Parto Cesárea"
+    ],
+    "Doença ou Síndrome": [
+      "displasia óssea",
+      "hipoplasia pulmonar"
+    ],
+    "Sinal ou Sintoma": [
+      "APGAR 1/2"
+    ],
+    "Função Fisiológica": [
+      "mamas lactantes",
+      "lóquios fisiológicos",
+      "útero contraído"
+    ],
+    "Lesão ou Envenenamento": [
+      "ferida operatória"
+    ]
+  },
+  "labels": {
+    "JB21": {
+      "term_original": "útero contraído",
+      "capitulo": "18",
+      "confidence_embedding": 0.8036,
+      "descricao_cid": "Representação de doença CID-11: Parto único por fórceps ou vácuo-extrator. Definição: Condição causada pelo desenvolvimento do feto até o término do período da gestação. Esta condição é caracterizada pela parturição de um neonato usando fórceps ou vácuo-extrator para assistência do parto",
+      "classification_reasoning": "A frase 'útero contraído' indica que a contracção do útero ocorreu como consequência da cesárea realizada, o que é consistente com a descrição da condição JB21: Parto único por fórceps ou vácuo-extrator",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A condição 'útero contraído' não representa um parto único por fórceps ou vácuo-extrator, como descrito no código CID-11 JB21. A contracção do útero é um fenômeno normal após a cesárea e não está relacionada à assistência de parto com fórceps ou vácuo-extrator.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "KA62.3": {
+      "term_original": "multiplas malformações incompatíveis com a vida",
+      "capitulo": "19",
+      "confidence_embedding": 0.7918,
+      "descricao_cid": "Representação de doença CID-11: Infecção congênita por citomegalovírus. Definição: Afecção que acomete recém-nascidos, causada por uma infecção intrauterina por citomegalovírus. Essa condição é caracterizada por icterícia, baixo peso ao nascer, esplenomegalia, hepatomegalia ou pneumonia, se os sintomas se desenvolverem logo após o nascimento, ou pode ser assintomática. Esta condição comumente se apresenta mais tardiamente na vida com perda de audição, perda de visão ou deficiências de desenvolvimento. A transmissão é por transmissão vertical. A confirmação é feita pela detecção de citomegalovírus na urina, saliva, sangue ou outros tecidos corporais do recém-nascido em até 2-3 semanas após o nascimento.",
+      "classification_reasoning": "A condição de multiplas malformações incompatíveis com a vida é consistente com uma infecção congênita por citomegalovírus, que pode causar graves anomalias fetais e neonatais, incluindo hipoplasia pulmonar.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A condição de multiplas malformações incompatíveis com a vida não é uma infecção congênita por citomegalovírus, como descrito no termo extraído. A hipoplasia pulmonar e as outras malformações são características de anomalias fetais e neonatais, que não estão relacionadas à infecção congênita por citomegalovírus. Portanto, o código CID-11 KA62.3 não é clinicamente coerente com a descrição do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "KD3B": {
+      "term_original": "morte neonatal prematura",
+      "capitulo": "19",
+      "confidence_embedding": 0.7846,
+      "descricao_cid": "Representação de doença CID-11: Morte fetal, causa não especificada. Definição: Morte fetal é a morte do feto antes da sua expulsão ou extração completa de uma mulher, independente da duração da gestação. A morte fetal pode ser diagnosticada in utero pela ausência de sons cardíacos fetais, confirmada por técnicas de imagem quando disponíveis, ou após o parto pela ausência de sinais de vida após a completa expulsão ou extração da mulher.\r\n\r\nNatimorto é a expulsão ou extração completa de um feto de uma mulher após sua morte antes da sua expulsão ou extração completa, 22 ou mais semanas completas de gestação.",
+      "classification_reasoning": "A morte neonatal prematura mencionada no prontuário foi causada pela macrocrania, displasia óssea e hipoplasia pulmonar importante, o que é confirmado pelo código KD3B (Morte fetal, causa não especificada).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A morte neonatal prematura descrita no prontuário é uma condição clínica específica e não pode ser mapeada para o código CID-11 KD3B (Morte fetal, causa não especificada), pois a morte neonatal prematura refere-se ao feto que morreu após o parto, enquanto o código KD3B se refere à morte do feto antes da expulsão ou extração completa. A classificação é incorreta e não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "LD24.02": {
+      "term_original": "displasia óssea",
+      "capitulo": "20",
+      "confidence_embedding": 0.8027,
+      "descricao_cid": "Representação de doença CID-11: Displasia tanatofórica. Definição: A displasia tanatofórica é um distúrbio esquelético grave que é letal no período neonatal. Dois subtipos clinicamente definidos de TD foram classificados: tipo I (TDI), caracterizado por micromelia com fêmures arqueados e, ocasionalmente, pela presença de deformidade craniana em folha de trevo de gravidade variável e tipo II (TDII), caracterizada por micromelia com fêmures retos e um deformidade craniana em \"folha de trevo\" moderada a grave.",
+      "classification_reasoning": "A displasia óssea mencionada no prontuário é uma doença grave e letal no período neonatal, caracterizada por micromelia com fêmures arqueados e deformidade craniana em folha de trevo de gravidade variável. Essa descrição se alinha melhor com o código LD24.02 do que com qualquer outro código apresentado.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A displasia óssea descrita no prontuário é uma doença grave e letal no período neonatal, caracterizada por micromelia com fêmures arqueados e deformidade craniana em folha de trevo de gravidade variável. No entanto, o código LD24.02 refere-se a uma displasia tanatofórica, que é um distúrbio esquelético grave letal no período neonatal, mas não apresenta os mesmos sintomas descritos no prontuário. Além disso, o termo 'displasia óssea' não está diretamente relacionado à displasia tanatofórica. Portanto, a codificação CID-11 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MA15.0": {
+      "term_original": "apgar 1/2",
+      "capitulo": "21",
+      "confidence_embedding": 0.7238,
+      "descricao_cid": "Representação de doença CID-11: Bacteremia. Definição: Presença de bactérias no sangue. Isto pode ser detectado, por exemplo, por uma hemocultura positiva.",
+      "classification_reasoning": "O termo 'APGAR 1/2' indica que o bebê nasceu com uma condição grave, caracterizada por baixa pontuação no exame de APGAR, o que sugere problemas respiratórios e circulatórios. Como a cesárea foi realizada por indicação fetal e a morte neonatal prematura é relatada, essa opção mais se aproxima da realidade clínica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'APGAR 1/2' não representa uma condição de doença, mas sim um resultado do exame APGAR, que avalia a saúde do recém-nascido. A codificação MA15.0 (Bacteremia) não está relacionada ao termo 'APGAR 1/2', pois não há evidência clínica de infecção bacteriana no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "JA21": {
+      "term_original": "g2p1",
+      "capitulo": "18",
+      "confidence_embedding": 0.7729,
+      "descricao_cid": "Representação de doença CID-11: Pré-eclâmpsia superposta a hipertensão crônica. Definição: Condição que acomete mulheres grávidas com mais de 20 semanas de gestação. Esta condição é caracterizada por pressão arterial sistólica maior que 140 mmHg e diastólica igual ou maior a 90 mmHg em duas ocasiões com 4 horas de intervalo na presença de proteinúria ou outra nova disfunção orgânica materna, caracterizada por trombocitopenia, creatinina sérica ou transaminases hepáticas elevadas, ou condições neurológicas ou restrição do crescimento fetal em uma mulher com diagnóstico de hipertensão preexistente.",
+      "classification_reasoning": "A paciente foi internada para realizar cesárea eletiva por indicação fetal, o que sugere uma gravidez de alto risco. A presença de macrocrania, displasia óssea e hipoplasia pulmonar importante justificam a escolha desse código.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 JA21 'Pré-eclâmpsia superposta a hipertensão crônica' não se aplica à paciente, pois o prontuário descreve uma gravidez de alto risco com indicação fetal (macrocrania, displasia óssea e hipoplasia pulmonar importante) e realização de cesárea eletiva. A pré-eclâmpsia não é mencionada no prontuário, portanto, a codificação não é clínica ou coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "LA00.00": {
+      "term_original": "macrocrania",
+      "capitulo": "20",
+      "confidence_embedding": 0.759,
+      "descricao_cid": "Representação de doença CID-11: Craniorraquisquise. Definição: Condição causada pela falha do fechamento completo do tubo neural durante o período pré-natal. Esta condição é caracterizada por ausência completa do crânio, defeitos extensos nas vértebras e pele e ausência do cérebro.",
+      "classification_reasoning": "A presença de macrocrania como um sintoma importante na história pré-natal do paciente, juntamente com a displasia óssea e hipoplasia pulmonar, sugere que a condição mais provável é a craniorraquisquise (LA00.00), uma doença caracterizada pela falha do fechamento completo do tubo neural durante o período pré-natal.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de macrocrania na história pré-natal do paciente é um sintoma importante que sugere a possibilidade de craniorraquisquise (LA00.00). A descrição da condição no prontuário, juntamente com a displasia óssea e hipoplasia pulmonar, suporta a classificação CID-11 LA00.00. Portanto, a codificação é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "LA8A.1Y": {
+      "term_original": "hipoplasia pulmonar",
+      "capitulo": "20",
+      "confidence_embedding": 0.7736,
+      "descricao_cid": "Representação de doença CID-11: Outra atresia pulmonar congênita especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa é LA8A.1Y, Outra atresia pulmonar congênita especificada, pois o termo 'hipoplasia pulmonar' está diretamente relacionado à descrição da doença. Além disso, a presença de macrocrania e displasia óssea com hipoplasia pulmonar importante na paciente também apoia essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipoplasia pulmonar é uma condição de desenvolvimento anormal do pulmão, não uma atresia pulmonar congênita. A opção LA8A.1Y não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

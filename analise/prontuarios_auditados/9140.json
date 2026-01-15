@@ -1,0 +1,67 @@
+{
+  "prontuario_id": 122,
+  "text": "# PO DE HEMORROIDECTOMIA (08/06/16).\n\n# PACIENTE REFERE HÁBITO INTESTINAL DIÁRIO. REFERE ARDÊNCIA ANAL. \n\n# EF: FO EM CICATRIZAÇÃO.\n\n# RETORNO EM 2 MESES.        ",
+  "entities": {
+    "Abreviação": [
+      "PO",
+      "FO"
+    ],
+    "Conceito Temporal": [
+      "PO",
+      "2 MESES"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "HEMORROIDECTOMIA"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Lesão ou Envenenamento": [
+      "FO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "RETORNO"
+    ],
+    "Achado": [
+      "HÁBITO INTESTINAL DIÁRIO"
+    ],
+    "Função Fisiológica": [
+      "HÁBITO INTESTINAL DIÁRIO"
+    ],
+    "Sinal ou Sintoma": [
+      "ARDÊNCIA ANAL"
+    ]
+  },
+  "labels": {
+    "DC72.Z": {
+      "term_original": "fo",
+      "capitulo": "13",
+      "confidence_embedding": 0.7822,
+      "descricao_cid": "Representação de doença CID-11: Divertículo do intestino delgado, sem especificação sobre a presença ou ausência de hemorragia. Definição: ",
+      "classification_reasoning": "O termo 'fo' provavelmente se refere à função fecal, indicando uma lesão no trato intestinal. A opção DC72.Z é a mais precisa porque descreve um divertículo do intestino delgado sem especificação sobre a presença ou ausência de hemorragia, o que se relaciona ao contexto da hérnia intra-abdominal primária (DD50.20) e da megacólon tóxico (DB32.20), mas não é específico para essas condições.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'fo' provavelmente se refere à função fecal, indicando uma lesão no trato intestinal. No entanto, a opção DC72.Z não é específica para essa condição e pode ser aplicada a outras situações de divertículo do intestino delgado. Ajuste necessário para refletir melhor a clínica descrita.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DB70.0Z": {
+      "term_original": "ardência anal",
+      "capitulo": "13",
+      "confidence_embedding": 0.7913,
+      "descricao_cid": "Representação de doença CID-11: Abscesso da região anal, não especificado. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'ardência anal' é a abscessão anal não especificada, pois a ardência pode ser um sintoma comum em pacientes com processos inflamatórios ou lesões na região anal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A ardência anal pode ser um sintoma comum em pacientes com processos inflamatórios ou lesões na região anal, mas não há evidências no prontuário que sugiram a presença de abscesso anal. A codificação DB70.0Z é demasiado específica e não representa fielmente o termo 'ardência anal' descrito no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "DA96.0": {
+      "term_original": "hábito intestinal diário",
+      "capitulo": "13",
+      "confidence_embedding": 0.8045,
+      "descricao_cid": "Representação de doença CID-11: Má absorção intestinal. Definição: Má absorção intestinal (síndrome) ocorre devida a interferência patológica com a sequência fisiológica normal de digestão (processo intraluminal), absorção (processo mucoso) e transporte (eventos pós-mucosos) de nutrientes no intestino delgado. O conceito de insuficiência intestinal é um tipo grave com risco de vida de má absorção intestinal devida a intestino curto, defeitos estruturais dos enterócitos e dismotilidade intestinal, etc.",
+      "classification_reasoning": "A presença de hábito intestinal diário no paciente, sem qualquer indicação de distensão ou dor abdominal, sugere que a má absorção intestinal é mais provável do que outras opções.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de hábito intestinal diário no paciente não é diretamente relacionada à má absorção intestinal. O termo 'hábito intestinal diário' se refere a um padrão de defecação, enquanto a má absorção intestinal se refere ao processo fisiológico de digestão e absorção de nutrientes. A falta de indicação de distensão ou dor abdominal não justifica a escolha do código DA96.0.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "prontuario_id": 588,
+  "text": "15:30h - Anciosa, com períodos de confusão, responsiva, hipocorada, dispnéia a pequenos esforços, com O2 contínuo em cateter tipo óculos. Diurese presente em SVD, evacuações presentes em fralda. Boa aceitação da dieta oferecida. Realizado medidas de conforto e higiene e colocada em poltrona. MMII frios. Segue sob cuidados de enfermagem. Enfermeira Florence Nightingale.  SINDROME DO DESCONFORTO RESPIRATORIO DO ADULTO",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "Anciosa",
+      "hipocorada",
+      "frios",
+      "períodos de confusão",
+      "dispnéia a pequenos esforços"
+    ],
+    "Achado": [
+      "responsiva",
+      "Boa aceitação da dieta"
+    ],
+    "Dispositivo Médico": [
+      "SVD",
+      "fralda",
+      "cateter tipo óculos"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SVD",
+      "higiene",
+      "O2 contínuo",
+      "medidas de conforto"
+    ],
+    "Abreviação": [
+      "SVD",
+      "MMII"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "oferecida",
+      "Realizado",
+      "higiene",
+      "cuidados de enfermagem"
+    ],
+    "Localização ou Região Corporal": [
+      "MMII"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Doença ou Síndrome": [
+      "SINDROME DO DESCONFORTO RESPIRATORIO DO ADULTO"
+    ]
+  },
+  "labels": {
+    "CB41.1": {
+      "term_original": "hipocorada",
+      "capitulo": "12",
+      "confidence_embedding": 0.7732,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência respiratória crônica. Definição: Na insuficiência respiratória crônica a hipoxemia ocorre ao longo de semanas ou meses (mais de 7 dias) e a insuficiência respiratória se desenvolve mais lentamente e dura mais tempo do que na insuficiência respiratória aguda.",
+      "classification_reasoning": "A presença de hipocorada no contexto clínico sugere uma insuficiência respiratória crônica, caracterizada pela necessidade de oxigênio contínuo e sintomas como dispnéia a pequenos esforços.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de hipocorada no prontuário é consistente com a definição da insuficiência respiratória crônica, caracterizada pela necessidade de oxigênio contínuo e sintomas como dispnéia a pequenos esforços. A codificação CID-11 CB41.1 para insuficiência respiratória crônica é justificada pelo contexto clínico.",
+      "tipo_erro_auditoria": null
+    },
+    "6C40.3": {
+      "term_original": "períodos de confusão",
+      "capitulo": "06",
+      "confidence_embedding": 0.8435,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas.",
+      "classification_reasoning": "A paciente apresenta períodos de confusão, o que sugere um estado de consciência perturbado e possível alteração no nível de consciência, característica da intoxicação por álcool. A presença de dispnéia a pequenos esforços também é compatível com essa condição.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 atribuída (6C40.3) representa intoxicação por álcool, que não é compatível com a condição clínica descrita no prontuário. A paciente apresenta períodos de confusão, responsiva e dispnéia a pequenos esforços, o que sugere uma condição mais relacionada ao Síndrome do Desconforto Respiratório do Adulto (SDRA) do que à intoxicação por álcool.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA08.01": {
+      "term_original": "dispnéia a pequenos esforços",
+      "capitulo": "12",
+      "confidence_embedding": 0.8078,
+      "descricao_cid": "Representação de doença CID-11: Rinite alérgica devida a outros alérgenos sazonais. Definição: Refere-se a inflamações alérgicas das vias aéreas nasais provocadas por outros alérgenos, além de pólen e ácaro da poeira doméstica, em pacientes com sensibilização múltipla ou como parte de condição complexa, como alergia a látex. Caracteriza-se, clinicamente, pelos seguintes sintomas: espirros, prurido nasal, coriza e obstrução nasal. Ocorre quando um alérgeno, como pelo de animal (partículas de pele descamada ou cabelo), inseto (partículas do corpo de baratas), ou partículas fúngicas, é inalado por indivíduo com o sistema imune sensibilizado.",
+      "classification_reasoning": "A dispnéia a pequenos esforços é um sintoma comum na Rinite alérgica devida a outros alérgenos sazonais, que caracteriza-se por obstrução nasal e tosse. Embora não seja o único motivo para a dispnéia, é uma possibilidade clínica importante que justifica a escolha do código CA08.01.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dispnéia a pequenos esforços não é um sintoma característico da Rinite alérgica devida a outros alérgenos sazonais. A dispnéia nesse contexto mais se relaciona à doença do desconforto respiratório do adulto, que é uma condição clínica diferente daquela descrita pelo código CA08.01.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA23.0": {
+      "term_original": "anciosa",
+      "capitulo": "12",
+      "confidence_embedding": 0.7685,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica. Definição: Asma alérgica é o fenótipo de asma mais facilmente reconhecido. Frequentemente, inicia-se na infância e é associada a um histórico pessoal ou familiar de doença alérgica, como eczema, rinite alérgica, ou alergia a drogas e alimentos. O exame do escarro induzido desses pacientes, antes do tratamento, geralmente revela uma inflamação eosinofílica das vias aéreas. O principal gatilho é a exposição a alérgenos, como o ácaro da poeira doméstica e ao pólen, aos quais o indivíduo tenha sido, previamente, sensibilizado. Os pacientes com esse fenótipo de asma, usualmente, respondem bem a corticoide inalatório e à imunoterapia alérgeno-específica.",
+      "classification_reasoning": "O termo 'anciosa' indica ansiedade e apreensão, características comuns em pacientes com asma alérgica. Além disso, a presença de dispnéia a pequenos esforços e O2 contínuo em cateter tipo óculos também sugere uma possível conexão com a asma.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'anciosa' não está relacionado à asma alérgica, que é o código CID-11 atribuído. A ansiedade e apreensão descritas no prontuário são sintomas comuns em pacientes com várias condições clínicas, mas não há evidência clínica suficiente para justificar a classificação como asma alérgica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA22.0": {
+      "term_original": "sindrome do desconforto respiratorio do adulto",
+      "capitulo": "12",
+      "confidence_embedding": 0.7494,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A paciente apresenta dispnéia a pequenos esforços, o que sugere uma doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. A presença de O2 contínuo em cateter tipo óculos e diurese presente em SVD também suportam essa escolha.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A paciente apresenta dispnéia a pequenos esforços, o que é um sintoma comum em pacientes com doença pulmonar obstrutiva crônica (DPOC). Além disso, a presença de O2 contínuo em cateter tipo óculos e diurese presente em SVD também suportam essa escolha. A codificação CA22.0 para 'Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada' é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MB24.A": {
+      "term_original": "frios",
+      "capitulo": "21",
+      "confidence_embedding": 0.7383,
+      "descricao_cid": "Representação de doença CID-11: Medo. Definição: Resposta emocional diante da percepção de ameaça ou perigo iminente, associada ao desejo de fugir ou lutar.",
+      "classification_reasoning": "A opção mais precisa para o termo 'frios' é a definição de Medo (MB24.A), pois a palavra 'MMII frios' indica que há uma percepção de ameaça ou perigo iminente, associada ao desejo de fugir ou lutar.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção MB24.A (Medo) não é adequada porque o termo 'frios' se refere a uma condição clínica específica, relacionada ao confort e higiene do paciente, e não à percepção de ameaça ou perigo iminente. A definição de Medo não está diretamente relacionada ao termo 'frios', o que justifica a remoção da codificação CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

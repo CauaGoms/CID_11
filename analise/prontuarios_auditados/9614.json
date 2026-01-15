@@ -1,0 +1,136 @@
+{
+  "prontuario_id": 682,
+  "text": "* ENCAMINHADO DA UBS\nLucas, 63 ANOS\n# PERDA DE VISÃO À ESQUERDA EM 2006\n# HAS\n# HF NEGATIVA\n# MEDICAÇÕES: ENALAPRIL 10MG 12/12H\nASSINTOMÁTICO.\nGOSTARIA DE UM CHECK-UP.\nMÉDICOS FALARAM QUE O PERDA DE VISÃO PODERIA SER POR PROBLEMAS CARDÍACOS\nPA 140/90 MMHG, FC 94 BPM\nRCR 2T SS\nMV+ BILATERAL SEM RA\nECG: FC 75 BPM, SINUSAL, DISTÚRBIOS DE CONDUÇÃO DE RAMO DIREITO\nECOCARDIO NORMAL\nTE NORMAL\nALTA DO AMBULATORIO\nACOMPANHAR NA UBS\n \n \n \n ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "ENCAMINHADO",
+      "CHECK-UP",
+      "ALTA",
+      "ACOMPANHAR"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UBS",
+      "AMBULATORIO"
+    ],
+    "Abreviação": [
+      "UBS",
+      "HAS",
+      "HF",
+      "12/12H",
+      "PA",
+      "FC",
+      "ECG",
+      "ECOCARDIO",
+      "TE",
+      "94 BPM",
+      "RCR 2T SS",
+      "MV+ BILATERAL",
+      "75 BPM"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "PERDA DE VISÃO"
+    ],
+    "Achado": [
+      "HF",
+      "PERDA DE VISÃO",
+      "RCR 2T SS",
+      "MV+ BILATERAL"
+    ],
+    "Negação": [
+      "NEGATIVA",
+      "ASSINTOMÁTICO",
+      "SEM"
+    ],
+    "Conceito Qualitativo": [
+      "NEGATIVA"
+    ],
+    "Substância Farmacológica": [
+      "MEDICAÇÕES",
+      "ENALAPRIL"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "MEDICAÇÕES"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "ENALAPRIL"
+    ],
+    "Substância Química Orgânica": [
+      "ENALAPRIL"
+    ],
+    "Conceito Quantitativo": [
+      "10MG",
+      "140/90 MMHG",
+      "94 BPM",
+      "75 BPM"
+    ],
+    "Conceito Temporal": [
+      "12/12H"
+    ],
+    "Sinal ou Sintoma": [
+      "ASSINTOMÁTICO",
+      "RA",
+      "PERDA DE VISÃO",
+      "PROBLEMAS CARDÍACOS"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "MÉDICOS"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECG",
+      "ECOCARDIO",
+      "TE"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "SINUSAL",
+      "NORMAL",
+      "DISTÚRBIOS DE CONDUÇÃO DE RAMO DIREITO"
+    ]
+  },
+  "labels": {
+    "9A25.4": {
+      "term_original": "perda de visão",
+      "capitulo": "09",
+      "confidence_embedding": 0.7231,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia da órbita. Definição: Trata-se da perda ou escape de sangue do sistema circulatório. Esse diagnóstico é relativo à cavidade ou arcabouço ósseo do crânio em que o olho e seus apêndices estão situados. \"Órbita\" pode se referir ao arcabouço ósseo mas também pode ser utilizado para implicar seu conteúdo.",
+      "classification_reasoning": "A perda de visão à esquerda, descrita no prontuário, é mais provável ser relacionada a uma hemorragia ou escape de sangue da órbita do que às outras opções, considerando-se o contexto de doença cardiovascular e a ausência de sintomas outros sugerindo uma crise glaucomatociclítica. Além disso, a descrição do termo 'órbita' no Código 9A25.4 é mais ampla e inclui tanto o arcabouço ósseo quanto seu conteúdo, o que se encaixa melhor com a situação clínica descrita.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A perda de visão à esquerda não é uma hemorragia da órbita, mas sim um sintoma que pode ser causado por vários fatores. A descrição do termo 'perda de visão' no prontuário não se encaixa com a definição do código CID-11 9A25.4, que se refere à perda ou escape de sangue da órbita. Além disso, o contexto clínico descrito no prontuário sugere uma possível relação com problemas cardíacos, o que não é contemplado pelo código CID-11 9A25.4.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC63.4": {
+      "term_original": "hf",
+      "capitulo": "11",
+      "confidence_embedding": 0.7988,
+      "descricao_cid": "Representação de doença CID-11: Bloqueio de ramo esquerdo. Definição: Transtorno do sistema de condução atrioventricular em que a duração do QRS é maior ou igual a 120 ms em adultos, maior que 100 ms em crianças de 4 a 16 anos de idade e maior que 90 ms em crianças menores de 4 anos; há um padrão QS ou rS na derivação V1 e uma onda R larga e empastada nas derivações I e V6.",
+      "classification_reasoning": "A presença de HF (insuficiência cardíaca) negativa e um ECG com distúrbios de condução do ramo direito, aponta para o diagnóstico de bloqueio de ramo esquerdo (BC63.4), caracterizado por duração prolongada do QRS e padrão QS ou rS na derivação V1.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de HF negativa não é suficiente para diagnosticar um bloqueio de ramo esquerdo (BC63.4). Além disso, o ECG apresenta distúrbios de condução do ramo direito, mas não há evidência clínica de que isso esteja relacionado à perda de visão à esquerda. A codificação CID-11 BC63.4 é demasiadamente específica e não se ajusta ao contexto clínico apresentado no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC63.3": {
+      "term_original": "problemas cardíacos",
+      "capitulo": "11",
+      "confidence_embedding": 0.8036,
+      "descricao_cid": "Representação de doença CID-11: Bloqueio de ramo direito. Definição: Transtorno do sistema de condução atrioventricular caracterizado por duração prolongada do QRS (maior ou igual a 120 ms em adultos, maior que 100 ms em crianças de 4 a 16 anos e maior que 90 ms em crianças menores de 4 anos), rsr , rsR ou rSR nas derivações V1 ou V2, onda S de duração maior do que a onda R (ou maior que 40 ms nas derivações I e V6 em adultos)",
+      "classification_reasoning": "A escolha do código BC63.3 é mais precisa porque refere-se ao bloqueio de ramo direito, o que está relacionado à discussão sobre problemas cardíacos mencionada no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código BC63.3 é mais precisa porque refere-se ao bloqueio de ramo direito, o que está relacionado à discussão sobre problemas cardíacos mencionada no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MC82.1": {
+      "term_original": "ra",
+      "capitulo": "21",
+      "confidence_embedding": 0.713,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com bradicardia. Definição: Ritmo de escape lento associado a colapso hemodinâmico.",
+      "classification_reasoning": "A opção mais precisa para o termo 'ra' no contexto clínico é a parada cardíaca com bradicardia (MC82.1), pois Lucas tem PA 140/90 mmHg e FC 94 BPM, o que sugere uma possível disfunção cardíaca.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção MC82.1 não é adequada porque a parada cardíaca com bradicardia refere-se a um evento de colapso hemodinâmico, enquanto o prontuário descreve uma situação assintomática e sem evidência de disfunção cardíaca. Além disso, a presença de PA 140/90 mmHg e FC 94 BPM não justifica a classificação de parada cardíaca.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

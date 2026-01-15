@@ -1,0 +1,61 @@
+{
+  "prontuario_id": 955,
+  "text": "Às 13:00HR: Apresentou padrão respiratorio ineficaz, saturação de 40%, evoluindo em parada respiratoria. Realizado ventilação positiva, medicada conforme prescrição, evolução com sucesso para respiração espontanea em suporte de nevoa 3 l\\min. Enfermeira Florence Nightingale, coren XXXX. COLICA NEFRETICA NAO ESPECIFICADA.",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "medicada",
+      "prescrição"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "nevoa",
+      "ventilação positiva"
+    ],
+    "Sinal ou Sintoma": [
+      "padrão respiratorio ineficaz"
+    ],
+    "Função Patológica": [
+      "parada respiratoria"
+    ],
+    "Achado": [
+      "respiração espontanea"
+    ],
+    "Doença ou Síndrome": [
+      "COLICA NEFRETICA"
+    ],
+    "Negação": [
+      "NAO ESPECIFICADA"
+    ]
+  },
+  "labels": {
+    "CA22.0": {
+      "term_original": "padrão respiratorio ineficaz",
+      "capitulo": "12",
+      "confidence_embedding": 0.748,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A escolha do código CA22.0 se baseia na descrição de 'padrão respiratório ineficaz' e a evolução para parada respiratória, o que sugere uma doença pulmonar obstrutiva crônica com exacerbação aguda não especificada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CA22.0 se baseia na descrição de 'padrão respiratório ineficaz' e a evolução para parada respiratória, o que sugere uma doença pulmonar obstrutiva crônica com exacerbação aguda não especificada. No entanto, o termo 'padrão respiratório ineficaz' não é diretamente relacionado à DPOC ou exacerbação aguda. A parada respiratória e a evolução para respiração espontânea em suporte de nevoa 3 l/min são sintomas que podem estar relacionados a várias condições, incluindo doenças pulmonares, mas não há evidência clínica suficiente para justificar a escolha do código CA22.0.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB0Z": {
+      "term_original": "parada respiratoria",
+      "capitulo": "12",
+      "confidence_embedding": 0.736,
+      "descricao_cid": "Representação de doença CID-11: Doenças respiratórias que afetam principalmente o interstício pulmonar, não especificadas. Definição: ",
+      "classification_reasoning": "A parada respiratória descrita não se relaciona a uma pneumonia específica (CA40.10 ou CA40.12) nem a exacerbação aguda de DPOC (CA22.0). A falta de informações sobre a possível causa da parada respiratória e a menção de 'colica nefretica não especificada' sugerem que a doença pode afetar principalmente o interstício pulmonar, fazendo com que CB0Z seja a opção mais precisa.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A parada respiratória descrita no prontuário não se relaciona apenas a doenças respiratórias que afetam principalmente o interstício pulmonar. A menção de 'colica nefretica não especificada' sugere uma possível causa para a parada respiratória, que não é capturada pelo código CB0Z. Além disso, a falta de informações sobre a possível causa da parada respiratória e a evolução para respiração espontânea em suporte de nevoa 3 l/min sugerem uma situação mais complexa do que apenas doenças respiratórias não especificadas.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GB54": {
+      "term_original": "colica nefretica",
+      "capitulo": "16",
+      "confidence_embedding": 0.7012,
+      "descricao_cid": "Representação de doença CID-11: Nefrite túbulo-intersticial, não especificada se aguda ou crônica. Definição: Doença caracterizada por inflamação e lesão de túbulos ou interstício do rim ao mesmo tempo que poupa os glomérulos secundária a reação imune ou agente tóxico.",
+      "classification_reasoning": "A opção mais precisa para o termo 'colica nefretica' é GB54, pois apresenta a definição de nefrite túbulo-intersticial não especificada se aguda ou crônica, que está presente no contexto clínico do prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção GB54 não representa fielmente o termo 'colica nefretica' no prontuário. A colica nefretica é uma sintoma, enquanto a GB54 refere-se à doença de nefrite túbulo-intersticial não especificada. Embora haja um relacionamento entre os dois, eles não são equivalentes. Portanto, o código CID-11 atribuído não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "prontuario_id": 623,
+  "text": "Às 07:38h: 3º DI queda de mesmo nível, com fratura escalonada de costelas. Consciente, orientada, tranquila, comunicativa e mantendo repouso. Refere dor em hemitórax D, ausculta pulmonar com movimentos ventilatórios positivos bilateralmente, abdomên flácido, in. FRATURA DE COSTELA. ÀS 16H: ALERTA E CONTACTUANTE, PUPILAS ISOCÓRICAS E FOTORREAGENTES, FOI EXTUBADA NO PERÍODO DA MANHÃ, MANTENDO NÉVOA ÚMIDA, CONTÍNUA, OXIMETRIA ACIMA DE 95%, ACESSO VENOSO EM JUGULAR INTERNA D COM PLANO BÁSICO DE HIDRATAÇÃO, SNG COM ESTASE EM BAIXO DÉBITO, AUSC. TRANSTORNOS MENTAIS E COMPORTAMENTAIS DEVIDOS AO USO DA COCAINA. INTOXICACAO AGUDA. Às 00:00: POI de fratura de femur E. Consciente, orientada, comunicativa. Acesso venoso em MSD, curativo limpo e seco em MIE, apresenta boa perfusão distal e mobilidade preservada. Relata boa aceitação da dieta oferecida. Eliminações presentes. FRATURA DO FEMUR. 2° DI COM HX DE QUEDA DO ESTADO GERAL. PROVENIENTE DO ASILO DE IDOSOS. COM MIIASE EM CAVIDADE ORAL. ABERTURA OCULAR ESPONTÂNEA, RESPONDENDO A COMANDOS. PERIODOS GEMENTE. PUPILAS ISO E FOTO. ACESSO EM MSE. HIGIENE ORAL PRECÁRIA. RESPIRAÇÃO ESPONTÂNEA EM AR. OUTRAS PNEUMONIAS VIRAIS.",
+  "entities": {
+    "Abreviação": [
+      "DI",
+      "D",
+      "SNG",
+      "AUSC",
+      "POI",
+      "E",
+      "MSD",
+      "MIE",
+      "HX",
+      "MSE",
+      "PUPILAS ISO E FOTO"
+    ],
+    "Achado": [
+      "Consciente",
+      "orientada",
+      "tranquila",
+      "comunicativa",
+      "repouso",
+      "flácido",
+      "ALERTA",
+      "CONTACTUANTE",
+      "limpo",
+      "seco",
+      "movimentos ventilatórios positivos bilateralmente",
+      "PUPILAS ISOCÓRICAS E FOTORREAGENTES",
+      "boa perfusão distal",
+      "mobilidade preservada",
+      "aceitação da dieta",
+      "Eliminações presentes",
+      "ABERTURA OCULAR ESPONTÂNEA",
+      "RESPONDENDO A COMANDOS",
+      "PUPILAS ISO E FOTO",
+      "RESPIRAÇÃO ESPONTÂNEA EM AR"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "repouso",
+      "EXTUBADA",
+      "SNG",
+      "MSD",
+      "curativo",
+      "ACESSO",
+      "NÉVOA ÚMIDA",
+      "ACESSO VENOSO",
+      "PLANO BÁSICO DE HIDRATAÇÃO",
+      "Acesso venoso"
+    ],
+    "Sinal ou Sintoma": [
+      "dor",
+      "QUEDA DO ESTADO GERAL",
+      "PERIODOS GEMENTE"
+    ],
+    "Conceito Espacial": [
+      "D",
+      "E"
+    ],
+    "Localização ou Região Corporal": [
+      "abdomên",
+      "MSD",
+      "MIE",
+      "MSE"
+    ],
+    "Conceito Quantitativo": [
+      "95%"
+    ],
+    "Dispositivo Médico": [
+      "SNG",
+      "curativo",
+      "ACESSO",
+      "ACESSO VENOSO",
+      "Acesso venoso"
+    ],
+    "Procedimento Diagnóstico": [
+      "AUSC",
+      "ausculta pulmonar"
+    ],
+    "Conceito Temporal": [
+      "POI",
+      "PERÍODO DA MANHÃ"
+    ],
+    "Doença ou Síndrome": [
+      "MIIASE",
+      "PNEUMONIAS VIRAIS"
+    ],
+    "Lesão ou Envenenamento": [
+      "queda de mesmo nível",
+      "fratura escalonada de costelas",
+      "FRATURA DE COSTELA",
+      "INTOXICACAO AGUDA",
+      "fratura de femur",
+      "FRATURA DO FEMUR"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "JUGULAR INTERNA"
+    ],
+    "Disfunção Mental ou Comportamental": [
+      "TRANSTORNOS MENTAIS E COMPORTAMENTAIS DEVIDOS AO USO DA COCAINA"
+    ],
+    "Função Fisiológica": [
+      "Eliminações presentes"
+    ],
+    "Organização Relacionada à Saúde": [
+      "ASILO DE IDOSOS"
+    ]
+  },
+  "labels": {
+    "CA70.0": {
+      "term_original": "flácido",
+      "capitulo": "12",
+      "confidence_embedding": 0.811,
+      "descricao_cid": "Representação de doença CID-11: Pulmão de fazendeiro. Definição: Doença pulmonar do fazendeiro é uma pneumonite por hipersensibilidade, causada por inalação de poeira orgânica contendo esporos de microrganismos, frequentemente actinomicetos termofílicos, e menos comumente Saccharopolyspora rectivirgula, vivendo em feno, palha ou grãos mofados. Sintomas típicos incluem dispneia, tosse, cansaço, dores de cabeça e febre/sudorese noturna ocasionais, com curso clínico agudo, subagudo ou crônico e que podem resultar em insuficiência crônica com doença granulomatosa.",
+      "classification_reasoning": "A opção mais precisa é a doença pulmonar do fazendeiro (CA70.0) porque o termo 'flácido' se refere ao abdomen flácido mencionado no relatório, característica clínica desse tipo de doença.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'flácido' se refere ao abdomen flácido mencionado no prontuário, que não está relacionado à doença pulmonar do fazendeiro (CA70.0). A classificação é incorreta e não representa fielmente o termo ou condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EB31": {
+      "term_original": "miiase",
+      "capitulo": "14",
+      "confidence_embedding": 0.767,
+      "descricao_cid": "Representação de doença CID-11: Eritema nodoso. Definição: Erupção eritematosa comumente associada a reações a medicamentos ou infecção e caracterizada por nódulos inflamatórios que geralmente são dolorosos, múltiplos e bilaterais. Esses nódulos localizam-se predominantemente na face anterior das pernas, com ocorrência menos comum nas coxas e antebraços. Eles sofrem mudanças de cor características que terminam em áreas temporárias semelhantes a hematomas. Esta condição geralmente desaparece em 3-6 semanas sem cicatriz ou atrofia.",
+      "classification_reasoning": "A presença do termo 'miiase' no contexto clínico sugere a possibilidade de erupção eritematosa com múltiplos nódulos inflamatórios, o que é característico da Eritema Nodosa (EB31). A escolha desse código também está relacionada à descrição de doença CID-11 e sua definição.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença do termo 'miiase' no contexto clínico não sugere a possibilidade de erupção eritematosa com múltiplos nódulos inflamatórios, característica da Eritema Nodosa (EB31). O termo 'miiase' parece ser uma abreviação médica incomum e não há evidência clínica suficiente para justificar a escolha desse código. Além disso, a descrição de doença CID-11 e sua definição não se aplicam ao contexto do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NA02.7": {
+      "term_original": "queda de mesmo nível",
+      "capitulo": "22",
+      "confidence_embedding": 0.7647,
+      "descricao_cid": "Representação de doença CID-11: Fratura de mandíbula. Definição: Fratura do maior e mais forte osso da face que é a mandíbula",
+      "classification_reasoning": "A descrição do termo 'queda de mesmo nível' refere-se à uma situação em que o paciente caiu de pé ou sentado, ao invés de uma lesão facial ou corpo estranho na face, como sugerem as outras opções. A fratura escalonada de costelas também é compatível com essa explicação.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fratura escalonada de costelas não é uma lesão facial, e o termo 'queda de mesmo nível' não se refere à fratura de mandíbula. A descrição do prontuário indica que a paciente caiu de pé ou sentado, o que não está relacionado à fratura de mandíbula. Portanto, o código CID-11 atribuído (NA02.7) não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "1D65": {
+      "term_original": "pneumonias virais",
+      "capitulo": "01",
+      "confidence_embedding": 0.7927,
+      "descricao_cid": "Representação de doença CID-11: Síndrome respiratória aguda grave. Definição: Doença do sistema respiratório, causada por uma infecção por coronavírus. Esta doença é caracterizada por febre, cefaleia, tosse, mialgia, taquicardia ou diarreia. Esta doença também pode causar pneumonia. A transmissão ocorre por contato direto, inalação de secreções respiratórias infectadas ou transmissão aérea. A confirmação é feita pela identificação do coronavírus em uma amostra de sangue, fezes, secreções respiratórias ou tecido corporal.",
+      "classification_reasoning": "A opção mais precisa é a Síndrome Respiratória Aguda Grave (Código CID-11: 1D65), pois o prontuário apresenta sintomas respiratórios, como tosse e pneumonia, sem mencionar outras características específicas de doenças pneumonias virais. Além disso, a sintomatologia descrevida é consistente com a Síndrome Respiratória Aguda Grave.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção Síndrome Respiratória Aguda Grave (Código CID-11: 1D65) não é adequada pois o prontuário apresenta sintomas respiratórios, como tosse e pneumonia, mas também menciona outras condições clínicas, como fratura de costela e fratura do fémur. Além disso, a descrição da pneumonias virais não se enquadra na definição da Síndrome Respiratória Aguda Grave.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF42": {
+      "term_original": "movimentos ventilatórios positivos bilateralmente",
+      "capitulo": "21",
+      "confidence_embedding": 0.7387,
+      "descricao_cid": "Representação de doença CID-11: Testículo retrátil. Definição: Um testículo retrátil é aquele que pode se deslocar entre o saco escrotal e a virilha. Na maioria dos meninos, o problema se resolve em algum momento antes ou durante a puberdade.",
+      "classification_reasoning": "A opção mais precisa para o termo 'movimentos ventilatórios positivos bilateralmente' é a doença CID-11: Testículo retrátil. No entanto, isso não faz sentido clinicamente, pois a frase menciona movimentos respiratórios e não testículos. A escolha correta seria MF42 porque o termo busca um padrão de ventilação respiratória, que está relacionado ao código MF42: Testículo retrátil.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CID-11: Testículo retrátil não é clinicamente coerente com o termo 'movimentos ventilatórios positivos bilateralmente', que descreve a respiração normal. O código MF42: Respiração anormal é mais adequado para representar essa condição clínica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA32.3": {
+      "term_original": "fratura de costela",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é a FA32.3, pois o termo 'fratura de costela' refere-se diretamente à lesão óssea descrita no contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção FA32.3 é válida pois o termo 'fratura de costela' refere-se diretamente à lesão óssea descrita no contexto clínico, que coincide com a descrição do código CID-11.",
+      "tipo_erro_auditoria": null
+    },
+    "NA06.1": {
+      "term_original": "alerta",
+      "capitulo": "22",
+      "confidence_embedding": 0.7799,
+      "descricao_cid": "Representação de doença CID-11: Ferimento penetrante da órbita ocular com ou sem corpo estranho. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'alerta' é a NA06.1, pois a paciente apresentou um aumento da consciência e reação às estímulos após ter sido extubada na manhã, indicando uma resposta de alerta.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção CID-11 NA06.1 'Ferimento penetrante da órbita ocular com ou sem corpo estranho' não se relaciona clinicamente com o termo 'alerta'. A paciente apresentou um aumento da consciência e reação às estímulos após ter sido extubada na manhã, indicando uma resposta de alerta. Portanto, a codificação CID-11 não é clínica ou coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "FB32.20": {
+      "term_original": "fratura de femur",
+      "capitulo": "15",
+      "confidence_embedding": 0.7256,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A opção mais precisa para o termo 'fratura de femur' é FB32.20, Rabdomiólise idiopática, pois a descrição coincide com a fratura descrita no prontuário (fratura de femur) e a definição da rabdomiólise idiopática inclui a lesão muscular e extravazamento maciço do conteúdo muscular, o que é compatível com a fratura apresentada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fratura de femur descrita no prontuário não é uma lesão muscular, e sim uma lesão óssea. A definição da rabdomiólise idiopática CID-11 (FB32.20) refere-se a um tipo de lesão muscular, o que não se relaciona com a fratura descrita no prontuário. Portanto, a classificação é incorreta e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB23.H": {
+      "term_original": "respondendo a comandos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7907,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'respondendo a comandos' é a Crise de pânico (CID-11: MB23.H), pois o paciente está descrito como mantendo repouso e respondendo a comandos, característica comum em crises de pânico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CID-11: MB23.H (Crise de pânico) não é adequada para o termo 'respondendo a comandos' pois, embora o paciente esteja mantendo repouso e respondendo a comandos, isso não é característico de uma Crise de pânico. A descrição do prontuário sugere que o paciente está consciente, orientado e comunicativo, o que é mais consistente com um estado de alerta e contato, em vez de uma Crise de pânico.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C45.3": {
+      "term_original": "periodos gemente",
+      "capitulo": "06",
+      "confidence_embedding": 0.7998,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A frase 'periodos gemente' sugere que há algum tipo de perturbação do estado de consciência, o que é comum em casos de intoxicação por cocaína. Além disso, a história de uso de cocaína e as outras informações presentes no prontuário apoiam essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A frase 'periodos gemente' não sugere necessariamente uma perturbação do estado de consciência, como é descrito na definição do código CID-11. Além disso, a história de uso de cocaína e as outras informações presentes no prontuário não apoiam essa escolha. A classificação '6C45.3' parece ser uma sobreclassificação, pois o termo extraído não apresenta sintomas claramente relacionados à intoxicação por cocaína.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C45": {
+      "term_original": "transtornos mentais e comportamentais devidos ao uso da cocaina",
+      "capitulo": "06",
+      "confidence_embedding": 0.8147,
+      "descricao_cid": "Representação de doença CID-11: Transtornos devidos ao uso de cocaína. Definição: Transtornos decorrentes do uso de cocaína são caracterizados pelo padrão e pelas consequências do uso de cocaína. A cocaína é um composto encontrado em folhas da planta de coca, Erythroxylum coca, que é nativa de países do norte da América do Sul. A cocaína tem uso limitado no tratamento médico como um agente anestésico e vasoconstritor. É comumente usada ilicitamente, e amplamente disponível ao redor do mundo, onde é encontrado em duas formas principais: hidrocloreto de cocaína e base livre de cocaína (também conhecida como \"crack\"). A cocaína é um estimulante do sistema nervoso central, e a intoxicação por cocaína inclui tipicamente um estado de euforia e hiperatividade. A cocaína tem potentes propriedades geradoras de dependência, e a dependência de cocaína é uma causa comum de morbidade e de apresentações clínicas. A abstinência de cocaína tem curso característico que inclui letargia e humor deprimido. Uma gama de transtornos mentais induzidos por cocaína é descrita.",
+      "classification_reasoning": "A escolha do código 6C45 é mais precisa porque o termo 'transtornos mentais e comportamentais devidos ao uso da cocaina' sugere um estado de euforia e hiperatividade, características comuns da intoxicação aguda por cocaína. Além disso, a presença de sintomas psicóticos e comportamentais descritos no prontuário também se encaixa melhor na definição do código 6C45.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código 6C45 é justificada porque o termo 'transtornos mentais e comportamentais devidos ao uso da cocaina' sugere um estado de euforia e hiperatividade, características comuns da intoxicação aguda por cocaína. Além disso, a presença de sintomas psicóticos e comportamentais descritos no prontuário também se encaixa melhor na definição do código 6C45.",
+      "tipo_erro_auditoria": null
+    },
+    "FB81": {
+      "term_original": "fratura do femur",
+      "capitulo": "15",
+      "confidence_embedding": 0.7307,
+      "descricao_cid": "Representação de doença CID-11: Osteonecrose. Definição: Osteonecrose é o termo médico usado para a morte do tecido ósseo que ocorre quando o suprimento sanguíneo para o osso é interrompido por algum motivo. Os médicos algumas vezes se referem a esta condição como necrose avascular, necrose asséptica ou necrose isquêmica do osso.",
+      "classification_reasoning": "A escolha pelo código FB81 (Osteonecrose) é a mais precisa para o termo 'fratura do femur' no contexto clínico, pois descreve uma condição em que há morte do tecido ósseo, o que é consistente com a fratura descrita na história clínica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fratura do femur descrita no prontuário não é uma condição de osteonecrose, mas sim uma lesão óssea traumática. O código FB81 (Osteonecrose) não representa fielmente o termo 'fratura do femur' e não está diretamente relacionado à descrição clínica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A02.00": {
+      "term_original": "pupilas isocóricas e fotorreagentes",
+      "capitulo": "08",
+      "confidence_embedding": 0.7558,
+      "descricao_cid": "Representação de doença CID-11: Blefarospasmo benigno essencial. Definição: Esta é uma condição neurológica caracterizada por fechamento forçado das pálpebras devido a contração involuntária e sustentada dos músculos ao redor dos olhos.",
+      "classification_reasoning": "A presença de pupilas isocóricas e fotorreagentes sugere uma reação normal à luz, o que é compatível com a condição de blefarospasmo benigno essencial (Código CID-11: 8A02.00), caracterizada por fechamento forçado das pálpebras devido a contração involuntária e sustentada dos músculos ao redor dos olhos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de pupilas isocóricas e fotorreagentes não está relacionada ao fechamento forçado das pálpebras, característica do blefarospasmo benigno essencial. A reação normal à luz é uma resposta normal da pupila, não uma condição neurológica específica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NE88": {
+      "term_original": "intoxicacao aguda",
+      "capitulo": "22",
+      "confidence_embedding": 0.7617,
+      "descricao_cid": "Representação de doença CID-11: Toxicidade por drogas associada a danos em cuidados médicos ou cirúrgicos, não classificada em outra parte. Definição: ",
+      "classification_reasoning": "A intoxicação aguda é mencionada como um problema no contexto clínico, relacionado ao uso de cocaína pela paciente. O código NE88 se refere a toxicidade por drogas associada a danos em cuidados médicos ou cirúrgicos, o que coincide com a situação da paciente.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A intoxicação aguda mencionada no prontuário está diretamente relacionada à situação clínica da paciente, que refere dor em hemitórax D e apresenta sintomas de uso de cocaína. O código NE88 se refere a toxicidade por drogas associada a danos em cuidados médicos ou cirúrgicos, o que coincide com a situação da paciente. Portanto, a codificação CID-11 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "NA06.4": {
+      "term_original": "contactuante",
+      "capitulo": "22",
+      "confidence_embedding": 0.7787,
+      "descricao_cid": "Representação de doença CID-11: Lesão da conjuntiva ou abrasão da córnea sem menção de corpo estranho. Definição: ",
+      "classification_reasoning": "O termo 'contactuante' sugere uma lesão ou ferimento na área facial, especificamente na conjuntiva ou córnea. Essa opção é mais precisa porque NA06.4 se refere a Lesão da conjuntiva ou abrasão da córnea sem menção de corpo estranho.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'contactuante' não se refere a uma lesão na conjuntiva ou córnea, mas sim a um paciente que está agitado e alerta. A opção NA06.4 não é adequada para descrever essa condição clínica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.20": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.8386,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-traumática. Definição: Dor pós-traumática crônica é a dor que se desenvolve ou aumenta de intensidade após uma lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após o traumatismo tecidual. A dor é ou localizada na área da lesão, ou referida no território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente por um problema doloroso preexistente.",
+      "classification_reasoning": "A dor mencionada no relatório é crônica e se desenvolveu após uma lesão tecidual (queda de mesmo nível), não há menção a procedimento cirúrgico, portanto o código MG30.21 (Dor crônica pós-operatória) não é aplicável. Além disso, a dor está localizada no hemitórax direito, o que também descarta o código MG30.2 (Dor crônica pós-operatória ou pós-traumática). A opção mais precisa para este termo é então MG30.20 (Dor crônica pós-traumática), pois a dor se desenvolveu após uma lesão tecidual e persistiu além do processo de cicatrização.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor mencionada no prontuário é uma sintoma agudo, não crônica. A lesão de costelas e a fratura do femur são eventos traumáticos recentes, o que não justifica a classificação como 'dor crônica pós-traumática'. Além disso, a dor está relacionada à lesão física e não há menção a persistência da dor após o processo de cicatrização.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "prontuario_id": 40,
+  "text": "PCTE COM QUEIXA DE GLOBUS FARINGEO, PIROSE, REGURGITAÇÃO, PIGARRO, TOSSE CRONICA. NEGA PERDA DE PESO, HIPOREXIA.\n\nO # ORO: SP.\n\nCD # OMEPRAZOL POR 2 MESES. ORIENTAÇÕES ANTIREFLUXO.        ",
+  "entities": {
+    "Abreviação": [
+      "PCTE",
+      "ORO",
+      "CD"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PCTE"
+    ],
+    "Sinal ou Sintoma": [
+      "PIROSE",
+      "REGURGITAÇÃO",
+      "PIGARRO",
+      "HIPOREXIA",
+      "GLOBUS FARINGEO",
+      "TOSSE CRONICA",
+      "PERDA DE PESO"
+    ],
+    "Negação": [
+      "NEGA"
+    ],
+    "Procedimento Diagnóstico": [
+      "ORO"
+    ],
+    "Substância Farmacológica": [
+      "OMEPRAZOL"
+    ],
+    "Conceito Quantitativo": [
+      "2 MESES"
+    ],
+    "Conceito Temporal": [
+      "2 MESES"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ORIENTAÇÕES ANTIREFLUXO"
+    ]
+  },
+  "labels": {
+    "DA22": {
+      "term_original": "regurgitação",
+      "capitulo": "13",
+      "confidence_embedding": 0.7867,
+      "descricao_cid": "Representação de doença CID-11: Doença de refluxo gastroesofágico. Definição: Condição que se desenvolve quando o refluxo do conteúdo do estômago causa sintomas incômodos e/ou complicações.",
+      "classification_reasoning": "A presença de regurgitação, pirousete e tosse crônica sugere uma doença relacionada ao refluxo gastroesofágico, o que justifica a escolha da doença DA22.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de regurgitação, pirousete e tosse crônica não é suficiente para justificar a escolha da doença DA22, que se refere especificamente ao refluxo gastroesofágico. A falta de sintomas como dor ou desconforto no peito também sugere que o termo 'regurgitação' pode estar relacionado a outras condições, não apenas ao refluxo gastroesofágico.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA02.0": {
+      "term_original": "globus faringeo",
+      "capitulo": "12",
+      "confidence_embedding": 0.7137,
+      "descricao_cid": "Representação de doença CID-11: Faringite bacteriana aguda. Definição: Inflamação de início rápido da faringe (parte posterior da garganta, entre as amígdalas e a laringe) devida a bactéria",
+      "classification_reasoning": "A queixa do paciente de globus faringeo, pirose e regurgitação sugere uma infecção ou irritação na faringe. O Código CA02.0 (Faringite bacteriana aguda) é a opção mais precisa porque a descrição menciona inflamação de início rápido da faringe devida a bactéria, o que coincide com os sintomas apresentados pelo paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa do paciente de globus faringeo, pirose e regurgitação não se encaixa com a definição do código CA02.0 (Faringite bacteriana aguda), que refere-se a uma infecção ou irritação na faringe devida a bactéria. A descrição do prontuário não apresenta evidências de infecção bacteriana, apenas sintomas como globus faringeo, pirose e regurgitação, o que sugere uma condição mais geral de disfagia ou disfonia. Portanto, a codificação CID-11 CA02.0 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA02": {
+      "term_original": "pigarro",
+      "capitulo": "12",
+      "confidence_embedding": 0.687,
+      "descricao_cid": "Representação de doença CID-11: Faringite aguda. Definição: Faringite aguda é definida como infecção ou irritação da faringe e/ou das amigdalas e é parte das manifestações do resfriado comum. A etiologia é geralmente infecciosa, sendo a maioria dos casos de origem viral. Embora a infecção viral seja a causa primária, ela também pode ser causada por infecção bacteriana. Desconforto na garganta, dor de garganta e dor para engolir ocorrem com frequência. Cefaleia, fadiga generalizada, dor irradiada para o ouvido e linfadenite cervical também ocorrem. Achados locais evidenciam tonsilas palatinas hiperemiadas e edema dos folículos linfoides da parede posterior da faringe. Pacientes com faringite aguda se apresentam mais comumente com dor de garganta. Vários outros sintomas podem surgir nesses pacientes dependendo dos organismos causadores.",
+      "classification_reasoning": "A escolha do código CA02 (Faringite aguda) é justificada porque o termo 'pigarro' está presente na descrição da queixa, que menciona queijo e pirose, o que sugere uma irritação da faringe e/ou das amigdalas, característica da faringite aguda.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código CA02 (Faringite aguda) é justificada porque o termo 'pigarro' está presente na descrição da queixa, que menciona queijo e pirose, o que sugere uma irritação da faringe e/ou das amigdalas, característica da faringite aguda. A presença de outros sintomas como globus faringo, piróse, regurgitação e tosse crônica também apoia a escolha do código CA02.",
+      "tipo_erro_auditoria": null
+    },
+    "CA23.22": {
+      "term_original": "tosse cronica",
+      "capitulo": "12",
+      "confidence_embedding": 0.7001,
+      "descricao_cid": "Representação de doença CID-11: Asma variante com tosse. Definição: Asma variante com tosse é uma forma oculta de asma em que o único sinal ou sintoma é tosse crônica.",
+      "classification_reasoning": "A opção mais precisa para o termo 'tosse crônica' no contexto clínico é a Asma variante com tosse (CA23.22), pois apresenta sintomas de tosse crônica e outras características que se adequam ao quadro descrito.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "Atores crônicos podem ser sintomas de várias doenças, incluindo asma. No entanto, a descrição do prontuário não apresenta evidências suficientes para confirmar a presença de asma variante com tosse (CA23.22). A opção mais precisa seria uma codificação mais geral e abrangente, como CA85.9 (Tosse crônica, causa não especificada), que não exclui outras possibilidades etiológicas.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "CA03.0": {
+      "term_original": "pirose",
+      "capitulo": "12",
+      "confidence_embedding": 0.7006,
+      "descricao_cid": "Representação de doença CID-11: Amigdalite estreptocócica. Definição: Doença das amígdalas, causada por uma infecção pela bactéria Gram-positiva Streptococcus pyogenes (Streptococcus do Grupo A). Essa doença é caracterizada por dor de garganta, febre, exsudatos tonsilares ou adenopatia cervical. Essa doença também pode se manifestar com odinofagia, disfagia, otalgia, língua seca e eritematosa, amígdalas aumentadas ou manchas brancas e amareladas nas amígdalas. A transmissão ocorre comumente por inalação de secreções respiratórias infectadas ou contato indireto. A confirmação é feita pela identificação do Streptococcus do Grupo A a partir de um esfregaço da garganta.",
+      "classification_reasoning": "A opção mais precisa para o termo 'pirose' é a amigdalite estreptocócica (CA03.0), pois a característica de produzir escarro e tosse crônica está descrita nessa doença.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A amigdalite estreptocócica (CA03.0) não é um tipo de pirose, que é uma característica clínica descrita no prontuário como parte da síndrome de PCTE. A pirose não está relacionada à infecção estreptocócica das amígdalas e não há evidência clínica suficiente para justificar a atribuição do código CA03.0 para o termo 'pirose'. Portanto, é necessário remover o código CID-11 atribuído.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "prontuario_id": 967,
+  "text": "PACIENTE EM REPOUSO NO LEITO. REFERE ALGIA  LEVE E PRESENÇA DE EDEMA EM OMBRO DIREITO.  ABDOME SEMI PLANO, FLÁCIDO, INDOLOR A PALPAÇÃO. DIURESE ESPONTÂNEA PRESENTE. ELIMINAÇÕES FISIOLÓGICAS INTESTINAIS PRESENTES. MANTEM JEJUM CONFORME ORIENTAÇÃO MEDICA. AGUARDA CENTRO  CIRÚRGICO. Enfermeira Florence Nightingale  EXAME GERAL E INVESTIGAÇÃO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Sinal ou Sintoma": [
+      "EDEMA",
+      "ALGIA LEVE"
+    ],
+    "Localização ou Região Corporal": [
+      "ABDOME"
+    ],
+    "Achado": [
+      "FLÁCIDO",
+      "REPOUSO NO LEITO",
+      "SEMI PLANO",
+      "DIURESE ESPONTÂNEA PRESENTE",
+      "ELIMINAÇÕES FISIOLÓGICAS INTESTINAIS PRESENTES"
+    ],
+    "Negação": [
+      "INDOLOR"
+    ],
+    "Procedimento Diagnóstico": [
+      "PALPAÇÃO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "JEJUM",
+      "REPOUSO NO LEITO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "OMBRO DIREITO"
+    ],
+    "Função Fisiológica": [
+      "DIURESE ESPONTÂNEA PRESENTE",
+      "ELIMINAÇÕES FISIOLÓGICAS INTESTINAIS PRESENTES"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ORIENTAÇÃO MEDICA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CENTRO CIRÚRGICO"
+    ]
+  },
+  "labels": {
+    "6C20.0": {
+      "term_original": "algia leve",
+      "capitulo": "06",
+      "confidence_embedding": 0.7337,
+      "descricao_cid": "Representação de doença CID-11: Transtorno de sofrimento corporal leve. Definição: Todos os critérios diagnósticos para transtorno de sofrimento corporal são preenchidos. Há atenção excessiva a sintomas angustiantes e suas consequências, o que pode resultar em consultas médica frequentes, mas a pessoa não está absorta pelos sintomas (p. ex., o indivíduo passa menos de uma hora por dia focado neles). Embora o indivíduo expresse sofrimento em relação aos sintomas e alguns possam ter algum impacto em sua vida (p. ex., tensão em relacionamentos, funcionalidade acadêmica ou ocupacional menos efetiva, abandono de atividades de lazer específicas), não há prejuízo substancial na funcionalidade pessoal, familiar, social, educacional, ocupacional ou em outras áreas importantes da funcionalidade.",
+      "classification_reasoning": "A presença de algia leve e edema no ombro direito sugere que o paciente está experienciando algum tipo de dor ou desconforto físico, o que é consistente com a definição do Transtorno de Sofrimento Corporal Leve. Além disso, não há indicações de intoxicação por substâncias psicotrópicas ou problemas cardíacos graves, tornando essa opção mais provável.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de algia leve e edema no ombro direito não é suficiente para justificar a classificação do Transtorno de Sofrimento Corporal Leve. A definição desse código CID-11 refere-se a um padrão de comportamento que envolve atenção excessiva a sintomas angustiantes e suas consequências, o que não está presente no prontuário. Além disso, a falta de informações sobre a duração da dor, sua intensidade e como isso afeta a vida do paciente também são fatores que levam à conclusão de que essa classificação é demasiado genérica.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "FB50.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.73,
+      "descricao_cid": "Representação de doença CID-11: Cisto sinovial do espaço poplíteo. Definição: Este é o edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho",
+      "classification_reasoning": "A opção mais precisa para o termo 'edema' é a Cisto sinovial do espaço poplíteo (FB50.2), pois o texto clínico menciona a presença de edema em ombro direito, sugerindo uma lesão localizada em um tecido conjuntivo ou sinovial.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção do sistema é incompatível com o prontuário. O texto clínico descreve a presença de edema em ombro direito, enquanto o código CID-11 FB50.2 se refere ao edema benigno da bursa ou bolsa semimembranosa localizado na região posterior do joelho. Isso é um exemplo de anatomical_mismatch, pois as estruturas anatômicas mencionadas no prontuário não são compatíveis com a definição do código CID-11.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "FB32.20": {
+      "term_original": "flácido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7771,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A opção mais precisa é o cisto ósseo solitário (FB32.20) porque a descrição apresenta 'Representação de doença CID-11: Rabdomiólise idiopática', que está relacionada ao termo 'flácido' no contexto do prontuário, pois a rabdomiólise é uma lesão muscular que pode causar debilidade e flacidez dos músculos afetados.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A rabdomiólise idiopática (FB32.20) é uma lesão muscular que pode causar debilidade e flacidez dos músculos afetados, mas no prontuário não há evidência clínica de lesão muscular ou mioglobinúria. A descrição do paciente apresenta apenas algia leve e edema no ombro direito, além de abdomen semi plano e diurese espontânea presente. Portanto, a codificação CID-11 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DA60.3": {
+      "term_original": "semi plano",
+      "capitulo": "13",
+      "confidence_embedding": 0.7167,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A descrição de 'semi plano' se refere à abdome, o que sugere a possibilidade de úlceras de estresse do estômago, comuns em pacientes críticos e debilitados, como descrito na definição do código DA60.3.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição de 'semi plano' no prontuário não é suficientemente específica para justificar a classificação do código DA60.3, que se refere a úlceras de estresse do estômago. A abdome semi plano pode ser uma característica comum em pacientes críticos e debilitados, mas não há evidência clínica suficiente no prontuário para sustentar essa classificação.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "prontuario_id": 706,
+  "text": "paciente relata varizes há anos. Não consegue usar meia elastica. Relata dor nas pernas tipo queimação, pior a noite.\n\nCEAP 3.\n\nsolicito ecodoppler.\noriento meia elastica.\n\nretorno apos exame.        ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "paciente"
+    ],
+    "Doença ou Síndrome": [
+      "varizes"
+    ],
+    "Sinal ou Sintoma": [
+      "dor",
+      "tipo queimação"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "pernas"
+    ],
+    "Abreviação": [
+      "CEAP"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "solicito",
+      "oriento"
+    ],
+    "Procedimento Diagnóstico": [
+      "ecodoppler",
+      "exame"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "meia elastica"
+    ]
+  },
+  "labels": {
+    "8E43.0": {
+      "term_original": "dor",
+      "capitulo": "08",
+      "confidence_embedding": 0.7785,
+      "descricao_cid": "Representação de doença CID-11: Dor neuropática. Definição: Dor neuropática é descrita como elétrica, queimação ou choque, causada por processos metabólicos, nutricionais, infecciosos, genéticos, autoimunes e/ou vasculíticos. A dor pode ocorrer espontaneamente, sem provocação, ou ser provocada por estímulos dolorosos ou não. A dor é característica da neuropatia de fibras pequenas, mas mesmo nas neuropatias de fibras grandes, um número suficiente de fibras pequenas pode estar danificado para causar dor. A dor neuropática geralmente afeta pele e estruturas subcutâneas distais. A dor pode ser constante ou intermitente e pode ser descrita como lancinante, em queimação ou fria como gelo.\r\n\r\nA síndrome de dor regional complexa segue-se ao trauma e compreende dor regional, alterações sensitivas, anormalidades de temperatura, atividade sudomotora, alterações de cor da pele e edema.",
+      "classification_reasoning": "A dor descrita como 'queimação' e piorando à noite é mais compatível com a neuropatia, uma condição caracterizada por dor elétrica ou queimação causada pelo danificado de fibras nervosas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor descrita como 'queimação' e piorando à noite não é uma neuropatia, mas sim um sintoma de varizes. A codificação CID-11 8E43.0 representa dor neuropática, que não está diretamente relacionada ao termo 'dor' descrito no prontuário. Além disso, a descrição da dor como 'queimação' e piorando à noite é mais compatível com a síndrome de varizes do que com uma neuropatia.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA31.1": {
+      "term_original": "varizes",
+      "capitulo": "15",
+      "confidence_embedding": 0.7013,
+      "descricao_cid": "Representação de doença CID-11: Deformidade em varo, não classificada em outra parte. Definição: ",
+      "classification_reasoning": "A escolha do código FA31.1 é a mais precisa porque o paciente relata varizes há anos e não consegue usar meia elastica, indicando deformidade em varo não classificada em outra parte.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código FA31.1 representa deformidade em varo não classificada em outra parte, mas o prontuário descreve varizes, que são uma condição diferente. A escolha do código não é clínica e não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD54": {
+      "term_original": "tipo queimação",
+      "capitulo": "11",
+      "confidence_embedding": 0.7561,
+      "descricao_cid": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos.",
+      "classification_reasoning": "A descrição do termo 'tipo queimação' leva à suspeita de dor crônica nos pés, com possível neuropatia diabética, característica da úlcera de pé diabético.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'tipo queimação' não é diretamente relacionada à úlcera de pé diabético, como descrita na definição do código CID-11. A dor tipo queimação pode ser sintoma de várias condições, incluindo varizes, e não há evidência clínica suficiente para justificar a atribuição do código BD54.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    }
+  }
+}

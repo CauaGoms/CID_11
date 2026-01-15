@@ -1,0 +1,183 @@
+{
+  "prontuario_id": 888,
+  "text": "LUCAS, 52 ANOS\n\nS # ENCAMINHADA PARA ACOMPANHAMENTO GINECOLÓGICO DE ROTINA PELA NEFROLOGIA. SEM COLETA DE CITOLOGIA ONCÓTICA HA 2 ANOS. QUEIXA-SE DE CORRIMENTO HÁ 3 MESES, DE COLORAÇAO BRANCO AMARELADA DE PEQUENA QUANTIDADE E ODOR FORTE. REFERE APARECIMENTO DE PEQUENOS NÓDULOS EM MAMAS HÁ 2 MESES, ASSOCIADO À MASTALGIA À PALPAÇÃO. QUEIXA DE PERDA URINÁRIA AOS PEQUENOS ESFORÇOS (TOSSIR), DISÚRIA E  SECURA VAGINAL COM DIFICULDADES NA RELAÇÃO SEXUAL. NEGA QUEIXAS INTESTINAIS. \nG 3  P 0  C 3  A 0.\nTRANSPLANTE RENAL HÁ 13 ANOS, EM USO DE MICOFENOLATO E PREDNISONA.\nNEGA OUTRAS COMORBIDADES.\n\nO # \nVULVA  DE ASPECTO NORMAL PARA IDADE E SEXO, VAGINA PÁLIDA, HIPOTRÓFICA.\nCOLO DO ÚTERO DE PEQUENO VOLUME, ORIFÍCIO CIRCULAR.\nKOH NEGATIVO.\nMAMAS DE MÉDIO VOLUME, COM PARÊNQUIMA ESPESSO, SEM NÓDULOS MPALPÁVEIS, DERRAME PAPILAR NEGATIVO E AXILAS LIVRES.\n\nA # ROTINA GINECOLÓGICA. \n\nP # COLETO CITOLOGIA ONCOTICA E RETORNO EM 4 MESES PARA RESULTADO DE EXAMES E SOLICITO MAMOGRAFIA.\nPRESCREVO STELE CREME VAGINAL.\n \n \n \n ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "ENCAMINHADA",
+      "COLETA",
+      "COLETO",
+      "RETORNO",
+      "SOLICITO",
+      "PRESCREVO",
+      "ACOMPANHAMENTO GINECOLÓGICO DE ROTINA",
+      "ROTINA GINECOLÓGICA"
+    ],
+    "Negação": [
+      "SEM",
+      "NEGA"
+    ],
+    "Sinal ou Sintoma": [
+      "CORRIMENTO",
+      "QUEIXA",
+      "DISÚRIA",
+      "PÁLIDA",
+      "HIPOTRÓFICA",
+      "COLORAÇAO BRANCO AMARELADA",
+      "ODOR FORTE",
+      "PEQUENOS NÓDULOS",
+      "PERDA URINÁRIA AOS PEQUENOS ESFORÇOS",
+      "SECURA VAGINAL",
+      "DIFICULDADES NA RELAÇÃO SEXUAL",
+      "QUEIXAS INTESTINAIS",
+      "NÓDULOS MPALPÁVEIS"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MAMAS",
+      "VULVA",
+      "VAGINA",
+      "COLO DO ÚTERO"
+    ],
+    "Procedimento Diagnóstico": [
+      "PALPAÇÃO",
+      "MAMOGRAFIA",
+      "CITOLOGIA ONCÓTICA",
+      "ROTINA GINECOLÓGICA"
+    ],
+    "Substância Farmacológica": [
+      "MICOFENOLATO",
+      "PREDNISONA",
+      "STELE CREME VAGINAL"
+    ],
+    "Substância Química Orgânica": [
+      "MICOFENOLATO",
+      "PREDNISONA"
+    ],
+    "Hormônio": [
+      "PREDNISONA"
+    ],
+    "Doença ou Síndrome": [
+      "COMORBIDADES"
+    ],
+    "Atributo Clínico": [
+      "IDADE",
+      "SEXO",
+      "G 3",
+      "P 0",
+      "C 3",
+      "A 0"
+    ],
+    "Procedimento Laboratorial": [
+      "CITOLOGIA ONCÓTICA",
+      "CITOLOGIA ONCOTICA"
+    ],
+    "Conceito Qualitativo": [
+      "COLORAÇAO BRANCO AMARELADA"
+    ],
+    "Conceito Quantitativo": [
+      "PEQUENA QUANTIDADE",
+      "PEQUENO VOLUME"
+    ],
+    "Abreviação": [
+      "G 3",
+      "P 0",
+      "C 3",
+      "A 0"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TRANSPLANTE RENAL"
+    ],
+    "Achado": [
+      "ASPECTO NORMAL",
+      "ORIFÍCIO CIRCULAR",
+      "DERRAME PAPILAR NEGATIVO",
+      "AXILAS LIVRES"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "KOH NEGATIVO",
+      "DERRAME PAPILAR NEGATIVO",
+      "RESULTADO DE EXAMES"
+    ]
+  },
+  "labels": {
+    "2E65.5": {
+      "term_original": "pequenos nódulos",
+      "capitulo": "02",
+      "confidence_embedding": 0.741,
+      "descricao_cid": "Representação de doença CID-11: Doença de Paget do mamilo. Definição: Doença de Paget do mamilo descreve uma apresentação rara de câncer da mama, observada mais frequentemente em mulheres com idade entre 50-60 anos, manifestando-se com drenagem mamilar e coceira, eritema, mamilo escoriado com crostas, placas espessadas e hiperpigmentação (menos frequentemente). Ocorre devido à invasão de células tumorais no complexo aréolo-mamilar e representa 1%-3% de todos os novos diagnósticos de câncer de mama.",
+      "classification_reasoning": "A descrição do termo 'pequenos nódulos' é mais compatível com a Doença de Paget do mamilo, que apresenta características clínicas semelhantes às descritas no prontuário (aparecimento de pequenos nódulos em mamas associado à mastalgia à palpation).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'pequenos nódulos' não se encaixa com a Doença de Paget do mamilo, que apresenta características clínicas específicas como drenagem mamilar e coceira, eritema, mamilo escoriado com crostas, placas espessadas e hiperpigmentação. A descrição no prontuário refere-se a nódulos benignos ou de origem desconhecida, não relacionados à Doença de Paget do mamilo.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "2C82": {
+      "term_original": "nódulos mpalpáveis",
+      "capitulo": "02",
+      "confidence_embedding": 0.7933,
+      "descricao_cid": "Representação de doença CID-11: Neoplasia maligna da próstata. Definição: O câncer de próstata contribui significativamente para a carga geral de câncer, sendo a neoplasia maligna mais frequente em homens. O número de casos tem aumentado continuamente nas últimas décadas, em parte devido à maior expectativa de vida. Um fator adicional é o estilo de vida ocidental, caracterizado por uma dieta altamente calórica e falta de exercícios físicos. Os dados epidemiológicos indicam que os negros são os mais suscetíveis, seguidos pelos brancos, enquanto os asiáticos apresentam o menor risco. Até que ponto a mortalidade por câncer de próstata pode ser reduzida pelo exame de PSA, está atualmente sendo avaliada. O diagnóstico histopatológico e a graduação desempenham um papel importante no tratamento do câncer de próstata",
+      "classification_reasoning": "A presença de nódulos mpalpáveis em mama, associados a mastalgia à palpação e perda urinária aos pequenos esforços (tossir), sugere a possibilidade de doença neoplásica da próstata ou mama. Dado o contexto de rotina ginecológico e a história de transplante renal, é mais provável que se trate de um carcinoma invasivo da mama, tipo não identificável.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de nódulos mpalpáveis em mama não está relacionada à neoplasia maligna da próstata, como descrita no código CID-11. A condição clínica descrita no prontuário é mais provável uma lesão benigna ou inflamatória na mama, e não um carcinoma invasivo da próstata.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD10": {
+      "term_original": "odor forte",
+      "capitulo": "21",
+      "confidence_embedding": 0.734,
+      "descricao_cid": "Representação de doença CID-11: Escarro anormal. Definição: Essa categoria inclui anormalidades de quantidade, cor e odor do escarro, que podem sugerir etiologia. Pacientes com bronquite crônica tipicamente expectoram pequenas quantidades de material mucoide amarelado. Um odor desagradável ou fétido deve sugerir infecção por organismos anaeróbicos, usualmente em casos de abscesso pulmonar. Ocasionalmente, grandes quantidades de escarro ou \"broncorreia\" são associadas com carcinoma bronquioalveolar.",
+      "classification_reasoning": "A queixa de odor forte na vulva é mais consistente com a representação de doença CID-11: Representação de doença CID-11: Escarro anormal, apesar da ausência de escarro nos sintomas apresentados. A escolha do código MD10 se baseia na ideia de que o termo 'odor forte' é mais relacionado à qualidade do fluido vaginal e/ou urinário do que a um odor bucal ou nasal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa de odor forte na vulva não está diretamente relacionada à representação de doença CID-11: Escarro anormal. Embora o termo 'odor forte' seja mencionado, não há evidência clínica de escarro anormal ou qualquer outro sintoma que justifique a escolha do código MD10. A análise crítica da situação clínica indica que a queixa de odor forte é mais relacionada à vulva e/ou urinário do que ao escarro.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "GA34.02": {
+      "term_original": "perda urinária aos pequenos esforços",
+      "capitulo": "16",
+      "confidence_embedding": 0.7916,
+      "descricao_cid": "Representação de doença CID-11: Vulvodínia. Definição: Vulvodínia descreve uma sensação crônica de dor, queimação ou ardor na pele da vulva que não pode ser atribuída a qualquer causa específica e que persiste por pelo menos três meses. Os sintomas podem ser difusos e não provocados (vulvodínia disestética) ou localizados, geralmente no vestíbulo vulvar, e provocados pelo toque (vestibulodínia). A vulvodínia disestética ocorre caracteristicamente em mulheres após a menopausa e que frequentemente não são sexualmente ativas: a dor é espontânea e frequentemente ocorre independentemente do toque. A vestibulodínia ocorre tipicamente em mulheres mais jovens e é caracterizada por sensibilidade vestibular ao toque, eritema do epitélio vestibular e dispareunia secundária.",
+      "classification_reasoning": "A queixa de perda urinária aos pequenos esforços sugere a possibilidade de vulvodínia, uma condição caracterizada por dor crônica na pele da vulva sem causa específica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa de perda urinária aos pequenos esforços não é suficiente para justificar a codificação de vulvodínia. A descrição do prontuário apresenta várias outras queixas claramente relacionadas à saúde reprodutiva feminina, como corrimento vaginal e dor mamária, o que sugere uma condição mais ampla e complexa do que apenas vulvodínia.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MF36": {
+      "term_original": "secura vaginal",
+      "capitulo": "21",
+      "confidence_embedding": 0.7381,
+      "descricao_cid": "Representação de doença CID-11: Outro sintoma ou queixa da vagina. Definição: ",
+      "classification_reasoning": "A secura vaginal é um sintoma descrito na história clínica, referente ao sistema genital feminino. A opção MF36 melhor representa este termo, pois descreve outro sintoma ou queixa da vagina.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A secura vaginal é um sintoma que pode estar relacionado a várias condições, incluindo disfunção sexual, menopausa ou doenças infecciosas. No entanto, o prontuário não fornece informações suficientes para determinar a causa específica da secura vaginal. Portanto, o código CID-11 MF36, que descreve outro sintoma ou queixa da vagina, é demasiado genérico e não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MF39": {
+      "term_original": "coloração branco amarelada",
+      "capitulo": "21",
+      "confidence_embedding": 0.7312,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa da vulva. Definição: ",
+      "classification_reasoning": "A descrição do termo 'coloração branca amarelada' se refere à queixa de vulva apresentada pelo paciente, descrita como uma pele com odor forte e coloração branca amarelada. Portanto, a opção mais precisa é MF39, que representa sintoma ou queixa da vulva.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa de coloração branca amarelada da vulva não é um sintoma ou queixa da vulva em si, mas sim uma característica física da pele. O código CID-11 MF39 não captura essa distinção e pode levar a interpretações errôneas. A opção mais precisa seria um código que descreve características cutâneias, como L81.9 (Doença cutânea não especificada).",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD75.2": {
+      "term_original": "disúria",
+      "capitulo": "11",
+      "confidence_embedding": 0.7826,
+      "descricao_cid": "Representação de doença CID-11: Varizes da vulva. Definição: Veias vulvares congestas e dilatadas, ocorrendo particularmente em associação com a gravidez.",
+      "classification_reasoning": "A escolha do código BD75.2 (Varizes da vulva) é a mais precisa para o termo 'disúria' no contexto clínico, pois as queixas da paciente incluem corrimento vaginal e odor forte, sugerindo uma possível disúria relacionada às varizes vulvares.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa de disúria não está diretamente relacionada às varizes vulvares. A paciente apresenta corrimento vaginal e odor forte, sugerindo uma possível disúria relacionada a outras causas, como doenças ginecológicas ou urológicas. O código BD75.2 (Varizes da vulva) não representa fielmente o termo 'disúria' no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MF3Y": {
+      "term_original": "dificuldades na relação sexual",
+      "capitulo": "21",
+      "confidence_embedding": 0.7691,
+      "descricao_cid": "Representação de doença CID-11: Outros sintomas, sinais ou achados clínicos especificados relativos ao sistema genital da mulher. Definição: ",
+      "classification_reasoning": "A dificuldade na relação sexual está relacionada ao sintoma de perda urinária aos pequenos esforços e disúria, o que é um fator importante para a escolha do código MF3Y, que representa outros sintomas, sinais ou achados clínicos especificados relativos ao sistema genital da mulher.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dificuldade na relação sexual está relacionada ao sintoma de perda urinária aos pequenos esforços e disúria, mas isso não é um achado clínico específico do sistema genital feminino. A perda urinária e a disúria são sintomas que podem estar relacionados a vários diagnósticos, incluindo problemas renais ou urológicos, e não apenas ao sistema genital feminino.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    }
+  }
+}

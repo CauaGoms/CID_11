@@ -1,0 +1,131 @@
+{
+  "prontuario_id": 835,
+  "text": "PROCURA O SERVIÇO POR QUEDA DO ESTADO GERAL E FEBRA HÁ 2 DIAS. HX DE DEMENCIA E AVC PRÉVIO HÁ 5 ANOS; RECENTE AVC EM 01/01/2012, PROSTATECTOMIA HÁ 6 ANOS COM INCONTINÊNCIA URINÁRIA. APRESENTA-SE CORADO, GLASGOW 15, EM VE EM AR AMBIENTE, DIIFICULDADE EM ARTICILAR PALAVRAS, DIMINUIÇÃO DE FORÇA MOTORA EM MSD. REALIZADAS COLETAS DE 2 AMOSTRAS DE HEMOCULTURA E URINA RECOLHIDAS PELO LABORATÓRIO. REALIZADA SONDAGEM VESICAL DE DEMORA, COM SVD Nº 16. Enfermeira Florence Nightingale . EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO.",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "FEBRA",
+      "QUEIXAS",
+      "QUEDA DO ESTADO GERAL",
+      "DIIFICULDADE EM ARTICILAR PALAVRAS"
+    ],
+    "Abreviação": [
+      "HX",
+      "AVC",
+      "VE",
+      "SVD Nº 16"
+    ],
+    "Doença ou Síndrome": [
+      "DEMENCIA",
+      "AVC",
+      "INCONTINÊNCIA URINÁRIA",
+      "DIAGNOSTICO RELATADO"
+    ],
+    "Conceito Temporal": [
+      "PRÉVIO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "PROSTATECTOMIA",
+      "SONDAGEM VESICAL DE DEMORA"
+    ],
+    "Achado": [
+      "CORADO",
+      "GLASGOW 15",
+      "DIMINUIÇÃO DE FORÇA MOTORA"
+    ],
+    "Procedimento Laboratorial": [
+      "HEMOCULTURA",
+      "URINA"
+    ],
+    "Substância Corporal": [
+      "URINA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "LABORATÓRIO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "REALIZADAS COLETAS DE 2 AMOSTRAS",
+      "EXAME GERAL"
+    ],
+    "Dispositivo Médico": [
+      "SVD Nº 16"
+    ]
+  },
+  "labels": {
+    "BB71.0": {
+      "term_original": "febra",
+      "capitulo": "11",
+      "confidence_embedding": 0.7605,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência aórtica reumática. Definição: A insuficiência aórtica é o refluxo da valva aórtica do coração que faz com que o sangue flua na direção reversa durante a diástole ventricular, da aorta para o ventrículo esquerdo. A febre reumática causa a retração da cúspide valvar.",
+      "classification_reasoning": "A febre mencionada no prontuário é associada à insuficiência aórtica reumática, que foi causada pela febre reumática em pacientes com doenças cardíacas previamente diagnosticadas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A febre mencionada no prontuário não está relacionada à insuficiência aórtica reumática, que é uma condição cardíaca específica. A febre pode ser um sintoma de várias doenças e não há evidência clínica suficiente para associá-la à insuficiência aórtica reumática.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C45.3": {
+      "term_original": "diificuldade em articilar palavras",
+      "capitulo": "06",
+      "confidence_embedding": 0.7644,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A dificuldade em articilar palavras pode ser um sintoma de intoxicação por cocaína, que é caracterizado por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dificuldade em articilar palavras pode ser um sintoma de demência, AVC ou doença neurológica, e não está relacionada à intoxicação por cocaína. A descrição do código CID-11 não se aplica ao caso apresentado no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B25.4": {
+      "term_original": "avc",
+      "capitulo": "08",
+      "confidence_embedding": 0.7369,
+      "descricao_cid": "Representação de doença CID-11: Efeitos tardios de acidente vascular cerebral desconhecido se isquêmico ou hemorrágico. Definição: Efeitos tardios ocorrendo após 1 mês ou mais do início da doença. Os códigos para acidente vascular cerebral (AVC) agudo devem ser usados ​​exclusivamente para AVC agudo e episódios de hospitalização imediatamente relacionados.",
+      "classification_reasoning": "A escolha por esse código é devido à menção ao AVC prévio há 5 anos e ao recente AVC em 01/01/2012, o que sugere que a paciente tem história de doença cerebrovascular com sequelas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 8B25.4 não é adequada pois o prontuário descreve efeitos tardios de AVC, enquanto o código especificamente menciona efeitos ocorrendo após 1 mês ou mais do início da doença. Além disso, a paciente tem história de doença cerebrovascular com sequelas, mas não há evidência clínica de que os efeitos tardios sejam diretamente relacionados ao AVC recente em 01/01/2012.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "GB00.4X5A3ZC6ZZZ1A": {
+      "term_original": "incontinência urinária",
+      "capitulo": "16",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'incontinência urinária' é a GA34.02, Vulvodínia, pois embora não seja diretamente relacionada à perda de controle sobre as fezes, ambos os sintomas estão presentes no paciente e sugerem uma possível disfunção neurológica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção GA34.02, Vulvodínia, não é adequada para representar a incontinência urinária do paciente. Embora ambos os sintomas possam estar relacionados à disfunção neurológica, a Vulvodínia se refere especificamente ao desconforto ou dor na vulva feminina e não está diretamente relacionada à perda de controle sobre as fezes. A opção mais precisa para o termo 'incontinência urinária' é o código GA34.0, Incontinência urinária.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB32.20": {
+      "term_original": "diminuição de força motora",
+      "capitulo": "15",
+      "confidence_embedding": 0.7924,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A diminuição de força motora é uma característica comum da rabdomiólise, que pode ser causada por lesões musculares graves. Nesse contexto, a opção mais precisa para o termo 'diminuição de força motora' é a rabdomiólise idiopática (FB32.20).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A diminuição de força motora descrita no prontuário não é uma lesão muscular grave, como característica da rabdomiólise idiopática. A descrição do paciente apresenta AVC prévio e recente, o que sugere um quadro neurológico mais provável para a diminuição de força motora do que uma lesão muscular. Portanto, a opção FB32.20 não é clínica ou coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME86": {
+      "term_original": "queixa",
+      "capitulo": "21",
+      "confidence_embedding": 0.762,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa de uma parte do corpo. Definição: ",
+      "classification_reasoning": "A queixa é descrita como 'PROCURA O SERVIÇO POR QUEDA DO ESTADO GERAL E FEBRA HÁ 2 DIAS', o que se refere a sintoma ou queixa de uma parte do corpo, e não especificamente à vulva (MF39) ou gravidez (MF34). A opção ME62.7 não é relevante porque não há nenhuma menção a erupção cutânea descamativa aguda no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa descrita no prontuário é 'PROCURA O SERVIÇO POR QUEDA DO ESTADO GERAL E FEBRA HÁ 2 DIAS', o que se refere a sintoma ou queixa de uma parte do corpo. No entanto, o código CID-11 ME86 não representa fielmente essa condição clínica. A opção mais adequada seria ME23.9 (Sintomas e sinais geralmente classificados como 'outros', especificamente para síndrome febril). Portanto, é necessário remover o código ME86 e substituí-lo por um que melhor represente a queixa descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MB20.1": {
+      "term_original": "queda do estado geral",
+      "capitulo": "21",
+      "confidence_embedding": 0.7417,
+      "descricao_cid": "Representação de doença CID-11: Coma. Definição: Estado agudo com duração de mais de uma hora e geralmente menos de um mês. O paciente em coma está arresponsivo, fica com os olhos fechados e não pode ser despertado nem mesmo por estímulos vigorosos e dolorosos. As respostas motoras à estimulação dolorosa estão limitadas a reflexos. As etiologias incluem, mas não estão limitadas a, lesões cerebrais traumáticas, anóxicas, infecciosas, neoplásicas, vasculares, inflamatórias e metabólicas.",
+      "classification_reasoning": "A paciente apresenta 'queda do estado geral' o que sugere uma possibilidade de coma, comprovada pela presença de febre há 2 dias e dificuldade em articular palavras. A escolha da opção MB20.1 é baseada na descrição do termo como um estado agudo com duração de mais de uma hora e geralmente menos de um mês, caracterizado por arresponsividade e respostas motoras limitadas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente apresenta 'queda do estado geral', que não é um estado agudo de coma. A descrição do termo CID-11 MB20.1 refere-se a uma situação em que o paciente está arresponsivo e com respostas motoras limitadas, o que não se aplica ao caso da paciente. Além disso, a presença de febre há 2 dias e dificuldade em articular palavras não são características clínicas de coma.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

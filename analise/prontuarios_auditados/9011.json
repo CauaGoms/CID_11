@@ -1,0 +1,183 @@
+{
+  "prontuario_id": 213,
+  "text": "EM 01/07/2012, 10:30h:  # Plicatura de eventração diafragmática. # D2 UTI. # D2 DTFE. # D2 AVP MSD. Paciente glasgow 15, eupneico em ar ambiente, AVP com soroterapia em curso, mantendo dreno de torax E com pouco debito sanguinolento e sem oscilação, aceitando bem a dieta VO, sem queixas algicas, mobilizado fora do leito, mantendo SSVV estaveis e segue de alta para o POSTO 2, sem intercorrencias. SUPERVISÃO NOTURNA: REF: 15/09/2011: PERMANECE TRAQUEOSTOMIZADA EM NÉVOA UMIDA, SATURANDO SATISFATORIAMENTE NO MOMENTO, PUPILAS ISOFOTO, GLASGOW ESTIMADO EM 14, AUSCULTA PULMONAR MV DIMINUIDOS EM BASES. ABDOMEN FLACIDO, RHA +, SNE COM DIETA 60 ML/H (iniciar jejum após 0 hora), PARA TROCA DE CANULA EM 16/09, AS 13:30h. ACESSO VENOSO PERIFERICO EM MSD COM PLANO BASICO DE HIDRATAÇÃO. HEMODINAMICAMENTE ESTAVEL. ULCERA POR PRESSÃO ESTAGIO INDEFINIDO POR APRESENTAR AREA DE NECROSE. MONITORIZAÇÃO DE MULTIPLOS PARAMETROS CONFORME ROTINA DA UTI.",
+  "entities": {
+    "Abreviação": [
+      "UTI",
+      "DTFE",
+      "AVP",
+      "MSD",
+      "aceitando bem a dieta VO",
+      "SSVV estaveis",
+      "PUPILAS ISOFOTO",
+      "MV DIMINUIDOS EM BASES",
+      "RHA +",
+      "SNE COM DIETA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UTI",
+      "POSTO 2"
+    ],
+    "Dispositivo Médico": [
+      "DTFE",
+      "AVP",
+      "dreno de torax",
+      "ACESSO VENOSO PERIFERICO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "DTFE",
+      "AVP",
+      "jejum",
+      "Plicatura de eventração diafragmática",
+      "soroterapia em curso",
+      "dreno de torax",
+      "mobilizado fora do leito",
+      "NÉVOA UMIDA",
+      "SNE COM DIETA",
+      "TROCA DE CANULA",
+      "ACESSO VENOSO PERIFERICO",
+      "PLANO BASICO DE HIDRATAÇÃO"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD",
+      "ABDOMEN"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Sinal ou Sintoma": [
+      "oscilação",
+      "intercorrencias",
+      "queixas algicas",
+      "GLASGOW ESTIMADO EM 14",
+      "MV DIMINUIDOS EM BASES"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "alta"
+    ],
+    "Achado": [
+      "TRAQUEOSTOMIZADA",
+      "glasgow 15",
+      "eupneico em ar ambiente",
+      "aceitando bem a dieta VO",
+      "mobilizado fora do leito",
+      "SSVV estaveis",
+      "SATURANDO SATISFATORIAMENTE",
+      "PUPILAS ISOFOTO",
+      "RHA +",
+      "HEMODINAMICAMENTE ESTAVEL"
+    ],
+    "Procedimento Diagnóstico": [
+      "AUSCULTA PULMONAR",
+      "MONITORIZAÇÃO DE MULTIPLOS PARAMETROS"
+    ],
+    "Conceito Quantitativo": [
+      "60 ML/H"
+    ],
+    "Doença ou Síndrome": [
+      "ULCERA POR PRESSÃO"
+    ]
+  },
+  "labels": {
+    "6C48.2": {
+      "term_original": "glasgow estimado em 14",
+      "capitulo": "06",
+      "confidence_embedding": 0.7376,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais.",
+      "classification_reasoning": "A descrição do termo 'glasgow estimado em 14' indica que o paciente tem um estado de consciência alterado, com sintomas compatíveis com a intoxicação por cafeína. A escolha do código 'Intoxicação por cafeína' (6C48.2) é baseada na caracterização clínica desse termo e nos sintomas apresentados.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'glasgow estimado em 14' indica que o paciente tem um estado de consciência alterado, com sintomas compatíveis com a lesão cerebral ou traumatismo craniano, e não com a intoxicação por cafeína. A escolha do código 'Intoxicação por cafeína' (6C48.2) é incompatível com a descrição clínica apresentada no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA22.0": {
+      "term_original": "eupneico em ar ambiente",
+      "capitulo": "12",
+      "confidence_embedding": 0.7621,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A paciente apresenta eupneico em ar ambiente, o que sugere uma boa função pulmonar e ausência de sintomas respiratórios graves. A combinação com a plicatura de eventração diafragmática e a permanência tracheostomizada em névoa umida sugerem uma possível exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente apresenta eupneico em ar ambiente, o que sugere uma boa função pulmonar e ausência de sintomas respiratórios graves. No entanto, a plicatura de eventração diafragmática e a permanência tracheostomizada em névoa umida sugerem uma possível lesão pulmonar mais grave do que uma simples exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC). A combinação dessas informações não é compatível com o código CID-11 CA22.0, que se refere a uma exacerbação aguda de DPOC sem especificação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA25": {
+      "term_original": "ulcera por pressão",
+      "capitulo": "15",
+      "confidence_embedding": 0.7184,
+      "descricao_cid": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato.",
+      "classification_reasoning": "A opção mais precisa é a gota, pois o termo 'ulcera por pressão' se refere à lesão causada pela pressão excessiva sobre uma área cutânea ou tecido moles, o que é característico da gota. Além disso, a descrição da doença CID-11 relacionada ao termo extraído está mais próxima da situação clínica descrita no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FA25 (Gota) não é apropriada pois a ulcera por pressão descrita no prontuário não está relacionada à gota. A gota é uma doença artropática caracterizada pela deposição de cristais de urato em tecidos articulares, e não tem relação com lesões causadas pela pressão excessiva sobre áreas cutâneas ou tecidos moles. A descrição da CID-11 para FA25 também não se aplica à situação clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF95": {
+      "term_original": "queixas algicas",
+      "capitulo": "21",
+      "confidence_embedding": 0.779,
+      "descricao_cid": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular.",
+      "classification_reasoning": "A opção MF95, Mioglobinúria, foi escolhida pois o termo 'queixas algicas' sugere dor ou desconforto muscular, que é uma característica comum da mioglobinúria.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'queixas algicas' não está diretamente relacionado à mioglobinúria. A dor ou desconforto muscular pode ser um sintoma de várias condições, e não há evidência clínica suficiente para associá-lo específicamente à mioglobinúria. Além disso, o prontuário descreve a paciente como 'aceitando bem a dieta VO, sem queixas algicas', o que sugere que a dor ou desconforto muscular não é um problema significativo naquele momento.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "NB90.0": {
+      "term_original": "oscilação",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A oscilação mencionada no contexto clínico se refere ao débito sanguinolento e não está relacionado a lesões específicas em vasos sanguíneos, portanto, o código mais preciso é NB90.0, que refere-se à ausência de especificação de lesão vascular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A oscilação mencionada no prontuário se refere ao débito sanguinolento e não está relacionada a lesões específicas em vasos sanguíneos. O código CID-11 NB90.0 é inadequado, pois refere-se à ausência de especificação de lesão vascular, o que não é o caso aqui. A oscilação mencionada no prontuário não está relacionada a lesões específicas em vasos sanguíneos e não justifica o uso desse código.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC43.0": {
+      "term_original": "hemodinamicamente estavel",
+      "capitulo": "11",
+      "confidence_embedding": 0.7303,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida.",
+      "classification_reasoning": "A descrição do termo 'hemodinamicamente estavel' sugere que a função cardíaca está dentro de limites normais, o que é consistente com a cardiomiopatia dilatada (Código CID-11: BC43.0). Esta condição é caracterizada por disfunção sistólica e dilatação da câmara do coração, mas sem hemodinâmica anormal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A condição descrita no prontuário refere-se à estabilidade hemodinâmica do paciente, o que não é diretamente relacionado à cardiomiopatia dilatada (BC43.0). A descrição do termo 'hemodinamicamente estavel' sugere que a função cardíaca está dentro de limites normais, mas isso não é consistente com a condição de cardiomiopatia dilatada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME62.7": {
+      "term_original": "pupilas isofoto",
+      "capitulo": "21",
+      "confidence_embedding": 0.7391,
+      "descricao_cid": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica.",
+      "classification_reasoning": "A descrição 'pupilas isofoto' sugere que o paciente apresenta uma resposta normal ao estímulo luminoso, característica de um reflexo normal. Isso não se relaciona a problemas urinários ou musculares, mas sim à função visual. O código ME62.7 se refere à erupção cutânea descamativa aguda e não é diretamente relacionado ao termo 'pupilas isofoto'. No entanto, como o paciente apresenta uma descrição de ulcera por pressão estagio indefinido com área de necrose, a escolha do código ME62.7 considera a possibilidade de uma reação cutânea aguda relacionada à pressão e ao estado geral do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'pupilas isofoto' não se refere a uma condição cutânea, mas sim à função visual do paciente. Portanto, o código CID-11 ME62.7, que se refere a erupção cutânea descamativa aguda, não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B22": {
+      "term_original": "mv diminuidos em bases",
+      "capitulo": "08",
+      "confidence_embedding": 0.7132,
+      "descricao_cid": "Representação de doença CID-11: Algumas doenças cerebrovasculares especificadas. Definição: Outras anormalidades especificadas de artérias ou veias intracranianas ou extracranianas. As entidades nesta seção podem ser usadas em combinação com outros códigos de diagnóstico neste bloco. Várias das entidades podem causar diferentes tipos de doença cerebrovascular, como AIT, acidente vascular cerebral isquêmico ou hemorragia intracerebral; podem estar associadas a outras síndromes clínicas; ou podem ser assintomáticas (não ter causado disfunção focal aguda do cérebro).\r\n\r\nA seção sobre malformações vasculares intracranianas foi bastante revisada em comparação com a CID-10, com base nos principais avanços científicos neste campo.\r\n\r\nAs síndromes de vasoconstrição cerebral e a encefalopatia reversível posterior são consideradas entidades separadas (visto que a vasoconstrição nem sempre está presente na última).\r\n\r\n\"Leucoencefalopatia vascular progressiva (doença de Binswanger)\" foi removida como uma entidade separada.",
+      "classification_reasoning": "A opção mais precisa é o códgio 8B22 porque o termo 'mv diminuidos em bases' sugere uma alteração cerebral, possivelmente relacionada a uma doença cerebrovascular. A descrição da seção 8B22 refere-se a anormalidades especificadas de artérias ou veias intracranianas ou extracranianas, que podem estar associadas a diferentes tipos de doenças cerebrovasculares.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'mv diminuidos em bases' não sugere uma alteração cerebral relacionada a doença cerebrovascular, mas sim uma redução da intensidade dos ruídos cardíacos (murmúrios) audíveis na base do pulso. A descrição da seção 8B22 refere-se a anormalidades especificadas de artérias ou veias intracranianas ou extracranianas, que não está relacionada ao termo extraído.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB60": {
+      "term_original": "traqueostomizada",
+      "capitulo": "12",
+      "confidence_embedding": 0.7486,
+      "descricao_cid": "Representação de doença CID-11: Mau funcionamento de traqueostomia. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'traqueostomizada' é CB60, que refere-se ao mau funcionamento de traqueostomia. Isso se ajusta à situação do paciente, que está com a traqueostomia permanente em nêvoa úmida e necessita de troca de canula.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CB60 refere-se ao mau funcionamento de traqueostomia, mas o prontuário descreve a situação do paciente como 'traqueostomizada' permanente em nêvoa úmida, o que não é um mau funcionamento. A classificação está errada porque a entidade descrita no prontuário não se encaixa na definição do código CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "QC04.4": {
+      "term_original": "intercorrencias",
+      "capitulo": "24",
+      "confidence_embedding": 0.7184,
+      "descricao_cid": "Representação de doença CID-11: Imunização não realizada devido a alergia do paciente à vacina ou a algum de seus componentes. Definição: ",
+      "classification_reasoning": "O termo 'intercorrencias' se refere a eventos ou situações que ocorrem durante o período de internação, como mudanças no estado do paciente, desenvolvimento de complicações, entre outras. Como o paciente está em UTI e tem um plano de hidratação e monitorização de múltiplos parâmetros, é provável que sejam realizadas observações periódicas para detectar possíveis intercorrencias.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'intercorrencias' se refere a eventos ou situações que ocorrem durante o período de internação, mas o código CID-11 atribuído (QC04.4) representa imunização não realizada devido a alergia do paciente à vacina ou a algum de seus componentes. Isso é uma classificação errônea, pois não há relação clínica direta entre o termo e a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

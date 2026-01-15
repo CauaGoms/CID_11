@@ -1,0 +1,192 @@
+{
+  "prontuario_id": 936,
+  "text": "# Lucas, 34 anos, trabalha como cuidadora\n# Hernia Incisional\n# Paciente relata que há 2 anos e meio realizou Cx bariátrica e há aproximadamente 1 ano observou abaulamento na regiao da cicatriz, aumento progressivo de tamanho. Aumento de tamanho pós prandial. Relata também dor na regiao, tipo compressiva, associada a vomitos.\n- relata episodios diarios de vomito quando alimenta-se em excesso ou come muito doce.\n- nega DM, HAS, dislipidemia. \n- alergia a pen Benzatina.\n# Exame físico\nBRNF2T ss\nAbdomen flacido, indolor a palpacao profunda e superficial, RHA+, sem alteracao na percussâo. Fraqueza em parede em regiao inferior da cicatriz.\n# exames complementares:\n- exames laboratoriais ( calcio, ferro, ferritina, zinco., B12, vitamina D, glicemia, Proteinas total e fração, hemograma e ácido fólico) sem alteração;\nDiscuto caso com Doutro Vital Brazil. Solicito ECG, Raio x de torax Ap+P, solicito demais exames laboratoriais.\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Sinal ou Sintoma": [
+      "dor",
+      "vomitos",
+      "vomito",
+      "indolor",
+      "alteracao",
+      "alteração",
+      "abaulamento na regiao da cicatriz",
+      "aumento progressivo de tamanho"
+    ],
+    "Conceito Qualitativo": [
+      "excesso"
+    ],
+    "Conceito Quantitativo": [
+      "muito"
+    ],
+    "Alimento": [
+      "doce"
+    ],
+    "Negação": [
+      "nega",
+      "ss",
+      "indolor",
+      "sem"
+    ],
+    "Abreviação": [
+      "DM",
+      "HAS",
+      "RHA+",
+      "ECG",
+      "Cx bariátrica",
+      "pen Benzatina"
+    ],
+    "Doença ou Síndrome": [
+      "DM",
+      "HAS",
+      "dislipidemia",
+      "Hernia Incisional"
+    ],
+    "Localização ou Região Corporal": [
+      "Abdomen",
+      "parede em regiao inferior"
+    ],
+    "Achado": [
+      "flacido",
+      "RHA+"
+    ],
+    "Procedimento Diagnóstico": [
+      "palpacao",
+      "percussâo",
+      "ECG",
+      "Raio x de torax Ap+P"
+    ],
+    "Função Patológica": [
+      "cicatriz"
+    ],
+    "Procedimento Laboratorial": [
+      "calcio",
+      "ferro",
+      "ferritina",
+      "zinco",
+      "B12",
+      "glicemia",
+      "hemograma",
+      "exames complementares",
+      "exames laboratoriais",
+      "vitamina D",
+      "Proteinas total e fração",
+      "ácido fólico"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Discuto",
+      "Solicito",
+      "solicito"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Doutro"
+    ],
+    "Conceito Temporal": [
+      "há 2 anos e meio",
+      "pós prandial"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Cx bariátrica"
+    ],
+    "Antibiótico": [
+      "pen Benzatina"
+    ],
+    "Substância Química Orgânica": [
+      "pen Benzatina"
+    ]
+  },
+  "labels": {
+    "DB32.20": {
+      "term_original": "flacido",
+      "capitulo": "13",
+      "confidence_embedding": 0.7783,
+      "descricao_cid": "Representação de doença CID-11: Megacólon tóxico. Definição: Megacólon tóxico é uma forma aguda de distensão do cólon, caracterizada por dilatação acentuada do cólon, acompanhada por distensão abdominal (inchaço) e, às vezes, febre, dor abdominal ou choque. \"Tóxico\" significa que esta complicação ocorre com inflamação. O megacólon tóxico é uma rara dilatação do intestino grosso com risco de vida, que evolui em poucos dias, ocorrendo como complicação de doença inflamatória intestinal, tais como colite ulcerativa e doença de Crohn, ou colite de origem infecciosa.",
+      "classification_reasoning": "A opção mais precisa é a Megacólon tóxico, pois o termo 'flácido' está relacionado ao abdome e à presença de distensão abdominal, característica da doença. Além disso, o paciente apresenta dor compressiva associada a vomitos, o que também se enquadra na definição do megacólon tóxico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção de código CID-11 DB32.20 (Megacólon tóxico) não é clínicamente coerente com o prontuário, pois a descrição do termo 'flácido' não se refere à doença descrita no prontuário. O paciente apresenta hernia incisional e abdome flácido, mas isso não está relacionado ao megacólon tóxico. A lógica clínica sugere que a codificação deve ser mais específica e relacionada às características da doença descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "ME00": {
+      "term_original": "alteração",
+      "capitulo": "21",
+      "confidence_embedding": 0.7761,
+      "descricao_cid": "Representação de doença CID-11: Síndrome compartimental abdominal. Definição: A síndrome compartimental abdominal é uma condição de disfunção orgânica causada pelo aumento da pressão intra-abdominal (hipertensão intra-abdominal), possivelmente devido a hemorragia intra-abdominal, hematoma retroperitoneal ou edema intestinal. Ocorre frequentemente após intervenção cirúrgica ou traumatismo, ou frequentemente associada a condição séptica. A importância desta entidade clínica foi reconhecida recentemente, no final do século XX. Normalmente, a distensão abdominal devida a lesão intestinal isquêmica primária foi excluída desta entidade clínica.",
+      "classification_reasoning": "A escolha do código ME00 (Síndrome compartimental abdominal) é a mais precisa para o termo 'alteração' no contexto clínico, pois a paciente apresenta uma expansão da cicatriz abdominal após a cirurgia bariátrica e relata dor compressiva associada à expansão. Esta característica clínica é compatível com a definição de Síndrome compartimental abdominal, que se refere ao aumento da pressão intra-abdominal, possivelmente devido a hemorragia intra-abdominal ou edema intestinal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código ME00 (Síndrome compartimental abdominal) não é a mais precisa para o termo 'alteração' no contexto clínico. A paciente apresenta uma expansão da cicatriz abdominal após a cirurgia bariátrica e relata dor compressiva associada à expansão, mas isso não se ajusta à definição de Síndrome compartimental abdominal, que se refere ao aumento da pressão intra-abdominal, possivelmente devido a hemorragia intra-abdominal ou edema intestinal. A paciente tem uma história clínica mais próxima de hernia incisional e obesidade mórbida do que de Síndrome compartimental abdominal.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ND73.7": {
+      "term_original": "vomito",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A presença de vomito pós-prandial e diário em excesso ou consumo de alimentos doces, associado a dor compressiva na região da cicatriz, sugere uma lesão ou obstrução no trato digestivo relacionada à hernia incisional. A descrição 'Corpo estranho no trato digestivo especificado' melhor se adequare ao contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do vomito não está diretamente relacionada à hernia incisional. O termo 'vomito' pode ser causado por vários fatores, incluindo doenças gastrointestinais ou outras condições clínicas. A codificação CID-11 ND73.7 é muito genérica e não captura a complexidade da situação clínica do paciente.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MD81.3": {
+      "term_original": "alteracao",
+      "capitulo": "21",
+      "confidence_embedding": 0.7512,
+      "descricao_cid": "Representação de doença CID-11: Abdome agudo. Definição: Síndrome clínica com dor abdominal aguda, que é intensa e de início rápido. O abdome agudo pode ser causado por uma variedade de transtornos, lesões ou doenças.",
+      "classification_reasoning": "A escolha do código MD81.3 (Abdome agudo) é mais precisa porque a paciente relata dor abdominal aguda, associada ao aumento de tamanho na região da cicatriz e episódios diários de vômito após alimentação excessiva ou consumo de alimentos doces. Além disso, o exame físico mostrou fraqueza na parede inferior da cicatriz, o que sugere uma lesão abdominal aguda.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor abdominal aguda descrita pelo paciente não é suficiente para justificar o código MD81.3 (Abdome agudo). A paciente tem uma história de hernia incisional e abaulamento na região da cicatriz, o que sugere uma lesão relacionada à cirurgia em vez de um abdome agudo. Além disso, a dor compressiva associada ao vômito não é característica do abdome agudo. A escolha do código MD81.3 não está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "FB32.20": {
+      "term_original": "cicatriz",
+      "capitulo": "15",
+      "confidence_embedding": 0.7304,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A cicatriz mencionada no relatório refere-se à cicatriz da cirurgia de Cx bariátrica, e a fraqueza em parede na região inferior da cicatriz sugere uma lesão muscular relacionada à cicatriz, o que justifica a escolha do código FB32.20 - Rabdomiólise idiopática.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A cicatriz mencionada no prontuário refere-se à cicatriz da cirurgia de Cx bariátrica, e não à lesão muscular relacionada à cicatriz. A fraqueza em parede na região inferior da cicatriz pode ser uma consequência da cirurgia ou da obesidade, mas não justifica a escolha do código FB32.20 - Rabdomiólise idiopática.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ND73.Y": {
+      "term_original": "vomitos",
+      "capitulo": "22",
+      "confidence_embedding": 0.7474,
+      "descricao_cid": "Representação de doença CID-11: Corpo estranho em outra parte especificada do trato digestivo. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'vomitos' no contexto clínico é a representação de doença CID-11: Corpo estranho em outra parte especificada do trato digestivo, pois o paciente relata episódios diários de vomito quando alimenta-se em excesso ou come muito doce.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CID-11 ND73.Y 'Corpo estranho em outra parte especificada do trato digestivo' não é clínica ou lógica para o termo 'vomitos'. O paciente relata episódios diários de vomito, mas não há evidência de que isso esteja relacionado a um corpo estranho no trato digestivo. A razão mais provável para os vômitos é a obstrução da cicatriz da hernia incisional, o que não está capturado pela codificação CID-11 ND73.Y.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "DA94.22": {
+      "term_original": "aumento progressivo de tamanho",
+      "capitulo": "13",
+      "confidence_embedding": 0.7206,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de enterocolite induzida por proteína alimentar. Definição: Inflamação crônica persistente com hipersensibilidade não mediada por IgE e mediada por células no trato intestinal, que afeta primariamente crianças. Os alimentos causadores mais comuns são: leite de vaca, soja, arroz, aveia, carne. Nos casos de exposição crônica, os sintomas mais frequentes são vômitos, diarreia, crescimento comprometido e letargia. Quando reexposto após restrição, o paciente pode apresentar vômitos, diarreia e hipotensão (15%) 2 horas após a ingestão.",
+      "classification_reasoning": "A escolha do código DA94.22 se baseia no relato do paciente sobre o aumento progressivo de tamanho na região da cicatriz após a cirurgia bariátrica, associado à dor compressiva e vômitos pós-prandial. Esses sintomas são compatíveis com a síndrome de enterocolite induzida por proteína alimentar, que pode ser causada pela ingestão de alimentos específicos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código DA94.22 não é justificada pela descrição do paciente, pois a síndrome de enterocolite induzida por proteína alimentar é uma doença infantil que afeta primariamente crianças e apresenta sintomas como vômitos, diarreia, crescimento comprometido e letargia. No entanto, o prontuário descreve um paciente adulto com hernia incisional e aumento progressivo de tamanho na região da cicatriz após cirurgia bariátrica, associado à dor compressiva e vômitos pós-prandial. Esses sintomas não são compatíveis com a síndrome de enterocolite induzida por proteína alimentar.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.21": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7882,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática.",
+      "classification_reasoning": "A dor na região da cicatriz, associada a vomitos e aumento progressivo do tamanho da hernia incisional após o procedimento cirúrgico (Cx bariátrica), sugere que a dor é crônica pós-operatória. Além disso, a negação de outras causas de dor, como infecção ou malignidade, apoia essa escolha.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dor na região da cicatriz, associada a vomitos e aumento progressivo do tamanho da hernia incisional após o procedimento cirúrgico (Cx bariátrica), sugere que a dor é crônica pós-operatória. Além disso, a negação de outras causas de dor, como infecção ou malignidade, apoia essa escolha. A classificação MG30.21 para 'Dor crônica pós-operatória' se encaixa perfeitamente com o termo 'dor' e a descrição clínica do paciente.",
+      "tipo_erro_auditoria": null
+    },
+    "FB51.40": {
+      "term_original": "hernia incisional",
+      "capitulo": "15",
+      "confidence_embedding": 0.7012,
+      "descricao_cid": "Representação de doença CID-11: Fibrose retroperitoenal primária. Definição: Esta é a forma mais comum de fibrose retroperitoneal. Por definição, nenhum fator desencadeante (ex. medicamentos ou neoplasia maligna) pode ser determinado, apesar de haver uma associação frequente com a aterosclerose da aorta abdominal. Foi postulado que a aterosclerose poderia ter um papel etiológico em alguns casos.",
+      "classification_reasoning": "A hernia incisional é uma lesão caracterizada pelo extravazamento de conteúdo muscular, em geral relacionada a cicatrizes abdominais. A definição da CID-11 para essa condição coincide com a descrição do caso: 'Fibrose retroperitoenal primária'. Essa escolha é mais precisa por se tratar de uma lesão que ocorre em região abdominal, associada à cicatriz, e sem outros fatores desencadeantes identificados.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A definição da CID-11 para 'Fibrose retroperitoenal primária' não se aplica ao caso de Lucas, pois a lesão descrita é uma hernia incisional, que é um tipo diferente de lesão abdominal. A descrição do prontuário não apresenta características de fibrose retroperitoenal primária, como ausência de fator desencadeante e associação com aterosclerose da aorta abdominal.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

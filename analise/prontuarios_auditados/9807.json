@@ -1,0 +1,180 @@
+{
+  "prontuario_id": 573,
+  "text": "18:20HR PROVENIENTE DO HOSPITAL DIA EM POI DE EMBOLIZAÇÃO DE ANEURISMA. PA 116/67 MMHGM, FC 78 BPM, SPO2 98%. SEM QUEIXAS AGICAS, ASPECTO DE CONFORTO E BEM ESTAR. GLASGOW 15, PUPILAS IS \\ FOTO, ESCLERAS E CONJUNTIVAS  NORMOCORADAS, BOCA HIGIENIZADA. RESPIRAÇÃO TORACICA, AMPLITUDE PROFUNDA, AR AMBIENTE, CPP LIVRES DE RA. BCRNF. ABDOME GLOBOSO POR ACUMULO DE TECIDO ADIPOSO, RHA NORMOATIVOS. PUNÇÃO VENOSA EM MSD COM SF 0,9% EM PLANO BASICO DE HIDRATÇÃO EM CURSO. CURATIVO OCLUSIVO EM REGIÃO INGUINAL D. DIURESE EM COMADRE. SEGUE SOB OS CUIDADOS DA ENFERMAGEM. Enfermeira Florence Nightingale.  TRAUMATISMO INTRACRANIANO.",
+  "entities": {
+    "Organização Relacionada à Saúde": [
+      "HOSPITAL",
+      "ENFERMAGEM"
+    ],
+    "Abreviação": [
+      "POI",
+      "PA",
+      "FC",
+      "SPO2",
+      "IS",
+      "FOTO",
+      "RA",
+      "BCRNF",
+      "MSD",
+      "CPP LIVRES",
+      "RHA NORMOATIVOS",
+      "REGIÃO INGUINAL D"
+    ],
+    "Conceito Temporal": [
+      "POI"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC",
+      "SPO2"
+    ],
+    "Conceito Quantitativo": [
+      "98%",
+      "116/67 MMHGM",
+      "78 BPM"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PUPILAS",
+      "ESCLERAS",
+      "CONJUNTIVAS",
+      "MSD"
+    ],
+    "Achado": [
+      "IS",
+      "FOTO",
+      "NORMOCORADAS",
+      "BCRNF",
+      "ASPECTO DE CONFORTO",
+      "BEM ESTAR",
+      "GLASGOW 15",
+      "BOCA HIGIENIZADA",
+      "RESPIRAÇÃO TORACICA",
+      "CPP LIVRES",
+      "ABDOME GLOBOSO",
+      "RHA NORMOATIVOS"
+    ],
+    "Sinal ou Sintoma": [
+      "RA",
+      "QUEIXAS AGICAS",
+      "AMPLITUDE PROFUNDA",
+      "ACUMULO DE TECIDO ADIPOSO"
+    ],
+    "Substância Farmacológica": [
+      "SF"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "HIDRATÇÃO",
+      "PUNÇÃO VENOSA",
+      "CURATIVO OCLUSIVO"
+    ],
+    "Função de Organismo": [
+      "DIURESE"
+    ],
+    "Objeto Físico": [
+      "COMADRE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CUIDADOS",
+      "PLANO BASICO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Doença ou Síndrome": [
+      "EMBOLIZAÇÃO DE ANEURISMA",
+      "TRAUMATISMO INTRACRANIANO"
+    ],
+    "Dispositivo Médico": [
+      "PUNÇÃO VENOSA",
+      "CURATIVO OCLUSIVO"
+    ],
+    "Localização ou Região Corporal": [
+      "REGIÃO INGUINAL D"
+    ]
+  },
+  "labels": {
+    "8D60": {
+      "term_original": "traumatismo intracraniano",
+      "capitulo": "08",
+      "confidence_embedding": 0.7644,
+      "descricao_cid": "Representação de doença CID-11: Pressão intracraniana aumentada. Definição: Aumento da pressão dentro do crânio causado por alterações nos volumes dos componentes intracranianos, como matéria cerebral, LCR e sangue, ou pela presença de uma entidade de massa patológica.",
+      "classification_reasoning": "Aumento da pressão intracraniana é uma consequência direta de um traumatismo intracraniano, o que se ajusta à descrição do termo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'traumatismo intracraniano' não se refere apenas ao aumento da pressão intracraniana, mas sim à lesão cerebral causada pelo acidente. O código CID-11 8D60 'Pressão intracraniana aumentada' não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD50.3Z": {
+      "term_original": "embolização de aneurisma",
+      "capitulo": "11",
+      "confidence_embedding": 0.8243,
+      "descricao_cid": "Representação de doença CID-11: Aneurisma da aorta torácica, sem menção de perfuração ou ruptura. Definição: ",
+      "classification_reasoning": "A opção mais precisa é o Código BD50.3Z, pois o contexto do prontuário refere-se à embolização de aneurisma em uma região específica (inguinal), sugerindo que se trata de um aneurisma da aorta torácica. Além disso, o termo 'embolização' é mais comummente associado ao tratamento de aneurismas aórticos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção do sistema é BD50.3Z, que representa aneurisma da aorta torácica. No entanto, o termo 'embolização de aneurisma' não especifica a localização do aneurisma e não há indicações de perfuração ou ruptura. Portanto, a classificação como aneurisma da aorta torácica é demasiado específica e pode não representar fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA80.8": {
+      "term_original": "abdome globoso",
+      "capitulo": "15",
+      "confidence_embedding": 0.7302,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'abdome globoso' é a degeneração de disco intervertebral da coluna lombar sem prolapso de disco (Código FA80.8). Isso porque a descrição refere-se à deformidade do abdome, que está relacionada ao acúmulo de tecido adiposo mencionado no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário refere-se ao acúmulo de tecido adiposo no abdome, que não está relacionado à degeneração de disco intervertebral da coluna lombar. A opção FA80.8 é muito específica e não se ajusta ao termo 'abdome globoso' descrito no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "FA38.2": {
+      "term_original": "acumulo de tecido adiposo",
+      "capitulo": "15",
+      "confidence_embedding": 0.6914,
+      "descricao_cid": "Representação de doença CID-11: Artropatia associada a reações de hipersensibilidade classificadas em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a FA38.2 porque o termo 'acumulo de tecido adiposo' refere-se ao aumento anormal de gordura no abdome, característico da artropatia associada a reações de hipersensibilidade.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'acumulo de tecido adiposo' não é diretamente relacionado à artropatia associada a reações de hipersensibilidade. A descrição do prontuário refere-se ao aumento anormal de gordura no abdome, que pode ser um sintoma de várias condições clínicas e não específico da artropatia. Portanto, o código CID-11 FA38.2 não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "CB21.1": {
+      "term_original": "respiração toracica",
+      "capitulo": "12",
+      "confidence_embedding": 0.8008,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A descrição 'respiração toracica' indica que o paciente tem um padrão de respiração normal e profunda, o que é compatível com a presença de pneumotórax espontâneo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição 'respiração toracica' não é suficientemente específica para justificar a classificação de pneumotórax espontâneo. A respiração torácica pode ser normal e profunda em muitas situações clínicas, incluindo pacientes com doenças pulmonares subjacentes. Portanto, a codificação CID-11 'CB21.1' não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "8A63.0": {
+      "term_original": "glasgow 15",
+      "capitulo": "08",
+      "confidence_embedding": 0.7444,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica febril. Definição: Convulsões associadas a um aumento da temperatura corporal na ausência de infecção intracraniana, distúrbio metabólico ou história de crises epilépticas afebris. Ocorrem mais comumente em crianças com idades entre 6 meses e 5 anos.",
+      "classification_reasoning": "O termo 'Glasgow 15' indica que o paciente tem um estado de coma leve, característico de crises epilépticas febris. Isso justifica a escolha do código 8A63.0, que descreve crises epilépticas febris sem infecção intracraniana ou distúrbio metabólico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'Glasgow 15' não descreve uma crise epiléptica febril, mas sim um estado de coma leve. A Glasgow Scale é uma escala utilizada para avaliar o estado de consciência de pacientes com lesão cerebral ou doença neurológica. Portanto, a escolha do código 8A63.0 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "XE3FA": {
+      "term_original": "foto",
+      "capitulo": "X",
+      "confidence_embedding": 0.7811,
+      "descricao_cid": "Representação de doença CID-11: Ocupante de posição fornecida para paciente em ambulância. Definição: ",
+      "classification_reasoning": "A palavra 'foto' refere-se à representação de doença CID-11 para paciente em ambulância, o que é consistente com a presença de uma imagem médica no prontuário.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A palavra 'foto' refere-se à representação de uma imagem médica no prontuário, que é consistente com a definição do código CID-11 XE3FA. A presença da imagem médica no prontuário justifica a atribuição desse código.",
+      "tipo_erro_auditoria": null
+    },
+    "ME62.7": {
+      "term_original": "queixas agicas",
+      "capitulo": "21",
+      "confidence_embedding": 0.793,
+      "descricao_cid": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica.",
+      "classification_reasoning": "A opção mais precisa para o termo 'queixas agicas' é a erupção cutânea descamativa aguda (Código ME62.7), pois a descrição da condição menciona sintomas como descamação, que são similares àquelas descritas no código. Além disso, a definição do código menciona que a doença pode ser caracterizada por uma erupção cutânea de natureza desconhecida ou incerta, o que se alinha com a ausência de outras queixas agudas nos sintomas apresentados.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário não apresenta sintomas de erupção cutânea descamativa aguda, como descamação ou erupções cutâneas. A queixa 'sem queixas agudas' sugere ausência de sintomas agudos, o que não se alinha com a definição do código ME62.7. Além disso, a descrição da condição menciona apenas sintomas gerais e não apresenta características específicas da erupção cutânea descamativa aguda.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    }
+  }
+}

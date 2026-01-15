@@ -1,0 +1,179 @@
+{
+  "prontuario_id": 4,
+  "text": "LUCAS, 43a # HAS - diagnóstico recente. # Tabagismo. # Obesidade. # Dislipidemia. # HF + para cardiopatia isquêmica. # IAM 25/02. Paciente encaminhado do interior para cateterismo cardíaco pós-IAM. Realizada ACTP + 3 stents na ACD, proximal, média e distal. Procedimento feito sem intercorrências, com sucesso angiográfico. Vinha já em uso de clopidogrel.  Recebe alta após 48 em bom estado geral, assintomático, com recomendação de: - manter uso de clopidogrel por 3 meses. - AAS 200 mg /dia. - sinvastatina 20 mg /dia. Retorno breve ao seu médico assistente. Procurar a emergência em caso de intercorrências.",
+  "entities": {
+    "Abreviação": [
+      "HAS",
+      "IAM",
+      "pós-IAM",
+      "ACTP",
+      "ACD",
+      "AAS",
+      "HF +"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "diagnóstico",
+      "Tabagismo",
+      "Obesidade",
+      "Dislipidemia",
+      "IAM",
+      "cardiopatia isquêmica"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "encaminhado",
+      "alta",
+      "recomendação",
+      "Retorno",
+      "Procurar"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ACTP",
+      "Procedimento",
+      "cateterismo cardíaco"
+    ],
+    "Conceito Quantitativo": [
+      "3",
+      "200 mg /dia",
+      "20 mg /dia"
+    ],
+    "Dispositivo Médico": [
+      "stents"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ACD"
+    ],
+    "Localização ou Região Corporal": [
+      "proximal",
+      "média",
+      "distal"
+    ],
+    "Negação": [
+      "sem",
+      "assintomático"
+    ],
+    "Sinal ou Sintoma": [
+      "intercorrências",
+      "assintomático"
+    ],
+    "Substância Química Orgânica": [
+      "clopidogrel",
+      "AAS",
+      "sinvastatina"
+    ],
+    "Substância Farmacológica": [
+      "clopidogrel",
+      "AAS",
+      "sinvastatina"
+    ],
+    "Organização Relacionada à Saúde": [
+      "emergência"
+    ],
+    "Achado": [
+      "HF +",
+      "bom estado geral"
+    ],
+    "Conceito Qualitativo": [
+      "sucesso angiográfico"
+    ],
+    "Conceito Temporal": [
+      "após 48",
+      "3 meses"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "médico assistente"
+    ]
+  },
+  "labels": {
+    "MC80.0": {
+      "term_original": "diagnóstico",
+      "capitulo": "21",
+      "confidence_embedding": 0.7575,
+      "descricao_cid": "Representação de doença CID-11: Valor elevado da pressão arterial sem diagnóstico de hipertensão. Definição: ",
+      "classification_reasoning": "O diagnóstico recente mencionado no prontuário refere-se ao diagnóstico de cardiopatia isquêmica, que é relacionada ao histórico do paciente com dislipidemia e obesidade. O código MC80.0 se refere a valor elevado da pressão arterial sem diagnóstico de hipertensão, o que pode estar relacionado às condições cardíacas do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 MC80.0 se refere a valor elevado da pressão arterial sem diagnóstico de hipertensão, o que não está relacionado ao diagnóstico recente de cardiopatia isquêmica do paciente. A codificação não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "ME64": {
+      "term_original": "has",
+      "capitulo": "21",
+      "confidence_embedding": 0.7387,
+      "descricao_cid": "Representação de doença CID-11: Sinais vasculares cutâneos não específicos. Definição: Alterações perceptíveis na pele resultantes de alterações na composição do sangue, fluxo sanguíneo ou integridade dos vasos sanguíneos. Podem ser devidas a fatores locais ou podem indicar transtornos subjacentes, como anemia, hipovolemia, febre, hipóxia ou defeitos na coagulação.",
+      "classification_reasoning": "A opção mais precisa para o termo 'has' no contexto clínico é a Sinais vasculares cutâneos não específicos (Código: ME64). Isso porque o paciente tem história de tabagismo, obesidade e dislipidemia, que podem ser relacionadas à pele. Além disso, o procedimento de cateterismo cardíaco pode ter causado alterações na composição do sangue e fluxo sanguíneo, levando a alterações cutâneas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção ME64 não é clinicamente coerente com o prontuário. Embora o paciente tenha história de tabagismo, obesidade e dislipidemia, que podem ser relacionadas à pele, a condição descrita no prontuário (HF + para cardiopatia isquêmica, IAM, cateterismo cardíaco) não está diretamente relacionada à representação de doença CID-11 Sinais vasculares cutâneos não específicos. A escolha do código ME64 é demasiado genérica e não captura a complexidade da situação clínica.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BA51": {
+      "term_original": "cardiopatia isquêmica",
+      "capitulo": "11",
+      "confidence_embedding": 0.8182,
+      "descricao_cid": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas.",
+      "classification_reasoning": "A cardiopatia isquêmica é a condição diagnóstica recente do paciente, Lucas, e o código BA51 melhor se ajusta ao termo extraído 'cardiopatia isquêmica' no contexto de doença arterial coronariana e revascularização do miocárdio.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 BA51 'Miocardiopatia isquêmica' é válida porque a cardiopatia isquêmica é a condição diagnóstica recente do paciente, Lucas, e o código se ajusta fielmente ao termo extraído. A presença de IAM e revascularização do miocárdio com stents na ACD suportam essa classificação.",
+      "tipo_erro_auditoria": null
+    },
+    "NE82.1Z": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.7701,
+      "descricao_cid": "Representação de doença CID-11: Disfunção do marcapasso ou cardioversor desfibrilador implantável, não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NE82.1Z, pois o termo 'intercorrências' refere-se ao surgimento de problemas ou complicações no pós-operatório cardíaco, e não está relacionado às lesões vasculares mencionadas nas outras opções.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'intercorrências' refere-se a complicações ou problemas que surgiram após o procedimento, não é uma condição clínica específica. A opção NE82.1Z não representa fielmente o termo descrito no prontuário, pois se refere à disfunção do marcapasso ou cardioversor desfibrilador implantável, que não está relacionada às complicações pós-operatório cardíaco mencionadas.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA82.3": {
+      "term_original": "iam",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha do código BA82.3 é a mais precisa para o termo 'IAM' no contexto clínico, pois refere-se à intervenção coronária percutânea (ACTP) e ao implante de stents na artéria coronária descendente (ACD), que é característico de um episódio de Infarto Agudo do Miocárdio (IAM).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código BA82.3 é justificada pois refere-se à intervenção coronária percutânea (ACTP) e ao implante de stents na artéria coronária descendente (ACD), que é característico de um episódio de Infarto Agudo do Miocárdio (IAM). A descrição do prontuário confirma a ocorrência de IAM, comprovando a precisão da escolha do código.",
+      "tipo_erro_auditoria": null
+    },
+    "BA01": {
+      "term_original": "hf+",
+      "capitulo": "11",
+      "confidence_embedding": 0.7934,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A opção mais precisa para o termo 'HF+' é a Doença Cardíaca Hipertensiva (Código: BA01), pois Lucas tem histórico de cardiopatia isquêmica e apresenta dislipidemia, obesidade e tabagismo. Além disso, o procedimento realizado foi um cateterismo cardíaco pós-IAM, sugerindo uma possível insuficiência cardíaca congestiva (HF+).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'HF+' não é a Doença Cardíaca Hipertensiva (Código: BA01), pois embora Lucas tenha cardiopatia isquêmica e apresente fatores de risco para doença cardíaca hipertensiva, o procedimento realizado foi um cateterismo cardíaco pós-IAM após IAM, sugerindo mais uma condição clínica específica. A codificação BA01 é demasiado genérica e não captura a especificidade da insuficiência cardíaca congestiva (HF+) após IAM.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME66.2": {
+      "term_original": "tabagismo",
+      "capitulo": "21",
+      "confidence_embedding": 0.7613,
+      "descricao_cid": "Representação de doença CID-11: Pele redundante e excessiva. Definição: Condição que tipicamente ocorre em indivíduos previamente bastante obesos após perda de peso maciça, como após cirurgia bariátrica ou restrição calórica estrita.",
+      "classification_reasoning": "O termo 'tabagismo' está relacionado ao consumo excessivo de cigarros, o que é uma das causas mais comuns de doenças cardiovasculares e doenças pulmonares. A presença do termo no contexto clínico sugere que a obesidade, dislipidemia e cardiopatia isquêmica podem estar relacionadas ao hábito de fumar, justificando a escolha do código ME66.2.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'tabagismo' não está relacionado à pele redundante e excessiva, como descrito pelo código CID-11 ME66.2. A obesidade é um fator de risco para doenças cardiovasculares, mas o tabagismo não é uma condição clínica que cause pele redundante e excessiva. Portanto, a escolha do código ME66.2 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA86.3": {
+      "term_original": "obesidade",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A obesidade é uma condição crônica caracterizada por um excesso de gordura corporal, que é freqüentemente associada a doenças cardiovasculares e outras complicações. No contexto clínico do paciente Lucas, a obesidade está relacionada à sua história prévia de cardiopatia isquêmica e dislipidemia.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A obesidade está claramente descrita no prontuário como uma condição presente do paciente Lucas, relacionada à sua história prévia de cardiopatia isquêmica e dislipidemia. A codificação FA86.3 é adequada para representar a obesidade crônica do paciente.",
+      "tipo_erro_auditoria": null
+    },
+    "BC43": {
+      "term_original": "dislipidemia",
+      "capitulo": "11",
+      "confidence_embedding": 0.7754,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia. Definição: Transtornos do miocárdio em que o músculo cardíaco é estrutural e funcionalmente anormal, na ausência de doença arterial coronariana, hipertensão, doença valvar e doença cardíaca congênita suficiente para causar a anormalidade miocárdica observada.",
+      "classification_reasoning": "A dislipidemia é uma condição que afeta a composição lipídica do sangue, e como o paciente tem cardiopatia isquêmica com IAM recente, é mais provável que esteja se referindo à alteração da lipoprofilemia relacionada ao estado de doença cardíaca.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dislipidemia é uma condição que afeta a composição lipídica do sangue, e não está diretamente relacionada à cardiopatia isquêmica com IAM recente. O código CID-11 BC43 representa cardiomiopatia, o que não é equivalente à dislipidemia. Portanto, é necessário remover o código atribuído.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

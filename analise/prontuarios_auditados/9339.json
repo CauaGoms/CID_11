@@ -1,0 +1,122 @@
+{
+  "prontuario_id": 855,
+  "text": "G 4 P 2 C 1 , IG de 36 sem 1 dia(s) , interna por rupreme , evoluindo para Parto Eutócico sem episiotomia em pré-parto em 26/06/2007 07:23 hs , APGAR 10/10 , FEM , 2880 Gr . Apresentou boa evolução puerperal com lóquios fisiológicos , mamas sem ingurgitamento e útero contraído abaixo da cicatriz umbilical .  EXAMES - VDRL: NR - HBsAg: Negativo ",
+  "entities": {
+    "Abreviação": [
+      "G",
+      "P",
+      "C",
+      "IG",
+      "rupreme",
+      "FEM",
+      "36 sem 1 dia ( s )",
+      "2880 Gr"
+    ],
+    "Conceito Quantitativo": [
+      "4",
+      "2",
+      "1",
+      "36 sem 1 dia ( s )",
+      "2880 Gr"
+    ],
+    "Atributo Clínico": [
+      "IG",
+      "FEM"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "interna"
+    ],
+    "Função Patológica": [
+      "rupreme"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "episiotomia"
+    ],
+    "Conceito Temporal": [
+      "pré-parto"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "mamas"
+    ],
+    "Sinal ou Sintoma": [
+      "ingurgitamento"
+    ],
+    "Procedimento Laboratorial": [
+      "EXAMES"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "36 sem 1 dia ( s )",
+      "VDRL : NR",
+      "HBsAg : Negativo"
+    ],
+    "Função Fisiológica": [
+      "Parto Eutócico",
+      "lóquios fisiológicos",
+      "útero contraído"
+    ],
+    "Achado": [
+      "APGAR 10/10",
+      "boa evolução puerperal",
+      "lóquios fisiológicos",
+      "útero contraído"
+    ],
+    "Localização ou Região Corporal": [
+      "abaixo da cicatriz umbilical"
+    ]
+  },
+  "labels": {
+    "JA20": {
+      "term_original": "rupreme",
+      "capitulo": "18",
+      "confidence_embedding": 0.8024,
+      "descricao_cid": "Representação de doença CID-11: Hipertensão preexistente complicando a gravidez, o parto ou o puerpério. Definição: Condição que acomete mulheres grávidas, causada por hipertensão materna previamente diagnosticada. Esta condição é caracterizada por qualquer complicação durante a gravidez, o parto ou o puerpério como resultado de uma leitura da pressão arterial acima de 140/90 mmHg antes da 20ª semana de gravidez ou persistindo por mais de 12 semanas após o parto. A confirmação é feita por esfigmomanômetro.",
+      "classification_reasoning": "A condição 'rupreme' se refere à hipertensão preexistente complicando a gravidez, o parto ou o puerpério, caracterizando-se por pressão arterial sistólica maior que 140 mmHg e diastólica igual ou maior a 90 mmHg em duas ocasiões com 4 horas de intervalo. Nesse contexto clínico, é mais precisa a escolha do código JA20.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A condição 'rupreme' não se refere à hipertensão preexistente complicando a gravidez, o parto ou o puerpério. A descrição do termo extraído 'rupreme' não está relacionada ao código CID-11 JA20. O termo 'rupreme' parece ser uma abreviação médica incomum e não há nenhuma evidência clínica no prontuário que justifique a escolha desse código.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME05.0": {
+      "term_original": "lóquios fisiológicos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7714,
+      "descricao_cid": "Representação de doença CID-11: Constipação. Definição: A constipação é uma condição aguda ou crônica na qual os movimentos intestinais ocorrem com menor frequência do que o normal ou consiste em fezes secas e duras que costumam ser dolorosas ou difíceis de evacuar. Aqui está descrita a constipação que não está especificamente descrita em outra parte, como em transtornos da motilidade do intestino ou em doenças funcionais do intestino.",
+      "classification_reasoning": "A opção ME05.0 se refere a 'Constipação', que é o termo mais preciso para descrever 'lóquios fisiológicos' no contexto de uma paciente puerperal, indicando a presença de movimentos intestinais normais após o parto.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação ME05.0 'Constipação' não é clinicamente coerente com o termo 'lóquios fisiológicos', que se refere a movimentos intestinais normais após o parto, e não à constipação. A opção ME05.0 é demasiado específica e não captura a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG24.D": {
+      "term_original": "útero contraído",
+      "capitulo": "21",
+      "confidence_embedding": 0.8003,
+      "descricao_cid": "Representação de doença CID-11: Medo de complicações da gravidez. Definição: ",
+      "classification_reasoning": "O termo 'útero contraído' refere-se ao estado normal após parto e durante o puerperal, o que caracteriza uma situação de saúde benigna. O código MG24.D (Medo de complicações da gravidez) é mais preciso para descrever este achado anormal em um contexto de evolução puerperal normal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'útero contraído' não representa uma condição patológica, mas sim um achado normal após parto e durante o puerperal. O código CID-11 MG24.D (Medo de complicações da gravidez) não é adequado para descrever este achado, pois não há evidência clínica de medo ou ansiedade em relação às complicações da gravidez. A classificação precisa ser mais específica e relacionada à situação clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MA15.0": {
+      "term_original": "ingurgitamento",
+      "capitulo": "21",
+      "confidence_embedding": 0.7425,
+      "descricao_cid": "Representação de doença CID-11: Bacteremia. Definição: Presença de bactérias no sangue. Isto pode ser detectado, por exemplo, por uma hemocultura positiva.",
+      "classification_reasoning": "O termo 'ingurgitamento' se refere a uma condição anormal de engrossamento ou aumento do tamanho, e nesse contexto, é mais provável que esteja relacionado à comparação entre o estado normal das mamas (sem ingurgitamento) e não à gravidez em geral.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'ingurgitamento' se refere ao estado anormal de engrossamento ou aumento do tamanho, mas no contexto do prontuário, está sendo usado para descrever o estado normal das mamas. Isso não é uma condição clínica diretamente relacionada à gravidez e não representa fielmente a descrição do termo. Portanto, o código CID-11 MA15.0 (Bacteremia) não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF30": {
+      "term_original": "boa evolução puerperal",
+      "capitulo": "21",
+      "confidence_embedding": 0.7276,
+      "descricao_cid": "Representação de doença CID-11: Nódulo ou massa na mama feminina. Definição: ",
+      "classification_reasoning": "A descrição 'boa evolução puerperal' refere-se à evolução positiva da gravidez, o que é mais relacionado ao termo Nódulo ou massa na mama feminina (MF30) do que a outras opções.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição 'boa evolução puerperal' não se refere a uma condição clínica relacionada à mama feminina, como descrita pelo código CID-11 MF30. A boa evolução puerperal é um termo que descreve o curso normal da gravidez e do parto, sem relação com nódulos ou massas na mama feminina.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "prontuario_id": 120,
+  "text": "8 semanas e 4 dias PO tenorrafia tendão de aquiles.\n\nferida seca, sem sinais flogisticos.\nthompson neg para lesao.\n\ncd: oriento iniciar fst, curativo (para ponto de deiscencia em fase final de cicatrização). retorno em 6 semanas ou antes se nec.",
+  "entities": {
+    "Abreviação": [
+      "PO",
+      "cd",
+      "fst"
+    ],
+    "Conceito Temporal": [
+      "PO",
+      "6 semanas"
+    ],
+    "Lesão ou Envenenamento": [
+      "ferida",
+      "lesao"
+    ],
+    "Negação": [
+      "sem",
+      "neg"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "fst",
+      "curativo",
+      "tenorrafia tendão de aquiles"
+    ],
+    "Dispositivo Médico": [
+      "curativo"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "retorno"
+    ],
+    "Sinal ou Sintoma": [
+      "sinais flogisticos"
+    ],
+    "Conceito Quantitativo": [
+      "6 semanas"
+    ]
+  },
+  "labels": {
+    "NC71.2": {
+      "term_original": "lesao",
+      "capitulo": "22",
+      "confidence_embedding": 0.7245,
+      "descricao_cid": "Representação de doença CID-11: Ferimento perfurante sem corpo estranho do quadril ou coxa. Definição: ",
+      "classification_reasoning": "A lesão mencionada é uma referência à tenonrafia tendão de aquiles, que resultou em ferimento aberto no quadril ou coxa. Como a descrição do prontuário refere-se a uma lesão localizada nessa área, a opção mais precisa é o código NC71.2.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão mencionada no prontuário refere-se à tenonrafia tendão de aquiles, que resultou em ferimento aberto. O código CID-11 atribuído (NC71.2) representa uma ferimento perfurante sem corpo estranho do quadril ou coxa, o que não é compatível com a lesão descrita no prontuário. A tenonrafia tendão de aquiles não está localizada no quadril ou coxa, portanto, a opção mais precisa seria um código CID-11 que represente uma lesão na região do tornozelo.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NE81.1": {
+      "term_original": "ferida",
+      "capitulo": "22",
+      "confidence_embedding": 0.7314,
+      "descricao_cid": "Representação de doença CID-11: Deiscência de ferida cirúrgica não classificada em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NE81.1, Deiscência de ferida cirúrgica não classificada em outra parte, pois o prontuário menciona uma ferida seca sem sinais flogisticos e orientação para iniciar um tratamento curativo para ponto de deiscencia em fase final de cicatrização.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção NE81.1, Deiscência de ferida cirúrgica não classificada em outra parte, é a mais precisa porque o prontuário descreve uma ferida seca sem sinais flogisticos e orientação para iniciar um tratamento curativo para ponto de deiscencia em fase final de cicatrização. A descrição do código CID-11 está alinhada com a condição clínica descrita no prontuário, não há contradição óbvia ou associação puramente imaginária.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

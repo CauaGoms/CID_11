@@ -1,0 +1,249 @@
+{
+  "prontuario_id": 961,
+  "text": "Em 17/07/2007, 16 HORAS: PUNCIONADO CATETER VENOSO CENTRAL DUPLO-LUMEN EM JID PELA DR VITAL BRASIL. INSTALADO CONTROLE DE PVC. ENFERMEIRA FLORENCE NIGHTINGALE, XXXX. HEMORRAGIA INTRACEREBRAL HEMISFERICA SUBCORTICAL. Às 18:00 HR: CONSCIENTE, ORIENTADO, VERBALIZANDO, EM REPOUSO NO LEITO. SEM QUEIXAS ÁLGICAS NO MOMENTO. REFERE BOA ACEITAÇÃO DA DIETA VO. MANTÉM ACESSO VENOSO PERIFÉRICO EM MSE HEPARINIZADO. ELIMINAÇÃO VESICAL ESPONTÂNEA. MID COM TALA GESSADA E CURATIVO LIMPO. OSTEOMIELITE AGUDA HEMATOGENICA. Às 17:49 hr: Segue consciente, orientado, verbalizando, restrito ao leito, mantém colar cervical, aceitando bem a dieta oferecida. Eliminação vesical espontânea. FRATURA DA PRIMEIRA VERTEBRA CERVICAL. Às 18:40: Permanece sem sedação, responsivo a estímulos dolorosos e aspirativos, com abertura ocular aos movimentos, pupilas anisocóricas E>D e fotorreagentes, afebril, corado, traqueostomizado em ventilação mecânica modo PCV, a 70% FIO2, PI 24, PEEP 5, FR 14. TRAUMATISMOS MULTIPLOS NAO ESPECIFICADOS. Às 16:36 Hr: 1º PO de retirada de material de síntese em tornozelo esquerdo, segue consciente, orientado, verbalizando, em repouso no leito. Algia moderada no local, com acesso venoso periférico em antebraço esquerdo salinizado. Eliminação vesical espontânea. FRATURA DO PERONIO FIBULA.",
+  "entities": {
+    "Abreviação": [
+      "JID",
+      "MSE",
+      "MID",
+      "FIO2",
+      "PI",
+      "PEEP",
+      "FR",
+      "PO",
+      "INSTALADO CONTROLE DE PVC",
+      "BOA ACEITAÇÃO DA DIETA VO",
+      "modo PCV"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "JID",
+      "pupilas",
+      "tornozelo esquerdo"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ENFERMEIRA"
+    ],
+    "Achado": [
+      "CONSCIENTE",
+      "ORIENTADO",
+      "VERBALIZANDO",
+      "consciente",
+      "orientado",
+      "verbalizando",
+      "fotorreagentes",
+      "afebril",
+      "corado",
+      "traqueostomizado",
+      "salinizado",
+      "REPOUSO NO LEITO",
+      "BOA ACEITAÇÃO DA DIETA VO",
+      "ELIMINAÇÃO VESICAL ESPONTÂNEA",
+      "CURATIVO LIMPO",
+      "restrito ao leito",
+      "aceitando bem",
+      "Eliminação vesical espontânea",
+      "responsivo a estímulos dolorosos e aspirativos",
+      "repouso no leito"
+    ],
+    "Localização ou Região Corporal": [
+      "MSE",
+      "MID"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "HEPARINIZADO",
+      "sedação",
+      "FIO2",
+      "PI",
+      "PEEP",
+      "CATETER VENOSO CENTRAL DUPLO-LUMEN EM",
+      "INSTALADO CONTROLE DE PVC",
+      "ACESSO VENOSO PERIFÉRICO",
+      "TALA GESSADA",
+      "colar cervical",
+      "ventilação mecânica",
+      "modo PCV",
+      "retirada de material de síntese",
+      "acesso venoso periférico"
+    ],
+    "Negação": [
+      "sem",
+      "afebril"
+    ],
+    "Conceito Quantitativo": [
+      "70%",
+      "24",
+      "5",
+      "14"
+    ],
+    "Conceito Temporal": [
+      "PO"
+    ],
+    "Dispositivo Médico": [
+      "CATETER VENOSO CENTRAL DUPLO-LUMEN EM",
+      "ACESSO VENOSO PERIFÉRICO",
+      "TALA GESSADA",
+      "colar cervical",
+      "acesso venoso periférico"
+    ],
+    "Doença ou Síndrome": [
+      "HEMORRAGIA INTRACEREBRAL HEMISFERICA SUBCORTICAL",
+      "OSTEOMIELITE AGUDA HEMATOGENICA"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS ÁLGICAS",
+      "abertura ocular aos movimentos",
+      "Algia moderada"
+    ],
+    "Função Fisiológica": [
+      "ELIMINAÇÃO VESICAL ESPONTÂNEA",
+      "Eliminação vesical espontânea"
+    ],
+    "Lesão ou Envenenamento": [
+      "FRATURA DA PRIMEIRA VERTEBRA CERVICAL",
+      "TRAUMATISMOS MULTIPLOS",
+      "FRATURA DO PERONIO FIBULA"
+    ]
+  },
+  "labels": {
+    "GC04.10": {
+      "term_original": "eliminação vesical espontânea",
+      "capitulo": "16",
+      "confidence_embedding": 0.776,
+      "descricao_cid": "Representação de doença CID-11: Fístula vesicovaginal. Definição: Uma afecção da bexiga e vagina, causada por e subsequente a parto, traumatismo, histerectomia, intervenção médica, infecções, cálculos na bexiga, endometriose, biópsia em cone ou fatores congênitos. Esta afecção é caracterizada pela formação de uma passagem anormal entre a bexiga urinária e a vagina, levando à descarga involuntária contínua de urina para a vagina.",
+      "classification_reasoning": "A eliminação vesical espontânea é um sintoma característico de uma possível fisura entre a bexiga urinária e a vagina, o que é descrito no termo Fístula vesicovaginal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A eliminação vesical espontânea descrita no prontuário não é uma condição clínica relacionada à fisura entre a bexiga urinária e a vagina, como sugerido pelo código CID-11 GC04.10. Em vez disso, é um sintoma comum em pacientes com lesões traumáticas ou doenças neurológicas. Portanto, o código CID-11 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.20": {
+      "term_original": "algia moderada",
+      "capitulo": "21",
+      "confidence_embedding": 0.7368,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-traumática. Definição: Dor pós-traumática crônica é a dor que se desenvolve ou aumenta de intensidade após uma lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após o traumatismo tecidual. A dor é ou localizada na área da lesão, ou referida no território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente por um problema doloroso preexistente.",
+      "classification_reasoning": "A dor algia moderada no local do traumatismo no tornozelo esquerdo é mais precisamente relacionada à dor crônica pós-traumática, uma vez que a paciente apresenta fratura no peronio fibula e história de lesão tecidual recente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor algia moderada no local do traumatismo no tornozelo esquerdo não é diretamente relacionada à dor crônica pós-traumática. A paciente apresenta fratura no peronio fibula e história de lesão tecidual recente, mas a dor descrita é mais provavelmente uma reação ao trauma recente do que uma dor crônica pós-traumática.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NA07": {
+      "term_original": "restrito ao leito",
+      "capitulo": "22",
+      "confidence_embedding": 0.744,
+      "descricao_cid": "Representação de doença CID-11: Traumatismo intracraniano. Definição: Dano infligido aos tecidos do cérebro como o resultado direto ou indireto de uma força externa, com ou sem interrupção da continuidade estrutural.",
+      "classification_reasoning": "O termo 'restrito ao leito' sugere que o paciente está sob observação médica e não pode se movimentar, o que é comum em pacientes com traumatismo intracraniano. Além disso, a presença de outras lesões e procedimentos clínicos na história do paciente apoia essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'restrito ao leito' não representa diretamente o traumatismo intracraniano descrito no prontuário. Embora seja comum em pacientes com traumatismo intracraniano, a restrição ao leito não é uma condição clínica relacionada à lesão cerebral. Portanto, o código CID-11 atribuído (NA07) não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA05.1": {
+      "term_original": "traqueostomizado",
+      "capitulo": "12",
+      "confidence_embedding": 0.7521,
+      "descricao_cid": "Representação de doença CID-11: Traqueíte aguda. Definição: Esta condição se refere à inflamação aguda da traqueia.",
+      "classification_reasoning": "A técnica de traqueostomização indica a presença de uma doença inflamatória aguda na traqueia, o que justifica a escolha do código CA05.1 para Representação de doença CID-11: Traqueíte aguda.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A técnica de traqueostomização não é uma representação de doença CID-11: Traqueíte aguda. A traqueostomização é um procedimento médico que envolve a abertura da traqueia para facilitar a ventilação, e não é uma condição clínica diretamente relacionada à inflamação aguda da traqueia. Portanto, o código CA05.1 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ND34": {
+      "term_original": "traumatismos multiplos",
+      "capitulo": "22",
+      "confidence_embedding": 0.796,
+      "descricao_cid": "Representação de doença CID-11: Traumatismos por esmagamento envolvendo múltiplas regiões do corpo. Definição: ",
+      "classification_reasoning": "A opção ND34 é a mais precisa porque o contexto clínico refere-se a 'traumatismos multiplos' sem especificar região do corpo, que se alinha com a definição de traumatismo por esmagamento envolvendo múltiplas regiões do corpo.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção ND34 é a mais precisa porque o contexto clínico refere-se a 'traumatismos multiplos' sem especificar região do corpo, que se alinha com a definição de traumatismo por esmagamento envolvendo múltiplas regiões do corpo. A descrição do prontuário não apresenta contradições óbvias ou associações puramente imaginárias, portanto, o código CID-11 ND34 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "FB84.5": {
+      "term_original": "osteomielite aguda hematogenica",
+      "capitulo": "15",
+      "confidence_embedding": 0.7375,
+      "descricao_cid": "Representação de doença CID-11: Outra osteomielite crônica hematogênica. Definição: ",
+      "classification_reasoning": "A escolha do código FB84.5 foi feita porque o termo 'osteomielite aguda hematogenica' indica uma infecção óssea aguda causada por um processo hemático, caracterizando-se por um aumento da formação de tecido ósseo e a presença de linfócitos e plasmócitos em sua estrutura. Isso coincide com a definição do código FB84.5.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A osteomielite aguda hematogenica descrita no prontuário é uma condição clínica que se encaixa perfeitamente na definição do código CID-11 FB84.5, que representa outra osteomielite crônica hematogênica. A descrição do termo extraído e a justificativa do sistema coincidem com a definição do código, o que justifica a manutenção da codificação.",
+      "tipo_erro_auditoria": null
+    },
+    "FA72.3": {
+      "term_original": "fratura da primeira vertebra cervical",
+      "capitulo": "15",
+      "confidence_embedding": 0.7873,
+      "descricao_cid": "Representação de doença CID-11: Fratura vertebral por fadiga. Definição: ",
+      "classification_reasoning": "A fratura da primeira vértebra cervical descrita no prontuário é um quadro de trauma que não apresenta espondilolistese, inflamação ou colapso vertebral. A opção mais precisa é a Fratura vertebral por fadiga (FA72.3), que se ajusta ao contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fratura da primeira vértebra cervical descrita no prontuário é um quadro de trauma que não apresenta espondilolistese, inflamação ou colapso vertebral. A opção mais precisa seria uma fratura por trauma (FA72.2) em vez de fratura vertebral por fadiga (FA72.3), pois a descrição do prontuário não sugere fadiga como causa da fratura.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB47.B": {
+      "term_original": "fotorreagentes",
+      "capitulo": "21",
+      "confidence_embedding": 0.7449,
+      "descricao_cid": "Representação de doença CID-11: Opistótono. Definição: Posição arqueada do corpo devida a espasmo dos músculos axiais ao longo da coluna vertebral",
+      "classification_reasoning": "A escolha do código MB47.B (Opistótono) é a mais precisa para o termo 'fotorreagentes' no contexto clínico, pois opistótono é uma posição arqueada do corpo devida a espasmo dos músculos axiais ao longo da coluna vertebral, e fotoreagente é um termo relacionado à reação à luz. A presença de pupilas anisocóricas E>D e fotorreagentes indica que o paciente tem uma resposta ao estímulo luminoso.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código MB47.B (Opistótono) não é apropriada porque o termo 'fotorreagentes' não está relacionado à opistótono. A presença de pupilas anisocóricas E>D e fotorreagentes indica uma resposta ao estímulo luminoso, que não é um sintoma característico do opistótono. Além disso, a descrição do código CID-11 não se aplica ao contexto clínico apresentado no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B00.1": {
+      "term_original": "hemorragia intracerebral hemisferica subcortical",
+      "capitulo": "08",
+      "confidence_embedding": 0.7672,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia lobar. Definição: Disfunção neurológica aguda causada por hemorragia dentro dos lobos do cérebro e fora do subcórtex, gânglios da base e diencéfalo (tálamo).",
+      "classification_reasoning": "A hemorragia intracerebral hemisferica subcortical é uma indicação de que a hemorragia está localizada em um lobo do cérebro e fora do subcórtex, o que coincide com a definição do código 8B00.1 (Hemorragia lobar).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hemorragia intracerebral hemisferica subcortical descrita no prontuário está claramente relacionada à definição do código CID-11 8B00.1 (Hemorragia lobar). A localização da hemorragia dentro de um lobo cerebral e fora do subcórtex coincide com a definição do código, portanto, é válido manter o código atribuído.",
+      "tipo_erro_auditoria": null
+    },
+    "MG30.5": {
+      "term_original": "responsivo a estímulos dolorosos e aspirativos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7437,
+      "descricao_cid": "Representação de doença CID-11: Dor neuropática crônica. Definição: Dor neuropática crônica é uma dor crônica causada por uma lesão ou doença do sistema nervoso somatossensorial. A dor pode ser espontânea ou evocada, como uma resposta aumentada a um estímulo doloroso (hiperalgesia) ou uma resposta dolorosa a um estímulo normalmente não doloroso (alodinia). O diagnóstico de dor neuropática crônica requer um antecedente de lesão ou doença do sistema nervoso e uma distribuição neuroanatomicamente plausível da dor. Sinais ou sintomas sensoriais negativos (por exemplo, diminuição ou perda de sensibilidade) e positivos (por exemplo, alodinia ou hiperalgesia) indicando o envolvimento do sistema nervoso somatossensorial devem ser compatíveis com o território de inervação da estrutura nervosa afetada.",
+      "classification_reasoning": "O termo 'responsivo a estímulos dolorosos e aspirativos' sugere que o paciente está apresentando uma resposta a estimulos dolorosos, característica de dor neuropática crônica (MG30.5).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'responsivo a estímulos dolorosos e aspirativos' não é suficientemente específico para justificar a classificação de dor neuropática crônica (MG30.5). A descrição do código CID-11 refere-se especificamente à dor crônica causada por lesão ou doença do sistema nervoso somatossensorial, enquanto o termo extraído apenas sugere uma resposta a estímulos dolorosos, que não é suficiente para justificar essa classificação.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "S82.40": {
+      "term_original": "fratura do peronio fibula",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A fratura do peronio fibula é um tipo de lesão óssea que afeta a coluna larvar (tendo em conta que o contexto menciona 'peronio' e não 'fibulia'). A opção mais precisa seria S82.40, Fratura da tibia e peronio.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fratura do peronio fibula não é uma lesão óssea que afeta a coluna larvar, como justificado pelo sistema. A opção mais precisa seria S82.40, Fratura da tibia e peronio, pois o termo refere-se à fratura de um osso específico (perone) e não ao tipo de lesão óssea mencionado no contexto.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "XJ92H": {
+      "term_original": "salinizado",
+      "capitulo": "X",
+      "confidence_embedding": 0.7048,
+      "descricao_cid": "Representação de doença CID-11: Fratura se estende até a articulação e toda a parte articular é desconectada da parte principal do osso. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'salinizado' é a fratura que se estende até a articulação e toda a parte articular é desconectada da parte principal do osso, pois a descrição do código XJ92H menciona 'fratura do peronio fibula', que pode estar relacionada ao uso de soro (salinizado) para ajudar na reposição de líquidos no paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'salinizado' não está relacionado à fratura do perônio fibula, mas sim ao uso de soro para reposição de líquidos. O código XJ92H não representa fielmente o termo descrito no prontuário e é um exemplo de overgeneralization da CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME24.A1": {
+      "term_original": "curativo limpo",
+      "capitulo": "21",
+      "confidence_embedding": 0.7226,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia do ânus e do reto. Definição: Sangramento do ânus e do canal anal. Exclui sangramento devido a doenças específicas classificadas em outra parte (hemorróidas, câncer, infecção, etc.).",
+      "classification_reasoning": "A descrição 'curativo limpo' refere-se à condição de cura e manutenção do local de procedimento (em referência ao puncionamento cateter venoso central), o que é mais relacionado à hemorragia intracerebral mencionada no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição 'curativo limpo' não se refere à hemorragia do ânus e do reto, como sugerido pelo código CID-11 ME24.A1. A condição descrita no prontuário é relacionada ao procedimento de puncionamento cateter venoso central e não está diretamente ligada a uma doença ou sintoma. Portanto, o código atribuído não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME86": {
+      "term_original": "queixas álgicas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7601,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa de uma parte do corpo. Definição: ",
+      "classification_reasoning": "A opção ME86 'Representação de doença CID-11: Sintoma ou queixa de uma parte do corpo' é a mais precisa para o termo 'queixas álgicas', pois refere-se diretamente a sintomas físicos, incluindo dor e desconforto.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'queixas álgicas' refere-se a sintomas de dor e desconforto, enquanto o código CID-11 ME86 'Representação de doença CID-11: Sintoma ou queixa de uma parte do corpo' é muito amplo e não captura a especificidade da dor mencionada no prontuário. A classificação não está clinicamente coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

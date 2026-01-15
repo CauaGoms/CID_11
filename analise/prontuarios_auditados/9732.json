@@ -1,0 +1,147 @@
+{
+  "prontuario_id": 8,
+  "text": "PACIENTE EM ACOMPNHAMENTO POR MEGACOLON CHAGÁSICO.\nREFERE CONSTIPAÇÃO CRÔNICA TENDO QUE USAR FLEET ENEMA PARA EVACUAR. DORES ESPORÁDICAS PRINCIPALMENTE QUANDO DEMORAR MUITO PARA IR AO BANHEIRO.\nATUALMENTE HÁ 15 DIAS SEM EVACUAR.\n\nHMP: MARCAPASSO HÁ 6 ANOS POR ARRITMIA TROCADO POR CDI HÁ 3 ANOS.\nJÁ REALIZOU CIRURGIA PARA MEGACOLON 2 VEZES HÁ 10 ANOS.\n\nEM USO DE: AAS / ENALAPRIL / FUROSEMIDA / AMIODARONA / CARVEDILOL.\n\nREIOGRAFIA DE ESOFAGO/ESTOMAGO/DUODENO (25/06/2015): ALTERADO: PRESENÇA DE REFLUXO. ESOFAGO / ESTOMAGO E DUODENO DE ASPECTOS NORMAIS.\n\n# CD: SOLICITO ENEMA OPACO VIA USB.\nRETORNO COM EXAMES.\nORIENTO USO DE FLEET PARA CONSTIPAÇÃO.\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Função de Organismo": [
+      "EVACUAR"
+    ],
+    "Sinal ou Sintoma": [
+      "DORES",
+      "CONSTIPAÇÃO",
+      "CONSTIPAÇÃO CRÔNICA"
+    ],
+    "Conceito Temporal": [
+      "ESPORÁDICAS",
+      "ATUALMENTE"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Abreviação": [
+      "HMP",
+      "CDI",
+      "AAS",
+      "CD"
+    ],
+    "Achado": [
+      "HMP",
+      "ASPECTOS NORMAIS"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "MARCAPASSO",
+      "CDI",
+      "FLEET",
+      "FLEET ENEMA"
+    ],
+    "Dispositivo Médico": [
+      "MARCAPASSO",
+      "CDI"
+    ],
+    "Doença ou Síndrome": [
+      "ARRITMIA",
+      "MEGACOLON",
+      "MEGACOLON CHAGÁSICO"
+    ],
+    "Substância Farmacológica": [
+      "AAS",
+      "ENALAPRIL",
+      "FUROSEMIDA",
+      "AMIODARONA",
+      "CARVEDILOL",
+      "FLEET ENEMA"
+    ],
+    "Substância Química Orgânica": [
+      "AAS",
+      "FUROSEMIDA",
+      "AMIODARONA",
+      "CARVEDILOL"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "ENALAPRIL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ALTERADO",
+      "PRESENÇA DE REFLUXO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ESOFAGO",
+      "ESTOMAGO",
+      "DUODENO"
+    ],
+    "Produto Intelectual": [
+      "CD"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "SOLICITO",
+      "RETORNO",
+      "EM ACOMPNHAMENTO",
+      "TROCADO POR"
+    ],
+    "Organização Relacionada à Saúde": [
+      "USB"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAMES",
+      "REIOGRAFIA DE ESOFAGO/ESTOMAGO/DUODENO",
+      "ENEMA OPACO"
+    ],
+    "Conceito Quantitativo": [
+      "2 VEZES"
+    ]
+  },
+  "labels": {
+    "8A80.4": {
+      "term_original": "dores",
+      "capitulo": "08",
+      "confidence_embedding": 0.7302,
+      "descricao_cid": "Representação de doença CID-11: Síndrome do vômito cíclico. Definição: Ataques episódicos recorrentes, geralmente estereotipados no paciente individual, de vômitos e náusea intensas. Os ataques estão associados à palidez e letargia. Há resolução completa dos sintomas entre os ataques.",
+      "classification_reasoning": "Como o termo 'dores' está relacionado à constipação crônica do paciente, que apresenta dor esporádica quando demora muito para ir ao banheiro, escolhi o código 8A80.4 que se refere a Síndrome do vômito cíclico, apesar de não haver referência explícita à vomitação no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 8A80.4 refere-se à Síndrome do vômito cíclico, que não tem relação direta com a dor esporádica descrita no prontuário. A dor é um sintoma característico de constipação crônica e não está relacionada ao vômito cíclico. Portanto, a codificação não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DA62": {
+      "term_original": "megacolon",
+      "capitulo": "13",
+      "confidence_embedding": 0.7653,
+      "descricao_cid": "Representação de doença CID-11: Úlcera anastomótica. Definição: A úlcera anastomótica se desenvolve subsequente a ressecção gástrica ou outros procedimentos, como gastroenterostomia, que envolve a anastomose do estômago com alguma outra porção do trato gastrointestinal. Nesses casos, desenvolve-se uma úlcera perto do estoma; é quase invariavelmente no ramo eferente do intestino, não no estômago.",
+      "classification_reasoning": "A escolha é baseada na referência à cirurgia realizada para megacolon há 10 anos, o que sugere a presença de uma anomalia anatômica do cólon. Além disso, a presença de sintomas de constipação crônica e dores esporádicas ao demorar muito para ir ao banheiro também apoia essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 DA62 (Úlcera anastomótica) não é clínica e coerente com o prontuário. Embora haja referência à cirurgia realizada para megacolon há 10 anos, a descrição da doença CID-11 não se refere ao megacolon, mas sim à úlcera anastomótica pós-cirúrgica. Além disso, o prontuário descreve sintomas de constipação crônica e dores esporádicas relacionados ao megacolon, não à úlcera anastomótica.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "3B81.3": {
+      "term_original": "arritmia",
+      "capitulo": "03",
+      "confidence_embedding": 0.7478,
+      "descricao_cid": "Representação de doença CID-11: Laceração ou ruptura não traumática do baço. Definição: Doença causada por determinantes não traumáticos como doenças infecciosas, procedimentos médicos como colonoscopia, doenças hematológicas, medicações ou gravidez. Essa doença é caracterizada por laceração ou ruptura do baço, levando à perda de função. Pode se apresentar com sangramento e aumento na susceptibilidade a infecções. A confirmação é feita por métodos de imagem.",
+      "classification_reasoning": "A palavra 'arritmia' é relacionada à doença cardíaca, especificamente ao ritmo irregular do coração. Embora não seja uma doença hematológica, o contexto clínico menciona a presença de arritmia e marcapasso há 6 anos, que foi trocado por CDI há 3 anos. Portanto, a opção mais precisa para o termo 'arritmia' é Código 3B81.3: Representação de doença CID-11: Laceração ou ruptura não traumática do baço.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'arritmia' refere-se a uma condição cardíaca, especificamente ao ritmo irregular do coração. No entanto, o código CID-11 atribuído é relacionado à laceração ou ruptura não traumática do baço, o que não tem relação com a arritmia. A classificação é incoerente com o prontuário e não representa fielmente o termo 'arritmia'.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DB32.20": {
+      "term_original": "constipação crônica",
+      "capitulo": "13",
+      "confidence_embedding": 0.8266,
+      "descricao_cid": "Representação de doença CID-11: Megacólon tóxico. Definição: Megacólon tóxico é uma forma aguda de distensão do cólon, caracterizada por dilatação acentuada do cólon, acompanhada por distensão abdominal (inchaço) e, às vezes, febre, dor abdominal ou choque. \"Tóxico\" significa que esta complicação ocorre com inflamação. O megacólon tóxico é uma rara dilatação do intestino grosso com risco de vida, que evolui em poucos dias, ocorrendo como complicação de doença inflamatória intestinal, tais como colite ulcerativa e doença de Crohn, ou colite de origem infecciosa.",
+      "classification_reasoning": "A escolha do código DB32.20 é justificada pelo fato de o paciente apresentar megacolon chagásico, constipação crônica e dor espontânea quando demora muito para ir ao banheiro, o que sugere distensão do cólon e inflamação.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 DB32.20 refere-se a megacolon tóxico, que é uma forma aguda de distensão do cólon. No entanto, o prontuário descreve um paciente com constipação crônica e megacolon chagásico, o que não se ajusta ao código DB32.20. A escolha desse código parece ser puramente imaginária ou sem qualquer base no texto.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "HA03.0": {
+      "term_original": "megacolon chagásico",
+      "capitulo": "17",
+      "confidence_embedding": 0.6604,
+      "descricao_cid": "Representação de doença CID-11: Ejaculação precoce do homem. Definição: A ejaculação precoce do homem é caracterizada pela ejaculação que ocorre antes ou dentro de um período muito curto do início da penetração vaginal ou outra estimulação sexual relevante, com nenhum ou pouco controle percebido sobre a ejaculação. O padrão de ejaculação precoce ocorreu de forma episódica ou persistente por um período de pelo menos vários meses e está associado a sofrimento clinicamente significativo.",
+      "classification_reasoning": "A escolha do código HA03.0 (Ejaculação precoce do homem) se baseia na constatação de que o paciente apresenta megacolon chagásico, com constipação crônica e dor esporádica, o que pode estar relacionado à doença subjacente. Além disso, a presença de refluxo gastroesofágico (retornou no exame de regrafiguração) e o uso de medicação para tratamento da arritmia podem contribuir para os sintomas descritos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 HA03.0 (Ejaculação precoce do homem) não representa fielmente o termo 'megacolon chagásico' descrito no prontuário. A ejaculação precoce é um sintoma relacionado ao sexo masculino e não está diretamente ligada à doença de Chagas, que é uma condição crônica caracterizada por inflamação e danos nos tecidos subcutâneos e viscerais. Além disso, a presença de megacolon chagásico e constipação crônica não está relacionada à ejaculação precoce.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "prontuario_id": 229,
+  "text": "TX RENAL DC 8 ANOS,\nMTC 5, MS 1/1, FK 2/2, HCTZ 25, PPNL 80, BEZAFIBRATO 200, OMP 40, ATV 20, FLUOXETINA 20, GLICAZIDA 120, NPH 30/10/12 E R 10/10/0.\nS: DIARREIA OCASIONAL MAS SEM PERDA PONDERAL.\nMELHORA DA ASTENIA.\nO: PA 130/8,0  P 78,  AFEBRIL,  PESO 84.\nHIPOCORADA +.\nDEMAIS SP.\nTX RENAL COM CR 1,18 E NS FK 7.\nHAS COMPENSADA.\nDMP COM GL J 113.\nMELHORA DA ANEMIA.\nDISLIPIDEMIA.\n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "MTC",
+      "MS",
+      "FK",
+      "HCTZ",
+      "PPNL",
+      "OMP",
+      "ATV",
+      "NPH",
+      "S",
+      "O",
+      "PA",
+      "P",
+      "HAS",
+      "DMP",
+      "TX RENAL DC",
+      "HIPOCORADA +",
+      "DEMAIS SP",
+      "TX RENAL",
+      "CR 1 , 18",
+      "NS FK 7",
+      "GL J 113"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "MS",
+      "FK",
+      "HCTZ",
+      "PPNL",
+      "BEZAFIBRATO",
+      "OMP",
+      "ATV",
+      "FLUOXETINA",
+      "GLICAZIDA",
+      "NPH"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "MS",
+      "FK",
+      "HCTZ",
+      "PPNL",
+      "BEZAFIBRATO",
+      "OMP",
+      "ATV",
+      "FLUOXETINA",
+      "GLICAZIDA",
+      "NPH"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "1/1",
+      "2/2",
+      "25",
+      "80",
+      "200",
+      "40",
+      "20",
+      "120",
+      "130/8",
+      "78",
+      "84"
+    ],
+    "Achado": [
+      "S",
+      "COMPENSADA",
+      "TX RENAL DC",
+      "MELHORA DA ASTENIA",
+      "DEMAIS SP",
+      "MELHORA DA ANEMIA"
+    ],
+    "Negação": [
+      "SEM",
+      "AFEBRIL"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PESO"
+    ],
+    "Sinal ou Sintoma": [
+      "AFEBRIL",
+      "DIARREIA OCASIONAL",
+      "PERDA PONDERAL",
+      "HIPOCORADA +"
+    ],
+    "Doença ou Síndrome": [
+      "DISLIPIDEMIA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL DC",
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 1 , 18",
+      "NS FK 7",
+      "GL J 113"
+    ]
+  },
+  "labels": {
+    "GB60.0": {
+      "term_original": "tx renal dc",
+      "capitulo": "16",
+      "confidence_embedding": 0.786,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência renal aguda, estágio 1. Definição: Taxa de alteração da creatinina sérica: aumento 1,5-1,9 vezes o valor basal em 7 dias OU aumento de 0,3 mg/dl em 48 h OU Magnitude da produção de urina: <0,5 ml/kg/h por 6-12 horas",
+      "classification_reasoning": "A escolha é baseada no fato de o paciente ter TX RENAL DC 8 ANOS, o que indica uma lesão renal crônica. Além disso, a presença de CR 1,18 e NS FK 7 sugere que a insuficiência renal está relacionada à doença cronificada. A opção GB60.0 é mais precisa porque combina o aumento da creatinina sérica com a lesão renal crônica.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código CID-11 GB60.0 é justificada pela presença de TX RENAL DC 8 ANOS, indicando lesão renal crônica, e CR 1,18 e NS FK 7, sugerindo que a insuficiência renal está relacionada à doença cronificada. A codificação é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MF54.2": {
+      "term_original": "perda ponderal",
+      "capitulo": "21",
+      "confidence_embedding": 0.7647,
+      "descricao_cid": "Representação de doença CID-11: Hipoplasia renal. Definição: Condição caracterizada por um rim menor em tamanho e peso do que a média (menos de 11 centímetros de comprimento, 5-7,5 centímetros de largura, 2,5 centímetros de espessura e pesando menos de 120 gramas).",
+      "classification_reasoning": "A opção MF54.2, Hipoplasia renal, é a mais precisa para o termo 'perda ponderal' no contexto do prontuário, pois descreve uma condição caracterizada por um rim menor em tamanho e peso do que a média.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção MF54.2, Hipoplasia renal, não representa fielmente o termo 'perda ponderal' no prontuário. A perda ponderal é um sintoma que pode estar relacionado a várias condições clínicas, incluindo doenças renais, mas não é uma característica definida da hipoplasia renal. Além disso, o termo 'perda ponderal' não está diretamente relacionado à descrição da Hipoplasia renal no CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA01": {
+      "term_original": "hipocorada +",
+      "capitulo": "11",
+      "confidence_embedding": 0.7235,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A hipocorada + está relacionada à doença cardíaca hipertensiva (BA01), pois a hipocorada é uma manifestação de disfunção cardiovascular, e o sinal '+ ' indica que há um componente adicional de hipertensão.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hipocorada + está relacionada à doença cardíaca hipertensiva (BA01) porque a hipocorada é uma manifestação de disfunção cardiovascular, e o sinal '+' indica que há um componente adicional de hipertensão. A análise do prontuário revela que a paciente tem PA 130/80 mmHg e P 78, o que sugere hipertensão não controlada. Além disso, a presença de TX RENAL com CR 1,18 e NS FK 7 indica doença renal crônica, que é um fator de risco para doenças cardíacas hipertensivas. Portanto, a codificação CID-11 BA01 é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "DD91.2": {
+      "term_original": "diarreia ocasional",
+      "capitulo": "13",
+      "confidence_embedding": 0.7853,
+      "descricao_cid": "Representação de doença CID-11: Diarreia funcional. Definição: Diarreia funcional é uma síndrome contínua ou recorrente caracterizada pela passagem de fezes moles (pastosas) ou aquosas sem dor ou desconforto abdominal.",
+      "classification_reasoning": "A diarreia ocasional descrita no prontuário não apresenta características de síndrome congênita, obstrutiva ou úlceras, o que leva a considerar uma forma funcional de diarreia, justificando a escolha do código DA91.2",
+      "decisao": "MANTER",
+      "motivo_decisao": "A diarreia ocasional descrita no prontuário não apresenta características de síndrome congênita, obstrutiva ou úlceras, o que justifica a escolha do código DA91.2. A descrição clínica é coerente com a definição do código CID-11, que descreve uma diarreia funcional caracterizada pela passagem de fezes moles (pastosas) ou aquosas sem dor ou desconforto abdominal.",
+      "tipo_erro_auditoria": null
+    },
+    "MF82": {
+      "term_original": "dislipidemia",
+      "capitulo": "21",
+      "confidence_embedding": 0.7455,
+      "descricao_cid": "Representação de doença CID-11: Glomerulopatia por lipoproteína. Definição: Trombos de lipoproteína característicos são encontrados no glomérulo nesta doença geneticamente determinada, encontrada principalmente no Leste Asiático.",
+      "classification_reasoning": "A dislipidemia é uma doença relacionada ao excesso de lipoproteínas no sangue, o que pode estar associado a problemas nos rins. O código MF82 refere-se à Glomerulopatia por lipoproteína, que é uma doença renal caracterizada pela presença de trombos de lipoproteína no glomérulo.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dislipidemia é uma condição clínica que se refere ao excesso de lipoproteínas no sangue, o que pode estar associado a problemas nos rins. No prontuário, há um diagnóstico de TX RENAL com CR 1,18 e NS FK 7, o que sugere uma lesão renal significativa. Além disso, há um diagnóstico de DISLIPIDEMIA, o que é diretamente relacionado à doença renal descrita no prontuário. Portanto, a codificação CID-11 MF82 para Glomerulopatia por lipoproteína é válida e clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "prontuario_id": 420,
+  "text": "17:07 CLIENTE RETORNOU DO C.C POI DE ARTRODESE VIA POSTERIOR LATERAL  L4 / L5 / S1, CONSCIENTE,PUPILAS ISOCÓRICAS FOTORREAGENTES, COMUNICATIVA, EUPNEICA, REPOUSO NO LEITO, LIBERADO DIETA HIPOSSODICA,SOROTERAPIA EM MSE,ABDOMEN GLOBOSO E FLÁCIDO, CTVO APRESENTANDO POUCO QTDE EXSUDATO EXTERNAMENTE, REALIZADO REFORÇO,( ALÉRGICA A MICROPORE + ESPARADRAPO ) + DRENO DE SUCTOR COM POUCO DEBITO ASPECTO HEMÁTICO, SONDA VESICAL DE DEMORA COM VOLUME DE DIURESE COLORAÇÃO AMARELO CLARO.Enfermeira Florence Nightingale   ESPONDILOLISTESE",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "CLIENTE"
+    ],
+    "Abreviação": [
+      "POI",
+      "MSE",
+      "CTVO"
+    ],
+    "Conceito Temporal": [
+      "POI"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "L4",
+      "L5",
+      "S1",
+      "PUPILAS"
+    ],
+    "Achado": [
+      "CONSCIENTE",
+      "ISOCÓRICAS",
+      "FOTORREAGENTES",
+      "COMUNICATIVA",
+      "EUPNEICA",
+      "FLÁCIDO",
+      "REPOUSO NO LEITO",
+      "ASPECTO HEMÁTICO",
+      "DIURESE COLORAÇÃO AMARELO CLARO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SOROTERAPIA",
+      "CTVO",
+      "ARTRODESE VIA POSTERIOR LATERAL",
+      "REPOUSO NO LEITO",
+      "DIETA HIPOSSODICA",
+      "REALIZADO REFORÇO",
+      "DRENO DE SUCTOR",
+      "SONDA VESICAL DE DEMORA"
+    ],
+    "Localização ou Região Corporal": [
+      "MSE",
+      "ABDOMEN"
+    ],
+    "Sinal ou Sintoma": [
+      "GLOBOSO"
+    ],
+    "Dispositivo Médico": [
+      "CTVO",
+      "MICROPORE",
+      "ESPARADRAPO",
+      "DRENO DE SUCTOR",
+      "SONDA VESICAL DE DEMORA"
+    ],
+    "Substância Corporal": [
+      "EXSUDATO"
+    ],
+    "Conceito Espacial": [
+      "EXTERNAMENTE"
+    ],
+    "Função Patológica": [
+      "ALÉRGICA"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Doença ou Síndrome": [
+      "ESPONDILOLISTESE"
+    ],
+    "Conceito Qualitativo": [
+      "POUCO QTDE",
+      "POUCO DEBITO"
+    ]
+  },
+  "labels": {
+    "6C45.4": {
+      "term_original": "comunicativa",
+      "capitulo": "06",
+      "confidence_embedding": 0.7626,
+      "descricao_cid": "Representação de doença CID-11: Abstinência de cocaína. Definição: Abstinência de cocaína é um conjunto clinicamente significativo de sintomas, comportamentos e/ou manifestações fisiológicas, variando em grau de gravidade e duração, que ocorre quando da cessação ou redução do uso de opioides em indivíduos que tenham desenvolvido dependência de cocaína ou tenham usado cocaína por um período prolongado ou em grandes quantidades. Sintomas de apresentação da abstinência de cocaína podem incluir humor disfórico, irritabilidade, fadiga, lentificação psicomotora, sonhos vívidos desagradáveis, insônia ou hipersonia, aumento de apetite, ansiedade, agitação ou lentificação psicomotora e fissura por cocaína.",
+      "classification_reasoning": "A opção mais precisa para o termo 'comunicativa' é a abstinência de cocaína, pois embora não seja um sintoma característico da abstinência de cocaína, a paciente está consciente e comunicativa após a cirurgia, o que sugere que sua condição clínica não é relacionada à abstinência de cocaína ou outras substâncias psicoactivas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'comunicativa' não é a abstinência de cocaína, pois a paciente está consciente e comunicativa após a cirurgia, o que sugere que sua condição clínica é relacionada à cirurgia e não à abstinência de cocaína. A codificação CID-11 6C45.4 não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A64": {
+      "term_original": "isocóricas",
+      "capitulo": "08",
+      "confidence_embedding": 0.7796,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo.",
+      "classification_reasoning": "O termo 'isocóricas' se refere às pupilas, que são descritas como isocóricas fotorreagentes. Isso indica uma resposta normal da pupila à luz, o que é consistente com a definição de Crise epiléptica única devida a causas remotas (8A64) em vez de outra condição neurológica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição de 'isocóricas' se refere às pupilas, que são descritas como isocóricas fotorreagentes. Isso não é consistente com a definição de Crise epiléptica única devida a causas remotas (8A64), pois a condição descreve uma crise epiléptica, e não uma resposta normal da pupila à luz. A classificação 8A64 não representa fielmente o termo ou a condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA80.8": {
+      "term_original": "globoso",
+      "capitulo": "15",
+      "confidence_embedding": 0.7388,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a degeneração de disco intervertebral da coluna lombar sem prolapso de disco (FA80.8), pois o termo 'globoso' se refere à abdome globoso e flácido descrito no prontuário, sugerindo doença relacionada ao disco intervertebral na região lombar.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'globoso' não é diretamente relacionado à degeneração de disco intervertebral da coluna lombar. A abdome globoso e flácido descrito no prontuário pode ser uma consequência da doença, mas não é a doença em si. Portanto, o código CID-11 FA80.8 não representa fielmente o termo ou condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "FA84": {
+      "term_original": "espondilolistese",
+      "capitulo": "15",
+      "confidence_embedding": 0.7549,
+      "descricao_cid": "Representação de doença CID-11: Espondilolistese. Definição: Este é o deslizamento anterior do corpo vertebral, com a porção anterior da vértebra à frente do corpo vertebral da vértebra abaixo.",
+      "classification_reasoning": "A opção mais precisa para o termo 'espondilolistese' é FA84, pois a descrição coincide com o contexto do prontuário que menciona a articulação posterior lateral L4/L5/S1 e a deslizamento anterior do corpo vertebral.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção FA84 é justificada pelo contexto do prontuário, que menciona a articulação posterior lateral L4/L5/S1 e a deslizamento anterior do corpo vertebral. A descrição do código CID-11 coincide com a condição clínica descrita no prontuário, tornando a codificação clinicamente coerente.",
+      "tipo_erro_auditoria": null
+    },
+    "MG30.21": {
+      "term_original": "repouso no leito",
+      "capitulo": "21",
+      "confidence_embedding": 0.7446,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática.",
+      "classification_reasoning": "A opção mais precisa para o termo 'repouso no leito' dentro do contexto clínico é a dor crônica pós-operatória, pois o paciente está sendo liberado da cirurgia e está recebendo reforço, o que sugere que ele pode estar experienciando dor ou desconforto após a intervenção. A dor crônica pós-operatória é uma condição comum após procedimentos cirúrgicos e pode ser caracterizada por dor persistente ou recorrente em diferentes graus de severidade.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção MG30.21 não representa fielmente o termo 'repouso no leito'. A dor crônica pós-operatória é uma condição caracterizada por dor persistente ou recorrente após procedimentos cirúrgicos, enquanto o termo 'repouso no leito' refere-se ao estado de repouso do paciente após a intervenção. Embora o paciente esteja recebendo reforço e dieta hipossódica, não há evidência clínica suficiente para justificar a classificação como dor crônica pós-operatória.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF50.2": {
+      "term_original": "diurese coloração amarelo claro",
+      "capitulo": "21",
+      "confidence_embedding": 0.7422,
+      "descricao_cid": "Representação de doença CID-11: Incontinência urinária. Definição: Qualquer condição do sistema urinário, causada por determinantes que surgem durante o período pré-natal ou após o nascimento, levando à perda do controle voluntário ou do suporte da uretra. Essas condições são caracterizadas por vazamento involuntário de grandes quantidades de urina, em associação com contrações não inibidas do músculo detrusor e a incapacidade de controlar a micção.",
+      "classification_reasoning": "A termo 'diurese coloração amarelo claro' sugere uma produção excessiva de urina, o que é consistente com a definição de incontinência urinária (Código MF50.2). Além disso, a presença de diurese clara e amarela pode indicar uma infiltração da urina na região pélvica, o que também está relacionado à incontinência urinária.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A termo 'diurese coloração amarelo claro' não é suficientemente específico para justificar a codificação CID-11 MF50.2, que descreve incontinência urinária com perda do controle voluntário ou do suporte da uretra. A produção excessiva de urina pode ser causada por várias razões, e não há evidências clínicas suficientes para associar essa condição específica à incontinência urinária.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "4A85.21": {
+      "term_original": "alérgica",
+      "capitulo": "04",
+      "confidence_embedding": 0.7599,
+      "descricao_cid": "Representação de doença CID-11: Urticária ou angioedema induzido pelo alimento. Definição: Urticária e/ou angioedema desencadeados por ingestão ou contato direto com alérgeno da comida em paciente sensibilizado.",
+      "classification_reasoning": "Escolha pelo termo 'alérgica' no contexto do prontuário, que menciona a paciente como sendo alérgica à microfóre e esparadrapa, o que sugere uma reação alérgica ao material.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente é descrita como alérgica à microfóre e esparadrapa, o que sugere uma reação alérgica ao material. No entanto, o código CID-11 atribuído (4A85.21) refere-se a urticária ou angioedema induzido pelo alimento, o que não é diretamente relacionado à alergia à microfóre e esparadrapa. A codificação não representa fielmente o termo 'alérgica' no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8D64.10": {
+      "term_original": "aspecto hemático",
+      "capitulo": "08",
+      "confidence_embedding": 0.739,
+      "descricao_cid": "Representação de doença CID-11: Hidrocefalia devida a malformações estruturais. Definição: Aumento ventricular devido a um acúmulo de líquido cefalorraquidiano secundário à obstrução causada por uma anormalidade estrutural, como malformações de Chiari ou estenose do aqueduto.",
+      "classification_reasoning": "A presença de 'aspecto hemático' no texto sugere a possibilidade de hidrocefalia, uma condição caracterizada por aumento ventricular de líquido cefalorraquidiano. A descrição da sonda vesical e do exsudato externo também aponta para essa direção.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'aspecto hemático' no texto não está relacionada à hidrocefalia, como descrita na definição do código CID-11. O termo 'aspecto hemático' se refere ao aspecto da sonda vesical e do exsudato externo, que não é um sintoma de hidrocefalia. Portanto, a codificação CID-11 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

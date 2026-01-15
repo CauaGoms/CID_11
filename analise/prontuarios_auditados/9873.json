@@ -1,0 +1,115 @@
+{
+  "prontuario_id": 319,
+  "text": "PRIMEIRA CONSULTA\nS # REFERE EPISODIO DE OTORREIA EM OE EM FEVEREIRO, TRATOU, E AGORA APRESENTA HIPOACUSIA E OTALGIA. RELATA QUE APRESENTAVA MUITA INFECÇÃO DE OUVIDO QUANDO ERA CRIANÇA. COM SINTOMAS ALERGICOS NASAIS.\nO # OTO: OD SP; OE: MT COM PERFURAÇÃO POSTERIOR PERIFERICA AMPLA, UMIDA\nRINO: PM\nCD # SOLICITO A + I, TC DE OUVIDOS\n        PRESCREVO CILOXAN; BUDESONIDA, SFN E LORATADINA\n        ORIENTO NÃO MOLHAR OUVIDOS\n        RETORNO NA VAGA COM EXAMES\nR1 Dr Vital Brasil\n \n \n \n ",
+  "entities": {
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "OE",
+      "OD",
+      "MT"
+    ],
+    "Conceito Temporal": [
+      "FEVEREIRO",
+      "AGORA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "TRATOU",
+      "CD",
+      "PRESCREVO",
+      "ORIENTO",
+      "RETORNO"
+    ],
+    "Sinal ou Sintoma": [
+      "HIPOACUSIA",
+      "OTALGIA",
+      "INFECÇÃO DE OUVIDO",
+      "SINTOMAS ALERGICOS NASAIS",
+      "PERFURAÇÃO POSTERIOR PERIFERICA AMPLA"
+    ],
+    "Abreviação": [
+      "OTO",
+      "OE",
+      "MT",
+      "RINO",
+      "SFN",
+      "R1",
+      "Dr"
+    ],
+    "Procedimento Diagnóstico": [
+      "OTO",
+      "RINO",
+      "EXAMES",
+      "TC DE OUVIDOS"
+    ],
+    "Substância Farmacológica": [
+      "CILOXAN",
+      "BUDESONIDA",
+      "LORATADINA"
+    ],
+    "Substância Química Orgânica": [
+      "CILOXAN",
+      "BUDESONIDA",
+      "LORATADINA"
+    ],
+    "Procedimento Laboratorial": [
+      "EXAMES"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "R1"
+    ],
+    "Doença ou Síndrome": [
+      "INFECÇÃO DE OUVIDO"
+    ]
+  },
+  "labels": {
+    "AB51.2": {
+      "term_original": "perfuração posterior periferica ampla",
+      "capitulo": "10",
+      "confidence_embedding": 0.7969,
+      "descricao_cid": "Representação de doença CID-11: Perda auditiva mista condutiva e neurossensorial adquirida. Definição: Perda auditiva condutiva ocorre quando há um problema na condução de ondas sonoras em qualquer lugar ao longo da rota através de orelha externa, membrana timpânica (tímpano) ou orelha média (ossículos). Perda auditiva neurossensorial é um tipo de perda auditiva em que a causa está no nervo vestibulococlear (nervo craniano VIII), na orelha interna ou nos centros de processamento central do cérebro. Este diagnóstico refere-se a uma mistura de perda auditiva condutiva e neurossensorial.",
+      "classification_reasoning": "A escolha pelo código AB51.2 se deve ao fato de a paciente apresentar perfuração posterior periferica ampla na orelha média, o que é um sintoma característico da perda auditiva mista condutiva e neurossensorial adquirida.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'perfuração posterior periferica ampla' no prontuário se refere a uma lesão na orelha média, enquanto o código CID-11 AB51.2 descreve perda auditiva mista condutiva e neurossensorial adquirida. Embora haja uma relação entre a lesão na orelha média e a perda auditiva, a descrição do termo não é suficientemente específica para justificar a escolha do código AB51.2. A classificação precisa ser mais precisa e clínica.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "AB70.2": {
+      "term_original": "otalgia",
+      "capitulo": "10",
+      "confidence_embedding": 0.8949,
+      "descricao_cid": "Representação de doença CID-11: Otalgia. Definição: Dor em um ou em ambas orelhas.",
+      "classification_reasoning": "A opção mais precisa é a AB70.2, pois o termo 'otalgia' refere-se especificamente à dor em uma ou ambas as orelhas, que está descrita na definição da representação de doença CID-11.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção AB70.2 é válida porque o termo 'otalgia' refere-se especificamente à dor em uma ou ambas as orelhas, que está descrita na definição da representação de doença CID-11. A descrição do prontuário também confirma a presença de otalgia, com relato de dor em uma das orelhas (OE: MT COM PERFURAÇÃO POSTERIOR PERIFERICA AMPLA). Portanto, a codificação é clínica e coerente.",
+      "tipo_erro_auditoria": null
+    },
+    "AA91.2": {
+      "term_original": "infecção de ouvido",
+      "capitulo": "10",
+      "confidence_embedding": 0.8286,
+      "descricao_cid": "Representação de doença CID-11: Outra otite média crônica supurativa. Definição: Isso envolve uma perfuração (orifício) na membrana timpânica e infecção bacteriana ativa no espaço da orelha média por várias semanas ou mais. Pode haver pus suficiente para drenar para fora da orelha (otorreia), ou a purulência pode ser mínima o suficiente para ser observada apenas no exame com um microscópio binocular.",
+      "classification_reasoning": "A escolha pela otite média crônica supurativa (AA91.2) se baseia na descrição do paciente com história de infecção de ouvido quando criança e atualmente apresentando perfuração posterior periférica ampla e umida na orelha média, o que sugere uma possível otite média crônica supurativa.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código CID-11 AA91.2 é justificada pela descrição do paciente com história de infecção de ouvido quando criança e atualmente apresentando perfuração posterior periférica ampla e umida na orelha média, o que sugere uma possível otite média crônica supurativa. A codificação é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "9A04.0": {
+      "term_original": "hipoacusia",
+      "capitulo": "09",
+      "confidence_embedding": 0.7784,
+      "descricao_cid": "Representação de doença CID-11: Triquíase sem entrópio. Definição: Refere-se a cílios anormalmente posicionados que crescem para trás em direção ao olho, tocando a córnea ou conjuntiva. Pode ser causado por infecção, inflamação, condições autoimunes, defeitos congênitos, agenesia palpebral e traumatismos como queimaduras ou lesões palpebrais. Esse diagnóstico é feito na ausência da condição em que a pálpebra (usualmente a inferior) dobra para dentro. É muito desconfortável, pois os cílios constantemente se esfregam contra a córnea e a irritam.",
+      "classification_reasoning": "O termo 'hipoacusia' refere-se à perda de audição e, no contexto do prontuário, parece estar relacionado à otite externa e ao episódio anterior de otorreia, sugerindo que a escolha mais precisa é a representação de doença CID-11: Triquíase sem entrópio.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'hipoacusia' refere-se à perda de audição, enquanto o código CID-11 atribuído (9A04.0) representa triquíase sem entrópio, que é uma condição relacionada ao olho e não à audição. Embora haja um episódio anterior de otorreia, a hipótese de que a escolha mais precisa seja a representação de doença CID-11: Triquíase sem entrópio é duvidosa.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA08.01": {
+      "term_original": "sintomas alergicos nasais",
+      "capitulo": "12",
+      "confidence_embedding": 0.7798,
+      "descricao_cid": "Representação de doença CID-11: Rinite alérgica devida a outros alérgenos sazonais. Definição: Refere-se a inflamações alérgicas das vias aéreas nasais provocadas por outros alérgenos, além de pólen e ácaro da poeira doméstica, em pacientes com sensibilização múltipla ou como parte de condição complexa, como alergia a látex. Caracteriza-se, clinicamente, pelos seguintes sintomas: espirros, prurido nasal, coriza e obstrução nasal. Ocorre quando um alérgeno, como pelo de animal (partículas de pele descamada ou cabelo), inseto (partículas do corpo de baratas), ou partículas fúngicas, é inalado por indivíduo com o sistema imune sensibilizado.",
+      "classification_reasoning": "A escolha do código CA08.01 se baseia no fato de que o paciente apresenta sintomas alergicos nasais, como espirros e prurido nasal, característicos da rinite alérgica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'sintomas alergicos nasais' não é diretamente relacionado à rinite alérgica, que é uma doença específica. A descrição do código CID-11 CA08.01 refere-se a inflamações alérgicas das vias aéreas nasais provocadas por outros alégenos, enquanto o prontuário apenas menciona sintomas alergicos nasais sem especificar a causa. Portanto, a codificação não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    }
+  }
+}

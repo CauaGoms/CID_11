@@ -1,0 +1,57 @@
+{
+  "prontuario_id": 94,
+  "text": "7 po de amigdalectomia - queixa de dor - analgesia inadequada.\noro: sp, fibrina em loja amigdalina -\n\ncdta :alta - reont analgesia. Retorno se necessario.\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "po",
+      "oro",
+      "sp",
+      "cdta"
+    ],
+    "Conceito Temporal": [
+      "po"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "amigdalectomia",
+      "analgesia"
+    ],
+    "Procedimento Diagnóstico": [
+      "oro"
+    ],
+    "Achado": [
+      "sp"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "alta",
+      "Retorno"
+    ],
+    "Sinal ou Sintoma": [
+      "queixa de dor"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "loja amigdalina"
+    ]
+  },
+  "labels": {
+    "8E61.0": {
+      "term_original": "queixa de dor",
+      "capitulo": "08",
+      "confidence_embedding": 0.7046,
+      "descricao_cid": "Representação de doença CID-11: Lesão cerebral induzida por radiação. Definição: Lesão no cérebro a partir de irradiação craniana terapêutica, que pode ser dividida temporalmente em três síndromes: Toxicidade aguda ou precoce que é consequência da exposição imediata à radiação, lesão precoce-retardada e tardia, embora as três possam se sobrepor.",
+      "classification_reasoning": "A opção mais precisa para o termo 'queixa de dor' no contexto clínico é a dor neuropática (Código: 8E43.0), mas uma análise mais detalhada da queixa revela que a dor está relacionada à amigdalina, o que sugere uma lesão cerebral induzida por radiação (Código: 8E61.0).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa de dor está relacionada à amigdalina, o que sugere uma lesão cerebral induzida por radiação. No entanto, a descrição do código CID-11 (8E61.0) não se refere à dor ou lesão cerebral, mas sim à lesão cerebral induzida por radiação. Isso indica uma confusão entre o sintoma (dor) e o diagnóstico (lesão cerebral induzida por radiação). Portanto, a codificação CID-11 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "XM4RU4": {
+      "term_original": "sp",
+      "capitulo": "X",
+      "confidence_embedding": 0.7213,
+      "descricao_cid": "Representação de doença CID-11: Lidocaína para anestesia espinal. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a lidocaína para anestesia espinal, pois o termo 'sp' provavelmente se refere à anestesia espinhal e não a outro ramo do nervo facial ou outra condição clínica",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa é a lidocaína para anestesia espinal, pois o termo 'sp' provavelmente se refere à anestesia espinhal e não a outro ramo do nervo facial ou outra condição clínica. A descrição do código CID-11 também apóia essa escolha.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

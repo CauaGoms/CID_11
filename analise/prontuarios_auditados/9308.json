@@ -1,0 +1,120 @@
+{
+  "prontuario_id": 501,
+  "text": "Paciente acordado, orientado e colaborativo. Eupneico em ar ambiente. Mantendo monitorização cardíaca contínua + PANI e oximetria de pulso digital. MV + CPP livres. BCNF sem sopros. Deambulando sem auxílio. Boa aceitabilidade da ingesta oferecida. Membros livre de edemas. Diurese espontânea. Segue com cuidados de UTI. EXAME GERAL E INVESTIGAÇÃO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Achado": [
+      "acordado",
+      "orientado",
+      "colaborativo",
+      "BCNF",
+      "sopros",
+      "Deambulando",
+      "Eupneico em ar ambiente",
+      "MV +",
+      "CPP livres",
+      "Boa aceitabilidade da ingesta",
+      "Diurese espontânea"
+    ],
+    "Procedimento Diagnóstico": [
+      "PANI",
+      "monitorização cardíaca",
+      "oximetria de pulso digital"
+    ],
+    "Abreviação": [
+      "PANI",
+      "BCNF",
+      "MV +",
+      "CPP livres"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "auxílio"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UTI"
+    ],
+    "Dispositivo Médico": [
+      "oximetria de pulso digital"
+    ],
+    "Função Fisiológica": [
+      "Diurese espontânea"
+    ]
+  },
+  "labels": {
+    "6E40.2": {
+      "term_original": "orientado",
+      "capitulo": "06",
+      "confidence_embedding": 0.7599,
+      "descricao_cid": "Representação de doença CID-11: Traços de personalidade ou estilos de enfrentamento afetando transtornos ou doenças classificados em outra parte. Definição: Todos os critérios diagnósticos para fatores psicológicos ou comportamentais afetando transtornos ou doenças classificados em outra parte são preenchidos. O indivíduo apresenta traços de personalidade ou estilos de enfrentamento que não preenchem critérios diagnósticos para um transtorno mental, comportamental ou do neurodesenvolvimento, que afetam de forma adversa a manifestação, o tratamento ou curso de um transtorno ou doença classificado em outro capítulo (p.ex., negação patológica da necessidade de cirurgia em um paciente com câncer; comportamento hostil e tenso contribuindo para doença cardíaca).",
+      "classification_reasoning": "A escolha para o termo 'orientado' foi feita porque este código refere-se a traços de personalidade ou estilos de enfrentamento que afetam negativamente a manifestação, tratamento ou curso de um transtorno ou doença. No contexto do prontuário, o paciente está 'orientado e colaborativo', o que sugere que ele tem uma boa aceitabilidade da ingesta oferecida e não apresenta problemas de comunicação ou compreensão.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'orientado' no prontuário refere-se à capacidade do paciente em compreender e colaborar com o tratamento, enquanto o código CID-11 6E40.2 se refere a traços de personalidade ou estilos de enfrentamento que afetam negativamente a manifestação, tratamento ou curso de um transtorno ou doença. A escolha do código não é clínica e não está diretamente relacionada à condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB21.1": {
+      "term_original": "eupneico em ar ambiente",
+      "capitulo": "12",
+      "confidence_embedding": 0.7652,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "O termo 'eupneico em ar ambiente' sugere que o paciente está respirando normalmente e não apresenta sintomas de asma ou DPOC, o que leva a uma escolha mais específica para pneumotórax espontâneo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'eupneico em ar ambiente' não está diretamente relacionado a uma condição clínica que seja um pneumotórax espontâneo. A eupneia é uma característica normal da respiração, e não há indicação de que isso esteja relacionado ao desenvolvimento de um pneumotórax. Além disso, o termo 'eupneico em ar ambiente' sugere que o paciente está respirando normalmente e não apresenta sintomas de asma ou DPOC, o que é contrário à definição do código CID-11 CB21.1.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DA60.3": {
+      "term_original": "sopros",
+      "capitulo": "13",
+      "confidence_embedding": 0.718,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sopros' é Úlceras de estresse do estômago, pois o contexto menciona 'BCNF sem sopros', sugerindo que o paciente não apresenta ruídos intestinais ou gases na flora intestinal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CID-11 DA60.3, Úlceras de estresse do estômago, não é clinicamente coerente com o prontuário. O termo 'sopros' se refere a ruídos intestinais ou gases na flora intestinal, enquanto as úlceras de estresse do estômago são lesões agudas da mucosa gástrica. A falta de relação entre os dois conceitos justifica a remoção do código CID-11 DA60.3.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA27.2": {
+      "term_original": "deambulando",
+      "capitulo": "15",
+      "confidence_embedding": 0.6795,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A opção FA27.2 é a mais precisa para o termo 'deambulando' no contexto clínico, pois reumatismo palindrômico pode causar dor e edema nas articulações, tornando difícil ou impossível ao paciente andar ou se movimentar (deambular) sem auxílio.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'deambulando' não está relacionado ao reumatismo palindrômico, que causa dor e edema nas articulações. A opção FA27.2 é uma classificação errada pois o paciente está andando sem auxílio, o que não é característico do reumatismo palindrômico. Além disso, a falta de qualquer referência à dor ou edema nas articulações no prontuário também apoia a remoção da classificação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C48.3": {
+      "term_original": "colaborativo",
+      "capitulo": "06",
+      "confidence_embedding": 0.7413,
+      "descricao_cid": "Representação de doença CID-11: Abstinência de cafeína. Definição: Abstinência de cafeína é um conjunto clinicamente significativo de sintomas, comportamentos e/ou manifestações fisiológicas, variando em grau de gravidade e duração, que ocorre quando da cessação ou redução do uso de cafeína (tipicamente na forma de café, bebidas cafeinadas, ou como ingrediente de alguns medicamentos de venda livre) em indivíduos que tenham usado cafeína por um período prolongado ou em grandes quantidades. Sintomas de apresentação da abstinência de cafeína podem incluir dor de cabeça, fadiga acentuada ou sonolência, irritabilidade, humor deprimido ou disfórico, náusea ou vômitos e dificuldade de concentração.",
+      "classification_reasoning": "O termo 'colaborativo' remete à abstinência de cafeína, que pode causar sintomas como irritabilidade, humor deprimido ou disfórico e dificuldade de concentração, caracterizando-se por um conjunto clinicamente significativo de sintomas, comportamentos e/ou manifestações fisiológicas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A abstinência de cafeína não está relacionada ao termo 'colaborativo', que descreve um paciente orientado e colaborativo. A abstinência de cafeína é caracterizada por sintomas como irritabilidade, humor deprimido ou disfórico e dificuldade de concentração, o que não se encontra no prontuário. Portanto, a codificação CID-11 '6C48.3' não é clinicamente coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5B5K.6": {
+      "term_original": "boa aceitabilidade da ingesta",
+      "capitulo": "05",
+      "confidence_embedding": 0.7235,
+      "descricao_cid": "Representação de doença CID-11: Deficiência de cobre. Definição: Deficiência dietética é rara e tem sido observada em prematuros e bebês com baixo peso ao nascimento que são alimentados exclusivamente com leite de vaca e em indivíduos em nutrição parenteral total (NPT) prolongada sem cobre. Manifestações clínicas incluem despigmentação de pele e cabelo, distúrbios neurológicos, leucopenia, anemia microcítica e hipocrômica e anormalidades esqueléticas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'boa aceitabilidade da ingesta' é a deficiência de cobre (Código: 5B5K.6). A descriptografia indica que a paciente tem boa aceitabilidade da ingesta, sugerindo uma possibilidade de deficiência dietética ou nutricional, como a deficiência de cobre.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A deficiência de cobre (Código: 5B5K.6) não está relacionada à boa aceitabilidade da ingesta oferecida, que é um fato clínico simples e não uma doença ou condição específica. A classificação CID-11 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC62": {
+      "term_original": "mv +",
+      "capitulo": "11",
+      "confidence_embedding": 0.7344,
+      "descricao_cid": "Representação de doença CID-11: Via acessória. Definição: Conexão elétrica adicional que tipicamente desvia do nó AV, tipicamente inserindo-se diretamente no miocárdio atrial e ventricular, mas também pode se conectar ao sistema de condução especializado (p.ex., o feixe de His, feixes direito ou esquerdo, ou um dos fascículos).",
+      "classification_reasoning": "A opção BC62 se refere à Via acessória, que é uma conexão elétrica adicional que tipicamente desvia do nó AV e se conecta ao sistema de condução especializado. No contexto clínico, o termo 'MV +' sugere a presença de uma via acessória, pois a abreviatura MV está relacionada à via acessória (BC62).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BC62 se refere à Via acessória, que é uma conexão elétrica adicional. No entanto, o termo 'MV +' não está diretamente relacionado à via acessória, mas sim ao coração (MV). Portanto, a codificação CID-11 atribuída não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

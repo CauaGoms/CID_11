@@ -1,0 +1,54 @@
+{
+  "prontuario_id": 196,
+  "text": "POS-OP DE APENDICECTOMIA VLP (03/01/2016).\nAP: APENDICITE AGUDA GANGRENADA. SEROSITE AGUDA FIBRINOLEUCOCITÁRIA.\nNEGA QUEIXAS.\n\nRETORNO EM 30 DIAS.\n\nR1 LUCAS.",
+  "entities": {
+    "Abreviação": [
+      "POS-OP",
+      "AP",
+      "R1",
+      "APENDICECTOMIA VLP"
+    ],
+    "Conceito Temporal": [
+      "POS-OP",
+      "30 DIAS"
+    ],
+    "Procedimento Diagnóstico": [
+      "AP"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "RETORNO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "APENDICECTOMIA VLP"
+    ],
+    "Doença ou Síndrome": [
+      "APENDICITE AGUDA GANGRENADA",
+      "SEROSITE AGUDA FIBRINOLEUCOCITÁRIA"
+    ],
+    "Conceito Quantitativo": [
+      "30 DIAS"
+    ]
+  },
+  "labels": {
+    "1B73.2": {
+      "term_original": "serosite aguda fibrinoleucocitária",
+      "capitulo": "01",
+      "confidence_embedding": 0.756,
+      "descricao_cid": "Representação de doença CID-11: Ectima gangrenoso. Definição: O ectima gangrenoso é uma infecção da pele com potencial risco de vida em pacientes imunocomprometidos por doença ou terapia imunossupressora. É mais comumente causada por Pseudomonas aeruginosa, embora uma variedade de outros organismos possam estar implicados. É caracterizada por máculas ou placas eritematosas geralmente indolores que progridem para formação de bolhas hemorrágicas e necrose da pele. As lesões podem ser múltiplas e amplamente disseminadas, embora a área anogenital seja um local comum. As Pseudomonas podem frequentemente ser cultivadas a partir do sangue.",
+      "classification_reasoning": "A serosite aguda fibrinoleucocitária mencionada no prontuário sugere uma resposta inflamatória aguda, característica de doenças como a ectima gangrenosa (CID-11: 1B73.2), que é uma infecção da pele com potencial risco de vida em pacientes imunocomprometidos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A serosite aguda fibrinoleucocitária mencionada no prontuário não é uma doença da pele com potencial risco de vida, como descrita na definição do código CID-11 1B73.2 (ectima gangrenosa). Em vez disso, é uma condição hematológica caracterizada por uma resposta inflamatória aguda. Portanto, a codificação não é clinicamente coerente com o prontuário e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DB10.0": {
+      "term_original": "apendicite aguda gangrenada",
+      "capitulo": "13",
+      "confidence_embedding": 0.8245,
+      "descricao_cid": "Representação de doença CID-11: Apendicite aguda. Definição: Inflamação aguda e aumento do apêndice vermiforme. Foi reconhecida como uma das causas mais comuns de dor abdominal aguda grave em todo o mundo. A maioria dos casos requer tratamento médico adequado ou remoção do apêndice inflamado. Se não tratada, a mortalidade é alta, principalmente pelo risco de ruptura levando a peritonite e choque. Nesta categoria, está incluída apenas a apendicite aguda devida a infecção bacteriana comum, sendo descartada a apendicite devida a organismos específicos está excluída desta entidade e descrita em outra parte.",
+      "classification_reasoning": "A escolha do código DB10.0 é baseada na descrição de 'apendicite aguda gangrenada' no prontuário, que se encaixa perfeitamente com a definição de apendicite aguda descrita no Código CID-11 DB10.0.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código DB10.0 é justificada, pois a descrição de 'apendicite aguda gangrenada' no prontuário se encaixa perfeitamente com a definição de apendicite aguda descrita no Código CID-11 DB10.0. A presença da palavra 'gangrenada' na descrição do prontuário indica que a apendicite é grave e inflamada, o que está em consonância com a definição do código CID-11.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

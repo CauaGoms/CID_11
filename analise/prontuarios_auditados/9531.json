@@ -1,0 +1,167 @@
+{
+  "prontuario_id": 413,
+  "text": " \nTOSSE RESIDUAL\nHAS / DM/ DLP \nPOT TX RENAL CR 0,84  \nTX RENAL HÁ 1 ANO E 11 MESES\nATC POPLITEA E FEMORAIS ? FECHAMENTO FERIDA DE CALCANEO\nAMPUTAÇÃO PODODACTILOS\nUSA : MTC 5, MPS 1/1, CRESTOR 10, AAS, CVDL 12,5 X2, MONOCORDIL 20X2, CILOSTAZOL 100 X2, LST 50, LANTUS 30\nS : PERSISTE COM TOSSE PRODUTIVA MARELO CLARO. NEGA FEBRE\nO : PA 120/80  P 78   AFEBRIL\nCROSTA SECA SOBRE FERIDA DE CALCANEO - FECHADA\nDEMAIS INALTERADO",
+  "entities": {
+    "Abreviação": [
+      "HAS",
+      "DM/",
+      "DLP",
+      "MTC",
+      "MPS",
+      "AAS",
+      "CVDL",
+      "LST",
+      "PA",
+      "P",
+      "TX RENAL",
+      "CR 0 , 84",
+      "ATC POPLITEA E FEMORAIS"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DM/",
+      "DLP"
+    ],
+    "Conceito Temporal": [
+      "POT",
+      "HÁ 1 ANO E 11 MESES"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "MPS",
+      "CRESTOR",
+      "AAS",
+      "CVDL",
+      "MONOCORDIL",
+      "CILOSTAZOL"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "MPS",
+      "CRESTOR",
+      "AAS",
+      "CVDL",
+      "MONOCORDIL",
+      "CILOSTAZOL",
+      "LST",
+      "LANTUS"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "1/1",
+      "10",
+      "20X2",
+      "50",
+      "30",
+      "120/80",
+      "78",
+      "12 , 5"
+    ],
+    "Antibiótico": [
+      "MPS"
+    ],
+    "Hormônio": [
+      "LANTUS"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "LANTUS"
+    ],
+    "Negação": [
+      "NEGA",
+      "AFEBRIL"
+    ],
+    "Sinal ou Sintoma": [
+      "FEBRE",
+      "TOSSE RESIDUAL",
+      "TOSSE PRODUTIVA MARELO CLARO",
+      "CROSTA SECA"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P"
+    ],
+    "Achado": [
+      "AFEBRIL",
+      "FECHAMENTO FERIDA DE CALCANEO"
+    ],
+    "Lesão ou Envenenamento": [
+      "FERIDA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "CALCANEO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL",
+      "ATC POPLITEA E FEMORAIS",
+      "AMPUTAÇÃO PODODACTILOS"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 84"
+    ],
+    "Conceito Qualitativo": [
+      "FECHADA DEMAIS INALTERADO"
+    ]
+  },
+  "labels": {
+    "CA70.2": {
+      "term_original": "tosse residual",
+      "capitulo": "12",
+      "confidence_embedding": 0.7093,
+      "descricao_cid": "Representação de doença CID-11: Pulmão dos criadores de pássaros. Definição: Pulmão dos criadores de pássaros, também chamado de doença pulmonar dos alimentadores de pombos, é uma alveolite alérgica causada por inalação de partículas emanadas de aves, algumas vezes especificadas por espécies de ave. A apresentação pode ser aguda com calafrios, tosse, febre, falta de ar, opressão torácica usualmente com resolução dentro de 24 horas, após cessação da exposição ao antígeno, subagudas com tosse e dispneia ao longo de vários dias a semanas, enquanto formas crônicas resultam em falta de ar, tosse, perda de apetite ou perda de peso.",
+      "classification_reasoning": "A tosse produtiva e persistente, sem febre, é mais consistente com a doença pulmonar dos criadores de pássaros (CA70.2), do que com outras opções, como fibrose cística (CA25) ou insuficiência respiratória crônica (CB41.1). A laringite ou laringotraqueíte crônica (CA0G) e a traqueíte aguda (CA05.1) são menos prováveis, pois não há descrição de dor ou disfonia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A tosse residual descrita no prontuário não se encaixa com a doença pulmonar dos criadores de pássaros (CA70.2), que é uma alveolite alérgica aguda ou subaguda, e não tem relação com uma condição crônica como tosse residual. Além disso, o prontuário não apresenta sintomas como calafrios, febre, falta de ar ou opressão torácica, que são características da doença pulmonar dos criadores de pássaros.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "3A71.2": {
+      "term_original": "has / dm/ dlp",
+      "capitulo": "03",
+      "confidence_embedding": 0.7611,
+      "descricao_cid": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "A opção mais precisa é a Anemia na doença renal crônica (Código CID-11: 3A71.2), pois o paciente tem uma história de doença renal crônica há um ano e onze meses, e apresenta tonteza clara referenciando à anemia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa não é a Anemia na doença renal crônica (Código CID-11: 3A71.2), pois o termo 'HAS / DM/ DLP' não se refere à anemia, mas sim a hematuria, disminuição da produção de urina e lesão do rim. A presença de tonteza clara pode ser um sintoma de anemia, mas não há evidência direta no prontuário que justifique essa classificação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD71.2": {
+      "term_original": "pot tx renal cr 0,84",
+      "capitulo": "11",
+      "confidence_embedding": 0.7438,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A opção mais precisa é a BD71.2, Trombose da veia renal, pois o termo 'pot tx renal cr 0,84' sugere que há uma doença renal crônica e tratamento com potássio (tx renal). Além disso, a descrição da condição de saúde do paciente menciona a presença de ferida no calcanio, o que pode estar relacionado à trombose venosa na veia renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BD71.2, Trombose da veia renal, não é adequada porque o termo 'pot tx renal cr 0,84' refere-se ao tratamento com potássio para doença renal crônica e não à trombose venosa na veia renal. A descrição do prontuário não apresenta evidências de trombose renal e a opção escolhida é uma abstração muito grande da condição real do paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA02": {
+      "term_original": "tx renal há 1 ano e 11 meses",
+      "capitulo": "11",
+      "confidence_embedding": 0.7923,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A opção BA02 'Doença renal hipertensiva' é a mais precisa para o termo 'tx renal há 1 ano e 11 meses', pois refere-se ao tratamento renal (tx) com duração específica, sugerindo que a doença renal está relacionada à hipertensão.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BA02 'Doença renal hipertensiva' não representa fielmente o termo 'tx renal há 1 ano e 11 meses', pois refere-se a uma condição médica específica (doença renal hipertensiva) enquanto o termo menciona um tratamento renal com duração específica. A relação entre a doença renal hipertensiva e o tratamento renal não está claramente estabelecida no prontuário, portanto, é necessário remover essa classificação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB54.3": {
+      "term_original": "amputação pododactilos",
+      "capitulo": "15",
+      "confidence_embedding": 0.7587,
+      "descricao_cid": "Representação de doença CID-11: Esporão calcâneo. Definição: Este é um transtorno em que ocorre uma exostose no calcâneo (o osso do calcanhar)",
+      "classification_reasoning": "A amputação pododactilosa descrita no prontuário aponta para uma lesão no calcâneo, o que é característico da esporão calcâneo ( FB54.3 )",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A amputação pododactilosa descrita no prontuário refere-se à perda de dedos, não à exostose no calcâneo. O código CID-11 FB54.3 representa uma condição caracterizada por exostose no calcâneo, portanto, há uma contradição entre o termo e a descrição do código. A amputação pododactilosa não é um tipo de esporão calcâneo.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NC71.2": {
+      "term_original": "crosta seca sobre ferida de calcaneo - fechada",
+      "capitulo": "22",
+      "confidence_embedding": 0.7085,
+      "descricao_cid": "Representação de doença CID-11: Ferimento perfurante sem corpo estranho do quadril ou coxa. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NC71.2, pois o termo 'Ferida de calcaneo' se refere a uma lesão na região do pé, especificamente no calcâneo, que é um osso situado atrás e abaixo da sola do pé. A descrição da opção NC71.2 se ajusta melhor ao contexto clínico apresentado.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção NC71.2 refere-se a ferimento perfurante sem corpo estranho do quadril ou coxa, enquanto o termo 'Ferida de calcaneo' se refere a uma lesão na região do pé. A descrição da opção não se ajusta ao contexto clínico apresentado, pois o prontuário descreve uma ferida no calcâneo, que é um osso situado atrás e abaixo da sola do pé, e não relacionada ao quadril ou coxa.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    }
+  }
+}

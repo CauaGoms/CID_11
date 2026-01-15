@@ -1,0 +1,119 @@
+{
+  "prontuario_id": 945,
+  "text": "                PACIENTE COM HISTÓRIA DE DOR PRECORDIAL EM APERTO COM IRRADIAÇÃO PARA MEMBROS SUPERIORES, ACOMPANHADA DE PARESTESIAS E TONTURAS. RECEBEU DICLOFENACO INTRAMUSCULAR. QUADRO CLÍNICO INICIADO DIA 07-08-06. PROCURA ATENDIMENTO HOSPITALAR EM SAPUCAIA DO SUL DIA 08-08-06 PELAS MESMAS QUEIXAS: ECG SEM ALTERAÇÕES, CK 3429 E CK-MB 62. É TRANSFERIDO PARA PARA O CTI DO XXXX. NA CHEGADA, ECG E RX SEM ALTERAÇÕES, CK 1671 E TROPONINA MENOR QUE 0,01. EVOLUI COM RESOLUÇÃO DA DOR (ALTERAÇÕES DE MARCADORES DE INJÚRIA CARDIACA PROVAVELMENTE SECUNDÁRIA A INJEÇÕES IM DE AINE).  RECEBE ALTA EM ÓTIMAS CONDIÇÕES CLÍNICAS E COM PLANO DE MANTER ACOMPANHAMENTO EM POSTO DE SAÚDE POR DOR TORÁCICA NÃO CARDIOGÊNICA.",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "IRRADIAÇÃO",
+      "TONTURAS",
+      "QUEIXAS",
+      "ALTERAÇÕES",
+      "DOR",
+      "DOR PRECORDIAL",
+      "QUADRO CLÍNICO",
+      "DOR TORÁCICA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "RECEBEU",
+      "TRANSFERIDO",
+      "ALTA",
+      "ATENDIMENTO HOSPITALAR",
+      "PLANO DE MANTER ACOMPANHAMENTO"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECG",
+      "RX"
+    ],
+    "Abreviação": [
+      "ECG",
+      "CTI",
+      "RX"
+    ],
+    "Negação": [
+      "SEM",
+      "NÃO"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CTI",
+      "ATENDIMENTO HOSPITALAR",
+      "POSTO DE SAÚDE"
+    ],
+    "Conceito Temporal": [
+      "EVOLUI"
+    ],
+    "Substância Farmacológica": [
+      "AINE",
+      "DICLOFENACO INTRAMUSCULAR"
+    ],
+    "Conceito Qualitativo": [
+      "EM APERTO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MEMBROS SUPERIORES"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "DICLOFENACO INTRAMUSCULAR"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CK 3429",
+      "CK-MB 62",
+      "CK 1671",
+      "TROPONINA MENOR QUE 0 , 01",
+      "ALTERAÇÕES DE MARCADORES DE INJÚRIA CARDIACA"
+    ],
+    "Achado": [
+      "ÓTIMAS CONDIÇÕES CLÍNICAS"
+    ]
+  },
+  "labels": {
+    "MG30.2": {
+      "term_original": "irradiação",
+      "capitulo": "21",
+      "confidence_embedding": 0.7825,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A dor precordial com irradiação para membros superiores, acompanhada de parestesias e tonturas, é consistente com a dor crônica pós-operatória ou pós-traumática, descrita na definição do código MG30.2.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor precordial com irradiação para membros superiores, acompanhada de parestesias e tonturas, não é uma dor crônica pós-operatória ou pós-traumática. A definição do código MG30.2 refere-se a dor persistente após cirurgia ou lesão tecidual, enquanto o prontuário descreve um quadro clínico agudo com sintomas como dor precordial, parestesias e tonturas. Além disso, a evolução do paciente para uma resolução da dor sem alterações nos marcadores de injúria cardíaca sugere que o quadro não é relacionado à lesão tecidual ou cirurgia.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MB23.H": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7524,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A descrição do termo 'queixas' se refere às queixas apresentadas pelo paciente, incluindo dor precordial em aperto com irradiação para membros superiores, parestesias e tonturas. A opção mais precisa é MB23.H, Crise de pânico, pois a descrição da crise de pânico inclui sintomas como dor no peito, palpitações, sensação de falta de ar e parestesias, que coincidem com as queixas do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'queixas' se refere às queixas apresentadas pelo paciente, incluindo dor precordial em aperto com irradiação para membros superiores, parestesias e tonturas. Embora a crise de pânico possa incluir sintomas como dor no peito e parestesias, a descrição do prontuário não apresenta evidências suficientes de uma crise de pânico. A opção mais precisa é remover o código CID-11 MB23.H pois não há uma relação clínica direta entre as queixas do paciente e a definição da crise de pânico.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "FB32.20": {
+      "term_original": "dor",
+      "capitulo": "15",
+      "confidence_embedding": 0.7297,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A dor pré-cardial com irradição para membros superiores e parestesias e tonturas sugere um quadro de rabdomiólise idiopática, o que justifica a escolha do código FB32.20.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor pré-cardial com irradição para membros superiores e parestesias e tonturas não é uma lesão muscular, como descrita no código FB32.20. A rabdomiólise idiopática é caracterizada por dor musculoesquelética, mioglobinúria e insuficiência renal devida à necrose tubular aguda. Nesse caso, a dor pré-cardial não está relacionada à lesão muscular, mas sim pode ser um sintoma de uma doença cardíaca ou outra condição clínica. A escolha do código FB32.20 é inapropriada e não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BC63.9": {
+      "term_original": "dor torácica",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A dor torácica não cardíaca é sugerida pela evolução do quadro clínico, com resolução da dor e alterações nos marcadores de injúria cardíaca provavelmente secundárias às injeções intramusculares. A falta de alterações no ECG e CK-MB também sugere que a dor não está relacionada a um problema cardíaco.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor torácica descrita no prontuário é uma queixa do paciente, enquanto o código CID-11 BC63.9 refere-se a uma condição clínica específica de dor não cardíaca. Embora haja menção à resolução da dor e ausência de alterações cardíacas, a codificação não está clinicamente coerente com o prontuário, pois não há evidências suficientes para justificar a atribuição desse código.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC63.40": {
+      "term_original": "dor precordial",
+      "capitulo": "11",
+      "confidence_embedding": 0.8112,
+      "descricao_cid": "Representação de doença CID-11: Bloqueio do fascículo anterior esquerdo. Definição: Transtorno do sistema de condução atrioventricular caracterizado por desvio do eixo para a esquerda para a idade (eixo do plano frontal entre -45 ° e -90 °), padrão qR na derivação aVL, tempo de pico R na derivação aVL de 45 ms ou mais e duração do QRS que não atende aos critérios dependentes da idade para bloqueio completo de ramo (menos de 120 ms em adultos, menos de 100 ms em crianças de 4 a 16 anos de idade e menos de 90 ms em crianças com menos de 4 anos de idade)",
+      "classification_reasoning": "A dor precordial com irradiação para membros superiores, acompanhada de parestesias e tonturas sugere uma lesão no miocárdio que está causando dor torácica. O código BC63.40 se refere a um bloqueio do fascículo anterior esquerdo, o que é compatível com a história clínica do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor precordial com irradiação para membros superiors, acompanhada de parestesias e tonturas não se refere a um bloqueio do fascículo anterior esquerdo. A história clínica sugere uma lesão no miocárdio que está causando dor torácica, mas o código BC63.40 se refere a um bloqueio específico do sistema de condução atrioventricular. Portanto, não há correspondência clínica entre o termo 'dor precordial' e o código CID-11 atribuído.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

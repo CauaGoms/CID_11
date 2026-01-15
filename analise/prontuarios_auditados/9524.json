@@ -1,0 +1,187 @@
+{
+  "prontuario_id": 660,
+  "text": "TX RENAL DC  2 MESES\nSENSIBILIZADA\nMTC 5, FK 3 / 3, MS 2 / 1, BO, AAS, CVD 25 X2, ANLO 5 X2, FLUOXETINA 20\nS : SEM QUEIXAS\nO : PA 120/90  P 68  AFEBRIL  PESO 65\nHIPOCORADA ++\nCPP LIVRES\nPC RITMO REGULAR\nABD RHA+, FLÁCIDO, GLOBOS, ENXERTO SP\nMMII SEM EDEMA\nTX RENAL COM CR 1,2 E NS FK 11\nHAS\nANEMIA\nSENSIBILIZADA\n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "DC",
+      "MTC",
+      "FK",
+      "MS",
+      "AAS",
+      "CVD",
+      "X2",
+      "ANLO",
+      "S",
+      "O",
+      "PA",
+      "P",
+      "CPP",
+      "PC",
+      "ABD",
+      "RHA+",
+      "MMII",
+      "HAS",
+      "TX RENAL",
+      "CR 1 , 2"
+    ],
+    "Conceito Quantitativo": [
+      "2",
+      "5",
+      "20",
+      "120/90",
+      "68",
+      "65",
+      "++",
+      "11",
+      "3 / 3",
+      "2 / 1"
+    ],
+    "Conceito Temporal": [
+      "MESES"
+    ],
+    "Achado": [
+      "SENSIBILIZADA",
+      "LIVRES",
+      "RHA+",
+      "FLÁCIDO",
+      "RITMO REGULAR"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "FK",
+      "MS",
+      "AAS",
+      "CVD",
+      "FLUOXETINA"
+    ],
+    "Hormônio": [
+      "MTC"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "FK",
+      "MS",
+      "BO",
+      "AAS",
+      "CVD",
+      "ANLO",
+      "FLUOXETINA"
+    ],
+    "Negação": [
+      "SEM",
+      "AFEBRIL"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "AFEBRIL",
+      "HIPOCORADA",
+      "GLOBOS",
+      "EDEMA"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PESO",
+      "CPP",
+      "PC"
+    ],
+    "Localização ou Região Corporal": [
+      "CPP",
+      "ABD",
+      "MMII"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ENXERTO",
+      "TX RENAL"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "ANEMIA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 1 , 2"
+    ]
+  },
+  "labels": {
+    "8D64.04": {
+      "term_original": "ritmo regular",
+      "capitulo": "08",
+      "confidence_embedding": 0.7141,
+      "descricao_cid": "Representação de doença CID-11: Hidrocefalia de pressão normal. Definição: Síndrome clínica que compreende principalmente transtornos da marcha, demência e incontinência urinária, e associada à dilatação do sistema ventricular do cérebro. Na maioria das vezes, demonstra pressão normal do líquido cefalorraquidiano (LCR) na punção lombar.",
+      "classification_reasoning": "A descrição do termo 'ritmo regular' se refere à normalidade do ritmo cardíaco, característica comum em pacientes com hidrocefalia de pressão normal (Código CID-11 8D64.04), fazendo essa opção a mais precisa para o contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'ritmo regular' se refere à normalidade do ritmo cardíaco, o que é consistente com a condição clínica descrita no prontuário. A codificação CID-11 8D64.04 para hidrocefalia de pressão normal também é compatível com essa descrição. Portanto, a opção é válida e não há motivos para remoção.",
+      "tipo_erro_auditoria": null
+    },
+    "FA27.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7382,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A opção mais precisa para o termo \"edema\" no contexto clínico é a reumatismo palindrômico, pois esse termo está presente na descrição da doença e se refere ao edema nas articulações.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário refere-se ao edema como um sintoma da doença renal, não como uma manifestação do reumatismo palindrômico. Portanto, a codificação CID-11 FA27.2 não é clínamicamente coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB32.20": {
+      "term_original": "globos",
+      "capitulo": "15",
+      "confidence_embedding": 0.7608,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A opção mais precisa para o termo 'globos' é a Rabdomiólise idiopática (FB32.20), pois os globos referem-se à lesão muscular, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FB32.20 não é adequada pois 'globos' refere-se à anatomia renal, específicamente ao enxerto renal descrito no prontuário (ABD RHA+, FLÁCIDO, GLOBOS, ENXERTO SP). A Rabdomiólise idiopática (FB32.20) não está relacionada a essa anatomia renal e não há evidência de lesão muscular ou mioglobinúria no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA01": {
+      "term_original": "hipocorada",
+      "capitulo": "11",
+      "confidence_embedding": 0.7613,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A hipocorada é uma indicação de doença cardíaca, e o código BA01 se refere a Doença cardíaca hipertensiva, que inclui hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hipocorada é uma indicação de doença cardíaca, e o código BA01 se refere a Doença cardíaca hipertensiva. A descrição do prontuário apresenta sintomas de doença cardíaca (hipocorada), que são consistentes com a definição da CID-11. Portanto, é válido manter o código CID-11 BA01.",
+      "tipo_erro_auditoria": null
+    },
+    "MG02": {
+      "term_original": "has",
+      "capitulo": "21",
+      "confidence_embedding": 0.7759,
+      "descricao_cid": "Representação de doença CID-11: Resultados de estudos de função renal. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'has' é a representação de resultados de estudos de função renal, pois no contexto do prontuário há referência à função renal (TX RENAL DC 2 MESES) e ao resultado de uma análise (MTC 5, FK 3 / 3, MS 2 / 1). Além disso, a presença da palavra 'has' sugere que se está referindo ao resultado de uma análise ou exame médico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção CID-11 MG02 'Representação de doença: Resultados de estudos de função renal' é clínica e coerente com o prontuário, pois há referência à função renal (TX RENAL DC 2 MESES) e ao resultado de uma análise (MTC 5, FK 3 / 3, MS 2 / 1). A presença da palavra 'has' sugere que se está referindo ao resultado de uma análise ou exame médico. Portanto, a codificação CID-11 MG02 é válida e representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "9A78.2Y": {
+      "term_original": "rha+",
+      "capitulo": "09",
+      "confidence_embedding": 0.7192,
+      "descricao_cid": "Representação de doença CID-11: Outro edema corneano especificado. Definição: ",
+      "classification_reasoning": "Como o termo extraído 'rha+' está relacionado ao diagnóstico de doença renal, a opção mais precisa é o edema corneano especificado (Código: 9A78.2Y), pois isso é um sintoma comum em pacientes com doenças renais.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'rha+' não é um diagnóstico de doença renal, mas sim uma característica anatômica da retina. Portanto, a codificação CID-11 9A78.2Y não representa fielmente o termo descrito no prontuário. A correção certa seria buscar um código que represente a característica anatômica da retina.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "4A85.21": {
+      "term_original": "sensibilizada",
+      "capitulo": "04",
+      "confidence_embedding": 0.7493,
+      "descricao_cid": "Representação de doença CID-11: Urticária ou angioedema induzido pelo alimento. Definição: Urticária e/ou angioedema desencadeados por ingestão ou contato direto com alérgeno da comida em paciente sensibilizado.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sensibilizada' é a urticária ou angioedema induzido pelo alimento, pois o paciente está com insuficiência renal DC 2 meses e há menção à sensibilidade em relação ao TX Renal. Além disso, há menção à FLUOXETINA, o que pode estar relacionado à sensibilização do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'sensibilizada' não é a urticária ou angioedema induzido pelo alimento. A sensibilidade mencionada no prontuário está relacionada à insuficiência renal DC 2 meses e ao TX Renal, e não há evidências de alergia alimentar ou contato direto com alérgeno. Além disso, a menção à FLUOXETINA pode estar relacionada à sensibilização do paciente, mas isso não justifica a escolha desse código CID.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "3A71.2": {
+      "term_original": "anemia",
+      "capitulo": "03",
+      "confidence_embedding": 0.8269,
+      "descricao_cid": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "A anemia descrita no contexto clínico está relacionada à doença renal crônica, o que é compatível com a definição do código 3A71.2. Além disso, o termo 'anemia' está associado ao tratamento com TX RENAL DC e NS FK 11, o que sugere uma anemia relacionada à doença renal.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A anemia descrita no prontuário está relacionada à doença renal crônica, o que é compatível com a definição do código 3A71.2. A presença de TX RENAL DC e NS FK 11 também sugere uma anemia relacionada à doença renal. Portanto, a codificação CID-11 para 'anemia' é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

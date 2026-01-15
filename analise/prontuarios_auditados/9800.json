@@ -1,0 +1,187 @@
+{
+  "prontuario_id": 447,
+  "text": "07:40H Ramsay 6, pupilas isomióticas. Curativo cefálico tipo capacete de crepe limpo e seco, PIC com média de 22 com DVE fechada. SNG aberta com discreto débito biliosa, SNE com infusão de dieta. Em ventilação mecânica modo PCV, Peep 3, PI 16cmH2O, FiO2 30%. Entubado, rima labial de TOT em 23cm, uso contínuo de filtro de barreira e sistema fechado de aspiração. Acesso central em subclavia D com curativo oclusivo infundindo noradrenalina 10ml/h + sedação 40ml/h. CPP com roncos difusos. Abdomem flácido, RHA+. PAM em inguinal D permeável. SVD com diurese efetiva, pele íntegra em região sacra. Extremidades aquecidase bem perfundidas, sem edemas.  Monitorizado contínuamente com parâmetros de PA invasiva, cardioscopia e oximetria de pulso. Segue sob cuidados intensivos e precaução de contato profilático. Enfermeira Florence Nightingale . DISPARO DE OUTRA ARMA DE FOGO E DE ARMA DE FOGO NAO ESPECIFICADA INTENCAO NAO DETERMINADA AREAS INDUSTRIAIS E EM CONSTRUCAO.",
+  "entities": {
+    "Dispositivo Médico": [
+      "crepe",
+      "SNE",
+      "TOT",
+      "SVD",
+      "SNG aberta",
+      "filtro de barreira",
+      "Acesso central",
+      "curativo oclusivo"
+    ],
+    "Abreviação": [
+      "PIC",
+      "SNE",
+      "Peep",
+      "PI",
+      "FiO2",
+      "TOT",
+      "CPP",
+      "RHA+",
+      "PAM",
+      "SVD",
+      "DVE fechada",
+      "SNG aberta",
+      "subclavia D",
+      "inguinal D"
+    ],
+    "Atributo Clínico": [
+      "PIC",
+      "Peep",
+      "FiO2"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SNE",
+      "PCV",
+      "Entubado",
+      "TOT",
+      "sedação",
+      "SVD",
+      "DVE fechada",
+      "SNG aberta",
+      "ventilação mecânica",
+      "filtro de barreira",
+      "sistema fechado de aspiração",
+      "Acesso central",
+      "curativo oclusivo",
+      "precaução de contato profilático"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "infusão",
+      "infundindo",
+      "Monitorizado contínuamente",
+      "cuidados intensivos"
+    ],
+    "Conceito Quantitativo": [
+      "3",
+      "16cmH2O",
+      "30%",
+      "23cm",
+      "10ml/h",
+      "40ml/h"
+    ],
+    "Conceito Temporal": [
+      "contínuo"
+    ],
+    "Substância Farmacológica": [
+      "noradrenalina"
+    ],
+    "Substância Química Orgânica": [
+      "noradrenalina"
+    ],
+    "Hormônio": [
+      "noradrenalina"
+    ],
+    "Localização ou Região Corporal": [
+      "CPP",
+      "Extremidades",
+      "rima labial",
+      "inguinal D",
+      "região sacra"
+    ],
+    "Achado": [
+      "flácido",
+      "RHA+",
+      "aquecidase",
+      "pupilas isomióticas",
+      "diurese efetiva",
+      "bem perfundidas"
+    ],
+    "Procedimento Diagnóstico": [
+      "PAM",
+      "cardioscopia",
+      "PA invasiva",
+      "oximetria de pulso"
+    ],
+    "Conceito Qualitativo": [
+      "permeável"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "edemas",
+      "Ramsay 6",
+      "débito biliosa",
+      "roncos difusos"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "média de 22"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "subclavia D",
+      "pele íntegra"
+    ],
+    "Objeto Manufaturado": [
+      "ARMA DE FOGO"
+    ]
+  },
+  "labels": {
+    "CA23.00": {
+      "term_original": "flácido",
+      "capitulo": "12",
+      "confidence_embedding": 0.7905,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide.",
+      "classification_reasoning": "A opção mais precisa é a asma alérgica com exacerbação (CA23.00), pois o termo 'flácido' se refere à característica da abdominal flácida, que é um sintoma comum em pacientes com asma aguda.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'flácido' não está diretamente relacionado à asma alérgica com exacerbação. A abdominal flácida pode ser um sintoma de várias condições, incluindo doenças gastrointestinais ou neurológicas. Portanto, a classificação CA23.00 não é precisa e não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "8C84": {
+      "term_original": "roncos difusos",
+      "capitulo": "08",
+      "confidence_embedding": 0.7262,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise secundária. Definição: Rabdomiólise secundária ocorre quando o efeito primário de um fator etiológico resulta em um estado funcional ou bioquímico que conduz ao desenvolvimento de alterações isquêmicas, degenerativas, necróticas ou desestabilizadoras da membrana no músculo, produzindo as manifestações clínicas e bioquímicas de rabdomiólise. Mais frequentemente, a rabdomiólise é secundária a um desequilíbrio metabólico, muitas vezes de natureza genética, como resultado de movimento anormalmente excessivo, tensão isométrica excessiva por tentativa de movimento contra resistência, ou coma levando a aumento de pressão, isquemia, hipóxia e necrose intramusculares. A rabdomiólise secundária também pode ser causada por uma mutação em vários genes (RYR1, LPIN).",
+      "classification_reasoning": "A opção mais precisa para o termo 'roncos difusos' é a rabdomiólise secundária (8C84), pois esta condição pode apresentar sintomas como roncos difusos e outros problemas respiratórios.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção 8C84 (Rabdomiólise secundária) é justificada pela presença de roncos difusos no prontuário, que podem ser um sintoma da condição. Ajustamente, a descrição do código CID-11 se encaixa com a situação clínica descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "9B02.0": {
+      "term_original": "pupilas isomióticas",
+      "capitulo": "09",
+      "confidence_embedding": 0.7971,
+      "descricao_cid": "Representação de doença CID-11: Pupila de Argyll Robertson. Definição: São pupilas pequenas bilaterais que se contraem quando o paciente focaliza um objeto próximo, mas não se contraem quando exposto à luz forte (elas não “reagem” à luz).",
+      "classification_reasoning": "A escolha do código 9B02.0 é baseada na descrição de pupilas isomióticas, o que indica que as pupilas não reagem à luz, característica clínica da Pupila de Argyll Robertson.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição de pupilas isomióticas no prontuário é consistente com a definição da Pupila de Argyll Robertson, que apresenta pupilas pequenas bilaterais que não reagem à luz. A escolha do código 9B02.0 é justificada e clínica mente coerente com o termo descrito no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "FB50.2": {
+      "term_original": "edemas",
+      "capitulo": "15",
+      "confidence_embedding": 0.7538,
+      "descricao_cid": "Representação de doença CID-11: Cisto sinovial do espaço poplíteo. Definição: Este é o edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho",
+      "classification_reasoning": "A opção mais precisa para o termo 'edemas' é a Cisto sinovial do espaço poplíteo, pois o texto menciona extremidades aquecidase bem perfundidas, sem edemas, o que sugere que apenas uma área específica tem edema, e não há indicações de outros tipos de lesão muscular ou renal. Além disso, a descrição da opção FB50.2 se refere ao edema benigno da bursa ou bolsa sinovial, localizado na região posterior do joelho, o que coincide com a falta de edemas em outras extremidades mencionadas no texto.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FB50.2 se refere ao edema benigno da bursa ou bolsa sinovial, localizado na região posterior do joelho. No entanto, o prontuário não menciona a presença de edema em qualquer área específica do corpo, apenas afirma que as extremidades estão 'aquecidase bem perfundidas, sem edemas'. Isso sugere que o termo 'edemas' não está relacionado à condição descrita na opção FB50.2.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "CB21.1": {
+      "term_original": "débito biliosa",
+      "capitulo": "12",
+      "confidence_embedding": 0.7546,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A descrição do débito biliosa sugere a presença de uma lesão ou doença no pulmão que está causando a saída de líquido na área alveolar, caracterizando um pneumotórax espontâneo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do débito biliosa sugere a presença de uma lesão ou doença no pulmão que está causando a saída de líquido na área alveolar, caracterizando um pneumotórax espontâneo. No entanto, o código CID-11 atribuído (CB21.1) refere-se a outro pneumotórax espontâneo e não ao débito biliosa. Isso sugere que houve uma classificação incorreta.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD81.3": {
+      "term_original": "ramsay 6",
+      "capitulo": "21",
+      "confidence_embedding": 0.7501,
+      "descricao_cid": "Representação de doença CID-11: Abdome agudo. Definição: Síndrome clínica com dor abdominal aguda, que é intensa e de início rápido. O abdome agudo pode ser causado por uma variedade de transtornos, lesões ou doenças.",
+      "classification_reasoning": "A presença de 'Ramsay 6' no prontuário sugere que o paciente está com um abdome agudo, caracterizado por dor abdominal intensa e de início rápido. Isso é consistente com a definição do código MD81.3: Abdome agudo.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de 'Ramsay 6' no prontuário sugere que o paciente está com um abdome agudo, caracterizado por dor abdominal intensa e de início rápido. Isso é consistente com a definição do código MD81.3: Abdome agudo. A classificação é clínica e coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

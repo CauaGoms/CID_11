@@ -1,0 +1,131 @@
+{
+  "prontuario_id": 143,
+  "text": "PACIENTE COM FIBRILAÇÃO ATRIAL, ICC FE 40%, DUPLA LESÃO AÓRTICA COM PREDOMÍNIO DE ESTENOSE (GDTE MAX 73), SINTOMÁTICA, C/ INDICAÇÃO CIRÚRGICA. INSUFICIÊNCIA MITRAL LEVE / MOD. CAT COM CORONÁRIAS NORMAIS. PACIENTE PROCURA EMERGÊNCIA COM QUADRO DE TROMBOSE VENOSA PROFUNDA EM MEMBRO INFERIOR DIREITO, ATÉ ILÍACAS. DISCUTIDO EM EQUIPE, OPTADO POR ANTICOAGULAÇÃO ORAL A MÉDIO PRAZO, PARA REDUZIR ELEVADO RISCO CIRÚRGICO NO MOMENTO. SE DESCOMPENSAÇÃO REFRATÁRIA A TRATAMENTO CLÍNICO, CONSIDERAR IMPLANTE DE FILTRO DE VEIA CAVA VIA FEM ESQUERDA E TROCA VALVULA. SE BOA EVOLUÇÃO, CIRURGIA ELETIVA APÓS PERÍODO DE MAIOR RISCO. RECEBE ALTA EM USO DAS MEDICAÇÕES ABAIXO RELACIONADAS E RETORNO AMBULATORIAL PARA SEGUIMENTO.",
+  "entities": {
+    "Abreviação": [
+      "ICC",
+      "CAT",
+      "FE 40%",
+      "INSUFICIÊNCIA MITRAL LEVE / MOD",
+      "FEM ESQUERDA"
+    ],
+    "Doença ou Síndrome": [
+      "ICC",
+      "FIBRILAÇÃO ATRIAL",
+      "INSUFICIÊNCIA MITRAL LEVE / MOD",
+      "TROMBOSE VENOSA PROFUNDA",
+      "DESCOMPENSAÇÃO REFRATÁRIA"
+    ],
+    "Sinal ou Sintoma": [
+      "SINTOMÁTICA",
+      "QUADRO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CAT",
+      "REDUZIR",
+      "MEDICAÇÕES",
+      "INDICAÇÃO CIRÚRGICA",
+      "ANTICOAGULAÇÃO ORAL",
+      "TRATAMENTO CLÍNICO",
+      "IMPLANTE DE FILTRO DE VEIA CAVA",
+      "TROCA VALVULA",
+      "CIRURGIA ELETIVA"
+    ],
+    "Procedimento Diagnóstico": [
+      "CAT"
+    ],
+    "Organização Relacionada à Saúde": [
+      "EMERGÊNCIA",
+      "EQUIPE"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ILÍACAS",
+      "MEMBRO INFERIOR DIREITO",
+      "FEM ESQUERDA"
+    ],
+    "Conceito Temporal": [
+      "APÓS",
+      "MÉDIO PRAZO",
+      "NO MOMENTO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ALTA",
+      "SEGUIMENTO",
+      "RETORNO AMBULATORIAL"
+    ],
+    "Substância Farmacológica": [
+      "MEDICAÇÕES"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "FE 40%",
+      "DUPLA LESÃO AÓRTICA COM PREDOMÍNIO DE ESTENOSE",
+      "GDTE MAX 73",
+      "CORONÁRIAS NORMAIS"
+    ],
+    "Achado": [
+      "BOA BOA EVOLUÇÃO EVOLUÇÃO"
+    ]
+  },
+  "labels": {
+    "BC81.30": {
+      "term_original": "fibrilação atrial",
+      "capitulo": "11",
+      "confidence_embedding": 0.838,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A escolha pela opção BC81.30 se baseia na descrição de fibrilação atrial recorrente no paciente, o que é compatível com a definição de fibrilação atrial paroxística no CID-11.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição de fibrilação atrial no prontuário refere-se a uma condição crônica, enquanto o código CID-11 BC81.30 se refere a uma forma paroxística de fibrilação atrial que termina espontaneamente em 7 dias ou menos. A escolha do código não é clínica e não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "NB90.1Z": {
+      "term_original": "trombose venosa profunda",
+      "capitulo": "22",
+      "confidence_embedding": 0.7003,
+      "descricao_cid": "Representação de doença CID-11: Lesão da veia cava inferior, não especificada. Definição: ",
+      "classification_reasoning": "A trombose venosa profunda descrita no contexto é uma lesão na veia cava inferior não especificada, que melhor se adapta à descrição do termo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'trombose venosa profunda' no prontuário é muito específica e não se encaixa com a definição do código CID-11 NB90.1Z, que refere-se a uma lesão na veia cava inferior não especificada. A trombose venosa profunda descrita no contexto envolve membros inferiores e ilíacas, o que é mais específico do que a definição do código CID-11.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "ICD-11/13: Mitral valve insufficiency, mild/moderate": {
+      "term_original": "insuficiência mitral leve / mod",
+      "capitulo": "13",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A termo extraído 'insuficiência mitral leve / mod' refere-se a uma lesão na válvula mitral, caracterizada por uma menor capacidade de fechamento da válvula. Isso é claramente relacionado à insuficiência mitral descrita no contexto clínico, portanto, a escolha mais precisa é o código ICD-11/13 para representar essa condição.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11/13: Mitral valve insufficiency, mild/moderate é válida pois o termo 'insuficiência mitral leve / mod' diretamente se refere à lesão na válvula mitral e a descrição clínica do paciente apresenta uma menor capacidade de fechamento da válvula, caracterizando uma insuficiência mitral. A escolha do código é coerente com o prontuário e atende às diretrizes de auditoria.",
+      "tipo_erro_auditoria": null
+    },
+    "MC82.0": {
+      "term_original": "sintomática",
+      "capitulo": "21",
+      "confidence_embedding": 0.7796,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico.",
+      "classification_reasoning": "A opção MC82.0 é a mais precisa para o termo 'sintomática' no contexto clínico, pois refere-se à parada cardíaca com taquicardia e fibrilação ventricular, que está relacionada ao quadro de fibração atrial descrito no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'sintomática' refere-se ao paciente apresentando sintomas, enquanto o código CID-11 MC82.0 se refere a uma parada cardíaca com taquicardia e fibrilação ventricular. Embora haja uma relação entre a fibração atrial e o quadro clínico do paciente, a codificação não é clinicamente coerente com o prontuário. A sintomatologia do paciente não está diretamente relacionada à parada cardíaca descrita no código CID-11.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "3B61.1": {
+      "term_original": "icc",
+      "capitulo": "03",
+      "confidence_embedding": 0.743,
+      "descricao_cid": "Representação de doença CID-11: Trombofilia adquirida. Definição: Doença causada por determinantes que surgem após o nascimento. Essa doença é caraterizada por uma anormalidade na coagulação do sangue que aumenta o risco de trombose, coágulos nos vasos sanguíneos. Pode apresentar-se com trombose venosa profunda ou embolia pulmonar. A confirmação é feita pela identificação de coagulação sanguínea anormal em amostra de sangue.",
+      "classification_reasoning": "A opção mais precisa para o termo 'icc' no contexto é a trombofilia adquirida, pois a paciente apresenta uma história de fibrilação atrial com ICC FE 40%, o que sugere um aumento do risco de trombose. Além disso, a presença de dupla lesão aoórtica e sintomatologia sugerem que a paciente tem uma patologia cardiovascular complexa que pode estar relacionada à coagulação sanguínea anormal.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'icc' no contexto é a trombofilia adquirida, pois a paciente apresenta uma história de fibrilação atrial com ICC FE 40%, o que sugere um aumento do risco de trombose. Além disso, a presença de dupla lesão aoórtica e sintomatologia sugerem que a paciente tem uma patologia cardiovascular complexa que pode estar relacionada à coagulação sanguínea anormal.",
+      "tipo_erro_auditoria": null
+    },
+    "BC81.32": {
+      "term_original": "descompensação refratária",
+      "capitulo": "11",
+      "confidence_embedding": 0.8213,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial permanente. Definição: Termo usado para identificar indivíduos com FA persistente em que foi tomada a decisão de não mais seguir uma estratégia de controle do ritmo, ou em que a cardioversão falhou ou não foi tentada.",
+      "classification_reasoning": "A descompensação refratária é uma forma de fibrilação atrial permanente, ou seja, um estado crônico de fibrilação atrial que não se resolve espontaneamente e requer tratamento",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descompensação refratária é um termo que descreve a evolução de uma doença, não apenas a fibrilação atrial permanente. O código CID-11 BC81.32 se refere especificamente à fibrilação atrial permanente e não captura o conceito de descompensação refratária. Além disso, a descrição do código CID-11 não menciona nada sobre a descompensação refratária, apenas sobre a fibrilação atrial persistente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

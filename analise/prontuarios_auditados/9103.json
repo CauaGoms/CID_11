@@ -1,0 +1,159 @@
+{
+  "prontuario_id": 878,
+  "text": "Às 17:25 HS: PROVENIENTE DO PA, CONSCIENTE, ORIENTADO, EUPNEICO, SEM QUEIXAS ALGICAS, AGUARDA TRATAMENTO CIRURGICO. ENF FLORENCE NIGHTINGALE, COREN XXXX. ATEROSCLEROSE DAS ARTERIAS DAS EXTREMIDADES. EVOLUÇAO DIA 25/01/10: RETORNOU DO CC AS 15:30H, ACORDADA, RESPONSIVA, EUPNEICA, EM REPOUSO NO LEITO  E COM RELATO DE ALGIA EM REG ABDOMINAL, APRESENTANDO INCISOES CIRURGICAS LIMPA E ACESSO VENOSO PERIFERICO MSD SALINIZADO. DIURESE ESPÓNTANEA PRESENTE. APRESENTA COTO MIE. ENFERMEIRA FLORENCE NIGHTINGALE, COREN XXX. COLELITIASE. Às 01:40: Paciente retorna do centro cirúrgico as 22h no POI de FX fêmur, encontra-se consciente, orientada, verbalizando, em repouso no leito, ssvv dentro dos parametros de normalidade, mantendo acesso venoso periférico em MSD permeavel salinizado no momento, curativo em fêmur D com presença de secreção hemática em grande quantidade, medicada conforme prescrição, segue sob cuidados de enfermagem. Enf FLORENCE NIGHTINGALE. FRATURA PERTROCANTERICA.",
+  "entities": {
+    "Organização Relacionada à Saúde": [
+      "PA",
+      "CC",
+      "centro cirúrgico"
+    ],
+    "Abreviação": [
+      "PA",
+      "ENF",
+      "CC",
+      "MSD",
+      "MIE",
+      "POI",
+      "Enf",
+      "REG ABDOMINAL",
+      "ssvv dentro dos parametros de normalidade",
+      "fêmur D"
+    ],
+    "Achado": [
+      "CONSCIENTE",
+      "ORIENTADO",
+      "EUPNEICO",
+      "ACORDADA",
+      "RESPONSIVA",
+      "EUPNEICA",
+      "SALINIZADO",
+      "consciente",
+      "orientada",
+      "verbalizando",
+      "permeavel",
+      "salinizado",
+      "QUEIXAS ALGICAS",
+      "REPOUSO NO LEITO",
+      "INCISOES CIRURGICAS LIMPA",
+      "DIURESE ESPÓNTANEA",
+      "repouso no leito",
+      "ssvv dentro dos parametros de normalidade"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ENF",
+      "ENFERMEIRA",
+      "Enf"
+    ],
+    "Sinal ou Sintoma": [
+      "ALGIA",
+      "secreção hemática"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD",
+      "COTO",
+      "MIE",
+      "REG ABDOMINAL"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SALINIZADO",
+      "salinizado",
+      "curativo",
+      "medicada",
+      "TRATAMENTO CIRURGICO",
+      "REPOUSO NO LEITO",
+      "ACESSO VENOSO PERIFERICO",
+      "repouso no leito",
+      "acesso venoso periférico"
+    ],
+    "Doença ou Síndrome": [
+      "COLELITIASE",
+      "ATEROSCLEROSE DAS ARTERIAS DAS EXTREMIDADES"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Conceito Temporal": [
+      "POI"
+    ],
+    "Dispositivo Médico": [
+      "curativo",
+      "ACESSO VENOSO PERIFERICO",
+      "acesso venoso periférico"
+    ],
+    "Produto Intelectual": [
+      "prescrição"
+    ],
+    "Lesão ou Envenenamento": [
+      "INCISOES CIRURGICAS LIMPA",
+      "FRATURA PERTROCANTERICA"
+    ],
+    "Função Fisiológica": [
+      "DIURESE ESPÓNTANEA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "fêmur D",
+      "secreção hemática"
+    ],
+    "Conceito Qualitativo": [
+      "grande quantidade"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "cuidados de enfermagem"
+    ]
+  },
+  "labels": {
+    "BD40.0": {
+      "term_original": "aterosclerose das arterias das extremidades",
+      "capitulo": "11",
+      "confidence_embedding": 0.7548,
+      "descricao_cid": "Representação de doença CID-11: Aterosclerose de membro inferior. Definição: Condição em que a parede arterial fica espessada como resultado do acúmulo de materiais gordurosos, como o colesterol, do membro inferior.",
+      "classification_reasoning": "A descrição do termo 'aterosclerose das arterias das extremidades' se refere à aterosclerose que afeta as artérias dos membros inferiores, o que é compatível com o código BD40.0.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'aterosclerose das arterias das extremidades' se refere à aterosclerose que afeta as artérias dos membros inferiores, o que não é compatível com o código BD40.0, que representa aterosclerose de membro inferior. A descrição do termo inclui 'extremidades', que sugere que a aterosclerose pode afetar tanto os membros inferiores quanto superiores.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB23.H": {
+      "term_original": "algia",
+      "capitulo": "21",
+      "confidence_embedding": 0.742,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'algia' é Crise de pânico (MB23.H) pois a descrição refere-se a uma sensação de dor ou desconforto abdominal, que é um dos sintomas característicos da crise de pânico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário refere-se a uma algia abdominal após cirurgia, que não está relacionada à Crise de pânico (MB23.H). A opção mais precisa para o termo 'algia' é uma condição clínica diretamente relacionada ao procedimento cirúrgico e não à crise de pânico. Portanto, a codificação CID-11 atribuída é inapropriada.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "NA0D | Descrição: Representação de doença CID-11: Lesão de dentes ou estruturas de suporte. Definição: Danos infligidos na superfície do dente como resultado direto ou indireto de uma força externa, com rompimento da continuidade da substância dentária e/ou comprometimento das estruturas de suporte dentário (periodontais).": {
+      "term_original": "incisoes cirurgicas limpa",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é NA0D porque o termo 'incisões cirúrgicas' refere-se a lesões nos tecidos que envolvem os dentes, como resultado de uma intervenção cirúrgica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 NA0D 'Lesão de dentes ou estruturas de suporte' não é clínica e coerente com o prontuário. O termo 'incisões cirúrgicas' refere-se a lesões nos tecidos que envolvem as extremidades, como resultado de uma intervenção cirúrgica, e não está relacionado às lesões dentárias descritas no código CID-11 NA0D.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DA60.3": {
+      "term_original": "colelitiase",
+      "capitulo": "13",
+      "confidence_embedding": 0.7549,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A escolha pelo código DA60.3 se justifica pela descrição de úlceras de estresse do estômago, que pode ser relacionada ao termo 'colelitiase' mencionado no contexto clínico. Embora o contexto não descreva explicitamente úlceras gástricas, a presença da termo 'colelitiase' sugere uma lesão ou irritação na região gástrica, fazendo com que a escolha pelo código DA60.3 seja a mais precisa.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código DA60.3 não é justificada pela descrição de colelitiase no prontuário, pois a termo 'colelitiase' pode se referir a uma lesão ou irritação na região gástrica, mas não há evidência clínica suficiente para sustentar a hipótese de úlceras de estresse do estômago. Além disso, o prontuário descreve a paciente com fratura pertrocanterica e colelitiasis, sem qualquer referência a úlceras gástricas.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "FB41.1": {
+      "term_original": "fratura pertrocanterica",
+      "capitulo": "15",
+      "confidence_embedding": 0.7021,
+      "descricao_cid": "Representação de doença CID-11: Ruptura espontânea de sinóvia. Definição: Trata-se da ruptura espontânea da bainha sinovial (saco com fluido contendo líquido viscoso), que normalmente diminui o atrito e fornece um amortecimento entre os ossos e tendões e/ou músculo periarticulares.",
+      "classification_reasoning": "A fratura pertrocanterica é uma ruptura espontânea de sinóvia, caracterizada pela lesão do tendão ou da bainha sinovial, o que justifica a escolha do código FB41.1 como a mais precisa para o termo dentro do contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fratura pertrocanterica é uma lesão óssea, não uma ruptura de sinóvia. A definição do código CID-11 FB41.1 refere-se à ruptura espontânea da bainha sinovial, o que não se aplica ao caso. Portanto, a escolha desse código é inapropriada e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

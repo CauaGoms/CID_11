@@ -1,0 +1,113 @@
+{
+  "prontuario_id": 956,
+  "text": "11.22 HS - ORIENTADA, EM REPOUSO NO LEITO, ACEITA DIETA OFERECIDA, CURATIVO EM REGIAO CEFALICA LIMPO E SECO EXTERNAMENTE, ELIMINACAOES PRESENTES. NEGA ALGIA. AC DE Enfermeira Florence Nightingale. EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO.",
+  "entities": {
+    "Achado": [
+      "ORIENTADA",
+      "LIMPO",
+      "SECO",
+      "EM REPOUSO NO LEITO",
+      "ACEITA DIETA",
+      "ELIMINACAOES PRESENTES"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CURATIVO"
+    ],
+    "Dispositivo Médico": [
+      "CURATIVO"
+    ],
+    "Conceito Espacial": [
+      "EXTERNAMENTE"
+    ],
+    "Negação": [
+      "NEGA",
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "ALGIA",
+      "QUEIXAS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "AC",
+      "EXAME GERAL"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Localização ou Região Corporal": [
+      "REGIAO CEFALICA"
+    ]
+  },
+  "labels": {
+    "NE81.0Z": {
+      "term_original": "eliminacaoes presentes",
+      "capitulo": "22",
+      "confidence_embedding": 0.6692,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NE81.0Z porque a descrição do termo 'eliminacaoes presentes' sugere a presença de hemorragias ou hematomas em localização não especificada, que está relacionado à definição desse código.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'eliminacaoes presentes' não sugere diretamente a presença de hemorragias ou hematomas em localização não especificada, como definido pelo código CID-11 NE81.0Z. A eliminação pode ser relacionada a outras condições clínicas e não necessariamente está associada à definição do código.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "VW21": {
+      "term_original": "em repouso no leito",
+      "capitulo": "V",
+      "confidence_embedding": 0.6716,
+      "descricao_cid": "Representação de doença CID-11: Cuidado com partes do corpo. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a VW21, pois o termo 'em repouso no leito' está relacionado ao cuidado com as partes do corpo, especificamente ao estado de repouso e descanso do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'em repouso no leito' não está diretamente relacionado a uma condição clínica específica. A opção VW21, que representa cuidado com partes do corpo, é demasiadamente genérica e não captura o significado do termo original. Além disso, não há nenhuma relação clara entre o estado de repouso do paciente e a representação de doença CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6B23.0": {
+      "term_original": "orientada",
+      "capitulo": "06",
+      "confidence_embedding": 0.7059,
+      "descricao_cid": "Representação de doença CID-11: Hipocondria com insight bom a razoável. Definição: Todos os critérios diagnósticos para hipocondria são preenchidos. Na maior parte do tempo, o indivíduo é capaz de considerar a possibilidade de que suas crenças específicas do transtorno possam não ser verdadeiras e está disposto a aceitar uma explicação alternativa para sua experiência. Em momentos circunscritos (p. ex., quando extremamente ansioso), o indivíduo pode não apresentar \"insight\".",
+      "classification_reasoning": "O termo 'orientada' se refere à capacidade do paciente de considerar a possibilidade de que suas crenças específicas sobre sua saúde possam não ser verdadeiras e está disposto a aceitar uma explicação alternativa para sua experiência, o que caracteriza a hipocondria com insight bom a razoável.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'orientada' não se refere à hipocondria com insight bom a razoável, como descrito no código CID-11. A orientação se refere à capacidade do paciente de seguir orientações médicas e não ao insight sobre sua saúde. Portanto, o código CID-11 atribuído não representa fielmente o termo ou condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EK12": {
+      "term_original": "seco",
+      "capitulo": "14",
+      "confidence_embedding": 0.7266,
+      "descricao_cid": "Representação de doença CID-11: Sensibilização alérgica por contato. Definição: A presença de hipersensibilidade tardia tipo IV do sistema imune a uma determinada substância sem definição de doença prévia ou atual. Tal sensibilização é normalmente adquirida por contato prévio de pele ou mucosa com a própria substância ou com outra quimicamente similar (reatividade cruzada). Contato subsequente com a substância pode provocar reação alérgica. Em determinadas circunstâncias, essa sensibilização pode impedir que um indivíduo aceite ou continue em um emprego em que a exposição ao alérgeno não pode ser evitada. Alguns indivíduos sensibilizados para um alérgeno específico, entretanto, podem nunca manifestar sintomas caso ocorra o contato.",
+      "classification_reasoning": "A palavra 'seco' foi usada para descrever a pele, o que sugere uma resposta alérgica ou de hipersensibilidade. A opção EK12 (Sensibilização alérgica por contato) é mais precisa para este termo no contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A palavra 'seco' foi utilizada para descrever a pele, o que sugere uma resposta alérgica ou de hipersensibilidade. A opção EK12 (Sensibilização alérgica por contato) é mais precisa para este termo no contexto clínico. Como não há outras informações no prontuário que contradigam essa classificação, a codificação CID-11 EK12 é considerada válida e clinicamente coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "EE12": {
+      "term_original": "limpo",
+      "capitulo": "14",
+      "confidence_embedding": 0.7039,
+      "descricao_cid": "Representação de doença CID-11: Infecções da unha ou do perioníquio. Definição: Infecções envolvendo a unha ou o perioníquio para as quais não há informações disponíveis sobre o organismo infectante.",
+      "classification_reasoning": "A presença do termo 'limpo' no contexto clínico sugere a possibilidade de infecções da unha ou do perioníquio, que podem estar relacionadas à eliminação de matéria orgânica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença do termo 'limpo' no contexto clínico não está relacionada a infecções da unha ou do perioníquio. O termo 'limpo' se refere à condição de cura e ausência de lesão na região cefálica, o que não é compatível com a definição do código CID-11 EE12. A classificação é incoerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "QE23": {
+      "term_original": "aceita dieta",
+      "capitulo": "24",
+      "confidence_embedding": 0.7251,
+      "descricao_cid": "Representação de doença CID-11: Problemas com dieta ou hábitos alimentares inapropriados. Definição: ",
+      "classification_reasoning": "O termo 'aceita dieta' refere-se ao paciente aceitar uma dieta oferecida, o que é consistente com a definição do código QE23, que se refere a problemas com dieta ou hábitos alimentares inapropriados.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'aceita dieta' não se refere a problemas com dieta ou hábitos alimentares inapropriados, como definido pelo código QE23. Em vez disso, é uma declaração sobre a aceitação da dieta oferecida ao paciente, que não está relacionada à definição do código CID-11. Portanto, a codificação é clinicamente incoerente e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF33": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7191,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa pré-menstrual. Definição: Um sintoma idiopático da síndrome pré-menstrual que afeta mulheres e é idiopático. Caracterizado por sintomas emocionais, físicos ou comportamentais cíclicos, como alterações de humor, alterações psicológicas, retenção de líquidos, alterações neurológicas, alterações gastrointestinais, sensação de peso pélvico ou alterações dermatológicas que afetam mulheres na fase lútea do ciclo menstrual e que interferem com o estilo de vida da pessoa.",
+      "classification_reasoning": "A opção mais precisa para o termo 'queixas' é a representação de doença CID-11: Sintoma ou queixa pré-menstrual, pois no contexto clínico apresenta a presença de queixas sem especificar qual é o sintoma específico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 MF33 'Representação de doença: Sintoma ou queixa pré-menstrual' não é clínicamente coerente com o prontuário. O termo 'queixas' no prontuário se refere a sintomas presentes, enquanto a codificação CID-11 se refere a uma síndrome pré-menstrual específica. A falta de especificidade sobre qual queixa está sendo referida no prontuário também contribui para a incoerência.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    }
+  }
+}

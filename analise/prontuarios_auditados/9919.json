@@ -1,0 +1,157 @@
+{
+  "prontuario_id": 559,
+  "text": "Lucas, 4 anos\n\n# Tinea Capitis?\n\ns: Usou griseofulvina 250 mg dia por 3 semanas e cessou devido à queixa da criança de ardência na boca (sem lesões locais).\nMelhora subjetiva segundo relato da mãe de 90% do quadro.\n\nNega familiares e contatos com lesões semelhantes. Criança frequenta creche.\n\no: lesões eritemato descamativas em cc sem exudação, indolores no momento, com repilação imporante das areas previamente alopecicas.\n\nmicológico direto negativo\nCultura em andamento.\n\na: Tinea capitis (quadro clinico compativel e melhora importante com 3 semanas de antifungico oral)\np: Mantenho griseofulvina 250 mg dia (peso atual 16 kg - porém Doutor Vital Brazil sugere não aumentar dose) por 30 dias e retorno para reavaliação.\nmantenho xampu ceto 2%.\n\nr1 Doutor Vital Brazil ",
+  "entities": {
+    "Substância Farmacológica": [
+      "griseofulvina",
+      "antifungico oral",
+      "xampu ceto"
+    ],
+    "Substância Química Orgânica": [
+      "griseofulvina"
+    ],
+    "Conceito Temporal": [
+      "dia"
+    ],
+    "Conceito Quantitativo": [
+      "3",
+      "30",
+      "2%",
+      "250 mg",
+      "16 kg"
+    ],
+    "Sinal ou Sintoma": [
+      "queixa",
+      "lesões",
+      "exudação",
+      "indolores",
+      "lesões eritemato descamativas"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "criança",
+      "Criança"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "boca"
+    ],
+    "Negação": [
+      "sem",
+      "Nega",
+      "indolores",
+      "não"
+    ],
+    "Grupo Familiar": [
+      "familiares"
+    ],
+    "Organização": [
+      "creche"
+    ],
+    "Localização ou Região Corporal": [
+      "cc"
+    ],
+    "Função Fisiológica": [
+      "repilação"
+    ],
+    "Procedimento Laboratorial": [
+      "Cultura"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Mantenho",
+      "retorno",
+      "reavaliação",
+      "mantenho"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Doutor",
+      "r1"
+    ],
+    "Abreviação": [
+      "r1",
+      "16 kg",
+      "xampu ceto"
+    ],
+    "Doença ou Síndrome": [
+      "Tinea Capitis",
+      "Tinea capitis"
+    ],
+    "Lesão ou Envenenamento": [
+      "lesões locais"
+    ],
+    "Achado": [
+      "Melhora subjetiva segundo relato da mãe",
+      "micológico direto negativo",
+      "quadro clinico compativel"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "micológico direto negativo"
+    ],
+    "Atributo Clínico": [
+      "peso atual"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "aumentar dose"
+    ]
+  },
+  "labels": {
+    "EA35.0": {
+      "term_original": "tinea capitis",
+      "capitulo": "14",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A criança tem Tinea Capitis, como mencionado no prontuário, e o código EA35.0 (Dermatofitose) é o mais preciso para esse termo dentro do contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 EA35.0 (Dermatofitose) é válida pois o termo 'Tinea Capitis' no prontuário está claramente relacionado à condição de dermatomycose, que é a definição do código EA35.0. A descrição do quadro clínico compatível com Tinea Capitis e a melhora importante após tratamento com antifungico oral também corroboram a escolha desse código.",
+      "tipo_erro_auditoria": null
+    },
+    "ME66.6": {
+      "term_original": "micológico direto negativo",
+      "capitulo": "21",
+      "confidence_embedding": 0.7377,
+      "descricao_cid": "Representação de doença CID-11: Rash. Definição: Termo inespecífico que indica a presença de um distúrbio cutâneo adquirido, que deve ser usado somente quando nenhuma informação mais precisa estiver disponível.",
+      "classification_reasoning": "A opção mais precisa é ME66.6 - Rash, pois o termo 'micológico direto negativo' refere-se a uma resposta negativa em um teste de cultivo, que não tem relação com a representação de doença na pele.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'micológico direto negativo' não tem relação direta com a representação de doença na pele. A descrição do código CID-11 ME66.6 - Rash é muito genérica e não captura o conteúdo específico do prontuário, que descreve uma lesão eritemato-descamativa em cc sem exudação. Portanto, a codificação não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "ME63.5": {
+      "term_original": "lesões locais",
+      "capitulo": "21",
+      "confidence_embedding": 0.7501,
+      "descricao_cid": "Representação de doença CID-11: Dermatose liquenificada crônica. Definição: Diagnóstico provisório para um transtorno crônico da pele de natureza desconhecida ou incerta, na qual a liquenificação é a característica proeminente. Exemplos incluem eczema crônico, líquen simples e líquen plano.",
+      "classification_reasoning": "A escolha do código ME63.5 se baseia na descrição de 'lesões eritemato descamativas em cc sem exudação, indolores no momento, com repilação importante das áreas previamente alopecicas.' Essas características clinicamente significantes indicam uma dermatose crônica de natureza incerta ou não especificada, o que é compatível com a descrição do código ME63.5.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário refere-se a lesões eritemato descamativas em cc sem exudação, indolores no momento, com repilação importante das áreas previamente alopecicas. Embora haja uma referência à dermatose crônica, o termo 'lesões locais' não é sinônimo de doença crônica e não se enquadra na definição do código ME63.5. Além disso, a descrição clínica apresenta características mais próximas de uma infecção fungina (Tinea capitis) do que de uma dermatose crônica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME62.9": {
+      "term_original": "lesões",
+      "capitulo": "21",
+      "confidence_embedding": 0.7445,
+      "descricao_cid": "Representação de doença CID-11: Escoriação cutânea aguda. Definição: Diagnóstico provisório de erupção cutânea de natureza desconhecida ou incerta, que surge abruptamente e que consiste em múltiplas escoriações. Na maioria dos casos, a escoriação é secundária ao prurido intenso decorrente de um transtornos sistêmico subjacente, como icterícia colestática, ou de uma doença cutânea pruriginosa, como eczema. Em alguns casos, entretanto, fatores psicogênicos podem ser responsáveis.",
+      "classification_reasoning": "A descrição de 'lesões eritemato descamativas em cc sem exudação, indolores no momento, com repilação importante das áreas previamente alopecicas' é compatível com a descrição de Escoriação cutânea aguda (ME62.9) na CID-11.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição de 'lesões eritemato descamativas em cc sem exudação, indolores no momento, com repilação importante das áreas previamente alopecicas' não se ajusta à definição da Escoriação cutânea aguda (ME62.9) na CID-11. A lesão descrita é uma manifestação de Tinea Capitis, que apresenta características clínicas específicas e não se enquadra no conceito de Escoriação cutânea aguda.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME63.7": {
+      "term_original": "quadro clinico compativel",
+      "capitulo": "21",
+      "confidence_embedding": 0.727,
+      "descricao_cid": "Representação de doença CID-11: Escoriação cutânea crônica. Definição: Diagnóstico provisório para um transtorno crônico da pele de natureza desconhecida ou incerta, caracterizado pela presença de múltiplas escoriações. Em alguns casos, a escoriação é secundária a prurido intenso decorrente de um transtorno sistêmico subjacente, como uremia, ou de uma doença de pele pruriginosa, como eczema. Em muitos casos, entretanto, fatores psicogênicos podem ser responsáveis.",
+      "classification_reasoning": "A descrição de ME63.7 se refere à escoriação cutânea crônica, que é compatível com o quadro descrito na história clínica do paciente (lesões eritemato-descamativas em cc sem exudação, indolores no momento). A menção a 'repilação importante das áreas previamente alopecicas' também sugere a possibilidade de uma doença cutânea crônica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do código CID-11 ME63.7 refere-se a escoriação cutânea crônica, enquanto o prontuário descreve lesões eritemato-descamativas em cc sem exudação, indolores no momento, com repilação importante das áreas previamente alopecicas. Embora haja uma menção à possibilidade de doença cutânea crônica, a descrição do prontuário não se ajusta ao conceito de escoriação cutânea crônica. Portanto, o código CID-11 ME63.7 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME63.4": {
+      "term_original": "lesões eritemato descamativas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7375,
+      "descricao_cid": "Representação de doença CID-11: Dermatose hiperceratótica ou descamativa crônica. Definição: Diagnóstico provisório para um transtorno cutâneo crônico de natureza desconhecida ou incerta, no qual descamação e hiperceratose são características proeminentes. Exemplos incluem psoríase, ictioses, parapsoríase em pequenas placas e micose fungoide.",
+      "classification_reasoning": "A opção mais precisa para o termo 'lesões eritemato descamativas' é ME63.4, Dermatose hiperceratótica ou descamativa crônica, pois as lesões apresentadas são caracterizadas por eritema (inflamação) e descamação, o que é compatível com a definição da CID-11.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão eritemato descamativa não é suficientemente específica para justificar a codificação ME63.4, que descreve uma dermatose hiperceratótica ou descamativa crônica. A descrição do prontuário apresenta características compatíveis com Tinea capitis, e o código mais adequado seria um código relacionado à infecção fúngica da pele (por exemplo, L40.4). A codificação ME63.4 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

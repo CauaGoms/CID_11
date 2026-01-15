@@ -1,0 +1,222 @@
+{
+  "prontuario_id": 535,
+  "text": "PACIENTE INTERNA COM QUADRO DE ANGINA INSTÁVEL. REALIZADA ANGIOPLASTIA COM IMPLANTE DE STENT EM CD, PROCEDIMENTO REALIZADO SEM INTERCORRÊNCIAS, COM SUCESSO ANGIOGRÁFICO. STENT PRÉVIAMENTE IMPLANTADO EM DAE LIVRE DE REESTENOSE. Realiza angioplastia com implante de stent em artéria renal direita. Procedimento transcorreu sem intercorrências. Paciente interna com quadro de IC, com sinais de congestao intensa pulmonar e sistemica. Rx Tórax com grande derrame pleural bilateral. Ecocardiograma mostra disfunção ventricular difusa leve, e movimento anômalo septal. Revisão do marcasso com Dr Vital Brasil mostra funcionamento adequado do dispositivo. Implementadas medidas farmacológicas e não farmacologicas com boa evolução clinica. Durante a internação apresentou episódio de dor torácica posterior intensa, contínua, que necessitou de esquema analgésico contínuo, atribuída a absorção de derrame pleural. pte veio ao xxxx com dor atipica ao esforco. Internou por teste de esforco com infra st maior q 1 mm, ja assintomatica. Realizou portanto, cintilografia de esforco que foi normal, sem deficits de perfusao ou hipocinesia em teste livre de drogas. Tem alta em bom estado geral e estratificada do ponto de vista cardiaco como sendo de minimo (bx) risco para dor isquemica, sendo o teste de esforco provavelmente um falso positivo. Segue ao seu medico para investigar origem da dor (osteomuscular, dispepsia, espasmo esof). Sem medicaçoes prescritas.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE",
+      "Paciente",
+      "pte"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "INTERNA",
+      "interna",
+      "internação",
+      "Internou",
+      "alta"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ANGIOPLASTIA",
+      "PROCEDIMENTO",
+      "angioplastia",
+      "Procedimento",
+      "IMPLANTE DE STENT",
+      "implante de stent",
+      "esquema analgésico contínuo"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "CD",
+      "DAE",
+      "artéria renal direita"
+    ],
+    "Abreviação": [
+      "CD",
+      "DAE",
+      "IC",
+      "Dr",
+      "pte",
+      "Rx Tórax",
+      "espasmo esof"
+    ],
+    "Negação": [
+      "SEM",
+      "sem",
+      "não",
+      "assintomatica",
+      "Sem"
+    ],
+    "Sinal ou Sintoma": [
+      "INTERCORRÊNCIAS",
+      "intercorrências",
+      "assintomatica",
+      "dor",
+      "dispepsia",
+      "ANGINA INSTÁVEL",
+      "sinais de congestao intensa pulmonar e sistemica",
+      "dor torácica posterior intensa",
+      "dor atipica ao esforco",
+      "dor isquemica"
+    ],
+    "Dispositivo Médico": [
+      "STENT"
+    ],
+    "Função Patológica": [
+      "REESTENOSE"
+    ],
+    "Doença ou Síndrome": [
+      "IC",
+      "derrame pleural",
+      "espasmo esof"
+    ],
+    "Procedimento Diagnóstico": [
+      "Ecocardiograma",
+      "Rx Tórax",
+      "Revisão do marcasso",
+      "teste de esforco",
+      "cintilografia de esforco"
+    ],
+    "Substância Farmacológica": [
+      "farmacologicas",
+      "medicaçoes",
+      "medidas farmacológicas"
+    ],
+    "Conceito Temporal": [
+      "contínua"
+    ],
+    "Achado": [
+      "assintomatica",
+      "SUCESSO ANGIOGRÁFICO",
+      "funcionamento adequado do dispositivo",
+      "boa evolução clinica",
+      "bom estado geral",
+      "falso positivo"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "normal",
+      "grande derrame pleural bilateral",
+      "disfunção ventricular difusa leve",
+      "movimento anômalo septal",
+      "funcionamento adequado do dispositivo",
+      "infra st maior q 1 mm",
+      "hipocinesia em teste livre de drogas",
+      "falso positivo"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "medico"
+    ],
+    "Sistema Corporal": [
+      "osteomuscular"
+    ]
+  },
+  "labels": {
+    "9A03.13": {
+      "term_original": "espasmo esof",
+      "capitulo": "09",
+      "confidence_embedding": 0.6929,
+      "descricao_cid": "Representação de doença CID-11: Entrópio espástico da pálpebra. Definição: Trata-se de uma condição espástica em que a pálpebra (usualmente a pálpebra inferior) se dobra para dentro. É bastante desconfortável, pois os cílios constantemente se atritam na córnea e a irritam. Entrópio é usualmente causado por fatores genéticos e muito raramente pode ser congênito, quando uma dobra extra de pele cresce com a pálpebra inferior (epibléfaro). Entrópio pode também criar dor secundária no olho (levando ao traumatismo do próprio olho, cicatrização da pálpebra, ou dano neural).",
+      "classification_reasoning": "A escolha do código 9A03.13 é baseada na descrição de 'espasmo esof' no contexto do prontuário, que sugere uma condição crônica ou recorrente de estrutura muscular da pálpebra, caracterizada por dor secundária no olho.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'espasmo esof' não se refere a uma condição crônica ou recorrente de estrutura muscular da pálpebra, como descrito no código CID-11. Em vez disso, é um termo que se refere a uma contração involuntária do músculo circular do esôfago, o que não está relacionado ao prontuário apresentado.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC43.0": {
+      "term_original": "reestenose",
+      "capitulo": "11",
+      "confidence_embedding": 0.7819,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida.",
+      "classification_reasoning": "A opção mais precisa é a cardiomiopatia dilatada, pois o termo 'reestenose' se refere ao reestenose de uma artéria coronária após angioplastia e implante de stent, o que não está relacionado às opções apresentadas. No entanto, como a paciente tem um histórico de stent implantado anteriormente, é possível considerar a hipótese de cardiomiopatia dilatada, que pode estar relacionada à reestenose da artéria coronária.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BC43.0 não é adequada pois a reestenose se refere ao reestenose de uma artéria coronária após angioplastia e implante de stent, o que não está relacionado às condições clínicas descritas no prontuário. A paciente tem um histórico de stent implantado anteriormente e apresenta sintomas de angina instável, quadro de IC e dor torácica posterior intensa. A cardiomiopatia dilatada não é uma opção clinicamente coerente com a descrição do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB21.1": {
+      "term_original": "sinais de congestao intensa pulmonar e sistemica",
+      "capitulo": "12",
+      "confidence_embedding": 0.7973,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sinais de congestao intensa pulmonar e sistemica' é CB21.1, Pneumotórax espontâneo, pois a descrição menciona um grande derrame pleural bilateral, o que sugere uma situação de comprometimento pulmonar grave.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário menciona 'sinais de congestao intensa pulmonar e sistemica', mas o código CID-11 atribuído é CB21.1, Pneumotórax espontâneo, que não se refere à congestão pulmonar ou sistêmica. A opção mais precisa para este termo seria um código relacionado a doenças cardíacas ou pulmonares, como I25.9 (Doença coronariana crônica) ou J82.0 (Insuficiência cardíaca). Portanto, o código CID-11 atribuído não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB27": {
+      "term_original": "derrame pleural",
+      "capitulo": "12",
+      "confidence_embedding": 0.7958,
+      "descricao_cid": "Representação de doença CID-11: Derrame pleural. Definição: Presença de líquido na cavidade pleural, resultante de transudação ou exsudação excessivas a partir das superfícies pleurais.",
+      "classification_reasoning": "A opção mais precisa para o termo 'derrame pleural' é a representação de doença CID-11: Derrame pleural, pois o contexto clínico descreve a presença de líquido na cavidade pleural como resultado de transudação ou exsudação excessiva das superfícies pleurais.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'derrame pleural' é a representação de doença CID-11: Derrame pleural, pois o contexto clínico descreve a presença de líquido na cavidade pleural como resultado de transudação ou exsudação excessiva das superfícies pleurais. A descrição do prontuário é clara e coerente com a definição do código CID-11, portanto, não há motivos para remover o código.",
+      "tipo_erro_auditoria": null
+    },
+    "BA40.Y": {
+      "term_original": "angina instável",
+      "capitulo": "11",
+      "confidence_embedding": 0.8268,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A escolha pelo código BA40.Y (Outra angina pectoris especificada) é a mais precisa para o termo 'angina instável' dentro do contexto clínico, pois o paciente apresenta quadro de angina instável, com angioplastia e implante de stent em CD, indicando uma doença coronariana. A descrição da doença também se encaixa no quadro de sintomatologia descrita.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha pelo código BA40.Y (Outra angina pectoris especificada) não é a mais precisa para o termo 'angina instável' dentro do contexto clínico. A razão é que o paciente apresenta quadro de angina instável, com angioplastia e implante de stent em CD, indicando uma doença coronariana. O código BA40.Y não captura a natureza instável da doença, que é caracterizada por episódios recorrentes de dor torácica. A classificação mais precisa seria I25.8 (Angina pectoris instável), que descreve especificamente a doença coronariana com sintomatologia instável.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.2": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7906,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A dor foi descrita como um episódio de dor torácica posterior intensa, contínua, que necessitou de esquema analgésico contínuo, atribuída a absorção de derrame pleural. O contexto clínico sugere que a dor está relacionada à doença cardíaca e ao procedimento cirúrgico realizado anteriormente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor descrita no prontuário é um sintoma, não uma doença. A CID-11 MG30.2 se refere a dor crônica pós-operatória ou pós-traumática, que não é o caso aqui. Além disso, a dor está relacionada à absorção de derrame pleural e ao procedimento cirúrgico realizado anteriormente, o que não é uma condição clínica diretamente relacionada à dor.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NE82.1Z": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.7723,
+      "descricao_cid": "Representação de doença CID-11: Disfunção do marcapasso ou cardioversor desfibrilador implantável, não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'intercorrências' está relacionada à disfunção do marcapasso ou cardioversor desfibrilador implantável, que pode ter ocorrido durante a internação e necessário revisão com Dr Vital Brasil.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'intercorrências' no prontuário refere-se a eventos adversos que ocorreram durante a internação, como dor torácica posterior intensa. No entanto, o código CID-11 NE82.1Z se refere à disfunção do marcapasso ou cardioversor desfibrilador implantável, não especificada. Essa classificação não está clinicamente coerente com o prontuário, pois a disfunção do marcapasso não é relacionada às intercorrências descritas no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MA14.16": {
+      "term_original": "falso positivo",
+      "capitulo": "21",
+      "confidence_embedding": 0.7393,
+      "descricao_cid": "Representação de doença CID-11: Exame sorológico falso positivo para sífilis. Definição: ",
+      "classification_reasoning": "A descrição do termo 'falso positivo' é relacionada a um resultado de exame sorológico, o que se encaixa com a opção MA14.16, que descreve um exame falso positivo para sífilis.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'falso positivo' está relacionado a um resultado de exame sorológico, enquanto o código CID-11 MA14.16 descreve um exame falso positivo para sífilis. Embora haja uma semelhança entre os dois conceitos, eles não são diretamente relacionados no contexto do prontuário. A dor atipica ao esforço é atribuída a absorção de derrame pleural e subsequente teste de esforco com resultados normais. Portanto, o código CID-11 MA14.16 não representa fielmente o termo 'falso positivo' descrito no prontuário.",
+      "tipo_erro_auditoria": "false_positive_entity"
+    },
+    "6C45.3": {
+      "term_original": "ic",
+      "capitulo": "06",
+      "confidence_embedding": 0.7756,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A escolha do código 6C45.3 foi feita pois o termo 'IC' se refere a Intoxicação por cocaína, que é mencionada no texto como uma possibilidade para a dor torácica posterior intensa apresentada pelo paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código 6C45.3 foi feita pois o termo 'IC' se refere a Intoxicação por cocaína, que não é mencionada no prontuário como uma possibilidade para a dor torácica posterior intensa apresentada pelo paciente. O termo 'IC' provavelmente se refere a Insuficiência Cardíaca, que é descrita no prontuário como um quadro clínico do paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD30.0": {
+      "term_original": "dor torácica posterior intensa",
+      "capitulo": "21",
+      "confidence_embedding": 0.7552,
+      "descricao_cid": "Representação de doença CID-11: Dor torácica ao respirar. Definição: A dor torácica pleurítica é um tipo de dor causada por problemas com as finas camadas de tecido que revestem os pulmões (chamadas de pleura). Esse tipo de dor é sentido como uma dor no peito aguda em pontada, e que piora com a inspiração. A dor torácica pleurítica pode ser causada pelos seguintes problemas: pneumotórax, derrame pleural, pleurite, empiema, pericardite.",
+      "classification_reasoning": "A dor torácica posterior intensa é descrita como uma dor localizada no peito, piorando com a inspiração, o que se ajusta à definição de Dor torácica ao respirar (MD30.0).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor torácica posterior intensa descrita no prontuário não está diretamente relacionada à doença CID-11 MD30.0, que se refere a dor torácica ao respirar. A descrição do prontuário sugere que a dor é causada pela absorção de derrame pleural e não é uma dor pleurítica aguda. Portanto, o código CID-11 atribuído não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "DB32.0": {
+      "term_original": "dispepsia",
+      "capitulo": "13",
+      "confidence_embedding": 0.7496,
+      "descricao_cid": "Representação de doença CID-11: Pseudo-obstrução do cólon. Definição: A pseudo-obstrução do cólon é uma condição rara, com sintomas de diminuição da capacidade do cólon de fazer transitar líquidos, alimentos e ar, como aqueles causados ​​por uma obstrução cólica. Os achados clínicos e radiológicos são frequentemente semelhantes à obstrução verdadeira, mas nenhum bloqueio mecânico verdadeiro é encontrado. Os sintomas geralmente incluem dispepsia, constipação crônica e cólicas abdominais nos momentos em que está presente. Síndrome de Ogilvie: a pseudo-obstrução aguda do cólon em pacientes debilitados gravemente enfermos está incluída aqui como a forma aguda.",
+      "classification_reasoning": "A dor atipica ao esforço é atribuída à absorção de derrame pleural, mas posteriormente o paciente apresentou infra st maior que 1mm, sugerindo dispepsia como causa da dor, concordando com a descrição da pseudo-obstrução do cólon.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor atipica ao esforço é atribuída à absorção de derrame pleural, mas posteriormente o paciente apresentou infra st maior que 1mm, sugerindo dispepsia como causa da dor. No entanto, a pseudo-obstrução do cólon (DB32.0) não se refere diretamente à dor atipica ao esforço, e sim a uma condição rara com sintomas de diminuição da capacidade do cólon de fazer transitar líquidos, alimentos e ar. A dispepsia é um sintoma possível, mas não é a causa principal da dor atipica ao esforço. Portanto, o código CID-11 atribuído (DB32.0) não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "prontuario_id": 389,
+  "text": "POS TX RENAL.\n\nPOS TX RENAL - CR 1,0 - NS FK 9,0.\nHAS - FORA DO ALVO.\nPOS TROMBOSE DE FAV - DOPPLER SEM SINAIS DE TROMBOSE.\nPOLICITEMIA.\n \n \nTX RENAL - JAN/2015.\nTROMBOSE DE FAV.\nUSO DE: MTC 5, FK 4 / 5, MS 2 / 2, BACTRIM, CVD 25, AAS 100, CLOPIDOGREL 75\nS # MELHORA DO EDEMA.\nO # BEG, CORADO, HIDRATADO.\nPA 140/80.\nMV POSITIVO, SIMETRICO.\nBCRNF.\nABDOMEN FLACIDO, SEM MASSAS, RHA POSITIVOS.\nMEMBROS SEM EDEMA.",
+  "entities": {
+    "Conceito Temporal": [
+      "POS"
+    ],
+    "Abreviação": [
+      "HAS",
+      "FK",
+      "MS",
+      "CVD",
+      "AAS",
+      "S",
+      "O",
+      "BEG",
+      "PA",
+      "BCRNF",
+      "TX RENAL",
+      "CR 1 , 0",
+      "NS FK 9 , 0",
+      "TROMBOSE DE FAV",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "POLICITEMIA",
+      "TROMBOSE DE FAV"
+    ],
+    "Procedimento Diagnóstico": [
+      "DOPPLER"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "FK",
+      "MS",
+      "BACTRIM",
+      "CVD",
+      "AAS",
+      "CLOPIDOGREL"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "FK",
+      "MS",
+      "BACTRIM",
+      "CVD",
+      "AAS",
+      "CLOPIDOGREL"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "25",
+      "100",
+      "75",
+      "140/80"
+    ],
+    "Achado": [
+      "S",
+      "BEG",
+      "CORADO",
+      "HIDRATADO",
+      "SIMETRICO",
+      "BCRNF",
+      "TX RENAL",
+      "FORA DO ALVO",
+      "MELHORA DO EDEMA",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABDOMEN"
+    ],
+    "Sinal ou Sintoma": [
+      "MASSAS",
+      "EDEMA"
+    ],
+    "Localização ou Região Corporal": [
+      "MEMBROS"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 1 , 0",
+      "NS FK 9 , 0",
+      "SINAIS DE TROMBOSE"
+    ]
+  },
+  "labels": {
+    "XS1T": {
+      "term_original": "fora do alvo",
+      "capitulo": "X",
+      "confidence_embedding": 0.7203,
+      "descricao_cid": "Representação de doença CID-11: Grau 0 Categoria 0: Assintomático – sem doença oclusiva hemodinamicamente significativa. Definição: ",
+      "classification_reasoning": "A expressão 'fora do alvo' é comummente utilizada para descrever o resultado de um tratamento ou procedimento que não alcançou seu objetivo. Nesse contexto, o termo 'fora do alvo' sugere que o tratamento renal não teve o efeito desejado. O código XS1T se aplica porque é a representação CID-11 para uma doença assintomática sem doença oclusiva hemodinamicamente significativa, ou seja, um resultado negativo em relação ao tratamento.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'fora do alvo' sugere que o tratamento renal não teve o efeito desejado. No entanto, a codificação CID-11 XS1T se refere a uma doença assintomática sem doença oclusiva hemodinamicamente significativa, ou seja, um resultado negativo em relação ao tratamento. Isso é contrário à clínica descrita no prontuário, que menciona CR 1,0 e policitemia, indicando que o tratamento renal não foi completamente eficaz. Portanto, a codificação CID-11 XS1T não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "negated_finding"
+    },
+    "EC90.10": {
+      "term_original": "massas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7125,
+      "descricao_cid": "Representação de doença CID-11: Prurido urêmico. Definição: Prurido em pacientes com insuficiência renal crônica. Embora comum na doença renal crônica não tratada, é particularmente prevalente em pacientes que submetidos a diálise peritoneal ou hemodiálise. O prurido não se deve a níveis elevados de ureia sérica. Os mecanismos precisos não são totalmente compreendidos.",
+      "classification_reasoning": "A escolha se baseia na presença do termo 'massas' no contexto clínico, que se refere ao sintoma de edema (dificuldade) relacionado à insuficiência renal crônica e tratamento renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código EC90.10 não é clinicamente coerente com o prontuário, pois o termo 'massas' se refere ao sintoma de edema, enquanto a definição do código CID-11 se refere ao prurido urêmico. A presença de edema não é um sintoma exclusivo da insuficiência renal crônica e pode ser relacionado a outras condições clínicas. Além disso, o termo 'massas' não está diretamente relacionado à doença renal crônica ou ao tratamento renal.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BD93": {
+      "term_original": "edema",
+      "capitulo": "11",
+      "confidence_embedding": 0.7225,
+      "descricao_cid": "Representação de doença CID-11: Linfedema. Definição: Edema devido ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Geralmente afeta as extremidades, mas pode envolver qualquer parte do corpo. É desfigurante e aumenta a suscetibilidade a infecções recorrentes e malignidades locais.",
+      "classification_reasoning": "A opção mais precisa para o termo 'edema' no contexto é a BD93, Linfedema, pois a descrição menciona um edema não relacionado à hipertensão renal (BA02) ou à trombose venosa (BD71.2). Além disso, a presença de edema na região renal e membros inferiores sem evidência de trombose nos estudos Doppler sugere um acúmulo excessivo de linfa, característico do Linfedema.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção de código CID-11 BD93, Linfedema, é justificada pela presença de edema na região renal e membros inferiores sem evidência de trombose nos estudos Doppler. A descrição do prontuário não menciona hipertensão renal (BA02) ou trombose venosa (BD71.2), o que exclui essas possibilidades. Além disso, a presença de policitemia e ausência de sinais de trombose em Doppler sugerem um acúmulo excessivo de linfa, característico do Linfedema.",
+      "tipo_erro_auditoria": null
+    },
+    "8B11.42": {
+      "term_original": "mv positivo",
+      "capitulo": "08",
+      "confidence_embedding": 0.69,
+      "descricao_cid": "Representação de doença CID-11: Acidente vascular cerebral isquêmico devido a estado de hipercoagulabilidade. Definição: Esta é uma perda súbita da função cerebral devida à falta de fluxo sanguíneo adequado. Está associada a um coágulo sanguíneo e possui um fator de risco que aumenta a coagulação sanguínea.",
+      "classification_reasoning": "A opção mais precisa é a Código 8B11.42, pois a descrição refere-se a Acidente Vascular Cerebral Isquêmico devido a estado de hipercoagulabilidade, que se relaciona com o termo 'mv positivo' (Movimento cardíaco positivo) mencionado no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'mv positivo' se refere ao Movimento cardíaco positivo, que não está relacionado à Acidente Vascular Cerebral Isquêmico devido a estado de hipercoagulabilidade. A opção mais precisa seria um código CID-11 que represente a condição clínica descrita no prontuário, como por exemplo o código 8B11.01 - 'Representação de doença CID-11: Insuficiência renal crônica'.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG29.1": {
+      "term_original": "melhora do edema",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'melhora do edema' é o código MG29.1, pois é descrita como outro edema generalizado especificado, o que se encaixa com a informação de que houve melhora do edema no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'melhora do edema' não é um código específico de doença, mas sim uma observação clínica. O código MG29.1 é muito amplo e não captura a especificidade da melhora do edema no contexto do paciente. A classificação CID-11 deve ser mais precisa e refletir a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "3A81": {
+      "term_original": "policitemia",
+      "capitulo": "03",
+      "confidence_embedding": 0.7401,
+      "descricao_cid": "Representação de doença CID-11: Policitemia adquirida. Definição: Policitemia secundária é adquirida e causada por um aumento natural ou artificial da produção de eritropoietina e, portanto, por um aumento na produção de eritrócitos.",
+      "classification_reasoning": "A escolha do código 3A81 (Policitemia adquirida) é justificada pelo termo 'policitemia' presente no prontuário, que refere-se a um aumento na produção de eritrócitos. O contexto clínico sugere que a policitemia está relacionada à doença renal crônica e ao tratamento realizado (TX RENAL), o que reforça a escolha do código 3A81.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A policitemia descrita no prontuário é uma condição clínica que se refere a um aumento na produção de eritrócitos, mas o código CID-11 3A81 (Policitemia adquirida) se refere especificamente à produção natural ou artificial da eritropoietina. Embora haja um aumento na produção de eritrócitos, não há evidência clínica suficiente para justificar a escolha do código 3A81, que é mais específico e se refere à causa da policitemia. Portanto, o código CID-11 atribuído não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "XS2V": {
+      "term_original": "simetrico",
+      "capitulo": "X",
+      "confidence_embedding": 0.7093,
+      "descricao_cid": "Representação de doença CID-11: Doença em um único vaso. Definição: ",
+      "classification_reasoning": "A palavra 'simetrico' se refere à representação de uma doença em um único vaso, o que é consistente com a descrição de 'MV POSITIVO, SIMETRICO' no contexto do prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'simetrico' se refere à representação de uma condição anatomofisiológica, enquanto o código CID-11 XS2V representa uma doença em um único vaso. Embora haja uma relação superficial entre a simetria e a localização da trombose, não há uma relação clínica direta entre as duas informações. Portanto, é necessário remover o código CID-11 XS2V e reavaliar a codificação com base nas informações do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD71.2": {
+      "term_original": "trombose de fav",
+      "capitulo": "11",
+      "confidence_embedding": 0.7956,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A trombose de fav é mencionada como uma lesão passada, e o contexto sugere que se refere a uma trombose venosa na veia renal, pois há menção à terapia renal em janeiro de 2015 e à poliquitemia.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A análise do prontuário revela que a trombose de fav é mencionada como uma lesão passada e está claramente relacionada à terapia renal em janeiro de 2015. A poliquitemia também está presente, o que reforça a hipótese de que se trata de uma trombose venosa na veia renal. Portanto, a codificação CID-11 BD71.2 é válida e representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

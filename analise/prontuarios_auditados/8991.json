@@ -1,0 +1,160 @@
+{
+  "prontuario_id": 526,
+  "text": "Às 14:30hrs: paciente consciente, comunicativa, eupneica em aa, em repouso no leito, aceitando bem dieta oferecida via oral, apresenta edema + hematoma em ombro e, com boa perfusão e mobilidade distal, diurese presente, seguem cuidados de enfermagem. FRATURA DA EXTREMIDADE SUPERIOR DO UMERO. Às 02:24: Lucido, comunicativo, orientado, em repouso no leito, apresenta curativo em regiao femur direito com presença de secreçao serossanguinolenta, sem queixas algicas no momento, aceita dieta oferecida, diurese presente, segue cuidados. CELULITE NAO ESPECIFICADA. Encaminhada às 15:30h ao CC. Entregue às 17h os pertences para esposo após conferência na presença do mesmo (continham em 02 sacolas roupas, chinelo, aparelho celular, carregador de celular, cerca de R$ 10, materias de higiene não utilizados na unidade). CISTOS CEREBRAIS.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "paciente"
+    ],
+    "Achado": [
+      "consciente",
+      "comunicativa",
+      "eupneica",
+      "Lucido",
+      "comunicativo",
+      "orientado",
+      "repouso no leito",
+      "aceitando bem dieta oferecida via oral",
+      "boa perfusão",
+      "mobilidade distal",
+      "diurese presente",
+      "aceita dieta oferecida"
+    ],
+    "Função Patológica": [
+      "edema",
+      "hematoma"
+    ],
+    "Sinal ou Sintoma": [
+      "edema",
+      "hematoma",
+      "secreçao serossanguinolenta",
+      "queixas algicas"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ombro"
+    ],
+    "Dispositivo Médico": [
+      "curativo"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "curativo",
+      "repouso no leito"
+    ],
+    "Conceito Temporal": [
+      "momento",
+      "após"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "cuidados",
+      "Encaminhada",
+      "Entregue",
+      "cuidados de enfermagem"
+    ],
+    "Abreviação": [
+      "CC"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CC"
+    ],
+    "Grupo Familiar": [
+      "esposo"
+    ],
+    "Função Fisiológica": [
+      "diurese presente"
+    ],
+    "Lesão ou Envenenamento": [
+      "FRATURA DA EXTREMIDADE SUPERIOR DO UMERO"
+    ],
+    "Localização ou Região Corporal": [
+      "regiao femur direito"
+    ],
+    "Substância Corporal": [
+      "secreçao serossanguinolenta"
+    ],
+    "Doença ou Síndrome": [
+      "CELULITE NAO ESPECIFICADA",
+      "CISTOS CEREBRAIS"
+    ]
+  },
+  "labels": {
+    "MB23.H": {
+      "term_original": "queixas algicas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7767,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A opção mais precisa é a Crise de pânico (Código: MB23.H), pois o termo 'queixas algicas' sugere um episódio de dor ou desconforto intenso, característico dos ataques de pânico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'queixas algicas' não está relacionado à Crise de pânico, que é um diagnóstico específico. A presença desse termo no prontuário sugere mais uma condição clínica subjacente, como dor ou desconforto, que não está diretamente relacionada à Crise de pânico. Portanto, a codificação CID-11 MB23.H não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "FA25": {
+      "term_original": "mobilidade distal",
+      "capitulo": "15",
+      "confidence_embedding": 0.7033,
+      "descricao_cid": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato.",
+      "classification_reasoning": "A mobilidade distal é uma característica descrita no prontuário do paciente, o que sugere a presença de dor e edema nas articulações (artralgias e artropatia), tipicamente encontradas em pacientes com gota.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A mobilidade distal não é suficiente para justificar a atribuição do código CID-11 FA25, que representa gota. A gota é uma doença específica que requer a presença de cristais de urato no líquido sinovial aspirado e ausência de etiologia alternativa para artrite. A mobilidade distal pode ser um sintoma de várias condições, incluindo gota, mas não é um critério diagnóstico exclusivo.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "NE81.0Z": {
+      "term_original": "hematoma",
+      "capitulo": "22",
+      "confidence_embedding": 0.8049,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NE81.0Z porque o termo 'hematoma' não especifica a localização, e a descrição desse código se refere a hematoma de outro local ou não especificada que está relacionado à fratura da extremidade superior do úmero mencionada no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'hematoma' não especifica a localização, mas no contexto clínico há uma fratura da extremidade superior do úmero com edema e hematoma em ombro. A opção mais precisa é NE81.0Z porque o código se refere a hematoma de outro local ou não especificada que está relacionado à fratura mencionada no contexto clínico. No entanto, ao considerar que o termo 'hematoma' pode estar relacionado a outras condições clínicas e não apenas à fratura do úmero, é necessário remover o código NE81.0Z pois é muito genérico e pode levar a erros de diagnóstico.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "NB90": {
+      "term_original": "secreçao serossanguinolenta",
+      "capitulo": "22",
+      "confidence_embedding": 0.7445,
+      "descricao_cid": "Representação de doença CID-11: Lesão de vasos sanguíneos ao nível do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A secreção serossanguinolenta é uma possível consequência de lesão vascular sanguínea ao nível do abdome, região lombar ou pelve, o que é descrito no código CID-11 NB90.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A secreção serossanguinolenta não está relacionada à lesão vascular sanguínea ao nível do abdome, região lombar ou pelve descrita no código CID-11 NB90. A descrição do prontuário refere-se a uma fratura da extremidade superior do úmero e curativo em região femur direito, não há relação com lesão vascular sanguínea.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME83": {
+      "term_original": "celulite nao especificada",
+      "capitulo": "21",
+      "confidence_embedding": 0.7192,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo, não especificado. Definição: É um grupo de doenças marcadas por inflamação ou dor em estruturas de tecido conjuntivo do corpo e é considerado não especificado.",
+      "classification_reasoning": "Aceleração muscular não especificada com edema e hematoma no ombro, sugerindo lesão muscular ou tecidual na região. A descrição de celulite não especificada é mais consistente com um processo inflamatório ou tecidual do que com outras opções.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição de 'celulite não especificada' é muito genérica e não apresenta características clínicas específicas que justifiquem a atribuição do código ME83 (Reumatismo, não especificado). A celulite é um termo amplo que pode se referir a diferentes processos patológicos, e sem mais informações no prontuário, não há como garantir que essa condição esteja relacionada ao Reumatismo. Além disso, o prontuário apresenta outras condições clínicas mais específicas, como a fratura da extremidade superior do úmero e os cistos cerebrais.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "NA07.2Z": {
+      "term_original": "edema",
+      "capitulo": "22",
+      "confidence_embedding": 0.7738,
+      "descricao_cid": "Representação de doença CID-11: Edema cerebral traumático, não especificado. Definição: ",
+      "classification_reasoning": "A escolha é justificada pela presença de edema na região do ombro e a falta de contexto clínico que sugira concussão ou lesão medular. Além disso, não há indicações de envolvimento da medula espinhal torácica, lombar ou sacral.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'edema' está presente no prontuário, mas não há indicação de que seja relacionado a uma lesão cerebral. A presença de edema na região do ombro sugere mais uma lesão periférica do que um dano cerebral. Além disso, a falta de contexto clínico que sugira concussão ou lesão medular reforça essa impressão. Portanto, o código CID-11 NA07.2Z não representa fielmente o termo 'edema' no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA38.3": {
+      "term_original": "fratura da extremidade superior do umero",
+      "capitulo": "15",
+      "confidence_embedding": 0.7116,
+      "descricao_cid": "Representação de doença CID-11: Artropatia hemofílica. Definição: Trata-se da destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia. Esta condição inclui a ocorrência de hemartrose aguda, artrite subaguda ou crônica e artropatia hemofílica em estágio terminal. Quase todos os pacientes com hemofilia A ou B grave e metade dos pacientes com atividade de doença moderada apresentam hemartrose. Os sintomas incluem dor nas articulações (artralgias), edema articular, fibrose articular, desenvolvimento de deformidades em flexão e erosão da cartilagem articular. As articulações mais comumente afetadas são joelhos, tornozelos, cotovelos, ombros e quadris (em ordem de frequência). O sangramento nos músculos e partes moles também pode causar disfunção musculoesquelética.",
+      "classification_reasoning": "A fratura da extremidade superior do úmero, descrita no prontuário, é característica da artropatia hemofílica, uma condição crônica que causa destruição das articulações nos membros superiores e inferiores. A presença de edema e hematoma na região sugere lesão muscular e tecido conjuntivo associada à doença.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fratura da extremidade superior do úmero descrita no prontuário não é uma condição clínica crônica que cause destruição das articulações, como definida na descrição do código CID-11 FA38.3. A artropatia hemofílica é caracterizada por lesões nas articulações, edema e hematoma, mas a fratura não está relacionada à doença. A classificação é incorreta e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8D68": {
+      "term_original": "cistos cerebrais",
+      "capitulo": "08",
+      "confidence_embedding": 0.7602,
+      "descricao_cid": "Representação de doença CID-11: Cisto porencefálico. Definição: Cavidade dentro do hemisfério cerebral que se comunica diretamente com o sistema ventricular. A necrose isquêmica intrauterina ou mais tarde na vida pode fazer com que a região ventricular adjacente se expanda para dentro da cavidade do acidente vascular cerebral, formando um cisto.",
+      "classification_reasoning": "O termo 'cistos cerebrais' está relacionado ao cisto porencefálico, que é uma cavidade dentro do hemisfério cerebral que se comunica diretamente com o sistema ventricular. A presença de cistos cerebrais é uma condição clínica caracterizada pela formação de uma cavidade no cérebro.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'cistos cerebrais' no prontuário não está relacionada ao cisto porencefálico descrito pelo código CID-11 8D68. O termo 'cistos cerebrais' é muito amplo e pode se referir a diferentes tipos de lesões ou anomalias cerebrais, enquanto o código CID-11 8D68 especificamente se refere ao cisto porencefálico. Portanto, a codificação não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "prontuario_id": 694,
+  "text": "Paciente com história de HAS, obesidade, vem à emergência com quadro de dispnéia progressiva, ortopnéia, dispnéia paroxística noturna, edema de membros inferiores, ascite (NYHA classe IV). Ao exame da chegada com turgência jugular e presença de B3. ECG com bloqueio de ramo esquerdo. Realizado Ecocardiograma que evidenciou dilatação de cavidades esquerdas (AE = 5cm, DDVE = 7,1; DSVE = 6,0), VEFE = 32% por hipocinesia difusa; septo e parede posterior com 1,0 cm e massa ventricular de aproximadamente 400 g; insuficiência mitral leve a moderada e PSAP = 64-69 mmHg. Cintilografia miocárdica sugestiva de miocardiopatia dilatada (hipertensiva?). Iniciado manejo para insuficiência cardíaca, com diuréticos, inibidor da ECA, espironolactona e digoxina, com boa resposta clínica, tendo perdido aproximadamente 22Kg. Posteriormente iniciado com beta-bloqueador, tendo atingido dose alvo na internação. Devido à perda de função renal, acabou-se trocando captopril por isossorbida + nitrato e suspendido diuréticos, com plano de restituição dos mesmos a nível ambulatorial. Recebe alta em bom estado geral, afebril, com classe funcional I-II, etiologia possivelmente hipertensiva, com plano de seguir acompanhamento ambulatorial e fazer uso das medicações prescritas. Em caso de piora, retornar à emergência deste Hospital com esta nota de alta em mãos.",
+  "entities": {
+    "Abreviação": [
+      "HAS",
+      "ECG",
+      "AE",
+      "DDVE",
+      "DSVE",
+      "VEFE",
+      "PSAP"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "obesidade",
+      "insuficiência mitral leve a moderada",
+      "miocardiopatia dilatada",
+      "insuficiência cardíaca"
+    ],
+    "Organização Relacionada à Saúde": [
+      "emergência",
+      "internação",
+      "ambulatorial",
+      "Hospital",
+      "nível ambulatorial"
+    ],
+    "Sinal ou Sintoma": [
+      "quadro",
+      "ortopnéia",
+      "edema",
+      "ascite",
+      "afebril",
+      "piora",
+      "dispnéia progressiva",
+      "dispnéia paroxística noturna",
+      "turgência jugular",
+      "presença de B3"
+    ],
+    "Procedimento Diagnóstico": [
+      "exame",
+      "ECG",
+      "Ecocardiograma",
+      "Cintilografia miocárdica"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Realizado",
+      "Iniciado",
+      "manejo",
+      "iniciado",
+      "internação",
+      "trocando",
+      "suspendido",
+      "alta",
+      "retornar",
+      "plano de restituição dos mesmos",
+      "uso das medicações prescritas"
+    ],
+    "Conceito Quantitativo": [
+      "5cm",
+      "32%",
+      "7 , 1",
+      "6 , 0",
+      "1 , 0 cm",
+      "400 g",
+      "64-69 mmHg",
+      "dose alvo"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "septo",
+      "mãos",
+      "membros inferiores",
+      "parede posterior"
+    ],
+    "Atributo Clínico": [
+      "PSAP"
+    ],
+    "Substância Farmacológica": [
+      "diuréticos",
+      "espironolactona",
+      "digoxina",
+      "beta-bloqueador",
+      "captopril",
+      "inibidor da ECA",
+      "isossorbida + nitrato"
+    ],
+    "Substância Química Orgânica": [
+      "espironolactona",
+      "digoxina",
+      "isossorbida + nitrato"
+    ],
+    "Conceito Temporal": [
+      "Posteriormente"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "captopril"
+    ],
+    "Negação": [
+      "afebril"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "bloqueio de ramo esquerdo",
+      "dilatação de cavidades esquerdas",
+      "hipocinesia difusa"
+    ],
+    "Achado": [
+      "boa resposta clínica",
+      "perdido aproximadamente 22Kg",
+      "bom estado geral"
+    ],
+    "Classificação": [
+      "classe funcional I-II"
+    ],
+    "Conceito Funcional": [
+      "etiologia possivelmente hipertensiva"
+    ]
+  },
+  "labels": {
+    "BC63.40": {
+      "term_original": "piora",
+      "capitulo": "11",
+      "confidence_embedding": 0.7959,
+      "descricao_cid": "Representação de doença CID-11: Bloqueio do fascículo anterior esquerdo. Definição: Transtorno do sistema de condução atrioventricular caracterizado por desvio do eixo para a esquerda para a idade (eixo do plano frontal entre -45 ° e -90 °), padrão qR na derivação aVL, tempo de pico R na derivação aVL de 45 ms ou mais e duração do QRS que não atende aos critérios dependentes da idade para bloqueio completo de ramo (menos de 120 ms em adultos, menos de 100 ms em crianças de 4 a 16 anos de idade e menos de 90 ms em crianças com menos de 4 anos de idade)",
+      "classification_reasoning": "O termo 'piora' está relacionado ao quadro de dispnéia progressiva do paciente, o que sugere que a condição cardiovascular dele piorou e não melhorou. Como o bloqueio do fascículo anterior esquerdo é caracterizado por desvio do eixo para a esquerda, padrão qR na derivação aVL e tempo de pico R na derivação aVL de 45 ms ou mais, essa opção é mais precisa para representar o quadro clínico do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 atribuído (BC63.40) refere-se a um bloqueio do fascículo anterior esquerdo, o que não está relacionado ao termo 'piora' descrito no prontuário. O paciente apresentou quadro de dispnéia progressiva e outros sintomas cardíacos, sugerindo uma piora da condição cardiovascular, mas isso não é representado pelo código CID-11 atribuído.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB01": {
+      "term_original": "edema",
+      "capitulo": "12",
+      "confidence_embedding": 0.7733,
+      "descricao_cid": "Representação de doença CID-11: Edema pulmonar. Definição: Edema pulmonar é uma condição causada por excesso de líquido nos pulmões, que se acumula nos sacos alveolares do pulmão, dificultando a respiração.",
+      "classification_reasoning": "A escolha foi pelo código CB01 - Edema pulmonar, pois o termo 'edema' presente no contexto clínico se refere especificamente ao edema de membros inferiores e possível edema jugular mencionado no texto. Além disso, a presença de edema pulmonar é uma característica importante na síndrome de insuficiência cardíaca do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'edema' presente no prontuário se refere a edema de membros inferiores e possível edema jugular, não apenas ao pulmão. O código CID-11 CB01 - Edema pulmonar é demasiado específico e não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BA01": {
+      "term_original": "dispnéia progressiva",
+      "capitulo": "11",
+      "confidence_embedding": 0.7949,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A escolha para o termo 'dispnéia progressiva' é a Doença cardíaca hipertensiva (Código CID-11: BA01) porque a história do paciente apresenta sintomas de dispnéia, ortopnéia e edema de membros inferiores, característicos de insuficiência cardíaca, provavelmente relacionada à hipertensão. A presença de bloqueio de ramo esquerdo no ECG e a dilatação das cavidades esquerdas no ecocardiograma sugerem também comprometimento sistólico progressivo, o que é consistente com a doença cardíaca hipertensiva.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código CID-11: BA01 (Doença cardíaca hipertensiva) é justificada pela presença de sintomas de insuficiência cardíaca, como dispnéia progressiva, ortopnéia e edema de membros inferiores. Além disso, a dilatação das cavidades esquerdas no ecocardiograma e o bloqueio de ramo esquerdo no ECG sugerem comprometimento sistólico progressivo, consistente com a doença cardíaca hipertensiva.",
+      "tipo_erro_auditoria": null
+    },
+    "5B81.0": {
+      "term_original": "has",
+      "capitulo": "05",
+      "confidence_embedding": 0.7705,
+      "descricao_cid": "Representação de doença CID-11: Obesidade devido a desequilíbrio energético. Definição: A obesidade é uma doença crônica e complexa, definida por adiposidade excessiva que pode prejudicar a saúde. Na maioria dos casos, é uma doença multifatorial devido a ambientes obesogênicos, fatores psicossociais e variantes genéticas. Em um subgrupo de pacientes, fatores etiológicos principais únicos podem ser identificados (doenças, imobilização, procedimentos iatrogênicos, doença monogênica / síndrome genética).",
+      "classification_reasoning": "A escolha pelo código de obesidade devido a desequilíbrio energético se justifica pela presença da história de obesidade no paciente e pelo fato de que a obesidade é uma condição subjacente ao desenvolvimento da insuficiência cardíaca congestiva descrita no relatório.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 5B81.0, que representa obesidade devido a desequilíbrio energético, não é clinicamente coerente com o prontuário. O paciente tem história de HAS e apresenta quadro de insuficiência cardíaca congestiva, edema de membros inferiores, ascite e outros sintomas que sugerem doença cardiovascular crônica. A obesidade pode ser um fator contribuinte para o desenvolvimento da insuficiência cardíaca, mas não é a causa primária da doença. Portanto, é necessário um código CID-11 mais específico e relacionado à doença cardiovascular do paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC81.30": {
+      "term_original": "dispnéia paroxística noturna",
+      "capitulo": "11",
+      "confidence_embedding": 0.8168,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A dispnéia paroxística noturna é caracterizada por episódios recorrentes de dispnéia que ocorrem durante o sono e terminam espontaneamente em menos de 7 dias. Este sintoma é compatível com a descrição da doença CID-11: Fibrilação atrial paroxística, o código BC81.30.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dispnéia paroxística noturna descrita no prontuário não é uma doença específica, mas sim um sintoma que pode ser causado por várias condições. A descrição da doença CID-11: Fibrilação atrial paroxística (BC81.30) não se ajusta à clínica do paciente, pois a dispnéia paroxística noturna não é caracterizada por episódios recorrentes de fibrilação atrial. Portanto, o código atribuído não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MG27": {
+      "term_original": "turgência jugular",
+      "capitulo": "21",
+      "confidence_embedding": 0.7351,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia, não classificada em outra parte. Definição: Sangramento ou saída de sangue de um vaso.",
+      "classification_reasoning": "A turgência jugular é uma manifestação de edema (inflamação) nos membros inferiores do paciente, que está relacionada à insuficiência cardíaca e ao aumento da pressão venosa. Esta opção é mais precisa para o termo dentro do contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A turgência jugular não é apenas uma representação de edema, mas também pode ser um sinal de insuficiência cardíaca. O código CID-11 MG27 'Hemorragia, não classificada em outra parte' não captura a natureza clínica da turgência jugular nesse contexto. Uma opção mais precisa seria o código CID-11 I95.5 'Edema periférico', que melhor representa a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BC63.4": {
+      "term_original": "quadro",
+      "capitulo": "11",
+      "confidence_embedding": 0.8189,
+      "descricao_cid": "Representação de doença CID-11: Bloqueio de ramo esquerdo. Definição: Transtorno do sistema de condução atrioventricular em que a duração do QRS é maior ou igual a 120 ms em adultos, maior que 100 ms em crianças de 4 a 16 anos de idade e maior que 90 ms em crianças menores de 4 anos; há um padrão QS ou rS na derivação V1 e uma onda R larga e empastada nas derivações I e V6.",
+      "classification_reasoning": "A presença de bloqueio de ramo esquerdo é justificada pela descrição do ECG com 'bloqueio de ramo esquerdo' e pela evidência da Ecocardiograma que mostrou dilatação de cavidades esquerdas, insuficiência mitral leve a moderada e PSAP = 64-69 mmHg.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 atribuído (BC63.4) refere-se a um bloqueio de ramo esquerdo, que não é diretamente relacionado ao quadro descrito no prontuário. O paciente apresenta uma história de HAS e sintomas de insuficiência cardíaca, com dilatação de cavidades esquerdas e insuficiência mitral leve a moderada. A presença de bloqueio de ramo esquerdo não é claramente descrita no prontuário, portanto, o código atribuído não representa fielmente o termo ou condição clínica descrita.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "90.0": {
+      "term_original": "presença de b3",
+      "capitulo": "09",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A presença de B3 é referida como um achado físico no exame da chegada do paciente, indicando a presença de edema (inchaço) na região jugular. O código 9E01 se refere à representação de doença CID-11: Edema jugular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de B3 não é uma condição clínica direta, mas sim um achado físico no exame da chegada do paciente. O código CID-11 9E01 se refere à representação de doença Edema jugular, que não está diretamente relacionada ao termo 'presença de B3'. A classificação é demasiadamente específica e não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "I48.9": {
+      "term_original": "ascite",
+      "capitulo": "12",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A ascite é um sintoma presente no paciente com história de HAS, obesidade e insuficiência cardíaca, indicando que a escolha mais precisa para o termo 'ascite' dentro do contexto clínico é a Insuficiência Cardíaca Não Específica (I48.9)",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A ascite é um sintoma que pode ser causado por várias condições, incluindo insuficiência cardíaca. No entanto, no contexto do prontuário, a ascite está claramente relacionada à insuficiência cardíaca e não é uma condição isolada. A escolha do código I48.9 (Insuficiência Cardíaca Não Específica) é muito genérica e não captura a complexidade da situação clínica. Uma classificação mais específica, como I51.7 (Insuficiência Cardíaca com Complicação), seria mais adequada.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BC43.0": {
+      "term_original": "miocardiopatia dilatada",
+      "capitulo": "11",
+      "confidence_embedding": 0.83,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida.",
+      "classification_reasoning": "A escolha do código BC43.0 é baseada na descrição de cardiomiopatia dilatada presente no prontuário, que menciona a dilatação das cavidades esquerdas e a presença de miocardiopatia dilatada sugerida pela cintilografia miocárdica.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código BC43.0 é justificada pela presença de dilatação das cavidades esquerdas e sugestão de miocardiopatia dilatada na cintilografia miocárdica, o que coincide com a definição da cardiomiopatia dilatada no CID-11. A descrição do prontuário não apresenta contradições óbvias ou alucinações, portanto, a codificação é considerada válida.",
+      "tipo_erro_auditoria": null
+    },
+    "BC63.3": {
+      "term_original": "ortopnéia",
+      "capitulo": "11",
+      "confidence_embedding": 0.8159,
+      "descricao_cid": "Representação de doença CID-11: Bloqueio de ramo direito. Definição: Transtorno do sistema de condução atrioventricular caracterizado por duração prolongada do QRS (maior ou igual a 120 ms em adultos, maior que 100 ms em crianças de 4 a 16 anos e maior que 90 ms em crianças menores de 4 anos), rsr , rsR ou rSR nas derivações V1 ou V2, onda S de duração maior do que a onda R (ou maior que 40 ms nas derivações I e V6 em adultos)",
+      "classification_reasoning": "O termo 'ortopnéia' se refere ao sintoma de dispneia que ocorre ao dormir, o que está descrito no paciente como 'dispneia paroxística noturna'. Além disso, a presença de bloqueio de ramo esquerdo e insuficiência mitral leve a moderada também sugerem uma doença cardíaca relacionada à ortopnéia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'ortopnéia' se refere ao sintoma de dispneia que ocorre ao dormir, o que não é diretamente relacionado ao código CID-11 BC63.3, que descreve um bloqueio de ramo direito. Além disso, a presença de bloqueio de ramo esquerdo e insuficiência mitral leve a moderada sugere uma doença cardíaca relacionada à ortopnéia, mas não há evidência clínica para sustentar essa classificação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BB63.1": {
+      "term_original": "insuficiência mitral leve a moderada",
+      "capitulo": "11",
+      "confidence_embedding": 0.7912,
+      "descricao_cid": "Representação de doença CID-11: Estenose mitral não reumática com insuficiência. Definição: É uma valvopatia não reumática caracterizada pelo estreitamento do orifício da valva mitral do coração, com regurgitação.",
+      "classification_reasoning": "A escolha pelo código BB63.1 é justificada pela presença de insuficiência mitral leve a moderada, descrita no prontuário, o que sugere um estreitamento do orifício da valva mitral com regurgitação, caracterizando uma estenose mitral não reumática com insuficiência.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha pelo código BB63.1 é justificada pela presença de insuficiência mitral leve a moderada, descrita no prontuário. No entanto, o termo 'insuficiência mitral' não é sinônimo de estenose mitral não reumática com insuficiência. A insuficiência mitral pode ser causada por várias razões, incluindo doenças cardíacas isquêmicas ou dilatadas, e não necessariamente implica em estreitamento do orifício da valva mitral. Portanto, a escolha pelo código BB63.1 é uma sobre-classificação e não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA51": {
+      "term_original": "insuficiência cardíaca",
+      "capitulo": "11",
+      "confidence_embedding": 0.8223,
+      "descricao_cid": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas.",
+      "classification_reasoning": "A paciente apresenta insuficiência cardíaca, com dilatação de cavidades esquerdas e hipocinesia difusa, sugerindo miocardiopatia isquêmica. Além disso, o ECG mostra bloqueio de ramo esquerdo, o que também é consistente com esta escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente apresenta insuficiência cardíaca com dilatação de cavidades esquerdas e hipocinesia difusa, sugerindo miocardiopatia dilatada (hipertensiva?) em vez de miocardiopatia isquêmica. Além disso, o ECG mostra bloqueio de ramo esquerdo, que não é consistente com a escolha do código CID-11 BA51.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5B81.01": {
+      "term_original": "obesidade",
+      "capitulo": "05",
+      "confidence_embedding": 0.8047,
+      "descricao_cid": "Representação de doença CID-11: Obesidade em adultos. Definição: A obesidade é definida como um índice de massa corporal (IMC) maior ou igual a 30,0 kg/m². Existem três níveis de gravidade em reconhecimento das diferentes opções de gerenciamento.",
+      "classification_reasoning": "A obesidade é mencionada como uma característica da história do paciente, e o código 5B81.01 se refere especificamente à obesidade em adultos com IMC maior ou igual a 30,0 kg/m².",
+      "decisao": "MANTER",
+      "motivo_decisao": "A obesidade é mencionada como uma característica da história do paciente e está diretamente relacionada ao quadro clínico descrito no prontuário. O código CID-11 5B81.01 se refere especificamente à obesidade em adultos com IMC maior ou igual a 30,0 kg/m², o que coincide com a descrição do paciente. Portanto, mantém-se a classificação como válida.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

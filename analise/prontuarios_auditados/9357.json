@@ -1,0 +1,65 @@
+{
+  "prontuario_id": 430,
+  "text": "1ª cons , 06/09/41 - 73 anos.\n\nDor col cerical / col lombar com irradiação p Miesq\n\ncita q a consulta com Doutor Vital Brazil iria demorar \" sic \" \n\ncita q foi att varias vezes no plantão do onix sem melhora \" sic \".\n\naval c coluna\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "cons",
+      "Miesq",
+      "sic",
+      "att",
+      "aval",
+      "c",
+      "col cerical",
+      "col lombar"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "cons",
+      "consulta",
+      "att",
+      "aval"
+    ],
+    "Sinal ou Sintoma": [
+      "Dor",
+      "irradiação"
+    ],
+    "Localização ou Região Corporal": [
+      "Miesq",
+      "col cerical",
+      "col lombar"
+    ],
+    "Organização Relacionada à Saúde": [
+      "plantão"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Achado": [
+      "melhora"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "coluna"
+    ]
+  },
+  "labels": {
+    "8A80.2": {
+      "term_original": "irradiação",
+      "capitulo": "08",
+      "confidence_embedding": 0.7319,
+      "descricao_cid": "Representação de doença CID-11: Enxaqueca crônica. Definição: Cefaleia que ocorre em 15 ou mais dias por mês por mais de três meses, que, em pelo menos oito dias por mês, tem características de cefaleia migranosa e não está associada ao uso excessivo de medicamentos.",
+      "classification_reasoning": "A opção mais precisa é a Enxaqueca crônica (Código 8A80.2), pois o termo 'irradiação' está relacionado à cefaleia que pode irradiar para outras áreas do corpo, como mencionado no contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção 8A80.2 (Enxaqueca crônica) é justificada pelo termo 'irradiação', que está relacionado à cefaleia que pode irradiar para outras áreas do corpo, como mencionado no contexto clínico. A dor cervical e lombar com irradiação para membros inferiores é um sintoma comum em enxaqueca crônica.",
+      "tipo_erro_auditoria": null
+    },
+    "FA79.0": {
+      "term_original": "dor",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A dor col cervical e lombar com irradiação para membros inferiores é um sintoma característico de problemas degenerativos ou inflamatórios na coluna vertebral. A escolha do código FA79.0 (Representação de doença CID-11: Dor nas costas) é a mais precisa para o termo 'dor' no contexto clínico apresentado.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dor col cervical e lombar com irradiação para membros inferiores é um sintoma característico de problemas degenerativos ou inflamatórios na coluna vertebral, o que justifica a escolha do código FA79.0 (Representação de doença CID-11: Dor nas costas). A descrição clínica apresentada no prontuário está clinicamente coerente com o termo 'dor' e não há contradições óbvias ou alucinações.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

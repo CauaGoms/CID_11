@@ -1,0 +1,88 @@
+{
+  "prontuario_id": 805,
+  "text": "PACIENTE COM DIAGNÓSTICO DE ESTENOSE MITRAL REUMÁTICA, SUBMETIDA À TENTATIVA DE VALVULOPLASTIA MITRAL POR BALÃO EM 17/02, PROCEDIMENTO SEM SUCESSO. EM 19/02 FOI REALIZADA A VALVULOPLASTIA MITRAL CIRÚRGICA, PÓS-OP SEM COMPLICAÇÕES. TEM ALTA EM BOM ESTADO GERAL, COM ANEMIA  LEVE. ECOCÁRDIO PÓS-OP EM ANEXO.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Produto Intelectual": [
+      "DIAGNÓSTICO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "PROCEDIMENTO",
+      "VALVULOPLASTIA MITRAL POR BALÃO",
+      "VALVULOPLASTIA MITRAL CIRÚRGICA"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Achado": [
+      "SUCESSO",
+      "BOM ESTADO GERAL"
+    ],
+    "Conceito Temporal": [
+      "PÓS-OP"
+    ],
+    "Abreviação": [
+      "PÓS-OP"
+    ],
+    "Sinal ou Sintoma": [
+      "COMPLICAÇÕES"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ALTA"
+    ],
+    "Doença ou Síndrome": [
+      "ANEMIA",
+      "ESTENOSE MITRAL REUMÁTICA"
+    ],
+    "Conceito Qualitativo": [
+      "LEVE"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECOCÁRDIO"
+    ]
+  },
+  "labels": {
+    "BB60.0": {
+      "term_original": "estenose mitral reumática",
+      "capitulo": "11",
+      "confidence_embedding": 0.8465,
+      "descricao_cid": "Representação de doença CID-11: Estenose mitral reumática. Definição: A estenose mitral refere-se ao estreitamento do orifício da valva mitral, resultando em impedância de enchimento do ventrículo esquerdo na diástole. Geralmente é causada por doença cardíaca reumática.",
+      "classification_reasoning": "A escolha do código BB60.0 é a mais precisa porque o termo 'estenose mitral reumática' indica uma estenose causada por doença cardíaca reumática, o que se alinha com a definição da opção BB60.0.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código BB60.0 é justificada porque o termo 'estenose mitral reumática' diretamente se refere à estenose causada por doença cardíaca reumática, que é a definição da opção BB60.0. A codificação CID-11 está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "3A00.0": {
+      "term_original": "anemia",
+      "capitulo": "03",
+      "confidence_embedding": 0.7598,
+      "descricao_cid": "Representação de doença CID-11: Anemia adquirida por deficiência de ferro devido à perda de sangue. Definição: Perda crônica de sangue é uma possivel causa em todos os casos de anemia por deficiência de ferro. Anemia por deficiência de ferro pode ser causada por sangramento agudo no trato gastrointestinal, útero ou sistema genitourinário, perda sanguinea menstrual copiosa (menorragia) e múltiplas doações de sangue. Em muitos países tropicais, infestações parasitárias podem levar a perdas intestinais que em alguns individuos pode ser considerável. A deficiência de ferro pode ser também causada por várias circunstâncias relatadas como \"anemia pós hemorragia crônica\". O diagnóstico de deficiência de ferro deve sempre levar a procura de causas patológicas de perda de sangue ( por exemplo tumores do trato gastrointestinal ou do útero, especialmente se o sangramento uterino aumentou ou ficou irregular.)",
+      "classification_reasoning": "Escolha feita devido à presença do termo 'anemia' no contexto, que é mais provável estar relacionado a uma perda crônica de sangue, como mencionado na descrição da opção selecionada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A anemia descrita no prontuário é uma consequência da estenose mitral reumática e não está relacionada a perda crônica de sangue, como descrito na opção selecionada. A escolha do código CID-11 3A00.0 é incorreta e não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MC20.2": {
+      "term_original": "sucesso",
+      "capitulo": "21",
+      "confidence_embedding": 0.7325,
+      "descricao_cid": "Representação de doença CID-11: Hipópio. Definição: Hipópio é a presença de células inflamatórias na câmara anterior do olho. Corresponde a um exsudato leucocitário, observado na câmara anterior, geralmente acompanhado de hiperemia de conjuntiva e episclera subjacente. É um sinal de inflamação da úvea anterior e da íris, ou seja, irite, que é uma forma de uveíte anterior. O exsudado deposita-se no fundo devido à ação da gravidade.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sucesso' no contexto clínico é a hipópio (MC20.2), pois refere-se à presença de células inflamatórias na câmara anterior do olho, o que não tem relação com o procedimento cirúrgico realizado no paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção MC20.2 não se refere ao termo 'sucesso' no contexto do prontuário, que descreve um procedimento cirúrgico realizado com sucesso (não houve complicações). A hipópio é uma condição clínica relacionada à inflamação da úvea anterior e da íris, não tem relação com o termo 'sucesso'. Portanto, a codificação CID-11 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NB31.40": {
+      "term_original": "complicações",
+      "capitulo": "22",
+      "confidence_embedding": 0.7579,
+      "descricao_cid": "Representação de doença CID-11: Lesão da valva mitral. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NB31.40, pois a descrição refere-se a lesão da valva mitral, que está relacionada ao procedimento de valvuloplastia mitral cirúrgica e às complicações referidas no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção NB31.40, Lesão da valva mitral, não representa fielmente as complicações referidas no prontuário. A descrição do código CID-11 se refere a lesão da valva mitral, que está relacionada ao procedimento de valvuloplastia mitral cirúrgica e às complicações, mas o termo extraído 'complicações' não é diretamente relacionado à Lesão da valva mitral. A classificação é demasiadamente específica e não captura a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

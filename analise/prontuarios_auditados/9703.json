@@ -1,0 +1,171 @@
+{
+  "prontuario_id": 88,
+  "text": "TX RENAL.\n\nDM, \nHAS,\nPDN 5, FK 2 / 1, AMIODARONA 200, OMP 40, ATENOLOL 25 X2, LEVOID 100, AMIODARONA 200, FDS 40, NPH 50 / 26 / 12 E IR IT 10 / 10 / 10\n\nS: LESÃO MÃO > NÃO FOI A CX GERAL.\nENDO > EM LISTA DE ESPERA.\nCARDIOLOGIA > FEZ CATETERISMO. \n\nS: SEM QUEIXAS.\nO: PA 120/80,  P 78, AFEBRIL,  PESO 84.\nEX SEGMNETAR.\n4QDE COM LESÃO NECROTICA. \nSOBREPESO.\nTX RENAL COM CR 1,37 E NS FK 6,0.\nLESÃO MÃO ESQUERDA.\nHAS.\nDM.\n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "DM",
+      "HAS",
+      "PDN",
+      "FK",
+      "OMP",
+      "FDS",
+      "NPH",
+      "IR",
+      "IT",
+      "ENDO",
+      "PA",
+      "P",
+      "4QDE",
+      "TX RENAL",
+      "CX GERAL",
+      "EX SEGMNETAR",
+      "CR 1 , 37",
+      "NS FK 6 , 0"
+    ],
+    "Doença ou Síndrome": [
+      "DM",
+      "HAS"
+    ],
+    "Substância Farmacológica": [
+      "PDN",
+      "FK",
+      "AMIODARONA",
+      "OMP",
+      "ATENOLOL",
+      "LEVOID",
+      "FDS",
+      "NPH",
+      "IR"
+    ],
+    "Substância Química Orgânica": [
+      "PDN",
+      "FK",
+      "AMIODARONA",
+      "OMP",
+      "ATENOLOL"
+    ],
+    "Hormônio": [
+      "PDN",
+      "NPH",
+      "IR"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "200",
+      "40",
+      "100",
+      "120/80",
+      "78",
+      "84",
+      "2 / 1",
+      "25 X2",
+      "50 / 26 / 12",
+      "10 / 10 / 10"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "NPH",
+      "IR"
+    ],
+    "Negação": [
+      "NÃO",
+      "SEM",
+      "AFEBRIL"
+    ],
+    "Procedimento Diagnóstico": [
+      "ENDO",
+      "CATETERISMO",
+      "EX SEGMNETAR"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CARDIOLOGIA",
+      "CX GERAL"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "CARDIOLOGIA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CATETERISMO",
+      "TX RENAL"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "AFEBRIL",
+      "SOBREPESO"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PESO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "4QDE",
+      "MÃO ESQUERDA"
+    ],
+    "Lesão ou Envenenamento": [
+      "LESÃO MÃO",
+      "LESÃO NECROTICA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "LISTA DE ESPERA"
+    ],
+    "Função Patológica": [
+      "LESÃO NECROTICA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 1 , 37",
+      "NS FK 6 , 0"
+    ]
+  },
+  "labels": {
+    "NB90.7": {
+      "term_original": "lesão necrotica",
+      "capitulo": "22",
+      "confidence_embedding": 0.7468,
+      "descricao_cid": "Representação de doença CID-11: Lesão de múltiplos vasos sanguíneos ao nível do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A lesão necrotica descrita no prontuário é mais provável ser uma lesão de múltiplos vasos sanguíneos ao nível do abdome, região lombar ou pelve, considerando a presença de doença renal (TX RENAL) e lesão de mão esquerda.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão necrotica descrita no prontuário não é uma lesão de múltiplos vasos sanguíneos ao nível do abdome, região lombar ou pelve. A presença de doença renal (TX RENAL) e lesão de mão esquerda sugere que a lesão necrotica é mais provável ser uma lesão localizada na mão esquerda, não relacionada à doença renal. Portanto, o código CID-11 atribuído (NB90.7) não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NC56.5Z": {
+      "term_original": "lesão mão",
+      "capitulo": "22",
+      "confidence_embedding": 0.7861,
+      "descricao_cid": "Representação de doença CID-11: Lesão do vaso sanguíneo do outro dedo da mão, não especificada. Definição: ",
+      "classification_reasoning": "A lesão mão mencionada no prontuário refere-se à lesão do vaso sanguíneo da mão esquerda, o que é compatível com a descrição do código NC56.5Z",
+      "decisao": "MANTER",
+      "motivo_decisao": "A lesão mão mencionada no prontuário refere-se à lesão do vaso sanguíneo da mão esquerda, o que é compatível com a descrição do código NC56.5Z. A codificação CID-11 está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "4A85.01": {
+      "term_original": "dm",
+      "capitulo": "04",
+      "confidence_embedding": 0.7643,
+      "descricao_cid": "Representação de doença CID-11: Hipersensibilidade renal induzida por droga. Definição: Hipersensibilidade renal induzida por droga constitui uma importante causa de insuficiência renal aguda e doença renal crônica na prática clínica atual. Diferentes classes de drogas, em virtude de mecanismos imunológicos, desencadeiam respostas inflamatórias renais específicas, que se manifestam por diferentes padrões clínicos, como a nefrite intersticial induzida por drogas. A hipersensibilidade renal induzida por drogas pode se manifestar isoladamente ou em combinação com outros transtornos de hipersensibilidades induzida por drogas em outro órgão ou sistema.",
+      "classification_reasoning": "A opção mais precisa para o termo 'dm' é a hipersensibilidade renal induzida por droga, pois a paciente tem TX RENAL e NS FK 6,0, indicando insuficiência renal aguda ou doença renal crônica provavelmente relacionada à medicação.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hipersensibilidade renal induzida por droga é uma condição clínica diretamente relacionada à medicação e ao resultado do exame de imagem (TX RENAL com CR 1,37 e NS FK 6,0). A presença de DM também está relacionada à doença renal. Portanto, a codificação CID-11 '4A85.01' é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MF96": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7743,
+      "descricao_cid": "Representação de doença CID-11: Proteinúria. Definição: O excesso de proteínas séricas na urina, como na doença renal, em que a albumina é a proteína principal, porém também pode ser devido a outras proteínas, como imunoglobulinas de cadeias leves na discrasia de células plasmáticas como o mieloma múltiplo.",
+      "classification_reasoning": "A opção mais precisa para o termo 'queixas' é a proteínaúria (Código MF96), pois não há referência à dor ou outras manifestações clínicas associadas à cólica renal, hipoplasia renal ou crises de pânico no contexto do prontuário. Além disso, a presença da lesão necrotica e sobrepeso sugere que a doença renal é uma possibilidade importante.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 MF96 (Proteinúria) não é clinicamente coerente com o prontuário, pois a lesão renal e a proteinúria são condições clínicas diferentes. A presença de DM, HAS, PDN 5, FK 2/1, AMIODARONA 200, OMP 40, ATELOLOL 25 X2, LEVOID 100, AMIODARONA 200, FDS 40, NPH 50/26/12 e IR IT 10/10/10 sugere que a doença renal é uma condição mais ampla do que apenas proteinúria. Além disso, a lesão necrotica e o sobrepeso também sugerem que a doença renal é uma possibilidade importante.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5C78": {
+      "term_original": "sobrepeso",
+      "capitulo": "05",
+      "confidence_embedding": 0.7857,
+      "descricao_cid": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem.",
+      "classification_reasoning": "A descrição do termo 'sobrepeso' se encaixa com a definição de sobrecarga de líquidos (Sobrecarga de líquidos: condição em que há muito líquido no sangue) presente na opção 5C78.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'sobrepeso' se encaixa com a definição de sobrecarga de líquidos (Sobrecarga de líquidos: condição em que há muito líquido no sangue) presente na opção 5C78. A presença de sobrepeso é claramente relacionada à sobrecarga de líquidos, pois o excesso de peso pode contribuir para a expansão do volume sanguíneo e consequentemente para a sobrecarga de líquidos.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

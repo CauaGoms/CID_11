@@ -1,0 +1,116 @@
+{
+  "prontuario_id": 116,
+  "text": "Paciente HAS, cardiopatia isquêmica, com CRM em 1993. Lesão em ponte de safena para CD com tentativa de ACTP sem sucesso em 08/2000, mas com ACTP + stent em segmento proximal de CD, bem como ACTP em segmentos médio e distal da CD nativa com sucesso. SCA sem supra ST em 10/2004. CAT com lesão em Cx, sendo realizado tentativa de ACTP neste vaso no dia 25/10/04, sem sucesso por dissecção. Posteriormente marcadores cardíacos revelaram IAM peri-ACTP. Nova tentativa de CATP em CX em 29/10/04, também sem sucesso. Permaneceu assintomático após as referidas tentativas, com controle da pressão e estabilidade hemodinâmica. Recebe alta com sinais vitais estáveis e com orientações de retorno ao seu médico para acompanhamento e revisão. Medicações em uso conforme receita anexa a este sumário de alta. Orientação quanto aos critérios de procurar atendimento médico de emergência. ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "cardiopatia isquêmica",
+      "SCA sem supra ST"
+    ],
+    "Abreviação": [
+      "HAS",
+      "CRM",
+      "ACTP",
+      "CAT",
+      "Cx",
+      "CX",
+      "tentativa de ACTP",
+      "segmento proximal de CD",
+      "SCA sem supra ST",
+      "IAM peri-ACTP",
+      "tentativa de CATP"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CRM",
+      "ACTP",
+      "stent",
+      "CAT",
+      "tentativa de ACTP",
+      "tentativa de CATP"
+    ],
+    "Negação": [
+      "sem",
+      "assintomático"
+    ],
+    "Achado": [
+      "sucesso",
+      "assintomático",
+      "controle da pressão",
+      "estabilidade hemodinâmica",
+      "sinais vitais estáveis"
+    ],
+    "Dispositivo Médico": [
+      "stent"
+    ],
+    "Conceito Espacial": [
+      "distal",
+      "segmentos médio"
+    ],
+    "Procedimento Diagnóstico": [
+      "CAT"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "Cx",
+      "CX",
+      "ponte de safena",
+      "segmento proximal de CD"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "alta",
+      "orientações",
+      "retorno",
+      "acompanhamento",
+      "revisão",
+      "receita",
+      "Orientação"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "médico"
+    ],
+    "Substância Farmacológica": [
+      "Medicações"
+    ],
+    "Produto Intelectual": [
+      "receita",
+      "sumário de alta"
+    ],
+    "Procedimento Laboratorial": [
+      "marcadores cardíacos"
+    ]
+  },
+  "labels": {
+    "BC44": {
+      "term_original": "cardiopatia isquêmica",
+      "capitulo": "11",
+      "confidence_embedding": 0.799,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia não compactada. Definição: A cardiomiopatia não compactada é uma anormalidade morfológica do miocárdio que afeta predominantemente o ápice do ventrículo, caracterizada por hipertrabeculação e recessos intertrabeculares profundos, geralmente acompanhados por uma camada subepicárdica anormalmente fina de miocárdio compactado, que geralmente, mas nem sempre, está associada à disfunção ventricular. \r\n\r\nInformações adicionais. A cardiomiopatia não compactada envolve classicamente o ventrículo esquerdo, mas também pode envolver apenas o ventrículo direito ou ambos. Pode ocorrer como um achado isolado ou em associação com um fenótipo cardiomiopático dilatado, hipertrófico ou misto. Foi descrita em associação a cardiopatia congênita complexa, anomalias das artérias coronárias e como um achado isolado, com e sem anormalidades musculoesqueléticas e outras anormalidades sistêmicas.",
+      "classification_reasoning": "A cardiopatia isquêmica mencionada no contexto do prontuário refere-se à doença arterial coronariana, e não há evidências de alterações morfológicas ou funcionalidades do miocárdio compactado. A escolha BC44 (Cardiomiopatia não compactada) é mais precisa para o termo extraído 'cardiopatia isquêmica' no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A cardiopatia isquêmica mencionada no prontuário refere-se à doença arterial coronariana, que é uma condição clínica diferente da Cardiomiopatia não compactada (BC44). A escolha do código BC44 não representa fielmente o termo extraído 'cardiopatia isquêmica' no contexto clínico.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B11": {
+      "term_original": "sca sem supra st",
+      "capitulo": "08",
+      "confidence_embedding": 0.6652,
+      "descricao_cid": "Representação de doença CID-11: Acidente cerebral isquêmico. Definição: Disfunção neurológica focal aguda causada por infarto focal em uma ou várias localizações do cérebro. A evidência de infarto agudo pode ser proveniente de a) duração dos sintomas por mais de 24 horas, ou b) neuroimagem ou outra técnica na área clinicamente relevante do cérebro. O termo não inclui infarto da retina.",
+      "classification_reasoning": "A escolha do código 8B11 é a mais precisa para o termo 'SCA sem supra ST' no contexto de uma cardiopatia isquêmica, com histórico de lesão em ponte de safena e tentativas de CATP, indicando um acidente cerebral isquêmico agudo sem supramarginal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'SCA sem supra ST' não representa um acidente cerebral isquêmico agudo, como descrito no código CID-11. A SCA (Sudden Cardiac Arrest) é uma condição cardíaca que envolve parada cardíaca súbita, e não está relacionada a um acidente cerebral isquêmico. Portanto, o código 8B11 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MC82.0": {
+      "term_original": "sucesso",
+      "capitulo": "21",
+      "confidence_embedding": 0.7097,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico.",
+      "classification_reasoning": "A palavra 'sucesso' está relacionada ao procedimento de CATP em 29/10/04, que foi feito sem sucesso, o que indica uma parada cardíaca com taquicardia e fibrilação ventricular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'sucesso' está relacionada ao procedimento de CATP em 29/10/04, que foi feito sem sucesso. No entanto, o código CID-11 atribuído (MC82.0) representa parada cardíaca com taquicardia e fibrilação ventricular, que não é diretamente relacionada à tentativa de CATP. A classificação é errônea e não reflete fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

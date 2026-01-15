@@ -1,0 +1,108 @@
+{
+  "prontuario_id": 57,
+  "text": "01:45H CLIENTE CONSCIENTE, PUPILAS ISOCORICAS E FOTORREAGENTES, EUPNEICO EM AR AMBIENTE, ESTÁVEL HEMODINAMICAMENTE, NORMOCORADO, HIDRATADO, SEM QUEIXAS ÁLGICAS, CURATIVO EM REGIÃO SERVICAL LIMPO E SECO EXTERNAMENTE, MANTÉM ACESSO VENOSO PERIFÉRICO EM MSE SALINIZADO, ACEITANDO DIETA VO, ELIMINAÇÕES VESICAL E INTESTINAL PRESENTES. Enfermeira Florence Nightingale . FRATURAS MULTIPLAS DA COLUNA TORACICA.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "CLIENTE"
+    ],
+    "Achado": [
+      "CONSCIENTE",
+      "ISOCORICAS",
+      "FOTORREAGENTES",
+      "NORMOCORADO",
+      "HIDRATADO",
+      "LIMPO",
+      "SECO",
+      "EUPNEICO EM AR AMBIENTE",
+      "ESTÁVEL HEMODINAMICAMENTE",
+      "ELIMINAÇÕES VESICAL E INTESTINAL PRESENTES"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PUPILAS"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Dispositivo Médico": [
+      "CURATIVO",
+      "ACESSO VENOSO PERIFÉRICO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CURATIVO",
+      "ACESSO VENOSO PERIFÉRICO",
+      "DIETA VO"
+    ],
+    "Conceito Espacial": [
+      "EXTERNAMENTE"
+    ],
+    "Localização ou Região Corporal": [
+      "MSE",
+      "REGIÃO SERVICAL"
+    ],
+    "Abreviação": [
+      "MSE",
+      "DIETA VO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS ÁLGICAS"
+    ],
+    "Lesão ou Envenenamento": [
+      "FRATURAS MULTIPLAS"
+    ]
+  },
+  "labels": {
+    "DA23": {
+      "term_original": "eliminações vesical e intestinal presentes",
+      "capitulo": "13",
+      "confidence_embedding": 0.7694,
+      "descricao_cid": "Representação de doença CID-11: Epitélio metaplásico colunar do esôfago. Definição: Condição adquirida na qual o tecido que reveste o esôfago é substituído por tecido semelhante ao revestimento do intestino ou do estômago subsequente a refluxo gastroesofágico crônico.",
+      "classification_reasoning": "A presença de eliminações vesical e intestinal presentes no contexto clínico leva a uma suspeita de que há um problema com o funcionamento do sistema eliminatório, possivelmente relacionado à coluna torácica. O código DA23 refere-se ao epitélio metaplásico colunar do esôfago, o que pode estar relacionado à função intestinal e às eliminações presentes no paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de eliminações vesical e intestinal presentes no prontuário não está relacionada ao epitélio metaplásico colunar do esôfago, que é um tipo de lesão no tecido que reveste o esôfago. A eliminação é um processo fisiológico normal e não está diretamente ligado à coluna torácica ou ao sistema eliminatório. Portanto, a codificação CID-11 DA23 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A94.1": {
+      "term_original": "isocoricas",
+      "capitulo": "09",
+      "confidence_embedding": 0.7619,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso.",
+      "classification_reasoning": "O termo 'isocoricas' se refere às pupilas isocóricas mencionadas no contexto clínico, o que é coerente com a definição de Síndrome da íris flácida (Código 9A94.1).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A Síndrome da íris flácida (Código 9A94.1) é uma condição que ocorre durante a extração de catarata, e não está relacionada às pupilas isocóricas mencionadas no prontuário. O termo 'isocoricas' se refere à configuração das pupilas, enquanto o código CID-11 9A94.1 descreve uma síndrome específica. Portanto, a codificação não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB21": {
+      "term_original": "eupneico em ar ambiente",
+      "capitulo": "12",
+      "confidence_embedding": 0.7641,
+      "descricao_cid": "Representação de doença CID-11: Pneumotórax. Definição: Pneumotórax é uma coleção anormal de ar ou gás no espaço pleural, que separa os pulmões da caixa torácica, e que pode interferir com a respiração normal.",
+      "classification_reasoning": "A descrição do termo 'eupneico em ar ambiente' sugere que o paciente está respirando normalmente e não apresenta qualquer sintoma de falta de ar ou dificuldade para inspirar, o que é compatível com a definição de pneumotórax, um estado em que há uma coleção anormal de ar no espaço pleural.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'eupneico em ar ambiente' sugere que o paciente está respirando normalmente e não apresenta qualquer sintoma de falta de ar ou dificuldade para inspirar. No entanto, a definição do código CID-11 CB21 (Pneumotórax) descreve uma coleção anormal de ar no espaço pleural, que pode interferir com a respiração normal. Como o paciente está respirando normalmente e não há indicações de problemas respiratórios, a codificação para Pneumotórax não é clínica ou coerente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9C61.25": {
+      "term_original": "fotorreagentes",
+      "capitulo": "09",
+      "confidence_embedding": 0.7494,
+      "descricao_cid": "Representação de doença CID-11: Crise glaucomatociclítica. Definição: Crise glaucomatociclítica apresenta-se com precipitados ceráticos leves e flare do aquoso, elevação aguda da pressão intraocular e dano ao nervo óptico quando ataques repetidos ocorrem.",
+      "classification_reasoning": "A presença de fotorreagentes no prontuário sugere uma resposta a estimulação visual, o que é compatível com a definição de Crise glaucomatociclítica (9C61.25) como uma condição caracterizada por precipitados ceráticos leves e flare do aquoso.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de fotorreagentes no prontuário sugere uma resposta a estimulação visual, mas não há evidência clínica suficiente para justificar a classificação como Crise glaucomatociclítica (9C61.25). A definição do código CID-11 refere-se especificamente a precipitados ceráticos leves e flare do aquoso, o que não está presente no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA70.0": {
+      "term_original": "fraturas multiplas",
+      "capitulo": "15",
+      "confidence_embedding": 0.7187,
+      "descricao_cid": "Representação de doença CID-11: Cifose. Definição: Esta é uma curvatura da coluna vertebral que causa um arqueamento ou arredondamento das costas, o que leva a uma postura corcunda ou curvada.",
+      "classification_reasoning": "A opção mais precisa para o termo 'fraturas multiplas' é a FA70.0, pois refere-se especificamente a fratura vertebral ou cifose, que é mencionada no prontuário como uma das condutas clínicas.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção FA70.0 é justificada pois a fratura múltipla da coluna torácica descrita no prontuário se refere especificamente a uma curvatura da coluna vertebral, que é definida como cifose na descrição do código CID-11. A codificação está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

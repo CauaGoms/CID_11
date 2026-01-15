@@ -1,0 +1,102 @@
+{
+  "prontuario_id": 485,
+  "text": "DRC ESTAGIO 5 EM HEMODIÁLISE\nDRC ESTAGIO 5\nESPLENOMEGALIA/ RX TORAX COM DERRAME PLEURAL A DIREITA\nCALCIFICAÇÕES PARIETAIS A D\nDRC ESTAGIO 5 EM HEMODIÁLISE\nTRAZ EXAMES DE ATUALIZAÇÃO:\n* CISTOS HEPÁTICOS E RENAIS\n* CALCIFICAÇÕES ESPLÊNICAS E ESPLENOMEGALIA\n* RX TORAX: DERRAME PLEURAL A DIREITA\n* TS A POSITIVO\nANURICO\nTEMPO DE HD : 4H\nTEMPO DE HD: 3 ANOS",
+  "entities": {
+    "Procedimento Terapêutico ou Preventivo": [
+      "HEMODIÁLISE",
+      "HD"
+    ],
+    "Achado": [
+      "ESPLENOMEGALIA/"
+    ],
+    "Doença ou Síndrome": [
+      "ESPLENOMEGALIA/",
+      "DRC ESTAGIO 5",
+      "DERRAME PLEURAL A DIREITA",
+      "CALCIFICAÇÕES PARIETAIS A D"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "EXAMES",
+      "DERRAME PLEURAL A DIREITA",
+      "CALCIFICAÇÕES PARIETAIS A D",
+      "CISTOS HEPÁTICOS E RENAIS",
+      "CALCIFICAÇÕES ESPLÊNICAS E ESPLENOMEGALIA",
+      "TS A POSITIVO"
+    ],
+    "Procedimento Laboratorial": [
+      "EXAMES"
+    ],
+    "Sinal ou Sintoma": [
+      "ANURICO"
+    ],
+    "Abreviação": [
+      "4H",
+      "DRC ESTAGIO 5",
+      "RX TORAX",
+      "CALCIFICAÇÕES PARIETAIS A D",
+      "TS A POSITIVO"
+    ],
+    "Conceito Quantitativo": [
+      "4H",
+      "3 ANOS"
+    ],
+    "Classificação": [
+      "DRC ESTAGIO 5"
+    ],
+    "Procedimento Diagnóstico": [
+      "RX TORAX"
+    ]
+  },
+  "labels": {
+    "CB27": {
+      "term_original": "derrame pleural a direita",
+      "capitulo": "12",
+      "confidence_embedding": 0.8226,
+      "descricao_cid": "Representação de doença CID-11: Derrame pleural. Definição: Presença de líquido na cavidade pleural, resultante de transudação ou exsudação excessivas a partir das superfícies pleurais.",
+      "classification_reasoning": "O termo 'derrame pleural a direita' se refere à presença de líquido na cavidade pleural, resultante de transudação ou exsudação excessivas a partir das superfícies pleurais. A opção mais precisa para o termo dentro do contexto clínico é a representação de doença CID-11: Derrame pleural (CB27).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção do código CID-11 CB27 (Derrame pleural) é válida porque o termo 'derrame pleural a direita' se refere à presença de líquido na cavidade pleural, resultante de transudação ou exsudação excessivas a partir das superfícies pleurais. A codificação está clinicamente coerente com o prontuário e atende às diretrizes de auditoria.",
+      "tipo_erro_auditoria": null
+    },
+    "BB91.0": {
+      "term_original": "drc estagio 5",
+      "capitulo": "11",
+      "confidence_embedding": 0.7403,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência pulmonar reumática. Definição: Condição reumática em que a valva pulmonar não é forte o suficiente para impedir o refluxo para o ventrículo direito.",
+      "classification_reasoning": "A escolha pelo código BB91.0 se deve ao fato de o paciente apresentar DRC Estágio 5, que está relacionado à insuficiência pulmonar reumática.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código BB91.0 se baseia na presença de DRC Estágio 5, que está relacionado à insuficiência pulmonar reumática. No entanto, o prontuário apresenta também esplenomegalia e derrame pleural a direita, o que sugere uma condição mais ampla do que apenas insuficiência pulmonar reumática. Além disso, a presença de cistos hepáticos e renais, calcificações esplênicas e espelenomegalia também não está relacionada à insuficiência pulmonar reumática. Portanto, o código BB91.0 não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA24.4": {
+      "term_original": "calcificações parietais a d",
+      "capitulo": "15",
+      "confidence_embedding": 0.7512,
+      "descricao_cid": "Representação de doença CID-11: Artrite juvenil sistêmica. Definição: A artrite idiopática juvenil de início sistêmico representa 10-11% dos casos de artrite idiopática juvenil (AIJ), é marcada pela gravidade das manifestações extra-articulares (febre, erupção cutanea) e pela frequência semelhante entre os sexos. Os picos febris são associados com erupções cutâneas transitórias e lesões eritematosas difusas ou urticariformes. A presença de artrite é essencial para o diagnóstico, mas pode se manifestar tardiamente no curso da doença. O acometimento articular é variável (mono, oligo ou poliartrite), em pequenas e grandes articulações, de forma predominantemente simétrica. Essa tríade diagnóstica característica também pode estar associada a adenopatia e hepatoesplenomegalia. As complicações viscerais (pericardite, derrame pleural ou peritonite serosa com dor abdominal) podem estar presentes.",
+      "classification_reasoning": "A presença de calcificações parietais a d e esplenomegalia sugere uma possibilidade de artrite juvenil sistêmica, uma condição que pode estar associada a essa formação óssea e ao comprometimento dos vísceros.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 FA24.4 refere-se a Artrite Juvenil Sistêmica, que não é diretamente relacionada ao termo 'calcificações parietais a d'. Embora haja uma possibilidade de artrite juvenil sistêmica estar associada à formação óssea e ao comprometimento dos vísceros, a presença de calcificações parietais a d não é suficiente para estabelecer um diagnóstico de Artrite Juvenil Sistêmica. A codificação CID-11 FA24.4 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "3B80.0": {
+      "term_original": "esplenomegalia/",
+      "capitulo": "03",
+      "confidence_embedding": 0.8097,
+      "descricao_cid": "Representação de doença CID-11: Esplenomegalia em doenças de depósito. Definição: Doença causada por doenças de depósito, distúrbios metabólicos geneticamente herdados que resultam da disfunção de lisossomos, lipídeos ou glicogênio do baço. Essa doença é caracterizada pelo aumento do baço. Pode apresentar-se com dor abdominal, dor torácica, palidez, dispneia e fadiga. A confirmação é feita por métodos de imagem.",
+      "classification_reasoning": "A escolha pela opção 3B80.0 se justifica porque o termo 'esplenomegalia' está diretamente relacionado à doença caracterizada pelo aumento do baço, que é a definição apresentada para essa entidade CID-11.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 3B80.0 se baseia apenas no termo 'esplenomegalia', que não é suficiente para justificar a escolha desse código. A esplenomegalia é um sintoma, e o prontuário apresenta várias outras condições clínicas, como doença renal crônica em estágio 5, hemodiálise, calcificações parietais e pleural, entre outras. Portanto, a escolha do código CID-11 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GB90.47": {
+      "term_original": "anurico",
+      "capitulo": "16",
+      "confidence_embedding": 0.7556,
+      "descricao_cid": "Representação de doença CID-11: Aminoacidúria. Definição: Condições em que os aminoácidos são encontrados na urina devido à superprodução (níveis elevados no sangue) ou falha da reabsorção tubular",
+      "classification_reasoning": "A palavra 'anurico' é um termo relacionado à urina, e a descrição do código GB90.47 (Aminoacidúria) se ajusta melhor ao contexto clínico apresentado, considerando a presença de cistos hepáticos e renais e a anúricia mencionada no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'anurico' se refere à ausência de urina, o que não está relacionado à superprodução ou falha da reabsorção tubular de aminoácidos. A condição descrita no prontuário é mais provável uma consequência da hemodiálise do que uma doença específica. Portanto, a codificação CID-11 GB90.47 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

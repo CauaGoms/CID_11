@@ -1,0 +1,91 @@
+{
+  "prontuario_id": 364,
+  "text": "Paciente com quadro clínico de insuficiência cardíca secundária à dupla lesão aórtica com predomínio de insuficiência,  vinha em uso de digital, diuréticos e vasodilatadores. Foi submetido em 03/07 à implante de prótese aórtica  mecânica. Pós-op sem complicações, apresentou boa evolução, INR em 10/07 : 2,2. Ecocárdio pós-op em anexo. Tem alta em bom estado geral, com anemia leve, assintomático, deverá manter o uso das medicações do pré-op, além de warfarin.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Abreviação": [
+      "digital",
+      "Pós-op",
+      "INR",
+      "Ecocárdio",
+      "pós-op",
+      "pré-op"
+    ],
+    "Substância Farmacológica": [
+      "digital",
+      "diuréticos",
+      "vasodilatadores",
+      "medicações",
+      "warfarin"
+    ],
+    "Conceito Temporal": [
+      "Pós-op",
+      "pós-op",
+      "pré-op"
+    ],
+    "Negação": [
+      "sem",
+      "assintomático"
+    ],
+    "Sinal ou Sintoma": [
+      "complicações",
+      "assintomático"
+    ],
+    "Procedimento Diagnóstico": [
+      "Ecocárdio"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "alta"
+    ],
+    "Substância Química Orgânica": [
+      "warfarin"
+    ],
+    "Dispositivo Médico": [
+      "implante de prótese aórtica mecânica"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "implante de prótese aórtica mecânica"
+    ],
+    "Achado": [
+      "boa evolução",
+      "bom estado geral"
+    ],
+    "Doença ou Síndrome": [
+      "anemia leve"
+    ]
+  },
+  "labels": {
+    "": {
+      "term_original": "assintomático",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'assintomático' é diretamente relacionado ao quadro clínico do paciente, que apresenta boa evolução após a implantação da prótese aórtica mecânica. A ausência de sintomas é um indicador positivo da eficácia do tratamento e não há contradição óbvia ou alucinação nesse contexto. Portanto, o código CID-11 atribuído é válido.",
+      "tipo_erro_auditoria": null
+    },
+    "3A71.0": {
+      "term_original": "anemia leve",
+      "capitulo": "03",
+      "confidence_embedding": 0.8103,
+      "descricao_cid": "Representação de doença CID-11: Anemia em doença neoplásica. Definição: Doença causada por doenças neoplásicas crônicas. Esta doença é caracterizada por respostas inflamatórias direcionadas as células vermelhas levando a baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "A escolha é baseada na descrição de 'anemia leve' no contexto do prontuário, que sugere uma anemia relacionada a doença crônica ou neoplásica, e não há indicações de perda sanguínea crônica ou deficiência de ferro. Além disso, a presença de insuficiência cardíaca secundária à dupla lesão aórtica sugere que a anemia é mais provávelmente relacionada a doenças crônicas do que a perda sanguínea.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 '3A71.0' não é clinicamente coerente com o prontuário, pois a descrição da anemia leve não sugere uma doença neoplásica crônica. A presença de insuficiência cardíaca secundária à dupla lesão aórtica e o uso de digital, diuréticos e vasodilatadores sugerem que a anemia é mais provavelmente relacionada a doenças crônicas ou ao tratamento, em vez de uma doença neoplásica. Além disso, não há indicações de perda sanguínea crônica ou deficiência de ferro.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "NA00.9": {
+      "term_original": "complicações",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'complicações' é NA00.9, que representa representação de doença CID-11: Complicação inespecífica da cirurgia e procedimentos médicos",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção NA00.9 representa uma complicação inespecífica da cirurgia e procedimentos médicos, mas no prontuário não há descrição de complicações relacionadas à cirurgia ou procedimento. A insuficiência cardíaca secundária à dupla lesão aórtica e o implante de prótese aórtica mecânica são eventos clínicos específicos, portanto, o código CID-11 não representa fielmente o termo 'complicações' descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

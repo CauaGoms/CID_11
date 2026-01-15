@@ -1,0 +1,52 @@
+{
+  "prontuario_id": 224,
+  "text": "PO DE RITIDOPLASTIA HÁ 2 ANOS.\n\nPCTE SEM QUEIXAS.\n\nCICATRIZ EM REGIÃO PERIAURICULAR HIPERTROFICA.\n\nRETORNO EM 1 MES PARA REAVALIAÇÃO COM PRECEPTORIA Doutor Vital Brasil. ",
+  "entities": {
+    "Abreviação": [
+      "PO",
+      "PCTE"
+    ],
+    "Conceito Temporal": [
+      "PO",
+      "2 ANOS",
+      "1 MES"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "RITIDOPLASTIA"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PCTE"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS"
+    ],
+    "Lesão ou Envenenamento": [
+      "CICATRIZ"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "RETORNO",
+      "REAVALIAÇÃO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "PRECEPTORIA"
+    ],
+    "Localização ou Região Corporal": [
+      "REGIÃO PERIAURICULAR"
+    ]
+  },
+  "labels": {
+    "EE60.1": {
+      "term_original": "cicatriz",
+      "capitulo": "14",
+      "confidence_embedding": 0.786,
+      "descricao_cid": "Representação de doença CID-11: Cicatriz hipertrófica. Definição: Cicatrizes hipertróficas resultam da produção de quantidades excessivas de colágeno na derme durante o reparo do tecido conjuntivo subsequente a inflamação, lesão ou cirurgia. Em contraste com as cicatrizes queloidianas, elas não se expandem além do limite da lesão ou inflamação inicial e podem sofrer resolução espontânea.",
+      "classification_reasoning": "A opção mais precisa é a EE60.1 porque o termo 'cicatriz' se refere à região periauricular hipertrofica, que está descrita como uma cicatriz hipertrófica em EE60.1. Isso sugere que a cicatriz é resultado da produção de quantidades excessivas de colágeno na derme durante o reparo do tecido conjuntivo subsequente a inflamação, lesão ou cirurgia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção EE60.1 sugere que a cicatriz é resultado da produção de quantidades excessivas de colágeno na derme durante o reparo do tecido conjuntivo subsequente a inflamação, lesão ou cirurgia. No entanto, o prontuário apenas descreve uma cicatriz em região periauricular hipertrofica sem mencionar qualquer processo inflamatório, lesão ou cirurgia anterior. Portanto, a classificação EE60.1 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

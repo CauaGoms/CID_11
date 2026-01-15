@@ -1,0 +1,138 @@
+{
+  "prontuario_id": 958,
+  "text": "1ª consulta\n\nPaciente encaminhado por HPB / LUTS . Em uso de doxa 2mg\nNicturia 2x , hesitacao , intermitencia de jato , jato moderado .\nDM, HAS e hipotireoidismo em tratamento\nNega cx abdominal\nHistoria familiar de | Ca prostata - tios\n\nUS prostata 40grs\nTR prostata 40grs, FE , sem nodulos\n\nCD : Prescrevo combodart\nRetorno em 06 meses com exames\n \n \n \n ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "consulta",
+      "encaminhado",
+      "CD",
+      "Prescrevo",
+      "Retorno"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Abreviação": [
+      "HPB",
+      "LUTS",
+      "doxa",
+      "DM",
+      "HAS",
+      "TR",
+      "FE",
+      "CD",
+      "cx abdominal",
+      "Ca prostata",
+      "US prostata",
+      "prostata 40grs"
+    ],
+    "Processo Neoplásico": [
+      "HPB",
+      "Ca prostata"
+    ],
+    "Sinal ou Sintoma": [
+      "LUTS",
+      "Nicturia",
+      "hesitacao",
+      "intermitencia de jato",
+      "jato moderado"
+    ],
+    "Substância Farmacológica": [
+      "doxa",
+      "combodart"
+    ],
+    "Substância Química Orgânica": [
+      "doxa"
+    ],
+    "Conceito Quantitativo": [
+      "2mg",
+      "2x",
+      "40grs"
+    ],
+    "Doença ou Síndrome": [
+      "Nicturia",
+      "DM",
+      "HAS",
+      "hipotireoidismo"
+    ],
+    "Negação": [
+      "Nega",
+      "sem"
+    ],
+    "Grupo Familiar": [
+      "tios"
+    ],
+    "Procedimento Diagnóstico": [
+      "TR",
+      "US prostata"
+    ],
+    "Anormalidade Adquirida": [
+      "nodulos"
+    ],
+    "Produto Intelectual": [
+      "CD"
+    ],
+    "Medicamento Clínico": [
+      "combodart"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "exames",
+      "prostata 40grs"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "cx abdominal"
+    ]
+  },
+  "labels": {
+    "BD10": {
+      "term_original": "nicturia",
+      "capitulo": "11",
+      "confidence_embedding": 0.7285,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'nicturia' é a Código CID-11 BD10 - Insuficiência cardíaca congestiva, pois nictúria é um sintoma comum em pacientes com insuficiência cardíaca congestiva.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A nictúria é um sintoma comum em pacientes com doenças urológicas, como a hipertrofia prostática benigna (HPB) e LUTS. No entanto, o código CID-11 BD10 - Insuficiência cardíaca congestiva não está relacionado à nictúria. A opção mais precisa para o termo 'nicturia' é uma condição urológica, como a Disfunção do Sistema de Tratamento da Urina (BD9) ou a Doença do Pâncreas Exócrino (BD5). Portanto, o código CID-11 atribuído não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "8C71.0": {
+      "term_original": "hesitacao",
+      "capitulo": "08",
+      "confidence_embedding": 0.7095,
+      "descricao_cid": "Representação de doença CID-11: Distrofia miotônica. Definição: Distrofia miotônica é um grupo de transtornos musculares hereditários. É a forma mais comum de distrofia muscular que começa na idade adulta. A distrofia miotônica é caracterizada por atrofia e fraqueza musculares progressivas e contrações musculares prolongadas (miotonia) que não são capazes de relaxar após o uso. Outros sinais e sintomas de distrofia miotônica incluem fala arrastada ou bloqueio temporário da mandíbula, catarata e defeitos de condução cardíaca. Em homens afetados, alterações hormonais podem levar a calvície precoce e infertilidade. A gravidade clínica varia amplamente entre os pacientes afetados, mesmo entre membros da mesma família.",
+      "classification_reasoning": "A hesitacao mencionada no prontuário é característica da distrofia miotônica, uma condição que causa fraqueza e atrofia musculares progressivas, além de contrações musculares prolongadas (miotonia) que não relaxam após o uso. A escolha do código 8C71.0 foi baseada na descrição da doença como caracterizada por fraqueza e atrofia musculares progressivas, juntamente com a presença de hesitacao, um sintoma comum em pacientes com distrofia miotônica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hesitacao mencionada no prontuário não é um sintoma característico da distrofia miotônica. A descrição do código CID-11 8C71.0 refere-se a uma condição clínica específica, enquanto o termo 'hesitacao' se refere a um sintoma que pode estar presente em várias doenças. Portanto, não há correspondência clínica entre o termo e o código atribuído.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "9A10.3": {
+      "term_original": "jato moderado",
+      "capitulo": "09",
+      "confidence_embedding": 0.6931,
+      "descricao_cid": "Representação de doença CID-11: Hiperlacrimação. Definição: Transbordamento de lágrimas devido a secreção excessiva pela glândula lacrimal. Pode ser causado por drogas (p.ex. pillocarpina), forte emoção; ou como reflexo de estimulação trigeminal por inflamação ocular; ou irritação da córnea ou conjuntiva por irritante químico no ar; vento frio; ou corpo estranho no olho. Os principais sintomas são desconforto e visão turva e algumas vezes constrangimento. A abordagem depende da causa.\r\n\r\n\r\n. É um sinal clínico ou condição que aponta para a drenagem insuficiente do filme lacrimal dos olhos, em que as lágrimas vão drenar pela face abaixo em vez de o fazerem pelo sistema nasolacrimal.",
+      "classification_reasoning": "A opção mais precisa para o termo 'jato moderado' é a hiperlacrimação (Código 9A10.3), pois o paciente apresenta nictura 2x, sugerindo dificuldade em drenar lágrimas durante o sono.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'jato moderado' não se refere à hiperlacrimação, que é a transbordamento de lágrimas. O prontuário descreve um sintoma relacionado ao trato urinário masculino (LUTS), e o jato moderado provavelmente se refere à hemorragia uretral ou fluxo urinário anormal, não à hiperlacrimação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5A00.2": {
+      "term_original": "hipotireoidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.8157,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo adquirido. Definição: Hipotireoidismo adquirido é uma condição onde a glândula tireoide produz muito pouco ou nenhum hormônio, e esta condição surge apenas após o nascimento.",
+      "classification_reasoning": "A hipotireoidismo adquirida é a opção mais precisa para o termo dentro do contexto clínico, pois o paciente tem hipotireoidismo em tratamento e não há evidências de doença congênita ou pós-procedimento.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hipotireoidismo adquirida é a opção mais precisa para o termo dentro do contexto clínico, pois o paciente tem hipotireoidismo em tratamento e não há evidências de doença congênita ou pós-procedimento. A codificação CID-11 5A00.2 representa fielmente o termo descrito no prontuário, que refere-se a uma condição adquirida e não congênita.",
+      "tipo_erro_auditoria": null
+    },
+    "GA91.0": {
+      "term_original": "ca prostata",
+      "capitulo": "16",
+      "confidence_embedding": 0.8003,
+      "descricao_cid": "Representação de doença CID-11: Prostatite crônica. Definição: Afecção causada por obstrução das glândulas da próstata. Esta afecção é caracterizada por inflamação da próstata, disúria, polaciúria, urgência urinária, dor genital, dor lombar, dor abdominal e infecções repetidas da bexiga que duram pelo menos três meses.",
+      "classification_reasoning": "A opção mais precisa para o termo 'Ca Prostata' no contexto clínico é a Código GA91.0, pois apresenta uma afecção causada por obstrução das glândulas da próstata, caracterizada por inflamação da próstata, disúria, polaciúria e outros sintomas descritos no prontuário do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'Ca Prostata' no contexto do prontuário refere-se a uma história familiar de câncer prostático, não à doença CID-11: Prostatite crônica. A opção mais precisa para o termo 'Ca Prostata' é um código que representa a neoplasia prostática, e não a inflamação da próstata.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

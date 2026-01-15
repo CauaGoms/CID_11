@@ -1,0 +1,246 @@
+{
+  "prontuario_id": 610,
+  "text": "07:40 - Paciente acordada, lúcida e orientada, contactuante, mais ativa hoje, glasgow de 15. Hipocorada, mucosas úmidas. Pele íntegra com hiperemia em região axilar. Traqueostomizada sob VM PSV, FIO2 30%, PEEP 6, P 10, F 16, eupneica, mantendo boa saturação, ausculta pulmonar com MV+ com roncos bilateral. Normocardica e normotensa. Abdome globoso e flácido, RHA +, com SNE recebendo dienta à 75 ml/h. Mantém CVC em subclávia D infundindo soro gravitacional. Diurese presente em SVD clara. Evacuação presente. Boa perfusão periférica. FLORENCE NIGHTINGALE. Coren xxxx  DOR TORACICA NAO ESPECIFICADA.",
+  "entities": {
+    "Achado": [
+      "acordada",
+      "lúcida",
+      "orientada",
+      "contactuante",
+      "eupneica",
+      "MV+",
+      "Normocardica",
+      "normotensa",
+      "globoso",
+      "flácido",
+      "mais ativa hoje",
+      "glasgow de 15",
+      "mucosas úmidas",
+      "Pele íntegra",
+      "boa saturação",
+      "RHA +",
+      "Diurese presente",
+      "Evacuação presente",
+      "Boa perfusão periférica"
+    ],
+    "Sinal ou Sintoma": [
+      "Hipocorada",
+      "hiperemia",
+      "globoso",
+      "roncos bilateral"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Traqueostomizada",
+      "VM",
+      "PSV",
+      "SNE",
+      "dienta",
+      "CVC",
+      "SVD"
+    ],
+    "Abreviação": [
+      "VM",
+      "PSV",
+      "FIO2",
+      "PEEP",
+      "P",
+      "F",
+      "MV+",
+      "SNE",
+      "CVC",
+      "SVD",
+      "RHA +",
+      "subclávia D"
+    ],
+    "Atributo Clínico": [
+      "FIO2",
+      "PEEP",
+      "P",
+      "F"
+    ],
+    "Conceito Quantitativo": [
+      "30%",
+      "6",
+      "10",
+      "16",
+      "75 ml/h"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "Abdome",
+      "subclávia D"
+    ],
+    "Dispositivo Médico": [
+      "SNE",
+      "CVC",
+      "SVD"
+    ],
+    "Conceito Qualitativo": [
+      "clara"
+    ],
+    "Localização ou Região Corporal": [
+      "região axilar"
+    ],
+    "Procedimento Diagnóstico": [
+      "ausculta pulmonar"
+    ],
+    "Função de Organismo": [
+      "Diurese presente",
+      "Evacuação presente"
+    ],
+    "Doença ou Síndrome": [
+      "DOR TORACICA"
+    ]
+  },
+  "labels": {
+    "EF40": {
+      "term_original": "pele íntegra",
+      "capitulo": "14",
+      "confidence_embedding": 0.8241,
+      "descricao_cid": "Representação de doença CID-11: Vasculite ou capilarite envolvendo a pele. Definição: Uma gama de condições caracterizadas por inflamação dos vasos sanguíneos cutâneos com ou sem extravasamento de hemácias para o interstício.",
+      "classification_reasoning": "A opção mais precisa é EF40, Vasculite ou capilarite envolvendo a pele, pois o termo 'pele íntegra com hiperemia em região axilar' sugere uma reação inflamatória generalizada na pele, semelhante à descrição da vasculite ou capilarite. A outra opções não se encaixam com a clínica apresentada.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção EF40, Vasculite ou capilarite envolvendo a pele, é uma representação fiel da clínica descrita no prontuário. A presença de hiperemia em região axilar e pele íntegra sugere inflamação cutânea, o que se encaixa com a definição da vasculite ou capilarite. Além disso, a ausência de contradições óbvias ou alucinações na descrição do prontuário justifica a manutenção do código CID-11 atribuído.",
+      "tipo_erro_auditoria": null
+    },
+    "FA80.4": {
+      "term_original": "flácido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7512,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa é FA80.4, pois o termo 'flácido' se refere à descrização de um abdome globoso e flácido no contexto clínico. Isso indica degeneração de disco intervertebral da coluna torácica sem prolapso de disco.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'flácido' não é suficientemente específico para justificar a escolha do código FA80.4, que se refere à degeneração de disco intervertebral da coluna torácica sem prolapso de disco. A descrição do abdome globoso e flácido pode ser relacionada a várias condições clínicas, incluindo doenças gastrointestinais ou metabólicas, e não há evidência suficiente no prontuário para justificar a escolha desse código específico.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BA01": {
+      "term_original": "hipocorada",
+      "capitulo": "11",
+      "confidence_embedding": 0.7727,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A hipocorada é uma manifestação de doença cardíaca hipertensiva, que está relacionada à pressão arterial elevada e ao estresse cardiovascular. Dessa forma, o termo 'hipocorada' se encaixa melhor no código BA01.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipocorada não é uma manifestação de doença cardíaca hipertensiva. A hipocorada se refere à pressão arterial baixa, enquanto a doença cardíaca hipertensiva está relacionada à pressão arterial elevada. Portanto, o código CID-11 BA01 não representa fielmente o termo 'hipocorada' descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB20.1": {
+      "term_original": "glasgow de 15",
+      "capitulo": "21",
+      "confidence_embedding": 0.7632,
+      "descricao_cid": "Representação de doença CID-11: Coma. Definição: Estado agudo com duração de mais de uma hora e geralmente menos de um mês. O paciente em coma está arresponsivo, fica com os olhos fechados e não pode ser despertado nem mesmo por estímulos vigorosos e dolorosos. As respostas motoras à estimulação dolorosa estão limitadas a reflexos. As etiologias incluem, mas não estão limitadas a, lesões cerebrais traumáticas, anóxicas, infecciosas, neoplásicas, vasculares, inflamatórias e metabólicas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'glasgow de 15' é a representação de doença CID-11: Coma, pois o Glasgow Scale é uma escala de avaliação da consciência e função cerebral que varia de 3 a 15. Um valor de 15 indica que o paciente está alerta e consciente, o que não concorda com os sintomas descritos no prontuário (paciente acordada, mas com hipocorada e hiperemia em região axilar). Portanto, é mais provável que a Glasgow Scale esteja sendo utilizada para avaliar a consciência do paciente e que o valor de 15 indique um estado de coma leve.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção MB20.1 (Coma) não é válida porque o termo 'glasgow de 15' indica que o paciente está alerta e consciente, enquanto a definição do código CID-11 descreve um estado agudo com duração de mais de uma hora e geralmente menos de um mês. Além disso, o prontuário descreve o paciente como 'paciente acordada, lúcida e orientada', o que também não concorda com a definição do código CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA22.0": {
+      "term_original": "eupneica",
+      "capitulo": "12",
+      "confidence_embedding": 0.7926,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A presença de dor torácica não especificada e a descrição de eupeíca sugerem que o paciente está sofrendo de Doença Pulmonar Obstrutiva Crônica (DPOC) com exacerbação aguda, uma condição clínica caracterizada por um agravamento dos sintomas respiratórios.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição de 'eupneica' no prontuário indica que o paciente está respirando normalmente, sem sintomas de dispneia. Isso não é compatível com a exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC) descrita pelo código CID-11 CA22.0. A dor torácica não especificada pode ser um sintoma de DPOC, mas a presença de eupneia sugere que o paciente não está sofrendo de exacerbação aguda da doença.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME62.7": {
+      "term_original": "evacuação presente",
+      "capitulo": "21",
+      "confidence_embedding": 0.7695,
+      "descricao_cid": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica.",
+      "classification_reasoning": "A opção mais precisa para o termo 'evacuação presente' é a Código CID-11 ME62.7, Erupção cutânea descamativa aguda, pois refere-se à perda de substância corporal por superfície cutânea, o que coincide com o contexto clínico da paciente apresentando evacuação presente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A evacuação presente não está relacionada à perda de substância corporal por superfície cutânea, como descrita no código CID-11 ME62.7. A evacuação presente se refere ao processo natural do corpo humano, enquanto a erupção cutânea descamativa aguda é um fenômeno patológico. Portanto, a codificação não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA23.00": {
+      "term_original": "mv+",
+      "capitulo": "12",
+      "confidence_embedding": 0.8112,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide.",
+      "classification_reasoning": "A presença do termo 'mv+' na descrição pulmonar sugere a presença de movimento das vias aéreas, o que é comum em pacientes com asma alérgica e exacerbações respiratórias. Além disso, os sintomas descritos no prontuário (dor torácica não especificada) também são consistentes com um quadro de asma alérgica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença do termo 'mv+' na descrição pulmonar sugere movimento das vias aéreas, o que é mais consistente com uma condição de obstrução das vias aéreas (por exemplo, bronquite crônica) do que com asma alérgica. Além disso, a dor torácica não especificada também não é um sintoma típico da asma alérgica. Portanto, o código CID-11 CA23.00 não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME01": {
+      "term_original": "boa perfusão periférica",
+      "capitulo": "21",
+      "confidence_embedding": 0.7635,
+      "descricao_cid": "Representação de doença CID-11: Distensão abdominal. Definição: Esta é uma condição em que o abdômen parece cheio e tenso por causa do inchaço do abdômen, geralmente devido a um aumento da quantidade de gases intestinais, mas ocorre às vezes quando fluidos, substâncias ou massa estão se acumulando ou se expandindo no abdômen.",
+      "classification_reasoning": "A opção ME01 (Distensão abdominal) é a mais precisa para o termo 'boa perfusão periférica' no contexto clínico, pois a descrição da paciente menciona um abdômen globoso e flácido, sugerindo inchaço abdominal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção ME01 (Distensão abdominal) não representa fielmente o termo 'boa perfusão periférica' no prontuário. A descrição do abdômen globoso e flácido não é suficiente para justificar a distensão abdominal, pois a perfusão periférica está relacionada à circulação sanguínea e não ao abdômen. Além disso, o termo 'boa perfusão periférica' não está diretamente relacionado à condição descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "EB13.1": {
+      "term_original": "mucosas úmidas",
+      "capitulo": "14",
+      "confidence_embedding": 0.8042,
+      "descricao_cid": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável.",
+      "classification_reasoning": "A presença de mucosas úmidas e hiperemia em região axilar sugere uma reação alérgica grave, como a necrólise epidérmica tóxica (NET), caracterizada por envolvimento de mais de 30% da área de superfície corporal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de mucosas úmidas no prontuário não é suficiente para justificar a classificação de Necrólise Epidérmica Tóxica (NET) CID-11: EB13.1. A descrição do código CID-11 refere-se a uma doença cutânea aguda com envolvimento de mais de 30% da área de superfície corporal, enquanto no prontuário apenas se menciona a presença de mucosas úmidas e hiperemia em região axilar. A classificação é demasiado específica e não está clinicamente coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA80.8": {
+      "term_original": "globoso",
+      "capitulo": "15",
+      "confidence_embedding": 0.7375,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a degeneração de disco intervertebral da coluna lombar sem prolapso de disco, pois o termo 'globoso' se refere à representação de um abdome em forma de globo ou protuberante, que é comum em pacientes com doenças degenerativas do disco intervertebral.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FA80.8 não é clinicamente coerente com o prontuário, pois a descrição do código refere-se à degeneração de disco intervertebral da coluna lombar sem prolapso de disco, enquanto o termo 'globoso' no prontuário se refere ao abdome em forma de globo ou protuberante, que não está relacionado à doença do disco intervertebral. A classificação é muito genérica e não captura a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MB01ZZ1": {
+      "term_original": "boa saturação",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A descrição 'boa saturação' refere-se à oxigenação adequada do paciente, o que é importante para uma pessoa com uma tracheostomia e recebendo ventilador mecânico. Isso sugere que a escolha mais precisa é a representação de doença CID-11: Estado de saúde geral (MB01ZZ1), que inclui variáveis como saturação de oxigênio.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição 'boa saturação' refere-se à oxigenação adequada do paciente, o que é importante para uma pessoa com uma tracheostomia e recebendo ventilador mecânico. Isso sugere que a escolha mais precisa é a representação de doença CID-11: Estado de saúde geral (MB01ZZ1), que inclui variáveis como saturação de oxigênio.",
+      "tipo_erro_auditoria": null
+    },
+    "MF40.3": {
+      "term_original": "mais ativa hoje",
+      "capitulo": "21",
+      "confidence_embedding": 0.7543,
+      "descricao_cid": "Representação de doença CID-11: Ejaculação retrógrada. Definição: A ejaculação retrógrada é uma condição na qual o sêmen, que normalmente é ejaculado pela uretra, é redirecionado para a bexiga urinária. A ejaculação retrógrada é tipicamente acompanhada por orgasmo subjetivo, embora o homem possa notar que a liberação de sêmen é limitada ou ausente. A ejaculação retrógrada ocorre mais comumente como uma complicação da ressecção transuretral da próstata, porém também pode ser causada por outra cirurgia pélvica, disfunção do sistema nervoso ou uso de agentes farmacológicos. A confirmação é feita pela identificação de espermatozoides em uma amostra de urina.",
+      "classification_reasoning": "A expressão 'mais ativa hoje' sugere que o paciente está apresentando uma melhora na sua condição, possivelmente relacionada à sua capacidade de evacuar e ter diurese presente em SVD clara, o que não é esperado em um estado de coma (MB20.1) ou crise de pânico (MB23.H). Além disso, a presença de hiperemia axilar e pele íntegra com hiperemia também sugerem uma melhor circulação periférica, que não está presente em pacientes com distensão abdominal (ME01). A escolha do código MF40.3 é justificada pela possibilidade de um paciente com ejaculação retrógrada apresentar sintomas gerais como a melhora na evacuação e diurese, ao lado da presença de hiperemia cutânea.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A expressão 'mais ativa hoje' não está relacionada à ejaculação retrógrada, que é um tipo de doença. A melhora na evacuação e diurese, assim como a presença de hiperemia cutânea, sugerem uma melhora na condição geral do paciente, mas isso não justifica a escolha do código MF40.3. Além disso, o termo 'mais ativa hoje' não é um sintoma ou uma condição clínica diretamente relacionada à ejaculação retrógrada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB23.H": {
+      "term_original": "contactuante",
+      "capitulo": "21",
+      "confidence_embedding": 0.7473,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'contactuante' é a Crise de pânico, pois o paciente apresenta sintomas como medo ou apreensão intensos e sensação de falta de ar, que são comuns em ataques de pânico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CID-11 MB23.H (Crise de pânico) não é clinicamente coerente com o prontuário. O termo 'contactuante' não está relacionado à Crise de pânico, que caracteriza-se por sintomas como medo ou apreensão intensos e sensação de falta de ar. No entanto, o paciente apresenta hipocorada, mucosas úmidas e pele íntegra com hiperemia em região axilar, sugerindo uma resposta inflamatória ou alérgica. Portanto, a codificação CID-11 MB23.H não é adequada para este caso.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB21.0": {
+      "term_original": "hiperemia",
+      "capitulo": "12",
+      "confidence_embedding": 0.7989,
+      "descricao_cid": "Representação de doença CID-11: Pneumotórax hipertensivo espontâneo. Definição: Pneumotórax hipertensivo ocorre quando a pressão intrapleural é superior à atmosférica em toda a expiração e frequentemente também também durante a inspiração. O mecanismo responsável pelo pneumotórax hipertensivo é a ruptura da pleura visceral ou parietal de tal forma que uma válvula unidirecional se desenvolve. Um pneumotórax hipertensivo pode ocorrer após qualquer tipo de pneumotórax; é independentemente da sua etiologia. Algumas vezes pode ocorrer após um pneumotórax espontâneo, mas é mais comum após um pneumotórax traumático, com ventilação mecânica ou durante ressuscitação cardiopulmonar.",
+      "classification_reasoning": "A hiperemia descrita na pele íntegra, especialmente na região axilar, sugere a presença de uma resposta inflamatória ou lesão tecidual, o que é mais consistente com um pneumotórax hipertensivo espontâneo do que com outro tipo de doença pulmonar.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hiperemia descrita na pele íntegra, especialmente na região axilar, sugere uma resposta inflamatória ou lesão tecidual, o que é consistente com a presença de pneumotórax hipertensivo espontâneo. A descrição do prontuário não apresenta contradições óbvias e a associação entre a hiperemia e o pneumotórax hipertensivo é clínica e razoável.",
+      "tipo_erro_auditoria": null
+    },
+    "CB21.1": {
+      "term_original": "roncos bilateral",
+      "capitulo": "12",
+      "confidence_embedding": 0.7747,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A presença de roncos bilateral sugere uma doença pulmonar subjacente, como pneumotórax espontâneo não hipertensivo, que pode estar relacionado à hiperemia na região axilar e ao estado de doença pulmonar previamente descrito.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de roncos bilateral não é suficiente para justificar a classificação de pneumotórax espontâneo. O termo 'roncos bilateral' pode ser um sintoma de várias doenças pulmonares, mas não há evidência clínica no prontuário que sugira uma doença pulmonar subjacente específica como pneumotórax espontâneo.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

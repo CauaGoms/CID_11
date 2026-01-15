@@ -1,0 +1,169 @@
+{
+  "prontuario_id": 713,
+  "text": "Lucas, 59\n- PO de Microcirurgia p/ tumor cerebral com tec. complementar (maio/2015)\n- Ressecção >90% pelo aspecto macroscópico - Glioma de alto grau.\n- Anatomo-patologico: Glioblastoma Multiforme ( grau IV-OMS )\n- Finalizou RT com 30 sessões em junho ( 60 Gys no total ) e QT em curso ( 10 de 12 sessões )\nPaciente com história de tratamento cirúrgico de tumor cerebral ( LOE fissura silviana esquerda 5x5x5 cm ), inicialmente e GCS 15 sem déficts neurológicos. \nQueixa-se de episódios de disfasia transitória e esporádica. Nega cefaleia.\nMUC: Fenitoina, lisador, omeprazol.\nAo exame: REG, euneico, hidratado e norocorado\nGCS 15 PIFR\nSem déficts neurológicos focais\nRNM de crânio (20/02/2016): Status PO de  ressecçao de LOE temporal esquerda, com lesões residuais que não apresentam alterações significativas, em comparaçao ao exame anterior (11/11/2015).\nCD: Mantemos acompanhamento ambulatorial.\nSolicito nova RNM de crânio.\n \n \n \n ",
+  "entities": {
+    "Conceito Temporal": [
+      "PO",
+      "esporádica"
+    ],
+    "Abreviação": [
+      "PO",
+      "tec",
+      "RT",
+      "QT",
+      "MUC",
+      "REG",
+      "PIFR",
+      "CD",
+      "grau IV-OMS",
+      "LOE fissura silviana esquerda",
+      "GCS 15",
+      "RNM de crânio",
+      "ressecçao de LOE temporal esquerda"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Ressecção",
+      "RT",
+      "QT",
+      "Microcirurgia p/ tumor cerebral",
+      "tratamento cirúrgico",
+      "ressecçao de LOE temporal esquerda"
+    ],
+    "Conceito Quantitativo": [
+      "&gt;90%",
+      "30 sessões",
+      "10 de 12 sessões",
+      "5x5x5 cm"
+    ],
+    "Procedimento Laboratorial": [
+      "Anatomo-patologico"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Negação": [
+      "sem",
+      "Nega",
+      "Sem",
+      "não"
+    ],
+    "Doença ou Síndrome": [
+      "cefaleia",
+      "Glioblastoma Multiforme"
+    ],
+    "Sinal ou Sintoma": [
+      "cefaleia",
+      "LOE fissura silviana esquerda",
+      "déficts neurológicos",
+      "alterações significativas"
+    ],
+    "Substância Farmacológica": [
+      "Fenitoina",
+      "lisador",
+      "omeprazol"
+    ],
+    "Substância Química Orgânica": [
+      "Fenitoina",
+      "lisador",
+      "omeprazol"
+    ],
+    "Achado": [
+      "REG",
+      "euneico",
+      "hidratado",
+      "norocorado",
+      "PIFR",
+      "GCS 15"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CD",
+      "Mantemos",
+      "acompanhamento",
+      "Solicito"
+    ],
+    "Organização Relacionada à Saúde": [
+      "ambulatorial"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "aspecto macroscópico"
+    ],
+    "Processo Neoplásico": [
+      "Glioma de alto grau",
+      "Glioblastoma Multiforme"
+    ],
+    "Classificação": [
+      "grau IV-OMS"
+    ],
+    "Procedimento Diagnóstico": [
+      "RNM de crânio"
+    ],
+    "Lesão ou Envenenamento": [
+      "lesões residuais"
+    ],
+    "Conceito Qualitativo": [
+      "comparaçao ao exame anterior"
+    ]
+  },
+  "labels": {
+    "8A64": {
+      "term_original": "lesões residuais",
+      "capitulo": "08",
+      "confidence_embedding": 0.7398,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo.",
+      "classification_reasoning": "A opção mais precisa para o termo 'lesões residuais' é a crise epiléptica única devida a causas remotas, pois essa entidade pode estar relacionada às lesões cerebrais resultantes da ressecção cirúrgica do tumor cerebral e às possíveis sequelas neurológicas subsequentes.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 '8A64' - Crise epiléptica única devida a causas remotas não é adequada para o termo 'lesões residuais'. As lesões residuais referem-se às lesões cerebrais resultantes da ressecção cirúrgica do tumor cerebral, e não à uma crise epiléptica. A lógica clínica sugere que a lesão residual é um fato anatomo-patológico e não uma entidade clínica relacionada a uma crise epiléptica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "2A00.00": {
+      "term_original": "glioblastoma multiforme",
+      "capitulo": "02",
+      "confidence_embedding": 0.8313,
+      "descricao_cid": "Representação de doença CID-11: Glioblastoma cerebral. Definição: Glioblastomas são tumores astrocíticos malignos (grau IV de acordo com a classificação da OMS). Representam os tumores cerebrais mais frequentes em adultos. Podem ocorrer em qualquer idade, mas 70% dos casos são vistos em pacientes entre 45 e 70 anos de idade. Os tumores geralmente estão localizados nos hemisférios cerebrais, mas podem ser encontrados em qualquer lugar do sistema nervoso central.",
+      "classification_reasoning": "O termo 'glioblastoma multiforme' é um tipo de tumor cerebral, especificamente um glioma de alto grau (grau IV de acordo com a classificação da OMS). A opção 2A00.00 se encaixa melhor, pois sua descrição inclui a representação de doença CID-11: Glioblastoma cerebral.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 atribuída (2A00.00) é justificada, pois o termo 'glioblastoma multiforme' é um tipo de tumor cerebral que se encaixa perfeitamente na descrição do código. A classificação é clínica e coerente com a história do paciente.",
+      "tipo_erro_auditoria": null
+    },
+    "2A00.4": {
+      "term_original": "loe fissura silviana esquerda",
+      "capitulo": "02",
+      "confidence_embedding": 0.7578,
+      "descricao_cid": "Representação de doença CID-11: Astroblastoma do cérebro. Definição: Neoplasia glial rara mais comumente encontrada em adultos jovens. É caracterizada por células tumorais com características sugestivas de origem astrocítica (positivas para GFAP), dispostas perivascularmente. As células têm prolongamentos espessos e sem redução gradual que se propagam radialmente em direção a vaso sanguíneo central. O comportamento biológico dos astroblastomas é variável, portanto não há uma gradação do tumor pela OMS, ainda.",
+      "classification_reasoning": "O termo 'loe fissura silviana esquerda' refere-se a uma lesão residual após ressecção de tumor cerebral, e o código 2A00.4 (Astroblastoma do cérebro) é mais preciso para descrever o tipo de glioma descrito no prontuário (Glioblastoma Multiforme - grau IV-OMS)",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'loe fissura silviana esquerda' refere-se a uma lesão residual após ressecção de tumor cerebral, enquanto o código 2A00.4 (Astroblastoma do cérebro) é um tipo de glioma que não se relaciona com a lesão residual descrita no prontuário. A classificação é incorreta e não representa fielmente a condição clínica descrita.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB20.1": {
+      "term_original": "déficts neurológicos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7574,
+      "descricao_cid": "Representação de doença CID-11: Coma. Definição: Estado agudo com duração de mais de uma hora e geralmente menos de um mês. O paciente em coma está arresponsivo, fica com os olhos fechados e não pode ser despertado nem mesmo por estímulos vigorosos e dolorosos. As respostas motoras à estimulação dolorosa estão limitadas a reflexos. As etiologias incluem, mas não estão limitadas a, lesões cerebrais traumáticas, anóxicas, infecciosas, neoplásicas, vasculares, inflamatórias e metabólicas.",
+      "classification_reasoning": "A queixa do paciente de disfasia transitória e esporádica, sem déficits neurológicos focais, sugere um estado de coma agudo, caracterizado por perda da responsividade e limitação das respostas motoras à estimulação dolorosa. Embora o GCS seja 15, isso não exclui a possibilidade de déficits neurológicos mais sutis.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa do paciente de disfasia transitória e esporádica não é um estado de coma agudo, como descrito no código CID-11. A presença de déficits neurológicos focais também não está mencionada. Portanto, a codificação MB20.1 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MD82": {
+      "term_original": "alterações significativas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7573,
+      "descricao_cid": "Representação de doença CID-11: Tumefação, massa ou tumoração intra-abdominal ou pélvica. Definição: Refere-se à presença de tumefação de parede abdominal ou pélvica, massa ou tumor nas regiões abdominal e pélvica. Essas massas ou tumores podem ser reconhecidos pela inspeção e/ou palpação.",
+      "classification_reasoning": "A alteração significativa mencionada no relatório de RNM refere-se a lesões residuais no local da ressecção de tumor cerebral, e não apresenta características clínicas de coma, morte cerebral ou achados clínicos de exames para diagnóstico por imagem da mama. Portanto, o código mais preciso para o termo 'alterações significativas' é MD82, que se refere à presença de tumefação, massa ou tumor nas regiões abdominal e pélvica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'alterações significativas' não se refere a uma tumefação, massa ou tumor nas regiões abdominal e pélvica, como descrito no código CID-11 MD82. Em vez disso, refere-se às lesões residuais no local da ressecção de tumor cerebral. Portanto, o código atribuído é incorreto e deve ser removido.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A80.2": {
+      "term_original": "cefaleia",
+      "capitulo": "08",
+      "confidence_embedding": 0.7649,
+      "descricao_cid": "Representação de doença CID-11: Enxaqueca crônica. Definição: Cefaleia que ocorre em 15 ou mais dias por mês por mais de três meses, que, em pelo menos oito dias por mês, tem características de cefaleia migranosa e não está associada ao uso excessivo de medicamentos.",
+      "classification_reasoning": "A queixa de cefaleia é transitória e esporádica, não está relacionada ao tratamento cirúrgico ou à doença cerebral, e Lucas nega a presença de dor de cabeça. A escolha do código 8A80.2 (Enxaqueca crônica) se justifica pela ausência de déficits neurológicos focais e pela descrição clínica da queixa.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa de cefaleia não está relacionada ao tratamento cirúrgico ou à doença cerebral, e Lucas nega a presença de dor de cabeça. A escolha do código 8A80.2 (Enxaqueca crônica) é inapropriada porque o termo 'cefaleia' não se refere a uma condição clínica diretamente relacionada à doença cerebral, e a descrição clínica da queixa não justifica a escolha desse código.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    }
+  }
+}

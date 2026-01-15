@@ -1,0 +1,241 @@
+{
+  "prontuario_id": 954,
+  "text": "Às 20H: RECEPCIONADA DO CC EM POI DE RESSECÇÃO DE TUMOR DE MEDIASTINO POSTERIOR + ESOFAGORRAFIAS. PERMANECE EM RESPIRAÇÃO ESPONTÂNEA COM SUPLEMENTAÇÃO DE O2 VIA MÁSCARA A 5 L/MIN, PUPILAS ISOCÓRICAS E FOTORREAGENTES, GLASGOW 11-12, MUCOSAS DESCORADAS, SNE FECHADA, ACESSOS VENOSOS PERIFÉRICOS EM MMSS COM PLANO BÁSICO DE HIDRATAÇÃO, AUSCULTA PULMONAR COM RONCOS ESPARSOS E MV DIMINUÍDOS EM BASES, DRENO DE TÓRAX Á DIREITA SUPERIOR COM DISCRETA OSCILAÇÃO E 50 ML DE DÉBITO HEMÁTICO, DRENO DE TÓRAX DIREITO INFERIOR COM 200 ML DE DÉBITO HEMÁTICO E OSCILANTE, ABDOME GLOBOSO E FLÁCIDO, RHA HIPOATIVOS, CATÉTER PARA ANALGESIA OCLUÍDO, 200 ML DE DIURESE DE ASPECTO AMARELO CLARO. MONITORADO COM PNI, CARDIOSCOPIA E OXIMETRIA DE PULSO. EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO. Às 01:42H: CLIENTE SERIA REMOVIDO PARA HOSPITAL EVANGÉLICO, PORÉM FOI SUSPENSO. FOI REMOVIDO PARA HOSPITAL DE CLÍNICAS PARA CONTINUIDADE NO TRATAMENTO, CONTATO REALIZADO PELA CLÍNICA MÉDICA COM PLANTONISTA DO HC. ENF FLORENCE NIGHTINGALE, COREN XXXX. OUTRAS DOENCAS ESPECIFICADAS DO SANGUE E DOS ORGAOS HEMATOPOETICOS.",
+  "entities": {
+    "Abreviação": [
+      "CC",
+      "POI",
+      "MMSS",
+      "PNI",
+      "ENF",
+      "SNE FECHADA",
+      "MV DIMINUÍDOS EM BASES",
+      "RHA HIPOATIVOS"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CC",
+      "CLÍNICA MÉDICA"
+    ],
+    "Conceito Temporal": [
+      "POI"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ESOFAGORRAFIAS",
+      "RESSECÇÃO DE TUMOR DE MEDIASTINO POSTERIOR",
+      "SUPLEMENTAÇÃO DE O2",
+      "SNE FECHADA",
+      "ACESSOS VENOSOS PERIFÉRICOS",
+      "PLANO BÁSICO DE HIDRATAÇÃO",
+      "DRENO DE TÓRAX"
+    ],
+    "Dispositivo Médico": [
+      "MÁSCARA",
+      "SNE FECHADA",
+      "ACESSOS VENOSOS PERIFÉRICOS",
+      "DRENO DE TÓRAX"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PUPILAS"
+    ],
+    "Localização ou Região Corporal": [
+      "MMSS",
+      "ABDOME"
+    ],
+    "Sinal ou Sintoma": [
+      "OSCILANTE",
+      "GLOBOSO",
+      "GLASGOW 11-12",
+      "MUCOSAS DESCORADAS",
+      "RONCOS ESPARSOS",
+      "MV DIMINUÍDOS EM BASES",
+      "DISCRETA OSCILAÇÃO",
+      "DÉBITO HEMÁTICO",
+      "RHA HIPOATIVOS"
+    ],
+    "Achado": [
+      "FLÁCIDO",
+      "OCLUÍDO",
+      "MONITORADO",
+      "RESPIRAÇÃO ESPONTÂNEA",
+      "SNE FECHADA",
+      "AMARELO CLARO"
+    ],
+    "Procedimento Diagnóstico": [
+      "MONITORADO",
+      "PNI",
+      "CARDIOSCOPIA",
+      "AUSCULTA PULMONAR",
+      "OXIMETRIA DE PULSO"
+    ],
+    "Grupo Populacional": [
+      "PESSOAS"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "CLIENTE"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "PLANTONISTA",
+      "ENF"
+    ],
+    "Conceito Quantitativo": [
+      "5 L/MIN",
+      "50 ML",
+      "200 ML"
+    ],
+    "Conceito Espacial": [
+      "DIREITA SUPERIOR",
+      "DIREITO INFERIOR"
+    ],
+    "Substância Corporal": [
+      "DÉBITO HEMÁTICO"
+    ],
+    "Doença ou Síndrome": [
+      "DOENCAS ESPECIFICADAS DO SANGUE E DOS ORGAOS HEMATOPOETICOS"
+    ]
+  },
+  "labels": {
+    "3B64.14": {
+      "term_original": "rha hipoativos",
+      "capitulo": "03",
+      "confidence_embedding": 0.7121,
+      "descricao_cid": "Representação de doença CID-11: Púrpura trombocitopênica trombótica. Definição: Esta condição é idiopática. Esta condição é caracterizada por anormalidade da coagulação do sangue causando a formação de coágulos microscópicos de forma extensa nos pequenos vasos sanguíneos do corpo, resultando em baixa contagem de plaquetas. Esta condição pode se apresentar com convulsões, hemiplegia, parestesias, distúrbio visual e afasia ou anemia. A confirmação é pela identificação de tromboses.",
+      "classification_reasoning": "A opção mais precisa para o termo 'rha hipoativos' é a púrpura trombocitopênica trombótica, pois essa doença caracteriza-se por anormalidade da coagulação do sangue e formação de coágulos microscópicos nos pequenos vasos sanguíneos, resultando em baixa contagem de plaquetas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A púrpura trombocitopênica trombótica é uma doença caracterizada por anormalidade da coagulação do sangue e formação de coágulos microscópicos nos pequenos vasos sanguíneos, resultando em baixa contagem de plaquetas. No entanto, no prontuário, o termo 'rha hipoativos' se refere a uma condição clínica que não está relacionada à coagulação do sangue ou formação de coágulos microscópicos. Portanto, a codificação CID-11 3B64.14 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C45.3": {
+      "term_original": "glasgow 11-12",
+      "capitulo": "06",
+      "confidence_embedding": 0.7662,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A combinação de sintomas como anormalidades no estado de consciência (Glasgow 11-12), respiração espontânea, suplementação de O2 e auscultas pulmonar com roncos esparso permitiu inferir a presença de uma intoxicação. A possibilidade de uma demência ou abstinência de álcool foi excluída pela ausência de sintomas específicos para essas condições.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A combinação de sintomas descritos no prontuário, como Glasgow 11-12, não é suficiente para inferir a presença de uma intoxicação por cocaína. A descrição do código CID-11 não se ajusta às características clínicas da intoxicação por cocaína, como euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, etc. Além disso, a ausência de sintomas específicos para a intoxicação por cocaína, como alucinações auditivas ou confusão, também sugere que o código CID-11 não é adequado.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "8B25.4": {
+      "term_original": "mv diminuídos em bases",
+      "capitulo": "08",
+      "confidence_embedding": 0.7198,
+      "descricao_cid": "Representação de doença CID-11: Efeitos tardios de acidente vascular cerebral desconhecido se isquêmico ou hemorrágico. Definição: Efeitos tardios ocorrendo após 1 mês ou mais do início da doença. Os códigos para acidente vascular cerebral (AVC) agudo devem ser usados ​​exclusivamente para AVC agudo e episódios de hospitalização imediatamente relacionados.",
+      "classification_reasoning": "A opção mais precisa é o Código 8B25.4, pois 'mv diminuídos em bases' sugere efeitos tardios de acidente vascular cerebral desconhecido se isquêmico ou hemorrágico, com base na definição da doença CID-11.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção do sistema é baseada na definição da doença CID-11, que se refere a efeitos tardios de acidente vascular cerebral desconhecido. No entanto, o termo 'mv diminuídos em bases' não está diretamente relacionado à doença de AVC. A descrição do prontuário sugere que o paciente tem uma lesão cardíaca ou circulatória, e não há evidência clínica para suportar a classificação como efeito tardio de AVC.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NE81.0Z": {
+      "term_original": "oscilante",
+      "capitulo": "22",
+      "confidence_embedding": 0.7156,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "O termo 'oscilante' se refere à oscilação do dreno de tórax à direita inferior com 200 ml de débito hemático, indicando uma hemorragia ou hematoma não especificada que está complicando o procedimento de ressecção de tumor do mediastino posterior.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'oscilante' não está diretamente relacionado à hemorragia ou hematoma descrita no prontuário. A oscilação do dreno de tórax pode ser uma característica da técnica de ressecção de tumor, e não necessariamente uma indicação de hemorragia ou hematoma. Portanto, a classificação NE81.0Z é demasiado genérica e não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "FA34.0": {
+      "term_original": "flácido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7428,
+      "descricao_cid": "Representação de doença CID-11: Corpo flutuante na articulação. Definição: ",
+      "classification_reasoning": "A descrição do termo 'flácido' se refere à textura e aspecto do abdome, que é descrito como 'globoso e flácido', indicando uma perda de tônus muscular e achatamento da área abdominal.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'flácido' se refere à textura e aspecto do abdome, que é descrito como 'globoso e flácido', indicando uma perda de tônus muscular e achatamento da área abdominal. A codificação CID-11 FA34.0 'Representação de doença: Corpo flutuante na articulação' se refere à textura do abdome, que é descrita como flácida no prontuário. Portanto, a codificação é clínicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "3A94": {
+      "term_original": "doencas especificadas do sangue e dos orgaos hematopoeticos",
+      "capitulo": "03",
+      "confidence_embedding": 0.7616,
+      "descricao_cid": "Representação de doença CID-11: Anemia pós-hemorrágica aguda. Definição: Doença causada pela perda sanguínea como a subsequente a traumatismo. Esta doença é caracterizada por perda de sangue do corpo levando a níveis diminuídos de glóbulos vermelhos/sangue no organismo. Esta doença se manifesta com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de níveis baixos de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "A escolha é justificada pelo fato de o paciente ter apresentado uma história de perda sanguínea aguda, com descrita em seu prontuário 'recepcionada do CC em POI de ressecção de tumor de mediastino posterior + esofagorrafias', e também há referência à diurese amarelo claro, sugerindo que o paciente está sofrendo com uma perda sanguínea crônica. Além disso, a presença de anemia e baixa contagem de plaquetas são outros indícios da escolha da doença 'Anemia pós-hemorrágica aguda' (CID-11: 3A94).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 3A94, Anemia pós-hemorrágica aguda, não é justificada clinicamente. Embora o prontuário mencione perda sanguínea e diurese amarelo claro, essas informações são mais consistentes com uma hemorragia crônica do que com anemia pós-hemorrágica aguda. Além disso, não há evidência clínica de baixa contagem de glóbulos vermelhos ou plaquetas no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB81": {
+      "term_original": "globoso",
+      "capitulo": "15",
+      "confidence_embedding": 0.704,
+      "descricao_cid": "Representação de doença CID-11: Osteonecrose. Definição: Osteonecrose é o termo médico usado para a morte do tecido ósseo que ocorre quando o suprimento sanguíneo para o osso é interrompido por algum motivo. Os médicos algumas vezes se referem a esta condição como necrose avascular, necrose asséptica ou necrose isquêmica do osso.",
+      "classification_reasoning": "A opção mais precisa para o termo 'globoso' é a osteonecrose (FB81), pois o prontuário descreve um abdome globoso e flácido, o que sugere uma alteração do tecido ósseo ou muscular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'globoso' não é a osteonecrose (FB81), pois o prontuário descreve um abdome globoso e flácido, que pode ser uma alteração do tecido muscular ou peritoneal, e não necessariamente relacionado à osteonecrose. A classificação FB81 é muito específica e não captura a essência da condição descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "EB13.1": {
+      "term_original": "mucosas descoradas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7881,
+      "descricao_cid": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável.",
+      "classification_reasoning": "A opção EB13.1, Necrólise epidérmica tóxica (NET), é a mais precisa para o termo 'mucosas descoradas' porque a descrição da NET menciona que as mucosas também estão envolvidas na doença.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição de 'mucosas descoradas' no prontuário não é específica o suficiente para justificar a classificação de Necrólise epidérmica tóxica (NET) com o código CID-11 EB13.1. A NET é uma doença cutânea aguda caracterizada por um rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme, envolvendo mais de 30% da área de superfície corporal. Embora as mucosas possam estar envolvidas, a descrição do prontuário não apresenta evidências suficientes para confirmar essa condição.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "8A64": {
+      "term_original": "discreta oscilação",
+      "capitulo": "08",
+      "confidence_embedding": 0.754,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo.",
+      "classification_reasoning": "A opção mais precisa para o termo 'discreta oscilação' é a Crise epiléptica única devida a causas remotas (Código: 8A64), pois a descrição menciona uma oscilação discreta no dreno de tórax à direita superior, o que pode ser relacionado à atividade elétrica cerebral durante uma crise epiléptica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário menciona uma oscilação discreta no dreno de tórax, o que pode ser relacionado à atividade elétrica cerebral durante uma crise epiléptica. No entanto, a Crise epiléptica única devida a causas remotas (Código: 8A64) não se refere ao tipo de oscilação descrita no prontuário. A classificação é demasiado específica e não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB21.1": {
+      "term_original": "respiração espontânea",
+      "capitulo": "12",
+      "confidence_embedding": 0.8273,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A escolha do código CB21.1 é baseada na presença de respiração espontânea, o que sugere a possibilidade de um pneumotórax espontâneo não hipertensivo. Além disso, o paciente apresenta outros sintomas compatíveis com essa condição, como abdome globoso e flácido, dréno de tórax com discreta oscilação e débito hemático.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de respiração espontânea não é suficiente para justificar a escolha do código CB21.1, pois o termo extraído não menciona a existência de pneumotórax ou qualquer outro tipo de lesão pulmonar. Além disso, outros sintomas descritos no prontuário, como dréno de tórax e débito hemático, sugerem que a condição pode ser mais complexa do que um simples pneumotórax espontâneo.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "GA18.1": {
+      "term_original": "sne fechada",
+      "capitulo": "16",
+      "confidence_embedding": 0.7498,
+      "descricao_cid": "Representação de doença CID-11: Cisto do corpo lúteo. Definição: Condição que afeta mulheres, causada pela expansão do corpo lúteo com ar, sangue ou fluido no ovário após a ovulação de um folículo. Essa condição é caracterizada por uma massa de até 10 cm de diâmetro. Essa condição também pode se apresentar com dor pélvica ou abdominal, hemorragia ou torção ovariana.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sne fechada' é a cistite do corpo lúteo (GA18.1), pois este termo refere-se à presença de sangue ou fluido no ovário após a ovulação, característica da cistite do corpo lúteo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A cistite do corpo lúteo (GA18.1) é uma condição que afeta mulheres e está relacionada à ovulação, enquanto o termo 'sne fechada' não apresenta nenhuma relação com a ovulação ou o corpo lúteo. Além disso, a descrição do prontuário não menciona qualquer sintoma ou característica clínica compatível com a cistite do corpo lúteo.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD11.4": {
+      "term_original": "amarelo claro",
+      "capitulo": "21",
+      "confidence_embedding": 0.7258,
+      "descricao_cid": "Representação de doença CID-11: Respiração de Cheyne-Stokes relacionada ao sono. Definição: Respiração periódica, uma variante da respiração de Cheyne-Stokes, é caracterizada por ciclos regulares e recorrentes de mudanças no volume corrente, nas quais o menor volume corrente é menor que a metade do volume corrente máximo do mesmo ciclo. É o padrão respiratório anormal mais frequentemente relacionado ao acidente vascular cerebral, mais do que nas doenças sistêmicas, ocorrendo em aproximadamente 25% daqueles. A respiração periódica pode ser mais comum em pacientes com hemorragia subaracnóidea.",
+      "classification_reasoning": "A descrição do termo 'amarelo claro' se refere à diuresa com aspecto amarelo claro, o que é consistente com a respiração de Cheyne-Stokes relacionada ao sono, caracterizada por mudanças periódicas no volume corrente. Isso justifica a escolha do código MD11.4.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'amarelo claro' se refere à diuresa com aspecto amarelo claro, o que é consistente com a respiração de Cheyne-Stokes relacionada ao sono. A justificativa do sistema é clara e lógica, pois a respiração periódica pode ser caracterizada por mudanças periódicas no volume corrente, incluindo alterações na diuresa. Portanto, a escolha do código MD11.4 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "9A78.6": {
+      "term_original": "ocluído",
+      "capitulo": "09",
+      "confidence_embedding": 0.7811,
+      "descricao_cid": "Representação de doença CID-11: Anestesia da córnea. Definição: Esta é a condição de ter a sensação (incluindo a sensação de dor) bloqueada ou temporariamente abolida da parte frontal transparente do olho que cobre a íris, a pupila e a câmara anterior.",
+      "classification_reasoning": "A opção mais precisa para o termo 'ocluído' é a anestesia da córnea (Código 9A78.6), pois isso se refere à perda ou abolição temporária da sensação, incluindo a dor, na parte frontal transparente do olho.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção 9A78.6 - Anestesia da córnea não se aplica ao termo 'ocluído' no prontuário, pois o contexto clínico refere-se à anestesia ocular para analgesiaocluida, e não à perda ou abolição temporária da sensação na parte frontal transparente do olho. A classificação é inapropriada e não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "QA8D": {
+      "term_original": "monitorado",
+      "capitulo": "24",
+      "confidence_embedding": 0.7656,
+      "descricao_cid": "Representação de doença CID-11: Paciente que recebeu um teste diagnóstico ou tratamento destinado a outro paciente, sem lesão ou dano. Definição: ",
+      "classification_reasoning": "O termo 'monitorado' refere-se ao paciente sendo acompanhado e observado por profissionais de saúde, o que é consistente com a definição do código QA8D: Paciente que recebeu um teste diagnóstico ou tratamento destinado a outro paciente, sem lesão ou dano.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'monitorado' no prontuário refere-se ao paciente sendo acompanhado e observado por profissionais de saúde, o que é consistente com a definição do código QA8D. A codificação CID-11 representa fielmente o termo ou condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

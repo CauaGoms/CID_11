@@ -1,0 +1,166 @@
+{
+  "prontuario_id": 111,
+  "text": "TX RENA LHÁ 12 DIAS.\n\nmtc 30, fk 5 / 5, ms 2 / 2, bon, cvd 6,25 x 2.\n\nS: QUEIXAS VAGAS: DESCONFORTO NA FO.\nO: PA 140/90,  P 76,  AFEBRIL,  DIURESE 2L.\nHIPOCORADO,\nCPP LIVRES,\nPC RITMO REGULAR,\nABD RHA+, FLÁCIDO, FO LIMPA E SECA.\nMMII SEM EDEMA.\nTX RENAL COM 12 DIAS EM QUEDA LENTA DA CREATININA - 2,71 HJ COM NS FK PENDENTE.\nTENDE A HAS.\nANEMIA.\n \n \n ",
+  "entities": {
+    "Substância Farmacológica": [
+      "mtc",
+      "fk",
+      "ms",
+      "bon",
+      "cvd"
+    ],
+    "Substância Química Orgânica": [
+      "mtc",
+      "fk",
+      "ms",
+      "cvd"
+    ],
+    "Abreviação": [
+      "mtc",
+      "fk",
+      "ms",
+      "bon",
+      "cvd",
+      "FO",
+      "PA",
+      "P",
+      "ABD",
+      "RHA+",
+      "MMII",
+      "HAS",
+      "TX RENA",
+      "CPP LIVRES",
+      "TX RENAL",
+      "NS FK"
+    ],
+    "Conceito Quantitativo": [
+      "30",
+      "140/90",
+      "76",
+      "2L",
+      "5 / 5",
+      "2 / 2",
+      "6 , 25 x 2"
+    ],
+    "Sinal ou Sintoma": [
+      "DESCONFORTO",
+      "AFEBRIL",
+      "HIPOCORADO",
+      "EDEMA",
+      "QUEIXAS VAGAS"
+    ],
+    "Lesão ou Envenenamento": [
+      "FO"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PC"
+    ],
+    "Negação": [
+      "AFEBRIL",
+      "SEM"
+    ],
+    "Função de Organismo": [
+      "DIURESE"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABD",
+      "MMII"
+    ],
+    "Achado": [
+      "RHA+",
+      "FLÁCIDO",
+      "LIMPA",
+      "SECA",
+      "CPP LIVRES",
+      "RITMO REGULAR"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "ANEMIA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENA",
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "NS FK"
+    ],
+    "Procedimento Laboratorial": [
+      "NS FK"
+    ]
+  },
+  "labels": {
+    "CA25": {
+      "term_original": "fo",
+      "capitulo": "12",
+      "confidence_embedding": 0.7598,
+      "descricao_cid": "Representação de doença CID-11: Fibrose cística. Definição: Fibrose cística (FC) é uma doença genética caracterizada pela produção de suor com alto conteúdo de sal e secreções mucosas com viscosidade anormal. A doença é crônica e geralmente progressiva, usualmente com seu início ocorrendo durante a primeira infância ou, ocasionalmente, no nascimento (íleo meconial). Praticamente qualquer órgão interno pode ser afetado, mas as principais manifestações dizem respeito ao sistema respiratório (bronquite crônica), pâncreas (insuficiência pancreática, diabetes da adolescência e, ocasionalmente, pancreatite) e, mais raramente, intestino (obstrução intestinal) e fígado (cirrose). Os sintomas e sinais habituais de apresentação incluem infecção pulmonar persistente, insuficiência pancreática e níveis elevados de cloreto no suor. Muitos paciente, entretanto, mostram sintomas discretos ou atípicos e clínicos devem estar alertas para a possibilidade de FC mesmo quando apenas poucas das manifestações habituais estão presentes. Para o diagnóstico da fibrose cística devem estar presentes ambos os critérios: sintomas compatíveis com FC em pelo menos um sistema orgânico e evidência de disfunção do regulador da condutância transmembrana da fibrose cística (CFTR)",
+      "classification_reasoning": "A opção mais precisa é CA25, Fibrose cística, pois o termo 'fo' está relacionado ao termo 'FO LIMPA E SECA' presente no prontuário, que sugere a possibilidade de fibrose cística.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'fo' não está diretamente relacionado à Fibrose cística. A abreviação 'FO LIMPA E SECA' se refere ao estado da pele, não à doença em si. Além disso, a descrição do código CID-11 CA25 não condiz com o conteúdo do prontuário. Portanto, é necessário remover o código e reavaliar a classificação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A45.30": {
+      "term_original": "ritmo regular",
+      "capitulo": "08",
+      "confidence_embedding": 0.7122,
+      "descricao_cid": "Representação de doença CID-11: Transtorno da substância branca devido à deficiência de vitamina B12. Definição: Características neurológicas ocorrem em 40% dos pacientes com deficiência de vitamina B12. Degeneração combinada subaguda é uma complicação neurológica reversível potencial de deficiência de vitamina B12. Sintomas desenvolvem de forma insidiosa e as manifestações neuropáticas incluem parestesia distal, dormência, ataxia de marcha e diminuição da propriocepção dos membros inferiores, enquanto componente mielopático leva à prejuízo motor variável devido à disfunção do trato piramidal. Incontinência fecal e urinária com impotência e hipotensão postural podem ocorrer como parte da mielopatia. Manifestações centrais incluem confusão, depressão, alucinação progressiva e lentificação mental. Pode ocorrer e neuropatia óptica.",
+      "classification_reasoning": "O termo 'ritmo regular' está presente na descrição de PC RITMO REGULAR, o que sugere uma função cardiovascular normal. Isso se alinha com a definição da doença CID-11 para o código 8A45.30, que é um Transtorno da substância branca devido à deficiência de vitamina B12. A presença de um ritmo cardíaco regular sugere que a função cardiovascular está normal e não há indícios de insuficiência cardíaca ou problemas cardíacos graves.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'ritmo regular' não está diretamente relacionado à deficiência de vitamina B12, que é a doença descrita pelo código CID-11 8A45.30. A presença de um ritmo cardíaco regular não é uma característica clínica relevante para essa doença. Portanto, o código CID-11 atribuído não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "FA27.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.75,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A escolha do código FA27.2 é baseada na presença de edema descrita no prontuário, especificamente 'EDEMA' na seção O e a menção de 'EDEMA BENIGNO DA BURSA OU BOLSA SEMIMEMBRANOSA OU MAS RARAMENTE DE ALGUM OUTRA BURSA OU BOLSA SINOVIAL, LOCALIZADA NA REGIÃO POSTERIOR DO JOELHO' na seção TX RENAL. Isso sugere que o edema é relacionado a uma doença artrítica aguda ou crônica, compatível com a definição do reumatismo palindrômico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de edema descrita no prontuário não está relacionada ao reumatismo palindrômico. O termo 'edema' se refere à presença de líquido na região do pé, enquanto o reumatismo palindrômico é uma doença artrítica aguda ou crônica que causa dor e edema nas articulações. A escolha do código FA27.2 não está justificada pela presença de edema no prontuário.",
+      "tipo_erro_auditoria": "family_history_misread"
+    },
+    "FA25.20": {
+      "term_original": "flácido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7429,
+      "descricao_cid": "Representação de doença CID-11: Gota tofácea. Definição: Os tofos são deposições de cristais de urato monossódico nos tecidos de pacientes com hiperuricemia e podem estar associados a outras manifestações como a artropatia da gota. Eles são identificados principalmente na pele e no tecido subcutâneo. A hélice da orelha é uma das localizações mais comuns de acometimento dos tofos.",
+      "classification_reasoning": "O termo 'flácido' sugere a presença de doença crônica que afeta os tecidos articulares, como é o caso da gota tofácea, que é caracterizada por deposição de cristais de urato na pele e no tecido subcutâneo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'flácido' não está diretamente relacionado à gota tofácea, que é uma doença crônica que afeta os tecidos articulares. A descrição do código CID-11 (FA25.20) sugere que a gota tofácea é caracterizada pela deposição de cristais de urato na pele e no tecido subcutâneo, o que não está relacionado à flacidez. Portanto, a codificação CID-11 não representa fielmente o termo 'flácido' descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF96": {
+      "term_original": "queixas vagas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7559,
+      "descricao_cid": "Representação de doença CID-11: Proteinúria. Definição: O excesso de proteínas séricas na urina, como na doença renal, em que a albumina é a proteína principal, porém também pode ser devido a outras proteínas, como imunoglobulinas de cadeias leves na discrasia de células plasmáticas como o mieloma múltiplo.",
+      "classification_reasoning": "A queixa vaga de desconforto na fossa obtusa (FO) sugere uma possível alteração renal, e a presença de proteinúria é uma possibilidade comum nesse contexto.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A queixa vaga de desconforto na fossa obtusa (FO) é uma possível manifestação de doença renal, e a presença de proteinúria é uma possibilidade comum nesse contexto. A codificação CID-11 MF96 'Representação de doença: Proteinúria' se encaixa perfeitamente com o termo 'queixas vagas' e as informações clínicas presentes no prontuário, justificando a manutenção da codificação.",
+      "tipo_erro_auditoria": null
+    },
+    "MF95": {
+      "term_original": "has",
+      "capitulo": "21",
+      "confidence_embedding": 0.7633,
+      "descricao_cid": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular.",
+      "classification_reasoning": "A opção mais precisa é a mioglobinúria (MF95), pois o termo 'has' está relacionado à presença de mioglobina na urina, que é um sintoma comum em casos de lesão renal aguda ou rabdomiólise.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção MF95 (Mioglobinúria) é justificada pela presença do termo 'has' no prontuário, que está relacionado à presença de mioglobina na urina. A descrição da condição clínica no prontuário também aponta para a possibilidade de lesão renal aguda ou rabdomiólise, o que é compatível com a definição do código CID-11 MF95.",
+      "tipo_erro_auditoria": null
+    },
+    "3A71.2": {
+      "term_original": "anemia",
+      "capitulo": "03",
+      "confidence_embedding": 0.8446,
+      "descricao_cid": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "Anemia na doença renal crônica é a opção mais precisa para o termo 'anemia' no contexto clínico, pois o paciente tem doença renal crônica e um TX renal com 12 dias em queda lenta da creatinina, o que sugere uma anemia relacionada à doença renal.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A anemia descrita no prontuário é claramente relacionada à doença renal crônica, comprovada pelo TX renal com 12 dias em queda lenta da creatinina. A opção CID-11 '3A71.2' é a mais precisa para representar essa condição clínica.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

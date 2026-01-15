@@ -1,0 +1,112 @@
+{
+  "prontuario_id": 118,
+  "text": "S # PACIENTE VEIO SOZINHA A CONSULTA. Refere melhora importante dos sintomas ansiosos com uso do REMILEV \" passou aquela angustia \" (sic). Refere sono reparador. Relata ter perdido cerca de 10kg desde ultima consulta (ha 01 mes) com uso de topiramato 50 mg (1/2-0/1-2). Esta cogitando não fazer a cx bariatrica desde então. Nega queixas, nega sintomas depressivos, nega sintomas ansisosos.\n \nA # HIPERTIMIA??\nP # AUMENTO TOPIRAMATO PARA 50 MG 1-0-1/2, ORIENTO MANTER REMILEV. ORIENTO PACIENTE SOBRE PROCESSO DE EMAGRECIMENTO, A MESMA DIZ QUE PREFERE ESPERAR MAIS TEMPO PARA DAR CONTINUIDADE A BARIATRICA.\nO # asseada, cooperativa, orientada, humor hipertimico afeto congruente, critica e insght parciais.\n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CONSULTA",
+      "AUMENTO",
+      "ORIENTO",
+      "MANTER"
+    ],
+    "Conceito Qualitativo": [
+      "melhora",
+      "parciais"
+    ],
+    "Conceito Quantitativo": [
+      "10kg",
+      "50 mg",
+      "50 MG"
+    ],
+    "Abreviação": [
+      "10kg",
+      "BARIATRICA",
+      "cx bariatrica"
+    ],
+    "Substância Química Orgânica": [
+      "topiramato",
+      "TOPIRAMATO",
+      "REMILEV"
+    ],
+    "Substância Farmacológica": [
+      "topiramato",
+      "TOPIRAMATO",
+      "REMILEV"
+    ],
+    "Negação": [
+      "não",
+      "Nega",
+      "nega"
+    ],
+    "Sinal ou Sintoma": [
+      "queixas",
+      "HIPERTIMIA",
+      "sintomas ansiosos",
+      "sintomas depressivos",
+      "sintomas ansisosos",
+      "humor hipertimico"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "BARIATRICA",
+      "cx bariatrica"
+    ],
+    "Achado": [
+      "asseada",
+      "cooperativa",
+      "orientada",
+      "passou aquela angustia",
+      "PROCESSO DE EMAGRECIMENTO",
+      "afeto congruente"
+    ],
+    "Processo Mental": [
+      "critica",
+      "insght",
+      "afeto congruente"
+    ],
+    "Função Fisiológica": [
+      "sono reparador"
+    ],
+    "Conceito Temporal": [
+      "desde ultima consulta",
+      "ha 01 mes",
+      "desde então"
+    ],
+    "Disfunção Mental ou Comportamental": [
+      "humor hipertimico"
+    ]
+  },
+  "labels": {
+    "6A25.3": {
+      "term_original": "humor hipertimico",
+      "capitulo": "06",
+      "confidence_embedding": 0.7932,
+      "descricao_cid": "Representação de doença CID-11: Sintomas de humor maníaco em transtornos psicóticos primários. Definição: Sintomas de humor maníaco em transtornos psicóticos primários referem-se a estados de humor elevado, eufórico, irritável ​​ou expansivo, incluindo mudanças rápidas entre diferentes estados de humor (ou seja, labilidade do humor). Também inclui experiência subjetiva de aumento da energia, que pode ser acompanhada por aumento da atividade direcionada a objetivos. A gravidade de sintomas concomitantes não relacionados ao humor de um episódio maníaco ou hipomaníaco (p. ex., diminuição da necessidade de sono, distratibilidade) não deve ser considerada na classificação. Aumento de atividade psicomotora não direcionada a objetivos deve ser considerado como parte da classificação dos 'sintomas psicomotores em transtornos psicóticos primários', e não nesta categoria. Este descritor pode ser usado quer os sintomas maníacos preencham ou não os critérios diagnósticos de um transtorno bipolar diagnosticado separadamente. A classificação deve ser feita com base na gravidade dos sintomas de humor maníaco durante a semana anterior.",
+      "classification_reasoning": "A paciente refere humor hipertimico, o que é consistente com a síndrome de humor secundária (Código 6E62) ou sintomas de humor maníaco em transtornos psicóticos primários (Código 6A25.3). No entanto, considerando o contexto clínico, a paciente não apresenta sintomas psicomotores e não há indicações de um transtorno psicótico primário. Além disso, a presença de humor hipertimico é mais consistente com os sintomas de humor maníaco em transtornos psicóticos primários (Código 6A25.3). Portanto, escolho o Código 6A25.3 como a opção mais precisa para o termo dentro do contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente refere humor hipertimico, mas o contexto clínico não sugere a presença de sintomas psicomotores ou um transtorno psicótico primário. O código 6A25.3 é mais adequado para descrições de humor maníaco em transtornos psicóticos primários, e não se aplica ao caso da paciente. Além disso, a presença de humor hipertimico é mais consistente com sintomas de humor secundário (Código 6E62) do que com sintomas de humor maníaco em transtornos psicóticos primários.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB23.H": {
+      "term_original": "passou aquela angustia",
+      "capitulo": "21",
+      "confidence_embedding": 0.7413,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A frase \"passou aquela angustia\" sugere que o paciente experimentou um episódio de ansiedade intenso, caracterizado pelo início súbito e simultâneo de uma série de sintomas características do pânico. Além disso, a menção à melhora importante dos sintomas ansiosos com uso do REMILEV também apoia essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A frase 'passou aquela angustia' sugere que o paciente experimentou um episódio de ansiedade intenso, mas não há evidência clínica suficiente para justificar a classificação como Crise de Pânico (MB23.H). A menção à melhora importante dos sintomas ansiosos com uso do REMILEV e ao sono reparador também não apoia essa escolha. Além disso, a negação de sintomas depressivos, ansiosos e quaisquer outras queixas sugere que o paciente não está apresentando um quadro clínico característico de Crise de Pânico.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "6C46.3": {
+      "term_original": "hipertimia",
+      "capitulo": "06",
+      "confidence_embedding": 0.7412,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por estimulantes, incluindo anfetaminas, metanfetamina ou metcatinona. Definição: Intoxicação por estimulantes, incluindo anfetaminas, metanfetamina e metcatinona, mas excluindo cafeína, cocaína e catinonas sintéticas é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de anfetaminas ou outros estimulantes, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos das anfetaminas ou outros estimulantes e sua intensidade está intimamente relacionada à quantidade de anfetaminas ou outros estimulantes consumida. Têm duração limitada, e diminuem à medida que as anfetaminas ou outros estimulantes são eliminados do corpo. Sintomas de apresentação podem incluir ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (possivelmente de intensidade delirante), alucinações auditivas transitórias, confusão transitória, mudanças na sociabilidade. Sudorese ou calafrios, nausea ou vômitos, e palpitações podem estar presentes. Sinais físicos podem incluir taquicardia, elevação da pressão arterial, dilatação pupilar, discinesias e distonias, e feridas na pele. Em casos raros, geralmente na intoxicação grave, o uso de estimulantes, incluindo anfetaminas, metanfetamina e metcatinona pode resultar em convulsões.",
+      "classification_reasoning": "A hipertimia referida no prontuário é mais provável uma reação à utilização de topiramato, anfetamina ou metanfetamina, que causou sintomas ansiosos e agitação psicomotora.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipertimia descrita no prontuário não se refere a uma intoxicação por estimulantes, como definido pelo código CID-11. Em vez disso, parece ser um sintoma de agitação psicomotora relacionado ao uso do topiramato e Remilev. O termo 'hipertimia' não é sinônimo de intoxicação por estimulantes e não há evidências clínicas suficientes para justificar a atribuição desse código.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

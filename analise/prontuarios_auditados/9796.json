@@ -1,0 +1,164 @@
+{
+  "prontuario_id": 723,
+  "text": "15:30 9º DI CRISE CONVULSIVA - PERMANECE NA SALA DE EMERGÊNCIA SOB VENTILAÇÃO MECÂNICA, DESIDRATADA, HIPOTENSA, TOT 7,5 COM RIMA LABIAL 22, FIO2 70%, MODO PCV , TEMPO DE INSPIRAÇÃO 1,0, PEEP 4, MANITORIZAÇÃO CARDÍACA COM OXIMETRIA DE PULSO CONTÍNUO COM FC 75 BMP, PA 97/59 MMHG, SPO2 96%. ACESSO VENOSO EM MSD COM SOROTERIAPIA EM CURSO E SEDAÇÃO 20 ML EM BOMBA INFUSORA. SOE EM POSIÇÃO GÁTRICA  COM DIETA EM CURSO. PRESENÇA DE SECREÇÃO PURULENTA EM TOT. AUSCULTA PULMONAR COM RONCOS, DIFUSOS.  SVD COM DÉBITO DE 100 ML COLORAÇÃO LARANJADA. ÚLCERA DE PRESSÃO EM REGIÃO SACRA GRAU II E EM REGIÃO DE CALCANHO BILATERAL GRAU II.  AGUARDA VAGA NA UTI. SEGUE AOS CUIDADOS DA EQUIPE MULTIPROFISIONAL. SEPTICEMIA NAO ESPECIFICADA.",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "DESIDRATADA",
+      "HIPOTENSA",
+      "RONCOS",
+      "CRISE CONVULSIVA",
+      "SECREÇÃO PURULENTA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TOT",
+      "SOROTERIAPIA",
+      "SEDAÇÃO",
+      "SOE",
+      "DIETA",
+      "SVD",
+      "VENTILAÇÃO MECÂNICA",
+      "MANITORIZAÇÃO CARDÍACA",
+      "ACESSO VENOSO"
+    ],
+    "Dispositivo Médico": [
+      "TOT",
+      "SOE",
+      "SVD",
+      "ACESSO VENOSO"
+    ],
+    "Conceito Quantitativo": [
+      "22",
+      "70%",
+      "4",
+      "96%",
+      "7 , 5",
+      "1 , 0",
+      "75 BMP",
+      "97/59 MMHG",
+      "20 ML",
+      "100 ML"
+    ],
+    "Atributo Clínico": [
+      "FIO2",
+      "PEEP",
+      "FC",
+      "PA",
+      "SPO2",
+      "DÉBITO",
+      "TEMPO DE INSPIRAÇÃO"
+    ],
+    "Abreviação": [
+      "FIO2",
+      "PEEP",
+      "FC",
+      "PA",
+      "SPO2",
+      "MSD",
+      "SOE",
+      "TOT",
+      "SVD",
+      "MODO PCV",
+      "75 BMP"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MSD"
+    ],
+    "Conceito Espacial": [
+      "DIFUSOS"
+    ],
+    "Função de Organismo": [
+      "DÉBITO"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UTI",
+      "SALA DE EMERGÊNCIA"
+    ],
+    "Localização ou Região Corporal": [
+      "RIMA LABIAL",
+      "REGIÃO SACRA",
+      "REGIÃO DE CALCANHO BILATERAL"
+    ],
+    "Procedimento Diagnóstico": [
+      "MANITORIZAÇÃO CARDÍACA",
+      "OXIMETRIA DE PULSO CONTÍNUO",
+      "AUSCULTA PULMONAR"
+    ],
+    "Dispositivo de Administração de Medicamento": [
+      "BOMBA INFUSORA"
+    ],
+    "Conceito Qualitativo": [
+      "COLORAÇÃO LARANJADA"
+    ],
+    "Doença ou Síndrome": [
+      "ÚLCERA DE PRESSÃO"
+    ],
+    "Classificação": [
+      "GRAU II"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CUIDADOS DA EQUIPE MULTIPROFISIONAL"
+    ]
+  },
+  "labels": {
+    "CA22.0": {
+      "term_original": "secreção purulenta",
+      "capitulo": "12",
+      "confidence_embedding": 0.7794,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A presença de secreção purulenta no contexto clínico sugere a possibilidade de uma doença pulmonar obstrutiva crônica (DPOC) com exacerbação aguda, o que justifica a escolha do código CA22.0.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A secreção purulenta descrita no prontuário é um sintoma de uma doença pulmonar, mas o código CA22.0 representa uma exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC), que não está diretamente relacionada à secreção purulenta. A presença de secreção purulenta sugere mais uma infecção ou processo inflamatório, e não uma exacerbação aguda de DPOC.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A25.4": {
+      "term_original": "roncos",
+      "capitulo": "09",
+      "confidence_embedding": 0.745,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia da órbita. Definição: Trata-se da perda ou escape de sangue do sistema circulatório. Esse diagnóstico é relativo à cavidade ou arcabouço ósseo do crânio em que o olho e seus apêndices estão situados. \"Órbita\" pode se referir ao arcabouço ósseo mas também pode ser utilizado para implicar seu conteúdo.",
+      "classification_reasoning": "A opção mais precisa para o termo 'roncos' é a hemorragia da órbita, pois roncos são uma característica auditiva comum em pacientes com sangramento intra-ocular ou periorbital.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'roncos' não é a hemorragia da órbita, pois roncos são uma característica auditiva comum em pacientes com doenças pulmonares ou cardiovasculares. A descrição do prontuário apresenta auscultação pulmonar com roncos difusos, o que sugere uma condição respiratória e não relacionada à órbita.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA90.0": {
+      "term_original": "úlcera de pressão",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A úlcera de pressão mencionada no contexto clínico é mais provável uma lesão dermatológica causada por insuficiência circulatória em pacientes críticos, o que é característico da infecção da vértebra (FA90.0).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A úlcera de pressão descrita no prontuário é uma lesão dermatológica causada por insuficiência circulatória, o que não está relacionado à infecção da vértebra (FA90.0). A classificação CID-11 FA90.0 não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD54": {
+      "term_original": "desidratada",
+      "capitulo": "11",
+      "confidence_embedding": 0.7867,
+      "descricao_cid": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'desidratada' é a úlcera de pé diabético (BD54), pois desidratação é um sintoma comum em pacientes com diabetes mellitus e doenças associadas, como úlceras nos pés.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A desidratada não é uma condição diagnóstica específica, mas sim um sintoma que pode estar relacionado a várias doenças. No contexto do prontuário, a paciente tem úlcera de pressão em região sacra e calcanho bilateral, o que sugere diabetes mellitus ou doença vascular. A desidratada não é uma condição clínica diretamente relacionada à úlcera de pé diabético (BD54), portanto, a classificação é inapropriada.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BE10": {
+      "term_original": "hipotensa",
+      "capitulo": "11",
+      "confidence_embedding": 0.7662,
+      "descricao_cid": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite.",
+      "classification_reasoning": "A paciente está hipotensa (PA 97/59 mmHg), o que sugere uma possível resposta cardiovascular ao estresse, corroborada pela presença de síndrome de Sepse não especificada. A escolha do código BE10, Síndrome pós-cardiotomia, é mais precisa do que outras opções porque a hipotensão é um sintoma comum nessa condição.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipotensão descrita no prontuário (PA 97/59 mmHg) não é um sintoma característico da Síndrome pós-cardiotomia, que é uma condição clínica específica relacionada a lesões cardíacas. A hipotensão pode ser um sintoma de várias outras condições, incluindo septicemia não especificada, que também está presente no prontuário. Portanto, o código CID-11 BE10 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A64": {
+      "term_original": "crise convulsiva",
+      "capitulo": "08",
+      "confidence_embedding": 0.7852,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo.",
+      "classification_reasoning": "A crise convulsiva descrita no contexto clínico é uma representação de doença CID-11: Crise epiléptica única devida a causas remotas. Embora haja outras opções que também sejam crises epilépticas, a presença de anormalidades do desenvolvimento cerebral ou condição clínica potencialmente responsável justifica a escolha desse código.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A crise convulsiva descrita no prontuário está clinicamente coerente com a definição do código CID-11: Crise epiléptica única devida a causas remotas. A presença de anormalidades do desenvolvimento cerebral ou condição clínica potencialmente responsável justifica a escolha desse código.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

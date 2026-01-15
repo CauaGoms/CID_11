@@ -1,0 +1,202 @@
+{
+  "prontuario_id": 268,
+  "text": "Às 18:50H: RETORNA DO CC POR FIXAÇÃO EXTERNA DE FEMUR DIREITO SOB MONITOR E RESPIRADOR DE TRANSPORTE. ## INICIO SG 0,5% EM 1 AMP DE MIDAZOLAM E 1 AMP DE FENTANIL. ENF Florence Nightingale, COREN XXXX. DOR ABDOMINAL E PELVICA. Às 15:30: Acordado, afebril, confuso, agitado, com necessidade de contenção. Uso de O2 em nevoa umida, FO em região cervical E com sangramento leve, trocado curativo do local. mantendo jejum, contato do dra Alice que virá para liberar dieta. aguardo.... Enf Florence Nightingale. ANEURISMA DA ARTERIA CAROTIDA. Às 02:45h: encontra-se consciente, pouco confusa, acamada, ssvv dentro dos parametros de normalidade, mantem acesso venoso periférico em MSE permeavel salinizado no momento, apresenta rush cutâneo corporal + prurido, curativo em MID limpo e seco externamente, refere boa aceitação alimentar, eliminações fisiologicas presentes, segue sob cuidados de enfermagem. Enf Florence Nightingale. FRATURA DO FEMUR.",
+  "entities": {
+    "Abreviação": [
+      "CC",
+      "SG",
+      "ENF",
+      "FO",
+      "Enf",
+      "MSE",
+      "MID",
+      "1 AMP",
+      "região cervical E",
+      "ssvv dentro dos parametros de normalidade"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CC"
+    ],
+    "Dispositivo Médico": [
+      "MONITOR",
+      "curativo",
+      "RESPIRADOR DE TRANSPORTE",
+      "acesso venoso periférico"
+    ],
+    "Substância Farmacológica": [
+      "SG",
+      "MIDAZOLAM",
+      "FENTANIL"
+    ],
+    "Substância Química Orgânica": [
+      "FENTANIL"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ENF",
+      "Enf"
+    ],
+    "Achado": [
+      "Acordado",
+      "afebril",
+      "consciente",
+      "acamada",
+      "permeavel",
+      "salinizado",
+      "limpo",
+      "seco",
+      "ssvv dentro dos parametros de normalidade",
+      "boa aceitação alimentar",
+      "eliminações fisiologicas presentes"
+    ],
+    "Negação": [
+      "afebril"
+    ],
+    "Sinal ou Sintoma": [
+      "confuso",
+      "agitado",
+      "prurido",
+      "pouco confusa",
+      "rush cutâneo corporal"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "contenção",
+      "jejum",
+      "salinizado",
+      "curativo",
+      "FIXAÇÃO EXTERNA",
+      "O2 em nevoa umida",
+      "trocado curativo",
+      "acesso venoso periférico"
+    ],
+    "Lesão ou Envenenamento": [
+      "FO",
+      "FRATURA DO FEMUR"
+    ],
+    "Alimento": [
+      "dieta"
+    ],
+    "Localização ou Região Corporal": [
+      "MSE",
+      "MID",
+      "região cervical E"
+    ],
+    "Conceito Espacial": [
+      "externamente"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "FEMUR DIREITO"
+    ],
+    "Doença ou Síndrome": [
+      "DOR ABDOMINAL E PELVICA",
+      "ANEURISMA DA ARTERIA CAROTIDA"
+    ],
+    "Função Fisiológica": [
+      "eliminações fisiologicas presentes"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "cuidados de enfermagem"
+    ]
+  },
+  "labels": {
+    "6C45.3": {
+      "term_original": "agitado",
+      "capitulo": "06",
+      "confidence_embedding": 0.7715,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A presença de agitação psicomotora no prontuário, associada a dor abdominal e pelvica, é consistente com sintomas de intoxicação por cocaína, como descrito na descrição do código 6C45.3.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de agitação psicomotora no prontuário não é suficiente para justificar a classificação como intoxicação por cocaína (6C45.3). A descrição do código CID-11 refere-se especificamente à intoxicação transitória causada pela cocaína, e não há evidências de que o paciente tenha consumido cocaína ou apresente sintomas característicos da intoxicação por essa substância. Além disso, a dor abdominal e pelvica pode ter outras causas clínicas, como a fratura do fêmur, que é mencionada no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EB13.1": {
+      "term_original": "limpo",
+      "capitulo": "14",
+      "confidence_embedding": 0.78,
+      "descricao_cid": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável.",
+      "classification_reasoning": "A descrição de \"limpo\" se refere à curativo do local da fratura do femur, indicando a presença de necrólise epidérmica tóxica (NET) com eritema e descolamento bolhoso da epiderme.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição de 'limpo' se refere ao estado do curativo do local da fratura do femur, não à necrólise epidérmica tóxica (NET). A presença de NET é caracterizada por eritema, necrose e descolamento bolhoso da epiderme, o que não está relacionado ao termo 'limpo'. Portanto, a codificação CID-11 EB13.1 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DD50.2": {
+      "term_original": "dor abdominal e pelvica",
+      "capitulo": "13",
+      "confidence_embedding": 0.778,
+      "descricao_cid": "Representação de doença CID-11: Hérnia intra-abdominal. Definição: Uma hérnia que ocorre dentro do abdômen através de abertura coberta pelo peritônio.",
+      "classification_reasoning": "A dor abdominal e pelvica é uma característica comum em hérnias intra-abdominais, que ocorrem quando o conteúdo do abdome (geralmente parte do intestino delgado) se comprime através de um ponto fraco ou rompe a fina parede muscular do abdome. A escolha do código DD50.2 é baseada na presença de dor abdominal e pelvica no contexto clínico, sugerindo uma hérnia intra-abdominal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor abdominal e pelvica não é uma característica exclusiva de hérnias intra-abdominais. Existem muitas outras possibilidades de causas para essa dor, como por exemplo, lesões ósseas ou problemas gástricos. A escolha do código DD50.2 não representa fielmente o termo descrito no prontuário e é demasiado genérico.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BB24": {
+      "term_original": "permeavel",
+      "capitulo": "11",
+      "confidence_embedding": 0.7336,
+      "descricao_cid": "Representação de doença CID-11: Hemopericárdio. Definição: Hemopericárdio causado por doenças não classificadas em outra parte. Hemopericárdio geralmente se refere a sangue no saco pericárdico do coração. É clinicamente semelhante ao derrame pericárdico e, dependendo do volume e da rapidez com que se desenvolve, pode causar tamponamento cardíaco.",
+      "classification_reasoning": "A opção mais precisa é BB24, pois 'permeavel' se refere à permeabilidade do tecido ou do vaso sanguíneo, o que é relacionado ao termo extraído. No contexto clínico, a opção BB24 descreve uma representação de doença CID-11: Hemopericárdio, que é clinicamente semelhante ao derrame pericárdico e pode causar tamponamento cardíaco.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BB24 não se refere à permeabilidade do tecido ou do vaso sanguíneo, como justificado pelo sistema. A descrição do código CID-11 não está relacionada ao termo 'permeavel' extraído do prontuário. O termo 'permeavel' se refere à permeabilidade de um acesso venoso periférico em MSE, o que não é clinicamente semelhante ao derrame pericárdico ou hemopericárdio.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA72.3": {
+      "term_original": "fratura do femur",
+      "capitulo": "15",
+      "confidence_embedding": 0.7129,
+      "descricao_cid": "Representação de doença CID-11: Fratura vertebral por fadiga. Definição: ",
+      "classification_reasoning": "A fratura do femur é um tipo de lesão óssea que é caracterizada por uma quebra no osso, nesse caso o femur. A opção FA72.3, Fratura vertebral por fadiga, é a mais precisa para o termo 'fratura do femur' dentro do contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FA72.3, Fratura vertebral por fadiga, não é um código CID-11 que representa fielmente a fratura do femur descrita no prontuário. A descrição do código CID-11 indica uma lesão óssea na coluna vertebral, enquanto a fratura do femur é uma lesão óssea no fémur. Portanto, não há correspondência clínica entre o termo e o código CID-11 atribuído.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME01": {
+      "term_original": "rush cutâneo corporal",
+      "capitulo": "21",
+      "confidence_embedding": 0.7324,
+      "descricao_cid": "Representação de doença CID-11: Distensão abdominal. Definição: Esta é uma condição em que o abdômen parece cheio e tenso por causa do inchaço do abdômen, geralmente devido a um aumento da quantidade de gases intestinais, mas ocorre às vezes quando fluidos, substâncias ou massa estão se acumulando ou se expandindo no abdômen.",
+      "classification_reasoning": "O termo 'rush cutâneo corporal' refere-se ao inchaço e sensibilidade cutânea, característico da distensão abdominal (MC01), embora possa estar relacionado a outras condições. A opção mais precisa para o contexto clínico é a distensão abdominal (ME01)",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'rush cutâneo corporal' não está diretamente relacionado à distensão abdominal (ME01). A descrição do código CID-11 não se aplica ao contexto clínico apresentado no prontuário. A condição descrita é uma fratura do fémur e um aneurisma da artéria carotídea, com sintomas de dor abdominal e pelvica, mas não há evidência de distensão abdominal.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BE10": {
+      "term_original": "salinizado",
+      "capitulo": "11",
+      "confidence_embedding": 0.7411,
+      "descricao_cid": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite.",
+      "classification_reasoning": "O termo 'salinizado' se refere ao uso de soro salino para infusão venosa, o que é comum em pacientes hospitalizados. A opção mais precisa para este termo é a síndrome pós-cardiotomia (Código BE10), pois envolve cuidados intensivos e monitoramento contínuo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 BE10 (Síndrome pós-cardiotomia) não é clinicamente coerente com o prontuário. O termo 'salinizado' refere-se ao uso de soro salino para infusão venosa, que não está relacionado à síndrome pós-cardiotomia. A opção mais precisa seria uma codificação relacionada ao cuidado intensivo ou monitoramento contínuo, como por exemplo, a codificação Z95.5 (Cuidados intensivos) ou R94.1 (Monitorização contínua).",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A94.1": {
+      "term_original": "fo",
+      "capitulo": "09",
+      "confidence_embedding": 0.7621,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso.",
+      "classification_reasoning": "O termo 'fo' provavelmente se refere à aplicação de oxigênio em nevoa umida na região cervical, o que é uma técnica comum para fornecer oxigênio ao paciente durante a transportação ou no ambiente hospitalar.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A análise do termo 'fo' revela que se refere à aplicação de oxigênio em nevoa umida na região cervical, o que é uma técnica comum para fornecer oxigênio ao paciente durante a transportação ou no ambiente hospitalar. Como essa técnica está claramente descrita no prontuário e não há contradição óbvia ou alucinação, considero que o código CID-11 atribuído (9A94.1) é clinicamente coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BD51.Y": {
+      "term_original": "aneurisma da arteria carotida",
+      "capitulo": "11",
+      "confidence_embedding": 0.7793,
+      "descricao_cid": "Representação de doença CID-11: Aneurisma e dissecção de outra artéria, excluindo aorta. Definição: ",
+      "classification_reasoning": "A descrição do termo 'aneurisma da arteria carotida' sugere que se trata de um aneurisma em uma artéria não aórtica, o que é confirmado pelo código BD51.Y, que descreve aneurismo e dissecção de outra artéria, excluindo aorta.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'aneurisma da arteria carotida' é claramente relacionada à condição descrita no prontuário, que menciona a presença de aneurisma da arteria carotida. A codificação CID-11 BD51.Y descreve aneurismo e dissecção de outra artéria, excluindo aorta, o que é consistente com a descrição do termo. Portanto, a codificação é válida e não há motivos para remover.",
+      "tipo_erro_auditoria": null
+    },
+    "EC90.4": {
+      "term_original": "prurido",
+      "capitulo": "14",
+      "confidence_embedding": 0.7835,
+      "descricao_cid": "Representação de doença CID-11: Prurido psicogênico. Definição: Prurido crônico episódico na ausência de uma causa orgânica identificável e tipicamente associado a estresse e/ou depressão.",
+      "classification_reasoning": "A presença de prurido nos sintomas do paciente, associado à dor abdominal e pelvica, sugerem uma resposta psicogênica ao estresse e/ou depressão, justificando a escolha da opção EC90.4.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de prurido nos sintomas do paciente não está clinicamente relacionada à dor abdominal e pelvica. O termo 'prurido' é uma descrição de um sintoma cutâneo, enquanto a dor abdominal e pelvica são sintomas viscerais. A escolha da opção EC90.4 é muito genérica e não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

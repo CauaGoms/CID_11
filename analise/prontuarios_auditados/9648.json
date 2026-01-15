@@ -1,0 +1,117 @@
+{
+  "prontuario_id": 859,
+  "text": "POS TX CARDIACO HA 3 ANOS e 7 MESES \nULTIMA BIOPSIA\nEM USO DE CICLOSPORINA 100 / 100, MYFORTIC 360 / 360 ( REDUZIU PARA ESSA DOSE POR ENGANO ) , E PREDNISONA 5 MG / DIA\nUSO DE AAS 100 / DIA\nS # SEM QUEIXAS \nDEMAIS SP \nAGURADA BIOPSIA.\nO # PA 120/80, FC 70\nACV BCRNF \nCPP LIVRE\nMMII SEM EDEMA \nA # POS TX CARDIACO , COM BOA EVOLUÇÃO. AGUARDA LAUDO DA BIOPSIA\nP # SOLICITO LAB E ECOCC\n \n \n \n ",
+  "entities": {
+    "Conceito Temporal": [
+      "POS",
+      "DIA",
+      "HA 3 ANOS e 7 MESES"
+    ],
+    "Procedimento Diagnóstico": [
+      "BIOPSIA",
+      "ECOCC"
+    ],
+    "Substância Farmacológica": [
+      "CICLOSPORINA",
+      "PREDNISONA",
+      "AAS"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "CICLOSPORINA"
+    ],
+    "Antibiótico": [
+      "MYFORTIC"
+    ],
+    "Substância Química Orgânica": [
+      "MYFORTIC",
+      "PREDNISONA",
+      "AAS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "REDUZIU",
+      "AGURADA",
+      "SOLICITO"
+    ],
+    "Hormônio": [
+      "PREDNISONA"
+    ],
+    "Abreviação": [
+      "AAS",
+      "SP",
+      "PA",
+      "FC",
+      "ACV",
+      "BCRNF",
+      "MMII",
+      "LAB",
+      "ECOCC",
+      "TX CARDIACO",
+      "CPP LIVRE"
+    ],
+    "Conceito Quantitativo": [
+      "100",
+      "120/80",
+      "70",
+      "100 / 100",
+      "360 / 360",
+      "5 MG"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "EDEMA"
+    ],
+    "Achado": [
+      "SP",
+      "BCRNF",
+      "CPP LIVRE"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC",
+      "ACV"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MMII"
+    ],
+    "Localização ou Região Corporal": [
+      "MMII"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "LAUDO"
+    ],
+    "Procedimento Laboratorial": [
+      "LAB"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX CARDIACO"
+    ],
+    "Conceito Qualitativo": [
+      "BOA EVOLUÇÃO"
+    ]
+  },
+  "labels": {
+    "BD93": {
+      "term_original": "edema",
+      "capitulo": "11",
+      "confidence_embedding": 0.7987,
+      "descricao_cid": "Representação de doença CID-11: Linfedema. Definição: Edema devido ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Geralmente afeta as extremidades, mas pode envolver qualquer parte do corpo. É desfigurante e aumenta a suscetibilidade a infecções recorrentes e malignidades locais.",
+      "classification_reasoning": "A descrição do termo 'edema' no contexto clínico refere-se a um edema devido ao acúmulo excessivo de linfa nos tecidos, caracterizando o Linfedema. A opção BD93 é mais precisa porque descreve a condição de Linfedema como uma representação de doença CID-11.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'edema' no contexto clínico refere-se a um edema devido ao acúmulo excessivo de linfa nos tecidos, caracterizando o Linfedema. A opção BD93 é mais precisa porque descreve a condição de Linfedema como uma representação de doença CID-11. Como não há contradição óbvia e a associação é clínica e lógica, mantive o código CID-11 atribuído (BD93).",
+      "tipo_erro_auditoria": null
+    },
+    "MG29": {
+      "term_original": "sp",
+      "capitulo": "21",
+      "confidence_embedding": 0.7454,
+      "descricao_cid": "Representação de doença CID-11: Edema. Definição: Acúmulo anormal de líquido em tecidos ou cavidades corporais, não codificado em outra parte.",
+      "classification_reasoning": "O termo 'SP' no contexto clínico se refere a uma representação de doença, especificamente o edema. O código MG29, que representa a doença 'Edema', é a escolha mais precisa para o termo dentro do contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'SP' no contexto do prontuário se refere a uma representação de doença, especificamente o edema. A descrição do código CID-11 MG29 também se refere ao edema. Portanto, é válido atribuir o código MG29 ao termo 'SP', pois há uma correspondência clínica entre os dois.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

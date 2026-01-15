@@ -1,0 +1,46 @@
+{
+  "prontuario_id": 996,
+  "text": "RETORNO PARA MOSTRAR EXAMES.\nPACIENTE ASSINTOMATICA NO MOMENTO.\n\nUS: ESTIRAMENTO DO LIG TALO-FIBULAR.\nRX - ENTESOPATIA CALCANEO.        ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "RETORNO"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Achado": [
+      "ASSINTOMATICA"
+    ],
+    "Procedimento Diagnóstico": [
+      "US",
+      "RX"
+    ],
+    "Abreviação": [
+      "US",
+      "RX",
+      "ESTIRAMENTO DO LIG TALO-FIBULAR"
+    ],
+    "Lesão ou Envenenamento": [
+      "ESTIRAMENTO DO LIG TALO-FIBULAR"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ESTIRAMENTO DO LIG TALO-FIBULAR",
+      "ENTESOPATIA CALCANEO"
+    ],
+    "Doença ou Síndrome": [
+      "ENTESOPATIA CALCANEO"
+    ]
+  },
+  "labels": {
+    "FB54.3": {
+      "term_original": "entesopatia calcaneo",
+      "capitulo": "15",
+      "confidence_embedding": 0.7043,
+      "descricao_cid": "Representação de doença CID-11: Esporão calcâneo. Definição: Este é um transtorno em que ocorre uma exostose no calcâneo (o osso do calcanhar)",
+      "classification_reasoning": "A opção mais precisa é a entesopatia calcâneo (FB54.3) porque o texto do prontuário refere-se explicitamente à 'entesopatia calcaneo' e essa condição está relacionada à alteração nos pontos de inserção de tendões ou ligamentos, como mencionado na definição da opção FB54.3.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa é a entesopatia calcâneo (FB54.3) porque o texto do prontuário refere-se explicitamente à 'entesopatia calcaneo' e essa condição está relacionada à alteração nos pontos de inserção de tendões ou ligamentos, como mencionado na definição da opção FB54.3.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

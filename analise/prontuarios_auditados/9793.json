@@ -1,0 +1,126 @@
+{
+  "prontuario_id": 755,
+  "text": "06/03/2012 às 14:40h. 1ºDI - Hemorragia intraventricular E. 1ºDI - AVC e PAM. Puérpera. Abertura ocular espontânea, afásica, hemiplégica D e diminuição de força a E. Pupilas iso / foto. Em ar ambiente. Segue em jejum VO. Acesso venoso central em subclávia D com infusão de soroterapia. CPP sem RA. Abdomem flácido, RHA+. Presença de lactação em mamas. Diurese espontânea. Extremidades aquecidas, perfusão periférica adequada, sem edemas.  # Solicitado enfaixamento de mamas. # Aguarda conduta frente a realização de Arteriografia.  Enfermeira Florence Nightingale. EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO.",
+  "entities": {
+    "Abreviação": [
+      "AVC",
+      "PAM",
+      "iso",
+      "foto",
+      "CPP",
+      "RA",
+      "RHA+",
+      "Hemorragia intraventricular E",
+      "jejum VO",
+      "subclávia D"
+    ],
+    "Achado": [
+      "Puérpera",
+      "iso",
+      "foto",
+      "RHA+",
+      "Abertura ocular espontânea",
+      "Diurese espontânea",
+      "Extremidades aquecidas",
+      "perfusão periférica adequada"
+    ],
+    "Conceito Temporal": [
+      "Puérpera"
+    ],
+    "Sinal ou Sintoma": [
+      "afásica",
+      "RA",
+      "edemas",
+      "QUEIXAS",
+      "hemiplégica D",
+      "diminuição de força a E"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "Pupilas",
+      "subclávia D"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "infusão",
+      "Solicitado",
+      "EXAME GERAL"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "soroterapia",
+      "jejum VO",
+      "Acesso venoso central",
+      "enfaixamento de mamas"
+    ],
+    "Negação": [
+      "sem",
+      "SEM"
+    ],
+    "Procedimento Diagnóstico": [
+      "Arteriografia",
+      "INVESTIGACAO DE PESSOAS"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Dispositivo Médico": [
+      "Acesso venoso central"
+    ],
+    "Função Fisiológica": [
+      "lactação em mamas"
+    ],
+    "Doença ou Síndrome": [
+      "DIAGNOSTICO RELATADO"
+    ]
+  },
+  "labels": {
+    "6D85.6": {
+      "term_original": "afásica",
+      "capitulo": "06",
+      "confidence_embedding": 0.8251,
+      "descricao_cid": "Representação de doença CID-11: Demência devida à hidrocefalia de pressão normal. Definição: Demência devida à hidrocefalia de pressão normal resulta do acúmulo excessivo de líquido cefalorraquidiano no cérebro, como resultado de causas idiopáticas não obstrutivas, mas também pode ser secundário a hemorragia, infecção ou inflamação. A progressão é gradativa, mas a intervenção (p. ex., derivação) pode resultar em melhora dos sintomas, especialmente se realizada precocemente no curso da condição. Tipicamente, comprometimentos cognitivos incluem velocidade de processamento reduzida e déficits na funcionalidade executiva e na atenção. Esses sintomas também são tipicamente acompanhados de anormalidades da marcha e incontinência urinária. Exame de imagem cerebral para mostrar o volume ventricular e caracterizar o deslocamento cerebral frequentemente é necessário para confirmar o diagnóstico.",
+      "classification_reasoning": "A presença de afásia, sintoma neurológico característico da demência devida à hidrocefalia de pressão normal, justifica a escolha do código 6D85.6.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A afásia é um sintoma neurológico comum em várias condições, incluindo AVC e PAM. No entanto, a presença de afásia não é suficiente para justificar o código 6D85.6, que se refere especificamente à demência devida à hidrocefalia de pressão normal. A falta de contexto clínico adicional no prontuário não permite uma conclusão segura sobre a natureza da afásia e sua relação com a demência. Portanto, é necessário remover o código 6D85.6 e reavaliar a codificação com base em informações mais precisas.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "8A61.1": {
+      "term_original": "diminuição de força a e",
+      "capitulo": "08",
+      "confidence_embedding": 0.7742,
+      "descricao_cid": "Representação de doença CID-11: Síndromes epilépticas genéticas de início na primeira infância. Definição: Inclui um vastro espectro de fenótipo que têm em comum uma base genética e o início na infância. Podem variar de síndromes benigna autolimitada a fármaco-resistente grave. História familiar de epilepsia é comum em algumas entidades sindrômicas e excepcional em outras.",
+      "classification_reasoning": "A opção mais precisa para o termo 'diminuição de força a e' é a síndrome epilépticas genéticas de início na primeira infância (Código: 8A61.1). Embora não haja uma relação clara entre a síndrome epiléptica e a hemorragia intraventricular, AVC e PAM mencionados no prontuário, é provável que a afásica, hemiplégica D e diminuição de força a e sejam consequências do dano cerebral. Além disso, a presença de lactação em mamas sugere que o paciente é puérpera, o que aumenta a probabilidade de uma síndrome epiléptica genética.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A diminuição de força a e não é uma síndrome epilépticas genéticas de início na primeira infância. A afásica, hemiplégica D e diminuição de força a e são consequências do dano cerebral causado pela hemorragia intraventricular E, AVC e PAM. O código CID-11 8A61.1 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B22": {
+      "term_original": "hemiplégica d",
+      "capitulo": "08",
+      "confidence_embedding": 0.7914,
+      "descricao_cid": "Representação de doença CID-11: Algumas doenças cerebrovasculares especificadas. Definição: Outras anormalidades especificadas de artérias ou veias intracranianas ou extracranianas. As entidades nesta seção podem ser usadas em combinação com outros códigos de diagnóstico neste bloco. Várias das entidades podem causar diferentes tipos de doença cerebrovascular, como AIT, acidente vascular cerebral isquêmico ou hemorragia intracerebral; podem estar associadas a outras síndromes clínicas; ou podem ser assintomáticas (não ter causado disfunção focal aguda do cérebro).\r\n\r\nA seção sobre malformações vasculares intracranianas foi bastante revisada em comparação com a CID-10, com base nos principais avanços científicos neste campo.\r\n\r\nAs síndromes de vasoconstrição cerebral e a encefalopatia reversível posterior são consideradas entidades separadas (visto que a vasoconstrição nem sempre está presente na última).\r\n\r\n\"Leucoencefalopatia vascular progressiva (doença de Binswanger)\" foi removida como uma entidade separada.",
+      "classification_reasoning": "A escolha do código 8B22 (Algumas doenças cerebrovasculares especificadas) é a mais precisa para o termo 'hemiplégica d' no contexto clínico, pois descreve uma lesão cerebral isquêmica ou hemorrágica que pode estar relacionada à acidente vascular cerebral (AVC). A presença de hemorragia intraventricular e AVC, juntamente com a hemiplégica D, suporta essa escolha.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código 8B22 (Algumas doenças cerebrovasculares especificadas) é a mais precisa para o termo 'hemiplégica d' no contexto clínico, pois descreve uma lesão cerebral isquêmica ou hemorrágica que pode estar relacionada à acidente vascular cerebral (AVC). A presença de hemorragia intraventricular e AVC, juntamente com a hemiplégica D, suporta essa escolha. Ajustou-se ao termo 'hemiplégica d' diretamente relacionado descrito no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "JA25.2": {
+      "term_original": "puérpera",
+      "capitulo": "18",
+      "confidence_embedding": 0.8236,
+      "descricao_cid": "Representação de doença CID-11: Eclâmpsia no puerpério. Definição: Esta condição é caracterizada por crise epiléptica ou convulsões de aparecimento recente que surgem na gravidez. A condição é frequentemente associada a hipertensão induzida pela gravidez, convulsões, crise epiléptica, ansiedade, dor epigástrica, dor de cabeça intensa, visão turva, proteinúria e edema, e que ocorre durante o puerpério.",
+      "classification_reasoning": "A paciente é descrita como puérpera e apresenta hemorragia intraventricular, AVC e PAM, além de sinais de puerpério como lactação em mamas e presença de lactação. A escolha do código JA25.2 (Eclâmpsia no puerpério) é mais precisa pois relaciona a gravidez e o puerpério com os sintomas apresentados, especialmente considerando a história de hipertensão.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente apresenta hemorragia intraventricular, AVC e PAM, além de sinais de puerpério como lactação em mamas e presença de lactação. Embora a paciente seja descrita como puérpera, o código JA25.2 (Eclâmpsia no puerpério) não representa fielmente essa condição clínica. A eclâmpsia é uma crise epiléptica ou convulsões de aparecimento recente que surge na gravidez, e não está relacionada à hemorragia intraventricular, AVC e PAM apresentados pela paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A94.1": {
+      "term_original": "abertura ocular espontânea",
+      "capitulo": "09",
+      "confidence_embedding": 0.7937,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso.",
+      "classification_reasoning": "A abertura ocular espontânea sugere a presença de um mecanismo anormal na íris, o que faz com que a opção mais precisa seja o glaucoma secundário de ângulo fechado (Código: 9A94.1)",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A abertura ocular espontânea não é uma síndrome de íris flácida, como descrita no código CID-11. A descrição do código refere-se a uma complicação durante a extração de catarata, enquanto o termo 'abertura ocular espontânea' se refere à abertura natural da pálpebra. Isso não é um tipo de glaucoma secundário de ângulo fechado e não há relação clínica direta entre os dois termos.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

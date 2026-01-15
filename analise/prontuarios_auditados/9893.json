@@ -1,0 +1,126 @@
+{
+  "prontuario_id": 690,
+  "text": "QP: PCTE REFERE BAV PARA LONGE EM AO, HA 1 ANO. NEGA OUTROS SINTOMAS.\nNEGA CX E TRAUMA OCULAR.\nNEGA USO DE COLIRIO E OCULOS\nNEGA COMORBIDADES\nHMF: NEGA HX FAMILIAR DE CGUEIRA E GLAUCOMA\nEF:\nAV: 20/40 AO\nESQ: -1,50 - 0,75 90º\n         -2,00 ESF\nTOL: -1,00 - 0,75 90º 20/20P\n        -1,75 ESF 20/20P\nBIO: NORMAL AO\nPIO:10/12\nFO: PAPILA E MACULA NORMAL AO\nCD: PRESCREVO OCULOS A PEDIDO DO PACIENTE (-1,25 ESF AO)\n      RETORNO ANUAL PELA UBS\nR1 Doutor Vital Brazil\n\n\n.\n \n \n \n ",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "QP",
+      "SINTOMAS",
+      "CGUEIRA"
+    ],
+    "Abreviação": [
+      "QP",
+      "PCTE",
+      "CX",
+      "HMF",
+      "EF",
+      "AV",
+      "ESQ",
+      "ESF",
+      "TOL",
+      "BIO",
+      "AO",
+      "PIO",
+      "FO",
+      "CD",
+      "UBS",
+      "R1"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PCTE"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "AO"
+    ],
+    "Negação": [
+      "NEGA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CX"
+    ],
+    "Substância Farmacológica": [
+      "COLIRIO"
+    ],
+    "Dispositivo Médico": [
+      "OCULOS"
+    ],
+    "Doença ou Síndrome": [
+      "GLAUCOMA"
+    ],
+    "Procedimento Diagnóstico": [
+      "ESQ",
+      "ESF",
+      "BIO",
+      "PIO",
+      "FO"
+    ],
+    "Conceito Quantitativo": [
+      "20/20P",
+      "10/12"
+    ],
+    "Achado": [
+      "NORMAL",
+      "PAPILA E MACULA NORMAL"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CD",
+      "PRESCREVO",
+      "RETORNO"
+    ],
+    "Conceito Temporal": [
+      "ANUAL",
+      "HA 1 ANO"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UBS"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "R1",
+      "Doutor"
+    ],
+    "Lesão ou Envenenamento": [
+      "TRAUMA OCULAR"
+    ]
+  },
+  "labels": {
+    "9C61.34": {
+      "term_original": "cgueira",
+      "capitulo": "09",
+      "confidence_embedding": 0.799,
+      "descricao_cid": "Representação de doença CID-11: Glaucoma secundário de ângulo fechado devido a invasão por células epiteliais. Definição: Invasão de células epiteliais é uma condição subsequente a traumatismo ocular aberto ou cirurgia em que células epiteliais conjuntivais ou corneanas ganham acesso à câmara anterior e crescem além da malha trabecular com subsequente elevação da pressão ocular e dano ao nervo óptico.",
+      "classification_reasoning": "A presença de história de bav para longe em ao, com 1 ano, e a ausência de outros sintomas sugere que o paciente pode ter desenvolvido um glaucoma secundário de ângulo fechado. A opção mais precisa é a Código 9C61.34, que descreve representação de doença CID-11: Glaucoma secundário de ângulo fechado devido a invasão por células epiteliais.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "Ajuste necessário pois a história de bav para longe em ao, com 1 ano, não é suficiente para justificar a atribuição do código CID-11 9C61.34, que descreve glaucoma secundário de ângulo fechado devido à invasão por células epiteliais. A falta de outros sintomas e a negação de comorbidades sugere que o paciente não tem glaucoma secundário de ângulo fechado.",
+      "tipo_erro_auditoria": "family_history_misread"
+    },
+    "NA06.5": {
+      "term_original": "trauma ocular",
+      "capitulo": "22",
+      "confidence_embedding": 0.7758,
+      "descricao_cid": "Representação de doença CID-11: Trauma do esfíncter da íris. Definição: Refere-se ao trauma ao músculo na parte do olho chamada íris. Este circunda internamente a pupila da íris, o que é apropriado à sua função como constritor da pupila.",
+      "classification_reasoning": "A opção mais precisa é o trauma do esfíncter da íris (NA06.5) porque o paciente nega USO DE COLIRIO E OCULOS e não há outras lesões mencionadas, sugerindo que a lesão ocular está relacionada à estrutura ocular interna.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'trauma ocular' é mencionado como negado no prontuário, o que significa que não há lesão ocular. A opção CID-11 NA06.5 refere-se a trauma do esfíncter da íris, que não está relacionada à condição clínica descrita no prontuário. Portanto, é necessário remover essa classificação para garantir a coerência clínica.",
+      "tipo_erro_auditoria": "negated_finding"
+    },
+    "MC20.2": {
+      "term_original": "qp",
+      "capitulo": "21",
+      "confidence_embedding": 0.7559,
+      "descricao_cid": "Representação de doença CID-11: Hipópio. Definição: Hipópio é a presença de células inflamatórias na câmara anterior do olho. Corresponde a um exsudato leucocitário, observado na câmara anterior, geralmente acompanhado de hiperemia de conjuntiva e episclera subjacente. É um sinal de inflamação da úvea anterior e da íris, ou seja, irite, que é uma forma de uveíte anterior. O exsudado deposita-se no fundo devido à ação da gravidade.",
+      "classification_reasoning": "A escolha do cÃ³digo MC20.2 foi baseada na descriÃ§Ã£o de hipÃ³pio, que se refere Ã  presenÃ§a de cÃélulas inflamatÃ³rias na câmara anterior do olho, o que coincide com a informaÃ§Ã£o apresentada no prontuÃ¡rio (QP: PCTE REFERE BAV PARA LONGE EM AO) e a ausÃªncia de sintomas clÃ­nicos adicionais.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário não menciona a presença de células inflamatórias na câmara anterior do olho, o que é descrito no código CID-11 MC20.2. Além disso, o termo 'QP: PCTE REFERE BAV PARA LONGE EM AO' sugere que o paciente não apresenta sintomas clínicos de hipópio.",
+      "tipo_erro_auditoria": "negated_finding"
+    },
+    "9C61.0": {
+      "term_original": "glaucoma",
+      "capitulo": "09",
+      "confidence_embedding": 0.8124,
+      "descricao_cid": "Representação de doença CID-11: Glaucoma primário de ângulo aberto. Definição: Glaucoma primário de ângulo aberto é uma neuropatia óptica progressiva crônica com alterações morfológicas características na cabeça do nervo óptico e na camada de fibras nervosas da retina na ausência de outra doença ocular ou anomalias congênitas. A morte progressiva de células ganglionares retinianas e a perda de campo visual estão associados a essas alterações. A aparência do ângulo da câmara anterior é normal e os fatores de risco mais importantes incluem o valor da pressão intraocular e a idade avançada.",
+      "classification_reasoning": "A opção mais precisa é o glaucoma primário de ângulo aberto, pois não há referência a traumatismo ocular ou cirurgia no prontuário, e o paciente tem um ano de história de baixa da visão em ao, o que é consistente com a evolução progressiva do glaucoma. Além disso, não há outros sintomas mencionados, nem comorbidades, o que também aponta para uma doença primária.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção de código CID-11 '9C61.0' é incompatível com o prontuário, pois não há referência a glaucoma primário de ângulo aberto ou qualquer outro tipo de glaucoma. O paciente tem baixa da visão em ao e nega outros sintomas, trauma ocular e uso de colírio. Além disso, não há comorbidades mencionadas. A justificativa do sistema é baseada em uma interpretação puramente imaginária e sem qualquer base no texto.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

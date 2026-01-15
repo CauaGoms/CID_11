@@ -1,0 +1,79 @@
+{
+  "prontuario_id": 693,
+  "text": "12-3-13  DESCRIÇÃO CX  - TROCA  VALVAR  MITRAL BIOPROTESE N  31\n6-4-15   FE 63  EP 35  AE  48  FÇAO DIAT   INDETEREMINADA  PROTESE  BIOLO  POSSIVEL ESTENOSE ??  DEMAIS   FLUXOS  SEM ALT  GRAD  MEDIO  10,5 MMHG    AREA  1,7  CM2\nSEM  QX  ATUSIA\nP CONTROLE  NO AMB  VALVAS\nMANTENHO  GLIBEN  ATL  CLORTALIDONA   E LST \nCONTROLE  DE PÁ\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "CX",
+      "ALT",
+      "QX",
+      "AMB",
+      "GLIBEN",
+      "ATL",
+      "PÁ",
+      "FE 63",
+      "EP 35",
+      "AE 48",
+      "FÇAO DIAT",
+      "PROTESE BIOLO",
+      "GRAD MEDIO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CX",
+      "TROCA VALVAR MITRAL"
+    ],
+    "Dispositivo Médico": [
+      "BIOPROTESE"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "ALT",
+      "QX"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CONTROLE",
+      "MANTENHO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "VALVAS"
+    ],
+    "Substância Farmacológica": [
+      "GLIBEN",
+      "ATL",
+      "CLORTALIDONA"
+    ],
+    "Substância Química Orgânica": [
+      "GLIBEN",
+      "ATL",
+      "CLORTALIDONA"
+    ],
+    "Atributo Clínico": [
+      "PÁ"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "FE 63",
+      "EP 35",
+      "AE 48"
+    ],
+    "Função de Organismo": [
+      "FÇAO DIAT"
+    ],
+    "Conceito Quantitativo": [
+      "10 , 5 MMHG",
+      "1 , 7 CM2"
+    ]
+  },
+  "labels": {
+    "NB31.40": {
+      "term_original": "qx",
+      "capitulo": "22",
+      "confidence_embedding": 0.7578,
+      "descricao_cid": "Representação de doença CID-11: Lesão da valva mitral. Definição: ",
+      "classification_reasoning": "A palavra 'qx' está relacionada à valva mitral, pois o contexto menciona 'TROCA VALVAR MITRAL BIOPROTESE N 31', fazendo com que a opção NB31.40 seja a mais precisa para representar a lesão da valva mitral.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'qx' não está relacionada à lesão da valva mitral, como mencionado no prontuário. A opção NB31.40 é uma representação de doença CID-11 que descreve lesão da valva mitral, enquanto a palavra 'qx' parece ser um termo técnico ou abreviação médica desconhecida. Portanto, não há justificativa clínica para associar o termo 'qx' à lesão da valva mitral.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

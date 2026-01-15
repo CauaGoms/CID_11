@@ -1,0 +1,179 @@
+{
+  "prontuario_id": 285,
+  "text": "Paciente com história de AVC prévio, TVP em mie, HAS e hipotireoidismo em tto com metoprolol, hctz e tiroxina. Interna pois  apresentou 2 episódios de queda ao solo que atribui a fraqueza em membro inferior esquerdo. TC em 10/09 e 13/09 compatíveis com AVC isquêmico. Apresentou resolução completa do déficit motor em mid. Iniciado tto com haloperidol para movimentos orolinguais involuntários de longa data com melhora significativa. Tem alta em bom estado geral e deverá ser reavaliada por seu neurologista em breve.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Doença ou Síndrome": [
+      "AVC",
+      "TVP",
+      "HAS",
+      "hipotireoidismo",
+      "AVC isquêmico"
+    ],
+    "Abreviação": [
+      "AVC",
+      "TVP",
+      "mie",
+      "HAS",
+      "tto",
+      "hctz",
+      "TC",
+      "mid",
+      "AVC isquêmico"
+    ],
+    "Conceito Temporal": [
+      "prévio",
+      "10/09",
+      "13/09",
+      "longa data"
+    ],
+    "Localização ou Região Corporal": [
+      "mie",
+      "mid",
+      "membro inferior esquerdo"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "tto"
+    ],
+    "Substância Farmacológica": [
+      "metoprolol",
+      "hctz",
+      "tiroxina",
+      "haloperidol"
+    ],
+    "Sinal ou Sintoma": [
+      "fraqueza",
+      "déficit motor",
+      "movimentos orolinguais involuntários",
+      "bom estado geral"
+    ],
+    "Procedimento Diagnóstico": [
+      "TC"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "alta",
+      "reavaliada"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "neurologista"
+    ],
+    "Conceito Quantitativo": [
+      "2 episódios"
+    ],
+    "Lesão ou Envenenamento": [
+      "queda ao solo"
+    ],
+    "Achado": [
+      "resolução completa",
+      "melhora significativa",
+      "bom estado geral"
+    ],
+    "Conceito Qualitativo": [
+      "melhora significativa"
+    ]
+  },
+  "labels": {
+    "8A61": {
+      "term_original": "resolução completa",
+      "capitulo": "08",
+      "confidence_embedding": 0.7584,
+      "descricao_cid": "Representação de doença CID-11: Síndromes genéticas ou supostamente genéticas expressas primariamente como epilepsia. Definição: A epilepsia é, até onde se compreende, o resultado direto de um ou mais defeitos genéticos conhecidos ou presumidos, nos quais as crises epilépticas são o sintoma central da doença.",
+      "classification_reasoning": "O termo 'resolução completa' refere-se à melhora do déficit motor no membro inferior esquerdo, sugerindo que o paciente está respondendo bem ao tratamento com haloperidol para os movimentos orolinguais involuntários. Isso é consistente com a definição de epilepsia genética ou supostamente genética expressa primariamente como epilepsia (8A61).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'resolução completa' refere-se à melhora do déficit motor no membro inferior esquerdo, sugerindo que o paciente está respondendo bem ao tratamento com haloperidol. Isso não é consistente com a definição de epilepsia genética ou supostamente genética expressa primariamente como epilepsia (8A61). A resolução completa do déficit motor não é um sintoma central da doença, mas sim uma resposta ao tratamento. Portanto, o código CID-11 8A61 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5A00.03": {
+      "term_original": "hipotireoidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.8482,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo congênito transitório. Definição: Hipotireoidismo congênito transitório é definido com uma disfunção tireoidiana transitória com discreta elevação do hormônio tiroestimulante (TSH) e baixos níveos de T4 livre que retornam ao normal espontaneamente ou após muitos meses de terapia com levotiroxina. Este transtorno é devido a várias causas como deficiência de iodo, exposição a compostos contendo iodo, passagem transplacentária de anticorpos maternos bloqueadores e disormonogênese.",
+      "classification_reasoning": "A escolha pelo código 5A00.03 é justificada porque o paciente tem hipotireoidismo, que está sendo tratado com metoprolol e tiroxina. O contexto clínico sugere que a hipotireoidismo é uma condição crônica, ao contrário do hipotireoidismo congênito (5A00.0) ou transitório (não encontrado entre as opções), o qual é caracterizado por produção de hormônios tireoidianos pouco ou nenhuma no nascimento. Além disso, a presença de tratamento com levotiroxina sugere que a hipotireoidismo é uma condição crônica, justificando a escolha do código 5A00.03.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipotireoidismo descrita no prontuário é uma condição crônica, tratada com metoprolol e tiroxina. O código CID-11 5A00.03 se refere a um hipotireoidismo congênito transitório, que não condiz com a situação clínica do paciente. Além disso, o prontuário não menciona a produção de hormônios tireoidianos pouco ou nenhuma no nascimento, característica desse tipo de hipotireoidismo.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6A21.11": {
+      "term_original": "melhora significativa",
+      "capitulo": "06",
+      "confidence_embedding": 0.7706,
+      "descricao_cid": "Representação de doença CID-11: Transtorno esquizoafetivo, episódios múltiplos, em remissão parcial. Definição: Todos os critérios diagnósticos para transtorno esquizoafetivo, episódios múltiplos em termos de sintomas e duração foram preenchidos anteriormente. Os sintomas melhoraram de tal forma que os critérios diagnósticos para o transtorno não foram preenchidos por pelo menos um mês, mas alguns sintomas clinicamente significativos persistem, que podem ou não estar associados a comprometimento funcional. A remissão parcial pode ter ocorrido em resposta a medicamento ou outro tratamento.",
+      "classification_reasoning": "A melhora significativa descrita no prontuário sugere que o paciente está experienciando uma remissão parcial de um episódio esquizoafetivo, com sintomas persistindo mesmo após a terapia. A escolha do código 6A21.11 é justificada pela presença de sintomas psicóticos persistentes e a melhora significativa em resposta ao tratamento, característica do transtorno esquizoafetivo, episódios múltiplos, em remissão parcial.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A melhora significativa descrita no prontuário não está relacionada a um episódio esquizoafetivo, mas sim à resolução completa do déficit motor em consequência de AVC isquêmico. O código 6A21.11 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC82.9": {
+      "term_original": "has",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'HAS' é a Representação de doença CID-11: Arritmia atrial não especificada (BC82.9). Isso porque o paciente tem história de AVC prévio e atualmente apresenta fibrilação atrial paroxística (como sugere a presença de fibrilação atrial em 10/09 e 13/09), que é uma forma comum de arritmia atrial.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção BC82.9 (Arritmia atrial não especificada) é justificável porque o paciente tem história de AVC prévio e atualmente apresenta fibrilação atrial paroxística, como sugerido pela presença de fibrilação atrial em 10/09 e 13/09. A relação entre a HAS e o AVC isquêmico é clínica e justificada.",
+      "tipo_erro_auditoria": null
+    },
+    "8E4A.1": {
+      "term_original": "movimentos orolinguais involuntários",
+      "capitulo": "08",
+      "confidence_embedding": 0.7459,
+      "descricao_cid": "Representação de doença CID-11: Transtornos paraneoplásicos ou autoimunes do sistema nervoso periférico ou autônomo. Definição: Transtornos paraneoplásicos e autoimunes do sistema nervoso periférico e autônomo resultam de um ataque imune direcionado a neurônios ou células gliais no sistema nervoso periférico (neuropatias periféricas ou autonômicas). No contexto paraneoplásico, esse ataque é uma consequência de uma resposta imune potencialmente eficaz ao tumor iniciada por antígenos onconeurais derivados de um câncer sistêmico. No contexto não paraneoplásico denominado autoimune, a etiologia permanece indefinida, embora evidências crescentes indiquem um gatilho infeccioso anterior em pelo menos alguns casos. O início pode ser subagudo ou insidioso e esses transtornos podem ser limitados, multifocais ou generalizados. Os transtornos nervosos periféricos somáticos autoimunes podem afetar o nervo em vários níveis, incluindo raiz, nervo e plexo e podem ser axonais, desmielinizantes ou ambos. Os transtornos autonômicos autoimunes resultam em insuficiência autonômica que pode ser parcial ou generalizada. A neuropatia autonômica prototípica é a ganglionopatia autoimune associada a anticorpos direcionados ao receptor nicotínico ganglionar de acetilcolina (α3 gAChR). Rastreamento de câncer é apropriado para aqueles com perfis específicos de anticorpos neurais e outros fatores de risco.\r\n\r\nAnticorpos neurais associados em neuropatias periféricas incluem anticorpos anti-nuclear nuclear tipo 1 ou anti-Hu, CASPR2, gAChR, gangliósido (GM1 IgG e IGM).",
+      "classification_reasoning": "A movimentação oral-lingual involuntária está relacionada a uma patologia do sistema nervoso periférico ou autônomo, e o contexto de AVC isquêmico prévio e história de HAS sugere que essa movimentação é parte de um espectro de sintomas neurológicos, justificando a escolha da opção 8E4A.1",
+      "decisao": "MANTER",
+      "motivo_decisao": "A movimentação oral-lingual involuntária está relacionada a uma patologia do sistema nervoso periférico ou autônomo, e o contexto de AVC isquêmico prévio e história de HAS sugere que essa movimentação é parte de um espectro de sintomas neurológicos. A escolha da opção 8E4A.1 parece justificada, pois a patologia descrita no prontuário está relacionada a uma doença do sistema nervoso periférico ou autônomo.",
+      "tipo_erro_auditoria": null
+    },
+    "NA07.08": {
+      "term_original": "queda ao solo",
+      "capitulo": "22",
+      "confidence_embedding": 0.7195,
+      "descricao_cid": "Representação de doença CID-11: Concussão com perda da consciência, duração não especificada ou desconhecida devido aos efeitos da terapia. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'queda ao solo' é a concussão com perda de consciência, pois o paciente apresentou dois episódios de queda ao solo que se atribuem à fraqueza em membro inferior esquerdo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queda ao solo não é uma concussão com perda de consciência. A paciente apresentou fraqueza em membro inferior esquerdo, o que pode ter contribuído para as quedas. A classificação CID-11 NA07.08 não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "8B25.4": {
+      "term_original": "avc isquêmico",
+      "capitulo": "08",
+      "confidence_embedding": 0.7862,
+      "descricao_cid": "Representação de doença CID-11: Efeitos tardios de acidente vascular cerebral desconhecido se isquêmico ou hemorrágico. Definição: Efeitos tardios ocorrendo após 1 mês ou mais do início da doença. Os códigos para acidente vascular cerebral (AVC) agudo devem ser usados ​​exclusivamente para AVC agudo e episódios de hospitalização imediatamente relacionados.",
+      "classification_reasoning": "A opção mais precisa para o termo 'avc isquêmico' no contexto clínico é o código 8B25.4, pois ele se refere a efeitos tardios de acidente vascular cerebral desconhecido se isquêmico ou hemorrágico. A descrição do código coincide com a história de AVC prévio e a presença de TC compatíveis com AVC isquêmico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção do sistema é justificada, pois o termo 'avc isquêmico' está diretamente relacionado à história de AVC prévio e à presença de TC compatíveis com AVC isquêmico. A descrição do código CID-11 (8B25.4) coincide com a situação clínica descrita no prontuário, caracterizando efeitos tardios de acidente vascular cerebral desconhecido se isquêmico ou hemorrágico.",
+      "tipo_erro_auditoria": null
+    },
+    "BC80.Y": {
+      "term_original": "tvp",
+      "capitulo": "11",
+      "confidence_embedding": 0.7305,
+      "descricao_cid": "Representação de doença CID-11: Outra bradiarritmia supraventricular especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'TVP' é a bradiarritmia supraventricular especificada, pois TVP é um acrônimo comum utilizado em clínica para referir-se à fibrilação ventricular. Nesse contexto específico, embora não haja uma descrição explícita de fibrilação ventricular, a presença de histórico de AVC e uso de haloperidol sugerem que é provável que o paciente tenha algum tipo de arritmia cardíaca. A opção BC80.Y é a mais precisa para 'TVP' porque permite uma especificação da bradiarritmia supraventricular não listada anteriormente.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção BC80.Y é justificada porque 'TVP' é um acrônimo comum utilizado em clínica para referir-se à fibrilação ventricular. Embora não haja uma descrição explícita de fibrilação ventricular, a presença de histórico de AVC e uso de haloperidol sugerem que é provável que o paciente tenha algum tipo de arritmia cardíaca. A opção BC80.Y permite uma especificação da bradiarritmia supraventricular não listada anteriormente.",
+      "tipo_erro_auditoria": null
+    },
+    "8B60.6": {
+      "term_original": "déficit motor",
+      "capitulo": "08",
+      "confidence_embedding": 0.8008,
+      "descricao_cid": "Representação de doença CID-11: Amiotrofia monomélica. Definição: Atrofia e fraqueza restritas a um membro superior ou inferior, início na segunda ou terceira década, predominância do sexo masculino e ocorrência esporádica são aspectos característicos da atrofia monomélica (AM). Outras características típicas incluem: início insidioso de sinais do neurônio motor inferior devido a envolvimento das células do corno anterior, ausência de sinais do neurônio motor superior, progressão lenta seguida de estabilização em alguns anos e curso benigno da doença sintomática. AM é particularmente prevalente na Ásia, embora seja encontrado em todo o mundo.",
+      "classification_reasoning": "A escolha do código 8B60.6 (Amiotrofia monomélica) é baseada na descrição da doença como atrofia e fraqueza restritas a um membro inferior esquerdo, o que coincide com a característica principal do déficit motor descrito no paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código 8B60.6 (Amiotrofia monomélica) é baseada na descrição da doença como atrofia e fraqueza restritas a um membro inferior esquerdo, o que coincide com a característica principal do déficit motor descrito no paciente. No entanto, ao analisar o prontuário, vemos que o déficit motor é descrito como uma consequência de AVC isquêmico e não como uma atrofia monomélica. Portanto, a escolha do código 8B60.6 não representa fielmente o termo ou condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB32.20": {
+      "term_original": "fraqueza",
+      "capitulo": "15",
+      "confidence_embedding": 0.72,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A opção FB32.20, Rabdomiólise idiopática, é a mais precisa para o termo 'fraqueza' no contexto clínico, pois refere-se ao extravazamento maciço de conteúdo muscular, que pode ser relacionado à fraqueza muscular reportada pelo paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FB32.20, Rabdomiólise idiopática, não representa fielmente o termo 'fraqueza' no contexto clínico. A rabdomiólise é uma lesão muscular caracterizada por extravazamento maciço de conteúdo muscular, enquanto a fraqueza descrita no prontuário refere-se à perda de força muscular. Essa classificação não está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

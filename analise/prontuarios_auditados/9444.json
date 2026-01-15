@@ -1,0 +1,218 @@
+{
+  "prontuario_id": 289,
+  "text": "ID # Lucas, 60 anos.  QP # sem queixas.  HMA # Nega dispneia, palpitações, dor toracica ou outros sintomas cardíacos. Edema matinal. Acompanha no ambulatório por cardiomiopatia dilatada idiopatica e fibrilação atrial.  Comorbidades: HAS, DM e gota. Atualmente em uso furosemida 40mg 1 cp ao dia, digoxina 0,25mg 1 cp/dia, carvedilol 25mg 2 cp/dia, monocordil 20mg 2 cp/dia, hidralazina 25mg 2 cp/dia, alopurinol 300mg 1 cp/dia, colchicina 0,5mg  se dor, marevan 5mg 2 cp seg, qua e sex, sab e 1 cp nos demais, metformina 850mg 1 cp após almoço.  HMP # Já esteve na fila para transplante - mretirado por melhora clinica. CATE há aprox 2 anos - sem evidência de doença coronariana. Internado por insuficiência renal??? (inicio 2014).  Herniorrafia de parede abdominal (sangramento retroperitoneal por discrasia sanguinea) há 1 ano.  CHV # nega tabagismo e etilismo, sedentário.  HMF # mãe falecida por trombose aos 64 anos e pai falecida nefropatia com 78 anos; filhos saudáveis.  Exames: Leucocitose discreta - 10800; - segmentados 65,4; Ureia: 92; Cr: 2,1; Acido urico: 7,3; Sodio: 138; K: 5,7;  TFG (CKD-EPI): 33.",
+  "entities": {
+    "Abreviação": [
+      "ID",
+      "QP",
+      "HMA",
+      "HAS",
+      "DM",
+      "HMP",
+      "CATE",
+      "CHV",
+      "HMF",
+      "1 cp ao dia",
+      "1 cp/dia",
+      "2 cp/dia",
+      "2 cp",
+      "seg , qua e sex , sab",
+      "1 cp"
+    ],
+    "Achado": [
+      "QP",
+      "HMA",
+      "HMP",
+      "CHV",
+      "HMF",
+      "melhora clinica",
+      "filhos saudáveis ."
+    ],
+    "Negação": [
+      "sem",
+      "Nega",
+      "nega"
+    ],
+    "Sinal ou Sintoma": [
+      "queixas",
+      "dispneia",
+      "palpitações",
+      "dor",
+      "dor toracica",
+      "sintomas cardíacos",
+      "Edema matinal"
+    ],
+    "Organização Relacionada à Saúde": [
+      "ambulatório"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DM",
+      "gota",
+      "tabagismo",
+      "etilismo",
+      "sedentário",
+      "trombose",
+      "nefropatia",
+      "cardiomiopatia dilatada idiopatica",
+      "fibrilação atrial",
+      "doença coronariana",
+      "insuficiência renal"
+    ],
+    "Substância Química Orgânica": [
+      "furosemida",
+      "digoxina",
+      "carvedilol",
+      "monocordil",
+      "hidralazina",
+      "alopurinol",
+      "colchicina",
+      "marevan",
+      "metformina"
+    ],
+    "Substância Farmacológica": [
+      "furosemida",
+      "digoxina",
+      "carvedilol",
+      "monocordil",
+      "hidralazina",
+      "alopurinol",
+      "colchicina",
+      "marevan",
+      "metformina"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "transplante",
+      "CATE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Internado"
+    ],
+    "Procedimento Laboratorial": [
+      "Exames"
+    ],
+    "Conceito Quantitativo": [
+      "1 cp ao dia",
+      "0 , 25mg",
+      "1 cp/dia",
+      "2 cp/dia",
+      "0 , 5mg",
+      "2 cp",
+      "1 cp"
+    ],
+    "Conceito Temporal": [
+      "seg , qua e sex , sab",
+      "após almoço"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Leucocitose discreta - 10800",
+      "segmentados 65 , 4",
+      "Ureia : 92",
+      "Cr",
+      "K : 5 , 7",
+      "TFG ( CKD-EPI ) : 33"
+    ]
+  },
+  "labels": {
+    "BC43.0": {
+      "term_original": "doença coronariana",
+      "capitulo": "11",
+      "confidence_embedding": 0.7889,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida.",
+      "classification_reasoning": "A opção mais precisa é a cardiomiopatia dilatada (BC43.0) porque o paciente tem cardiomiopatia dilatada idiopática e fibrilação atrial, e não há evidência de doença coronariana.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BC43.0 não é precisa porque o paciente tem cardiomiopatia dilatada idiopática e fibrilação atrial, mas há evidência de doença coronariana (doença coronária) no prontuário. A condição descrita no termo extraído 'doença coronariana' não está relacionada à cardiomiopatia dilatada, portanto, a codificação CID-11 não é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BC81.30": {
+      "term_original": "dispneia",
+      "capitulo": "11",
+      "confidence_embedding": 0.7568,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A opção mais precisa para o termo 'dispneia' é a Fibrilação atrial paroxística (Código BC81.30), pois o paciente tem cardiomiopatia dilatada idiopática e fibrilação atrial, o que aumenta a probabilidade de dispnéia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 BC81.30, Fibrilação atrial paroxística, não está clinicamente coerente com o prontuário. Embora o paciente tenha cardiomiopatia dilatada idiopática e fibrilação atrial, a dispneia descrita no prontuário é um sintoma que pode ser causado por várias razões, incluindo a doença cardíaca, mas também outras condições. A codificação CID-11 não captura a complexidade clínica da dispneia e pode levar a uma sobreestimulação da gravidade da doença.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BA51.0": {
+      "term_original": "dor toracica",
+      "capitulo": "11",
+      "confidence_embedding": 0.7614,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia dilatada devida a anomalia congênita de artéria coronária. Definição: Cardiomiopatia dilatada devida a uma anomalia congênita de uma ou mais artérias coronárias, como origem anômala da artéria coronária esquerda anômala saindo da artéria pulmonar (ALCAPA), estenose ou atresia do óstio coronário, circulação coronária dependente do ventrículo direito na atresia pulmonar com septo ventricular íntegro. É uma forma de cardiomiopatia isquêmica que causa disfunção ventricular sistólica que se relaciona a um espectro de equilíbrio e desequilíbrio entre perfusão e contração, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes.",
+      "classification_reasoning": "A escolha do código BA51.0 é justificada pelo fato de Lucas ter cardiomiopatia dilatada idiopática e fibrilação atrial, o que está relacionado à doença cardíaca previamente diagnosticada. A presença de dor toracica também sugere uma possível isquemia miocárdica, o que é comum em pacientes com cardiomiopatia dilatada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor toracica pode ser um sintoma de várias condições, e não está diretamente relacionada à cardiomiopatia dilatada idiopática e fibrilação atrial. Além disso, a presença da dor toracica não é suficiente para justificar a escolha do código BA51.0, que se refere especificamente a uma anomalia congênita de artéria coronária.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "GB60.Y": {
+      "term_original": "insuficiência renal",
+      "capitulo": "16",
+      "confidence_embedding": 0.8204,
+      "descricao_cid": "Representação de doença CID-11: Outra insuficiência renal aguda especificada. Definição: ",
+      "classification_reasoning": "A insuficiência renal descrita no prontuário é uma condição aguda, tendo sido internado o paciente por isso. Além disso, não há indicações de doenças renais específicas como síndrome nefrítica ou doença poliquística. A escolha do código GB60.Y é a mais precisa para representar a insuficiência renal aguda especificada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A insuficiência renal descrita no prontuário é uma condição crônica, não aguda. O paciente foi internado por insuficiência renal e tem comorbidades relacionadas à doença renal, como hipertensão arterial e diabetes melito. Além disso, o código GB60.Y refere-se a insuficiência renal aguda especificada, o que não se ajusta ao quadro clínico do paciente.",
+      "tipo_erro_auditoria": "overgeneralization"
+    },
+    "5B5A.0": {
+      "term_original": "has",
+      "capitulo": "05",
+      "confidence_embedding": 0.7792,
+      "descricao_cid": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina.",
+      "classification_reasoning": "A escolha do código 5B5A.0, Beribéri, é mais precisa para o termo 'HAS' no contexto clínico, pois Lucas tem cardiomiopatia dilatada idiopatica e fibrilação atrial, o que é consistente com a deficiência de tiamina (ou vitamina B1) característica do beribéri. Além disso, a presença de edema matinal também pode ser compatível com essa condição.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 Beribéri (5B5A.0) não é justificada clinicamente, pois o termo 'HAS' no prontuário refere-se a Hipertensão Arterial Sistêmica, e não à deficiência de tiamina (Beribéri). A presença de cardiomiopatia dilatada idiopatica e fibrilação atrial, além da comorbidade de Hipertensão Arterial Sistêmica, justificam a escolha do código CID-11 I10.0 (Hipertensão Arterial Sistêmica) em vez do Beribéri.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GB50.0": {
+      "term_original": "nefropatia",
+      "capitulo": "16",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "Nefropatia é um termo que se refere a doenças relacionadas ao rim, e GB50.0 descreve Nefrite túbulo-intersticial aguda, uma doença renal caracterizada por inflamação aguda nos túbulos e interstício renal, o que coincide com as informações presentes no prontuário de Lucas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'nefropatia' no prontuário refere-se a doenças relacionadas ao rim, mas o código CID-11 atribuído (GB50.0) descreve Nefrite túbulo-intersticial aguda, que é uma doença renal específica e não aborda a patologia renal mais ampla descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GB40": {
+      "term_original": "trombose",
+      "capitulo": "16",
+      "confidence_embedding": 0.7658,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A opção mais precisa para o termo 'trombose' no contexto clínico é a síndrome nefrítica (Código: GB40). Isso porque a paciente tem história de insuficiência renal e trombose vascular como complicações possíveis da doença glomerular. Além disso, a síndrome nefrítica é caracterizada pela presença de hematúria grave e edema leve, o que se encaixa com as características apresentadas na paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção do sistema é considerada inapropriada porque a trombose vascular descrita no prontuário não está diretamente relacionada à síndrome nefrítica. A paciente tem história de insuficiência renal e trombose vascular como complicações possíveis da cardiomiopatia dilatada idiopática, mas isso não justifica a atribuição do código GB40. Além disso, a descrição da síndrome nefrítica no CID-11 menciona hematúria grave e edema leve, o que não se encaixa com as características apresentadas na paciente.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MG29.10": {
+      "term_original": "edema matinal",
+      "capitulo": "21",
+      "confidence_embedding": 0.7943,
+      "descricao_cid": "Representação de doença CID-11: Edema devido a pressão capilar aumentada. Definição: O aumento da pressão capilar aumenta o vazamento de fluido do compartimento vascular para os tecidos intersticiais, resultando em edema. Causas incluem o comprometimento ou obstrução do retorno venoso (sobrecarga de fluido, trombose venosa, insuficiência cardíaca direita, compressão venosa por tumor), aumento do fluxo sanguíneo (resposta fisiológica à exposição ao calor, malformações arteriovenosas, controle vasomotor cutâneo prejudicado devido a drogas ou neuropatia autonômica), ou pressão oncótica plasmática reduzida por hipoproteinemia.",
+      "classification_reasoning": "A presença de edema matinal sugere um aumento na pressão capilar, provavelmente relacionado à insuficiência cardíaca direita decorrente da cardiomiopatia dilatada idiopática e fibrilação atrial.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de edema matinal não é suficiente para justificar a classificação MG29.10, que se refere a um aumento na pressão capilar aumentada e edema como consequência. A insuficiência cardíaca direita decorrente da cardiomiopatia dilatada idiopática e fibrilação atrial pode ser uma causa do edema matinal, mas não é o único fator envolvido. Além disso, a classificação MG29.10 não leva em conta a comorbidade de hipertensão arterial (HAS) e doença renal crônica (DRC), que também podem contribuir para o desenvolvimento do edema matinal.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MG30.2": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7543,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A dor mencionada no contexto clínico está relacionada à herniorrafia de parede abdominal há 1 ano, portanto, a escolha mais precisa é MG30.2 - Dor crônica pós-operatória ou pós-traumática.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor mencionada no prontuário está relacionada à cardiomiopatia dilatada idiopática e fibrilação atrial, não à herniorrafia de parede abdominal. A escolha do código MG30.2 é uma sobreclassificação, pois a dor descrita não se encaixa nos critérios da doença CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5.1": {
+      "term_original": "dm",
+      "capitulo": "05",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A definição de DM (Diabetes Mellitus) é citada no prontuário como uma comorbidade do paciente, o que justifica a escolha do código 5B5A.0, correspondente à Deficiência de tiamina (Beribéri).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'dm' no prontuário refere-se a Diabetes Mellitus, enquanto o código CID-11 atribuído é 5.1, que corresponde à Deficiência de tiamina (Beribéri). Isso não é uma condição clínica diretamente relacionada ao termo descrito no prontuário, portanto, o código não representa fielmente a condição.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

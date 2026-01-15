@@ -1,0 +1,156 @@
+{
+  "prontuario_id": 767,
+  "text": "# PO de MPIC à direita (HSA traumática)\n# Acidente automobilístico - 20/12/13\nPaciente segue estável do ponto de vista neurológico. Apresentando dor em perna direita e ombro direito. Apresentando edema importante de de mão esquerda e muita dor à palpação do antebraço esquerdo. \nAo exame: Glasgow 15, pupilas iso / fotorreagentes, força muscular grau V, apresenta limitação funcional em MSE pela dor intensa. \nCd: Encaminho ao PS da ortopedia \n      Solicito Tc de crânio - controle\n      Retorno com exame.\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "PO",
+      "iso",
+      "MSE",
+      "Cd",
+      "HSA traumática",
+      "PS da ortopedia",
+      "Tc de crânio"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "MPIC"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Achado": [
+      "estável",
+      "iso",
+      "fotorreagentes",
+      "Glasgow 15",
+      "força muscular grau V"
+    ],
+    "Sinal ou Sintoma": [
+      "dor",
+      "edema",
+      "limitação funcional",
+      "dor intensa"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "pupilas",
+      "MSE",
+      "perna direita",
+      "ombro direito",
+      "mão esquerda",
+      "antebraço esquerdo"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Cd",
+      "Encaminho",
+      "Solicito",
+      "Retorno"
+    ],
+    "Procedimento Diagnóstico": [
+      "exame",
+      "Tc de crânio"
+    ],
+    "Conceito Espacial": [
+      "à direita"
+    ],
+    "Doença ou Síndrome": [
+      "HSA traumática"
+    ],
+    "Lesão ou Envenenamento": [
+      "Acidente automobilístico"
+    ],
+    "Organização Relacionada à Saúde": [
+      "PS da ortopedia"
+    ]
+  },
+  "labels": {
+    "FB32.1": {
+      "term_original": "força muscular grau v",
+      "capitulo": "15",
+      "confidence_embedding": 0.7581,
+      "descricao_cid": "Representação de doença CID-11: Ruptura muscular espontânea. Definição: Esta é uma condição em que ocorre um afastamento ou ruptura entre fibras musculares e outras fibras musculares, tendões ou fáscias, na ausência de trauma",
+      "classification_reasoning": "A presença de dor em perna direita e ombro direito, juntamente com a limitação funcional em MSE pela dor intensa, sugere uma lesão muscular espontânea ou ruptura muscular, justificando a escolha do código FB32.1.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de dor em perna direita e ombro direito, juntamente com a limitação funcional em MSE pela dor intensa, não sugere uma lesão muscular espontânea ou ruptura muscular. A descrição do prontuário refere-se a um acidente automobilístico, que é um trauma, e não uma lesão muscular espontânea. Portanto, o código FB32.1 não representa fielmente o termo 'força muscular grau V' no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME62.7": {
+      "term_original": "limitação funcional",
+      "capitulo": "21",
+      "confidence_embedding": 0.7605,
+      "descricao_cid": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica.",
+      "classification_reasoning": "A limitação funcional descrita no prontuário refere-se à dor intensa e ao edema importante na mão esquerda, o que sugere uma lesão física ou tecidual grave. A escolha do código ME62.7 (Erupção cutânea descamativa aguda) é justificada porque a limitação funcional pode estar relacionada à dor intensa e ao edema importante na mão esquerda, característica de uma lesão cutânea.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A limitação funcional descrita no prontuário refere-se à dor intensa e ao edema importante na mão esquerda, o que não está relacionado a uma erupção cutânea descamativa aguda. A escolha do código ME62.7 é inapropriada pois não há nenhuma indicação de lesão cutânea ou doença cutânea no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NB60": {
+      "term_original": "edema",
+      "capitulo": "22",
+      "confidence_embedding": 0.7858,
+      "descricao_cid": "Representação de doença CID-11: Concussão ou edema da medula espinhal lombar. Definição: ",
+      "classification_reasoning": "A descrição do termo 'edema' refere-se ao edema da medula espinhal lombar, que é a opção mais precisa no contexto clínico apresentado.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'edema' no prontuário refere-se ao edema de mão esquerda e antebraço esquerdo, não à medula espinhal lombar. A opção CID-11 NB60 se refere especificamente a concussão ou edema da medula espinhal lombar, o que não é compatível com a descrição clínica do prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MB23.H": {
+      "term_original": "glasgow 15",
+      "capitulo": "21",
+      "confidence_embedding": 0.7574,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A Glasgow 15 é um score que avalia a consciência e a função neurológica de um paciente. A presença de dor em perna direita e ombro direito, edema importante da mão esquerda e dor à palpação do antebraço esquerdo sugere lesões físicas graves. O score Glasgow 15 indica que o paciente não apresenta alterações neurológicas severas. A Crise de Pânico (MB23.H) é, portanto, a opção mais precisa para este termo dentro do contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A Crise de Pânico (MB23.H) é um código CID-11 que descreve uma crise de pânico caracterizada por sintomas como palpitações, sudorese, tremores, etc. No entanto, no prontuário, o termo 'Glasgow 15' refere-se a um score que avalia a consciência e a função neurológica do paciente, não há relação clínica com a Crise de Pânico. Portanto, é necessário remover esse código CID-11 e atribuir um novo código mais adequado à descrição clínica do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A06.8": {
+      "term_original": "fotorreagentes",
+      "capitulo": "09",
+      "confidence_embedding": 0.7489,
+      "descricao_cid": "Representação de doença CID-11: Blefarocalásia. Definição: Trata-se de um mal posicionamento da pálpebra causado por involução ou inflamação da pálpebra. A inflamação é caracterizada por exacerbações e remissões de edema palpebral, que resulta em estiramento e subsequente atrofia dos tecidos palpebrais resultando em dobras redundantes sobre as margens da pálpebra. Tipicamente afeta apenas as pálpebras superiores e pode ser unilateral ou bilateral.",
+      "classification_reasoning": "O termo 'fotorreagentes' se refere à reação normal dos pupilas à luz, o que é descrito como isofotóreo na prontuário, indicando que a paciente apresenta uma resposta normal da pupila às fontes luminosas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'fotorreagentes' se refere à reação normal dos pupilas à luz, o que é descrito como isofotóreo na prontuário. No entanto, a definição do código CID-11 (9A06.8) descreve uma condição clínica específica, a blefarocalásia, que não está relacionada ao termo 'fotorreagentes'. Portanto, a codificação é incoerente e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ND56.7": {
+      "term_original": "hsa traumática",
+      "capitulo": "22",
+      "confidence_embedding": 0.7295,
+      "descricao_cid": "Representação de doença CID-11: Lesão por esmagamento de região do corpo não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa é ND56.7, pois o termo 'hsa traumática' se refere a uma lesão por esmagamento na região do corpo não especificada, o que se ajusta ao contexto clínico de acidente automobilístico com dor e edema na perna direita e no braço esquerdo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'hsa traumática' se refere a uma lesão específica na região do corpo, enquanto o código CID-11 ND56.7 é muito amplo e não captura a especificidade da lesão na perna direita e no braço esquerdo. Além disso, o contexto clínico do acidente automobilístico não está relacionado à representação de doença geral por esmagamento de região do corpo não especificada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "PH56": {
+      "term_original": "acidente automobilístico",
+      "capitulo": "23",
+      "confidence_embedding": 0.7557,
+      "descricao_cid": "Representação de doença CID-11: Exposição de intenção indeterminada a outras ou não especificadas substâncias principalmente não medicinais quanto a origem ou a seus efeitos nocivos. Definição: ",
+      "classification_reasoning": "A escolha pela opção PH56 se justifica porque o termo 'acidente automobilístico' refere-se a uma exposição a uma substância não medicinal (o carro) que causou lesão ou dano ao paciente, configurando um caso de exposição à intenção indeterminada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'acidente automobilístico' não representa uma exposição a uma substância não medicinal, mas sim um evento que causou lesões ao paciente. A escolha do código PH56 é errônea pois não há relação clínica direta entre o acidente e a exposição a uma substância não medicinal.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.2": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7937,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A dor é descrita como crônica e pós-traumática, referida à perna direita e ombro direito, bem como importante edema e dor à palpação do antebraço esquerdo. Considerando que a dor persiste após o acidente automobilístico e não está relacionada a outras causas de dor, a escolha pelo código MG30.2 é justificada.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dor descrita no prontuário é crônica e pós-traumática, referida à perna direita e ombro direito, bem como importante edema e dor à palpação do antebraço esquerdo. A escolha pelo código MG30.2 é justificada, pois a dor persiste após o acidente automobilístico e não está relacionada a outras causas de dor. A classificação é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "9A05.0": {
+      "term_original": "iso",
+      "capitulo": "09",
+      "confidence_embedding": 0.7625,
+      "descricao_cid": "Representação de doença CID-11: Mioquimia da pálpebra. Definição: Mioquimia é usado para descrever uma contração muscular involuntária da pálpebra, tipicamente envolvendo a pálpebra inferior ou menos frequentemente a pálpebra superior. Ocorre em indivíduos normais e tipicamente começa e desaparece espontaneamente. Todavia, às vezes pode durar até três semanas. Como a condição tipicamente se resolve sozinha, profissionais médicos não a consideram como algo sério ou uma causa para preocupação.",
+      "classification_reasoning": "O termo 'iso' se refere à igualdade, como no contexto do exame neurológico onde as pupilas são descritas como 'pupilas iso/fotorreagentes', indicando que elas reagem igualmente a estímulos de luz e pressão. Esta definição se encaixa com o código 9A05.0, que descreve mioquimia da pálpebra.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'iso' não se refere à mioquimia da pálpebra, como descrito no código CID-11. Em vez disso, é uma abreviação para 'igual' ou 'isópode', que se refere às pupilas reagindo igualmente a estímulos de luz e pressão. Isso não está relacionado à mioquimia da pálpebra, portanto, o código CID-11 9A05.0 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

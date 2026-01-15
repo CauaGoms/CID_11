@@ -1,0 +1,61 @@
+{
+  "prontuario_id": 240,
+  "text": "Hernia inguinal a direita.\nSurgimento de massa em região inguinal direita ha 10 meses. Nega dor ou outros sintomas.\nSolicitado exames pré-operatórios.\n \n \n \n ",
+  "entities": {
+    "Conceito Espacial": [
+      "direita"
+    ],
+    "Sinal ou Sintoma": [
+      "massa",
+      "dor",
+      "sintomas"
+    ],
+    "Conceito Temporal": [
+      "meses"
+    ],
+    "Negação": [
+      "Nega"
+    ],
+    "Localização ou Região Corporal": [
+      "região inguinal direita"
+    ],
+    "Procedimento Diagnóstico": [
+      "exames pré-operatórios"
+    ],
+    "Procedimento Laboratorial": [
+      "exames pré-operatórios"
+    ]
+  },
+  "labels": {
+    "NB51.2": {
+      "term_original": "massa",
+      "capitulo": "22",
+      "confidence_embedding": 0.6863,
+      "descricao_cid": "Representação de doença CID-11: Ferimento perfurante sem corpo estranho do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NB51.2 porque o paciente apresenta um surgimento de massa em região inguinal direita, sem dor ou outros sintomas, o que sugere uma lesão aberta ou perfurada sem corpo estranho, embora não haja descrição específica de ferimento. A opção NB51.0 refere-se a laceração sem corpo estranho do abdome, região lombar ou pelve, mas isso não se aplica ao caso porque o paciente apresenta uma massa palpável. As outras opções referem-se a lesões contusas ou abrasivas da parede abdominal, o que não se ajusta ao quadro clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CID-11 NB51.2 refere-se a ferimento perfurante sem corpo estranho do abdome, região lombar ou pelve, o que não é diretamente relacionado ao surgimento de massa em região inguinal direita. A descrição do prontuário não menciona lesão aberta ou perfurada, apenas a presença de uma massa palpável. Portanto, a classificação CID-11 NB51.2 não representa fielmente o termo 'massa' descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD82": {
+      "term_original": "sintomas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7167,
+      "descricao_cid": "Representação de doença CID-11: Tumefação, massa ou tumoração intra-abdominal ou pélvica. Definição: Refere-se à presença de tumefação de parede abdominal ou pélvica, massa ou tumor nas regiões abdominal e pélvica. Essas massas ou tumores podem ser reconhecidos pela inspeção e/ou palpação.",
+      "classification_reasoning": "A opção mais precisa é o código MD82, pois a descrição refere-se à presença de tumefação de parede abdominal ou pélvica, massa ou tumor nas regiões abdominal e pélvica. Isso se encaixa com o sintoma descrito no prontuário como 'surgimento de massa em região inguinal direita'.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário refere-se a uma hernia inguinal, enquanto o código CID-11 MD82 se refere à presença de tumefação de parede abdominal ou pélvica, massa ou tumor nas regiões abdominal e pélvica. Embora haja surgimento de massa em região inguinal direita, não há evidência clínica de que essa massa seja uma tumefação, massa ou tumor intra-abdominal ou pélvica. Portanto, a codificação é incoerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD81.1": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A dor não é mencionada como um sintoma específico do surgimento da massa em região inguinal direita, mas sim como um sintoma negado pelo paciente. Portanto, a escolha mais precisa para o termo 'dor' é a representação de doença CID-11: Dor abdominal ou pélvica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor não é mencionada como um sintoma específico do surgimento da massa em região inguinal direita, mas sim como um sintoma negado pelo paciente. Portanto, a escolha mais precisa para o termo 'dor' é a representação de doença CID-11: Dor abdominal ou pélvica.",
+      "tipo_erro_auditoria": "negated_finding"
+    }
+  }
+}

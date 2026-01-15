@@ -1,0 +1,202 @@
+{
+  "prontuario_id": 850,
+  "text": "LUCAS, 5 anos  Paciente com epilepsia de difícil controle, RDNPM, em uso de topiramato e VPA, iniciou com crises convulsivas, além de queixa de febre, tosse e rinorréia. Realizado Rx Tx: FC em LIE. Iniciado amoxicilina. Em 20/06, iniciado beta-2 1/1h, O2 1l/min e CTC VO, por tempo expiratório aumentado e sibilância; à noite, espaçado beta-2 para de 2/2h. Neuro avaliou caso; aumentou topiramato para 75mg 2x/dia e manteve dose do valproato (impressão: escape? dose inadequada de anticonvulsivantes?). Evoluiu afebril, com melhora do ponto de vista respiratório, sendo retirado O2 em 21/06 pela manhã. Afebril há 24h. Paciente mantém tempo expiratório levemente aumentado, saturando 95% em ar ambiente, nebulizando de 2/2h, caminhando, em bom estado geral. Mãe insiste em ir embora e refere ter recursos para recorrer se piora do quadro. Explico que seria mais prudente aguardar melhora completa. Alta hospitalar com beta-2 de 3/3 horas, CTC VO e amoxicilina, além de anticonvulsivantes. Retornar se necessário.",
+  "entities": {
+    "Doença ou Síndrome": [
+      "epilepsia",
+      "RDNPM"
+    ],
+    "Abreviação": [
+      "RDNPM",
+      "FC",
+      "LIE",
+      "O2",
+      "Neuro",
+      "Rx Tx",
+      "CTC VO"
+    ],
+    "Substância Química Orgânica": [
+      "topiramato",
+      "amoxicilina",
+      "valproato"
+    ],
+    "Substância Farmacológica": [
+      "topiramato",
+      "beta-2",
+      "valproato",
+      "anticonvulsivantes",
+      "CTC VO"
+    ],
+    "Sinal ou Sintoma": [
+      "queixa",
+      "febre",
+      "tosse",
+      "rinorréia",
+      "afebril",
+      "Afebril",
+      "quadro",
+      "crises convulsivas"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "LIE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Iniciado",
+      "iniciado",
+      "avaliou",
+      "aumentou",
+      "Evoluiu",
+      "retirado",
+      "Explico",
+      "aguardar",
+      "Retornar",
+      "Alta hospitalar"
+    ],
+    "Antibiótico": [
+      "amoxicilina"
+    ],
+    "Conceito Quantitativo": [
+      "1/1h",
+      "1l/min",
+      "2/2h",
+      "95%",
+      "75mg 2x/dia",
+      "dose inadequada",
+      "3/3 horas"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "O2",
+      "nebulizando",
+      "CTC VO",
+      "manteve dose"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Neuro"
+    ],
+    "Conceito Temporal": [
+      "Evoluiu",
+      "manhã",
+      "à noite"
+    ],
+    "Negação": [
+      "afebril",
+      "Afebril"
+    ],
+    "Atributo Clínico": [
+      "saturando"
+    ],
+    "Achado": [
+      "caminhando",
+      "melhora do ponto de vista respiratório",
+      "bom bom estado estado geral geral",
+      "melhora completa"
+    ],
+    "Grupo Familiar": [
+      "Mãe"
+    ],
+    "Conceito Qualitativo": [
+      "piora",
+      "difícil controle",
+      "dose inadequada"
+    ],
+    "Procedimento Diagnóstico": [
+      "Rx Tx"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "tempo expiratório aumentado",
+      "tempo expiratório levemente aumentado"
+    ]
+  },
+  "labels": {
+    "VV3Z": {
+      "term_original": "caminhando",
+      "capitulo": "V",
+      "confidence_embedding": 0.6528,
+      "descricao_cid": "Representação de doença CID-11: Funções dos sistemas cardiovascular, hematológico, imunológico e respiratório, não especificadas. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'caminhando' é a VV3Z, pois se refere às funções dos sistemas cardiovascular, hematológico, imunológico e respiratório, não especificadas. No contexto clínico, Lucas está caminhando, o que indica uma melhora do estado geral e um bom controle das crises convulsivas, além de uma melhoria na função respiratória, como mencionado no relato.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção VV3Z não é precisa porque 'caminhando' não está diretamente relacionado às funções dos sistemas cardiovascular, hematológico, imunológico e respiratório. A descrição do prontuário refere-se à melhora do estado geral e ao controle das crises convulsivas, mas não há evidência clínica de que isso esteja relacionado às funções mencionadas no código CID-11.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "CA23.0": {
+      "term_original": "febre",
+      "capitulo": "12",
+      "confidence_embedding": 0.7345,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica. Definição: Asma alérgica é o fenótipo de asma mais facilmente reconhecido. Frequentemente, inicia-se na infância e é associada a um histórico pessoal ou familiar de doença alérgica, como eczema, rinite alérgica, ou alergia a drogas e alimentos. O exame do escarro induzido desses pacientes, antes do tratamento, geralmente revela uma inflamação eosinofílica das vias aéreas. O principal gatilho é a exposição a alérgenos, como o ácaro da poeira doméstica e ao pólen, aos quais o indivíduo tenha sido, previamente, sensibilizado. Os pacientes com esse fenótipo de asma, usualmente, respondem bem a corticoide inalatório e à imunoterapia alérgeno-específica.",
+      "classification_reasoning": "A descrição do termo 'febre' se refere ao sintoma de febre presente no paciente, o que sugere uma possível resposta inflamatória ao estímulo alérgico ou a uma infecção respiratória secundária à asma alérgica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A febre é um sintoma comum em muitas doenças, e não há evidência clínica no prontuário que sugira uma relação direta entre a febre e a asma alérgica. A descrição do termo 'febre' não se refere à asma alérgica, mas sim a um sintoma geral. Portanto, o código CID-11 atribuído (CA23.0) não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "CA23.22": {
+      "term_original": "tosse",
+      "capitulo": "12",
+      "confidence_embedding": 0.7268,
+      "descricao_cid": "Representação de doença CID-11: Asma variante com tosse. Definição: Asma variante com tosse é uma forma oculta de asma em que o único sinal ou sintoma é tosse crônica.",
+      "classification_reasoning": "A escolha do código CA23.22, Asma variante com tosse, é a mais precisa porque o paciente apresenta queixa de tosse, além de febre e rinorréia, indicando uma possibilidade de asma alérgica com exacerbação.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa de tosse não é suficiente para justificar a escolha do código CA23.22, Asma variante com tosse. O prontuário apresenta outras condições clínicas relevantes, como epilepsia de difícil controle e febre, que devem ser consideradas na codificação CID-11. Além disso, o termo 'tosse' não é um sintoma exclusivo da asma variante com tosse e pode estar relacionado a outras condições clínicas.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "ME62.7": {
+      "term_original": "melhora completa",
+      "capitulo": "21",
+      "confidence_embedding": 0.7264,
+      "descricao_cid": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica.",
+      "classification_reasoning": "A descrição do termo 'melhora completa' se refere à cura ou resolução de uma doença, e o código ME62.7 Representação de doença CID-11: Erupção cutânea descamativa aguda é mais preciso para este contexto clínico, pois a paciente apresentou sintomas como febre e tosse, e a melhora completa pode ser relacionada à cura desses sintomas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'melhora completa' não se refere à erupção cutânea descamativa aguda, mas sim à melhoria dos sintomas respiratórios e febris da paciente. A codificação ME62.7 não é clinicamente coerente com o prontuário, pois a paciente não apresentou erupção cutânea descamativa aguda. A análise do prontuário revela que a paciente teve uma evolução favorável em relação à febre e sintomas respiratórios, mas não há evidência de erupção cutânea descamativa aguda.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MC82.0": {
+      "term_original": "quadro",
+      "capitulo": "21",
+      "confidence_embedding": 0.7343,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico.",
+      "classification_reasoning": "A opção mais precisa para o termo 'quadro' no contexto clínico é a quadropatia cardíaca, caracterizada por parada cardíaca com taquicardia e fibrilação ventricular (Código CID-11: MC82.0). Isso é sugerido pela menção de febre, tosse e rinorréia, bem como a evolução do paciente para um estado mais estável após ajustes nos tratamentos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção MC82.0 não se refere ao termo 'quadro' no contexto clínico, que descreve um paciente com epilepsia e quadro febril, tossemático e respiratório. O código MC82.0 se refere a uma parada cardíaca com taquicardia e fibrilação ventricular, o que não está relacionado ao termo 'quadro' descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A61.22": {
+      "term_original": "crises convulsivas",
+      "capitulo": "08",
+      "confidence_embedding": 0.8068,
+      "descricao_cid": "Representação de doença CID-11: Epilepsia com crises epilépticas mioclônicas-astáticas. Definição: Epilepsia iniciando entre o segundo e quinto ano de vida em uma criança previamente normal com história familiar de convulsões, que inicialmente se manifesta com convulsões tônico-clônicas e com crises mioclônicas-astáticas começando várias semanas depois. Estas convulsões são caracterizadas por súbita perda do tônus mucular associada a propulsão para frente ou para trás que podem resultar em lesão de face e cabeça se o paciente cair.",
+      "classification_reasoning": "A escolha do código 8A61.22 foi baseada na descrição da doença como Epilepsia com crises epilépticas mioclônicas-astáticas, que coincide com a situação clínica descrita no prontuário, caracterizada por epilepsia de difícil controle e crises convulsivas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código 8A61.22 foi baseada na descrição da doença como Epilepsia com crises epilépticas mioclônicas-astáticas, que coincide com a situação clínica descrita no prontuário, caracterizada por epilepsia de difícil controle e crises convulsivas. No entanto, o termo 'crises convulsivas' não é suficientemente específico para representar a condição descrita na definição do código CID-11. A definição descreve uma forma específica de epilepsia com crises mioclônicas-astáticas, enquanto o termo 'crises convulsivas' pode se referir a qualquer tipo de crise epiléptica. Portanto, a escolha do código 8A61.22 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME10.1": {
+      "term_original": "queixa",
+      "capitulo": "21",
+      "confidence_embedding": 0.7296,
+      "descricao_cid": "Representação de doença CID-11: Icterícia não especificada. Definição: Manifestação clínica de hiperbilirrubinemia de origem não especificada, caracterizada por coloração amarelada da pele, mucosas e esclera.",
+      "classification_reasoning": "A queixa mencionada no prontuário é a febre, tosse e rinorréia, características compatíveis com uma icterícia não especificada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa mencionada no prontuário é a febre, tosse e rinorréia, mas não há nenhuma evidência clínica de icterícia não especificada. A descrição do código CID-11 ME10.1 se refere à coloração amarelada da pele, mucosas e esclera, o que não está presente no prontuário. Portanto, a codificação é demasiado genérica e não representa fielmente a condição clínica descrita.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "CA23.1": {
+      "term_original": "rinorréia",
+      "capitulo": "12",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A presença de rinorréia, tosse e febre sugere um quadro de asma alérgica com exacerbação, o que é compatível com a descrição do código CA23.1",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A rinorréia é um sintoma comum em muitas condições, mas não é diretamente relacionada à asma alérgica. A presença de febre e tosse sugere uma infecção respiratória mais do que uma reação alérgica. Portanto, a codificação CA23.1 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A61.0": {
+      "term_original": "rdnpm",
+      "capitulo": "08",
+      "confidence_embedding": 0.7446,
+      "descricao_cid": "Representação de doença CID-11: Síndromes epilépticas genéticas de início neonatal. Definição: Epilepsia com início nos primeiros 30 dias de vida, resultante de um ou mais defeitos genéticos conhecidos ou presumidos, nos quais as crises epilépticas são o sintoma principal do transtorno.",
+      "classification_reasoning": "Como o paciente tem epilepsia de difícil controle e apresenta RDNPM, é provável que ele tenha uma síndrome epiléptica genética de início neonatal, como sugerido pelo código 8A61.0.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 atribuída (8A61.0) refere-se a síndromes epilépticas genéticas de início neonatal, enquanto o termo RDNPM não se relaciona diretamente com essa condição. A epilepsia de difícil controle e as crises convulsivas são sintomas da doença, mas a presença de RDNPM não é suficiente para justificar a codificação 8A61.0.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

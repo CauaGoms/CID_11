@@ -1,0 +1,111 @@
+{
+  "prontuario_id": 445,
+  "text": "Pcte interna para ACTP + stent em lesão de segmento médio de ADA. Procedimento sem intercorrências e com sucesso angiográfico. Boa evolução clínica.  Recomendações : - Clopidogrel 75mg ao dia ( mínimo de 3 meses ) - AAS 200 mg no almoço - Sinvastatina 20mg à noite - Demais medicamentos conforme médico assistente - Procurar emergêcia se piora dos sintomas",
+  "entities": {
+    "Abreviação": [
+      "Pcte",
+      "ACTP",
+      "AAS",
+      "segmento médio de ADA"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Pcte"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "interna",
+      "Recomendações"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ACTP",
+      "stent",
+      "Procedimento"
+    ],
+    "Procedimento Diagnóstico": [
+      "ACTP"
+    ],
+    "Dispositivo Médico": [
+      "stent"
+    ],
+    "Lesão ou Envenenamento": [
+      "lesão"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "intercorrências",
+      "piora dos sintomas"
+    ],
+    "Substância Farmacológica": [
+      "Clopidogrel",
+      "AAS",
+      "Sinvastatina",
+      "medicamentos"
+    ],
+    "Substância Química Orgânica": [
+      "AAS",
+      "Sinvastatina"
+    ],
+    "Conceito Temporal": [
+      "noite"
+    ],
+    "Organização Relacionada à Saúde": [
+      "emergêcia"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "segmento médio de ADA"
+    ],
+    "Achado": [
+      "sucesso angiográfico",
+      "Boa evolução clínica"
+    ],
+    "Conceito Quantitativo": [
+      "200 mg"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "médico assistente"
+    ]
+  },
+  "labels": {
+    "BA43": {
+      "term_original": "sucesso angiográfico",
+      "capitulo": "11",
+      "confidence_embedding": 0.7474,
+      "descricao_cid": "Representação de doença CID-11: Trombose coronária que não resulta em infarto do miocárdio. Definição: Trombo sobreposto associado a ruptura ou erosão da placa que não obstrui o fluxo coronário para causar infarto do miocárdio.",
+      "classification_reasoning": "A descrição de 'sucesso angiográfico' refere-se ao resultado da intervenção cardiovascular, que é a deposição de um stent em uma lesão da artéria descendente anterior (ADA). Isso sugere que a trombose coronária não resultou em infarto do miocárdio, o que está descrito no código CID-11 BA43.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição de 'sucesso angiográfico' refere-se ao resultado da intervenção cardiovascular, que é a deposição de um stent em uma lesão da artéria descendente anterior (ADA). Isso sugere que a trombose coronária não resultou em infarto do miocárdio, o que está descrito no código CID-11 BA43. A codificação é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "NA05.9": {
+      "term_original": "piora dos sintomas",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A frase 'piora dos sintomas' sugere uma possibilidade de pioramento ou deterioração dos sintomas clínicos, o que é mais comum relacionado à doença cardiovascular e ao procedimento realizado (pcte interna para ACTP + stent). A lesão de outros vasos sanguíneos da cabeça não especificada (NA05.9) é a opção mais precisa para este termo dentro do contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A frase 'piora dos sintomas' sugere uma possibilidade de pioramento ou deterioração dos sintomas clínicos, o que é mais comum relacionado à doença cardiovascular e ao procedimento realizado (pcte interna para ACTP + stent). A lesão de outros vasos sanguíneos da cabeça não especificada (NA05.9) é a opção mais precisa para este termo dentro do contexto clínico.",
+      "tipo_erro_auditoria": null
+    },
+    "None": {
+      "term_original": "intercorrências",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "As opções fornecidas não estão relacionadas ao termo 'intercorrências', que provavelmente se refere a eventuais complicações ou problemas durante o procedimento. Nenhum dos códigos CID-11 apresentados está diretamente associado a este conceito.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'intercorrências' se refere a eventuais complicações ou problemas durante o procedimento, mas o código CID-11 atribuído não está diretamente associado a este conceito. A opção fornecida não é clínica ou médicamente relevante para essa condição, portanto, é necessário remover e substituir por um código que melhor represente a situação descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NB30.0Z": {
+      "term_original": "lesão",
+      "capitulo": "22",
+      "confidence_embedding": 0.7304,
+      "descricao_cid": "Representação de doença CID-11: Lesão da aorta torácica, não especificada. Definição: ",
+      "classification_reasoning": "A lesão mencionada no contexto refere-se a uma lesão da aorta torácica, o que se alinha com a definição do código NB30.0Z.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A lesão mencionada no prontuário refere-se a uma lesão da aorta torácica, o que se alinha com a definição do código NB30.0Z. A descrição clínica é precisa e não há contradições óbvias ou associações puramente imaginárias. Portanto, considero que a codificação CID-11 seja CLINICAMENTE COERENTE com o prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

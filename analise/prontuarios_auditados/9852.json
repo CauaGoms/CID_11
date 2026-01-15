@@ -1,0 +1,200 @@
+{
+  "prontuario_id": 555,
+  "text": "Paciente G 2  C 1, TS A+, IG de 39 sem 3 dia(s), INTERNA COM PRÓDROMOS DE TP, HISTÓRIA DE CESÁREA PRÉVIA HÁ MENOS DE 2 ANOS. EVOLUI PARA  Cesárea POR RISCO DE RUPTURA UTERINA  em 02/06/2007 AS 05:25 hs. NASCE RN APGAR 8 / 9, MASC, 3605 G.  EXAMES:  VDRL NR, PN OK.  Apresenta boa evolução puereperal, mamas lactantes, lóquios fisiológicos, útero contraído, SV estáveis. Em condições de alta.  ORIENTAÇÕES:  # AMAMENTAÇÃO EXCLUSIVA POR 6 MESES. # TOMAR AS MEDICAÇÕES PRESCRITAS (SULFATO FERROSO 300MG 3X/DIA LONGE DAS REFEIÇÕES, PREFERENCIALMENTE COM SUCO DE LARANJA OU LIMÃO, POR 90 DIAS - PARACETAMOL 500MG 1-2 CP VO DE 6/6 HS SE DOR). # REAVALIAÇÃO COM GINECOLOGISTA EM 30 DIAS. # LAVAR FERIDA OPERATÓRIA 3X/DIA COM ÁGUA E SABÃO NEUTRO. # RETIRAR OS PONTOS EM 10 DIAS. # RETORNAR À EMERGÊNCIA DESTE HOSPITAL SE SANGRAMENTO AUMENTADO, FEBRE,DOR FORTE OU OUTRAS INTERCORRÊNCIAS. ",
+  "entities": {
+    "Conceito Quantitativo": [
+      "2",
+      "1",
+      "3X/DIA",
+      "3605 G",
+      "300MG 3X/DIA",
+      "500MG 1-2 CP",
+      "6/6 HS"
+    ],
+    "Abreviação": [
+      "IG",
+      "RN",
+      "VO",
+      "TS A+",
+      "39 sem 3 dia",
+      "3605 G",
+      "VDRL NR",
+      "PN OK",
+      "SV estáveis"
+    ],
+    "Atributo Clínico": [
+      "IG"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "INTERNA",
+      "alta",
+      "ORIENTAÇÕES",
+      "REAVALIAÇÃO",
+      "LAVAR",
+      "RETIRAR",
+      "RETORNAR",
+      "TOMAR AS MEDICAÇÕES PRESCRITAS"
+    ],
+    "Função de Organismo": [
+      "TP",
+      "AMAMENTAÇÃO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CESÁREA",
+      "Cesárea"
+    ],
+    "Conceito Temporal": [
+      "PRÉVIA",
+      "EVOLUI",
+      "39 sem 3 dia",
+      "6 MESES",
+      "LONGE DAS REFEIÇÕES",
+      "90 DIAS",
+      "EM 30 DIAS",
+      "10 DIAS"
+    ],
+    "Grupo Etário": [
+      "RN"
+    ],
+    "Achado": [
+      "MASC",
+      "3605 G",
+      "boa evolução puereperal",
+      "mamas lactantes",
+      "lóquios fisiológicos",
+      "útero contraído",
+      "SV estáveis"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "EXAMES",
+      "TS A+",
+      "APGAR 8 / 9",
+      "VDRL NR",
+      "PN OK"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAMES"
+    ],
+    "Substância Química Orgânica": [
+      "PARACETAMOL"
+    ],
+    "Substância Farmacológica": [
+      "PARACETAMOL",
+      "SULFATO FERROSO"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR",
+      "FEBRE",
+      "INTERCORRÊNCIAS",
+      "SANGRAMENTO AUMENTADO",
+      "DOR FORTE"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "GINECOLOGISTA"
+    ],
+    "Substância Química Inorgânica": [
+      "ÁGUA",
+      "SULFATO FERROSO"
+    ],
+    "Objeto Manufaturado": [
+      "PONTOS",
+      "HOSPITAL",
+      "SABÃO NEUTRO"
+    ],
+    "Organização Relacionada à Saúde": [
+      "EMERGÊNCIA",
+      "HOSPITAL"
+    ],
+    "Função Patológica": [
+      "RUPTURA UTERINA"
+    ],
+    "Alimento": [
+      "SUCO DE LARANJA OU LIMÃO"
+    ],
+    "Lesão ou Envenenamento": [
+      "FERIDA OPERATÓRIA"
+    ]
+  },
+  "labels": {
+    "GA34.20": {
+      "term_original": "masc",
+      "capitulo": "16",
+      "confidence_embedding": 0.7718,
+      "descricao_cid": "Representação de doença CID-11: Dor pélvica cíclica. Definição: Sintoma que afeta mulheres, causado por aspectos ginecológicos e fisiológicos associados ao ciclo menstrual, como dismenorreia ou mittelschmerz. Este sintoma é caracterizado por dor recorrente na pelve, parede abdominal anterior, parte inferior das costas ou nádegas, associada a um momento ou período de tempo específico.",
+      "classification_reasoning": "A opção mais precisa para o termo 'masc' é a dor pélvica cíclica (GA34.20), pois no contexto clínico, o paciente apresenta sintomas pré-mencionados (pródomos de TP) e o código menciona sintoma recorrente na pelve ou área associada ao ciclo menstrual.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'masc' é a dor pélvica cíclica (GA34.20), pois no contexto clínico, o paciente apresenta sintomas pré-mencionados (pródomos de TP) e o código menciona sintoma recorrente na pelve ou área associada ao ciclo menstrual. A classificação é clinicamente coerente com a evolução do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "CA22.0": {
+      "term_original": "febre",
+      "capitulo": "12",
+      "confidence_embedding": 0.7789,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A febre é um sintoma característico de exacerbação aguda da DPOC, que pode ser precipitada por vários fatores, como infecções respiratórias, e a escolha do código CA22.0 se justifica pela apresentação clínica do paciente com síntomas respiratórios agudos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A febre não é um sintoma característico de exacerbação aguda da DPOC. A apresentação clínica do paciente menciona apenas 'pródromos de TP' e não há menção a doença pulmonar obstrutiva crônica ou exacerbação aguda. Portanto, o código CA22.0 não representa fielmente o termo 'febre' descrito no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "JA21": {
+      "term_original": "sangramento aumentado",
+      "capitulo": "18",
+      "confidence_embedding": 0.7527,
+      "descricao_cid": "Representação de doença CID-11: Pré-eclâmpsia superposta a hipertensão crônica. Definição: Condição que acomete mulheres grávidas com mais de 20 semanas de gestação. Esta condição é caracterizada por pressão arterial sistólica maior que 140 mmHg e diastólica igual ou maior a 90 mmHg em duas ocasiões com 4 horas de intervalo na presença de proteinúria ou outra nova disfunção orgânica materna, caracterizada por trombocitopenia, creatinina sérica ou transaminases hepáticas elevadas, ou condições neurológicas ou restrição do crescimento fetal em uma mulher com diagnóstico de hipertensão preexistente.",
+      "classification_reasoning": "A condição de sangramento aumentado refere-se à possibilidade de uma síndrome pré-eclâmptica, que é caracterizada por hipertensão e proteinúria. Como a paciente tem história de cesárea previa há menos de 2 anos e evoluiu para cesárea por risco de ruptura uterina, é provável que tenha tido sintomas pré-eclâmpticos antes da intervenção cirúrgica. Portanto, a escolha mais precisa é o código JA21, Pré-eclâmpsia superposta a hipertensão crônica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'sangramento aumentado' não está relacionado à pré-eclâmpsia, que é caracterizada por hipertensão e proteinúria. A paciente apresenta história de cesárea previa há menos de 2 anos e evoluiu para cesárea por risco de ruptura uterina, o que sugere que a condição pode ser mais relacionada à ruptura uterina do que à pré-eclâmpsia. Portanto, a escolha do código JA21 não é clínica ou coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NB51.2": {
+      "term_original": "ferida operatória",
+      "capitulo": "22",
+      "confidence_embedding": 0.7379,
+      "descricao_cid": "Representação de doença CID-11: Ferimento perfurante sem corpo estranho do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A ferida operatória referida no prontuário é uma representação de doença que ocorre na área abdominal, lombar ou pelviana, caracterizando-se como um tipo de ferimento perfurante sem corpo estranho.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A ferida operatória descrita no prontuário refere-se a uma lesão na área abdominal, lombar ou pelviana, o que não é compatível com a descrição do código CID-11 NB51.2, que se refere a ferimentos perfurantes sem corpo estranho em qualquer localização corporal. A classificação não está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "MF34": {
+      "term_original": "intercorrências",
+      "capitulo": "21",
+      "confidence_embedding": 0.7707,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa da gravidez. Definição: ",
+      "classification_reasoning": "A opção MF34 é a mais precisa porque o termo 'intercorrências' se refere a eventos ou problemas que ocorrem durante a gravidez, o que é diretamente relacionado ao contexto clínico apresentado.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'intercorrências' se refere a eventos ou problemas que ocorrem durante a gravidez, o que é diretamente relacionado ao contexto clínico apresentado. A opção MF34 é a mais precisa porque representa fielmente o termo descrito no prontuário e não há contradição óbvia ou alucinação.",
+      "tipo_erro_auditoria": null
+    },
+    "JB02.2": {
+      "term_original": "ruptura uterina",
+      "capitulo": "18",
+      "confidence_embedding": 0.7721,
+      "descricao_cid": "Representação de doença CID-11: Outras formas de inércia uterina. Definição: Uma afecção idiopática que afeta mulheres grávidas. Esta é caracterizada pela ausência de contrações uterinas efetivas durante o trabalho de parto e relaxamento anormal do útero, durante o trabalho de parto. Esta condição leva à falta de progresso do trabalho de parto ou hemorragia uterina.",
+      "classification_reasoning": "A ruptura uterina é uma forma de inércia uterina, caracterizada pela ausência de contrações uterinas efetivas durante o trabalho de parto e relaxamento anormal do útero. Isso está descrito na descrição da opção JB02.2.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A ruptura uterina descrita no prontuário é um evento específico e grave que ocorreu durante o parto, enquanto a opção CID-11 JB02.2 se refere a uma condição idiopática de inércia uterina caracterizada pela ausência de contrações uterinas efetivas durante o trabalho de parto. Embora haja uma relação entre as duas, elas não são equivalentes e a codificação não é clinicamente coerente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.20": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7794,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-traumática. Definição: Dor pós-traumática crônica é a dor que se desenvolve ou aumenta de intensidade após uma lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após o traumatismo tecidual. A dor é ou localizada na área da lesão, ou referida no território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente por um problema doloroso preexistente.",
+      "classification_reasoning": "A dor mencionada no prontuário é descrita como sendo um sintoma pós-operatório, após uma cesárea, e não há indicação de dor referida a um dermátomo ou neuropática. A opção mais precisa para este termo é MG30.20, que descreve dor crônica pós-traumática.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor descrita no prontuário é um sintoma pós-operatório após uma cesárea, mas não há indicação de dor crônica persistindo por pelo menos 3 meses após o traumatismo tecidual. A opção mais precisa para este termo seria MG30.20 apenas se a dor fosse descrita como persistente e crônica, o que não é o caso.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MG30.2": {
+      "term_original": "dor forte",
+      "capitulo": "21",
+      "confidence_embedding": 0.7596,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A dor forte descrita no prontuário está relacionada a uma lesão tecidual (cesárea) e não há informações que sugiram uma dor neuromusculoesquelética ou abdominal generalizada, portanto, o código mais preciso é MG30.2 para Dor crônica pós-operatória ou pós-traumática.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor forte descrita no prontuário não é uma dor crônica pós-operatória ou pós-traumática, como definido pelo código CID-11 MG30.2. A dor forte está relacionada à cesárea e ao parto, mas o código CID-11 não captura essa informação. Além disso, a descrição do prontuário não sugere que a dor seja crônica ou persistente por pelo menos 3 meses após a cirurgia ou lesão tecidual.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

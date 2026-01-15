@@ -1,0 +1,40 @@
+{
+  "prontuario_id": 254,
+  "text": "13:00HR PACIENTE APRESENTOU AGITAÇÃO MOTORA NO LEITO, LEVANTOU DO LEITO E RETIROU DRENO DE SUCTOR E ACESSO PERIFÉRICO, TENTO CONTATO COM Doutor Vital Brazil PARA COMUNICAR, SEM SUCESSO. Enfermeira Florence Nightingale  EXAME GERAL E INVESTIGAÇÃO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Achado": [
+      "SUCESSO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Sinal ou Sintoma": [
+      "AGITAÇÃO MOTORA NO LEITO"
+    ],
+    "Dispositivo Médico": [
+      "DRENO DE SUCTOR",
+      "ACESSO PERIFÉRICO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ACESSO PERIFÉRICO"
+    ]
+  },
+  "labels": {
+    "8A07": {
+      "term_original": "agitação motora no leito",
+      "capitulo": "08",
+      "confidence_embedding": 0.7664,
+      "descricao_cid": "Representação de doença CID-11: Algum transtorno especificado do movimento. Definição: Distúrbios motores neurológicos que se apresentam com lentidão de movimentos (bradicinesia ou hipocinesia) ou movimentos involuntários anormais (hipercinesias) como resultado de anormalidades genéticas, infecciosas, tóxicas, metabólicas, inflamatórias ou vasculares.",
+      "classification_reasoning": "A escolha é baseada na descrição de 'agitação motora no leito', que sugere um distúrbio motor neurológico, caracterizado por lentidão ou movimentos involuntários anormais. Isso é mais coerente com a definição do código 8A07 (Representação de doença CID-11: Algum transtorno especificado do movimento) do que qualquer outro código apresentado.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição 'agitação motora no leito' não se encaixa com a definição do código 8A07, que se refere a distúrbios motores neurológicos caracterizados por lentidão ou movimentos involuntários anormais. A agitação motora descrita no prontuário parece mais relacionada à ansiedade ou ao estresse do paciente, o que não é capturado pelo código 8A07. Portanto, a escolha desse código não é clínica e precisa ser revista.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

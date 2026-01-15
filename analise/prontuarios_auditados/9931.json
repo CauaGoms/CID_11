@@ -1,0 +1,129 @@
+{
+  "prontuario_id": 938,
+  "text": "Lucas, 51 ANOS, DONA DE CASA, CASADA, PROCEDENTE DE CURITIBA\nQP: \" HERNIA INCISIONAL E EXCESSO DE PELE PÓS BARIÁTRICA \"\nPACIENTE RELATA QUE HA 4 ANOS REALIZOU CX BARIÁTRICA E HÁ UM ANO NOTOU APARECIMENTO DE UMA HERNIA NA CICATRIZ BARIÁTRICA. NEGA DOR E PRURIDO, MAS RELATA MUITO DESCONFORTO MESMO USANDO A CINTA DIARIAMENTE. PACIENTE RELATA TAMBÉM DESCONFORTO PELO EXCESSO DE PELE EM BRAÇO E BARRIGA APÓS A CIRURGIA BARIÁTRICA.\nEF: HÉRNIA INCISIONAL PÓS BARIÁTRICA EM MESOGASTRIO (PARTE DISTAL DA INCISÃO), NAO PULSÁTIL, SIMÉTRICA QUE AUMENTA COM A MANOBRA DE VALSALVA. ABDOME COM EXCESSO DE PELE  E ESTRIAS.\n \n \n \n ",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "QP",
+      "DOR",
+      "PRURIDO",
+      "DESCONFORTO",
+      "PULSÁTIL",
+      "EXCESSO DE PELE"
+    ],
+    "Abreviação": [
+      "QP",
+      "BARIÁTRICA",
+      "EF",
+      "CX BARIÁTRICA"
+    ],
+    "Conceito Temporal": [
+      "PÓS",
+      "DIARIAMENTE",
+      "APÓS",
+      "HA 4 ANOS",
+      "HÁ UM ANO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "BARIÁTRICA",
+      "INCISÃO",
+      "CX BARIÁTRICA",
+      "CIRURGIA BARIÁTRICA"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Função Patológica": [
+      "CICATRIZ"
+    ],
+    "Negação": [
+      "NEGA",
+      "NAO"
+    ],
+    "Dispositivo Médico": [
+      "CINTA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "BRAÇO",
+      "BARRIGA",
+      "ABDOME"
+    ],
+    "Localização ou Região Corporal": [
+      "MESOGASTRIO"
+    ],
+    "Conceito Espacial": [
+      "DISTAL"
+    ],
+    "Achado": [
+      "SIMÉTRICA",
+      "EXCESSO DE PELE"
+    ],
+    "Anormalidade Adquirida": [
+      "ESTRIAS"
+    ],
+    "Procedimento Diagnóstico": [
+      "MANOBRA DE VALSALVA"
+    ]
+  },
+  "labels": {
+    "FB42.2": {
+      "term_original": "estrias",
+      "capitulo": "15",
+      "confidence_embedding": 0.7401,
+      "descricao_cid": "Representação de doença CID-11: Gânglio. Definição: Esta é uma lesão nodular semelhante a tumor ou de conteúdo mucóide, originada de uma bainha tendínea, ligamentos ou cápsula articular, que acomete especialmente as mãos, o punho ou os pés. Eles não são cistos verdadeiros, pois não apresentam uma parede epitelial. Eles são diferenciados dos cistos sinoviais por não se comunicarem com a cavidade articular ou com a membrana sinovial.",
+      "classification_reasoning": "A presença de estrias na descrição do paciente sugere a formação de lesões nodulares semelhantes a tumor ou de conteúdo mucóide, originadas de uma bainha tendínea, ligamentos ou cápsula articular, o que coincide com a definição da Gânglio (FB42.2)",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de estrias na descrição do paciente não está relacionada à definição da Gânglio (FB42.2). A descrição do prontuário refere-se a excesso de pele e estrias, mas não há evidência clínica de lesões nodulares semelhantes a tumor ou de conteúdo mucóide. Portanto, a codificação CID-11 FB42.2 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "ED64": {
+      "term_original": "excesso de pele",
+      "capitulo": "14",
+      "confidence_embedding": 0.793,
+      "descricao_cid": "Representação de doença CID-11: Pigmentação anormal da pele. Definição: Pigmentação anormal da pele sem especificação do tipo ou causa.",
+      "classification_reasoning": "A escolha do código ED64 se baseia na descrição do termo 'excesso de pele' no contexto clínico, que refere-se ao excesso de pele após a cirurgia bariátrica. O código ED64 descreve representação de doença CID-11: Pigmentação anormal da pele, o que se encaixa com a descrição do excesso de pele mencionado pelo paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'excesso de pele' no prontuário refere-se ao excesso de pele após a cirurgia bariátrica, que é uma condição específica e não abrange apenas a pigmentação anormal da pele. O código ED64 é muito genérico e não captura a especificidade da situação clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "ME66.2": {
+      "term_original": "pulsátil",
+      "capitulo": "21",
+      "confidence_embedding": 0.8192,
+      "descricao_cid": "Representação de doença CID-11: Pele redundante e excessiva. Definição: Condição que tipicamente ocorre em indivíduos previamente bastante obesos após perda de peso maciça, como após cirurgia bariátrica ou restrição calórica estrita.",
+      "classification_reasoning": "A opção mais precisa é ME66.2, Representação de doença CID-11: Pele redundante e excessiva, pois o paciente relata excesso de pele em braço e barriga após a cirurgia bariátrica, o que caracteriza essa condição.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 ME66.2 representa 'Pele redundante e excessiva', que não é diretamente relacionada à hernia incisional pós bariátrica descrita no prontuário. A condição de pele excessiva pode ser um sintoma secundário da cirurgia, mas não é a principal entidade clínica descrita. Além disso, a descrição do código CID-11 não se aplica ao caso do paciente, pois não há menção à perda de peso maciça ou obesidade prévia.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.21": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7942,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática.",
+      "classification_reasoning": "A dor crônica pós-operatória é a mais precisa opção para o termo 'dor' no contexto do paciente, pois Lucas relata um desconforto constante desde a cirurgia bariátrica e não há indícios de infecção ou outra causa de dor aguda. A dor pós-operatória crônica é definida como dor persistente por pelo menos 3 meses após a cirurgia, o que se adequa ao quadro descrito pelo paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor descrita pelo paciente é um desconforto crônico, não uma dor aguda. Além disso, a descrição da hernia incisional pós-bariátrica e do excesso de pele não se relaciona à dor crônica pós-operatória definida no CID-11. A classificação MG30.21 não é adequada para o termo 'dor' nesse contexto.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME65.1": {
+      "term_original": "prurido",
+      "capitulo": "21",
+      "confidence_embedding": 0.8111,
+      "descricao_cid": "Representação de doença CID-11: Prurido. Definição: Sensação de prurido na pele. Para prurido persistente de causa desconhecida, o termo \"Prurido de causa desconhecida\" deve ser usado.",
+      "classification_reasoning": "O prurido foi excluído como sintoma na descrição do paciente, mas a opção ME65.1 é a mais precisa porque descreve o termo 'prurido' mesmo que não seja mencionado como um sintoma atualmente presente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O prontuário relata que o paciente não apresenta prurido, apenas desconforte. Portanto, a opção ME65.1 não é válida pois não há evidência clínica de prurido presente.",
+      "tipo_erro_auditoria": "negated_finding"
+    },
+    "EB60": {
+      "term_original": "cicatriz",
+      "capitulo": "14",
+      "confidence_embedding": 0.7743,
+      "descricao_cid": "Representação de doença CID-11: Líquen escleroso. Definição: O líquen escleroso é uma dermatose inflamatória crônica de etiologia desconhecida. Afeta tanto mulheres como homens de todas as idades. Caracteriza-se pelo desenvolvimento de placas brancas, lisas e atróficas na pele vulvar e perianal nas mulheres e no prepúcio e glande do pênis nos homens. Muitas vezes resulta na formação de cicatriz levando a um intróito estreito ou fimose com comprometimento da função urinária e sexual. O risco de carcinoma de células escamosas anogenital é ligeiramente aumentado. Menos comumente, outros locais da pele são afetados, independentemente ou em conjunto com o envolvimento anogenital.",
+      "classification_reasoning": "A opção mais precisa para o termo 'cicatriz' é a EB60, Líquen escleroso, pois esta doença caracteriza-se pelo desenvolvimento de placas brancas, lisas e atróficas na pele vulvar e perianal nas mulheres e no prepúcio e glande do pênis nos homens, resultando em formação de cicatriz.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CID-11 EB60, Líquen escleroso, não é adequada pois a cicatriz descrita no prontuário refere-se à cicatriz da hernia incisional pós-bariátrica e não ao líquen escleroso. A descrição do código CID-11 EB60 se refere especificamente à pele vulvar e perianal, o que não está relacionado com a situação clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

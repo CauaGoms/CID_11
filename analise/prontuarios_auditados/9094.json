@@ -1,0 +1,203 @@
+{
+  "prontuario_id": 473,
+  "text": "Às 03:47: Paciente consciente, lúcida, orientada, comunicativa, normotensa, normocorada, afebril, em repouso no leito. Mantém curativo em região abdominal, limpo e seco + curativo em perna D, também com aspecto seco. Apresenta diurese em SVD + fralda, porém sem evacuação no período. No início do plantão, paciente queixou-se de prurido intenso pelo corpo, o qual associa á reação medicamentosa do ATB. Feito Fenergan ás 21 horas (SNC), conforme prescrição médica. Logo após a realização da medicação, paciente começa a apresentar agitação motora, seguida  de ansiedade intensa, porém paciente mantém SSVV. Comunico DRa Alice. A filha da paciente, bastante aflita com o quadro que a mãe estava apresentando, entra em contato com Dr Vital Brasil, da cx geral, que logo após vem avaliar a paciente, e acrescenta mais medicação. Após ser medicada, paciente apresenta melhora do quadro de agitação e ansiedade. Segue em observação. AFECCOES DA PELE E DO TECIDO SUBCUTANEO NAO ESPECIFICADOS.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente",
+      "paciente"
+    ],
+    "Achado": [
+      "consciente",
+      "lúcida",
+      "orientada",
+      "comunicativa",
+      "normotensa",
+      "normocorada",
+      "afebril",
+      "limpo",
+      "seco",
+      "evacuação",
+      "repouso no leito",
+      "aspecto seco",
+      "mantém SSVV"
+    ],
+    "Negação": [
+      "afebril",
+      "sem"
+    ],
+    "Dispositivo Médico": [
+      "curativo",
+      "SVD",
+      "fralda"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "curativo",
+      "SVD",
+      "medicação",
+      "medicada",
+      "repouso no leito"
+    ],
+    "Objeto Manufaturado": [
+      "fralda"
+    ],
+    "Função Fisiológica": [
+      "evacuação"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "plantão",
+      "observação",
+      "prescrição médica"
+    ],
+    "Antibiótico": [
+      "ATB"
+    ],
+    "Substância Farmacológica": [
+      "Fenergan",
+      "medicação"
+    ],
+    "Abreviação": [
+      "SNC",
+      "DRa",
+      "Dr",
+      "perna D",
+      "mantém SSVV",
+      "cx geral"
+    ],
+    "Grupo Familiar": [
+      "filha"
+    ],
+    "Sinal ou Sintoma": [
+      "agitação",
+      "prurido intenso",
+      "agitação motora",
+      "ansiedade intensa"
+    ],
+    "Localização ou Região Corporal": [
+      "região abdominal"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "perna D"
+    ],
+    "Produto Intelectual": [
+      "prescrição médica"
+    ],
+    "Organização Relacionada à Saúde": [
+      "cx geral"
+    ],
+    "Doença ou Síndrome": [
+      "AFECCOES DA PELE E DO TECIDO SUBCUTANEO"
+    ]
+  },
+  "labels": {
+    "6e+43": {
+      "term_original": "comunicativa",
+      "capitulo": "06",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'comunicativa' se refere à capacidade do paciente de comunicar-se com os profissionais de saúde, o que é um sintoma normal em pacientes intoxicados por medicamentos ou substâncias. A escolha mais precisa para este termo dentro do contexto clínico é a representação de doença CID-11: Intoxicação por álcool (Código 6C40.3), Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool... e não apresenta sintomas específicos como agitação motora, ansiedade, prurido intenso, etc.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 6e+43 não é clinicamente coerente com o prontuário. O termo 'comunicativa' se refere à capacidade do paciente de comunicar-se com os profissionais de saúde, o que não está relacionado à intoxicação por álcool ou a qualquer outra condição clínica descrita no prontuário. A presença de sintomas como agitação motora, ansiedade e prurido intenso sugere uma reação adversa a medicamento, e não uma intoxicação por álcool.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DB33.0": {
+      "term_original": "evacuação",
+      "capitulo": "13",
+      "confidence_embedding": 0.7966,
+      "descricao_cid": "Representação de doença CID-11: Úlcera primária do cólon. Definição: Condição com úlceras únicas ou múltiplas (defeito da mucosa) que se desenvolvem no reto ou no cólon. As úlceras do cólon podem causar sangramento com o esforço evacuatório em pessoas com constipação crônica.",
+      "classification_reasoning": "A escolha do código DB33.0 é a mais precisa pois o termo 'evacuação' está relacionado ao déficit de evacuação do paciente, que apresenta diurese em SVD + fralda, porém sem evacuação no período.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código DB33.0 é baseada na falta de evacuação, mas o prontuário não apresenta evidências de úlceras no cólon ou reto. A diurese em SVD + fralda pode ser relacionada a outras condições clínicas, como incontinência urinária, e não há justificativa para associar ao déficit de evacuação do cólon.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EB13.1": {
+      "term_original": "aspecto seco",
+      "capitulo": "14",
+      "confidence_embedding": 0.771,
+      "descricao_cid": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável.",
+      "classification_reasoning": "A opção mais precisa para o termo 'aspecto seco' é a Necrólise Epidérmica Tóxica (NET), pois apresenta características como necrose e descolamento bolhoso da epiderme, o que coincide com a descrição do aspecto seco mencionado no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'aspecto seco' não é Necrólise Epidérmica Tóxica (NET), pois a descrição do prontuário não apresenta características como necrose e descolamento bolhoso da epiderme. Além disso, a paciente não apresenta sintomas de risco de vida ou mortalidade. A classificação EB13.1 não se ajusta ao termo 'aspecto seco' descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C40.3": {
+      "term_original": "orientada",
+      "capitulo": "06",
+      "confidence_embedding": 0.8028,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas.",
+      "classification_reasoning": "O termo 'orientada' indica que a paciente tem consciência e é capaz de se comunicar, o que é consistente com sintomas de intoxicação por álcool (CID-11: Intoxicação por álcool). A presença de prurido intenso após a medicação com Fenergan também sugere uma possível reação à medicação, o que é comum em casos de overdose alcoólica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11: Intoxicação por álcool não é adequada porque o termo 'orientada' indica que a paciente tem consciência e é capaz de se comunicar, o que não é consistente com sintomas de intoxicação por álcool. A presença de prurido intenso após a medicação com Fenergan sugere uma possível reação à medicação, mas isso não é suficiente para justificar a codificação de Intoxicação por álcool.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EK12": {
+      "term_original": "limpo",
+      "capitulo": "14",
+      "confidence_embedding": 0.7877,
+      "descricao_cid": "Representação de doença CID-11: Sensibilização alérgica por contato. Definição: A presença de hipersensibilidade tardia tipo IV do sistema imune a uma determinada substância sem definição de doença prévia ou atual. Tal sensibilização é normalmente adquirida por contato prévio de pele ou mucosa com a própria substância ou com outra quimicamente similar (reatividade cruzada). Contato subsequente com a substância pode provocar reação alérgica. Em determinadas circunstâncias, essa sensibilização pode impedir que um indivíduo aceite ou continue em um emprego em que a exposição ao alérgeno não pode ser evitada. Alguns indivíduos sensibilizados para um alérgeno específico, entretanto, podem nunca manifestar sintomas caso ocorra o contato.",
+      "classification_reasoning": "O termo 'limpo' está relacionado à cura de ferida abdominal e perna, sugerindo uma sensibilização alérgica por contato com possível causa de reação cutânea.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A sensibilização alérgica por contato (EK12) é uma condição que envolve reação cutânea após exposição a uma substância específica. No entanto, no prontuário não há nenhuma indicação de que o paciente tenha tido contato com essa substância ou apresente sintomas cutâneos. O termo 'limpo' está relacionado à cura de ferida abdominal e perna, o que não justifica a atribuição do código EK12.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "8A07": {
+      "term_original": "agitação motora",
+      "capitulo": "08",
+      "confidence_embedding": 0.7867,
+      "descricao_cid": "Representação de doença CID-11: Algum transtorno especificado do movimento. Definição: Distúrbios motores neurológicos que se apresentam com lentidão de movimentos (bradicinesia ou hipocinesia) ou movimentos involuntários anormais (hipercinesias) como resultado de anormalidades genéticas, infecciosas, tóxicas, metabólicas, inflamatórias ou vasculares.",
+      "classification_reasoning": "A escolha pelo código 8A07 (Algum transtorno especificado do movimento) é justificada porque o termo 'agitação motora' refere-se a uma condição caracterizada por lentidão de movimentos ou movimentos involuntários anormais, o que está em consonância com a definição do código. Além disso, o contexto clínico menciona a paciente apresentar agitação motora após a administração do Fenergan, o que sugere uma resposta neurológica ao medicamento.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código 8A07 não é justificada porque a agitação motora descrita no prontuário não se refere a uma condição caracterizada por lentidão de movimentos ou movimentos involuntários anormais, como definido pelo código. A agitação motora parece ser um sintoma neurológico relacionado à reação medicamentosa do ATB e ao uso do Fenergan, e não é um distúrbio motor específico. Portanto, o código 8A07 não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF40.3": {
+      "term_original": "repouso no leito",
+      "capitulo": "21",
+      "confidence_embedding": 0.7735,
+      "descricao_cid": "Representação de doença CID-11: Ejaculação retrógrada. Definição: A ejaculação retrógrada é uma condição na qual o sêmen, que normalmente é ejaculado pela uretra, é redirecionado para a bexiga urinária. A ejaculação retrógrada é tipicamente acompanhada por orgasmo subjetivo, embora o homem possa notar que a liberação de sêmen é limitada ou ausente. A ejaculação retrógrada ocorre mais comumente como uma complicação da ressecção transuretral da próstata, porém também pode ser causada por outra cirurgia pélvica, disfunção do sistema nervoso ou uso de agentes farmacológicos. A confirmação é feita pela identificação de espermatozoides em uma amostra de urina.",
+      "classification_reasoning": "A opção mais precisa para o termo 'repouso no leito' é a ejaculação retrógrada (Código MF40.3), pois a paciente estava apresentando prurido intenso pelo corpo, associado à reação medicamentosa do ATB e subsequente agitação motora e ansiedade, indicando uma possível intervenção terapêutica relacionada ao trato urinário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A ejaculação retrógrada (Código MF40.3) é uma condição que envolve a liberação de sêmen para a bexiga urinária, o que não está relacionado ao termo 'repouso no leito'. A paciente estava descrita como consciente, lúcida e orientada, com curativo em região abdominal e perna D, e apresentando diurese em SVD + fralda. O prurido intenso pelo corpo e a subsequente agitação motora e ansiedade são mais consistentes com uma reação alérgica ou anafilática ao medicamento ATB do que com a ejaculação retrógrada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EC90.10": {
+      "term_original": "prurido intenso",
+      "capitulo": "14",
+      "confidence_embedding": 0.8199,
+      "descricao_cid": "Representação de doença CID-11: Prurido urêmico. Definição: Prurido em pacientes com insuficiência renal crônica. Embora comum na doença renal crônica não tratada, é particularmente prevalente em pacientes que submetidos a diálise peritoneal ou hemodiálise. O prurido não se deve a níveis elevados de ureia sérica. Os mecanismos precisos não são totalmente compreendidos.",
+      "classification_reasoning": "A presença de prurido intenso em um paciente com história de reação medicamentosa ao ATB e subsequente uso do Fenergan sugere que o prurido pode estar relacionado à insuficiência renal crônica, uma característica comum desse tipo de prurido.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de prurido intenso no paciente não está relacionada à insuficiência renal crônica, como sugerido pela justificativa do sistema. O prurido é descrito como uma reação medicamentosa ao ATB e subsequente uso do Fenergan, o que sugere uma relação com a medicação em vez de uma doença renal crônica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6E63": {
+      "term_original": "ansiedade intensa",
+      "capitulo": "06",
+      "confidence_embedding": 0.7854,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de ansiedade secundária. Definição: Síndrome caracterizada pela presença de sintomas ansiosos proeminentes, considerados consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental, com base em evidências de anamnese, exame físico ou achados laboratoriais. Os sintomas não são explicados por delirium ou por outro transtorno mental e comportamental, e não são uma resposta psicologicamente mediada a uma condição médica grave (p. ex., sintomas ansiosos ou ataques de pânico em resposta ao diagnóstico de uma doença potencialmente fatal). Essa categoria deve ser utilizada somada ao diagnóstico do transtorno ou doença subjacente presumido, quando os sintomas ansiosos forem suficientemente graves para exigir atenção clínica específica.",
+      "classification_reasoning": "A ansiedade intensa descrita no contexto clínico é característica da síndrome de ansiedade secundária (6E63), que pode ser desencadeada por uma variedade de fatores, incluindo reações medicamentosas. A presença de sintomas ansiosos graves e a associação com o uso de ATB e a medicação subsequentemente administrada corroboram essa escolha.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A ansiedade intensa descrita no prontuário é característica da síndrome de ansiedade secundária (6E63), que pode ser desencadeada por uma variedade de fatores, incluindo reações medicamentosas. A presença de sintomas ansiosos graves e a associação com o uso de ATB e a medicação subsequentemente administrada corroboram essa escolha.",
+      "tipo_erro_auditoria": null
+    },
+    "8A61": {
+      "term_original": "agitação",
+      "capitulo": "08",
+      "confidence_embedding": 0.7848,
+      "descricao_cid": "Representação de doença CID-11: Síndromes genéticas ou supostamente genéticas expressas primariamente como epilepsia. Definição: A epilepsia é, até onde se compreende, o resultado direto de um ou mais defeitos genéticos conhecidos ou presumidos, nos quais as crises epilépticas são o sintoma central da doença.",
+      "classification_reasoning": "A agitação apresentada pelo paciente após a medicação do Fenergan é uma reação adversa comum a essa droga, que pode causar ansiedade e excitação. A escolha da opção 8A61, Síndromes genéticas ou supostamente genéticas expressas primariamente como epilepsia, é porque a agitação não está necessariamente relacionada à epilepsia, mas sim à reação medicamentosa.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A agitação apresentada pelo paciente após a medicação do Fenergan não está relacionada à epilepsia, mas sim à reação medicamentosa. O código CID-11 8A61 refere-se a síndromes genéticas ou supostamente genéticas expressas primariamente como epilepsia, o que não é aplicável ao caso do paciente. A escolha desse código é uma classificação errônea e não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EF02.3": {
+      "term_original": "afeccoes da pele e do tecido subcutaneo",
+      "capitulo": "14",
+      "confidence_embedding": 0.7981,
+      "descricao_cid": "Representação de doença CID-11: Celulite. Definição: A celulite é um desarranjo arquitetônico comum do tecido adiposo subcutâneo que resulta em ondulações e nodularidade da pele sobrejacente. É mais comum em mulheres pós-púberes e acomete principalmente a região pélvica, membros inferiores e abdome. Acredita-se que resulte da herniação de múltiplos pequenos agregados de gordura subcutânea através do tecido fibroso na junção dermo-hipodérmica. A obesidade predispõe, mas não é necessária para o seu desenvolvimento. O termo está em uso generalizado, mas é enganoso, pois não tem nada a ver com \"cellulitis\" (NT: infecção de pele). A condição é assintomática, mas pode causar constrangimento considerável.",
+      "classification_reasoning": "A paciente apresenta afeccoes da pele e do tecido subcutaneo, com prurido intenso pelo corpo associado à reação medicamentosa do ATB. A descrição da celulite como um desarranjo arquitetônico comum do tecido adiposo subcutâneo que resulta em ondulações e nodularidade da pele sobrejacente é a mais precisa para o contexto clínico",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição da celulite como um desarranjo arquitetônico comum do tecido adiposo subcutâneo que resulta em ondulações e nodularidade da pele sobrejacente não se aplica ao quadro clínico apresentado. A paciente apresenta prurido intenso pelo corpo associado à reação medicamentosa do ATB, o que sugere uma reação alérgica ou anafilática, e não um desarranjo arquitetônico do tecido adiposo subcutâneo.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

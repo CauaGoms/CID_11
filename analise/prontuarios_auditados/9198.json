@@ -1,0 +1,256 @@
+{
+  "prontuario_id": 696,
+  "text": "01HS PCTE LUCIDO, COMUNICATIVO, EUPNEICO EM AR AMBIENTE, S/ QUEIXAS ALGICAS, BOA ACEITAÇÃO DE DIETA, MANTENDO REPOUSO NO LEITO, MMII ELEVADOS MANTENDO ENFAIXADOS, ACESSO VENOSO PERIFÉRICO SALINIZADO, CTVO LIMPO E SECO EXTERNAMENTE, DIURESE PRESENTE, SEGUE SOB CUIDADOS VARIZES DOS MEMBROS INFERIORES COM ULCERA E INFLAMACAO. 22:30 PERMANECE EM RESPIRAÇÃO ESPONTÂNEA COM SUPORTE DE O2 EM NÉVOÁ ÚMIDA CONTÍNUA A 5L/MIN, GLASGOW 15, PUPILAS DISCRETAMENTE ANISOCÓRICAS D>E, CVC EM SUBCLÁVIA D COM TRIDIL 40ML/H, AUSCULTA PULMONAR COM RONCOS ESPARSOS, FAV EM MSE COM FRÊMITO, ABDOME GLOBOS E FLÁCIDO, RHA PRESENTES, SVD COM ANÚRIA. PRECAUÇÃO DE CONTATO PROFILATICAMENTE. MONITORADO COM PNI, CARDIOSCOPIA E OXIMETRIA DE PULSO. APRESENTA PERÍODOS DE AGRESSIVIDADE E AGITAÇÃO PSICOMOTORA (O CLIENTE TENTA INTIMIDAR E AGREDIR VERBALMENTE  A EQUIPE MULTIDISCIPLINAR) - DISCRETA MELHORA APÓS SEDATIVOS INTERMITENTES. CONCUSSAO CEREBRAL.",
+  "entities": {
+    "Abreviação": [
+      "PCTE",
+      "S/",
+      "CTVO",
+      "D&gt;E",
+      "CVC",
+      "FAV",
+      "MSE",
+      "GLOBOS",
+      "SVD",
+      "PNI",
+      "SUBCLÁVIA D",
+      "RHA PRESENTES"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PCTE",
+      "CLIENTE"
+    ],
+    "Achado": [
+      "LUCIDO",
+      "COMUNICATIVO",
+      "LIMPO",
+      "SECO",
+      "FLÁCIDO",
+      "EUPNEICO EM AR AMBIENTE",
+      "BOA ACEITAÇÃO DE DIETA",
+      "REPOUSO NO LEITO",
+      "DIURESE PRESENTE",
+      "RESPIRAÇÃO ESPONTÂNEA",
+      "GLASGOW 15",
+      "RHA PRESENTES",
+      "DISCRETA MELHORA"
+    ],
+    "Negação": [
+      "S/"
+    ],
+    "Localização ou Região Corporal": [
+      "MMII",
+      "MSE",
+      "ABDOME",
+      "MEMBROS INFERIORES"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ENFAIXADOS",
+      "CTVO",
+      "CVC",
+      "FAV",
+      "SVD",
+      "SEDATIVOS",
+      "REPOUSO NO LEITO",
+      "ACESSO VENOSO PERIFÉRICO SALINIZADO",
+      "SUPORTE DE O2 EM NÉVOÁ ÚMIDA CONTÍNUA",
+      "PRECAUÇÃO DE CONTATO PROFILATICAMENTE"
+    ],
+    "Dispositivo Médico": [
+      "CTVO",
+      "CVC",
+      "SVD",
+      "ACESSO VENOSO PERIFÉRICO SALINIZADO"
+    ],
+    "Conceito Espacial": [
+      "EXTERNAMENTE"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CUIDADOS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CUIDADOS"
+    ],
+    "Doença ou Síndrome": [
+      "ULCERA"
+    ],
+    "Função Patológica": [
+      "INFLAMACAO"
+    ],
+    "Conceito Quantitativo": [
+      "5L/MIN",
+      "40ML/H"
+    ],
+    "Conceito Qualitativo": [
+      "5L/MIN"
+    ],
+    "Substância Farmacológica": [
+      "TRIDIL",
+      "SEDATIVOS"
+    ],
+    "Sinal ou Sintoma": [
+      "FRÊMITO",
+      "GLOBOS",
+      "ANÚRIA",
+      "QUEIXAS ALGICAS",
+      "PUPILAS DISCRETAMENTE ANISOCÓRICAS",
+      "RONCOS ESPARSOS",
+      "PERÍODOS DE AGRESSIVIDADE",
+      "AGITAÇÃO PSICOMOTORA"
+    ],
+    "Procedimento Diagnóstico": [
+      "MONITORADO",
+      "PNI",
+      "CARDIOSCOPIA",
+      "AUSCULTA PULMONAR",
+      "OXIMETRIA DE PULSO"
+    ],
+    "Conceito Temporal": [
+      "INTERMITENTES"
+    ],
+    "Função Fisiológica": [
+      "DIURESE PRESENTE"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "SUBCLÁVIA D"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "EQUIPE MULTIDISCIPLINAR"
+    ],
+    "Lesão ou Envenenamento": [
+      "CONCUSSAO CEREBRAL"
+    ]
+  },
+  "labels": {
+    "DA60.3": {
+      "term_original": "flácido",
+      "capitulo": "13",
+      "confidence_embedding": 0.7893,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A opção mais precisa para o termo 'flácido' é a úlceras de estresse do estômago (DA60.3), pois flácido se refere à característica do abdome sendo 'globoso e flácido', indicando uma condição de doença abdominal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'flácido' se refere à característica do abdome, não está diretamente relacionado às úlceras de estresse do estômago. A descrição do código CID-11 (DA60.3) é muito específica e não se aplica ao contexto do prontuário. Portanto, a codificação é demasiadamente genérica e não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "4A44.7": {
+      "term_original": "inflamacao",
+      "capitulo": "04",
+      "confidence_embedding": 0.7578,
+      "descricao_cid": "Representação de doença CID-11: Angiite primária do sistema nervoso central. Definição: Na angiite primária do sistema nervoso central, a vasculite está limitada ao sistema nervoso central. É uma doença muito rara, e sua manifestação pode ser imitada por muitas outras doenças. Pacientes com angeíte primária comumente apresentam cefaleia, estado mental alterado de forma intermitente e eventos semelhantes a ataques isquêmicos transitórios. O diagnóstico é frequentemente baseado em angiografia, embora a biópsia cerebral continue sendo o único teste diagnóstico definitivo.",
+      "classification_reasoning": "A inflamação mencionada no contexto clínico é mais provável ser referente à angiite primária do sistema nervoso central, uma doença rara e complexa que pode causar sintomas de dor e inchaço nos membros inferiores.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A inflamação mencionada no prontuário é mais provável ser referente à inflamação aguda ou crônica nos membros inferiores, e não à angiite primária do sistema nervoso central. O termo 'inflamacao' não está diretamente relacionado à doença descrita no código CID-11 4A44.7.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B24": {
+      "term_original": "concussao cerebral",
+      "capitulo": "08",
+      "confidence_embedding": 0.7936,
+      "descricao_cid": "Representação de doença CID-11: Encefalopatia hipóxico-isquêmica. Definição: Dano cerebral devido à hipóxia-isquemia: o termo anterior \"Dano cerebral anóxico\" foi alterado. O novo termo é agora amplamente aceito e descreve melhor a fisiopatologia, ou seja, a combinação de isquemia cerebral global transitória completa e incompleta juntamente com uma combinação de anóxia e hipóxia. Em um paciente sobrevivente, a encefalopatia anóxica pura é muito incomum.",
+      "classification_reasoning": "A escolha do código 8B24 (Encefalopatia hipóxico-isquêmica) é a mais precisa porque o termo 'concussao cerebral' indica um dano cerebral relacionado à hipóxia-isquemia, que está descrito na definição do código 8B24. Além disso, não há indicações de lesão cerebral induzida por radiação (código 8E61.0), nem síndromes de herniação cerebral (código 8D60.0) no contexto clínico apresentado.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código 8B24 (Encefalopatia hipóxico-isquêmica) não é a mais precisa porque o termo 'concussao cerebral' não está diretamente relacionado à encefalopatia anóxica. A concussão cerebral é um tipo de lesão cerebral induzida por trauma, e não uma condição clínica relacionada à hipóxia-isquemia. Portanto, o código 8B24 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EA90.3": {
+      "term_original": "ulcera",
+      "capitulo": "14",
+      "confidence_embedding": 0.754,
+      "descricao_cid": "Representação de doença CID-11: Psoríase eritrodérmica. Definição: Psoríase eritrodérmica é uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele. A psoríase eritrodérmica geralmente se desenvolve a partir da psoríase em placas extensa mas pode surgir de forma nova. Fatores precipitantes ou desencadeantes incluem a retirada de glicocorticoides sistêmicos e, menos frequentemente, a descontinuação abrupta do metotrexato, queimaduras ou infecções intercorrentes. Os pacientes podem desenvolver hipotermia ou insuficiência cardíaca de alto débito.",
+      "classification_reasoning": "A escolha do termo EA90.3, Psoríase eritrodérmica, é baseada na presença de ulcera na descrição do prontuário, que caracteriza a psoríase eritrodérmica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A ulcera descrita no prontuário refere-se a uma lesão cutânea, enquanto o código EA90.3 se refere à psoríase eritrodérmica, que é uma condição sistêmica e não relacionada à ulcera isoladamente. A escolha do termo EA90.3 não representa fielmente a ulcera descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C45.3": {
+      "term_original": "comunicativo",
+      "capitulo": "06",
+      "confidence_embedding": 0.7771,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A opção mais precisa é a Intoxicação por cocaína (6C45.3) porque o termo 'comunicativo' se refere à euforia inadequada, ansiedade, raiva, atenção prejudicada e agitação psicomotora mencionadas na descrição da condição. Essas características são mais compatíveis com a Intoxicação por cocaína do que as outras opções.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção 6C45.3 - Intoxicação por cocaína não é adequada porque o termo 'comunicativo' se refere à euforia inadequada, ansiedade, raiva, atenção prejudicada e agitação psicomotora mencionadas na descrição da condição. Essas características são mais compatíveis com um quadro de agitação psicomotora ou comportamento agressivo do que uma intoxicação por cocaína.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GB90.47": {
+      "term_original": "anúria",
+      "capitulo": "16",
+      "confidence_embedding": 0.7613,
+      "descricao_cid": "Representação de doença CID-11: Aminoacidúria. Definição: Condições em que os aminoácidos são encontrados na urina devido à superprodução (níveis elevados no sangue) ou falha da reabsorção tubular",
+      "classification_reasoning": "A escolha pelo código GB90.47 é baseada na presença de anúria no prontuário, o que sugere a possibilidade de uma afecção renal ou uretral que está causando a perda de urina.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A anúria descrita no prontuário é uma condição de perda de urina, não relacionada à superprodução ou falha da reabsorção tubular de aminoácidos. O código GB90.47 não representa fielmente a condição clínica descrita e é um exemplo de overgeneralization do CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA23.00": {
+      "term_original": "roncos esparsos",
+      "capitulo": "12",
+      "confidence_embedding": 0.7086,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide.",
+      "classification_reasoning": "A presença de roncos esparsos no contexto clínico sugere uma possibilidade de asma alérgica com exacerbação, considerando a falta de queixas alérgicas e boa aceitação de dieta do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de roncos esparsos no prontuário não é suficiente para justificar a codificação CID-11 CA23.00, que se refere especificamente à asma alérgica com exacerbação. Embora os sintomas respiratórios possam estar relacionados à asma, a falta de queixas alérgicas e boa aceitação de dieta do paciente sugere uma condição mais ampla e não específica da asma alérgica. A codificação CA23.00 é demasiado específica e não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8E40.2": {
+      "term_original": "frêmito",
+      "capitulo": "08",
+      "confidence_embedding": 0.7881,
+      "descricao_cid": "Representação de doença CID-11: Meningite inflamatória. Definição: Termo geral para descrever um grupo de transtornos em que há inflamação das meninges devida a um transtorno inflamatório subjacente. A síndrome é clinicamente caracterizada por cefaleia, rigidez de nuca, febre e fotofobia. Outras manifestações dos sistemas nervosos central e periférico podem estar presentes. Manifestações não neurológicas, incluindo envolvimento de pele, olhos e órgãos, também podem estar presentes. O diagnóstico pode ser auxiliado por testes sorológicos, exames de neuroimagem e, se apropriado, uma biópsia tecidual. A análise do líquido cefalorraquiano pode revelar uma pleocitose linfocítica, uma proteína elevada e a presença de bandas oligoclonais.",
+      "classification_reasoning": "A escolha do código 8E40.2 (Meningite inflamatória) é baseada na presença de sintomas neurológicos como frêmito, o que pode estar relacionado à inflamação das meninges. Além disso, a mencionada concussão cerebral e a presença de roncos esparsos sugerem uma possível lesão cerebral ou meningite.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'frêmito' não é um sintoma de meningite inflamatória, mas sim uma manifestação neurológica comum que pode estar presente em diversas condições clínicas. A escolha do código 8E40.2 (Meningite inflamatória) não está justificada pela presença de frêmito apenas. Além disso, a concussão cerebral e os roncos esparsos sugerem uma lesão cerebral ou outra condição clínica que não é relacionada à meningite inflamatória.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "VV3Y": {
+      "term_original": "glasgow 15",
+      "capitulo": "V",
+      "confidence_embedding": 0.709,
+      "descricao_cid": "Representação de doença CID-11: Outras funções dos sistemas cardiovascular, hematológico, imunológico e respiratório, especificadas. Definição: ",
+      "classification_reasoning": "A Glasgow 15 sugere uma condição de saúde crítica, que é uma indicação para o sistema cardiovascular. Além disso, o contexto do prontuário menciona problemas cardíacos e pressão arterial baixa (anúria), tornando a escolha VV3Y mais precisa.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código VV3Y é justificada pelo contexto do prontuário, que apresenta uma condição de saúde crítica com problemas cardíacos e pressão arterial baixa. A Glasgow 15 também sugere uma situação crítica, o que reforça a escolha do código.",
+      "tipo_erro_auditoria": null
+    },
+    "6e+86": {
+      "term_original": "períodos de agressividade",
+      "capitulo": "06",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha do termo é justificada pela descrição de agressividade e agitação psicomotora do paciente, o que coincide com a definição do código 6D86.4: Agitação ou agressividade na demência.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A agressividade e agitação psicomotora descrita no prontuário são consistentes com a definição do código 6D86.4: Agitação ou agressividade na demência. A descrição do paciente apresentando períodos de agressividade e agitação psicomotora, que melhoram após uso de sedativos intermitentes, é clínica e coerente com a condição descrita pelo código CID-11.",
+      "tipo_erro_auditoria": null
+    },
+    "DD90.0": {
+      "term_original": "globos",
+      "capitulo": "13",
+      "confidence_embedding": 0.7363,
+      "descricao_cid": "Representação de doença CID-11: Globus. Definição: Globus é uma sensação não dolorosa persistente ou intermitente de um caroço ou corpo estranho na garganta não relacionado à deglutição, sem transtorno estrutural ou motor da faringe e/ou esôfago, muitas vezes acompanhado de ansiedade aguda ou conflitos emocionais.",
+      "classification_reasoning": "A opção mais precisa é a DD90.0, pois o termo 'globos' refere-se à sensação de um caroço ou corpo estranho na garganta não relacionada à deglutição, o que está descrito no contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 DD90.0 é válida pois o termo 'globos' se refere à sensação de um caroço ou corpo estranho na garganta não relacionada à deglutição, o que está descrito no contexto clínico. A definição do código CID-11 coincide com a descrição do prontuário e atende às diretrizes de auditoria.",
+      "tipo_erro_auditoria": null
+    },
+    "8D8A.2": {
+      "term_original": "pupilas discretamente anisocóricas",
+      "capitulo": "08",
+      "confidence_embedding": 0.7633,
+      "descricao_cid": "Representação de doença CID-11: Anisocoria episódica. Definição: Este é um grupo de transtornos em que movimentos pupilares periódicos levam a mudanças de tamanho. Isso ocorre devido ao tônus parassimpático ou simpático anormal.",
+      "classification_reasoning": "O termo 'pupilas discretamente anisocóricas' sugere que há mudanças periódicas no tamanho das pupilas, o que está relacionado à anomalia do tônus parassimpático ou simpático. Isso justifica a escolha do código 8D8A.2, representando Anisocoria episódica.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'pupilas discretamente anisocóricas' sugere que há mudanças periódicas no tamanho das pupilas, o que está relacionado à anomalia do tônus parassimpático ou simpático. Isso é consistente com a definição do código CID-11 8D8A.2, representando Anisocoria episódica. Portanto, mantém-se a classificação original.",
+      "tipo_erro_auditoria": null
+    },
+    "6A25.4": {
+      "term_original": "agitação psicomotora",
+      "capitulo": "06",
+      "confidence_embedding": 0.79,
+      "descricao_cid": "Representação de doença CID-11: Sintomas psicomotores em transtornos psicóticos primários. Definição: Sintomas psicomotores em transtornos psicóticos primários incluem agitação psicomotora ou atividade motora excessiva, geralmente manifestada por comportamentos sem finalidade, como inquietação, ficar mudando de lugar, ficar mexendo em objetos, não conseguir ficar quieto, seja sentado ou em pé, torcer as mãos, lentificação psicomotora ou uma visível lentificação generalizada dos movimentos e da fala e sintomas catatônicos, como excitação, posturas atípicas, flexibilidade cerácea, negativismo, mutismo ou estupor. A classificação deve ser feita com base na gravidade dos sintomas psicomotores durante a semana anterior.",
+      "classification_reasoning": "A agitação psicomotora é um sintoma característico dos transtornos psicóticos primários, e o contexto do prontuário indica a presença de uma síndrome catatônica secundária em relação à concussão cerebral. Além disso, os sintomas descriptos no prontuário (agitação, raiva, atenção prejudicada) também são consistentes com a apresentação clínica dos transtornos psicóticos primários.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A agitação psicomotora descrita no prontuário não é um sintoma característico dos transtornos psicóticos primários, mas sim uma manifestação de agressividade e agitação psicomotora relacionada à concussão cerebral. A classificação do código CID-11 6A25.4 não se aplica ao contexto clínico descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

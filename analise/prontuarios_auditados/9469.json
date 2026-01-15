@@ -1,0 +1,103 @@
+{
+  "prontuario_id": 182,
+  "text": "Interna para realização de angioplastia coronariana seguida de implante de endoprótese em segmento proximal de artéria coronária direita. Procedimento realizado sem intercorrências e com sucesso angiográfico pelo Doutor Vital Brazil Zago no dia 08/10/2004. Recebe alta em bom estado geral, assintomática, sinais vitais estáveis, afebril, pulsos periféricos simétricos e palpáveis, sem sinais de hematoma ou pseudoaneurisma, somente com pequena área de equimose peri punção. Orientada quanto a medicações, cuidados, retorno ambulatorial e retorno à emergência se necessário.",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "Procedimento",
+      "realizado",
+      "punção",
+      "Orientada",
+      "cuidados",
+      "retorno"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Procedimento",
+      "angioplastia coronariana",
+      "implante de endoprótese"
+    ],
+    "Negação": [
+      "sem",
+      "assintomática",
+      "afebril"
+    ],
+    "Sinal ou Sintoma": [
+      "intercorrências",
+      "pseudoaneurisma",
+      "equimose"
+    ],
+    "Achado": [
+      "assintomática",
+      "afebril",
+      "simétricos",
+      "palpáveis",
+      "sucesso angiográfico",
+      "bom estado geral",
+      "sinais vitais estáveis"
+    ],
+    "Função Patológica": [
+      "hematoma"
+    ],
+    "Conceito Espacial": [
+      "peri"
+    ],
+    "Substância Farmacológica": [
+      "medicações"
+    ],
+    "Localização ou Região Corporal": [
+      "segmento proximal de artéria coronária direita",
+      "pulsos periféricos"
+    ]
+  },
+  "labels": {
+    "BA60.1": {
+      "term_original": "sucesso angiográfico",
+      "capitulo": "11",
+      "confidence_embedding": 0.7814,
+      "descricao_cid": "Representação de doença CID-11: Outra pericardite como complicação atual subsequente a infarto agudo do miocárdio. Definição: Inflamação do pericárdio que pode causar dor no peito, que ocorre tão precocemente quanto o primeiro dia e até 6 semanas após o infarto agudo do miocárdio. A dor da pericardite irradia para qualquer crista do trapézio. O infarto do miocárdio transmural é responsável pela inflamação pericárdica local. Atritos pericárdicos transitórios são relativamente comuns em pacientes com infarto transmural nas primeiras 48 horas. Uma pericardite fibrinosa aguda ocorre comumente após o infarto transmural, enquanto o risco de pericardite hemorrágica está aumentado por anticoagulação.",
+      "classification_reasoning": "O termo 'sucesso angiográfico' está relacionado à representação de doença CID-11: Outra pericardite como complicação atual subsequente a infarto agudo do miocárdio. Apesar de não haver nenhuma referência explícita ao termo em BA60.1, é o código mais preciso para o contexto clínico da angioplastia coronariana seguida de implante de endoprótese em segmento proximal de artéria coronária direita, que sugere um procedimento realizado sem intercorrências e com sucesso.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'sucesso angiográfico' não está relacionado à pericardite, que é uma condição clínica diferente da realização de procedimento médico. A codificação BA60.1 não representa fielmente o termo ou a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NE81.0": {
+      "term_original": "hematoma",
+      "capitulo": "22",
+      "confidence_embedding": 0.8045,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A pequena área de equimose peri-punção sugere uma lesão contusia na pele causada pelo procedimento, o que é descrito pela descrição do código NE81.0: Hemorragia ou hematoma complicando um procedimento, não classificado em outra parte.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do código NE81.0 refere-se a hemorragia ou hematoma complicando um procedimento, não classificado em outra parte. No entanto, o prontuário apenas menciona uma pequena área de equimose peri-punção, que não é necessariamente um hematoma. A descrição do código é muito genérica e não se ajusta ao termo 'hematoma' isoladamente no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "NB90.0Y": {
+      "term_original": "pseudoaneurisma",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é a NB90.Y porque o termo 'pseudoaneurisma' se refere a uma lesão de vaso sanguíneo específica, que no contexto clínico está relacionada à artéria coronária direita e foi mencionado como um achado na avaliação pós-procedimento.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'pseudoaneurisma' está diretamente relacionado à artéria coronária direita e foi mencionado como um achado na avaliação pós-procedimento. A opção CID-11 NB90.0Y é a mais precisa para representar essa condição clínica, pois se refere a uma lesão de vaso sanguíneo específica.",
+      "tipo_erro_auditoria": null
+    },
+    "MC80.0Y": {
+      "term_original": "intercorrências",
+      "capitulo": "21",
+      "confidence_embedding": 0.7645,
+      "descricao_cid": "Representação de doença CID-11: Outro valor elevado da pressão arterial especificado, sem diagnóstico de hipertensão. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'intercorrências' no contexto do prontuário refere-se ao procedimento realizado sem complicações ou intercorrências, com sucesso angiográfico. O código MC80.0Y se refere a valores elevados da pressão arterial especificado, sem diagnóstico de hipertensão, o que é relevante para a realização do procedimento sem intercorrências.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'intercorrências' no contexto do prontuário refere-se a complicações ou problemas durante o procedimento, enquanto o código MC80.0Y se refere a valores elevados da pressão arterial especificado, sem diagnóstico de hipertensão. A falta de relação entre o termo e o código CID-11 indica que a codificação é incoerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EE40.32": {
+      "term_original": "equimose",
+      "capitulo": "14",
+      "confidence_embedding": 0.7398,
+      "descricao_cid": "Representação de doença CID-11: Púrpura ou equimose devida à fragilidade vascular. Definição: Púrpura devida a extravasamento ou ruptura de vasos sanguíneos cutâneos anormalmente frágeis.",
+      "classification_reasoning": "A equimose peri-punção descrita no prontuário é caracterizada como uma representação de doença CID-11, e o código EE40.32 se encaixa melhor com essa descrição, pois refere-se a púrpura ou equimose devida à fragilidade vascular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A equimose peri-punção descrita no prontuário não se encaixa com a definição do código EE40.32, que refere-se a púrpura ou equimose devida à fragilidade vascular. A equimose é uma lesão cutânea causada pela hemorragia subcutânea, e não está relacionada à fragilidade vascular. Portanto, o código atribuído não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

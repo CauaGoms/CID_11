@@ -1,0 +1,204 @@
+{
+  "prontuario_id": 146,
+  "text": "TX RENAL DC.\nSENSIBILIZADO.\nMIELODISPLASIA.\nPRED 5, SRL 1, TACROLIMO 4/4, OMEPRAZOL .\nS: PRURIDO EM PELE DE ABDOME.\nO: PA 120/80,  P 68,  PESO 38,35.\nCORADO E HIDRATADO,\nCPP LIVRES,\nPC RITMO REGULAR,\nABD RHA+, REGIÃO CRUENTA EM AREA DE GASTROSTOMIA,\nMMII SEM EDEMA.\n5 MESES POS TX COM CR 1,4 E NS FK 4 E SRL 4,0.\nMIELODISPLASIA: ANEMIA E PLAQUETOPENIA COM MELHORA , LEUCOPENIA 2500.\nITU POR ESBL.\n \n \n ",
+  "entities": {
+    "Achado": [
+      "DC",
+      "SENSIBILIZADO",
+      "MIELODISPLASIA",
+      "S",
+      "CORADO",
+      "HIDRATADO",
+      "TX RENAL",
+      "CPP LIVRES",
+      "PC RITMO REGULAR",
+      "COM MELHORA"
+    ],
+    "Doença ou Síndrome": [
+      "MIELODISPLASIA",
+      "ANEMIA",
+      "PLAQUETOPENIA",
+      "ITU"
+    ],
+    "Substância Química Orgânica": [
+      "PRED",
+      "SRL",
+      "TACROLIMO",
+      "OMEPRAZOL"
+    ],
+    "Abreviação": [
+      "PRED",
+      "SRL",
+      "S",
+      "O",
+      "PA",
+      "P",
+      "MMII",
+      "TX",
+      "ITU",
+      "ESBL",
+      "TX RENAL",
+      "CPP LIVRES",
+      "PC RITMO REGULAR",
+      "CR 1 , 4",
+      "NS FK 4",
+      "SRL 4 , 0"
+    ],
+    "Substância Farmacológica": [
+      "PRED",
+      "SRL",
+      "TACROLIMO",
+      "OMEPRAZOL"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "1",
+      "4/4",
+      "120/80",
+      "68",
+      "38 , 35"
+    ],
+    "Sinal ou Sintoma": [
+      "PRURIDO",
+      "EDEMA",
+      "REGIÃO CRUENTA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PESO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABD",
+      "MMII",
+      "PELE DE ABDOME"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Conceito Temporal": [
+      "POS"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX",
+      "TX RENAL"
+    ],
+    "Bactéria": [
+      "ESBL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 1 , 4",
+      "NS FK 4",
+      "SRL 4 , 0",
+      "LEUCOPENIA 2500"
+    ]
+  },
+  "labels": {
+    "3B64.0": {
+      "term_original": "plaquetopenia",
+      "capitulo": "03",
+      "confidence_embedding": 0.7467,
+      "descricao_cid": "Representação de doença CID-11: Trombocitopenia congênita. Definição: Doença causada por determinantes que surgem durante o período pré-natal e que levam a uma baixa contagem de plaquetas. Essa doença é caracterizada por níveis diminuídos de plaquetas no sangue. Pode apresentar-se com aumento na ocorrência de equimoses ou hemorragias. A confirmação é feita pela identificação de uma contagem plaquetária reduzida no sangue.",
+      "classification_reasoning": "A paciente tem plaquetopenia, o que é indicado pela presença de Plaquetopenia na história clínica. A Trombocitopenia congênita (Código CID-11: 3B64.0) é a opção mais precisa para essa condição.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A plaquetopenia é explicitamente mencionada no prontuário como uma manifestação da mielodisplasia. A Trombocitopenia congênita (Código CID-11: 3B64.0) é a opção mais precisa para essa condição, pois a plaquetopenia descrita não apresenta características de doença congênita. Portanto, o código atribuído é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MF96": {
+      "term_original": "s",
+      "capitulo": "21",
+      "confidence_embedding": 0.7775,
+      "descricao_cid": "Representação de doença CID-11: Proteinúria. Definição: O excesso de proteínas séricas na urina, como na doença renal, em que a albumina é a proteína principal, porém também pode ser devido a outras proteínas, como imunoglobulinas de cadeias leves na discrasia de células plasmáticas como o mieloma múltiplo.",
+      "classification_reasoning": "A opção mais precisa é a proteínaúria, pois o termo 's' no contexto clínico se refere ao sintoma de prurido em pele do abdome, que pode estar relacionado à doença renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 's' no contexto clínico se refere ao sintoma de prurido em pele do abdome, que não está diretamente relacionado à doença renal. A opção mais precisa é a proteínaúria, pois o excesso de proteínas séricas na urina é um achado laboratorial e não um sintoma clínico.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "4A85.01": {
+      "term_original": "sensibilizado",
+      "capitulo": "04",
+      "confidence_embedding": 0.723,
+      "descricao_cid": "Representação de doença CID-11: Hipersensibilidade renal induzida por droga. Definição: Hipersensibilidade renal induzida por droga constitui uma importante causa de insuficiência renal aguda e doença renal crônica na prática clínica atual. Diferentes classes de drogas, em virtude de mecanismos imunológicos, desencadeiam respostas inflamatórias renais específicas, que se manifestam por diferentes padrões clínicos, como a nefrite intersticial induzida por drogas. A hipersensibilidade renal induzida por drogas pode se manifestar isoladamente ou em combinação com outros transtornos de hipersensibilidades induzida por drogas em outro órgão ou sistema.",
+      "classification_reasoning": "A hipersensibilidade renal induzida por droga é a opção mais precisa para o termo 'sensibilizado' no contexto do prontuário, pois o paciente está recebendo imunossupressores e tem uma história de tx renal. Além disso, a presença de urticária em pele de abdome sugere uma reação alérgica ou hipersensível.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hipersensibilidade renal induzida por droga é a opção mais precisa para o termo 'sensibilizado' no contexto do prontuário, pois o paciente está recebendo imunossupressores e tem uma história de tx renal. Além disso, a presença de urticária em pele de abdome sugere uma reação alérgica ou hipersensível.",
+      "tipo_erro_auditoria": null
+    },
+    "EC90.10": {
+      "term_original": "prurido",
+      "capitulo": "14",
+      "confidence_embedding": 0.8404,
+      "descricao_cid": "Representação de doença CID-11: Prurido urêmico. Definição: Prurido em pacientes com insuficiência renal crônica. Embora comum na doença renal crônica não tratada, é particularmente prevalente em pacientes que submetidos a diálise peritoneal ou hemodiálise. O prurido não se deve a níveis elevados de ureia sérica. Os mecanismos precisos não são totalmente compreendidos.",
+      "classification_reasoning": "A presença de prurido em pele do abdome sugere que é um sintoma relacionado à insuficiência renal crônica, como mencionado no Código EC90.10: Prurido urêmico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'prurido' é um sintoma, enquanto o código CID-11 EC90.10 refere-se a uma condição clínica específica (Prurido urêmico). Embora haja uma relação entre a insuficiência renal crônica e o prurido, não há evidências no prontuário que sugiram especificamente um prurido urêmico. Portanto, é necessário remover o código CID-11 EC90.10 e substituí-lo por um código mais específico para sintomas cutâneos.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "1D62.0": {
+      "term_original": "itu",
+      "capitulo": "01",
+      "confidence_embedding": 0.722,
+      "descricao_cid": "Representação de doença CID-11: Febre hemorrágica com síndrome renal. Definição: Doença viral zoonótica aguda com início abrupto de febre, dor lombar, com graus variados de manifestações hemorrágicas e envolvimento renal causada por certos hantavírus.",
+      "classification_reasoning": "A escolha para o termo 'itu' é mais precisa como Febre hemorrágica com síndrome renal (1D62.0), pois a paciente tem uma história de ITU (Instituição de Tratamento Urológico) por ESBL, o que sugere um quadro de doença aguda com manifestações hemorrágicas e envolvimento renal, característico da Febre Hemorrágica com Síndrome Renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 1D62.0 não é adequada porque a paciente tem uma história de ITU (Instituição de Tratamento Urológico) por ESBL, o que sugere um quadro de doença aguda com manifestações hemorrágicas e envolvimento renal, característico da Febre Hemorrágica com Síndrome Renal. No entanto, a ITU não é uma doença em si mesma, mas sim um local onde a paciente foi tratada. Portanto, o código CID-11 1D62.0 não representa fielmente o termo 'itu'.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "3A71.2": {
+      "term_original": "anemia",
+      "capitulo": "03",
+      "confidence_embedding": 0.8204,
+      "descricao_cid": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "A anemia mencionada no prontuário está relacionada à doença renal crônica, uma das sintomatologias apresentadas é a anemia, que é característica de doenças renais crônicas.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A anemia mencionada no prontuário está relacionada à doença renal crônica, o que é consistente com a definição do código CID-11 3A71.2. A presença de anemia na doença renal crônica é uma característica clínica bem estabelecida e a codificação é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "GB80.0": {
+      "term_original": "tx renal",
+      "capitulo": "16",
+      "confidence_embedding": 0.7734,
+      "descricao_cid": "Representação de doença CID-11: Cisto renal simples. Definição: Doença renal causada pela obstrução dos túbulos, anemia ou descolamento dos divertículos. Esta doença é caracterizada pela formação de sacos anormais de paredes finas cheios de líquido radiolúcido hipoecogênico no rim. A confirmação é por imagem.",
+      "classification_reasoning": "A opção mais precisa para o termo 'tx renal' é a representação de doença CID-11: Cisto renal simples, pois o paciente está com sensibilização e hidratação adequada após uma transplante renal (TX) há 5 meses. Além disso, a descrição da doença menciona a presença de sacos anormais de paredes finas cheios de líquido radiolúcido hipoecogênico no rim, o que se alinha com a definição do cisto renal simples.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'tx renal' não é a representação de doença CID-11: Cisto renal simples, pois o paciente está com sensibilização e hidratação adequada após uma transplante renal (TX) há 5 meses. A definição do cisto renal simples não se alinha com a situação clínica do paciente, que apresenta sensibilização e hidratação após um transplante renal. A opção mais precisa seria uma representação de procedimento CID-11: Transplante renal, pois o termo 'tx renal' refere-se ao processo de transplante renal realizado no paciente.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "2A36": {
+      "term_original": "mielodisplasia",
+      "capitulo": "02",
+      "confidence_embedding": 0.7847,
+      "descricao_cid": "Representação de doença CID-11: Síndrome mielodisplásica com del(5q) isolada. Definição: Síndrome mielodisplásica caracterizada por anemia com ou sem outras citopenias e/ou trombocitose e na qual a única anormalidade citogenética é del(5q). Os mieloblastos são <5% na medula óssea e <1% no sangue.",
+      "classification_reasoning": "A escolha do código 2A36 é a mais precisa porque a descrição se refere a uma síndrome mielodisplásica com del(5q) isolada, o que coincide com as informações presentes no contexto clínico. Além disso, a paciente tem anemia e plaquetopenia, melhorando, e leucopenia 2500, o que também é consistente com a descrição do código.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código 2A36 é a mais precisa porque a descrição se refere a uma síndrome mielodisplásica com del(5q) isolada, o que coincide com as informações presentes no contexto clínico. A paciente tem anemia e plaquetopenia, melhorando, e leucopenia 2500, o que também é consistente com a descrição do código.",
+      "tipo_erro_auditoria": null
+    },
+    "NF0A.2": {
+      "term_original": "dc",
+      "capitulo": "22",
+      "confidence_embedding": 0.6937,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia traumática secundária ou recorrente, não classificada em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'dc' é a hemorragia traumática secundária ou recorrente, não classificada em outra parte (NF0A.2), pois a palavra 'dc' está relacionada ao tratamento da doença renal e a presença de sangramento (hemorragia) no abdome.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'dc' não está relacionada à hemorragia traumática secundária ou recorrente, mas sim ao tratamento da doença renal (TX RENAL DC). A opção NF0A.2 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EC90.1": {
+      "term_original": "região cruenta",
+      "capitulo": "14",
+      "confidence_embedding": 0.7358,
+      "descricao_cid": "Representação de doença CID-11: Prurido devido a transtorno sistêmico. Definição: Prurido devido a transtorno sistêmico subjacente, como insuficiência renal ou icterícia colestática.",
+      "classification_reasoning": "O prurido em pele do abdome é um sintoma comum em pacientes com insuficiência renal crônica, característica do quadro de doença renal DC descrito no prontuário.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'região cruenta' está descrito no prontuário e é diretamente relacionado ao quadro de doença renal DC. A codificação CID-11 EC90.1, que representa prurido devido a transtorno sistêmico, se encaixa perfeitamente com o termo descrito no prontuário. Portanto, a codificação é CLINICAMENTE COERENTE com o prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

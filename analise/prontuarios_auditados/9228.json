@@ -1,0 +1,220 @@
+{
+  "prontuario_id": 593,
+  "text": "Paciente com DM 2;  HAS;  artrite reumatóide em acompanhamento no ambulatório de reumatologia do XXXX. Vem à emergencia em 28/07 encaminhada do ambulatório da reumato por pré-síncope e dor em ardência em região esternal direita, sem irradiação, de curta duração, em repouso. Relata ter tido outro episódio de pré-síncope há aprox. 2 meses, porém é a primeira vez que teve dor torácica. ECG com hemibloqueio anterior esquerdo, pobre progressão da onda R em V1 e V2, porém sem alterações isquêmicas agudas. Não houve alteração de enzimas cardíacas. Realizou cintilo miocárdica para estratificação de risco, cujo resultado foi normal, sem isquemia. Recebe alta assintomática, com receita das medicações em uso e orientação de procurar seu médico (posto de saúde) para ajuste da dose de  hipoglicemiantes para melhor controle do DM. Retorno a emergência se necessário. PACIENTE COM FIBRILAÇÃO ATRIAL, DUPLA LESÃO AÓRTICA, I MITRAL LEVE, COM ÚLTIMA ECO TRANSESOFÁGICA, OPTADO POR ADIAR CIRURGIA  E SEGUIR TRATAMENTO MEDICAMENTOSO. PACIENTE EM USO ANTICOAGULANTES, COM HISTÓRIA DE DOENÇA DIVERTICULAR, INTERNA COM QUADRO DE MELENA E INSTABILIDADE HEMODINÂMICA, ENCAMINHADO DO XXXX, APÓS TRANSFUSÃO DE 2 CHADS E ESTABILIZAÇÃO. PACIENTE PERMANECEU ESTÁVEL , COM CONTROLE HT / HB. REALIZADA AVALIAÇÃO COM GASTRO, ENDOSCOPIA DIGESTIVA ALTA COM GASTRITE ENDOSCÓPICA ANTRAL. RECEBE ALTA SEM ANTICOAGULAÇÃO, EM USO DE OMEPRAZOL, COM SEGUIMENTO AMBULATORIAL E DISCUTIR REINTRODUÇÃO ATC  APÓS.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente",
+      "PACIENTE"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DM",
+      "DM 2",
+      "artrite reumatóide",
+      "FIBRILAÇÃO ATRIAL",
+      "DOENÇA DIVERTICULAR",
+      "GASTRITE ENDOSCÓPICA ANTRAL"
+    ],
+    "Abreviação": [
+      "HAS",
+      "ECG",
+      "DM",
+      "GASTRO",
+      "ATC",
+      "DM 2",
+      "ambulatório da reumato",
+      "cintilo miocárdica",
+      "CONTROLE HT / HB"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "acompanhamento",
+      "encaminhada",
+      "alta",
+      "receita",
+      "orientação",
+      "Retorno",
+      "INTERNA",
+      "ALTA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "emergencia",
+      "emergência",
+      "ambulatório de reumatologia",
+      "ambulatório da reumato",
+      "posto de saúde"
+    ],
+    "Sinal ou Sintoma": [
+      "pré-síncope",
+      "irradiação",
+      "dor em ardência",
+      "em repouso",
+      "dor torácica",
+      "DUPLA LESÃO AÓRTICA",
+      "INSTABILIDADE HEMODINÂMICA"
+    ],
+    "Negação": [
+      "sem",
+      "Não",
+      "SEM"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECG",
+      "cintilo miocárdica",
+      "ECO TRANSESOFÁGICA",
+      "ENDOSCOPIA DIGESTIVA ALTA"
+    ],
+    "Produto Intelectual": [
+      "receita"
+    ],
+    "Substância Farmacológica": [
+      "medicações",
+      "hipoglicemiantes",
+      "ANTICOAGULANTES",
+      "OMEPRAZOL",
+      "ATC"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "médico",
+      "GASTRO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CIRURGIA",
+      "TRANSFUSÃO",
+      "ESTABILIZAÇÃO",
+      "ANTICOAGULAÇÃO",
+      "estratificação de risco",
+      "TRATAMENTO MEDICAMENTOSO"
+    ],
+    "Função Patológica": [
+      "MELENA"
+    ],
+    "Achado": [
+      "ESTÁVEL"
+    ],
+    "Substância Química Orgânica": [
+      "OMEPRAZOL"
+    ],
+    "Localização ou Região Corporal": [
+      "região esternal direita"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "hemibloqueio anterior esquerdo",
+      "pobre progressão da onda R em V1 e V2",
+      "alterações isquêmicas agudas",
+      "resultado foi normal",
+      "GASTRITE ENDOSCÓPICA ANTRAL"
+    ]
+  },
+  "labels": {
+    "NE81.0Z": {
+      "term_original": "melena",
+      "capitulo": "22",
+      "confidence_embedding": 0.7402,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'melena' é NE81.0Z, que representa hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento. Isso se ajusta ao contexto clínico, pois o paciente tem uma história de doença diverticular com quadro de melena e instabilidade hemodinâmica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção NE81.0Z não representa fielmente o termo 'melena' no prontuário, pois melena é uma condição específica de hemorragia gástrica, enquanto o código CID-11 escolhido representa hemorragia ou hematoma em outro localização. A classificação não está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DA42.4": {
+      "term_original": "gastrite endoscópica antral",
+      "capitulo": "13",
+      "confidence_embedding": 0.8081,
+      "descricao_cid": "Representação de doença CID-11: Gastrite alérgica. Definição: Gastrite devida a transtornos alérgicos, significando principalmente à gastrite aguda secundária a alergia alimentar. Porém, isso inclui também gastrite alérgica devida a substâncias não alimentares e gastrite devida a hipersensibilidade não mediada por IgE. Isto inclui gastroduodenite e gastroenterite.",
+      "classification_reasoning": "A escolha foi baseada na descrição da gastrite endoscópica antral, que é uma forma de gastrite alérgica ou hiperseccional. Embora não esteja mencionado explicitamente, a existência de outro episódio de pré-síncope e dor torácica leva a suspeita de possuir um componente de alergia ou hipersensibilidade, o que justifica a escolha desse código.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 DA42.4, que representa gastrite alérgica, não é clínica e coerente com o prontuário. A descrição da gastrite endoscópica antral no prontuário não sugere a presença de alergia ou hipersensibilidade como causa da doença. Além disso, a existência de outros sintomas, como pré-síncope e dor torácica, não está relacionada à gastrite endoscópica antral. Portanto, o código CID-11 DA42.4 não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.20": {
+      "term_original": "dor em ardência",
+      "capitulo": "21",
+      "confidence_embedding": 0.8095,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-traumática. Definição: Dor pós-traumática crônica é a dor que se desenvolve ou aumenta de intensidade após uma lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após o traumatismo tecidual. A dor é ou localizada na área da lesão, ou referida no território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente por um problema doloroso preexistente.",
+      "classification_reasoning": "A dor em ardência é descrita como de curta duração e sem irradiação, o que sugere um processo crônico pós-traumático ou pós-operatório, ao invés de uma dor aguda ou neuropática. Portanto, a escolha mais precisa para este termo é MG30.20 - Dor crônica pós-traumática.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor em ardência descrita no prontuário é de curta duração e sem irradiação, o que não se ajusta à definição da CID-11 MG30.20 - Dor crônica pós-traumática. A dor é caracterizada por ser persistente por pelo menos 3 meses após o traumatismo tecidual. Nesse caso, a dor em ardência não apresenta características de dor crônica pós-traumática e, portanto, não é representada fielmente pela CID-11 MG30.20.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA10.7": {
+      "term_original": "has",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é a Representação de doença CID-11: Doença arterial periférica (ou seja, artérios obliterantes e estenosantes), que inclui a Doença de Buerger (também conhecida como Artrite dos Artérios). Embora não haja uma opção exata para 'HAS' em CID-11, a Doença arterial periférica é o termo mais próximo que descreve a síndrome vasculopática caracterizada pela obliteração e estenose de artérias, incluindo as de membros inferiores.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção do código CID-11 BA10.7, Doença arterial periférica, é justificada pela descrição da doença de artérios obliterantes e estenosantes na história do paciente com HAS (Disease of the Arteries). Embora não haja uma opção exata para 'HAS' em CID-11, a Doença arterial periférica é o termo mais próximo que descreve a síndrome vasculopática caracterizada pela obliteração e estenose de artérias. A lógica clínica para manter essa classificação é baseada na descrição da doença de artérios obliterantes e estenosantes no prontuário, que é compatível com a definição da Doença arterial periférica em CID-11.",
+      "tipo_erro_auditoria": null
+    },
+    "NC14.1": {
+      "term_original": "instabilidade hemodinâmica",
+      "capitulo": "22",
+      "confidence_embedding": 0.7285,
+      "descricao_cid": "Representação de doença CID-11: Lesão do nervo mediano ao nível do braço. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'instabilidade hemodinâmica' é a lesão do nervo mediano ao nível do braço (NC14.1), pois a instabilidade hemodinâmica refere-se à perda de estabilidade na pressão arterial, e essa condição pode ser associada à lesão nervosa do braço.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A instabilidade hemodinâmica descrita no prontuário refere-se à perda de estabilidade na pressão arterial, e não está relacionada à lesão do nervo mediano ao nível do braço (NC14.1). A opção mais precisa para o termo 'instabilidade hemodinâmica' é uma condição clínica que envolve a pressão arterial e não uma lesão nervosa.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA60.2": {
+      "term_original": "dupla lesão aórtica",
+      "capitulo": "11",
+      "confidence_embedding": 0.7753,
+      "descricao_cid": "Representação de doença CID-11: Aneurisma ventricular como complicação atual subsequente a infarto agudo do miocárdio. Definição: Área discinética distinta da parede ventricular esquerda com uma base larga após infarto agudo do miocárdio. A parede do aneurisma verdadeiro é mais fina do que o resto do ventrículo esquerdo; geralmente é composta de tecido fibroso e músculo necrótico, ocasionalmente misturado com miocárdio viável. Em contraste, os pseudoaneurismas são compostos por hematoma e pericárdio organizados e carecem de quaisquer elementos da parede miocárdica original.",
+      "classification_reasoning": "A dupla lesão aórtica mencionada no contexto clínico indica uma doença cardíaca estrutural, o que leva à escolha do código BA60.2 - Aneurisma ventricular como complicação atual subsequente a infarto agudo do miocárdio.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dupla lesão aórtica mencionada no prontuário refere-se a uma doença cardíaca estrutural, enquanto o código CID-11 BA60.2 se refere a um aneurisma ventricular como complicação subsequente a infarto agudo do miocárdio. Embora haja uma lesão aórtica mencionada no prontuário, não há evidência de que seja um aneurisma ventricular ou uma complicação subsequente a infarto agudo do miocárdio. Portanto, o código CID-11 BA60.2 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "FA09.3": {
+      "term_original": "artrite reumatóide",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A paciente tem artrite reumatóide em acompanhamento no ambulatório de reumatologia, o que é consistente com a descrição da doença na CID-11 (FA09.3). A escolha foi baseada na presença de sintomas de artrite reumatóide, como dor torácica e pré-síncope.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código FA09.3 é justificada pela presença de sintomas de artrite reumatóide, como dor torácica e pré-síncope, descritos no prontuário. A descrição da doença na CID-11 é consistente com a condição clínica da paciente.",
+      "tipo_erro_auditoria": null
+    },
+    "BC81.30": {
+      "term_original": "fibrilação atrial",
+      "capitulo": "11",
+      "confidence_embedding": 0.8602,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A descrição do termo extraído, 'fibrilação atrial', é consistente com a definição de Fibrilação Atrial Paroxística (FA recorrente que termina espontaneamente em 7 dias ou menos), o que justifica a escolha do código BC81.30.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo extraído, 'fibrilação atrial', é consistente com a definição de Fibrilação Atrial Paroxística (FA recorrente que termina espontaneamente em 7 dias ou menos), o que justifica a escolha do código BC81.30. O prontuário descreve a presença de fibrilação atrial, sem mencionar qualquer contradição óbvia ou falta de base no texto.",
+      "tipo_erro_auditoria": null
+    },
+    "MG31.2": {
+      "term_original": "dor torácica",
+      "capitulo": "21",
+      "confidence_embedding": 0.7896,
+      "descricao_cid": "Representação de doença CID-11: Dor pós-operatória aguda, não classificada em outra parte. Definição: Dor no local da intervenção ou causada por uma intervenção cirúrgica.",
+      "classification_reasoning": "A dor torácica é um sintoma agudo, sem especificações adicionais de localização da dor, portanto, MG31.2 (Dor pós-operatória aguda, não classificada em outra parte) é a opção mais precisa para o termo dentro do contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor torácica não é especificamente descrita como pós-operatória aguda, portanto, o código MG31.2 não representa fielmente o termo. Além disso, a descrição do código CID-11 não se relaciona à dor torácica do paciente.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MB23.H": {
+      "term_original": "pré-síncope",
+      "capitulo": "21",
+      "confidence_embedding": 0.8062,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A dor torácica descrita como 'pré-síncope e dor em ardência em região esternal direita, sem irradiação' é sintomática de Crise de pânico, caracterizado por um episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor torácica descrita como 'pré-síncope e dor em ardência em região esternal direita, sem irradiação' não é sintomática de Crise de pânico. A pré-síncope é um sintoma que pode estar relacionado a várias condições, incluindo doenças cardíacas, e não é suficiente para diagnosticar uma Crise de pânico. Além disso, a descrição do prontuário sugere que o paciente tem histórico de doença cardiovascular e está em uso de anticoagulantes, o que aumenta a probabilidade de que a dor torácica seja relacionada a uma condição cardíaca em vez de uma Crise de pânico.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "DD02.0": {
+      "term_original": "doença diverticular",
+      "capitulo": "13",
+      "confidence_embedding": 0.7982,
+      "descricao_cid": "Representação de doença CID-11: Doença diverticular de parte não especificada do intestino com hemorragia. Definição: ",
+      "classification_reasoning": "A escolha pela doença diverticular de parte não especificada do intestino com hemorragia (DD02.0) é a mais precisa porque o paciente apresenta sintomas relacionados à dor em ardência em região esternal direita, sem irradiação, sugerindo possivelmente uma hemorragia intra-abdominal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 DD02.0 'Doença diverticular de parte não especificada do intestino com hemorragia' não é clínicamente coerente com o prontuário, pois a doença diverticular não está relacionada à dor em ardência em região esternal direita, sem irradiação, descrita no prontuário. A descrição da dor torácica e pré-síncope sugere uma condição cardíaca ou vascular, e não uma doença do trato gastrointestinal.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

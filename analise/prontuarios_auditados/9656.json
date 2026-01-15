@@ -1,0 +1,171 @@
+{
+  "prontuario_id": 530,
+  "text": "TX RENAL DC 4 MESES.\nMTC 5, TACROLIMO 5 / 5, MS 2 / 2, BO, ANLO 5 X2, CVD 12,5 X2, AAS 100, CLOPIDOGREL.\nS: SEM QUEIXAS, OCASIONALMENTE DESCONFORTO NA FO.\nCURSOU COM FADIGA, MAS FEZ SUPERDOSAGEM DE CVD.\nO: PA 140/80,  P 60,  AFEBRIL,  PESO 79  ( GANHO PONDERAL).\nCORADO E HIDRATADO.\nCPP LIVRES.\nPC RITMO REGULAR.\nABD RHA+, FLACIDO, INDOLOR.\nMMII EDEMA.\nTX RENAL COM CR 0,88-0,9 E NS FK 9.\nHAS.\nEDEMA PERIFERICO PELA ANLO?\nLEUCOCITURIA ESTERIL.\nDISLIPIDEMIA DISCRETA.\n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "MTC",
+      "MS",
+      "BO",
+      "ANLO",
+      "CVD",
+      "AAS",
+      "S",
+      "FO",
+      "O",
+      "PA",
+      "P",
+      "ABD",
+      "RHA+",
+      "TX RENAL DC",
+      "CPP LIVRES",
+      "PC RITMO REGULAR",
+      "TX RENAL",
+      "CR 0 , 88-0 , 9",
+      "NS FK 9"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "TACROLIMO",
+      "MS",
+      "BO",
+      "ANLO",
+      "CVD",
+      "AAS",
+      "CLOPIDOGREL"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "TACROLIMO",
+      "MS",
+      "ANLO",
+      "CVD",
+      "AAS",
+      "CLOPIDOGREL"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "100",
+      "140/80",
+      "60",
+      "79",
+      "12 , 5"
+    ],
+    "Achado": [
+      "S",
+      "SUPERDOSAGEM",
+      "CORADO",
+      "HIDRATADO",
+      "RHA+",
+      "FLACIDO",
+      "INDOLOR",
+      "TX RENAL DC",
+      "CPP LIVRES",
+      "PC RITMO REGULAR",
+      "LEUCOCITURIA ESTERIL"
+    ],
+    "Negação": [
+      "SEM",
+      "AFEBRIL",
+      "INDOLOR"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "DESCONFORTO",
+      "FADIGA",
+      "AFEBRIL",
+      "INDOLOR",
+      "GANHO PONDERAL"
+    ],
+    "Conceito Temporal": [
+      "OCASIONALMENTE"
+    ],
+    "Lesão ou Envenenamento": [
+      "FO"
+    ],
+    "Localização ou Região Corporal": [
+      "FO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PESO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABD"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL DC",
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 88-0 , 9",
+      "NS FK 9",
+      "LEUCOCITURIA ESTERIL"
+    ]
+  },
+  "labels": {
+    "XS1T": {
+      "term_original": "fo",
+      "capitulo": "X",
+      "confidence_embedding": 0.7811,
+      "descricao_cid": "Representação de doença CID-11: Grau 0 Categoria 0: Assintomático – sem doença oclusiva hemodinamicamente significativa. Definição: ",
+      "classification_reasoning": "O termo 'fo' é provavelmente referente a 'fóreo', que se relaciona ao sintoma de desconforto ou dor na fossa. Dado que o paciente não apresenta outras queixas e o exame físico é normal, exceptuando um leve desconforto ocasional, a escolha mais precisa é a representação da doença CID-11 para Grau 0 Categoria 0: Assintomático – sem doença oclusiva hemodinamicamente significativa (XS1T).",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'fo' é provavelmente referente a 'fóreo', que se relaciona ao sintoma de desconforto ou dor na fossa. Dado que o paciente não apresenta outras queixas e o exame físico é normal, exceptuando um leve desconforto ocasional, a escolha mais precisa é a representação da doença CID-11 para Grau 0 Categoria 0: Assintomático – sem doença oclusiva hemodinamicamente significativa (XS1T). A codificação é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "EB13.0": {
+      "term_original": "flacido",
+      "capitulo": "14",
+      "confidence_embedding": 0.7507,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de Stevens-Johnson. Definição: A síndrome de Stevens-Johnson é um transtorno de hipersensibilidade mediado por imunocomplexos envolvendo mucosas (conjuntiva, mucosa oral e mucosa genital) com, por definição, envolvimento da pele limitado a não mais que 9% da área de superfície corporal. Está relacionado à necrólise epidérmica tóxica e compartilha muitos dos mesmos gatilhos, notavelmente drogas, mas a inflamação é centrada em e próxima a superfícies mucosas. Embora a mortalidade seja baixa, a morbidade aguda é alta e o envolvimento conjuntival tem o potencial de causar cegueira.",
+      "classification_reasoning": "A descrição do termo 'flacido' se encaixa melhor com a definição de Síndrome de Stevens-Johnson (EB13.0), uma doença caracterizada por inchaço e dor na pele e mucosas, o que é consistente com a desconfiança na FO mencionada no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'flacido' não se encaixa com a definição de Síndrome de Stevens-Johnson (EB13.0). A síndrome é caracterizada por inchaço e dor na pele e mucosas, enquanto o termo 'flacido' descreve uma condição anatômica da pele que não está relacionada à síndrome. Além disso, a descrição do prontuário não menciona qualquer envolvimento de mucosas ou pele, o que também não é consistente com a definição da síndrome.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GB40": {
+      "term_original": "tx renal dc",
+      "capitulo": "16",
+      "confidence_embedding": 0.7988,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A presença de TX RENAL DC e CR 0,88-0,9 sugerem a possibilidade de uma doença glomerular, como síndrome nefrítica. Além disso, a presença de edema periférico pela ANLO também aponta para essa direção.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de TX RENAL DC e CR 0,88-0,9 sugerem a possibilidade de uma doença glomerular, como síndrome nefrítica. Além disso, a presença de edema periférico pela ANLO também aponta para essa direção. A codificação CID-11 GB40 é justificada e clínica mente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MF95": {
+      "term_original": "superdosagem",
+      "capitulo": "21",
+      "confidence_embedding": 0.7497,
+      "descricao_cid": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular.",
+      "classification_reasoning": "A superdosagem de CVD foi mencionada no prontuário, o que sugere uma possível lesão muscular e subsequente liberação de mioglobina na urina. Como a leucocitúria estéril também é relatada, é provável que haja uma lesão muscular ou renal aguda, o que justifica a escolha do código MF95 para Mioglobinúria.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A superdosagem de CVD foi mencionada no prontuário, o que sugere uma possível lesão muscular e subsequente liberação de mioglobina na urina. A leucocitúria estéril também é relatada, o que reforça a hipótese de lesão muscular ou renal aguda. Como a descrição do código CID-11 MF95 se refere à Mioglobinúria e sua relação com lesões musculares e renais, considero que a codificação é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MG29.Z": {
+      "term_original": "desconforto",
+      "capitulo": "21",
+      "confidence_embedding": 0.7483,
+      "descricao_cid": "Representação de doença CID-11: Edema, não especificado. Definição: ",
+      "classification_reasoning": "A escolha do código MG29.Z foi feita porque o paciente apresenta um edema não especificado, descrito como periférico pela análogo. Embora haja outras possibilidades de edema relacionadas à doença renal (como o MG29), a falta de especificação sobre o local e natureza do edema leva à escolha desse código mais amplo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'desconforto' não é suficientemente específico para justificar a escolha do código MG29.Z, que representa um edema não especificado. Embora o prontuário mencione edema periférico pela análogo, o desconforto pode ser causado por vários fatores e não necessariamente está relacionado ao edema. A escolha desse código é muito genérica e não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MF56": {
+      "term_original": "fadiga",
+      "capitulo": "21",
+      "confidence_embedding": 0.7799,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A descrição do termo 'fadiga' se refere a dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter. Portanto, o código mais preciso é MF56, que representa Cólica Renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'fadiga' não se refere a Cólica Renal, como descrito no código CID-11 MF56. A fadiga é um sintoma comum e pode ser causado por várias razões, incluindo doenças renais, mas não é uma condição clínica específica que justifique o uso do código MF56. Portanto, a codificação não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    }
+  }
+}

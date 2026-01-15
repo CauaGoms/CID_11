@@ -1,0 +1,53 @@
+{
+  "prontuario_id": 482,
+  "text": "Paciente submetido a angioplastia coronariana com implante de stent em segmento proximal de artéria coronária direita com sucesso angiográfico. Tentativa de angioplastia de oclusão em segmento distal do mesmo vaso, sem sucesso (guia não ultrapassou a lesão). Procedimento transcorreu sem intercorrências.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Negação": [
+      "sem",
+      "não"
+    ],
+    "Achado": [
+      "sucesso"
+    ],
+    "Dispositivo Médico": [
+      "guia"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Procedimento",
+      "angioplastia coronariana",
+      "implante de stent",
+      "angioplastia de oclusão"
+    ],
+    "Sinal ou Sintoma": [
+      "intercorrências"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "segmento proximal de artéria coronária direita"
+    ]
+  },
+  "labels": {
+    "BA83": {
+      "term_original": "sucesso",
+      "capitulo": "11",
+      "confidence_embedding": 0.7415,
+      "descricao_cid": "Representação de doença CID-11: Fístula da artéria coronária, adquirida. Definição: Comunicação anormal entre uma artéria coronária e câmara cardíaca ou vasos principais, adquirida após cirurgia coronária ou cardíaca, angioplastia coronária, ruptura ou aneurisma da artéria coronária ou lesão do coração.",
+      "classification_reasoning": "A palavra 'sucesso' refere-se ao procedimento de angioplastia coronariana, que foi bem-sucedido no segmento proximal da artéria coronária direita. No entanto, a tentativa de angioplastia do segmento distal não foi bem-sucedida. O código BA83 se refere à fisura da artéria coronária adquirida, o que é relacionado ao procedimento de angioplastia realizado com sucesso no segmento proximal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 BA83 se refere a fisura da artéria coronária adquirida, o que não está relacionado ao termo 'sucesso' do prontuário. O procedimento de angioplastia coronariana foi bem-sucedido no segmento proximal, mas isso não justifica a atribuição desse código. A fisura da artéria coronária é um tipo de lesão vascular que não está relacionada ao sucesso ou fracasso do procedimento.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NE82.1Z": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.7275,
+      "descricao_cid": "Representação de doença CID-11: Disfunção do marcapasso ou cardioversor desfibrilador implantável, não especificada. Definição: ",
+      "classification_reasoning": "A presença do termo 'intercorrências' no prontuário sugere a ocorrência de um evento imprevisto durante o procedimento, que não foi especificamente mencionado. O código NE82.1Z, que se refere à disfunção do marcapasso ou cardioversor desfibrilador implantável, é a escolha mais precisa para representar essa situação.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'intercorrências' no prontuário refere-se a eventos imprevistos durante o procedimento, não à disfunção do marcapasso ou cardioversor desfibrilador implantável. A escolha do código NE82.1Z é uma sobreclassificação e não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

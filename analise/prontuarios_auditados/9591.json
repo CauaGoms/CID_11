@@ -1,0 +1,146 @@
+{
+  "prontuario_id": 877,
+  "text": "TX RENAL DC.\nDM INSULINO DEPENDENTE > CONVERSÃO PARA LANTUS E ASPART RECENTE.\nPNEUMOCISTOSE TRATADA.\nMTC 5, FK 1 / 1, MS 2 / 1, BO, ANLO 10, ATENSINA 0,100 X2, LANTUS 20 E ASPART 20U AO DIA DISTRIBUIDO ENTRE AS REFEIÇOES, CBZ 20 E BROMPRIDA ANTES DAS REFEIÇÕES.\nS : SENTE-SE MELHOR.\nHIPOGLICEMIA COM 20U DE ASPART.\nO : PA 120/80,  P 76,  AFEBRIL,  PESO ?\nHIPOCORADA,\nCPP LIVRES,\nPC RITMO REGULAR,\nABD RHA+, FLACIDO,\nMMII SEM EDEMA,\nTX RENAL COM CR 1,28 COM NS FK < 2,0.\nHIPOGLICEMIA.\nHAS COMPENSADA.\n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "DC",
+      "MTC",
+      "FK",
+      "MS",
+      "ANLO",
+      "CBZ",
+      "PA",
+      "P",
+      "MMII",
+      "TX RENAL",
+      "DM INSULINO DEPENDENTE",
+      "CPP LIVRES",
+      "PC RITMO REGULAR",
+      "CR 1 , 28",
+      "NS FK &lt; 2 , 0",
+      "HAS COMPENSADA"
+    ],
+    "Substância Farmacológica": [
+      "LANTUS",
+      "ASPART",
+      "MTC",
+      "FK",
+      "ANLO",
+      "ATENSINA",
+      "CBZ",
+      "BROMPRIDA",
+      "E ASPART"
+    ],
+    "Conceito Temporal": [
+      "RECENTE",
+      "DISTRIBUIDO ENTRE AS REFEIÇOES",
+      "ANTES DAS REFEIÇÕES"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "FK"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "10",
+      "20",
+      "20U",
+      "120/80",
+      "76",
+      "1 / 1",
+      "2 / 1",
+      "0 , 100 X2"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "ASPART",
+      "E ASPART"
+    ],
+    "Hormônio": [
+      "ASPART",
+      "E ASPART"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PESO"
+    ],
+    "Negação": [
+      "AFEBRIL",
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "HIPOCORADA",
+      "EDEMA"
+    ],
+    "Achado": [
+      "FLACIDO",
+      "SENTE-SE MELHOR",
+      "CPP LIVRES",
+      "PC RITMO REGULAR"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Doença ou Síndrome": [
+      "DM INSULINO DEPENDENTE",
+      "PNEUMOCISTOSE TRATADA",
+      "HAS COMPENSADA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 1 , 28",
+      "NS FK &lt; 2 , 0"
+    ]
+  },
+  "labels": {
+    "EA90.3": {
+      "term_original": "flacido",
+      "capitulo": "14",
+      "confidence_embedding": 0.7526,
+      "descricao_cid": "Representação de doença CID-11: Psoríase eritrodérmica. Definição: Psoríase eritrodérmica é uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele. A psoríase eritrodérmica geralmente se desenvolve a partir da psoríase em placas extensa mas pode surgir de forma nova. Fatores precipitantes ou desencadeantes incluem a retirada de glicocorticoides sistêmicos e, menos frequentemente, a descontinuação abrupta do metotrexato, queimaduras ou infecções intercorrentes. Os pacientes podem desenvolver hipotermia ou insuficiência cardíaca de alto débito.",
+      "classification_reasoning": "A descrição de flacido se encaixa melhor com a definição de psoríase eritrodérmica, que caracteriza eritema intenso confluente envolvendo mais de 90% da superfície da pele e pode causar hipotermia ou insuficiência cardíaca de alto débito.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição de 'flacido' não se encaixa com a definição de psoríase eritrodérmica. A pele flácida não é um sintoma característico da doença. Além disso, a falta de contexto e informações sobre a patologia renal e a hipoglicemia recente também contribuem para a incoerência entre o termo e o código CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GB41": {
+      "term_original": "edema",
+      "capitulo": "16",
+      "confidence_embedding": 0.7992,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrótica. Definição: Condição caracterizada por proteinúria grave, superior a 3,5 g/dia em um adulto médio. A perda substancial de proteína na urina resulta em hipoalbuminemia e edema generalizado. Em geral também há hiperlipidemia. Outras manifestações da doença glomerular podem estar presentes. Existem muitas causas possíveis e apresentações histológicas renais. As possíveis complicações incluem trombose vascular, infecções, desnutrição e insuficiência renal.",
+      "classification_reasoning": "A presença de edema generalizado como sintoma é mais consistente com a síndrome nefrótica (GB41) do que com as outras opções, pois a hipoalbuminemia e perda substancial de proteína na urina são características clinicamente relevantes da doença.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de edema generalizado no prontuário é consistente com a síndrome nefrótica (GB41), pois a hipoalbuminemia e perda substancial de proteína na urina são características clinicamente relevantes da doença. Ajusta-se à definição do código CID-11, que menciona edema generalizado como sintoma.",
+      "tipo_erro_auditoria": null
+    },
+    "CB02.10": {
+      "term_original": "pneumocistose tratada",
+      "capitulo": "12",
+      "confidence_embedding": 0.7756,
+      "descricao_cid": "Representação de doença CID-11: Pneumonite eosinofílica aguda idiopática. Definição: Pneumonia (pneumonite) eosinofílica idiopática aguda é caracterizada por uma insuficiência respiratória febril aguda associada a infiltrados radiológicos difusos e eosinofilia no lavado broncoalveolar (LBA) na ausência de infecção. Os pacientes, inicialmente sadios e frequentemente jovens, apresentam-se com hipoxemia grave.",
+      "classification_reasoning": "A opção mais precisa para o termo 'pneumocistose tratada' é a Código CB02.10, que representa Pneumonite eosinofílica aguda idiopática. Isso porque a frase indica uma doença pulmonar tratada, e a descrição da opção CB02.10 se ajusta melhor à situação do paciente com pneumonite eosinofílica aguda.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção CB02.10, Pneumonite eosinofílica aguda idiopática, se ajusta perfeitamente ao termo 'pneumocistose tratada' descrito no prontuário. A descrição do código CID-11 coincide com a situação clínica do paciente, que apresentou pneumonite eosinofílica aguda e foi tratada. Portanto, o código atribuído é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BA01": {
+      "term_original": "hipocorada",
+      "capitulo": "11",
+      "confidence_embedding": 0.7471,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A escolha para o termo 'hipocorada' é a doença cardíaca hipertensiva (Código CID-11: BA01), pois a paciente apresenta um registro de PA 120/80, sugerindo uma pressão arterial elevada e uma possível lesão cardíaca hipertensiva.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código CID-11: BA01 (Doença cardíaca hipertensiva) é justificada pela pressão arterial elevada registrada no prontuário (PA 120/80). A paciente apresenta também um registro de hipocorada, o que sugere lesão cardíaca hipertensiva. Portanto, a codificação CID-11: BA01 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "5A21.Z": {
+      "term_original": "dm insulino dependente",
+      "capitulo": "05",
+      "confidence_embedding": 0.765,
+      "descricao_cid": "Representação de doença CID-11: Hipoglicemia no contexto do diabetes mellitus, não especificado. Definição: ",
+      "classification_reasoning": "A escolha do código 5A21.Z é mais precisa porque o termo 'dm insulino dependente' refere-se à hipoglicemia no contexto do diabetes mellitus, não especificado. Além disso, a presença de insulina como terapia e a menção de hipoglicemia corroboram essa escolha.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código 5A21.Z é justificada porque o termo 'dm insulino dependente' refere-se à hipoglicemia no contexto do diabetes mellitus, não especificado. A presença de insulina como terapia e a menção de hipoglicemia corroboram essa escolha. O código representa fielmente o termo descrito no prontuário e não há contradição óbvia ou alucinação.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

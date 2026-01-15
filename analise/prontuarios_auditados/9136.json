@@ -1,0 +1,51 @@
+{
+  "prontuario_id": 615,
+  "text": "com deformidade em 5 dedo mao esquerda, pct refere que não incomoda.\ncom sinais de retardo de consolidação.\nretorno em 4 semanas para rx controle.        ",
+  "entities": {
+    "Abreviação": [
+      "pct",
+      "rx controle"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "pct"
+    ],
+    "Negação": [
+      "não"
+    ],
+    "Sinal ou Sintoma": [
+      "incomoda",
+      "sinais de retardo de consolidação"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "5 dedo mao esquerda"
+    ],
+    "Conceito Temporal": [
+      "4 semanas"
+    ],
+    "Procedimento Diagnóstico": [
+      "rx controle"
+    ]
+  },
+  "labels": {
+    "MB23.H": {
+      "term_original": "incomoda",
+      "capitulo": "21",
+      "confidence_embedding": 0.7338,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A opção MB23.H (Crise de pânico) é a mais precisa para o termo 'incomoda' no contexto clínico, pois refere-se a uma condição que pode ser acompanhada por sintomas como sensação de falta de ar, o que se relaciona com a descrição da paciente sobre não incomodar e apresentar sinais de retardo de consolidação.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário refere-se a uma deformidade em 5 dedos da mão esquerda e sinais de retardo de consolidação, enquanto o termo 'incomoda' não está relacionado diretamente à Crise de Pânico descrita no CID-11. A opção MB23.H (Crise de Pânico) é uma classificação errônea, pois não há evidência clínica que sugira a presença de sintomas característicos de pânico.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "8e+61": {
+      "term_original": "sinais de retardo de consolidação",
+      "capitulo": "08",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'sinais de retardo de consolidação' é a lesão cerebral induzida por radiação (Código: 8E61.0), pois essa condição apresenta característica de lesão cerebral com possibilidade de retardo na recuperação, o que se ajusta ao contexto clínico descrito.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'sinais de retardo de consolidação' não é uma lesão cerebral induzida por radiação (Código: 8E61.0), pois essa condição apresenta característica de lesão cerebral com possibilidade de retardo na recuperação, que não se ajusta ao contexto clínico descrito no prontuário. O termo 'sinais de retardo de consolidação' sugere uma condição mais geral e não específica de lesão cerebral.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

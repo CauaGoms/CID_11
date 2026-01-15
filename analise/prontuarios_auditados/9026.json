@@ -1,0 +1,64 @@
+{
+  "prontuario_id": 547,
+  "text": "3 sem pós retirada de FE frat de perna direita.\nsem queixas, em uso de ptb.\nneurovasc ok, gesso ok.\nRX # melhora qualidade do calo osseo.\nCD # manter gesso mais 3 sem, retorno p/ rx sem gesso. ndn ndn.",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "queixas"
+    ],
+    "Abreviação": [
+      "ptb",
+      "RX",
+      "CD",
+      "rx",
+      "retirada de FE",
+      "neurovasc ok"
+    ],
+    "Procedimento Diagnóstico": [
+      "RX",
+      "rx"
+    ],
+    "Material Biomédico ou Odontológico": [
+      "gesso"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "retorno"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "gesso",
+      "retirada de FE"
+    ],
+    "Achado": [
+      "neurovasc ok",
+      "gesso ok",
+      "melhora qualidade do calo osseo"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "melhora qualidade do calo osseo"
+    ]
+  },
+  "labels": {
+    "FB81": {
+      "term_original": "gesso ok",
+      "capitulo": "15",
+      "confidence_embedding": 0.691,
+      "descricao_cid": "Representação de doença CID-11: Osteonecrose. Definição: Osteonecrose é o termo médico usado para a morte do tecido ósseo que ocorre quando o suprimento sanguíneo para o osso é interrompido por algum motivo. Os médicos algumas vezes se referem a esta condição como necrose avascular, necrose asséptica ou necrose isquêmica do osso.",
+      "classification_reasoning": "A opção mais precisa para o termo 'gesso ok' é a osteonecrose (Código: FB81), pois a descrição da doença refere-se à representação de doença CID-11 e não há nenhuma outra opção que esteja relacionada ao uso de gesso como terapia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'gesso ok' não é a osteonecrose (Código: FB81), pois gesso é uma terapia e não uma doença. A descrição da doença refere-se à representação de doença CID-11 e não há nenhuma outra opção que esteja relacionada ao uso de gesso como terapia.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA83": {
+      "term_original": "neurovasc ok",
+      "capitulo": "11",
+      "confidence_embedding": 0.7068,
+      "descricao_cid": "Representação de doença CID-11: Fístula da artéria coronária, adquirida. Definição: Comunicação anormal entre uma artéria coronária e câmara cardíaca ou vasos principais, adquirida após cirurgia coronária ou cardíaca, angioplastia coronária, ruptura ou aneurisma da artéria coronária ou lesão do coração.",
+      "classification_reasoning": "Como o termo 'neurovasc' está relacionado à condição cardiovascular, a escolha mais precisa é BA83, que refere-se à comunicação anormal entre uma artéria coronária e câmara cardíaca ou vasos principais.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'neurovasc' não se refere a uma comunicação anormal entre uma artéria coronária e câmara cardíaca ou vasos principais, como descrito no código CID-11 BA83. A condição clínica descrita no prontuário é relacionada à perna direita (fístula de FE) e não apresenta qualquer relação com a doença cardiovascular descrita pelo código BA83.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

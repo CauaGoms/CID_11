@@ -1,0 +1,71 @@
+{
+  "prontuario_id": 64,
+  "text": "17:53 CLIENTE FOI ENCAMINHADO A CAMERA HIPERBARICA NO PERIODO DA MANHA, REALIZADO TROCA DE CTVO PELO Doutor Vital Brazil NO QUARTO E ORIENTADO A ENTRAR EM JEJUM APARTIR DAS 24:00 PARA PROCEDIMENTO CIRURGICO AMANHA 16/111. Enfermeira Florence Nightingale.  EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "CLIENTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ENCAMINHADO",
+      "REALIZADO",
+      "EXAME GERAL"
+    ],
+    "Conceito Temporal": [
+      "PERIODO",
+      "MANHA"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Doutor",
+      "Enfermeira"
+    ],
+    "Achado": [
+      "ORIENTADO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "JEJUM",
+      "CAMERA HIPERBARICA",
+      "TROCA DE CTVO",
+      "PROCEDIMENTO CIRURGICO"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS"
+    ],
+    "Dispositivo Médico": [
+      "CAMERA HIPERBARICA"
+    ],
+    "Abreviação": [
+      "TROCA DE CTVO"
+    ],
+    "Procedimento Diagnóstico": [
+      "INVESTIGACAO DE PESSOAS"
+    ],
+    "Doença ou Síndrome": [
+      "DIAGNOSTICO RELATADO"
+    ]
+  },
+  "labels": {
+    "ME86": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7567,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa de uma parte do corpo. Definição: ",
+      "classification_reasoning": "A opção ME86 se refere a sintoma ou queixa de uma parte do corpo, o que é diretamente relacionado ao termo 'queixas' encontrado no contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'queixas' encontrado no prontuário está diretamente relacionado ao sintoma ou queixa de uma parte do corpo, o que é representado pelo código CID-11 ME86. Ajustamento clínico: a opção ME86 se refere a sintoma ou queixa de uma parte do corpo, o que é diretamente relacionado ao termo 'queixas' encontrado no contexto clínico.",
+      "tipo_erro_auditoria": null
+    },
+    "QA44.3Z": {
+      "term_original": "orientado",
+      "capitulo": "24",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A palavra 'orientado' refere-se à orientação dada ao paciente sobre o procedimento cirúrgico e jejum pré-operatório, não relacionando-se a nascimento múltiplo ou outro conceito de doença.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'orientado' não representa uma condição clínica diretamente relacionada ao procedimento cirúrgico. A orientação dada ao paciente é um ato de comunicação, não uma entidade clínica. Portanto, o código CID-11 QA44.3Z não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

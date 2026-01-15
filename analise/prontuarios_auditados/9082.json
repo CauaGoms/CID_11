@@ -1,0 +1,176 @@
+{
+  "prontuario_id": 732,
+  "text": "Às 22:00H: CLIENTE PROVENIENTE DO PS. CONSCIENTE, VERBALIZANDO, EUPNEICA EM AR AMBIENTE, REFERE DOR EM HEMITÓRAX ESQ, COM AUMENTO DE INTENSIDADE AO INSPIRAR. # DERRAME PLEURAL ESQ. # ACOMPANHADO PELA PNEUMOLOGIA. Às 15:40h: Paciente consciente, comunicativo, em repouso no leito, AVP em MSE, com curativo oclusivo em face, apresentando secreção sanguinolenta. Sem queixas algicas. Paciente ancioso por alta. Às 16:30hs: Encaminhado para arteriografia na companhia da enfermeira e auxiliar, monitorizado e em Vm, VCV com VC: 450 ml, PEEP: 5, FiO2: 40%, sat: 98%, AVCSD com propofol a 10 ml/h e dopamina a 10 ml/h, entrego nas mãos da Enf a liberação assinada pela familia e pedido liberado da arterio. Às 12:24 hs: Abertura ocular espontânea, traqueostomizado, ar ambiente, em jejum para cirurgia, gastrostomia permeável, úlcera de pressão região sacra, bom aspecto, sem intercorrência durante o periodo, mantem precaução de contato.    ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "CLIENTE",
+      "Paciente"
+    ],
+    "Organização Relacionada à Saúde": [
+      "PS",
+      "PNEUMOLOGIA"
+    ],
+    "Abreviação": [
+      "PS",
+      "AVP",
+      "MSE",
+      "Vm",
+      "VCV",
+      "VC",
+      "PEEP",
+      "FiO2",
+      "sat",
+      "AVCSD",
+      "Enf",
+      "arterio",
+      "HEMITÓRAX ESQ",
+      "DERRAME PLEURAL ESQ"
+    ],
+    "Achado": [
+      "CONSCIENTE",
+      "VERBALIZANDO",
+      "consciente",
+      "comunicativo",
+      "traqueostomizado",
+      "jejum",
+      "EUPNEICA EM AR AMBIENTE",
+      "repouso no leito",
+      "Abertura ocular espontânea",
+      "gastrostomia permeável",
+      "bom aspecto"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR",
+      "ancioso",
+      "AUMENTO DE INTENSIDADE AO INSPIRAR",
+      "queixas algicas"
+    ],
+    "Dispositivo Médico": [
+      "AVP",
+      "curativo oclusivo"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "AVP",
+      "Vm",
+      "VCV",
+      "PEEP",
+      "FiO2",
+      "AVCSD",
+      "traqueostomizado",
+      "jejum",
+      "cirurgia",
+      "repouso no leito",
+      "curativo oclusivo",
+      "precaução de contato"
+    ],
+    "Localização ou Região Corporal": [
+      "MSE",
+      "face",
+      "HEMITÓRAX ESQ",
+      "região sacra"
+    ],
+    "Negação": [
+      "Sem"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "alta"
+    ],
+    "Procedimento Diagnóstico": [
+      "arteriografia",
+      "monitorizado",
+      "arterio"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "enfermeira",
+      "auxiliar",
+      "Enf"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "40%",
+      "98%",
+      "450 ml",
+      "10 ml/h"
+    ],
+    "Substância Farmacológica": [
+      "propofol",
+      "dopamina"
+    ],
+    "Substância Química Orgânica": [
+      "propofol",
+      "dopamina"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "mãos"
+    ],
+    "Grupo Familiar": [
+      "familia"
+    ],
+    "Doença ou Síndrome": [
+      "DERRAME PLEURAL ESQ",
+      "úlcera de pressão"
+    ]
+  },
+  "labels": {
+    "CB21.1": {
+      "term_original": "dor",
+      "capitulo": "12",
+      "confidence_embedding": 0.8268,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A dor em hemothorax esq e aumento de intensidade ao inspirar sugerem um pneumotórax espontâneo, que é confirmado pela presença de derrame pleural esq.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor em hemothorax esq e aumento de intensidade ao inspirar sugerem um processo patológico, não apenas um pneumotórax espontâneo. O código CID-11 atribuído (CB21.1) é demasiado específico e não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A03.24": {
+      "term_original": "abertura ocular espontânea",
+      "capitulo": "09",
+      "confidence_embedding": 0.7866,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da frouxidão palpebral. Definição: Transtorno adquirido de origem desconhecida, que se manifesta por pálpebras superiores frouxas facilmente evertidas e conjuntivite papilar da conjuntiva palpebral superior. Está associado primariamente a homens obesos e apneia obstrutiva do sono. O tarso da pálpebra superior se torna mais macio e frouxo provavelmente devido a forças mecânicas e mudanças enzimáticas. A pálpebra superior everte durante o sono, resultando em irritação, conjuntivite papilar e queratinização conjuntival. O tratamento efetivo consiste em prevenir que a pálpebra superior everta enquanto o paciente dorme.",
+      "classification_reasoning": "A abertura ocular espontânea é um indicador de falta de dor ou desconforto na área ocular, o que sugere a possibilidade de síndrome da frouxidão palpebral.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A abertura ocular espontânea não está relacionada à síndrome da frouxidão palpebral. A descrição do código CID-11 refere-se a uma condição adquirida de origem desconhecida, associada a homens obesos e apneia obstrutiva do sono, enquanto o termo extraído se refere à abertura ocular espontânea em um paciente com derrame pleural esquerdo. A falta de dor ou desconforto na área ocular não é suficiente para justificar a classificação como síndrome da frouxidão palpebral.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6E61.0": {
+      "term_original": "ancioso",
+      "capitulo": "06",
+      "confidence_embedding": 0.7605,
+      "descricao_cid": "Representação de doença CID-11: Síndrome psicótica secundária com alucinações. Definição: Síndrome caracterizada pela presença de alucinações proeminentes, consideradas consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental, com base em evidências de anamnese, exame físico ou achados laboratoriais. Delírios não são um aspecto proeminente da apresentação clínica. Os sintomas não são explicados por delirium ou por outro transtorno mental e comportamental, e não são uma resposta psicologicamente mediada a uma condição médica grave (p. ex., uma reação aguda ao estresse em resposta ao diagnóstico de uma condição de ameaça à vida). Essa categoria deve ser utilizada em conjunto com o diagnóstico do transtorno ou doença subjacente presumido, quando os sintomas psicóticos são suficientemente graves para exigir atenção clínica específica.",
+      "classification_reasoning": "A escolha foi baseada na descrição do termo 'ancioso' e sua relação com a síndrome psicótica secundária, caracterizada pela presença de alucinações ou delírios proeminentes, considerados consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental. O paciente está apresentando sintomas ansiosos e parece estar preocupado com a alta hospitalar, o que é consistente com a definição da síndrome psicótica secundária.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 '6E61.0' foi baseada na descrição do termo 'ancioso', que não está relacionado à síndrome psicótica secundária caracterizada pela presença de alucinações ou delírios proeminentes. O paciente está apresentando sintomas ansiosos e preocupações com a alta hospitalar, mas isso não é suficiente para justificar a escolha desse código. A codificação CID-11 deve ser clinicamente coerente com o prontuário, e nesse caso, a escolha do código '6E61.0' não está justificada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DE12.1": {
+      "term_original": "gastrostomia permeável",
+      "capitulo": "13",
+      "confidence_embedding": 0.7711,
+      "descricao_cid": "Representação de doença CID-11: Disfunção de gastrostomia. Definição: ",
+      "classification_reasoning": "A gastrostomia permeável é mencionada no contexto do prontuário, o que sugere que há uma fistula artificial criada entre o estômago e o exterior, permitindo a passagem de conteúdo gástrico para fora do organismo. A opção DE12.1 - Disfunção de gastrostomia é a mais precisa para descrever essa situação.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A gastrostomia permeável não é uma disfunção de gastrostomia, mas sim um procedimento cirúrgico que cria uma comunicação artificial entre o estômago e o exterior. Portanto, a opção DE12.1 - Disfunção de gastrostomia não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB26": {
+      "term_original": "traqueostomizado",
+      "capitulo": "12",
+      "confidence_embedding": 0.783,
+      "descricao_cid": "Representação de doença CID-11: Hemotórax. Definição: Hemotórax é a presença de sangue com ou sem ar no espaço pleural. A causa mais comum é o traumatismo torácico. O hemotórax deve ser considerado presente quando o hematócrito do líquido pleural for maior que a metade do do sangue periférico. Numerosas localizações de sangramento podem ser responsáveis pelo hemotórax, incluindo laceração pulmonar, laceração de vaso intercostal e ruptura de adesão pleural.",
+      "classification_reasoning": "A presença de derrame pleural esquerdo e o paciente está em repouso no leito, sem queixas algicas, sugerem a presença de hemotórax. Além disso, a informação de dor em hemothorax esquerdo com aumento de intensidade ao inspirar também apoia essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'traqueostomizado' não é um hemotórax, mas sim uma intervenção cirúrgica. A presença de sangue no espaço pleural é caracterizada por um derrame pleural, que foi codificado anteriormente como CB26. A informação de traqueostomia não está relacionada à presença de hemotórax e, portanto, não justifica a atribuição do código CB26.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA80.4": {
+      "term_original": "úlcera de pressão",
+      "capitulo": "15",
+      "confidence_embedding": 0.7471,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A úlcera de pressão é uma lesão cutânea causada pelo fardo do paciente em repouso, o que está descrito no contexto como 'úlcera de pressão região sacra'. A opção FA80.4 se refere à degeneração de disco intervertebral da coluna torácica sem prolapso de disco, o que não é diretamente relacionado à úlcera de pressão. No entanto, a úlcera de pressão está localizada na região sacra, o que é similar ao que se encontra em degeneração de disco intervertebral da coluna torácica, fazendo com que essa opção seja mais precisa para o termo dentro do contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A úlcera de pressão não é uma degeneração de disco intervertebral da coluna torácica. A localização na região sacra e a descrição como 'úlcera de pressão' sugerem que se trata de uma lesão cutânea causada pelo fardo do paciente em repouso, o que não é relacionado à degeneração de disco intervertebral.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

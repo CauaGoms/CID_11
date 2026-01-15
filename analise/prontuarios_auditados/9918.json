@@ -1,0 +1,144 @@
+{
+  "prontuario_id": 234,
+  "text": "ACOMPANHAMENTO COM Doutor Vital Brazil POR TRATAMENTO CONSERVADOR  DE HEMANGIOBLASTOMA CEREBELAR ESQ\n\nPO DESCOMPRESSÃO CERVICAL + ARTRODESE CERVICAL PARA TTO. DE MALFORMAÇÃO DE CHIARI E SIRINGOMIELIA C4-C7.\nPACIENTE MELHOROU DE DEFICITS PREVIOS, EMBORA PERISTINDO COM ALGUMAS SEQUELAS NEUROLOGICAS: HIPOESTESIA EM DIMIDIO DIR +\nPARESIA EM MSD PRINCIPALMENTE.\nSEM NOVAS QUEIXAS E SEM PIROA CLINICA\n\nRETORNA HOJE COM RM DE CRANIO E COLUNAS CERVICAL E LOMBAR, SEM PIORA DA SIRINGOMIELIA E SEM COMPLICAÇÕES DA FIXAÇÃO /\nDESCOMPRESSÃO CERVICAL.\nSIRINGOMIELIA MANTÉM-SE NOS MESMOS NIVEIS E DIMENSOES. SEM NOVAS ALTERAÇÕES.\n\nALIVIO DAS DORES IMPORTANTE COM AMITRIPTILINA.\n\nP # SOLICITO NOVA RM DE CRANIO \nRETORNO COM Doutor Vital Brazil COM EXAME\n \n \n \n ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "ACOMPANHAMENTO",
+      "SOLICITO",
+      "RETORNO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Doutor"
+    ],
+    "Conceito Temporal": [
+      "PO"
+    ],
+    "Abreviação": [
+      "PO",
+      "TTO",
+      "HEMANGIOBLASTOMA CEREBELAR ESQ",
+      "DIMIDIO DIR",
+      "PARESIA EM MSD",
+      "RM DE CRANIO E COLUNAS CERVICAL E LOMBAR",
+      "RM DE CRANIO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TTO",
+      "TRATAMENTO CONSERVADOR",
+      "DESCOMPRESSÃO CERVICAL",
+      "ARTRODESE CERVICAL",
+      "FIXAÇÃO / DESCOMPRESSÃO CERVICAL"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "COMPLICAÇÕES",
+      "ALTERAÇÕES",
+      "SEQUELAS NEUROLOGICAS",
+      "PARESIA EM MSD",
+      "PIROA CLINICA",
+      "PIORA DA SIRINGOMIELIA"
+    ],
+    "Doença ou Síndrome": [
+      "SIRINGOMIELIA",
+      "HEMANGIOBLASTOMA CEREBELAR ESQ",
+      "MALFORMAÇÃO DE CHIARI",
+      "SIRINGOMIELIA C4-C7"
+    ],
+    "Substância Química Orgânica": [
+      "AMITRIPTILINA"
+    ],
+    "Substância Farmacológica": [
+      "AMITRIPTILINA"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAME",
+      "RM DE CRANIO E COLUNAS CERVICAL E LOMBAR",
+      "RM DE CRANIO"
+    ],
+    "Achado": [
+      "MELHOROU DE DEFICITS PREVIOS",
+      "ALIVIO DAS DORES"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "DIMIDIO DIR"
+    ]
+  },
+  "labels": {
+    "8D66.2": {
+      "term_original": "alterações",
+      "capitulo": "08",
+      "confidence_embedding": 0.803,
+      "descricao_cid": "Representação de doença CID-11: Siringobulbia. Definição: Transtorno degenerativo progressivo crônico do SNC, caracterizado pela formação de uma cavidade cheia de líquido conhecida como siringe na medula espinal, que se estende para cima para envolver bulbo e ponte. Pode ocorrer isoladamente ou também secundariamente a neoplasias, traumas, deformidades da junção craniocervical ou meningite.",
+      "classification_reasoning": "A escolha foi baseada na descrição de Siringobulbia, que menciona a formação de uma cavidade cheia de líquido conhecida como siringe na medula espinal, o que é compatível com a história clínica do paciente, que apresenta Siringomielia e malformação de Chiari e Siringomielia C4-C7.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 8D66.2, Siringobulbia, é muito genérica e não representa fielmente a condição clínica descrita no prontuário. Embora o paciente apresente Siringomielia e malformação de Chiari e Siringomielia C4-C7, a descrição do código CID-11 8D66.2 se refere à formação de uma cavidade cheia de líquido na medula espinal, o que não é exatamente igual à condição clínica do paciente. Além disso, o prontuário menciona outras condições, como hemangioblastoma cerebral esq e descompressão cervical + artrodeses cervical para TTO, que também precisam ser consideradas na codificação.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "2A00.10": {
+      "term_original": "hemangioblastoma cerebelar esq",
+      "capitulo": "02",
+      "confidence_embedding": 0.7888,
+      "descricao_cid": "Representação de doença CID-11: Meduloblastoma do cérebro. Definição: Neoplasia embrionária invasiva maligna originada do cerebelo. Ocorre predominantemente em crianças e tem tendência a metastatizar através das vias do líquido cefalorraquidiano. Os sinais e sintomas incluem ataxia troncular, distúrbio da marcha, letargia, cefaleia e vômitos. Existem quatro variantes histológicas: meduloblastoma anaplásico, meduloblastoma nodular/desmoplásico, meduloblastoma de células grandes e meduloblastoma com extensa nodularidade.",
+      "classification_reasoning": "A presença de hemangioblastoma cerebelar esq no contexto clínico e o fato de não haver evidência de metastatização através das vias do líquido cefalorraquidiano levam a escolher a opção mais precisa, que é meduloblastoma do cérebro (2A00.10).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 atribuído (2A00.10) representa meduloblastoma do cérebro, enquanto o termo extraído 'hemangioblastoma cerebelar esq' refere-se a uma neoplasia benigna e não maligna. A descrição do código CID-11 também não se aplica ao caso, pois menciona metastatização através das vias do líquido cefalorraquidiano, o que não é presente no prontuário. Portanto, a classificação é inapropriada e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8D66.1": {
+      "term_original": "piora da siringomielia",
+      "capitulo": "08",
+      "confidence_embedding": 0.8027,
+      "descricao_cid": "Representação de doença CID-11: Siringomielia devida a alguma causa especificada. Definição: Afecção em que a siringe está associada a uma causa subjacente.",
+      "classification_reasoning": "A opção mais precisa é a siringomielia devida a alguma causa especificada, pois o texto menciona 'malformação de Chiari e Siringomielia C4-C7', indicando que há uma causa subjacente para a siringomielia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa é a siringomielia devida a alguma causa especificada, pois o texto menciona 'malformação de Chiari e Siringomielia C4-C7', indicando que há uma causa subjacente. No entanto, o termo extraído 'piora da siringomielia' não se encaixa na definição do código CID-11 8D66.1, que refere-se a uma afecção em que a siringe está associada a uma causa subjacente. A piora da siringomielia não é um tipo de siringomielia, mas sim uma consequência negativa da doença.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8D66.0": {
+      "term_original": "sequelas neurologicas",
+      "capitulo": "08",
+      "confidence_embedding": 0.759,
+      "descricao_cid": "Representação de doença CID-11: Siringomielia idiopática. Definição: Condição em que a siringe não tem causa identificável e que é difícil de tratar. A maioria das siringes grandes e/ou sintomáticas pode ser tratada com derivação da siringe.",
+      "classification_reasoning": "A escolha do código 'Siringomielia idiopática' é mais precisa porque o paciente tem uma siringe idiopática e não há menção a causas subjacentes ou secundárias para sua formação.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'sequelas neurologicas' não é específico o suficiente para justificar a escolha do código CID-11 '8D66.0', que se refere especificamente à Siringomielia idiopática. A sequela neurologica pode ser causada por várias condições, incluindo a siringomielia, mas não é um diagnóstico específico. Portanto, o código CID-11 atribuído não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "8B44.0": {
+      "term_original": "paresia em msd",
+      "capitulo": "08",
+      "confidence_embedding": 0.7441,
+      "descricao_cid": "Representação de doença CID-11: Paraplegia espástica hereditária. Definição: Paraplegias espásticas hereditárias (PEH) compreendem um grupo genetica e clinicamente heterogêneo de transtornos neurodegenerativos caracterizados por graus variáveis de espasticidade de membros inferiores, fraqueza piramidal, hiperreflexia e envolvimento da bexiga hipertônica. Clinicamente, as PEH podem ser divididas em dois grupos principais: formas não complicadas (puras) e complicadas (complexas), dependendo da presença de outras manifestações neurológicas, incluindo ataxia, neuropatia periférica, comprometimento cognitivo, epilepsia, amiotrofia, retinopatia, surdez, ictiose e envolvimento extrapiramidal , além de paraparesia espástica. As PEH puras são caracterizadas por espasticidade e fraqueza lentamente progressivas em extremidades inferiores, frequentemente associadas a distúrbios urinários hipertônicos, leve redução da sensibilidade vibratória de extremidades inferiores e, ocasionalmente, da sensação de posição articular. As formas complexas de PEH são caracterizadas pela presença de manifestações neurológicas ou não neurológicas adicionais. Uma história familiar positiva, particularmente em casos autossômicos dominantes, está frequentemente presente, mas nem sempre. O diagnóstico pode ser auxiliado por neuroimagem e testes genéticos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'paresia em MSD' é a paraplegia espástica hereditária, pois apresenta sintomas como fraqueza piramidal e hiperreflexia, que são mencionados no contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'paresia em MSD' é a paraplegia espástica hereditária, pois apresenta sintomas como fraqueza piramidal e hiperreflexia, que são mencionados no contexto clínico. A descrição do código CID-11 (8B44.0) também se alinha com os sintomas descritos no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "NA23.4Z": {
+      "term_original": "complicações",
+      "capitulo": "22",
+      "confidence_embedding": 0.7604,
+      "descricao_cid": "Representação de doença CID-11: Distensão ou entorse da coluna cervical, não especificado. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'complicações' é a NA23.4Z, pois refere-se à distensão ou entorse da coluna cervical, que está relacionada ao procedimento de descompressão e artrodese cervical realizado no paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CID-11 NA23.4Z refere-se à distensão ou entorse da coluna cervical, que não é diretamente relacionada ao termo 'complicações' no prontuário. O procedimento de descompressão e artrodese cervical realizado no paciente pode ter causado complicações, mas o código CID-11 não captura essa relação. Além disso, a descrição do código CID-11 é específica para distensão ou entorse da coluna cervical, enquanto as complicações podem ser de natureza diversa.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "2C74.3": {
+      "term_original": "malformação de chiari",
+      "capitulo": "02",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'malformação de Chiari' se refere à uma anomalia congênita no cérebro, que é caracterizada pela compressão do cordão espinhal e da medula espinhal. O código CID-11 mais adequado para essa condição é o Código 2C74.3, que descreve a malformação de Chiari.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 2C74.3 é adequada pois a malformação de Chiari é uma condição clínica descrita no prontuário e o código representa fielmente essa condição. A descrição do código também se alinha com a definição da malformação de Chiari, caracterizada pela compressão do cordão espinhal e da medula espinhal.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

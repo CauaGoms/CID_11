@@ -1,0 +1,45 @@
+{
+  "prontuario_id": 26,
+  "text": "fx de punho direito há 9 dias.\npcte sem queixas.\ngesso em mau estado. \nRx: mantendo redução. \nCd: reforço de gesso + orientações + retorno em 1 semana.        ",
+  "entities": {
+    "Abreviação": [
+      "pcte",
+      "Rx",
+      "Cd",
+      "fx de punho direito"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "pcte"
+    ],
+    "Sinal ou Sintoma": [
+      "queixas"
+    ],
+    "Procedimento Diagnóstico": [
+      "Rx"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "orientações"
+    ],
+    "Lesão ou Envenenamento": [
+      "fx de punho direito"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "mantendo redução"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "reforço de gesso"
+    ]
+  },
+  "labels": {
+    "FA31.3": {
+      "term_original": "fx de punho direito",
+      "capitulo": "15",
+      "confidence_embedding": 0.7166,
+      "descricao_cid": "Representação de doença CID-11: Punho caído adquirido. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a FA31.3, pois o termo 'fx de punho direito' refere-se ao trauma causado pelo punho e não há indícios de inflamação ou doença específica como na FB55.2. Além disso, a FA30.2 e FA31.6 se referem a condições mais complexas do membro inferior e superior, respectivamente, enquanto a FB50.1 se refere à bursite associada com o uso excessivo, que não é relacionado ao trauma do punho.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'fx de punho direito' se refere ao trauma causado pelo punho, o que é diretamente relacionado à condição descrita no prontuário. A opção FA31.3 é a mais precisa, pois não há indícios de inflamação ou doença específica como na FB55.2. Além disso, as outras opções mencionadas (FA30.2 e FA31.6) se referem a condições mais complexas do membro inferior e superior, respectivamente, enquanto a FB50.1 se refere à bursite associada com o uso excessivo, que não é relacionado ao trauma do punho.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

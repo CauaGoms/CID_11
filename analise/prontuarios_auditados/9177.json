@@ -1,0 +1,75 @@
+{
+  "prontuario_id": 439,
+  "text": "# MARIA, 50 ANOS.\n\n# NEGA COMORBIDADES.\n\n# DX HÉRNIA DE HIATO (03/12/2015).\n\n# US ABDOME TOTAL - COLECISTOPATIA CALCULOSA CRÔNICA.\n\n# REFERE DOR ABDOMINAL ESPORADICAS, NAO SAO DE FORTES INTENSIDADES. \n# DISCUTO CASO COM PRECEPTORIA. SOLICITO PRE-OP.",
+  "entities": {
+    "Negação": [
+      "NEGA",
+      "NAO"
+    ],
+    "Doença ou Síndrome": [
+      "COMORBIDADES",
+      "HÉRNIA DE HIATO",
+      "COLECISTOPATIA CALCULOSA CRÔNICA"
+    ],
+    "Abreviação": [
+      "DX",
+      "PRE-OP",
+      "US ABDOME TOTAL"
+    ],
+    "Conceito Temporal": [
+      "ESPORADICAS",
+      "50 ANOS"
+    ],
+    "Procedimento Diagnóstico": [
+      "PRE-OP",
+      "US ABDOME TOTAL"
+    ],
+    "Procedimento Laboratorial": [
+      "PRE-OP"
+    ],
+    "Conceito Quantitativo": [
+      "50 ANOS"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "COLECISTOPATIA CALCULOSA CRÔNICA"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR ABDOMINAL"
+    ],
+    "Conceito Qualitativo": [
+      "FORTES INTENSIDADES"
+    ]
+  },
+  "labels": {
+    "DD50": {
+      "term_original": "hérnia de hiato",
+      "capitulo": "13",
+      "confidence_embedding": 0.7973,
+      "descricao_cid": "Representação de doença CID-11: Hérnia de parede não abdominal. Definição: Hérnia que ocorre através do forame no diafragma, na parede pélvica e em outra abertura coberta por peritônio mas não através da parede abdominal.",
+      "classification_reasoning": "A hérnia de hiato é uma protrusão do conteúdo abdominal (geralmente parte do intestino) através do forame no diafragma, o que exclui as outras opções. A opção DD52 se refere a uma hérnia femoral, localizada na parede abdominal inferior e não está relacionada ao caso.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hérnia de hiato é uma protrusão do conteúdo abdominal através do forame no diafragma, o que não se encaixa com a definição do código CID-11 DD50. A hérnia descrita no prontuário é uma protrusão abdominal, enquanto o código DD50 refere-se a uma hérnia de parede não abdominal. Portanto, a codificação é clínicamente incoerente e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD81.2": {
+      "term_original": "dor abdominal",
+      "capitulo": "21",
+      "confidence_embedding": 0.8503,
+      "descricao_cid": "Representação de doença CID-11: Dor abdominal generalizada. Definição: Dor, uma sensação desagradável de desconforto ocorrendo em variados graus de gravidade, ou cólicas, contrações espasmódicas causando dor intensa na região abdominal em geral.",
+      "classification_reasoning": "A dor abdominal descrita pelo paciente como espordáicas e não de fortes intensidades é caracterizada por uma representação generalizada da dor abdominal, o que justifica a escolha do código MD81.2.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor abdominal descrita pelo paciente como espordáicas e não de fortes intensidades é muito genérica e não representa fielmente a representação de doença CID-11. A descrição do prontuário não apresenta características específicas da dor abdominal generalizada, o que justifica a remoção do código MD81.2.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "DD45.4": {
+      "term_original": "colecistopatia calculosa crônica",
+      "capitulo": "13",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A colecistopatia calculosa crônica é uma doença relacionada ao fígado e à vesícul biliar, e não está relacionada às hérnias ou síndromes pós-colecistectomia. A escolha mais precisa para o termo 'colecistopatia calculosa crônica' é a representação de doença CID-11 DD45.4.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A colecistopatia calculosa crônica é uma doença relacionada ao fígado e à vesícul biliar, enquanto a hérnia de hiato (DX 03/12/2015) refere-se a um problema anatômico do abdome. A escolha do código CID-11 DD45.4 não está clínica ou lógica com o prontuário, pois não há relação direta entre colecistopatia e hérnia de hiato.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

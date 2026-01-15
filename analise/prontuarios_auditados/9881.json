@@ -1,0 +1,229 @@
+{
+  "prontuario_id": 209,
+  "text": "S # Lucas 43 anos\nRetorno trazendo exames.\nHMA # Crise de dor em pontada em hipocondrio direito, irradiaçao para dorso direito, de forte intensidade, há aprox 2 meses. Nao relacionada com alimentaçao.\nRefere febre e pneumonia junto com a crise de dor.\n21/08/13: USG abdome: colelitiase biliar com coledoco dilatado..\nHMP #\n - DM, HAS, bronquite e rinite\n - Faz uso metformina 850mg 3x / dia, glicazida 30mg , sinvastatina 20mg, hctz 25mg, enalapril 10mg 12/12h, histamin 2mg 12/12h, prednisona 20mg, omeprazol 20mg.\n - Tabagista\n - AGO: G 4 P 2 C 1 A 1. Usa ACHO injetável (depoprovera)\nO #\nBEG\nA #\nColecistolitiase\nP #\nEncaminhada para cirurgia.\nEXAMES PRÉ - OP:\nECG: Taqui sinusal, Gli j: 149 - outros sp.\n \n \n \n ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "Retorno",
+      "Encaminhada"
+    ],
+    "Procedimento Laboratorial": [
+      "exames",
+      "EXAMES"
+    ],
+    "Procedimento Diagnóstico": [
+      "exames",
+      "USG",
+      "EXAMES",
+      "ECG"
+    ],
+    "Sinal ou Sintoma": [
+      "Crise",
+      "febre",
+      "dor em pontada",
+      "relacionada com alimentaçao",
+      "crise de dor"
+    ],
+    "Negação": [
+      "Nao"
+    ],
+    "Doença ou Síndrome": [
+      "pneumonia",
+      "DM",
+      "HAS",
+      "bronquite",
+      "rinite",
+      "Tabagista",
+      "Colecistolitiase",
+      "Taqui sinusal"
+    ],
+    "Abreviação": [
+      "USG",
+      "HMP",
+      "DM",
+      "HAS",
+      "hctz",
+      "AGO",
+      "ACHO",
+      "BEG",
+      "ECG",
+      "sp",
+      "Taqui sinusal",
+      "Gli j : 149"
+    ],
+    "Localização ou Região Corporal": [
+      "abdome",
+      "hipocondrio direito",
+      "dorso direito"
+    ],
+    "Substância Farmacológica": [
+      "metformina",
+      "glicazida",
+      "sinvastatina",
+      "hctz",
+      "enalapril",
+      "histamin",
+      "prednisona",
+      "omeprazol",
+      "depoprovera"
+    ],
+    "Substância Química Orgânica": [
+      "metformina",
+      "glicazida",
+      "sinvastatina",
+      "hctz",
+      "histamin",
+      "prednisona",
+      "omeprazol",
+      "depoprovera"
+    ],
+    "Conceito Quantitativo": [
+      "30mg",
+      "20mg",
+      "25mg",
+      "4",
+      "2",
+      "1",
+      "850mg 3x / dia",
+      "10mg 12/12h",
+      "2mg 12/12h"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "enalapril"
+    ],
+    "Substância Biologicamente Ativa": [
+      "histamin"
+    ],
+    "Hormônio": [
+      "prednisona",
+      "depoprovera"
+    ],
+    "Atributo Clínico": [
+      "AGO"
+    ],
+    "Função de Organismo": [
+      "G",
+      "P"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "C",
+      "cirurgia"
+    ],
+    "Achado": [
+      "A",
+      "BEG",
+      "sp"
+    ],
+    "Conceito Qualitativo": [
+      "forte intensidade"
+    ],
+    "Conceito Temporal": [
+      "2 meses"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "colelitiase biliar com coledoco dilatado",
+      "Gli j : 149"
+    ]
+  },
+  "labels": {
+    "CA40.10": {
+      "term_original": "pneumonia",
+      "capitulo": "12",
+      "confidence_embedding": 0.8176,
+      "descricao_cid": "Representação de doença CID-11: Pneumonia devida a Adenovírus. Definição: Doença do sistema pulmonar, causada por uma infecção por um adenovírus. Esta doença caracterizada por febre, calafrios, ou rigores. Pode também se apresentar com dor torácica, tosse produtiva, dispneia, taquipneia, hipóxia e taquicardia. A transmissão ocorre por gotículas. A confirmação é feita pela identificação do adenovírus em amostra de escarro.",
+      "classification_reasoning": "A presença de pneumonia junto com a crise de dor em pontada na região hipocondriaca direita sugere uma possível infecção viral, levando à escolha do código CA40.10, que representa pneumonia devida a adenovírus.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de pneumonia é mencionada como um sintoma junto com a crise de dor, mas não há evidência clínica suficiente para confirmar a existência da doença. Além disso, o prontuário não apresenta exames ou achados que suportem a diagnose de pneumonia.",
+      "tipo_erro_auditoria": "negated_finding"
+    },
+    "DC12.0": {
+      "term_original": "colecistolitiase",
+      "capitulo": "13",
+      "confidence_embedding": 0.7774,
+      "descricao_cid": "Representação de doença CID-11: Colecistite aguda. Definição: Inflamação aguda da parede da vesícula biliar geralmente segue a obstrução do ducto cístico. A inflamação é evocada por fatores inflamatórios mecânicos, químicos, vasculares e bacterianos.",
+      "classification_reasoning": "A descrição da doença CID-11 corresponde ao sintoma de crise de dor em pontada no hipocondrio direito, irradiação para o dorso direito, febre e pneumonia referida pelo paciente. A presença de colecistolitiase biliar com coledoco dilatado nos exames também apoia essa escolha.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição da doença CID-11 DC12.0 'Colecistite aguda' corresponde ao sintoma de crise de dor em pontada no hipocondrio direito, irradiação para o dorso direito, febre e pneumonia referida pelo paciente. A presença de colecistolitiase biliar com coledoco dilatado nos exames também apoia essa escolha. A codificação é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "8e+89": {
+      "term_original": "taqui sinusal",
+      "capitulo": "08",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "Aumento da frequência cardíaca (149 bpm) é compatível com a descrição de taquicardia, e o contexto clínico menciona 'taqui sinusal' no exame pré-op. A opção mais precisa para o termo dentro do contexto clínico é a C8D89.2: Representação de doença CID-11: Síndrome de taquicardia postural ortostática.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do exame pré-op menciona 'taqui sinusal', o que é uma abreviação médica comum e faz sentido no contexto. A opção mais precisa para o termo dentro do contexto clínico é a C8D89.2: Representação de doença CID-11: Síndrome de taquicardia postural ortostática, que se ajusta à descrição do exame.",
+      "tipo_erro_auditoria": null
+    },
+    "BE10": {
+      "term_original": "has",
+      "capitulo": "11",
+      "confidence_embedding": 0.7603,
+      "descricao_cid": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite.",
+      "classification_reasoning": "O termo 'HAS' refere-se a Hipertensão Arterial Sistêmica, condição clínica mencionada no paciente como comorbidade. O código BE10 é mais preciso porque se refere especificamente à Síndrome Pós-Cardiotomia, que pode estar relacionada à história de doenças cardíacas do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'HAS' refere-se a Hipertensão Arterial Sistêmica, enquanto o código CID-11 BE10 se refere à Síndrome Pós-Cardiotomia. Embora haja uma relação entre as doenças cardíacas e a síndrome pós-cardiotomia, elas não são diretamente relacionadas. Portanto, é necessário remover o código CID-11 BE10 e atribuir um código mais adequado para a Hipertensão Arterial Sistêmica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD81": {
+      "term_original": "beg",
+      "capitulo": "21",
+      "confidence_embedding": 0.7699,
+      "descricao_cid": "Representação de doença CID-11: Dor abdominal ou pélvica. Definição: Dor, uma sensação desagradável de desconforto ocorrendo em variados graus de intensidade, recebida pelas terminações nervosas na região abdominal e pélvica.",
+      "classification_reasoning": "A opção mais precisa para o termo 'BEG' é a dor abdominal ou pélvica (MD81), pois o paciente refere uma dor em pontada no hipocondrio direito, irradiando para o dorso direito de forte intensidade. A indicação de 'BEG' provavelmente se refere a essa dor abdominal.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dor abdominal ou pélvica (MD81) é a opção mais precisa para o termo 'BEG' pois o paciente refere uma dor em pontada no hipocondrio direito, irradiando para o dorso direito de forte intensidade. A descrição do código CID-11 coincide com a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MD81.2": {
+      "term_original": "crise",
+      "capitulo": "21",
+      "confidence_embedding": 0.738,
+      "descricao_cid": "Representação de doença CID-11: Dor abdominal generalizada. Definição: Dor, uma sensação desagradável de desconforto ocorrendo em variados graus de gravidade, ou cólicas, contrações espasmódicas causando dor intensa na região abdominal em geral.",
+      "classification_reasoning": "A crise de dor em pontada no hipocondrio direito com irradição para o dorso direito, com forte intensidade e presente há aproximadamente 2 meses, sugere uma dor abdominal generalizada (MD81.2) e não está relacionada com alimentação.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A crise de dor em pontada no hipocondrio direito com irradição para o dorso direito, com forte intensidade e presente há aproximadamente 2 meses, não é uma dor abdominal generalizada. A descrição do código CID-11 MD81.2 refere-se a dor abdominal generalizada, que não se aplica ao caso de Lucas, pois a dor está localizada em um ponto específico (hipocondrio direito) e irradiando para o dorso direito, o que sugere uma doença mais específica do que uma dor abdominal generalizada.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "EA90.3": {
+      "term_original": "rinite",
+      "capitulo": "14",
+      "confidence_embedding": 0.7407,
+      "descricao_cid": "Representação de doença CID-11: Psoríase eritrodérmica. Definição: Psoríase eritrodérmica é uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele. A psoríase eritrodérmica geralmente se desenvolve a partir da psoríase em placas extensa mas pode surgir de forma nova. Fatores precipitantes ou desencadeantes incluem a retirada de glicocorticoides sistêmicos e, menos frequentemente, a descontinuação abrupta do metotrexato, queimaduras ou infecções intercorrentes. Os pacientes podem desenvolver hipotermia ou insuficiência cardíaca de alto débito.",
+      "classification_reasoning": "A descrição do termo 'rinite' no contexto clínico sugere que é uma referência a um sintoma respiratório, o que está relacionado à síndrome das unhas amarelas (EE11.1), que caracteriza bronquite crônica e sinusite crônica. A presença de febre e pneumonia na história do paciente também apoia essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'rinite' no contexto clínico sugere que é uma referência a um sintoma respiratório, mas o código CID-11 atribuído (EA90.3) refere-se à psoríase eritrodérmica, que não está relacionada ao sintoma de rinite. Ajuste necessário para refletir a realidade clínica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8E43.0": {
+      "term_original": "sp",
+      "capitulo": "08",
+      "confidence_embedding": 0.7395,
+      "descricao_cid": "Representação de doença CID-11: Dor neuropática. Definição: Dor neuropática é descrita como elétrica, queimação ou choque, causada por processos metabólicos, nutricionais, infecciosos, genéticos, autoimunes e/ou vasculíticos. A dor pode ocorrer espontaneamente, sem provocação, ou ser provocada por estímulos dolorosos ou não. A dor é característica da neuropatia de fibras pequenas, mas mesmo nas neuropatias de fibras grandes, um número suficiente de fibras pequenas pode estar danificado para causar dor. A dor neuropática geralmente afeta pele e estruturas subcutâneas distais. A dor pode ser constante ou intermitente e pode ser descrita como lancinante, em queimação ou fria como gelo.\r\n\r\nA síndrome de dor regional complexa segue-se ao trauma e compreende dor regional, alterações sensitivas, anormalidades de temperatura, atividade sudomotora, alterações de cor da pele e edema.",
+      "classification_reasoning": "A descrição do termo 'sp' parece se referir à dor descrita no paciente, que é caracterizada como pontada e irradiando para o dorso direito de forte intensidade. A dor neuropática (CID-11: Dor neuropática) é a mais precisa opção para este termo, considerando as características da dor e a falta de relação com alimentação.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dor descrita no prontuário como pontada e irradiando para o dorso direito de forte intensidade é caracterizada como neuropática, justificando a escolha do código CID-11: Dor neuropática. A falta de relação com alimentação também se encaixa na definição da dor neuropática.",
+      "tipo_erro_auditoria": null
+    },
+    "CA42.4": {
+      "term_original": "bronquite",
+      "capitulo": "12",
+      "confidence_embedding": 0.7555,
+      "descricao_cid": "Representação de doença CID-11: Bronquite aguda devida a Haemophilus influenzae. Definição: Doenças dos brônquios, causada por uma infecção pela bactéria gram-negativa Haemophilus influenzae. Esta doença é caracterizada por inflamação aguda dos brônquios levando a tosse, produção de catarro, chieira torácica ou falta de ar. A transmissão ocorre por inalação de secreções respiratórias infectadas ou por contato direto. A confirmação é feita pela identificação do Haemophilus influenzae no sangue ou em outros líquidos corporais tipicamente estéreis.",
+      "classification_reasoning": "A bronquite aguda devida a Haemophilus influenzae é mais adequada ao contexto clínico, pois o paciente refere febre e pneumonia junto com a crise de dor, o que sugere uma possível infecção bacteriana",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A bronquite aguda devida a Haemophilus influenzae não é uma condição clínica diretamente relacionada com a crise de dor em pontada no hipocondrio direito e irradiação para o dorso direito. A febre e pneumonia referidas pelo paciente são sintomas que podem estar relacionados à colelitase biliar, mas não há evidência clínica suficiente para justificar a atribuição do código CA42.4.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5B5A.0": {
+      "term_original": "dm",
+      "capitulo": "05",
+      "confidence_embedding": 0.7768,
+      "descricao_cid": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina.",
+      "classification_reasoning": "A presença de DM no histórico do paciente e a associação com a deficiência de tiamina, beribéri (Código 5B5A.0), justifica a escolha desse código.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'DM' no prontuário refere-se a Diabetes Mellitus, enquanto o código CID-11 5B5A.0 representa Beriberi, que é uma deficiência de tiamina. Ajuste clínico não há relação entre as duas condições, portanto, o código atribuído não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

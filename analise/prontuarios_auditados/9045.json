@@ -1,0 +1,69 @@
+{
+  "prontuario_id": 845,
+  "text": "DPOC.\nTRAZ RX QUE MEDICO DISSE TER BURACO (NA REALIDADE É ESPESSAMENTO PLEURAL ESQ \nANTIGO). \nBCP POR SARAMPO NA INF. \nFACO TCAR PARA VER ENFISEMA E ORIENTO SOBRE TABACO. DOU BUP.        ",
+  "entities": {
+    "Abreviação": [
+      "DPOC",
+      "RX",
+      "BCP",
+      "BUP",
+      "SARAMPO NA INF"
+    ],
+    "Doença ou Síndrome": [
+      "DPOC",
+      "ESPESSAMENTO PLEURAL ESQ ANTIGO",
+      "SARAMPO NA INF"
+    ],
+    "Procedimento Diagnóstico": [
+      "RX"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "MEDICO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ORIENTO",
+      "DOU"
+    ],
+    "Substância Perigosa ou Venenosa": [
+      "TABACO"
+    ],
+    "Substância Farmacológica": [
+      "BUP"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ESPESSAMENTO PLEURAL ESQ ANTIGO"
+    ]
+  },
+  "labels": {
+    "CB25": {
+      "term_original": "espessamento pleural esq antigo",
+      "capitulo": "12",
+      "confidence_embedding": 0.7747,
+      "descricao_cid": "Representação de doença CID-11: Fibrotórax. Definição: Fibrotórax resulta da fibrose da pleura visceral e se manifesta clinicamente por excursão respiratória reduzida e por fisiologia pulmonar restritiva. Existem dois mecanismos distintos que podem levar à formação do fibrotórax: 1) Mais frequentemente o fibrotórax se desenvolve como consequência de inflamação pleural em pacientes com derrames pleurais, inclusive hemotórax, derrame tuberculso ou empiema crônico; 2) Menos frequentemente, o fibrotórax resulta de doença parenquimatosa pulmonar e pode ser observado em pacientes com tuberculose, bronquiectasias ou abscesso pulmonar.",
+      "classification_reasoning": "O termo 'espessamento pleural esq antigo' sugere a presença de fibrose na pleura visceral, o que é característico do fibrotórax. Além disso, o contexto do prontuário menciona um buraco (na realidade, um espessamento) e uma referência à orientação sobre tabaco, o que reforça a escolha do código CB25.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário refere-se a um espessamento pleural esq antigo, que não é um fibrotórax. O termo 'espessamento' sugere uma lesão mais recente e reversível em comparação à fibrose crônica característica do fibrotórax. Além disso, o contexto do prontuário menciona a presença de BCP por sarampo na infância, o que não está relacionado ao fibrotórax. Portanto, a escolha do código CB25 é inapropriada e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "1C19.1": {
+      "term_original": "dpoc",
+      "capitulo": "01",
+      "confidence_embedding": 0.732,
+      "descricao_cid": "Representação de doença CID-11: Doença dos legionários. Definição: Doença do legionário, a forma pneumônica, tem um período de incubação de 2 a 10 dias (mas foram registrados períodos de até 16 dias em alguns surtos). Inicialmente, os sintomas são febre, perda de apetite, dor de cabeça, mal-estar e letargia. Alguns pacientes também podem apresentar dores musculares, diarreia e confusão mental. Geralmente, há também uma tosse leve inicial, mas até 50% dos pacientes podem apresentar catarro. Rajas sanguíneas ou hemoptise ocorrem em cerca de um terço dos pacientes. A gravidade da doença varia de uma tosse leve a uma pneumonia rapidamente fatal. A morte ocorre por pneumonia progressiva com insuficiência respiratória e/ou choque e falência de múltiplos órgãos.",
+      "classification_reasoning": "A doença dos legionários é a mais provável opção considerando o contexto de paciente com BCP (sarampo na infância) e DPoc (representação de doença pulmonar crônica), além da presença de buraco esquerdo no PRONTUÁRIO. A síndrome pulmonar por hantavírus (1D62.1) também pode ser considerada, mas a doença dos legionários é mais provável em pacientes com história de sarampo e doença pulmonar crônica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A doença dos legionários (1C19.1) não é uma representação fiel da DPoc descrita no prontuário, que se refere a um buraco esquerdo e espessemento pleural antigo. A doença dos legionários é uma pneumonia aguda com sintomas como febre, tosse e dor de cabeça, não relacionada ao contexto de paciente com BCP (sarampo na infância) e DPoc (representação de doença pulmonar crônica). Além disso, a presença de buraco esquerdo e espessemento pleural antigo sugere uma lesão crônica, não aguda.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "1F27.0": {
+      "term_original": "sarampo na inf",
+      "capitulo": "01",
+      "confidence_embedding": 0.7452,
+      "descricao_cid": "Representação de doença CID-11: Criptococose pulmonar. Definição: O padrão da doença pulmonar criptocócica varia de colonização assintomática das vias aéreas a pneumonia a síndrome do desconforto respiratório agudo. Quando presentes, os sintomas incluem tosse, dispneia ou dor no peito. Imagens comuns na radiografia de tórax incluem nódulos ou infiltrados. No hospedeiro imunocompetente, lesões focais são mais comumente observadas em infecção por C. gattii.",
+      "classification_reasoning": "A opção mais precisa é a Criptococose pulmonar, pois o termo 'sarampo na inf' se refere à doença dos legionários (Rubéola) que afeta principalmente crianças e adolescentes, portanto, é mais provável que se trate de uma reação ao Sarampo na Infância, não relacionada a outras opções.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção de código CID-11 '1F27.0' - Criptococose pulmonar não está clinicamente coerente com o termo 'sarampo na inf'. A descrição do código refere-se a doença pulmonar causada por Cryptococcus gattii, enquanto o termo 'sarampo na inf' se refere à doença dos legionários (Rubéola) que afeta principalmente crianças e adolescentes. Portanto, é necessário remover o código CID-11 atribuído.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

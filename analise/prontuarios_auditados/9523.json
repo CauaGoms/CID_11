@@ -1,0 +1,190 @@
+{
+  "prontuario_id": 875,
+  "text": "TX RENAL \nEM USO DE MET 5, TACROLIMO 4 / 4, MS 2 / 1, BO, AAS, CARVEDILOL 25 2X, ANLO 5 2X, FLUOXETINA 20, \nS # SAIDA ESPONTANEA DO DUPLO JOTA\nAREDENCIA URINÁRIA \nASTENIA \nO # PESO 64,5\nEXAME FISICO PALIDEZ CUTANEOMUCOSA\nPA 110/70 \nREDUÇÃO TACROLIMO \nMONURIL RETORNO EM ATÉ 10 DIAS\nTX RENAL CR 1,6, TACROLIMO 15\nHAS COMPENSADO : HIPO \nITU POR E COLI ESB L E S FOSFOMICINA\nSAIDA DO DUPLO JOTA\nANEMIA\n ",
+  "entities": {
+    "Conceito Funcional": [
+      "USO"
+    ],
+    "Substância Farmacológica": [
+      "MET",
+      "TACROLIMO",
+      "MS",
+      "AAS",
+      "CARVEDILOL",
+      "ANLO",
+      "FLUOXETINA",
+      "MONURIL",
+      "FOSFOMICINA"
+    ],
+    "Abreviação": [
+      "MET",
+      "MS",
+      "BO",
+      "AAS",
+      "2X",
+      "ANLO",
+      "S",
+      "PA",
+      "HIPO",
+      "ITU",
+      "TX RENAL",
+      "CR 1 , 6",
+      "E COLI ESB L"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "20",
+      "110/70",
+      "10",
+      "15",
+      "4 / 4",
+      "2 / 1",
+      "64 , 5"
+    ],
+    "Substância Química Orgânica": [
+      "TACROLIMO",
+      "MS",
+      "AAS",
+      "CARVEDILOL",
+      "FLUOXETINA",
+      "FOSFOMICINA"
+    ],
+    "Sinal ou Sintoma": [
+      "ASTENIA",
+      "SAIDA",
+      "SAIDA ESPONTANEA",
+      "AREDENCIA URINÁRIA",
+      "PALIDEZ CUTANEOMUCOSA"
+    ],
+    "Atributo Clínico": [
+      "PESO",
+      "PA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "REDUÇÃO",
+      "RETORNO"
+    ],
+    "Conceito Temporal": [
+      "DIAS"
+    ],
+    "Achado": [
+      "COMPENSADO",
+      "SAIDA ESPONTANEA"
+    ],
+    "Doença ou Síndrome": [
+      "HIPO",
+      "ITU",
+      "ANEMIA"
+    ],
+    "Antibiótico": [
+      "FOSFOMICINA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Dispositivo Médico": [
+      "DUPLO JOTA"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAME FISICO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 1 , 6"
+    ],
+    "Bactéria": [
+      "E COLI ESB L"
+    ]
+  },
+  "labels": {
+    "5C70.0": {
+      "term_original": "compensado",
+      "capitulo": "05",
+      "confidence_embedding": 0.7711,
+      "descricao_cid": "Representação de doença CID-11: Desidratação. Definição: A desidratação ocorre quando há uma quantidade insuficiente ou perda excessiva de água no corpo. Isso pode ser causado por vômitos, diarreia, febre, uso de diuréticos, sudorese profusa ou diminuição da ingestão de água.",
+      "classification_reasoning": "A escolha do código 5C70.0 se baseia na presença de 'compensado' no contexto, que indica a restabelecimento da equilíbrio hídrico após uma situação de desidratação. A definição do termo CID-11 coincide com a descrição clínica apresentada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A desidratação é uma condição que ocorre quando há perda excessiva de água no corpo, o que não está presente no prontuário. A presença de 'compensado' indica que a situação foi resolvida e não há mais desidratação. Além disso, a definição do termo CID-11 não se aplica ao caso apresentado.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EB50": {
+      "term_original": "palidez cutaneomucosa",
+      "capitulo": "14",
+      "confidence_embedding": 0.7477,
+      "descricao_cid": "Representação de doença CID-11: Lúpus eritematoso cutâneo subagudo. Definição: Lúpus eritematoso cutâneo subagudo é uma forma não cicatricial de lúpus eritematoso, tipificada pela presença de anticorpos anti-Ro/SSA circulantes e manchas eritematosas inflamadas discoides ou anulares com descamação fina variável em pele exposta ao sol, especialmente nos lados de face e pescoço, no V do decote, nas superfícies extensoras dos braços e na parte superior do dorso: em contraste com o lúpus eritematoso sistêmico, as bochechas tendem a ser poupadas. A doença visceral é menos frequente do que no lúpus eritematoso sistêmico: o envolvimento renal é raro e leve.",
+      "classification_reasoning": "A palidez cutaneomucosa é um sintoma característico do lúpus eritematoso cutâneo subagudo, que combina com a presença de outras características descritas no prontuário (AREDENCIA URINÁRIA, ASTENIA) e a redução da dose de TACROLIMO.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A palidez cutaneomucosa é um sintoma característico do lúpus eritematoso cutâneo subagudo, que combina com a presença de outras características descritas no prontuário (AREDENCIA URINÁRIA, ASTENIA) e a redução da dose de TACROLIMO. A justificativa do sistema é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BA02": {
+      "term_original": "hipo",
+      "capitulo": "11",
+      "confidence_embedding": 0.7853,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A opção BA02 é a mais precisa porque o termo 'hipo' é utilizado para descrever a hipertensão, que está relacionada à doença renal hipertensiva.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção BA02 é a mais precisa porque o termo 'hipo' é utilizado para descrever a hipertensão, que está relacionada à doença renal hipertensiva. A descrição do prontuário menciona a redução de Tacrolimo e a presença de doença renal, o que justifica a escolha do código CID-11 BA02.",
+      "tipo_erro_auditoria": null
+    },
+    "GB40": {
+      "term_original": "aredencia urinária",
+      "capitulo": "16",
+      "confidence_embedding": 0.7799,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A escolha pelo código GB40 (Síndrome nefrítica) se justifica porque o termo 'aredencia urinária' é uma característica comum em doenças glomerulares, como a síndrome nefrítica. Além disso, a presença de hematúria e oligúria no prontuário também apóia essa escolha.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código GB40 (Síndrome nefrítica) se justifica porque o termo 'aredencia urinária' é uma característica comum em doenças glomerulares, como a síndrome nefrítica. Além disso, a presença de hematúria e oligúria no prontuário também apóia essa escolha. A análise clínica do prontuário não apresenta contradições óbvias ou alucinações que justificassem a remoção do código.",
+      "tipo_erro_auditoria": null
+    },
+    "MF54.2": {
+      "term_original": "saida",
+      "capitulo": "21",
+      "confidence_embedding": 0.7785,
+      "descricao_cid": "Representação de doença CID-11: Hipoplasia renal. Definição: Condição caracterizada por um rim menor em tamanho e peso do que a média (menos de 11 centímetros de comprimento, 5-7,5 centímetros de largura, 2,5 centímetros de espessura e pesando menos de 120 gramas).",
+      "classification_reasoning": "A saída espontânea do duplo Jota mencionada no prontuário sugere uma disfunção renal, o que levou à escolha do código MF54.2, representando hipoplasia renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A saída espontânea do duplo Jota não é uma condição de hipoplasia renal, mas sim um sintoma relacionado a disfunção renal. O código CID-11 MF54.2 representa hipoplasia renal, que é uma anomalia congênita ou adquirida, e não está relacionada à saída espontânea do duplo Jota. Portanto, o código atribuído não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C46.3": {
+      "term_original": "astenia",
+      "capitulo": "06",
+      "confidence_embedding": 0.7498,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por estimulantes, incluindo anfetaminas, metanfetamina ou metcatinona. Definição: Intoxicação por estimulantes, incluindo anfetaminas, metanfetamina e metcatinona, mas excluindo cafeína, cocaína e catinonas sintéticas é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de anfetaminas ou outros estimulantes, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos das anfetaminas ou outros estimulantes e sua intensidade está intimamente relacionada à quantidade de anfetaminas ou outros estimulantes consumida. Têm duração limitada, e diminuem à medida que as anfetaminas ou outros estimulantes são eliminados do corpo. Sintomas de apresentação podem incluir ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (possivelmente de intensidade delirante), alucinações auditivas transitórias, confusão transitória, mudanças na sociabilidade. Sudorese ou calafrios, nausea ou vômitos, e palpitações podem estar presentes. Sinais físicos podem incluir taquicardia, elevação da pressão arterial, dilatação pupilar, discinesias e distonias, e feridas na pele. Em casos raros, geralmente na intoxicação grave, o uso de estimulantes, incluindo anfetaminas, metanfetamina e metcatinona pode resultar em convulsões.",
+      "classification_reasoning": "A astenia é um sintoma comum na intoxicção por estimulantes, incluindo anfetaminas, metanfetamina ou metcatinona, caracterizado por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. A escolha deste código está baseada na descrição dos sintomas apresentados no contexto clínico, como astenia, e a presença de outras substâncias como met 5, tacrolimo 4/4, MS 2/1, BO, AAS, carvedilol 25 2X, anlo 5 2X, fluoxetina 20.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A astenia é um sintoma comum, mas não há evidência clínica suficiente no prontuário para justificar a escolha do código CID-11 6C46.3, que se refere à intoxicação por estimulantes. O termo 'astenia' pode ser relacionado a outras condições clínicas, como anemia ou esgotamento físico, e não há indicação de consumo de estimulantes ou outros fármacos que justifiquem essa classificação.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "4A85.00": {
+      "term_original": "itu",
+      "capitulo": "04",
+      "confidence_embedding": 0.7231,
+      "descricao_cid": "Representação de doença CID-11: Doença de hipersensibilidade hepática induzida por droga. Definição: Doença de hipersensibilidade hepática induzida por droga é uma condição, relativamente, rara, mas que pode ter consequências sérias para o indivíduo, a saúde pública, as agências regulatórias e a indústria farmacêutica. Caracteriza-se pela elevação no soro de alanina aminotransferase (ALT), bilirrubina conjugada, ou bilirrubina combinada, ALT e fosfatase alcalina (FA) por > 2 vezes o limite superior do normal; e as drogas mais frequentemente relacionadas são halotano, ácido tienílico, di-hidralazina, diclofenaco e carbamazepina.",
+      "classification_reasoning": "Escolho esse código porque o termo 'itu' se refere à hipergamaglobulinemia em resposta a E. coli, uma condição que pode ser relacionada à doença de hipersensibilidade hepática induzida por droga.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'itu' não se refere à doença de hipersensibilidade hepática induzida por droga, como justificado pelo sistema. Em vez disso, é uma abreviação para Hipergamaglobulinemia em resposta a E. coli, que não está relacionada à doença de hipersensibilidade hepática induzida por droga descrita no código CID-11. Portanto, o código atribuído não representa fielmente o termo ou condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "3A71.2": {
+      "term_original": "anemia",
+      "capitulo": "03",
+      "confidence_embedding": 0.8298,
+      "descricao_cid": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "Anemia foi mencionada como um sintoma na história clínica, e a doença renal crônica está relacionada à anemia presente, portanto, a opção mais precisa é a anemia causada por doença renal crônica (Código: 3A71.2).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A anemia foi mencionada como um sintoma na história clínica e está relacionada à doença renal crônica. A opção mais precisa é a anemia causada por doença renal crônica (Código: 3A71.2), pois a doença renal crônica é uma condição que pode causar anemia, como descrito na definição do código CID-11.",
+      "tipo_erro_auditoria": null
+    },
+    "1A03.0": {
+      "term_original": "e coli esb l",
+      "capitulo": "01",
+      "confidence_embedding": 0.7439,
+      "descricao_cid": "Representação de doença CID-11: Infecção por Escherichia coli enteropatogênica. Definição: Infecção do sistema gastrointestinal causada pela bactéria gram-negativa Escherichia coli. É caracterizada por diarreia aguda, profusa e aquosa. A transmissão ocorre pela via fecal-oral a partir de alimentos, água ou fômites contaminados. A confirmação é feita pela identificação de Escherichia coli enteropatogênica (EPEC) em amostra fecal.",
+      "classification_reasoning": "A escolha é justificada pela presença do termo 'E COLI' no contexto clínico, que indica uma infecção por Escherichia coli enteropatogênica, caracterizada por diarreia aguda e profusa.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença do termo 'E COLI' no prontuário indica uma infecção por Escherichia coli enteropatogênica, caracterizada por diarreia aguda e profusa. A escolha do código CID-11 1A03.0 é justificada pela presença desse termo no contexto clínico e pela definição do código. Portanto, a codificação é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

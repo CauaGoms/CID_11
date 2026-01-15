@@ -1,0 +1,199 @@
+{
+  "prontuario_id": 556,
+  "text": "10:0hs Dispinéia progressiva, glasglow 5, pupilas isocóricas e fotoreativas, cateter nasal tipo óculos a 3L/min com sat : 94%, dieta via oral , AVP MSE salinizado, SVD com diurese efetiva. Monitorizada com PNI : 90x50mmHg, cardioscopia com FC :: 84bpm, oximetria de pulso, mucosas coradas, AP: MV presente, abdomen flácido e indolor a palpação, regiõ sacra integra, extremidades aquecidas e bem perfundidas. Enfermeira Florence Nightingale Milet EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO",
+  "entities": {
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "pupilas"
+    ],
+    "Achado": [
+      "isocóricas",
+      "fotoreativas",
+      "flácido",
+      "integra",
+      "aquecidas",
+      "diurese efetiva",
+      "mucosas coradas",
+      "MV presente",
+      "indolor a palpação",
+      "bem perfundidas"
+    ],
+    "Conceito Quantitativo": [
+      "3L/min",
+      "94%",
+      "90x50mmHg",
+      "84bpm"
+    ],
+    "Abreviação": [
+      "sat",
+      "AVP",
+      "MSE",
+      "SVD",
+      "PNI",
+      "FC",
+      "AP",
+      "MV presente"
+    ],
+    "Atributo Clínico": [
+      "sat",
+      "FC"
+    ],
+    "Dispositivo Médico": [
+      "AVP",
+      "SVD",
+      "cateter nasal tipo óculos"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "AVP",
+      "salinizado",
+      "SVD",
+      "cardioscopia",
+      "dieta via oral"
+    ],
+    "Localização ou Região Corporal": [
+      "MSE",
+      "abdomen",
+      "extremidades",
+      "regiõ sacra"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "salinizado",
+      "Monitorizada",
+      "EXAME GERAL"
+    ],
+    "Procedimento Diagnóstico": [
+      "Monitorizada",
+      "PNI",
+      "cardioscopia",
+      "AP",
+      "oximetria de pulso",
+      "INVESTIGACAO DE PESSOAS"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Negação": [
+      "SEM",
+      "indolor a palpação"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "Dispinéia progressiva",
+      "glasglow 5"
+    ],
+    "Função de Organismo": [
+      "diurese efetiva"
+    ]
+  },
+  "labels": {
+    "DA60.3": {
+      "term_original": "indolor a palpação",
+      "capitulo": "13",
+      "confidence_embedding": 0.7611,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A opção mais precisa para o termo 'indolor a palpação' é a síndrome de úlceras de estresse do estômago (Código: DA60.3). Isso porque as úlceras de estresse do estômago são lesões agudas da mucosa que podem resultar em hemorragia digestiva alta aguda, e o fato de não ter dor à palpação sugere a presença dessas lesões.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 DA60.3 'Úlceras de estresse do estômago' não é clinicamente coerente com o prontuário, pois a descrição do termo 'indolor a palpação' não se refere às úlceras de estresse do estômago. A falta de dor à palpação pode ser relacionada a diversas condições clínicas e não há evidência no prontuário que sugira a presença de úlceras de estresse do estômago.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8C84": {
+      "term_original": "isocóricas",
+      "capitulo": "08",
+      "confidence_embedding": 0.7429,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise secundária. Definição: Rabdomiólise secundária ocorre quando o efeito primário de um fator etiológico resulta em um estado funcional ou bioquímico que conduz ao desenvolvimento de alterações isquêmicas, degenerativas, necróticas ou desestabilizadoras da membrana no músculo, produzindo as manifestações clínicas e bioquímicas de rabdomiólise. Mais frequentemente, a rabdomiólise é secundária a um desequilíbrio metabólico, muitas vezes de natureza genética, como resultado de movimento anormalmente excessivo, tensão isométrica excessiva por tentativa de movimento contra resistência, ou coma levando a aumento de pressão, isquemia, hipóxia e necrose intramusculares. A rabdomiólise secundária também pode ser causada por uma mutação em vários genes (RYR1, LPIN).",
+      "classification_reasoning": "A palavra 'isocóricas' presente no prontuário refere-se às pupilas do paciente, que são descritas como isocóricas e fotoreativas. Isso sugere uma função pupilar normal, o que está consistente com a descrição da rabdomiólise secundária (Código 8C84), que não envolve alterações na função pupilar.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'isocóricas' no prontuário refere-se às pupilas do paciente, que são descritas como isocóricas e fotoreativas. Isso sugere uma função pupilar normal, o que não está relacionado à rabdomiólise secundária (Código 8C84), que envolve alterações no músculo. A classificação é incorreta pois a entidade 'isocóricas' não está diretamente relacionada à condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB32.20": {
+      "term_original": "flácido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7739,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A opção mais precisa é a Rabdomiólise idiopática (FB32.20) porque o termo 'flácido' é frequentemente associado à perda de massa muscular, que é um sintoma característico da rabdomiólise.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'flácido' não é suficientemente específico para representar a rabdomiólise idiopática (FB32.20). A flacidez pode ser um sintoma de várias condições, incluindo doenças neuromusculares e distúrbios metabólicos. Além disso, o prontuário não apresenta evidências clínicas que sustentem a hipótese de rabdomiólise idiopática.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BD73.2": {
+      "term_original": "dispinéia progressiva",
+      "capitulo": "11",
+      "confidence_embedding": 0.7463,
+      "descricao_cid": "Representação de doença CID-11: Obstrução de veia sistêmica. Definição: Condição patológica pós-natal de uma veia sistêmica em que o fluxo é impedido ou bloqueado devido a estreitamento ou atresia.",
+      "classification_reasoning": "A dispnéia progressiva mencionada no contexto clínico pode estar relacionada a uma obstrução de veia sistêmica, especialmente considerando que não há outras condições cardíacas mencionadas como causadoras da dispnéia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dispnéia progressiva mencionada no prontuário não é uma obstrução de veia sistêmica, como sugerido pelo código CID-11 BD73.2. A dispnéia progressiva é um sintoma que pode ter várias causas, incluindo doenças cardíacas, pulmonares e outras condições clínicas. Portanto, a codificação não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GA16.3": {
+      "term_original": "integra",
+      "capitulo": "16",
+      "confidence_embedding": 0.7701,
+      "descricao_cid": "Representação de doença CID-11: Hematometra. Definição: Presença de coágulos sanguíneos dentro do útero, geralmente causados por uma obstrução do fluxo uterino.",
+      "classification_reasoning": "A palavra 'integra' está presente no contexto clínico, que descreve a região sacra como 'integral', sugerindo que não há lesões ou doenças nessa área. O código GA16.3, Hematometra, é uma condição em que o útero apresenta coágulos sanguíneos, mas isso não está relacionado à integridade da região sacra.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'integra' no contexto clínico refere-se à integridade da região sacra, que não está relacionada à Hematometra (coágulos sanguíneos dentro do útero). A codificação CID-11 GA16.3 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC39.3": {
+      "term_original": "bem perfundidas",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'bem perfundidas' é a representação de doença CID-11: Perifilia arterial, definida como a boa circulação sanguínea nos membros inferiores.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'bem perfundidas' no prontuário refere-se à circulação sanguínea adequada nos membros inferiores, o que não é uma doença ou condição clínica. A opção CID-11 BC39.3 Perifilia arterial não se aplica nesse contexto, pois a perifilia arterial é uma doença caracterizada por uma boa circulação sanguínea nos membros inferiores, enquanto no prontuário está sendo descrita apenas um achado normal. Portanto, o código CID-11 atribuído não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA90": {
+      "term_original": "aquecidas",
+      "capitulo": "15",
+      "confidence_embedding": 0.7257,
+      "descricao_cid": "Representação de doença CID-11: Infecção da vértebra. Definição: Afecção da vértebra, causada por infecção bacteriana, viral, fúngica ou parasitária. Geralmente se apresenta com febre, calafrios, cefaleia, perda de peso, mas pode ser assintomática. A confirmação diagnóstica é feita pela identificação do agente infeccioso em amostra de sangue ou por exames de imagem.",
+      "classification_reasoning": "A termo 'aquecidas' refere-se às extremidades do paciente, que são descritas como 'extremidades aquecidas e bem perfundidas', o que sugere uma possível causa de hiperemia (aumento da irrigação sanguínea) relacionada à infecção ou processo inflamatório. O código FA90 - Infecção da vértebra, é a opção mais precisa para este termo dentro do contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A termo 'aquecidas' não é suficientemente específico para justificar a codificação FA90 - Infecção da vértebra. Embora haja uma possibilidade de hiperemia relacionada à infecção, o prontuário não apresenta evidências concretas de infecção ou processo inflamatório na vértebra. A descrição das extremidades como 'aquecidas e bem perfundidas' pode ser atribuída a outras causas clínicas, tornando a codificação FA90 demasiado específica e não representativa do termo descrito.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "4A80.Y": {
+      "term_original": "mv presente",
+      "capitulo": "04",
+      "confidence_embedding": 0.7654,
+      "descricao_cid": "Representação de doença CID-11: Outros transtornos alérgicos ou de hipersensibilidade especificados envolvendo o trato respiratório. Definição: ",
+      "classification_reasoning": "A presença de 'MV presente' no contexto clínico sugere uma reação alérgica ou hipersensível envolvendo o trato respiratório, portanto, a opção mais precisa é a Código 4A80.Y - Representação de doença CID-11: Outros transtornos alérgicos ou de hipersensibilidade especificados envolvendo o trato respiratório.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'MV presente' no prontuário sugere uma condição relacionada ao sistema cardiovascular, não ao trato respiratório. A opção 4A80.Y não representa fielmente a condição descrita e é um código errado para essa situação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC10.3": {
+      "term_original": "diurese efetiva",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A diurese efetiva é um indicador de que o paciente tem uma condição cardiovascular, possivelmente relacionada à insuficiência cardíaca congestiva (BD10) ou insuficiência da valva aórtica (BB71). Além disso, a presença de cateter nasal e monitorização PNI sugere um estado de doença cardíaca avançado.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A diurese efetiva não é uma condição clínica diretamente relacionada à dispnéia progressiva. A diurese efetiva pode ser um efeito secundário de várias doenças, incluindo insuficiência cardíaca congestiva ou insuficiência da valva aórtica, mas não é uma condição clínica específica que esteja diretamente relacionada à dispnéia progressiva. Portanto, o código CID-11 atribuído (BC10.3) não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A94.1": {
+      "term_original": "fotoreativas",
+      "capitulo": "09",
+      "confidence_embedding": 0.7609,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso.",
+      "classification_reasoning": "O termo 'fotoreativas' refere-se à reação pupilar isocórica e fotoreativa, o que é descrito na definição do código 9A94.1 (Síndrome da íris flácida) como uma característica clínica observada durante a extração de catarata.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'fotoreativas' refere-se à reação pupilar isocórica e fotoreativa, o que é descrito na definição do código 9A94.1 (Síndrome da íris flácida) como uma característica clínica observada durante a extração de catarata. No entanto, no prontuário não há menção à extração de catarata ou à síndrome da íris flácida. A reação pupilar isocórica e fotoreativa é descrita como um achado clínico isolado, sem relação com a síndrome mencionada no código CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EB13.0": {
+      "term_original": "mucosas coradas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7603,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de Stevens-Johnson. Definição: A síndrome de Stevens-Johnson é um transtorno de hipersensibilidade mediado por imunocomplexos envolvendo mucosas (conjuntiva, mucosa oral e mucosa genital) com, por definição, envolvimento da pele limitado a não mais que 9% da área de superfície corporal. Está relacionado à necrólise epidérmica tóxica e compartilha muitos dos mesmos gatilhos, notavelmente drogas, mas a inflamação é centrada em e próxima a superfícies mucosas. Embora a mortalidade seja baixa, a morbidade aguda é alta e o envolvimento conjuntival tem o potencial de causar cegueira.",
+      "classification_reasoning": "A presença de 'mucosas coradas' no contexto clínico sugere a possibilidade de envolvimento das mucosas na síndrome de Stevens-Johnson, caracterizada por inflamação e lesão da pele e mucosas. A escolha do código EB13.0 é mais precisa para o termo dentro do contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'mucosas coradas' no prontuário não é suficiente para justificar a codificação CID-11 como Síndrome de Stevens-Johnson (EB13.0). A definição da síndrome menciona envolvimento limitado a não mais que 9% da área de superfície corporal, o que não está presente no prontuário. Além disso, a descrição do termo 'mucosas coradas' não é específica o suficiente para justificar a codificação como Síndrome de Stevens-Johnson.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "prontuario_id": 265,
+  "text": "PACIENTE COM PROTESE VALVULAR MECANICA AORTICA EM 1995 POR ESTENOSE AORTICA, REOPERAÇAO EM 1996 POR LEAK PARAVALVULAR, EM ANTICOAGULAÇAO DESDE ENTAO, EM ACOMPANHAMENTO COM MEDICO EXTERNO.  VEIO À XXXX EM 09/08/03 POR DISPNEIA + CANSAÇO, APRESENTANDO BRADICARDIA IMPORTANTE (FC EM TORNO DE 40 bpm), ECG COM BRADICARDIA E BLOQUEIO TRIFASCICULAR. COMO USAVA DIGOXINA, AGUARDOU-SE NIVEL SÉRICO PARA DECISÃO SOBRE NECESSIDADE DE MARCAPASSO. EM 14/08, ENTRETANTO,  APRESENTOU PIORA DOS SINTOMAS E FOI ENTÃO COLOCADO MP DEFINITIVO. O PACIENTE APRESENTOU BOA EVOLUÇÃO APÓS A COLOCAÇÃO DO MP, APENAS COM 2 EPISÓDIOS DE EPISTAXE NÃO VOLUMOSAS, COM INR = 2. COMO DEVE PERSISTIR ANTICOAGULADO, FOI REALIZADA AVALIAÇÃO PELA CONSULTORIA DA OTORRINO, COM LESÃO DA MUCOSA SEPTAL POR MANIPULAÇÃO, SENDO FEITO TTO E SERÁ REAVALIADO AMBULATORIALMENTE.  RECEBE ALTA EM BOAS CONDIÇÕES, COM MP COM BOM FUNCIONAMENTO, RETORNO AMBULATORIAL RPECOCE COM OTORRINO PARA REAVALIAÇÃO E RETORNO EM DEZEMBRO PARA REIVSÃO DO MP COM CIRURGIA CARDIACA. DEVE MANTER MEDICAÇÕES EM USO PRÉVIO E ACOMPANHAMENTO COM SEU MÉDICO ASSISTENTE.",
+  "entities": {
+    "Procedimento Terapêutico ou Preventivo": [
+      "REOPERAÇAO",
+      "ANTICOAGULAÇAO",
+      "MARCAPASSO",
+      "TTO",
+      "MP",
+      "PROTESE VALVULAR MECANICA AORTICA",
+      "MP DEFINITIVO",
+      "COLOCAÇÃO DO MP",
+      "PERSISTIR ANTICOAGULADO",
+      "CIRURGIA CARDIACA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ACOMPANHAMENTO",
+      "DECISÃO",
+      "AVALIAÇÃO",
+      "ALTA",
+      "REAVALIAÇÃO",
+      "RETORNO",
+      "REAVALIADO AMBULATORIALMENTE",
+      "RETORNO AMBULATORIAL",
+      "REIVSÃO DO MP",
+      "MANTER MEDICAÇÕES"
+    ],
+    "Sinal ou Sintoma": [
+      "DISPNEIA",
+      "CANSAÇO",
+      "BRADICARDIA",
+      "DE EPISTAXE"
+    ],
+    "Conceito Qualitativo": [
+      "IMPORTANTE",
+      "PIORA"
+    ],
+    "Abreviação": [
+      "FC",
+      "ECG",
+      "TTO",
+      "MP",
+      "OTORRINO",
+      "MP DEFINITIVO",
+      "COLOCAÇÃO DO MP",
+      "CONSULTORIA DA OTORRINO",
+      "REIVSÃO DO MP"
+    ],
+    "Atributo Clínico": [
+      "FC"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECG"
+    ],
+    "Substância Farmacológica": [
+      "DIGOXINA"
+    ],
+    "Substância Química Orgânica": [
+      "DIGOXINA"
+    ],
+    "Dispositivo Médico": [
+      "MARCAPASSO",
+      "MP",
+      "PROTESE VALVULAR MECANICA AORTICA",
+      "MP DEFINITIVO",
+      "COLOCAÇÃO DO MP"
+    ],
+    "Conceito Temporal": [
+      "APÓS",
+      "EPISÓDIOS",
+      "RPECOCE",
+      "PRÉVIO"
+    ],
+    "Negação": [
+      "NÃO"
+    ],
+    "Conceito Quantitativo": [
+      "VOLUMOSAS",
+      "40 bpm"
+    ],
+    "Organização Relacionada à Saúde": [
+      "OTORRINO",
+      "CONSULTORIA DA OTORRINO",
+      "MÉDICO ASSISTENTE"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "OTORRINO",
+      "MEDICO EXTERNO",
+      "MÉDICO MÉDICO ASSISTENTE ASSISTENTE"
+    ],
+    "Doença ou Síndrome": [
+      "ESTENOSE AORTICA",
+      "LEAK PARAVALVULAR"
+    ],
+    "Função Patológica": [
+      "LEAK PARAVALVULAR"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "BRADICARDIA E BLOQUEIO TRIFASCICULAR",
+      "NIVEL SÉRICO",
+      "INR = 2"
+    ],
+    "Procedimento Laboratorial": [
+      "NIVEL SÉRICO"
+    ],
+    "Achado": [
+      "BOA BOA EVOLUÇÃO EVOLUÇÃO",
+      "BOAS CONDIÇÕES",
+      "BOM FUNCIONAMENTO"
+    ],
+    "Lesão ou Envenenamento": [
+      "LESÃO DA MUCOSA SEPTAL POR MANIPULAÇÃO"
+    ],
+    "Atividade de Máquina": [
+      "BOM FUNCIONAMENTO"
+    ]
+  },
+  "labels": {
+    "BC80.1": {
+      "term_original": "bradicardia",
+      "capitulo": "11",
+      "confidence_embedding": 0.7938,
+      "descricao_cid": "Representação de doença CID-11: Bradicardia sinusal. Definição: Frequência sinusal em repouso abaixo do percentil 97% para a idade (<60 bpm em adultos).",
+      "classification_reasoning": "A bradicardia descrita no contexto clínico se refere à frequência cardíaca em repouso abaixo do percentil 97% para a idade, o que é consistente com a definição da Código BC80.1 (Bradicardia sinusal).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A bradicardia descrita no prontuário se refere à frequência cardíaca em repouso abaixo do percentil 97% para a idade, o que é consistente com a definição da Código BC80.1 (Bradicardia sinusal). A descrição clínica é precisa e coerente com a definição do código CID-11.",
+      "tipo_erro_auditoria": null
+    },
+    "BC02.31": {
+      "term_original": "leak paravalvular",
+      "capitulo": "11",
+      "confidence_embedding": 0.7465,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência de valva neo-aórtica de origem pulmonar. Definição: Fluxo retrógrado adquirido através da valva neo-aórtica de origem pulmonar, ou seja, a valva pulmonar nativa que se tornou a valva neo-aórtica funcional.\r\nExemplos de corações nos quais uma valva neo-aórtica foi criada incluem a anastomose aortopulmonar (procedimentos de Damus-Kaye-Stansel, Norwood), autoenxerto de valva pulmonar (procedimento de Ross) e procedimento de troca arterial.",
+      "classification_reasoning": "A escolha foi feita porque o termo 'leak paravalvular' refere-se à perda de sangue pela valva neo-aórtica, que é definida como um transtorno pós-procedimento do coração em que a valva não se fecha adequadamente. Este código CID-11 é mais preciso para descrever o sintoma apresentado pelo paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'leak paravalvular' refere-se à perda de sangue pela valva neo-aórtica, que é um sintoma pós-procedimento do coração. No entanto, o código CID-11 atribuído (BC02.31) descreve a insuficiência de valva neo-aórtica de origem pulmonar, que não é diretamente relacionada ao termo 'leak paravalvular'. A escolha do código CID-11 foi feita porque o termo 'leak paravalvular' refere-se à perda de sangue pela valva neo-aórtica, mas isso não justifica a escolha desse código específico.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NB31.0": {
+      "term_original": "de epistaxe",
+      "capitulo": "22",
+      "confidence_embedding": 0.7146,
+      "descricao_cid": "Representação de doença CID-11: Lesão do coração com hemopericardio. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NB31.0, Lesão do coração com hemopericardio, pois o paciente apresentou episódios de epistaxe (hemorragia nasal) não volumosas, sugerindo uma lesão no coração.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão do coração com hemopericardio (NB31.0) não é diretamente relacionada ao termo 'epistaxe', que se refere a uma hemorragia nasal, e não há evidência clínica de hemopericardio no prontuário. A opção mais precisa seria um código que represente a lesão nasal ou a epistaxe em si.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "AA91.2": {
+      "term_original": "lesão da mucosa septal por manipulação",
+      "capitulo": "10",
+      "confidence_embedding": 0.7133,
+      "descricao_cid": "Representação de doença CID-11: Outra otite média crônica supurativa. Definição: Isso envolve uma perfuração (orifício) na membrana timpânica e infecção bacteriana ativa no espaço da orelha média por várias semanas ou mais. Pode haver pus suficiente para drenar para fora da orelha (otorreia), ou a purulência pode ser mínima o suficiente para ser observada apenas no exame com um microscópio binocular.",
+      "classification_reasoning": "A lesão da mucosa septal por manipulação é mais relacionada à otite média crônica supurativa, caracterizada por uma perfuração na membrana timpânica e infecção bacteriana ativa no espaço da orelha média. Isso se encaixa melhor com o código AA91.2 do que com os outros códigos sugeridos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão da mucosa septal por manipulação não está diretamente relacionada à otite média crônica supurativa. A descrição do prontuário refere-se a uma lesão na mucosa septal causada por manipulação, que não é o mesmo que otite média crônica supurativa. O código CID-11 AA91.2 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BC80.3": {
+      "term_original": "cansaço",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A palavra 'cansaço' está relacionada ao sintoma de fadiga e esgotamento do paciente, o que é comum em pacientes com problemas cardíacos crônicos, como a valvulopatia apresentada pelo paciente.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A palavra 'cansaço' está relacionada ao sintoma de fadiga e esgotamento do paciente, o que é comum em pacientes com problemas cardíacos crônicos, como a valvulopatia apresentada pelo paciente. A codificação CID-11 BC80.3 para 'Cansaço' é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BC04.9": {
+      "term_original": "estenose aortica",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A estenose aortica mencionada no contexto é uma obstrução adquirida para fluir através da valva neopulmonar, ou seja, a valva aórtica nativa que se tornou a valva neopulmonar funcional após a operação de troca arterial. O código BC04.9 é o mais preciso para representar essa condição.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A estenose aortica mencionada no prontuário refere-se à obstrução adquirida da valva aórtica nativa, que se tornou a valva neopulmonar funcional após a operação de troca arterial. O código BC04.9 é o mais preciso para representar essa condição, pois está diretamente relacionado ao termo descrito no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "CA22.0": {
+      "term_original": "dispneia",
+      "capitulo": "12",
+      "confidence_embedding": 0.7608,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A dispneia mencionada no contexto clínico é caracterizada por uma piora aguda dos sintomas respiratórios, incluindo falta de ar, o que está alinhado com a definição da doença pulmonar obstrutiva crônica com exacerbação aguda não especificada (CA22.0).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dispneia mencionada no prontuário é um sintoma respiratório agudo, não uma doença pulmonar obstrutiva crônica com exacerbação aguda. A classificação CA22.0 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    }
+  }
+}

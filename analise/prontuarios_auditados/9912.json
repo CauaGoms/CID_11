@@ -1,0 +1,131 @@
+{
+  "prontuario_id": 880,
+  "text": "Lucas, 42 ANOS, SERVENTE, \n# PO RETIRADA DE ILIZAROV MID DIA 11/01/16\n# PSA TIBIA\n# OSTEOMIELITE TIBIA\n# FX TIBIA DIREITA - 2005\n# TTO COM FX EST POR 2X EM OUTRO SERVICO E 1X SANTA CASA\n# ALONGAMENTO OSSEO MID REALIZADO EM 10/2013 E RETIRADA MATERIAL EM 06/2014\n# NOVO ILIZAROV - 12/2014\n# COLISÃO MOTO x MOTO COM FRATURA DE TÍBIA HÁ 10 ANOS,TRATAMENTO COM FIXADOR EXTERNO POR 3 MESES, RETIRADA E RECOLOCAÇÃO POR 3X, 2X EM OUTRO SERVIÇO E 1X NA SANTA CASA. ALONGAMENTO ÓSSEO MID REALIZADO EM 10/2013 E RETIRADO 6/2014, FEZ USO DE ROBOFOOT. EM 15/12/14 NOVO ILIZAROV.\n\nS # PACIENTE SEM QUEIXAS. EM USO DE ROBOFOOT. \nO # FO LIMPA SECA E SEM SINAIS FLOGISTICOS\nA # PSA TIBIA DIREITA\nP # MANTER ROBOFOOT, CARGA PARCIAL, RETORNO EM 45 DIAS  COM NOVO RX\n\nR1 Doutor Vital Brazil\n \n \n ",
+  "entities": {
+    "Conceito Temporal": [
+      "PO",
+      "HÁ 10 ANOS",
+      "45 DIAS"
+    ],
+    "Abreviação": [
+      "PO",
+      "MID",
+      "TTO",
+      "FO",
+      "RX",
+      "R1",
+      "PSA TIBIA",
+      "FX EST",
+      "ALONGAMENTO OSSEO MID",
+      "ALONGAMENTO ÓSSEO",
+      "PSA TIBIA DIREITA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MID",
+      "TIBIA DIREITA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TTO",
+      "ILIZAROV",
+      "TRATAMENTO",
+      "RETIRADA DE ILIZAROV",
+      "ALONGAMENTO OSSEO MID",
+      "RETIRADA MATERIAL",
+      "ALONGAMENTO ÓSSEO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "REALIZADO",
+      "RETIRADA",
+      "RECOLOCAÇÃO",
+      "RETIRADO",
+      "RETORNO"
+    ],
+    "Dispositivo Médico": [
+      "ROBOFOOT",
+      "ILIZAROV",
+      "FX EST",
+      "FIXADOR EXTERNO"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "SINAIS FLOGISTICOS"
+    ],
+    "Lesão ou Envenenamento": [
+      "FO",
+      "COLISÃO MOTO x MOTO",
+      "FRATURA DE TÍBIA"
+    ],
+    "Achado": [
+      "LIMPA",
+      "SECA"
+    ],
+    "Procedimento Diagnóstico": [
+      "RX"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "R1",
+      "Doutor"
+    ],
+    "Doença ou Síndrome": [
+      "OSTEOMIELITE TIBIA"
+    ]
+  },
+  "labels": {
+    "NA06.00": {
+      "term_original": "fo",
+      "capitulo": "22",
+      "confidence_embedding": 0.7513,
+      "descricao_cid": "Representação de doença CID-11: Avulsão da pálpebra. Definição: Lesão em que uma estrutura corporal é forçadamente destacada do seu ponto normal de inserção por traumatismo ou cirurgia. O termo mais comumente se refere a um traumatismo de superfície em que todas as camadas da pele foram laceradas, expondo estruturas subjacentes (isto é, tecido subcutâneo, músculo, tendões ou osso). É semelhante a uma abrasão, mas mais grave, em que a pálpebra pode estar parcial ou completamente destacada do corpo.",
+      "classification_reasoning": "A opção mais precisa é a NA06.00 pois o termo 'fo' se refere à representação de doença CID-11: Avulsão da pálpebra, que se encaixa com a descrição do paciente apresentando apenas uma lesão secundária na tibia e não há nenhuma indicação de lesão cutânea ou traumatismo facial.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'fo' não se refere à Avulsão da pálpebra, como descrito no sistema. A análise do prontuário revela que o paciente tem uma lesão na tibia e não há nenhuma indicação de lesão cutânea ou traumatismo facial. Portanto, a codificação CID-11 NA06.00 é incorreta e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB80.9": {
+      "term_original": "fratura de tíbia",
+      "capitulo": "15",
+      "confidence_embedding": 0.7578,
+      "descricao_cid": "Representação de doença CID-11: Atraso de consolidação de fratura. Definição: ",
+      "classification_reasoning": "A fratura de tíbia é a condição principal que justifica a presença do paciente no prontuário, portanto, a opção mais precisa é a representação de doença CID-11: Atraso de consolidação de fratura.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fratura de tíbia descrita no prontuário é uma condição clínica específica, enquanto o código CID-11 FB80.9 representa atraso de consolidação de fratura, que não é a mesma coisa. A fratura de tíbia é um evento traumático que ocorreu há 10 anos e foi tratada com fixador externo por 3 meses, seguido de alongamento ósseo mid e retirada do material em 06/2014. Portanto, o código CID-11 FB80.9 não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB84.4": {
+      "term_original": "osteomielite tibia",
+      "capitulo": "15",
+      "confidence_embedding": 0.7826,
+      "descricao_cid": "Representação de doença CID-11: Osteomielite crônica com seio drenante. Definição: ",
+      "classification_reasoning": "A escolha do código FB84.4 é justificada pelo fato de Lucas ter uma osteomielite tibia, mencionada como uma condição crônica com seio drenante, o que caracteriza a forma crônica da doença.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código FB84.4 é justificada pelo fato de Lucas ter uma osteomielite tibia, mencionada como uma condição crônica com seio drenante, o que caracteriza a forma crônica da doença. A descrição do prontuário está claramente relacionada ao código CID-11, portanto, é válido manter o código FB84.4.",
+      "tipo_erro_auditoria": null
+    },
+    "NC77.Z": {
+      "term_original": "colisão moto x moto",
+      "capitulo": "22",
+      "confidence_embedding": 0.7161,
+      "descricao_cid": "Representação de doença CID-11: Lesão por esmagamento do quadril ou coxa, não especificada. Definição: ",
+      "classification_reasoning": "A colisão moto x moto é uma forma de lesão por esmagamento, caracterizando-se como uma fratura ou lesão não especificada na região do quadril ou coxa.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A colisão moto x moto não é especificamente descrita como uma lesão na região do quadril ou coxa, mas sim como uma fratura ou lesão não especificada na tibia. O código CID-11 NC77.Z não se aplica claramente ao termo extraído, pois a colisão moto x moto não é um tipo de lesão por esmagamento no quadril ou coxa.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "ME83": {
+      "term_original": "sinais flogisticos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7439,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo, não especificado. Definição: É um grupo de doenças marcadas por inflamação ou dor em estruturas de tecido conjuntivo do corpo e é considerado não especificado.",
+      "classification_reasoning": "A opção ME83 (Reumatismo, não especificado) é a mais precisa para o termo 'sinais flogisticos' no contexto do prontuário. A presença de osteomielite e fratura de tibia com alongamento ósseo mid realizada em 2013 e retirada material em 2014 sugere uma história de inflamação ou dor em estruturas de tecido conjuntivo, o que é compatível com a definição do Reumatismo não especificado.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção ME83 (Reumatismo, não especificado) é a mais precisa para o termo 'sinais flogisticos' no contexto do prontuário. A presença de osteomielite e fratura de tibia com alongamento ósseo mid realizada em 2013 e retirada material em 2014 sugere uma história de inflamação ou dor em estruturas de tecido conjuntivo, o que é compatível com a definição do Reumatismo não especificado.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

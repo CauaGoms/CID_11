@@ -1,0 +1,137 @@
+{
+  "prontuario_id": 514,
+  "text": "EVOLUÇAO DIA 01/01/10  16:57h Veio do CC as 10h acordado,responsivo,respiraçao espontanea em ar ambiente,no momneto em repouso no leito e com relato de algia em reg. incisao cirurgica abdominal com debito hematico e dreno de suctor a esquerda com debito hematico + dreno de torax a esquerda com 250ml de debito sanguinolento ate o momento. Apresenta acesso venoso periferico MSD salinizado e diurese por SVD presente em coletor amarelo citrico.Enfermeria Florence coren 9999",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "EVOLUÇAO"
+    ],
+    "Conceito Temporal": [
+      "DIA",
+      "10h",
+      "no momneto",
+      "o momento"
+    ],
+    "Abreviação": [
+      "CC",
+      "10h",
+      "250ml",
+      "MSD",
+      "SVD"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CC"
+    ],
+    "Achado": [
+      "acordado",
+      "responsivo",
+      "salinizado",
+      "diurese",
+      "presente",
+      "respiraçao espontanea",
+      "repouso no leito",
+      "amarelo citrico"
+    ],
+    "Localização ou Região Corporal": [
+      "esquerda",
+      "torax",
+      "MSD",
+      "incisao cirurgica abdominal"
+    ],
+    "Dispositivo Médico": [
+      "dreno",
+      "SVD",
+      "coletor",
+      "dreno de suctor",
+      "acesso venoso periferico"
+    ],
+    "Conceito Quantitativo": [
+      "250ml"
+    ],
+    "Conceito Qualitativo": [
+      "salinizado"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "salinizado",
+      "SVD",
+      "repouso no leito",
+      "dreno de suctor",
+      "acesso venoso periferico"
+    ],
+    "Função Fisiológica": [
+      "diurese"
+    ],
+    "Função de Organismo": [
+      "diurese"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeria"
+    ],
+    "Sinal ou Sintoma": [
+      "de algia",
+      "debito hematico",
+      "debito sanguinolento"
+    ]
+  },
+  "labels": {
+    "6C40.3": {
+      "term_original": "responsivo",
+      "capitulo": "06",
+      "confidence_embedding": 0.7571,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas.",
+      "classification_reasoning": "O termo 'responsivo' indica que o paciente responde às ordens e está alerta, sugerindo que a condição clinicamente significativa seja uma intoxicação por álcool, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'responsivo' não se refere a uma intoxicação por álcool, como descrito na definição do código CID-11. A condição clinicamente significativa é mais relacionada à evolução da cirurgia abdominal e ao estado geral do paciente após o procedimento, e não apresenta sintomas de intoxicação por álcool.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "4.31": {
+      "term_original": "de algia",
+      "capitulo": "04",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A apresentação de algia em região de incisão cirúrgica abdominal com dreno de sangue indica possível dor crônica ou neuropática, apoiando a escolha do termo 'Dor Crônica' (4.31) da CID-11.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A apresentação de algia em região de incisão cirúrgica abdominal com dreno de sangue não é suficiente para justificar a escolha do termo 'Dor Crônica' (4.31) da CID-11. A dor pode ser aguda e relacionada ao processo cirúrgico, portanto, o código CID-11 não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "3A94": {
+      "term_original": "debito hematico",
+      "capitulo": "03",
+      "confidence_embedding": 0.7295,
+      "descricao_cid": "Representação de doença CID-11: Anemia pós-hemorrágica aguda. Definição: Doença causada pela perda sanguínea como a subsequente a traumatismo. Esta doença é caracterizada por perda de sangue do corpo levando a níveis diminuídos de glóbulos vermelhos/sangue no organismo. Esta doença se manifesta com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de níveis baixos de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "A presença de 'debito hematico' no contexto do prontuário sugere perda sanguínea crônica, o que é consistente com a definição de anemia pós-hemorrágica aguda.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'debito hematico' no prontuário sugere perda sanguínea aguda, não crônica. A definição da anemia pós-hemorrágica aguda se refere a perda sanguínea subsequente a traumatismo, o que não é consistente com a situação descrita no prontuário. Além disso, a presença de drenos e acesso venoso periferico MSD salinizado sugere uma situação mais complexa que não se enquadra na definição da anemia pós-hemorrágica aguda.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB21.1": {
+      "term_original": "respiraçao espontanea",
+      "capitulo": "12",
+      "confidence_embedding": 0.766,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A presença de respiração espontânea em ar ambiente e a descrição do paciente como 'responsivo' sugerem que o paciente não está apresentando insuficiência respiratória aguda, portanto, a opção mais precisa é 'Pneumotórax espontâneo não hipertensivo' (CB21.1).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de respiração espontânea em ar ambiente não é um pneumotórax espontâneo, pois o paciente está apresentando respiração espontânea e não há indicação de insuficiência respiratória aguda. A opção mais precisa seria uma classificação que represente a condição clínica descrita no prontuário, como por exemplo, 'CB45.9 - Outra lesão abdominal' ou 'CC43.0 - Hemorragia abdominal'.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BB24": {
+      "term_original": "debito sanguinolento",
+      "capitulo": "11",
+      "confidence_embedding": 0.7713,
+      "descricao_cid": "Representação de doença CID-11: Hemopericárdio. Definição: Hemopericárdio causado por doenças não classificadas em outra parte. Hemopericárdio geralmente se refere a sangue no saco pericárdico do coração. É clinicamente semelhante ao derrame pericárdico e, dependendo do volume e da rapidez com que se desenvolve, pode causar tamponamento cardíaco.",
+      "classification_reasoning": "A opção mais precisa para o termo 'debito sanguinolento' no contexto clínico é a hemopericárdio (BB24), pois o texto refere-se ao dreno de torax com 250ml de debito sanguinolento, o que sugere a presença de sangue na cavidade pericárdica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BB24 (Hemopericárdio) não é apropriada porque o prontuário descreve um dreno de torax com 250ml de debito sanguinolento, que não necessariamente implica a presença de sangue na cavidade pericárdica. Além disso, a descrição do código CID-11 não se ajusta ao contexto clínico apresentado no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.2": {
+      "term_original": "amarelo citrico",
+      "capitulo": "21",
+      "confidence_embedding": 0.7089,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A presença de 'amarelo citrico' no contexto do prontuário indica a existência de um dreno de suctor a esquerda com debito hematico, o que sugere uma possível lesão tecidual ou cirurgia abdominal recente. A dor crônica pós-operatória ou pós-traumática (MG30.2) é mais adequada para descrever essa situação do que as outras opções, pois a descrição inclui a possibilidade de dor persistente após uma lesão tecidual ou cirurgia abdominal.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 MG30.2 'Dor crônica pós-operatória ou pós-traumática' é válida pois a presença de 'amarelo citrico' no prontuário indica a existência de um dreno de suctor a esquerda com debito hematico, o que sugere uma possível lesão tecidual ou cirurgia abdominal recente. A dor crônica pós-operatória ou pós-traumática é mais adequada para descrever essa situação do que as outras opções.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

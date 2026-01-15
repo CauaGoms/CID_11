@@ -1,0 +1,81 @@
+{
+  "prontuario_id": 7,
+  "text": "PACIENTE COM DIAGNÓSTICO DE CA DE MAMA POR CORE BIOPSY,  SUBMETIDA A SETORECTOMIA + PESQ . LINFONODO SENTINELA ( GAMA PROBE ) EM 13/06/07. LINFONODO SENTINELA NEGATIVO NA CONGLAÇÃO. PROCEDIMENTO SEM INTERCORRÊNCIAS . APRESENTOU BOA EVOLUÇÃO PÓS-OPERATÓRIA. RCEBE ALTA EM BOAS CONDIÇÕES CLÍNICAS COM AS ORIENTAÇÕES ABAIXO.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Procedimento Diagnóstico": [
+      "DIAGNÓSTICO",
+      "CONGLAÇÃO",
+      "CORE BIOPSY"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SETORECTOMIA",
+      "PROCEDIMENTO"
+    ],
+    "Abreviação": [
+      "PESQ",
+      "CA DE MAMA"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "INTERCORRÊNCIAS"
+    ],
+    "Conceito Temporal": [
+      "PÓS-OPERATÓRIA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "PÓS-OPERATÓRIA",
+      "ORIENTAÇÕES"
+    ],
+    "Processo Neoplásico": [
+      "CA DE MAMA"
+    ],
+    "Dispositivo Médico": [
+      "GAMA PROBE"
+    ],
+    "Achado": [
+      "LINFONODO SENTINELA NEGATIVO",
+      "BOA EVOLUÇÃO",
+      "BOAS CONDIÇÕES CLÍNICAS"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "LINFONODO SENTINELA NEGATIVO"
+    ]
+  },
+  "labels": {
+    "2C61": {
+      "term_original": "ca de mama",
+      "capitulo": "02",
+      "confidence_embedding": 0.7726,
+      "descricao_cid": "Representação de doença CID-11: Carcinoma invasivo da mama. Definição: ",
+      "classification_reasoning": "A escolha do código 2C61 está de acordo com o diagnóstico de CA de mama por core biopsy, que é um tipo de carcinoma invasivo da mama.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O código CID-11 2C61 'Representação de doença: Carcinoma invasivo da mama' é clinicamente coerente com o diagnóstico de CA de mama por core biopsy descrito no prontuário. A escolha do código está justificada e não há contradição óbvia ou falta de base no texto que justifique a remoção.",
+      "tipo_erro_auditoria": null
+    },
+    "NE81.0Z": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.7426,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NE81.0Z, pois o termo 'intercorrências' refere-se ao surgimento de complicações durante ou após um procedimento médico, como na cirurgia realizada no paciente. Essa definição se ajusta melhor ao contexto clínico do prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'intercorrências' refere-se a complicações durante ou após um procedimento, o que não se ajusta ao código CID-11 NE81.0Z, que representa hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento. A definição do sistema é mais específica e não se relaciona à falta de intercorrências durante a cirurgia. Portanto, o código CID-11 atribuído não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "2e+88": {
+      "term_original": "linfonodo sentinela negativo",
+      "capitulo": "02",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'linfonodo sentinela negativo' é o código de doença CID-11 referente ao procedimento de linfadenite, que não apresenta resultado positivo. Nesse contexto clínico, a escolha do código 2E88 (Linfonodite) é mais precisa porque refere-se à ausência de lesão maligna no linfonodo sentinela.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 atribuído (2e+88) refere-se à linfonodite, que não é apropriada para um termo clínico como 'linfonodo sentinela negativo'. A ausência de lesão maligna no linfonodo sentinela não é uma doença em si mesma, mas sim um resultado da biópsia. Portanto, o código atribuído não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "negated_finding"
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "prontuario_id": 206,
+  "text": "Pcte hipertensa, diabética, história de IAM prévio e com angina aos esforços, internou em 04/04/07 para ACTP + stent em ADA proximal + angioplastia com balão dos terços médio e distal da ADA. Procedimento sem intercorrências. Boa evolução clínica.   Recomendações: - Retornar ao XXXX em 18/04/07 (4a feira) às 13h para realizaçõa de ACTP + stent em ACD (jejum após café da manhã). - Ticlopidina 250mg 12/12h por no mínimo 3 meses. - AAS 200 mg dia contínuo. - Sinvastatina 20mg à noite. - Demais medicamentos conforme médico assistente. - Procurar emergência se retorno dos sintomas.",
+  "entities": {
+    "Abreviação": [
+      "Pcte",
+      "ADA",
+      "ACD",
+      "AAS",
+      "IAM prévio",
+      "ACTP + stent",
+      "ADA proximal"
+    ],
+    "Doença ou Síndrome": [
+      "hipertensa",
+      "diabética",
+      "IAM prévio"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "internou",
+      "Recomendações",
+      "Retornar",
+      "Procurar",
+      "conforme médico assistente"
+    ],
+    "Localização ou Região Corporal": [
+      "distal",
+      "terços médio"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ADA",
+      "ACD",
+      "ADA proximal"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Procedimento",
+      "ACTP + stent",
+      "angioplastia com balão",
+      "jejum após café da manhã"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "intercorrências",
+      "sintomas",
+      "angina aos esforços"
+    ],
+    "Substância Química Orgânica": [
+      "Ticlopidina",
+      "AAS",
+      "Sinvastatina"
+    ],
+    "Substância Farmacológica": [
+      "Ticlopidina",
+      "AAS",
+      "Sinvastatina",
+      "medicamentos"
+    ],
+    "Conceito Temporal": [
+      "contínuo",
+      "mínimo 3 meses",
+      "à noite"
+    ],
+    "Conceito Quantitativo": [
+      "20mg",
+      "250mg 12/12h",
+      "200 mg"
+    ],
+    "Organização Relacionada à Saúde": [
+      "emergência"
+    ],
+    "Achado": [
+      "Boa evolução clínica"
+    ]
+  },
+  "labels": {
+    "MC80.0Y": {
+      "term_original": "sintomas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7372,
+      "descricao_cid": "Representação de doença CID-11: Outro valor elevado da pressão arterial especificado, sem diagnóstico de hipertensão. Definição: ",
+      "classification_reasoning": "A opção mais precisa é MC80.0Y pois o termo 'sintomas' está relacionado à representação de doença CID-11: Outro valor elevado da pressão arterial especificado, sem diagnóstico de hipertensão.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'sintomas' não representa diretamente a doença descrita no prontuário, que é hipertensão e doenças relacionadas. A opção MC80.0Y não está clínicamente coerente com o conteúdo do prontuário, pois 'sintomas' não é um diagnóstico de hipertensão ou doença cardiovascular. A classificação deve ser mais específica e relacionada ao diagnóstico de hipertensão e doenças cardiovasculares.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BA40.Y": {
+      "term_original": "diabética",
+      "capitulo": "11",
+      "confidence_embedding": 0.8035,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A escolha por BA40.Y se justifica pois o termo extraído é 'diabética', que está relacionado à doença de diabetes, e não ao contexto da hipertensão ou das complicações cardíacas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'diabética' não está diretamente relacionado à angina pectoris especificada (BA40.Y). A diabetes é uma doença metabólica, enquanto a angina pectoris é uma condição cardíaca. Embora haja uma possibilidade de comorbidade entre as duas doenças, o termo 'diabética' não é suficientemente específico para justificar a escolha do código BA40.Y. Uma classificação mais adequada seria um código relacionado à diabetes (ex: DM1.X) ou um código que aborda a comorbidade entre diabetes e doenças cardíacas.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NB90.5Y": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.774,
+      "descricao_cid": "Representação de doença CID-11: Outra lesão especificada dos vasos sanguíneos renais. Definição: ",
+      "classification_reasoning": "Escolha pelo termo 'intercorrências' que refere-se a situações inesperadas e adversas durante o procedimento médico, como é o caso da internação para ACTP + stent em ADA proximal + angioplastia com balão dos terços médio e distal da ADA. O código NB90.5Y, Lesão especificada dos vasos sanguíneos renais, se aplica pois descreve uma lesão nos vasos sanguíneos que pode ser relacionada a intercorrências durante o procedimento.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 NB90.5Y, Lesão especificada dos vasos sanguíneos renais, não representa fielmente o termo 'intercorrências' descrito no prontuário. O termo 'intercorrências' refere-se a situações inesperadas e adversas durante o procedimento médico, enquanto a codificação CID-11 se refere a uma lesão nos vasos sanguíneos renais. A lógica clínica indica que a codificação não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA83": {
+      "term_original": "iam prévio",
+      "capitulo": "11",
+      "confidence_embedding": 0.8046,
+      "descricao_cid": "Representação de doença CID-11: Fístula da artéria coronária, adquirida. Definição: Comunicação anormal entre uma artéria coronária e câmara cardíaca ou vasos principais, adquirida após cirurgia coronária ou cardíaca, angioplastia coronária, ruptura ou aneurisma da artéria coronária ou lesão do coração.",
+      "classification_reasoning": "O termo 'IAM prévio' refere-se à Fístula da artéria coronária adquirida, o que é consistente com a história do paciente de ter tido um procedimento de angioplastia e estentagem para tratar de uma doença cardíaca, tornando BA83 a opção mais precisa.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'IAM prévio' não se refere a uma Fístula da artéria coronária adquirida, como descrito no código CID-11. Em vez disso, refere-se a um Infarto Agudo do Miocárdio (IAM) anterior, que é uma condição clínica diferente da Fístula da artéria coronária. Portanto, o código CID-11 atribuído não representa fielmente o termo ou a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA01": {
+      "term_original": "hipertensa",
+      "capitulo": "11",
+      "confidence_embedding": 0.8336,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A indicação do termo 'hipertensa' no contexto do prontuário refere-se à doença cardíaca hipertensiva, que é uma condição caracterizada pela pressão arterial elevada e pode levar a lesões cardíacas. O código BA01 representa essa condição.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A indicação do termo 'hipertensa' no contexto do prontuário refere-se à doença cardíaca hipertensiva, que é uma condição caracterizada pela pressão arterial elevada e pode levar a lesões cardíacas. O código BA01 representa essa condição, portanto, a codificação CID-11 é CLINICAMENTE COERENTE com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BA85": {
+      "term_original": "angina aos esforços",
+      "capitulo": "11",
+      "confidence_embedding": 0.797,
+      "descricao_cid": "Representação de doença CID-11: Doença vasoespástica coronariana. Definição: O termo doença coronariana vasoespástica refere-se a uma vasoconstrição súbita e intensa de uma artéria coronária epicárdica que causa a oclusão ou quasi-oclusão do vaso. Embora possa estar envolvido em outras síndromes coronárias, representa a causa habitual de angina variante.",
+      "classification_reasoning": "A angina aos esforços é uma forma de apresentação da doença coronariana vasoespástica, caracterizada por dor torácica provocada por exercícios físicos. Nesse contexto, a escolha do código BA85 é a mais precisa pois descreve a causa habitual de angina variante.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A angina aos esforços é uma forma de apresentação da doença coronariana vasoespástica, caracterizada por dor torácica provocada por exercícios físicos. Como o prontuário descreve a história do paciente com angina aos esforços e procedimento para ACTP + stent em ADA proximal + angioplastia com balão dos terços médio e distal da ADA, é lógico manter o código BA85 pois representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

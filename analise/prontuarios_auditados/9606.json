@@ -1,0 +1,169 @@
+{
+  "prontuario_id": 381,
+  "text": "tx renal \nem uso de  MET 5, TACROLIMO 1 / 1, AZA 2, BACTRIM, LEVO 50, INSULINA LANTUS 35\nS # SEM QUEIXAS\nO # PESO 56\nPA 110/70\nPALIDEZ CUTANEOMUCOSA\nCPP LIVRES\nABDOME SP\nTROCO BACTRIM\nRETORNO EM 1 MêS\nTX RENAL CR 1,1, TACROLIMO 0 ?\nHAS COMPENSADO \nITU ESBL TRATADA NO INCIO DO MêS\nANEMIA\nPROFILAXIA > TROCO BACTRIM POR MACRODANTINA\nTIRÓIDE COMPENSADO\n ",
+  "entities": {
+    "Substância Farmacológica": [
+      "MET",
+      "TACROLIMO",
+      "AZA",
+      "BACTRIM",
+      "LEVO",
+      "MACRODANTINA",
+      "INSULINA LANTUS"
+    ],
+    "Hormônio": [
+      "MET",
+      "LEVO",
+      "INSULINA LANTUS"
+    ],
+    "Substância Química Orgânica": [
+      "MET",
+      "TACROLIMO",
+      "AZA",
+      "BACTRIM",
+      "MACRODANTINA"
+    ],
+    "Abreviação": [
+      "MET",
+      "AZA",
+      "LEVO",
+      "PA",
+      "HAS",
+      "ITU",
+      "ESBL",
+      "tx renal",
+      "CPP LIVRES",
+      "TX RENAL",
+      "CR 1 , 1"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "2",
+      "50",
+      "35",
+      "110/70",
+      "1 / 1"
+    ],
+    "Substância Perigosa ou Venenosa": [
+      "AZA"
+    ],
+    "Antibiótico": [
+      "BACTRIM",
+      "LEVO",
+      "MACRODANTINA"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "LEVO"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "PALIDEZ CUTANEOMUCOSA"
+    ],
+    "Atributo Clínico": [
+      "PESO",
+      "PA"
+    ],
+    "Achado": [
+      "SP",
+      "CPP LIVRES",
+      "TIRÓIDE COMPENSADO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "TROCO",
+      "RETORNO"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "ITU",
+      "ANEMIA"
+    ],
+    "Conceito Qualitativo": [
+      "COMPENSADO"
+    ],
+    "Função Patológica": [
+      "ITU"
+    ],
+    "Bactéria": [
+      "ESBL"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TRATADA",
+      "PROFILAXIA",
+      "tx renal",
+      "TX RENAL"
+    ],
+    "Conceito Temporal": [
+      "EM 1 MêS",
+      "NO INCIO DO MêS"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 1 , 1",
+      "TACROLIMO 0"
+    ]
+  },
+  "labels": {
+    "NC95.Z": {
+      "term_original": "esbl",
+      "capitulo": "22",
+      "confidence_embedding": 0.6826,
+      "descricao_cid": "Representação de doença CID-11: Lesão de vaso sanguíneo não especificado na perna. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NC95.Z, pois o termo 'esbl' refere-se a uma infecção bacteriana em um vaso sanguíneo não especificado na perna.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'esbl' refere-se a uma infecção bacteriana em um vaso sanguíneo não especificado na perna, mas no prontuário não há menção à lesão ou doença renal específica. A opção NC95.Z não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA02": {
+      "term_original": "sp",
+      "capitulo": "11",
+      "confidence_embedding": 0.7065,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A opção mais precisa para o termo 'SP' é a Doença renal hipertensiva (Código: BA02), pois no contexto do prontuário, há referências à doença renal e ao uso de tratamento renovascular.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'SP' é a Doença renal hipertensiva (Código: BA02), pois no contexto do prontuário, há referências à doença renal e ao uso de tratamento renovascular. Ajusta-se perfeitamente com a definição da doença renal hipertensiva, que se refere a danos ao rim devido à hipertensão crônica.",
+      "tipo_erro_auditoria": null
+    },
+    "EC90.1": {
+      "term_original": "palidez cutaneomucosa",
+      "capitulo": "14",
+      "confidence_embedding": 0.7257,
+      "descricao_cid": "Representação de doença CID-11: Prurido devido a transtorno sistêmico. Definição: Prurido devido a transtorno sistêmico subjacente, como insuficiência renal ou icterícia colestática.",
+      "classification_reasoning": "A palidez cutaneomucosa é um sintoma comum em pacientes com insuficiência renal crônica, e o prontuário apresenta história de tx renal crônica em uso. Portanto, a escolha mais precisa para o termo 'palidez cutaneomucosa' é EC90.1, que descreve o prurido devido a transtorno sistêmico subjacente, como insuficiência renal.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A palidez cutaneomucosa é um sintoma comum em pacientes com insuficiência renal crônica, e o prontuário apresenta história de tx renal crônica em uso. Portanto, a escolha do código EC90.1 para o termo 'palidez cutaneomucosa' é clínica e coerente, pois descreve o prurido devido a transtorno sistêmico subjacente, como insuficiência renal.",
+      "tipo_erro_auditoria": null
+    },
+    "BC80.9": {
+      "term_original": "itu",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é a BC80.9, pois o termo 'ITU' se refere à Insuficiência Tireóidea Aguda, uma condição médica grave que pode levar a complicações graves se não tratada adequadamente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'ITU' se refere a Insuficiência Renal, não Tireóidea. A opção BC80.9 não é adequada para representar essa condição clínica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "3A71.2": {
+      "term_original": "anemia",
+      "capitulo": "03",
+      "confidence_embedding": 0.802,
+      "descricao_cid": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "A escolha do código 3A71.2 é justificada pelo contexto clínico que apresenta anemia na doença renal crônica, o que é caracterizado por baixos níveis de glóbulos vermelhos no organismo, e a confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A anemia descrita no prontuário é diretamente relacionada à doença renal crônica, o que é caracterizado por baixos níveis de glóbulos vermelhos no organismo. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue, o que coincide com a definição do código CID-11 3A71.2. Portanto, a codificação é clinicamente coerente e válida.",
+      "tipo_erro_auditoria": null
+    },
+    "5C70.0": {
+      "term_original": "tiróide compensado",
+      "capitulo": "05",
+      "confidence_embedding": 0.7591,
+      "descricao_cid": "Representação de doença CID-11: Desidratação. Definição: A desidratação ocorre quando há uma quantidade insuficiente ou perda excessiva de água no corpo. Isso pode ser causado por vômitos, diarreia, febre, uso de diuréticos, sudorese profusa ou diminuição da ingestão de água.",
+      "classification_reasoning": "A palavra 'compensado' sugere que o paciente tem uma resposta adequada ao estresse ou desidratação, portanto, a opção mais precisa é a Representação de doença CID-11: Desidratação.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'compensado' sugere que o paciente tem uma resposta adequada ao estresse ou desidratação, mas a descrição do código CID-11 (Desidratação) não se aplica ao termo 'Tiróide compensado'. A presença de 'compensado' indica que a função tireoidiana está dentro da faixa normal, o que não é relacionado à desidratação. Portanto, a classificação CID-11 5C70.0 não é clínica ou coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "prontuario_id": 738,
+  "text": "Há 30 dias sentiu uma dor em MSD e notou que o 4° e 5° QDD caíram e não conseguiu mais extender.\nTRata de AR há 8 anos. \nVem para avaliar Rotura de 4° e 5° tendões extensores de mão D.      ",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "dor",
+      "4° e 5° QDD caíram"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD"
+    ],
+    "Abreviação": [
+      "MSD",
+      "AR",
+      "4° e 5° QDD caíram"
+    ],
+    "Negação": [
+      "não"
+    ],
+    "Doença ou Síndrome": [
+      "AR"
+    ],
+    "Achado": [
+      "conseguiu mais extender"
+    ]
+  },
+  "labels": {
+    "FB53": {
+      "term_original": "4° e 5° qdd caíram",
+      "capitulo": "15",
+      "confidence_embedding": 0.6907,
+      "descricao_cid": "Representação de doença CID-11: Lesões do ombro. Definição: Este é um grupo de transtornos que usualmente se caracterizam pela presença de dor e redução da amplitude de movimento da cintura escapular",
+      "classification_reasoning": "A dor em MSD e a redução da amplitude de movimento da cintura escapular, caracterizada pelo cair do 4° e 5° QDD, são sintomas compatíveis com lesões do ombro (Lesões do ombro - FB53).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão descrita no prontuário é especificamente uma rotura de 4° e 5° tendões extensores da mão direita, enquanto o código CID-11 FB53 se refere a lesões do ombro. Embora haja dor envolvida, a localização anatômica e a natureza da lesão não são compatíveis com o código atribuído.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA23": {
+      "term_original": "ar",
+      "capitulo": "12",
+      "confidence_embedding": 0.7271,
+      "descricao_cid": "Representação de doença CID-11: Asma. Definição: Asma é um transtorno inflamatório crônico das vias aéreas na qual muitas células e elementos celulares têm um papel. É caracterizada por uma responsividade aumentada de traqueia e brônquios a vários estímulos e se manifesta por um estreitamento difuso das vias aéreas que altera em gravidade tanto espontaneamente quanto como resultado de tratamento. Isso ocasiona episódios recorrentes de sibilância, falta de ar, sensação de aperto no peito e tosse, particularmente à noite ou no início da manhã.",
+      "classification_reasoning": "A opção mais precisa para o termo 'AR' no contexto clínico é a Asma (CA23), pois há histórico de AR há 8 anos e o paciente está sofrendo com dor em MSD, possivelmente relacionada à doença pulmonar crônica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor em MSD e a rotura de 4° e 5° tendões extensores de mão D não estão relacionadas à Asma (CA23). A presença de AR há 8 anos é um fato histórico, mas o termo 'AR' no contexto clínico refere-se mais à dor em MSD do que à doença pulmonar crônica. Portanto, a codificação CID-11 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MG30.31": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.756,
+      "descricao_cid": "Representação de doença CID-11: Dor musculoesquelética secundária crônica associada a alterações estruturais. Definição: Dor musculoesquelética secundária crônica associada a alterações estruturais é uma dor crônica de mecanismo(s) desconhecido(s), que é atribuível a alterações anatômicas em articulação(ões), osso(s) ou tendão(ões). A alteração estrutural precisa ser inferida a partir de exame clínico e/ou demonstrável por exame de imagem. A dor pode ser espontânea ou induzida por movimento. É caracterizada por aspectos clínicos como inchaço, alodinia ou restrição de movimentos.\r\n\r\nCritérios de Diagnóstico:\r\n\r\nAs condições de A a D são preenchidas:\r\n\r\nA) Dor crônica (persistente ou recorrente por mais de 3 meses) em articulação(ões), osso(s) ou tendão(ões) está presente. A dor pode ser espontânea ou induzida por movimento.\r\n\r\nB) Pelo menos um dos seguintes critérios atendidos:\r\nB1) Inchaço está presente.\r\nB2) Alodinia sobre a parte está presente.\r\n\r\nC) A alteração estrutural é inferida a partir de exame clínico ou de imagem.\r\n\r\nD) A dor não é melhor explicada por outro diagnóstico de dor crônica.",
+      "classification_reasoning": "A dor é crônica e associada a alterações estruturais na mão D, como o queijo em tendões extensores de mão D. Além disso, há história de AR há 8 anos, o que sugere uma dor secundária a alterações anatômicas.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dor é crônica e associada a alterações estruturais na mão D, como o queijo em tendões extensores de mão D. Além disso, há história de AR há 8 anos, o que sugere uma dor secundária a alterações anatômicas. A codificação CID-11 MG30.31 representa fielmente a condição clínica descrita no prontuário, portanto, é válido.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

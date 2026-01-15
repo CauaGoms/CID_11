@@ -1,0 +1,226 @@
+{
+  "prontuario_id": 115,
+  "text": "Em 19/04/2010, 09:00H: Com Glasgow de 9, com abertura ocular a estimulos verbais e pupilas isocoricas e fotorreagentes. Com ferida cirurgica em região cefalica, com incisão limpa e seca. Sob nevoa umida a 8 l, mantem com monitorização cardiaca, oximetria digital, PNI continuos. Apresenta tosse produtiva sem expectoração. Acesso venoso central em subclavia D duplo-lumen recebendo solução salina e glicosada em BI. Sonda nasoenteral recebendo nutrição a 50 ml em BI e sonda nasogastrica aberta com pouco debito bilioso. Com incisão cirurgica em flanco D limpa a seca externamente e sem exsudação na incisão. Ao exame fisico: Ausculta pulmonar com roncos difusos, BCANF, RHA ausentes. Com coto distal a D próximo a articulação do punho. Com curativo especial na região da tibia E sem sujidade, trocado apenas o secundário e ocluido com atadura. Sonda vesical de demora com debito pouco concentrado, efetiva nas 24h. Não evacuou ate o momento. Ac de enf Florence Nightingale. ACIDENTE VASCULAR CEREBRAL NAO ESPECIFICADO COMO HEMORRAGICO OU ISQUEMICO.",
+  "entities": {
+    "Lesão ou Envenenamento": [
+      "incisão",
+      "ferida cirurgica"
+    ],
+    "Achado": [
+      "limpa",
+      "seca",
+      "continuos",
+      "RHA",
+      "sujidade",
+      "evacuou",
+      "pupilas isocoricas e fotorreagentes",
+      "debito pouco concentrado",
+      "efetiva nas 24h"
+    ],
+    "Abreviação": [
+      "PNI",
+      "D",
+      "BI",
+      "BCANF",
+      "RHA",
+      "E",
+      "Ac",
+      "enf"
+    ],
+    "Procedimento Diagnóstico": [
+      "PNI",
+      "monitorização cardiaca",
+      "oximetria digital",
+      "exame fisico",
+      "Ausculta pulmonar"
+    ],
+    "Conceito Temporal": [
+      "continuos",
+      "momento"
+    ],
+    "Negação": [
+      "sem",
+      "Não",
+      "NAO"
+    ],
+    "Substância Corporal": [
+      "expectoração",
+      "exsudação"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "subclavia"
+    ],
+    "Conceito Espacial": [
+      "D",
+      "externamente",
+      "próximo",
+      "E"
+    ],
+    "Dispositivo Médico": [
+      "duplo-lumen",
+      "BI",
+      "Acesso venoso central",
+      "Sonda nasoenteral",
+      "sonda nasogastrica aberta",
+      "curativo especial",
+      "Sonda vesical de demora"
+    ],
+    "Conceito Qualitativo": [
+      "duplo-lumen"
+    ],
+    "Alimento": [
+      "nutrição"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "nutrição",
+      "nevoa umida",
+      "Acesso venoso central",
+      "solução salina e glicosada",
+      "Sonda nasoenteral",
+      "sonda nasogastrica aberta",
+      "curativo especial",
+      "ocluido com atadura",
+      "Sonda vesical de demora"
+    ],
+    "Localização ou Região Corporal": [
+      "flanco",
+      "região cefalica"
+    ],
+    "Sinal ou Sintoma": [
+      "BCANF",
+      "Glasgow de 9",
+      "abertura ocular a estimulos verbais",
+      "tosse produtiva",
+      "pouco debito bilioso",
+      "roncos difusos"
+    ],
+    "Função Fisiológica": [
+      "evacuou"
+    ],
+    "Conceito Quantitativo": [
+      "8 l",
+      "50 ml"
+    ],
+    "Substância Farmacológica": [
+      "solução salina e glicosada"
+    ],
+    "Espaço ou Junção Corporal": [
+      "articulação do punho"
+    ],
+    "Doença ou Síndrome": [
+      "ACIDENTE VASCULAR CEREBRAL"
+    ]
+  },
+  "labels": {
+    "6D85.6": {
+      "term_original": "glasgow de 9",
+      "capitulo": "06",
+      "confidence_embedding": 0.7622,
+      "descricao_cid": "Representação de doença CID-11: Demência devida à hidrocefalia de pressão normal. Definição: Demência devida à hidrocefalia de pressão normal resulta do acúmulo excessivo de líquido cefalorraquidiano no cérebro, como resultado de causas idiopáticas não obstrutivas, mas também pode ser secundário a hemorragia, infecção ou inflamação. A progressão é gradativa, mas a intervenção (p. ex., derivação) pode resultar em melhora dos sintomas, especialmente se realizada precocemente no curso da condição. Tipicamente, comprometimentos cognitivos incluem velocidade de processamento reduzida e déficits na funcionalidade executiva e na atenção. Esses sintomas também são tipicamente acompanhados de anormalidades da marcha e incontinência urinária. Exame de imagem cerebral para mostrar o volume ventricular e caracterizar o deslocamento cerebral frequentemente é necessário para confirmar o diagnóstico.",
+      "classification_reasoning": "A apresentação de Glasgow de 9 e a presença de ferida cirúrgica em região cefalica sugerem uma condição grave e potencialmente fatal, caracterizada pela demência devida à hidrocefalia de pressão normal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A apresentação de Glasgow de 9 não é uma condição clínica relacionada à demência devida à hidrocefalia de pressão normal. O termo 'Glasgow' refere-se a uma escala de avaliação do estado de consciência, e o valor de 9 indica um paciente com coma profundo. Isso não está relacionado à demência ou hidrocefalia.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA22.0": {
+      "term_original": "tosse produtiva",
+      "capitulo": "12",
+      "confidence_embedding": 0.7386,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A paciente apresenta tosse produtiva sem expectoração, o que sugere uma representação de doença pulmonar obstrutiva crônica com exacerbação aguda não especificada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A tosse produtiva não é suficiente para justificar a codificação de Doença Pulmonar Obstrutiva Crônica com Exacerbação Aguda (CA22.0). A paciente apresenta ferida cirurgica em região cefalica e acesso venoso central, o que sugere uma situação mais complexa do que apenas uma exacerbação de DPOC.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "DA23.0": {
+      "term_original": "incisão",
+      "capitulo": "13",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A incisão citada no contexto é uma referência à cirurgia realizada na região cefalica, e o código DA23 se refere a epitélio metaplásico colunar do esôfago, que pode ser relacionado ao trauma da cirurgia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A incisão citada no prontuário refere-se a uma cirurgia realizada na região cefalica, e não se trata de um epitélio metaplásico colunar do esôfago. O código CID-11 DA23.0 não representa fielmente o termo descrito no prontuário, pois é um código que se refere a uma condição patológica e não a uma lesão cirúrgica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD22": {
+      "term_original": "roncos difusos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7219,
+      "descricao_cid": "Representação de doença CID-11: Hemoptise. Definição: Expectoração ou cuspe de sangue originário de qualquer parte do trato respiratório, usualmente resultado de hemorragia no parênquima pulmonar e artérias bronquiais.",
+      "classification_reasoning": "A presença de 'roncos difusos' no contexto clínico sugere a possibilidade de hemoptise, levando à escolha do código MD22.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de 'roncos difusos' no prontuário sugere a possibilidade de hemoptise, o que é coerente com a descrição do código MD22. A clínica apresentada não contraria a definição do código, portanto, mantemos a codificação CID-11 como válida.",
+      "tipo_erro_auditoria": null
+    },
+    "9A94.1": {
+      "term_original": "abertura ocular a estimulos verbais",
+      "capitulo": "09",
+      "confidence_embedding": 0.7578,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso.",
+      "classification_reasoning": "A abertura ocular a estimulos verbais sugere que o paciente tem uma resposta normal à estimulação visual, mas com um grau de rigidez na íris, característica da síndrome da íris flácida.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A abertura ocular a estimulos verbais não está relacionada à síndrome da íris flácida, que é uma condição caracterizada por uma resposta anormal da íris à estimulação visual. A abertura ocular a estimulos verbais sugere uma resposta normal à estimulação visual, o que não se encaixa com a definição da síndrome da íris flácida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA70.0": {
+      "term_original": "ferida cirurgica",
+      "capitulo": "15",
+      "confidence_embedding": 0.7002,
+      "descricao_cid": "Representação de doença CID-11: Cifose. Definição: Esta é uma curvatura da coluna vertebral que causa um arqueamento ou arredondamento das costas, o que leva a uma postura corcunda ou curvada.",
+      "classification_reasoning": "A opção mais precisa para o termo 'ferida cirurgica' dentro do contexto clínico é a Cifose (FA70.0), pois refere-se à curvatura da coluna vertebral que pode ter sido causada por uma intervenção cirúrgica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FA70.0 (Cifose) não é um código CID-11 que representa fielmente a condição clínica 'ferida cirurgica' descrita no prontuário. A Cifose refere-se à curvatura da coluna vertebral, enquanto a ferida cirurgica se refere a uma lesão causada por intervenção cirúrgica. Portanto, não há correspondência clínica entre o termo e o código CID-11 atribuído.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GA15.1": {
+      "term_original": "debito pouco concentrado",
+      "capitulo": "16",
+      "confidence_embedding": 0.7314,
+      "descricao_cid": "Representação de doença CID-11: Erosão ou ectrópio do colo do útero. Definição: Condição do colo do útero, causada por um aumento no nível total de estrogênio no corpo. Esta condição é caracterizada por protrusão e transformação do epitélio colunar endocervical em epitélio escamoso estratificado no colo do útero. Essa condição também pode se manifestar com corrimento vaginal não purulento, sangramento pós-coito ou pode ser assintomática.",
+      "classification_reasoning": "A descrição do código GA15.1 se refere à representação de doença CID-11: Erosão ou ectrópio do colo do útero, que não parece estar relacionada ao termo 'debito pouco concentrado' presente no contexto clínico. A escolha mais precisa para o termo dentro do contexto clínico é relacionada à função renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'debito pouco concentrado' presente no prontuário se refere à função renal, não ao colo do útero. A escolha do código GA15.1 é inapropriada e não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DE11": {
+      "term_original": "pouco debito bilioso",
+      "capitulo": "13",
+      "confidence_embedding": 0.7246,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de dumping. Definição: Síndrome de dumping é um grupo de sinais e sintomas que se desenvolve mais frequentemente em pessoas que foram submetidas a cirurgia para ressecção total ou parcial do estômago, ou em quem foi submetido a um bypass cirúrgico. Pode ocorrer precocemente (durante a refeição ou após 15-30 minutos com náuseas, vômitos, dor abdominal, cólicas, diarreia, tontura e palpitações cardíacas) ou tardiamente (1 a 3 horas após a refeição com sudorese, fraqueza, fadiga, tonturas, vertigens, palpitações cardíacas e desmaios).",
+      "classification_reasoning": "A opção mais precisa para o termo 'pouco debito bilioso' é a síndrome de dumping (Código CID-11: DE11), pois refere-se à diarreia ou fluxo de líquido contendo bilirrubina que ocorre após uma refeição, característica da síndrome.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário refere-se a uma paciente com ferida cirúrgica em região cefalica e apresenta tosse produtiva sem expectoração, mas não há nenhuma indicação de que isso esteja relacionado à síndrome de dumping. Além disso, o termo 'pouco debito bilioso' é um achado físico e não uma condição clínica específica. Portanto, a codificação CID-11 DE11 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MD11.2": {
+      "term_original": "continuos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7302,
+      "descricao_cid": "Representação de doença CID-11: Respiração atáxica. Definição: Um padrão respiratório anormal que usualmente progride para apneia completa.",
+      "classification_reasoning": "A opção mais precisa para o termo 'continuos' no contexto clínico é a Respiração atáxica, pois a palavra 'continuos' se refere à monitorização cardiaca continua e ao tratamento de solução salina e glicosada em BI.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'continuos' se refere à monitorização cardiaca continua e ao tratamento de solução salina e glicosada em BI, não à respiração atáxica. A opção mais precisa para o termo 'continuos' no contexto clínico é a monitorização cardiaca contínua ou tratamento médico contínuo, não Respiração atáxica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD56": {
+      "term_original": "acidente vascular cerebral",
+      "capitulo": "11",
+      "confidence_embedding": 0.7613,
+      "descricao_cid": "Representação de doença CID-11: Oclusão assintomática de artéria intracraniana ou extracraniana. Definição: Oclusão de artéria intracraniana ou extracraniana que não causou AIT ou acidente vascular cerebral isquêmico.",
+      "classification_reasoning": "A opção mais precisa é BD56, pois o termo 'acidente vascular cerebral' refere-se a um evento neurológico devido à oclusão ou estenose de uma artéria intracraniana, como descrito na definição do código.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'acidente vascular cerebral' refere-se a um evento neurológico devido à oclusão ou estenose de uma artéria intracraniana, enquanto o código CID-11 BD56 se refere a uma representação de doença que não causou AIT ou acidente vascular cerebral isquêmico. Embora haja uma relação entre os termos, a clínica do paciente apresenta sintomas de AVC hemorrágico e não é um caso de oclusão assintomática de artéria intracraniana ou extracraniana.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9B02.0": {
+      "term_original": "pupilas isocoricas e fotorreagentes",
+      "capitulo": "09",
+      "confidence_embedding": 0.8036,
+      "descricao_cid": "Representação de doença CID-11: Pupila de Argyll Robertson. Definição: São pupilas pequenas bilaterais que se contraem quando o paciente focaliza um objeto próximo, mas não se contraem quando exposto à luz forte (elas não “reagem” à luz).",
+      "classification_reasoning": "A descrição de 'pupilas isocoricas e fotorreagentes' sugere que a paciente apresenta pupilas pequenas bilaterais que se contraem quando exposto à luz forte, característica da Pupila de Argyll Robertson (Código CID-11: 9B02.0)",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição de 'pupilas isocoricas e fotorreagentes' não se refere à Pupila de Argyll Robertson, que é caracterizada por pupilas pequenas bilaterais que se contraem quando exposto à luz forte, mas não reagem à luz. No entanto, a descrição do prontuário apresenta pupilas isocoricas e fotorreagentes, o que significa que as pupilas são iguais e reagem à luz. Isso é diferente da Pupila de Argyll Robertson descrita no Código CID-11: 9B02.0.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

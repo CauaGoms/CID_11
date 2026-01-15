@@ -1,0 +1,232 @@
+{
+  "prontuario_id": 477,
+  "text": "Lucas 79 ANOS\n\n# ACOMPANHAMENTO DEVIDO A FIBRILAÇÃO ATRIAL 4 ANOS \n# FA \n# HAS\n# DISLIPIDEMIA\n# DM\n# CA DE INTESTINO GROSSO 2010 - ACOMPANHAMENTO REGULAR\n# PACIENTE REFERE QUE EM ABRIL APRESENTOU QUADRO DE PALPITAÇÃO ASSOCIADO A MAL ESTAR, TONTURA. NO MOMENTO DA CONSULTA PACIENTE SEM QUEIXAS.\n# MUC:\nMARCOMAR 1,5MG - MEIO COMPRIMIDO\nANLODIPINO 2,5MG - 1X AO DIA\nATENOLOL 50MG - 1X AO DIA\nHIDROCLOROTIAZIDA 25MG - 1X AO DIA\nMETFORMINA 850MG - 1/2 AO DIA\nSINVASTATINA 20MG - 1X AO DIA\nRNI\n02/03 - 2,7\n04/05 - 2,3\n08/06 - 1,5\nEF\nSAT O2 94\nFC 73 BPM\nPA: 125/75 MMHG\nCP JUGULARES INGURGITADAS\nACV: BULHAS ARRITMICAS HIPOFONETICAS SEM SS\nMV PRESENTE BILATERAL SRA\nABDOME FLACIDO INDOLOR A PALPACAO\nMMII: EDEMA BILATERAL ++/4+\n# C\nRETIRADO ANLODIPINO DEVIDO A EDEMA EM MMII\nRETORNO NA VAGA EM 6 MESES\nORIENTAÇÕES SOBRE SINAIS DE ALARME DA FA\nDoutor Vital Brazil ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "ACOMPANHAMENTO",
+      "CONSULTA",
+      "C",
+      "RETIRADO",
+      "RETORNO",
+      "ORIENTAÇÕES"
+    ],
+    "Doença ou Síndrome": [
+      "FA",
+      "HAS",
+      "DISLIPIDEMIA",
+      "DM",
+      "FIBRILAÇÃO ATRIAL",
+      "CA DE INTESTINO GROSSO"
+    ],
+    "Abreviação": [
+      "FA",
+      "HAS",
+      "DM",
+      "MUC",
+      "RNI",
+      "EF",
+      "CP",
+      "ACV",
+      "SS",
+      "SRA",
+      "MMII",
+      "C",
+      "CA DE INTESTINO GROSSO",
+      "1X AO DIA",
+      "SAT O2 94"
+    ],
+    "Conceito Quantitativo": [
+      "REGULAR",
+      "850MG",
+      "20MG",
+      "6",
+      "1X AO DIA",
+      "2 , 7",
+      "2 , 3",
+      "1 , 5",
+      "73 BPM"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Conceito Temporal": [
+      "ABRIL",
+      "MESES"
+    ],
+    "Sinal ou Sintoma": [
+      "PALPITAÇÃO",
+      "TONTURA",
+      "QUEIXAS",
+      "SS",
+      "INDOLOR",
+      "EDEMA",
+      "MAL ESTAR",
+      "JUGULARES INGURGITADAS",
+      "BULHAS ARRITMICAS HIPOFONETICAS"
+    ],
+    "Negação": [
+      "SEM",
+      "INDOLOR"
+    ],
+    "Achado": [
+      "MUC",
+      "SRA"
+    ],
+    "Substância Química Orgânica": [
+      "HIDROCLOROTIAZIDA",
+      "METFORMINA",
+      "ANLODIPINO",
+      "MARCOMAR 1 , 5MG",
+      "ANLODIPINO 2 , 5MG"
+    ],
+    "Substância Farmacológica": [
+      "HIDROCLOROTIAZIDA",
+      "METFORMINA",
+      "ANLODIPINO",
+      "MARCOMAR 1 , 5MG",
+      "ANLODIPINO 2 , 5MG"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "RNI",
+      "SAT O2 94"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "CP",
+      "MMII"
+    ],
+    "Atributo Clínico": [
+      "ACV"
+    ],
+    "Conceito Espacial": [
+      "BILATERAL"
+    ],
+    "Localização ou Região Corporal": [
+      "MMII"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Doutor"
+    ]
+  },
+  "labels": {
+    "VV40": {
+      "term_original": "ss",
+      "capitulo": "V",
+      "confidence_embedding": 0.6828,
+      "descricao_cid": "Representação de doença CID-11: Funções relacionadas ao sistema digestivo. Definição: ",
+      "classification_reasoning": "A opção mais precisa é VV40, pois o paciente refere-se a quadro de palpitação associado à mal-estar e tontura, que podem estar relacionados às funções do sistema digestivo, como dislipidemia e doença do intestino grosso.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção VV40 não é adequada porque o termo 'ss' não está relacionado às funções do sistema digestivo. A palpitação e a tontura podem estar relacionadas à fibrilação atrial, doença cardiovascular ou outras condições clínicas que não estão diretamente ligadas ao sistema digestivo.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD93": {
+      "term_original": "edema",
+      "capitulo": "11",
+      "confidence_embedding": 0.7979,
+      "descricao_cid": "Representação de doença CID-11: Linfedema. Definição: Edema devido ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Geralmente afeta as extremidades, mas pode envolver qualquer parte do corpo. É desfigurante e aumenta a suscetibilidade a infecções recorrentes e malignidades locais.",
+      "classification_reasoning": "A escolha do código BD93 é mais precisa porque o termo 'edema' está relacionado à representação de doença CID-11: Linfedema, que se refere ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Esta definição coincide com a descrição do edema bilateral ++/4+ mencionado no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'edema' no prontuário refere-se a uma condição clínica específica, enquanto o código CID-11 BD93 se refere ao Linfedema, que é um tipo de edema causado por drenagem linfática inadequada. Embora haja uma relação entre os dois termos, eles não são sinônimos e não há evidência no prontuário de que o paciente tenha Linfedema. Portanto, a escolha do código CID-11 BD93 é incorreta.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A63.01": {
+      "term_original": "bulhas arritmicas hipofoneticas",
+      "capitulo": "08",
+      "confidence_embedding": 0.7358,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica febril complexa. Definição: Crises epilépticas febris com duração superior a 15 minutos ou episódios múltiplos ocorrendo em 24 horas ou crises epilépticas com características focais.",
+      "classification_reasoning": "A descrição do termo 'bulhas arritmicas hipofoneticas' sugere uma crise epiléptica febril complexa, que é definida como crises epilépticas febris com duração superior a 15 minutos ou episódios múltiplos ocorrendo em 24 horas. Essa condição está relacionada à descrição da Crise Epiléptica Febril Complexa na CID-11, código 8A63.01.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'bulhas arritmicas hipofoneticas' não é suficientemente específica para justificar a classificação de Crise Epiléptica Febril Complexa (8A63.01). A CID-11 define essa condição como crises epilépticas febris com duração superior a 15 minutos ou episódios múltiplos ocorrendo em 24 horas, o que não está presente na descrição do termo. Além disso, a falta de referência à temperatura corporal (febre) também é um fator que leva a considerar essa classificação como demasiado genérica.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "ME62.7": {
+      "term_original": "mal estar",
+      "capitulo": "21",
+      "confidence_embedding": 0.7457,
+      "descricao_cid": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica.",
+      "classification_reasoning": "A opção mais precisa para o termo 'mal estar' é a Representação de doença CID-11: Erupção cutânea descamativa aguda (Código: ME62.7), pois 'mal estar' pode ser um sintoma não específico, mas que pode estar relacionado à erupção cutânea descamativa aguda.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'mal estar' não é uma condição clínica específica, mas sim um sintoma que pode estar relacionado a várias possibilidades. A opção ME62.7 (Erupção cutânea descamativa aguda) não se ajusta ao contexto do prontuário, pois não há indicações de erupção cutânea ou doença cutânea em geral. Além disso, a justificativa do sistema é baseada na suposição de que 'mal estar' está relacionado à erupção cutânea descamativa aguda, o que não é claramente demonstrado no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "4A85.21": {
+      "term_original": "has",
+      "capitulo": "04",
+      "confidence_embedding": 0.7603,
+      "descricao_cid": "Representação de doença CID-11: Urticária ou angioedema induzido pelo alimento. Definição: Urticária e/ou angioedema desencadeados por ingestão ou contato direto com alérgeno da comida em paciente sensibilizado.",
+      "classification_reasoning": "A escolha do código 4A85.21 (Urticária ou angioedema induzido pelo alimento) se baseia na queixa do paciente de apresentar um quadro de palpitação associado a mal-estar, tontura e edema bilateral++, o que sugere uma reação adversa à ingestão de algum alimento. Além disso, o paciente teve edema após iniciar uso do anlodipino e necessitou de retirada do medicamento, o que é consistente com a hipótese de hiper-sensibilidade alimentar.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código 4A85.21 (Urticária ou angioedema induzido pelo alimento) não é clínica e coerente com o prontuário. O termo 'HAS' refere-se a fibrilação atrial, que não está relacionada à urticária ou angioedema induzida por alimento. Além disso, o paciente apresentou edema bilateral++, mas isso foi atribuído ao uso do anlodipino e não à ingestão de algum alimento. Portanto, a escolha desse código é uma associação puramente imaginária ou sem qualquer base no texto.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC81.30": {
+      "term_original": "fibrilação atrial",
+      "capitulo": "11",
+      "confidence_embedding": 0.8379,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A escolha para o termo 'fibrilação atrial' é a BC81.30, pois no contexto do prontuário há menção à fibrilação atrial há 4 anos e ao acompanhamento regular devido a essa condição. Além disso, não há menção a despolarização prematura ou outras formas de anormalidade atrial adquirida.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 BC81.30 não é adequada porque a fibrilação atrial paroxística descrita no prontuário não se encaixa na definição do código, que refere-se a episódios recorrentes que terminam espontaneamente em 7 dias ou menos. No entanto, o prontuário menciona que a paciente tem fibrilação atrial há 4 anos e que o acompanhamento regular é feito para essa condição. Portanto, um código mais amplo e específico para a fibrilação atrial crônica seria mais adequado.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "FA25": {
+      "term_original": "sra",
+      "capitulo": "15",
+      "confidence_embedding": 0.7076,
+      "descricao_cid": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato.",
+      "classification_reasoning": "A opção mais precisa é a FA25 (Gota) porque o termo 'SRA' está relacionado ao sintoma de gota, que apresenta deposição de cristais de urato em tecidos articulares. Além disso, há referência à hiperuricemia e depósito focal de urato na pele e tecido subcutâneo (gota tofácea) no histórico do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FA25 (Gota) não é clinicamente coerente com o prontuário. Embora haja referência à deposição de cristais de urato em tecidos articulares, a descrição do termo 'SRA' no prontuário se refere ao resultado da radiografia muscular bilateral sem dor ou sintomas, e não há evidências de gota ou hiperuricemia. Além disso, o termo 'SRA' não está relacionado à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) mencionada no histórico do paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DA26.3": {
+      "term_original": "muc",
+      "capitulo": "13",
+      "confidence_embedding": 0.7632,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da laceração hemorrágica gastroesofágica. Definição: Sangramento por lacerações na mucosa na junção do estômago com esôfago, geralmente causado por vômitos intensos, espasmos de vômito ou tosse.",
+      "classification_reasoning": "A palavra 'muc' é usada para referir-se à mucosa do estômago ou esôfago, o que leva a considerar a possibilidade de uma lesão na mucosa causada por síndrome da laceração hemorrágica gastroesofágica (DA26.3).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'muc' não está relacionada à síndrome da laceração hemorrágica gastroesofágica (DA26.3). O termo 'muc' se refere à mucosa do estômago ou esôfago, mas não há nenhuma indicação de lesão na mucosa ou sangramento por lacerações na junção do estômago com esôfago no prontuário. A classificação é incorreta e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG29.10": {
+      "term_original": "palpitação",
+      "capitulo": "21",
+      "confidence_embedding": 0.7563,
+      "descricao_cid": "Representação de doença CID-11: Edema devido a pressão capilar aumentada. Definição: O aumento da pressão capilar aumenta o vazamento de fluido do compartimento vascular para os tecidos intersticiais, resultando em edema. Causas incluem o comprometimento ou obstrução do retorno venoso (sobrecarga de fluido, trombose venosa, insuficiência cardíaca direita, compressão venosa por tumor), aumento do fluxo sanguíneo (resposta fisiológica à exposição ao calor, malformações arteriovenosas, controle vasomotor cutâneo prejudicado devido a drogas ou neuropatia autonômica), ou pressão oncótica plasmática reduzida por hipoproteinemia.",
+      "classification_reasoning": "A escolha do código MG29.10 é justificada porque a paciente refere uma palpitação associada a mal estar e tontura, o que pode ser um sintoma de edema bilateral (++/4+). Além disso, a presença de edema bilateral é mencionada no prontuário, o que fortalece a escolha desse código.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palpitação referida pela paciente não é diretamente relacionada ao edema bilateral, mas sim a um quadro de mal estar e tontura. O código MG29.10 representa edema devido a pressão capilar aumentada, o que não está claramente relacionado à palpitação. Ajuste necessário para uma codificação mais precisa.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "5000000000000.0": {
+      "term_original": "dm",
+      "capitulo": "05",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha do código é baseada na menção ao DM (diabetes mellitus) no prontuário e na presença de EDEMA BILATERAL ++/4+ no momento da consulta. Embora haja outras opções que mencionem edema, o DM é um fator importante para entender a patologia subjacente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 atribuído é 5000000000000.0, que não representa diretamente a condição de DM descrita no prontuário. A justificativa do sistema menciona a presença de edema bilateral como fator importante para entender a patologia subjacente, o que sugere que o código foi escolhido por uma razão secundária e não pela condição clínica principal. Além disso, a presença de DM é um fato fundamental na história do paciente e não pode ser subsumida por outro código.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DB35.0": {
+      "term_original": "ca de intestino grosso",
+      "capitulo": "13",
+      "confidence_embedding": 0.7832,
+      "descricao_cid": "Representação de doença CID-11: Pólipo hiperplásico do intestino grosso. Definição: Pólipos hiperplásicos são lesões verdadeiramente benignas, sem possuir potencial de progressão para câncer colorretal. Patologicamente, os pólipos hiperplásicos não têm displasia.",
+      "classification_reasoning": "A opção mais precisa é o pólipo hiperplásico do intestino grosso (DB35.0) devido à menção específica de 'CA DE INTESTINO GROSSO' e não há referência a doenças inflamatórias ou hipersensibilidade alimentar.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A menção de 'CA DE INTESTINO GROSSO' no prontuário refere-se ao histórico de um paciente com câncer de intestino grosso, não a uma lesão benigna como pólipo hiperplásico. A opção DB35.0 não é clínica ou clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC43": {
+      "term_original": "dislipidemia",
+      "capitulo": "11",
+      "confidence_embedding": 0.7612,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia. Definição: Transtornos do miocárdio em que o músculo cardíaco é estrutural e funcionalmente anormal, na ausência de doença arterial coronariana, hipertensão, doença valvar e doença cardíaca congênita suficiente para causar a anormalidade miocárdica observada.",
+      "classification_reasoning": "A dislipidemia foi mencionada como um problema do paciente, e a cardiomiopatia é uma condição que pode estar relacionada à dislipidemia, portanto, essa é a escolha mais precisa para o termo dentro do contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dislipidemia não é uma cardiomiopatia. A dislipidemia é um problema de lipídios no sangue, enquanto a cardiomiopatia é uma doença do músculo cardíaco. Embora haja uma relação entre os dois, eles são conceitos clínicos diferentes e não podem ser mapeados para o mesmo código CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

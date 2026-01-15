@@ -1,0 +1,243 @@
+{
+  "prontuario_id": 994,
+  "text": "   PACIENTE MASCULINO, DE 75 ANOS, PORTADOR DE HAS, DM II. APRESNTOU AVC EM SET/03, REALIZANDO ENDARTERECTOMIA CAROTÍDEA EM SET/03. CHEGA À EMERGÊNCIA NO DIA 16/06/04 COM ANGINA. FETIO DIAGNÓSTICO DE ANGINA INSTÁVEL. NO DIA 17/06/04, APRESENTOU NOVAMENTE DOR COM ALTERAÇÃO EM ECG E ENZIMAS (IAM COM SUPRA DE ST). PACIENTE FOI ENCAMINHADO PARA ANGIOPLASTIA PRIMARIA 17/06/04: ADAE APRESENTA UMA LESÃO SEGMENTAR E SEVERA NO TERÇO PROXIMAL, LESÃO DISCRETA NO TERÇO MÉDIO, LESÃO DE APROXIMADAMENTE 80% NO TERÇO DISTAL; ACX ISENTA DE LESÕES ATEROMATOSAS SIGNIFICATIVAS; RAMO DESCENDENTE POSTERIOR DA ARTÉRIA CORONÁRIA DIREITA DE FINO CALIBRE E COM LESÃO SEVERA NO TERÇO MÉDIO. REALIZADO ANGIOPLASTIA COM IMPLANTE DE STENT NOS TERÇOS PROXIMAL E MÉDIO DA ADAE COM SUCESSO (TIMI III). PACIENTE FOI INCLUIDO NO ESTUDO XXXX - 6. ECO ABDÔMEN TOTAL 17/06/04: SEM EVIDÊNCIA DE ANEURISMA NA AORTA ABDOMINAL. EVOLUI BEM DURANTE A INTERNAÇÃO. ECOCARDIO 23/06/04: AORTOESCLEROSE COM ACOMETIMENTO VALVULAR NÃO OBSTRUTIVO. VE COM DÉFICIT RELAXAMENTO, FUNÇÃO SISTÓLICA GLOBAL E SEGMENTAR PRESERVADAS. CALCIFICAÇÃO DO ANEL MITRAL; FE: 66%. PACIENTE APRESENTOU BOA EVOLUÇAO CLINICA, SEM DOR APÓS O PROCDIMENTO E SEM EVIDENCIA DE CONGESTAO. APRESENTOU TAMBÉM MELHORA DO QUADRO NEUROLOGICO DURANTE A INTERNAÇAO. RECEBE ALTA EM BOAS CONDIÇOES, COM ORIENTAÇAO DE MANTER AS MEDICAÇOES ACIMA DESCRITAS E RETORNO AMBULATORIAL PRECOCE.",
+  "entities": {
+    "Abreviação": [
+      "HAS",
+      "AVC",
+      "ECG",
+      "ADAE",
+      "ACX",
+      "ECOCARDIO",
+      "VE",
+      "DM II",
+      "IAM COM SUPRA DE ST",
+      "TERÇOS PROXIMAL E MÉDIO DA ADAE",
+      "ECO ABDÔMEN TOTAL",
+      "FE : 66%"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "AVC",
+      "DM II",
+      "ANGINA INSTÁVEL",
+      "IAM COM SUPRA DE ST",
+      "ANEURISMA NA AORTA ABDOMINAL"
+    ],
+    "Organização Relacionada à Saúde": [
+      "EMERGÊNCIA",
+      "INTERNAÇÃO",
+      "INTERNAÇAO"
+    ],
+    "Sinal ou Sintoma": [
+      "ANGINA",
+      "DOR",
+      "EVIDÊNCIA",
+      "EVIDENCIA",
+      "QUADRO NEUROLOGICO"
+    ],
+    "Produto Intelectual": [
+      "DIAGNÓSTICO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ALTERAÇÃO",
+      "AORTOESCLEROSE",
+      "LESÃO SEGMENTAR",
+      "LESÃO DISCRETA",
+      "TIMI III",
+      "ACOMETIMENTO VALVULAR",
+      "DÉFICIT RELAXAMENTO",
+      "FUNÇÃO SISTÓLICA GLOBAL E SEGMENTAR PRESERVADAS",
+      "CALCIFICAÇÃO DO ANEL MITRAL",
+      "FE : 66%"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECG",
+      "ECOCARDIO",
+      "ECO ABDÔMEN TOTAL"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ENCAMINHADO",
+      "ALTA",
+      "ORIENTAÇAO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ANGIOPLASTIA",
+      "ENDARTERECTOMIA CAROTÍDEA",
+      "ANGIOPLASTIA COM IMPLANTE DE STENT"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ADAE",
+      "ACX",
+      "VE",
+      "TERÇOS PROXIMAL E MÉDIO DA ADAE"
+    ],
+    "Conceito Qualitativo": [
+      "SEVERA",
+      "FINO CALIBRE"
+    ],
+    "Lesão ou Envenenamento": [
+      "LESÃO",
+      "LESÃO SEVERA"
+    ],
+    "Achado": [
+      "SUCESSO",
+      "MELHORA",
+      "BOA EVOLUÇAO CLINICA",
+      "BOAS CONDIÇOES"
+    ],
+    "Atividade de Pesquisa": [
+      "ESTUDO"
+    ],
+    "Negação": [
+      "SEM",
+      "NÃO"
+    ],
+    "Conceito Temporal": [
+      "EVOLUI",
+      "APÓS",
+      "PRECOCE"
+    ],
+    "Função Patológica": [
+      "CONGESTAO",
+      "DÉFICIT RELAXAMENTO"
+    ],
+    "Conceito Espacial": [
+      "TERÇO PROXIMAL",
+      "TERÇO MÉDIO",
+      "TERÇO DISTAL"
+    ]
+  },
+  "labels": {
+    "NB30.01": {
+      "term_original": "lesão",
+      "capitulo": "22",
+      "confidence_embedding": 0.7691,
+      "descricao_cid": "Representação de doença CID-11: Laceração maior da aorta torácica. Definição: ",
+      "classification_reasoning": "A lesão descrita no relatório refere-se a uma laceração maior da aorta torácica, o que se alinha com a definição do código NB30.01.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão descrita no relatório refere-se a uma lesão segmentar e severa na artéria descendente posterior da arteira coronária direita, não à laceração maior da aorta torácica. A definição do código CID-11 NB30.01 se refere especificamente a uma laceração maior da aorta torácica, o que não é compatível com a descrição clínica do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA40.Y": {
+      "term_original": "angina",
+      "capitulo": "11",
+      "confidence_embedding": 0.825,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'angina' no contexto clínico é a angina pectoris especificada (Código: BA40.Y), pois o paciente apresentou sintomas de angina após AVC e submeteu-se a endarterectomia carotídea, posteriormente apresentando angina instável e requindendo angioplastia primária.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'angina' no contexto clínico é a angina pectoris especificada (Código: BA40.Y), pois o paciente apresentou sintomas de angina após AVC e submeteu-se a endarterectomia carotídea, posteriormente apresentando angina instável e requindendo angioplastia primária. A descrição do prontuário é clínica e coerente com o código CID-11 atribuído.",
+      "tipo_erro_auditoria": null
+    },
+    "MB23.1": {
+      "term_original": "evidência",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'evidência' no contexto clínico é a ecocardiografia realizada em 17/06/04, que apresentou uma aortoesclerose com acometimento valvular não obstrutivo. Além disso, também foi mencionado que houve melhora do quadro neurológico durante a internação e boa evolução clínica após o procedimento.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'evidência' no contexto clínico é a ecocardiografia realizada em 17/06/04, que apresentou uma aortoesclerose com acometimento valvular não obstrutivo. Além disso, também foi mencionado que houve melhora do quadro neurológico durante a internação e boa evolução clínica após o procedimento. Portanto, o código CID-11 MB23.1 representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BA41": {
+      "term_original": "congestao",
+      "capitulo": "11",
+      "confidence_embedding": 0.7983,
+      "descricao_cid": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)",
+      "classification_reasoning": "A escolha para o termo 'congestao' é a representação CID-11 de Infarto agudo do miocárdio (IM) agudo, pois a descrição da doença inclui sintomas de insuficiência cardíaca congestiva e anormalidade de movimento de parede regional no exame de imagem.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário refere-se a um paciente com angina instável e subsequente angioplastia, não há evidência de insuficiência cardíaca congestiva ou anormalidade de movimento de parede regional no exame de imagem. Portanto, o código CID-11 'BA41' (Infarto agudo do miocárdio) não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "3B11.9": {
+      "term_original": "dm ii",
+      "capitulo": "03",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A busca vetorial identificou a presença de DM II, que se refere à diabetes mellitus tipo 2. Como o termo foi extraído do contexto clínico e não há outro código CID-11 que melhor se adequare ao termo 'dm ii', a escolha mais precisa é o Código 3B11.9: Diabetes Mellitus Tipo 2, que define a doença como uma condição caracterizada pela hipersecreção de insulina no pâncreas.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'dm ii' é uma abreviação médica comum e sinônimo que faz sentido no contexto do prontuário. O paciente tem diabetes mellitus tipo 2, como descrito na história clínica. A escolha do código CID-11 3B11.9: Diabetes Mellitus Tipo 2 é justificada e coerente com a descrição do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "8.21": {
+      "term_original": "quadro neurologico",
+      "capitulo": "08",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'quadro neurologico' refere-se ao conjunto de sintomas e lesões neurológicas decorrentes do acidente vascular cerebral (AVC) sofrido pelo paciente, como descrito no contexto clínico. Portanto, a opção mais precisa é a Código 8B11: Representação de doença CID-11: Acidente cerebral isquêmico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'quadro neurologico' refere-se ao conjunto de sintomas e lesões neurológicas decorrentes do acidente vascular cerebral (AVC) sofrido pelo paciente. A opção mais precisa é a Código 8B11: Representação de doença CID-11: Acidente cerebral isquêmico, pois o prontuário descreve claramente o AVC e suas consequências neurológicas.",
+      "tipo_erro_auditoria": null
+    },
+    "NB90.0Z": {
+      "term_original": "aneurisma na aorta abdominal",
+      "capitulo": "22",
+      "confidence_embedding": 0.8281,
+      "descricao_cid": "Representação de doença CID-11: Lesão da aorta abdominal, não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NB90.0Z porque o paciente não apresentou aneurisma na aorta abdominal, mas sim uma lesão seguida de angioplastia e implante de stent. A descrição do termo extraído é 'Representação de doença CID-11: Lesão da aorta abdominal, não especificada', o que melhor se ajusta ao contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão descrita no prontuário é uma lesão seguida de angioplastia e implante de stent na artéria descendente posterior da coração direita, não na aorta abdominal. Portanto, o código CID-11 NB90.0Z não representa fielmente o termo extraído 'aneurisma na aorta abdominal', pois há uma incompatibilidade anatômica entre a lesão descrita e a localização da aorta abdominal.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "3B81.8": {
+      "term_original": "has",
+      "capitulo": "03",
+      "confidence_embedding": 0.7489,
+      "descricao_cid": "Representação de doença CID-11: Torção do baço. Definição: Doença causada pelo desenvolvimento anormal dos ligamentos suspensores do baço. Essa doença é caracterizada pela torção do baço levando a infarto esplênico. Pode apresentar-se com dor abdominal. A confirmação é feita por métodos de imagem.",
+      "classification_reasoning": "A escolha é justificada pela presença de 'has' no contexto, que refere-se à doença do baço, especificamente à torção do baço (Torção do baço - Código: 3B81.8)",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença do termo 'has' no prontuário refere-se à doença de hipertensão arterial, não à torção do baço. A escolha do código CID-11 3B81.8 é incorreta e não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "8e+20": {
+      "term_original": "déficit relaxamento",
+      "capitulo": "08",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é o Código 8E20 - Estado vegetativo persistente, pois o termo 'déficit relaxamento' está relacionado à função cardíaca, especificamente ao estado de consciência e função autonômica do paciente após a angioplastia. Isso é consistente com a definição do Estado Vegetativo Persistente, que é caracterizado por uma recuperação de estados cíclicos de despertar que simulam ciclos de sono/vigília após uma lesão cerebral grave.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'déficit relaxamento' não se refere a um estado vegetativo persistente, mas sim à função cardíaca do paciente. A definição do Estado Vegetativo Persistente é caracterizada por uma recuperação de estados cíclicos de despertar que simulam ciclos de sono/vigília após uma lesão cerebral grave, o que não se aplica ao caso do paciente. Portanto, a codificação CID-11 8e+20 não é clínica ou coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MC90": {
+      "term_original": "evidencia",
+      "capitulo": "21",
+      "confidence_embedding": 0.7403,
+      "descricao_cid": "Representação de doença CID-11: Achados clínicos em exames diagnósticos por imagem do coração ou da circulação coronariana. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'evidência' é MC90, que se refere a achados clínicos em exames diagnósticos por imagem do coração ou da circulação coronariana. Isso se alinha com a descrição do paciente no contexto clínico, que menciona ECO ABDÔMEN TOTAL 17/06/04: SEM EVIDÊNCIA DE ANEURISMA NA AORTA ABDOMINAL e ECOCARDIO 23/06/04: AORTOESCLEROSE COM ACOMETIMENTO VALVULAR NÃO OBSTRUTIVO.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção MC90 é justificada pois a descrição do paciente menciona exames diagnósticos por imagem, como ECO ABDÔMEN TOTAL e ECOCARDIO, que são compatíveis com a definição do código CID-11. Além disso, o termo 'evidência' está relacionado às achados clínicos em exames diagnósticos por imagem, o que se alinha com a descrição do paciente.",
+      "tipo_erro_auditoria": null
+    },
+    "8B25.4": {
+      "term_original": "avc",
+      "capitulo": "08",
+      "confidence_embedding": 0.7558,
+      "descricao_cid": "Representação de doença CID-11: Efeitos tardios de acidente vascular cerebral desconhecido se isquêmico ou hemorrágico. Definição: Efeitos tardios ocorrendo após 1 mês ou mais do início da doença. Os códigos para acidente vascular cerebral (AVC) agudo devem ser usados ​​exclusivamente para AVC agudo e episódios de hospitalização imediatamente relacionados.",
+      "classification_reasoning": "A escolha por esse código se baseia na história de AVC (acidente vascular cerebral) do paciente, especificamente a endarterectomia carotídea realizada após o AVC em setembro de 2003. O termo 'avc' encontrado no contexto clínico refere-se ao episódio de doença cerebrovascular ocorrido anteriormente e não à doença em si.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 atribuído (8B25.4) representa efeitos tardios de acidente vascular cerebral desconhecido, enquanto o termo 'avc' no prontuário refere-se ao episódio específico de doença cerebrovascular ocorrido anteriormente. A escolha desse código não é clínica ou lógica para representar a condição do paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8C12.2": {
+      "term_original": "iam com supra de st",
+      "capitulo": "08",
+      "confidence_embedding": 0.7034,
+      "descricao_cid": "Representação de doença CID-11: Lesão do nervo supraescapular. Definição: ",
+      "classification_reasoning": "A descrição do termo 'iam com supra de st' sugere a presença de lesão no nervo craniano, especificamente o nervo supraescapular. A opção mais precisa para esse contexto clínico é a Código CID-11 8C12.2: Lesão do nervo supraescapular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'iam com supra de st' sugere uma lesão no nervo craniano, especificamente o nervo supraescapular. No entanto, a descrição do prontuário não aponta para essa lesão. A paciente apresentou dor e alteração em ECG e enzimas após AVC e angina instável, sugerindo um quadro de doença cardiovascular mais do que uma lesão neurológica. Portanto, o código CID-11 8C12.2 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.2": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7779,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A dor apresentada pelo paciente é descrita como crônica e pós-operatória, ocorrendo após a endarterectomia carotídea em setembro de 2003. Além disso, a dor se desenvolveu novamente no dia 17/06/04 após o procedimento de angioplastia primária, o que indica uma possível relação com a cirurgia. Portanto, a opção mais precisa é MG30.2 - Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor apresentada pelo paciente é descrita como crônica e pós-operatória, ocorrendo após a endarterectomia carotídea em setembro de 2003. No entanto, ao analisar o prontuário, não há evidência clara de que a dor seja diretamente relacionada à cirurgia ou lesão tecidual. A dor pode ser um sintoma de outras condições, como doenças cardíacas ou neurológicas. Portanto, a classificação MG30.2 é muito genérica e não representa fielmente o termo 'dor' descrito no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

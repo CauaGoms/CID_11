@@ -1,0 +1,334 @@
+{
+  "prontuario_id": 551,
+  "text": "Às 18:09 Hr: Paciente em 1º PO de fratura de fêmur esquerdo, hipotenso, suspenso medicações para hipertensão pela Dra. Alice. Aceitando bem a alimentação VO, com acesso venoso periférico em punho esquedo salinizado. Eliminação vesical espontânea. Curativo e FRATURA DO COLO DO FEMUR. ÀS 16:16: AGUARDANDO AMBULÂNCIA PARA ALTA HOSPITALAR. ABDOME AGUDO. Em 19/06/2007, 09:31 h: Paciente no centro cirúrgico em procedimento. Ausente do setor. TRAUMATISMOS MULTIPLOS NAO ESPECIFICADOS. EM 16/02/2007, 13:30 HORAS: RETORNOU DO POSTO 03 POR QUADRO DE INSUFICIÊNCIA RESPIRATÓRIA. APRESENTA-SE ACORDADO, CONSCIENTE, ORIENTADO, COM PERÍODOS DE AGITAÇÃO PSICOMOTORA, PERMANECE CONTIDO NO LEITO POR PRECAUÇÃO. COM PUPILAS ISOCÓRICAS E FOTORREAGENTES. TRAUMATISMOS MULTIPLOS NAO ESPECIFICADOS. 5º DI, abscesso cervical? TU de assoalho da boca? Lúcido, orientado, comunicativo, deambulando. Refere aceitação da dieta após \"drenagem\", sem SNE. Eupnêico, em ar ambiente, acianótico. Aumento de volume em maxilar inferior, ponto de drenagem cicatrizado. ABSCESSO RETROFARINGEO E PARAFARINGEO. ÀS 14H: PACIENTE VÍTIMA DE AGRESSÃO COM 1 PEDRA, COM FX DE FACE, CONSCIENTE, COMUNICATIVO, DEAMBULANTE, AFEBRIL, EUPNÉICO, AVP EM MSE, APRESENTOU CONVULSÃO DURANTE A MANHÃ 1 VEZ E SANGRAMENTO NO ROSTO NO LADO D, APRESENTA HEMATOMA NOS OLHOS, NEGA ALGIA, ACEI. TRAUMATISMOS MULTIPLOS NAO ESPECIFICADOS.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente",
+      "PACIENTE",
+      "VÍTIMA"
+    ],
+    "Conceito Temporal": [
+      "PO",
+      "após"
+    ],
+    "Abreviação": [
+      "PO",
+      "DI",
+      "SNE",
+      "AVP",
+      "MSE",
+      "D",
+      "ACEI",
+      "TU de assoalho da boca",
+      "FX DE FACE"
+    ],
+    "Sinal ou Sintoma": [
+      "hipotenso",
+      "CONVULSÃO",
+      "ALGIA",
+      "PERÍODOS DE AGITAÇÃO PSICOMOTORA",
+      "HEMATOMA NOS OLHOS"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Dra"
+    ],
+    "Conceito Espacial": [
+      "esquedo",
+      "D"
+    ],
+    "Conceito Qualitativo": [
+      "salinizado"
+    ],
+    "Dispositivo Médico": [
+      "Curativo",
+      "SNE",
+      "AVP",
+      "acesso venoso periférico"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Curativo",
+      "procedimento",
+      "\"drenagem\"",
+      "SNE",
+      "AVP",
+      "acesso venoso periférico",
+      "CONTIDO NO LEITO POR PRECAUÇÃO",
+      "aceitação da dieta"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "procedimento",
+      "ALTA HOSPITALAR"
+    ],
+    "Organização Relacionada à Saúde": [
+      "POSTO",
+      "centro cirúrgico"
+    ],
+    "Achado": [
+      "ACORDADO",
+      "CONSCIENTE",
+      "ORIENTADO",
+      "Lúcido",
+      "orientado",
+      "comunicativo",
+      "deambulando",
+      "acianótico",
+      "COMUNICATIVO",
+      "DEAMBULANTE",
+      "AFEBRIL",
+      "EUPNÉICO",
+      "SANGRAMENTO",
+      "Eliminação vesical espontânea",
+      "PUPILAS ISOCÓRICAS E FOTORREAGENTES",
+      "Eupnêico , em ar ambiente",
+      "ponto de drenagem cicatrizado"
+    ],
+    "Negação": [
+      "sem",
+      "acianótico",
+      "AFEBRIL",
+      "NEGA"
+    ],
+    "Localização ou Região Corporal": [
+      "MSE",
+      "ROSTO",
+      "maxilar inferior"
+    ],
+    "Lesão ou Envenenamento": [
+      "fratura de fêmur esquerdo",
+      "FRATURA DO COLO DO FEMUR",
+      "TRAUMATISMOS MULTIPLOS NAO ESPECIFICADOS",
+      "AGRESSÃO COM 1 PEDRA",
+      "FX DE FACE"
+    ],
+    "Substância Farmacológica": [
+      "medicações para hipertensão"
+    ],
+    "Função Fisiológica": [
+      "Eliminação vesical espontânea"
+    ],
+    "Doença ou Síndrome": [
+      "ABDOME AGUDO",
+      "INSUFICIÊNCIA RESPIRATÓRIA",
+      "abscesso cervical",
+      "ABSCESSO RETROFARINGEO E PARAFARINGEO"
+    ],
+    "Processo Neoplásico": [
+      "TU de assoalho da boca"
+    ],
+    "Função Patológica": [
+      "Aumento de volume"
+    ]
+  },
+  "labels": {
+    "BB24": {
+      "term_original": "eupnéico",
+      "capitulo": "11",
+      "confidence_embedding": 0.7883,
+      "descricao_cid": "Representação de doença CID-11: Hemopericárdio. Definição: Hemopericárdio causado por doenças não classificadas em outra parte. Hemopericárdio geralmente se refere a sangue no saco pericárdico do coração. É clinicamente semelhante ao derrame pericárdico e, dependendo do volume e da rapidez com que se desenvolve, pode causar tamponamento cardíaco.",
+      "classification_reasoning": "O termo 'eupnéico' refere-se à respiração normal e não apresenta qualquer relação com doenças cardíacas ou vasculares descritas nos demais códigos. A definição do código BB24, Hemopericárdio, está relacionada ao derrame pericárdico, que pode causar tamponamento cardíaco e não apresenta qualquer relação com a respiração normal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'eupnéico' refere-se à respiração normal e não apresenta qualquer relação com doenças cardíacas ou vasculares descritas nos demais códigos. A definição do código BB24, Hemopericárdio, está relacionada ao derrame pericárdico, que pode causar tamponamento cardíaco e não apresenta qualquer relação com a respiração normal.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA44": {
+      "term_original": "eliminação vesical espontânea",
+      "capitulo": "12",
+      "confidence_embedding": 0.7459,
+      "descricao_cid": "Representação de doença CID-11: Piotórax. Definição: Inflamação supurativa do espaço pleural, tipicamente devida a infecção bacteriana aguda. Pode ocorrer como complicação de pneumonia, toracotomia, abscessos (pulmonar, hepático ou subdiafragmático), ou traumatismo penetrante com infecção secundária.",
+      "classification_reasoning": "O termo 'eliminação vesical espontânea' está relacionado ao procedimento de traumatismo múltiplo não especificado, com abscesso cervical e parafaringeo. A escolha do código CA44 (Piotórax) é mais precisa porque a eliminação vesical espontânea pode ser um sintoma da inflamação supurativa do espaço pleural característica do piotórax.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A eliminação vesical espontânea não está relacionada ao piotórax. O termo refere-se à função renal normal do paciente, enquanto o código CA44 (Piotórax) é uma doença inflamatória do espaço pleural. A escolha do código não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ED92.0": {
+      "term_original": "abscesso retrofaringeo e parafaringeo",
+      "capitulo": "14",
+      "confidence_embedding": 0.7188,
+      "descricao_cid": "Representação de doença CID-11: Hidradenite supurativa. Definição: Hidradenite supurativa é uma doença crônica caracterizada por nódulos e abscessos recorrentes, dolorosos, profundos e arredondados devidos à oclusão folicular com inflamação secundária e destruição do aparelho pilossebáceo-apócrino e extensão para o tecido subcutâneo adjacente. Cicatrizes hipertróficas subsequentes e supuração da pele com glândulas apócrinas (axilas, virilhas, regiões perianal e perineal) são as principais manifestações clínicas. Infecção e influência hormonal foram descritas, mas não são o fator patogênico primário: a etiologia exata permanece desconhecida. Obesidade é comum e está associada a doença mais grave. As principais complicações são fístulas, artropatia, carcinoma e amiloidose.",
+      "classification_reasoning": "A presença de abscesso retrofaringeo e parafaringeo na descrição do paciente sugere a possibilidade de hidradenite supurativa, uma doença crônica caracterizada por nódulos e abscessos recorrentes em áreas como axilas, virilhas e regiões perianal e perineal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de abscesso retrofaringeo e parafaringeo no prontuário não está diretamente relacionada à hidradenite supurativa, que é uma doença crônica caracterizada por nódulos e abscessos recorrentes em áreas como axilas, virilhas e regiões perianal e perineal. O termo extraído não apresenta a mesma localização ou características clínicas descritas na definição do código CID-11 ED92.0.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MD11.8": {
+      "term_original": "tu de assoalho da boca",
+      "capitulo": "21",
+      "confidence_embedding": 0.8094,
+      "descricao_cid": "Representação de doença CID-11: Respiração pela boca. Definição: Respirar pela boca. Obstrução nasal pode também tornar necessária a respiração oral, o que por si só pode causar apneia obstrutiva. Respirar pela boca pode também aumentar o risco para apneia obstrutiva do sono, pelos seus efeitos na língua. A língua forma a parede anterior da orofaringe; tanto a postura supina quanto abertura da boca tendem a deslocar a língua posteriormente e promovem o fechamento da via aérea.",
+      "classification_reasoning": "A opção mais precisa para o termo 'tu de assoalho da boca' é a representação de doença CID-11: Respiração pela boca, pois o paciente refere aceitação da dieta após 'drenagem', o que sugere que está respirando pela boca.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção de código CID-11 'MD11.8 - Respiração pela boca' não é precisa para o termo 'tu de assoalho da boca'. Embora o paciente esteja respirando pela boca, a descrição do prontuário refere-se ao uso da boca para drenagem e não à respiração oral em si. A classificação é demasiado genérica e não captura a essência da condição descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "FA72.3": {
+      "term_original": "fratura de fêmur esquerdo",
+      "capitulo": "15",
+      "confidence_embedding": 0.7365,
+      "descricao_cid": "Representação de doença CID-11: Fratura vertebral por fadiga. Definição: ",
+      "classification_reasoning": "A opção mais precisa é FA72.3 pois o termo 'fratura de fêmur esquerdo' descreve uma lesão óssea, e FA72.3 se refere a fraturas vertebrais, mas não há outra opção que melhor se adeque ao contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 FA72.3 se refere a fraturas vertebrais, não ósseas. Embora o termo 'fratura de fêmur esquerdo' descreva uma lesão óssea, não há relação clínica direta entre as duas condições. A opção mais precisa é remover o código e atribuir um novo que represente fielmente a fratura de fêmur esquerdo.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EB70.9": {
+      "term_original": "abscesso cervical",
+      "capitulo": "14",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'abscesso cervical' é o Código EB70.9, que representa a Representação de doença CID-11: Abscessos e fístulas da face e do couro cabeludo.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'abscesso cervical' é descrito no prontuário e o código CID-11 EB70.9 representa a Representação de doença CID-11: Abscessos e fístulas da face e do couro cabeludo, que é clínica e coerente com a descrição do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "6C45.3": {
+      "term_original": "períodos de agitação psicomotora",
+      "capitulo": "06",
+      "confidence_embedding": 0.8209,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A presença de períodos de agitação psicomotora e a combinação com outros sintomas descritos, como convulsão e sangramento no rosto, sugerem uma intoxicação por cocaína.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de períodos de agitação psicomotora não é suficiente para justificar a classificação de intoxicação por cocaína. A combinação de sintomas descritos no prontuário, como convulsão e sangramento no rosto, sugere uma lesão craniana ou trauma crânio-encefálico, em vez de uma intoxicação por substância psicotrópica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NE81.0Z": {
+      "term_original": "sangramento",
+      "capitulo": "22",
+      "confidence_embedding": 0.7651,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NE81.0Z porque o termo 'sangramento' se refere a uma hemorragia ou hematoma não especificada, complicando um procedimento, que coincide com o contexto clínico da fratura de fêmur esquerdo e os outros traumatismos múltiplos não especificados.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'sangramento' não é suficientemente específico para justificar a codificação NE81.0Z, que se refere a hemorragia ou hematoma não especificada complicando um procedimento. Embora haja sangramentos mencionados no prontuário, não há evidência clínica de que esses sangramentos estejam relacionados a uma fratura de fêmur esquerdo ou outros traumatismos múltiplos não especificados. A codificação NE81.0Z é demasiado genérica e não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MG30.2": {
+      "term_original": "ponto de drenagem cicatrizado",
+      "capitulo": "21",
+      "confidence_embedding": 0.7402,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A expressão 'ponto de drenagem cicatrizado' sugere uma referência a um local de lesão ou traumatismo que está cicatrizando, o que é consistente com a definição da dor crônica pós-operatória ou pós-traumática. Além disso, o contexto clínico descreve múltiplos traumatismos não especificados e procedimentos cirúrgicos, o que reforça a escolha do código MG30.2.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A expressão 'ponto de drenagem cicatrizado' não está diretamente relacionada à dor crônica pós-operatória ou pós-traumática. A descrição do prontuário apresenta múltiplos traumatismos e procedimentos cirúrgicos, mas não há evidência clínica de que o ponto de drenagem cicatrizado esteja relacionado à dor crônica. Além disso, a definição do código CID-11 MG30.2 se refere especificamente a dor crônica pós-operatória ou pós-traumática, e não há conexão clínica entre isso e o termo 'ponto de drenagem cicatrizado'. Portanto, é necessário remover o código CID-11 MG30.2 e reavaliar a codificação com base nas informações presentes no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "CB05.41": {
+      "term_original": "insuficiência respiratória",
+      "capitulo": "12",
+      "confidence_embedding": 0.7905,
+      "descricao_cid": "Representação de doença CID-11: Transtornos respiratórios na poliangeíte microscópica. Definição: Abrange condições patológicas que afetam órgãos e tecidos que possibilitam a troca gasosa em organismos superiores, e inclui condições do trato respiratório superior, traqueia, brônquios e bronquíolos, alvéolos pleura e cavidade pleural, nervos e músculos envolvidos na respiração. Este diagnóstico é quando há uma doença autoimune mal definida caracterizada por uma vasculite sistêmica, pauci-imune, necrotizante, de pequenos vasos sem evidência clínica ou patológica de uma inflamação granulomatosa necrotizante.",
+      "classification_reasoning": "A insuficiência respiratória mencionada no contexto clínico é mais provável ser um sintoma de uma doença pulmonar obstrutiva crônica (DPOC) ou outra condição que afeta a função pulmonar, como a poliangeíte microscópica. O código CB05.41 refere-se à transtornos respiratórios na poliangeíte microscópica, o que é mais preciso para este termo dentro do contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A insuficiência respiratória mencionada no prontuário não é uma condição de doença autoimune mal definida caracterizada por uma vasculite sistêmica, pauci-imune, necrotizante, como descrita pelo código CID-11 CB05.41. A insuficiência respiratória pode ser causada por várias razões, incluindo DPOC ou outras condições que afetam a função pulmonar. Portanto, o código atribuído não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A04.0": {
+      "term_original": "fx de face",
+      "capitulo": "09",
+      "confidence_embedding": 0.7506,
+      "descricao_cid": "Representação de doença CID-11: Triquíase sem entrópio. Definição: Refere-se a cílios anormalmente posicionados que crescem para trás em direção ao olho, tocando a córnea ou conjuntiva. Pode ser causado por infecção, inflamação, condições autoimunes, defeitos congênitos, agenesia palpebral e traumatismos como queimaduras ou lesões palpebrais. Esse diagnóstico é feito na ausência da condição em que a pálpebra (usualmente a inferior) dobra para dentro. É muito desconfortável, pois os cílios constantemente se esfregam contra a córnea e a irritam.",
+      "classification_reasoning": "O termo 'fx de face' refere-se à lesão na face, o que é mais provável uma tríquise sem entrópio (triangulização da pálpebra) do que qualquer outro tipo de lesão facial.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão na face descrita no prontuário não se refere a uma tríquise sem entrópio, mas sim a uma lesão facial mais ampla. O termo 'fx de face' não é um diagnóstico específico de tríquise, e o código CID-11 atribuído (9A04.0) não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A25.4": {
+      "term_original": "hematoma nos olhos",
+      "capitulo": "09",
+      "confidence_embedding": 0.7758,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia da órbita. Definição: Trata-se da perda ou escape de sangue do sistema circulatório. Esse diagnóstico é relativo à cavidade ou arcabouço ósseo do crânio em que o olho e seus apêndices estão situados. \"Órbita\" pode se referir ao arcabouço ósseo mas também pode ser utilizado para implicar seu conteúdo.",
+      "classification_reasoning": "A presença de 'hematoma nos olhos' no contexto clínico sugere uma lesão traumática ou hemorrágica na órbita, o que é consistente com a definição do código 9A25.4: Representação de doença CID-11: Hemorragia da órbita.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'hematoma nos olhos' no prontuário sugere uma lesão traumática ou hemorrágica na órbita, mas o código CID-11 atribuído (9A25.4) refere-se especificamente à perda ou escape de sangue do sistema circulatório da órbita, arcabouço ósseo do crânio. Embora haja uma relação entre a lesão e a órbita, o código CID-11 não captura exatamente a condição descrita no prontuário. Portanto, é necessário remover o código CID-11 atribuído e substituir por um que melhor represente a condição clínica.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "MG30.20": {
+      "term_original": "algia",
+      "capitulo": "21",
+      "confidence_embedding": 0.7705,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-traumática. Definição: Dor pós-traumática crônica é a dor que se desenvolve ou aumenta de intensidade após uma lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após o traumatismo tecidual. A dor é ou localizada na área da lesão, ou referida no território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente por um problema doloroso preexistente.",
+      "classification_reasoning": "A dor crônica pós-traumática é a mais precisa opção para o termo 'algia' no contexto clínico, pois há referências à lesão tecidual e ao traumatismo multiplos não especificados.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor crônica pós-traumática (MG30.20) é uma condição que se refere a dor persistente após um traumatismo tecidual, enquanto o termo 'algia' no prontuário se refere a sintoma de dor aguda ou crônica não especificada. Embora haja referências à lesão tecidual e ao traumatismo multiplos não especificados, a dor descrita no prontuário não é necessariamente relacionada a uma lesão tecidual persistente. Portanto, o código CID-11 atribuído não representa fielmente o termo ou condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA39.8": {
+      "term_original": "fratura do colo do femur",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A fratura do colo do fêmur é um traumatismo muscular e ósseo que não está relacionado a doenças como artropatia hemofílica, neuropática ou reativa. A escolha do código FA39.8 foi baseada na descrição da fratura do colo do fêmur no contexto clínico e é mais preciso para o termo dentro desse contexto.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A fratura do colo do fêmur é descrita no prontuário e o código FA39.8 foi atribuído com base na descrição da fratura. A escolha do código está justificada pela falta de contradições óbvias ou alucinações. A classificação é clínica e coerente com a descrição do paciente.",
+      "tipo_erro_auditoria": null
+    },
+    "CA0K.Y": {
+      "term_original": "abdome agudo",
+      "capitulo": "12",
+      "confidence_embedding": 0.7426,
+      "descricao_cid": "Representação de doença CID-11: Outro abscesso especificado do trato respiratório superior. Definição: ",
+      "classification_reasoning": "A opção mais precisa é o abscesso do trato respiratório superior não especificado, pois o termo 'abdome agudo' não se refere ao abdome, mas sim ao trato respiratório. Além disso, a descrição do paciente menciona a presença de um abscesso cervical e parafaringeo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'abdome agudo' não se refere ao trato respiratório superior, mas sim ao abdome. A descrição do paciente menciona a presença de abscessos cervical e parafaringeo, mas não há menção a um abscesso no trato respiratório superior. Portanto, o código CID-11 CA0K.Y não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA01": {
+      "term_original": "hipotenso",
+      "capitulo": "11",
+      "confidence_embedding": 0.7743,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A escolha do código BA01 se baseia na descrição de 'hipotenso' no contexto clínico, que indica uma redução anormal da pressão arterial. Isso é consistente com a definição de Doença cardíaca hipertensiva, um termo geralmente aplicado a doenças cardíacas causadas por efeitos diretos ou indiretos da hipertensão.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição de 'hipotenso' no prontuário refere-se a uma redução anormal da pressão arterial, que não é diretamente relacionada à Doença cardíaca hipertensiva. A escolha do código BA01 é um exemplo de overgeneralization, pois a hipotensão não é uma condição cardíaca hipertensiva em si mesma.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG29.10": {
+      "term_original": "aumento de volume",
+      "capitulo": "21",
+      "confidence_embedding": 0.7366,
+      "descricao_cid": "Representação de doença CID-11: Edema devido a pressão capilar aumentada. Definição: O aumento da pressão capilar aumenta o vazamento de fluido do compartimento vascular para os tecidos intersticiais, resultando em edema. Causas incluem o comprometimento ou obstrução do retorno venoso (sobrecarga de fluido, trombose venosa, insuficiência cardíaca direita, compressão venosa por tumor), aumento do fluxo sanguíneo (resposta fisiológica à exposição ao calor, malformações arteriovenosas, controle vasomotor cutâneo prejudicado devido a drogas ou neuropatia autonômica), ou pressão oncótica plasmática reduzida por hipoproteinemia.",
+      "classification_reasoning": "Aumento de volume no maxilar inferior pode ser um indicador de edema devido a pressão capilar aumentada, considerando o contexto clínico de traumatismo múltiplo não especificado e presença de abscesso retrofaringeo e parafaringeo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'aumento de volume' no maxilar inferior pode ser um indicador de edema, mas não há suficiente informação no prontuário para confirmar que o aumento seja devido a pressão capilar aumentada. Além disso, a presença de abscesso retrofaringeo e parafaringeo sugere uma causa mais específica do aumento de volume, como a compressão venosa por tumor ou edema infeccioso.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "6C49.3": {
+      "term_original": "convulsão",
+      "capitulo": "06",
+      "confidence_embedding": 0.7971,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por alucinógenos. Definição: Intoxicação por alucinógenos é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de alucinógenos, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos dos alucinógenos e sua intensidade está intimamente relacionada à quantidade de alucinógenos consumida. Têm duração limitada, e diminuem à medida que o alucinógeno é eliminado do corpo. A apresentação pode incluir alucinações, ilusões, alterações perceptivas como despersonalização, desrealização, ou sinestesias (fusão de sentidos, como um estímulo visual evocando um cheiro), ansiedade, humor deprimido ou disfórico, ideias de referência, ideação paranoide, julgamento comprometido, palpitações, sudorese, visão turva, tremores e descoordenação. Sinais físicos podem incluir taquicardia, pressão arterial elevada, dilatação pupilar. Em casos raros, a intoxicação por alucinógenos pode facilitar ideação e comportamento suicidas.",
+      "classification_reasoning": "A convulsão relatada no contexto clínico é mais consistentemente descrita como um sintoma da intoxicação por alucinógenos, considerando a presença de outros sintomas psicóticos e perceptuais, como alucinações, despersonalização e desrealização.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A convulsão relatada no prontuário não é um sintoma da intoxicação por alucinógenos, como descrito na definição do código CID-11. A presença de outros sintomas psicóticos e perceptuais, como alucinações, despersonalização e desrealização, também não são mencionados no prontuário. Portanto, a codificação '6C49.3' não é clinicamente coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "PE52": {
+      "term_original": "agressão com 1 pedra",
+      "capitulo": "23",
+      "confidence_embedding": 0.7605,
+      "descricao_cid": "Representação de doença CID-11: Agressão por traumatismo sem afogamento enquanto o corpo na água. Definição: ",
+      "classification_reasoning": "A opção PE52 é a mais precisa para o termo 'agressão com 1 pedra' pois a definição desse código refere-se à agressão por traumatismo sem afogamento enquanto o corpo está na água, o que coincide com a descrição do paciente de ter sido vítima de agressão com 1 pedra.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A definição do código CID-11 PE52 refere-se à agressão por traumatismo sem afogamento enquanto o corpo está na água. No entanto, o termo extraído 'agressão com 1 pedra' não se encaixa nessa definição. A paciente foi vítima de agressão, mas não há informações sobre a presença de água no local do incidente. Portanto, o código CID-11 PE52 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9B01.1": {
+      "term_original": "pupilas isocóricas e fotorreagentes",
+      "capitulo": "09",
+      "confidence_embedding": 0.7607,
+      "descricao_cid": "Representação de doença CID-11: Pupilas parassimpatoparéticas. Definição: Dano ao estímulo parassimpático para o músculo esfíncter da íris.",
+      "classification_reasoning": "A descrição 'pupilas isocóricas e fotorreagentes' sugere que as pupilas estão se contraem de forma igual em ambos os olhos (isocóricas) e reagem à luz forte (fotorreagentes), o que é consistente com a definição de Pupilas parassimpatoparéticas (Código 9B01.1).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição 'pupilas isocóricas e fotorreagentes' sugere que as pupilas estão reagindo à luz, o que não é consistente com a definição de Pupilas parassimpatoparéticas (Código 9B01.1). A reação às luzes fortes é mais relacionada ao reflexo da pupila e não ao dano do estímulo parassimpático para o músculo esfíncter da íris.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ND36": {
+      "term_original": "traumatismos multiplos nao especificados",
+      "capitulo": "22",
+      "confidence_embedding": 0.7873,
+      "descricao_cid": "Representação de doença CID-11: Outros traumatismos envolvendo regiões múltiplas do corpo, não classificados em outra parte. Definição: ",
+      "classification_reasoning": "O termo 'traumatismos multiplos não especificados' sugere que o paciente apresentou lesões em várias regiões do corpo, sem especificar qual região foi afetada. Isso é mais consistente com a descrição da doença ND36, que engloba traumatismos múltiplos em diferentes regiões do corpo que não podem ser classificados em outra parte.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'traumatismos multiplos não especificados' é muito amplo e não apresenta informações específicas sobre a localização ou natureza dos traumatismos. Isso não se ajusta à descrição da doença ND36, que requer lesões em diferentes regiões do corpo que não podem ser classificadas em outra parte. A falta de especificidade do termo leva a uma codificação muito geral e não clínica.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

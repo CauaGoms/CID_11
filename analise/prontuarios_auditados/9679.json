@@ -1,0 +1,95 @@
+{
+  "prontuario_id": 649,
+  "text": "# Paciente assintomático.\n# Pós transplante renal (2004).\n# paciente refere internamento por 4 dias há 1 semana na XXXX por quadro de diarreia e vômito.\n\n# Medicações em uso: Selozok 100 mg, losartana 50mg 2cp 12/12h, AAS 100mg, omeprazol 20mg, furosemida 40mg 2x ao dia, atensina 0,100mg 2cp 8/8h, alopurinol 150mg, atorvastatina 40mg, micofenolato de sódio 360mg 2cp 12/12h, prednisona 5 mg 2cp ao dia.\n\n# Mantenho conduta.\nRetorno em 3 meses.\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente",
+      "paciente"
+    ],
+    "Negação": [
+      "assintomático"
+    ],
+    "Sinal ou Sintoma": [
+      "assintomático",
+      "diarreia",
+      "vômito"
+    ],
+    "Conceito Temporal": [
+      "Pós",
+      "há 1 semana",
+      "2cp 8/8h",
+      "2cp 12/12h",
+      "2cp ao dia"
+    ],
+    "Substância Farmacológica": [
+      "Medicações",
+      "Selozok",
+      "losartana",
+      "AAS",
+      "omeprazol",
+      "furosemida",
+      "atensina",
+      "alopurinol",
+      "atorvastatina",
+      "prednisona"
+    ],
+    "Substância Química Orgânica": [
+      "Selozok",
+      "losartana",
+      "AAS",
+      "omeprazol",
+      "furosemida",
+      "atensina",
+      "alopurinol",
+      "atorvastatina",
+      "prednisona"
+    ],
+    "Conceito Quantitativo": [
+      "50mg",
+      "2cp",
+      "100mg",
+      "20mg",
+      "40mg",
+      "150mg",
+      "360mg",
+      "100 mg",
+      "0 , 100mg",
+      "5 mg"
+    ],
+    "Abreviação": [
+      "AAS",
+      "2cp 8/8h",
+      "2cp 12/12h",
+      "2cp ao dia"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "transplante renal"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "internamento por 4 dias",
+      "Mantenho conduta"
+    ]
+  },
+  "labels": {
+    "DD91.2": {
+      "term_original": "diarreia",
+      "capitulo": "13",
+      "confidence_embedding": 0.722,
+      "descricao_cid": "Representação de doença CID-11: Diarreia funcional. Definição: Diarreia funcional é uma síndrome contínua ou recorrente caracterizada pela passagem de fezes moles (pastosas) ou aquosas sem dor ou desconforto abdominal.",
+      "classification_reasoning": "A escolha para o código DD91.2 (Diarreia funcional) se baseia na descrição do paciente como assintomático e com quadro de diarreia e vômito após um internamento recente, não apresentando outros sintomas ou condições que sugerissem outras opções mais específicas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O paciente refere internamento por 4 dias há 1 semana com quadro de diarreia e vômito, o que sugere uma condição mais específica do que a diarreia funcional. A falta de outros sintomas ou condições que justifiquem a escolha do código DD91.2 (Diarreia funcional) leva à conclusão de que a codificação não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "DA94.22": {
+      "term_original": "vômito",
+      "capitulo": "13",
+      "confidence_embedding": 0.7088,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de enterocolite induzida por proteína alimentar. Definição: Inflamação crônica persistente com hipersensibilidade não mediada por IgE e mediada por células no trato intestinal, que afeta primariamente crianças. Os alimentos causadores mais comuns são: leite de vaca, soja, arroz, aveia, carne. Nos casos de exposição crônica, os sintomas mais frequentes são vômitos, diarreia, crescimento comprometido e letargia. Quando reexposto após restrição, o paciente pode apresentar vômitos, diarreia e hipotensão (15%) 2 horas após a ingestão.",
+      "classification_reasoning": "A opção mais precisa é DA94.22, Síndrome de enterocolite induzida por proteína alimentar, pois o termo 'vômito' está relacionado ao quadro clínico apresentado pelo paciente (quadro de diarreia e vômito), que é característico da síndrome mencionada. Além disso, a presença de outras condições médicas, como o transplante renal, aumenta a probabilidade de uma reação alérgica a proteínas presentes no alimento.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção DA94.22 não é adequada porque o termo 'vômito' não está diretamente relacionado à síndrome de enterocolite induzida por proteína alimentar. A presença de vômitos e diarreia pode ser causada por várias razões, incluindo a reação alérgica ao alimento, mas também pode ser um sintoma de outras condições médicas, como a doença renal crônica após o transplante. Portanto, é necessário remover a classificação e realizar uma análise mais detalhada do paciente para determinar a causa real dos sintomas.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    }
+  }
+}

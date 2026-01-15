@@ -1,0 +1,112 @@
+{
+  "prontuario_id": 761,
+  "text": "TX RENAL DC CE.\nCMV TRATADO.\nPREDSIM 5, FK .1 / 1, SRL1, BO, CVD 25 X2, OMEGA 3\nS: SEM QUEIXAS.\nO: PA 120/80,  P 76,   AFEBRIL.\nEX SEGMENTAR SP.\nTX RENAL COM CR 2,28 E NS FK 8,0 E NS 5,0.\nCMV TRATADO > GANCICLOVIR / GANVIRAX.\nHAS.\nDISLIPIDEMIA.\n \n \n ",
+  "entities": {
+    "Substância Farmacológica": [
+      "PREDSIM",
+      "FK",
+      "BO",
+      "CVD",
+      "GANCICLOVIR",
+      "GANVIRAX",
+      "OMEGA 3"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "120/80",
+      "76",
+      "1 / 1",
+      "25 X2"
+    ],
+    "Substância Química Orgânica": [
+      "FK",
+      "SRL1",
+      "CVD"
+    ],
+    "Abreviação": [
+      "FK",
+      "SRL1",
+      "BO",
+      "CVD",
+      "PA",
+      "P",
+      "HAS",
+      "TX RENAL",
+      "CMV TRATADO",
+      "EX SEGMENTAR SP",
+      "CR 2 , 28",
+      "NS FK 8",
+      "NS 5 , 0"
+    ],
+    "Antibiótico": [
+      "SRL1"
+    ],
+    "Negação": [
+      "SEM",
+      "AFEBRIL"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "AFEBRIL"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P"
+    ],
+    "Ácido Nucleico, Nucleosídeo ou Nucleotídeo": [
+      "GANCICLOVIR",
+      "GANVIRAX"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DISLIPIDEMIA",
+      "CMV TRATADO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Achado": [
+      "CMV TRATADO"
+    ],
+    "Substância Biologicamente Ativa": [
+      "OMEGA 3"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 2 , 28",
+      "NS FK 8",
+      "NS 5 , 0"
+    ]
+  },
+  "labels": {
+    "XM1M61": {
+      "term_original": "has",
+      "capitulo": "X",
+      "confidence_embedding": 0.7139,
+      "descricao_cid": "Representação de doença CID-11: Ganciclovir. Definição: ",
+      "classification_reasoning": "A opção XM1M61 refere-se ao Ganciclovir, o qual é mencionado no texto como CMV TRATADO > GANCICLOVIR / GANVIRAX. Como o termo 'has' está relacionado à presença de tratamento com ganciclovir, essa opção é a mais precisa para representar o termo dentro do contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção XM1M61 refere-se ao Ganciclovir, o qual é mencionado no texto como CMV TRATADO > GANCICLOVIR / GANVIRAX. Como o termo 'has' está relacionado à presença de tratamento com ganciclovir, essa opção é a mais precisa para representar o termo dentro do contexto clínico.",
+      "tipo_erro_auditoria": null
+    },
+    "1D82": {
+      "term_original": "cmv tratado",
+      "capitulo": "01",
+      "confidence_embedding": 0.7416,
+      "descricao_cid": "Representação de doença CID-11: Doença por citomegalovírus. Definição: Qualquer condição causada por uma infecção por citomegalovírus (CMV). Essas condições são comumente assintomáticas. A transmissão ocorre por contato direto com fluidos corporais infectados.",
+      "classification_reasoning": "A opção mais precisa é a Doença por citomegalovírus (CMV) devido à presença do termo 'CMV tratado' no prontuário, que indica que o paciente tem infecção causada por CMV e que foi tratado com ganciclovir ou ganvivax.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa é a Doença por citomegalovírus (CMV) devido à presença do termo 'CMV tratado' no prontuário, que indica que o paciente tem infecção causada por CMV e que foi tratado com ganciclovir ou ganvivax. A codificação CID-11 1D82 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BC43.7": {
+      "term_original": "dislipidemia",
+      "capitulo": "11",
+      "confidence_embedding": 0.6768,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia diabética. Definição: Cardiomiopatia diabética é a presença de disfunção miocárdica na ausência de doença arterial coronariana clínica evidente, doença valvar e outros fatores de risco cardiovascular convencionais, como hipertensão e dislipidemia. Caracteriza-se inicialmente por fibrose miocárdica, remodelamento disfuncional e disfunção diastólica, evoluindo para disfunção sistólica e insuficiência cardíaca. \r\n\r\nInformações adicionais. O desenvolvimento e a progressão de cardiomiopatia diabética têm sido associados ao comprometimento da sinalização metabólica da insulina no coração, aumento do estresse oxidativo, redução da biodisponibilidade do óxido nítrico, rigidez da matriz extracelular e dos cardiomiócitos a base de colágeno, comprometimento do manuseio do cálcio por mitocôndrias e cardiomiócitos, inflamação, ativação do sistema renina-angiotensina-aldosterona, neuropatia autonômica cardíaca, estresse do retículo endoplasmático, disfunção microvascular e uma miríade de anormalidades metabólicas cardíacas.",
+      "classification_reasoning": "A escolha do código BC43.7 é justificada porque o termo 'dislipidemia' está relacionado à cardiomiopatia diabética, uma condição caracterizada por disfunção miocárdica e dislipidemia, como mencionado na definição do código.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 BC43.7 é justificada porque o termo 'dislipidemia' está relacionado à cardiomiopatia diabética, uma condição caracterizada por disfunção miocárdica e dislipidemia, como mencionado na definição do código. A presença de dislipidemia no prontuário é claramente relacionada à cardiomiopatia diabética descrita, portanto, a codificação é válida.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

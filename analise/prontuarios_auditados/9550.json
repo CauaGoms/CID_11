@@ -1,0 +1,210 @@
+{
+  "prontuario_id": 962,
+  "text": "Lucas 42 ANOS\nCANDIDATA A DOAÇÃO PARA SUA IRMÃ > Lucas\nNEGA HAS, DM, UROLITÍASE, ITU, CARDIOPATIAS, ACIDO ÚRICO, GOTA, USO DE AINES\nTABAGISTA HÁ 30 ANOS\nG3 P2 \nNEGA CIRURGIA ABDOMINAL \nEM USO DE ANTICONCEPCIONAL \nALT 172\nPESO 81KG\nPA 120/80\nMUCOSAS CORADAS\nCPP RONCOS \nABDOME GLOBOSO, RHA+, SEM VCM\nPC BULHAS RITMICAS SEM SOPROS\nMEBROS SEM EDEMA \nORIENTO SOBRE RISCOS INERENTES AO PROCEDIMENTO\nLIBERADO PRA CIRURGIA\nASA 2\nABO O \nSOROLOGIAS CMV +, EBV +\nANGIOTC CALCULO 2MM ( ACHADO ) NO POS LO SUPERIOR RIM ESQUERDO\nESTUDO METABÓLICO NORMAL \nECOCARDIO NORMAL \nRX DE TORAX NORMAL \nECG E TE NORMAIS \nECOGRAFIA ABDOME NORMAL\n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "CANDIDATA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "DOAÇÃO",
+      "P2",
+      "PROCEDIMENTO",
+      "CIRURGIA",
+      "CIRURGIA ABDOMINAL"
+    ],
+    "Grupo Familiar": [
+      "IRMÃ"
+    ],
+    "Negação": [
+      "NEGA",
+      "SEM"
+    ],
+    "Abreviação": [
+      "HAS",
+      "DM",
+      "ITU",
+      "AINES",
+      "ALT",
+      "PA",
+      "RHA+",
+      "VCM",
+      "PC",
+      "ANGIOTC",
+      "ECOCARDIO",
+      "ECG",
+      "TE",
+      "CMV +",
+      "EBV +",
+      "POS LO SUPERIOR RIM ESQUERDO",
+      "RX DE TORAX"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DM",
+      "UROLITÍASE",
+      "ITU",
+      "CARDIOPATIAS",
+      "GOTA",
+      "TABAGISTA"
+    ],
+    "Substância Farmacológica": [
+      "AINES",
+      "ANTICONCEPCIONAL"
+    ],
+    "Atributo Clínico": [
+      "ALT",
+      "PESO",
+      "PA",
+      "PC"
+    ],
+    "Conceito Quantitativo": [
+      "172",
+      "120/80"
+    ],
+    "Localização ou Região Corporal": [
+      "CPP",
+      "ABDOME",
+      "MEBROS"
+    ],
+    "Sinal ou Sintoma": [
+      "GLOBOSO",
+      "VCM",
+      "SOPROS",
+      "EDEMA"
+    ],
+    "Achado": [
+      "RHA+",
+      "MUCOSAS CORADAS",
+      "BULHAS RITMICAS",
+      "ASA 2",
+      "ABO O"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ORIENTO"
+    ],
+    "Ideia ou Conceito": [
+      "RISCOS"
+    ],
+    "Procedimento Laboratorial": [
+      "SOROLOGIAS",
+      "ACIDO ÚRICO",
+      "ESTUDO METABÓLICO"
+    ],
+    "Procedimento Diagnóstico": [
+      "ANGIOTC",
+      "ECOCARDIO",
+      "ECG",
+      "TE",
+      "ESTUDO METABÓLICO",
+      "RX DE TORAX",
+      "ECOGRAFIA ABDOME"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "NORMAL",
+      "NORMAIS",
+      "CMV +",
+      "EBV +",
+      "CALCULO 2MM",
+      "POS LO SUPERIOR RIM ESQUERDO",
+      "RX DE TORAX"
+    ],
+    "Classificação": [
+      "ASA 2"
+    ]
+  },
+  "labels": {
+    "8B61.0": {
+      "term_original": "bulhas ritmicas",
+      "capitulo": "08",
+      "confidence_embedding": 0.7178,
+      "descricao_cid": "Representação de doença CID-11: Atrofia muscular espinal infantil, tipo I. Definição: Na AMS tipo 1, o início da fraqueza pode ser pré-natal (diminuição dos movimentos fetais no final da gravidez) ou nos primeiros seis meses de vida. Os bebês demonstram uma posição característica de posição de sapo com as coxas giradas externamente e abduzidas e os joelhos flexionados (bebê hipotônico). A fraqueza bulbar causa dificuldade de alimentação. As crianças nunca conseguem sentar-se sem apoio e a sobrevivência média é de 9 meses; a sobrevida além de 2 anos é rara.",
+      "classification_reasoning": "A presença de 'bulhas ritmicas' na descrição do paciente sugere a possibilidade de uma doença neuromuscular, como atrofia muscular espinal infantil (AMS tipo I). Essa condição é caracterizada por fraqueza muscular bulbar e pode causar dificuldade de alimentação e outros sintomas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'bulhas ritmicas' no prontuário não está relacionada à atrofia muscular espinal infantil (AMS tipo I), como descrita pelo código CID-11. A descrição do paciente apresenta uma condição neurológica benigna, caracterizada por bulhas ritmicas sem sintomas de fraqueza muscular ou dificuldade de alimentação. Portanto, a codificação CID-11 8B61.0 não é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB50.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7768,
+      "descricao_cid": "Representação de doença CID-11: Cisto sinovial do espaço poplíteo. Definição: Este é o edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho",
+      "classification_reasoning": "A descrição do termo 'edema' no contexto clínico sugere que se refere a uma representação benigna de doença, especificamente na região posterior do joelho, o que é consistente com a definição da artropatia sinovial poplítea.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'edema' no prontuário se refere a um edema abdominal, não na região posterior do joelho como descrito na definição do código CID-11. Portanto, há uma incompatibilidade anatômica entre o termo e a definição do código, justificando a remoção do código.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "BC43.6": {
+      "term_original": "cardiopatias",
+      "capitulo": "11",
+      "confidence_embedding": 0.7938,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia ventricular arritmogênica. Definição: A cardiomiopatia ventricular arritmogênica é uma cardiomiopatia caracterizada pela perda de células miocárdicas com substituição parcial ou total do músculo ventricular direito por tecido adiposo e fibroso, começando pelo subepicárdio e se tornando transmural com o tempo, poupando os músculos papilares e trabéculas, e frequentemente associada a aneurismas, particularmente da via de saída ventricular direita. Há comprometimento sistólico progressivo com dilatação ventricular e acentuada propensão a arritmias ventriculares de origem ventricular direita, e também esquerda. Classicamente uma doença do ventrículo direito, evidências mais recentes sugerem envolvimento do ventrículo esquerdo em extensão variável em até 75% dos casos, assim como doença isolada do ventrículo esquerdo.",
+      "classification_reasoning": "A presença do termo 'cardiopatias' no contexto clínico leva a considerar a possibilidade de cardiomiopatia ventricular arritmogênica, que é descrita como uma doença caracterizada pela perda de células miocárdicas com substituição parcial ou total do músculo ventricular direito por tecido adiposo e fibroso. A presença de alterações no ECG e a normalidade dos exames ecocardiográficos e radiológicos também são consistentes com essa hipótese.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença do termo 'cardiopatias' no prontuário não é suficiente para justificar a codificação CID-11 BC43.6, que descreve uma cardiomiopatia ventricular arritmogênica específica. A falta de informações sobre sintomas cardíacos ou alterações eletrocardiográficas sugestivas de cardiomiopatia ventricular arritmogênica leva a considerar que o termo 'cardiopatias' pode se referir a outras condições cardíacas, como doenças coronárias ou valvulares. Portanto, a codificação CID-11 BC43.6 não é justificada pela informação disponível no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME02": {
+      "term_original": "mucosas coradas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7539,
+      "descricao_cid": "Representação de doença CID-11: Rigidez abdominal. Definição: Rigidez abdominal é a rigidez dos músculos na região da barriga, que pode ser sentida quando tocada ou pressionada",
+      "classification_reasoning": "A escolha mais precisa para o termo 'mucosas coradas' é ME02, que define a rigidez abdominal como a rigidez dos músculos na região da barriga. A descrição do paciente menciona 'MUCOSAS CORADAS', sugerindo uma rigidez ou tensão na parede abdominal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do paciente menciona 'MUCOSAS CORADAS', o que sugere uma condição cutânea, não relacionada à rigidez abdominal. A escolha do código ME02 é incorreta, pois não há relação clínica entre a coração da pele e a rigidez abdominal.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DB32.20": {
+      "term_original": "globoso",
+      "capitulo": "13",
+      "confidence_embedding": 0.7464,
+      "descricao_cid": "Representação de doença CID-11: Megacólon tóxico. Definição: Megacólon tóxico é uma forma aguda de distensão do cólon, caracterizada por dilatação acentuada do cólon, acompanhada por distensão abdominal (inchaço) e, às vezes, febre, dor abdominal ou choque. \"Tóxico\" significa que esta complicação ocorre com inflamação. O megacólon tóxico é uma rara dilatação do intestino grosso com risco de vida, que evolui em poucos dias, ocorrendo como complicação de doença inflamatória intestinal, tais como colite ulcerativa e doença de Crohn, ou colite de origem infecciosa.",
+      "classification_reasoning": "A descrição de 'globoso' refere-se à distensão abdominal característica do megacólon tóxico, uma complicação rara e potencialmente grave que pode ocorrer em pacientes com doenças inflamatórias intestinais ou infecciosas.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'globoso' no prontuário refere-se à distensão abdominal característica do paciente, que é claramente relacionada ao megacólon tóxico. A justificativa do sistema também apoia essa classificação, pois a distensão abdominal é um sintoma comum da doença. Portanto, a codificação CID-11 DB32.20 para 'megacólon tóxico' é válida e clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "ND92.02": {
+      "term_original": "itu",
+      "capitulo": "22",
+      "confidence_embedding": 0.7326,
+      "descricao_cid": "Representação de doença CID-11: Queimadura da parede abdominal, queimadura epidérmica. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a queimadura da parede abdominal (ND92.02) pois o termo 'itu' no contexto clínico refere-se à lesão abdominal, e não há outro termo CID-11 relacionado às veias jugulares ou esmagamento do quadril ou coxa.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'itu' no contexto clínico não se refere a queimadura da parede abdominal, mas sim a Insuficiência Tireoidiana (ITU). A opção ND92.02 não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC10.2": {
+      "term_original": "gota",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A descrição do termo 'gota' é relacionada à doença renal, especificamente à formação de cálculos renais. Nesse contexto clínico, a opção mais precisa é BC10.2, que representa Representação de doença CID-11: Gota.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'gota' no prontuário está relacionada à doença renal, especificamente à formação de cálculos renais. A opção BC10.2 é a mais precisa para representar essa condição clínica.",
+      "tipo_erro_auditoria": null
+    },
+    "300000000000.0": {
+      "term_original": "dm",
+      "capitulo": "03",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha do código 3E11 (Doenças cardíacas isquêmicas) se baseia na presença de doença cardiovascular (DM) mencionada no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'DM' no prontuário não está relacionada a doenças cardíacas isquêmicas, mas sim à Diabetes Mellitus. Portanto, o código CID-11 300000000000.0 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GB71.0": {
+      "term_original": "urolitíase",
+      "capitulo": "16",
+      "confidence_embedding": 0.7546,
+      "descricao_cid": "Representação de doença CID-11: Cálculo na bexiga. Definição: Uma afecção causada por desidratação, diminuição do volume de urina ou das taxas de fluxo de fluido, ou aumento da excreção de minerais como cálcio, oxalato, magnésio, cistina e fosfato. Essa condição é caracterizada por cálculos urinários localizados na bexiga. Essa afecção também pode se manifestar com hematúria, disúria ou dor no flanco, abdômen inferior ou virilha. A confirmação é feita por radiografia abdominal, para determinar a presença e localização de cálculos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'urolitíase' é o código GB71.0, que corresponde à representação de doença CID-11: Cálculo na bexiga. Isso é consistente com a história clínica do paciente, que menciona urolitíase como um fator negativo.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção do sistema é consistente com a história clínica do paciente, que menciona urolitíase como um fator negativo. A descrição do código CID-11 também se alinha com a definição de urolitíase apresentada no prontuário. Portanto, o código GB71.0 é clinicamente coerente com o termo 'urolitíase' descrito no prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

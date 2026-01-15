@@ -1,0 +1,144 @@
+{
+  "prontuario_id": 89,
+  "text": "PACIENTE COM HAS EM USO DE HCTZ, ENXAQUECA (USO DE DERIVADOS DO ERGOT), JÁ COM PASSADO DE ANGINA E CORONARIAS NORMAIS, TEVE QUADRO DE SÍNCOPE AO ORTOSTATISMO SEGUIDO DE SUDORESE E MAL ESTAR. FOI REALIZADO ECG NO DOMICILIO QUE MOSTROU SUPRA DESNIVEL DE ST DE V1 - V4. CHEGOU AO XXXX JÁ ASSINTOMATICA COM ECG NORMAL. ENZIMAS TAMBEM NORMAIS. CONCLUIU-SE POR ANGINA VASOESPASTICA (PARA A QUAL SE ATRIBUI PROVAVEL CARDIOPATIA ISQUEMICA INCIPIENTE). NÃO SE PODE EXCLUIR 2 FATORES PRECIPITANTES: HIPOTENSAO POR CONSTRIÇÃO DE VOLUME PELA HCTZ E VASOESPASMO ASSOCIADO AO USO DE DERIVADOS DO ERGOT.  ASSIM FORAM SUSPENSOS O ORMIGREM E A HCTZ. INICIADO MONONITRATO (CEFALEIA COM DINITRATO), BLOQUEADOR DE CANAIS DE CALCIO (AMLODIPINA), AAS, ESTATINA (DOSE A SER REAJUSTADA C/ PERFIL LIPIDICO APOS ALTA). ALTA ASSINTOMATICA POR 72H.",
+  "entities": {
+    "Abreviação": [
+      "HAS",
+      "HCTZ",
+      "ECG",
+      "AAS",
+      "ECG NORMAL"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "ENXAQUECA",
+      "ANGINA VASOESPASTICA",
+      "CARDIOPATIA ISQUEMICA INCIPIENTE"
+    ],
+    "Substância Farmacológica": [
+      "HCTZ",
+      "ORMIGREM",
+      "MONONITRATO",
+      "DINITRATO",
+      "AMLODIPINA",
+      "AAS",
+      "ESTATINA",
+      "DERIVADOS DO ERGOT",
+      "BLOQUEADOR DE CANAIS DE CALCIO"
+    ],
+    "Substância Química Orgânica": [
+      "HCTZ",
+      "MONONITRATO",
+      "DINITRATO",
+      "AMLODIPINA",
+      "AAS",
+      "ESTATINA"
+    ],
+    "Conceito Temporal": [
+      "PASSADO",
+      "APOS",
+      "72H"
+    ],
+    "Sinal ou Sintoma": [
+      "ANGINA",
+      "QUADRO",
+      "SUDORESE",
+      "ASSINTOMATICA",
+      "CEFALEIA",
+      "SÍNCOPE AO ORTOSTATISMO",
+      "MAL ESTAR"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECG"
+    ],
+    "Negação": [
+      "ASSINTOMATICA",
+      "NÃO"
+    ],
+    "Função Patológica": [
+      "VASOESPASMO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "SUSPENSOS",
+      "INICIADO",
+      "REAJUSTADA",
+      "ALTA"
+    ],
+    "Conceito Quantitativo": [
+      "DOSE"
+    ],
+    "Achado": [
+      "CORONARIAS NORMAIS"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "SUPRA DESNIVEL DE ST DE V1 - V4",
+      "ECG NORMAL",
+      "ENZIMAS TAMBEM NORMAIS"
+    ],
+    "Procedimento Laboratorial": [
+      "PERFIL LIPIDICO"
+    ]
+  },
+  "labels": {
+    "BA85": {
+      "term_original": "vasoespasmo",
+      "capitulo": "11",
+      "confidence_embedding": 0.7488,
+      "descricao_cid": "Representação de doença CID-11: Doença vasoespástica coronariana. Definição: O termo doença coronariana vasoespástica refere-se a uma vasoconstrição súbita e intensa de uma artéria coronária epicárdica que causa a oclusão ou quasi-oclusão do vaso. Embora possa estar envolvido em outras síndromes coronárias, representa a causa habitual de angina variante.",
+      "classification_reasoning": "A escolha do código BA85 (Doença vasoespástica coronariana) é a mais precisa para o termo 'vasoespasmo' no contexto clínico, pois refere-se especificamente à vasoconstrição súbita e intensa de uma artéria coronária epicárdica que causa a oclusão ou quasi-oclusão do vaso, como descrito no prontuário do paciente.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código BA85 (Doença vasoespástica coronariana) é justificada pois o termo 'vasoespasmo' no contexto clínico refere-se especificamente à vasoconstrição súbita e intensa de uma artéria coronária epicárdica que causa a oclusão ou quasi-oclusão do vaso, como descrito no prontuário do paciente. A descrição do código CID-11 é claramente relacionada à condição clínica do paciente, portanto, manter-se-á a escolha do código.",
+      "tipo_erro_auditoria": null
+    },
+    "6e+61": {
+      "term_original": "enxaqueca",
+      "capitulo": "06",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "Enxaqueca é um termo que se refere ao sintoma de dor ou desconforto crônico, freqüentemente associado a alterações vasomotora e cerebral. Considerando o contexto clínico da história do paciente, com quadro de síncope ortostático seguido de sudorese e mal-estar, e o uso de derivados do ergot, a escolha mais precisa é o código 6E61.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A enxaqueca é um termo que descreve sintomas específicos de dor ou desconforto crônico, enquanto o código CID-11 6E61 se refere a qualquer tipo de cefaleia. Embora haja uma relação entre os dois, a codificação não está clinicamente coerente com o prontuário, pois não há evidências de que o paciente tenha enxaqueca propriamente dita. A descrição do código CID-11 é demasiado genérica e não captura a especificidade dos sintomas descritos no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MB23.H": {
+      "term_original": "sudorese",
+      "capitulo": "21",
+      "confidence_embedding": 0.696,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A sintomatologia descrita, incluindo sudorese e mal-estar, é consistente com a definição de crise de pânico. Além disso, o contexto do paciente com histórico de enxaqueca e uso de derivados do ergot sugere uma possível relação entre esses fatores e os sintomas apresentados.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A sintomatologia descrita, incluindo sudorese e mal-estar, não é suficientemente específica para representar uma crise de pânico. A definição de crise de pânico CID-11 requer um conjunto específico de sintomas característicos, como palpitações, sensação de falta de ar, etc. O termo 'sudorese' não é suficiente para justificar a classificação de MB23.H. Além disso, o contexto do paciente com histórico de enxaqueca e uso de derivados do ergot sugere que outros fatores podem estar envolvidos nos sintomas apresentados.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MC82.0": {
+      "term_original": "quadro",
+      "capitulo": "21",
+      "confidence_embedding": 0.769,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico.",
+      "classification_reasoning": "A escolha pelo termo 'quadro' leva à opção mais precisa de Parada cardíaca com taquicardia e fibrilação ventricular (Código: MC82.0), considerando o contexto clínico que descreve um quadro de síncopalismo ortostático seguido de sudorese e mal-estar, com ECG normal e enzimas também normais.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'quadro' não representa diretamente a Parada cardíaca com taquicardia e fibrilação ventricular (Código: MC82.0). O quadro descrito no prontuário é um episódio de síncopalismo ortostático seguido de sudorese e mal-estar, que não se encaixa na definição do código CID-11 escolhido. A escolha do termo 'quadro' leva a uma classificação incorreta.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA40.Y": {
+      "term_original": "angina",
+      "capitulo": "11",
+      "confidence_embedding": 0.8033,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A escolha do código BA40.Y foi baseada na presença de sintomas de angina, como o quadro de síncope ao ortostatismo seguido de sudorese e mal-estar, e a presença de doença coronariana vasoespástica suspeita",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código BA40.Y é uma representação de doença CID-11, especificamente Outra angina pectoris especificada. No entanto, o prontuário descreve um quadro clínico que não se enquadra apenas em termos de angina pectoris. A presença de síncope ao ortostatismo, sudorese e mal-estar sugere uma resposta vasomotora mais ampla do que apenas angina. Além disso, a doença coronariana vasoespástica suspeita também não se enquadra apenas em termos de angina pectoris. Portanto, o código BA40.Y não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C48.2": {
+      "term_original": "cefaleia",
+      "capitulo": "06",
+      "confidence_embedding": 0.7474,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais.",
+      "classification_reasoning": "A cefaleia mencionada no contexto clínico é provavelmente relacionada ao uso de derivados do ergot, que podem causar sintomas similares à cefaleia, como espasmos musculares e sudorese.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A cefaleia mencionada no prontuário é provavelmente relacionada ao uso de derivados do ergot, que podem causar sintomas similares à cefaleia. No entanto, o código CID-11 atribuído (6C48.2) refere-se a Intoxicação por cafeína, o que não está clinicamente coerente com o prontuário. A cefaleia descrita no prontuário é mais provável uma consequência do uso de derivados do ergot e não uma intoxicação por cafeína.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

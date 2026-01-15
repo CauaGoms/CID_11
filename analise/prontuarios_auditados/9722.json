@@ -1,0 +1,117 @@
+{
+  "prontuario_id": 803,
+  "text": "TX RENAL 11 MESES.\nPKD.\nBX RENAL IFTA DISCRETA.\nMTC 5, FK 0,5 / 0,5, SRL 1, RSV 10 E CVD 25 X2.\n\nS: SEM QUEIXAS.\nO: PA 130/80,  P 68,  AFEBRIL,  PESO 75.\nEX FISICO NORMAL.\nTX RENAL 11 MESES COM CR 1,8; NS FK 4 E SRL 9.\nPKD - TENDE A POLIGLOBULIA.\nHAS COMPENSADA.\nPROTEINURIA COM DOPPLER NORMAL.\n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "PKD",
+      "MTC",
+      "FK",
+      "SRL",
+      "RSV",
+      "CVD",
+      "PA",
+      "P",
+      "TX RENAL",
+      "BX RENAL",
+      "IFTA DISCRETA",
+      "EX FISICO NORMAL",
+      "CR 1 , 8",
+      "NS FK 4",
+      "HAS COMPENSADA"
+    ],
+    "Doença ou Síndrome": [
+      "PKD",
+      "TENDE A POLIGLOBULIA",
+      "HAS COMPENSADA"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "FK",
+      "RSV",
+      "CVD"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "FK",
+      "SRL",
+      "RSV",
+      "CVD"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "1",
+      "10",
+      "130/80",
+      "68",
+      "75",
+      "9",
+      "0 , 5 / 0 , 5",
+      "25 X2"
+    ],
+    "Antibiótico": [
+      "SRL"
+    ],
+    "Negação": [
+      "SEM",
+      "AFEBRIL"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "AFEBRIL"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PESO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "PROTEINURIA",
+      "IFTA DISCRETA",
+      "CR 1 , 8",
+      "NS FK 4"
+    ],
+    "Procedimento Diagnóstico": [
+      "DOPPLER",
+      "BX RENAL"
+    ],
+    "Achado": [
+      "NORMAL",
+      "EX FISICO NORMAL"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ]
+  },
+  "labels": {
+    "GB41": {
+      "term_original": "has compensada",
+      "capitulo": "16",
+      "confidence_embedding": 0.7858,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrótica. Definição: Condição caracterizada por proteinúria grave, superior a 3,5 g/dia em um adulto médio. A perda substancial de proteína na urina resulta em hipoalbuminemia e edema generalizado. Em geral também há hiperlipidemia. Outras manifestações da doença glomerular podem estar presentes. Existem muitas causas possíveis e apresentações histológicas renais. As possíveis complicações incluem trombose vascular, infecções, desnutrição e insuficiência renal.",
+      "classification_reasoning": "A descrição do termo 'has compensada' sugere que a doença renal crônica está em controle, sem sintomas graves ou complicações. A opção GB41 (Síndrome nefrótica) é mais precisa porque refere-se à proteína na urina, que é mencionada no prontuário (SRL 1). Além disso, a condição de proteínuria grave é uma característica comum da síndrome nefrótica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'has compensada' sugere que a doença renal crônica está em controle, sem sintomas graves ou complicações. No entanto, o código CID-11 atribuído (GB41) refere-se à Síndrome nefrótica, que não é compatível com a descrição do termo. A Síndrome nefrótica é caracterizada por proteinúria grave e hipoalbuminemia, enquanto 'has compensada' sugere que a doença está em controle. Portanto, o código CID-11 atribuído não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF96": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7797,
+      "descricao_cid": "Representação de doença CID-11: Proteinúria. Definição: O excesso de proteínas séricas na urina, como na doença renal, em que a albumina é a proteína principal, porém também pode ser devido a outras proteínas, como imunoglobulinas de cadeias leves na discrasia de células plasmáticas como o mieloma múltiplo.",
+      "classification_reasoning": "A descrição de 'queixas' refere-se à ausência de queixas do paciente, o que é consistente com a proteinúria mencionada no contexto clínico. A opção MF96 é a mais precisa para representar essa informação.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'queixas' refere-se à ausência de queixas do paciente, enquanto o código CID-11 MF96 representa proteinúria. Embora a proteinúria possa ser um sintoma da doença renal, não há relação direta entre as duas condições. A opção MF96 é demasiado específica e não captura a ausência de queixas do paciente.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "3A71.2": {
+      "term_original": "tende a poliglobulia",
+      "capitulo": "03",
+      "confidence_embedding": 0.7513,
+      "descricao_cid": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "O termo 'tende a poliglobulia' sugere que o paciente tem uma tendência a ter níveis elevados de glóbulos vermelhos, característica da anemia na doença renal crônica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'tende a poliglobulia' sugere uma tendência a ter níveis elevados de glóbulos vermelhos, o que não é compatível com a definição da anemia na doença renal crônica. A CID-11 3A71.2 se refere especificamente à baixa produção de glóbulos vermelhos, e não à poliglobulia. Portanto, a codificação não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

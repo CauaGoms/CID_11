@@ -1,0 +1,41 @@
+{
+  "prontuario_id": 949,
+  "text": "pcet retorna com exames - espondiloartrose lombar. \nCdt: fst e orientaçoes, 3-4 meses de atividade sem impacto.       ",
+  "entities": {
+    "Abreviação": [
+      "pcet",
+      "Cdt",
+      "fst"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "pcet"
+    ],
+    "Procedimento Diagnóstico": [
+      "exames"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "fst"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Doença ou Síndrome": [
+      "espondiloartrose lombar"
+    ],
+    "Conceito Temporal": [
+      "3-4 meses"
+    ]
+  },
+  "labels": {
+    "FA92.1": {
+      "term_original": "espondiloartrose lombar",
+      "capitulo": "15",
+      "confidence_embedding": 0.6724,
+      "descricao_cid": "Representação de doença CID-11: Espondiloartrite periférica. Definição: Especialistas da \"Assessment of SpondyloArthritis International Society\" (ASAS) desenvolveram critérios de classificação para espondiloartrite axial e periférica. São classificados com espondiloartrite periférica os pacientes com manifestações periféricas como artrite, entesite ou dactilite, características de espondiloartrite, sem dor lombar.",
+      "classification_reasoning": "A presença de espondiloartrose lombar na descrição do prontuário sugere a possibilidade de uma condição crônica que afeta a coluna vertebral, caracterizada por inflamação e degeneração dos discos intervertebrais e articulações. A opção FA92.1 é mais precisa para este termo pois é a representação CID-11 para espondiloartrite periférica, uma condição que envolve manifestações periféricas como artrite, entesite ou dactilite, características de espondiloartrite.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação FA92.1 é mais adequada para espondiloartrite periférica, que envolve manifestações periféricas como artrite, entesite ou dactilite, características de espondiloartrite. No entanto, o termo 'espondiloartrose lombar' não se encaixa nesta definição, pois refere-se a uma condição que afeta especificamente a coluna vertebral, sem envolver manifestações periféricas. Portanto, a codificação FA92.1 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

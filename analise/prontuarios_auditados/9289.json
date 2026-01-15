@@ -1,0 +1,67 @@
+{
+  "prontuario_id": 354,
+  "text": "Pcte com hx de dor em hcd a 5 anos, usg com colelitiase.\nPre-operatorio ok.\nRealizo aih e aviso de cx.\nOrientaçoes.\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Pcte"
+    ],
+    "Abreviação": [
+      "Pcte",
+      "hx",
+      "hcd",
+      "usg",
+      "aih",
+      "cx"
+    ],
+    "Sinal ou Sintoma": [
+      "dor"
+    ],
+    "Localização ou Região Corporal": [
+      "hcd"
+    ],
+    "Conceito Temporal": [
+      "anos"
+    ],
+    "Procedimento Diagnóstico": [
+      "usg",
+      "Pre-operatorio ok"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "colelitiase"
+    ],
+    "Doença ou Síndrome": [
+      "colelitiase"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Orientaçoes"
+    ],
+    "Achado": [
+      "Pre-operatorio ok"
+    ],
+    "Procedimento Laboratorial": [
+      "Pre-operatorio ok"
+    ]
+  },
+  "labels": {
+    "DA94.22": {
+      "term_original": "colelitiase",
+      "capitulo": "13",
+      "confidence_embedding": 0.7103,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de enterocolite induzida por proteína alimentar. Definição: Inflamação crônica persistente com hipersensibilidade não mediada por IgE e mediada por células no trato intestinal, que afeta primariamente crianças. Os alimentos causadores mais comuns são: leite de vaca, soja, arroz, aveia, carne. Nos casos de exposição crônica, os sintomas mais frequentes são vômitos, diarreia, crescimento comprometido e letargia. Quando reexposto após restrição, o paciente pode apresentar vômitos, diarreia e hipotensão (15%) 2 horas após a ingestão.",
+      "classification_reasoning": "A opção mais precisa é a síndrome de enterocolite induzida por proteína alimentar, pois o termo 'colelitiase' indica uma condição relacionada ao trato intestinal e à resposta imune. A descrição da doença menciona inflamação crônica persistente com hipersensibilidade não mediada por IgE e mediada por células no trato intestinal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 atribuída ('DA94.22') não representa fielmente o termo 'colelitiase' descrito no prontuário, que se refere a uma condição relacionada ao trato intestinal e à resposta imune. A descrição da doença menciona inflamação crônica persistente com hipersensibilidade não mediada por IgE e mediada por células no trato intestinal, o que não é compatível com a síndrome de enterocolite induzida por proteína alimentar descrita pelo código CID-11. Portanto, a codificação é incompatível com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.2": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7546,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A dor mencionada no contexto é descrita como persistindo há 5 anos, o que sugere uma dor crônica pós-operatória ou pós-traumática, excluindo outras causas de dor.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dor mencionada no prontuário persistiu há 5 anos, o que sugere uma dor crônica pós-operatória ou pós-traumática. A descrição do código CID-11 MG30.2 se ajusta perfeitamente ao contexto clínico, pois a dor é localizada na região operada e persiste além do processo de cicatrização. Portanto, a codificação CID-11 MG30.2 é CLINICAMENTE COERENTE com o prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

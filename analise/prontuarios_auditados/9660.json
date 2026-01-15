@@ -1,0 +1,177 @@
+{
+  "prontuario_id": 944,
+  "text": "TX RENAL 10 MESES DC.\n\nGECA HÁ 3 DIAS.\nPREDSIM 5, FK 4 / 4, MS 2 / 2, BACTRIM, CVD 25, AAS 100, ENALAPRIL 5.\nS: HERPES SIMPLES RECORRENTE.\nO: PA 120/70,  P 68,  AFEBRIL, PESO 79,9.\nCORADO E HIDRATADO.\nCPP LIVRES.\nPC RITMO REGULAR.\nABD RHA+, FLACIDO.\nMMII SEM EDEMA.\nTX RENAL COM CR 0,99 / 1,0 E NS FK 6,0.\nHAS COMPENSADA.\nPOLIGLOBULIA COM MELHORA.\nGECA COM MELHORA.\nDISLIPIDEMIA.\n \n \n ",
+  "entities": {
+    "Achado": [
+      "DC",
+      "S",
+      "CORADO",
+      "HIDRATADO",
+      "RHA+",
+      "FLACIDO",
+      "TX RENAL",
+      "CPP LIVRES",
+      "PC RITMO REGULAR",
+      "COM MELHORA"
+    ],
+    "Abreviação": [
+      "DC",
+      "GECA",
+      "PREDSIM",
+      "FK",
+      "MS",
+      "CVD",
+      "AAS",
+      "S",
+      "O",
+      "PA",
+      "P",
+      "ABD",
+      "RHA+",
+      "MMII",
+      "TX RENAL",
+      "CPP LIVRES",
+      "PC RITMO REGULAR",
+      "CR 0 , 99 / 1 , 0",
+      "NS FK 6 , 0",
+      "HAS COMPENSADA"
+    ],
+    "Doença ou Síndrome": [
+      "GECA",
+      "POLIGLOBULIA",
+      "DISLIPIDEMIA",
+      "HERPES SIMPLES RECORRENTE",
+      "HAS COMPENSADA"
+    ],
+    "Substância Química Orgânica": [
+      "PREDSIM",
+      "FK",
+      "MS",
+      "BACTRIM",
+      "CVD",
+      "AAS"
+    ],
+    "Substância Farmacológica": [
+      "PREDSIM",
+      "FK",
+      "MS",
+      "BACTRIM",
+      "CVD",
+      "AAS",
+      "ENALAPRIL"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "25",
+      "100",
+      "120/70",
+      "68",
+      "79 , 9"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PESO"
+    ],
+    "Negação": [
+      "AFEBRIL",
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "AFEBRIL",
+      "EDEMA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABD",
+      "MMII"
+    ],
+    "Localização ou Região Corporal": [
+      "MMII"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 99 / 1 , 0",
+      "NS FK 6 , 0"
+    ]
+  },
+  "labels": {
+    "3A71.2": {
+      "term_original": "geca",
+      "capitulo": "03",
+      "confidence_embedding": 0.7624,
+      "descricao_cid": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "O termo 'geca' é uma abreviação para anemia na doença renal crônica, que é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Nesse contexto, a escolha do código 3A71.2 parece mais precisa, pois está relacionada à patologia renal e ao sintoma de anemia.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código 3A71.2 parece justa, pois o termo 'geca' é uma abreviação médica comum para anemia na doença renal crônica, que está diretamente relacionada à patologia renal e ao sintoma de anemia descrito no prontuário. A lógica clínica sustenta a escolha do código, pois a anemia é um sintoma comum em pacientes com doença renal crônica.",
+      "tipo_erro_auditoria": null
+    },
+    "9A94.1": {
+      "term_original": "flacido",
+      "capitulo": "09",
+      "confidence_embedding": 0.7047,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso.",
+      "classification_reasoning": "A opção mais precisa é a síndrome da íris flácida (Código: 9A94.1), pois o termo 'flácido' se refere à descrição da íris como ondulando e não tendo resistência, característica dessa síndrome.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'flácido' se refere à descrição da íris como ondulando e não tendência, característica da síndrome da íris flácida. No entanto, no prontuário, o termo 'flácido' é usado para descrever a ABD (Abdomen), que não está relacionado à síndrome da íris flácida. Portanto, a codificação CID-11 9A94.1 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG29": {
+      "term_original": "edema",
+      "capitulo": "21",
+      "confidence_embedding": 0.8017,
+      "descricao_cid": "Representação de doença CID-11: Edema. Definição: Acúmulo anormal de líquido em tecidos ou cavidades corporais, não codificado em outra parte.",
+      "classification_reasoning": "A palavra 'edema' está relacionada à presença de edema nos membros inferiores e ausência de edema nos outros lugares (MMII SEM EDEMA), o que sugere um edema localizado, não um edema generalizado. Além disso, o termo 'TX RENAL COM CR 0,99 / 1,0' também aponta para a presença de edema renal, reforçando a escolha do código MG29.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de edema nos membros inferiores e ausência de edema nos outros lugares (MMII SEM EDEMA) sugere que o edema é localizado, não generalizado. Além disso, o termo 'TX RENAL COM CR 0,99 / 1,0' aponta para a presença de edema renal. No entanto, o código MG29 descreve apenas um acúmulo anormal de líquido em tecidos ou cavidades corporais, não especificamente relacionado à localização do edema. Portanto, há uma discordância entre a descrição clínica e o código CID-11.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "BA02": {
+      "term_original": "has compensada",
+      "capitulo": "11",
+      "confidence_embedding": 0.7285,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A opção mais precisa é a doença renal hipertensiva (Código: BA02), pois o termo 'has compensada' está relacionado à doença renal, que foi mencionada anteriormente no prontuário ('TX RENAL COM CR 0,99 / 1,0 E NS FK 6,0').",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção do código CID-11 BA02, doença renal hipertensiva, é justificada pela presença de 'TX RENAL COM CR 0,99 / 1,0 E NS FK 6,0' no prontuário. O termo 'has compensada' está relacionado à doença renal e não há contradição óbvia ou alucinação. A classificação é clínica e coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "1F00.21": {
+      "term_original": "herpes simples recorrente",
+      "capitulo": "01",
+      "confidence_embedding": 0.7507,
+      "descricao_cid": "Representação de doença CID-11: Encefalite devida ao vírus herpes simples. Definição: A encefalite herpética é uma infecção cerebral causada pelo vírus Herpes simples tipo 1 (HSV1). Apresenta-se como encefalite temporal necrosante aguda. O início é rápido (menos de 48 horas) com febre de 40° C, dores de cabeça e problemas comportamentais, de linguagem e de memória. Essas manifestações iniciais são seguidas por sonolência e coma, que podem ser acompanhados por convulsões e paralisia. Esta doença, que afeta apenas uma pequena minoria de indivíduos infectados com HSV1, resulta de uma deficiência imunológica primária.",
+      "classification_reasoning": "A opção mais precisa para o termo 'herpes simples recorrente' é a encefalite devida ao vírus herpes simples (Código: 1F00.21), pois a presença da doença como um diagnóstico confirmado no prontuário clínico e a descrição da sintomatologia compatível com uma infecção recurrente por HSV.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'herpes simples recorrente' é a encefalite devida ao vírus herpes simples (Código: 1F00.21), pois a presença da doença como um diagnóstico confirmado no prontuário clínico e a descrição da sintomatologia compatível com uma infecção recurrente por HSV.",
+      "tipo_erro_auditoria": null
+    },
+    "5B90.2": {
+      "term_original": "dislipidemia",
+      "capitulo": "05",
+      "confidence_embedding": 0.7413,
+      "descricao_cid": "Representação de doença CID-11: Hipervitaminose D. Definição: A hipervitaminose D é secundária à ingestão excessiva de vitamina D. Pode ocorrer com ingestão elevada a longo prazo ou por ingestão aguda em excesso. O excesso de quantidades resulta em concentrações anormalmente altas de cálcio e fosfato no soro. Os sinais e sintomas da intoxicação por vitamina D são secundários à hipercalcemia. As manifestações gastrointestinais incluem náuseas, vômitos, constipação, dor abdominal e pancreatite. Os possíveis achados cardíacos são hipertensão, diminuição do intervalo Q-T e arritmias. Os efeitos da hipercalcemia no sistema nervoso central incluem letargia, hipotonia, confusão, desorientação, depressão, psicose, alucinações e coma. A hipercalcemia danifica os mecanismos de concentração renal, o que pode levar à poliúria, desidratação e hipernatremia. A hipercalcemia também pode causar insuficiência renal aguda, nefrolitíase e nefrocalcinose, que pode resultar em insuficiência renal crônica. As mortes geralmente estão associadas a arritmias ou desidratação.",
+      "classification_reasoning": "A dislipidemia é mencionada como uma consequência da doença, e a hipervitaminose D (Código 5B90.2) é conhecida por causar distúrbios metabólicos que incluem hiperlipidemia.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dislipidemia é mencionada como uma consequência da doença, e a hipervitaminose D (Código 5B90.2) é conhecida por causar distúrbios metabólicos que incluem hiperlipidemia. Como a dislipidemia está claramente relacionada à hipervitaminose D, o código CID-11 atribuído (5B90.2) representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "GB60.1": {
+      "term_original": "tx renal",
+      "capitulo": "16",
+      "confidence_embedding": 0.797,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência renal aguda, estágio 2. Definição: Taxa de alteração da creatinina sérica: 2,0-2,9 vezes a linha de base OU Magnitude da produção de urina: < 0,5 ml/kg/h por > = 12 horas",
+      "classification_reasoning": "A opção mais precisa para o termo 'tx renal' é GB60.1, pois a descrição refere-se à insuficiência renal aguda, estágio 2, que coincide com as informações presentes no prontuário (TX RENAL 10 MESES DC). Além disso, a presença de CR 0,99 / 1,0 e NS FK 6,0 também é consistente com essa opção.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção GB60.1 para o termo 'tx renal' é justificada pela presença de insuficiência renal aguda, estágio 2, com taxa de alteração da creatinina sérica e magnitude da produção de urina consistentes com a definição do código CID-11.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

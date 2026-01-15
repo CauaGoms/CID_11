@@ -1,0 +1,36 @@
+{
+  "prontuario_id": 83,
+  "text": "# NAO FEZ DACRIOCINTILOGRAFIA.\n# SEM QUEIXAS.\n\nCONDUTA: REAGENDO CONSULTA PARA 18/11/14, COM EXAME.\n\nR2 Lucas        ",
+  "entities": {
+    "Negação": [
+      "NAO",
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CONDUTA",
+      "CONSULTA"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAME",
+      "FEZ DACRIOCINTILOGRAFIA"
+    ],
+    "Abreviação": [
+      "R2"
+    ]
+  },
+  "labels": {
+    "6E61.0": {
+      "term_original": "queixas",
+      "capitulo": "06",
+      "confidence_embedding": 0.7545,
+      "descricao_cid": "Representação de doença CID-11: Síndrome psicótica secundária com alucinações. Definição: Síndrome caracterizada pela presença de alucinações proeminentes, consideradas consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental, com base em evidências de anamnese, exame físico ou achados laboratoriais. Delírios não são um aspecto proeminente da apresentação clínica. Os sintomas não são explicados por delirium ou por outro transtorno mental e comportamental, e não são uma resposta psicologicamente mediada a uma condição médica grave (p. ex., uma reação aguda ao estresse em resposta ao diagnóstico de uma condição de ameaça à vida). Essa categoria deve ser utilizada em conjunto com o diagnóstico do transtorno ou doença subjacente presumido, quando os sintomas psicóticos são suficientemente graves para exigir atenção clínica específica.",
+      "classification_reasoning": "A presença de queixas não mencionada no relatório, juntamente com a reagendamento da consulta para fazer exame, sugere que o paciente está apresentando sintomas psicóticos, mas sem delírios proeminentes, caracterizando a síndrome psicótica secundária com alucinações (6E61.0)",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 6E61.0 refere-se a uma síndrome psicótica secundária com alucinações, que implica a presença de sintomas psicóticos graves e delírios proeminentes. No entanto, o prontuário não menciona queixas ou sintomas psicóticos, apenas reagendamento da consulta para fazer exame. A falta de menção a sintomas psicóticos ou queixas é contrária à definição do código CID-11 6E61.0, o que justifica a remoção desse código.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

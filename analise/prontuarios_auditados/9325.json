@@ -1,0 +1,115 @@
+{
+  "prontuario_id": 301,
+  "text": "PACIENTE HAS , DPOC , TABAGISTA , EX-ETILISTA , INTERNA COM QUADRO CLÍNICO DE DOR TORÁCICA IRRADIADA PARA COTOVELO DIREITO , EM REPOUSO , CARACTERÍSTICA DE APERTO , DURAÇÃO DE 4 HORAS , A QUAL TERIA INICADO HÁ 4 SEMANAS AOS ESFORÇOS .  INTERNA NO CTI-HCPA COM SUSPEITA DIAGNÓSTICA DE ANGINA PROGRESSIVA . NA INVESTIGAÇÃO , REALIZOU CATETERISMO CARDÍACO , O QUAL DEMONSTROU CORONÁRIAS SEM LESÕES OBSTRUTIVAS SIGNIFICATIVAS , E ECOCARDIOGRAMA COM AE = 50 , VE = 56/37 ,  FE = 65% , S = 16 , PP = 12  E ESTENOSE AÓRTICA LEVE-MODERADA COM GRADIENTE MÉDIO DE 31 MMHG . TERÁ ALTA HOSPITALAR ASSINTOMÁTICA , COM MEDICAÇÃO ANTIHIPERTENSIVA E COM PROFILAXIA PARA ENDOCARDITE .",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Abreviação": [
+      "HAS",
+      "DPOC",
+      "AE = 50",
+      "VE = 56/37",
+      "FE = 65%",
+      "S = 16",
+      "PP = 12"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DPOC",
+      "TABAGISTA",
+      "ANGINA PROGRESSIVA"
+    ],
+    "Achado": [
+      "EX-ETILISTA"
+    ],
+    "Procedimento Diagnóstico": [
+      "INVESTIGAÇÃO",
+      "CATETERISMO CARDÍACO",
+      "E ECOCARDIOGRAMA"
+    ],
+    "Negação": [
+      "SEM",
+      "ASSINTOMÁTICA"
+    ],
+    "Sinal ou Sintoma": [
+      "ASSINTOMÁTICA",
+      "DOR TORÁCICA",
+      "IRRADIADA PARA COTOVELO DIREITO",
+      "EM REPOUSO",
+      "CARACTERÍSTICA DE APERTO",
+      "ANGINA PROGRESSIVA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CATETERISMO CARDÍACO",
+      "PROFILAXIA PARA ENDOCARDITE"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "LESÕES OBSTRUTIVAS SIGNIFICATIVAS",
+      "AE = 50",
+      "VE = 56/37",
+      "FE = 65%",
+      "S = 16",
+      "PP = 12",
+      "ESTENOSE AÓRTICA LEVE-MODERADA COM GRADIENTE MÉDIO DE 31 MMHG"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ALTA HOSPITALAR"
+    ],
+    "Substância Farmacológica": [
+      "MEDICAÇÃO ANTIHIPERTENSIVA"
+    ]
+  },
+  "labels": {
+    "BA60.1": {
+      "term_original": "dor torácica",
+      "capitulo": "11",
+      "confidence_embedding": 0.815,
+      "descricao_cid": "Representação de doença CID-11: Outra pericardite como complicação atual subsequente a infarto agudo do miocárdio. Definição: Inflamação do pericárdio que pode causar dor no peito, que ocorre tão precocemente quanto o primeiro dia e até 6 semanas após o infarto agudo do miocárdio. A dor da pericardite irradia para qualquer crista do trapézio. O infarto do miocárdio transmural é responsável pela inflamação pericárdica local. Atritos pericárdicos transitórios são relativamente comuns em pacientes com infarto transmural nas primeiras 48 horas. Uma pericardite fibrinosa aguda ocorre comumente após o infarto transmural, enquanto o risco de pericardite hemorrágica está aumentado por anticoagulação.",
+      "classification_reasoning": "A dor torácica irradiada para qualquer crista do trapézio é mais compatível com a pericardite como complicação atual subsequente a infarto agudo do miocárdio, o que está descrito no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor torácica irradiada não é suficientemente específica para justificar a pericardite como complicação atual subsequente a infarto agudo do miocárdio. A descrição clínica apresenta um quadro de dor torácica irradiada, que pode ser causado por várias condições, incluindo angina progressiva e não apenas pericardite. Além disso, o prontuário menciona a suspeita diagnóstica de angina progressiva, o que sugere que a dor torácica possa estar relacionada a essa condição em vez da pericardite.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MG30.21": {
+      "term_original": "característica de aperto",
+      "capitulo": "21",
+      "confidence_embedding": 0.7787,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática.",
+      "classification_reasoning": "A característica de aperto descrita no contexto é mais compatível com a dor crônica pós-operatória, considerando que o paciente tem história de DPOC e internação por quadro clínico de dor torácica irradiada para cotorvelo direito.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A característica de aperto não é suficientemente específica para representar a dor crônica pós-operatória. A descrição do prontuário sugere que o paciente tem história de DPOC e internação por quadro clínico de dor torácica irradiada para cotorvelo direito, o que é mais compatível com uma condição clínica específica do que com a dor crônica pós-operatória. Além disso, a característica de aperto não está diretamente relacionada à cirurgia ou ao procedimento cirúrgico, o que é um critério importante para a classificação de dor crônica pós-operatória.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BA40.Y": {
+      "term_original": "angina progressiva",
+      "capitulo": "11",
+      "confidence_embedding": 0.7992,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A escolha mais precisa para o termo 'angina progressiva' é BA40.Y, Representação de doença CID-11: Outra angina pectoris especificada. Isso porque o paciente apresenta dor torácica irradiada para cotovelo direito, com suspeita diagnóstica de angina progressiva e ausência de lesões obstrutivas significativas em coronaterismo cardíaco.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código CID-11 BA40.Y, Representação de doença: Outra angina pectoris especificada, é justificada pela presença de dor torácica irradiada para cotovelo direito e suspeita diagnóstica de angina progressiva. A ausência de lesões obstrutivas significativas em coronaterismo cardíaco não contraria a escolha do código, pois a definição da doença CID-11 inclui 'outra angina pectoris especificada'. Portanto, a codificação é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "6C45.3": {
+      "term_original": "dpoc",
+      "capitulo": "06",
+      "confidence_embedding": 0.7732,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A presença de DPOC (dopamina precursora) e Tabagista no prontuário sugere que o paciente pode ter consumido cocaína antes da internação, justificando a escolha do código CID-11 para Intoxicação por cocaína.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de DPOC (dopamina precursora) no prontuário não é suficiente para justificar a escolha do código CID-11 para Intoxicação por cocaína. A DPOC pode ser relacionada a outras substâncias, e não há evidência clínica concreta de que o paciente tenha consumido cocaína antes da internação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA51": {
+      "term_original": "ex-etilista",
+      "capitulo": "11",
+      "confidence_embedding": 0.7668,
+      "descricao_cid": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas.",
+      "classification_reasoning": "A paciente é ex-etilista, o que sugere uma história de uso crônico de substâncias e, provavelmente, disfunção miocárdica. Além disso, a presença de dor torácica irradiada para o cotovelo direito e a realização de cateterismo cardíaco sem lesões obstrutivas significativas sugerem uma possível cardiomiopatia isquêmica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 BA51 'Miocardiopatia isquêmica' não é clinicamente coerente com o prontuário. A paciente tem dor torácica irradiada para o cotovelo direito e realizou cateterismo cardíaco sem lesões obstrutivas significativas, o que sugere mais uma condição de doença coronariana do que disfunção miocárdica isquêmica. Além disso, a presença de estenose aórtica leve-moderada com gradiente médio de 31 mmHg também não é compatível com a codificação escolhida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

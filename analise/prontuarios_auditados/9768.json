@@ -1,0 +1,146 @@
+{
+  "prontuario_id": 65,
+  "text": "TX RENAL EM  07/09/2012;\nUSO DE MTC 5, MYF 2/2, TAC 2/1.\nOMZ, SINVA, ATN 100, NFD 40.\n\nS: ASSINTOMATICA.\nO: BEG, LOTE, CORADO, AFEBRIL.\nPA 130*80; PESO 53.\nEF NORMAL.\nA: CR 0,7; TAC 5,0;\nVG 39; LEUC 6370; PQ 216;\nCT 167; HDL 43; LDL 93; TG 169.\nPRA ZERO.\nP: MANTIDO CONDUTA.\n \n \n \n ",
+  "entities": {
+    "Substância Química Orgânica": [
+      "MTC",
+      "TAC",
+      "OMZ",
+      "SINVA",
+      "ATN",
+      "NFD"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "MYF",
+      "TAC",
+      "OMZ",
+      "SINVA",
+      "ATN",
+      "NFD"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "2/2",
+      "2/1",
+      "100",
+      "40",
+      "130*80",
+      "53"
+    ],
+    "Abreviação": [
+      "TAC",
+      "OMZ",
+      "SINVA",
+      "ATN",
+      "NFD",
+      "S",
+      "O",
+      "BEG",
+      "LOTE",
+      "PA",
+      "A",
+      "P",
+      "TX RENAL",
+      "EF NORMAL",
+      "CR 0 , 7",
+      "VG 39",
+      "LEUC 6370",
+      "PQ 216",
+      "CT 167",
+      "TG 169"
+    ],
+    "Achado": [
+      "S",
+      "BEG",
+      "LOTE",
+      "CORADO",
+      "TX RENAL",
+      "EF NORMAL"
+    ],
+    "Negação": [
+      "ASSINTOMATICA",
+      "AFEBRIL"
+    ],
+    "Sinal ou Sintoma": [
+      "ASSINTOMATICA",
+      "AFEBRIL"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "PESO"
+    ],
+    "Produto Intelectual": [
+      "P"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 7",
+      "TAC 5 , 0",
+      "VG 39",
+      "LEUC 6370",
+      "PQ 216",
+      "CT 167",
+      "HDL 43",
+      "LDL 93",
+      "TG 169"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "MANTIDO CONDUTA"
+    ]
+  },
+  "labels": {
+    "BA02": {
+      "term_original": "afebril",
+      "capitulo": "11",
+      "confidence_embedding": 0.7627,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A escolha do código BA02 (Doença renal hipertensiva) é a mais precisa porque o termo 'afebril' está relacionado à situação clínica descrita no contexto, que menciona um paciente com doença renal e uso de medicamentos. A ausência de febre sugere que a condição do paciente não é uma crise hipertensiva (BA03), nem uma síndrome de alto débito cardíaco (BD12). Além disso, a falta de mencionação de úlceras nos pés diabéticos (BD54) ou fibrilação atrial paroxística (BC81.30) também aponta para a escolha do código BA02.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código BA02 (Doença renal hipertensiva) é justificada porque o termo 'afebril' está relacionado à situação clínica descrita no contexto, que menciona um paciente com doença renal e uso de medicamentos. A ausência de febre sugere que a condição do paciente não é uma crise hipertensiva (BA03), nem uma síndrome de alto débito cardíaco (BD12). Além disso, a falta de mencionação de úlceras nos pés diabéticos (BD54) ou fibrilação atrial paroxística (BC81.30) também aponta para a escolha do código BA02.",
+      "tipo_erro_auditoria": null
+    },
+    "6C48.2": {
+      "term_original": "beg",
+      "capitulo": "06",
+      "confidence_embedding": 0.7536,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais.",
+      "classification_reasoning": "A palavra 'beg' sugere que o paciente está agitado ou excito, características comuns da intoxicação por cafeína.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A palavra 'beg' pode ser interpretada como um termo que descreve a agitação ou excitação do paciente, o que é consistente com a descrição da intoxicação por cafeína. Além disso, a ausência de sintomas específicos e a falta de informações sobre a dose de cafeína consumida não permitem uma classificação mais específica. Portanto, manteremos a codificação CID-11 como '6C48.2', pois é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "GB41": {
+      "term_original": "tx renal",
+      "capitulo": "16",
+      "confidence_embedding": 0.7902,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrótica. Definição: Condição caracterizada por proteinúria grave, superior a 3,5 g/dia em um adulto médio. A perda substancial de proteína na urina resulta em hipoalbuminemia e edema generalizado. Em geral também há hiperlipidemia. Outras manifestações da doença glomerular podem estar presentes. Existem muitas causas possíveis e apresentações histológicas renais. As possíveis complicações incluem trombose vascular, infecções, desnutrição e insuficiência renal.",
+      "classification_reasoning": "A opção mais precisa para o termo 'tx renal' é a Síndrome nefrótica (Código: GB41) devido à menção explícita da doença em 'TX RENAL EM 07/09/2012'. A presença de sinais como proteinúria grave e hipoalbuminemia também apoiam essa escolha.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'tx renal' é a Síndrome nefrótica (Código: GB41) devido à menção explícita da doença em 'TX RENAL EM 07/09/2012'. A presença de sinais como proteinúria grave e hipoalbuminemia também apoiam essa escolha. A codificação CID-11 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MF54.2": {
+      "term_original": "lote",
+      "capitulo": "21",
+      "confidence_embedding": 0.7864,
+      "descricao_cid": "Representação de doença CID-11: Hipoplasia renal. Definição: Condição caracterizada por um rim menor em tamanho e peso do que a média (menos de 11 centímetros de comprimento, 5-7,5 centímetros de largura, 2,5 centímetros de espessura e pesando menos de 120 gramas).",
+      "classification_reasoning": "A opção mais precisa para o termo 'lote' é a Hipoplasia renal (MF54.2), pois 'lote' provavelmente se refere à anomalia anatômica do rim, caracterizada por um tamanho e peso menor do que a média.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção MF54.2 (Hipoplasia renal) é justificada, pois o termo 'lote' provavelmente se refere à anomalia anatômica do rim, caracterizada por um tamanho e peso menor do que a média. A descrição clínica do prontuário não apresenta contradições óbvias ou alucinações, portanto, a codificação CID-11 é CLINICAMENTE COERENTE com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "9A78.20": {
+      "term_original": "corado",
+      "capitulo": "09",
+      "confidence_embedding": 0.6792,
+      "descricao_cid": "Representação de doença CID-11: Ceratopatia bolhosa. Definição: Trata-se do estágio máximo do edema corneano.\r\n\r\nÉ uma condição patológica em que pequenas vesículas, ou bolhas, são formadas na córnea devido à disfunção endotelial. Em uma córnea saudável, as células endoteliais impedem o tecido de absorver fluido em excesso, bombeando-o de volta para o humor aquoso. Quando afetadas por algum motivo, como distrofia de Fuchs ou trauma durante a remoção da catarata, as células endoteliais sofrem danos ou morrem. As células endoteliais da córnea normalmente não sofrem divisão celular mitótica e a perda celular resulta em perda permanente da função.",
+      "classification_reasoning": "A presença do termo 'corado' no prontuário sugere a possibilidade de ceratopatia bolhosa, uma condição patológica caracterizada por pequenas vesículas ou bolhas formadas na córnea.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença do termo 'corado' no prontuário sugere a possibilidade de ceratopatia bolhosa, uma condição patológica caracterizada por pequenas vesículas ou bolhas formadas na córnea. A descrição clínica não apresenta contradições óbvias e a associação entre o termo 'corado' e a codificação CID-11 (9A78.20) é justificada pela presença de edema corneano descrito no prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

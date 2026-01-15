@@ -1,0 +1,248 @@
+{
+  "prontuario_id": 918,
+  "text": "Lucas, 66 anos # vem encaminhado por alteração da função renal. Cr 1,2 => ClCr 47ml/min # HAS há 5 anos, em uso de losartana 50mg, HCTZ 25mg # DM há 25 anos, insulino-dependente há 15 anos. Em uso de NPH  26 /_/ 36 e regular 10 UI # hipotireoidismo, em uso de 50mg # DLP, em uso de sinvastatina 20mg e AAS 100mg # G 3 C 3, apendicectomia. Nega vícios, nega alergia a medicamentos Exame físico : Peso 73kg, Alt 150cm, IMC 32 PA 130 x 70mmHg, FC 80. MV sem RA. PC : bulhas rítmicas sem sopros Abdomen globoso, flácido, cicatriz mediana Exames mostram : Hb glicada 8,9%, LDFL 109, Cr 1,2  relação albumina / creatinina 759mg/g  CT 187  TGL 110  HDL 56  K 5,1TSH 5,1  Hb 13,6  PU com proteínas 25mg/dl  sem hematúria",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "encaminhado"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DM",
+      "hipotireoidismo",
+      "DLP",
+      "vícios",
+      "hematúria"
+    ],
+    "Abreviação": [
+      "HAS",
+      "HCTZ",
+      "DM",
+      "NPH",
+      "DLP",
+      "AAS",
+      "Alt",
+      "IMC",
+      "PA",
+      "FC",
+      "MV",
+      "RA",
+      "PU",
+      "Cr 1 , 2",
+      "Hb glicada 8 , 9%",
+      "CT 187",
+      "TGL 110",
+      "Hb 13 , 6"
+    ],
+    "Substância Farmacológica": [
+      "losartana",
+      "HCTZ",
+      "NPH",
+      "regular",
+      "sinvastatina",
+      "AAS"
+    ],
+    "Conceito Quantitativo": [
+      "50mg",
+      "25mg",
+      "26",
+      "36",
+      "20mg",
+      "100mg",
+      "3",
+      "73kg",
+      "150cm",
+      "32",
+      "80",
+      "10 UI",
+      "130 x 70mmHg"
+    ],
+    "Substância Química Orgânica": [
+      "HCTZ",
+      "sinvastatina",
+      "AAS"
+    ],
+    "Sinal ou Sintoma": [
+      "insulino-dependente",
+      "RA",
+      "sopros",
+      "globoso",
+      "hematúria",
+      "alteração da função renal",
+      "alergia a medicamentos"
+    ],
+    "Hormônio": [
+      "NPH",
+      "regular"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "NPH",
+      "regular"
+    ],
+    "Atributo Clínico": [
+      "G",
+      "Peso",
+      "Alt",
+      "IMC",
+      "PA",
+      "FC"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "apendicectomia"
+    ],
+    "Negação": [
+      "Nega",
+      "nega",
+      "sem"
+    ],
+    "Disfunção Mental ou Comportamental": [
+      "vícios"
+    ],
+    "Achado": [
+      "MV",
+      "flácido",
+      "bulhas rítmicas"
+    ],
+    "Localização ou Região Corporal": [
+      "Abdomen"
+    ],
+    "Procedimento Laboratorial": [
+      "Exames"
+    ],
+    "Função Patológica": [
+      "alteração da função renal",
+      "alergia a medicamentos"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Cr 1 , 2",
+      "ClCr 47ml/min",
+      "Hb glicada 8 , 9%",
+      "LDFL 109",
+      "relação albumina / creatinina 759mg/g",
+      "CT 187",
+      "TGL 110",
+      "HDL 56",
+      "Hb 13 , 6",
+      "proteínas 25mg/dl"
+    ],
+    "Conceito Temporal": [
+      "há 5 anos",
+      "há 25 anos",
+      "há 15 anos"
+    ],
+    "Procedimento Diagnóstico": [
+      "Exame físico"
+    ]
+  },
+  "labels": {
+    "BB24": {
+      "term_original": "dlp",
+      "capitulo": "11",
+      "confidence_embedding": 0.761,
+      "descricao_cid": "Representação de doença CID-11: Hemopericárdio. Definição: Hemopericárdio causado por doenças não classificadas em outra parte. Hemopericárdio geralmente se refere a sangue no saco pericárdico do coração. É clinicamente semelhante ao derrame pericárdico e, dependendo do volume e da rapidez com que se desenvolve, pode causar tamponamento cardíaco.",
+      "classification_reasoning": "A presença de DLP no prontuário indica que é provável que o paciente tenha hemopericárdio, uma vez que a sinvastatina e AAS podem causar este sintoma.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de DLP no prontuário não está relacionada a hemopericárdio. A sinvastatina e AAS podem causar outros sintomas, como miocardite ou infarto agudo do miocárdio, mas não há evidência clínica que sugira a presença de hemopericárdio. Além disso, o termo DLP é uma abreviação médica comum para 'dilatação left ventricular', o que não está relacionado ao código CID-11 BB24.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF96": {
+      "term_original": "hematúria",
+      "capitulo": "21",
+      "confidence_embedding": 0.7871,
+      "descricao_cid": "Representação de doença CID-11: Proteinúria. Definição: O excesso de proteínas séricas na urina, como na doença renal, em que a albumina é a proteína principal, porém também pode ser devido a outras proteínas, como imunoglobulinas de cadeias leves na discrasia de células plasmáticas como o mieloma múltiplo.",
+      "classification_reasoning": "A presença de hematúria no exame de urina leva à escolha do código MF96, pois a proteinúria é uma das possíveis causas desse achado, especialmente em pacientes com doenças renais crônicas como o caso do paciente Lucas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de hematúria no exame de urina é negada pelo paciente, portanto não há evidência clínica para justificar a escolha do código MF96. A proteinúria pode ser uma possibilidade, mas não é mencionada como presente no prontuário.",
+      "tipo_erro_auditoria": "negated_finding"
+    },
+    "5A13.3": {
+      "term_original": "insulino-dependente",
+      "capitulo": "05",
+      "confidence_embedding": 0.7523,
+      "descricao_cid": "Representação de doença CID-11: Diabetes mellitus devido a endocrinopatias. Definição: Outro diabetes mellitus especificado devido a endocrinopatias é causado por excesso de hormônios (por exemplo, hormônio do crescimento cortisol, glucagon, adrenalina), que antagonizam a ação da insulina. \r\nQuantidades excessivas desses hormônios (que são secretados por exemplo, na acromegalia, \r\n na síndrome de Cushing, no glucagonoma, \r\n e no feocromocitoma, respectivamente) podem causar diabetes. Isso geralmente ocorre em indivíduos com defeitos pré-existentes na secreção de insulina, e a hiperglicemia geralmente desaparece quando o \r\n excesso de hormônio é resolvido.",
+      "classification_reasoning": "O termo 'insulino-dependente' sugere que Lucas tem diabetes dependente de insulina, o que é confirmado pela presença de NPH (insulina prônica) e regular em seu tratamento.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'insulino-dependente' sugere que Lucas tem diabetes dependente de insulina, mas o código CID-11 atribuído (5A13.3) representa diabetes mellitus devido a endocrinopatias, o que não é diretamente relacionado à dependência de insulina. A dependência de insulina é um tipo específico de diabetes, e o código CID-11 atribuído é muito amplo e não captura essa especificidade.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA25.20": {
+      "term_original": "flácido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7507,
+      "descricao_cid": "Representação de doença CID-11: Gota tofácea. Definição: Os tofos são deposições de cristais de urato monossódico nos tecidos de pacientes com hiperuricemia e podem estar associados a outras manifestações como a artropatia da gota. Eles são identificados principalmente na pele e no tecido subcutâneo. A hélice da orelha é uma das localizações mais comuns de acometimento dos tofos.",
+      "classification_reasoning": "A descrição do termo 'flácido' se refere à perda de tônus muscular, característica da gota tofácea (FA25.20). A presença de bulhas rítmicas sem sopros no exame físico e a ausência de outras condições que justifiquem a flacidez muscular apontam para essa possibilidade.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'flácido' não está diretamente relacionada à gota tofácea (FA25.20). A flacidez muscular pode ser causada por várias razões, incluindo doenças neuromusculares ou debilitantes, e não há evidência clínica suficiente para justificar a atribuição desse código.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "I12.9": {
+      "term_original": "has",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha mais precisa para o termo 'has' é a Hipertensão Arterial (I12.9), pois o paciente tem uma história de Hipertensão Arterial há 5 anos e está em uso de medicamentos anti-hipertensivos, como losartana e HCTZ.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 I12.9 não é precisa, pois o termo 'has' refere-se ao paciente com Hipertrofia Adrenal (HAS), e não à Hipertensão Arterial. A história de HAS há 5 anos e a presença de medicamentos anti-hipertensivos como losartana e HCTZ são características clínicas que justificam a codificação I15.9, não I12.9.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A25.4": {
+      "term_original": "sopros",
+      "capitulo": "09",
+      "confidence_embedding": 0.7032,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia da órbita. Definição: Trata-se da perda ou escape de sangue do sistema circulatório. Esse diagnóstico é relativo à cavidade ou arcabouço ósseo do crânio em que o olho e seus apêndices estão situados. \"Órbita\" pode se referir ao arcabouço ósseo mas também pode ser utilizado para implicar seu conteúdo.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sopros' é a Hemorragia da órbita (9A25.4), pois embora não haja uma menção específica à respiração ou ao sistema respiratório, a palavra 'sopros' pode se referir à hemorragia nos pulmões ou órbita.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'sopros' não está relacionada à hemorragia da órbita, mas sim ao termo 'bulhas rítmicas sem sopros' presente no exame físico. A opção mais precisa para o termo 'sopros' é remover a classificação 9A25.4 e não haver uma codificação adequada para esse termo.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "EA90.3": {
+      "term_original": "globoso",
+      "capitulo": "14",
+      "confidence_embedding": 0.7698,
+      "descricao_cid": "Representação de doença CID-11: Psoríase eritrodérmica. Definição: Psoríase eritrodérmica é uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele. A psoríase eritrodérmica geralmente se desenvolve a partir da psoríase em placas extensa mas pode surgir de forma nova. Fatores precipitantes ou desencadeantes incluem a retirada de glicocorticoides sistêmicos e, menos frequentemente, a descontinuação abrupta do metotrexato, queimaduras ou infecções intercorrentes. Os pacientes podem desenvolver hipotermia ou insuficiência cardíaca de alto débito.",
+      "classification_reasoning": "A descrição do termo 'globoso' se refere à pele flácida e globosa descrita no exame físico, o que é consistente com a definição de psoríase eritrodérmica (EA90.3) como uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'globoso' não é um sintoma específico de psoríase eritrodérmica (EA90.3). A descrição do exame físico menciona uma pele flácida e globosa, mas essa característica pode ser comum em pacientes com doenças renais crônicas, hipotireoidismo ou outras condições clínicas. Portanto, a classificação EA90.3 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BD71.2": {
+      "term_original": "alteração da função renal",
+      "capitulo": "11",
+      "confidence_embedding": 0.7687,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A presença de Cr 1,2 e relação albumina/creatinina 759mg/g sugere que a alteração da função renal é provavelmente relacionada à doença renal crônica. A escolha do código BD71.2 (Trombose da veia renal) é mais precisa pois não há evidências de tromboembolismo venoso em outros locais do corpo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A alteração da função renal descrita no prontuário não é uma trombose da veia renal, mas sim uma doença renal crônica. O código CID-11 BD71.2 (Trombose da veia renal) não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5A00.20": {
+      "term_original": "hipotireoidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.8167,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo devido a medicamentos ou outras substâncias exógenas. Definição: Condição causada por uma hipofunção da tireoide devido a medicamentos ou outras substâncias exógenas. Essa condição pode se apresentar com fadiga, aumento da sensibilidade ao frio, constipação, pele seca, ganho de peso, fraqueza e dor muscular, aumento de colesterol, dores ou inchaços nas articulações, períodos menstruais mais intensos ou irregulares, enfraquecimento do cabelo, depressão e memória deficiente.",
+      "classification_reasoning": "O termo 'hipotireoidismo' se refere à condição de baixa produção de hormônios tireoidianos, e o contexto clínico menciona a presença de hipotireoidismo em uso de medicamento (DLP), portanto, a escolha mais precisa é a hipotireoidismo devido a medicamentos ou outras substâncias exógenas (Código 5A00.20)",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código CID-11 5A00.20 é justificada, pois o termo 'hipotireoidismo' se refere à condição de baixa produção de hormônios tireoidianos e o contexto clínico menciona a presença de hipotireoidismo em uso de medicamento (DLP). A lógica clínica é coerente com a descrição do código CID-11, que se refere à hipotireoidismo devido a medicamentos ou outras substâncias exógenas.",
+      "tipo_erro_auditoria": null
+    },
+    "5C78": {
+      "term_original": "dm",
+      "capitulo": "05",
+      "confidence_embedding": 0.784,
+      "descricao_cid": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem.",
+      "classification_reasoning": "A escolha pelo Código 5C78 (Sobrecarga de líquidos) é baseada na presença de sintomas como edema, o que está presente no prontuário ('Abdomen globoso, flácido, cicatriz mediana'). Além disso, a presença de insuficiência renal (Cr 1,2 => ClCr 47ml/min) e história de DM (insulino-dependente há 15 anos) aumentam a probabilidade de uma condição de sobrecarga de líquidos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 5C78 (Sobrecarga de líquidos) não é clínica e coerente com o prontuário. Embora haja edema descrito no prontuário, a principal causa da insuficiência renal e da hipotireoidismo é a doença, não uma sobrecarga de líquidos. Além disso, a história de DM e a presença de insulino-dependência também não justificam a escolha desse código. Acredito que o código mais adequado seria um relacionado à insuficiência renal ou hipotireoidismo.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A78.20": {
+      "term_original": "bulhas rítmicas",
+      "capitulo": "09",
+      "confidence_embedding": 0.7274,
+      "descricao_cid": "Representação de doença CID-11: Ceratopatia bolhosa. Definição: Trata-se do estágio máximo do edema corneano.\r\n\r\nÉ uma condição patológica em que pequenas vesículas, ou bolhas, são formadas na córnea devido à disfunção endotelial. Em uma córnea saudável, as células endoteliais impedem o tecido de absorver fluido em excesso, bombeando-o de volta para o humor aquoso. Quando afetadas por algum motivo, como distrofia de Fuchs ou trauma durante a remoção da catarata, as células endoteliais sofrem danos ou morrem. As células endoteliais da córnea normalmente não sofrem divisão celular mitótica e a perda celular resulta em perda permanente da função.",
+      "classification_reasoning": "A presença de 'bulhas rítmicas' no exame físico do paciente sugere a presença de ceratopatia bolhosa, uma condição patológica caracterizada por formação de pequenas vesículas na córnea.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'bulhas rítmicas' no exame físico do paciente não está relacionada à ceratopatia bolhosa, que é uma condição patológica caracterizada por formação de pequenas vesículas na córnea. O termo 'bulhas rítmicas' se refere a um achado normal e comum no exame físico, não há nenhuma indicação de doença ou lesão na córnea.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

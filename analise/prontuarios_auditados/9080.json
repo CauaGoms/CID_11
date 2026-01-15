@@ -1,0 +1,186 @@
+{
+  "prontuario_id": 345,
+  "text": "Às 9h: Relatou forte algia em flanco esquerdo ao respirar, PA 120/70 mmHg, Dextro 120. comunicado Alice da geral, que virá avaliar. Acesso venoso periférico em mão esquerda, apresenta curativo em região abdominal limpo, seco externamente, diurese presente. Enfª Florence Nightingale. APENDICITE AGUDA COM PERITONITE GENERALIZADA. Às 15:00: REALIZADO TROCA DO CURATIVO EM REGIÃO ABDOMINAL, COM PRESENÇA DE SECREÇAO EM GRANDE QUANTIDADE, COM ODOR FETIDO; DOR ABDOMINAL E PELVICA. Às 16:00: PVC INSTALADA NO MOMENTO, 27 cm/H2O; CIRROSE HEPATICA ALCOOLICA. Às 09:00 horas: Abertura ocular, sem contactuar. DVE com débito; saturação satisfatória; recebendo dieta por sonda nasoenteral e SF 0,9%; traqueostomizado, em névoa a 3 l/m; secreção em média quantidade; roncos raros a ausculta; abdomen flácido; diurese efetiva; precaução de contato por VRE. DISPARO DE OUTRA ARMA DE FOGO E DE ARMA DE FOGO NAO ESPECIFICADA, INTENCAO NAO DETERMINADA, AREAS INDUSTRIAIS E EM CONSTRUCAO.",
+  "entities": {
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Abreviação": [
+      "PA",
+      "geral",
+      "Enfª",
+      "PVC",
+      "DVE",
+      "SF 0 , 9%"
+    ],
+    "Conceito Quantitativo": [
+      "120",
+      "120/70 mmHg",
+      "27 cm/H2O",
+      "3 l/m"
+    ],
+    "Dispositivo Médico": [
+      "curativo",
+      "Acesso venoso periférico"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "curativo",
+      "DVE",
+      "traqueostomizado",
+      "névoa",
+      "Acesso venoso periférico",
+      "TROCA DO CURATIVO",
+      "sonda nasoenteral",
+      "precaução de contato"
+    ],
+    "Achado": [
+      "limpo",
+      "seco",
+      "contactuar",
+      "traqueostomizado",
+      "diurese presente",
+      "Abertura ocular",
+      "saturação satisfatória",
+      "abdomen flácido",
+      "diurese efetiva"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfª"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR",
+      "forte algia",
+      "ODOR FETIDO",
+      "roncos raros"
+    ],
+    "Localização ou Região Corporal": [
+      "ABDOMINAL",
+      "PELVICA",
+      "flanco esquerdo",
+      "região abdominal",
+      "REGIÃO ABDOMINAL"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Substância Corporal": [
+      "secreção"
+    ],
+    "Procedimento Diagnóstico": [
+      "ausculta"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "mão esquerda"
+    ],
+    "Função Fisiológica": [
+      "diurese presente",
+      "diurese efetiva"
+    ],
+    "Doença ou Síndrome": [
+      "APENDICITE AGUDA COM PERITONITE GENERALIZADA",
+      "CIRROSE HEPATICA ALCOOLICA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "TROCA DO CURATIVO"
+    ],
+    "Conceito Qualitativo": [
+      "GRANDE QUANTIDADE",
+      "média quantidade"
+    ],
+    "Substância Farmacológica": [
+      "SF 0 , 9%"
+    ]
+  },
+  "labels": {
+    "CB05.41": {
+      "term_original": "roncos raros",
+      "capitulo": "12",
+      "confidence_embedding": 0.748,
+      "descricao_cid": "Representação de doença CID-11: Transtornos respiratórios na poliangeíte microscópica. Definição: Abrange condições patológicas que afetam órgãos e tecidos que possibilitam a troca gasosa em organismos superiores, e inclui condições do trato respiratório superior, traqueia, brônquios e bronquíolos, alvéolos pleura e cavidade pleural, nervos e músculos envolvidos na respiração. Este diagnóstico é quando há uma doença autoimune mal definida caracterizada por uma vasculite sistêmica, pauci-imune, necrotizante, de pequenos vasos sem evidência clínica ou patológica de uma inflamação granulomatosa necrotizante.",
+      "classification_reasoning": "O termo 'roncos raros' sugere uma alteração respiratória, provavelmente relacionada à doença pulmonar, e o código CB05.41 refere-se a transtornos respiratórios na poliangeíte microscópica, que inclui condições patológicas que afetam órgãos e tecidos envolvidos na troca gasosa.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'roncos raros' não é diretamente relacionado à doença pulmonar descrita no prontuário, que é a apendicite aguda com peritonite generalizada. A condição respiratória pode ser uma consequência da doença abdominal, mas o código CB05.41 refere-se especificamente a transtornos respiratórios na poliangeíte microscópica, que não está presente no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "EB13.1": {
+      "term_original": "limpo",
+      "capitulo": "14",
+      "confidence_embedding": 0.7795,
+      "descricao_cid": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável.",
+      "classification_reasoning": "A palavra 'limpo' está relacionada ao curativo em região abdominal, indicando que a área foi cuidadosamente limpa e não há secreção ou desfecho necrótico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'limpo' não está relacionado à Necrólise Epidérmica Tóxica (NET), como descrita no código CID-11. A palavra 'limpo' se refere ao estado de curativo em região abdominal, que é um achado físico e não uma condição clínica diretamente relacionada à doença. Portanto, o código CID-11 atribuído não representa fielmente o termo ou a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DD50.2": {
+      "term_original": "abdomen flácido",
+      "capitulo": "13",
+      "confidence_embedding": 0.8186,
+      "descricao_cid": "Representação de doença CID-11: Hérnia intra-abdominal. Definição: Uma hérnia que ocorre dentro do abdômen através de abertura coberta pelo peritônio.",
+      "classification_reasoning": "A opção mais precisa para o termo 'abdomen flácido' é a hérnia intra-abdominal (DD50.2), pois a descrição clínica menciona dor abdominal e pelvica, além da presença de secreção em grande quantidade com odor fétido no curativo abdominal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário menciona dor abdominal e pelvica, secreção em grande quantidade com odor fétido no curativo abdominal, o que não se relaciona à hérnia intra-abdominal (DD50.2). A opção mais precisa para o termo 'abdomen flácido' é uma condição clínica de peritonite generalizada, e não uma hérnia intra-abdominal.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BB10.4": {
+      "term_original": "forte algia",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A forte algia em flanco esquerdo ao respirar sugere uma condição que afeta o sistema cardiovascular, mais especificamente a causa de dor no tórax e flancos. A opção BB10.4, que representa Representação de doença CID-11: Dor torácica, é a mais precisa para este termo dentro do contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A forte algia em flanco esquerdo ao respirar não é uma dor torácica, mas sim uma dor abdominal ou peritoneal. A opção BB10.4 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DB10.00": {
+      "term_original": "apendicite aguda com peritonite generalizada",
+      "capitulo": "13",
+      "confidence_embedding": 0.8731,
+      "descricao_cid": "Representação de doença CID-11: Apendicite aguda com peritonite generalizada. Definição: Condição caracterizada por inflamação aguda do apêndice vermiforme que se estende para uma inflamação livre e não contida do peritônio. Há usualmente uma perfuração livre e tratamento cirúrgico é recomendado.",
+      "classification_reasoning": "A paciente apresenta uma apendicite aguda com peritonite generalizada, o que é compatível com a definição do código DB10.00: Condição caracterizada por inflamação aguda do apêndice vermiforme que se estende para uma inflamação livre e não contida do peritônio.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 DB10.00 'Apendicite aguda com peritonite generalizada' é válida pois a paciente apresenta uma apendicite aguda com peritonite generalizada, como descrita na definição do código. A presença de dor abdominal e pelvica, secreção em grande quantidade e odor fétido, além da presença de peritonite generalizada, justificam a codificação DB10.00.",
+      "tipo_erro_auditoria": null
+    },
+    "CB60": {
+      "term_original": "traqueostomizado",
+      "capitulo": "12",
+      "confidence_embedding": 0.7718,
+      "descricao_cid": "Representação de doença CID-11: Mau funcionamento de traqueostomia. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'traqueostomizado' é o código CB60, que representa Mau funcionamento de traqueostomia. Isso porque no contexto clínico, a paciente tem uma traqueostomia e apresenta sintomas relacionados à sua função, como secreção em média quantidade e roncos raros.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente tem uma traqueostomia, mas o código CB60 representa Mau funcionamento de traqueostomia. No entanto, a descrição do prontuário não sugere que a função da traqueostomia está se deteriorando ou apresenta problemas. A paciente está recebendo dieta por sonda nasoenteral e SF 0,9%, o que indica que a traqueostomia está funcionando adequadamente. Portanto, o código CB60 não é um representante fiel do termo 'traqueostomizado' no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD81.2": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.8269,
+      "descricao_cid": "Representação de doença CID-11: Dor abdominal generalizada. Definição: Dor, uma sensação desagradável de desconforto ocorrendo em variados graus de gravidade, ou cólicas, contrações espasmódicas causando dor intensa na região abdominal em geral.",
+      "classification_reasoning": "A dor abdominal generalizada é a mais precisa opção para o termo 'dor' dentro do contexto clínico, pois a paciente apresenta dor abdominal e pélvica intensa após abertura ocular e presença de secreção em grande quantidade com odor fétido.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dor abdominal generalizada é a mais precisa opção para o termo 'dor' dentro do contexto clínico, pois a paciente apresenta dor abdominal e pélvica intensa após abertura ocular e presença de secreção em grande quantidade com odor fétido. A codificação CID-11 MD81.2 representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "DB10.0": {
+      "term_original": "odor fetido",
+      "capitulo": "13",
+      "confidence_embedding": 0.7368,
+      "descricao_cid": "Representação de doença CID-11: Apendicite aguda. Definição: Inflamação aguda e aumento do apêndice vermiforme. Foi reconhecida como uma das causas mais comuns de dor abdominal aguda grave em todo o mundo. A maioria dos casos requer tratamento médico adequado ou remoção do apêndice inflamado. Se não tratada, a mortalidade é alta, principalmente pelo risco de ruptura levando a peritonite e choque. Nesta categoria, está incluída apenas a apendicite aguda devida a infecção bacteriana comum, sendo descartada a apendicite devida a organismos específicos está excluída desta entidade e descrita em outra parte.",
+      "classification_reasoning": "O termo 'odor fetido' é consistente com a descrição de apendicite aguda no contexto, pois a secreção em grande quantidade com odor fétido é um sintoma comum nesse tipo de doença.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 DB10.0 'Apendicite aguda' é válida porque o termo 'odor fetido' está relacionado à secreção em grande quantidade com odor fétido, que é um sintoma comum na apendicite aguda. A descrição do prontuário também menciona dor abdominal e peritonite generalizada, consistentemente com a definição da apendicite aguda.",
+      "tipo_erro_auditoria": null
+    },
+    "BE9A3": {
+      "term_original": "cirrose hepatica alcoolica",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A cirrose hepática alcoólica é uma doença crônica causada pelo consumo excessivo de álcool. O termo extraído se refere à presença da cirrose em um paciente com apendicite aguda e peritonite generalizada, o que sugere que a cirrose é uma condição pré-existente e não uma consequência imediata da doença. A opção mais precisa para este termo é a Código CID-11: BE9A3 - Cirrose hepática alcoólica",
+      "decisao": "MANTER",
+      "motivo_decisao": "A cirrose hepática alcoólica é uma condição pré-existente que pode estar relacionada à apendicite aguda e peritonite generalizada. A opção do código CID-11: BE9A3 - Cirrose hepática alcoólica se encaixa claramente no prontuário, pois a cirrose é mencionada como uma condição pré-existente e não como uma consequência imediata da doença.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

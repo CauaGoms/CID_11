@@ -1,0 +1,38 @@
+{
+  "prontuario_id": 687,
+  "text": "PCTE RETORNA PARA SOLICITAR COLONO DE CONTROLE.\nCOLONO DE MARÇO DE 2015 COM POLIPO.\nSOLITO RETORNO COM NOVA COLONO.      ",
+  "entities": {
+    "Abreviação": [
+      "PCTE",
+      "COLONO"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PCTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "SOLICITAR",
+      "SOLITO RETORNO"
+    ],
+    "Procedimento Diagnóstico": [
+      "COLONO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "POLIPO"
+    ],
+    "Anormalidade Anatômica": [
+      "POLIPO"
+    ]
+  },
+  "labels": {
+    "2E92.40": {
+      "term_original": "polipo",
+      "capitulo": "02",
+      "confidence_embedding": 0.6257,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de polipose. Definição: Síndromes de polipose intestinal podem ser divididas, com base na histologia, nas categorias amplas de polipose adenomatosa familiar (FAP), síndromes de polipose hamartomatosa e outras síndromes de polipose raras, como a síndrome de polipose mista hereditária (HMPS).",
+      "classification_reasoning": "A opção mais precisa para o termo 'polipo' no contexto do prontuário é a síndrome de polipose intestinal, pois há uma história de polipo detectado em colono anteriormente e nova colonoscopia foi solicitada para controle, sugerindo que se está seguindo uma condição relacionada à polipose",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'polipo' no contexto do prontuário é a síndrome de polipose intestinal, pois há uma história de polipo detectado em colono anteriormente e nova colonoscopia foi solicitada para controle, sugerindo que se está seguindo uma condição relacionada à polipose. A descrição do código CID-11 '2E92.40' também se ajusta perfeitamente ao contexto do prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

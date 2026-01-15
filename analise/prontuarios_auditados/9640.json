@@ -1,0 +1,105 @@
+{
+  "prontuario_id": 443,
+  "text": "ins cardiac com retorno com exames \nchagas nao reagente em 3 metodos. \nhb glicada 6,15 \ncreat 0,91, glicose 98m ct 164, hdl 38, ldl 96, tg 151, tsh 0,96\necocardo ve 9,4 / 8,5, feve 20, vd 24, ae 5\nrefere melhora da dispmia..\nporem ainda em classe funcional III\nprescrevo enalapril 10 / 10, furosemida 40 / 40, carvedilol 6,25 / 6,25 , apresolina 50 / 50 , espironoloactona 25 / dia\n \n \n \n ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "retorno",
+      "prescrevo"
+    ],
+    "Procedimento Laboratorial": [
+      "exames"
+    ],
+    "Abreviação": [
+      "ecocardo",
+      "ins cardiac",
+      "hb glicada 6 , 15",
+      "creat 0 , 91",
+      "glicose 98m",
+      "ct 164",
+      "hdl 38",
+      "ldl 96",
+      "tg 151",
+      "tsh 0 , 96",
+      "ve 9 , 4 / 8 , 5",
+      "feve 20",
+      "vd 24",
+      "ae 5"
+    ],
+    "Procedimento Diagnóstico": [
+      "ecocardo"
+    ],
+    "Substância Química Orgânica": [
+      "enalapril",
+      "furosemida",
+      "carvedilol",
+      "apresolina",
+      "espironoloactona"
+    ],
+    "Substância Farmacológica": [
+      "enalapril",
+      "furosemida",
+      "carvedilol",
+      "apresolina",
+      "espironoloactona"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "enalapril"
+    ],
+    "Conceito Quantitativo": [
+      "25",
+      "10 / 10",
+      "40 / 40",
+      "6 , 25 / 6 , 25",
+      "50 / 50"
+    ],
+    "Conceito Temporal": [
+      "dia"
+    ],
+    "Doença ou Síndrome": [
+      "ins cardiac"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "chagas nao reagente",
+      "hb glicada 6 , 15",
+      "creat 0 , 91",
+      "glicose 98m",
+      "ct 164",
+      "hdl 38",
+      "ldl 96",
+      "tg 151",
+      "tsh 0 , 96",
+      "ve 9 , 4 / 8 , 5",
+      "feve 20",
+      "vd 24",
+      "ae 5"
+    ],
+    "Achado": [
+      "melhora da dispmia"
+    ],
+    "Classificação": [
+      "classe funcional III"
+    ]
+  },
+  "labels": {
+    "VV3Y": {
+      "term_original": "melhora da dispmia",
+      "capitulo": "V",
+      "confidence_embedding": 0.6779,
+      "descricao_cid": "Representação de doença CID-11: Outras funções dos sistemas cardiovascular, hematológico, imunológico e respiratório, especificadas. Definição: ",
+      "classification_reasoning": "A descrição 'Outras funções dos sistemas cardiovascular, hematológico, imunológico e respiratório, especificadas' se aplica ao termo 'melhora da dispmia', pois refere-se à melhoria das funções cardíacas, como mencionado no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'melhora da dispmia' não é específico o suficiente para justificar a codificação CID-11 VV3Y, que se refere a funções dos sistemas cardiovascular, hematológico, imunológico e respiratório. A melhoria da dispmia pode ser um sintoma de várias condições cardíacas, mas não é uma entidade clínica específica. Além disso, o prontuário apresenta informações detalhadas sobre a doença cardíaca do paciente, como insuficiência cardíaca com retorno, e exames que confirmam essa condição. Portanto, uma codificação mais específica e relacionada à doença cardíaca é necessária.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BA41.0": {
+      "term_original": "ins cardiac",
+      "capitulo": "11",
+      "confidence_embedding": 0.7755,
+      "descricao_cid": "Representação de doença CID-11: Infarto agudo do miocárdio com supradesnível de ST. Definição: Infarto agudo do miocárdio com supradesnível de ST (IAMCSST) é um infarto agudo do miocárdio com desenvolvimento de supradesnível de ST em duas derivações contíguas do eletrocardiograma. Os critérios de elevação do ST são os seguintes; novo supradesnível de ST no ponto J em duas derivações contíguas aplicando os pontos de corte: 0,2mV em homens> 40 anos; > 0,25mV em homens <40 anos, e > 0,15mV em mulheres.",
+      "classification_reasoning": "A presença de insuficiência cardíaca com retorno, não reagente a três métodos e melhora da dispmia aponta para um infarto agudo do miocárdio recente ou em curso, o que justifica a escolha do código BA41.0 - Infarto agudo do miocárdio com supradesnível de ST.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de insuficiência cardíaca com retorno, não reagente a três métodos e melhora da dispmia aponta para um infarto agudo do miocárdio recente ou em curso. O código BA41.0 - Infarto agudo do miocárdio com supradesnível de ST é uma representação clínica coerente com o prontuário, pois a descrição do código se refere ao infarto agudo do miocárdio recente ou em curso, que é compatível com a situação descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

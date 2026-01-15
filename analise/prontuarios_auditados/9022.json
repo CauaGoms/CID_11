@@ -1,0 +1,40 @@
+{
+  "prontuario_id": 261,
+  "text": "PCTE QUEIXA DE PLACA EM COTOVELO ESQUERDO INCOMODANDO DISCRETAMENTE.\nRX SEM SINAIS DE SOLTURA, SEM INFECÇÃO.\nORIENTO BENIGNIDADE.\nCDTA: ALTA. RETORNO SE NECESSARIO.   ",
+  "entities": {
+    "Abreviação": [
+      "PCTE",
+      "RX",
+      "CDTA"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PCTE"
+    ],
+    "Procedimento Diagnóstico": [
+      "RX"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ORIENTO",
+      "ALTA"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXA DE PLACA",
+      "SINAIS DE SOLTURA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "COTOVELO ESQUERDO"
+    ]
+  },
+  "labels": {
+    "9A10.3": {
+      "term_original": "sinais de soltura",
+      "capitulo": "09",
+      "confidence_embedding": 0.722,
+      "descricao_cid": "Representação de doença CID-11: Hiperlacrimação. Definição: Transbordamento de lágrimas devido a secreção excessiva pela glândula lacrimal. Pode ser causado por drogas (p.ex. pillocarpina), forte emoção; ou como reflexo de estimulação trigeminal por inflamação ocular; ou irritação da córnea ou conjuntiva por irritante químico no ar; vento frio; ou corpo estranho no olho. Os principais sintomas são desconforto e visão turva e algumas vezes constrangimento. A abordagem depende da causa.\r\n\r\n\r\n. É um sinal clínico ou condição que aponta para a drenagem insuficiente do filme lacrimal dos olhos, em que as lágrimas vão drenar pela face abaixo em vez de o fazerem pelo sistema nasolacrimal.",
+      "classification_reasoning": "O termo 'sinais de soltura' se refere à hiperlacrimação, que é um sinal de doença caracterizado pelo transbordamento de lágrimas excessivas em vez de fluírem normalmente pelas fossas nasolacrimal. Isso é consistente com o contexto clínico mencionado no prontuário, que descreve uma placa incomodando discretamente e não há sinais de infecção ou soltura.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 '9A10.3' é válida porque o termo 'sinais de soltura' se refere à hiperlacrimação, que é um sinal de doença caracterizado pelo transbordamento de lágrimas excessivas em vez de fluírem normalmente pelas fossas nasolacrimal. Isso é consistente com o contexto clínico mencionado no prontuário, que descreve uma placa incomodando discretamente e não há sinais de infecção ou soltura.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

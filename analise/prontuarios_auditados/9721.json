@@ -1,0 +1,115 @@
+{
+  "prontuario_id": 344,
+  "text": "TX RENAL.\nEM USO DE TACROLIMO 0,5 / 0,5, SRL 1, MET 5, RSV 10, CVDL 25 2X, \n\nS # SEM QUEIXAS.\n\nO # PESO 75.\nPA 160/90.\nEXAME FISICO NORMAL.\n \nASSOCIO ANLO.\nRETORNO EM 1 MES.\nTX RENAL CR 2,0, SRL 8, FK 3.\nHAS DESCOMPENSADO.\nBK URINA .\nBX PROTOCOLAR SEM REJEIÇÃO , AT, FI DISSCRETA.\n ",
+  "entities": {
+    "Substância Farmacológica": [
+      "TACROLIMO",
+      "MET",
+      "RSV",
+      "CVDL",
+      "ANLO",
+      "FK"
+    ],
+    "Substância Química Orgânica": [
+      "TACROLIMO",
+      "SRL",
+      "MET",
+      "RSV",
+      "CVDL",
+      "ANLO",
+      "FK"
+    ],
+    "Abreviação": [
+      "SRL",
+      "MET",
+      "RSV",
+      "CVDL",
+      "PA",
+      "ANLO",
+      "FK",
+      "BX",
+      "TX RENAL",
+      "CR 2 , 0",
+      "HAS DESCOMPENSADO"
+    ],
+    "Antibiótico": [
+      "SRL"
+    ],
+    "Conceito Quantitativo": [
+      "1",
+      "5",
+      "10",
+      "75",
+      "160/90",
+      "8",
+      "3",
+      "0 , 5 / 0 , 5",
+      "25 2X"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS"
+    ],
+    "Atributo Clínico": [
+      "PESO",
+      "PA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ASSOCIO",
+      "RETORNO",
+      "PROTOCOLAR"
+    ],
+    "Procedimento Diagnóstico": [
+      "BX"
+    ],
+    "Função Patológica": [
+      "REJEIÇÃO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Achado": [
+      "EXAME FISICO NORMAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 2 , 0"
+    ],
+    "Doença ou Síndrome": [
+      "HAS DESCOMPENSADO"
+    ]
+  },
+  "labels": {
+    "MF54.2": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7795,
+      "descricao_cid": "Representação de doença CID-11: Hipoplasia renal. Definição: Condição caracterizada por um rim menor em tamanho e peso do que a média (menos de 11 centímetros de comprimento, 5-7,5 centímetros de largura, 2,5 centímetros de espessura e pesando menos de 120 gramas).",
+      "classification_reasoning": "A opção MF54.2, Representação de doença CID-11: Hipoplasia renal, é a mais precisa para o termo 'queixas' no contexto clínico, pois não há menção específica à queixa do paciente, apenas uma descrição geral da situação sem mencionar queixas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'queixas' não está relacionado à hipoplasia renal, que é a condição descrita no prontuário. A opção MF54.2 não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário. O paciente não apresenta queixas, apenas um histórico de TX renal e exame físico normal.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BD12": {
+      "term_original": "has descompensado",
+      "capitulo": "11",
+      "confidence_embedding": 0.6881,
+      "descricao_cid": "Representação de doença CID-11: Síndromes de alto débito. Definição: Aumento do débito cardíaco acima do normal associado a anemia, fístulas arteriovenosas, tireotoxicose e outras síndromes. Pode resultar em insuficiência cardíaca.",
+      "classification_reasoning": "A escolha pelo código BD12 é porque o termo 'descompensado' sugere que a doença renal hipertensa (TX RENAL) apresentou um surto ou uma piora, levando a um aumento da pressão arterial e alterações no sangue (SRL 8, FK 3). Isso é consistente com a definição de síndromes de alto débito, que incluem anemia, fístulas arteriovenosas e outras condições que aumentam o débito cardíaco.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha pelo código BD12 é justificada, pois o termo 'descompensado' sugere que a doença renal hipertensa (TX RENAL) apresentou um surto ou uma piora, levando a um aumento da pressão arterial e alterações no sangue. Isso é consistente com a definição de síndromes de alto débito, que incluem anemia, fístulas arteriovenosas e outras condições que aumentam o débito cardíaco.",
+      "tipo_erro_auditoria": null
+    },
+    "MF56": {
+      "term_original": "rejeição",
+      "capitulo": "21",
+      "confidence_embedding": 0.7902,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A presença do termo 'rejeição' no prontuário médico sugere que o paciente apresentou alguma forma de rejeição ao transplante renal, o que é mais comummente associado à cólica renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença do termo 'rejeição' no prontuário médico não está diretamente relacionada à cólica renal, como descrita na definição do código CID-11 MF56. A rejeição ao transplante renal é um processo imunológico que ocorre após o transplante, e não está associado à dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, característica da cólica renal.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

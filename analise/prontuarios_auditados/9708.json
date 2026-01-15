@@ -1,0 +1,106 @@
+{
+  "prontuario_id": 910,
+  "text": "DRC ESTAGIO 5 EM HD TER / QUI / SAB NA CDR.\nUSO PERMCATH HÁ > 60 DIAS.\n\nS: FEBRE SEM MELHORA COM USO DE AZITROMICINA, LEVOFLOXACIN E FORTAZ A CADA 48H NA HD.\nNEGA BACTEREMIA.\n\nO: PA 130/80,  P 88,  \nEX SEGMNETAR PERMCATH SUBCLAVIA D.\nDEMAIS SP.\n\nDRC ESTAGIO 5 EM HD TER / QUI / SAB NA CDR.\nUSO PERMCATH HÁ > 60 DIAS.\n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "HD",
+      "PA",
+      "P",
+      "DRC ESTAGIO 5",
+      "EX SEGMNETAR",
+      "SUBCLAVIA D",
+      "DEMAIS SP"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "HD"
+    ],
+    "Dispositivo Médico": [
+      "PERMCATH"
+    ],
+    "Sinal ou Sintoma": [
+      "FEBRE"
+    ],
+    "Negação": [
+      "SEM",
+      "NEGA"
+    ],
+    "Achado": [
+      "MELHORA",
+      "DEMAIS SP"
+    ],
+    "Antibiótico": [
+      "AZITROMICINA",
+      "LEVOFLOXACIN",
+      "E FORTAZ"
+    ],
+    "Substância Química Orgânica": [
+      "AZITROMICINA",
+      "LEVOFLOXACIN",
+      "E FORTAZ"
+    ],
+    "Doença ou Síndrome": [
+      "BACTEREMIA",
+      "DRC ESTAGIO 5"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P"
+    ],
+    "Conceito Quantitativo": [
+      "130/80",
+      "88"
+    ],
+    "Conceito Temporal": [
+      "TER / QUI / SAB",
+      "CADA 48H"
+    ],
+    "Procedimento Diagnóstico": [
+      "EX SEGMNETAR"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "SUBCLAVIA D"
+    ]
+  },
+  "labels": {
+    "BD12": {
+      "term_original": "febre",
+      "capitulo": "11",
+      "confidence_embedding": 0.7092,
+      "descricao_cid": "Representação de doença CID-11: Síndromes de alto débito. Definição: Aumento do débito cardíaco acima do normal associado a anemia, fístulas arteriovenosas, tireotoxicose e outras síndromes. Pode resultar em insuficiência cardíaca.",
+      "classification_reasoning": "A escolha pelo código BD12 (Síndromes de alto débito) é a mais precisa pois o termo 'febre' está relacionado ao sintoma apresentado no prontuário, que não melhorou apesar do uso de antibióticos. Isso sugere uma possível síndrome de alta produção cardíaca.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha pelo código BD12 (Síndromes de alto débito) é uma classificação errônea, pois o termo 'febre' não está diretamente relacionado à síndrome de alta produção cardíaca. A febre pode ser um sintoma de várias condições clínicas e não há evidência no prontuário que sugira uma relação direta com a síndrome de alto débito. Portanto, é necessário remover o código CID-11 atribuído.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "1C1C.20": {
+      "term_original": "bacteremia",
+      "capitulo": "01",
+      "confidence_embedding": 0.7578,
+      "descricao_cid": "Representação de doença CID-11: Meningococcemia aguda. Definição: Condição causada por uma infecção pela bactéria Gram-negativa Neisseria meningitidis que leva a uma resposta inflamatória sistêmica grave. Essa condição é caracterizada por febre, calafrios, mialgia, náusea ou erupção cutânea petequial, com progressão para choque e coagulação intravascular disseminada. A transmissão é por contato direto ou transmissão por gotículas. A confirmação é feita pela identificação de Neisseria meningitidis em amostras de sangue.",
+      "classification_reasoning": "A presença de febre sem melhora apesar do uso de antibióticos e a negação de bacteremia sugerem que a infecção pode estar relacionada ao Meningococcemia aguda, caracterizada por uma resposta inflamatória sistêmica grave. Além disso, o fato de o paciente estar em terapia dialítica hemodiálise há mais de 60 dias e usar Permcath há > 60 dias sugere que a infecção pode estar relacionada à permacath.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de febre sem melhora apesar do uso de antibióticos e a negação de bacteremia sugerem que a infecção não está relacionada à bacteremia. Além disso, o código CID-11 atribuído (1C1C.20) descreve uma condição caracterizada por febre, calafrios, mialgia, náusea ou erupção cutânea petequial, com progressão para choque e coagulação intravascular disseminada. Nesse contexto, a negação de bacteremia não se encaixa na descrição do código CID-11.",
+      "tipo_erro_auditoria": "negated_finding"
+    },
+    "DA96.01": {
+      "term_original": "drc estagio 5",
+      "capitulo": "13",
+      "confidence_embedding": 0.7138,
+      "descricao_cid": "Representação de doença CID-11: Espru tropical. Definição: O espru tropical é uma síndrome que envolve todo o intestino delgado que causa diarreia aguda ou crônica e má absorção de nutrientes de gravidade progressiva e que resulta em desnutrição e anemia por deficiência de ácido fólico. O transtorno ocorre apenas entre pessoas (principalmente adultos) que visitam, ou são residentes, de algumas regiões tropicais e subtropicais. As alterações histológicas consistem em alongamento da área da cripta e alargamento e encurtamento das vilosidades com inflamação crônica do intestino delgado. A causa do espru tropical não é conhecida, mas níveis excessivos de alguns tipos de bactérias no intestino delgado foram sugeridos como implicados, e a terapia antimicrobiana pode resultar na cura das anormalidades intestinais.",
+      "classification_reasoning": "A escolha pelo código DA96.01 se baseia no termo 'DRC ESTAGIO 5' que sugere a presença de doença crônica intestinal, como espru tropical, em um paciente com história de diarreia e má absorção de nutrientes.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'DRC ESTAGIO 5' não se refere a uma doença crônica intestinal, como espru tropical. A presença de diarreia e má absorção de nutrientes pode ser relacionada a várias condições clínicas, incluindo doenças gastrointestinais, mas não há evidência suficiente para justificar a escolha do código DA96.01.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME64.3": {
+      "term_original": "demais sp",
+      "capitulo": "21",
+      "confidence_embedding": 0.7158,
+      "descricao_cid": "Representação de doença CID-11: Petéquias. Definição: Petéquias resultam do vazamento focal de sangue dos capilares da derme para o tecido conjuntivo dérmico adjacente. Apresentam-se como múltiplas máculas pontuais, vermelhas ou roxas, que não desaparecem à digitopressão. As muitas causas subjacentes variam de condições inócuas (p.ex., tosse ou esforço) a condições de risco de vida (p.ex., septicemia meningocócica).",
+      "classification_reasoning": "A opção mais precisa é a petéquias (Código ME64.3), pois o termo 'demais sp' está relacionado à presença de lesões cutâneas, como máculas ou petéquias, que podem surgir em pacientes com doenças inflamatórias ou infecções. A presença de petéquias na pele é um sintoma comum em pacientes com septicemia, e o fato do paciente ter usado Permcath há mais de 60 dias sugere uma possível infecção relacionada à veiculação central.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção ME64.3 (Petéquias) é justificada pela presença de lesões cutâneas descritas no prontuário, o que sugere uma possível infecção relacionada à veiculação central. A descrição do código CID-11 também se ajusta ao contexto clínico do paciente, com a presença de febre e uso prolongado de Permcath.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

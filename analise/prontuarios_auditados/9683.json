@@ -1,0 +1,162 @@
+{
+  "prontuario_id": 437,
+  "text": "# DM / DLP / hipotireoidismo / FAC.\n\nPaciente refere tontura, mal estar e cansaço durante os dias de calor. Nega síncope, palpitações e dispnéia. \nTrouxe Eco com AE aumentado, FE 49%, IM e IT leves.\n\nAo exame: Bom estado geral, corada, hidratada, eupnéica.\nPA 100/70, FC 72.\nRCI sem sopros.\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "DM",
+      "DLP",
+      "FAC",
+      "Eco",
+      "IM",
+      "IT",
+      "PA",
+      "FC",
+      "RCI",
+      "AE aumentado",
+      "FE 49%"
+    ],
+    "Doença ou Síndrome": [
+      "DM",
+      "DLP",
+      "hipotireoidismo"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Sinal ou Sintoma": [
+      "tontura",
+      "síncope",
+      "palpitações",
+      "dispnéia",
+      "sopros",
+      "mal estar",
+      "cansaço durante os dias de calor"
+    ],
+    "Negação": [
+      "Nega",
+      "sem"
+    ],
+    "Procedimento Diagnóstico": [
+      "Eco",
+      "exame"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "IM",
+      "IT",
+      "AE aumentado",
+      "FE 49%"
+    ],
+    "Conceito Qualitativo": [
+      "leves"
+    ],
+    "Achado": [
+      "corada",
+      "hidratada",
+      "eupnéica",
+      "Bom estado geral"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC"
+    ],
+    "Conceito Quantitativo": [
+      "100/70",
+      "72"
+    ],
+    "Conceito Temporal": [
+      "cansaço durante os dias de calor"
+    ]
+  },
+  "labels": {
+    "5A00.01": {
+      "term_original": "dlp",
+      "capitulo": "05",
+      "confidence_embedding": 0.8083,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo congênito permanente sem bócio. Definição: É um estado congênito e permanente no qual a produção dos hormônios tireoidianos é insuficiente. Ao diagnóstico não há aumento desta glândula.",
+      "classification_reasoning": "A opção mais precisa para o termo \"dlp\" é o hipotireoidismo congênito permanente sem bócio, pois a paciente apresenta sintomas como tontura, mal estar e cansaço durante os dias de calor, que podem ser relacionados à deficiência hormonal tireoidiana. Além disso, a presença de Eco com AE aumentado e FE 49% sugere que há uma alteração na função da glândula tireoide.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'dlp' é o hipotireoidismo congênito permanente sem bócio, pois a paciente apresenta sintomas como tontura, mal estar e cansaço durante os dias de calor, que podem ser relacionados à deficiência hormonal tireoidiana. Além disso, a presença de Eco com AE aumentado e FE 49% sugere que há uma alteração na função da glândula tireoide.",
+      "tipo_erro_auditoria": null
+    },
+    "RC70.0": {
+      "term_original": "sopros",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A presença de sopros no exame físico (RCI sem sopros) indica ausência de insuficiência cardíaca, mas a menção do termo 'sopros' no prontuário justifica a escolha desse código como mais precisa para o contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'sopros' no prontuário refere-se ao ausência de insuficiência cardíaca, mas o código CID-11 RCT0.0 não representa essa condição clínica diretamente relacionada. Ajuste necessário para uma codificação mais precisa.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB04.5": {
+      "term_original": "dispnéia",
+      "capitulo": "12",
+      "confidence_embedding": 0.7826,
+      "descricao_cid": "Representação de doença CID-11: Síndrome cérebro-pulmão-tireoide. Definição: A síndrome cérebro-pulmão-tireoide é uma doença rara caracterizada por hipotireoidismo congênito, síndrome do desconforto respiratório infantil (SDRI) e coreia hereditária benigna.",
+      "classification_reasoning": "A presença de dispnéia no contexto do paciente e a ausência de sinais de síndrome coronariana, pneumotórax ou insuficiência cardíaca justificam a escolha da síndrome cérebro-pulmão-tireoide (hipotireoidismo congênito). A dispnéia é um sintoma comum em pacientes com hipotireoidismo e não está relacionada à asma alérgica, insuficiência respiratória crônica ou pneumotórax.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dispnéia é um sintoma comum, mas não há evidência clínica suficiente no prontuário para justificar a escolha da síndrome cérebro-pulmão-tireoide. A falta de sinais de síndrome coronariana, pneumotórax ou insuficiência cardíaca também não é suficiente para justificar essa classificação. Além disso, o prontuário apresenta hipotireoidismo e DLP, mas não há relação clínica direta entre essas condições e a síndrome cérebro-pulmão-tireoide.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MB23.H": {
+      "term_original": "síncope",
+      "capitulo": "21",
+      "confidence_embedding": 0.8084,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A escolha do código MB23.H é mais precisa porque o termo 'síncope' está presente no contexto clínico, e a definição desse código se refere a episódios de pânico que podem incluir sintomas como tontura ou sensação de desmaio.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'síncope' está presente no prontuário, mas a definição do código CID-11 MB23.H se refere a episódios de pânico que podem incluir sintomas como tontura ou sensação de desmaio. Embora o paciente apresente tontura, não há evidência clínica de um ataque de pânico. A codificação MB23.H é demasiado específica e não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MB22.7": {
+      "term_original": "palpitações",
+      "capitulo": "21",
+      "confidence_embedding": 0.783,
+      "descricao_cid": "Representação de doença CID-11: Cansaço. Definição: Sensação de redução do estado de alerta e de redução concomitante da acuidade mental, em alguns casos resultando no impulso ou tendência de adormecer.",
+      "classification_reasoning": "A paciente refere cansaço durante os dias de calor, o que é consistente com a definição do Código MB22.7 - Cansaço.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'palpitações' refere-se a uma sintoma cardíaco, enquanto o código CID-11 MB22.7 - Cansaço não está relacionado à palpitação. A definição do código MB22.7 se refere a sensação de redução do estado de alerta e de redução concomitante da acuidade mental, que não é consistente com o termo 'palpitações'. Portanto, o código CID-11 não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5A00.2": {
+      "term_original": "hipotireoidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.8459,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo adquirido. Definição: Hipotireoidismo adquirido é uma condição onde a glândula tireoide produz muito pouco ou nenhum hormônio, e esta condição surge apenas após o nascimento.",
+      "classification_reasoning": "Escolhi o código 5A00.2 por que o paciente refere tontura, mal estar e cansaço durante os dias de calor, sugerindo um hipotireoidismo adquirido, e não há indicação de doença congênita ou deformidade da tireoide.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 5A00.2 descreve hipotireoidismo adquirido, que surge apenas após o nascimento. No entanto, o prontuário não apresenta indícios de doença congênita ou deformidade da tireoide. Além disso, a sintomatologia descrita (tontura, mal estar e cansaço durante os dias de calor) pode ser relacionada a outras condições, como hipertensão arterial ou insuficiência cardíaca, e não necessariamente ao hipotireoidismo adquirido. Portanto, o código CID-11 5A00.2 não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC80": {
+      "term_original": "dm",
+      "capitulo": "11",
+      "confidence_embedding": 0.7579,
+      "descricao_cid": "Representação de doença CID-11: Bradiarritmia supraventricular. Definição: Qualquer uma das várias arritmias possíveis originadas no ou acima do feixe de His, nas quais o coração bate mais devagar do que os limites inferiores normais para a idade.",
+      "classification_reasoning": "A paciente apresenta tontura, mal estar e cansaço durante os dias de calor, o que é mais provável relacionado ao hipotireoidismo do que a outras opções. Além disso, a elevação do Eco com AE aumentado e FE 49% também aponta para uma possível disfunção cardíaca, que pode ser uma bradiarritmia supraventricular (BC80).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente apresenta tontura, mal estar e cansaço durante os dias de calor, o que não é diretamente relacionado à bradiarritmia supraventricular (BC80). Além disso, a elevação do Eco com AE aumentado e FE 49% aponta mais para uma possível disfunção cardíaca do que uma arritmia específica. A codificação CID-11 BC80 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5A00.20": {
+      "term_original": "cansaço durante os dias de calor",
+      "capitulo": "05",
+      "confidence_embedding": 0.7533,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo devido a medicamentos ou outras substâncias exógenas. Definição: Condição causada por uma hipofunção da tireoide devido a medicamentos ou outras substâncias exógenas. Essa condição pode se apresentar com fadiga, aumento da sensibilidade ao frio, constipação, pele seca, ganho de peso, fraqueza e dor muscular, aumento de colesterol, dores ou inchaços nas articulações, períodos menstruais mais intensos ou irregulares, enfraquecimento do cabelo, depressão e memória deficiente.",
+      "classification_reasoning": "A paciente refere cansaço durante os dias de calor, o que é consistente com a hipotireoidismo devido a medicamentos ou outras substâncias exógenas, mencionado na descrição do código.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente refere cansaço durante os dias de calor, o que não é diretamente relacionado à hipotireoidismo devido a medicamentos ou outras substâncias exógenas. A descrição do código CID-11 se refere especificamente às consequências da hipofunção tireoideana, como fadiga, aumento da sensibilidade ao frio e ganho de peso, entre outras. O termo 'cansaço durante os dias de calor' não é uma condição clínica diretamente relacionada à hipotireoidismo, portanto, o código CID-11 atribuído não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MB48": {
+      "term_original": "tontura",
+      "capitulo": "21",
+      "confidence_embedding": 0.7863,
+      "descricao_cid": "Representação de doença CID-11: Tontura ou vertigem. Definição: Termos que podem se referir a uma sensação de desorientação espacial, movimentação do ambiente ou sensação de \"cabeça leve\". Tontura é uma sensação geral de estar fora de equilíbrio. Vertigem é a sensação de que você ou seu entorno estão se movendo ou rodando.",
+      "classification_reasoning": "A tontura descrita pelo paciente é uma sensação de desorientação espacial e movimentação do ambiente, o que se encaixa com a definição de Tontura ou vertigem (CID-11 MB48).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A tontura descrita pelo paciente é uma sensação de desorientação espacial e movimentação do ambiente, o que se encaixa com a definição de Tontura ou vertigem (CID-11 MB48). A descrição clínica do prontuário está coerente com a definição do código CID-11. Portanto, mantém-se a classificação.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "prontuario_id": 609,
+  "text": "Às 23h encaminhado para clínica Nome, acompanhado pela aux. de Enfermeira Florence Nightingale para realização de RNM de crânio. Conforme passagem de plantão e orientações da própria clínica, levamos álcool 70% e luvas para desinfecção pós exame, pois o pcte é portador de MRSA + Klebsiella sp ESBL. Ao chegar na clínica foi abordado na  ambulância e negado o exame por não ter levado peresal.  Por telefone explico para o téc. de enf.  Florence Nightingale sobre a dificuldade em encaminhar pcte para exame, pois é um pcte crítico, acamado, com gastrostomia e traqueostomizado, peço a gentileza que  realize o exame, e encaminho o peresal posteriormente, o mesmo diz que não é possível e que as máquinas ja foram todas desligadas. Pcte retorna sem realizar exame e sem reagendar, explico intercorrência para familiar, mãe. Pedido de RNM anexado ao prontuário do pcte.  Enfermeira Florence Nightingale OUTRAS EPILEPSIAS",
+  "entities": {
+    "Organização Relacionada à Saúde": [
+      "clínica"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "orientações",
+      "encaminhar",
+      "realizar",
+      "reagendar",
+      "passagem de plantão"
+    ],
+    "Dispositivo Médico": [
+      "luvas"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "pcte",
+      "Pcte"
+    ],
+    "Abreviação": [
+      "pcte",
+      "MRSA",
+      "Pcte",
+      "RNM",
+      "RNM de crânio",
+      "Klebsiella sp"
+    ],
+    "Achado": [
+      "portador",
+      "gastrostomia",
+      "traqueostomizado"
+    ],
+    "Bactéria": [
+      "MRSA",
+      "Klebsiella sp"
+    ],
+    "Negação": [
+      "negado",
+      "não",
+      "sem"
+    ],
+    "Procedimento Diagnóstico": [
+      "exame",
+      "RNM",
+      "RNM de crânio"
+    ],
+    "Substância": [
+      "peresal"
+    ],
+    "Sinal ou Sintoma": [
+      "crítico",
+      "acamado"
+    ],
+    "Conceito Qualitativo": [
+      "crítico"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "gastrostomia",
+      "traqueostomizado",
+      "desinfecção pós exame"
+    ],
+    "Grupo Familiar": [
+      "familiar",
+      "mãe"
+    ],
+    "Produto Intelectual": [
+      "prontuário"
+    ],
+    "Doença ou Síndrome": [
+      "EPILEPSIAS"
+    ],
+    "Substância Química Orgânica": [
+      "álcool 70%"
+    ],
+    "Substância Farmacológica": [
+      "álcool 70%"
+    ]
+  },
+  "labels": {
+    "DE12.1": {
+      "term_original": "gastrostomia",
+      "capitulo": "13",
+      "confidence_embedding": 0.7881,
+      "descricao_cid": "Representação de doença CID-11: Disfunção de gastrostomia. Definição: ",
+      "classification_reasoning": "A gastrostomia é um procedimento cirúrgico que cria uma entrada artificial no estômago, e o termo 'gastrostomia' está diretamente relacionado ao código DE12.1, que descreve a disfunção da gastrostomia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A gastrostomia é um procedimento cirúrgico que cria uma entrada artificial no estômago, e não é uma disfunção. O código DE12.1 descreve a disfunção da gastrostomia, o que não se aplica ao termo 'gastrostomia' presente no prontuário, que refere-se ao procedimento em si e não à sua possível disfunção.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "1B71.2": {
+      "term_original": "mrsa",
+      "capitulo": "01",
+      "confidence_embedding": 0.7863,
+      "descricao_cid": "Representação de doença CID-11: Fasciíte necrotizante neonatal. Definição: Fasciíte necrosante neonatal é uma infecção necrosante aguda ameaçadora à vida de fáscia, tecidos subcutâneos e pele sobrejacente, semelhante à condição observada em adultos. É raro em neonatos, mas, ao contrário da forma adulta, tende a afetar bebês saudáveis. Ocorre após onfalite, mastite e infecção pós-operatória da ferida operatória, embora os locais precedentes de infecção nem sempre sejam encontrados. Tem sido mais comumente associada a Staphylococcus aureus do que à infecção estreptocócica. Organismos Gram-negativos também têm sido implicados. Pode causar destruição extensa do tecido e a mortalidade é alta.",
+      "classification_reasoning": "O termo 'MRSA' é associado à infecção por Staphylococcus aureus, que é uma das causas mais comuns de fasciíte necrotizante neonatal (1B71.2), uma condição grave e ameaçadora à vida.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'MRSA' é uma abreviação médica que representa a infecção por Staphylococcus aureus, não é diretamente relacionada à fasciíte necrotizante neonatal (1B71.2). A justificativa do sistema está errada ao associar o termo 'MRSA' à condição grave e ameaçadora à vida. O código CID-11 atribuído (1B71.2) não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C46.60": {
+      "term_original": "epilepsias",
+      "capitulo": "06",
+      "confidence_embedding": 0.7652,
+      "descricao_cid": "Representação de doença CID-11: Transtorno psicótico induzido por estimulantes, incluindo anfetaminas, metanfetamina ou metcatinona, com alucinações. Definição: Transtorno psicótico induzido por estimulantes com alucinações é caracterizado pela presença de alucinações que são consideradas como consequência direta do uso de estimulantes. Nem delírios, nem outros sintomas psicóticos estão presentes. Os sintomas não ocorrem exclusivamente durante estados hipnagógicos ou hipnopômpicos, não são mais bem explicados por outro transtorno mental ou comportamental (p. ex., esquizofrenia), e não se devem a outro transtorno ou doença classificada em outra parte (p. ex., epilepsias com sintomas visuais).",
+      "classification_reasoning": "A opção mais precisa é a 6C46.60, pois o termo 'epilepsias' é mencionado no contexto e está relacionado ao Transtorno psicótico induzido por estimulantes com alucinações.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'epilepsias' não está relacionado ao Transtorno psicótico induzido por estimulantes com alucinações, descrito no código CID-11 6C46.60. Além disso, o prontuário não apresenta qualquer indício de uso de estimulantes ou sintomas psicóticos. A opção mais precisa é remover o código CID-11 6C46.60 e realizar uma nova codificação que reflita a condição clínica do paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DA23.9": {
+      "term_original": "traqueostomizado",
+      "capitulo": "13",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A palavra 'traqueostomizado' é um termo médico que se refere à realização de uma traqueotomia, uma cirurgia que se realiza para estabelecer comunicação entre o trato respiratório superior e inferior. Isso é consistente com a definição da Epitélio metaplásico colunar do esôfago (DA23), que pode ser relacionada à presença de um tubo traqueostomia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'traqueostomizado' refere-se à realização de uma traqueotomia, que é um procedimento cirúrgico. No entanto, o código CID-11 A23.9 se refere a Epitélio metaplásico colunar do esôfago, que não está relacionado ao termo 'traqueostomizado'. Portanto, a codificação não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "1C18.3": {
+      "term_original": "klebsiella sp",
+      "capitulo": "01",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A presença de Klebsiella sp ESBL no paciente, combinada com sua condição crítica e os procedimentos de desinfecção necessários, sugere que a escolha mais precisa é Klebsiellosis (ou Infecção por Klebsiella) como representação da doença CID-11.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de Klebsiella sp ESBL no paciente não é uma doença em si, mas sim um tipo de bactéria. O código CID-11 1C18.3 refere-se a Klebsiellosis (ou Infecção por Klebsiella), que não é diretamente relacionada à presença da bactéria no paciente. A classificação é demasiado específica e não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

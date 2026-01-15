@@ -1,0 +1,141 @@
+{
+  "prontuario_id": 804,
+  "text": "Ecocardio (17/11/14): AE = 50; SIV = PPVE = 12; DDVE = 57; DSVE = 43; FE = 48%; VMi = protese biologica com espessamentoi de seus folhetos;mobioidade adequada e rgurgitação moderada a importante. Gra max de 25  e medio de 13 Area de 2.\nVAo = cuspides calcificadas com mobilidade comprometida. Grad max de 55  e medio de 33. Regurgitação moderada. VTri = abertura adequada coim refluxo disreto. PSAP = 40mmHg.\nAssintomático. Não trouxe receita.\nEx Fisico: BEG, eupneico, acianotico, anicterico, sem edema mmii. PA ( sentado ): 120x70mmHg, P = 56. MV OK. RCR 2T, BNF ss++/6+ FAo e Mi e SD +/6+.\nCD: mantida 6m.\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "Ecocardio",
+      "BEG",
+      "mmii",
+      "PA",
+      "P",
+      "BNF",
+      "CD",
+      "AE = 50",
+      "SIV = PPVE = 12",
+      "DDVE = 57",
+      "DSVE = 43",
+      "FE = 48%",
+      "VMi = protese biologica com espessamentoi de seus folhetos",
+      "Gra max de 25 e medio de 13",
+      "VAo = cuspides calcificadas com mobilidade comprometida",
+      "Grad max de 55 e medio de 33",
+      "VTri = abertura adequada coim refluxo disreto",
+      "PSAP = 40mmHg",
+      "Ex Fisico",
+      "MV OK",
+      "RCR 2T",
+      "SD +/6+"
+    ],
+    "Procedimento Diagnóstico": [
+      "Ecocardio"
+    ],
+    "Negação": [
+      "Assintomático",
+      "Não",
+      "acianotico",
+      "anicterico",
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "Assintomático",
+      "acianotico",
+      "anicterico",
+      "edema",
+      "SD +/6+"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "receita",
+      "CD",
+      "mantida"
+    ],
+    "Achado": [
+      "BEG",
+      "eupneico",
+      "BNF",
+      "MV OK",
+      "RCR 2T"
+    ],
+    "Localização ou Região Corporal": [
+      "mmii"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "mmii"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P"
+    ],
+    "Conceito Quantitativo": [
+      "120x70mmHg",
+      "56"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "AE = 50",
+      "SIV = PPVE = 12",
+      "DDVE = 57",
+      "DSVE = 43",
+      "FE = 48%",
+      "VMi = protese biologica com espessamentoi de seus folhetos",
+      "mobioidade adequada e rgurgitação moderada a importante",
+      "Gra max de 25 e medio de 13",
+      "Area de 2",
+      "VAo = cuspides calcificadas com mobilidade comprometida",
+      "Grad max de 55 e medio de 33",
+      "Regurgitação moderada",
+      "VTri = abertura adequada coim refluxo disreto",
+      "PSAP = 40mmHg"
+    ]
+  },
+  "labels": {
+    "CB01": {
+      "term_original": "edema",
+      "capitulo": "12",
+      "confidence_embedding": 0.7537,
+      "descricao_cid": "Representação de doença CID-11: Edema pulmonar. Definição: Edema pulmonar é uma condição causada por excesso de líquido nos pulmões, que se acumula nos sacos alveolares do pulmão, dificultando a respiração.",
+      "classification_reasoning": "A presença de edema nos pulmões é mencionada no relatório, o que sugere a presença de Edema Pulmonar (CB01) como a condição mais precisa e relevante para o termo `edema`",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de edema nos pulmões é mencionada no relatório, mas não há evidência clínica suficiente para confirmar a presença de Edema Pulmonar (CB01). A descrição do prontuário refere-se ao edema como um achado incidental e não há informações sobre a gravidade ou impacto da condição na função pulmonar. Portanto, a classificação é muito geral e não representa fielmente o termo `edema`.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "9C40.A": {
+      "term_original": "beg",
+      "capitulo": "09",
+      "confidence_embedding": 0.7053,
+      "descricao_cid": "Representação de doença CID-11: Edema do disco óptico. Definição: Refere-se ao edema na localização em que os axônios das células ganglionares saem do olho para formar o nervo óptico. Não há bastonetes ou cones sensíveis à luz para responder a estímulos luminosos nesse ponto.",
+      "classification_reasoning": "A opção mais precisa para o termo 'beg' é a representação de doença CID-11: Edema do disco óptico, que refere-se ao edema na localização em que os axônios das células ganglionares saem do olho para formar o nervo óptico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'beg' não se refere ao edema do disco óptico, como descrito na definição do código CID-11. No contexto do prontuário, 'beg' provavelmente se refere à posição ou postura do paciente (sentado), o que é um tipo de informação anatômica ou fisiológica, e não uma condição clínica relacionada ao olho ou nervo óptico. Portanto, a codificação CID-11 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "VV3Y": {
+      "term_original": "bnf",
+      "capitulo": "V",
+      "confidence_embedding": 0.6617,
+      "descricao_cid": "Representação de doença CID-11: Outras funções dos sistemas cardiovascular, hematológico, imunológico e respiratório, especificadas. Definição: ",
+      "classification_reasoning": "A opção mais precisa é VV3Y porque o termo 'bnf' se refere a Blood Flow, o que está relacionado às funções cardiovascular e hematológicas especificadas no relatório de ecocardiograma.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'bnf' se refere a Blood Flow, que está diretamente relacionado às funções cardiovascular e hematológicas especificadas no relatório de ecocardiograma. A opção VV3Y é uma representação fiel da condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MC80.0Y": {
+      "term_original": "rcr 2t",
+      "capitulo": "21",
+      "confidence_embedding": 0.6756,
+      "descricao_cid": "Representação de doença CID-11: Outro valor elevado da pressão arterial especificado, sem diagnóstico de hipertensão. Definição: ",
+      "classification_reasoning": "A opção mais precisa é MC80.0Y pois o termo 'rcr' se refere à pressão arterial, que é mencionada no contexto clínico (PA: 120x70mmHg). Além disso, a descrição da opção MC80.0Y ('Outro valor elevado da pressão arterial especificado, sem diagnóstico de hipertensão') se ajusta à informação fornecida.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'rcr' não representa diretamente a pressão arterial, mas sim uma medida de resistência cardíaca. A opção MC80.0Y não se ajusta à informação fornecida no prontuário. A classificação deve ser removida e reavaliada para encontrar um código CID-11 que represente fielmente a condição clínica descrita.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB53.0": {
+      "term_original": "sd +/6+",
+      "capitulo": "15",
+      "confidence_embedding": 0.6933,
+      "descricao_cid": "Representação de doença CID-11: Capsulite adesiva do ombro. Definição: Esta é uma condição caracterizada pelo surgimento espontâneo de dor, seguido pela perda progressiva da amplitude de movimento passivo e ativo no ombro.",
+      "classification_reasoning": "A presença de 'sd +/6+' no contexto do prontuário sugere uma lesão ou deformidade nos tecidos moles periarticulares, especialmente nos tendões e ligamentos, o que é consistente com a descrição da capsulite adesiva do ombro (FB53.0)",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'sd +/6+' no prontuário se refere à mobilidade adequada e rgurgitação moderada a importante do valor mitral, o que não está relacionado à capsulite adesiva do ombro (FB53.0). Ajuste necessário para garantir a codificação CID-11 seja clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    }
+  }
+}

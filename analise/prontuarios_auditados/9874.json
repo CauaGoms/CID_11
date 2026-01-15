@@ -1,0 +1,89 @@
+{
+  "prontuario_id": 662,
+  "text": "# Lucas , 71 ANOS\n- 22/10/15   RM \n# PACIENTE REFERE DISPNEIA  SOMENTE AO DEITAR ,  COM MELHORA PROGRESSIVA DESDE A CIRURGIA  ATE O MOMENTO . SAIDA DE SECREÇÃO DE  PARTE DISTAL DE SAFENECTOMIA A ESQUERDA \nNEGA FEBRE OU MAL ESTAR GERAL\n# FO AREA COM  SAIDA DE SECREÇÃO AMARELADA ,  COM MAUS CUIDADOS DE HIGIENE\n# PRESCREVE CIPROFLOXACINO CONFORME PRECEPTORIA , PEDIDO DE EXAMES DE POS OP , RETORNO COM EXAMES . ORIENTO SINAIS DE ALARME , RETORNO IMEDIATO SE NECESSARIO .\nDoutor Vital Brazil \n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CIRURGIA",
+      "SAFENECTOMIA"
+    ],
+    "Substância Corporal": [
+      "SECREÇÃO",
+      "SECREÇÃO AMARELADA"
+    ],
+    "Conceito Espacial": [
+      "DISTAL",
+      "ESQUERDA"
+    ],
+    "Negação": [
+      "NEGA"
+    ],
+    "Sinal ou Sintoma": [
+      "FEBRE",
+      "MAL ESTAR",
+      "SECREÇÃO AMARELADA",
+      "SINAIS DE ALARME"
+    ],
+    "Abreviação": [
+      "FO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "PRESCREVE",
+      "RETORNO",
+      "ORIENTO"
+    ],
+    "Substância Farmacológica": [
+      "CIPROFLOXACINO"
+    ],
+    "Substância Química Orgânica": [
+      "CIPROFLOXACINO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "PRECEPTORIA",
+      "Doutor"
+    ],
+    "Procedimento Laboratorial": [
+      "EXAMES"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "EXAMES"
+    ],
+    "Conceito Temporal": [
+      "IMEDIATO"
+    ]
+  },
+  "labels": {
+    "NB31.2": {
+      "term_original": "sinais de alarme",
+      "capitulo": "22",
+      "confidence_embedding": 0.7399,
+      "descricao_cid": "Representação de doença CID-11: Lesão de coração, não especificada sem ferimento aberto na cavidade torácica. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NB31.2, pois o termo 'sinais de alarme' se refere à possibilidade de complicações cardiovasculares após uma cirurgia, como mencionado na história do paciente ('Paciente referir dispneia somente ao deitar, com melhora progressiva desde a cirurgia até o momento'). Além disso, a NB31.2 se refere à lesão de coração não especificada sem ferimento aberto na cavidade torácica, o que pode estar relacionado às sintomatologia descrita pelo paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 NB31.2 se refere à lesão de coração não especificada sem ferimento aberto na cavidade torácica, o que não está diretamente relacionado ao termo 'sinais de alarme' no prontuário. O paciente apresenta sintomatologia de dispneia após a cirurgia, mas isso não é suficiente para justificar a lesão cardíaca não especificada. A codificação CID-11 deve ser mais específica e relacionada à condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "DA09.3": {
+      "term_original": "secreção amarelada",
+      "capitulo": "13",
+      "confidence_embedding": 0.7584,
+      "descricao_cid": "Representação de doença CID-11: Abscesso Phoenix. Definição: Condição aguda que acontece imediatamente após um procedimento endodôntico ou em um dente com polpa necrosada.",
+      "classification_reasoning": "A secreção amarelada descrita no prontuário lembra abscesso Phoenix, uma condição que pode ocorrer após um procedimento endodôntico ou em um dente com polpa necrosada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A secreção amarelada descrita no prontuário não é um abscesso Phoenix, que é uma condição aguda relacionada a procedimentos endodônticos ou dentes com polpa necrosada. A descrição do prontuário refere-se à saída de secreção após safenectomia, o que sugere uma reação pós-operatória mais provável do que um abscesso Phoenix.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB23.7": {
+      "term_original": "mal estar",
+      "capitulo": "21",
+      "confidence_embedding": 0.7662,
+      "descricao_cid": "Representação de doença CID-11: Aparência descuidada. Definição: Aparência desarrumada ou descuidada, refletindo uma falta de atenção a um ou mais aspectos da higiene, aparência ou vestimenta.",
+      "classification_reasoning": "A descrição do paciente menciona 'FO AREA COM SAIDA DE SECREÇÃO AMARELADA, COM MAUS CUIDADOS DE HIGIENE', o que sugere uma falta de atenção a aspectos da higiene e aparência, tornando a opção MB23.7 (Aparência descuidada) a mais precisa para o termo 'mal estar' no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do paciente menciona 'FO AREA COM SAIDA DE SECREÇÃO AMARELADA, COM MAUS CUIDADOS DE HIGIENE', o que sugere uma falta de atenção a aspectos da higiene e aparência. No entanto, o termo 'mal estar' não está diretamente relacionado à falta de atenção à higiene ou aparência. A opção MB23.7 (Aparência descuidada) não representa fielmente o termo 'mal estar', pois é uma condição clínica diferente da que foi descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

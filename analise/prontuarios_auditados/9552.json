@@ -1,0 +1,116 @@
+{
+  "prontuario_id": 205,
+  "text": "TX  RENAL \nMTC 5, TAC 2 / 3, MS 2 / 2, CVD 3,125 X2, AAS 100, INSULINA LANTUS 36 E LISPRO\nS : USOU NITROFURANTOINA\nCURSOU COM HIPOGLICEMIA NA VESPERA DO EXAME COM USO AGUA COM ACUCAR ANTES DO EXAME\nO : PA 120/70  100/60  P 68  AFEBRIL\nEX SEGMENTAR : NORMAL\nTX RENAL COM CR 0,72 COM NS FK 7,0\nTENDE A HIPOTENSÃO\n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "MTC",
+      "TAC",
+      "MS",
+      "CVD",
+      "X2",
+      "AAS",
+      "PA",
+      "P",
+      "TX RENAL",
+      "EX SEGMENTAR",
+      "CR 0 , 72",
+      "NS FK 7 , 0"
+    ],
+    "Hormônio": [
+      "MTC",
+      "LISPRO",
+      "INSULINA LANTUS"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "TAC",
+      "MS",
+      "CVD",
+      "AAS",
+      "LISPRO",
+      "INSULINA LANTUS"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "TAC",
+      "MS",
+      "CVD",
+      "AAS",
+      "LISPRO",
+      "NITROFURANTOINA",
+      "INSULINA LANTUS"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "X2",
+      "100",
+      "36",
+      "120/70",
+      "100/60",
+      "68",
+      "2 / 3",
+      "2 / 2",
+      "3 , 125"
+    ],
+    "Conceito Temporal": [
+      "X2"
+    ],
+    "Antibiótico": [
+      "NITROFURANTOINA"
+    ],
+    "Sinal ou Sintoma": [
+      "HIPOGLICEMIA",
+      "AFEBRIL",
+      "HIPOTENSÃO"
+    ],
+    "Procedimento Laboratorial": [
+      "EXAME"
+    ],
+    "Alimento": [
+      "AGUA",
+      "ACUCAR"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P"
+    ],
+    "Negação": [
+      "AFEBRIL"
+    ],
+    "Achado": [
+      "NORMAL"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Procedimento Diagnóstico": [
+      "EX SEGMENTAR"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 72",
+      "NS FK 7 , 0"
+    ]
+  },
+  "labels": {
+    "BA02": {
+      "term_original": "hipotensão",
+      "capitulo": "11",
+      "confidence_embedding": 0.8107,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A hipotensão mencionada no contexto clínico é um sintoma comum em pacientes com doença renal, justificando a escolha do código BA02, que representa Doença Renal Hipertensiva.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipotensão mencionada no prontuário é um sintoma, não uma doença renal hipertensiva. A escolha do código BA02 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5A21.Z": {
+      "term_original": "hipoglicemia",
+      "capitulo": "05",
+      "confidence_embedding": 0.7588,
+      "descricao_cid": "Representação de doença CID-11: Hipoglicemia no contexto do diabetes mellitus, não especificado. Definição: ",
+      "classification_reasoning": "A hipoglicemia foi mencionada no contexto do prontuário como um evento ocorrido na véspera do exame, e a presença de insulina Lantus e lispro sugere que o paciente tem diabetes mellitus. Portanto, a escolha mais precisa é a hipoglicemia no contexto do diabetes mellitus não especificado.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipoglicemia foi mencionada como um evento ocorrido na véspera do exame, mas o código CID-11 atribuído (5A21.Z) refere-se a uma representação de doença no contexto do diabetes mellitus não especificado. Embora haja relação entre a hipoglicemia e o diabetes, o termo 'hipoglicemia' não é diretamente relacionado à doença em si, mas sim a um sintoma ou evento associado. Portanto, a escolha do código CID-11 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

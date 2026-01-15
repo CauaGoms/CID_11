@@ -1,0 +1,156 @@
+{
+  "prontuario_id": 475,
+  "text": "LUCAS\n\nCMD APÓS GESTAÇÃO.\nIMPLANTOU RESSINC E CDI EM NOV DE 15.\nNÃO REALIZOU CONSULTA EM NOSSO AMBU DO MP.\n\nHOJE VEIO COMO PROCURA DIRETA - ENCAIXE.\nSENTE-SE MELHOR POREM NÃO ESTA 100%.\nANTES SENTIA-SE MAL ATÉ EM PENTEAR O CABELO, TOMAR BANHO (ESTAVA PRATICAMENTE EM CADEIRA DE RODAS), TINHA DPN E ORTOPNEIA.\nAGORA CONSEGUE CAMINHAR EMPURRANDO CARRINHO POR MEIA QUADRA.\n \n \n# mp MULTISSITIO.\n# programado em BIV 70 70.\n# operando MAIS DE 95% EM BIV.\n# ritmo proprio = BRADI SINUSAL.\n# a - imp = 537, sense = 2,6, cla = 1,2 x 0,5.\n# v - imp = 522, sense = 17, clv = 0,7 x 0,5.\nVE COM 609, 19,6 E 11 X 0,5.\n# bat ok.\n\n# programado em FC DE 60 - 50, mantido demais, retorno em 30 DIAS  + NÃO FALTAR CONSULTA COM Doutor Vital Brazil. ",
+  "entities": {
+    "Abreviação": [
+      "CMD",
+      "DPN",
+      "VE",
+      "FC",
+      "AMBU DO MP",
+      "mp MULTISSITIO"
+    ],
+    "Doença ou Síndrome": [
+      "CMD"
+    ],
+    "Conceito Temporal": [
+      "APÓS",
+      "HOJE",
+      "ANTES",
+      "30 DIAS"
+    ],
+    "Função de Organismo": [
+      "GESTAÇÃO"
+    ],
+    "Dispositivo Médico": [
+      "RESSINC",
+      "CDI",
+      "CADEIRA DE RODAS"
+    ],
+    "Negação": [
+      "NÃO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CONSULTA",
+      "ENCAIXE",
+      "programado",
+      "retorno",
+      "PROCURA DIRETA",
+      "FALTAR CONSULTA"
+    ],
+    "Achado": [
+      "100%",
+      "SENTE-SE MELHOR",
+      "CAMINHAR EMPURRANDO CARRINHO",
+      "ritmo proprio"
+    ],
+    "Sinal ou Sintoma": [
+      "DPN",
+      "ORTOPNEIA",
+      "SENTIA-SE MAL"
+    ],
+    "Atributo Clínico": [
+      "BIV",
+      "imp",
+      "sense",
+      "cla",
+      "clv",
+      "FC"
+    ],
+    "Atividade de Máquina": [
+      "operando",
+      "ritmo proprio"
+    ],
+    "Conceito Quantitativo": [
+      "95%",
+      "537",
+      "522",
+      "17",
+      "MEIA QUADRA",
+      "70 70",
+      "2 , 6",
+      "1 , 2 x 0 , 5",
+      "0 , 7 x 0 , 5",
+      "11 X 0 , 5",
+      "60 - 50"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "VE"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Doutor"
+    ],
+    "Organização Relacionada à Saúde": [
+      "AMBU DO MP"
+    ],
+    "Atividade Diária ou Recreativa": [
+      "PENTEAR O CABELO",
+      "TOMAR BANHO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "mp MULTISSITIO"
+    ]
+  },
+  "labels": {
+    "FA25.20": {
+      "term_original": "ortopneia",
+      "capitulo": "15",
+      "confidence_embedding": 0.6962,
+      "descricao_cid": "Representação de doença CID-11: Gota tofácea. Definição: Os tofos são deposições de cristais de urato monossódico nos tecidos de pacientes com hiperuricemia e podem estar associados a outras manifestações como a artropatia da gota. Eles são identificados principalmente na pele e no tecido subcutâneo. A hélice da orelha é uma das localizações mais comuns de acometimento dos tofos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'ortopneia' é a Gota tofácea (FA25.20), pois embora a ortopneia seja uma manifestação clínica, a descrição da doença CID-11 indica que os sintomas como artropatia e incapacidade de realizar atividades diárias podem estar relacionados à hiperuricemia e deposição de cristais de urato nos tecidos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A ortopneia descrita no prontuário é uma manifestação clínica que pode estar relacionada a diversas causas. Embora o termo seja mencionado, não há evidência clara de que a Gota tofácea (FA25.20) seja a causa subjacente da ortopneia. A falta de contexto e a ausência de informações sobre a história médica do paciente tornam difícil estabelecer uma relação direta entre a ortopneia e a Gota tofácea. Portanto, é necessário remover o código CID-11 atribuído (FA25.20) para evitar confusão diagnóstica.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MB44.2": {
+      "term_original": "caminhar empurrando carrinho",
+      "capitulo": "21",
+      "confidence_embedding": 0.7131,
+      "descricao_cid": "Representação de doença CID-11: Dificuldade de caminhar. Definição: ",
+      "classification_reasoning": "A dificuldade de caminhar mencionada no contexto clínico ('Caminhar empurrando carrinho') é a mais precisa opção para representar essa situação, uma vez que é um sintoma físico comum em pacientes que precisam de apoio para se movimentarem.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dificuldade de caminhar mencionada no prontuário ('Caminhar empurrando carrinho') é um sintoma físico comum em pacientes que precisam de apoio para se movimentarem. A codificação CID-11 MB44.2 representa fielmente essa situação, pois descreve a dificuldade de caminhar como um sintoma clínico. Portanto, a codificação é válida e não há motivos para remoção.",
+      "tipo_erro_auditoria": null
+    },
+    "8A05.0": {
+      "term_original": "ritmo proprio",
+      "capitulo": "08",
+      "confidence_embedding": 0.6777,
+      "descricao_cid": "Representação de doença CID-11: Tiques primários ou transtornos do tique. Definição: Tiques primários ou transtornos do tique são caracterizados pela presença de tiques crônicos motores e/ou vocais (fônicos). Tiques motores e vocais são definidos respectivamente como movimentos ou vocalizações abruptos, rápidos, não rítmicos e recorrentes. Para serem diagnosticados, tiques devem estar presentes por pelo menos um ano, apesar de poderem não ser manifestos de forma consistente.",
+      "classification_reasoning": "A escolha do código 8A05.0 é justificada pelo fato de Lucas ter sentido-se mal até mesmo para pentear o cabelo e tomar banho, indicando possível limitação motora e/ou vocal. Além disso, a melhora no estado geral do paciente após implantação dos dispositivos de ressonância magnética (RESSINC) e controle da pressão arterial diastólica elevada (CDI) sugere uma possível relação com os sintomas descrentes.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código 8A05.0 não está clinicamente coerente com o prontuário, pois não há evidências de tiques primários ou transtornos do tique na história clínica de Lucas. A melhora no estado geral do paciente após implantação dos dispositivos de ressonância magnética (RESSINC) e controle da pressão arterial diastólica elevada (CDI) não está relacionada com sintomas descrentes, mas sim com a melhoria na função cardiovascular e neurológica. O termo 'ritmo proprio' não é sinônimo de tiques primários ou transtornos do tique.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MB27.0": {
+      "term_original": "sentia-se mal",
+      "capitulo": "21",
+      "confidence_embedding": 0.7305,
+      "descricao_cid": "Representação de doença CID-11: Despersonalização. Definição: Sentir-se irreal ou estranho a si mesmo, ou sentir-se separado, ou como se fosse um observador externo, dos próprios pensamentos, sentimentos, sensações, corpo ou ações. A despersonalização pode assumir forma de entorpecimento emocional e/ou físico, uma sensação de se observar à distância ou \"estar em uma peça de teatro\", ou alterações perceptivas (p.ex., uma sensação distorcida de tempo).",
+      "classification_reasoning": "A frase 'sentia-se mal' sugere uma sensação de mal-estar ou despersonalização, o que coincide com a definição do código MB27.0: Representação de doença CID-11: Despersonalização.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A frase 'sentia-se mal' é muito genérica e não apresenta características específicas da despersonalização descrita no código CID-11. A despersonalização se refere a uma sensação de irrealidade ou estranheza em relação ao próprio corpo, pensamentos ou ações, enquanto a frase 'sentia-se mal' pode ser aplicada a various conditions. Portanto, não há uma correspondência clínica adequada entre o termo e o código CID-11.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "FA33.3": {
+      "term_original": "dpn",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A presença de DPN (Dor Pós-Nauplação) no histórico do paciente e a melhora da condição apesar da terapia atualmente em curso sugerem que Lucas provavelmente tem um transtorno interno do joelho não especificado, caracterizado por dor e redução da amplitude de movimento.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 FA33.3 não representa fielmente a condição descrita no prontuário, que é uma dor pós-nauplação específica e não um transtorno interno do joelho não especificado. A descrição do código CID-11 sugere que o paciente tem um quadro clínico mais amplo, enquanto o termo 'dpn' no prontuário se refere a uma condição específica e limitada.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "JB61.1": {
+      "term_original": "cmd",
+      "capitulo": "18",
+      "confidence_embedding": 0.7131,
+      "descricao_cid": "Representação de doença CID-11: Morte por causa obstétrica indireta, que ocorre mais de 42 dias, mas menos de 1 ano, após o parto. Definição: Qualquer afecção que resulte, indiretamente, em morte por causa intermediária devido a qualquer problema associado a alterações fisiológicas ou quaisquer outras que ocorram durante o período de tempo desde a concepção até o parto (gravidez), durante o trabalho de parto e parto (parto) ou aproximadamente seis semanas após parto, durante o qual o útero volta ao tamanho original (puerpério).",
+      "classification_reasoning": "A escolha foi pelo Código JB61.1 devido à presença de sintomas preexistentes de DPN e ortopneia antes do parto, que melhoraram após a gestação, sugerindo que o CMD (Commando) foi causado por uma condição obstétrica indireta relacionada ao parto.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 JB61.1 não é clinicamente coerente com o prontuário, pois a paciente apresenta sintomas que melhoraram após a gestação e não há evidência de morte por causa obstétrica indireta. O termo 'CMD' refere-se ao comando da gestação, não à morte por causa obstétrica indireta.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "prontuario_id": 492,
+  "text": "PO implante de MP.\n\nPcte sem queixas, fo cicatrizada.\n\n\nAlta com retorno em ambulatorio de arritmia.        ",
+  "entities": {
+    "Abreviação": [
+      "PO",
+      "Pcte",
+      "fo",
+      "implante de MP"
+    ],
+    "Conceito Temporal": [
+      "PO"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Pcte"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "queixas"
+    ],
+    "Lesão ou Envenenamento": [
+      "fo"
+    ],
+    "Achado": [
+      "cicatrizada"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Alta",
+      "retorno"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "implante de MP"
+    ],
+    "Organização Relacionada à Saúde": [
+      "ambulatorio de arritmia"
+    ]
+  },
+  "labels": {
+    "ND91.0": {
+      "term_original": "fo",
+      "capitulo": "22",
+      "confidence_embedding": 0.706,
+      "descricao_cid": "Representação de doença CID-11: Queimadura de face, exceto olho ou anexos oculares, queimadura epidérmica. Definição: ",
+      "classification_reasoning": "A opção mais precisa é ND91.0, pois o termo 'fo' se refere à queimadura de face, especificamente, e não há referência a lesão decorrente de outro dispositivo (NE83) ou localização não especificada (ND9Z). A descrição 'queimadura epidérmica' também se ajusta ao contexto de implante de MP e alta com retorno em ambulatorio de arritmia, sugerindo que a queimadura foi cicatrizada.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção ND91.0 é justificada pois o termo 'fo' se refere à queimadura de face, especificamente, e não há referência a lesão decorrente de outro dispositivo (NE83) ou localização não especificada (ND9Z). A descrição 'queimadura epidérmica' também se ajusta ao contexto de implante de MP e alta com retorno em ambulatorio de arritmia, sugerindo que a queimadura foi cicatrizada.",
+      "tipo_erro_auditoria": null
+    },
+    "MB29.4": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7246,
+      "descricao_cid": "Representação de doença CID-11: Ruminação e regurgitação. Definição: Mastigar novamente alimentos previamente engolidos que foram trazidos de volta à boca por regurgitação, que podem então ser engolidos novamente ou cuspidos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'queixas' é a MB29.4, que descreve a representação de doença CID-11: Ruminação e regurgitação. A presença do termo 'fo cicatrizada' no contexto sugeriu que se trata de uma situação relacionada ao trato gastrintestinal, o que coincide com a descrição da MB29.4.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção MB29.4 não representa fielmente o termo 'queixas', pois descreve a representação de doença CID-11: Ruminação e regurgitação, que não está relacionada às queixas do paciente. Além disso, a presença do termo 'fo cicatrizada' no contexto sugere que se trata de uma situação relacionada ao trato gastrintestinal, o que também não coincide com a descrição da MB29.4.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EE60.1": {
+      "term_original": "cicatrizada",
+      "capitulo": "14",
+      "confidence_embedding": 0.7586,
+      "descricao_cid": "Representação de doença CID-11: Cicatriz hipertrófica. Definição: Cicatrizes hipertróficas resultam da produção de quantidades excessivas de colágeno na derme durante o reparo do tecido conjuntivo subsequente a inflamação, lesão ou cirurgia. Em contraste com as cicatrizes queloidianas, elas não se expandem além do limite da lesão ou inflamação inicial e podem sofrer resolução espontânea.",
+      "classification_reasoning": "A cicatrizada mencionada no prontuário refere-se à formação de uma cicatriz hipertrófica, caracterizada pela produção excessiva de colágeno na derme durante o reparo do tecido conjuntivo subsequente a cirurgia. Esta definição se encaixa melhor com o código EE60.1 do que os outros opções mencionados.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A cicatrizada mencionada no prontuário refere-se à formação de uma cicatriz hipertrófica, caracterizada pela produção excessiva de colágeno na derme durante o reparo do tecido conjuntivo subsequente a cirurgia. Esta definição se encaixa melhor com o código EE60.1 do que os outros opções mencionados.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

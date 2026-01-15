@@ -1,0 +1,202 @@
+{
+  "prontuario_id": 652,
+  "text": "HAS  DM2 # Cardiopatia Isquemica - CRM XXXX ( SAF para DA e CX ) -  ACTP CD EM 1998 # Último CAT (2001) : DAE / Cx ocluídas prox ; PS para Dg pérvia e com fluxo retrógrado para DAE ; PS para Cx pérvia ; CD com estenoses proximal de 50 e 40% # IRC - hipercalemia # AITs repetição # Estenose aórtica -  grad max 38 # Hipotireoidismo  Paciente é encaminhado de Sto Antonio da Patrulha por angina instável , sem alteração de ECG ou enzimas cardíacas . Novo cateterismo mostrou progressão da lesão em coronária direita estando com lesão crítica em segmento proximal . Realizada colocação de stent com estabelecimento de bom fluxo . Tem alta em bom estado geral , assintomático . Orientações gerais . Retorno à emergência se necessário . Medicações prescritas : Metoprolol 100mg 2x/dia ; AAS 100 mg 2cp 1x/dia ; Ticlopidina 250mg 12/12 Hs ; Isossorbida 10mg 3X/dia ; Sinvastatina 40mg à noite ; Insulina NPH 12 UI AC e 12 AJ ; Euthyrox 50mg 1c 1x/dia.",
+  "entities": {
+    "Doença ou Síndrome": [
+      "HAS",
+      "DM2",
+      "IRC",
+      "Hipotireoidismo",
+      "Cardiopatia Isquemica",
+      "AITs repetição",
+      "Estenose aórtica",
+      "angina instável"
+    ],
+    "Abreviação": [
+      "HAS",
+      "DM2",
+      "SAF",
+      "DA",
+      "CX",
+      "ACTP",
+      "CD",
+      "CAT",
+      "IRC",
+      "AAS",
+      "AC",
+      "AJ",
+      "DAE / Cx ocluídas prox",
+      "PS para Dg pérvia e com fluxo retrógrado para DAE",
+      "PS para Cx pérvia",
+      "CD com estenoses proximal de 50 e 40%",
+      "AITs repetição",
+      "grad max 38",
+      "alteração de ECG"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "DA",
+      "CX",
+      "CD"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ACTP",
+      "CAT",
+      "cateterismo",
+      "colocação de stent"
+    ],
+    "Procedimento Diagnóstico": [
+      "CAT",
+      "cateterismo"
+    ],
+    "Sinal ou Sintoma": [
+      "hipercalemia"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Negação": [
+      "sem",
+      "assintomático"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "alta",
+      "Retorno",
+      "Orientações gerais"
+    ],
+    "Achado": [
+      "assintomático",
+      "estabelecimento de bom fluxo",
+      "bom estado geral"
+    ],
+    "Organização Relacionada à Saúde": [
+      "emergência"
+    ],
+    "Substância Farmacológica": [
+      "Medicações",
+      "Metoprolol",
+      "AAS",
+      "Ticlopidina",
+      "Isossorbida",
+      "Sinvastatina",
+      "Euthyrox",
+      "Insulina NPH"
+    ],
+    "Substância Química Orgânica": [
+      "Metoprolol",
+      "AAS",
+      "Ticlopidina",
+      "Isossorbida",
+      "Sinvastatina",
+      "Euthyrox"
+    ],
+    "Conceito Quantitativo": [
+      "100mg",
+      "250mg",
+      "10mg",
+      "40mg",
+      "50mg",
+      "100 mg",
+      "12 UI"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "DAE / Cx ocluídas prox",
+      "PS para Dg pérvia e com fluxo retrógrado para DAE",
+      "PS para Cx pérvia",
+      "CD com estenoses proximal de 50 e 40%",
+      "enzimas cardíacas",
+      "progressão da lesão em coronária direita",
+      "lesão crítica em segmento proximal"
+    ],
+    "Procedimento Laboratorial": [
+      "enzimas cardíacas"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "Insulina NPH"
+    ],
+    "Hormônio": [
+      "Insulina NPH"
+    ]
+  },
+  "labels": {
+    "BA01": {
+      "term_original": "has",
+      "capitulo": "11",
+      "confidence_embedding": 0.7737,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A presença do termo 'has' no contexto sugere que o paciente tem doença cardíaca hipertensiva, pois é mencionado que há lesão crítica em segmento proximal da coronária direita e estenose aórtica com graduação máxima de 38, o que é consistentemente relacionado à doença cardíaca hipertensiva.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença do termo 'has' no contexto sugere que o paciente tem doença cardíaca hipertensiva, mas a descrição da doença cardíaca não é compatível com a definição da CID-11. A doença cardíaca hipertensiva é definida como uma condição causada por efeitos diretos ou indiretos da hipertensão, enquanto a situação do paciente apresenta lesões coronárias e estenose aórtica, o que não está relacionado à hipertensão. Portanto, a codificação CID-11 BA01 não é clínamicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC43.7": {
+      "term_original": "dm2",
+      "capitulo": "11",
+      "confidence_embedding": 0.7701,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia diabética. Definição: Cardiomiopatia diabética é a presença de disfunção miocárdica na ausência de doença arterial coronariana clínica evidente, doença valvar e outros fatores de risco cardiovascular convencionais, como hipertensão e dislipidemia. Caracteriza-se inicialmente por fibrose miocárdica, remodelamento disfuncional e disfunção diastólica, evoluindo para disfunção sistólica e insuficiência cardíaca. \r\n\r\nInformações adicionais. O desenvolvimento e a progressão de cardiomiopatia diabética têm sido associados ao comprometimento da sinalização metabólica da insulina no coração, aumento do estresse oxidativo, redução da biodisponibilidade do óxido nítrico, rigidez da matriz extracelular e dos cardiomiócitos a base de colágeno, comprometimento do manuseio do cálcio por mitocôndrias e cardiomiócitos, inflamação, ativação do sistema renina-angiotensina-aldosterona, neuropatia autonômica cardíaca, estresse do retículo endoplasmático, disfunção microvascular e uma miríade de anormalidades metabólicas cardíacas.",
+      "classification_reasoning": "A escolha do termo 'dm2' como Cardiomiopatia diabética é mais precisa porque apresenta um vínculo claro entre a doença e o diabetes, embora não seja exclusiva para essa condição.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 BC43.7 'Cardiomiopatia diabética' não é adequada para o termo 'dm2', pois a doença descrita no prontuário é uma Cardiopatia Isquemica, e não uma cardiomiopatia diabética. A escolha do código CID-11 BC43.7 é um exemplo de sobre-generalização, pois a cardiomiopatia diabética é uma condição específica que envolve disfunção miocárdica na ausência de doença arterial coronariana clínica evidente, e não se aplica ao caso do paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA51": {
+      "term_original": "irc",
+      "capitulo": "11",
+      "confidence_embedding": 0.7514,
+      "descricao_cid": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas.",
+      "classification_reasoning": "A presença de IRC (hipercalemia) e a descrição de Cardiopatia Isquemica no prontuário sugerem que o termo 'irc' se refere à Miocardiopatia Isquêmica, uma condição caracterizada por disfunção sistólica ventricular esquerda com antecedente de revascularização do miocárdio ou infarto do miocárdio prévios.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de IRC (hipercalemia) e a descrição de Cardiopatia Isquemica no prontuário sugerem que o termo 'irc' se refere à Miocardiopatia Isquêmica, uma condição caracterizada por disfunção sistólica ventricular esquerda com antecedente de revascularização do miocárdio ou infarto do miocárdio prévios. A descrição clínica do paciente apresenta lesão crítica em segmento proximal da artéria coronária direita, o que é consistente com a definição de Miocardiopatia Isquêmica. Portanto, o código CID-11 atribuído (BA51) é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "5B91.0": {
+      "term_original": "hipercalemia",
+      "capitulo": "05",
+      "confidence_embedding": 0.7757,
+      "descricao_cid": "Representação de doença CID-11: Hipercalcemia. Definição: A hipercalcemia é uma condição causada pelo aumento dos níveis de cálcio no sangue(calcemia). Os sintomas dependem tanto da calcemia, quanto da velocidade da sua instalação. Quando presentes, os sintomas são causados ​​por desidratação secundária a perdas urinárias de cálcio, água e outros eletrólitos e por um aumento no potencial de membrana causado pela elevação da concentração de cálcio ionizado no fluido extracelular. Os doentes com hipercalcemia moderada a grave queixam-se frequentemente de náuseas e vómitos, sintomas provavelmente relacionados com desidratação, bem como com os efeitos da hipercalcemia na função do sistema nervoso central. Como a hipercalcemia tende a hiperpolarizar as membranas, uma série de sinais e sintomas neurológicos e neuromusculares podem ocorrer. Pacientes com hipercalcemia leve geralmente se queixam de fadiga, humor deprimido e astenia. A motilidade gastrointestinal está prejudicada; isso geralmente resulta em constipação.",
+      "classification_reasoning": "A hipercalcemia é mencionada no contexto do prontuário como uma consequência possível da doença cardiovascular, especialmente considerando-se a presença de hipercolesterolemia e estenose aórtica. Além disso, a colocaçao de stent com estabelecimento de bom fluxo sugere que o paciente tem um quadro de doença coronariana, o que também pode estar relacionado à hipercalcemia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipercalcemia é mencionada no contexto do prontuário como uma consequência possível da doença cardiovascular, especialmente considerando-se a presença de hipercolesterolemia e estenose aórtica. No entanto, não há evidências clínicas concretas que justifiquem a hipercalcemia nesse contexto. A colocaçao de stent com estabelecimento de bom fluxo sugere que o paciente tem um quadro de doença coronariana, mas não há relação direta entre isso e a hipercalcemia.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "ME62.7": {
+      "term_original": "aits repetição",
+      "capitulo": "21",
+      "confidence_embedding": 0.7114,
+      "descricao_cid": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica.",
+      "classification_reasoning": "A opção mais precisa para o termo 'aits repetição' é a erupção cutânea descamativa aguda (MC62.7), pois é uma referência à possibilidade de reações adversas à medicação, como AITs (Reacções à Injeção Tissular), que podem ser repetidas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção ME62.7 não é adequada pois AITs repetição refere-se a uma condição clínica específica, relacionada à reação adversa à medicação, enquanto o código CID-11 ME62.7 se refere a erupção cutânea descamativa aguda, que não está diretamente relacionada ao termo 'AITs repetição'. A classificação é incoerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA40.Y": {
+      "term_original": "angina instável",
+      "capitulo": "11",
+      "confidence_embedding": 0.8051,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'angina instável' é BA40.Y, que descreve Representação de doença CID-11: Outra angina pectoris especificada. A instabilidade anginal se refere a um tipo de dor no peito que não está relacionada apenas à atividade física e pode estar associada a sintomas como febre, sudorese e palpitacções.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção BA40.Y 'Outra angina pectoris especificada' é uma representação clínica precisa da condição descrita no prontuário como 'angina instável'. A definição do código CID-11 também se alinha com a descrição da doença, que inclui sintomas como febre, sudorese e palpitacções. Portanto, o código atribuído é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BB72.0": {
+      "term_original": "estenose aórtica",
+      "capitulo": "11",
+      "confidence_embedding": 0.7857,
+      "descricao_cid": "Representação de doença CID-11: Estenose aórtica reumática com insuficiência. Definição: A estenose aórtica por cardiopatia reumática crônica tipicamente está associada à insuficiência aórtica. As comissuras e cúspides da válvula tornam-se aderentes e fundidas, e o orifício da valva torna-se pequeno. Na ausculta, S2 pode ser única porque os folhetos aórticos estão imóveis e não produzem um som de fechamento aórtico",
+      "classification_reasoning": "A estenose aórtica reumática é o código mais preciso para o termo extraído, uma vez que o contexto menciona 'estenose aórtica' e 'febre reumática' no passado do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A estenose aórtica descrita no prontuário refere-se à obstrução da válvula aórtica, enquanto o código CID-11 BB72.0 se refere especificamente à estenose aórtica reumática com insuficiência. Embora haja uma relação entre as duas condições, elas não são idênticas. A estenose aórtica pode ser causada por várias razões, incluindo cardiopatia isquêmica, e não necessariamente está relacionada à febre reumática.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5A61.40": {
+      "term_original": "hipotireoidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.7784,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo central adquirido. Definição: Hipotireoidismo central é uma condição em que há pouca ou nenhuma produção dos hormônios tireoidianos induzido por disfunção de hipotálamo ou hipófise.",
+      "classification_reasoning": "A escolha pelo código 5A61.40 se baseia na menção ao hipotireoidismo como um fato estabelecido no prontuário do paciente, sem qualquer indicação de que seja congênito ou relacionado à exposição a substâncias exógenas. Além disso, não há indícios de haver sido causado por disfunção na glândula hipófise ou hipotálamo. Portanto, a escolha mais precisa é o hipotireoidismo central adquirido.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 5A61.40 refere-se a hipotireoidismo central adquirido, que é uma condição clínica específica. No entanto, o prontuário apenas menciona 'hipotireoidismo' sem fornecer informações sobre sua natureza (adquirida ou congênita) ou causa. Isso sugere que a classificação do código CID-11 não está clinicamente coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

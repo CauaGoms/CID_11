@@ -1,0 +1,137 @@
+{
+  "prontuario_id": 897,
+  "text": "Pcte com RNM de crânio agendada para hoje às 23:00h. Por volta das 21:00h pcte apresentou quadro de confusão mental , seguida de crise convulsiva generalizada , prontamente atendido na sala de poli , com MCC + oximetria digital de pulso + PNI contínuos . Instalado O2 , medicado CPM e  mantido em observação no leito . Hidantalizado pela R1 Vital Brasil da neurocirurgia , procedimento realizado sem intercorrências . Pcte bastante sonolento , mantido em sala de poli e suspenso RNM por hora . Diurese espontânea , com controle através de uropen . SSVV às 05:45h PA = 133/74mmhg , FC = 114bpm, SpO2 = 93% .  Conforme orientação da neurocirurgia , mantém observação na sala de poli sob cuidados intensivos de enfermagem .  Florence Nightingale Coren xxxx  CHOQUE NAO ESPECIFICADO",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Pcte",
+      "pcte"
+    ],
+    "Abreviação": [
+      "Pcte",
+      "pcte",
+      "MCC",
+      "CPM",
+      "R1",
+      "RNM",
+      "SSVV",
+      "PA",
+      "FC",
+      "SpO2",
+      "RNM de crânio",
+      "sala de poli",
+      "PNI contínuos"
+    ],
+    "Procedimento Diagnóstico": [
+      "MCC",
+      "RNM",
+      "RNM de crânio",
+      "oximetria digital de pulso",
+      "PNI contínuos"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "medicado",
+      "Hidantalizado",
+      "procedimento",
+      "Instalado O2"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "medicado",
+      "suspenso",
+      "orientação",
+      "observação no leito",
+      "cuidados intensivos de enfermagem"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "R1",
+      "neurocirurgia"
+    ],
+    "Organização Relacionada à Saúde": [
+      "neurocirurgia",
+      "sala de poli"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "intercorrências",
+      "confusão mental",
+      "crise convulsiva generalizada",
+      "bastante sonolento"
+    ],
+    "Dispositivo Médico": [
+      "uropen"
+    ],
+    "Atributo Clínico": [
+      "SSVV",
+      "PA",
+      "FC",
+      "SpO2"
+    ],
+    "Conceito Quantitativo": [
+      "133/74mmhg",
+      "114bpm",
+      "93%"
+    ],
+    "Doença ou Síndrome": [
+      "CHOQUE"
+    ],
+    "Achado": [
+      "Diurese espontânea"
+    ],
+    "Função Fisiológica": [
+      "Diurese espontânea"
+    ]
+  },
+  "labels": {
+    "7A42.5": {
+      "term_original": "bastante sonolento",
+      "capitulo": "07",
+      "confidence_embedding": 0.7841,
+      "descricao_cid": "Representação de doença CID-11: Hipoventilação relacionada ao sono devida a condição médica. Definição: A hipoventilação relacionada ao sono devida a condição médica é caracterizada por hipoventilação durante o sono devida a doença de via aérea ou do parênquima pulmonar, comprometimento da parede torácica, hipertensão pulmonar ou distúrbios neurológicos e neuromusculares. Hipercapnia diurna pode também estar presente. A hipoxemia durante o sono pode ser grave. Os pacientes podem ser assintomáticos ou apresentar-se com queixas de dispneia, aperto no peito ou fadiga.\r\n\r\nNota: Um diagnóstico definitivo requer evidência objetiva baseada na polissonografia com monitorização de dióxido de carbono (CO2) por medida arterial, expiratória ou transcutânea, na presença de uma condição médica julgada como causadora dos sintomas.",
+      "classification_reasoning": "A paciente apresentou quadro de confusão mental e crise convulsiva generalizada, o que sugere que a hipoventilação relacionada ao sono é provável causa. Além disso, a sonolência descrita como 'bastante sonolento' também aponta para essa possibilidade.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipoventilação relacionada ao sono devida a condição médica (7A42.5) é um código muito amplo e não se ajusta à descrição do termo 'bastante sonolento' no prontuário, que sugere apenas uma sonolência moderada e não necessariamente relacionada a uma doença específica. Além disso, o quadro de confusão mental e crise convulsiva generalizada não é suficiente para justificar a atribuição desse código.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BA60.9": {
+      "term_original": "choque",
+      "capitulo": "11",
+      "confidence_embedding": 0.7635,
+      "descricao_cid": "Representação de doença CID-11: Choque cardiogênico, não relacionado a complicações mecânicas, como complicação atual subsequente a infarto agudo do miocárdio. Definição: A expressão clínica mais grave da insuficiência ventricular esquerda e está associada a extensos danos ao miocárdio ventricular esquerdo após infarto agudo do miocárdio, não relacionado a um defeito mecânico como ruptura do septo ventricular ou do músculo papilar. Choque é definido como pressão arterial (PA) sistólica <90 mmHg e hipoperfusão de órgãos.",
+      "classification_reasoning": "A escolha do código BA60.9 é devido à presença de choque não especificado no contexto clínico, com pressão arterial sistólica (PA) <90 mmHg e hipoperfusão de órgãos, caracterizando um caso de choque cardiogênico não relacionado a complicações mecânicas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'choque' no prontuário não está relacionado ao choque cardiogênico descrito pelo código CID-11 BA60.9, que se refere a uma condição clínica específica de insuficiência ventricular esquerda após infarto agudo do miocárdio. No entanto, o prontuário apenas menciona um quadro de confusão mental e crise convulsiva generalizada, sem qualquer referência à doença cardíaca ou ao choque cardiogênico. Portanto, a escolha do código BA60.9 não é justificada clinicamente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A68.4": {
+      "term_original": "crise convulsiva generalizada",
+      "capitulo": "08",
+      "confidence_embedding": 0.7884,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica tônico-clônica generalizada. Definição: Crise epiléptica caracterizada por início abrupto com perda de consciência e extensão tônica bilateral do tronco e dos membros (fase tônica) seguida por espasmos musculares bruscos e descoordenados (fase clônica). Geralmente seguida por uma fase pós-ictal, com duração de vários minutos a horas, caracterizada por midríase inicial, relaxamento corporal, hipotonia e sono.",
+      "classification_reasoning": "A crise convulsiva generalizada descrita no prontuário apresenta características de uma crise epiléptica tônico-clônica generalizada, com início abrupto e perda de consciência, seguida por extensão tônica bilateral do tronco e dos membros e espasmos musculares bruscos e descoordenados. Essa descrição é mais compatível com a definição da crise epiléptica tônico-clônica generalizada do código 8A68.4.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A crise convulsiva generalizada descrita no prontuário não apresenta características de uma crise epiléptica tônico-clônica generalizada, como definida pelo código CID-11 8A68.4. A descrição do prontuário refere-se a uma crise convulsiva generalizada sem especificar se é de origem epiléptica ou não. Portanto, o código atribuído não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6E61.0": {
+      "term_original": "confusão mental",
+      "capitulo": "06",
+      "confidence_embedding": 0.8134,
+      "descricao_cid": "Representação de doença CID-11: Síndrome psicótica secundária com alucinações. Definição: Síndrome caracterizada pela presença de alucinações proeminentes, consideradas consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental, com base em evidências de anamnese, exame físico ou achados laboratoriais. Delírios não são um aspecto proeminente da apresentação clínica. Os sintomas não são explicados por delirium ou por outro transtorno mental e comportamental, e não são uma resposta psicologicamente mediada a uma condição médica grave (p. ex., uma reação aguda ao estresse em resposta ao diagnóstico de uma condição de ameaça à vida). Essa categoria deve ser utilizada em conjunto com o diagnóstico do transtorno ou doença subjacente presumido, quando os sintomas psicóticos são suficientemente graves para exigir atenção clínica específica.",
+      "classification_reasoning": "A confusão mental descrita no prontuário é um sintoma proeminente de uma síndrome psicótica secundária, caracterizada pela presença de alucinações. A falta de delírios e a apresentação clínica como uma crise convulsiva generalizada sugerem que o paciente tem alucinações proeminentes, justificando a escolha da opção 6E61.0.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A confusão mental descrita no prontuário não é uma síndrome psicótica secundária com alucinações, como sugerido pelo código CID-11 6E61.0. A falta de delírios e a apresentação clínica como uma crise convulsiva generalizada sugere que o paciente tem um quadro de confusão mental agudo, provavelmente relacionado à doença subjacente (pcte com RNM de crânio), em vez de alucinações proeminentes. Portanto, a escolha do código CID-11 6E61.0 não é justificada clinicamente.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MH10": {
+      "term_original": "intercorrências",
+      "capitulo": "21",
+      "confidence_embedding": 0.7533,
+      "descricao_cid": "Representação de doença CID-11: Morte cerebral. Definição: Coma apneico persistente devido à cessação irreversível das atividades do tronco encefálico, cerebelo e córtex cerebral observada clinicamente por ausência de abertura ou movimento ocular a estímulos nocivos; ausência de respostas motora e verbal; ausência de reflexos do tronco encefálico ou da coluna (corneano, tosse, vestíbulo-ocular e respiratório); ausência de atividade cerebral elétrica observada por EEG; ausência de fluxo sanguíneo cerebral visto por angiografia cerebral (convencional, RM, TC, Doppler) e ausência de atividade metabólica evidenciada por SPECT ou PET, com duração de mais de 24 horas, devida a lesão difusa irreversível do cérebro, não devida a hipotermia, medicamento sedativo, overdose de bloqueador neuromuscular ou anormalidade metabólica sem evidência de choque circulatório periférico.",
+      "classification_reasoning": "A presença de coma apneico persistente com ausência de respostas motora e verbal, assim como a falta de atividade cerebral elétrica observada por EEG, indica um quadro de morte cerebral. Além disso, o termo 'intercorrências' sugere que houve alguma complicação durante o procedimento, o que reforça a escolha do código MH10.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 MH10 'Morte cerebral' não se aplica ao paciente, pois o termo 'intercorrências' sugere que houve uma complicação durante o procedimento, mas não há evidência de morte cerebral. Além disso, a presença de quadro de confusão mental e crise convulsiva generalizada também não é compatível com o diagnóstico de morte cerebral.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

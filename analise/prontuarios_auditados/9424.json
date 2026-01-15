@@ -1,0 +1,201 @@
+{
+  "prontuario_id": 418,
+  "text": "LUCAS, 65 ANOS.  # COMORBIDADES: - HÉRNIA INGUINAL BILATERAL (CANCELADA CIRURGIA AGENDA POR HIPERTENSÃO DESCONTROLADA) - HAS,  - HPB, - COLECISTECTOMIA HÁ ANOS - NEGA ETILISMO / TABAGISMO - MUC: ATENOLOL 25MG 12/12 H; LOSARTANA 50MG 12/12 H; DOXAZOSINA 2MG /D  # S PACIENTE VEM PARA VERIFICAR CONTROLE DA PA + MOSTRAR LABORATORIAIS COLETADOS.  # O : BEG. PA BRAÇO DIREITO 180x100 / PA BRAÇO ESQ 170x90, FC 56, ACV RR 2T BNF, AP MVUD.  -> LABORATORIAIS 14/06: Cr 1,26 -> TFG CKD-EPI 59,5 ML/MIN, U 40;   Na 147; K 5,0; Glicemia de jejum 146  (glicemia de jejum prévia 05/2016: 140).  # A HAS SEM CONTROLE ADEQUADO, DM TIPO 2 SEM DX PRÉVIO.  # CD: INICIO METFORMINA 500MG 2 X/DIA, OTIMIZO TRATAMENTO ANTI-HAS: ACRESCENTO HIDROCLOROTIAZIDA 25MG /D, SOLICITO HBA1C. RETORNO EM 2 MESES.  R1D FLORENCE DR VITAL BRASIL.",
+  "entities": {
+    "Negação": [
+      "CANCELADA",
+      "NEGA",
+      "SEM"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CIRURGIA",
+      "COLECISTECTOMIA"
+    ],
+    "Abreviação": [
+      "HAS",
+      "HPB",
+      "MUC",
+      "S",
+      "O",
+      "BEG",
+      "PA",
+      "FC",
+      "ACV",
+      "AP",
+      "MVUD",
+      "CD",
+      "ANTI-HAS",
+      "HBA1C",
+      "BRAÇO ESQ",
+      "RR 2T BNF",
+      "Cr 1 , 26",
+      "U 40",
+      "Na 147",
+      "K 5 , 0",
+      "DM TIPO 2"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "HPB",
+      "ETILISMO",
+      "TABAGISMO",
+      "DM TIPO 2"
+    ],
+    "Substância Farmacológica": [
+      "MUC",
+      "ATENOLOL",
+      "LOSARTANA",
+      "DOXAZOSINA",
+      "METFORMINA",
+      "ANTI-HAS",
+      "HIDROCLOROTIAZIDA"
+    ],
+    "Substância Química Orgânica": [
+      "ATENOLOL",
+      "LOSARTANA",
+      "DOXAZOSINA",
+      "METFORMINA",
+      "HIDROCLOROTIAZIDA"
+    ],
+    "Achado": [
+      "S",
+      "BEG",
+      "MVUD",
+      "MOSTRAR LABORATORIAIS COLETADOS",
+      "RR 2T BNF",
+      "CONTROLE ADEQUADO"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "VERIFICAR",
+      "RETORNO"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC"
+    ],
+    "Função de Organismo": [
+      "PA"
+    ],
+    "Conceito Quantitativo": [
+      "180x100",
+      "170x90",
+      "56",
+      "2 X/DIA",
+      "25MG /D"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ACV",
+      "AP",
+      "BRAÇO DIREITO",
+      "BRAÇO ESQ"
+    ],
+    "Procedimento Laboratorial": [
+      "LABORATORIAIS",
+      "HBA1C",
+      "glicemia de jejum prévia"
+    ],
+    "Procedimento Diagnóstico": [
+      "DX"
+    ],
+    "Sinal ou Sintoma": [
+      "HIPERTENSÃO DESCONTROLADA"
+    ],
+    "Conceito Temporal": [
+      "12/12 H"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Cr 1 , 26",
+      "TFG CKD-EPI 59 , 5 ML/MIN",
+      "U 40",
+      "Na 147",
+      "K 5 , 0",
+      "Glicemia de jejum 146",
+      "glicemia de jejum prévia"
+    ]
+  },
+  "labels": {
+    "40.0": {
+      "term_original": "has",
+      "capitulo": "04",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha mais precisa para o termo 'has' é a Doença de Arterosclerose (Código CID-11: 4E01), pois Lucas tem história de Hipertensão Descontrolada e Doença Cardiaca, e também apresenta Insuficiência Cardíaca com fração coronária reduzida (FC 56%), o que é consistente com a presença de Arterosclerose.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11: 40.0 não é adequada pois 'has' refere-se à Doença de Arterosclerose, que não está claramente descrita no prontuário. A presença de Hipertensão Descontrolada e Insuficiência Cardíaca com fração coronária reduzida (FC 56%) é consistente com a presença de Arterosclerose, mas o termo 'has' não está diretamente relacionado à Doença de Arterosclerose. Além disso, o prontuário apresenta outras condições clínicas que também podem estar relacionadas à Doença de Arterosclerose, como a Hérnia Inguinal Bilateral e a Hipertensão Descontrolada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD52.71": {
+      "term_original": "beg",
+      "capitulo": "11",
+      "confidence_embedding": 0.7313,
+      "descricao_cid": "Representação de doença CID-11: Dilatação adquirida da aorta ascendente ou da raiz. Definição: Aumento do diâmetro luminal da aorta entre a junção ventrículo-aórtica e a origem do primeiro ramo braquiocefálico acima do limite superior do normal ajustado para o tamanho do corpo que se desenvolve após o nascimento",
+      "classification_reasoning": "A opção mais precisa para o termo 'beg' é a dilatação adquirida da aorta ascendente ou da raiz, pois o contexto clínico menciona pressão arterial (PA) no braço direito de 180x100 e no braço esquerdo de 170x90, o que sugere uma medida de PA arterial. Além disso, a opção BD52.71 é mais provável porque a dilatação da aorta ascendente ou da raiz não está relacionada às condições clínicas previamente descritas.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção BD52.71 para o termo 'beg' é justificada pela menção de pressão arterial (PA) no braço direito e esquerdo, o que sugere uma medida de PA arterial. Além disso, a dilatação adquirida da aorta ascendente ou da raiz não está relacionada às condições clínicas previamente descritas, como hipertensão descontrolada e doença cardiovascular. Portanto, a codificação CID-11 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MG71": {
+      "term_original": "mostrar laboratoriais coletados",
+      "capitulo": "21",
+      "confidence_embedding": 0.7014,
+      "descricao_cid": "Representação de doença CID-11: Resultados laboratoriais anormais, não classificados em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa é MG71, pois o termo 'mostrar laboratoriais coletados' se refere à apresentação de resultados de exames laboratoriais realizados no paciente. Isso está relacionado ao capítulo CID-11 (21) e às informações fornecidas sobre o controle da pressão arterial e os resultados de testes de urina, glícemia e other labores.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'mostrar laboratoriais coletados' se refere à apresentação de resultados de exames laboratoriais realizados no paciente, o que está diretamente relacionado ao código CID-11 MG71. A descrição do código também se alinha com as informações fornecidas sobre o controle da pressão arterial e os resultados de testes de urina, glícemia e outros laboratórios.",
+      "tipo_erro_auditoria": null
+    },
+    "RR 2T BNF": {
+      "term_original": "rr 2t bnf",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A presença de RR 2T BNF no prontuário sugere a ocorrência de uma síndrome de retinopatia diabética, caracterizada por hemorragias retinianas. Isso é consistente com as comorbidades presentes no paciente (HÉRNIA INGUINAL BILATERAL e HAS SEM CONTROLE ADEQUADO), bem como a presença de doença cardiovascular (PA BRAÇO DIREITO 180x100 / PA BRAÇO ESQ 170x90) e diabetes melito (Glicemia de jejum 146).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'RR 2T BNF' no prontuário não é uma condição clínica diretamente relacionada à síndrome de retinopatia diabética. O termo parece ser um registro de resultado laboratorial (R1D FLORENCE DR VITAL BRASIL) e não uma condição médica. Portanto, o código CID-11 atribuído não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5B5A.0": {
+      "term_original": "dm tipo 2",
+      "capitulo": "05",
+      "confidence_embedding": 0.752,
+      "descricao_cid": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina.",
+      "classification_reasoning": "A escolha é pela deficiência de tiamina (beribéri), pois há referência a controle de pressão arterial e um histórico de colecoleistectomia, o que sugere possibilidade de déficit vitamínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 '5B5A.0' (Beribéri) não é justificada pela presença de DM tipo 2 no prontuário, pois a deficiência de tiamina (beribéri) não está relacionada à diabetes mellitus. Além disso, o prontuário apresenta uma história de comorbidades e doenças crônicas, como hipertensão descontrolada e colecoleistectomia, que justificam a presença da DM tipo 2. Portanto, é necessário remover esse código e substituí-lo por um mais adequado à condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD10": {
+      "term_original": "hipertensão descontrolada",
+      "capitulo": "11",
+      "confidence_embedding": 0.7249,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos.",
+      "classification_reasoning": "A hipertensão descontrolada está relacionada à insuficiência cardíaca congestiva, que é caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipertensão descontrolada não é uma representação de doença CID-11 que caracteriza a insuficiência cardíaca congestiva. A hipertensão descontrolada é um sintoma, e não uma condição clínica diretamente relacionada à insuficiência cardíaca congestiva. Portanto, o código CID-11 atribuído (BD10) não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "DB60.0": {
+      "term_original": "hpb",
+      "capitulo": "13",
+      "confidence_embedding": 0.7231,
+      "descricao_cid": "Representação de doença CID-11: Hemorroidas de primeiro grau. Definição: (grau I): as hemorroidas de primeiro grau se projetam para o canal anal e às vezes sangram, mas não prolapsam pelo ânus.",
+      "classification_reasoning": "A paciente apresenta histórico de hérnia inguinal bilateral, o termo 'HBP' é provável referir-se a hérnia perianal, uma lesão comum relacionada ao processo anormal do canal anal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'HBP' não se refere a hemorroidas, mas sim à hérnia perianal. Embora seja uma lesão relacionada ao processo anormal do canal anal, não há relação direta com a representação de doença CID-11 DB60.0, que se refere a hemorroidas de primeiro grau.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD75.3": {
+      "term_original": "mvud",
+      "capitulo": "11",
+      "confidence_embedding": 0.7191,
+      "descricao_cid": "Representação de doença CID-11: Varizes pélvicas. Definição: Presença de veias ovarianas e pélvicas dilatadas e incompetentes em mulheres. Elas podem não causar sintomas, mas podem estar associados à dor pélvica crônica (síndrome da congestão pélvica) ou a varicosidades vulvovaginais externamente aparentes.",
+      "classification_reasoning": "A opção mais precisa é BD75.3 Varizes pélvicas, pois o termo 'mvud' parece estar relacionado à avaliação de pacientes com doenças cardíacas e vasculares. A presença de varizes pélvicas é uma condição clínica comum em pacientes com doenças cardiovasculares crônicas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BD75.3 Varizes pélvicas não está clinicamente coerente com o prontuário, pois 'mvud' não é uma condição clínica relacionada a varizes pélvicas. O termo 'mvud' parece estar relacionado à avaliação de pacientes com doenças cardíacas e vasculares, como mencionado no sistema. Portanto, a classificação BD75.3 Varizes pélvicas é uma sobreclassificação e não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

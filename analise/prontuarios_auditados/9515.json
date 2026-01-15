@@ -1,0 +1,117 @@
+{
+  "prontuario_id": 829,
+  "text": "Candidata a transplante renal ;\nIRC idiopático; 18 meses, HD neste periodo;\nAnurica no periodo; \nSem queixas miccionais prévias; \nNega hematuria, nega ITU ou litíase renal; \nHMP: Fundoplicatura gastrica, septoplastia, mamoplastia; Hx de trombose de perna a D; \nTraz exames : \nHt: 44%; cultura negativa; \nP # US + doppler;\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Candidata"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "HD",
+      "septoplastia",
+      "mamoplastia",
+      "transplante renal",
+      "Fundoplicatura gastrica"
+    ],
+    "Abreviação": [
+      "HD",
+      "ITU",
+      "P",
+      "US",
+      "IRC idiopático"
+    ],
+    "Conceito Temporal": [
+      "periodo",
+      "prévias"
+    ],
+    "Negação": [
+      "Anurica",
+      "Sem",
+      "Nega",
+      "nega"
+    ],
+    "Sinal ou Sintoma": [
+      "Anurica",
+      "hematuria",
+      "queixas miccionais"
+    ],
+    "Doença ou Síndrome": [
+      "ITU",
+      "trombose",
+      "IRC idiopático",
+      "litíase renal"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "perna"
+    ],
+    "Conceito Espacial": [
+      "D"
+    ],
+    "Procedimento Laboratorial": [
+      "exames"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "exames",
+      "Ht : 44%",
+      "cultura negativa"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "P"
+    ],
+    "Procedimento Diagnóstico": [
+      "US",
+      "doppler"
+    ]
+  },
+  "labels": {
+    "BC80": {
+      "term_original": "irc idiopático",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'irc idiopático' é a doença renal intersticial crônica (IRC), que não tem correlação com as outras opções apresentadas. A IRC é uma doença renal crônica caracterizada por inflamação e fibrose nos interstícios renais, frequentemente associada à doença renal hipertensiva.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção BC80 (Doença renal intersticial crônica) é a mais precisa para o termo 'IRC idiopático' descrito no prontuário, pois IRC é uma doença renal crônica caracterizada por inflamação e fibrose nos interstícios renais. A descrição do prontuário não apresenta contradições óbvias ou associações puramente imaginárias. Portanto, o código CID-11 BC80 representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "GB70.00": {
+      "term_original": "litíase renal",
+      "capitulo": "16",
+      "confidence_embedding": 0.7914,
+      "descricao_cid": "Representação de doença CID-11: Cálculo de Staghorn. Definição: Condição do rim, caracterizada por cálculos grandes, ramificados, de estruvita ou de carbonato de cálcio apatita dentro da pelve renal e se estendendo para uma ou mais extensões caliciais, e febre, hematúria ou dor em flanco, levando à insuficiência renal e sepse com risco de vida. Essa condição pode estar associada a infecção do trato urinário. A confirmação é feita por exame de imagem da região abdominal.",
+      "classification_reasoning": "A escolha pela opção GB70.00 é porque o termo 'litíase renal' refere-se à formação de cálculos nos rins, o que é confirmado pelo exame de imagem da região abdominal mencionado no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'litíase renal' refere-se à formação de cálculos nos rins, mas o código CID-11 GB70.00 se refere a uma condição específica de cálculo de Staghorn, que não é mencionada no prontuário. Além disso, o prontuário não apresenta sintomas ou achados compatíveis com essa condição. Portanto, a escolha do código CID-11 GB70.00 não é clínica e coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NF0A.2": {
+      "term_original": "trombose",
+      "capitulo": "22",
+      "confidence_embedding": 0.7031,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia traumática secundária ou recorrente, não classificada em outra parte. Definição: ",
+      "classification_reasoning": "A trombose de perna a D mencionada no contexto clínico é uma forma de hemorragia traumática secundária ou recorrente, justificando a escolha do código NF0A.2.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A trombose de perna a D mencionada no prontuário não é uma forma de hemorragia traumática secundária ou recorrente. A trombose é um fenômeno de coagulação sanguínea, enquanto a hemorragia é o fluxo de sangue fora do sistema vascular normal. Portanto, o código NF0A.2 não representa fielmente o termo 'trombose' e deve ser removido.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF96": {
+      "term_original": "queixas miccionais",
+      "capitulo": "21",
+      "confidence_embedding": 0.7547,
+      "descricao_cid": "Representação de doença CID-11: Proteinúria. Definição: O excesso de proteínas séricas na urina, como na doença renal, em que a albumina é a proteína principal, porém também pode ser devido a outras proteínas, como imunoglobulinas de cadeias leves na discrasia de células plasmáticas como o mieloma múltiplo.",
+      "classification_reasoning": "A opção mais precisa para o termo 'queixas miccionais' é MF96, que representa Proteinúria. A paciente não apresenta nenhuma queixa de dor ou sensação de pressão no abdome, nem há sintomas como náuseas e vômitos, que são comuns em casos de cólica renal (MF56). Além disso, a paciente não tem hematúria macroscópica ou microscópica (MF50.4) nem poliúria (MF55), tampouco apresenta hipoplasia renal (MF54.2). Portanto, a escolha mais adequada é Proteinúria.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'queixas miccionais' não se refere a Proteinúria, mas sim à presença de sintomas relacionados à função renal. A paciente apresenta anuria no período, o que sugere uma lesão renal significativa. Portanto, a escolha do código MF96 (Proteinúria) não é clínica ou coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GB40": {
+      "term_original": "itu",
+      "capitulo": "16",
+      "confidence_embedding": 0.7333,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A opção mais precisa é a Síndrome nefrítica (Código GB40), pois o termo 'ITU' refere-se às manifestações de insuficiência tubular renal, que são características da síndrome nefrítica. Além disso, não há evidências de cálculo renalcido ou doença poliquística nos sintomas apresentados.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa é a Síndrome nefrítica (Código GB40), pois o termo 'ITU' refere-se às manifestações de insuficiência tubular renal, que são características da síndrome nefrítica. No entanto, ao analisar o prontuário, não há evidências de insuficiência tubular renal ou doença poliquística. Além disso, a paciente apresenta IRC idiopático e anúria no período, o que sugere uma lesão glomerular mais do que tubular. Portanto, a codificação CID-11 GB40 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

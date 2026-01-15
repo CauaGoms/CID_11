@@ -1,0 +1,119 @@
+{
+  "prontuario_id": 255,
+  "text": "11:30 HS. CONSCIENTE. COMUNICATIVO. EUPNEICO. EM REPOISO NO LEITO. SSVV ESTÁVEIS. ACEITA BEM A DIETA OFERECIDA. CATETER VENOSO PERIFÉRICO EM MSD COM SOROTERAPIA EM CURSO. DIURESE ESPONTÂNEA PRESENTE. NÃO REFERE ALGIA ATE O MOMENTO. RECEBO GUIA COM SOLICITAÇÃO DE RNM DE COLUNA LOMBAR. CONVERSO COM Doutor Vital Brazil BRANDÃO E EXPLICO A IMPOSSIBILIDADE DA REALIZAÇÃO DO EXAME HOJE DEVIDO A NÃO LIBERAÇÃO DA GUIA E O FATO DO PACIENTE NÃO TRABALHAR COM CHEQUE. PASSO EM PLANTÃO PARA A LIBERAÇÃO DA GUIA PARA O AGENDAMENTO DO EXAME O QUANTO ANTES. Enfermeira Florence Nightingale ) DOR LOMBAR BAIXA",
+  "entities": {
+    "Achado": [
+      "CONSCIENTE",
+      "COMUNICATIVO",
+      "EUPNEICO",
+      "REPOISO NO LEITO",
+      "SSVV ESTÁVEIS",
+      "ACEITA BEM A DIETA",
+      "DIURESE ESPONTÂNEA PRESENTE"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD"
+    ],
+    "Abreviação": [
+      "MSD",
+      "SSVV ESTÁVEIS",
+      "RNM DE COLUNA LOMBAR"
+    ],
+    "Negação": [
+      "NÃO"
+    ],
+    "Sinal ou Sintoma": [
+      "ALGIA",
+      "DOR LOMBAR BAIXA"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAME",
+      "RNM DE COLUNA LOMBAR"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Organização Relacionada à Saúde": [
+      "PLANTÃO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "AGENDAMENTO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "REPOISO NO LEITO",
+      "CATETER VENOSO PERIFÉRICO",
+      "SOROTERAPIA EM CURSO"
+    ],
+    "Dispositivo Médico": [
+      "CATETER VENOSO PERIFÉRICO"
+    ],
+    "Função Fisiológica": [
+      "DIURESE ESPONTÂNEA PRESENTE"
+    ]
+  },
+  "labels": {
+    "Z93.5": {
+      "term_original": "repoiso no leito",
+      "capitulo": "18",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'repoiso no leito' indica que o paciente está em repouso e não apresenta sintomas de dor, sugerindo que a condição clínica é relacionada ao estado geral do paciente e não à presença de doença específica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'repoiso no leito' não representa uma condição clínica específica, mas sim um estado geral do paciente. A codificação CID-11 Z93.5 é muito específica e não se aplica ao contexto descrito no prontuário. Além disso, a justificativa do sistema também não condiz com o termo extraído.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C40.3": {
+      "term_original": "comunicativo",
+      "capitulo": "06",
+      "confidence_embedding": 0.7893,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas.",
+      "classification_reasoning": "O termo 'comunicativo' sugere que o paciente tem capacidade de comunicação adequada, o que é coerente com a definição de intoxicação por álcool (CID-11 6C40.3). Além disso, a presença de alucinações e delírios não está descrita no contexto do prontuário, reforçando a escolha da abordagem mais precisa.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'comunicativo' não está relacionado à intoxicação por álcool (CID-11 6C40.3), que é uma condição transitória clinicamente significativa caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. O paciente está consciente e comunicativo, o que não se encaixa na definição da intoxicação por álcool. Portanto, a codificação CID-11 6C40.3 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6e+61": {
+      "term_original": "consciente",
+      "capitulo": "06",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A presença de 'consciente' no contexto indica que o paciente tem consciência plena e não apresenta alterações significativas em sua percepção do mundo, o que é consistente com a definição de síndrome psicótica secundária. Além disso, a falta de outras informações sugerindo intoxicação por substâncias ou outro quadro patológico faz da opção 6E61 a mais precisa.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'consciente' não representa uma condição clínica diretamente relacionada à dor lombar baixa descrita no prontuário. A presença de consciência plena do paciente não está relacionada ao quadro de dor lombar, o que sugere que a opção 6E61 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A64": {
+      "term_original": "dor lombar baixa",
+      "capitulo": "08",
+      "confidence_embedding": 0.7503,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo.",
+      "classification_reasoning": "A dor lombar baixa pode ser uma manifestação de crises epilépticas únicas, que podem ser desencadeadas por causas remotas, como mencionado no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor lombar baixa não é uma representação de doença CID-11 Crise epiléptica única devida a causas remotas. A descrição do código CID-11 8A64 refere-se a uma convulsão não provocada, enquanto a dor lombar baixa é um sintoma comum e pode ter várias causas. Portanto, a codificação não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MC322.A1": {
+      "term_original": "algia",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha foi feita considerando que o termo 'algia' se refere a dor ou desconforto físico. No contexto, o paciente apresenta dor lombática baixa (DOR LOMBAR BAIXA), portanto, a opção mais precisa é a representação de doença CID-11 para Dor ou desconforto físico, especificamente Dor lombar.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código CID-11 MC322.A1 é justificada, pois o termo 'algia' se refere a dor ou desconforto físico, e no contexto do prontuário, o paciente apresenta dor lombática baixa. A codificação está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "7A42.4": {
+      "term_original": "eupneico",
+      "capitulo": "07",
+      "confidence_embedding": 0.7771,
+      "descricao_cid": "Representação de doença CID-11: Hipoventilação relacionada ao sono devida a medicamento ou substância. Definição: Hipoventilação relacionada ao sono devida a medicamento ou substância química é caracterizada primariamente por hipoventilação e hipercapnia crônicas devidas ao uso prolongado de medicamentos ou substâncias químicas conhecidas por deprimirem o drive respiratório e/ou comprometer a mecânica dos músculos respiratórios (p.ex. narcóticos de longa ação, anestésicos, sedativos e relaxantes musculares). Hipoxemia está usualmente também presente. Hipercapnia pode também estar presente durante a vigília em alguns pacientes. Os pacientes podem ser assintomáticos ou se queixar de dispneia, opressão torácica ou fadiga.\r\n\r\nNota: O diagnóstico definitivo requer evidência objetiva baseada em polissonografia com monitorização do dióxido de carbono (CO2) (por medidas arterial, tidal final ou transcutânea) no contexto de uso de substâncias consideradas causadoras dos sintomas.",
+      "classification_reasoning": "O termo 'eupneico' refere-se a uma respiração normal e regular, o que sugere a presença de hipoventilação relacionada ao sono devida a medicamento ou substância (CID-11 7A42.4).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'eupneico' refere-se a uma respiração normal e regular, mas o código CID-11 7A42.4 se refere especificamente a hipoventilação relacionada ao sono devida a medicamento ou substância. A classificação é muito geral e não há evidência clínica no prontuário que justifique essa associação.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

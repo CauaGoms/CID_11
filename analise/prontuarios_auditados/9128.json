@@ -1,0 +1,84 @@
+{
+  "prontuario_id": 252,
+  "text": "sopro no coraçao. pai iam aos 59 a, DM há 10 a.\nnega HAS, DLP.\nnega iam. \nnega cat previo.\nEx-tabagista, parou há 15 a.\nfaz uso de metformina, glibenclamida, atenolol, sinvastatina.  ",
+  "entities": {
+    "Grupo Familiar": [
+      "pai"
+    ],
+    "Doença ou Síndrome": [
+      "iam",
+      "DM",
+      "HAS",
+      "DLP"
+    ],
+    "Abreviação": [
+      "iam",
+      "DM",
+      "HAS",
+      "DLP",
+      "59 a",
+      "10 a",
+      "15 a"
+    ],
+    "Negação": [
+      "nega"
+    ],
+    "Procedimento Diagnóstico": [
+      "cat"
+    ],
+    "Achado": [
+      "Ex-tabagista"
+    ],
+    "Substância Farmacológica": [
+      "metformina",
+      "glibenclamida",
+      "atenolol",
+      "sinvastatina"
+    ],
+    "Sinal ou Sintoma": [
+      "sopro no coraçao"
+    ],
+    "Conceito Temporal": [
+      "59 a",
+      "10 a",
+      "15 a"
+    ],
+    "Conceito Quantitativo": [
+      "59 a",
+      "10 a",
+      "15 a"
+    ]
+  },
+  "labels": {
+    "QE13": {
+      "term_original": "ex-tabagista",
+      "capitulo": "24",
+      "confidence_embedding": 0.6968,
+      "descricao_cid": "Representação de doença CID-11: Uso do tabaco. Definição: ",
+      "classification_reasoning": "O paciente foi classificado como ex-tabagista, o que significa que parou de fumar há 15 anos. Isso justifica a escolha do código QE13, que representa 'Uso do tabaco' e não está relacionado ao reabilitação por tabagismo (QB95.8), história pessoal de uso de anticoagulantes (QC48.0) ou outro contato com serviços de saúde para reprodução medicamente assistida (QA30.Y/QA30.02).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'ex-tabagista' não representa diretamente o uso do tabaco, mas sim a história de uso e parada de fumar há 15 anos. A escolha do código QE13 é uma abstração excessiva, pois não está relacionado à condição clínica descrita no prontuário. Além disso, a justificativa do sistema não apresenta uma lógica clínica convincente para justificar a escolha desse código.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC81.32": {
+      "term_original": "sopro no coração",
+      "capitulo": "11",
+      "confidence_embedding": 0.7097,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial permanente. Definição: Termo usado para identificar indivíduos com FA persistente em que foi tomada a decisão de não mais seguir uma estratégia de controle do ritmo, ou em que a cardioversão falhou ou não foi tentada.",
+      "classification_reasoning": "A opção mais precisa é a Fibrilação Atrial Permanente (BC81.32) porque o termo 'sopro no coração' sugere uma disritmia cardíaca, e embora haja outras opções que possam estar relacionadas à doença cardíaca, a Fibrilação Atrial é um sintoma comum em pacientes com cardiopatias.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'sopro no coração' não é suficientemente específico para justificar a codificação de Fibrilação Atrial Permanente (BC81.32). Embora a fibrilação atrial possa ser uma causa comum de sopro cardíaco, a falta de informações sobre o contexto clínico e a história do paciente não permite uma conclusão definitiva sobre a natureza da disritmia cardíaca. Além disso, a presença de doenças cardiovasculares pré-existentes (DM há 10 anos) e a medicação para controle da pressão arterial e da glicemia podem ter influenciado o sintoma do sopro no coração.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BD10": {
+      "term_original": "dm",
+      "capitulo": "11",
+      "confidence_embedding": 0.7294,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos.",
+      "classification_reasoning": "A presença de DM há 10 anos e uso de medicamentos como metformina, glibenclamida e atenolol apontam para uma insuficiência cardíaca congestiva, considerando a história de sopro no coração do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de sopro no coração e história de DM há 10 anos não é suficiente para justificar a classificação de Insuficiência cardíaca congestiva (BD10). A falta de sintomas de insuficiência cardíaca congestiva, como edema, dispneia e fadiga, e a ausência de evidências de anormalidades da função ventricular e regulação neuro-hormonal no prontuário, levam à conclusão que o código CID-11 não representa fielmente a condição clínica descrita.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

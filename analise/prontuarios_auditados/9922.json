@@ -1,0 +1,168 @@
+{
+  "prontuario_id": 520,
+  "text": "Lucas, 52\n\nQP: PACIENTE RELATA BAV PARA PERTO, GRADUAL E PROGRESSIVA. FAZ USO DE ÓCULOS PARA PERTO E LONGE. \nNEGA OUTRAS QUEIXAS.\nNEGA USO DE COLIRIO.\n\nHMP: NEGA COMORBIDADES.\nNEGA CX OU TRAUMA OCULAR PRÉVIO.\n\nHF. NEGA FAMILIARES COM GLAUCOMA OU CEGUEIRA.\n\nÓCULOS\tOD +2,50 -1,00 110\n\t        OE +2,25 ESF\n\t        AD +2,25\n\nAVSC AO 20/20\n\nAVCC J1\n\nTOL\tOD +2,50 -1,00 110 / 20/20\n\tOE +2,25 ESF // 20/20\n\tAD +2,25 / J1\n\nBIO\tAO CA CALMA E FORMADA, PUPILAS FR, BUT <5S\n\nPIO\t12/12\n\nFO\tAO PAPILA E MÁCULA NORMAIS\n\nCD\nNÃO PRESCREVO ÓCULOS.\nPRESCREVO LACRIFILM\nORIENTO IR AO HUC SE ALTERAÇÃO AGUDA DA VISAO.\nORIENTO RETORNO ANUAL VIA UBS.\n\nR1 Doutor Vital Brazil\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Sinal ou Sintoma": [
+      "BAV",
+      "QUEIXAS"
+    ],
+    "Abreviação": [
+      "BAV",
+      "CX",
+      "OD",
+      "OE",
+      "AVSC",
+      "AO",
+      "AVCC",
+      "J1",
+      "TOL",
+      "BIO",
+      "FR",
+      "BUT",
+      "&lt;5S",
+      "PIO",
+      "FO",
+      "CD",
+      "UBS",
+      "R1",
+      "CA CALMA E FORMADA"
+    ],
+    "Conceito Qualitativo": [
+      "GRADUAL",
+      "PROGRESSIVA"
+    ],
+    "Dispositivo Médico": [
+      "ÓCULOS",
+      "PRESCREVO ÓCULOS"
+    ],
+    "Negação": [
+      "NEGA",
+      "NÃO"
+    ],
+    "Substância Farmacológica": [
+      "COLIRIO",
+      "LACRIFILM"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CX"
+    ],
+    "Grupo Familiar": [
+      "FAMILIARES"
+    ],
+    "Doença ou Síndrome": [
+      "GLAUCOMA"
+    ],
+    "Achado": [
+      "CEGUEIRA",
+      "FR"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "OD",
+      "OE",
+      "AO",
+      "PUPILAS"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ESF",
+      "12/12",
+      "CA CALMA E FORMADA",
+      "PAPILA E MÁCULA NORMAIS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "AD",
+      "CD",
+      "PRESCREVO",
+      "ORIENTO",
+      "RETORNO",
+      "PRESCREVO ÓCULOS"
+    ],
+    "Procedimento Diagnóstico": [
+      "AVSC",
+      "AVCC",
+      "TOL",
+      "BIO",
+      "BUT",
+      "PIO",
+      "FO"
+    ],
+    "Atributo Clínico": [
+      "AVSC",
+      "AVCC"
+    ],
+    "Conceito Quantitativo": [
+      "20/20",
+      "&lt;5S",
+      "+2 , 50 -1 , 00 110",
+      "+2 , 50 -1 , 00 110 / 20/20",
+      "+2 , 25"
+    ],
+    "Conceito Temporal": [
+      "ANUAL"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UBS"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "R1",
+      "Doutor"
+    ],
+    "Lesão ou Envenenamento": [
+      "TRAUMA OCULAR"
+    ]
+  },
+  "labels": {
+    "9A94.1": {
+      "term_original": "bav",
+      "capitulo": "09",
+      "confidence_embedding": 0.7798,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso.",
+      "classification_reasoning": "A síndrome da íris flácida é a mais precisa opção para o termo 'bav' no contexto clínico, pois apresenta sintomas de representação de doença, como bav para perto e gradualmente progressiva, compatível com a descrição da síndrome. Além disso, a presença de óculos para perto e longe pode estar relacionada à alteração visual e ao distúrbio da íris flácida.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A síndrome da íris flácida não é mencionada no prontuário e a descrição do termo 'bav' não apresenta características clínicas compatíveis com essa condição. A presença de óculos para perto e longe pode estar relacionada à alteração visual, mas não há evidência clínica suficiente para justificar a atribuição do código CID-11 9A94.1. Portanto, o código CID-11 atribuído é considerado inválido.",
+      "tipo_erro_auditoria": null
+    },
+    "NA06.82": {
+      "term_original": "trauma ocular",
+      "capitulo": "22",
+      "confidence_embedding": 0.7555,
+      "descricao_cid": "Representação de doença CID-11: Trauma ocular fechado, unilateral. Definição: ",
+      "classification_reasoning": "A descrição do termo extraído 'trauma ocular' sugere que o paciente sofreu um dano ao olho, especificamente um trauma fechado e unilateral (somente um olho afetado). A opção mais precisa para este contexto é NA06.82, que se refere a um trauma ocular fechado, unilateral.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'trauma ocular' é negado pelo paciente, que não apresenta histórico de trauma ocular prévio. Além disso, o prontuário não descreve nenhum sintoma ou achado clínico que sugira um dano ao olho. Portanto, a codificação CID-11 NA06.82 não é justificada clinicamente.",
+      "tipo_erro_auditoria": "negated_finding"
+    },
+    "9C61.25": {
+      "term_original": "cegueira",
+      "capitulo": "09",
+      "confidence_embedding": 0.7611,
+      "descricao_cid": "Representação de doença CID-11: Crise glaucomatociclítica. Definição: Crise glaucomatociclítica apresenta-se com precipitados ceráticos leves e flare do aquoso, elevação aguda da pressão intraocular e dano ao nervo óptico quando ataques repetidos ocorrem.",
+      "classification_reasoning": "A crise glaucomatociclítica foi escolhida porque o paciente relata bav para pé, gradual e progressiva, o que pode ser sinal de uma pressão intraocular elevada, e a paciente nega outras queixas e uso de colírio. Além disso, não há indicação de comorbidades ou trauma ocular prévio.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A crise glaucomatociclítica é uma condição que apresenta sintomas como pressão intraocular elevada e dano ao nervo óptico, o que não está presente no prontuário. O paciente relata bav para pé, gradual e progressiva, mas isso não é suficiente para justificar a escolha desse código CID. Além disso, a falta de comorbidades ou trauma ocular prévio não é um indicador de crise glaucomatociclítica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MC20.2": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7331,
+      "descricao_cid": "Representação de doença CID-11: Hipópio. Definição: Hipópio é a presença de células inflamatórias na câmara anterior do olho. Corresponde a um exsudato leucocitário, observado na câmara anterior, geralmente acompanhado de hiperemia de conjuntiva e episclera subjacente. É um sinal de inflamação da úvea anterior e da íris, ou seja, irite, que é uma forma de uveíte anterior. O exsudado deposita-se no fundo devido à ação da gravidade.",
+      "classification_reasoning": "A queixa do paciente de bav para perto, gradual e progressiva, faz-se necessária a consideração da hipópio como uma possibilidade diagnóstica. A presença de células inflamatórias na câmara anterior do olho é um sintoma característico desta condição.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa do paciente de bav para perto, gradual e progressiva pode ser um sintoma de várias condições oculares, mas não há evidência clínica suficiente no prontuário para sustentar a hipótese de hipópio. A presença de células inflamatórias na câmara anterior do olho é característica da hipópio, mas essa condição não está relacionada às queixas descritas pelo paciente.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "9C61.0": {
+      "term_original": "glaucoma",
+      "capitulo": "09",
+      "confidence_embedding": 0.7915,
+      "descricao_cid": "Representação de doença CID-11: Glaucoma primário de ângulo aberto. Definição: Glaucoma primário de ângulo aberto é uma neuropatia óptica progressiva crônica com alterações morfológicas características na cabeça do nervo óptico e na camada de fibras nervosas da retina na ausência de outra doença ocular ou anomalias congênitas. A morte progressiva de células ganglionares retinianas e a perda de campo visual estão associados a essas alterações. A aparência do ângulo da câmara anterior é normal e os fatores de risco mais importantes incluem o valor da pressão intraocular e a idade avançada.",
+      "classification_reasoning": "A descrição do glaucoma primário de ângulo aberto coincide com o contexto clínico, pois não há referência a traumatismo ocular ou cirurgia em que células epiteliais ganham acesso à câmara anterior. Além disso, não há menção a outros fatores de risco mencionados na definição do glaucoma primário de ângulo aberto.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A justificativa do sistema afirma que a descrição do glaucoma primário de ângulo aberto coincide com o contexto clínico, pois não há referência a traumatismo ocular ou cirurgia em que células epiteliais ganham acesso à câmara anterior. No entanto, o prontuário informa que o paciente nega familiares com glaucoma ou cegueira (HF). Isso contradiz a definição do glaucoma primário de ângulo aberto, que não menciona a presença de doenças familiares como um fator de risco. Portanto, é necessário remover o código CID-11 atribuído.",
+      "tipo_erro_auditoria": "family_history_misread"
+    }
+  }
+}

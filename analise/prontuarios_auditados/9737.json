@@ -1,0 +1,134 @@
+{
+  "prontuario_id": 718,
+  "text": "LUCAS, 69 A.\nVALVOPLASTIA AORTICA 2008,\nFLUTTER DESDE 16/08/13;\nEM USO DE : MAREVAN, CARVEDILOL 12,5 MG 2X D, ATORVASTATINA 20MG 2X/NOITE, DIGOXINA 0,25MG 1X/DIA.\n\nS: QUEIXA-SE CEFALEIA HOLOCRANIANA.\nNEGA PALPITACOES OU OUTROS SINTOMAS, NEGA SINCOPES.\n\n\nO:\nfc: 56 BPM,\nPA 130X80, \nBC ARRITMICAS HIPOFONETICAS.\n\n\nA:\nFLUTTER + ESV? \nSINUSAL + ESV?\n\nP: MATENHO CONDUTA.\n \n \n \n ",
+  "entities": {
+    "Função Patológica": [
+      "FLUTTER"
+    ],
+    "Substância Farmacológica": [
+      "MAREVAN",
+      "CARVEDILOL",
+      "ATORVASTATINA",
+      "DIGOXINA"
+    ],
+    "Substância Química Orgânica": [
+      "MAREVAN",
+      "CARVEDILOL",
+      "ATORVASTATINA",
+      "DIGOXINA"
+    ],
+    "Conceito Quantitativo": [
+      "20MG",
+      "130X80",
+      "12 , 5 MG",
+      "0 , 25MG",
+      "56 BPM"
+    ],
+    "Conceito Temporal": [
+      "2X/NOITE",
+      "1X/DIA",
+      "2X D"
+    ],
+    "Achado": [
+      "S",
+      "SINUSAL",
+      "VALVOPLASTIA AORTICA"
+    ],
+    "Abreviação": [
+      "S",
+      "O",
+      "fc",
+      "PA",
+      "BC",
+      "A",
+      "ESV",
+      "P"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXA-SE",
+      "PALPITACOES",
+      "SINTOMAS",
+      "SINCOPES",
+      "ARRITMICAS HIPOFONETICAS"
+    ],
+    "Negação": [
+      "NEGA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O",
+      "MATENHO CONDUTA"
+    ],
+    "Atributo Clínico": [
+      "fc",
+      "PA",
+      "BC"
+    ],
+    "Procedimento Diagnóstico": [
+      "A"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ESV"
+    ],
+    "Produto Intelectual": [
+      "P"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "VALVOPLASTIA AORTICA"
+    ],
+    "Doença ou Síndrome": [
+      "CEFALEIA HOLOCRANIANA"
+    ]
+  },
+  "labels": {
+    "BC61": {
+      "term_original": "flutter",
+      "capitulo": "11",
+      "confidence_embedding": 0.7626,
+      "descricao_cid": "Representação de doença CID-11: Despolarização juncional prematura. Definição: Despolarização elétrica cardíaca originando-se do nó atrioventricular compacto ou feixe de His, ocorrendo antes do batimento sinusal esperado.",
+      "classification_reasoning": "A opção mais precisa para o termo 'flutter' no contexto clínico é a Despolarização juncional prematura (Código BC61), pois o paciente apresenta um flutter desde 16/08/13, o que sugere uma atividade elétrica pré-mature no nó atrioventricular compacto ou feixe de His.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'flutter' no contexto clínico é a Despolarização juncional prematura (Código BC61), pois o paciente apresenta um flutter desde 16/08/13, o que sugere uma atividade elétrica pré-mature no nó atrioventricular compacto ou feixe de His. A descrição do prontuário é clara e não há contradições óbvias, portanto, a codificação CID-11 BC61 é válida.",
+      "tipo_erro_auditoria": null
+    },
+    "MG24.7": {
+      "term_original": "sintomas",
+      "capitulo": "21",
+      "confidence_embedding": 0.6858,
+      "descricao_cid": "Representação de doença CID-11: Medo de doença cardiovascular. Definição: ",
+      "classification_reasoning": "A queixa do paciente é de cefaleia holocrâniana, o que sugere um sintoma psicovascoativo ou emocional mais do que uma manifestação orgânica direta. Além disso, não há outros sintomas cardíacos mencionados na história clínica, exceto pelo flutter. Isso faz com que a escolha mais precisa seja o código MG24.7 para Medo de doença cardiovascular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa do paciente é de cefaleia holocrâniana, mas o código CID-11 atribuído (MG24.7) representa Medo de doença cardiovascular, o que não está clinicamente coerente com a descrição do prontuário. A cefaleia holocrâniana pode ser um sintoma relacionado à valvoplastia aortica ou ao flutter, portanto, é mais provável que a condição seja uma manifestação orgânica direta e não um medo de doença cardiovascular.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "6D85.6": {
+      "term_original": "cefaleia holocraniana",
+      "capitulo": "06",
+      "confidence_embedding": 0.7085,
+      "descricao_cid": "Representação de doença CID-11: Demência devida à hidrocefalia de pressão normal. Definição: Demência devida à hidrocefalia de pressão normal resulta do acúmulo excessivo de líquido cefalorraquidiano no cérebro, como resultado de causas idiopáticas não obstrutivas, mas também pode ser secundário a hemorragia, infecção ou inflamação. A progressão é gradativa, mas a intervenção (p. ex., derivação) pode resultar em melhora dos sintomas, especialmente se realizada precocemente no curso da condição. Tipicamente, comprometimentos cognitivos incluem velocidade de processamento reduzida e déficits na funcionalidade executiva e na atenção. Esses sintomas também são tipicamente acompanhados de anormalidades da marcha e incontinência urinária. Exame de imagem cerebral para mostrar o volume ventricular e caracterizar o deslocamento cerebral frequentemente é necessário para confirmar o diagnóstico.",
+      "classification_reasoning": "A cefaleia holocraniana não é um sintoma característico de demência devido à hidrocefalia de pressão normal, pois a definição menciona sintomas cognitivos como velocidade de processamento reduzida e déficits na funcionalidade executiva e na atenção. Além disso, a descrição da doença não se refere a cefaleia. A escolha do código 6D85.6 seria inadequada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A cefaleia holocraniana não é um sintoma característico da demência devido à hidrocefalia de pressão normal, como descrito na definição do código CID-11 6D85.6. A definição menciona sintomas cognitivos e anormalidades da marcha e incontinência urinária, mas não se refere a cefaleia holocraniana. Portanto, a escolha desse código é inadequada e deve ser removida.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BC80.2": {
+      "term_original": "sinusal",
+      "capitulo": "11",
+      "confidence_embedding": 0.7587,
+      "descricao_cid": "Representação de doença CID-11: Disfunção do nó sinusal. Definição: Termo inespecífico que se refere a anormalidades na formação e propagação do impulso do nó sinusal e inclui bradicardia sinusal, pausa/parada sinusal, incompetência cronotrópica e bloqueio de saída sinoatrial.",
+      "classification_reasoning": "A opção mais precisa é a BC80.2, Disfunção do nó sinusal, pois o paciente apresenta flutter desde 16/08/13 e na avaliação cardíaca há arritmias hipofoneticas, sugerindo anormalidade na formação e propagação do impulso do nó sinusal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BC80.2, Disfunção do nó sinusal, não é apropriada pois o termo 'sinusal' se refere apenas à forma de onda cardíaca e não ao tipo de arritmia presente no paciente. O flutter é uma arritmia ventricular, não relacionada à formação e propagação do impulso do nó sinusal.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC02.2": {
+      "term_original": "valvoplastia aortica",
+      "capitulo": "11",
+      "confidence_embedding": 0.7627,
+      "descricao_cid": "Representação de doença CID-11: Anormalidade adquirida da valva atrioventricular comum em ventrículo com dupla via de entrada. Definição: ",
+      "classification_reasoning": "A valvoplastia aortica é uma operação realizada no contexto da doença cardiovascular, e o termo 'valva' refere-se à válvula atrioventricular comum em ventrículo com dupla via de entrada, que é descrita pelo código BC02.2.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A valvoplastia aortica é uma operação realizada no contexto da doença cardiovascular, e o termo 'valva' refere-se à válvula atrioventricular comum em ventrículo com dupla via de entrada, que é descrita pelo código BC02.2. A descrição do prontuário não apresenta contradições óbvias ou alucinações, e a abreviação médica 'valva' faz sentido no contexto. Portanto, o código CID-11 atribuído (BC02.2) é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

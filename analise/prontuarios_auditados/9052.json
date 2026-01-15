@@ -1,0 +1,61 @@
+{
+  "prontuario_id": 133,
+  "text": "QUEIXA DE SINTOMAS DE RA.\nREFERE EPISTAXES FREQUENTES.\n\n\nRINO: HIPERTROFIA DE CCII. HIPEREMIA DE SEPTO ANTERIOR.\n\nTTO PARA RA.\nRETORNO EM 60 DIAS.\n\nR3 LUCAS.         ",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "QUEIXA",
+      "SINTOMAS DE RA",
+      "EPISTAXES FREQUENTES",
+      "HIPERTROFIA DE CCII",
+      "HIPEREMIA DE SEPTO ANTERIOR"
+    ],
+    "Procedimento Diagnóstico": [
+      "RINO"
+    ],
+    "Abreviação": [
+      "RINO",
+      "R3",
+      "SINTOMAS DE RA",
+      "HIPERTROFIA DE CCII",
+      "TTO PARA RA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "RETORNO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "R3"
+    ]
+  },
+  "labels": {
+    "9C61.25": {
+      "term_original": "hiperemia de septo anterior",
+      "capitulo": "09",
+      "confidence_embedding": 0.6769,
+      "descricao_cid": "Representação de doença CID-11: Crise glaucomatociclítica. Definição: Crise glaucomatociclítica apresenta-se com precipitados ceráticos leves e flare do aquoso, elevação aguda da pressão intraocular e dano ao nervo óptico quando ataques repetidos ocorrem.",
+      "classification_reasoning": "A hiperemia de septo anterior sugere a presença de uma crise glaucomatociclítica, que é caracterizada por uma elevação aguda da pressão intraocular e dano ao nervo óptico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hiperemia de septo anterior não é uma crise glaucomatociclítica, mas sim um achado anatomopatológico que pode estar relacionado a outras condições. A descrição do código CID-11 não se ajusta ao termo extraído e não há evidência clínica suficiente para sustentar a classificação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6A23.01": {
+      "term_original": "sintomas de ra",
+      "capitulo": "06",
+      "confidence_embedding": 0.7162,
+      "descricao_cid": "Representação de doença CID-11: Transtorno psicótico agudo e transitório, primeiro episódio, em remissão parcial. Definição: Todos os critérios diagnósticos para transtorno psicótico agudo e transitório, primeiro episódio em termos de sintomas e duração foram preenchidos anteriormente. Os sintomas melhoraram de tal forma que os critérios diagnósticos para o transtorno não foram preenchidos por pelo menos um mês, mas alguns sintomas clinicamente significativos persistem, que podem ou não estar associados a comprometimento funcional. A remissão parcial pode ter ocorrido em resposta a medicamento ou outro tratamento.",
+      "classification_reasoning": "A hipertrofia de CCII e hiperemia de septo anterior no rino sugerem uma resposta inflamatória crônica, o que está relacionado a sintomas de RA. Além disso, o TTO para RA e o retorno em 60 dias apontam para uma doença crônica. Considerando a falta de informações sobre sintomas psicóticos agudos e transitórios, o código mais preciso é o Código 6A23.01: Transtorno psicótico agudo e transitório, primeiro episódio, em remissão parcial.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 6A23.01 refere-se a um transtorno psicótico agudo e transitório, enquanto o termo 'sintomas de RA' se refere a sintomas de artrite reumatoide. A hipertrofia de CCII e hiperemia de septo anterior no rino sugerem uma resposta inflamatória crônica relacionada à doença de RA, não a um transtorno psicótico. Além disso, o TTO para RA e o retorno em 60 dias apontam para uma doença crônica. Portanto, a codificação CID-11 atribuída não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD20": {
+      "term_original": "epistaxes frequentes",
+      "capitulo": "21",
+      "confidence_embedding": 0.6646,
+      "descricao_cid": "Representação de doença CID-11: Epistaxe. Definição: Sangramento nasal",
+      "classification_reasoning": "A presença de 'epistaxes frequentes' na queixa clínica sugere uma hemorragia nasal crônica ou aguda, o que é compatível com a definição do código MD20: Epistaxe.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de 'epistaxes frequentes' na queixa clínica é compatível com a definição do código MD20: Epistaxe. A hipertrofia de CCII e hiperemia de septo anterior no rino também sugerem uma possível causa para as epistaxes, tornando a codificação CID-11 MD20 justificada e clínica.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

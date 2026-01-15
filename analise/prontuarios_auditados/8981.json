@@ -1,0 +1,240 @@
+{
+  "prontuario_id": 405,
+  "text": "ÀS 03:50 H: CLIENTE REALIZOU RNM DE CRANIO NO CEDIP, SEGUNDO INFORMAÇÕES RECEBIDAS PELA FUNCIONÁRIA MARIA, QUE ACOMPANHOU CLIENTE NA REMOÇÃO, QUADRO DA CLIENTE GRAVE, SENDO COMUNICADO DRº VITAL BRASIL, DA NEURO. FILMES NA UNIDADE, SEM LAUDO. SEGUE LUCIDA, COMUNICATIVA, REPOUSO, EUPNEICA, AFEBRIL. NEGA CEFALEIA, EMESE. SEGUE EM OBSERVAÇÃO E CUIDADOS. Às 11:30h: Dormindo, repouso no leito, febril, sudoreico, traqueostomizado, ar ambiente, aspirado media quantidade de secreção de aspecto purulento, gastrostomia funcionante com dietoterapia, acesso venoso em MSD com SRT em curso, uso de fralda para eliminações, precaução por contato. Às 16:03: 1° di com hx de agressão + fx de orbita esquerda. No momento, consciente, orientado, calmo, eupneico, respirando em ar ambiente, comunicativo, em repouso no leito, acesso venoso em mse com soroterapia em curso, apresenta hematoma + edema em região orbital bilateral, sutura e curativo em região orbital esquerda, refere algia no local, refere algia também em hemitórax esquerdo, aceitando bem a dieta, eliminações ausentes até o momento, segue sob cuidados. ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "CLIENTE"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CEDIP",
+      "NEURO",
+      "UNIDADE"
+    ],
+    "Abreviação": [
+      "NEURO",
+      "MSD",
+      "hx",
+      "mse",
+      "RNM DE CRANIO",
+      "SRT em curso",
+      "fx de orbita esquerda"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "LAUDO"
+    ],
+    "Achado": [
+      "LUCIDA",
+      "COMUNICATIVA",
+      "REPOUSO",
+      "EUPNEICA",
+      "AFEBRIL",
+      "Dormindo",
+      "traqueostomizado",
+      "consciente",
+      "orientado",
+      "calmo",
+      "eupneico",
+      "comunicativo",
+      "repouso no leito",
+      "ar ambiente",
+      "respirando em ar ambiente",
+      "aceitando bem"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "REPOUSO",
+      "traqueostomizado",
+      "aspirado",
+      "sutura",
+      "curativo",
+      "repouso no leito",
+      "gastrostomia funcionante com dietoterapia",
+      "acesso venoso",
+      "SRT em curso",
+      "precaução por contato",
+      "soroterapia em curso"
+    ],
+    "Negação": [
+      "AFEBRIL",
+      "NEGA",
+      "ausentes"
+    ],
+    "Sinal ou Sintoma": [
+      "CEFALEIA",
+      "EMESE",
+      "febril",
+      "sudoreico",
+      "hematoma",
+      "edema",
+      "algia",
+      "aspecto purulento"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "OBSERVAÇÃO",
+      "CUIDADOS",
+      "cuidados"
+    ],
+    "Substância Corporal": [
+      "secreção"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD",
+      "mse",
+      "local",
+      "hemitórax"
+    ],
+    "Objeto Manufaturado": [
+      "fralda"
+    ],
+    "Lesão ou Envenenamento": [
+      "agressão",
+      "fx de orbita esquerda"
+    ],
+    "Função Patológica": [
+      "hematoma",
+      "edema"
+    ],
+    "Dispositivo Médico": [
+      "curativo",
+      "acesso venoso"
+    ],
+    "Conceito Espacial": [
+      "esquerda",
+      "esquerdo"
+    ],
+    "Função Fisiológica": [
+      "eliminações"
+    ],
+    "Procedimento Diagnóstico": [
+      "RNM DE CRANIO"
+    ],
+    "Conceito Qualitativo": [
+      "media quantidade"
+    ],
+    "Conceito Temporal": [
+      "No momento",
+      "até o momento"
+    ]
+  },
+  "labels": {
+    "6e+61": {
+      "term_original": "orientado",
+      "capitulo": "06",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'orientado' é a síndrome psicótica secundária, pois apresenta sintomas de alucinações ou delírios proeminentes, que são característicos da condição do paciente. Além disso, a presença de alucinações e delírios são mencionadas no contexto clínico como parte do quadro do paciente.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'orientado' está presente no prontuário e descreve a condição do paciente, que é consciente, orientado, calmo, eupneico, respirando em ar ambiente, comunicativo, em repouso no leito. A opção mais precisa para o termo 'orientado' é a síndrome psicótica secundária, pois apresenta sintomas de alucinações ou delírios proeminentes, que são característicos da condição do paciente. No entanto, como não há menção a alucinações ou delírios no prontuário, a classificação '6e+61' não é clínica e coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "CB60": {
+      "term_original": "traqueostomizado",
+      "capitulo": "12",
+      "confidence_embedding": 0.7746,
+      "descricao_cid": "Representação de doença CID-11: Mau funcionamento de traqueostomia. Definição: ",
+      "classification_reasoning": "A paciente está descrita como traqueostomizada, o que indica um procedimento cirúrgico para estabelecer comunicação entre a tracheia e o exterior. Isso justifica a escolha do código CB60, representação de doença CID-11: Mau funcionamento de traqueostomia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente está descrita como traqueostomizada, o que indica um procedimento cirúrgico para estabelecer comunicação entre a tracheia e o exterior. No entanto, o código CID-11 CB60 representa 'Mau funcionamento de traqueostomia', que não é diretamente relacionado ao termo 'traqueostomizado'. O código CB60 se refere a problemas com a função da traqueostomia após o procedimento, enquanto o prontuário descreve a paciente como tendo sido traqueostomizada. Isso significa que a codificação não é clínica ou coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8e+40": {
+      "term_original": "hematoma",
+      "capitulo": "08",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha pelo código 8E40 (Representação de doença CID-11: Hemorragia cerebral) se justifica pela presença do termo 'hematoma' no contexto clínico, o que sugere a possibilidade de uma lesão cerebral de origem hemorrágica.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença do termo 'hematoma' no prontuário sugere que a lesão cerebral é de origem hemorrágica, justificando a escolha do código CID-11 8E40 (Representação de doença: Hemorragia cerebral). A análise clínica não apresenta contradições óbvias ou alucinações, portanto, o código atribuído é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "NA07.08": {
+      "term_original": "sudoreico",
+      "capitulo": "22",
+      "confidence_embedding": 0.7493,
+      "descricao_cid": "Representação de doença CID-11: Concussão com perda da consciência, duração não especificada ou desconhecida devido aos efeitos da terapia. Definição: ",
+      "classification_reasoning": "A presença de sudoreico no contexto clínico sugere a possibilidade de concussão, uma lesão cerebral causada por um impacto ou outro mecanismo de tração, que pode levar a sintomas como sudorese excessiva.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de sudoreico no prontuário não é suficiente para justificar a concussão. A sudorese excessiva pode ser um sintoma de várias condições, incluindo febre, infecção ou reação alérgica. Sem mais informações sobre o quadro clínico da paciente e sem laudo de imagem ou exame neurológico, não é possível estabelecer uma relação direta entre a sudorese e a concussão.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "ME64.3": {
+      "term_original": "aspecto purulento",
+      "capitulo": "21",
+      "confidence_embedding": 0.734,
+      "descricao_cid": "Representação de doença CID-11: Petéquias. Definição: Petéquias resultam do vazamento focal de sangue dos capilares da derme para o tecido conjuntivo dérmico adjacente. Apresentam-se como múltiplas máculas pontuais, vermelhas ou roxas, que não desaparecem à digitopressão. As muitas causas subjacentes variam de condições inócuas (p.ex., tosse ou esforço) a condições de risco de vida (p.ex., septicemia meningocócica).",
+      "classification_reasoning": "A descrição de 'aspecto purulento' se refere às características da secreção nasal, que apresenta sangue ou pus, indicando uma possível lesão ou inflamação na área.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição de 'aspecto purulento' se refere às características da secreção nasal, que apresenta sangue ou pus, indicando uma possível lesão ou inflamação na área. No entanto, o código CID-11 ME64.3 representa petéquias, que são máculas pontuais vermelhas ou roxas no tecido conjuntivo dérmico adjacente. Não há relação clínica direta entre a secreção nasal com aspecto purulento e as petéquias descritas pelo código CID-11 ME64.3.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C40.3": {
+      "term_original": "comunicativa",
+      "capitulo": "06",
+      "confidence_embedding": 0.7677,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas.",
+      "classification_reasoning": "O termo 'comunicativa' está relacionado à capacidade da paciente de se comunicar e interagir com o ambiente, o que é um sintoma característico da intoxicação por álcool. A paciente está consciente, orientada e calma, o que não é compatível com os sintomas de abstinência ou efeitos tóxicos da cocaína ou outros substâncias.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente está descrita como consciente, orientada e calma, o que não é compatível com a definição de intoxicação por álcool. A comunicação da paciente não é um sintoma característico da intoxicação por álcool, mas sim uma condição normal. Portanto, o código CID-11 6C40.3 não representa fielmente o termo 'comunicativa' e deve ser removido.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME62.7": {
+      "term_original": "algia",
+      "capitulo": "21",
+      "confidence_embedding": 0.7693,
+      "descricao_cid": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica.",
+      "classification_reasoning": "A opção mais precisa para o termo 'algia' é a Erupção cutânea descamativa aguda, pois 'algia' se refere a dor ou desconforto localizado, que neste contexto clínico está relacionado ao hematoma e edema em região orbital bilateral.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 ME62.7 Erupção cutânea descamativa aguda não é adequada para o termo 'algia', pois 'algia' se refere a dor ou desconforto localizado, enquanto a codificação ME62.7 descreve uma erupção cutânea de natureza desconhecida ou incerta. A dor ou desconforto localizado não está relacionado à Erupção cutânea descamativa aguda. A opção mais precisa para o termo 'algia' seria um código que descreva a dor ou desconforto, como por exemplo R51.8 - Dor de cabeça e face.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD11.5": {
+      "term_original": "dormindo",
+      "capitulo": "21",
+      "confidence_embedding": 0.7576,
+      "descricao_cid": "Representação de doença CID-11: Dispneia. Definição: Dispneia é o termo utilizado para descrever percepções de dificuldade ou sofrimento relacionados à respiração e é reconhecido como sintoma de doença quando ocorre em circunstâncias inapropriadas. Dispneia é uma queixa apresentada por pacientes com uma ampla variedade de condições médicas, causadas por múltiplos mecanismos.\r\nA dispneia é considerada aguda quando dura de horas a 3 semanas, subaguda de 3 a 8 semanas e a dispneia crônica dura mais de 8 semanas.",
+      "classification_reasoning": "O termo 'dormindo' sugere que o paciente está apresentando dificuldade respiratória, característica da dispneia, e não apresenta sintomas de coma ou pânico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'dormindo' não representa diretamente a dispneia, mas sim o estado de sono do paciente. A descrição da CID-11 para MD11.5 é muito específica e se refere à percepção de dificuldade ou sofrimento relacionados à respiração, o que não está presente no termo 'dormindo'. Portanto, a codificação não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C49.3": {
+      "term_original": "consciente",
+      "capitulo": "06",
+      "confidence_embedding": 0.802,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por alucinógenos. Definição: Intoxicação por alucinógenos é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de alucinógenos, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos dos alucinógenos e sua intensidade está intimamente relacionada à quantidade de alucinógenos consumida. Têm duração limitada, e diminuem à medida que o alucinógeno é eliminado do corpo. A apresentação pode incluir alucinações, ilusões, alterações perceptivas como despersonalização, desrealização, ou sinestesias (fusão de sentidos, como um estímulo visual evocando um cheiro), ansiedade, humor deprimido ou disfórico, ideias de referência, ideação paranoide, julgamento comprometido, palpitações, sudorese, visão turva, tremores e descoordenação. Sinais físicos podem incluir taquicardia, pressão arterial elevada, dilatação pupilar. Em casos raros, a intoxicação por alucinógenos pode facilitar ideação e comportamento suicidas.",
+      "classification_reasoning": "A opção mais precisa é a Intoxicação por alucinógenos (6C49.3) porque o termo 'consciente' indica que a paciente tem sua consciência preservada, embora possa apresentar alterações perceptivas e comportamentais. As outras opções, como intoxicação por álcool ou cocaína, podem ser excluídas pois não mencionam a presença de alucinações ou sintomas relacionados à percepção, que são características da intoxicação por alucinógenos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção de código CID-11 (6C49.3) Intoxicação por alucinógenos não é apropriada porque o termo 'consciente' indica que a paciente tem sua consciência preservada, embora possa apresentar alterações perceptivas e comportamentais. A intoxicação por alucinógenos caracteriza-se por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação, o que não é compatível com a situação descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8D60.1": {
+      "term_original": "edema",
+      "capitulo": "08",
+      "confidence_embedding": 0.7747,
+      "descricao_cid": "Representação de doença CID-11: Edema cerebral. Definição: É um acúmulo excessivo de fluido nos espaços intracelulares e/ou extracelulares do cérebro.",
+      "classification_reasoning": "A escolha do código é baseada na menção explícita de 'edema' no contexto clínico, o que se refere ao acúmulo excessivo de fluido nos espaços intracelulares e/ou extracelulares do cérebro.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'edema' no prontuário se refere a um acúmulo excessivo de fluido nos espaços intracelulares e/ou extracelulares do cérebro, o que não é compatível com a descrição do código CID-11 8D60.1, que se refere a edema cerebral. A menção explícita de 'edema' no prontuário se refere à região orbital bilateral e não ao cérebro.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "9C61.25": {
+      "term_original": "fx de orbita esquerda",
+      "capitulo": "09",
+      "confidence_embedding": 0.7456,
+      "descricao_cid": "Representação de doença CID-11: Crise glaucomatociclítica. Definição: Crise glaucomatociclítica apresenta-se com precipitados ceráticos leves e flare do aquoso, elevação aguda da pressão intraocular e dano ao nervo óptico quando ataques repetidos ocorrem.",
+      "classification_reasoning": "A escolha do código 9C61.25 (Crise glaucomatociclítica) é baseada na menção de 'fx de orbita esquerda' no relatório, o que sugere lesão óssea ou estrutura orbital relacionada ao glaucoma.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A menção de 'fx de orbita esquerda' no prontuário sugere uma lesão óssea ou estrutura orbital, mas não há indícios de glaucoma ou crise glaucomatociclítica. A escolha do código 9C61.25 é baseada em uma associação puramente imaginária e sem qualquer base no texto.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB4D": {
+      "term_original": "cefaleia",
+      "capitulo": "21",
+      "confidence_embedding": 0.7692,
+      "descricao_cid": "Representação de doença CID-11: Cefaleia, não classificada em outra parte. Definição: Cefaleia com aspectos característicos que sugerem que é uma entidade diagnóstica única, uma achado ou queixa, mas que não preenche os critérios para nenhum dos transtornos de cefaleia descritos acima.",
+      "classification_reasoning": "O termo 'cefaleia' é mencionado no contexto como uma queixa negada pela paciente, portanto, não há indicação de cefaleia crônica associada a outra condição ou transtorno. A opção mais precisa para o termo dentro do contexto clínico é Cefaleia, não classificada em outra parte (MB4D).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa de cefaleia é negada pela paciente, portanto, não há indicação clínica de cefaleia. A opção mais precisa para o termo dentro do contexto clínico é remover a codificação MB4D, pois não há evidência clínica de cefaleia.",
+      "tipo_erro_auditoria": "negated_finding"
+    }
+  }
+}

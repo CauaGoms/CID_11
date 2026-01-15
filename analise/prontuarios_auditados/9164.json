@@ -1,0 +1,59 @@
+{
+  "prontuario_id": 21,
+  "text": "PACIENTE COM FRATURA DE ULNA DISTAL ESQUERDA HÁ 2 MESES.\nAO RX: FRATURA CONSOLIDADA.\nCD: RETIRO FK. ORIETO FST. RETORNO EM 2 MESES.\n\nR2 LUCAS",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Conceito Espacial": [
+      "ESQUERDA"
+    ],
+    "Procedimento Diagnóstico": [
+      "RX"
+    ],
+    "Lesão ou Envenenamento": [
+      "FRATURA",
+      "FRATURA DE ULNA DISTAL"
+    ],
+    "Abreviação": [
+      "CD",
+      "FK",
+      "FST",
+      "R2"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "FST"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "RETORNO"
+    ],
+    "Conceito Temporal": [
+      "2 MESES"
+    ],
+    "Conceito Quantitativo": [
+      "2 MESES"
+    ]
+  },
+  "labels": {
+    "FA38.9": {
+      "term_original": "fratura",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é a FA38.9, pois a descrição coincide com a fratura de ulna distal esquerda apresentada no contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção FA38.9 é a mais precisa pois a descrição coincide com a fratura de ulna distal esquerda apresentada no contexto clínico. A codificação está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "FB38.5": {
+      "term_original": "fratura de ulna distal",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'fratura de ulna distal' é FB38.5, pois se trata de uma fratura óssea especificamente na região distal da ulna esquerda.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção FB38.5 é a mais precisa para o termo 'fratura de ulna distal' pois se trata de uma fratura óssea especificamente na região distal da ulna esquerda, como descrito no prontuário. A codificação está clinicamente coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

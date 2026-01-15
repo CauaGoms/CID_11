@@ -1,0 +1,229 @@
+{
+  "prontuario_id": 125,
+  "text": "Às 18HS: PACIENTE APRESENTA PA ELEVADA, 200/120, AVISADO DR VITAL BRASIL, DA ORTOPEDIA, QUE PRESCREVEU CAPTOPRIL 50 MG VO, SEGUE SOB OS CUIDADOS DE ENFERMAGEM. ENFER FLORENCE NIGHTINGALE, [COREN XXXX]. FRATURA DA DIAFISE DA TIBIA. ÀS 10:40H: PACIENTE LUCIDA, ORIENTADA, COMUNICATIVA. REFERE ALGIA EM MEMBRO INFERIOR DIREITO AO DEAMBULAR, O MESMO ENCONTRA-SE AVERMELHADO E EDEMASIADO. PERDEU ACESSO VENOSO, DIFICULDADE EM NOVA PUNCÃO. BOA ACEITACÃO DA DIETA. ELIMINACÕES FISIOLOGICAS PRESENTES. ENFa FLORENCE NIGHTINGALE, COREN XXXX. OUTRAS AFECCOES LOCALIZADAS DO TECIDO CONJUNTIVO ESPECIFICADAS. Às 12:30HS: ALERTA, COMUNICATIVO, PUPLAS ISOCORICAS FOTORREAGENTES. TRAQUEOSTOMIZADO, EUPINEICO EM AR AMBIENTE, MANTEM NÉVOA PARA FACILITAR A ASPIRAÇÃO DA TRAQUEOSTOMIA, ASPIRADO MEDIA QUANTIDADE DE SECREÇÃO FLUIDIFICADA. DIURESE ESPONTANEA EM UROPEN. USO DE FRALDA. PACIENTE RETIROU SOG, NÃO REPASSADO, POIS A FONO AVALIOU E LIBEROU DIETA LIQUIDA PASTOSA ASSISTIDA. BOA ACEITAÇÃO DA DIETA SEM SINAIS DE ASPIRAÇÃO. ENFERMEIRA FLORENCE NIGHTINGALE (COREN XXXX). TRAUMATISMO INTRACRANIANO.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Conceito Quantitativo": [
+      "200/120",
+      "50 MG"
+    ],
+    "Abreviação": [
+      "DR",
+      "VO",
+      "ENFER",
+      "ENFa",
+      "FONO",
+      "PA ELEVADA",
+      "RETIROU SOG"
+    ],
+    "Organização Relacionada à Saúde": [
+      "ORTOPEDIA"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "CAPTOPRIL"
+    ],
+    "Substância Farmacológica": [
+      "CAPTOPRIL"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ENFER",
+      "ENFa",
+      "ENFERMEIRA"
+    ],
+    "Achado": [
+      "LUCIDA",
+      "ORIENTADA",
+      "COMUNICATIVA",
+      "DEAMBULAR",
+      "ALERTA",
+      "COMUNICATIVO",
+      "TRAQUEOSTOMIZADO",
+      "DIFICULDADE EM NOVA PUNCÃO",
+      "BOA ACEITACÃO DA DIETA",
+      "ELIMINACÕES FISIOLOGICAS PRESENTES",
+      "EUPINEICO EM AR AMBIENTE",
+      "SECREÇÃO FLUIDIFICADA",
+      "DIURESE ESPONTANEA",
+      "BOA ACEITAÇÃO DA DIETA"
+    ],
+    "Sinal ou Sintoma": [
+      "ALGIA",
+      "PA ELEVADA",
+      "AVERMELHADO E EDEMASIADO",
+      "SINAIS DE ASPIRAÇÃO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PUPLAS",
+      "MEMBRO INFERIOR DIREITO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TRAQUEOSTOMIZADO",
+      "NÉVOA",
+      "FRALDA",
+      "REPASSADO",
+      "ACESSO VENOSO",
+      "ASPIRAÇÃO DA TRAQUEOSTOMIA",
+      "RETIROU SOG",
+      "DIETA LIQUIDA PASTOSA ASSISTIDA"
+    ],
+    "Dispositivo Médico": [
+      "UROPEN",
+      "FRALDA",
+      "ACESSO VENOSO"
+    ],
+    "Objeto Manufaturado": [
+      "FRALDA"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CUIDADOS DE ENFERMAGEM"
+    ],
+    "Lesão ou Envenenamento": [
+      "FRATURA DA DIAFISE DA TIBIA",
+      "TRAUMATISMO INTRACRANIANO"
+    ],
+    "Função Fisiológica": [
+      "ELIMINACÕES FISIOLOGICAS PRESENTES",
+      "DIURESE ESPONTANEA"
+    ],
+    "Conceito Qualitativo": [
+      "MEDIA QUANTIDADE"
+    ]
+  },
+  "labels": {
+    "BD93": {
+      "term_original": "diurese espontanea",
+      "capitulo": "11",
+      "confidence_embedding": 0.7418,
+      "descricao_cid": "Representação de doença CID-11: Linfedema. Definição: Edema devido ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Geralmente afeta as extremidades, mas pode envolver qualquer parte do corpo. É desfigurante e aumenta a suscetibilidade a infecções recorrentes e malignidades locais.",
+      "classification_reasoning": "A diurese espontanea mencionada no contexto clínico sugere a presença de edema, o que é consistentemente descrito na definição do código BD93 (Linfedema)",
+      "decisao": "MANTER",
+      "motivo_decisao": "A diurese espontânea mencionada no prontuário é um sintoma comum em pacientes com fratura e edema, o que é consistente com a definição do código BD93 (Linfedema). Além disso, a presença de edema na fratura da diáfise da tibia também está relacionada à linfedema. Portanto, manter o código CID-11 atribuído como BD93.",
+      "tipo_erro_auditoria": null
+    },
+    "CB21.1": {
+      "term_original": "secreção fluidificada",
+      "capitulo": "12",
+      "confidence_embedding": 0.7681,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A secreção fluidificada é mencionada como parte do contexto de uma paciente com fratura da diafise da tibia, o que sugere um quadro de lesão traumática e inflamatória. Além disso, a presença de pneumotórax é implícita no contexto, pois se refere à perda de acesso venoso e dificuldade em nova punção. Portanto, a opção mais precisa para o termo 'secreção fluidificada' é CB21.1, que descreve um pneumotórax espontâneo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A secreção fluidificada mencionada no prontuário é provavelmente uma referência à secreção pulmonar, não a um pneumotórax espontâneo. A presença de pneumotórax não está claramente descrita no prontuário e a classificação CB21.1 não representa fielmente o termo 'secreção fluidificada'.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NA07.83": {
+      "term_original": "traqueostomizado",
+      "capitulo": "22",
+      "confidence_embedding": 0.7251,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia traumática no tronco encefálico sem especificação se primária ou secundária. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'traqueostomizado' é a lesão traumática no tronco encefálico sem especificação se primária ou secundária, pois o paciente está com uma traqueostomia instalada e apresenta sintomas relacionados ao trauma cerebral.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'traqueostomizado' não é uma lesão traumática no tronco encefálico sem especificação se primária ou secundária. A traqueostomia é um procedimento médico, não uma condição clínica relacionada ao trauma cerebral. Portanto, o código CID-11 NA07.83 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.20": {
+      "term_original": "deambular",
+      "capitulo": "21",
+      "confidence_embedding": 0.7178,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-traumática. Definição: Dor pós-traumática crônica é a dor que se desenvolve ou aumenta de intensidade após uma lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após o traumatismo tecidual. A dor é ou localizada na área da lesão, ou referida no território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente por um problema doloroso preexistente.",
+      "classification_reasoning": "A dor referida pelo paciente ao deambular é caracterizada como pós-traumática crônica, uma vez que a fratura da diáfise da tibia é o resultado de um traumatismo e persiste após o processo de cicatrização.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor referida pelo paciente ao deambular não é necessariamente pós-traumática crônica. A fratura da diáfise da tibia é um evento traumático, mas a dor referida pode ser resultado de outras causas, como inflamação ou compressão nervosa, e não apenas uma consequência direta do traumatismo. Além disso, o prontuário não apresenta evidências claras de que a dor seja persistente por pelo menos 3 meses após o traumatismo tecidual, como definido pela CID-11.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MG29.10": {
+      "term_original": "eupineico em ar ambiente",
+      "capitulo": "21",
+      "confidence_embedding": 0.7179,
+      "descricao_cid": "Representação de doença CID-11: Edema devido a pressão capilar aumentada. Definição: O aumento da pressão capilar aumenta o vazamento de fluido do compartimento vascular para os tecidos intersticiais, resultando em edema. Causas incluem o comprometimento ou obstrução do retorno venoso (sobrecarga de fluido, trombose venosa, insuficiência cardíaca direita, compressão venosa por tumor), aumento do fluxo sanguíneo (resposta fisiológica à exposição ao calor, malformações arteriovenosas, controle vasomotor cutâneo prejudicado devido a drogas ou neuropatia autonômica), ou pressão oncótica plasmática reduzida por hipoproteinemia.",
+      "classification_reasoning": "A frase 'Eupineico em ar ambiente' sugere que o paciente tem edema devido à pressão capilar aumentada, provavelmente devido ao trauma craniano e ao estado de consciência alterado.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A frase 'Eupineico em ar ambiente' não é suficientemente específica para justificar a codificação CID-11 MG29.10, que se refere a edema devido à pressão capilar aumentada. A falta de informações sobre o contexto e a causa do eupineico em ar ambiente impede uma classificação precisa e clínica.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "ME05.0": {
+      "term_original": "sinais de aspiração",
+      "capitulo": "21",
+      "confidence_embedding": 0.7471,
+      "descricao_cid": "Representação de doença CID-11: Constipação. Definição: A constipação é uma condição aguda ou crônica na qual os movimentos intestinais ocorrem com menor frequência do que o normal ou consiste em fezes secas e duras que costumam ser dolorosas ou difíceis de evacuar. Aqui está descrita a constipação que não está especificamente descrita em outra parte, como em transtornos da motilidade do intestino ou em doenças funcionais do intestino.",
+      "classification_reasoning": "A escolha do código ME05.0 é mais precisa porque o termo 'sinais de aspiração' se refere a dificuldade em aspirar alimentos ou líquidos, o que está descrito no contexto como parte da descrição da condição do paciente. A constipação (ME05.0) é uma condição que pode afetar a capacidade do paciente de ingerir alimentos e líquidos de forma adequada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A constipação (ME05.0) não está relacionada aos sinais de aspiração descritos no prontuário, que se referem à dificuldade do paciente em ingerir alimentos e líquidos. A escolha do código ME05.0 é uma classificação errônea, pois a constipação não está diretamente relacionada ao termo 'sinais de aspiração'.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B25.3": {
+      "term_original": "traumatismo intracraniano",
+      "capitulo": "08",
+      "confidence_embedding": 0.7358,
+      "descricao_cid": "Representação de doença CID-11: Efeitos tardios de hemorragia intracraniana não traumática. Definição: Efeitos tardios de outra hemorragia intracraniana não traumática após 1 mês ou mais do início da doença. Os códigos para episódios agudos devem ser usados ​​exclusivamente para hemorragias agudas e episódios de hospitalização imediatamente relacionados.",
+      "classification_reasoning": "A presença de traumatismo intracraniano na história do paciente justifica a escolha desse código, pois o termo 'traumatismo intracraniano' é mais específico e relacionado à hemorragia intracraniana não traumática, descrita no código 8B25.3.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'traumatismo intracraniano' no prontuário refere-se a uma lesão craniana causada por um acidente, enquanto o código CID-11 8B25.3 se refere a efeitos tardios de hemorragia intracraniana não traumática. A falta de relação entre os dois termos justifica a remoção do código.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB23.H": {
+      "term_original": "alerta",
+      "capitulo": "21",
+      "confidence_embedding": 0.748,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'alerta' é a Crise de pânico (Código CID-11: MB23.H), pois o contexto clínico descreve um paciente que apresenta uma reação aguda e súbita, caracterizada por sintomas como medo ou apreensão intensos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A Crise de pânico (Código CID-11: MB23.H) é um diagnóstico psicológico que não se aplica ao contexto clínico do prontuário. O termo 'alerta' refere-se à situação aguda e súbita do paciente, caracterizada por sintomas como medo ou apreensão intensos, mas isso não é um ataque de pânico. A classificação é incorreta e não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA38.3": {
+      "term_original": "avermelhado e edemasiado",
+      "capitulo": "15",
+      "confidence_embedding": 0.7224,
+      "descricao_cid": "Representação de doença CID-11: Artropatia hemofílica. Definição: Trata-se da destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia. Esta condição inclui a ocorrência de hemartrose aguda, artrite subaguda ou crônica e artropatia hemofílica em estágio terminal. Quase todos os pacientes com hemofilia A ou B grave e metade dos pacientes com atividade de doença moderada apresentam hemartrose. Os sintomas incluem dor nas articulações (artralgias), edema articular, fibrose articular, desenvolvimento de deformidades em flexão e erosão da cartilagem articular. As articulações mais comumente afetadas são joelhos, tornozelos, cotovelos, ombros e quadris (em ordem de frequência). O sangramento nos músculos e partes moles também pode causar disfunção musculoesquelética.",
+      "classification_reasoning": "A opção mais precisa para o termo 'avermelhado e edemasiado' é a artropatia hemofílica, pois apresenta características de dor e edema articular, os mesmos sintomas descritos no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FA38.3 não é precisa para o termo 'avermelhado e edemasiado' porque a artropatia hemofílica é uma condição que envolve destruição das articulações, dor nas articulações e edema articular, mas no prontuário apenas se refere à algia em membro inferior direito ao deambular, o mesmo encontra-se avermelhado e edemasiado. A falta de contexto clínico que justifique a presença de artropatia hemofílica leva a considerar essa opção como muito genérica.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "FB81": {
+      "term_original": "fratura da diafise da tibia",
+      "capitulo": "15",
+      "confidence_embedding": 0.7454,
+      "descricao_cid": "Representação de doença CID-11: Osteonecrose. Definição: Osteonecrose é o termo médico usado para a morte do tecido ósseo que ocorre quando o suprimento sanguíneo para o osso é interrompido por algum motivo. Os médicos algumas vezes se referem a esta condição como necrose avascular, necrose asséptica ou necrose isquêmica do osso.",
+      "classification_reasoning": "A fratura da diafise da tibia é um tipo de lesão óssea, o que se alinha com a definição de osteonecrose (FB81). Embora haja outras opções que podem ser relacionadas à fratura, a escolha mais precisa é FB81 porque não há indícios de inflamação crônica ou doença óssea específica na descrição do prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fratura da diafise da tibia não é uma condição de osteonecrose, mas sim uma lesão óssea. A definição de FB81 refere-se à morte do tecido ósseo devido ao suprimento sanguíneo interrompido, o que não se aplica à fratura. Portanto, a escolha do código CID-11 não é clínica e precisa ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA01": {
+      "term_original": "pa elevada",
+      "capitulo": "11",
+      "confidence_embedding": 0.7466,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A escolha do código BA01 (Doença cardíaca hipertensiva) é a mais precisa porque o termo 'pa elevada' refere-se à pressão arterial aumentada, que é um sintoma comum da doença cardíaca hipertensiva. Além disso, o contexto clínico menciona o uso de captopril, um medicamento anti-hipertensivo, o que reforça a escolha do código BA01.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código BA01 (Doença cardíaca hipertensiva) é justificada porque o termo 'pa elevada' refere-se à pressão arterial aumentada, que é um sintoma comum da doença cardíaca hipertensiva. Além disso, o contexto clínico menciona o uso de captopril, um medicamento anti-hipertensivo, o que reforça a escolha do código BA01.",
+      "tipo_erro_auditoria": null
+    },
+    "FB32.20": {
+      "term_original": "algia",
+      "capitulo": "15",
+      "confidence_embedding": 0.7549,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A escolha para o termo 'algia' é a Rabdomiólise idiopática (Código: FB32.20) porque a descrição clínica menciona algia em membro inferior direito ao deambular, sugerindo dor muscular ou articular que é característica da rabdomiólise.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário menciona 'algia' em membro inferior direito ao deambular, sugerindo dor muscular ou articular. No entanto, o código CID-11 atribuído (FB32.20) refere-se à Rabdomiólise idiopática, que não está relacionada à dor muscular ou articular descrita no prontuário. A escolha do termo 'algia' para a rabdomiólise é uma confusão entre sintoma e diagnóstico.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "NC94.1": {
+      "term_original": "dificuldade em nova puncão",
+      "capitulo": "22",
+      "confidence_embedding": 0.7299,
+      "descricao_cid": "Representação de doença CID-11: Lesão do nervo fibular ao nível da perna. Definição: ",
+      "classification_reasoning": "A dificuldade em nova puncão é provavelmente relacionada a lesão do nervo fibular ao nível da perna, o que é descrito pelo código NC94.1.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dificuldade em nova puncão não é suficientemente específica para ser mapeada para o código NC94.1, que se refere a uma lesão do nervo fibular ao nível da perna. A falta de detalhes sobre a localização exata da lesão ou a natureza da dificuldade em nova puncão não justifica a atribuição desse código.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

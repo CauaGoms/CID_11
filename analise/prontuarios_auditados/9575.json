@@ -1,0 +1,103 @@
+{
+  "prontuario_id": 560,
+  "text": "POS TX CARDIACO HA 20 dias\nULTIMA BIOPSIA AINDA SEM RESULTADO\nEM USO DE EVEROLIMUS 0,75 DE 8/8 , AZATIOPRINA 50 / 50 E PREDNISONA 20MG / DIA\nUSO DE FURO , AAS , SINVA\nS # SEM QUEIXAS \nREFERE QUEIMAÇÃO NAS PERNAS. DEMAIS SP\nO # PA 120/80, FC 89\nACV BCRNF \nCPP LIVRE\nMMII SEM EDEMA \nA # POS TX CARDIACO , COM BOA EVOLUÇÃO. \nP # NOVA BIOPSIA, ECO E LAB\n \n \n \n ",
+  "entities": {
+    "Conceito Temporal": [
+      "POS",
+      "8/8"
+    ],
+    "Procedimento Diagnóstico": [
+      "BIOPSIA",
+      "ECO"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Substância Farmacológica": [
+      "EVEROLIMUS",
+      "AZATIOPRINA",
+      "PREDNISONA",
+      "FURO",
+      "AAS",
+      "SINVA"
+    ],
+    "Abreviação": [
+      "FURO",
+      "AAS",
+      "SINVA",
+      "SP",
+      "PA",
+      "FC",
+      "ACV",
+      "BCRNF",
+      "MMII",
+      "ECO",
+      "LAB",
+      "TX CARDIACO",
+      "CPP LIVRE"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "EDEMA",
+      "QUEIMAÇÃO NAS PERNAS"
+    ],
+    "Achado": [
+      "SP",
+      "BCRNF",
+      "CPP LIVRE",
+      "BOA EVOLUÇÃO"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC"
+    ],
+    "Conceito Quantitativo": [
+      "120/80",
+      "89",
+      "0 , 75",
+      "50 / 50",
+      "20MG / DIA"
+    ],
+    "Sistema Corporal": [
+      "ACV"
+    ],
+    "Procedimento Laboratorial": [
+      "LAB"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX CARDIACO"
+    ]
+  },
+  "labels": {
+    "BD93": {
+      "term_original": "edema",
+      "capitulo": "11",
+      "confidence_embedding": 0.7982,
+      "descricao_cid": "Representação de doença CID-11: Linfedema. Definição: Edema devido ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Geralmente afeta as extremidades, mas pode envolver qualquer parte do corpo. É desfigurante e aumenta a suscetibilidade a infecções recorrentes e malignidades locais.",
+      "classification_reasoning": "A queixa de edema nas pernas e a presença de história de doença cardiovascular recém-tratada fazem com que a opção mais precisa seja a BD93, Representação de doença CID-11: Linfedema.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa de edema nas pernas não é suficientemente específica para justificar a escolha do código BD93, Representação de doença CID-11: Linfedema. O prontuário não apresenta evidências de drenagem linfática inadequada ou história de doença cardiovascular recém-tratada que justificasse a presença de linfedema. A classificação é demasiado geral e não está clinicamente coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "EA86.0": {
+      "term_original": "queimação nas pernas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7742,
+      "descricao_cid": "Representação de doença CID-11: Dermatite de estase de pernas. Definição: Processo eczematoso crônico que afeta a pele das pernas em associação com linfedema crônico de membros inferiores e imobilidade. Frequentemente está associada à lipodermatoesclerose. A falha da \"bomba muscular\" normal para auxiliar o retorno venoso é um componente importante na etiologia. É comum em obesos mórbidos. É caracterizada por inflamação de baixo grau com escamação e descamação variáveis.",
+      "classification_reasoning": "A queimação nas pernas é um sintoma característico da dermatite de estase de pernas, uma condição crônica que afeta a pele das pernas em associação com linfedema crônico e imobilidade.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A queimação nas pernas é um sintoma característico da dermatite de estase de pernas, uma condição crônica que afeta a pele das pernas em associação com linfedema crônico e imobilidade. Como o prontuário descreve explicitamente a presença de queimação nas pernas e não há contradições óbvias ou alucinações, considero que a codificação CID-11 EA86.0 é CLINICAMENTE COERENTE com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MA6Y": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.752,
+      "descricao_cid": "Representação de doença CID-11: Outros sintomas, sinais ou achados clínicos de doenças endócrinas, nutricionais ou metabólicas, especificados. Definição: ",
+      "classification_reasoning": "A queixa descrita é uma referência à 'queimação nas pernas', o que sugere um sintoma cutâneo ou neuropático não especificado, justificando a escolha do código MA6Y para outros sintomas, sinais ou achados clínicos de doenças endócrinas, nutricionais ou metabólicas, especificados.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa descrita é uma referência à 'queimação nas pernas', o que sugere um sintoma cutâneo ou neuropático não especificado. No entanto, o código MA6Y refere-se a outros sintomas, sinais ou achados clínicos de doenças endócrinas, nutricionais ou metabólicas, especificados. A falta de relação entre o termo e o código CID-11 justifica a remoção do código.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

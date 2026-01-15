@@ -1,0 +1,129 @@
+{
+  "prontuario_id": 827,
+  "text": "PACIENTE EM PÓS ENUCLEAÇÃO DE OD 25/02/2014 POR Doutor Vital Brazil , HV, HIFEMA E DOR APÓS QUEIMADURA POR PRODUTO ALCALINO \nREFERE QUE USOU VIGADEXA DE 4/4HS, NO MOMENTO REFERE QUE PAROU PQ ACABOU  O MEDICAMENTO \n\nBIO OD: HIPEREMIA CINJUNTIVAL COM LACRIMEJAMENTO E DESCONFORTO LOCAL, AUSENCIA DE SECREÇÃO PURULENTA OU SINAIS DE INFECÇÃO \n\nCDTA: PRESCREVO VIGADEXA DE 4/4HS ATPE RETORNO. ORIENTO QUANTO A NECCESSIDADE DO USO DO COLIRIO \nORIENTO RETORNO EM 2 SEMANAS PARA REAVALIAÇÃO \nRT 17/04/2014\n\nR2 PARA R2 Doutor Vital Brazil ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Conceito Temporal": [
+      "PÓS",
+      "APÓS",
+      "4/4HS"
+    ],
+    "Abreviação": [
+      "OD",
+      "HV",
+      "4/4HS",
+      "BIO",
+      "CDTA",
+      "RT",
+      "R2"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "OD"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Doutor",
+      "R2"
+    ],
+    "Função Patológica": [
+      "HIFEMA"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR",
+      "LACRIMEJAMENTO",
+      "HIPEREMIA CINJUNTIVAL",
+      "DESCONFORTO LOCAL",
+      "SECREÇÃO PURULENTA",
+      "SINAIS DE INFECÇÃO"
+    ],
+    "Antibiótico": [
+      "VIGADEXA"
+    ],
+    "Substância Química Orgânica": [
+      "VIGADEXA"
+    ],
+    "Procedimento Diagnóstico": [
+      "BIO"
+    ],
+    "Negação": [
+      "AUSENCIA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CDTA",
+      "PRESCREVO",
+      "RETORNO",
+      "ORIENTO",
+      "REAVALIAÇÃO",
+      "RT"
+    ],
+    "Substância Farmacológica": [
+      "COLIRIO"
+    ],
+    "Substância Perigosa ou Venenosa": [
+      "PRODUTO ALCALINO"
+    ]
+  },
+  "labels": {
+    "ND91.4": {
+      "term_original": "sinais de infecção",
+      "capitulo": "22",
+      "confidence_embedding": 0.7544,
+      "descricao_cid": "Representação de doença CID-11: Queimadura de face, exceto olho ou anexos oculares, lesão mais profunda ou queimadura complexa. Definição: ",
+      "classification_reasoning": "A escolha foi feita por conta da presença de queimadura epidérmica descrita no prontuário, especificamente 'DOR APÓS QUEIMADURA POR PRODUTO ALCALINO'. Além disso, a hiperemia conjuntival e lacrimejamento também sugerem uma lesão mais profunda ou queimadura complexa.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 ND91.4 não é clinicamente coerente com o prontuário, pois a queimadura epidérmica descrita não é suficiente para justificar essa classificação. A hiperemia conjuntival e lacrimejamento podem ser consequências da lesão, mas não são características definidoras de uma queimadura complexa ou mais profunda. Além disso, a falta de sinais de infecção e a orientação para o uso do colírio sugerem que a lesão é mais provavelmente superficial.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "9A10.3": {
+      "term_original": "lacrimejamento",
+      "capitulo": "09",
+      "confidence_embedding": 0.8001,
+      "descricao_cid": "Representação de doença CID-11: Hiperlacrimação. Definição: Transbordamento de lágrimas devido a secreção excessiva pela glândula lacrimal. Pode ser causado por drogas (p.ex. pillocarpina), forte emoção; ou como reflexo de estimulação trigeminal por inflamação ocular; ou irritação da córnea ou conjuntiva por irritante químico no ar; vento frio; ou corpo estranho no olho. Os principais sintomas são desconforto e visão turva e algumas vezes constrangimento. A abordagem depende da causa.\r\n\r\n\r\n. É um sinal clínico ou condição que aponta para a drenagem insuficiente do filme lacrimal dos olhos, em que as lágrimas vão drenar pela face abaixo em vez de o fazerem pelo sistema nasolacrimal.",
+      "classification_reasoning": "A opção mais precisa é o termo 'Hiperlacrimação' (Código 9A10.3), pois dentro do contexto clínico, o paciente apresenta 'lacrimejamento e desconforto local', o que é sintomático de hiperemia conjuntival com secreção excessiva pela glândula lacrimal.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção do código CID-11 9A10.3 'Hiperlacrimação' é justificada pela presença de 'lacrimejamento e desconforto local' no prontuário, o que sugere hiperemia conjuntival com secreção excessiva pela glândula lacrimal. A classificação é clínica e coerente com a descrição do paciente.",
+      "tipo_erro_auditoria": null
+    },
+    "MG31.2": {
+      "term_original": "desconforto local",
+      "capitulo": "21",
+      "confidence_embedding": 0.7363,
+      "descricao_cid": "Representação de doença CID-11: Dor pós-operatória aguda, não classificada em outra parte. Definição: Dor no local da intervenção ou causada por uma intervenção cirúrgica.",
+      "classification_reasoning": "A dor pós-operatória aguda é a opção mais precisa para o termo 'desconforto local' dentro do contexto clínico, pois o paciente foi submetido à euniqueação de OD em 25/02/2014 e apresenta dor após queimadura por produto alcalino. A opção MG31.2 melhor se ajusta à descrição da dor pós-operatória aguda no local da intervenção cirúrgica.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dor pós-operatória aguda é uma opção precisa para o termo 'desconforto local' dentro do contexto clínico. O paciente foi submetido à euniqueação de OD em 25/02/2014 e apresenta dor após queimadura por produto alcalino, o que justifica a escolha do código MG31.2.",
+      "tipo_erro_auditoria": null
+    },
+    "MG30.21": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7765,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática.",
+      "classification_reasoning": "A dor é descrita como sendo após enucleação de OD e referida após queimadura por produto alcalino, o que sugere uma dor pós-operatória crônica relacionada à cirurgia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor descrita no prontuário é após enucleação de OD e referida após queimadura por produto alcalino, o que não se ajusta à definição de dor pós-operatória crônica (CID-11: MG30.21). A dor está relacionada a uma lesão específica e não é uma dor persistente após cirurgia. Além disso, a descrição da dor não apresenta características clínicas que justifiquem a classificação como dor pós-operatória crônica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A60.02": {
+      "term_original": "hiperemia cinjuntival",
+      "capitulo": "09",
+      "confidence_embedding": 0.7112,
+      "descricao_cid": "Representação de doença CID-11: Conjuntivite alérgica. Definição: Conjuntivite alérgica é uma resposta mediada por IgE devida à exposição a alérgenos sazonais ou perenes em pacientes sensibilizados. A resposta inflamatória induzida por alérgenos da conjuntiva resulta na liberação de histamina e outros mediadores. Os sintomas consistem em vermelhidão (principalmente devido à vasodilatação dos pequenos vasos sanguíneos periféricos), edema (inchaço) da conjuntiva, coceira e lacrimejamento (produção de lágrimas) aumentado.",
+      "classification_reasoning": "A hiperemia conjuntival com lacrimejamento e desconforto local sugere uma reação alérgica ou irritante na área, o que se ajusta à definição de conjuntivite alérgica (9A60.02) do CID-11.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hiperemia conjuntival com lacrimejamento e desconforto local não é uma reação alérgica ou irritante na área, como sugerido pela definição de conjuntivite alérgica (9A60.02) do CID-11. A hipótese de conjuntivite alérgica não está claramente justificada no prontuário e a descrição da condição é mais adequada à uma reação localizada, possivelmente relacionada à queimadura por produto alcalino.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "AB31.0": {
+      "term_original": "hifema",
+      "capitulo": "10",
+      "confidence_embedding": 0.7139,
+      "descricao_cid": "Representação de doença CID-11: Doença de Ménière. Definição: A doença de Meniere (DM) é uma doença crônica progressiva da orelha interna, com hidropisia endolinfática. É caracterizada por ataques recorrentes de vertigem espontânea debilitante com duração de 20 minutos a até 12 horas, acompanhada por sensação de plenitude auricular e zumbido na orelha afetada, e perda auditiva neurossensorial flutuante ipsilateral (PANS) nas frequências baixa ou baixa e média. Pode ocorrer nistagmo durante as crises e quedas são frequentes. Quando conhecida, a etiologia deve ser acrescentada.",
+      "classification_reasoning": "A opção mais precisa para o termo 'hifema' é a Doença de Ménière (DM), pois a descrição da doença inclui hidropisia endolinfática, que é característica da hifema.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CID-11 AB31.0, que representa a Doença de Ménière, não é adequada para o termo 'hifema' pois a descrição da doença não menciona hipotensão endolinfática e outros sintomas característicos da hifema. Além disso, a hifema é uma condição que afeta a visão, enquanto a Doença de Ménière é uma condição auditiva. Portanto, a classificação CID-11 AB31.0 não representa fielmente o termo 'hifema' descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

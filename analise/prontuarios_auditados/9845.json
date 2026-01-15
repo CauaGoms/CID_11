@@ -1,0 +1,220 @@
+{
+  "prontuario_id": 73,
+  "text": "PACIENTE INTERNA COM IAM ANTERIOR KILIIP II COM SUPRA ST, REALIZADO ACTP PRIMARIA NA SETIMA HORA + IMPLANTE DE STENT, COM CRITERIOS PARA REPERFUSÃO PORÉM COM FORMAÇÃO DE ONDA Q E EVOLUÇÃO PARA QUADRO TRANSITORIO DE BAIXO DEBITO, CONGESTÃO PULMONAR, ACFA, BRE INTERMITENTE, TODOS TRATADOS CLINICAMENTE. MELHORA SINTOMATICA EM 48H COM TTO CLINICO, JÁ SEM CONGESTÃO, CLASSE FUNCIONAL II / III. PRESENÇA DE TAQUICARDIA CONSTANTE E PRESENÇA DE B3, PREDITORAS DE ICE POS IAM. ECOCARDIO POS IAM MOSTROU FE 44% COM ACINESIA TOTAL DA PAREDE ANTEROSEPTAL, SEM COMPLICAÇÕES MECANICAS. INICIADO BETABLOQUEADOR NA INTERNAÇÃO COM BOA TOLERANCIA. ALTA COM TTO OTIMIZADO DE ICC, EM CLASSE FUNCIONAL II, B3 PERSISTENTE, SEM SINAIS DE CONGESTÃO AO EXAME FISICO E RX. MORTALIDADE CALCULADA EM 30 DIAS PELOS CRITERIOS TIMI EM 27%, MESMO COM TODO TTO OFERECIDO, RISCO QUE FOI EXPLICADO A FAMILIA E ORIENTADO O PACIENTE PARA PROCURAR ATENDIMENTO SE NECESSARIO.",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "INTERNA",
+      "INICIADO",
+      "INTERNAÇÃO",
+      "ALTA",
+      "ORIENTADO",
+      "PROCURAR ATENDIMENTO"
+    ],
+    "Conceito Temporal": [
+      "EVOLUÇÃO",
+      "SETIMA HORA",
+      "POS IAM",
+      "30 DIAS"
+    ],
+    "Doença ou Síndrome": [
+      "ACFA",
+      "CONGESTÃO",
+      "ICC",
+      "IAM ANTERIOR KILIIP II COM SUPRA ST",
+      "CONGESTÃO PULMONAR",
+      "BRE INTERMITENTE",
+      "ICE POS IAM",
+      "ACINESIA TOTAL DA PAREDE ANTEROSEPTAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ACFA",
+      "FORMAÇÃO DE ONDA Q",
+      "BRE INTERMITENTE",
+      "CLASSE FUNCIONAL II / III",
+      "PRESENÇA DE B3",
+      "FE 44%",
+      "ACINESIA TOTAL DA PAREDE ANTEROSEPTAL",
+      "B3 PERSISTENTE"
+    ],
+    "Abreviação": [
+      "ACFA",
+      "ECOCARDIO",
+      "ICC",
+      "RX",
+      "IAM ANTERIOR KILIIP II COM SUPRA ST",
+      "ACTP PRIMARIA",
+      "BRE INTERMITENTE",
+      "TTO CLINICO",
+      "ICE POS IAM",
+      "POS IAM",
+      "FE 44%",
+      "TTO OTIMIZADO",
+      "TTO OFERECIDO"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECOCARDIO",
+      "RX",
+      "EXAME FISICO"
+    ],
+    "Substância Química Orgânica": [
+      "BETABLOQUEADOR"
+    ],
+    "Substância Farmacológica": [
+      "BETABLOQUEADOR"
+    ],
+    "Organização Relacionada à Saúde": [
+      "INTERNAÇÃO"
+    ],
+    "Conceito Quantitativo": [
+      "27%",
+      "MORTALIDADE CALCULADA"
+    ],
+    "Ideia ou Conceito": [
+      "RISCO"
+    ],
+    "Grupo Familiar": [
+      "FAMILIA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ACTP PRIMARIA",
+      "IMPLANTE IMPLANTE DE DE STENT STENT",
+      "TRATADOS CLINICAMENTE",
+      "TTO CLINICO",
+      "TTO OTIMIZADO",
+      "TTO OFERECIDO"
+    ],
+    "Sinal ou Sintoma": [
+      "QUADRO TRANSITORIO",
+      "BAIXO DEBITO",
+      "TAQUICARDIA CONSTANTE",
+      "PRESENÇA DE B3",
+      "B3 PERSISTENTE",
+      "SINAIS DE CONGESTÃO"
+    ],
+    "Achado": [
+      "MELHORA SINTOMATICA",
+      "BOA TOLERANCIA"
+    ],
+    "Função Patológica": [
+      "COMPLICAÇÕES MECANICAS"
+    ],
+    "Classificação": [
+      "CRITERIOS TIMI"
+    ]
+  },
+  "labels": {
+    "CA22.0": {
+      "term_original": "sinais de congestão",
+      "capitulo": "12",
+      "confidence_embedding": 0.7961,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A paciente apresenta congestão pulmonar, o que sugere uma piora aguda das condições respiratórias. A escolha do código CA22.0 (Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada) é mais precisa porque a congestão pulmonar é um sintoma comum em pacientes com DPOC e outros problemas respiratórios.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A congestão pulmonar descrita no prontuário é um sintoma comum em pacientes com IAM e outros problemas cardíacos, mas não há evidência clínica suficiente para justificar a escolha do código CA22.0 (Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada). A congestão descrita no prontuário é mais provavelmente relacionada à condição cardíaca do paciente do que à DPOC.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BA41.0": {
+      "term_original": "iam anterior kiliip ii com supra st",
+      "capitulo": "11",
+      "confidence_embedding": 0.7284,
+      "descricao_cid": "Representação de doença CID-11: Infarto agudo do miocárdio com supradesnível de ST. Definição: Infarto agudo do miocárdio com supradesnível de ST (IAMCSST) é um infarto agudo do miocárdio com desenvolvimento de supradesnível de ST em duas derivações contíguas do eletrocardiograma. Os critérios de elevação do ST são os seguintes; novo supradesnível de ST no ponto J em duas derivações contíguas aplicando os pontos de corte: 0,2mV em homens> 40 anos; > 0,25mV em homens <40 anos, e > 0,15mV em mulheres.",
+      "classification_reasoning": "A presença de 'IAM anterior Kiliip II com supras ST' e a evolução para quadro transitorio de baixo debit, congestão pulmonar, ACFA, bre intermitente, todos tratados clinicamente, sugere um infarto agudo do miocárdio (IAM) com supradesnível de ST, caracterizando-se como IAMCSST.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de 'IAM anterior Kiliip II com supras ST' no prontuário é claramente uma descrição de um infarto agudo do miocárdio (IAM) com supradesnível de ST, caracterizando-se como IAMCSST. A evolução para quadro transitorio de baixo debit, congestão pulmonar, ACFA, bre intermitente, todos tratados clinicamente, confirma a presença de um IAM com supradesnível de ST. Portanto, o código CID-11 atribuído (BA41.0) é válido e representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "ICD11//BA49": {
+      "term_original": "icc",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'icc' é a Representação de doença CID-11: Insuficiência cardíaca congestiva, que se refere à condição do paciente com IA e implante de stent, apresentando sintomas como congestão pulmonar, acfa e bre intermitente, tratados clinicamente.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 ICD11//BA49 'Insuficiência cardíaca congestiva' é clinicamente coerente com o prontuário. O paciente apresenta sintomas de insuficiência cardíaca, como congestão pulmonar e acfa, após IAM anterior e implante de stent. A presença de taquicardia constante e B3 preditores de ICE pos IAM também suportam essa codificação. Além disso, a evolução para quadro transitório de baixo débito e congestão pulmonar, tratados clinicamente, é consistente com a insuficiência cardíaca congestiva.",
+      "tipo_erro_auditoria": null
+    },
+    "DD50.2": {
+      "term_original": "bre intermitente",
+      "capitulo": "13",
+      "confidence_embedding": 0.7008,
+      "descricao_cid": "Representação de doença CID-11: Hérnia intra-abdominal. Definição: Uma hérnia que ocorre dentro do abdômen através de abertura coberta pelo peritônio.",
+      "classification_reasoning": "A hérnia intra-abdominal (DD50.2) é a opção mais precisa para o termo 'bre intermitente', pois refere-se a uma protruzão do conteúdo abdominal através de uma abertura na parede abdominal, o que pode causar sintomas como dor e desconforto intermitentes no abdômen.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 DD50.2 'Hérnia intra-abdominal' não é clinicamente coerente com o prontuário, pois a descrição de 'bre intermitente' refere-se a sintomas abdominais intermitentes, enquanto a hérnia intra-abdominal se refere a uma protruzão do conteúdo abdominal. A codificação DD50.2 não está relacionada à condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BA41": {
+      "term_original": "ice pos iam",
+      "capitulo": "11",
+      "confidence_embedding": 0.7351,
+      "descricao_cid": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)",
+      "classification_reasoning": "A opção mais precisa para o termo 'ice pos iam' é BA41, pois refere-se a Infarto Agudo do Miocárdio (IAM), que ocorreu anteriormente e tem como consequência a formação de onda Q no eletrocardiograma (ECG). Além disso, o paciente apresenta sintomas de isquemia miocárdica aguda, como taquicardia constante e presença de B3, preditoras de ICE pos IAM.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção BA41 é justificada pois o termo 'ice pos iam' refere-se a Infarto Agudo do Miocárdio (IAM), que ocorreu anteriormente e tem como consequência a formação de onda Q no eletrocardiograma (ECG). Além disso, o paciente apresenta sintomas de isquemia miocárdica aguda, como taquicardia constante e presença de B3, preditoras de ICE pos IAM. A codificação CID-11 BA41 representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BC81.31": {
+      "term_original": "b3 persistente",
+      "capitulo": "11",
+      "confidence_embedding": 0.7474,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial persistente. Definição: Fibrilação atrial (FA) que é sustentada por mais de sete dias, ou durando menos de sete dias, mas necessitando de cardioversão farmacológica ou elétrica para restaurar o ritmo sinusal normal.",
+      "classification_reasoning": "A opção mais precisa é a Fibrilação Atrial Persistente (BC81.31) porque o paciente apresenta taquicardia constante e a presença de B3 persistente, sugerindo uma disritmia atrial crônica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'b3 persistente' não representa fielmente a Fibrilação Atrial Persistente (BC81.31). A presença de B3 persistente é um sinal de disritmia atrial crônica, mas não é sinônimo de fibrilação atrial. Além disso, o prontuário descreve uma evolução clínica complexa com IAM anterior, formação de onda Q e congestão pulmonar, que não está relacionada diretamente à Fibrilação Atrial Persistente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8D89.2": {
+      "term_original": "acinesia total da parede anteroseptal",
+      "capitulo": "08",
+      "confidence_embedding": 0.7213,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de taquicardia postural ortostática. Definição: Síndrome de taquicardia postural ortostática é um tipo de intolerância ortostática crônica com duração de três meses ou mais associada a taquicardia ereta excessiva na ausência de hipotensão ortostática, além de uma constelação de sintomas tipicamente diários que podem incluir sensação de \"cabeça leve\", tontura, náusea, dispneia, diaforese, dor de cabeça, fadiga e outros sintomas de disfunção autonômica. A taquicardia excessiva é definida por consenso atual como um aumento da frequência cardíaca de pelo menos 30 batimentos por minuto em adultos (40 batimentos por minuto para adolescentes), ou uma frequência cardíaca superior a 120 batimentos por minuto, dentro de 10 minutos do teste de inclinação vertical.",
+      "classification_reasoning": "A opção mais precisa para o termo 'acinesia total da parede anteroseptal' é a Síndrome de Taquicardia Postural Ortostática (Código: 8D89.2), pois a descrição refere-se à perda total do movimento muscular, que é característica dessa síndrome.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção 8D89.2 não é adequada porque a síndrome de taquicardia postural ortostática se refere à perda total do movimento muscular, o que não está relacionado ao termo 'acinesia total da parede anteroseptal', que se refere à falta de contração muscular na parede anteroseptal. A descrição do prontuário não apresenta sintomas de intolerância ortostática crônica ou taquicardia ereta excessiva, portanto, a opção 8D89.2 não é clínica e precisa ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB23.H": {
+      "term_original": "complicações mecanicas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7409,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A opção MB23.H 'Crise de pânico' é a mais precisa para o termo 'complicações mecanicas', pois não há nenhuma referência a parada cardíaca, bradicardia ou rigidez abdominal no contexto do prontuário. Ainda que haja referências à taquicardia e ao quadro transitorio de baixo débito, essas não são consideradas complicações mecanicas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção MB23.H 'Crise de pânico' não representa fielmente o termo 'complicações mecanicas'. A definição do código CID-11 é claramente relacionada a sintomas psicológicos e não há nenhuma referência à formação de onda Q, evolução para quadro transitorio de baixo débito, congestão pulmonar, ACFA, bré intermitente, etc. que são características do prontuário. Ainda que haja taquicardia e B3, essas não são consideradas complicações mecanicas.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB21.1": {
+      "term_original": "congestão pulmonar",
+      "capitulo": "12",
+      "confidence_embedding": 0.7942,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A congestão pulmonar é um sintoma importante no contexto do paciente, que apresenta uma evolução para quadro transitório de baixo débito e congestão pulmonar. O código CB21.1, Outro pneumotórax espontâneo, se refere à presença de fluidos na cavidade torácica, o que é compatível com a congestão pulmonar descrita.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A congestão pulmonar descrita no prontuário é um sintoma que pode estar relacionado a diversas causas, incluindo doenças cardíacas ou pulmonares. O código CB21.1, Outro pneumotórax espontâneo, não captura adequadamente essa complexidade e pode levar a uma codificação errônea. Além disso, o prontuário descreve que o paciente apresentou quadro transitório de baixo débito e congestão pulmonar, o que sugere que a congestão pulmonar não é exclusivamente relacionada ao pneumotórax espontâneo.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BC71.02": {
+      "term_original": "taquicardia constante",
+      "capitulo": "11",
+      "confidence_embedding": 0.8005,
+      "descricao_cid": "Representação de doença CID-11: Taquicardia ventricular sustentada. Definição: Taquicardia ventricular que tem duração de >30 segundos ou que causa instabilidade hemodinâmica.",
+      "classification_reasoning": "A taquicardia constante descrita no contexto clínico parece ser uma taquicardia ventricular sustentada, pois a paciente apresenta um quadro de baixo débito e congestão pulmonar, sugerindo instabilidade hemodinâmica.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A taquicardia constante descrita no prontuário é uma condição clínica que apresenta instabilidade hemodinâmica, o que se alinha com a definição do código CID-11 BC71.02 (Taquicardia ventricular sustentada). A paciente apresenta baixo débito e congestão pulmonar, o que sugere que a taquicardia está relacionada à instabilidade hemodinâmica.",
+      "tipo_erro_auditoria": null
+    },
+    "ACFA": {
+      "term_original": "acfa",
+      "capitulo": "13",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha para o termo ACFA é baseada na presença de Congestão Pulmonar (CP) e Acfa (Acute Cor Pulmonale Failure Syndrome) no relatório do prontuário, indicando uma insuficiência cardíaca aguda ou subaguda.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de Acfa (Acute Cor Pulmonale Failure Syndrome) no relatório do prontuário é uma condição clínica específica que não está diretamente relacionada ao termo 'acfa'. O código CID-11 ACFA se refere a uma síndrome específica, enquanto o termo 'acfa' no prontuário se refere à insuficiência cardíaca aguda ou subaguda. A escolha do código CID-11 não é clínamicamente coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "prontuario_id": 614,
+  "text": "Tx renal maio/15 DC - PKD.\nhematúria macroscópica pré-Tx - cistos? \nindução ATG - vigilância BK e CMV.\nMTC 5, MS 2 / 2, FK 2 / 3, BO, CVD 25 x2, Omega 3.\nS: Controles domiciliares adequados.\nO: PA 130 x 80, FC 80, sem edema, Peso 71,5kg.\nExames: Cr 2,1 / Hb 13,4 / PU com 30M leuc e 30M hem / UC neg / NS FK 12.\n \nFK 2 / 2 alternando 2 / 3\ninternamento para bx, US e Doppler.\nDecoy Cells\n \n ",
+  "entities": {
+    "Grupo Populacional": [
+      "DC"
+    ],
+    "Abreviação": [
+      "DC",
+      "PKD",
+      "pré-Tx",
+      "ATG",
+      "BK",
+      "MTC",
+      "MS",
+      "FK",
+      "BO",
+      "CVD",
+      "PA",
+      "FC",
+      "PU",
+      "bx",
+      "US",
+      "Tx renal",
+      "Cr 2 , 1",
+      "30M leuc",
+      "30M hem",
+      "UC neg",
+      "NS FK 12"
+    ],
+    "Doença ou Síndrome": [
+      "PKD",
+      "cistos"
+    ],
+    "Conceito Temporal": [
+      "pré-Tx"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "indução",
+      "ATG",
+      "Tx renal"
+    ],
+    "Substância Farmacológica": [
+      "ATG",
+      "MTC",
+      "MS",
+      "FK",
+      "BO",
+      "CVD",
+      "Omega 3"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "vigilância",
+      "internamento"
+    ],
+    "Bactéria": [
+      "BK"
+    ],
+    "Vírus": [
+      "CMV"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "MS",
+      "FK",
+      "CVD",
+      "Omega 3"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "80",
+      "2 / 2",
+      "2 / 3",
+      "25 x2",
+      "130 x 80",
+      "71 , 5kg"
+    ],
+    "Antibiótico": [
+      "MS"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC",
+      "Peso"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "edema",
+      "hematúria macroscópica"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Exames",
+      "Cr 2 , 1",
+      "Hb 13 , 4",
+      "30M leuc",
+      "30M hem",
+      "UC neg",
+      "NS FK 12"
+    ],
+    "Procedimento Laboratorial": [
+      "PU"
+    ],
+    "Procedimento Diagnóstico": [
+      "PU",
+      "bx",
+      "US",
+      "Doppler"
+    ],
+    "Substância Biologicamente Ativa": [
+      "Omega 3"
+    ]
+  },
+  "labels": {
+    "BD71.2": {
+      "term_original": "bk",
+      "capitulo": "11",
+      "confidence_embedding": 0.7533,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A presença de hematúria macroscópica e vigilância para BK sugere uma possibilidade de doença renal relacionada à transplante, o que justifica a escolha do código BD71.2, referente à trombose da veia renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de hematúria macroscópica e vigilância para BK não é uma condição clínica que represente trombose da veia renal. A vigilância para BK refere-se à detecção de infecções por BK vírus, comum em pacientes transplantados. Portanto, o código CID-11 BD71.2 não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD93": {
+      "term_original": "edema",
+      "capitulo": "11",
+      "confidence_embedding": 0.774,
+      "descricao_cid": "Representação de doença CID-11: Linfedema. Definição: Edema devido ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Geralmente afeta as extremidades, mas pode envolver qualquer parte do corpo. É desfigurante e aumenta a suscetibilidade a infecções recorrentes e malignidades locais.",
+      "classification_reasoning": "A presença de edema em um paciente com doença renal e história de PKD sugere a possibilidade de linfedema, uma condição que pode ser relacionada à disfunção da drenagem linfática nos tecidos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de edema descrita no prontuário não está diretamente relacionada à doença renal e história de PKD. O termo 'edema' pode ser encontrado em pacientes com diversas condições, incluindo doenças cardíacas ou pulmonares. A justificativa do sistema é baseada na suposição de que a presença de edema está relacionada à disfunção da drenagem linfática nos tecidos, o que não é claramente demonstrado no prontuário. Portanto, a codificação CID-11 'BD93' para 'Linfedema' não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "4B24.0": {
+      "term_original": "cmv",
+      "capitulo": "04",
+      "confidence_embedding": 0.744,
+      "descricao_cid": "Representação de doença CID-11: Doença do enxerto versus hospedeiro aguda. Definição: Doença do enxerto-versus-hospedeiro apresentando-se normalmente nos primeiros 100 dias após o transplante. Manifesta-se mais comumente com erupção maculopapular acompanhada de febre. O prognóstico se correlaciona com a extensão do acometimento cutâneo, que pode evoluir para necrólise epidérmica generalizada, e com a gravidade do acometimento gastrointestinal e hepático que pode se manifestar com diarreia e icterícia respectivamente. A mortalidade é alta na doença do enxerto-versus-hospedeiro aguda grave.",
+      "classification_reasoning": "A presença de vigilância para Cytomegalovirus (CMV) e a possibilidade de doença do enxerto-versus-hospedeiro aguda após transplante renal justificam a escolha desse código.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de vigilância para Cytomegalovirus (CMV) e a possibilidade de doença do enxerto-versus-hospedeiro aguda após transplante renal justificam a escolha desse código. A codificação CID-11 4B24.0 é clínica e coerente com o prontuário, pois há vigilância para CMV e risco de doença do enxerto-versus-hospedeiro aguda após transplante renal.",
+      "tipo_erro_auditoria": null
+    },
+    "MF96": {
+      "term_original": "hematúria macroscópica",
+      "capitulo": "21",
+      "confidence_embedding": 0.8153,
+      "descricao_cid": "Representação de doença CID-11: Proteinúria. Definição: O excesso de proteínas séricas na urina, como na doença renal, em que a albumina é a proteína principal, porém também pode ser devido a outras proteínas, como imunoglobulinas de cadeias leves na discrasia de células plasmáticas como o mieloma múltiplo.",
+      "classification_reasoning": "A hematúria macroscópica é uma descrição de proteinúria, caracterizada pelo excesso de proteínas séricas na urina. Como a paciente tem doença renal e PKD (poliquistose renal), a escolha do código MF96 é mais precisa para descrever a sintomatologia apresentada.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hematúria macroscópica é uma descrição de proteinúria, caracterizada pelo excesso de proteínas séricas na urina. Como a paciente tem doença renal e PKD (poliquistose renal), a escolha do código MF96 é mais precisa para descrever a sintomatologia apresentada. A codificação CID-11 está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "GB81": {
+      "term_original": "cistos",
+      "capitulo": "16",
+      "confidence_embedding": 0.8116,
+      "descricao_cid": "Representação de doença CID-11: Doença renal policística autossômica dominante. Definição: Cistos múltiplos em ambos os rins aumentando em número e tamanho a partir da adolescência, associados ao desenvolvimento de hipertensão e insuficiência renal crônica. O padrão familiar autossômico dominante é comum e devido a mutações nos cromossomos 16 e 4. As manifestações não renais podem incluir cistos no fígado e menos comumente no pâncreas. Aneurismas arteriais cerebrais com hemorragia subaracnoide e outras anormalidades vasculares não renais também podem ocorrer.",
+      "classification_reasoning": "A presença de cistos é mencionada como uma característica da Doença Renal Polycística Autossômica Dominante (PKD), que é a razão pelo qual o paciente foi submetido à transplantação renal. A descrição do termo 'cistos' no contexto clínico aponta para essa condição.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de cistos é mencionada como uma característica da Doença Renal Polycística Autossômica Dominante (PKD), que é a razão pelo qual o paciente foi submetido à transplantação renal. A descrição do termo 'cistos' no contexto clínico aponta para essa condição, portanto, a codificação CID-11 como GB81 é válida e representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "GB41": {
+      "term_original": "pkd",
+      "capitulo": "16",
+      "confidence_embedding": 0.7942,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrótica. Definição: Condição caracterizada por proteinúria grave, superior a 3,5 g/dia em um adulto médio. A perda substancial de proteína na urina resulta em hipoalbuminemia e edema generalizado. Em geral também há hiperlipidemia. Outras manifestações da doença glomerular podem estar presentes. Existem muitas causas possíveis e apresentações histológicas renais. As possíveis complicações incluem trombose vascular, infecções, desnutrição e insuficiência renal.",
+      "classification_reasoning": "A opção mais precisa para o termo 'PKD' é a Síndrome Nefrótica (GB41), considerando que a paciente apresenta hematúria macroscópica e cistos, características comuns da doença. Além disso, a descrição da síndrome nefrótica menciona a possibilidade de haver muitas causas possíveis, o que é consistente com a informação de que a paciente tem PKD (Poliquistose Renal).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'PKD' é a Síndrome Nefrótica (GB41), considerando que a paciente apresenta hematúria macroscópica e cistos, características comuns da doença. Além disso, a descrição da síndrome nefrótica menciona a possibilidade de haver muitas causas possíveis, o que é consistente com a informação de que a paciente tem PKD (Poliquistose Renal). Ajustamento clínico: a codificação CID-11 GB41 para a Síndrome Nefrótica é justificada pela presença de hematúria macroscópica e cistos, características comuns da doença.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

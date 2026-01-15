@@ -1,0 +1,212 @@
+{
+  "prontuario_id": 350,
+  "text": "10:00hs - POI de nefrectomia e esplenectomia, glasglow 15, pupilas isocóricas e fotoreagentes, respiração espontanea com suporte de névoa ´mida saturando 100%, AVPMSE com soroterapia gravitacional em curso, SVD com diurese presente. Monitorizado com PNI: 120x90 mmHg, cardioscopia com Fc: 75 bpm e oximetria depulso, mucosa coradas, AP: MV presentes e roncos esparsos com tosse efetiv, abdomen flácido , doloroso a palpação com RH presente, curativo de laparotomia com um ponto pouco sangrante, DTF a esquerda pouco hemático e sem fuga aerea, extremidades aquecidas e bem perfundidas. Enfermeira Florence Nightingale. TRAUMATISMO DE REGIAO NAO ESPECIFICADA DO CORPO.",
+  "entities": {
+    "Conceito Temporal": [
+      "POI"
+    ],
+    "Abreviação": [
+      "POI",
+      "AVPMSE",
+      "SVD",
+      "PNI",
+      "Fc",
+      "AP",
+      "DTF",
+      "75 bpm",
+      "MV presentes",
+      "RH presente"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "nefrectomia",
+      "esplenectomia",
+      "AVPMSE",
+      "SVD",
+      "PNI",
+      "DTF",
+      "suporte de névoa ´mida",
+      "soroterapia gravitacional",
+      "curativo de laparotomia"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "pupilas",
+      "abdomen"
+    ],
+    "Achado": [
+      "isocóricas",
+      "fotoreagentes",
+      "flácido",
+      "glasglow 15",
+      "respiração espontanea",
+      "saturando 100%",
+      "mucosa coradas",
+      "MV presentes",
+      "RH presente",
+      "extremidades aquecidas",
+      "bem perfundidas"
+    ],
+    "Dispositivo Médico": [
+      "AVPMSE",
+      "SVD"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Monitorizado"
+    ],
+    "Procedimento Diagnóstico": [
+      "PNI",
+      "cardioscopia",
+      "AP",
+      "palpação",
+      "oximetria depulso"
+    ],
+    "Atributo Clínico": [
+      "Fc"
+    ],
+    "Sinal ou Sintoma": [
+      "doloroso",
+      "hemático",
+      "roncos esparsos",
+      "tosse efetiv",
+      "ponto pouco sangrante",
+      "fuga aerea"
+    ],
+    "Conceito Espacial": [
+      "esquerda"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Função de Organismo": [
+      "diurese presente"
+    ],
+    "Conceito Quantitativo": [
+      "120x90 mmHg",
+      "75 bpm"
+    ]
+  },
+  "labels": {
+    "BC61": {
+      "term_original": "isocóricas",
+      "capitulo": "11",
+      "confidence_embedding": 0.7939,
+      "descricao_cid": "Representação de doença CID-11: Despolarização juncional prematura. Definição: Despolarização elétrica cardíaca originando-se do nó atrioventricular compacto ou feixe de His, ocorrendo antes do batimento sinusal esperado.",
+      "classification_reasoning": "A termo 'isocóricas' se refere à equalidade de tamanho das pupilas, o que é um indício de despolarização juncional prematura (BC61). Isso ocorre quando a despolarização elétrica cardíaca origina-se do nó atrioventricular compacto ou feixe de His, ocorrendo antes do batimento sinusal esperado.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A termo 'isocóricas' se refere à equalidade de tamanho das pupilas, o que não é diretamente relacionado à despolarização juncional prematura (BC61). A despolarização juncional prematura é um fenômeno cardíaco, enquanto a igualdade de tamanho das pupilas é uma característica oftalmológica. Portanto, a codificação CID-11 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA80.4": {
+      "term_original": "flácido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7628,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'flácido' é a degeneração de disco intervertebral da coluna torácica sem prolapso de disco (FA80.4), pois flácido refere-se à perda de tonus muscular e rigidez, comum em casos de lesões ou doenças que afetam o sistema nervoso e músculos, como a degeneração do disco intervertebral.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'flácido' não está relacionado à degeneração de disco intervertebral da coluna torácica sem prolapso de disco (FA80.4). A descrição do prontuário refere-se ao estado abdominal flácido, que não é uma condição clínica diretamente relacionada à degeneração do disco intervertebral. Portanto, a codificação CID-11 FA80.4 não representa fielmente o termo ou condição descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "NB32.6Z": {
+      "term_original": "fuga aerea",
+      "capitulo": "22",
+      "confidence_embedding": 0.7714,
+      "descricao_cid": "Representação de doença CID-11: Lesão da pleura, não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'fuga aerea' é NB32.6Z, Lesão da pleura, não especificada, pois a menção de 'DTF a esquerda pouco hemático e sem fuga aerea' sugere lesão pleural ou traçado da pleura sem escape de ar.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão pleural não é diretamente relacionada à 'fuga aerea', que se refere ao escape de ar da pleura. A menção de 'DTF a esquerda pouco hemático e sem fuga aerea' sugere que o termo 'fuga aerea' está sendo usado para descrever um estado normal, não uma lesão. Portanto, a codificação CID-11 NB32.6Z não é clínica ou coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA22.0": {
+      "term_original": "respiração espontanea",
+      "capitulo": "12",
+      "confidence_embedding": 0.7799,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A presença de respiração espontânea e saturando 100% sugere um agravamento dos sintomas respiratórios, caracterizando uma exacerbação aguda não especificada da Doença Pulmonar Obstrutiva Crônica (DPOC).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'respiração espontânea' no prontuário não é suficiente para justificar a codificação CID-11 CA22.0, que representa uma exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC). A análise do prontuário revela que o paciente apresenta nefrectomia e esplenectomia, glasglow 15, pupilas isocóricas e fotoreagentes, entre outros achados clínicos. Embora a respiração seja espontânea, não há evidência de DPOC ou exacerbação aguda da mesma. A codificação CA22.0 é demasiado específica para o termo 'respiração espontânea' e não está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GA19.0": {
+      "term_original": "hemático",
+      "capitulo": "16",
+      "confidence_embedding": 0.7961,
+      "descricao_cid": "Representação de doença CID-11: Hematoma do ligamento largo. Definição: Condição que afeta mulheres, causada por parto, traumatismo ou cirurgia. Esta condição é caracterizada por uma laceração na parte superior da vagina, colo do útero ou útero que se estende para as artérias uterinas ou vaginais, sangramento (embora nem sempre com sangramento vaginal óbvio), dor nas costas, pressão na área retoanal, tontura, hipotensão ou anemia . A confirmação é feita por exame retovaginal para descartar coagulação e expansão do hematoma.",
+      "classification_reasoning": "A presença do termo 'hemático' no contexto clínico sugere que a lesão é relacionada ao sangramento, o que se encaixa com a definição de Hematoma do ligamento largo (GA19.0), uma condição caracterizada por sangramento e dor após parto, traumatismo ou cirurgia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A condição descrita no prontuário refere-se a uma lesão abdominal e hemorrágica, não relacionada ao parto ou traumatismo. A definição do código CID-11 GA19.0 se refere especificamente a um hematoma do ligamento largo após parto, traumatismo ou cirurgia, o que não é compatível com a situação clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA80.5": {
+      "term_original": "doloroso",
+      "capitulo": "15",
+      "confidence_embedding": 0.7514,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica com prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'doloroso' é a degeneração de disco intervertebral da coluna torácica com prolapso de disco, pois há referência à palpação do abdome doloroso.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação FA80.5 não está relacionada ao termo 'doloroso' no prontuário, que descreve dor abdominal após nefrectomia e esplenectomia. A degeneração de disco intervertebral da coluna torácica com prolapso de disco não é uma condição clínica diretamente relacionada à dor abdominal. Portanto, a codificação não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BC62": {
+      "term_original": "mv presentes",
+      "capitulo": "11",
+      "confidence_embedding": 0.7607,
+      "descricao_cid": "Representação de doença CID-11: Via acessória. Definição: Conexão elétrica adicional que tipicamente desvia do nó AV, tipicamente inserindo-se diretamente no miocárdio atrial e ventricular, mas também pode se conectar ao sistema de condução especializado (p.ex., o feixe de His, feixes direito ou esquerdo, ou um dos fascículos).",
+      "classification_reasoning": "A presença de MV (movimentos ventriculares) no contexto da nefrectomia e esplenectomia sugere a presença de uma via acessória, pois essa condição é caracterizada por conexões elétricas adicionais que desviam do nó AV. Além disso, a ausência de sintomas cardíacos mais graves nos dados clínicos sugere que a via acessória pode estar funcionando adequadamente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de MV (movimentos ventriculares) no contexto da nefrectomia e esplenectomia não é uma representação clínica de via acessória. A definição do código CID-11 BC62 refere-se a conexões elétricas adicionais que desviam do nó AV, enquanto o termo 'MV presentes' se refere apenas à presença de movimentos ventriculares, sem relação com a definição do código. Portanto, não há uma correspondência clínica entre o termo e o código.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9B94.1": {
+      "term_original": "fotoreagentes",
+      "capitulo": "09",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A presença de 'fotoreagentes' na descrição clínica sugere uma resposta ao estímulo luminoso, o que é característico da síndrome da íris flácida (Código 9A94.1). Esta escolha se justifica pela presença de pupilas isocóricas e fotoreagentes no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'fotoreagentes' na descrição clínica não está relacionada à síndrome da íris flácida. A fotossensibilidade é um fenômeno característico da retina, e não está presente no prontuário. A escolha do código 9B94.1 é errônea e não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD2Z": {
+      "term_original": "roncos esparsos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7019,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia das vias respiratórias, não especificada. Definição: ",
+      "classification_reasoning": "O termo 'roncos esparsos' refere-se à presença de hemorragia nas vias respiratórias, o que é compatível com a descrição do código MD2Z.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'roncos esparsos' refere-se a um sintoma, enquanto o código MD2Z representa uma doença. Embora haja uma relação entre hemorragia nas vias respiratórias e roncos, não há evidência clínica suficiente para justificar a atribuição do código MD2Z ao termo 'roncos esparsos'. A codificação CID-11 deve ser mais específica e precisa, refletindo melhor a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "NE81.0Z": {
+      "term_original": "ponto pouco sangrante",
+      "capitulo": "22",
+      "confidence_embedding": 0.7269,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NE81.0Z pois o termo 'ponto pouco sangrante' sugere uma lesão hemorrágica não especificada que está complicando um procedimento (laparotomia) e não é classificável em outra parte do Código CID-11.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'ponto pouco sangrante' é muito amplo e não especifica a localização da hemorragia. Além disso, o prontuário descreve uma laparotomia recente, o que sugere que a lesão pode ser relacionada ao procedimento. Portanto, a codificação NE81.0Z é muito genérica e não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MD12": {
+      "term_original": "tosse efetiv",
+      "capitulo": "21",
+      "confidence_embedding": 0.744,
+      "descricao_cid": "Representação de doença CID-11: Tosse. Definição: Tosse é um importante mecanismo natural de defesa e reflexo protetor para limpeza das vias aéreas superiores e inferiores de secreções excessivas como muco e de partículas inaladas. A tosse é um sintoma comum da maioria dos transtornos respiratórios e pode ser indicativa de doenças triviais ou muito graves de vias aéreas ou pulmões.",
+      "classification_reasoning": "A tosse efetiv é um sintoma presente no prontuário, relacionado à respiração espontânea e ao suporte de névoa com saturação de 100%. A opção MD12 se ajusta melhor ao contexto clínico, pois descreve a tosse como um mecanismo natural de defesa para limpeza das vias aéreas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A tosse efetiv é um sintoma presente no prontuário, mas o código CID-11 MD12 descreve a tosse como um mecanismo natural de defesa para limpeza das vias aéreas. Embora a tosse seja mencionada no prontuário, não há evidência clínica suficiente para justificar a classificação como uma doença (MD12). A análise do prontuário sugere que a tosse é um sintoma secundário à nefrectomia e esplenectomia, e não uma condição diagnóstica isolada.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "EB13.1": {
+      "term_original": "mucosa coradas",
+      "capitulo": "14",
+      "confidence_embedding": 0.763,
+      "descricao_cid": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável.",
+      "classification_reasoning": "A expressão 'mucosa coradas' é similar à descrição de Necrólise Epidérmica Tóxica (NET) no contexto clínico, que menciona envolvimento das mucosas. Isso justifica a escolha do código EB13.1.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A expressão 'mucosa coradas' não é suficientemente específica para justificar a escolha do código EB13.1, que descreve uma doença cutânea aguda com envolvimento extensivo da epiderme e mucosas. A descrição no prontuário apenas menciona o envolvimento de mucosas, mas não apresenta características clínicas específicas que justifiquem a escolha do código EB13.1.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "prontuario_id": 322,
+  "text": "PACIENTE COM QUEIXA DE PRURIDO EM NARIZ ESQUERDO.\n\nRINO: HIPEREMIA DE CONCHA NASAL BILATERAL E HIPERTROFIA DE CORNETO.\n\nCONDUTA: BUDESONIDA + LAVAGEM NASAL + LORATADINA + RETORNO EM 2 MESES.        ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Substância Farmacológica": [
+      "BUDESONIDA",
+      "LORATADINA"
+    ],
+    "Substância Química Orgânica": [
+      "BUDESONIDA",
+      "LORATADINA"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXA DE PRURIDO",
+      "HIPEREMIA DE CONCHA NASAL BILATERAL",
+      "HIPERTROFIA DE CORNETO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "NARIZ ESQUERDO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "LAVAGEM NASAL"
+    ]
+  },
+  "labels": {
+    "CA08.0": {
+      "term_original": "queixa de prurido",
+      "capitulo": "12",
+      "confidence_embedding": 0.7469,
+      "descricao_cid": "Representação de doença CID-11: Rinite alérgica. Definição: Rinite alérgica é uma inflamação de via aérea nasal desencadeada por alérgenos aos quais o indivíduo afetado foi previamente sensibilizado. A patogênese da rinite alérgica é uma reação alérgica tipo I na mucosa nasal. Antígenos inalados em contato com a mucosa nasal sensibilizada ligam-se a anticorpos IgE nos mastócitos, que liberam mediadores químicos como histamina e peptídeos de leucotrienos. Consequentemente, as terminações nervosas sensitivas e vasos sanguíneos reagem provocando espirros, coriza e obstrução nasal (fase de resposta imediata). Na fase de resposta tardia, vários mediadores químicos são produzidos pelos mastócitos, citocinas são produzidas por células Th2 e mastócitos, e quimiocinas são produzidas por células epiteliais, pelo endotélio vascular e pelos fibrócitos, respectivamente. Tais transmissores derivados dessas células efetivamente induzem a infiltração de vários tipos de células inflamatórias na mucosa nasal. Entre elas, os eosinófilos ativados são os principais responsáveis pelo edema e pela hiper-reatividade da mucosa.",
+      "classification_reasoning": "A queixa de prurido nasal sugere uma inflamação alérgica na mucosa nasal, e o diagnóstico de Rinite alérgica está bem suportado pelas características clínicas da doença, como espirros, coriza e obstrução nasal, bem como a hiperemia de concha nasal bilateral e hipertrofia de corneto, descritas no prontuário.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A queixa de prurido nasal é uma característica clínica comum em pacientes com Rinite alérgica. A presença de hiperemia de concha nasal bilateral e hipertrofia de corneto também suporta o diagnóstico de Rinite alérgica. Portanto, a codificação CID-11 CA08.0 como Representação de doença: Rinite alérgica é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "9A78.50": {
+      "term_original": "hipertrofia de corneto",
+      "capitulo": "09",
+      "confidence_embedding": 0.6713,
+      "descricao_cid": "Representação de doença CID-11: Ceratocone. Definição: Ceratocone é uma distrofia corneana não inflamatória, geralmente bilateral, caracterizada por protuberância em forma de cone progressiva e afinamento da córnea.",
+      "classification_reasoning": "A hipertrofia de corneto é característica da ceratocone, uma distrofia corneana não inflamatória que provoca protuberância em forma de cone progressiva e afinamento da córnea.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hipertrofia de corneto descrita no prontuário é uma característica da ceratocone, uma distrofia corneana não inflamatória. A codificação CID-11 9A78.50 para 'Ceratocone' é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "CA08.3": {
+      "term_original": "hiperemia de concha nasal bilateral",
+      "capitulo": "12",
+      "confidence_embedding": 0.7389,
+      "descricao_cid": "Representação de doença CID-11: Rinite vasomotora. Definição: Rinite vasomotora é uma forma de inflamação não alérgica da mucosa nasal que é caracterizada por congestão nasal e gotejamento faríngeo posterior. Gatilhos não alérgicos causam dilatação dos vasos sanguíneos no revestimento nasal, o que resulta em edema e drenagem.",
+      "classification_reasoning": "A hiperemia de concha nasal bilateral é mais consistente com a rinite vasomotora, uma forma de inflamação não alérgica da mucosa nasal caracterizada por congestão nasal e gotejamento faríngeo posterior.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hiperemia de concha nasal bilateral descrita no prontuário é consistente com a rinite vasomotora, uma forma de inflamação não alérgica da mucosa nasal caracterizada por congestão nasal e gotejamento faríngeo posterior. A codificação CID-11 CA08.3 representa fielmente essa condição clínica descrita no prontuário, portanto, é válido.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "prontuario_id": 465,
+  "text": "TX RENAL EM 6/8/2011 = PRA ZERO\nUSO MTC 5, TAC 1 / 1, MYF 1 / 1\nOMZ, LANTUS 30, AAS, MONOCORDIL, CILOSTASOL, LST, CRESTOR, CVL\nS: SENTE-SE BEM\nO: BEG, LOTE, CORADO\nPESO 73 KG PA 130*80\nEF NORMAL\nA: CR  0,8 VG 46% TAC 6,0 GJ 117 PU NORMAL URO NEG\nP: MANTIDO CONDUTA\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "MTC",
+      "TAC",
+      "MYF",
+      "OMZ",
+      "AAS",
+      "LST",
+      "CVL",
+      "BEG",
+      "LOTE",
+      "PA",
+      "EF",
+      "TX RENAL",
+      "CR 0 , 8",
+      "VG 46%",
+      "TAC 6 , 0",
+      "GJ 117",
+      "PU NORMAL",
+      "URO NEG"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "30",
+      "130*80",
+      "1 / 1",
+      "73 KG"
+    ],
+    "Substância Farmacológica": [
+      "TAC",
+      "MYF",
+      "OMZ",
+      "LANTUS",
+      "AAS",
+      "MONOCORDIL",
+      "CILOSTASOL",
+      "LST",
+      "CRESTOR",
+      "CVL"
+    ],
+    "Substância Química Orgânica": [
+      "TAC",
+      "MYF",
+      "OMZ",
+      "LANTUS",
+      "AAS",
+      "MONOCORDIL",
+      "CILOSTASOL",
+      "LST",
+      "CRESTOR",
+      "CVL"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "LANTUS"
+    ],
+    "Hormônio": [
+      "LANTUS"
+    ],
+    "Achado": [
+      "BEG",
+      "LOTE",
+      "CORADO",
+      "NORMAL",
+      "SENTE-SE BEM"
+    ],
+    "Atributo Clínico": [
+      "PESO",
+      "PA"
+    ],
+    "Procedimento Diagnóstico": [
+      "EF"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 8",
+      "VG 46%",
+      "TAC 6 , 0",
+      "GJ 117",
+      "PU NORMAL",
+      "URO NEG"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "MANTIDO CONDUTA"
+    ]
+  },
+  "labels": {
+    "BD71.2": {
+      "term_original": "lote",
+      "capitulo": "11",
+      "confidence_embedding": 0.754,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A presença do termo 'lote' no contexto clínico é relacionada à trombose da veia renal, pois o termo não está associado a doenças renais hipertensivas, síndromes de alto débito ou insuficiência cardíaca congestiva. A única opção que apresenta uma relação com 'lote' é a trombose da veia renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença do termo 'lote' no prontuário não está relacionada à trombose da veia renal. O termo 'lote' não tem nenhuma conexão clínica com a doença renal ou cardiovascular, e sua inclusão no código CID-11 é uma associação puramente imaginária.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD12": {
+      "term_original": "beg",
+      "capitulo": "11",
+      "confidence_embedding": 0.769,
+      "descricao_cid": "Representação de doença CID-11: Síndromes de alto débito. Definição: Aumento do débito cardíaco acima do normal associado a anemia, fístulas arteriovenosas, tireotoxicose e outras síndromes. Pode resultar em insuficiência cardíaca.",
+      "classification_reasoning": "A opção BD12 (Síndromes de alto débito) é a mais precisa para o termo 'beg' no contexto clínico, pois Beg é um termo frequentemente utilizado em cardiologia para se referir à síndrome do débito cardíaco aumentado.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção BD12 (Síndromes de alto débito) é a mais precisa para o termo 'beg' no contexto clínico, pois Beg é um termo frequentemente utilizado em cardiologia para se referir à síndrome do débito cardíaco aumentado. A presença do termo 'PRA ZERO' e 'EF NORMAL' no prontuário também apoia a escolha da opção BD12.",
+      "tipo_erro_auditoria": null
+    },
+    "9B10.21": {
+      "term_original": "corado",
+      "capitulo": "09",
+      "confidence_embedding": 0.7171,
+      "descricao_cid": "Representação de doença CID-11: Catarata diabética. Definição: Refere-se a um grupo não especificado de doenças metabólicas em que a pessoa apresenta glicose sanguínea aumentada, seja porque o pâncreas não produz insulina suficiente ou porque as células não respondem à insulina que é produzida. Esse diagnóstico é quando há catarata diabética.",
+      "classification_reasoning": "A presença do termo 'corado' no contexto do prontuário sugere uma possível relação com a catarata, considerando-se que o paciente apresenta um uso de medicamento como CRESTOR, que é uma estatina indicada para prevenir a formação de placas de colesterol nos vasos sanguíneos e reduzir os riscos de doenças cardiovasculares. Além disso, a catarata diabética é uma condição comum em pacientes com diabetes, o que justifica a escolha do código 9B10.21",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença do termo 'corado' no prontuário não está diretamente relacionada à catarata diabética. O termo 'corado' pode ser uma referência a outro tipo de doença ou sintoma, e não há nenhuma evidência clínica que justifique a escolha do código 9B10.21. Além disso, o uso de CRESTOR não é suficiente para estabelecer uma relação direta com a catarata diabética.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

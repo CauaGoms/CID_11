@@ -1,0 +1,65 @@
+{
+  "prontuario_id": 783,
+  "text": "Paciente com desenvolvimento de Acinetobacter baumannii resistente a carbapenêmicos em cultura de aspiratotraqueal concluído de forma parcial.  ** Instaurar medidas de precaução por contato até a alta hospitalar **.  * Uso de avental de contágio e luvas *. EPILEPSIA E SINDROMES EPILEPTICAS IDIOPATICAS DEFINIDAS POR SUA LOCALIZACAO FOCAL PARCIAL COM CRISES DE INICIO FOCAL.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Dispositivo Médico": [
+      "luvas",
+      "Uso de avental de contágio"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "luvas",
+      "medidas de precaução por contato",
+      "Uso de avental de contágio"
+    ],
+    "Doença ou Síndrome": [
+      "EPILEPSIA",
+      "SINDROMES EPILEPTICAS IDIOPATICAS",
+      "FOCAL PARCIAL",
+      "CRISES DE INICIO FOCAL"
+    ],
+    "Bactéria": [
+      "Acinetobacter baumannii resistente a carbapenêmicos"
+    ],
+    "Procedimento Laboratorial": [
+      "cultura de aspiratotraqueal"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "alta hospitalar"
+    ]
+  },
+  "labels": {
+    "8A61.22": {
+      "term_original": "epilepsia",
+      "capitulo": "08",
+      "confidence_embedding": 0.8007,
+      "descricao_cid": "Representação de doença CID-11: Epilepsia com crises epilépticas mioclônicas-astáticas. Definição: Epilepsia iniciando entre o segundo e quinto ano de vida em uma criança previamente normal com história familiar de convulsões, que inicialmente se manifesta com convulsões tônico-clônicas e com crises mioclônicas-astáticas começando várias semanas depois. Estas convulsões são caracterizadas por súbita perda do tônus mucular associada a propulsão para frente ou para trás que podem resultar em lesão de face e cabeça se o paciente cair.",
+      "classification_reasoning": "A escolha do código 8A61.22 se baseia na descrição de epilepsia com crises epilépticas mioclônicas-astáticas, que coincide com a sintomatologia mencionada no prontuário ('EPILEPSIA E SINDROMES EPILEPTICAS IDIOPATICAS DEFINIDAS POR SUA LOCALIZACAO FOCAL PARCIAL COM CRISES DE INICIO FOCAL').",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário refere-se a epilepsia com crises epilépticas focal parcial, enquanto o código CID-11 atribuído (8A61.22) se refere a uma forma específica de epilepsia mioclônica-astática. Embora haja sintomatologia semelhante, a natureza da doença é diferente. Portanto, não há correspondência clínica entre o termo 'epilepsia' e o código CID-11 atribuído.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A61.40": {
+      "term_original": "sindromes epilepticas idiopaticas",
+      "capitulo": "08",
+      "confidence_embedding": 0.7764,
+      "descricao_cid": "Representação de doença CID-11: Epilepsias reflexas. Definição: As epilepsias reflexas são síndromes epilépticas raras com crises epilépticas induzidas por fatores desencadeantes específicos (por estimulação visual, auditiva, somato-sensitiva ou somato-motora, ou por atividades de função cortical superior). As epilepsias fotossensíveis são a forma mais frequente. Também podem ocorrer crises epilépticas espontâneas. As \"crises reflexas\" podem ser classificadas em uma epilepsia reflexa \"pura\" simples e um grupo complexo. A primeira compreende as crises desencadeadas por estímulos sensoriais simples ou por movimentos (epilepsias fotossensíveis). As últimas são desencadeadas por complexos processos mentais e emocionais (epilepsias verbais e não verbais).",
+      "classification_reasoning": "A escolha do código 8A61.40 (Epilepsias reflexas) é mais precisa porque o termo 'sindromes epilepticas idiopaticas' sugere que as crises epilépticas são inesperadas e não estão relacionadas a uma infecção ou demência, como sugerido por outros códigos. Além disso, a presença de crises epilépticas focais parciais com início focal também é consistente com a definição das epilepsias reflexas.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código 8A61.40 (Epilepsias reflexas) é justificada porque o termo 'sindromes epilepticas idiopaticas' sugere que as crises epilépticas são inesperadas e não estão relacionadas a uma infecção ou demência, como sugerido por outros códigos. Além disso, a presença de crises epilépticas focais parciais com início focal também é consistente com a definição das epilepsias reflexas.",
+      "tipo_erro_auditoria": null
+    },
+    "1D03.33": {
+      "term_original": "acinetobacter baumannii resistente a carbapenêmicos",
+      "capitulo": "01",
+      "confidence_embedding": 0.7394,
+      "descricao_cid": "Representação de doença CID-11: Abscesso intracraniano múltiplo ou disseminado. Definição: Múltiplas infecções supurativas focais dentro da cavidade craniana, incluindo os espaços epidural e subdural, ou no cérebro, tronco cerebral ou cerebelo. Os abscessos são tipicamente circundados por uma cápsula vascularizada. Cerebrite descreve abscessos cerebrais não encapsulados. O agente infeccioso pode ser bacteriano, fúngico ou parasitário. Os sinais e sintomas são variáveis, mas geralmente se apresentam como uma lesão de massa em expansão, por um período variável de tempo, com cefaleia, febre e um déficit neurológico focal. Podem ocorrer convulsões. O diagnóstico é feito por neuroimagem e testes microbiológicos como coloração de Gram e cultura de material do abscesso.",
+      "classification_reasoning": "A escolha do código 1D03.33 se justifica porque o termo extraído 'acinetobacter baumannii resistente a carbapenêmicos' é relacionado ao desenvolvimento de infecção bacteriana no sistema nervoso central, especificamente abscesso intracraniano múltiplo ou disseminado.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 1D03.33 não é justificada, pois o termo extraído 'acinetobacter baumannii resistente a carbapenêmicos' refere-se à infecção bacteriana em cultura de aspirato-traqueal, enquanto o código CID-11 descreve abscesso intracraniano múltiplo ou disseminado. A relação entre os dois não é clínica e justificada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

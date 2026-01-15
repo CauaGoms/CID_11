@@ -1,0 +1,167 @@
+{
+  "prontuario_id": 646,
+  "text": "7:30 - 1º DI POR DISPNÉIA. PORTADOR DE FIBROSE PULMONAR.  CONSCIENTE, ORIENTADO, DISPNÉICO AOS ESFORÇOS, VERBALIZANDO, MANTENDO REPOUSO EM SEMI-FOLWER E AUXÍLIO DE O2 (5L/MIN)  EM MÁSCARA FACIAL. BCRNF, AP MV + BILATERAL, COM RONCOS EM BASE BILATERAL. ABDOMEN GLOBOSO, DEPRESSÍVEL, COM PERISTALTISMO PRESENTE. DIURESE ESPONTÂNEA PRESENTE. REFERE EVACUAÇÃO AUSENTE HÁ UM DIA. USO DE FRALDA DESCARTÁVEL. ORIENTO SOBRE REPOUSO NO LEITO. ACEITA DIETA OFERECIDA.  MANTÉM OXÍMETRO COM 91% SAT O2, 98 bpm, 140/90 mmHg, TEMP 35,9ºC.  SEGUE SOB CUIDADOS DA EQUIPE MULTIPROFISSIONAL. AGUARDA VAGA EM UI. SINDROME DO DESCONFORTO RESPIRATORIO DO ADULTO.",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "DISPNÉIA",
+      "RONCOS",
+      "DISPNÉICO AOS ESFORÇOS"
+    ],
+    "Achado": [
+      "CONSCIENTE",
+      "ORIENTADO",
+      "VERBALIZANDO",
+      "BCRNF",
+      "GLOBOSO",
+      "DEPRESSÍVEL",
+      "PERISTALTISMO PRESENTE",
+      "DIURESE ESPONTÂNEA PRESENTE"
+    ],
+    "Conceito Quantitativo": [
+      "5L/MIN",
+      "91%",
+      "98 bpm",
+      "140/90 mmHg",
+      "35 , 9ºC"
+    ],
+    "Abreviação": [
+      "BCRNF",
+      "AP",
+      "TEMP",
+      "UI",
+      "98 bpm"
+    ],
+    "Procedimento Diagnóstico": [
+      "AP",
+      "OXÍMETRO"
+    ],
+    "Conceito Espacial": [
+      "BILATERAL"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABDOMEN"
+    ],
+    "Função de Organismo": [
+      "EVACUAÇÃO"
+    ],
+    "Negação": [
+      "AUSENTE"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "DIETA",
+      "REPOUSO EM SEMI-FOLWER",
+      "AUXÍLIO DE O2",
+      "REPOUSO NO LEITO"
+    ],
+    "Atributo Clínico": [
+      "TEMP",
+      "SAT O2"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CUIDADOS"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UI",
+      "EQUIPE MULTIPROFISSIONAL"
+    ],
+    "Doença ou Síndrome": [
+      "FIBROSE PULMONAR",
+      "SINDROME DO DESCONFORTO RESPIRATORIO DO ADULTO"
+    ],
+    "Dispositivo Médico": [
+      "MÁSCARA FACIAL",
+      "FRALDA DESCARTÁVEL"
+    ],
+    "Localização ou Região Corporal": [
+      "BASE BILATERAL"
+    ],
+    "Conceito Temporal": [
+      "UM DIA"
+    ],
+    "Objeto Manufaturado": [
+      "FRALDA DESCARTÁVEL"
+    ]
+  },
+  "labels": {
+    "6C45.3": {
+      "term_original": "orientado",
+      "capitulo": "06",
+      "confidence_embedding": 0.7564,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A escolha para o código 6C45.3 (Intoxicação por cocaína) está baseada na descrição do paciente como 'orientado', o que sugere uma apresentação clínica mais leve e não característica de intoxicação por estimulantes (anfetaminas, metanfetamina ou metcatinona), alucinógenos ou cafeína. Além disso, a falta de descrição de sintomas como euforia inadequada, agitação psicomotora ou ideação paranoide também apoia essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 6C45.3 (Intoxicação por cocaína) não é justificada pela descrição do paciente como 'orientado'. A presença de dispnéia, fibrose pulmonar e uso de oxigênio suplemental sugere uma condição clínica mais grave e relacionada à doença pulmonar em vez de intoxicação por cocaína. Além disso, a falta de descrição de sintomas característicos da intoxicação por cocaína, como euforia inadequada ou agitação psicomotora, também apoia a remoção do código.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB03.1": {
+      "term_original": "fibrose pulmonar",
+      "capitulo": "12",
+      "confidence_embedding": 0.8232,
+      "descricao_cid": "Representação de doença CID-11: Combinação de fibrose pulmonar e enfisema. Definição: Combinação de fibrose pulmonar e enfisema (CPFE) é uma síndrome de combinação de enfisema de lobos superiores dos pulmões e fibrose de lobos inferiores, definida em tomografia do tórax e caracterizada por espirometria subnormal, comprometimento grave da troca gasosa, prevalência elevada de hipertensão pulmonar e sobrevida ruim. \r\nO perfil funcional característico da CPFE é uma capacidade de difusão do monóxido de carbono acentuadamente comprometida, e hipoxemia ao esforço, com volumes pulmonares preservados. Apesar da espirometria subnormal, que pode ser responsável pelo seu subdiagnóstico, a CPFE é uma entidade grave. A presença de hipertensão arterial pulmonar no momento do diagnóstico é um determinante crítico do prognóstico.",
+      "classification_reasoning": "A presença de fibrose pulmonar e a dispneia, associados à presença de roncos em base bilateral, sugerem uma combinação de fibrose pulmonar e enfisema (CPFE), que é a opção mais precisa para o termo 'fibrose pulmonar' no contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de fibrose pulmonar e dispneia, associados à presença de roncos em base bilateral, é claramente relacionada ao termo 'fibrose pulmonar' descrito no prontuário. A combinação de fibrose pulmonar e enfisema (CPFE) é uma entidade grave e a opção mais precisa para o termo 'fibrose pulmonar' no contexto clínico.",
+      "tipo_erro_auditoria": null
+    },
+    "DB33.20": {
+      "term_original": "depressível",
+      "capitulo": "13",
+      "confidence_embedding": 0.786,
+      "descricao_cid": "Representação de doença CID-11: Proctite ou colite infantil induzida por proteína de alimentos. Definição: Hipersensibilidade intestinal não mediada por IgE (na ausência de anticorpos IgE) induzida por proteína alimentar que provoca resposta inflamatória principalmente do cólon sigmoide distal e do reto. É uma condição em bebês que resulta de resposta imune desencadeada por proteínas da dieta, principalmente do leite (através da amamentação). Os pacientes geralmente parecem saudáveis e têm fezes normais e macias com manchas ou raias de sangue. O diagnóstico é feito usualmente baseado na resolução dos sintomas com a retirada do suposto antígeno alimentar. O início usual é nos primeiros 2 meses de vida, mas pode também ocorrer em bebês de 1 dia a 6 meses de idade.",
+      "classification_reasoning": "Como o termo 'depressível' está relacionado ao abdomen e refere-se a uma alteração na forma do abdome, associada à fibrose pulmonar e sintomas respiratórios, a escolha mais precisa é DB33.20, que descreve proctite ou colite infantil induzida por proteína de alimentos, caracterizada por aumento do volume intestinal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'depressível' refere-se a uma alteração na forma do abdome, que não está relacionada à proctite ou colite infantil induzida por proteína de alimentos descrita pelo código CID-11 DB33.20. A depressão abdominal é um sintoma comum em pacientes com fibrose pulmonar e doenças respiratórias, mas não está diretamente relacionado à condição descrita no código CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA22.0": {
+      "term_original": "dispnéico aos esforços",
+      "capitulo": "12",
+      "confidence_embedding": 0.8406,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A opção CA22.0 é a mais precisa para o termo 'dispnéico aos esforços' no contexto clínico, pois refere-se à exacerbação aguda de doença pulmonar obstrutiva crônica (DPOC), que inclui sintomas de dispneia basal e piora aguda dos sintomas respiratórios.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção CA22.0 é a mais precisa para o termo 'dispnéico aos esforços' no contexto clínico, pois refere-se à exacerbação aguda de doença pulmonar obstrutiva crônica (DPOC), que inclui sintomas de dispneia basal e piora aguda dos sintomas respiratórios. O termo 'dispnéico aos esforços' está diretamente relacionado à exacerbação aguda da DPOC, portanto, a classificação CA22.0 é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "DD50": {
+      "term_original": "globoso",
+      "capitulo": "13",
+      "confidence_embedding": 0.7354,
+      "descricao_cid": "Representação de doença CID-11: Hérnia de parede não abdominal. Definição: Hérnia que ocorre através do forame no diafragma, na parede pélvica e em outra abertura coberta por peritônio mas não através da parede abdominal.",
+      "classification_reasoning": "A descrição do termo 'globoso' refere-se ao abdome, que é descrito como 'globoso, depressível'. Isso sugere uma condição relacionada à pressão intra-abdominal elevada ou ao distúrbio da função intestinal. O código DD50, Hérnia de parede não abdominal, pode se aplicar porque a descrição de abdome globoso pode ser compatível com o estresse sobre a parede abdominal causado pela hérnia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'globoso' refere-se ao abdome, que é descrito como 'globoso, depressível'. Isso sugere uma condição relacionada à pressão intra-abdominal elevada ou ao distúrbio da função intestinal. O código DD50, Hérnia de parede não abdominal, não representa fielmente essa condição clínica. A hérnia é uma lesão anatômica que não se refere às características descritas no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C40.4": {
+      "term_original": "verbalizando",
+      "capitulo": "06",
+      "confidence_embedding": 0.7743,
+      "descricao_cid": "Representação de doença CID-11: Abstinência de álcool. Definição: Abstinência de álcool é um conjunto clinicamente significativo de sintomas, comportamentos e/ou manifestações fisiológicas, variando em grau de gravidade e duração, que ocorre quando da cessação ou redução do uso de álcool em indivíduos que tenham desenvolvido dependência de álcool ou que tenham usado álcool por um período prolongado ou em grandes quantidades. Sintomas de apresentação da abstinência de álcool podem incluir hiperatividade autonômica (p. ex., taquicardia, hipertensão, sudorese), tremores aumentados nas mãos, náusea, ânsia de vômito ou vômito, insônia, ansiedade, agitação psicomotora, humor deprimido ou disfórico, ilusões ou alucinações visuais, táteis ou auditivas transitórias e distratibilidade. Menos comumente, o estado de abstinência é complicado por convulsões tônico-clônicas. O estado de abstinência pode progredir para uma forma muito grave de delirium, caracterizada por confusão e desorientação, delírios e alucinações visuais, táteis ou auditivas prolongadas. Nesses casos, um diagnóstico separado de delirium induzido por álcool também deve ser atribuído.",
+      "classification_reasoning": "A opção mais precisa é a abstinência de álcool, pois o paciente está verbalizando, o que sugere um estado de alerta e consciência. Além disso, a descrição da doença menciona sintomas como ansiedade, agitação psicomotora e insônia, que são comuns em pacientes com abstinência de álcool.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'verbalizando' não está relacionado à abstinência de álcool, que é um estado caracterizado por sintomas como hiperatividade autonômica, tremores aumentados nas mãos, náusea, ânsia de vômito ou vômito, insônia, ansiedade, agitação psicomotora, humor deprimido ou disfórico. O paciente está verbalizando e apresentando sintomas respiratórios, como dispnéia, roncos em base bilateral, e outros achados clínicos que não se encaixam com a definição da abstinência de álcool.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DA21.22": {
+      "term_original": "peristaltismo presente",
+      "capitulo": "13",
+      "confidence_embedding": 0.831,
+      "descricao_cid": "Representação de doença CID-11: Peristaltismo espástico. Definição: Este é um transtorno de motilidade do esôfago caracterizado por peristaltismo espástico hipercontrátil, conhecido como esôfago em britadeira na presença de relaxamento normal do esfíncter esofágico inferior (EEI). Esta categoria também inclui espasmo esofagiano difuso (EED) com contração descoordenada, caracterizada por latência distal reduzida na manometria esofágica.",
+      "classification_reasoning": "A presença de peristaltismo presente no contexto clínico indica uma motilidade do esôfago caracterizada por peristaltismo espástico hipercontrátil, o que está descrito na definição do código DA21.22.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de peristaltismo presente no prontuário é consistentemente descrita como uma motilidade do esôfago caracterizada por peristaltismo espástico hipercontrátil, o que está de acordo com a definição do código DA21.22. A justificativa do sistema também apoia essa classificação, pois a presença de peristaltismo presente no contexto clínico indica uma motilidade do esôfago caracterizada por peristaltismo espástico hipercontrátil.",
+      "tipo_erro_auditoria": null
+    },
+    "CB00": {
+      "term_original": "sindrome do desconforto respiratorio do adulto",
+      "capitulo": "12",
+      "confidence_embedding": 0.7646,
+      "descricao_cid": "Representação de doença CID-11: Síndrome do desconforto respiratório agudo. Definição: Síndrome do desconforto respiratório agudo (SDRA) é uma inflamação e edema nos pulmões com risco de vida iminente, que leva a insuficiência respiratória aguda grave. A SDRA é uma síndrome clínica de lesão pulmonar com insuficiência respiratória aguda hipoxêmica causada por intensa inflamação pulmonar que se desenvolve após lesão fisiopatológica grave.",
+      "classification_reasoning": "A síndrome do desconforto respiratório agudo (SDRA) é a opção mais precisa para o termo 'sindrome do desconforto respiratorio do adulto' no contexto clínico, pois apresenta sintomas de dispnéia, roncos e insuficiência respiratória aguda grave, os quais são característicos da SDRA.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A síndrome do desconforto respiratório agudo (SDRA) é a opção mais precisa para o termo 'sindrome do desconforto respiratorio do adulto' no contexto clínico, pois apresenta sintomas de dispnéia, roncos e insuficiência respiratória aguda grave, os quais são característicos da SDRA. A codificação CID-11 CB00 é justificada pela presença de dispnéia, roncos e insuficiência respiratória aguda grave, que são sintomas clínicos descritos no prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

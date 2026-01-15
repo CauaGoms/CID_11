@@ -1,0 +1,237 @@
+{
+  "prontuario_id": 36,
+  "text": "15:30h S: 15º DI por PO de ventriculostomia.   O : Glasgow 7, pupilas anisocóricas E > D. FO cefálica limpa e seca, DVE fechada, PIC em 10mmHg. Suporte de O2 sob TQT, aspiração de secreçãoe espessa amrelada. CPP com roncos difusos. Abdomem flácido, RHA+. Acesso venoso em MSE com infusão de soroterapia. SVD com diurese efetiva. Extremidades aquecidas, perfusão periférica adequada, edema em membros. Lesões de subcutâneo por fragilidade importenate. Uso de colchão de ar. Segue sob cuidadso intensivos.   # Realizado coleta de líquor pelo residente Ricardo, enacminhada amostra para análise.   A : Desobstrução ineficaz das vias aéreas; Integridade da pele prejudicada.   P : Conforme prescrição de enfermagem. Enfermeira Florence Nightingale. HIDROCEFALIA",
+  "entities": {
+    "Abreviação": [
+      "S",
+      "DI",
+      "PO",
+      "O",
+      "FO",
+      "PIC",
+      "CPP",
+      "RHA+",
+      "MSE",
+      "SVD",
+      "A",
+      "DVE fechada"
+    ],
+    "Achado": [
+      "S",
+      "limpa",
+      "seca",
+      "flácido",
+      "RHA+",
+      "diurese efetiva",
+      "Extremidades aquecidas",
+      "perfusão periférica adequada"
+    ],
+    "Conceito Temporal": [
+      "DI",
+      "PO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ventriculostomia",
+      "aspiração",
+      "SVD",
+      "DVE fechada",
+      "Suporte de O2",
+      "Acesso venoso",
+      "infusão de soroterapia",
+      "colchão de ar"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O",
+      "Realizado",
+      "enacminhada",
+      "cuidadso intensivos",
+      "prescrição de enfermagem"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "pupilas",
+      "CPP"
+    ],
+    "Lesão ou Envenenamento": [
+      "FO",
+      "Lesões de subcutâneo"
+    ],
+    "Localização ou Região Corporal": [
+      "cefálica",
+      "Abdomem",
+      "MSE",
+      "membros"
+    ],
+    "Atributo Clínico": [
+      "PIC",
+      "CPP"
+    ],
+    "Conceito Quantitativo": [
+      "10mmHg"
+    ],
+    "Dispositivo Médico": [
+      "SVD",
+      "Acesso venoso",
+      "colchão de ar"
+    ],
+    "Sinal ou Sintoma": [
+      "edema",
+      "Glasgow 7",
+      "E &gt; D",
+      "secreçãoe espessa amrelada",
+      "roncos difusos",
+      "fragilidade importenate",
+      "Desobstrução ineficaz das vias aéreas",
+      "Integridade da pele prejudicada"
+    ],
+    "Substância": [
+      "amostra"
+    ],
+    "Procedimento Laboratorial": [
+      "análise",
+      "coleta de líquor"
+    ],
+    "Procedimento Diagnóstico": [
+      "A"
+    ],
+    "Produto Intelectual": [
+      "P"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Doença ou Síndrome": [
+      "HIDROCEFALIA"
+    ],
+    "Substância Corporal": [
+      "secreçãoe espessa amrelada"
+    ],
+    "Função de Organismo": [
+      "diurese efetiva"
+    ],
+    "Objeto Manufaturado": [
+      "colchão de ar"
+    ]
+  },
+  "labels": {
+    "8D64.10": {
+      "term_original": "hidrocefalia",
+      "capitulo": "08",
+      "confidence_embedding": 0.8392,
+      "descricao_cid": "Representação de doença CID-11: Hidrocefalia devida a malformações estruturais. Definição: Aumento ventricular devido a um acúmulo de líquido cefalorraquidiano secundário à obstrução causada por uma anormalidade estrutural, como malformações de Chiari ou estenose do aqueduto.",
+      "classification_reasoning": "A hidrocefalia é mencionada no contexto como uma lesão de subcutâneo por fragilidade importante, o que sugere um acúmulo anormal de líquido cefalorraquidiano secundário à obstrução causada por uma anormalidade estrutural, como malformações de Chiari ou estenose do aqueduto.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hidrocefalia é mencionada no prontuário como uma lesão de subcutâneo por fragilidade importante, o que sugere um acúmulo anormal de líquido cefalorraquidiano secundário à obstrução causada por uma anormalidade estrutural. Isso é consistente com a definição do código CID-11 8D64.10, que descreve hidrocefalia devida a malformações estruturais. Portanto, o código atribuído é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "NE89": {
+      "term_original": "secreçãoe espessa amrelada",
+      "capitulo": "22",
+      "confidence_embedding": 0.7537,
+      "descricao_cid": "Representação de doença CID-11: Consciência sob anestesia geral. Definição: ",
+      "classification_reasoning": "A descrição do termo 'secreçãoe espessa amrelada' sugere uma representação de doença relacionada à disfagia ou dificuldade para engolir, o que é compatível com a condição de ventilatória e suporte respiratório mencionada no prontuário. A escolha do código NE89 (Consciência sob anestesia geral) se justifica por ser uma representação de doença relacionada à disfagia e ao estado de consciência alterado, o que é compatível com a situação clínica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'secreçãoe espessa amrelada' não está relacionada à consciência sob anestesia geral, como sugerido pelo sistema. A secreção espessa e amarelada é mais provável uma manifestação de disfagia ou dificuldade para engolir, o que não é compatível com a condição de ventilatória e suporte respiratório mencionada no prontuário. Portanto, o código NE89 não representa fielmente o termo descrito.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB50.0": {
+      "term_original": "flácido",
+      "capitulo": "21",
+      "confidence_embedding": 0.8051,
+      "descricao_cid": "Representação de doença CID-11: Tetraplegia flácida. Definição: Esta é uma perda grave ou completa da função motora em todos os quatro membros com músculos flácidos e relaxados.",
+      "classification_reasoning": "A descrição 'flácido' refere-se à perda de tônus muscular nos membros, característica da tetraplegia flácida.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição 'flácido' no prontuário refere-se à flacidez do abdome, não à perda de tônus muscular nos membros. A codificação CID-11 MB50.0 se refere a tetraplegia flácida, que é uma condição clínica muito mais específica e grave do que a simples flacidez do abdome.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MD11.4": {
+      "term_original": "extremidades aquecidas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7473,
+      "descricao_cid": "Representação de doença CID-11: Respiração de Cheyne-Stokes relacionada ao sono. Definição: Respiração periódica, uma variante da respiração de Cheyne-Stokes, é caracterizada por ciclos regulares e recorrentes de mudanças no volume corrente, nas quais o menor volume corrente é menor que a metade do volume corrente máximo do mesmo ciclo. É o padrão respiratório anormal mais frequentemente relacionado ao acidente vascular cerebral, mais do que nas doenças sistêmicas, ocorrendo em aproximadamente 25% daqueles. A respiração periódica pode ser mais comum em pacientes com hemorragia subaracnóidea.",
+      "classification_reasoning": "A opção mais precisa para o termo 'extremidades aquecidas' é a Respiração de Cheyne-Stokes relacionada ao sono (Código: MD11.4). Isso porque, no contexto clínico, as extremidades aquecidas podem ser um sinal de uma condição neurológica ou cardiovascular, como hipoxia cerebral ou coronariana, o que é consistente com a definição da Respiração de Cheyne-Stokes relacionada ao sono.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 MD11.4 (Respiração de Cheyne-Stokes relacionada ao sono) não é clínicamente coerente com o termo 'extremidades aquecidas' descrito no prontuário. As extremidades aquecidas podem ser um sinal de hipoxia cerebral ou coronariana, mas isso não está relacionado à Respiração de Cheyne-Stokes. A opção mais precisa para o termo 'extremidades aquecidas' é uma condição cardiovascular ou neurológica, e não uma condição respiratória.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB23.9G30.1A": {
+      "term_original": "fragilidade importenate",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A frase 'fragilidade importente' sugere uma lesão tecidual grave e/ou comprometimento da integridade da pele, o que é consistente com a definição de dor crônica pós-traumática (MG30.20). Além disso, a descrição do paciente como tendo lesões de subcutâneo por fragilidade importante sugere uma lesão tecidual grave e/ou comprometimento da integridade da pele, o que é consistente com a definição de tetraplegia flácida (MB50.0). No entanto, considerando a presença de hidrocefalia e os sintomas neurológicos, a escolha mais precisa é a representação de doença CID-11: Lesão tecidual não especificada (MB23.9G30.1A), que abrange lesões graves e/ou comprometimento da integridade da pele sem definição específica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão de subcutâneo por fragilidade importante não é uma condição clínica específica, mas sim um termo que descreve a gravidade da lesão. A escolha do código CID-11 Lesão tecidual não especificada (MB23.9G30.1A) é demasiado genérica e não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB20.1": {
+      "term_original": "e > d",
+      "capitulo": "21",
+      "confidence_embedding": 0.806,
+      "descricao_cid": "Representação de doença CID-11: Coma. Definição: Estado agudo com duração de mais de uma hora e geralmente menos de um mês. O paciente em coma está arresponsivo, fica com os olhos fechados e não pode ser despertado nem mesmo por estímulos vigorosos e dolorosos. As respostas motoras à estimulação dolorosa estão limitadas a reflexos. As etiologias incluem, mas não estão limitadas a, lesões cerebrais traumáticas, anóxicas, infecciosas, neoplásicas, vasculares, inflamatórias e metabólicas.",
+      "classification_reasoning": "A expressão 'e > d' refere-se às pupilas anisocóricas, com a pupila esquerda maior que a pupila direita, o que é um indicador de lesões cerebrais traumáticas ou outras condições neurológicas graves. Como o paciente está em coma e apresenta outros sintomas clínicos graves, a escolha do código MB20.1 como mais precisa para representar a situação.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A expressão 'e > d' refere-se às pupilas anisocóricas, com a pupila esquerda maior que a pupila direita. Isso é um indicador de lesões cerebrais traumáticas ou outras condições neurológicas graves. Como o paciente está em coma e apresenta outros sintomas clínicos graves, a escolha do código MB20.1 como mais precisa para representar a situação.",
+      "tipo_erro_auditoria": null
+    },
+    "EH90": {
+      "term_original": "integridade da pele prejudicada",
+      "capitulo": "14",
+      "confidence_embedding": 0.799,
+      "descricao_cid": "Representação de doença CID-11: Úlcera por pressão. Definição: Úlceras de pressão resultam de lesão localizada e necrose isquêmica de pele e tecidos subjacentes devido a pressão prolongada, ou pressão em combinação com cisalhamento; as proeminências ósseas do corpo são as localizações mais frequentemente afetadas; imobilidade e debilidade são importantes fatores contribuintes.",
+      "classification_reasoning": "A integridade da pele está prejudicada, o que sugere lesões de subcutâneo por fragilidade importante e ulcerações por pressão (EH90), caracterizadas pela lesão localizada e necrose isquêmica de pele e tecidos subjacentes devido a pressão prolongada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A integridade da pele está prejudicada, mas isso não é suficiente para justificar a presença de úlcera por pressão (EH90). A lesão de subcutâneo por fragilidade importante pode ser uma consequência da integridade da pele prejudicada, mas não é a mesma coisa. Além disso, a descrição do código EH90 se refere especificamente à lesão localizada e necrose isquêmica de pele e tecidos subjacentes devido a pressão prolongada, o que não está presente no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA72": {
+      "term_original": "roncos difusos",
+      "capitulo": "12",
+      "confidence_embedding": 0.7411,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de Mendelson. Definição: Esta pneumonite química é causada por aspiração durante anestesia, especialmente durante a gravidez. O conteúdo da aspiração pode incluir suco gástrico, sangue, bile, água ou uma associação destes.",
+      "classification_reasoning": "A presença de roncos difusos no contexto clínico sugere uma possível pneumonite química causada pela aspiração durante anestesia, o que é descrito na definição do código CA72.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de roncos difusos no prontuário não é suficiente para justificar a codificação CID-11 CA72, que descreve uma síndrome de Mendelson causada por aspiração durante anestesia. A clínica apresentada não há relação direta com essa condição. Além disso, o termo 'roncos difusos' pode ser um sintoma de várias outras condições, e a codificação CA72 não é específica ou relevante para essa situação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A94.1": {
+      "term_original": "fo",
+      "capitulo": "09",
+      "confidence_embedding": 0.8046,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso.",
+      "classification_reasoning": "O termo 'fo' se refere à representação de doença CID-11: Síndrome da íris flácida, que está relacionada à apresentação clínica descrita no prontuário (pupilas anisocóricas E > D) e ao contexto do procedimento realizado (coleta de líquor pelo residente Ricardo).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A síndrome da íris flácida (CID-11: 9A94.1) é uma condição específica relacionada à extração de catarata, e não está diretamente relacionada às pupilas anisocóricas E > D descritas no prontuário. Além disso, a descrição do prontuário não menciona nenhuma indicação de procedimento cirúrgico para extração de catarata. Portanto, a codificação CID-11 9A94.1 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG29.1": {
+      "term_original": "edema",
+      "capitulo": "21",
+      "confidence_embedding": 0.7922,
+      "descricao_cid": "Representação de doença CID-11: Edema generalizado. Definição: ",
+      "classification_reasoning": "A presença de edema em membros e lesões de subcutâneo por fragilidade importante sugere um edema generalizado, justificando a escolha do código MG29.1",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de edema em membros e lesões de subcutâneo por fragilidade importante é uma descrição clínica precisa do termo 'edema' no prontuário. A escolha do código CID-11 MG29.1, que representa edema generalizado, é justificada pela presença de edema em membros e lesões de subcutâneo, o que sugere um edema generalizado.",
+      "tipo_erro_auditoria": null
+    },
+    "CA07": {
+      "term_original": "desobstrução ineficaz das vias aéreas",
+      "capitulo": "12",
+      "confidence_embedding": 0.7806,
+      "descricao_cid": "Representação de doença CID-11: Infecções agudas das vias aéreas superiores de localizações múltiplas e não especificadas. Definição: ",
+      "classification_reasoning": "A desobstrução ineficaz das vias aéreas sugere que há uma obstrução significativa nas vias aéreas, possivelmente devido a edema pulmonar ou outro processo inflamatório. Isso justifica a escolha do código CA07, que representa infecções agudas das vias aéreas superiores de localizações múltiplas e não especificadas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A desobstrução ineficaz das vias aéreas não é uma infecção aguda, mas sim um sintoma de obstrução significativa nas vias aéreas. O código CA07 representa infecções agudas, o que não se relaciona claramente com o termo extraído. Portanto, o código CID-11 não está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ND56.7": {
+      "term_original": "lesões de subcutâneo",
+      "capitulo": "22",
+      "confidence_embedding": 0.8136,
+      "descricao_cid": "Representação de doença CID-11: Lesão por esmagamento de região do corpo não especificada. Definição: ",
+      "classification_reasoning": "A lesão descrita como 'lesões de subcutâneo' sugere uma lesão por esmagamento ou compressão, o que é coerente com a descrição do código ND56.7: Lesão por esmagamento de região do corpo não especificada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão descrita como 'lesões de subcutâneo' não é específica o suficiente para ser mapeada para o código ND56.7, que se refere a uma lesão por esmagamento ou compressão em uma região específica do corpo. A descrição é muito genérica e pode se referir a várias outras condições clínicas.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

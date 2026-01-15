@@ -1,0 +1,71 @@
+{
+  "prontuario_id": 510,
+  "text": "LOMBOCIATALGIA A ESQUERDA.\n\nPCTE DEAMBULA COM AUXILIO DE MULETA.\nFORÇA DOS MM PRESERVADA.\nREFLEXOS PRESENTES.\nSEM ALT. NEUROLOGICA.\nSEM SINAIS DE MIELOPATIA.\n\nSOLICITADO RAIO X COLUNA LOMBAR DINAMICO - SEM SINAIS DE LISTESE.\n\nSOLICITO LIBERAÇÃO DA NEFOLOGIA PARA  AGENDAR CIRURGIA.\nRETORNO COM LIBERAÇÃO PARA AGENDAMENTO.\n\nR1 LUCAS\nFELLOW LUCAS\n \n \n \n ",
+  "entities": {
+    "Conceito Espacial": [
+      "ESQUERDA"
+    ],
+    "Abreviação": [
+      "PCTE",
+      "ALT",
+      "R1"
+    ],
+    "Achado": [
+      "DEAMBULA",
+      "FORÇA DOS MM PRESERVADA",
+      "REFLEXOS PRESENTES"
+    ],
+    "Dispositivo Médico": [
+      "MULETA"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "ALT",
+      "SINAIS DE MIELOPATIA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "SOLICITADO",
+      "RETORNO",
+      "AGENDAMENTO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CIRURGIA"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "R1"
+    ],
+    "Organização Relacionada à Saúde": [
+      "R1"
+    ],
+    "Procedimento Diagnóstico": [
+      "RAIO X COLUNA LOMBAR DINAMICO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "SINAIS DE LISTESE"
+    ]
+  },
+  "labels": {
+    "FA80.8": {
+      "term_original": "deambula",
+      "capitulo": "15",
+      "confidence_embedding": 0.6657,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'deambula' é a degeneração de disco intervertebral da coluna lombar sem prolapso de disco (FA80.8), pois a paciente apresenta lombociatgia à esquerda e utiliza muleta, sugerindo problemas de mobilidade e dor relacionados ao sistema nervoso da coluna lombar.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente apresenta lombociatgia à esquerda e utiliza muleta, sugerindo problemas de mobilidade e dor relacionados ao sistema nervoso da coluna lombar. No entanto, o código CID-11 FA80.8 refere-se especificamente à degeneração de disco intervertebral da coluna lombar sem prolapso de disco, o que não está diretamente relacionado à lombociatgia e ao uso de muleta. A classificação é demasiadamente específica e não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB54.7": {
+      "term_original": "sinais de mielopatia",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "Sinais de mielopatia refere-se a lesões ou doenças que afetam o sistema nervoso central, especialmente a medula espinhal e os nervos periféricos que saem da coluna vertebral. Nesse contexto clínico, a escolha mais precisa é MB54.7, que descreve Sintomas ou sinais relativos à doença das vias nervosas periféricas",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'sem sinais de mielopatia' no prontuário indica que não há lesões ou doenças que afetem o sistema nervoso central, especialmente a medula espinhal e os nervos periféricos. Portanto, a escolha do código CID-11 MB54.7, que descreve sintomas ou sinais relativos à doença das vias nervosas periféricas, não é clínica ou coerente com o prontuário.",
+      "tipo_erro_auditoria": "negated_finding"
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "prontuario_id": 575,
+  "text": "POS TX RENAL.\nPOS TX RENAL - CR 0,8 / NS FK 5,0.\nTU MANDIBULA - TC COM SINAIS DE AGRESSIVIDADE.\nBOCIO NODULAR.\nHIPERPARA.\nTESTE DE ESFORÇO NEGATIVO.\n \n \nPOS TX RENAL 2012.\nTU MANDIBULA (TC SUGERE AGRESSIVIDADE) -> PLANO DE HEMIMANDIBULECTOMIA DIREITA INTRA ORAL.\nUSO DE: PDN 5, FK 1/1, MS 2/1, ENL 10 X 2, ATN 50 X 2, SVT 20.\nS # ASSINTOMÁTICA.\nO # BEG, CORADA, HIDRATADA, \nPA 150/100,\nMV POSITIVO, SIMETRICO,\nBCRNF,\nABDOMEN SP,\nMEMBROS SP.",
+  "entities": {
+    "Abreviação": [
+      "HIPERPARA",
+      "PDN",
+      "FK",
+      "MS",
+      "ENL",
+      "ATN",
+      "SVT",
+      "S",
+      "O",
+      "BEG",
+      "PA",
+      "BCRNF",
+      "POS TX RENAL .",
+      "POS TX RENAL",
+      "NS FK 5 , 0",
+      "TU MANDIBULA",
+      "TC COM SINAIS DE AGRESSIVIDADE",
+      "TC SUGERE AGRESSIVIDADE",
+      "MV POSITIVO",
+      "ABDOMEN SP",
+      "MEMBROS SP"
+    ],
+    "Doença ou Síndrome": [
+      "HIPERPARA",
+      "BOCIO NODULAR"
+    ],
+    "Produto Intelectual": [
+      "PLANO"
+    ],
+    "Substância Farmacológica": [
+      "PDN",
+      "FK",
+      "MS",
+      "ENL",
+      "ATN",
+      "SVT"
+    ],
+    "Substância Química Orgânica": [
+      "PDN",
+      "FK",
+      "MS",
+      "ATN",
+      "SVT"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "1/1",
+      "2/1",
+      "20",
+      "150/100"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "ENL"
+    ],
+    "Achado": [
+      "S",
+      "BEG",
+      "CORADA",
+      "HIDRATADA",
+      "SIMETRICO",
+      "BCRNF",
+      "POS TX RENAL .",
+      "POS TX RENAL",
+      "MV POSITIVO",
+      "ABDOMEN SP",
+      "MEMBROS SP"
+    ],
+    "Negação": [
+      "ASSINTOMÁTICA"
+    ],
+    "Sinal ou Sintoma": [
+      "ASSINTOMÁTICA"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Conceito Temporal": [
+      "POS TX RENAL .",
+      "POS TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 8",
+      "NS FK 5 , 0",
+      "TC COM SINAIS DE AGRESSIVIDADE",
+      "TESTE DE ESFORÇO NEGATIVO",
+      "TC SUGERE AGRESSIVIDADE"
+    ],
+    "Processo Neoplásico": [
+      "TU MANDIBULA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "HEMIMANDIBULECTOMIA DIREITA INTRA ORAL"
+    ]
+  },
+  "labels": {
+    "5A51": {
+      "term_original": "hiperpara",
+      "capitulo": "05",
+      "confidence_embedding": 0.7422,
+      "descricao_cid": "Representação de doença CID-11: Hiperfunção da paratireoide. Definição: Hiperparatireoidismo se refere a aumento na produção/síntese de paratormônio, geralmente devido a um tumor em uma das glândulas paratireoides. Ela também pode ocorrer em resposta a baixos níveis de cálcio, como ocorre em várias situações como deficiência de vitamina D ou doença renal crônica. Hiperparatireoidismo leva a enfraquecimento ósseo por perda de cálcio.",
+      "classification_reasoning": "A hiperpara presente no prontuário é relacionada à produção/síntese de paratormônio, geralmente devido a um tumor em uma das glândulas paratireoides ou resposta a baixos níveis de cálcio, o que é consistente com a definição do código 5A51 - Hiperfunção da paratireoide.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hiperpara presente no prontuário é consistente com a definição do código 5A51 - Hiperfunção da paratireoide. A produção/síntese de paratormônio, geralmente devido a um tumor em uma das glândulas paratireoides ou resposta a baixos níveis de cálcio, é claramente relacionada à hiperparatireoidismo descrita no código CID-11. Portanto, o código 5A51 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BA02": {
+      "term_original": "pos tx renal",
+      "capitulo": "11",
+      "confidence_embedding": 0.7317,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A presença de 'POS TX RENAL' no contexto clínico sugere uma intervenção cirúrgica realizada para tratar a doença renal, o que está relacionado ao código BA02 (Representação de doença CID-11: Doença renal hipertensiva).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de 'POS TX RENAL' no prontuário indica que uma intervenção cirúrgica foi realizada para tratar a doença renal. O código CID-11 BA02, Doença renal hipertensiva, está relacionado à história clínica do paciente e não há contradição óbvia ou alucinação. A codificação é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BC63.3": {
+      "term_original": "mv positivo",
+      "capitulo": "11",
+      "confidence_embedding": 0.7073,
+      "descricao_cid": "Representação de doença CID-11: Bloqueio de ramo direito. Definição: Transtorno do sistema de condução atrioventricular caracterizado por duração prolongada do QRS (maior ou igual a 120 ms em adultos, maior que 100 ms em crianças de 4 a 16 anos e maior que 90 ms em crianças menores de 4 anos), rsr , rsR ou rSR nas derivações V1 ou V2, onda S de duração maior do que a onda R (ou maior que 40 ms nas derivações I e V6 em adultos)",
+      "classification_reasoning": "O termo 'mv positivo' está relacionado ao resultado de eletrocardiograma (ECG), que indica o bloqueio de ramo direito, caracterizado por duração prolongada do QRS e alterações na forma da onda R e S nas derivações V1 ou V2.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 BC63.3 representa fielmente o termo 'mv positivo' descrito no prontuário, que indica um bloqueio de ramo direito caracterizado por duração prolongada do QRS e alterações na forma da onda R e S nas derivações V1 ou V2. A descrição do código CID-11 é claramente relacionada ao resultado do ECG e não há contradição óbvia ou falta de base no texto para justificar a remoção.",
+      "tipo_erro_auditoria": null
+    },
+    "9A26": {
+      "term_original": "simetrico",
+      "capitulo": "09",
+      "confidence_embedding": 0.702,
+      "descricao_cid": "Representação de doença CID-11: Deformidade combinada de osso e tecido mole de órbita. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'simetrico' é a deformidade combinada de osso e tecido mole de órbita (9A26), pois essa condição refere-se à ausência de deformidades ou irregularidades nos ossos da órbita, o que se alinha com o termo simetrico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A condição descrita no prontuário refere-se à simetria dos ossos da mandíbula, não da órbita. O código CID-11 atribuído (9A26) se refere à deformidade combinada de osso e tecido mole de órbita, o que não é compatível com a descrição clínica.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "FA25": {
+      "term_original": "membros sp",
+      "capitulo": "15",
+      "confidence_embedding": 0.7198,
+      "descricao_cid": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato.",
+      "classification_reasoning": "A opção mais precisa para o termo 'membros sp' é a gota (FA25), pois a descrição refere-se à deposição de cristais de urato em tecidos articulares, incluindo os membros.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FA25 (Gota) não é adequada porque a descrição do termo 'membros sp' refere-se à representação de doença em membros, que não está relacionada à deposição de cristais de urato em tecidos articulares. A gota é uma condição clínica específica e não se aplica ao termo 'membros sp'. Portanto, a codificação FA25 não representa fielmente o termo ou a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EB31": {
+      "term_original": "bocio nodular",
+      "capitulo": "14",
+      "confidence_embedding": 0.7236,
+      "descricao_cid": "Representação de doença CID-11: Eritema nodoso. Definição: Erupção eritematosa comumente associada a reações a medicamentos ou infecção e caracterizada por nódulos inflamatórios que geralmente são dolorosos, múltiplos e bilaterais. Esses nódulos localizam-se predominantemente na face anterior das pernas, com ocorrência menos comum nas coxas e antebraços. Eles sofrem mudanças de cor características que terminam em áreas temporárias semelhantes a hematomas. Esta condição geralmente desaparece em 3-6 semanas sem cicatriz ou atrofia.",
+      "classification_reasoning": "A palavra 'bocio' refere-se a um nódulo inflamatório, e o termo extraído menciona 'nóculo'. Isso sugere que é mais provável ser uma referência ao Eritema nodoso (EB31), caracterizado por nódulos inflamatórios múltiplos e bilaterais na pele.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'bocio nodular' no prontuário não se encaixa com a definição do código CID-11 EB31, que descreve erupções eritematosas múltiplas e bilaterais na pele. O termo extraído 'bocio nodular' sugere um nódulo inflamatório localizado em uma área específica (nóculo), o que não é característico do Eritema Nodoso. Portanto, a codificação CID-11 EB31 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DD50.20": {
+      "term_original": "abdomen sp",
+      "capitulo": "13",
+      "confidence_embedding": 0.7401,
+      "descricao_cid": "Representação de doença CID-11: Hérnia intra-abdominal primária. Definição: Hérnia que ocorre dentro do abdômen e primariamente através da uma abertura coberta por peritônio, sem cirurgia ou traumatismo.",
+      "classification_reasoning": "A presença de 'abdomen sp' no prontuário indica a presença de uma hérnia intra-abdominal primária, apoiando a opção DD50.20.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'abdomen sp' no prontuário não é suficiente para justificar a opção DD50.20, pois a descrição do código refere-se especificamente a hérnia intra-abdominal primária, e o termo 'abdomen sp' não fornece informações sobre a natureza da lesão ou a presença de uma abertura coberta por peritônio. Além disso, a falta de contexto clínico adicional, como sintomas ou achados radiológicos, torna a classificação muito genérica e não justificada.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MG30.63": {
+      "term_original": "tu mandibula",
+      "capitulo": "21",
+      "confidence_embedding": 0.7351,
+      "descricao_cid": "Representação de doença CID-11: Cefaleia ou dor orofacial associada a transtornos temporomandibulares secundários crônicos. Definição: Dor crônica secundária à disfunção temporomandibular é a dor crônica na(s) articulação(ões) temporomandibular(es) ou nos músculos masseter ou temporal(is) associada com inflamação persistente (devida a, por exemplo, infecção, deposição de cristais ou transtornos autoimunes), alterações estruturais (como osteoartrite ou espondilose), lesão ou doenças do sistema nervoso. Ocorre em pelo menos 50% dos dias, durante pelo menos três meses. A duração da dor no dia é de pelo menos 2 horas. Se a etiologia for vaga, considere o uso de códigos na seção de dor primária crônica.",
+      "classification_reasoning": "A escolha foi feita com base na descrição de 'Tu Mandibula - TC sugere agressividade', que indica um problema relacionado à articulação temporomandibular, apoiando a opção MG30.63, que descreve cefaleia ou dor orofacial associada a transtornos temporomandibulares secundários crônicos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 MG30.63 foi feita com base na descrição de 'Tu Mandibula - TC sugere agressividade', que indica um problema relacionado à articulação temporomandibular. No entanto, a condição descrita no prontuário é mais específica e se refere à agressividade da mandíbula, o que não está diretamente relacionado à dor orofacial ou transtornos temporomandibulares secundários crônicos descritos pelo código CID-11 MG30.63.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

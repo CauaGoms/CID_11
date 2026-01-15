@@ -1,0 +1,80 @@
+{
+  "prontuario_id": 96,
+  "text": "pot gastroplastia 5 meses.\nIMC 26,1.\nqueixa-se de dor na cicatriz cx, alopecia e unhas quebradicas.\nlaboratorio com anemia leve.\nretorno em 3 meses com exames.\nprescrito ferro e vitergan zinco.        ",
+  "entities": {
+    "Abreviação": [
+      "pot",
+      "IMC",
+      "cicatriz cx"
+    ],
+    "Conceito Temporal": [
+      "pot",
+      "5 meses",
+      "3 meses"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "gastroplastia"
+    ],
+    "Sinal ou Sintoma": [
+      "dor",
+      "alopecia",
+      "unhas quebradicas"
+    ],
+    "Procedimento Laboratorial": [
+      "laboratorio",
+      "exames"
+    ],
+    "Procedimento Diagnóstico": [
+      "exames"
+    ],
+    "Substância Farmacológica": [
+      "ferro",
+      "vitergan zinco"
+    ],
+    "Doença ou Síndrome": [
+      "anemia leve"
+    ]
+  },
+  "labels": {
+    "3A00.01": {
+      "term_original": "anemia leve",
+      "capitulo": "03",
+      "confidence_embedding": 0.7438,
+      "descricao_cid": "Representação de doença CID-11: Anemia pós-hemorrágica crônica. Definição: Anemia por deficiência de ferro crônica por sangramento pode ser causada por câncer de cólon, câncer gástrico, úlcera péptica, divertículo de Meckel, hérnia hiatal com erosões lineares, ectasia vascular colônica, pólipos colônicos, hemangioma, doença inflamatória intestinal, tumores no trato gastrointestinal e útero e menorragia crônica. Algumas crianças com deficiência de ferro grave tem perda de sangue intestinal crônica induzida pela exposição à proteína do leite de vaca. Flebotomias repetidas para exames de sangue é uma causa de anemia da prematuridade.",
+      "classification_reasoning": "Anemia leve foi diagnosticada e há histórico de pot gastroplastia, o que pode estar relacionado à perda crônica de sangue.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A anemia leve diagnosticada não está diretamente relacionada à pot gastroplastia. A anemia pode ser uma consequência de outras causas, como perda crônica de sangue, e não é especificamente mencionada como resultado da cirurgia. Além disso, a descrição do código CID-11 refere-se a anemia pós-hemorrágica crônica, que não se aplica ao caso apresentado.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ED70.5": {
+      "term_original": "alopecia",
+      "capitulo": "14",
+      "confidence_embedding": 0.7564,
+      "descricao_cid": "Representação de doença CID-11: Alopecia cicatricial. Definição: Queda de cabelos em que há dano irreversível ao folículo piloso por inflamação, infecção, infiltração maligna ou trauma, resultando em destruição do folículo e cicatrização por fibrose. Regeneração não ocorre uma vez que o folículo é destruído.",
+      "classification_reasoning": "Alopecia cicatricial é a opção mais precisa pois o paciente apresenta queixa de dor na cicatriz, o que sugere que a alopecia está relacionada à cicatriz da gastroplastia recente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A alopecia descrita no prontuário é uma queixa do paciente, não uma doença clínica específica. A descrição da alopecia cicatricial no CID-11 refere-se a uma condição caracterizada por dano irreversível ao folículo piloso, o que não se aplica ao caso do paciente. A dor na cicatriz e a alopecia podem estar relacionadas à gastroplastia recente, mas isso não justifica a atribuição do código CID-11 ED70.5.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "EE60.0": {
+      "term_original": "unhas quebradicas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7206,
+      "descricao_cid": "Representação de doença CID-11: Queloide. Definição: Queloide é uma cicatriz de crescimento progressivo, resultante da formação de quantidades excessivas de colágeno na derme durante o reparo do tecido conjuntivo subsequente a inflamação, lesão ou cirurgia. Difere de uma cicatriz hipertrófica pelo fato de que um queloide se expande além dos limites da ferida inicial ou do local da inflamação.",
+      "classification_reasoning": "A opção mais precisa é a queloide (EE60.0) porque o termo 'unhas quebradicas' está relacionado à dor na cicatriz, o que sugere uma resposta inflamatória crônica e um crescimento excessivo de tecido cicatricial fibroso, característico de uma queloide.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção EE60.0 não é diretamente relacionada ao termo 'unhas quebradicas'. A descrição do código CID-11 refere-se a uma queloide, que é uma cicatriz de crescimento progressivo, enquanto o termo 'unhas quebradicas' se refere à condição das unhas. Embora haja dor na cicatriz, não há evidência clínica suficiente para justificar a classificação como queloide.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MG30.21": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7188,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática.",
+      "classification_reasoning": "A dor na cicatriz de gastroplastia, após apenas 5 meses do procedimento, sugere uma dor crônica pós-operatória. Além disso, a presença de outras queixas relacionadas à cirurgia, como alopecia e unhas quebradicas, apoiam essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor na cicatriz de gastroplastia pode ser uma dor crônica pós-operatória, mas a falta de informações sobre o tempo de duração da dor e a exclusão de outras causas de dor sugerem que essa classificação é demasiado geral. Além disso, a presença de anemia leve e outras queixas relacionadas à cirurgia não estão diretamente relacionadas à dor crônica pós-operatória.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

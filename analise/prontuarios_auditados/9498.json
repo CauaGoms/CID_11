@@ -1,0 +1,115 @@
+{
+  "prontuario_id": 52,
+  "text": "HAS DM 2 NAÕ TROUXE RECEITA, POREM USA LST, ANLO, HCTZ, PT4, MTF S : SEM QUEIXAS O : PA 120/80  P 80  AFEBRIL EX SEGMENTAR SP. HAS DM 2 * PENDENTE USG. * RAC 0,77 * TFG 38ML/MIN",
+  "entities": {
+    "Abreviação": [
+      "HAS",
+      "LST",
+      "ANLO",
+      "HCTZ",
+      "PT4",
+      "MTF",
+      "S",
+      "O",
+      "PA",
+      "P",
+      "SP",
+      "USG",
+      "DM 2",
+      "EX SEGMENTAR"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DM 2"
+    ],
+    "Negação": [
+      "NAÕ",
+      "SEM",
+      "AFEBRIL",
+      "SP"
+    ],
+    "Produto Intelectual": [
+      "RECEITA"
+    ],
+    "Substância Farmacológica": [
+      "LST",
+      "ANLO",
+      "HCTZ",
+      "PT4",
+      "MTF"
+    ],
+    "Substância Química Orgânica": [
+      "HCTZ"
+    ],
+    "Achado": [
+      "S",
+      "AFEBRIL",
+      "SP"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P"
+    ],
+    "Conceito Quantitativo": [
+      "120/80",
+      "80"
+    ],
+    "Procedimento Diagnóstico": [
+      "USG",
+      "EX SEGMENTAR",
+      "DM 2"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "RAC 0 , 77",
+      "TFG 38ML/MIN"
+    ]
+  },
+  "labels": {
+    "BD9A.40": {
+      "term_original": "has dm 2",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "Escolha baseada na definição de DM 2, que se refere a Diabetes Mellitus tipo 2.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'HAS DM 2' é uma abreviação médica comum que se refere a Diabetes Mellitus tipo 2. A descrição do prontuário também menciona a presença de sintomas e tratamento para essa condição, o que confirma a classificação. Portanto, a codificação CID-11 'BD9A.40' é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "9A10.0": {
+      "term_original": "sp",
+      "capitulo": "09",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'sp' é um sinal de pressão sanguínea na pergunta, referenciando-se ao pressão arterial de 120/80 mmHg.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'sp' é uma abreviação médica comum para pressão sanguínea, que faz sentido no contexto do prontuário. A descrição da pressão arterial de 120/80 mmHg também está presente na história clínica. Portanto, a codificação CID-11 9A10.0 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "ME86.5": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7233,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa do flanco ou axila. Definição: ",
+      "classification_reasoning": "A opção mais precisa é ME86.5 pois o termo 'queixas' se refere a sintomas ou dores que podem estar relacionados ao flanco ou axila.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'queixas' se refere a sintomas ou dores, enquanto o código CID-11 ME86.5 representa uma representação de doença relacionada ao flanco ou axila. Embora haja uma conexão superficial entre os dois, não há uma relação clínica direta e específica entre as queixas e a DM 2. Portanto, é necessário remover o código CID-11 ME86.5 e reavaliar a codificação para encontrar um código mais adequado.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BC64.31": {
+      "term_original": "dm 2",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é a DM2, que refere-se ao diabetes mellitus tipo 2.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'DM 2' é uma abreviação médica comum para diabetes mellitus tipo 2. A presença de medicamentos como LST, ANLO e HCTZ, além da ausência de queixas e dos resultados de exames (RAC 0,77 e TFG 38ML/MIN) corroboram a presença da doença. Portanto, o código CID-11 BC64.31 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

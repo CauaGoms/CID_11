@@ -1,0 +1,54 @@
+{
+  "prontuario_id": 167,
+  "text": "PACIENTE REFERE TRAUMA EM PÉ INESPECIFICO\nPISANDO CONTRA A INDICAÇÃO MEDICA\ntroco gesso \noriento sobre risco de perda de redução\nrx de controle hoje ok\nretorno para novo rx",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Lesão ou Envenenamento": [
+      "TRAUMA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PÉ"
+    ],
+    "Achado": [
+      "PISANDO"
+    ],
+    "Negação": [
+      "CONTRA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "troco",
+      "oriento",
+      "retorno",
+      "INDICAÇÃO MEDICA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "gesso"
+    ],
+    "Dispositivo Médico": [
+      "gesso"
+    ],
+    "Abreviação": [
+      "rx"
+    ],
+    "Procedimento Diagnóstico": [
+      "rx"
+    ],
+    "Conceito Temporal": [
+      "hoje"
+    ]
+  },
+  "labels": {
+    "NA07.0": {
+      "term_original": "trauma",
+      "capitulo": "22",
+      "confidence_embedding": 0.8051,
+      "descricao_cid": "Representação de doença CID-11: Concussão. Definição: Perda ou diminuição da consciência devida a traumatismo.",
+      "classification_reasoning": "A palavra 'trauma' no contexto do prontuário refere-se ao dano infligido ao pé, que é concordante com a definição de traumatismo intracraniano (Código NA07.0).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'trauma' no prontuário refere-se a um dano infligido ao pé, que não é concordante com a definição de traumatismo intracraniano (Código NA07.0). A concussão é uma lesão cerebral causada por um impacto ou acidente, e não está relacionada à lesão no pé. Portanto, o código CID-11 atribuído não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    }
+  }
+}

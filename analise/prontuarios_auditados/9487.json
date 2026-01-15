@@ -1,0 +1,154 @@
+{
+  "prontuario_id": 622,
+  "text": "23:20H Glasgow 15 , face corada, pupilas iso / foto. SNE em narina D com infusao  de  dieta 75ml / hr.Traqueostomizado, sob suporte de nevoa umida 3L/min,ausculta pulmonar com MV com roncos difusos em apice,aspirado media quantidade de secreçao muco-purulenta.Acesso periferico MSD com infusao de sf 0,9% gravitacional. Mantem cabeceira do leito 45 graus. Extremidades aquecidas, perfusao periferica preservada.Abdomen  flacido palpaçao, rha + . Hiperemia reg sacra .Diurese  por SVD presente em coletor  amarelo citrico. Monitorizado continuamente com cardioscopico + oximetria de pulso + pam nao invasiva. Enfermeira Florence Nightingale. EDEMA CEREBRAL TRAUMATICO",
+  "entities": {
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "pupilas",
+      "narina D"
+    ],
+    "Achado": [
+      "iso",
+      "foto",
+      "MV",
+      "Glasgow 15",
+      "face corada",
+      "Extremidades aquecidas",
+      "perfusao periferica preservada",
+      "rha +",
+      "amarelo citrico"
+    ],
+    "Abreviação": [
+      "iso",
+      "foto",
+      "SNE",
+      "MV",
+      "MSD",
+      "SVD",
+      "narina D",
+      "rha +",
+      "reg sacra",
+      "pam nao invasiva"
+    ],
+    "Dispositivo Médico": [
+      "SNE",
+      "SVD",
+      "Acesso periferico"
+    ],
+    "Conceito Quantitativo": [
+      "3L/min",
+      "75ml / hr"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "aspirado",
+      "infusao de dieta",
+      "suporte de nevoa umida",
+      "Acesso periferico",
+      "infusao de sf 0 , 9% gravitacional",
+      "cabeceira do leito 45 graus"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "aspirado"
+    ],
+    "Função de Organismo": [
+      "Diurese"
+    ],
+    "Espaço ou Junção Corporal": [
+      "narina D"
+    ],
+    "Alimento": [
+      "infusao de dieta"
+    ],
+    "Procedimento Diagnóstico": [
+      "ausculta pulmonar",
+      "oximetria de pulso",
+      "pam nao invasiva"
+    ],
+    "Sinal ou Sintoma": [
+      "roncos difusos"
+    ],
+    "Substância Corporal": [
+      "secreçao muco-purulenta"
+    ],
+    "Atributo Clínico": [
+      "perfusao periferica preservada"
+    ],
+    "Localização ou Região Corporal": [
+      "reg sacra"
+    ],
+    "Lesão ou Envenenamento": [
+      "EDEMA CEREBRAL TRAUMATICO"
+    ]
+  },
+  "labels": {
+    "NC95.Y": {
+      "term_original": "glasgow 15",
+      "capitulo": "22",
+      "confidence_embedding": 0.7423,
+      "descricao_cid": "Representação de doença CID-11: Lesão de outros vasos sanguíneos especificados na perna. Definição: ",
+      "classification_reasoning": "O termo 'glasgow 15' sugere uma escala de avaliação de coma, e a opção mais precisa é NC95.Y, que se refere a lesão de outros vasos sanguíneos especificados na perna, considerando o contexto clínico da trauqueostomização e auscultação pulmonar com roncos difusos em apice.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'Glasgow 15' sugere uma escala de avaliação de coma, e não uma lesão de outros vasos sanguíneos especificados na perna. A opção mais precisa é remover o código CID-11 atribuído (NC95.Y) e reclassificar o termo como uma condição clínica relacionada à consciência ou ao estado de coma.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB05.41": {
+      "term_original": "roncos difusos",
+      "capitulo": "12",
+      "confidence_embedding": 0.7389,
+      "descricao_cid": "Representação de doença CID-11: Transtornos respiratórios na poliangeíte microscópica. Definição: Abrange condições patológicas que afetam órgãos e tecidos que possibilitam a troca gasosa em organismos superiores, e inclui condições do trato respiratório superior, traqueia, brônquios e bronquíolos, alvéolos pleura e cavidade pleural, nervos e músculos envolvidos na respiração. Este diagnóstico é quando há uma doença autoimune mal definida caracterizada por uma vasculite sistêmica, pauci-imune, necrotizante, de pequenos vasos sem evidência clínica ou patológica de uma inflamação granulomatosa necrotizante.",
+      "classification_reasoning": "A presença de roncos difusos nos pulmões sugere uma lesão ou doença que afeta os bronquíolos e alvéolos, o que é característico da poliangeíte microscópica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de roncos difusos nos pulmões sugere uma lesão ou doença que afeta os bronquíolos e alvéolos, o que não é característico da poliangeíte microscópica. A poliangeíte microscópica é uma condição autoimune mal definida caracterizada por uma vasculite sistêmica, pauci-imune, necrotizante, de pequenos vasos sem evidência clínica ou patológica de uma inflamação granulomatosa necrotizante. A lesão nos pulmões é mais consistente com uma doença respiratória aguda, como pneumonia ou bronquite, do que com a poliangeíte microscópica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB32.1": {
+      "term_original": "extremidades aquecidas",
+      "capitulo": "15",
+      "confidence_embedding": 0.7018,
+      "descricao_cid": "Representação de doença CID-11: Ruptura muscular espontânea. Definição: Esta é uma condição em que ocorre um afastamento ou ruptura entre fibras musculares e outras fibras musculares, tendões ou fáscias, na ausência de trauma",
+      "classification_reasoning": "A opção mais precisa para o termo 'extremidades aquecidas' é a ruptura muscular espontânea (Código FB32.1), pois essa condição pode causar lesões musculares e subsequentemente aumentar a temperatura corporal, incluindo as extremidades.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 FB32.1 'Ruptura muscular espontânea' não está clinicamente coerente com o prontuário, pois a temperatura aumentada nas extremidades é um sintoma e não uma condição de ruptura muscular. A temperatura corporal pode ser afetada por várias razões, incluindo a infusão de dieta, a hiperemia regional sacra e outros fatores. Portanto, a codificação FB32.1 não representa fielmente o termo 'extremidades aquecidas' no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA22.0": {
+      "term_original": "mv",
+      "capitulo": "12",
+      "confidence_embedding": 0.7868,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A presença de roncos difusos em apice e aspirado de quantidade média de secreção muco-purulenta sugere uma exacerbação aguda da doença pulmonar obstrutiva crônica (DPOC). Além disso, a presença de MV também aponta para isso.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de roncos difusos em apice e aspirado de quantidade média de secreção muco-purulenta no prontuário é consistente com a exacerbação aguda da doença pulmonar obstrutiva crônica (DPOC). Além disso, a presença de MV também aponta para isso. A codificação CID-11 CA22.0 'Representação de doença: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada' é clínica e coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "NA07.2Y": {
+      "term_original": "edema cerebral traumatico",
+      "capitulo": "22",
+      "confidence_embedding": 0.8066,
+      "descricao_cid": "Representação de doença CID-11: Outro edema cerebral traumático especificado. Definição: ",
+      "classification_reasoning": "A opção mais precisa é o edema cerebral traumático especificado, pois o termo extraído 'edema cerebral traumatico' descreve claramente a lesão cerebral decorrente do trauma, que pode estar associada à face corada e pupilas iso/foto mencionadas no prontuário.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção CID-11 NA07.2Y 'Outro edema cerebral traumático especificado' é a mais precisa, pois o termo extraído 'edema cerebral traumatico' descreve claramente a lesão cerebral decorrente do trauma, que pode estar associada à face corada e pupilas iso/foto mencionadas no prontuário. A codificação CID-11 está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MG29.10": {
+      "term_original": "amarelo citrico",
+      "capitulo": "21",
+      "confidence_embedding": 0.7047,
+      "descricao_cid": "Representação de doença CID-11: Edema devido a pressão capilar aumentada. Definição: O aumento da pressão capilar aumenta o vazamento de fluido do compartimento vascular para os tecidos intersticiais, resultando em edema. Causas incluem o comprometimento ou obstrução do retorno venoso (sobrecarga de fluido, trombose venosa, insuficiência cardíaca direita, compressão venosa por tumor), aumento do fluxo sanguíneo (resposta fisiológica à exposição ao calor, malformações arteriovenosas, controle vasomotor cutâneo prejudicado devido a drogas ou neuropatia autonômica), ou pressão oncótica plasmática reduzida por hipoproteinemia.",
+      "classification_reasoning": "A opção mais precisa é MG29.10, Edema devido a pressão capilar aumentada, pois o termo 'amarelo citrico' refere-se ao tipo de diurese presentes no paciente, característica do edema cerebral traumático.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'amarelo citrico' não se refere ao edema cerebral traumático, mas sim à diurese presente no paciente. A opção MG29.10 não é clínicamente coerente com o prontuário, pois a diurese amarela-citrina é um sintoma característico de doenças renais ou metabólicas, e não está relacionada ao edema cerebral.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG31.0": {
+      "term_original": "face corada",
+      "capitulo": "21",
+      "confidence_embedding": 0.7555,
+      "descricao_cid": "Representação de doença CID-11: Dor aguda na face, não classificada em outra parte. Definição: ",
+      "classification_reasoning": "A face corada é um sinal de dor aguda na face, não classificável em outra parte, o que justifica a escolha do código MG31.0.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A face corada não é apenas uma dor aguda na face, mas também pode ser um sintoma de doenças mais específicas, como traumatismo craniano. O código MG31.0 é muito amplo e não captura a gravidade do caso. Além disso, o prontuário menciona edema cerebral traumático, que é uma condição clínica mais específica e relevante para a codificação CID-11.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

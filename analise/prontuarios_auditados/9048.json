@@ -1,0 +1,63 @@
+{
+  "prontuario_id": 365,
+  "text": "2 SEMANAS DE FIXAÇÃO DE DEDO EM MARTELO.\nPCTE BEM, SEM QUEIXAS, MANTENDO REDUÇÃO.\nPERFUSAO OK.\nRX CONTROLE OK.\nRETORNO EM 4 SEMANAS PARA NOVO RX E RMS.     ",
+  "entities": {
+    "Abreviação": [
+      "PCTE",
+      "RX",
+      "RMS",
+      "RX CONTROLE"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PCTE"
+    ],
+    "Achado": [
+      "BEM",
+      "MANTENDO REDUÇÃO",
+      "PERFUSAO OK"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS"
+    ],
+    "Procedimento Diagnóstico": [
+      "RX",
+      "RMS",
+      "RX CONTROLE"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "FIXAÇÃO DE DEDO EM MARTELO"
+    ]
+  },
+  "labels": {
+    "ME86.5": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7242,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa do flanco ou axila. Definição: ",
+      "classification_reasoning": "A opção ME86.5 é a mais precisa para o termo 'queixas' no contexto do prontuário, pois refere-se ao sintoma ou queixa em relação ao flanco ou axila.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'queixas' no prontuário refere-se a uma queixa do paciente, não ao sintoma ou queixa em relação ao flanco ou axila descrito na definição do código CID-11 ME86.5. A opção escolhida não representa fielmente o termo ou condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA30.2": {
+      "term_original": "mantendo redução",
+      "capitulo": "15",
+      "confidence_embedding": 0.6855,
+      "descricao_cid": "Representação de doença CID-11: Dedo do pé em martelo adquirido. Definição: ",
+      "classification_reasoning": "O termo 'mantendo redução' se refere à redução do dedo fixado em martelo, o que está relacionado à representação de doença FA30.2: Dedo do pé em martelo adquirido.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'mantendo redução' não representa diretamente a representação de doença FA30.2: Dedo do pé em martelo adquirido. A redução mencionada é provavelmente referente à técnica cirúrgica utilizada para fixar o dedo, e não ao diagnóstico da doença em si.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BC81.30": {
+      "term_original": "perfusao ok",
+      "capitulo": "11",
+      "confidence_embedding": 0.7053,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A frase 'perfusao OK' sugere que a perfusão sanguínea está dentro dos parâmetros normais, o que é consistente com a fibrilação atrial paroxística definida no código BC81.30.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A frase 'perfusao OK' não representa uma condição clínica diretamente relacionada à fibrilação atrial paroxística. A perfusão sanguínea é um fato físico que não está relacionado ao tipo de arritmia cardíaca descrita no código BC81.30. Portanto, a codificação CID-11 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

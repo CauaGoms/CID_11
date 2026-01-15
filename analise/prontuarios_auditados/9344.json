@@ -1,0 +1,163 @@
+{
+  "prontuario_id": 210,
+  "text": "POS TX RENAL\nPOS TX RENAL - CR 0,93 - FK 7,0\nHAS BOM CONTROLE\n \n \nTX RENAL FEV/14\nUSO DE : MTC 5 , FK 4/4 , MS 2/2 , ATENOLOL 25X2 , OMZ 20\nS # INTERNAMENTO POR PIORA DA FUNÇÃO RENAL , NO INTERNAMENTO CR EM QUEDA , NAO REALIZOU BIÓPSIA . \nASSINTOMÁTICA .\nO # BEG , CORADA , HIDRATADA\nPA 130/80\nMV POSITIVO , SIMETRICO\nBCRNF\nABDOMEN FLACIDO , SEM MASSAS , RHA POSITIVOS\nMEMBROS SEM EDEMA",
+  "entities": {
+    "Abreviação": [
+      "CR",
+      "FK",
+      "HAS",
+      "MTC",
+      "MS",
+      "OMZ",
+      "S",
+      "O",
+      "BEG",
+      "PA",
+      "BCRNF",
+      "TX RENAL",
+      "CR EM QUEDA",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Atributo Clínico": [
+      "CR",
+      "FK",
+      "PA"
+    ],
+    "Procedimento Laboratorial": [
+      "CR"
+    ],
+    "Doença ou Síndrome": [
+      "HAS"
+    ],
+    "Medicamento Clínico": [
+      "MTC"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "25X2",
+      "20",
+      "130/80",
+      "0 , 93",
+      "7 , 0"
+    ],
+    "Substância Química Orgânica": [
+      "FK",
+      "MS",
+      "ATENOLOL",
+      "OMZ"
+    ],
+    "Substância Farmacológica": [
+      "FK",
+      "ATENOLOL",
+      "OMZ"
+    ],
+    "Antibiótico": [
+      "MS"
+    ],
+    "Achado": [
+      "S",
+      "ASSINTOMÁTICA",
+      "BEG",
+      "CORADA",
+      "HIDRATADA",
+      "SIMETRICO",
+      "BCRNF",
+      "FLACIDO",
+      "BOM CONTROLE",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "INTERNAMENTO",
+      "BIÓPSIA",
+      "O"
+    ],
+    "Negação": [
+      "NAO",
+      "ASSINTOMÁTICA",
+      "SEM"
+    ],
+    "Procedimento Diagnóstico": [
+      "BIÓPSIA"
+    ],
+    "Localização ou Região Corporal": [
+      "ABDOMEN",
+      "MEMBROS"
+    ],
+    "Sinal ou Sintoma": [
+      "MASSAS",
+      "EDEMA",
+      "PIORA DA FUNÇÃO RENAL",
+      "CR EM QUEDA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR EM QUEDA"
+    ]
+  },
+  "labels": {
+    "DD50": {
+      "term_original": "massas",
+      "capitulo": "13",
+      "confidence_embedding": 0.7365,
+      "descricao_cid": "Representação de doença CID-11: Hérnia de parede não abdominal. Definição: Hérnia que ocorre através do forame no diafragma, na parede pélvica e em outra abertura coberta por peritônio mas não através da parede abdominal.",
+      "classification_reasoning": "A opção mais precisa para o termo 'massas' no contexto do prontuário é a hérnia de parede não abdominal, pois 'massas' pode referir-se às estruturas palpáveis e visíveis que podem surgir em pacientes com doenças abdominais.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção de código CID-11 DD50 (Hérnia de parede não abdominal) não é clínicamente coerente com o prontuário. O termo 'massas' se refere às estruturas palpáveis e visíveis que podem surgir em pacientes com doenças abdominais, mas no contexto do prontuário, as massas mencionadas são relacionadas à função renal e não há nenhuma indicação de hérnia de parede não abdominal. Portanto, a classificação é anatômica e clínica incoerente.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "FA27.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7343,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A opção mais precisa é a FA27.2, Reumatismo palindrômico, pois apresenta edema como sintoma comum e está relacionado à dor nas articulações, o que se encontra descrito no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FA27.2, Reumatismo palindrômico, não é clínicamente coerente com o prontuário pois apresenta edema como sintoma comum, mas no prontuário apenas há menção a um edema nos membros sem especificação de dor nas articulações. Além disso, a descrição do código CID-11 não menciona a possibilidade de crises agudas de dor e edema nas articulações, o que é descrito no prontuário. Portanto, há uma confusão entre sintoma (edema) e diagnóstico (Reumatismo palindrômico).",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BD10": {
+      "term_original": "cr em queda",
+      "capitulo": "11",
+      "confidence_embedding": 0.7402,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos.",
+      "classification_reasoning": "A escolha do código BD10 (Insuficiência cardíaca congestiva) se justifica por que o termo 'cr em queda' indica uma deterioração da função cardíaca, apoiada pela presença de hipertensão (PA 130/80), e não há evidências de lesões nos pés ou úlceras, descartando as opções BD54 e BA01. A síndrome clínica é caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos, o que se encontra presente no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código BD10 (Insuficiência cardíaca congestiva) não é clinicamente coerente com o prontuário. Embora haja referência à função cardíaca, a sintomatologia descrita não se enquadra na definição da insuficiência cardíaca congestiva. A presença de hipertensão (PA 130/80) e a descrição de 'cr em queda' sugerem uma deterioração da função renal mais do que cardíaca.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF56": {
+      "term_original": "rha positivos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7877,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A presença de RHA positivos no contexto do prontuário sugere uma doença renal, mais especificamente a Cólica Renal (MF56), considerando o sintoma de dor paroxística intensa no flanco e irradiação para a virilha, escroto ou grandes lábios.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de RHA positivos no prontuário sugere uma doença renal, mas a Cólica Renal (MF56) não é diretamente relacionada à dor paroxística intensa no flanco e irradiação para a virilha, escroto ou grandes lábios. A CID-11 MF56 descreve uma dor específica causada por bloqueio da pelve renal ou do ureter, enquanto o prontuário não apresenta essa característica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GB40": {
+      "term_original": "piora da função renal",
+      "capitulo": "16",
+      "confidence_embedding": 0.8209,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A escolha do código GB40 é justificada pelo fato de que o paciente apresenta 'piora da função renal' sem especificar a causa, mas com sintomas compatíveis com uma síndrome nefrítica, como hematúria grave e oligúria. A presença de CR em queda e não realização de biópsia também apontam para essa possibilidade.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código GB40 não é justificada clinicamente, pois a piora da função renal pode ser causada por várias razões e não há evidência clínica suficiente para confirmar uma síndrome nefrítica. Além disso, o prontuário não menciona hematúria grave ou oligúria, sintomas essenciais para a definição da síndrome nefrítica.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BC01": {
+      "term_original": "mv positivo",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é a doença cardíaca hipertensiva (Código BA01), pois o termo 'mv positivo' se refere à presença de fibrilação atrial, característica da doença cardíaca hipertensiva.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'mv positivo' se refere à presença de fibrilação atrial, que é um achado eletrocardiográfico. No entanto, o código CID-11 atribuído (BC01) representa uma doença cardíaca hipertensiva, que não está diretamente relacionada ao achado descrito no prontuário. A opção mais precisa seria um código que represente a fibrilação atrial ou um achado eletrocardiográfico semelhante.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

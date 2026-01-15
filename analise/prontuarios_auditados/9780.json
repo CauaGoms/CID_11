@@ -1,0 +1,193 @@
+{
+  "prontuario_id": 390,
+  "text": "TX RENAL.\nTU MANDIBULA.\nPRED 5, FK 1/1, MS 2/1, AH ( NAO SABE RELATAR).\nS: SEM QUIEXAS.\nREFERE REDUÇÃO TU MANDIBULA.\nO: PA 130/80,  P 88,  AFEBRIL , PESO 54.\nCORADA E HIDRATADA,\nAUMENTO DE VOLUME DE MANDIBULA D,\nBOCIO,\nCPP LIVRES. CIFOSE,\nPC RITMO REGULAR,\nABD SP,\nMMII SEM EDEMA,\nPO TX RENAL COM CR 0,8 - 0,9.\nTU MANDIBULA > TAC DE 11/12 SUGERE BX.\nBOCIO NODULAR> CONSIDERAR PAAF.\n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "PRED",
+      "FK",
+      "MS",
+      "AH",
+      "S",
+      "O",
+      "PA",
+      "P",
+      "ABD",
+      "SP",
+      "MMII",
+      "PO",
+      "TAC",
+      "PAAF",
+      "TX RENAL",
+      "TU MANDIBULA",
+      "MANDIBULA D",
+      "CPP LIVRES"
+    ],
+    "Substância Farmacológica": [
+      "PRED"
+    ],
+    "Substância Química Orgânica": [
+      "PRED"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "1/1",
+      "2/1",
+      "130/80",
+      "88",
+      "54"
+    ],
+    "Negação": [
+      "NAO",
+      "SEM",
+      "AFEBRIL",
+      "SP"
+    ],
+    "Achado": [
+      "S",
+      "REDUÇÃO",
+      "CORADA",
+      "HIDRATADA",
+      "SP",
+      "CPP LIVRES",
+      "RITMO REGULAR"
+    ],
+    "Sinal ou Sintoma": [
+      "QUIEXAS",
+      "AFEBRIL",
+      "EDEMA",
+      "AUMENTO DE VOLUME"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PESO"
+    ],
+    "Doença ou Síndrome": [
+      "BOCIO",
+      "CIFOSE",
+      "BOCIO NODULAR&gt;"
+    ],
+    "Localização ou Região Corporal": [
+      "ABD",
+      "MMII"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Conceito Temporal": [
+      "PO"
+    ],
+    "Procedimento Diagnóstico": [
+      "TAC",
+      "BX",
+      "PAAF"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Processo Neoplásico": [
+      "TU MANDIBULA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MANDIBULA D"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 8 - 0 , 9"
+    ]
+  },
+  "labels": {
+    "7A42.4": {
+      "term_original": "ritmo regular",
+      "capitulo": "07",
+      "confidence_embedding": 0.732,
+      "descricao_cid": "Representação de doença CID-11: Hipoventilação relacionada ao sono devida a medicamento ou substância. Definição: Hipoventilação relacionada ao sono devida a medicamento ou substância química é caracterizada primariamente por hipoventilação e hipercapnia crônicas devidas ao uso prolongado de medicamentos ou substâncias químicas conhecidas por deprimirem o drive respiratório e/ou comprometer a mecânica dos músculos respiratórios (p.ex. narcóticos de longa ação, anestésicos, sedativos e relaxantes musculares). Hipoxemia está usualmente também presente. Hipercapnia pode também estar presente durante a vigília em alguns pacientes. Os pacientes podem ser assintomáticos ou se queixar de dispneia, opressão torácica ou fadiga.\r\n\r\nNota: O diagnóstico definitivo requer evidência objetiva baseada em polissonografia com monitorização do dióxido de carbono (CO2) (por medidas arterial, tidal final ou transcutânea) no contexto de uso de substâncias consideradas causadoras dos sintomas.",
+      "classification_reasoning": "O termo 'ritmo regular' refere-se ao ritmo cardíaco normal, portanto, é mais provável que esteja relacionado à hipoventilação relacionada ao sono devida a medicamento ou substância, consideringando que o paciente tem um CPP LIVRES e PC RITMO REGULAR",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'ritmo regular' não está diretamente relacionado à hipoventilação relacionada ao sono devida a medicamento ou substância. A descrição do código CID-11 refere-se especificamente à hipoventilação crônica e hipercapnia, enquanto o termo 'ritmo regular' se refere apenas ao ritmo cardíaco normal. Portanto, não há uma relação clínica direta entre os dois, tornando a codificação CID-11 7A42.4 inadequada.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "FA26.1": {
+      "term_original": "sp",
+      "capitulo": "15",
+      "confidence_embedding": 0.7438,
+      "descricao_cid": "Representação de doença CID-11: Doença por deposição de hidroxiapatita. Definição: A doença por deposição de cristais de hidroxiapatita de cálcio é caracterizada pela presença de cristais de fosfato de cálcio básico - predominantemente hidroxiapatita - em tecidos moles periarticulares, especialmente os tendões. Essa entidade é melhor reconhecida como \"tendinite calcificada\" no local mais frequente de acometimento no ombro, mas manifesta-se em vários outros locais, com a denominação mais adequada de periartrite calcificada.",
+      "classification_reasoning": "A opção mais precisa é a Doença por deposição de hidroxiapatita (FA26.1) porque o termo 'sp' se refere à Osteofite, uma característica clínica da doença mencionada no contexto do prontuário.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção FA26.1 (Doença por deposição de hidroxiapatita) é justificada porque o termo 'sp' se refere à Osteofite, uma característica clínica da doença mencionada no contexto do prontuário. A presença de osteofites na mandíbula e a sugestão de bx (biópsia) para considerar PAAF (Pseudotumor-like Arthropathy of the Face) apoiam essa classificação.",
+      "tipo_erro_auditoria": null
+    },
+    "NA02.Y": {
+      "term_original": "edema",
+      "capitulo": "22",
+      "confidence_embedding": 0.7461,
+      "descricao_cid": "Representação de doença CID-11: Fratura de outros ossos especificados da face ou do crânio. Definição: ",
+      "classification_reasoning": "Aumento de volume de mandíbula D e BOcio, sugerem fratura ou luxação da mandíbula, o que se confirma com a referência à redução da mandíbula. A opção NA02.Y é mais precisa porque inclui 'Fratura de outros ossos especificados da face ou do crânio', o que abrange a possibilidade de fratura ou luxação da mandíbula.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'edema' se refere a uma condição de aumento de líquido no tecido, enquanto o código CID-11 NA02.Y se refere a fratura ou luxação da mandíbula. A falta de relação clínica direta entre os dois termos justifica a remoção do código atribuído.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MA01": {
+      "term_original": "aumento de volume",
+      "capitulo": "21",
+      "confidence_embedding": 0.7272,
+      "descricao_cid": "Representação de doença CID-11: Aumento de volume dos linfonodos. Definição: Aumento de volume dos gânglios linfáticos é chamado de linfadenopatia, o que significa o aumento anormal dos linfonodos.",
+      "classification_reasoning": "Aumento de volume",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'aumento de volume' não se refere diretamente ao aumento de volume dos linfonodos, como descrito no código CID-11 MA01. No prontuário, o aumento de volume está relacionado à mandíbula, não aos linfonodos. Portanto, a codificação é incoerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF56": {
+      "term_original": "redução",
+      "capitulo": "21",
+      "confidence_embedding": 0.826,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A redução de mandíbula é mencionada no prontuário e há uma sugestão de bx (biópsia), o que leva à suspeita de pAAF (pseudotumor de artéria femoral). Isso relaciona com a dor paroxística intensa do flanco, descrita na definição do código MF56.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A redução de mandíbula não é uma condição clínica relacionada à dor paroxística intensa do flanco, descrita na definição do código MF56. A redução de mandíbula é um procedimento cirúrgico e não está diretamente relacionado ao sintoma de dor renal.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EB31": {
+      "term_original": "bocio nodular>",
+      "capitulo": "14",
+      "confidence_embedding": 0.7237,
+      "descricao_cid": "Representação de doença CID-11: Eritema nodoso. Definição: Erupção eritematosa comumente associada a reações a medicamentos ou infecção e caracterizada por nódulos inflamatórios que geralmente são dolorosos, múltiplos e bilaterais. Esses nódulos localizam-se predominantemente na face anterior das pernas, com ocorrência menos comum nas coxas e antebraços. Eles sofrem mudanças de cor características que terminam em áreas temporárias semelhantes a hematomas. Esta condição geralmente desaparece em 3-6 semanas sem cicatriz ou atrofia.",
+      "classification_reasoning": "A presença de 'bocio nodular' no texto sugere a hipótese de eritema nodoso, uma condição caracterizada por nódulos inflamatórios dolorosos e múltiplos. A falta de informações sobre o local exato da lesão e a ausência de outros sintomas sugerem que o foco é na face anterior das pernas, como descrito na definição do código EB31.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de 'bocio nodular' no prontuário é claramente relacionada à condição descrita na definição do código EB31. A falta de informações sobre o local exato da lesão e a ausência de outros sintomas sugerem que o foco é na face anterior das pernas, como descrito na definição do código. Portanto, a codificação CID-11 para 'bocio nodular' é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BC02.1": {
+      "term_original": "tu mandibula",
+      "capitulo": "11",
+      "confidence_embedding": 0.7126,
+      "descricao_cid": "Representação de doença CID-11: Anormalidade valvar troncular adquirida. Definição: Alteração patológica pós-natal na forma ou função da valva troncular, quando a válvula troncular supre as circulações sistêmica e pulmonar.",
+      "classification_reasoning": "A escolha do código BC02.1 é a mais precisa porque o termo 'tu mandibula' se refere à anormalidade valvar troncular adquirida, que está relacionada ao aumento de volume da mandíbula mencionado no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'tu mandibula' não se refere à anormalidade valvar troncular adquirida, como justificado pelo sistema. A descrição do prontuário menciona aumento de volume da mandíbula e bocio nodular, o que sugere uma condição relacionada ao sistema endócrino ou metabolismo, não à valva troncular. Portanto, a escolha do código BC02.1 é inapropriada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9C40.A0": {
+      "term_original": "cifose",
+      "capitulo": "09",
+      "confidence_embedding": 0.7176,
+      "descricao_cid": "Representação de doença CID-11: Papiledema. Definição: Edema de disco óptico que resulta da pressão intracraniana aumentada.",
+      "classification_reasoning": "A opção mais precisa é a do Papiledema (edema de disco óptico que resulta da pressão intracraniana aumentada), pois o termo 'cifose' está relacionado à pressão intracraniana e ao edema do disco óptico, o que é descrito na opção 9C40.A0.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção 9C40.A0 'Papiledema' é a mais precisa para representar o termo 'cifose', pois ambos estão relacionados à pressão intracraniana e ao edema do disco óptico. A justificativa do sistema também apoia essa escolha, considerando que 'cifose' está diretamente ligado à pressão intracraniana aumentada.",
+      "tipo_erro_auditoria": null
+    },
+    "ED90.0": {
+      "term_original": "bocio",
+      "capitulo": "14",
+      "confidence_embedding": 0.7347,
+      "descricao_cid": "Representação de doença CID-11: Rosácea. Definição: O termo rosácea engloba um espectro de alterações que ocorrem principalmente na pele facial, mas também podem envolver os olhos. A maioria dos pacientes com rosácea apresenta eritema facial e instabilidade vascular que estão variavelmente associados a pápulas e pústulas inflamatórias, alterações hipertróficas e envolvimento ocular. A causa da rosácea é desconhecida. É questionável que um único fator etiológico seja responsável pelas diversas características que compõem esse transtorno.",
+      "classification_reasoning": "A presença de bocio nodular sugere uma possível associação com rosácea, doença caracterizada por alterações cutâneas faciais e instabilidade vascular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de bocio nodular não é suficiente para estabelecer uma relação direta com a rosácea. A descrição do prontuário não apresenta características clínicas específicas da rosácea, como eritema facial e instabilidade vascular. A associação entre o bocio nodular e a rosácea parece ser puramente imaginária ou baseada em uma hipótese não comprovada.",
+      "tipo_erro_auditoria": "hallucinated_linking"
+    }
+  }
+}

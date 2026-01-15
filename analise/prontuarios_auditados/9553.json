@@ -1,0 +1,173 @@
+{
+  "prontuario_id": 461,
+  "text": "TX RENAL \nEM USO DE TACROLIMO 1/2, SRL 2, PRED 5, AAS, OMEPRAZOL 20 2X, CVD 3,125 1X, MACRODANTINA 100, LANTUS 38, LISPRO 4 / 8 / 7\nS # ASTENIA\nO # PESO 45\nPA 100/70\nMUCOSAS HIPOCORADAS\nEXAME FISICO SP \nFLUCONAZOL 7 DIAS, ENQUANTO ISSO TACROLIMO FICA 1 / 1\nRETORNO 30 DIAS\nTX RENAL CR 1,0, TACROLIMO 5, SRL ?\nDM DESCOMPENSADO , PORÉM PASSOU RECENTE COM ENDÓCRINO\nITU ASSINTOMÁTICA > LEVEDURAS\nANEMIA > SUSPENSDO SULFA\nITU PROFILAXIA COM MACRODANTINA\n ",
+  "entities": {
+    "Substância Química Orgânica": [
+      "TACROLIMO",
+      "SRL",
+      "PRED",
+      "AAS",
+      "OMEPRAZOL",
+      "CVD",
+      "MACRODANTINA",
+      "LANTUS",
+      "LISPRO",
+      "FLUCONAZOL"
+    ],
+    "Substância Farmacológica": [
+      "TACROLIMO",
+      "SRL",
+      "PRED",
+      "AAS",
+      "OMEPRAZOL",
+      "CVD",
+      "MACRODANTINA",
+      "LANTUS",
+      "LISPRO",
+      "FLUCONAZOL"
+    ],
+    "Conceito Quantitativo": [
+      "1/2",
+      "2",
+      "5",
+      "20",
+      "2X",
+      "1X",
+      "100",
+      "38",
+      "100/70",
+      "7",
+      "30",
+      "3 , 125",
+      "4 / 8 / 7",
+      "1 / 1"
+    ],
+    "Abreviação": [
+      "SRL",
+      "PRED",
+      "AAS",
+      "2X",
+      "CVD",
+      "1X",
+      "PA",
+      "ENDÓCRINO",
+      "ITU",
+      "SULFA",
+      "TX RENAL",
+      "CR 1 , 0",
+      "DM DESCOMPENSADO"
+    ],
+    "Hormônio": [
+      "PRED",
+      "LANTUS",
+      "LISPRO"
+    ],
+    "Conceito Temporal": [
+      "2X",
+      "1X",
+      "DIAS"
+    ],
+    "Antibiótico": [
+      "MACRODANTINA",
+      "SULFA"
+    ],
+    "Sinal ou Sintoma": [
+      "ASTENIA",
+      "ASSINTOMÁTICA",
+      "MUCOSAS HIPOCORADAS"
+    ],
+    "Atributo Clínico": [
+      "PESO",
+      "PA"
+    ],
+    "Negação": [
+      "SP",
+      "ASSINTOMÁTICA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "RETORNO",
+      "SUSPENSDO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "SRL",
+      "CR 1 , 0"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ENDÓCRINO"
+    ],
+    "Doença ou Síndrome": [
+      "ITU",
+      "ANEMIA",
+      "DM DESCOMPENSADO"
+    ],
+    "Fungo": [
+      "LEVEDURAS"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "PROFILAXIA",
+      "TX RENAL"
+    ]
+  },
+  "labels": {
+    "5C70.0": {
+      "term_original": "dm descompensado",
+      "capitulo": "05",
+      "confidence_embedding": 0.7547,
+      "descricao_cid": "Representação de doença CID-11: Desidratação. Definição: A desidratação ocorre quando há uma quantidade insuficiente ou perda excessiva de água no corpo. Isso pode ser causado por vômitos, diarreia, febre, uso de diuréticos, sudorese profusa ou diminuição da ingestão de água.",
+      "classification_reasoning": "A descrição do termo 'dm descompensado' sugere a presença de uma doença cardíaca, o que é consistente com a definição de Desidratação (5C70.0) mencionada no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'dm descompensado' sugere a presença de uma doença cardíaca, que não é diretamente relacionada à Desidratação (5C70.0) mencionada no contexto clínico. A Desidratação é um sintoma que pode ser causado por várias razões, incluindo doenças cardíacas, mas o termo 'dm descompensado' não está diretamente relacionado à Desidratação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C48.2": {
+      "term_original": "astenia",
+      "capitulo": "06",
+      "confidence_embedding": 0.7581,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais.",
+      "classification_reasoning": "A astenia descrita no contexto clínico é sintoma de intoxicação por cafeína, caracterizada por perturbações em consciência, cognição e comportamento, o que é consistente com a definição da condição descrita pelo código CID-11 6C48.2.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A astenia descrita no prontuário não é um sintoma de intoxicação por cafeína, como definido pelo código CID-11 6C48.2. A astenia é um sintoma mais amplo que pode ser causado por várias condições clínicas, incluindo doenças renais e endócrinas. O termo 'astenia' não está diretamente relacionado à intoxicação por cafeína, portanto, a classificação é inapropriada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "4B24.0": {
+      "term_original": "itu",
+      "capitulo": "04",
+      "confidence_embedding": 0.7321,
+      "descricao_cid": "Representação de doença CID-11: Doença do enxerto versus hospedeiro aguda. Definição: Doença do enxerto-versus-hospedeiro apresentando-se normalmente nos primeiros 100 dias após o transplante. Manifesta-se mais comumente com erupção maculopapular acompanhada de febre. O prognóstico se correlaciona com a extensão do acometimento cutâneo, que pode evoluir para necrólise epidérmica generalizada, e com a gravidade do acometimento gastrointestinal e hepático que pode se manifestar com diarreia e icterícia respectivamente. A mortalidade é alta na doença do enxerto-versus-hospedeiro aguda grave.",
+      "classification_reasoning": "A presença do termo 'ITU' no contexto clínico sugere a possibilidade de Doença do Enxerto versus Hospedeiro aguda, que é uma condição comum após transplante de células tronco hematopoiéticas e caracterizada por erupções cutâneas, febre e lesão hepática e gastrointestinal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença do termo 'ITU' no prontuário sugere uma condição relacionada ao transplante de células tronco hematopoiéticas, mas o código CID-11 atribuído (4B24.0) refere-se especificamente à Doença do Enxerto versus Hospedeiro aguda, que é um tipo específico de rejeição do enxerto. Embora haja uma possibilidade de relacionamento entre as duas condições, a falta de clareza sobre o contexto e a natureza da ITU no prontuário não justifica a atribuição do código CID-11 4B24.0.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "3A71.2": {
+      "term_original": "anemia",
+      "capitulo": "03",
+      "confidence_embedding": 0.8109,
+      "descricao_cid": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "A escolha do código 3A71.2 foi feita porque o termo 'anemia' está relacionado à doença renal crônica, e a definição da anemia na CID-11 é caracterizada por baixos níveis de glóbulos vermelhos no organismo, o que se ajusta ao contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código 3A71.2 é justificada porque o termo 'anemia' está relacionado à doença renal crônica e a definição da anemia na CID-11 é caracterizada por baixos níveis de glóbulos vermelhos no organismo, o que se ajusta ao contexto clínico. A presença de anemia em pacientes com doença renal crônica é um achado comum e a codificação está coerente com a descrição do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "EB13.0": {
+      "term_original": "mucosas hipocoradas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7247,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de Stevens-Johnson. Definição: A síndrome de Stevens-Johnson é um transtorno de hipersensibilidade mediado por imunocomplexos envolvendo mucosas (conjuntiva, mucosa oral e mucosa genital) com, por definição, envolvimento da pele limitado a não mais que 9% da área de superfície corporal. Está relacionado à necrólise epidérmica tóxica e compartilha muitos dos mesmos gatilhos, notavelmente drogas, mas a inflamação é centrada em e próxima a superfícies mucosas. Embora a mortalidade seja baixa, a morbidade aguda é alta e o envolvimento conjuntival tem o potencial de causar cegueira.",
+      "classification_reasoning": "A descrição do termo 'mucosas hipocoradas' é consistente com a definição de Síndrome de Stevens-Johnson (EB13.0), que envolve mucosas, incluindo conjuntiva, mucosa oral e mucosa genital.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'mucosas hipocoradas' é consistente com a definição de Síndrome de Stevens-Johnson (EB13.0), que envolve mucosas, incluindo conjuntiva, mucosa oral e mucosa genital. A presença de mucosas hipocoradas no prontuário é uma característica clínica direta e relevante para a síndrome, portanto, o código CID-11 atribuído (EB13.0) é válido.",
+      "tipo_erro_auditoria": null
+    },
+    "1F23.3": {
+      "term_original": "leveduras",
+      "capitulo": "01",
+      "confidence_embedding": 0.7313,
+      "descricao_cid": "Representação de doença CID-11: Candidíase sistêmica ou invasiva. Definição: Invasão de órgãos internos por leveduras da Candida. Fatores de risco incluem leucemia aguda, transplante de células-tronco hematopoéticas ou de órgãos sólidos, e doença crítica aguda. Espécies de Candida que não a Candida albicans estão comumente implicadas",
+      "classification_reasoning": "A presença do termo 'leveduras' no contexto clínico sugere uma possível infecção fúngica, e a opção mais precisa é a candidíase sistêmica ou invasiva (Código CID-11: 1F23.3), considerando o histórico de pacientes com doenças críticas agudas e risco de leucemia aguda.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença do termo 'leveduras' no contexto clínico sugere uma possível infecção fúngica, e a opção mais precisa é a candidíase sistêmica ou invasiva (Código CID-11: 1F23.3), considerando o histórico de pacientes com doenças críticas agudas e risco de leucemia aguda. A codificação é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

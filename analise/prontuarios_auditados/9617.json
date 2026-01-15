@@ -1,0 +1,84 @@
+{
+  "prontuario_id": 60,
+  "text": "51 anos\nPaciente em PO de valvuloplastia mitral e tricúspide.\nPaciente tem IRC e faz diálise. Atualmente na fila de transplante renal\nPaciente vem passar por avaliação cardiológica para transplante renal\nComorbidades: Dopença renal policística . Não relata HAS, diabetes.\nMedicamentos:\nRenagel 800 mg 3x dia\nCabornato de cálcio 500mg 3 x dia\nConduta:\nSolicitado ECO e retorno 6 meses\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Conceito Temporal": [
+      "PO",
+      "dia",
+      "6 6 meses meses"
+    ],
+    "Abreviação": [
+      "IRC",
+      "HAS",
+      "3x",
+      "ECO",
+      "3 x"
+    ],
+    "Doença ou Síndrome": [
+      "IRC",
+      "HAS",
+      "diabetes",
+      "Dopença renal policística"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "diálise",
+      "valvuloplastia mitral e tricúspide",
+      "transplante renal"
+    ],
+    "Negação": [
+      "Não"
+    ],
+    "Substância Farmacológica": [
+      "Medicamentos",
+      "Renagel",
+      "Cabornato de cálcio"
+    ],
+    "Substância Química Orgânica": [
+      "Renagel",
+      "Cabornato de cálcio"
+    ],
+    "Conceito Quantitativo": [
+      "500mg",
+      "800 mg",
+      "3 x"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Conduta",
+      "Solicitado",
+      "retorno",
+      "avaliação cardiológica"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECO",
+      "avaliação cardiológica"
+    ],
+    "Substância Química Inorgânica": [
+      "Cabornato de cálcio"
+    ]
+  },
+  "labels": {
+    "BB63.8Z": {
+      "term_original": "irc",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'IRC' é a estenose da valva mitral com insuficiência, não especificada (BB63.8Z), pois a paciente tem IRC e faz diálise, indicando uma doença renal crônica, e a valvuloplastia mitral sugere uma lesão na valva mitral.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção BB63.8Z é justificada pois a paciente tem IRC e faz diálise, indicando uma doença renal crônica. A valvuloplastia mitral sugere uma lesão na valva mitral, que pode estar relacionada à IRC. Portanto, o código CID-11 representa fielmente o termo 'IRC' descrito no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "GB80": {
+      "term_original": "dopença renal policística",
+      "capitulo": "16",
+      "confidence_embedding": 0.8065,
+      "descricao_cid": "Representação de doença CID-11: Doença renal cística não familiar não genética. Definição: Doenças em que há alterações anatômicas ou patológicas do desenvolvimento na substância renal que não ocorrem em uma distribuição familiar e não são conhecidas por terem uma causa monogenética.",
+      "classification_reasoning": "A paciente tem doença renal cística não familiar, de acordo com o contexto do prontuário que menciona 'Dopença renal policística'. Isso é compatível com a descrição da doença renal cística não familiar não genética (GB80) e mais precisamente relacionada ao termo extraído.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A doença renal cística não é a mesma coisa que doença renal policística. A paciente tem doença renal policística, que é uma condição diferente da doença renal cística descrita no código CID-11 (GB80). Portanto, o código CID-11 atribuído não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "prontuario_id": 801,
+  "text": "POS ATC.\nQUEIXAS DE DISPNEIA.\nNEGA DOR .\nEM USO CORRETO DA MEDICACAO. \nSEM OUTRAS QUEIXAS EXCETO DEPRESSAO , MULHR O ABANDONOU HA 6 MESES. REFERE PERDA DE APETITE E FALTA DE SONO.\nICO.\n \n \nSOLICITO EXAMES LABORATORIAIS E CATETERISMO DIAGNOSTICO PARA VER OSSTENTS IMPLANTADOS.",
+  "entities": {
+    "Conceito Temporal": [
+      "POS"
+    ],
+    "Abreviação": [
+      "ATC",
+      "ICO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ATC"
+    ],
+    "Negação": [
+      "NEGA",
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR",
+      "QUEIXAS",
+      "QUEIXAS DE DISPNEIA",
+      "PERDA DE APETITE",
+      "FALTA DE SONO"
+    ],
+    "Substância Farmacológica": [
+      "MEDICACAO"
+    ],
+    "Doença ou Síndrome": [
+      "DEPRESSAO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "SOLICITO"
+    ],
+    "Procedimento Laboratorial": [
+      "EXAMES LABORATORIAIS"
+    ],
+    "Procedimento Diagnóstico": [
+      "CATETERISMO DIAGNOSTICO"
+    ],
+    "Dispositivo Médico": [
+      "OSSTENTS IMPLANTADOS"
+    ]
+  },
+  "labels": {
+    "CA22.0": {
+      "term_original": "queixas de dispneia",
+      "capitulo": "12",
+      "confidence_embedding": 0.7145,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A queixa de dispneia e a negativa de dor sugerem um quadro de exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC), o que justifica a escolha do código CA22.0.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A queixa de dispneia no prontuário é diretamente relacionada à Doença Pulmonar Obstrutiva Crônica (DPOC), o que justifica a escolha do código CA22.0. A negação de dor não contradiz a classificação, pois dispneia e dor são sintomas diferentes. Portanto, a codificação CID-11 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "7A61": {
+      "term_original": "falta de sono",
+      "capitulo": "07",
+      "confidence_embedding": 0.7277,
+      "descricao_cid": "Representação de doença CID-11: Transtorno de avanço de fase do sono-vigília. Definição: Transtorno de fase sono-vigília adiantada é um padrão recorrente de distúrbio do horário de sono-vigília caracterizado pelo avanço persistente (a um horário mais cedo) do período principal de sono comparado aos horários de sono convencionais ou desejados. O transtorno resulta em sonolência no início da noite (antes do horário de ir para a cama desejado) e acordar mais cedo que os horários desejado ou requeridos. Quando se permite que o sono ocorra no horário avançado, ele é essencialmente normal em qualidade e duração. Os sintomas devem ter persistido por pelo menos vários meses e resultam em desconforto significativo ou prejuízo mental, físico, social, ocupacional ou acadêmico.",
+      "classification_reasoning": "Escolho o código 7A61 pois a queixa de falta de sono se encaixa com a definição do transtorno de avanço de fase do sono-vigília, caracterizado pelo acordar mais cedo do que os horários desejados ou requeridos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa de falta de sono não se encaixa com a definição do transtorno de avanço de fase do sono-vigília, pois o paciente está referindo perda de sono, ou seja, dificuldade para dormir, e não acordar mais cedo do que os horários desejados. A falta de sono é um sintoma comum em várias condições clínicas e não é suficiente para caracterizar um transtorno específico como o 7A61.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6A71.5": {
+      "term_original": "depressao",
+      "capitulo": "06",
+      "confidence_embedding": 0.783,
+      "descricao_cid": "Representação de doença CID-11: Transtorno depressivo recorrente, episódio atual, de gravidade não especificada. Definição: Transtorno depressivo recorrente, episódio atual, de gravidade não especificada é diagnosticado quando os critérios diagnósticos para um episódio depressivo foram preenchidos e há história de episódios depressivos anteriores, mas as informações são insuficientes para determinar a gravidade do episódio depressivo atual. Um episódio depressivo é caracterizado por um período de humor deprimido ou diminuição do interesse em atividades que ocorre na maior parte do dia, quase todos os dias, durante um período de pelo menos duas semanas, acompanhado por outros sintomas, como dificuldade de concentração, sentimentos de inutilidade ou culpa excessiva ou inadequada, desesperança, pensamentos recorrentes de morte ou suicídio, alterações no apetite ou no sono, agitação ou lentificação psicomotora e redução da energia ou fadiga. Os sintomas estão associados a pelo menos alguma dificuldade em continuar as atividades normais de trabalho, sociais ou domésticas.",
+      "classification_reasoning": "A paciente apresenta queixas de depressão há 6 meses, com perda de apetite e falta de sono, o que sugere um transtorno depressivo recorrente, episódio atual, de gravidade não especificada.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 '6A71.5' para o termo 'depressao' é válida porque a paciente apresenta queixas de depressão há 6 meses, com perda de apetite e falta de sono, o que sugere um transtorno depressivo recorrente, episódio atual, de gravidade não especificada. A descrição do código CID-11 se alinha com a história clínica da paciente.",
+      "tipo_erro_auditoria": null
+    },
+    "5A00.00": {
+      "term_original": "perda de apetite",
+      "capitulo": "05",
+      "confidence_embedding": 0.6971,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo congênito permanente com bócio difuso. Definição: Condição causada por perda parcial ou completa da função tireoidiana devido a falha no desenvolvimento da tireoide durante o período pré-natal. Nestes casos, a tireoide apresenta-se lisa e aumentada e em bebês por aspecto apático, edema facial, língua grossa que se sobressai. Esta afecção pode também se apresentar com episódios de sufocamento, constipação, cabelos secos, ralos e frágeis, icterícia, ausência de tônus muscular, linha capilar baixa, dificuldade de alimentação, baixa estatura, sonolência e lentificação.",
+      "classification_reasoning": "A perda de apetite é um sintoma comum em pacientes com hipotireoidismo congênito permanente, caracterizado por déficit parcial ou total da função tireoidiana. Embora haja outras opções possíveis, a escolha do código 5A00.00 é mais precisa para o termo 'perda de apetite' no contexto clínico",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A perda de apetite descrita no prontuário não está relacionada ao hipotireoidismo congênito permanente, como descrito no código CID-11 5A00.00. A perda de apetite é um sintoma comum em várias condições clínicas e não há evidência clínica suficiente para justificar a escolha desse código específico.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD11.5": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.6964,
+      "descricao_cid": "Representação de doença CID-11: Dispneia. Definição: Dispneia é o termo utilizado para descrever percepções de dificuldade ou sofrimento relacionados à respiração e é reconhecido como sintoma de doença quando ocorre em circunstâncias inapropriadas. Dispneia é uma queixa apresentada por pacientes com uma ampla variedade de condições médicas, causadas por múltiplos mecanismos.\r\nA dispneia é considerada aguda quando dura de horas a 3 semanas, subaguda de 3 a 8 semanas e a dispneia crônica dura mais de 8 semanas.",
+      "classification_reasoning": "A queixa de dispneia é o foco principal do prontuário, e MD11.5 é a representação mais precisa para este sintoma.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A queixa de dispneia é o foco principal do prontuário e a descrição do código CID-11 (MD11.5) se ajusta perfeitamente ao termo 'dispneia' descrito no prontuário. A clínica apresentada não sugere contradições óbvias ou alucinações, portanto, a codificação CID-11 é CLINICAMENTE COERENTE com o prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

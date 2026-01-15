@@ -1,0 +1,111 @@
+{
+  "prontuario_id": 873,
+  "text": "TX RENAL.\nEM USO DE TACROLIMO 4/5, SRL 1, PRED 5, OMEPRAZOL.\n\nS # SEM QUEIXAS.\n\nO # PESO 39.\nPA 120/80.\nEXAME FISICO SP.\n \nREDUZO TACROLIMO E AUMENTO SRL .\nRETORNO EM 10 DIAS COM ECO E NOVA CR / NIVEIS. \nTX RENAL CR 1,2 PARA 1,4 E PARA 1,7.\nFK 5, SRL <2.\nMEDULA> ANEMIA REMISSÃO, PLAQ 97MIL.\n ",
+  "entities": {
+    "Substância Farmacológica": [
+      "TACROLIMO",
+      "SRL",
+      "PRED",
+      "OMEPRAZOL"
+    ],
+    "Conceito Quantitativo": [
+      "4/5",
+      "1",
+      "5",
+      "39",
+      "120/80"
+    ],
+    "Abreviação": [
+      "SRL",
+      "PRED",
+      "S",
+      "O",
+      "PA",
+      "SP",
+      "ECO",
+      "CR",
+      "TX RENAL",
+      "FK 5",
+      "SRL &lt;2",
+      "PLAQ 97MIL"
+    ],
+    "Substância Química Orgânica": [
+      "SRL",
+      "PRED",
+      "OMEPRAZOL"
+    ],
+    "Achado": [
+      "S",
+      "SP",
+      "TX RENAL",
+      "ANEMIA REMISSÃO"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O",
+      "RETORNO"
+    ],
+    "Atributo Clínico": [
+      "PESO",
+      "PA"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECO",
+      "EXAME FISICO"
+    ],
+    "Procedimento Laboratorial": [
+      "CR",
+      "NIVEIS"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MEDULA&gt;"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "1 , 4",
+      "1 , 7",
+      "FK 5",
+      "SRL &lt;2",
+      "PLAQ 97MIL"
+    ]
+  },
+  "labels": {
+    "3A71.2": {
+      "term_original": "anemia remissão",
+      "capitulo": "03",
+      "confidence_embedding": 0.8223,
+      "descricao_cid": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "A anemia remissão está relacionada à doença renal crônica, como descrita no prontuário (TX RENAL). Além disso, o exame físico revelou SP, sugerindo que a anemia é secundária à doença renal.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A anemia remissão está claramente relacionada à doença renal crônica, como descrita no prontuário (TX RENAL). O exame físico revelou SP, sugerindo que a anemia é secundária à doença renal. A codificação CID-11 '3A71.2' representa fielmente o termo 'anemia remissão', pois a anemia é uma consequência comum da doença renal crônica. Portanto, a classificação é clínica e coerente.",
+      "tipo_erro_auditoria": null
+    },
+    "9A94.1": {
+      "term_original": "sp",
+      "capitulo": "09",
+      "confidence_embedding": 0.6883,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso.",
+      "classification_reasoning": "A opção mais precisa é a síndrome da íris flácida (Código: 9A94.1) porque o termo 'sp' se refere à representação física, e a descrição clínica da síndrome inclui características como ondulação da íris em resposta a correntes do fluido intraocular e construção progressiva da pupila durante a cirurgia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção 9A94.1 (Síndrome da íris flácida) não é adequada porque o termo 'sp' se refere à representação física do exame, e a descrição clínica da síndrome não inclui características como ondulação da íris em resposta a correntes do fluido intraocular e construção progressiva da pupila durante a cirurgia. A opção mais precisa é uma condição relacionada à representação física do exame, como por exemplo, '9A13.0 - Representação de doença CID-11: Síndrome de Horner'.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GB60.0": {
+      "term_original": "tx renal",
+      "capitulo": "16",
+      "confidence_embedding": 0.7556,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência renal aguda, estágio 1. Definição: Taxa de alteração da creatinina sérica: aumento 1,5-1,9 vezes o valor basal em 7 dias OU aumento de 0,3 mg/dl em 48 h OU Magnitude da produção de urina: <0,5 ml/kg/h por 6-12 horas",
+      "classification_reasoning": "A opção mais precisa é GB60.0 porque o contexto apresenta um aumento na taxa de alteração da creatinina sérica (1,2 para 1,4 e 1,7) e falta sintomas que se relacionariam a outras opções, como síndrome de Bartter ou doença renal cística não familiar não genética.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção GB60.0 refere-se a insuficiência renal aguda, estágio 1, com aumento da taxa de alteração da creatinina sérica. No entanto, o prontuário apresenta apenas um aumento na taxa de alteração da creatinina sérica (1,2 para 1,4 e 1,7), mas não há menção a sintomas ou achados clínicos que justifiquem a classificação como insuficiência renal aguda. Além disso, o prontuário menciona anemia remissão, o que sugere uma doença renal crônica. Portanto, a opção GB60.0 não é adequada para representar fielmente o termo 'tx renal' no contexto do prontuário.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    }
+  }
+}

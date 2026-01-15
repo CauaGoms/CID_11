@@ -1,0 +1,128 @@
+{
+  "prontuario_id": 624,
+  "text": "Tx renal DC out/14\nMTC 5, FK 1 / 2, AZA 100, macrodantina 100, PT4 50, Lantus 0 / 10 / 30\nS : Refere glicemias ainda elevadas, porém não trouxe controle domiciliar.\nO : PA 100 x 70 FC 100 sem edema \nExames: Hb 13 / Cr 0,7 / PU 19 M hemáceas / NS FK 7,0\nretorno em 1 mês com exames\nUS mamas a pedido da Gineco\nsulfadiazina de prata tópica Decoy cells\n \n ",
+  "entities": {
+    "Abreviação": [
+      "DC",
+      "MTC",
+      "FK",
+      "AZA",
+      "PT4",
+      "PA",
+      "FC",
+      "Gineco",
+      "Tx renal",
+      "Hb 13",
+      "Cr 0 , 7",
+      "NS FK 7",
+      "US mamas"
+    ],
+    "Antibiótico": [
+      "MTC",
+      "macrodantina",
+      "sulfadiazina de prata"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "FK",
+      "AZA",
+      "macrodantina",
+      "PT4",
+      "Lantus",
+      "sulfadiazina de prata"
+    ],
+    "Substância Química Inorgânica": [
+      "MTC"
+    ],
+    "Hormônio": [
+      "MTC",
+      "PT4",
+      "Lantus"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "FK",
+      "AZA",
+      "macrodantina",
+      "PT4",
+      "Lantus",
+      "sulfadiazina de prata"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "100",
+      "50",
+      "1 / 2",
+      "0 / 10 / 30",
+      "100 x 70"
+    ],
+    "Substância Perigosa ou Venenosa": [
+      "AZA"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "PT4",
+      "Lantus"
+    ],
+    "Negação": [
+      "não",
+      "sem"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC"
+    ],
+    "Sinal ou Sintoma": [
+      "edema"
+    ],
+    "Procedimento Laboratorial": [
+      "Exames",
+      "PU"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "retorno"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Gineco"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Tx renal"
+    ],
+    "Achado": [
+      "glicemias ainda elevadas",
+      "trouxe controle domiciliar"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Hb 13",
+      "Cr 0 , 7",
+      "NS FK 7"
+    ],
+    "Conceito Temporal": [
+      "1 mês"
+    ],
+    "Procedimento Diagnóstico": [
+      "US mamas"
+    ]
+  },
+  "labels": {
+    "5A41": {
+      "term_original": "glicemias ainda elevadas",
+      "capitulo": "05",
+      "confidence_embedding": 0.7523,
+      "descricao_cid": "Representação de doença CID-11: Glicemia baixa sem associação com diabetes. Definição: ",
+      "classification_reasoning": "A escolha do código 'Glicemia baixa sem associação com diabetes' se baseia no termo extraído 'glicemias ainda elevadas', que sugere que a paciente apresenta hiperiglicemia, ou seja, níveis de glicose no sangue altos. A descrição do prontuário não menciona doenças renais crônicas ou distúrbios pancreáticos, portanto, a escolha da categoria 'Glicemia baixa sem associação com diabetes' é mais adequada para representar a situação clínica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'glicemias ainda elevadas' sugere que a paciente apresenta hiperiglicemia, ou seja, níveis de glicose no sangue altos. No entanto, o código CID-11 atribuído ('5A41 - Glicemia baixa sem associação com diabetes') não representa fielmente essa condição clínica. A escolha desse código é incoerente com a descrição do prontuário e não reflete a situação clínica da paciente, que apresenta doença renal crônica e controle glicêmico domiciliar inadequado.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD13": {
+      "term_original": "edema",
+      "capitulo": "11",
+      "confidence_embedding": 0.7594,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência ventricular direita. Definição: Insuficiência cardíaca associada à disfunção ventricular direita manifestada por distensão das veias do pescoço, aumento do fígado e edema gravitacional.",
+      "classification_reasoning": "A presença de edema nos pés, sem outros achados sugestivos de úlceras ou doenças cardíacas, faz com que o código BD13 seja a opção mais precisa para o termo 'edema' no contexto clínico. Isso porque a insuficiência ventricular direita pode causar edema gravitacional nos pés e membros inferiores.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de edema nos pés é descrita no prontuário, mas o código CID-11 atribuído (BD13) refere-se à insuficiência ventricular direita e edema gravitacional. Embora a insuficiência cardíaca possa causar edema, não há evidência clínica suficiente para justificar a associação entre os dois termos no contexto do prontuário. A classificação é anatômica e não está clinicamente coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    }
+  }
+}

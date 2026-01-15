@@ -1,0 +1,114 @@
+{
+  "prontuario_id": 384,
+  "text": "POS TX CARDIACO HA 9  MESES\nULTIMA BIOPSIA 04/2016 - 0R\nEM USO DE CICLO 50 / 50, AZATIOPRINA 50 \nUSO DE omeprazol , AAS 100, ATENOLOL 50 / DIA\nDOSAGEM CICLOSPORINA 9JULHO/16): 217\nS # SEM QUEIXAS\nO # PA 130/80, FC 89\nACV BCRNF\nCPP LIVRE\nMMII SEM EDEMA\nA # POS TX CARDIACO, COM BOA EVOLUÇÃO.\nP # LAB\n \n \n \n ",
+  "entities": {
+    "Conceito Temporal": [
+      "POS",
+      "DIA",
+      "HA 9 MESES"
+    ],
+    "Procedimento Diagnóstico": [
+      "BIOPSIA"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "CICLO"
+    ],
+    "Substância Farmacológica": [
+      "CICLO",
+      "AZATIOPRINA",
+      "omeprazol",
+      "AAS",
+      "ATENOLOL"
+    ],
+    "Abreviação": [
+      "CICLO",
+      "AAS",
+      "PA",
+      "FC",
+      "ACV",
+      "BCRNF",
+      "MMII",
+      "LAB",
+      "TX CARDIACO",
+      "CPP LIVRE"
+    ],
+    "Substância Química Orgânica": [
+      "AZATIOPRINA",
+      "omeprazol",
+      "AAS",
+      "ATENOLOL"
+    ],
+    "Substância Perigosa ou Venenosa": [
+      "AZATIOPRINA"
+    ],
+    "Conceito Quantitativo": [
+      "50",
+      "100",
+      "217",
+      "130/80",
+      "89",
+      "50 / 50"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "EDEMA"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC",
+      "ACV"
+    ],
+    "Achado": [
+      "BCRNF",
+      "CPP LIVRE",
+      "BOA EVOLUÇÃO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MMII"
+    ],
+    "Procedimento Laboratorial": [
+      "LAB"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX CARDIACO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "DOSAGEM CICLOSPORINA"
+    ]
+  },
+  "labels": {
+    "BD93": {
+      "term_original": "edema",
+      "capitulo": "11",
+      "confidence_embedding": 0.7795,
+      "descricao_cid": "Representação de doença CID-11: Linfedema. Definição: Edema devido ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Geralmente afeta as extremidades, mas pode envolver qualquer parte do corpo. É desfigurante e aumenta a suscetibilidade a infecções recorrentes e malignidades locais.",
+      "classification_reasoning": "A opção mais precisa para o termo 'edema' no contexto clínico é a BD93, Linfedema, pois apresenta edema como característica fundamental e não há indicações de insuficiência cardíaca ou úlceras nos pés diabéticos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BD93, Linfedema, não se ajusta ao contexto do prontuário. Embora o termo 'edema' esteja presente, não há indicações de drenagem linfática inadequada ou edema desfigurante, características fundamentais da Linfedema. Além disso, a evolução clínica descrita no prontuário é positiva e não há menção a infecções recorrentes ou malignidades locais. Portanto, a classificação BD93 não é clinicamente coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "BC43.2Y": {
+      "term_original": "bcrnf",
+      "capitulo": "11",
+      "confidence_embedding": 0.7562,
+      "descricao_cid": "Representação de doença CID-11: Outra cardiomiopatia restritiva especificada. Definição: ",
+      "classification_reasoning": "A opção BC43.2Y é a mais precisa para o termo \"bcrnf\" no contexto do prontuário, pois é relacionada à cardiomiopatia restritiva especificada, que pode estar associada ao histórico de doença cardíaca mencionado na consulta.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção BC43.2Y é a mais precisa para o termo 'bcrnf' no contexto do prontuário, pois é relacionada à cardiomiopatia restritiva especificada, que pode estar associada ao histórico de doença cardíaca mencionado na consulta. A abreviação 'bcrnf' não apresenta contradição óbvia e está claramente relacionada à condição cardíaca descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MG29.Z": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.742,
+      "descricao_cid": "Representação de doença CID-11: Edema, não especificado. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'queixas' é MG29.Z, pois não há menções a qualquer sintoma específico de doença renal ou outras condições que possam justificar a escolha de outros códigos. A ausência de queixas mencionadas no prontuário aponta para uma situação em que o paciente está sem apresentar sintomas, o que se alinha com a definição de MG29.Z: Edema, não especificado.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção MG29.Z é muito genérica e não se ajusta ao conteúdo do prontuário, que descreve um paciente com boa evolução após transplante cardíaco. A ausência de queixas mencionadas no prontuário não justifica a escolha de um código que representa edema não especificado. Uma opção mais precisa seria uma codificação que represente a situação clínica do paciente, como por exemplo, MG21.9 (Reabilitação cardíaca após transplante).",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}
