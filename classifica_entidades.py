@@ -69,12 +69,20 @@ FORMATO DE SAÍDA:
 [/INST]"""
     
     inputs = processor(text=prompt, return_tensors="pt").to("cuda")
-    input_len = inputs["input_ids"].shape[-1]
-
-    with torch.no_grad():
-        output = model_med.generate(**inputs, max_new_tokens=512, do_sample=False)
     
-    return processor.decode(output[0][input_len:], skip_special_tokens=True)
+    with torch.no_grad():
+        output = model_med.generate(
+            **inputs, 
+            max_new_tokens=512, 
+            do_sample=True,
+            temperature=0.2, 
+            top_p=0.9,
+            pad_token_id=processor.tokenizer.eos_token_id
+        )
+    
+    resposta = processor.decode(output[0], skip_special_tokens=True)
+    # Remove o prompt da resposta para o Llama não se confundir
+    return resposta.split("[/INST]")[-1].strip()
 
 def chamar_llama_formatador(analise_medica, candidatos):
     prompt = f"""
