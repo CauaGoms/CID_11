@@ -7,8 +7,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 # --- CONFIGURAÇÕES ---
 OLLAMA_API_EMBED = "http://localhost:11434/api/embeddings"
 EMBED_MODEL = "mxbai-embed-large"
-PASTA_ENTRADA = "processamento/classifica_entidades/prontuarios_classificados"
-PASTA_SAIDA = "processamento/busca_embedding/prontuarios_busca"
+PASTA_ENTRADA = "processamento/classifica_entidades/prontuarios_vazios_classificados"
+PASTA_SAIDA = "processamento/busca_embedding/prontuarios_vazios_busca"
 PASTA_BANCOS = "embedding_cid"
 
 # Cache para evitar ler o mesmo arquivo de capítulo várias vezes no mesmo processo
