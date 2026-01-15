@@ -6,7 +6,7 @@ from transformers import AutoProcessor, PaliGemmaForConditionalGeneration
 
 # --- CONFIGURAÇÕES ---
 # MedGemma local para o raciocínio médico
-MODELO_MEDGEMMA = "google/medgemma-1.5-4b-it" 
+MODELO_MEDGEMMA = "google/medgemma-1.5-4b-it"
 # Llama via Ollama para a formatação JSON
 OLLAMA_API = "http://localhost:11434/api/generate"
 MODELO_LLAMA = "llama3.1:8b"
@@ -45,40 +45,59 @@ CAPITULOS_CID = {
     "X": "Códigos de extensão: Códigos suplementares usados para detalhar características adicionais, contexto ou atributos de outras categorias, não utilizados como codificação primária."
 }
 
-# --- CARREGAMENTO DO MEDGEMMA ---
+# --- CARREGAMENTO DO MEDGEMMA (UMA VEZ) ---
 print("Carregando MedGemma como especialista clínico...")
 processor = AutoProcessor.from_pretrained(MODELO_MEDGEMMA)
 model_med = PaliGemmaForConditionalGeneration.from_pretrained(
-    MODELO_MEDGEMMA, torch_dtype=torch.bfloat16, device_map="auto"
+    MODELO_MEDGEMMA,
+    torch_dtype=torch.bfloat16,
+    device_map="auto"
 )
+print(f"✓ MedGemma carregado na GPU: {torch.cuda.is_available()}\n")
 
 def chamar_medgemma_especialista(texto, candidatos):
-    # Seu prompt completo e detalhado
-    prompt = f"""<bos>[INST] Você é um Auditor Médico. Sua tarefa é filtrar a lista de termos e manter APENAS aqueles que são CIDs (Classificação Estatística Internacional de Doenças e Problemas Relacionados à Saúde). Seu objetivo é classificar doenças, lesões, sintomas e causas de morte válidos conforme o texto e atribuir os capítulos dos quais pertencem.
+    """
+    MedGemma local analisa o contexto médico e retorna análise clínica.
+    """
+    prompt = f"""Você é um Auditor Médico Especialista em CID-11. Sua tarefa é analisar termos médicos e atribuir os capítulos corretos da CID-11.
 
-TEXTO: "{texto}"
-TERMOS: {", ".join(candidatos)}
+TEXTO DO PRONTUÁRIO:
+"{texto}"
 
-REGRAS:
-1. Para cada termo, verifique se ele de fato pode corresponder a uma CID com base no texto fornecido.
-2. Se o termo corresponder a uma CID, atribua o capítulo correto (ex: "01", "14", "21") conforme a lista de capítulos fornecida a seguir:
+TERMOS PARA CLASSIFICAR:
+{", ".join(candidatos)}
 
-CAPÍTULOS CID: {json.dumps(CAPITULOS_CID, ensure_ascii=False)}
+CAPÍTULOS CID-11 DISPONÍVEIS:
+{json.dumps(CAPITULOS_CID, ensure_ascii=False)}
 
-FORMATO DE SAÍDA:
+REGRAS DE ANÁLISE:
+1. Para cada termo, verifique se ele corresponde a uma CID baseado no texto fornecido.
+2. Atribua o capítulo correto (ex: "01", "14", "21") conforme o significado clínico.
+3. Ignore termos que descrevem NORMALIDADE ou AUSÊNCIA (ex: "sem", "negado", "presente").
+4. Se houver dúvida, classifique em "21" (Sintomas, sinais ou achados clínicos).
+
+FORMATO DE SAÍDA (use este formato exato):
 (termo) -> (capítulo_CID)
-[/INST]
-Lista de CIDs:""" # Adicionamos essa "âncora" para ele começar certo
 
-    inputs = processor(text=prompt, return_tensors="pt").to("cuda")
+Análise:"""
+
+    # Prepara input
+    inputs = processor(text=prompt, return_tensors="pt")
+    
+    # Move para GPU se disponível
+    if torch.cuda.is_available():
+        inputs = {k: v.cuda() for k, v in inputs.items()}
+    
     input_len = inputs["input_ids"].shape[-1]
 
+    # Gera resposta
     with torch.no_grad():
         output = model_med.generate(
-            **inputs, 
-            max_new_tokens=512, 
-            do_sample=False,   # Desliga a aleatoriedade (evita o JavaScript)
-            repetition_penalty=1.2, # Penaliza repetições (os caracteres 0xB7)
+            **inputs,
+            max_new_tokens=512,
+            temperature=0.3,
+            do_sample=False,
+            repetition_penalty=1.2,
             pad_token_id=processor.tokenizer.eos_token_id
         )
     
@@ -87,20 +106,25 @@ Lista de CIDs:""" # Adicionamos essa "âncora" para ele começar certo
     return resposta.strip()
 
 def chamar_llama_formatador(analise_medica, candidatos):
-    prompt = f"""
-Atue como um formatador de JSON técnico. Sua tarefa é extrair as classificações CID-11 da análise médica abaixo.
+    """
+    Llama via Ollama formata a análise clínica em JSON estruturado.
+    """
+    prompt = f"""Atue como um formatador de JSON técnico. Sua tarefa é extrair as classificações CID-11 da análise médica abaixo.
 
 ANÁLISE MÉDICA DO ESPECIALISTA:
 "{analise_medica}"
 
+LISTA DE CANDIDATOS (para referência):
+{", ".join(candidatos)}
+
 REGRAS OBRIGATÓRIAS:
 1. Retorne um JSON PLANO onde a CHAVE é o termo e o VALOR é apenas o código do capítulo (ex: "01", "14", "21").
-2. Se o código não foi mencionado, NÃO inclua o termo no JSON.
+2. Se o código não foi mencionado na análise, NÃO inclua o termo no JSON.
 3. Não crie listas, não crie sub-objetos. Apenas {{"termo": "codigo"}}.
-4. Não inclua termos que não estejam na lista de candidatos fornecida.
-5. Exemplo de saída: {{"diabetes": "05", "dor de cabeça": "21"}}
+4. Só inclua termos que estejam na lista de candidatos fornecida.
+5. Exemplo correto: {{"diabetes": "05", "dor de cabeça": "21"}}
 
-RETORNE APENAS O JSON:"""
+RETORNE APENAS O JSON (nada mais):"""
     
     payload = {
         "model": MODELO_LLAMA,
@@ -109,56 +133,77 @@ RETORNE APENAS O JSON:"""
         "format": "json",
         "options": {"temperature": 0}
     }
+    
     try:
         response = requests.post(OLLAMA_API, json=payload, timeout=120)
-        # O Ollama com format:json garante que a string seja um JSON válido
         return json.loads(response.json()['response'])
     except Exception as e:
         print(f"      ⚠ Erro ao formatar com Llama: {e}")
         return {}
 
 def processar():
-    if not os.path.exists(PASTA_SAIDA): os.makedirs(PASTA_SAIDA)
+    """
+    Processa todos os arquivos JSON com MedGemma + Llama.
+    """
+    if not os.path.exists(PASTA_SAIDA):
+        os.makedirs(PASTA_SAIDA)
+    
     arquivos = [f for f in os.listdir(PASTA_ENTRADA) if f.endswith('.json')]
     total_arquivos = len(arquivos)
     
-    if total_arquivos == 0: return print("Nenhum arquivo encontrado.")
+    if total_arquivos == 0:
+        print("❌ Nenhum arquivo encontrado.")
+        return
+
+    print(f"{'='*70}")
+    print(f"Iniciando classificação de {total_arquivos} arquivos")
+    print(f"Arquitetura: MedGemma (cérebro) + Llama (formatador)")
+    print(f"{'='*70}\n")
 
     for i, nome_arquivo in enumerate(arquivos, 1):
-        print(f"[{i}/{total_arquivos}] -> {nome_arquivo}")
+        print(f"[{i}/{total_arquivos}] → {nome_arquivo}")
         
-        with open(os.path.join(PASTA_ENTRADA, nome_arquivo), 'r', encoding='utf-8') as f:
+        caminho_entrada = os.path.join(PASTA_ENTRADA, nome_arquivo)
+        
+        with open(caminho_entrada, 'r', encoding='utf-8') as f:
             dados = json.load(f)
         
         texto = dados.get('text', "")
         candidatos = list(set([t.lower() for termos in dados.get('entities', {}).values() for t in termos]))
         
         if candidatos:
-            # 1. MedGemma (Cérebro): Decisão clínica
+            # 1. MedGemma (Cérebro Local): Decisão clínica
             print(f"   → MedGemma decidindo capítulos...")
             analise_texto = chamar_medgemma_especialista(texto, candidatos)
-            print(analise_texto)
+            print(f"   Análise:\n{analise_texto}\n")
             
-            # 2. Llama 3.1 (Formatador): Organização técnica
+            # 2. Llama 3.1 via Ollama (Formatador): Organização técnica
             print(f"   → Llama 3.1 formatando JSON...")
             classificacoes = chamar_llama_formatador(analise_texto, candidatos)
-            print(classificacoes)
+            print(f"   JSON: {json.dumps(classificacoes, ensure_ascii=False)}\n")
             
+            # 3. Montagem final
             labels_finais = {}
             if isinstance(classificacoes, dict):
                 for termo, cap in classificacoes.items():
-                    # Limpeza extra: só aceita se cap for código ou letra (V, X)
                     cap_str = str(cap).strip().upper()
                     if cap_str and cap_str != "IGNORAR" and cap_str != "NONE":
                         labels_finais[termo.lower()] = {"capitulo": cap_str}
             
             dados['labels'] = labels_finais
-            print(f"   ✓ {len(labels_finais)} termos processados.")
+            print(f"   ✓ {len(labels_finais)} termos processados.\n")
         else:
             dados['labels'] = {}
 
-        with open(os.path.join(PASTA_SAIDA, nome_arquivo), 'w', encoding='utf-8') as f:
+        # Salva resultado
+        caminho_saida = os.path.join(PASTA_SAIDA, nome_arquivo)
+        with open(caminho_saida, 'w', encoding='utf-8') as f:
             json.dump(dados, f, ensure_ascii=False, indent=2)
+
+    print(f"{'='*70}")
+    print(f"✓ Processamento Finalizado!")
+    print(f"   Arquivos salvos em: {PASTA_SAIDA}")
+    print(f"{'='*70}")
 
 if __name__ == "__main__":
     processar()
