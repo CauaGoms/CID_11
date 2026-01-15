@@ -1,0 +1,162 @@
+{
+  "prontuario_id": 468,
+  "text": "16HS: ORIENTADO, CALMO, COMUNICATIVO, EUPNEICO EM AR AMBIENTE, CORADO, ACEITANDO BEM A DIETA OFERTADA, BOA ACEITAÇÃO HIDRICA, ACESSO VENOSO PERIFERICO EM ANTEBRAÇO DIREITO SALINIZADO, CURATIVO EM JOELHO ESQUERDO SECO EXTERNAMENTE, ONDE RELATA ALGIA AOS MOVIMENTOS, DIURESE DE COLORAÇÃO CITRICA, SEGUE SOB OS CUIDADOS DE ENFERMAGEM. Enfermeira Florence Nightingale. TRAUMATISMO SUPERFICIAL DO PESCOCO.",
+  "entities": {
+    "Achado": [
+      "ORIENTADO",
+      "CALMO",
+      "COMUNICATIVO",
+      "CORADO",
+      "SALINIZADO",
+      "SECO",
+      "EUPNEICO EM AR AMBIENTE",
+      "ACEITANDO BEM A DIETA OFERTADA",
+      "BOA ACEITAÇÃO HIDRICA",
+      "DIURESE DE COLORAÇÃO CITRICA"
+    ],
+    "Conceito Qualitativo": [
+      "SALINIZADO",
+      "SECO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CURATIVO",
+      "ACESSO VENOSO PERIFERICO"
+    ],
+    "Dispositivo Médico": [
+      "CURATIVO",
+      "ACESSO VENOSO PERIFERICO"
+    ],
+    "Conceito Espacial": [
+      "EXTERNAMENTE"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ENFERMAGEM",
+      "Enfermeira"
+    ],
+    "Localização ou Região Corporal": [
+      "ANTEBRAÇO DIREITO",
+      "JOELHO ESQUERDO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "JOELHO ESQUERDO"
+    ],
+    "Sinal ou Sintoma": [
+      "ALGIA AOS MOVIMENTOS"
+    ],
+    "Lesão ou Envenenamento": [
+      "TRAUMATISMO SUPERFICIAL DO PESCOCO"
+    ]
+  },
+  "labels": {
+    "6B23.0": {
+      "term_original": "orientado",
+      "capitulo": "06",
+      "confidence_embedding": 0.7363,
+      "descricao_cid": "Representação de doença CID-11: Hipocondria com insight bom a razoável. Definição: Todos os critérios diagnósticos para hipocondria são preenchidos. Na maior parte do tempo, o indivíduo é capaz de considerar a possibilidade de que suas crenças específicas do transtorno possam não ser verdadeiras e está disposto a aceitar uma explicação alternativa para sua experiência. Em momentos circunscritos (p. ex., quando extremamente ansioso), o indivíduo pode não apresentar \"insight\".",
+      "classification_reasoning": "A opção mais precisa para o termo 'orientado' no contexto é a hipocondria com insight bom a razoável (Código: 6B23.0), pois o paciente está descrito como 'ORIENTADO, CALMO, COMUNICATIVO', o que sugere um nível de conscientização e aceitação da situação clínica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção de código CID-11 (6B23.0) para o termo 'orientado' não é clínica ou lógica no contexto do prontuário. O paciente está descrito como 'ORIENTADO, CALMO, COMUNICATIVO', o que sugere um nível de conscientização e aceitação da situação clínica, mas isso não se refere a hipocondria com insight bom a razoável. A classificação é inapropriada e não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NC95.Z": {
+      "term_original": "salinizado",
+      "capitulo": "22",
+      "confidence_embedding": 0.7113,
+      "descricao_cid": "Representação de doença CID-11: Lesão de vaso sanguíneo não especificado na perna. Definição: ",
+      "classification_reasoning": "A lesão de vaso sanguíneo não especificado na perna é a opção mais precisa para o termo 'salinizado' no contexto clínico, pois refere-se à apresentação de lesão vascular na perna, que coincide com a descrição do prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão de vaso sanguíneo não especificada na perna (NC95.Z) não é um termo que diretamente relaciona-se ao termo 'salinizado' no prontuário. O termo 'salinizado' se refere à apresentação de uma solução salina em um local específico, enquanto a lesão de vaso sanguíneo não especificada na perna é uma condição clínica diferente. Portanto, não há correspondência clínica entre o termo e o código CID-11 atribuído.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA23.00": {
+      "term_original": "diurese de coloração citrica",
+      "capitulo": "12",
+      "confidence_embedding": 0.7195,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide.",
+      "classification_reasoning": "A presença de diurese de coloração cítica sugere que o paciente tem uma resposta inflamatória no sistema circulatório, o que está relacionado à asma alérgica com exacerbação (CA23.00). A caracterização da diurese como 'citrina' é consistente com a hipótese de que houve uma liberação excessiva de cristaloides pela glândula adrenal, o que é comum em casos de asma alérgica grave.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A diurese de coloração cítica não está diretamente relacionada à asma alérgica com exacerbação (CA23.00). A presença de diurese de coloração cítica sugere uma resposta inflamatória no sistema circulatório, o que é mais consistente com a hipótese de uma reação alérgica ou uma doença autoimune do que com a asma alérgica. Portanto, não há uma relação clínica direta entre o termo e o código CID-11 atribuído.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA38.3": {
+      "term_original": "algia aos movimentos",
+      "capitulo": "15",
+      "confidence_embedding": 0.6697,
+      "descricao_cid": "Representação de doença CID-11: Artropatia hemofílica. Definição: Trata-se da destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia. Esta condição inclui a ocorrência de hemartrose aguda, artrite subaguda ou crônica e artropatia hemofílica em estágio terminal. Quase todos os pacientes com hemofilia A ou B grave e metade dos pacientes com atividade de doença moderada apresentam hemartrose. Os sintomas incluem dor nas articulações (artralgias), edema articular, fibrose articular, desenvolvimento de deformidades em flexão e erosão da cartilagem articular. As articulações mais comumente afetadas são joelhos, tornozelos, cotovelos, ombros e quadris (em ordem de frequência). O sangramento nos músculos e partes moles também pode causar disfunção musculoesquelética.",
+      "classification_reasoning": "A escolha do código FA38.3 se baseia na descrição da algia aos movimentos, que sugere uma lesão articular associada à hemofilia, característica principal da Artropatia Hemofílica (FA38.3). A presença de algia e desenvolvimento de deformidades articulares também corroboram essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário não apresenta evidências de Artropatia Hemofílica (FA38.3), que é uma condição caracterizada por lesão articular associada à hemofilia, desenvolvimento de deformidades articulares e sangramento nos músculos e partes moles. A algia aos movimentos descrita no prontuário pode ser um sintoma comum em várias doenças, não necessariamente relacionado à Artropatia Hemofílica. Portanto, a escolha do código FA38.3 é incorreta.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "7A42.5": {
+      "term_original": "eupneico em ar ambiente",
+      "capitulo": "07",
+      "confidence_embedding": 0.7479,
+      "descricao_cid": "Representação de doença CID-11: Hipoventilação relacionada ao sono devida a condição médica. Definição: A hipoventilação relacionada ao sono devida a condição médica é caracterizada por hipoventilação durante o sono devida a doença de via aérea ou do parênquima pulmonar, comprometimento da parede torácica, hipertensão pulmonar ou distúrbios neurológicos e neuromusculares. Hipercapnia diurna pode também estar presente. A hipoxemia durante o sono pode ser grave. Os pacientes podem ser assintomáticos ou apresentar-se com queixas de dispneia, aperto no peito ou fadiga.\r\n\r\nNota: Um diagnóstico definitivo requer evidência objetiva baseada na polissonografia com monitorização de dióxido de carbono (CO2) por medida arterial, expiratória ou transcutânea, na presença de uma condição médica julgada como causadora dos sintomas.",
+      "classification_reasoning": "Como o paciente está 'EUPNEICO EM AR AMBIENTE', isto sugere que não há problemas respiratórios crônicos, e a hipoventilação relacionada ao sono devida a condição médica é uma opção mais precisa para explicar este termo no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 '7A42.5' é muito genérica e não se ajusta ao termo específico 'EUPNEICO EM AR AMBIENTE', que descreve um paciente com respiração normal em ambiente controlado. A hipoventilação relacionada ao sono devida a condição médica (CID-11 7A42.5) é uma condição mais grave e não se aplica ao caso do paciente, pois este não apresenta sintomas de dispneia ou hipoxemia durante o sono.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "EA90.3": {
+      "term_original": "corado",
+      "capitulo": "14",
+      "confidence_embedding": 0.7373,
+      "descricao_cid": "Representação de doença CID-11: Psoríase eritrodérmica. Definição: Psoríase eritrodérmica é uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele. A psoríase eritrodérmica geralmente se desenvolve a partir da psoríase em placas extensa mas pode surgir de forma nova. Fatores precipitantes ou desencadeantes incluem a retirada de glicocorticoides sistêmicos e, menos frequentemente, a descontinuação abrupta do metotrexato, queimaduras ou infecções intercorrentes. Os pacientes podem desenvolver hipotermia ou insuficiência cardíaca de alto débito.",
+      "classification_reasoning": "A presença do termo 'corado' sugere a possibilidade de uma reação inflamatória na pele, o que é característico da psoríase eritrodérmica (EA90.3). Além disso, a descrição do contexto clínico menciona um traumatismo superficial no pescoço, o que também é compatível com essa condição.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença do termo 'corado' não é suficiente para justificar a codificação EA90.3, pois psoríase eritrodérmica é uma condição inflamatória generalizada grave que envolve mais de 90% da superfície da pele. No prontuário, apenas se menciona um traumatismo superficial no pescoço e corado, o que não está relacionado à psoríase eritrodérmica. Além disso, a descrição do contexto clínico não apresenta sintomas ou características compatíveis com essa condição.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C20": {
+      "term_original": "comunicativo",
+      "capitulo": "06",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'comunicativo' se refere à capacidade do paciente de expressar seus pensamentos e sentimentos, o que é característico da síndrome associada à gravidez ou ao puerpério (PSY3) descrita pelo código CID-11 6E20.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'comunicativo' não se refere a uma condição clínica diretamente relacionada ao trauma superficial do pescoco, mas sim à capacidade do paciente de expressar seus pensamentos e sentimentos. Isso não é um achado relevante para o diagnóstico ou tratamento do traumatismo superficial do pescoco.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "QA8Z": {
+      "term_original": "aceitando bem a dieta ofertada",
+      "capitulo": "24",
+      "confidence_embedding": 0.7103,
+      "descricao_cid": "Representação de doença CID-11: Circunstâncias associadas a outros aspectos do cuidado influenciando no episódio de atenção, sem lesão ou dano, não especificadas. Definição: ",
+      "classification_reasoning": "A opção QA8Z é a mais precisa pois o termo 'aceitando bem a dieta ofertada' indica que o paciente está se adaptando às recomendações alimentares, sem lesão ou dano. Isso se encaixa melhor na categoria de circunstâncias associadas ao cuidado influenciando no episódio de atenção.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'aceitando bem a dieta ofertada' não representa uma condição clínica diretamente relacionada ao paciente, mas sim um fato de cuidado. A opção QA8Z não se encaixa com o prontuário, pois não há lesão ou dano mencionados. A classificação QA8Z é demasiadamente genérica e não captura a essência da situação clínica do paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "QA8Y": {
+      "term_original": "boa aceitação hidrica",
+      "capitulo": "24",
+      "confidence_embedding": 0.677,
+      "descricao_cid": "Representação de doença CID-11: Outras circunstâncias especificadas associadas a outros aspectos do cuidado influenciando no episódio de atenção, sem lesão ou dano. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'boa aceitação hidrica' é a QA8Y, pois a descrição refere-se às circunstâncias especificadas associadas a outros aspectos do cuidado influenciando no episódio de atenção, sem lesão ou dano. Nesse contexto clínico, a boa aceitação hidra é uma característica positiva que indica um bom estado geral do paciente.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A boa aceitação hidra é uma característica positiva que indica um bom estado geral do paciente. A descrição do prontuário não apresenta contradições óbvias ou alucinações, e a associação entre o termo e o código CID-11 QA8Y é clínica e coerente. Portanto, manteremos a codificação como está.",
+      "tipo_erro_auditoria": null
+    },
+    "6C45.4": {
+      "term_original": "calmo",
+      "capitulo": "06",
+      "confidence_embedding": 0.7198,
+      "descricao_cid": "Representação de doença CID-11: Abstinência de cocaína. Definição: Abstinência de cocaína é um conjunto clinicamente significativo de sintomas, comportamentos e/ou manifestações fisiológicas, variando em grau de gravidade e duração, que ocorre quando da cessação ou redução do uso de opioides em indivíduos que tenham desenvolvido dependência de cocaína ou tenham usado cocaína por um período prolongado ou em grandes quantidades. Sintomas de apresentação da abstinência de cocaína podem incluir humor disfórico, irritabilidade, fadiga, lentificação psicomotora, sonhos vívidos desagradáveis, insônia ou hipersonia, aumento de apetite, ansiedade, agitação ou lentificação psicomotora e fissura por cocaína.",
+      "classification_reasoning": "O termo 'calmo' descreve o paciente como sentindo-se bem e tranquilo, o que é consistente com a apresentação de abstinência de cocaína (6C45.4). Isso porque a abstinência de cocaína pode levar a sintomas como irritabilidade e humor disfórico, mas também pode causar uma sensação geral de calma e relaxamento.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A abstinência de cocaína (6C45.4) não é uma condição clínica que possa ser diretamente relacionada ao termo 'calmo'. O termo 'calmo' descreve o paciente como sentindo-se bem e tranquilo, enquanto a abstinência de cocaína pode levar a sintomas como irritabilidade e humor disfórico. Ajustar o código para uma condição clínica que não está presente no prontuário é um erro de classificação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NA20": {
+      "term_original": "traumatismo superficial do pescoco",
+      "capitulo": "22",
+      "confidence_embedding": 0.7224,
+      "descricao_cid": "Representação de doença CID-11: Traumatismo superficial do pescoço. Definição: ",
+      "classification_reasoning": "A opção mais precisa é o traumatismo superficial do pescoço, pois o prontuário refere-se explicitamente ao 'traumatismo superficial do pescoco' como uma lesão no contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção do sistema é justificada, pois o termo 'traumatismo superficial do pescoco' é diretamente relacionado ao código CID-11 NA20. A descrição do código também se alinha com a condição clínica descrita no prontuário. Portanto, não há motivos para remover ou questionar a classificação.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

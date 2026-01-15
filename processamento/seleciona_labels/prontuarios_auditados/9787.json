@@ -1,0 +1,88 @@
+{
+  "prontuario_id": 751,
+  "text": "# 7º PO BX LESAO MANDIBULA À DIREITA + BX PERFURAÇÃO NASAL (VER AP).\n\nS # NEGA QUEIXAS.\nREFERE QUE NÃO FEZ USO DE MEDICAÇÕES PRESCRITA, INICIOU AMOXA+CLAVULANATO ONTEM.\n\nO # ORO: FO BOM ASPECTO.\nC/P: EDEMA ENDURECIDO EM MANDIBULA APROX 5CM.\nRINO: PERF SP.\n\nCD # ORIENTO USAR AMOXA+CLAVULANATO + PREDINISONA.\nRETORNO NA PROX 4ª FEIRA PRA REAVALIAR EDEMA DE MANDIBULA.\nVER AP EM 3 SEMANAS.\n\nR3 Lucas\n \n \n \n ",
+  "entities": {
+    "Lesão ou Envenenamento": [
+      "LESAO"
+    ],
+    "Abreviação": [
+      "AP",
+      "S",
+      "AMOXA+CLAVULANATO",
+      "O",
+      "ORO",
+      "C/P",
+      "RINO",
+      "CD",
+      "7º PO",
+      "BX PERFURAÇÃO NASAL",
+      "FO BOM ASPECTO",
+      "PERF SP"
+    ],
+    "Procedimento Diagnóstico": [
+      "AP",
+      "ORO",
+      "RINO"
+    ],
+    "Achado": [
+      "S",
+      "FO BOM ASPECTO",
+      "PERF SP"
+    ],
+    "Negação": [
+      "NEGA",
+      "NÃO"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "INICIOU",
+      "USAR",
+      "BX PERFURAÇÃO NASAL",
+      "USO DE MEDICAÇÕES"
+    ],
+    "Substância Farmacológica": [
+      "AMOXA+CLAVULANATO",
+      "PREDINISONA"
+    ],
+    "Localização ou Região Corporal": [
+      "C/P"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MANDIBULA",
+      "MANDIBULA À DIREITA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CD"
+    ],
+    "Produto Intelectual": [
+      "CD"
+    ],
+    "Conceito Temporal": [
+      "7º PO"
+    ]
+  },
+  "labels": {
+    "NA02.Y": {
+      "term_original": "lesao",
+      "capitulo": "22",
+      "confidence_embedding": 0.7527,
+      "descricao_cid": "Representação de doença CID-11: Fratura de outros ossos especificados da face ou do crânio. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NA02.Y, pois a lesão mencionada no prontuário refere-se a uma fratura de outro osso especificado da face, que nesse caso é a mandíbula à direita. A descrição do termo 'lesao' no contexto clínico aponta para uma lesão física ou traumática na mandíbula.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa é NA02.Y, pois a lesão mencionada no prontuário refere-se a uma fratura de outro osso especificado da face, que nesse caso é a mandíbula à direita. A descrição do termo 'lesao' no contexto clínico aponta para uma lesão física ou traumática na mandíbula.",
+      "tipo_erro_auditoria": null
+    },
+    "CA01": {
+      "term_original": "perf sp",
+      "capitulo": "12",
+      "confidence_embedding": 0.7344,
+      "descricao_cid": "Representação de doença CID-11: Sinusite aguda. Definição: Inflamação recente e/ou de curta duração da mucosa de um ou mais seios paranasais (maxilares, etmoidais, frontais e esfenoidais) originada de infecção ou outras causas como caries ou lesão dos dentes. Secreção purulenta pode ser observada em meato médio e cavidade nasal e os pacientes se queixam de disosmia, obstrução nasal, febre ou dor ou sensibilidade localizada. Rinite alérgica, deformidade do septo nasal ou rinite hipertrófica são doenças subjacentes que podem levar a sinusite aguda.",
+      "classification_reasoning": "A opção mais precisa é a sinusite aguda (CA01), pois o termo 'perf sp' sugere a presença de secreções purulentas em um seio paranasal, o que é característico da sinusite aguda.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa é a sinusite aguda (CA01), pois o termo 'perf sp' sugere a presença de secreções purulentas em um seio paranasal, o que é característico da sinusite aguda. A descrição do prontuário não apresenta contradições óbvias ou associações imaginárias com a condição clínica descrita.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

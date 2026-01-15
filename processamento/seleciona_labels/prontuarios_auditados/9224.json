@@ -1,0 +1,324 @@
+{
+  "prontuario_id": 356,
+  "text": "15:29h Paciente consciente, orientado, em repouso no leito, eupineico, hipocorado, com CVC em soroterapia, curativo oclusivo em região abdominal seco e limpo externamente, dreno de penhouse com bolsa de colostomia funcionante. Relata cefaléia intensa e parestesia em MIE.  Enf FLORENCE NIGHTINGALE, Coren XX XXXX. DOR ABDOMINAL E PELVICA. 08:30hs- Glasgow 13, pupilas isocóricas fotorreagentes, SNG aberta com pouca estase biliosa, respiração espontânea, com névoa úmida 5 l/m, SpO2 98%, acesso venoso central D com Noradrenalina 20 ml/h, monitorizada, estável hemodinamicamente, MV diminuído em bases sem R/A, abdome distendido, rígido, doloroso a palpação, presença de massa + hematoma em flanco E, RHA diminuído, SVd com diurese efetiva, evacuação ausente, extremidades quentes e bem perfundidas, higienizada e mobilizada no leito, pele íntegra. Enfª FLORENCE NIGHTINGALE, XXXX. HEMORRAGIA EPIDURAL.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Achado": [
+      "consciente",
+      "orientado",
+      "eupineico",
+      "seco",
+      "limpo",
+      "funcionante",
+      "isocóricas",
+      "fotorreagentes",
+      "monitorizada",
+      "higienizada",
+      "repouso no leito",
+      "respiração espontânea",
+      "estável hemodinamicamente",
+      "diurese efetiva",
+      "bem perfundidas",
+      "pele íntegra"
+    ],
+    "Sinal ou Sintoma": [
+      "hipocorado",
+      "parestesia",
+      "DOR",
+      "R/A",
+      "distendido",
+      "rígido",
+      "cefaléia intensa",
+      "Glasgow 13",
+      "pouca estase biliosa",
+      "MV diminuído em bases",
+      "doloroso a palpação",
+      "RHA diminuído"
+    ],
+    "Dispositivo Médico": [
+      "CVC",
+      "SVd",
+      "curativo oclusivo",
+      "dreno de penhouse",
+      "bolsa de colostomia",
+      "acesso venoso central D"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CVC",
+      "soroterapia",
+      "SVd",
+      "higienizada",
+      "repouso no leito",
+      "curativo oclusivo",
+      "dreno de penhouse",
+      "SNG aberta",
+      "névoa úmida",
+      "acesso venoso central D",
+      "mobilizada no leito"
+    ],
+    "Abreviação": [
+      "CVC",
+      "MIE",
+      "Enf",
+      "SpO2",
+      "R/A",
+      "SVd",
+      "Enfª",
+      "SNG aberta",
+      "acesso venoso central D",
+      "MV diminuído em bases",
+      "flanco E",
+      "RHA diminuído"
+    ],
+    "Conceito Espacial": [
+      "externamente"
+    ],
+    "Localização ou Região Corporal": [
+      "MIE",
+      "ABDOMINAL",
+      "PELVICA",
+      "abdome",
+      "extremidades",
+      "região abdominal",
+      "flanco E"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enf",
+      "Enfª"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "pupilas"
+    ],
+    "Atributo Clínico": [
+      "SpO2"
+    ],
+    "Conceito Quantitativo": [
+      "98%",
+      "5 l/m",
+      "20 ml/h"
+    ],
+    "Substância Química Orgânica": [
+      "Noradrenalina"
+    ],
+    "Hormônio": [
+      "Noradrenalina"
+    ],
+    "Substância Farmacológica": [
+      "Noradrenalina"
+    ],
+    "Procedimento Diagnóstico": [
+      "monitorizada"
+    ],
+    "Negação": [
+      "sem",
+      "ausente"
+    ],
+    "Função Patológica": [
+      "hematoma"
+    ],
+    "Função Fisiológica": [
+      "evacuação",
+      "diurese efetiva"
+    ],
+    "Substância Corporal": [
+      "pouca estase biliosa"
+    ],
+    "Doença ou Síndrome": [
+      "HEMORRAGIA EPIDURAL"
+    ]
+  },
+  "labels": {
+    "EF40": {
+      "term_original": "pele íntegra",
+      "capitulo": "14",
+      "confidence_embedding": 0.8114,
+      "descricao_cid": "Representação de doença CID-11: Vasculite ou capilarite envolvendo a pele. Definição: Uma gama de condições caracterizadas por inflamação dos vasos sanguíneos cutâneos com ou sem extravasamento de hemácias para o interstício.",
+      "classification_reasoning": "A opção EF40 é a mais precisa para o termo 'pele íntegra' no contexto clínico, pois descreve uma condição caracterizada por inflamação dos vasos sanguíneos cutâneos com ou sem extravasamento de hemácias para o interstício, que envolve a pele.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção EF40 descreve uma condição caracterizada por inflamação dos vasos sanguíneos cutâneos com ou sem extravasamento de hemácias para o interstício, que envolve a pele. No entanto, no prontuário não há indícios de inflamação ou lesão na pele. A descrição 'pele íntegra' é uma característica normal e saudável da pele, não uma condição patológica. Portanto, o código CID-11 EF40 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA81": {
+      "term_original": "bem perfundidas",
+      "capitulo": "11",
+      "confidence_embedding": 0.7532,
+      "descricao_cid": "Representação de doença CID-11: Aneurisma de artéria coronária. Definição: Dilatação coronária que excede o diâmetro dos segmentos adjacentes normais ou o diâmetro do maior vaso coronário do paciente em 1,5 vezes.",
+      "classification_reasoning": "A descrição do termo 'bem perfundadas' se refere às extremidades do paciente, que são descritas como 'quentes e bem perfundidas', o que é característico de aneurisma de artéria coronária.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'bem perfundadas' se refere às extremidades do paciente, que são descritas como 'quentes e bem perfundidas'. Embora as extremidades quentes e bem perfundidas possam ser um sintoma de aneurisma de artéria coronária, a codificação CID-11 BA81 não está clinicamente coerente com o prontuário. A descrição do termo 'bem perfundadas' é muito genérica e não apresenta uma relação clara com a doença CID-11 BA81 (Aneurisma de artéria coronária). Portanto, é necessário remover o código CID-11 BA81 e reavaliar a codificação para garantir que seja clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MD81.3": {
+      "term_original": "rha diminuído",
+      "capitulo": "21",
+      "confidence_embedding": 0.7649,
+      "descricao_cid": "Representação de doença CID-11: Abdome agudo. Definição: Síndrome clínica com dor abdominal aguda, que é intensa e de início rápido. O abdome agudo pode ser causado por uma variedade de transtornos, lesões ou doenças.",
+      "classification_reasoning": "A opção mais precisa é MD81.3, Abdome agudo, pois o paciente apresenta dor abdominal intensa e pélvica, abdome distendido, rígido e doloroso a palpação, caracterizando um quadro de abdome agudo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'RHA diminuído' não é suficientemente específico para justificar a escolha do código MD81.3, que representa uma síndrome clínica mais ampla de abdome agudo. A dor abdominal intensa e pélvica pode ser causada por várias condições, e o termo 'RHA diminuído' não fornece informações suficientes para estabelecer uma ligação direta com a síndrome de abdome agudo.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "FA80.8": {
+      "term_original": "rígido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7803,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa é FA80.8, Degeneração de disco intervertebral da coluna lombar sem prolapso de disco, pois o termo 'rígido' é frequentemente utilizado para descrever a rigidez e dor associadas à degeneração do disco intervertebral.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'rígido' não é suficientemente específico para representar a degeneração de disco intervertebral da coluna lombar sem prolapso de disco. A rigidez descrita no prontuário pode ser relacionada a outras condições clínicas, como dor abdominal e pelvica, e não há evidência direta de degeneração do disco intervertebral.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "DD50.20": {
+      "term_original": "seco",
+      "capitulo": "13",
+      "confidence_embedding": 0.7842,
+      "descricao_cid": "Representação de doença CID-11: Hérnia intra-abdominal primária. Definição: Hérnia que ocorre dentro do abdômen e primariamente através da uma abertura coberta por peritônio, sem cirurgia ou traumatismo.",
+      "classification_reasoning": "A presença do termo 'seco' no contexto do prontuário refere-se à região abdominal, que é descrita como 'curativo oclusivo em região abdominal seco e limpo externamente', o que sugere a presença de uma hérnia intra-abdominal primária.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença do termo 'seco' no contexto do prontuário refere-se à região abdominal, que é descrita como 'curativo oclusivo em região abdominal seco e limpo externamente'. Embora haja uma possível relação entre a hérnia intra-abdominal primária e a descrição da região abdominal, a associação é muito genérica e não há uma clara indicação de que a hérnia seja a causa da secura do abdome. Portanto, o código CID-11 DD50.20 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "NA07.49": {
+      "term_original": "hematoma",
+      "capitulo": "22",
+      "confidence_embedding": 0.7704,
+      "descricao_cid": "Representação de doença CID-11: Hematoma ou hemorragia focal do tronco encefálico. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NA07.49 porque o termo 'hematoma' está relacionado à localização do problema, que é a substância branca do cérebro (tronco encefálico), e não se trata de uma hemorragia ou hematoma em outro local ou não especificada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'hematoma' no prontuário se refere a uma lesão localizada na região abdominal, especificamente em flanco E. Já o código CID-11 NA07.49 se refere a um hematoma ou hemorragia focal do tronco encefálico, que não está relacionado à localização descrita no prontuário. Portanto, há uma contradição anatômica entre o termo e o código.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "MG30.2": {
+      "term_original": "doloroso a palpação",
+      "capitulo": "21",
+      "confidence_embedding": 0.7768,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A dor é descrita como 'doloroso a palpação', o que sugere uma dor referida à lesão abdominal, e não um estado de coma (MB20.1) ou dor abdominal generalizada (MD81.2). A presença da massa e hematoma em flanco E também apoia a escolha de MG30.2 como a opção mais precisa.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor descrita como 'doloroso a palpação' não é suficientemente específica para justificar a escolha do código MG30.2, que requer uma dor crônica pós-operatória ou pós-traumática persistente por pelo menos 3 meses após a cirurgia ou lesão tecidual. A descrição do prontuário não apresenta evidências de que a dor seja relacionada à lesão abdominal e não há informações sobre o tempo de duração da dor. Além disso, a presença da massa e hematoma em flanco E sugere uma lesão mais específica que justifica um código CID mais preciso.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "8C01.0": {
+      "term_original": "parestesia",
+      "capitulo": "08",
+      "confidence_embedding": 0.748,
+      "descricao_cid": "Representação de doença CID-11: Polineuropatia desmielinizante inflamatória aguda. Definição: Fraqueza progressiva dos membros ao longo de alguns dias a 28 dias, déficit simétrico, arreflexia, distúrbio sensorial ausente ou leve, proteína do líquido cefalorraquidiano elevada e redução das velocidades de condução nervosa são as características principais. O transtorno pode ser precedido por infecção respiratória superior ou gastrointestinal ou imunização 1 a 4 semanas antes do início da doença. A paralisia bifacial pode estar presente.",
+      "classification_reasoning": "A parestesia mencionada no contexto clínico sugere uma lesão nos nervos periféricos ou na medula espinal, o que é consistente com a polineuropatia desmielinizante inflamatória aguda (Código 8C01.0). Além disso, as outras opções não se encaixam com a sintomatologia relatada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A parestesia mencionada no prontuário é um sintoma, não uma condição clínica. A polineuropatia desmielinizante inflamatória aguda (Código 8C01.0) é uma doença específica que pode causar sintomas como parestesia, mas não é diretamente relacionada à parestesia mencionada no prontuário. A classificação é demasiado específica e não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "EB13.1": {
+      "term_original": "limpo",
+      "capitulo": "14",
+      "confidence_embedding": 0.7778,
+      "descricao_cid": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável.",
+      "classification_reasoning": "A presença do termo \"limpo\" no contexto clínico faz referência à ausência de secreção ou lesão na região abdominal, o que é consistente com a descrição da Necrólise Epidérmica Tóxica (NET). Além disso, a menção ao curativo oclusivo em região abdominal seco e limpo externamente reforça essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A Necrólise Epidérmica Tóxica (NET) é uma doença cutânea aguda, e não tem relação com a ausência de secreção ou lesão na região abdominal descrita no prontuário. A presença do termo 'limpo' se refere à higiene da pele íntegra e não está relacionada ao diagnóstico de NET.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NA07.5": {
+      "term_original": "hemorragia epidural",
+      "capitulo": "22",
+      "confidence_embedding": 0.7778,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia epidural traumática. Definição: ",
+      "classification_reasoning": "A hemorragia epidural mencionada no contexto clínico é uma lesão traumática, portanto a opção mais precisa é o código NA07.5 que representa Hemorragia epidural traumática.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hemorragia epidural mencionada no prontuário é uma lesão traumática, mas o código CID-11 atribuído (NA07.5) representa Hemorragia epidural traumática. Embora haja relação entre as duas condições, a codificação não é clinicamente coerente com o prontuário pois não há evidência de trauma no contexto clínico descrito.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA22.0": {
+      "term_original": "respiração espontânea",
+      "capitulo": "12",
+      "confidence_embedding": 0.8113,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A opção mais precisa é a doença pulmonar obstrutiva crônica com exacerbação aguda, pois o paciente apresenta sintomas respiratórios, como dispneia e tosse, e tem CVC em soroterapia, o que sugere insuficiência respiratória.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'respiração espontânea' não é uma doença pulmonar obstrutiva crônica com exacerbação aguda. A opção CA22.0 não representa fielmente o termo descrito no prontuário, que se refere à condição clínica do paciente e não apenas ao tipo de respiração.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "QA02.8": {
+      "term_original": "higienizada",
+      "capitulo": "24",
+      "confidence_embedding": 0.7527,
+      "descricao_cid": "Representação de doença CID-11: Observação por suspeita de alergia ou hipersensibilidade, descartada. Definição: ",
+      "classification_reasoning": "O termo 'higienizada' refere-se à atenção pessoal e ao cuidado em relação à pele do paciente, o que é descrito na observação clínica como 'pele íntegra'. Isso sugere que a higienização está relacionada à prevenção da infeção ou manutenção da integridade da pele, o que é característico da definição de QA02.8.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A higienização do paciente não está diretamente relacionada à representação de doença CID-11 QA02.8, que se refere a alergia ou hipersensibilidade descartada. A higienização é uma medida preventiva para manter a integridade da pele e prevenir infeções, mas isso não está relacionado ao termo 'higienizada' no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "8A64": {
+      "term_original": "fotorreagentes",
+      "capitulo": "08",
+      "confidence_embedding": 0.7321,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo.",
+      "classification_reasoning": "A opção mais precisa é a crise epiléptica única devida a causas remotas (8A64) porque o termo 'fotorreagentes' está relacionado à reação pupilar, o que sugere uma resposta ao estímulo luminoso normal. Isso não se encaixa com as crises epilépticas febris complexas (8A63.01), nem com outras opções.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'fotorreagentes' se refere à reação pupilar normal, não a uma crise epiléptica. A opção 8A64 não representa fielmente o termo descrito no prontuário, pois é relacionada a crises epilépticas devidas a causas remotas e não a uma resposta normal à luz.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NB6Z": {
+      "term_original": "funcionante",
+      "capitulo": "22",
+      "confidence_embedding": 0.7688,
+      "descricao_cid": "Representação de doença CID-11: Lesão da medula espinhal lombar ao nível do abdome, região lombar ou pelve, não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NB6Z, pois o contexto refere-se à hemorragia epidural, que envolve lesão da medula espinhal lombar ao nível do abdome, região lombar ou pelve, não especificada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção NB6Z refere-se a lesão da medula espinhal lombar ao nível do abdome, região lombar ou pelve, não especificada. No entanto, o termo 'funcionante' presente no prontuário se refere à bolsa de colostomia funcionante e não está relacionado a lesão da medula espinhal. Portanto, a codificação CID-11 é incoerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB21.1": {
+      "term_original": "pouca estase biliosa",
+      "capitulo": "12",
+      "confidence_embedding": 0.7614,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A presença de pouca estase biliosa sugere um comprometimento respiratório, o que está relacionado ao termo 'pneumotórax espontâneo' descrito no código CB21.1.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'pouca estase biliosa' não está diretamente relacionado ao conceito de pneumotórax espontâneo. A presença de pouca estase biliosa sugere um comprometimento respiratório, mas isso não é suficiente para justificar a atribuição do código CB21.1. Além disso, o prontuário descreve uma paciente com dor abdominal e pelvica, massa e hematoma em flanco E, o que não está relacionado ao pneumotórax espontâneo.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B22": {
+      "term_original": "glasgow 13",
+      "capitulo": "08",
+      "confidence_embedding": 0.7188,
+      "descricao_cid": "Representação de doença CID-11: Algumas doenças cerebrovasculares especificadas. Definição: Outras anormalidades especificadas de artérias ou veias intracranianas ou extracranianas. As entidades nesta seção podem ser usadas em combinação com outros códigos de diagnóstico neste bloco. Várias das entidades podem causar diferentes tipos de doença cerebrovascular, como AIT, acidente vascular cerebral isquêmico ou hemorragia intracerebral; podem estar associadas a outras síndromes clínicas; ou podem ser assintomáticas (não ter causado disfunção focal aguda do cérebro).\r\n\r\nA seção sobre malformações vasculares intracranianas foi bastante revisada em comparação com a CID-10, com base nos principais avanços científicos neste campo.\r\n\r\nAs síndromes de vasoconstrição cerebral e a encefalopatia reversível posterior são consideradas entidades separadas (visto que a vasoconstrição nem sempre está presente na última).\r\n\r\n\"Leucoencefalopatia vascular progressiva (doença de Binswanger)\" foi removida como uma entidade separada.",
+      "classification_reasoning": "A presença de hemorragia epidural e a elevada pressão arterial sugerem uma lesão vascular cerebral, o que justifica a escolha do código 8B22 (Algumas doenças cerebrovasculares especificadas). Além disso, a cefaléia intensa e parestesia em MIE também apoiam essa escolha.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de hemorragia epidural e a elevada pressão arterial sugerem uma lesão vascular cerebral, o que justifica a escolha do código 8B22 (Algumas doenças cerebrovasculares especificadas). Além disso, a cefaléia intensa e parestesia em MIE também apoiam essa escolha. A codificação CID-11 está clínica e clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "8E40.2": {
+      "term_original": "isocóricas",
+      "capitulo": "08",
+      "confidence_embedding": 0.7607,
+      "descricao_cid": "Representação de doença CID-11: Meningite inflamatória. Definição: Termo geral para descrever um grupo de transtornos em que há inflamação das meninges devida a um transtorno inflamatório subjacente. A síndrome é clinicamente caracterizada por cefaleia, rigidez de nuca, febre e fotofobia. Outras manifestações dos sistemas nervosos central e periférico podem estar presentes. Manifestações não neurológicas, incluindo envolvimento de pele, olhos e órgãos, também podem estar presentes. O diagnóstico pode ser auxiliado por testes sorológicos, exames de neuroimagem e, se apropriado, uma biópsia tecidual. A análise do líquido cefalorraquiano pode revelar uma pleocitose linfocítica, uma proteína elevada e a presença de bandas oligoclonais.",
+      "classification_reasoning": "A opção mais precisa é a meningite inflamatória, pois o termo 'isocóricas' presente no prontuário refere-se à pupilos isocóricas fotorreagentes, característica clínica típica da meningite. Além disso, o contexto do prontuário menciona dor abdominal e pelvica, massa e hematoma em flanco E, o que também sugere a possibilidade de uma doença inflamatória como a meningite.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa é a meningite inflamatória, pois o termo 'isocóricas' presente no prontuário refere-se à pupilos isocóricas fotorreagentes, característica clínica típica da meningite. No entanto, ao analisar o conteúdo do prontuário, percebo que a paciente apresenta sintomas de dor abdominal e pelvica, massa e hematoma em flanco E, além de cefaléia intensa e parestesia em MIE, o que sugere uma doença mais específica. A meningite inflamatória não é compatível com esses sintomas. Portanto, a codificação CID-11 8E40.2 não é válida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME00": {
+      "term_original": "cefaléia intensa",
+      "capitulo": "21",
+      "confidence_embedding": 0.771,
+      "descricao_cid": "Representação de doença CID-11: Síndrome compartimental abdominal. Definição: A síndrome compartimental abdominal é uma condição de disfunção orgânica causada pelo aumento da pressão intra-abdominal (hipertensão intra-abdominal), possivelmente devido a hemorragia intra-abdominal, hematoma retroperitoneal ou edema intestinal. Ocorre frequentemente após intervenção cirúrgica ou traumatismo, ou frequentemente associada a condição séptica. A importância desta entidade clínica foi reconhecida recentemente, no final do século XX. Normalmente, a distensão abdominal devida a lesão intestinal isquêmica primária foi excluída desta entidade clínica.",
+      "classification_reasoning": "A cefaléia intensa e a dor abdominal e pelvica relatadas pelo paciente sugerem uma lesão grave no abdome, possivelmente relacionada à hemorragia epidural. A síndrome compartimental abdominal é uma condição clínica que pode ser causada por hemorragia intra-abdominal ou edema intestinal e apresenta sintomas similares aos descritos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A cefaléia intensa relatada pelo paciente não é uma condição de síndrome compartimental abdominal, que se refere a lesões graves no abdome. A cefaléia intensa pode ser causada por vários fatores e não está diretamente relacionada à síndrome compartimental abdominal. Portanto, o código CID-11 ME00 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD81.2": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.8199,
+      "descricao_cid": "Representação de doença CID-11: Dor abdominal generalizada. Definição: Dor, uma sensação desagradável de desconforto ocorrendo em variados graus de gravidade, ou cólicas, contrações espasmódicas causando dor intensa na região abdominal em geral.",
+      "classification_reasoning": "A dor mencionada no contexto é caracterizada como generalizada, o que se encaixa melhor com a definição de MD81.2: Dor abdominal generalizada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor mencionada no prontuário é descrita como 'dor abdominal e pelvica', o que não se encaixa com a definição de MD81.2: Dor abdominal generalizada. A descrição do termo 'dor' no contexto do prontuário é mais específica e relacionada à região abdominal e pelvica, portanto, não há justificativa para manter o código CID-11 atribuído.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

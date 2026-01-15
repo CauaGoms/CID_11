@@ -1,0 +1,173 @@
+{
+  "prontuario_id": 335,
+  "text": "Luca, 76\n# MP desde 2002 - hx de síncope >> revisão em julho/2012\n# FA em anticoagulação\n# hipotireoidismo\n# Ex tabagista, parou há 12 anos, CT alta\n# Em uso de marevan - não sabe as outras medicações que usa\nLab 26/01/2013 - Cr 1,2 / Glic 89/ Ur 35 / TGP 41 / TGO 43 / Na 136 / K 4,7 / CT 170 / TSH 9,41 / PSA 3,73 / HDL 58 / LDL 101 / TG 56 / t4 l 1,43\nS # Pct refere que há 3 meses inciou com tontura pela manhãque melhora no decorrer do dia.\nO # mv presente, simétrico, sem ra\nbcrnfss\nabdome sp\nmmii sem edema\np # solicito que retorne semana que vem com as medicações de uso contínuo para ajustes + retorno em 3 meses\ne2 cardioDoutor Vital Brazil ",
+  "entities": {
+    "Abreviação": [
+      "MP",
+      "hx",
+      "FA",
+      "Lab",
+      "Pct",
+      "ra",
+      "bcrnfss",
+      "sp",
+      "mmii",
+      "CT alta",
+      "Cr 1 , 2",
+      "Glic 89/",
+      "Ur 35",
+      "Na 136",
+      "K 4 , 7",
+      "CT 170",
+      "TG 56",
+      "t4 l 1 , 43",
+      "mv presente"
+    ],
+    "Sinal ou Sintoma": [
+      "síncope",
+      "tontura",
+      "ra",
+      "edema"
+    ],
+    "Função Patológica": [
+      "FA"
+    ],
+    "Doença ou Síndrome": [
+      "FA",
+      "hipotireoidismo",
+      "CT alta"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "anticoagulação"
+    ],
+    "Negação": [
+      "não",
+      "sem",
+      "sp"
+    ],
+    "Substância Farmacológica": [
+      "medicações",
+      "de marevan"
+    ],
+    "Procedimento Laboratorial": [
+      "Lab"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Pct"
+    ],
+    "Achado": [
+      "simétrico",
+      "bcrnfss",
+      "sp",
+      "Ex tabagista",
+      "mv presente"
+    ],
+    "Localização ou Região Corporal": [
+      "abdome",
+      "mmii"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "solicito",
+      "ajustes",
+      "retorno"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Cr 1 , 2",
+      "Glic 89/",
+      "Ur 35",
+      "TGP 41",
+      "TGO 43",
+      "Na 136",
+      "K 4 , 7",
+      "CT 170",
+      "TSH 9 , 41",
+      "PSA 3 , 73",
+      "HDL 58",
+      "LDL 101",
+      "TG 56",
+      "t4 l 1 , 43"
+    ]
+  },
+  "labels": {
+    "9A78.20": {
+      "term_original": "ra",
+      "capitulo": "09",
+      "confidence_embedding": 0.729,
+      "descricao_cid": "Representação de doença CID-11: Ceratopatia bolhosa. Definição: Trata-se do estágio máximo do edema corneano.\r\n\r\nÉ uma condição patológica em que pequenas vesículas, ou bolhas, são formadas na córnea devido à disfunção endotelial. Em uma córnea saudável, as células endoteliais impedem o tecido de absorver fluido em excesso, bombeando-o de volta para o humor aquoso. Quando afetadas por algum motivo, como distrofia de Fuchs ou trauma durante a remoção da catarata, as células endoteliais sofrem danos ou morrem. As células endoteliais da córnea normalmente não sofrem divisão celular mitótica e a perda celular resulta em perda permanente da função.",
+      "classification_reasoning": "A opção mais precisa para o termo 'ra' no contexto do prontuário é a ceratopatia bolhosa (Código: 9A78.20), pois apresenta características semelhantes à da Córnea, como a formação de pequenas vesículas ou bolhas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A ceratopatia bolhosa (Código: 9A78.20) não está relacionada ao termo 'ra' presente no prontuário, que provavelmente se refere a uma condição anatômica ou patológica da pele, e não à doença ocular descrita pelo código CID-11. A classificação é incoerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EH40.3": {
+      "term_original": "edema",
+      "capitulo": "14",
+      "confidence_embedding": 0.789,
+      "descricao_cid": "Representação de doença CID-11: Edema hemorrágico agudo da infância. Definição: O edema hemorrágico agudo é uma vasculite cutânea mediada por imunocomplexos geralmente associada a infecção respiratória ou imunização. Acomete crianças com idades entre 4 meses e 2 anos, sendo meninos duas vezes mais afetados do que meninas. A dramática aparência clínica do edema facial e dos membros com múltiplas máculas purpúricas em alvo contrasta com seu curso geralmente benigno.",
+      "classification_reasoning": "A presença de edema no contexto do prontuário e a ausência de outras características de doenças cutâneas, como eritema ou descamação, faz com que o código EH40.3 seja a escolha mais precisa para o termo 'edema'.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'edema' no prontuário refere-se a um sintoma apresentado pelo paciente, especificamente uma condição de edema sem especificar se é hemorrágico ou não. O código EH40.3 se refere a uma doença específica da infância, o que não condiz com a descrição do termo 'edema' no prontuário. Portanto, o código CID-11 atribuído é incompatível com a clínica descrita.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BB72.0": {
+      "term_original": "fa",
+      "capitulo": "11",
+      "confidence_embedding": 0.7577,
+      "descricao_cid": "Representação de doença CID-11: Estenose aórtica reumática com insuficiência. Definição: A estenose aórtica por cardiopatia reumática crônica tipicamente está associada à insuficiência aórtica. As comissuras e cúspides da válvula tornam-se aderentes e fundidas, e o orifício da valva torna-se pequeno. Na ausculta, S2 pode ser única porque os folhetos aórticos estão imóveis e não produzem um som de fechamento aórtico",
+      "classification_reasoning": "A opção BB72.0, Estenose aórtica reumática com insuficiência, é a mais precisa para o termo \"FA\" no contexto clínico. Isso porque o paciente tem uma história de síncope e está em uso de anticoagulação com Marevan, sugerindo que ele possa ter some kind of heart valve disease, like mitral stenosis or aortic stenosis.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BB72.0, Estenose aórtica reumática com insuficiência, não é diretamente relacionada à condição clínica descrita no prontuário. O termo 'FA' se refere ao uso de anticoagulação com Marevan, o que sugere uma indicação terapêutica para prevenir a formação de coágulos, mas não há evidência clínica de estenose aórtica reumática com insuficiência. A classificação é demasiado específica e não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA26.1": {
+      "term_original": "ct alta",
+      "capitulo": "15",
+      "confidence_embedding": 0.7192,
+      "descricao_cid": "Representação de doença CID-11: Doença por deposição de hidroxiapatita. Definição: A doença por deposição de cristais de hidroxiapatita de cálcio é caracterizada pela presença de cristais de fosfato de cálcio básico - predominantemente hidroxiapatita - em tecidos moles periarticulares, especialmente os tendões. Essa entidade é melhor reconhecida como \"tendinite calcificada\" no local mais frequente de acometimento no ombro, mas manifesta-se em vários outros locais, com a denominação mais adequada de periartrite calcificada.",
+      "classification_reasoning": "A opção mais precisa para o termo 'CT alta' é a Doença por deposição de hidroxiapatita, pois CT é um termo comummente associado a cristais de hidroxiapatita de cálcio, que são descritos como uma doença caracterizada pela presença de cristais de fosfato de cálcio básico - predominantemente hidroxiapatita - em tecidos moles periarticulares.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 atribuída ('FA26.1') não representa fielmente o termo 'CT alta' descrito no prontuário, que se refere a uma condição clínica de natureza radiológica (imagem de raios X) e não à doença por deposição de hidroxiapatita. Ajuste necessário para uma codificação mais precisa.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB23.1": {
+      "term_original": "síncope",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'síncope' é o Código MB23.1, que representa Síncope e Desmaio (Transient loss of consciousness), de acordo com a definição CID-11.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção MB23.1, Síncope e Desmaio (Transient loss of consciousness), é a mais precisa para o termo 'síncope' descrito no prontuário. A história do paciente apresenta um hx de síncope desde 2002, com revisão em julho/2012, o que justifica a escolha desse código.",
+      "tipo_erro_auditoria": null
+    },
+    "9A10.1": {
+      "term_original": "sp",
+      "capitulo": "09",
+      "confidence_embedding": 0.7294,
+      "descricao_cid": "Representação de doença CID-11: Síndrome inflamatória da órbita. Definição: Refere-se a uma lesão tipo massa marginada e realçada de tecido mole envolvendo qualquer área da órbita. É a massa orbitária dolorosa mais comum na população adulta e está associada a proptose, paresia de nervo craniano (síndrome Tolosa-Hunt), uveíte e descolamento de retina.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sp' é Síndrome inflamatória da órbita (Código: 9A10.1), pois a descrição da condição refere-se à presença de sintomas como tontura pela manhã, que melhoram ao longo do dia. A síndrome inflamatória da órbita é uma lesão tipo massa orbitária dolorosa comum na população adulta, que pode estar associada a outros sintomas descritos no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição da condição refere-se à presença de sintomas como tontura pela manhã, que melhoram ao longo do dia. No entanto, a síndrome inflamatória da órbita não está relacionada diretamente com esses sintomas. A tontura pela manhã pode ser um sintoma de várias condições, incluindo hipotireoidismo e síncope. Portanto, a classificação do termo 'sp' como Síndrome inflamatória da órbita (Código: 9A10.1) é inapropriada.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "5A00.20": {
+      "term_original": "hipotireoidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.8286,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo devido a medicamentos ou outras substâncias exógenas. Definição: Condição causada por uma hipofunção da tireoide devido a medicamentos ou outras substâncias exógenas. Essa condição pode se apresentar com fadiga, aumento da sensibilidade ao frio, constipação, pele seca, ganho de peso, fraqueza e dor muscular, aumento de colesterol, dores ou inchaços nas articulações, períodos menstruais mais intensos ou irregulares, enfraquecimento do cabelo, depressão e memória deficiente.",
+      "classification_reasoning": "Escolho essa opção porque o paciente tem hipotireoidismo como um diagnóstico previamente estabelecido, e a definição do código 5A00.20 se refere ao hipotireoidismo causado por medicamentos ou outras substâncias exógenas, o que é compatível com a história de anticoagulação com Marevan e uso desconhecido de outras medicações.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A definição do código 5A00.20 se refere ao hipotireoidismo causado por medicamentos ou outras substâncias exógenas, mas o prontuário não menciona a causa específica da hipotireoidismo. Além disso, o termo 'hipotireoidismo' não é uma condição clínica diretamente relacionada à síncope ou ao uso de anticoagulação com Marevan.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "21.4": {
+      "term_original": "tontura",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A tontura relatada pelo paciente é um sintoma comum em condições cardiovasculares e neurológicas, como síncope e hipotireoidismo. No contexto do prontuário, a presença de síncope e anticoagulação sugere que a tontura pode ser relacionada à instabilidade cardiovascular ou ao tratamento com fármacos anticoagulantes.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A tontura relatada pelo paciente é um sintoma, não uma condição clínica diretamente relacionada à síncope ou hipotireoidismo. A justificativa do sistema sugere que a tontura pode ser relacionada à instabilidade cardiovascular ou ao tratamento com fármacos anticoagulantes, mas isso é apenas uma hipótese e não uma conclusão clínica válida. Portanto, o código CID-11 atribuído (21.4) não representa fielmente o termo 'tontura' no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    }
+  }
+}

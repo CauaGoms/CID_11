@@ -1,0 +1,71 @@
+{
+  "prontuario_id": 705,
+  "text": "Paciente com tumoração de consistência amolecida em assoalho de boca, à esquerda, interna para realização de exérese. Procedimento sem intercorrências. Apresenta boa evolução no pós-operatório. AP em área executora. Recebe alta em bom estado geral, afebril, orientada a procurar Emergência se intercorrências e com retorno ambulatorial agendado.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Sinal ou Sintoma": [
+      "tumoração",
+      "intercorrências",
+      "afebril"
+    ],
+    "Processo Neoplásico": [
+      "tumoração"
+    ],
+    "Conceito Qualitativo": [
+      "amolecida"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "interna",
+      "alta",
+      "retorno ambulatorial agendado"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "exérese",
+      "Procedimento"
+    ],
+    "Negação": [
+      "sem",
+      "afebril"
+    ],
+    "Procedimento Diagnóstico": [
+      "AP"
+    ],
+    "Abreviação": [
+      "AP"
+    ],
+    "Organização Relacionada à Saúde": [
+      "Emergência"
+    ],
+    "Achado": [
+      "boa evolução",
+      "bom estado geral"
+    ],
+    "Conceito Temporal": [
+      "pós-operatório ."
+    ]
+  },
+  "labels": {
+    "2C82": {
+      "term_original": "tumoração",
+      "capitulo": "02",
+      "confidence_embedding": 0.745,
+      "descricao_cid": "Representação de doença CID-11: Neoplasia maligna da próstata. Definição: O câncer de próstata contribui significativamente para a carga geral de câncer, sendo a neoplasia maligna mais frequente em homens. O número de casos tem aumentado continuamente nas últimas décadas, em parte devido à maior expectativa de vida. Um fator adicional é o estilo de vida ocidental, caracterizado por uma dieta altamente calórica e falta de exercícios físicos. Os dados epidemiológicos indicam que os negros são os mais suscetíveis, seguidos pelos brancos, enquanto os asiáticos apresentam o menor risco. Até que ponto a mortalidade por câncer de próstata pode ser reduzida pelo exame de PSA, está atualmente sendo avaliada. O diagnóstico histopatológico e a graduação desempenham um papel importante no tratamento do câncer de próstata",
+      "classification_reasoning": "A palavra 'tumoração' sugere a presença de uma lesão ou crescimento anormal, o que é compatível com o diagnóstico de neoplasia maligna. A descrição da procedure sem intercorrências e boa evolução no pós-operatório também apoia essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'tumoração' não é um termo que represente uma neoplasia maligna, como sugerido pela descrição do código CID-11. A tumoração descrita no prontuário é mais provável uma lesão benigna ou uma hiperplasia, e não uma neoplasia maligna da próstata. Portanto, a codificação CID-11 2C82 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NE8Z": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.7539,
+      "descricao_cid": "Representação de doença CID-11: Lesão ou dano decorrente de cuidados cirúrgicos ou médicos, não classificado em outra parte, não especificado. Definição: ",
+      "classification_reasoning": "A opção NE8Z é a mais precisa para o termo 'intercorrências' no contexto do prontuário, pois refere-se à lesão ou dano decorrente de cuidados cirúrgicos ou médicos, não classificado em outra parte, não especificado. Nesse caso, as intercorrências se referem às complicações ou problemas surgidos durante o procedimento ou pós-operatório.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção NE8Z é a mais precisa para o termo 'intercorrências' no contexto do prontuário, pois refere-se à lesão ou dano decorrente de cuidados cirúrgicos ou médicos, não classificado em outra parte, não especificado. A descrição do código CID-11 NE8Z se alinha com a descrição clínica do procedimento realizado no paciente, que apresentou boa evolução no pós-operatório e recebeu alta em bom estado geral.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

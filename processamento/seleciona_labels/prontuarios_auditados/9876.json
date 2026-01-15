@@ -1,0 +1,137 @@
+{
+  "prontuario_id": 557,
+  "text": "s:dor em coluna lombar inicio há 5 anos, piora com esforço ou a flexão da coluna, alívio com repouso, nega irradiaçõa para membros inferiores. Refere estar ficando melhor com \nexercicios fisicos (caminhada, bicicleta, musculação), rigidez matinal que melhora com 10 minutos de movimentação. Refere usar puran 75mcg. nega febre ou emagrecimento.\no: sem dor a palpação local, com discreta limitação extensão lombar\nforça e sensibilidade preservada miis\nreflexos preservados\nlasegue negativo\npatrick -\na: espondilose lombar\nc: fisioterapia\nretorno em 3 meses\nrx coluna retorno\n \n \n \n ",
+  "entities": {
+    "Negação": [
+      "nega",
+      "sem"
+    ],
+    "Conceito Qualitativo": [
+      "melhor"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "caminhada",
+      "retorno",
+      "exercicios fisicos"
+    ],
+    "Atividade Diária ou Recreativa": [
+      "caminhada",
+      "bicicleta",
+      "musculação",
+      "exercicios fisicos"
+    ],
+    "Conceito Quantitativo": [
+      "75mcg"
+    ],
+    "Sinal ou Sintoma": [
+      "febre",
+      "emagrecimento",
+      "piora com esforço ou a flexão da coluna",
+      "rigidez matinal",
+      "discreta limitação extensão lombar"
+    ],
+    "Procedimento Diagnóstico": [
+      "palpação",
+      "rx"
+    ],
+    "Achado": [
+      "força",
+      "sensibilidade",
+      "reflexos preservados",
+      "lasegue negativo",
+      "patrick -"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "miis",
+      "coluna",
+      "coluna lombar"
+    ],
+    "Abreviação": [
+      "miis",
+      "rx",
+      "patrick -"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "fisioterapia"
+    ],
+    "Conceito Temporal": [
+      "há 5 anos",
+      "3 meses"
+    ],
+    "Doença ou Síndrome": [
+      "espondilose lombar"
+    ]
+  },
+  "labels": {
+    "1C62.0": {
+      "term_original": "febre",
+      "capitulo": "01",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é o termo 'febre' relacionado à Febre hemorrágica com síndrome renal (Doença viral zoonótica aguda com início abrupto de febre, dor lombar, com graus variados de manifestações hemorrágicas e envolvimento renal causada por certos hantavírus). Embora não seja mencionado explicitamente no prontuário, o termo 'febre' não está relacionado às outras opções apresentadas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'febre' é negado no prontuário, portanto não há relação clínica direta entre o termo e a condição descrita. A opção mais precisa é remover o código CID-11 atribuído.",
+      "tipo_erro_auditoria": "negated_finding"
+    },
+    "5B5A.0": {
+      "term_original": "emagrecimento",
+      "capitulo": "05",
+      "confidence_embedding": 0.7344,
+      "descricao_cid": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina.",
+      "classification_reasoning": "O termo 'emagrecimento' é mencionado como negado no contexto do prontuário, indicando que a perda de peso não está relacionada ao quadro clínico apresentado. A opção mais precisa para o termo 'emagrecimento' é a Deficiência de Tiamina (5B5A.0), uma condição rara que pode causar sintomas como fraqueza muscular e perda de peso, mas não está relacionada à dor lombar ou às características clínicas apresentadas no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A deficiência de tiamina (5B5A.0) não está relacionada à dor lombar e às características clínicas apresentadas no prontuário, que incluem espondilose lombar e melhora com exercícios físicos. A opção mais precisa para o termo 'emagrecimento' é negar a deficiência de tiamina, pois não há evidências de perda de peso ou fraqueza muscular no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA80.0": {
+      "term_original": "piora com esforço ou a flexão da coluna",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A dor em coluna lombar que piora com esforço ou flexão e alivia com repouso sugere degeneração de disco intervertebral da coluna lombar, característica do código FA80.0.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dor em coluna lombar que piora com esforço ou flexão e alivia com repouso é uma característica clínica descrita no prontuário, o que justifica a atribuição do código FA80.0. A descrição do termo extraído 'piora com esforço ou a flexão da coluna' se encaixa perfeitamente na definição do código CID-11.",
+      "tipo_erro_auditoria": null
+    },
+    "MB40.5": {
+      "term_original": "sensibilidade",
+      "capitulo": "21",
+      "confidence_embedding": 0.7443,
+      "descricao_cid": "Representação de doença CID-11: Hiperestesia. Definição: Sensibilidade aumentada a estímulos dos sentidos",
+      "classification_reasoning": "A escolha pelo código MB40.5 foi baseada na descrição de hiperestesia, que é definida como sensibilidade aumentada a estímulos dos sentidos. No contexto clínico, a paciente refere estar apresentando dor em coluna lombar e sensibilidade preservada, o que sugere um distúrbio da sensibilidade localizado na região lombar.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente refere sensibilidade preservada, o que não é equivalente a hiperestesia (sensibilidade aumentada). A escolha do código MB40.5 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA80.8": {
+      "term_original": "discreta limitação extensão lombar",
+      "capitulo": "15",
+      "confidence_embedding": 0.7636,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A descrição do termo 'discreta limitação extensão lombar' sugere degeneração de disco intervertebral da coluna lombar sem prolapso de disco, o que é compatível com a opção FA80.8.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'discreta limitação extensão lombar' é compatível com a opção FA80.8, que representa degeneração de disco intervertebral da coluna lombar sem prolapso de disco. A clínica descrita no prontuário, incluindo a dor em coluna lombar e limitação extensão lombar, é consistente com essa opção.",
+      "tipo_erro_auditoria": null
+    },
+    "MB47.0": {
+      "term_original": "reflexos preservados",
+      "capitulo": "21",
+      "confidence_embedding": 0.7332,
+      "descricao_cid": "Representação de doença CID-11: Reflexos anormais. Definição: ",
+      "classification_reasoning": "Os reflexos preservados são um achado normal na história clínica, indicando que a dor não é devida a lesão ou doença do sistema nervoso periférico ou central, o que justifica a escolha da opção MB47.0 - Reflexos anormais.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'reflexos preservados' é um achado normal na história clínica, que indica a integridade do sistema nervoso periférico e central. A escolha do código CID-11 MB47.0 - Reflexos anormais não se justifica, pois os reflexos preservados são um achado normal e não indicam doença ou lesão no sistema nervoso. Portanto, o código atribuído é inapropriado.",
+      "tipo_erro_auditoria": null
+    },
+    "MG30.31": {
+      "term_original": "força",
+      "capitulo": "21",
+      "confidence_embedding": 0.7939,
+      "descricao_cid": "Representação de doença CID-11: Dor musculoesquelética secundária crônica associada a alterações estruturais. Definição: Dor musculoesquelética secundária crônica associada a alterações estruturais é uma dor crônica de mecanismo(s) desconhecido(s), que é atribuível a alterações anatômicas em articulação(ões), osso(s) ou tendão(ões). A alteração estrutural precisa ser inferida a partir de exame clínico e/ou demonstrável por exame de imagem. A dor pode ser espontânea ou induzida por movimento. É caracterizada por aspectos clínicos como inchaço, alodinia ou restrição de movimentos.\r\n\r\nCritérios de Diagnóstico:\r\n\r\nAs condições de A a D são preenchidas:\r\n\r\nA) Dor crônica (persistente ou recorrente por mais de 3 meses) em articulação(ões), osso(s) ou tendão(ões) está presente. A dor pode ser espontânea ou induzida por movimento.\r\n\r\nB) Pelo menos um dos seguintes critérios atendidos:\r\nB1) Inchaço está presente.\r\nB2) Alodinia sobre a parte está presente.\r\n\r\nC) A alteração estrutural é inferida a partir de exame clínico ou de imagem.\r\n\r\nD) A dor não é melhor explicada por outro diagnóstico de dor crônica.",
+      "classification_reasoning": "A dor crônica na coluna lombar, associada a alterações estruturais e melhoria com exercícios físicos, é mais compatível com a condição de Dor musculoesquelética secundária crônica associada a alterações estruturais (MG30.31).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dor crônica na coluna lombar, associada a alterações estruturais e melhoria com exercícios físicos, é uma condição clínica diretamente relacionada ao termo 'força'. A classificação MG30.31 como Dor musculoesquelética secundária crônica associada a alterações estruturais (MG30.31) é justificada pela descrição do prontuário, que apresenta dor crônica na coluna lombar com melhoria com exercícios físicos e ausência de febre ou emagrecimento.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

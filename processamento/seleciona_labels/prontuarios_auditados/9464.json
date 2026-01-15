@@ -1,0 +1,151 @@
+{
+  "prontuario_id": 648,
+  "text": "# 13 PO de drenagem de abscesso cervical odontogenico  # 9 PO de redrenagem de abscesso # 5 PO de redrenagem de abscesso # 4 PO de decorticação pulmonar      Glasgow 15 , pupilas iso foto, AP : mv diminuidos em base D , abd flácido , MMII sem edemas , 2 drenos de penrose em região cervical , drenando secreção purulenta . Respiração espontanea , avp em mse com soroterapia em curso , DTF anterior  posterior  sem fuga , SVD com diurese efetiva . Mantem monitorização cardiaca continua seguie sob cuidados intensivas .  Enfermeira Florence Nightingale.  ABSCESSO RETROFARINGEO E PARAFARINGEO",
+  "entities": {
+    "Abreviação": [
+      "PO",
+      "iso",
+      "foto",
+      "AP",
+      "abd",
+      "MMII",
+      "avp",
+      "mse",
+      "DTF",
+      "SVD",
+      "13 PO",
+      "9 PO",
+      "4 PO",
+      "mv diminuidos",
+      "base D"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "pupilas"
+    ],
+    "Achado": [
+      "iso",
+      "foto",
+      "flácido",
+      "Glasgow 15",
+      "Respiração espontanea",
+      "diurese efetiva"
+    ],
+    "Procedimento Diagnóstico": [
+      "AP",
+      "monitorização cardiaca continua"
+    ],
+    "Localização ou Região Corporal": [
+      "abd",
+      "MMII",
+      "mse",
+      "RETROFARINGEO",
+      "PARAFARINGEO",
+      "base D",
+      "região cervical"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "edemas",
+      "fuga",
+      "mv diminuidos",
+      "secreção purulenta"
+    ],
+    "Dispositivo Médico": [
+      "avp",
+      "SVD",
+      "drenos de penrose"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "avp",
+      "soroterapia",
+      "DTF",
+      "SVD",
+      "drenagem de abscesso cervical odontogenico",
+      "redrenagem de abscesso",
+      "decorticação pulmonar"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Mantem",
+      "cuidados intensivas"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Conceito Temporal": [
+      "13 PO",
+      "9 PO",
+      "4 PO"
+    ],
+    "Substância Corporal": [
+      "secreção purulenta"
+    ],
+    "Função de Organismo": [
+      "Respiração espontanea",
+      "diurese efetiva"
+    ]
+  },
+  "labels": {
+    "DA09.3": {
+      "term_original": "secreção purulenta",
+      "capitulo": "13",
+      "confidence_embedding": 0.7899,
+      "descricao_cid": "Representação de doença CID-11: Abscesso Phoenix. Definição: Condição aguda que acontece imediatamente após um procedimento endodôntico ou em um dente com polpa necrosada.",
+      "classification_reasoning": "A presença de secreção purulenta em um abscesso cervical odontogenico sugere a possibilidade de uma infecção bacteriana, o que é compatível com a definição do código DA09.3: Abscesso Phoenix.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de secreção purulenta em um abscesso cervical odontogenico é compatível com a definição do código DA09.3: Abscesso Phoenix. A codificação CID-11 está clínica e coerentemente relacionada à condição descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "NE81.0Z": {
+      "term_original": "flácido",
+      "capitulo": "22",
+      "confidence_embedding": 0.7831,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'flácido' é a hemorragia ou hematoma não especificada, complicando um procedimento, pois o contexto clínico menciona abd flácido, o que sugere uma perda de fluidos e sangue, justificando a escolha do código NE81.0Z",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'flácido' não se refere a uma hemorragia ou hematoma, mas sim à ausência de tônus muscular na região abdominal. A escolha do código NE81.0Z é inapropriada pois não há relação clínica entre a perda de fluidos e sangue e o termo 'flácido'. Além disso, a descrição do código CID-11 não se aplica ao contexto clínico apresentado.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD11.8": {
+      "term_original": "fuga",
+      "capitulo": "21",
+      "confidence_embedding": 0.7717,
+      "descricao_cid": "Representação de doença CID-11: Respiração pela boca. Definição: Respirar pela boca. Obstrução nasal pode também tornar necessária a respiração oral, o que por si só pode causar apneia obstrutiva. Respirar pela boca pode também aumentar o risco para apneia obstrutiva do sono, pelos seus efeitos na língua. A língua forma a parede anterior da orofaringe; tanto a postura supina quanto abertura da boca tendem a deslocar a língua posteriormente e promovem o fechamento da via aérea.",
+      "classification_reasoning": "A escolha pelo código MD11.8 é a mais precisa pois o termo 'fuga' se refere ao fato de que o paciente não está apresentando nenhuma saída de fluidos ou secreções pelas vias naturais, necessitando da intervenção cirúrgica para drenagem do abscesso.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'fuga' no prontuário se refere à falta de saída de fluidos ou secreções pelas vias naturais, o que não está relacionado à respiração pela boca descrita pelo código CID-11 MD11.8. A escolha do código é incoerente com a descrição clínica do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG29.2": {
+      "term_original": "edemas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7806,
+      "descricao_cid": "Representação de doença CID-11: Edema infeccioso. Definição: ",
+      "classification_reasoning": "A opção mais precisa é MG29.2 - Edema infeccioso, pois o contexto clínico descreve a presença de abscessos e secreção purulenta, sugerindo uma infecção em curso.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'edemas' no prontuário refere-se a uma condição clínica específica, enquanto o código CID-11 MG29.2 - Edema infeccioso é muito amplo e não representa fielmente a condição descrita. A presença de abscessos e secreção purulenta sugere uma infecção em curso, que não está relacionada ao edema infeccioso. Portanto, o código CID-11 atribuído não representa clinicamente coerentemente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD74.0": {
+      "term_original": "mv diminuidos",
+      "capitulo": "11",
+      "confidence_embedding": 0.749,
+      "descricao_cid": "Representação de doença CID-11: Hipertensão venosa não complicada de membro inferior. Definição: Presença de incompetência ou hipertensão venosa de membros inferiores, que pode ser manifestada pela presença de pigmentação de hemossiderina da pele, telangiectasia ou veias superficiais finamente dilatadas.",
+      "classification_reasoning": "A indicação de 'mv diminuidos' sugere a presença de edema nos membros inferiores, o que é consistente com a hipertensão venosa não complicada de membro inferior (Código BD74.0)",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'mv diminuidos' não se refere a hipertensão venosa não complicada de membro inferior, como sugerido pelo sistema. Em vez disso, é uma observação clínica que descreve a presença de edema nos membros inferiores, o que não está relacionado ao código CID-11 BD74.0.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA0K.Y": {
+      "term_original": "respiração espontanea",
+      "capitulo": "12",
+      "confidence_embedding": 0.7832,
+      "descricao_cid": "Representação de doença CID-11: Outro abscesso especificado do trato respiratório superior. Definição: ",
+      "classification_reasoning": "A opção mais precisa é CA0K.Y, que se refere a outro abscesso especificado do trato respiratório superior. O termo 'respiração espontânea' indica que o paciente está inspirando e expirando sem ajuda mecânica, o que não está relacionado ao código de pneumotórax (CA43 ou CB21). Além disso, o contexto clínico descreve um abscesso cervical odontogenico e a presença de drenos de penrose em região cervical, o que apoia a escolha de CA0K.Y.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 CA0K.Y, 'Outro abscesso especificado do trato respiratório superior', é clinicamente coerente com o prontuário. O termo 'respiração espontânea' não está relacionado ao código de pneumotórax (CA43 ou CB21) e a descrição clínica do abscesso cervical odontogenico e da presença de drenos de penrose em região cervical apoia a escolha de CA0K.Y. A codificação é precisa e não há contradição óbvia.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

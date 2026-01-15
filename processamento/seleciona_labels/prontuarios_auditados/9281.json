@@ -1,0 +1,71 @@
+{
+  "prontuario_id": 494,
+  "text": "PO DE FRATURA DE TORNOZELO HA 7 MESES.\nPCTE BEM ASSINTOMATICA.\nRX COM SINAIS DE CONSOLIDAÇÃO.\nCD:\nRETORNO AMBULATORIAL.\nCUIDADOS GERAIS.\nALTA AMBULATORIAL.\nORIENTO SOBRE ATV FISICA.\nR2 LUCAS\n \n \n \n ",
+  "entities": {
+    "Conceito Temporal": [
+      "PO",
+      "MESES"
+    ],
+    "Abreviação": [
+      "PO",
+      "PCTE",
+      "RX",
+      "CD",
+      "R2",
+      "ATV FISICA"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PCTE"
+    ],
+    "Achado": [
+      "ASSINTOMATICA",
+      "SINAIS DE CONSOLIDAÇÃO"
+    ],
+    "Negação": [
+      "ASSINTOMATICA"
+    ],
+    "Procedimento Diagnóstico": [
+      "RX"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ORIENTO",
+      "RETORNO AMBULATORIAL",
+      "ALTA AMBULATORIAL"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "R2"
+    ],
+    "Lesão ou Envenenamento": [
+      "FRATURA DE TORNOZELO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "SINAIS DE CONSOLIDAÇÃO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CUIDADOS GERAIS",
+      "ATV FISICA"
+    ]
+  },
+  "labels": {
+    "FB80.9": {
+      "term_original": "fratura de tornozelo",
+      "capitulo": "15",
+      "confidence_embedding": 0.7135,
+      "descricao_cid": "Representação de doença CID-11: Atraso de consolidação de fratura. Definição: ",
+      "classification_reasoning": "A fratura de tornozelo está relacionada à consolidação da lesão, e o código FB80.9 é a representação mais precisa da doença CID-11.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A fratura de tornozelo está diretamente relacionada à consolidação da lesão, o que é representado pelo código CID-11 FB80.9. A codificação é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MB23.H": {
+      "term_original": "sinais de consolidação",
+      "capitulo": "21",
+      "confidence_embedding": 0.7394,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A presença de sinais de consolidação na radiografia sugere que a fratura do tornozelo está cicatrizando, o que é mais comum em pacientes com pânico. Além disso, o contexto da alta ambulatorial e orientação sobre atendimento físico para ATV também aponta para uma condição psicológica ou mental.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de sinais de consolidação na radiografia sugere que a fratura do tornozelo está cicatrizando, o que não é relacionado à Crise de pânico (MB23.H). A codificação CID-11 não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário. A alta ambulatorial e orientação sobre atendimento físico para ATV também apontam para uma condição física, não psicológica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

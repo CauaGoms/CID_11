@@ -1,0 +1,189 @@
+{
+  "prontuario_id": 626,
+  "text": "R1 Doutor Vital Brazil\nR2 Doutor Vital Brazil\nLucas, 19 ANOS\n# PACIENTE COM QUEIXA DE BAV OD HA 1 MES, APOS EPISODIO DE CONJUNTIVITE (SIC). \n     REFERE QUE POSSUI LESAO CORNEANA PERIFERICA DESDE INFANCIA. , COM PIORA TAMBEM APOS PROVAVEL CONJUNTIVITE (SIC)\n# HMP: NEGA CX OU TRAUMA OCULAR\n             NEGA COMORBIDADES\n# HMF: NEGA\n# AVSC:\n20/200\n20/20\n# ESQ:\nREFLEXO DIMINUIDO\n+0,50 ESF\n# TOLERA:\nSEM MELHORA 20/200\nPL ESF 20/20\n# BIO:\nOD - OPACIDADE CORNEANA (ESTROMAL) ACOMETENDO EIXO, VH4, PFR, CERATITE PUNTATA INFERIOR, SEM REAÇÃO DE CAMARA, PIGMENTO DE IRIS EM CRISTALINO, NEOVASOS FINOS CORNEANOS 4H\n# BIO DE FUNDO //  FO:\nOD - IMPOSSIVEL DEVIDO A OPACIDADE DE MEIOS\nOE - MACULA E PAPILA NORMAIS\n# MR OD:\nOPACIDADE DE MEIOS\n# PIO:\n10/10\n# A: BAV OD (LEUCOMA ACOMETENDO EIXO VISUAL)\n# CD: AGENDO RETORNO DIA 15/09/16 PARA AVALIAÇÃO COM Doutor Vital Brazil PRESCREVO VIDISIC 6/6H + SYSTANE 4/4H\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "R1",
+      "R2",
+      "BAV",
+      "OD",
+      "CX",
+      "HMF",
+      "ESQ",
+      "ESF",
+      "TOLERA",
+      "PL",
+      "BIO",
+      "VH4",
+      "PFR",
+      "FO",
+      "OE",
+      "MR",
+      "PIO",
+      "CD",
+      "BIO DE FUNDO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "R1",
+      "Doutor",
+      "R2"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXA",
+      "BAV",
+      "REFLEXO DIMINUIDO",
+      "OPACIDADE CORNEANA",
+      "REAÇÃO DE CAMARA",
+      "NEOVASOS FINOS CORNEANOS",
+      "IMPOSSIVEL DEVIDO A OPACIDADE DE MEIOS",
+      "OPACIDADE DE MEIOS"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "OD",
+      "ESTROMAL",
+      "OE"
+    ],
+    "Doença ou Síndrome": [
+      "CONJUNTIVITE",
+      "CERATITE PUNTATA INFERIOR"
+    ],
+    "Conceito Temporal": [
+      "APOS",
+      "HA 1 MES",
+      "DESDE INFANCIA"
+    ],
+    "Negação": [
+      "NEGA",
+      "SEM"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CX"
+    ],
+    "Procedimento Diagnóstico": [
+      "ESQ",
+      "BIO",
+      "PFR",
+      "FO",
+      "MR",
+      "PIO",
+      "BIO DE FUNDO"
+    ],
+    "Conceito Qualitativo": [
+      "MELHORA"
+    ],
+    "Conceito Quantitativo": [
+      "20/200",
+      "20/20",
+      "10/10",
+      "+0 , 50"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CD",
+      "AGENDO",
+      "RETORNO",
+      "AVALIAÇÃO",
+      "PRESCREVO"
+    ],
+    "Substância Química Orgânica": [
+      "VIDISIC"
+    ],
+    "Substância Farmacológica": [
+      "VIDISIC",
+      "SYSTANE"
+    ],
+    "Lesão ou Envenenamento": [
+      "LESAO CORNEANA PERIFERICA",
+      "TRAUMA OCULAR"
+    ],
+    "Achado": [
+      "REAÇÃO DE CAMARA",
+      "PIGMENTO DE IRIS EM CRISTALINO",
+      "MACULA E PAPILA NORMAIS"
+    ]
+  },
+  "labels": {
+    "9.04": {
+      "term_original": "bav",
+      "capitulo": "09",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha mais precisa para o termo 'bav' é a conjuntivite papilar, que está relacionada à opacidade corneana periférica e ao episódio de conjuntivite descrito no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opacidade corneana periférica e o episódio de conjuntivite descritos no prontuário não são sintomas de leucoma, mas sim lesões corneanas. A escolha do código CID-11 9.04 para 'bav' é incorreta, pois leucoma é uma doença que afeta a visão e não está relacionada à conjuntivite ou lesões corneanas.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A10.3": {
+      "term_original": "reflexo diminuido",
+      "capitulo": "09",
+      "confidence_embedding": 0.7774,
+      "descricao_cid": "Representação de doença CID-11: Hiperlacrimação. Definição: Transbordamento de lágrimas devido a secreção excessiva pela glândula lacrimal. Pode ser causado por drogas (p.ex. pillocarpina), forte emoção; ou como reflexo de estimulação trigeminal por inflamação ocular; ou irritação da córnea ou conjuntiva por irritante químico no ar; vento frio; ou corpo estranho no olho. Os principais sintomas são desconforto e visão turva e algumas vezes constrangimento. A abordagem depende da causa.\r\n\r\n\r\n. É um sinal clínico ou condição que aponta para a drenagem insuficiente do filme lacrimal dos olhos, em que as lágrimas vão drenar pela face abaixo em vez de o fazerem pelo sistema nasolacrimal.",
+      "classification_reasoning": "Escolhi o código de hiperlacrimação porque o termo 'reflexo diminuído' é um sinal clínico que pode estar relacionado à drenagem insuficiente do filme lacrimal dos olhos, caracterizando a definição do código 9A10.3.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'reflexo diminuído' não está relacionado à hiperlacrimação, que é a drenagem insuficiente do filme lacrimal dos olhos. A definição do código 9A10.3 se refere ao transbordamento de lágrimas devido a secreção excessiva pela glândula lacrimal, e não está relacionada à redução do reflexo. Portanto, o código CID-11 atribuído é incorreto.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A04.0": {
+      "term_original": "neovasos finos corneanos",
+      "capitulo": "09",
+      "confidence_embedding": 0.759,
+      "descricao_cid": "Representação de doença CID-11: Triquíase sem entrópio. Definição: Refere-se a cílios anormalmente posicionados que crescem para trás em direção ao olho, tocando a córnea ou conjuntiva. Pode ser causado por infecção, inflamação, condições autoimunes, defeitos congênitos, agenesia palpebral e traumatismos como queimaduras ou lesões palpebrais. Esse diagnóstico é feito na ausência da condição em que a pálpebra (usualmente a inferior) dobra para dentro. É muito desconfortável, pois os cílios constantemente se esfregam contra a córnea e a irritam.",
+      "classification_reasoning": "A opção mais precisa é a conjuntivite papilar, que é mencionada no prontuário como uma possível causa da lesão corneana periférica desde a infância. A descrição do termo 'neovasos finos corneanos' sugere a formação de novas vasos sanguíneos na córnea, o que é compatível com a conjuntivite papilar.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa é a conjuntivite papilar, que é mencionada no prontuário como uma possível causa da lesão corneana periférica desde a infância. A descrição do termo 'neovasos finos corneanos' sugere a formação de novas vasos sanguíneos na córnea, o que é compatível com a conjuntivite papilar. Portanto, o código CID-11 atribuído (9A04.0) representa fielmente o termo descrito no prontuário e não há motivos para remover.",
+      "tipo_erro_auditoria": null
+    },
+    "9A60.5": {
+      "term_original": "ceratite puntata inferior",
+      "capitulo": "09",
+      "confidence_embedding": 0.7678,
+      "descricao_cid": "Representação de doença CID-11: Ceratoconjuntivite vernal. Definição: Ceratoconjuntivite vernal é uma forma persistente e grave de alergia ocular que afeta crianças e adultos jovens, geralmente em climas quentes. A ceratoconjuntivite vernal tipicamente aparece em meninos entre as idades de 4 a 12 anos. Os sintomas típicos são coceira intensa, lacrimejamento e fotofobia. A exacerbação da doença pode ser desencadeada pela reexposição ao alérgeno ou por estímulos inespecíficos, como luz solar, vento e poeira. A forma tarsal é caracterizada por papilas hipertróficas de tamanho irregular, levando a uma aparência de paralelepípedos na placa tarsal superior. A forma límbica é caracterizada por infiltrados limbais múltiplos transitórios ou infiltrados conjuntivais gelatinosos amarelo-acinzentados sobrepostos com pontos ou depósitos brancos, conhecidos como pontos de Horner-Trantas, e papilas no limbo.",
+      "classification_reasoning": "A descrição do termo 'ceratite puntata inferior' sugere a presença de uma ceratoconjuntivite vernal, que é caracterizada por papilas hipertróficas no eixo visual. Isso é consistente com o diagnóstico de Ceratoconjuntivite Vernal (9A60.5) e explica a opacidade corneana estromal mencionada no prontuário.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'ceratite puntata inferior' é consistente com a ceratoconjuntivite vernal, que é caracterizada por papilas hipertróficas no eixo visual. Isso é consistente com o diagnóstico de Ceratoconjuntivite Vernal (9A60.5) e explica a opacidade corneana estromal mencionada no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "NA06.9": {
+      "term_original": "trauma ocular",
+      "capitulo": "22",
+      "confidence_embedding": 0.7723,
+      "descricao_cid": "Representação de doença CID-11: Contusão do olho ou dos tecidos orbitários. Definição: Traumatismos ao globo ocular e aos tecidos adjacentes resultando em hemorragia, usualmente manifestada na pele.",
+      "classification_reasoning": "A opção mais precisa é NA06.9, pois o prontuário refere-se a um trauma ao globo ocular e aos tecidos adjacentes, resultando em hemorragia, o que está descrito na definição desse código CID-11.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa não é NA06.9, pois o prontuário refere-se a uma lesão corneana periférica desde infância e um episódio de conjuntivite, sem qualquer referência a trauma ocular ou hemorragia. A definição do código CID-11 NA06.9 se refere a contusões do olho ou tecidos orbitários, o que não está presente no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "1D84.0": {
+      "term_original": "conjuntivite",
+      "capitulo": "01",
+      "confidence_embedding": 0.7898,
+      "descricao_cid": "Representação de doença CID-11: Conjuntivite devida ao adenovírus. Definição: Condição da conjuntiva, causada por uma infecção por adenovírus. Essa condição é caracterizada por coceira nos olhos, lacrimejamento, vermelhidão, secreção ou fotofobia (com envolvimento da córnea). A transmissão é por contato direto, contato indireto ou transmissão por gotículas.",
+      "classification_reasoning": "A escolha pela conjuntivite devida ao adenovírus (Código 1D84.0) é a mais precisa porque o prontuário menciona um episódio de 'conjuntivite' após o qual surgiu a queixa de bavagem do paciente, e não há outras evidências de infecção bacteriana ou sexualmente transmissível.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa de bavagem após episódio de conjuntivite não é suficiente para justificar a escolha do código 1D84.0, que se refere especificamente à conjuntivite devida ao adenovírus. A falta de evidências de infecção por adenovírus ou outros sintomas característicos da condição descrita no código CID-11 leva-me a concluir que a escolha do código é confusa e não representa fielmente o termo ou condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MC20.2": {
+      "term_original": "queixa",
+      "capitulo": "21",
+      "confidence_embedding": 0.7655,
+      "descricao_cid": "Representação de doença CID-11: Hipópio. Definição: Hipópio é a presença de células inflamatórias na câmara anterior do olho. Corresponde a um exsudato leucocitário, observado na câmara anterior, geralmente acompanhado de hiperemia de conjuntiva e episclera subjacente. É um sinal de inflamação da úvea anterior e da íris, ou seja, irite, que é uma forma de uveíte anterior. O exsudado deposita-se no fundo devido à ação da gravidade.",
+      "classification_reasoning": "A queixa de bav OD há 1 mês após episódio de conjuntivite e a presença de lesão corneana periférica desde a infância sugerem uma possibilidade de uveíte anterior, o que é confirmado pela descrição de hipópio na câmara anterior do olho.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa de bav OD há 1 mês após episódio de conjuntivite não é diretamente relacionada à hipópio, que é uma condição clínica específica. A descrição do prontuário sugere mais uma lesão corneana periférica e uveíte anterior, mas não há evidência direta de hipópio na câmara anterior do olho.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MC1A": {
+      "term_original": "impossivel devido a opacidade de meios",
+      "capitulo": "21",
+      "confidence_embedding": 0.6949,
+      "descricao_cid": "Representação de doença CID-11: Opacidades vítreas visíveis. Definição: Pontos flutuantes são manchas ou formas escuras que parecem flutuar na frente da imagem da retina.",
+      "classification_reasoning": "A opacidade de meios mencionada no termo 'impossivel devido a opacidade de meios' é provávelmente referente às opacidades vítreas visíveis, uma condição caracterizada por pontos flutuantes ou manchas escuras na frente da imagem da retina.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opacidade de meios mencionada no termo 'impossivel devido a opacidade de meios' não se refere às opacidades vítreas visíveis, uma condição caracterizada por pontos flutuantes ou manchas escuras na frente da imagem da retina. A opacidade de meios é mais provavelmente relacionada à opacidade do humor vítreo, que interfere na visão e não é um tipo de opacidade vítea. Portanto, o código CID-11 MC1A não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "prontuario_id": 840,
+  "text": "# sem queixas\n# chagas\n# acompanha na cardio geral e esta aguardando consulta\n# faço receita conforme já utiliza pois está com dificuldade de conseguir os medicamentos - mas não faltar cardio\nmp camara dupla\n# programado em modo ddd 60-50\n# ritmo proprio = bav com escape ventricular\n# 97% em vat\n# bat = ok \n# para eri = 10 MESES !!!!\n# A - imp = 395, sense = 5,3, cla = menor que 1,0 x 0,4\n# v - imp = 381, sense = mAIor que 10, clv = menor que 1,0 x 2,4\n# cd = programação mantida + retorno em 6 meses ( devido a bateria !!!!!! demais ok !!!! pcte ciente ) ou se intercorrencias = procura direta + não faltar cardio.\n ",
+  "entities": {
+    "Negação": [
+      "sem",
+      "não"
+    ],
+    "Sinal ou Sintoma": [
+      "queixas",
+      "dificuldade",
+      "intercorrencias",
+      "bav com escape ventricular"
+    ],
+    "Doença ou Síndrome": [
+      "chagas"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "consulta",
+      "receita",
+      "cd"
+    ],
+    "Produto Intelectual": [
+      "receita"
+    ],
+    "Substância Farmacológica": [
+      "medicamentos"
+    ],
+    "Abreviação": [
+      "cardio",
+      "cd",
+      "pcte",
+      "cardio geral",
+      "mp camara dupla",
+      "bav com escape ventricular",
+      "97% em vat",
+      "bat = ok",
+      "para eri = 10 MESES",
+      "imp = 395",
+      "sense = 5 , 3",
+      "cla = menor que 1 , 0",
+      "imp = 381",
+      "sense = mAIor que 10",
+      "clv = menor que 1"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "cardio",
+      "cardio geral"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "pcte"
+    ],
+    "Organização Relacionada à Saúde": [
+      "cardio geral"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "mp camara dupla"
+    ],
+    "Conceito Qualitativo": [
+      "modo ddd 60-50"
+    ],
+    "Achado": [
+      "ritmo proprio",
+      "programação mantida",
+      "procura direta"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "bav com escape ventricular",
+      "97% em vat",
+      "bat = ok",
+      "para eri = 10 MESES",
+      "imp = 395",
+      "sense = 5 , 3",
+      "imp = 381",
+      "sense = mAIor que 10"
+    ]
+  },
+  "labels": {
+    "QC11": {
+      "term_original": "procura direta",
+      "capitulo": "24",
+      "confidence_embedding": 0.7324,
+      "descricao_cid": "Representação de doença CID-11: Procedimento não realizado devido à decisão do paciente por razões de crença ou grupo de pressão. Definição: ",
+      "classification_reasoning": "A expressão 'procura direta' indica que o paciente está procurando consultar um médico para resolver seu problema, sugerindo que ele não está satisfeito com a situação atual e deseja uma avaliação mais detalhada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'procura direta' não representa uma condição clínica diretamente relacionada com a situação do paciente. A expressão indica que o paciente está procurando consultar um médico para resolver seu problema, sugerindo que ele não está satisfeito com a situação atual e deseja uma avaliação mais detalhada. Isso é um procedimento ou uma intenção, não uma condição clínica. Portanto, o código CID-11 QC11 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC43.0": {
+      "term_original": "programação mantida",
+      "capitulo": "11",
+      "confidence_embedding": 0.7845,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida.",
+      "classification_reasoning": "A opção mais precisa para o termo 'programação mantida' é a cardiomiopatia dilatada, pois a definição menciona que se o fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BC43.0 (Cardiomiopatia dilatada) não é adequada pois o termo 'programação mantida' refere-se à manutenção de uma programação cardíaca, e não a uma doença cardíaca. A definição do código CID-11 também não se aplica ao contexto do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8E60": {
+      "term_original": "bav com escape ventricular",
+      "capitulo": "08",
+      "confidence_embedding": 0.7126,
+      "descricao_cid": "Representação de doença CID-11: Vazamento após derivação ventricular. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a Código 8E60: Vazamento após derivação ventricular, pois o termo 'bav com escape ventricular' refere-se ao vazamento de batimento atrial ventricular após uma derivação ventricular, o que está relacionado à instalação de um marcapasso.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'bav com escape ventricular' está diretamente relacionado à instalação de um marcapasso, o que é confirmado pela descrição do código CID-11 8E60: Vazamento após derivação ventricular. A codificação é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MC82.1": {
+      "term_original": "ritmo proprio",
+      "capitulo": "21",
+      "confidence_embedding": 0.7544,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com bradicardia. Definição: Ritmo de escape lento associado a colapso hemodinâmico.",
+      "classification_reasoning": "A descrição do termo 'ritmo proprio' indica que se refere a um tipo de parada cardíaca, especificamente um ritmo de escape lento associado a colapso hemodinâmico. A escolha da opção MC82.1 é mais precisa para o contexto clínico pois menciona parada cardíaca e bradicardia, que está presente no texto.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'ritmo proprio' indica que se refere a um tipo de parada cardíaca, especificamente um ritmo de escape lento associado a colapso hemodinâmico. A escolha da opção MC82.1 é mais precisa para o contexto clínico pois menciona parada cardíaca e bradicardia, que está presente no texto. Portanto, a codificação CID-11 é CLINICAMENTE COERENTE com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "NE82.1Z": {
+      "term_original": "intercorrencias",
+      "capitulo": "22",
+      "confidence_embedding": 0.7191,
+      "descricao_cid": "Representação de doença CID-11: Disfunção do marcapasso ou cardioversor desfibrilador implantável, não especificada. Definição: ",
+      "classification_reasoning": "A palavra 'intercorrencias' está relacionada à programação do marcapasso, portanto, a opção mais precisa é a disfunção do marcapasso ou cardioversor desfibrilador implantável não especificada (NE82.1Z)",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'intercorrencias' está relacionada à programação do marcapasso, mas o código CID-11 NE82.1Z refere-se a disfunção do marcapasso ou cardioversor desfibrilador implantável não especificada. Embora haja uma conexão entre as duas coisas, elas não são diretamente relacionadas. A programação do marcapasso é um procedimento, enquanto o código CID-11 refere-se a uma condição clínica. Portanto, a classificação é inapropriada e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD11.5": {
+      "term_original": "dificuldade",
+      "capitulo": "21",
+      "confidence_embedding": 0.7493,
+      "descricao_cid": "Representação de doença CID-11: Dispneia. Definição: Dispneia é o termo utilizado para descrever percepções de dificuldade ou sofrimento relacionados à respiração e é reconhecido como sintoma de doença quando ocorre em circunstâncias inapropriadas. Dispneia é uma queixa apresentada por pacientes com uma ampla variedade de condições médicas, causadas por múltiplos mecanismos.\r\nA dispneia é considerada aguda quando dura de horas a 3 semanas, subaguda de 3 a 8 semanas e a dispneia crônica dura mais de 8 semanas.",
+      "classification_reasoning": "A expressão 'dificuldade' está relacionada à dispneia (MD11.5), pois a paciente apresenta 'dificuldade de conseguir os medicamentos'. Além disso, a paciente também tem um histórico de problemas cardíacos e é aguardando consulta na cardio geral.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dificuldade mencionada no prontuário refere-se à obtenção de medicamentos, não à dispneia. A codificação MD11.5 não representa fielmente o termo 'dificuldade' descrito no prontuário, pois a dispneia é um sintoma específico e a dificuldade mencionada não está relacionada a essa condição.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "Código: EA90.3": {
+      "term_original": "chagas",
+      "capitulo": "14",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A presença do termo 'Chagas' no contexto clínico e a descrição de doença CID-11 relacionada à Psoríase eritrodérmica, que é uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'Chagas' no prontuário refere-se a uma doença específica, enquanto o código CID-11 EA90.3 se refere à Psoríase eritrodérmica, que é uma forma inflamatória generalizada grave de psoríase. Embora ambos os termos sejam relacionados à pele, eles representam condições clínicas diferentes. Portanto, a codificação não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

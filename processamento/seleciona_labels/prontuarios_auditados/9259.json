@@ -1,0 +1,200 @@
+{
+  "prontuario_id": 39,
+  "text": "Paciente realizou Rx tórax e TC, que mostraram consolidações. Iniciado cefuroxime. Recebe alta em bom estado geral, afebril, com hemograma normal. Manter uso de cefuroxime por 7 dias. Paciente interna devido queda - tc de cranio sem evidência de hemorragia intracraniana. Sem novas lesões isquemicas. Evolui com melhora clinica neurologica progressiva. Insuficiencia renal cronica agudizada com melhora com hidratação. Hipotireoidismo, aumento dose de puran para 75, tsh de 33. Tratamento de infecçaõ respiratória com cefuroxima, com boa resposta clinica. Reinicio anticoagulaçaõ com varfarina. Tem alta em uso de Puran 75, sinvastatina 20 mg a noite. Enalapril 5 mg vo 2 x, metoprolol tartarato 25 mg vo 2 x, digoxina 1/2 cp em dias alternados. Paroxetina 20 mg vo 1 x pela manha, flunitrazepan 1 mg vo 1 x a noite, varfarina 5 mg vo 1 x ao dia. Omeprazol 20 mg vo 1 x ao dia. Carbonato de calcio 500 mg vo 2 x. Controle de tp na sexta feira. Se piora, retorno a emergência.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Abreviação": [
+      "TC",
+      "vo",
+      "Rx tórax",
+      "tc de cranio"
+    ],
+    "Procedimento Diagnóstico": [
+      "TC",
+      "Rx tórax",
+      "tc de cranio"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "consolidações",
+      "hemograma normal",
+      "sem evidência",
+      "tsh de 33"
+    ],
+    "Sinal ou Sintoma": [
+      "consolidações",
+      "novas lesões isquemicas"
+    ],
+    "Substância Química Orgânica": [
+      "cefuroxime",
+      "cefuroxima",
+      "varfarina",
+      "Paroxetina",
+      "flunitrazepan",
+      "Omeprazol",
+      "metoprolol tartarato"
+    ],
+    "Substância Farmacológica": [
+      "cefuroxime",
+      "puran",
+      "cefuroxima",
+      "varfarina",
+      "Puran",
+      "sinvastatina",
+      "Enalapril",
+      "digoxina",
+      "Paroxetina",
+      "flunitrazepan",
+      "Omeprazol",
+      "metoprolol tartarato",
+      "Carbonato de calcio"
+    ],
+    "Antibiótico": [
+      "cefuroxime",
+      "cefuroxima"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "alta",
+      "retorno"
+    ],
+    "Negação": [
+      "afebril",
+      "Sem",
+      "sem evidência"
+    ],
+    "Achado": [
+      "afebril",
+      "bom estado geral",
+      "hemograma normal",
+      "melhora clinica neurologica progressiva",
+      "melhora com hidratação",
+      "boa resposta clinica"
+    ],
+    "Conceito Temporal": [
+      "dias",
+      "noite",
+      "manha",
+      "dia",
+      "dias alternados",
+      "sexta feira"
+    ],
+    "Lesão ou Envenenamento": [
+      "queda"
+    ],
+    "Doença ou Síndrome": [
+      "Hipotireoidismo",
+      "hemorragia intracraniana",
+      "Insuficiencia renal cronica agudizada",
+      "infecçaõ respiratória"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "puran",
+      "Puran",
+      "Enalapril"
+    ],
+    "Hormônio": [
+      "puran",
+      "Puran"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Tratamento",
+      "anticoagulaçaõ",
+      "aumento dose"
+    ],
+    "Conceito Quantitativo": [
+      "75"
+    ],
+    "Organização Relacionada à Saúde": [
+      "emergência"
+    ],
+    "Substância Química Inorgânica": [
+      "Carbonato de calcio"
+    ],
+    "Procedimento Laboratorial": [
+      "Controle de tp"
+    ]
+  },
+  "labels": {
+    "8B25.3": {
+      "term_original": "hemorragia intracraniana",
+      "capitulo": "08",
+      "confidence_embedding": 0.8052,
+      "descricao_cid": "Representação de doença CID-11: Efeitos tardios de hemorragia intracraniana não traumática. Definição: Efeitos tardios de outra hemorragia intracraniana não traumática após 1 mês ou mais do início da doença. Os códigos para episódios agudos devem ser usados ​​exclusivamente para hemorragias agudas e episódios de hospitalização imediatamente relacionados.",
+      "classification_reasoning": "A opção mais precisa para o termo 'hemorragia intracraniana' é o código 8B25.3, pois descreve efeitos tardios de hemorragia intracraniana não traumática, o que se ajusta ao contexto clínico que menciona a paciente tendo feito Rx tórax e TC que mostraram consolidações e iniciado cefuroxime. Além disso, a descrição do código 8B25.3 se refere a hemorragia intracraniana não traumática após um mês ou mais do início da doença, o que também se ajusta ao contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do código 8B25.3 se refere a efeitos tardios de hemorragia intracraniana não traumática após um mês ou mais do início da doença, o que não é compatível com o contexto clínico do prontuário, que menciona a paciente tendo feito Rx tórax e TC que mostraram consolidações e iniciado cefuroxime. Além disso, a paciente foi interna devido à queda e não há evidência de hemorragia intracraniana. Portanto, o código 8B25.3 não representa fielmente o termo 'hemorragia intracraniana' descrito no prontuário.",
+      "tipo_erro_auditoria": "temporal_misinterpretation"
+    },
+    "NA07.8": {
+      "term_original": "queda",
+      "capitulo": "22",
+      "confidence_embedding": 0.7223,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia traumática no tecido cerebral. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'queda' é a hemorragia traumática no tecido cerebral, pois o paciente teve uma queda e foi internado devido à mesma, e o resultado do Tc de cranio não mostrou evidência de hemorragia intracraniana. A opção mais adequada para descrever essa situação é a NA07.8.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'queda' não é a hemorragia traumática no tecido cerebral, pois o paciente teve uma queda e foi internado devido à mesma, mas não há evidência de hemorragia intracraniana. A classificação NA07.8 não se aplica ao caso do paciente.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "5A61.40": {
+      "term_original": "hipotireoidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.7783,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo central adquirido. Definição: Hipotireoidismo central é uma condição em que há pouca ou nenhuma produção dos hormônios tireoidianos induzido por disfunção de hipotálamo ou hipófise.",
+      "classification_reasoning": "A hipotireoidismo é descrita como uma complicaçao aguda, com melhora da dose de Púran e TSH igual a 33, o que sugere um comprometimento central do sistema tireoideano.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hipotireoidismo descrita no prontuário é uma condição central adquirida, com melhora da dose de Púran e TSH igual a 33. Isso sugere um comprometimento central do sistema tireoideano, o que é representado pelo código CID-11 5A61.40. A classificação é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "1C19.1": {
+      "term_original": "boa resposta clinica",
+      "capitulo": "01",
+      "confidence_embedding": 0.7506,
+      "descricao_cid": "Representação de doença CID-11: Doença dos legionários. Definição: Doença do legionário, a forma pneumônica, tem um período de incubação de 2 a 10 dias (mas foram registrados períodos de até 16 dias em alguns surtos). Inicialmente, os sintomas são febre, perda de apetite, dor de cabeça, mal-estar e letargia. Alguns pacientes também podem apresentar dores musculares, diarreia e confusão mental. Geralmente, há também uma tosse leve inicial, mas até 50% dos pacientes podem apresentar catarro. Rajas sanguíneas ou hemoptise ocorrem em cerca de um terço dos pacientes. A gravidade da doença varia de uma tosse leve a uma pneumonia rapidamente fatal. A morte ocorre por pneumonia progressiva com insuficiência respiratória e/ou choque e falência de múltiplos órgãos.",
+      "classification_reasoning": "A boa resposta clinica mencionada no contexto clinicamente refere-se à melhora progressiva dos sintomas, o que é consistente com a recuperação de pacientes com doença dos legionários.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A boa resposta clinica mencionada no prontuário refere-se à melhora progressiva dos sintomas, o que é consistente com a recuperação de pacientes com doença dos legionários. A codificação CID-11 1C19.1 representa fielmente a doença descrita no prontuário, portanto, é válido.",
+      "tipo_erro_auditoria": null
+    },
+    "CB21.1": {
+      "term_original": "consolidações",
+      "capitulo": "12",
+      "confidence_embedding": 0.7792,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A presença de consolidações no RX tórax e TC indica a presença de doença pulmonar, o que justifica a escolha pela opção CB21.1, correspondente ao pneumotórax espontâneo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de consolidações no RX tórax e TC não é um pneumotórax espontâneo, mas sim uma indicação de doença pulmonar. O código CID-11 CB21.1 refere-se especificamente a pneumotórax espontâneo, que não está relacionado às consolidações encontradas no exame. Portanto, o código atribuído é inapropriado e deve ser removido.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD10": {
+      "term_original": "insuficiencia renal cronica agudizada",
+      "capitulo": "11",
+      "confidence_embedding": 0.721,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos.",
+      "classification_reasoning": "A insuficiência renal crônica agudizada se refere à redução da função renal que é um sintoma comum em pacientes com doenças cardíacas, especialmente insuficiência cardíaca congestiva. Nesse contexto, a escolha do código BD10 é mais precisa.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A insuficiência renal crônica agudizada não é uma condição cardíaca, mas sim um sintoma de doença renal. O código CID-11 BD10 representa insuficiência cardíaca congestiva e não se relaciona diretamente com a insuficiência renal crônica agudizada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A42": {
+      "term_original": "melhora clinica neurologica progressiva",
+      "capitulo": "08",
+      "confidence_embedding": 0.7414,
+      "descricao_cid": "Representação de doença CID-11: Encefalomielite aguda disseminada. Definição: Encefalomielite disseminada aguda é transtorno desmielinizante do sistema nervoso central. Usualmente ocorre subsequente a infecção viral ou bacteriana aguda ou vacinação, com início abrupto de irritabilidade e letargia após período prodrômico de 1-4 semanas. Os sintomas principais incluem febre, cefaleia, tontura, alterações do estado mental, convulsões e coma. Fraqueza, vômitos, perda de peso ponderal, rigidez de nuca, ataxia, neurite óptica bilateral e delirium são comuns. Envolvimento de sistema nervoso periférico (paralisia de um único membro ou hemiplegia) podem ocorrer.",
+      "classification_reasoning": "A melhora clínica neurologica progressiva no contexto de consolidações pulmonares e tratamento antimicrobiano sugere uma possível resposta ao tratamento e recuperação da encefalomielite aguda disseminada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A melhora clínica neurologica progressiva no contexto do prontuário não é uma encefalomielite aguda disseminada, pois a paciente apresenta consolidações pulmonares e tratamento antimicrobiano, o que sugere uma possível infecção respiratória. Além disso, a melhora clínica neurologica progressiva pode ser relacionada ao tratamento da infecção respiratória, não necessariamente à encefalomielite aguda disseminada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NA07.8Y": {
+      "term_original": "novas lesões isquemicas",
+      "capitulo": "22",
+      "confidence_embedding": 0.7365,
+      "descricao_cid": "Representação de doença CID-11: Outra hemorragia traumática especificada no tecido cerebral. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'novas lesões isquemicas' é a Código NA07.8Y, que representa Representação de doença CID-11: Outra hemorragia traumática especificada no tecido cerebral.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'novas lesões isquemicas' sugere a presença de lesões cerebrais, mas o código CID-11 atribuído (NA07.8Y) representa hemorragia traumática especificada no tecido cerebral, o que não é diretamente relacionado à condição descrita no prontuário. Além disso, a descrição do código CID-11 não se refere às lesões isquemicas, mas sim à hemorragia. Portanto, a codificação não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

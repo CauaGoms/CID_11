@@ -1,0 +1,166 @@
+{
+  "prontuario_id": 6,
+  "text": "16:25h: Glasgow 11, pupilas iso  /  foto. SNE com infusão de dieta 75 ml/h. Suporte de O2 sob traqueostomia, aspiração de secreção espessa amarelada. CPP com roncos difusos. Dren de tórax D anterior e posterior com presença de drenagem purulenta com aspiração contínua. Abdomem plano e flácido, RHA +. Acesso venoso em MSD com infusão de soroterapia. MSE contido profiláticamente. SVD com diurese efetiva, evacuação ausente. Extremidades aquecidas, perfusão periférica adequada, edemaciado. Segue sentado em poltrona, sob cuidados intensivos e precaução de contato para MRSA + A. baumannii. Enfermeira Florence Nightingale. EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO.",
+  "entities": {
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "pupilas"
+    ],
+    "Abreviação": [
+      "iso",
+      "foto",
+      "SNE",
+      "O2",
+      "CPP",
+      "MSD",
+      "MSE",
+      "SVD",
+      "MRSA",
+      "RHA +"
+    ],
+    "Achado": [
+      "iso",
+      "foto",
+      "plano",
+      "flácido",
+      "RHA +",
+      "diurese efetiva",
+      "Extremidades aquecidas",
+      "perfusão periférica adequada",
+      "sentado em poltrona"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SNE",
+      "traqueostomia",
+      "SVD",
+      "Acesso venoso",
+      "infusão de soroterapia"
+    ],
+    "Dispositivo Médico": [
+      "SNE",
+      "Dren",
+      "SVD",
+      "Acesso venoso"
+    ],
+    "Localização ou Região Corporal": [
+      "CPP",
+      "Abdomem",
+      "MSD",
+      "MSE"
+    ],
+    "Conceito Espacial": [
+      "anterior",
+      "posterior"
+    ],
+    "Sinal ou Sintoma": [
+      "edemaciado",
+      "QUEIXAS",
+      "Glasgow 11",
+      "roncos difusos"
+    ],
+    "Bactéria": [
+      "MRSA",
+      "baumannii"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Conceito Quantitativo": [
+      "75 ml/h"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "cuidados intensivos",
+      "EXAME GERAL"
+    ],
+    "Procedimento Diagnóstico": [
+      "INVESTIGACAO DE PESSOAS"
+    ],
+    "Doença ou Síndrome": [
+      "DIAGNOSTICO RELATADO"
+    ]
+  },
+  "labels": {
+    "6C45.3": {
+      "term_original": "glasgow 11",
+      "capitulo": "06",
+      "confidence_embedding": 0.7985,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A presença de pupilas isotipadas, roncos difusos e drenagem purulenta sugerem uma condição grave, o que justifica a escolha da intoxicação por cocaína como mais provável",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de pupilas isotipadas, roncos difusos e drenagem purulenta não está relacionada à intoxicação por cocaína. A condição descrita no prontuário é mais provável uma doença infecciosa ou respiratória grave, que justifica a remoção do código CID-11 6C45.3.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "4A80.1": {
+      "term_original": "mrsa",
+      "capitulo": "04",
+      "confidence_embedding": 0.7504,
+      "descricao_cid": "Representação de doença CID-11: Broncoespasmo provocado por alergia a substância alimentar. Definição: Broncoespasmo provocado por alergia a alérgenos da comida é manifestação clínica desencadeada por vários alimentos como um fenótipo de hipersensibilidade alimentar. É mais frequente em pacientes atópicos mais jovens e os alimentos mais comuns responsáveis leite de vaca, amendoim, ovos e castanhas. Esta apresentação clínica pode se manifestar como um evento isolado ou em combinação com outros sintomas como representação da anafilaxia induzida por drogas.",
+      "classification_reasoning": "A presença de MRSA + A. baumannii no contexto sugere uma infecção, e o termo 'MRSA' é mencionado explicitamente. O código 4A80.1 para Broncoespasmo provocado por alergia a substância alimentar não está relacionado com a presença de MRSA. Os outros códigos também não estão relacionados com a infecção e a menção explícita do termo 'MRSA' no contexto.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 atribuído (4A80.1) não representa fielmente o termo 'MRSA' mencionado no prontuário, que sugere uma infecção. A presença de MRSA + A. baumannii indica uma condição clínica diferente da representação de doença descrita pelo código 4A80.1 (Broncoespasmo provocado por alergia a substância alimentar). Portanto, o código não está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "XC16": {
+      "term_original": "foto",
+      "capitulo": "X",
+      "confidence_embedding": 0.7815,
+      "descricao_cid": "Representação de doença CID-11: Uma pupila reage. Definição: ",
+      "classification_reasoning": "A opção XC16 'Uma pupila reage' é a mais precisa para o termo 'foto' no contexto do prontuário, pois refere-se à representação de doença CID-11 da pupila, que é descrita como 'pupilas iso / foto' no relatório.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'foto' não se refere à representação de doença CID-11 da pupila, mas sim à realização de uma imagem médica. A opção XC16 'Uma pupila reage' não é a mais precisa para o termo 'foto' no contexto do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME86": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7928,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa de uma parte do corpo. Definição: ",
+      "classification_reasoning": "A opção ME86 melhor se ajusta ao contexto clínico, pois refere-se a sintomas ou queixas de uma parte do corpo, o que é aplicável à situação descrita no prontuário (queixas sem especificação ou diagnóstico relacionado)",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'queixas' não refere-se a uma condição clínica específica, mas sim à percepção subjetiva do paciente. A opção ME86 não se ajusta ao contexto clínico, pois refere-se a sintomas ou queixas de uma parte do corpo, o que não é aplicável à situação descrita no prontuário (queixas sem especificação ou diagnóstico relacionado). A classificação deve ser mais específica e refletir melhor a realidade clínica.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "CA22.0": {
+      "term_original": "roncos difusos",
+      "capitulo": "12",
+      "confidence_embedding": 0.7558,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A presença de roncos difusos no contexto indica uma possível obstrução das vias aéreas, o que é compatível com a exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC). Além disso, a presença de suporte de O2 e drenagem purulenta com aspiração contínua sugere uma gravidade respiratória que justifica a escolha desse código.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de roncos difusos não é suficiente para justificar a escolha do código CA22.0, que representa uma exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC). Embora a obstrução das vias aéreas possa estar relacionada à DPOC, o termo 'roncos difusos' não fornece informações suficientes para confirmar ou excluir a presença de uma exacerbação aguda. Além disso, a falta de queixas ou diagnóstico relacionado no prontuário também sugere que a escolha do código CA22.0 seja demasiado específica e não esteja claramente justificada pela informação disponível.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "4A44.B": {
+      "term_original": "baumannii",
+      "capitulo": "04",
+      "confidence_embedding": 0.7476,
+      "descricao_cid": "Representação de doença CID-11: Vasculite leucocitoclástica. Definição: Vasculite leucocitoclástica (vasculite de hipersensibilidade; angeíte de hipersensibilidade) é um termo histopatológico comumente usado para descrever uma vasculite de pequenos vasos. Pode ser localizada na pele ou pode se manifestar em outros órgãos. Os órgãos internos mais comumente afetados incluem as articulações, o trato gastrointestinal e os rins. O prognóstico é bom na ausência de envolvimento interno. A vasculite leucocitoclástica tem muitas causas, incluindo infecções, drogas e doenças autoimunes sistêmicas, mas nenhuma causa é identificada em até 50% dos pacientes com essa condição.",
+      "classification_reasoning": "A escolha do código 4A44.B (Vasculite leucocitoclástica) é a mais precisa porque o termo 'baumannii' presente no prontuário refere-se a Achromobacter baumannii, um tipo de bactéria que pode causar vasculite leucocitoclástica. Além disso, a presença de drenagem purulenta com aspiração contínua e edema na extremidade sugerem uma possível infecção bacteriana, que também é compatível com o diagnóstico de vasculite leucocitoclástica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código 4A44.B (Vasculite leucocitoclástica) não é clínica ou clinicamente coerente com o prontuário. O termo 'baumannii' presente no prontuário refere-se a Achromobacter baumannii, uma bactéria que pode causar infecções, mas não está relacionada à vasculite leucocitoclástica. Além disso, a presença de drenagem purulenta com aspiração contínua e edema na extremidade sugere mais uma possível infecção bacteriana do que uma condição de vasculite.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "XE643": {
+      "term_original": "sentado em poltrona",
+      "capitulo": "X",
+      "confidence_embedding": 0.7445,
+      "descricao_cid": "Representação de doença CID-11: Sendo cuidado por uma pessoa, não especificada se profissional de saúde ou não profissional de saúde. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a XE643, pois o paciente está sendo cuidado por uma pessoa (enfermeira Florence Nightingale), não especificada se profissional de saúde ou não profissional de saúde.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'sentado em poltrona' não representa uma condição clínica diretamente relacionada ao paciente. A descrição do código CID-11 XE643 refere-se à representação de doença, enquanto o termo extraído descreve a postura do paciente. Portanto, há uma contradição entre o termo e a definição do código CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "90.0": {
+      "term_original": "iso",
+      "capitulo": "09",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'iso' no contexto clínico é a pupila de tamanho igual (iso), indicando que as pupilas são de tamanho igual e não reagindo à luz, caracterizando a condição de Pupila de Argyll Robertson.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'iso' no contexto clínico é a pupila de tamanho igual (iso), indicando que as pupilas são de tamanho igual e não reagindo à luz, caracterizando a condição de Pupila de Argyll Robertson. A descrição do prontuário menciona 'pupilas iso', o que se encaixa perfeitamente com a definição da CID-11. Portanto, manter a codificação 90.0 como válida.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

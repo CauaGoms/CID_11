@@ -1,0 +1,105 @@
+{
+  "prontuario_id": 214,
+  "text": "INVESTIGAVAA  DOR   RETROESTRENAL E  DISPNEIA   AOS ESFORÇOS \n21/5/14   FE  35  EP 17 AE  38   FÇAO   SISTOLICA    HIPOCINESAI  DIFUSA   / REGURGITAÇÃO MI  DISCRETA  \n21/5/14  ECOESTRES   NEGATIVO  A   MCP  DILATADA P   CVD  3,125  12/12  CINTILO  (  NAO ACEITOU  O  CATE  )\nHIPOTIROIDEA   EM USO  DE  PURAN   HA     4  ANOS\n ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "INVESTIGAVAA"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECOESTRES",
+      "CINTILO",
+      "CATE"
+    ],
+    "Abreviação": [
+      "CVD",
+      "CINTILO",
+      "CATE",
+      "FE 35",
+      "EP 17",
+      "AE 38",
+      "REGURGITAÇÃO MI DISCRETA",
+      "MCP DILATADA"
+    ],
+    "Substância Farmacológica": [
+      "CVD",
+      "PURAN"
+    ],
+    "Substância Química Orgânica": [
+      "CVD",
+      "PURAN"
+    ],
+    "Conceito Temporal": [
+      "12/12",
+      "HA 4 ANOS"
+    ],
+    "Negação": [
+      "NAO"
+    ],
+    "Achado": [
+      "ACEITOU",
+      "HIPOTIROIDEA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CATE"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR RETROESTRENAL",
+      "DISPNEIA AOS ESFORÇOS"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "FE 35",
+      "EP 17",
+      "AE 38",
+      "FÇAO SISTOLICA HIPOCINESAI DIFUSA",
+      "REGURGITAÇÃO MI DISCRETA"
+    ],
+    "Doença ou Síndrome": [
+      "MCP DILATADA"
+    ],
+    "Conceito Quantitativo": [
+      "3 , 125"
+    ]
+  },
+  "labels": {
+    "5A61.0": {
+      "term_original": "hipotiroidea",
+      "capitulo": "05",
+      "confidence_embedding": 0.8074,
+      "descricao_cid": "Representação de doença CID-11: Hipopituitarismo. Definição: Transtorno que manifesta deficiência ou diminuição de um ou mais hormônios hipofisários, que é causado por várias doenças , tais como tumor, traumatismo/cirurgia, irradiação, inflamação e hemorragia/infarto.",
+      "classification_reasoning": "A hipotiroidea está relacionada à disfunção na glândula hipófise, o que é característico do hipopituitarismo (Código CID-11: 5A61.0). Além disso, a presença de sintomas como dor retroesternal e dispneia aos esforços também sugere uma disfunção na produção de hormônios hipofisários.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hipotiroidea está relacionada à disfunção na glândula hipófise, o que é característico do hipopituitarismo (Código CID-11: 5A61.0). A presença de sintomas como dor retroesternal e dispneia aos esforços também sugere uma disfunção na produção de hormônios hipofisários. Portanto, a codificação CID-11 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BA01": {
+      "term_original": "dor retroestrenal",
+      "capitulo": "11",
+      "confidence_embedding": 0.7689,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A dor retroesternal é um sintoma comum em doenças cardíacas hipertensivas, como hipertrofia ventricular esquerda, doença arterial coronariana e insuficiência cardíaca congestiva.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dor retroesternal é um sintoma comum em doenças cardíacas hipertensivas, como hipertrofia ventricular esquerda, doença arterial coronariana e insuficiência cardíaca congestiva. Como o prontuário menciona dor retroestrenal e doença cardíaca hipertensiva, a codificação CID-11 BA01 é clínica e coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "8C84": {
+      "term_original": "mcp dilatada",
+      "capitulo": "08",
+      "confidence_embedding": 0.7552,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise secundária. Definição: Rabdomiólise secundária ocorre quando o efeito primário de um fator etiológico resulta em um estado funcional ou bioquímico que conduz ao desenvolvimento de alterações isquêmicas, degenerativas, necróticas ou desestabilizadoras da membrana no músculo, produzindo as manifestações clínicas e bioquímicas de rabdomiólise. Mais frequentemente, a rabdomiólise é secundária a um desequilíbrio metabólico, muitas vezes de natureza genética, como resultado de movimento anormalmente excessivo, tensão isométrica excessiva por tentativa de movimento contra resistência, ou coma levando a aumento de pressão, isquemia, hipóxia e necrose intramusculares. A rabdomiólise secundária também pode ser causada por uma mutação em vários genes (RYR1, LPIN).",
+      "classification_reasoning": "A dilatação do músculo cefálico posterior (MCP) sugere uma lesão neurológica ou muscular, e a presença de dor retroesternal e dispneia ao esforço pode estar relacionada à rabdomiólise secundária. Esta opção é mais precisa porque combina as características clínicas apresentadas com a dilatação do MCP.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dilatação do músculo cefálico posterior (MCP) não é um sintoma de rabdomiólise secundária. A rabdomiólise é uma doença muscular que afeta os músculos esqueléticos, enquanto o MCP é um músculo da face e não está relacionado à rabdomiólise. Além disso, a dor retroesternal e dispneia ao esforço podem ser causadas por vários fatores e não são exclusivas de rabdomiólise secundária.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB21.1": {
+      "term_original": "dispneia aos esforços",
+      "capitulo": "12",
+      "confidence_embedding": 0.7946,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A dispneia aos esforços e dor retroesternal sugerem um processo que afeta a circulação pulmonar, como uma lesão pleural ou pneumotórax. O fato de o paciente ter hipertensão sistólica difusa e regurgitação mitral discreta também apoia essa escolha. Além disso, a história de hipotiroidismo em uso de propiltiouracilo há 4 anos não parece estar diretamente relacionada à dispneia e dor descrita.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dispneia aos esforços e dor retroesternal podem ser sintomas de várias condições, mas não há evidência clínica suficiente para justificar a classificação como pneumotórax espontâneo. A hipertensão sistólica difusa e regurgitação mitral discreta também não estão diretamente relacionadas à dispneia e dor descrita. Portanto, é necessário remover o código CID-11 CB21.1 pois não há uma relação clínica direta entre a condição descrita no prontuário e o termo extraído.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    }
+  }
+}

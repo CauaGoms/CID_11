@@ -1,0 +1,153 @@
+{
+  "prontuario_id": 698,
+  "text": "Paciente admitida às 18 hs procedente do centro cirurgico em POI de colectomia via laparotomia, acordada, orientada e colaborativa. Recebe oxigenoterapia por névoa úmida em máscara facial 03 l/mim. Instalado monitorização cardíaca contínua + PAM (radial esquerda) e oximetria de pulso digital. MV + CPP livres. BCNF sem sopros. Abdomem plano, tenso, presença de incisão mediana com cobertura limpa e seca. Mantendo-se estável hemodinâmicamente sem uso de DVA. Diurese efetiva por SVD. Segue com cuidados de UTI. EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO.",
+  "entities": {
+    "Conceito Temporal": [
+      "POI"
+    ],
+    "Abreviação": [
+      "POI",
+      "PAM",
+      "BCNF",
+      "DVA",
+      "SVD",
+      "UTI",
+      "MV +",
+      "CPP livres"
+    ],
+    "Achado": [
+      "acordada",
+      "orientada",
+      "colaborativa",
+      "BCNF",
+      "plano",
+      "MV +",
+      "CPP livres",
+      "estável hemodinâmicamente",
+      "Diurese efetiva"
+    ],
+    "Negação": [
+      "sem",
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "sopros",
+      "tenso",
+      "QUEIXAS"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "Abdomem",
+      "radial esquerda"
+    ],
+    "Conceito Qualitativo": [
+      "seca"
+    ],
+    "Substância Farmacológica": [
+      "DVA"
+    ],
+    "Dispositivo Médico": [
+      "SVD",
+      "máscara facial"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SVD",
+      "colectomia via laparotomia",
+      "oxigenoterapia por névoa úmida",
+      "monitorização cardíaca contínua"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "cuidados",
+      "EXAME GERAL"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UTI",
+      "centro cirurgico"
+    ],
+    "Conceito Quantitativo": [
+      "03 l/mim"
+    ],
+    "Procedimento Diagnóstico": [
+      "monitorização cardíaca contínua",
+      "oximetria de pulso digital",
+      "INVESTIGACAO DE PESSOAS"
+    ],
+    "Lesão ou Envenenamento": [
+      "incisão mediana"
+    ],
+    "Doença ou Síndrome": [
+      "DIAGNOSTICO RELATADO"
+    ]
+  },
+  "labels": {
+    "MG30.2": {
+      "term_original": "plano",
+      "capitulo": "21",
+      "confidence_embedding": 0.7431,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A opção mais precisa é MG30.2, pois o termo 'plano' está relacionado à descrição de dor crônica pós-cirúrgica ou pós-traumática, que menciona a presença de um abdome plano e tenso no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção MG30.2 não é válida porque o termo 'plano' não está diretamente relacionado à dor crônica pós-cirúrgica ou pós-traumática. A presença de um abdome plano e tenso no prontuário pode ser uma característica normal após uma colectomia, mas não é suficiente para justificar a classificação de dor crônica pós-operatória.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "NB90.7": {
+      "term_original": "sopros",
+      "capitulo": "22",
+      "confidence_embedding": 0.7359,
+      "descricao_cid": "Representação de doença CID-11: Lesão de múltiplos vasos sanguíneos ao nível do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NB90.7 porque o termo 'sopros' refere-se à lesão de múltiplos vasos sanguíneos ao nível do abdome, região lombar ou pelve, que está relacionada à cirurgia realizada no paciente (colectomia via laparotomia). Além disso, a presença de 'sopros' não é um sintoma comum após essa procedência cirúrgica, o que sugere uma lesão vascular como causa provável.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção NB90.7 não é adequada porque o termo 'sopros' não refere-se a lesão de múltiplos vasos sanguíneos ao nível do abdome, região lombar ou pelve. Em vez disso, 'sopros' provavelmente se refere à ausência de sopros respiratórios, o que é um achado normal após uma cirurgia abdominal como a colectomia via laparotomia. Portanto, a codificação CID-11 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DD43.20": {
+      "term_original": "incisão mediana",
+      "capitulo": "13",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'incisão mediana' dentro do contexto clínico é a representação de doença CID-11: Hérnia intra-abdominal primária (DD43.20), pois a incisão mediana refere-se à abertura realizada no abdômen durante a cirurgia, caracterizando uma hérnia intra-abdominal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A incisão mediana não é uma doença, mas sim um procedimento cirúrgico. A opção DD43.20 (Hérnia intra-abdominal primária) não representa fielmente o termo 'incisão mediana' descrito no prontuário. O código CID-11 deve ser removido e substituído por um que represente corretamente a incisão mediana, como por exemplo, Z98.4 (Procedimento cirúrgico intra-abdominal).",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME86.B": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7694,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa da perna ou coxa. Definição: ",
+      "classification_reasoning": "A opção ME86.B é a mais precisa para o termo 'queixas' no contexto clínico, pois refere-se à sintoma ou queixa da perna ou coxa, que é relacionada ao paciente com colectomia via laparotomia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'queixas' no prontuário refere-se ao paciente com colectomia via laparotomia, mas o código CID-11 ME86.B se refere à sintoma ou queixa da perna ou coxa. Embora haja uma relação entre a cirurgia e as possíveis sequelas, não há evidência clínica direta de queixas relacionadas à perna ou coxa no prontuário. Portanto, a codificação é incoerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MF40.3": {
+      "term_original": "tenso",
+      "capitulo": "21",
+      "confidence_embedding": 0.7522,
+      "descricao_cid": "Representação de doença CID-11: Ejaculação retrógrada. Definição: A ejaculação retrógrada é uma condição na qual o sêmen, que normalmente é ejaculado pela uretra, é redirecionado para a bexiga urinária. A ejaculação retrógrada é tipicamente acompanhada por orgasmo subjetivo, embora o homem possa notar que a liberação de sêmen é limitada ou ausente. A ejaculação retrógrada ocorre mais comumente como uma complicação da ressecção transuretral da próstata, porém também pode ser causada por outra cirurgia pélvica, disfunção do sistema nervoso ou uso de agentes farmacológicos. A confirmação é feita pela identificação de espermatozoides em uma amostra de urina.",
+      "classification_reasoning": "A opção MF40.3 (Ejaculação retrógrada) é a mais precisa para o termo 'tenso' dentro do contexto clínico, pois não há outras opções que descrevam tenso como uma característica física do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'tenso' não se refere a uma condição clínica relacionada à ejaculação retrógrada, como descrita no código CID-11 MF40.3. Em vez disso, 'tenso' parece ser uma característica física do paciente, referindo-se ao estado de tensão do abdome após a cirurgia. Portanto, o código atribuído não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BE11": {
+      "term_original": "estável hemodinâmicamente",
+      "capitulo": "11",
+      "confidence_embedding": 0.7964,
+      "descricao_cid": "Representação de doença CID-11: Outros distúrbios funcionais subsequentes a cirurgia cardíaca. Definição: ",
+      "classification_reasoning": "O termo 'estável hemodinâmicamente' indica que o paciente não apresenta alterações significativas na pressão arterial e fluxo sanguíneo, sugerindo que a cirurgia foi bem-sucedida e não houve complicações cardíacas. O código BE11 (Outros distúrbios funcionais subsequentes a cirurgia cardíaca) é mais preciso para descrever este achado clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'estável hemodinâmicamente' não está relacionado a doenças cardíacas, mas sim à estabilidade do paciente após a cirurgia. O código BE11 (Outros distúrbios funcionais subsequentes a cirurgia cardíaca) não representa fielmente o termo descrito no prontuário. A codificação CID-11 deve ser mais específica e relacionada ao achado clínico real, como por exemplo, um código que descreva a estabilidade hemodinâmica após a cirurgia.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF55": {
+      "term_original": "mv +",
+      "capitulo": "21",
+      "confidence_embedding": 0.7431,
+      "descricao_cid": "Representação de doença CID-11: Poliúria. Definição: A poliúria é uma condição definida como produção ou passagem excessiva ou anormalmente grande de urina.",
+      "classification_reasoning": "A presença de 'MV' no contexto clínico sugere que o paciente está com poliúria, uma condição caracterizada pela produção excessiva ou anormalmente grande de urina.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'MV' no prontuário refere-se à diurese efetiva por SVD, não à produção excessiva ou anormalmente grande de urina, que é a definição da poliúria. A codificação CID-11 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

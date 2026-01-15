@@ -1,0 +1,247 @@
+{
+  "prontuario_id": 414,
+  "text": "Paciente portados de HAS, mutação do gene da protrombina em anticoagulação crônica com warfarin com IAM e AVC em 2001 com sequela (déficit motor à esquerda) com CAT de 2001 evidenciando hipertrofia de VE e coronárias normais. Ergometria de 06/04 com baixa capacidade funcional. Em 30/12/04 iniciou com dor retroesternal, em aperto, intensa sem irradiação. Veio à emergência do XXXX. ECG inalterado em relação aos prévios. Marcadores de injúria miocárdica sem alteração e com alívio da dor com isordil SL. frente ao diagnóstico de angina instável, o paciente foi internado na UTI coronariana e iniciado enoxaparina, propranolol e nitrato fixo. Evoluiu com alguns episódios de dor e após 36h sem dor, sem alteração eletrocardiográfica ou enzimática, recebeu alta para a internação na equipe de cardiologia em BEG, hemodinamicamente estável, PA controlada, com warfarin reiniciado e com plano de suspender enoxaparina após 7 dias de warfarina (INR entre 2,0 e 3,0). No andar evoluiu cardiologicamente bem. A enoxaparina foi suspense quando o INR estava em 2,38. Paciente recebe alta em BEG, anticoagulado, sem sangramentos, hemodinamicamente estável, eupnéico, afebril e com plano de retorno ambulatorial (cardiologia) com o Dr VITAL BRASIL. Sai com prescrição domiciliar de : - Propranolol 40 mg TID - AAS 100 mg / dia - Isossorbida 40 mg TID - Isossorbida 5 mg SL s/n - Varfarina 5 mg /dia.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente",
+      "paciente"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "IAM",
+      "AVC",
+      "mutação do gene da protrombina",
+      "angina instável"
+    ],
+    "Abreviação": [
+      "HAS",
+      "IAM",
+      "AVC",
+      "CAT",
+      "BEG",
+      "Dr",
+      "AAS",
+      "hipertrofia de VE",
+      "ECG inalterado em relação aos prévios",
+      "isordil SL",
+      "UTI coronariana",
+      "PA controlada",
+      "5 mg SL"
+    ],
+    "Substância Farmacológica": [
+      "warfarin",
+      "enoxaparina",
+      "propranolol",
+      "nitrato",
+      "warfarina",
+      "Propranolol",
+      "AAS",
+      "Isossorbida",
+      "Varfarina",
+      "isordil SL"
+    ],
+    "Substância Química Orgânica": [
+      "warfarin",
+      "enoxaparina",
+      "propranolol",
+      "warfarina",
+      "Propranolol",
+      "AAS",
+      "Isossorbida",
+      "Varfarina"
+    ],
+    "Sinal ou Sintoma": [
+      "sequela",
+      "intensa",
+      "irradiação",
+      "dor",
+      "déficit motor à esquerda",
+      "dor retroesternal",
+      "em aperto",
+      "episódios de dor"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CAT",
+      "anticoagulação crônica",
+      "plano de suspender",
+      "prescrição domiciliar"
+    ],
+    "Procedimento Diagnóstico": [
+      "CAT",
+      "Ergometria"
+    ],
+    "Conceito Qualitativo": [
+      "intensa"
+    ],
+    "Negação": [
+      "sem",
+      "afebril"
+    ],
+    "Organização Relacionada à Saúde": [
+      "emergência",
+      "cardiologia",
+      "UTI coronariana"
+    ],
+    "Conceito Funcional": [
+      "diagnóstico"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "alta",
+      "retorno ambulatorial"
+    ],
+    "Achado": [
+      "BEG",
+      "anticoagulado",
+      "eupnéico",
+      "afebril",
+      "alívio da dor",
+      "hemodinamicamente estável",
+      "PA controlada",
+      "evoluiu cardiologicamente bem"
+    ],
+    "Função Patológica": [
+      "sangramentos"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "cardiologia",
+      "equipe de cardiologia"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "mutação do gene da protrombina",
+      "hipertrofia de VE",
+      "coronárias normais",
+      "baixa capacidade funcional",
+      "ECG inalterado em relação aos prévios",
+      "Marcadores de injúria miocárdica sem alteração",
+      "INR entre 2 , 0 e 3 , 0"
+    ],
+    "Conceito Quantitativo": [
+      "40 mg",
+      "100 mg",
+      "5 mg SL",
+      "5 mg"
+    ]
+  },
+  "labels": {
+    "BC81.30": {
+      "term_original": "dor retroesternal",
+      "capitulo": "11",
+      "confidence_embedding": 0.7797,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A opção mais precisa para o termo 'dor retroesternal' é a Fibrilação Atrial Paroxística (BC81.30), pois embora não seja diretamente relacionada à dor, é um sintoma comum em pacientes portadores de doenças cardíacas e pode estar associado a episódios de angina instável como o caso do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor retroesternal não está diretamente relacionada à Fibrilação Atrial Paroxística (BC81.30). Embora seja um sintoma comum em pacientes cardíacos, a dor retroesternal pode ser causada por várias razões, incluindo angina instável, que é o diagnóstico clínico descrito no prontuário. Portanto, a codificação BC81.30 não representa fielmente o termo 'dor retroesternal' e deve ser removida.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BE10": {
+      "term_original": "hemodinamicamente estável",
+      "capitulo": "11",
+      "confidence_embedding": 0.7824,
+      "descricao_cid": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite.",
+      "classification_reasoning": "A opção mais precisa é BE10, Síndrome pós cardiotomia, pois o paciente foi internado na UTI coronariana e iniciou terapia para controle de dor e hemodinamicamente estável. Esta situação clínica sugere que a condição do paciente está relacionada à intervenção cardiológica recente, o que é consistente com a definição da síndrome pós-cardiotomia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BE10, Síndrome pós cardiotomia, não é adequada pois o paciente não foi submetido a uma cirurgia cardíaca recente. A internação na UTI coronariana e a terapia para controle de dor e hemodinamicamente estável são mais consistentes com um episódio de angina instável ou doença coronária aguda, que não é representado pela síndrome pós-cardiotomia.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "3B50": {
+      "term_original": "has",
+      "capitulo": "03",
+      "confidence_embedding": 0.7669,
+      "descricao_cid": "Representação de doença CID-11: Defeitos hereditários da fibrinólise. Definição: Doença causada por mutações geneticamente herdadas que afetam o sistema de fibrinólise que evita que coágulos sanguíneos se estendam e se tornem problemáticos. Essa doença é caracterizada por defeitos no sistema de fibrinólise, levando à coagulação do sangue. Pode apresentar-se com trombose.",
+      "classification_reasoning": "O paciente portador de HAS (Hemorragia Associada à Síntese) com mutação do gene da protrombina em anticoagulação crônica, justifica a escolha desse código. A HAS é uma doença causada por defeitos no sistema de fibrinólise que evita que coágulos sanguíneos se estendam e se tornem problemáticos.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código CID-11 3B50 (Representação de doença: Defeitos hereditários da fibrinólise) é justificada pelo fato do paciente portador de HAS com mutação do gene da protrombina em anticoagulação crônica. A HAS é uma doença causada por defeitos no sistema de fibrinólise que evita que coágulos sanguíneos se estendam e se tornem problemáticos, o que coincide com a definição do código CID-11 3B50.",
+      "tipo_erro_auditoria": null
+    },
+    "BA60.1": {
+      "term_original": "anticoagulado",
+      "capitulo": "11",
+      "confidence_embedding": 0.7716,
+      "descricao_cid": "Representação de doença CID-11: Outra pericardite como complicação atual subsequente a infarto agudo do miocárdio. Definição: Inflamação do pericárdio que pode causar dor no peito, que ocorre tão precocemente quanto o primeiro dia e até 6 semanas após o infarto agudo do miocárdio. A dor da pericardite irradia para qualquer crista do trapézio. O infarto do miocárdio transmural é responsável pela inflamação pericárdica local. Atritos pericárdicos transitórios são relativamente comuns em pacientes com infarto transmural nas primeiras 48 horas. Uma pericardite fibrinosa aguda ocorre comumente após o infarto transmural, enquanto o risco de pericardite hemorrágica está aumentado por anticoagulação.",
+      "classification_reasoning": "A paciente está descrita como tendo uma história de IAM e AVC em 2001, o que sugere que há um risco aumentado de complicações subsequentes ao infarto agudo do miocárdio. A presença de dor retroesternal intensa sem irradiação e alívio com isordil SL, juntamente com a evolução clínica subsequente, é consistente com uma pericardite como complicação atual subsequente ao infarto agudo do miocárdio.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 BA60.1 refere-se a pericardite como complicação subsequente ao infarto agudo do miocárdio, mas o termo 'anticoagulado' no prontuário não está relacionado à pericardite. A paciente está descrita como tendo anticoagulação crônica com warfarin e iniciou enoxaparina após diagnóstico de angina instável, o que sugere que a codificação não é clínicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD84.9": {
+      "term_original": "sequela",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A sequela mencionada se refere ao déficit motor à esquerda do paciente, que é uma consequência de um evento cerebral (AVC em 2001). Nesse contexto, a opção mais precisa para o termo \"sequela\" é MD84.9 - Sequela de hemorragia cerebral.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A sequela mencionada se refere ao déficit motor à esquerda do paciente, que é uma consequência de um evento cerebral (AVC em 2001). A opção mais precisa para o termo 'sequela' é MD84.9 - Sequela de hemorragia cerebral, pois a sequela está claramente relacionada ao AVC e não há nenhuma contradição óbvia ou alucinação.",
+      "tipo_erro_auditoria": null
+    },
+    "BA40.Y": {
+      "term_original": "angina instável",
+      "capitulo": "11",
+      "confidence_embedding": 0.8322,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A escolha do código BA40.Y é mais precisa porque o termo 'angina instável' refere-se a uma representação de doença CID-11 para Outra angina pectoris especificada, que se aplica ao contexto clínico descrito no prontuário. A descrição da angina instável como uma dor retroesternal em aperto e intensa sem irradiação, com alívio com isordil SL, é consistente com a definição do código BA40.Y.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código BA40.Y é justificada porque o termo 'angina instável' refere-se a uma representação de doença CID-11 para Outra angina pectoris especificada, que se aplica ao contexto clínico descrito no prontuário. A descrição da angina instável como uma dor retroesternal em aperto e intensa sem irradiação, com alívio com isordil SL, é consistente com a definição do código BA40.Y.",
+      "tipo_erro_auditoria": null
+    },
+    "8000000000000.0": {
+      "term_original": "iam",
+      "capitulo": "08",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'iam' dentro do contexto clínico é a doença cardiovascular, especificamente um Infarto de Miocárdio (IAM), pois há referência à dor retroesternal em aperto e intensa sem irradiação, alívio da dor com isordil SL e evolução para angina instável.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'iam' dentro do contexto clínico é a doença cardiovascular, especificamente um Infarto de Miocárdio (IAM), pois há referência à dor retroesternal em aperto e intensa sem irradiação, alívio da dor com isordil SL e evolução para angina instável. A descrição do prontuário é clara e coerente com o diagnóstico de IAM.",
+      "tipo_erro_auditoria": null
+    },
+    "MG24.7": {
+      "term_original": "evoluiu cardiologicamente bem",
+      "capitulo": "21",
+      "confidence_embedding": 0.7142,
+      "descricao_cid": "Representação de doença CID-11: Medo de doença cardiovascular. Definição: ",
+      "classification_reasoning": "A opção mais precisa é MG24.7 porque o termo 'evoluiu cardiologicamente bem' sugere que o paciente apresentou uma melhora na condição cardíaca, o que está relacionado ao medo de doença cardiovascular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'evoluiu cardiologicamente bem' não representa diretamente uma condição clínica relacionada à doença cardiovascular. A melhora na condição cardíaca é um resultado positivo da terapêutica, mas não é a própria doença. Portanto, o código CID-11 MG24.7 (Representação de doença) não se aplica nesse caso.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B25.4": {
+      "term_original": "avc",
+      "capitulo": "08",
+      "confidence_embedding": 0.7646,
+      "descricao_cid": "Representação de doença CID-11: Efeitos tardios de acidente vascular cerebral desconhecido se isquêmico ou hemorrágico. Definição: Efeitos tardios ocorrendo após 1 mês ou mais do início da doença. Os códigos para acidente vascular cerebral (AVC) agudo devem ser usados ​​exclusivamente para AVC agudo e episódios de hospitalização imediatamente relacionados.",
+      "classification_reasoning": "A escolha pelo código 8B25.4 é porque o paciente tem sequelas de AVC em 2001, e o termo 'AVC' está sendo usado para referir-se ao mesmo evento que ocorreu anteriormente.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'AVC' está diretamente relacionado à sequela descrita no prontuário, que é um déficit motor à esquerda. Além disso, o código CID-11 8B25.4 se refere a efeitos tardios de acidente vascular cerebral desconhecido, o que coincide com a situação do paciente. Portanto, a codificação é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "8A07": {
+      "term_original": "déficit motor à esquerda",
+      "capitulo": "08",
+      "confidence_embedding": 0.785,
+      "descricao_cid": "Representação de doença CID-11: Algum transtorno especificado do movimento. Definição: Distúrbios motores neurológicos que se apresentam com lentidão de movimentos (bradicinesia ou hipocinesia) ou movimentos involuntários anormais (hipercinesias) como resultado de anormalidades genéticas, infecciosas, tóxicas, metabólicas, inflamatórias ou vasculares.",
+      "classification_reasoning": "O déficit motor à esquerda está relacionado a uma lesão cerebral (AVC) e não a uma doença neurológica degenerativa ou infecciosa. A escolha do código 8A07 é baseada na caracterização de um transtorno especificado do movimento, que se apresenta com lentidão de movimentos (bradicinesia) como resultado da lesão cerebral.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código 8A07 é justificada pela presença de déficit motor à esquerda, que está relacionado a uma lesão cerebral (AVC) e não a uma doença neurológica degenerativa ou infecciosa. A caracterização de um transtorno especificado do movimento, com lentidão de movimentos (bradicinesia) como resultado da lesão cerebral, é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BC62": {
+      "term_original": "pa controlada",
+      "capitulo": "11",
+      "confidence_embedding": 0.7807,
+      "descricao_cid": "Representação de doença CID-11: Via acessória. Definição: Conexão elétrica adicional que tipicamente desvia do nó AV, tipicamente inserindo-se diretamente no miocárdio atrial e ventricular, mas também pode se conectar ao sistema de condução especializado (p.ex., o feixe de His, feixes direito ou esquerdo, ou um dos fascículos).",
+      "classification_reasoning": "A opção mais precisa é BC62, Via acessória, pois o termo 'pa controlada' sugere que a pressão arterial está sob controle, o que não está relacionado com fibrilação atrial, bloqueio de ramo direito ou despolarização juncional prematura. A presença da expressão 'controlada' indica que a pressão arterial está dentro dos limites normais e não há sinais de instabilidade hemodinâmica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'pa controlada' não se refere a uma via acessória, mas sim à pressão arterial estável e sob controle. A opção BC62 não representa fielmente o termo descrito no prontuário. A análise clínica sugere que a pressão arterial está dentro dos limites normais e não há sinais de instabilidade hemodinâmica, o que não é relacionado à via acessória.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.2": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7471,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A dor retroesternal em aperto e intensa sem irradiação, característica da angina instável, é a mais precisa opção para o termo 'dor' dentro do contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dor retroesternal em aperto e intensa sem irradiação, característica da angina instável, é a mais precisa opção para o termo 'dor' dentro do contexto clínico. A descrição do código CID-11 MG30.2 se ajusta perfeitamente à situação clínica do paciente, portador de HAS e com história de IAM e AVC. A dor retroesternal é um sintoma característico da angina instável, que foi diagnosticada e tratada no prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

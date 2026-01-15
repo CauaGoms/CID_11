@@ -1,0 +1,208 @@
+{
+  "prontuario_id": 164,
+  "text": "S - PROVENIENTE PS ÀS 20h30. # HX BRONCOASPIRAÇÃO APÓS ALIMENTAÇÃO, SENDO LEVADA PARA XXXX, SEGUNDO INFORMAÇÃO FAMILIAR. # PNEUMONIA ASPIRATIVA.   * AVCs / DPOC.  O - CHEGA COM RAMSAY: 06, PUPILAS ISOMIÓTICAS RFM +, INTUBADO SOB VM: VCV: 470, PEEP: 5, FR: 15, FIO2: 0,5%, MANTEM FILTRO BARREIRA BACTERIOLOGICO, SNG FECHADA, CATETER VENOSO PERIFERICO EM JUGULAR EXTERNA À ESQUERDA COM SG 5% EM CURSO, CATETER VENOSO PERIFÉRICO EM ANTEBRAÇO DIREITO COM DOPAMINA À 30ML/H, FENTANIL À 20ML/H, DORMONID À 30ML/H EM BI, MMSS E MMII LIVRES DE EDEMA E EXTREMIDADE COM PERFUSÃO PRESERVADA, AC: BCRNF, AP: CPL, ABD: RHA+, PLANO E FLACIDO, SVD COM DIURESE EFETIVA AMARELO OURO. REGIÃO SACRA E CALCANEOS COM ULCERA POR PRESSÃO ESTAGIO II. REALIZADO COLETA DE 2 AMOSTRA DE HEMOCULTURA E UROCULTURA NO PS POR Enfermeira Florence Nightingale.  HEMORRAGIA GASTROINTESTINAL SEM OUTRA ESPECIFICACAO.",
+  "entities": {
+    "Abreviação": [
+      "S",
+      "PS",
+      "HX",
+      "AVCs",
+      "DPOC",
+      "O",
+      "VM",
+      "VCV",
+      "PEEP",
+      "FR",
+      "FIO2",
+      "BI",
+      "MMSS",
+      "MMII",
+      "AC",
+      "BCRNF",
+      "AP",
+      "CPL",
+      "ABD",
+      "RHA+",
+      "SVD",
+      "RFM +",
+      "SNG FECHADA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "PS"
+    ],
+    "Conceito Temporal": [
+      "APÓS"
+    ],
+    "Alimento": [
+      "ALIMENTAÇÃO"
+    ],
+    "Doença ou Síndrome": [
+      "AVCs",
+      "DPOC",
+      "PNEUMONIA ASPIRATIVA",
+      "ULCERA POR PRESSÃO ESTAGIO II",
+      "HEMORRAGIA GASTROINTESTINAL"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PUPILAS",
+      "MMSS",
+      "MMII",
+      "CALCANEOS",
+      "JUGULAR EXTERNA À ESQUERDA",
+      "ANTEBRAÇO DIREITO"
+    ],
+    "Sinal ou Sintoma": [
+      "ISOMIÓTICAS",
+      "EDEMA",
+      "RAMSAY : 06"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "INTUBADO",
+      "VM",
+      "SVD",
+      "SNG FECHADA",
+      "CATETER VENOSO PERIFERICO",
+      "CATETER VENOSO PERIFÉRICO"
+    ],
+    "Conceito Quantitativo": [
+      "470",
+      "5",
+      "15",
+      "5%",
+      "20ML/H",
+      "30ML/H",
+      "0 , 5%",
+      "2 AMOSTRA"
+    ],
+    "Atributo Clínico": [
+      "PEEP",
+      "FR",
+      "FIO2"
+    ],
+    "Substância Farmacológica": [
+      "SG",
+      "DOPAMINA",
+      "FENTANIL",
+      "DORMONID"
+    ],
+    "Substância Biologicamente Ativa": [
+      "DOPAMINA"
+    ],
+    "Substância Química Orgânica": [
+      "DOPAMINA",
+      "FENTANIL",
+      "DORMONID"
+    ],
+    "Dispositivo de Administração de Medicamento": [
+      "BI"
+    ],
+    "Negação": [
+      "LIVRES",
+      "SEM"
+    ],
+    "Procedimento Diagnóstico": [
+      "AC",
+      "AP",
+      "HEMOCULTURA",
+      "UROCULTURA"
+    ],
+    "Achado": [
+      "BCRNF",
+      "CPL",
+      "RHA+",
+      "PLANO",
+      "FLACIDO",
+      "RFM +",
+      "EXTREMIDADE COM PERFUSÃO PRESERVADA",
+      "DIURESE EFETIVA",
+      "AMARELO OURO"
+    ],
+    "Dispositivo Médico": [
+      "SVD",
+      "FILTRO BARREIRA BACTERIOLOGICO",
+      "SNG FECHADA",
+      "CATETER VENOSO PERIFERICO",
+      "CATETER VENOSO PERIFÉRICO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "COLETA"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "RFM +"
+    ],
+    "Função de Organismo": [
+      "DIURESE EFETIVA"
+    ],
+    "Conceito Qualitativo": [
+      "AMARELO OURO"
+    ],
+    "Localização ou Região Corporal": [
+      "REGIÃO SACRA"
+    ]
+  },
+  "labels": {
+    "8A63.0Z": {
+      "term_original": "ramsay : 06",
+      "capitulo": "08",
+      "confidence_embedding": 0.7048,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica febril, não especificada. Definição: ",
+      "classification_reasoning": "O termo 'Ramsay: 06' sugere que o paciente está sob respiração mecânica, o que é mais comummente visto em pacientes críticos com doenças graves, como pneumonia aspirativa e AVC/DPOC, como relatado no prontuário. A opção mais precisa para este termo é a crise epiléptica febril não especificada (8A63.0Z), pois não há indícios de convulsões febris complexas ou outras características focais.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'Ramsay: 06' não representa uma condição clínica diretamente relacionada com a doença do paciente. A Ramsay scale é um método de avaliação da consciência, e o valor 06 indica que o paciente está em coma profundo. Isso não é uma crise epiléptica febril, mas sim uma condição neurológica grave. Portanto, a codificação CID-11 atribuída (8A63.0Z) não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B25.4": {
+      "term_original": "avcs / dpoc",
+      "capitulo": "08",
+      "confidence_embedding": 0.6968,
+      "descricao_cid": "Representação de doença CID-11: Efeitos tardios de acidente vascular cerebral desconhecido se isquêmico ou hemorrágico. Definição: Efeitos tardios ocorrendo após 1 mês ou mais do início da doença. Os códigos para acidente vascular cerebral (AVC) agudo devem ser usados ​​exclusivamente para AVC agudo e episódios de hospitalização imediatamente relacionados.",
+      "classification_reasoning": "A opção mais precisa é a crise epiléptica devido ao acidente vascular cerebral desconhecido, uma vez que o contexto clínico menciona AVCs/DPOC e não há outras razões aparentes para as crises epilépticas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'AVCs / DPOC' sugere uma condição relacionada a acidente vascular cerebral, mas o código CID-11 atribuído (8B25.4) refere-se a efeitos tardios de AVC desconhecido, o que não é diretamente relacionado à condição descrita no prontuário. Além disso, a descrição do código CID-11 se refere a efeitos tardios ocorrendo após 1 mês ou mais do início da doença, enquanto o contexto clínico não fornece essa informação. Portanto, é necessário remover o código CID-11 atribuído e reclassificar a condição de acordo com as diretrizes de auditoria.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB50.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7049,
+      "descricao_cid": "Representação de doença CID-11: Cisto sinovial do espaço poplíteo. Definição: Este é o edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho",
+      "classification_reasoning": "A escolha do código FB50.2 é porque o termo 'edema' está relacionado ao contexto de um paciente com pneumonia aspirativa e doença pulmonar, e a descrição da doença menciona edema em extremidade e região sacra e calcaneos com úlcera por pressão estadio II. Além disso, o código FB50.2 se refere ao edema benigno da bursa ou bolsa sinovial, localizado na região posterior do joelho, que é uma possível manifestação de edema em pacientes com doenças respiratórias.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'edema' no prontuário refere-se a uma condição clínica específica, relacionada à doença pulmonar e lesão tecidual, enquanto o código CID-11 FB50.2 se refere ao edema benigno da bursa ou bolsa sinovial localizado na região posterior do joelho. A escolha desse código não é clínica ou lógica para a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA40.07": {
+      "term_original": "pneumonia aspirativa",
+      "capitulo": "12",
+      "confidence_embedding": 0.762,
+      "descricao_cid": "Representação de doença CID-11: Pneumonia devida a Streptococcus pneumoniae. Definição: Doença do sistema pulmonar, causada por uma infecção pela bactéria Gram positiva Streptococcus pneumonia. É caracterizada por um início agudo de febre e calafrios, ou rigores. Pode também se apresentar com dor torácica, tosse produtiva, dispneia, taquipneia, hipóxia ou taquicardia. A transmissão ocorre por inalação de secreções respiratórias infectadas ou por contato indireto. A confirmação é feita pela identificação do Streptococcus pneumoniae em amostra de escarro.",
+      "classification_reasoning": "A escolha por CA40.07 (Pneumonia devida a Streptococcus pneumoniae) é baseada na sintomatologia descrita no prontuário, como broncoaspiração após alimentação e levada para XXXX, o que sugere uma resposta alérgica ao alimento, e a presença de pneumonia aspirativa. A presença de AVCs/DPOC também sugere uma possível infecção bacteriana.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CA40.07 (Pneumonia devida a Streptococcus pneumoniae) não é clínica e coerente com o prontuário, pois a paciente apresenta broncoaspiração após alimentação, sugerindo uma resposta alérgica ao alimento, e não há evidência de infecção bacteriana. Além disso, a presença de AVCs/DPOC também sugere outra possível causa da doença.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB50.0": {
+      "term_original": "ulcera por pressão estagio ii",
+      "capitulo": "15",
+      "confidence_embedding": 0.6899,
+      "descricao_cid": "Representação de doença CID-11: Bursite infecciosasa. Definição: Esta é uma inflamação de uma ou mais bursas (pequenas bolsas) sinoviais que geralmente resulta em dor e é causada por um agente infeccioso.",
+      "classification_reasoning": "A ulcera por pressão estagio II é um tipo de lesão provocada pela pressão constante e intensa sobre uma área específica do corpo, caracterizando-se pela presença de uma úlcera aberta ou cerrada. A Bursite infecciosa (FB50.0) também é uma inflamação de uma bursa sinovial que pode ser provocada por pressão constante e intensa sobre essa área, levando ao desenvolvimento de uma úlcera.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A ulcera por pressão estagio II não é uma bursite infecciosa (FB50.0). A ulcera por pressão é um tipo de lesão provocada pela pressão constante e intensa sobre uma área específica do corpo, enquanto a Bursite infecciosa é uma inflamação de uma ou mais bursas sinoviais. Embora ambas possam ser úlceras, elas são diferentes clinicamente e devem ter códigos CID-11 separados.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA22.0": {
+      "term_original": "hemorragia gastrointestinal",
+      "capitulo": "12",
+      "confidence_embedding": 0.7393,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A escolha pelo Código CA22.0 foi feita porque o termo 'hemorragia gastrointestinal' está relacionado à pneumonia aspirativa e à doença pulmonar obstrutiva crônica (DPOC), que é descrita na descrição do código. Além disso, a menção à diurese efetiva amarelo ouro sugere uma possibilidade de insuficiência respiratória aguda, o que também está relacionado ao Código CA22.0.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hemorragia gastrointestinal não está relacionada à pneumonia aspirativa e à doença pulmonar obstrutiva crônica (DPOC), que é descrita no código CA22.0. A hemorragia gastrointestinal é um sintoma que pode estar relacionado a várias condições clínicas, incluindo doenças gastrointestinais, e não está diretamente ligada à DPOC. Portanto, o código CID-11 CA22.0 não representa fielmente o termo 'hemorragia gastrointestinal' descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

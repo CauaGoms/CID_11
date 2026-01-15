@@ -1,0 +1,203 @@
+{
+  "prontuario_id": 108,
+  "text": "POS TX RENAL.\nPOS TX RENAL - CREATININA EM ELEVAÇÃO - 1,97 , COM NS FK 11.\nLINFOCITOS ATIPICOS NO HMG, EOSINOFILIA.\nHAS COMPENSADA.\n \n \nPOS TX RENAL - DEZ/2013.\nUSO DE: MTC 5, FK 1 / 2, MS 2 / 1, AMIODARONA 200, OMZ 40, AAS 200, LEVOID 125, ATNL 50 X2, FURO 40, MTF 850 X2, METAMUCIL , NPH 38 / 16 / 12, IR 12 /0 / 0, SVT 20\nS # FEZ RNM DE COLUNA, AGUARDA CONSULTA COM ORTOPEDIA (LESÃO L5-S1).\nMANTÉM EDEMA MMII.\n\nO # BEG, HIPOCORADA, HIDRATADA.\nPA 140/70.\nMV POSITIVO, SIMETRICO.\nBCRNF.\nABDOMEN GLOBOSO, FLACIDO, SEM MASSAS, RHA POSITIVOS.\nMEMBROS - EDEMA++/+4.",
+  "entities": {
+    "Abreviação": [
+      "HMG",
+      "MTC",
+      "FK",
+      "MS",
+      "OMZ",
+      "AAS",
+      "ATNL",
+      "FURO",
+      "MTF",
+      "IR",
+      "SVT",
+      "MMII",
+      "BEG",
+      "PA",
+      "BCRNF",
+      "TX RENAL",
+      "NS FK 11",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Procedimento Laboratorial": [
+      "HMG"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "FK",
+      "AMIODARONA",
+      "OMZ",
+      "AAS",
+      "LEVOID",
+      "ATNL",
+      "FURO",
+      "MTF",
+      "METAMUCIL",
+      "NPH",
+      "IR",
+      "SVT"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "FK",
+      "AMIODARONA",
+      "OMZ",
+      "AAS",
+      "ATNL",
+      "FURO",
+      "MTF",
+      "METAMUCIL"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "200",
+      "40",
+      "125",
+      "20",
+      "140/70",
+      "1 , 97",
+      "1 / 2",
+      "2 / 1",
+      "50 X2",
+      "850 X2",
+      "38 / 16 / 12",
+      "12 /0 / 0"
+    ],
+    "Hormônio": [
+      "NPH",
+      "IR"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "NPH",
+      "IR"
+    ],
+    "Sinal ou Sintoma": [
+      "EDEMA",
+      "HIPOCORADA",
+      "MASSAS"
+    ],
+    "Achado": [
+      "BEG",
+      "HIDRATADA",
+      "BCRNF",
+      "GLOBOSO",
+      "FLACIDO",
+      "EM ELEVAÇÃO",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "NS FK 11"
+    ],
+    "Célula": [
+      "LINFOCITOS ATIPICOS"
+    ],
+    "Doença ou Síndrome": [
+      "HAS COMPENSADA"
+    ],
+    "Procedimento Diagnóstico": [
+      "RNM DE COLUNA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "AGUARDA CONSULTA"
+    ],
+    "Lesão ou Envenenamento": [
+      "LESÃO L5-S1"
+    ]
+  },
+  "labels": {
+    "DA40.1": {
+      "term_original": "flacido",
+      "capitulo": "13",
+      "confidence_embedding": 0.6872,
+      "descricao_cid": "Representação de doença CID-11: Fístula gástrica adquirida. Definição: Fístula gástrica adquirida é uma comunicação através da parede gástrica com a cavidade peritoneal, ou com outro órgão e vasos que normalmente não se conectam, ou através da parede abdominal.",
+      "classification_reasoning": "A opção mais precisa para o termo 'flacido' é a Fístula gástrica adquirida (Código: DA40.1), pois essa condição pode caracterizar uma doença que afeta a parede abdominal e gástrica, podendo causar flacidez e edema.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 DA40.1 'Fístula gástrica adquirida' não é clinicamente coerente com o prontuário, pois a descrição do termo 'flacido' não está relacionada à doença de fístula gástrica adquirida. A flacidez descrita no prontuário pode ser uma consequência de outras condições clínicas, como edema ou doenças neuromusculares, e não é especificamente associada à fístula gástrica adquirida.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BD93": {
+      "term_original": "edema",
+      "capitulo": "11",
+      "confidence_embedding": 0.7166,
+      "descricao_cid": "Representação de doença CID-11: Linfedema. Definição: Edema devido ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Geralmente afeta as extremidades, mas pode envolver qualquer parte do corpo. É desfigurante e aumenta a suscetibilidade a infecções recorrentes e malignidades locais.",
+      "classification_reasoning": "A presença de edema na anatomia médica é compatível com a definição do linfedema, que é um tipo de edema causado pelo acúmulo excessivo de linfa nos tecidos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de edema na anatomia médica não é suficiente para justificar a classificação de linfedema (BD93) no CID-11. A definição do linfedema refere-se ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. No prontuário, não há informações que indiquem a presença de drenagem linfática inadequada ou acúmulo excessivo de linfa nos tecidos. A classificação de BD93 é muito específica e requer mais informações para justificar sua atribuição.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MG02": {
+      "term_original": "hipocorada",
+      "capitulo": "21",
+      "confidence_embedding": 0.714,
+      "descricao_cid": "Representação de doença CID-11: Resultados de estudos de função renal. Definição: ",
+      "classification_reasoning": "A opção MG02 - Resultados de estudos de função renal - é a mais precisa para o termo 'hipocorada' no contexto do prontuário, pois refere-se ao resultado de testes de função renal, que inclui a avaliação da creatinina em elevação (1,97). Além disso, a presença de proteinúria e edema é sugestiva de uma alteração na função renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'hipocorada' não se refere a resultados de estudos de função renal, mas sim é um sintoma cardiovascular. A opção MG02 - Resultados de estudos de função renal - não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA25": {
+      "term_original": "lesão l5-s1",
+      "capitulo": "15",
+      "confidence_embedding": 0.7147,
+      "descricao_cid": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato.",
+      "classification_reasoning": "A lesão L5-S1 mencionada no prontuário sugere uma lesão óssea vertebral, que pode estar relacionada à gota. A descrição da doença CID-11 para o código FA25 (Gota) inclui a possibilidade de deposição focal de urato na pele e tecido subcutâneo (gota tofácea), que pode ser associada à lesão óssea mencionada no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão L5-S1 mencionada no prontuário não está relacionada à gota, que é uma doença caracterizada pela deposição de cristais de urato em tecidos articulares. A lesão óssea vertebral descrita no prontuário não se encaixa na definição da gota CID-11 (FA25). Portanto, a codificação FA25 não representa fielmente o termo ou condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF56": {
+      "term_original": "em elevação",
+      "capitulo": "21",
+      "confidence_embedding": 0.7834,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A elevação da creatinina e a presença de dor renal (cólica) sugerem uma lesão renal, justificando a escolha do código MF56 para representar a cólica renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A elevação da creatinina e a presença de dor renal (cólica) não são suficientes para justificar a escolha do código MF56, que representa cólica renal. A descrição do código CID-11 refere-se especificamente à dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Nesse prontuário, não há indicação de cólica renal e a elevação da creatinina pode ser atribuída a outras causas. Portanto, o código MF56 não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DB34.4": {
+      "term_original": "globoso",
+      "capitulo": "13",
+      "confidence_embedding": 0.6841,
+      "descricao_cid": "Representação de doença CID-11: Úlcera retal hemorrágica aguda. Definição: Úlcera retal hemorrágica aguda é considerada como um transtorno isquêmico agudo da mucosa, que ocorre em pacientes idosos que sofrem de redução incipiente do fluxo sanguíneo devida a fatores arterioscleróticos. Estes pacientes estão frequentemente acamados, e isso causa uma diminuição no fluxo sanguíneo da mucosa do reto inferior, o que por sua vez desencadeia essa doença.",
+      "classification_reasoning": "A opção mais precisa é a Úlcera retal hemorrágica aguda (Código: DB34.4), pois o termo 'globoso' é comummente associado à inflamação e aumento de tecido na região retal, o que está presente na definição da Úlcera retal hemorrágica aguda.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'globoso' não está diretamente relacionado à Úlcera retal hemorrágica aguda, que é uma lesão específica da mucosa retal. A definição do código CID-11 DB34.4 se refere a uma doença isquêmica aguda da mucosa retal, e o termo 'globoso' não está presente nessa definição. Além disso, a descrição do prontuário não apresenta evidências de úlcera retal hemorrágica aguda.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BD71.2": {
+      "term_original": "mv positivo",
+      "capitulo": "11",
+      "confidence_embedding": 0.7017,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A presença de 'mv positivo' (membros com edema) no contexto clínico sugere uma possibilidade de trombose veia renal, o que é apoiado pelo código BD71.2.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'mv positivo' no prontuário não é suficiente para justificar a atribuição do código CID-11 BD71.2, que representa trombose da veia renal. A edema nos membros pode ser causada por várias razões, e a falta de informações adicionais sobre a patologia renal ou a presença de outros sintomas sugere que a relação entre 'mv positivo' e trombose da veia renal é puramente imaginária.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF54.2": {
+      "term_original": "has compensada",
+      "capitulo": "21",
+      "confidence_embedding": 0.7496,
+      "descricao_cid": "Representação de doença CID-11: Hipoplasia renal. Definição: Condição caracterizada por um rim menor em tamanho e peso do que a média (menos de 11 centímetros de comprimento, 5-7,5 centímetros de largura, 2,5 centímetros de espessura e pesando menos de 120 gramas).",
+      "classification_reasoning": "A descrição 'has compensada' sugere que a paciente tem uma doença renal crônica controlada, o que é compatível com hipoplasia renal (MF54.2), caracterizada por um rim menor em tamanho e peso do que a média.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição 'has compensada' não se refere a hipoplasia renal, mas sim à compensação de uma doença renal crônica. A codificação CID-11 MF54.2 não é clinicamente coerente com o prontuário, pois a hipoplasia renal é uma condição congênita ou adquirida que não se relaciona à compensação de uma doença renal crônica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

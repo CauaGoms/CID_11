@@ -1,0 +1,151 @@
+{
+  "prontuario_id": 553,
+  "text": "11:00 Horas. Paciente com história de fratura de TNZ E á 4 meses - retirada de fixador há 2 meses. Apresentando aumento de partes moles de MMII. Presença de eritema, secreção serosa e edema. Acordada, comunicativa, corada e hidratada. Eupnéica em ar ambiente. Sinais vitais estáveis. Deambulando com auxilio de bengala. Acesso venoso períferico salinizado. Relata cefaléia e dor tipo queimação em MMII. Realizada troca de curativo em MMII - presença de secreção serosa. Aceitando bem dieta oferecida. Diurese espontânea. Evacução ausente. AFECCOES DA PELE E DO TECIDO SUBCUTANEO NAO ESPECIFICADOS.",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "retirada"
+    ],
+    "Dispositivo Médico": [
+      "fixador",
+      "bengala",
+      "Acesso venoso períferico salinizado"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "fixador",
+      "dieta",
+      "troca de curativo"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MMII",
+      "PELE"
+    ],
+    "Abreviação": [
+      "MMII",
+      "fratura de TNZ E"
+    ],
+    "Sinal ou Sintoma": [
+      "eritema",
+      "edema",
+      "cefaléia",
+      "aumento de partes moles",
+      "secreção serosa",
+      "dor tipo queimação"
+    ],
+    "Achado": [
+      "Acordada",
+      "comunicativa",
+      "corada",
+      "hidratada",
+      "Eupnéica",
+      "Deambulando",
+      "Sinais vitais estáveis",
+      "Diurese espontânea"
+    ],
+    "Função de Organismo": [
+      "Evacução",
+      "Diurese espontânea"
+    ],
+    "Negação": [
+      "ausente",
+      "NAO"
+    ],
+    "Lesão ou Envenenamento": [
+      "fratura de TNZ E"
+    ],
+    "Substância Corporal": [
+      "secreção serosa"
+    ]
+  },
+  "labels": {
+    "6C48.2": {
+      "term_original": "comunicativa",
+      "capitulo": "06",
+      "confidence_embedding": 0.7657,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais.",
+      "classification_reasoning": "A presença de 'comunicativa' na descrição do paciente sugere que o termo está relacionado a uma condição clinicamente significativa, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. A definição da intoxicação por cafeína (6C48.2) apresenta sintomas como inquietação e agitação psicomotora, que podem estar relacionados à comunicação do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'comunicativa' no prontuário não está relacionada a uma condição clinicamente significativa caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. A definição da intoxicação por cafeína (6C48.2) apresenta sintomas como inquietação e agitação psicomotora, que não estão presentes no prontuário. Além disso, a paciente está descrita como 'acordada, comunicativa, corada e hidratada', o que sugere uma situação clínica normal, sem indicações de intoxicação por cafeína.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5B5A.0": {
+      "term_original": "dor tipo queimação",
+      "capitulo": "05",
+      "confidence_embedding": 0.8133,
+      "descricao_cid": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina.",
+      "classification_reasoning": "O termo 'dor tipo queimação' apresenta características semelhantes às do beribéri (doença CID-11: Beribéri), que é caracterizado por dor tipo queimação e outros sintomas. Além disso, o paciente tem uma história de fratura de TNZ E á 4 meses - retirada de fixador há 2 meses, o que aumenta a possibilidade da doença relacionada à deficiência de tiamina.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor tipo queimação pode ser um sintoma comum em várias doenças, e não há evidência clínica suficiente no prontuário para justificar a classificação de Beribéri. Além disso, a história de fratura de TNZ E á 4 meses - retirada de fixador há 2 meses sugere uma lesão óssea recente, que não está relacionada à deficiência de tiamina.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "FB50.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7567,
+      "descricao_cid": "Representação de doença CID-11: Cisto sinovial do espaço poplíteo. Definição: Este é o edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho",
+      "classification_reasoning": "A opção mais precisa para o termo 'edema' é Cisto sinovial do espaço poplíteo (FB50.2) porque o prontuário menciona aumento de partes moles em MMII e presença de edema, o que sugere um tipo de lesão benigna na bursa ou bolsa sinovial localizada na região posterior do joelho.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'edema' não é Cisto sinovial do espaço poplíteo (FB50.2) porque o prontuário menciona aumento de partes moles em MMII e presença de edema, o que sugere uma lesão benigna na bursa ou bolsa sinovial localizada na região posterior do joelho. No entanto, a descrição do código CID-11 (FB50.2) refere-se especificamente ao edema benigno da bursa ou bolsa semimembranosa ou de alguma outra bursa ou bolsa sinovial localizada na região posterior do joelho, o que não se ajusta à descrição clínica apresentada no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA27.2": {
+      "term_original": "deambulando",
+      "capitulo": "15",
+      "confidence_embedding": 0.7359,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A opção mais precisa é a Reumatismo palindrômico (FA27.2) porque o termo 'deambulando' sugere mobilidade e dor articulares, características comuns do reumatismo palindrômico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FA27.2 (Reumatismo palindrômico) não é clinicamente coerente com o prontuário, pois a descrição do termo 'deambulando' não se refere à doença descrita. A paciente apresenta fratura de TNZ e aumento de partes moles em MMII, além de eritema, secreção serosa e edema, características que sugerem uma lesão localizada e não um reumatismo palindrômico.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "EB31": {
+      "term_original": "eritema",
+      "capitulo": "14",
+      "confidence_embedding": 0.8402,
+      "descricao_cid": "Representação de doença CID-11: Eritema nodoso. Definição: Erupção eritematosa comumente associada a reações a medicamentos ou infecção e caracterizada por nódulos inflamatórios que geralmente são dolorosos, múltiplos e bilaterais. Esses nódulos localizam-se predominantemente na face anterior das pernas, com ocorrência menos comum nas coxas e antebraços. Eles sofrem mudanças de cor características que terminam em áreas temporárias semelhantes a hematomas. Esta condição geralmente desaparece em 3-6 semanas sem cicatriz ou atrofia.",
+      "classification_reasoning": "A descrição do termo 'eritema' como representação de doença CID-11: Eritema nodoso, com características como erupção eritematosa com nódulos inflamatórios dolorosos e múltiplos, é mais precisa para a presença de eritema no contexto clínico",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'eritema' como representação de doença CID-11: Eritema nodoso não é precisa para a presença de eritema no contexto clínico. O prontuário descreve eritema como uma manifestação localizada, enquanto o código CID-11 descreve Eritema nodoso como uma condição caracterizada por nódulos inflamatórios dolorosos e múltiplos. A presença de eritema no prontuário não se ajusta à definição do código CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD54": {
+      "term_original": "eupnéica",
+      "capitulo": "11",
+      "confidence_embedding": 0.824,
+      "descricao_cid": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos.",
+      "classification_reasoning": "A palavra 'eupnéica' refere-se à presença de respiração normal e regular, o que é compatível com a definição de úlceras de pé diabético. Além disso, a paciente está acordada, comunicativa e hidratada, o que também é consistente com a história clínica de uma paciente com fratura de TNZ e retirada de fixador há 2 meses.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'eupnéica' refere-se à presença de respiração normal e regular, o que não está relacionado com a fratura de TNZ ou úlceras de pé diabético. Ajustar o código CID-11 para uma representação mais precisa da condição clínica do paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA26.1": {
+      "term_original": "fratura de tnz e",
+      "capitulo": "15",
+      "confidence_embedding": 0.7199,
+      "descricao_cid": "Representação de doença CID-11: Doença por deposição de hidroxiapatita. Definição: A doença por deposição de cristais de hidroxiapatita de cálcio é caracterizada pela presença de cristais de fosfato de cálcio básico - predominantemente hidroxiapatita - em tecidos moles periarticulares, especialmente os tendões. Essa entidade é melhor reconhecida como \"tendinite calcificada\" no local mais frequente de acometimento no ombro, mas manifesta-se em vários outros locais, com a denominação mais adequada de periartrite calcificada.",
+      "classification_reasoning": "A opção mais precisa para o termo 'fratura de TNZ e' é a Doença por deposição de hidroxiapatita (FA26.1), pois a fratura de TNZ mencionada no contexto clínico sugere uma lesão óssea na região da tíbia, e a descrição da doença associada à depósito de cristais de fosfato de cálcio básico - hidroxiapatita - em tecidos moles periarticulares, especialmente os tendões.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fratura de TNZ e não é uma doença por deposição de hidroxiapatita (FA26.1). A fratura é um tipo de lesão óssea, enquanto a doença por deposição de hidroxiapatita é uma entidade clínica caracterizada pela presença de cristais de fosfato de cálcio básico - hidroxiapatita - em tecidos moles periarticulares. A opção FA26.1 não representa fielmente o termo 'fratura de TNZ e' no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB56.0": {
+      "term_original": "aumento de partes moles",
+      "capitulo": "15",
+      "confidence_embedding": 0.7439,
+      "descricao_cid": "Representação de doença CID-11: Granuloma de corpo estranho no tecido mole, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A presença de aumento de partes moles e características descritas, como eritema, secreção serosa e edema, são consistentes com a hipótese de uma reação inflamatória ou resposta ao trauma em tecidos moles, o que justifica a escolha do código FB56.0.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de aumento de partes moles não é suficiente para justificar a escolha do código FB56.0, que se refere especificamente a granuloma de corpo estranho em tecido mole. A descrição do prontuário não apresenta características específicas que indiquem a presença de um corpo estranho, apenas uma reação inflamatória ou resposta ao trauma em tecidos moles.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "EB51": {
+      "term_original": "secreção serosa",
+      "capitulo": "14",
+      "confidence_embedding": 0.8027,
+      "descricao_cid": "Representação de doença CID-11: Lúpus eritematoso cutâneo crônico. Definição: Lúpus eritematoso cutâneo crônico (LECC) é caracterizado pela presença de placas cutâneas circunscritas apresentando graus variados de edema, eritema, descamação, tamponamento e atrofia folicular. Apresenta-se mais comumente como placas discoides envolvendo face, orelhas e couro cabeludo, mas pode ser amplamente disseminada ou acometer predominantemente extremidades (lúpus Chilblain) ou a gordura subcutânea (paniculite lúpica). Pode causar desfiguração acentuada com cicatrizes faciais proeminentes e perda de cabelo permanente. A maioria dos pacientes permanece com boa saúde, mas 5-10% podem desenvolver lúpus eritematoso sistêmico. A fotossensibilidade é menos evidente do que no lúpus eritematoso cutâneo subagudo.",
+      "classification_reasoning": "A presença de secreção serosa e edema em MMII, associada à história de fratura e retirada de fixador há 2 meses, sugere uma resposta inflamatória crônica na área da lesão. O lúpus eritematoso cutâneo crônico (LECC) é um diagnóstico provável considerando a presença de secreção serosa e edema associados à dor tipo queimação em MMII.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de secreção serosa e edema em MMII não é suficiente para diagnosticar Lúpus eritematoso cutâneo crônico (LECC). A condição descrita no prontuário parece mais relacionada a uma resposta inflamatória crônica após fratura, do que um diagnóstico de LECC. Portanto, o código CID-11 EB51 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

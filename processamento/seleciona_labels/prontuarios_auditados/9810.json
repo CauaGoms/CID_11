@@ -1,0 +1,229 @@
+{
+  "prontuario_id": 990,
+  "text": "05/06/2012 às 16:30h. Vítima de atropelamento, trauma torácico, Fx de pelve em livro aberto e Fx exposta de MID.  Recebido do CC às 14:30h.  POI de toracostomia com drenagem pleural fechada, correção de fratura de pelve e MID. Ramsay 06, pupilas isomióticas. SNG aberta sem débito. Entubada, TOT em rima labial de 24cm, em VM modalidade CMV, VC 520ml, FiO2 60%, Peep 5. Acesso venoso em subclávia e com infusão de noradrenalina 100 ml/h, vasopressina 12 ml/h + dopamina 35 ml/h + insulina 10 ml/h. Acesso venoso em MSD com infusão de dormonid 15 ml/h + fentanil 20 ml/h. PAM em radial D pérvia. CPP com rocnos esparsos. Dreno de tórax D com débito hemático. SVD com débito colúrico. Presença de fixador externo em pelve em MID. Extremidades aquecidas, perfusão periférica adequada, sem edemas.   # Recebeu 03 U de CH na chagada a UTI. Enfermeira Florence Nightingale. CHOQUE HIPOVOLEMICO.",
+  "entities": {
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MID",
+      "pelve",
+      "pupilas",
+      "subclávia",
+      "MSD",
+      "radial D"
+    ],
+    "Abreviação": [
+      "MID",
+      "CC",
+      "POI",
+      "TOT",
+      "VM",
+      "VC",
+      "FiO2",
+      "Peep",
+      "MSD",
+      "PAM",
+      "CPP",
+      "SVD",
+      "CH",
+      "UTI",
+      "Fx de pelve em livro aberto",
+      "Fx exposta",
+      "SNG aberta",
+      "radial D"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Recebido",
+      "infusão",
+      "Recebeu"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CC",
+      "UTI"
+    ],
+    "Conceito Temporal": [
+      "POI"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Função de Organismo": [
+      "débito"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Entubada",
+      "TOT",
+      "VM",
+      "CMV",
+      "infusão",
+      "SVD",
+      "toracostomia com drenagem pleural fechada",
+      "correção de fratura",
+      "SNG aberta",
+      "Acesso venoso",
+      "fixador externo"
+    ],
+    "Dispositivo Médico": [
+      "TOT",
+      "SVD",
+      "SNG aberta",
+      "Acesso venoso",
+      "fixador externo"
+    ],
+    "Conceito Quantitativo": [
+      "24cm",
+      "520ml",
+      "60%",
+      "5",
+      "100 ml/h",
+      "12 ml/h",
+      "35 ml/h",
+      "10 ml/h",
+      "15 ml/h",
+      "20 ml/h",
+      "03 U"
+    ],
+    "Atributo Clínico": [
+      "VC",
+      "FiO2",
+      "Peep"
+    ],
+    "Substância Farmacológica": [
+      "noradrenalina",
+      "vasopressina",
+      "dopamina",
+      "insulina",
+      "dormonid",
+      "fentanil"
+    ],
+    "Substância Química Orgânica": [
+      "noradrenalina",
+      "dopamina",
+      "dormonid",
+      "fentanil"
+    ],
+    "Hormônio": [
+      "noradrenalina",
+      "vasopressina",
+      "insulina"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "vasopressina",
+      "insulina"
+    ],
+    "Substância Biologicamente Ativa": [
+      "dopamina"
+    ],
+    "Procedimento Diagnóstico": [
+      "PAM"
+    ],
+    "Conceito Qualitativo": [
+      "pérvia"
+    ],
+    "Sinal ou Sintoma": [
+      "edemas",
+      "Ramsay 06",
+      "rocnos esparsos",
+      "débito hemático",
+      "débito colúrico"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Achado": [
+      "Vítima de atropelamento",
+      "Extremidades aquecidas",
+      "perfusão periférica adequada"
+    ],
+    "Lesão ou Envenenamento": [
+      "trauma torácico",
+      "Fx exposta"
+    ],
+    "Localização ou Região Corporal": [
+      "rima labial"
+    ],
+    "Doença ou Síndrome": [
+      "CHOQUE HIPOVOLEMICO"
+    ]
+  },
+  "labels": {
+    "CB26": {
+      "term_original": "débito colúrico",
+      "capitulo": "12",
+      "confidence_embedding": 0.8066,
+      "descricao_cid": "Representação de doença CID-11: Hemotórax. Definição: Hemotórax é a presença de sangue com ou sem ar no espaço pleural. A causa mais comum é o traumatismo torácico. O hemotórax deve ser considerado presente quando o hematócrito do líquido pleural for maior que a metade do do sangue periférico. Numerosas localizações de sangramento podem ser responsáveis pelo hemotórax, incluindo laceração pulmonar, laceração de vaso intercostal e ruptura de adesão pleural.",
+      "classification_reasoning": "A presença de 'débito colúrico' no prontuário sugere a existência de hemotórax, o que justifica a escolha do código CB26 (Hemotórax).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'débito colúrico' no prontuário não é suficiente para justificar a escolha do código CB26 (Hemotórax). O termo 'débito colúrico' pode se referir a uma variedade de condições, incluindo hematuria ou hemoptise, e não necessariamente implica a presença de sangue no espaço pleural. Além disso, a descrição do código CID-11 para Hemotórax não menciona débito colúrico como um sintoma característico da condição.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BA60.9": {
+      "term_original": "choque hipovolemico",
+      "capitulo": "11",
+      "confidence_embedding": 0.7405,
+      "descricao_cid": "Representação de doença CID-11: Choque cardiogênico, não relacionado a complicações mecânicas, como complicação atual subsequente a infarto agudo do miocárdio. Definição: A expressão clínica mais grave da insuficiência ventricular esquerda e está associada a extensos danos ao miocárdio ventricular esquerdo após infarto agudo do miocárdio, não relacionado a um defeito mecânico como ruptura do septo ventricular ou do músculo papilar. Choque é definido como pressão arterial (PA) sistólica <90 mmHg e hipoperfusão de órgãos.",
+      "classification_reasoning": "A vítima apresenta sintomas de choque, com pressão arterial sistólica não mencionada no relatório, mas com diagnóstico de trauma torácico e fraturas de pelve e MID. Além disso, há infusão de vasopressores e inotrópicos, o que sugere um quadro de choque hipovolêmico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'choque hipovolemico' não se refere a um choque cardiogênico, como definido pelo código CID-11 BA60.9. O prontuário descreve uma vítima com trauma torácico e fraturas de pelve e MID, recebendo tratamento com vasopressores e inotrópicos. Embora haja sintomas de choque, o diagnóstico não se encaixa no conceito de choque cardiogênico descrito pelo código CID-11. Portanto, a codificação é inválida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA80.4": {
+      "term_original": "edemas",
+      "capitulo": "15",
+      "confidence_embedding": 0.7413,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção FA80.4 se refere à degeneração de disco intervertebral da coluna torácica sem prolapso de disco, o que não é diretamente relacionado ao termo 'edemas' no contexto do prontuário. A escolha de FA80.4 é considerada a mais precisa para o termo extraído 'edemas', pois não há evidência clínica da presença de edemas nas informações fornecidas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FA80.4 não está diretamente relacionada ao termo 'edemas' no prontuário. A degeneração de disco intervertebral da coluna torácica sem prolapso de disco não é uma condição clínica que esteja relacionada à presença de edemas. O código CID-11 atribuído não representa fielmente o termo ou a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MD30.0": {
+      "term_original": "rocnos esparsos",
+      "capitulo": "21",
+      "confidence_embedding": 0.6945,
+      "descricao_cid": "Representação de doença CID-11: Dor torácica ao respirar. Definição: A dor torácica pleurítica é um tipo de dor causada por problemas com as finas camadas de tecido que revestem os pulmões (chamadas de pleura). Esse tipo de dor é sentido como uma dor no peito aguda em pontada, e que piora com a inspiração. A dor torácica pleurítica pode ser causada pelos seguintes problemas: pneumotórax, derrame pleural, pleurite, empiema, pericardite.",
+      "classification_reasoning": "A presença de 'rocnos esparsos' no contexto clínico sugere uma dor torácica pleurítica, que é caracterizada por um tipo de dor aguda e pontada sentido no peito, especialmente com a inspiração.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor torácica pleurítica descrita na definição do código CID-11 MD30.0 é caracterizada por uma dor aguda e pontada sentido no peito, especialmente com a inspiração. No entanto, o termo 'rocnos esparsos' não se refere à dor torácica pleurítica, mas sim ao achado de lesões cutâneas em um paciente com trauma torácico e fraturas de pelve e MID. Portanto, o código CID-11 MD30.0 não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NB90.7": {
+      "term_original": "fx exposta",
+      "capitulo": "22",
+      "confidence_embedding": 0.7466,
+      "descricao_cid": "Representação de doença CID-11: Lesão de múltiplos vasos sanguíneos ao nível do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NB90.7, pois o termo 'fx exposta' se refere a uma lesão aberta de múltiplos vasos sanguíneos ao nível do abdome, região lombar ou pelve, o que é consistente com a descrição da lesão de MID mencionada no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'fx exposta' se refere a uma lesão aberta de múltiplos vasos sanguíneos ao nível do abdome, região lombar ou pelve. No entanto, o prontuário descreve uma fratura exposta de MID (ossa da pélvis), que não é consistente com a descrição do código CID-11 NB90.7. A lesão descrita no prontuário é mais específica e não se encaixa na definição do código CID-11.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "MG30.2": {
+      "term_original": "ramsay 06",
+      "capitulo": "21",
+      "confidence_embedding": 0.7285,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "O termo 'Ramsay 06' refere-se ao escala de dor utilizado no contexto do prontuário, que é a Escala de Dor de Ramsay, utilizada para avaliar a gravidade da dor em pacientes com trauma e lesões. A escolha do código MG30.2 (Dor crônica pós-operatória ou pós-traumática) é a mais precisa, pois a Escala de Ramsay é frequentemente utilizada para avaliar a dor após um procedimento cirúrgico ou traumatismo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A Escala de Ramsay é uma ferramenta utilizada para avaliar a gravidade da dor, não uma condição clínica em si. Portanto, o código CID-11 MG30.2 (Dor crônica pós-operatória ou pós-traumática) não representa fielmente o termo 'Ramsay 06' no prontuário. A escolha do código é demasiado específica e não captura a natureza da Escala de Ramsay como uma ferramenta para avaliar a dor, em vez de uma condição clínica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ND34": {
+      "term_original": "trauma torácico",
+      "capitulo": "22",
+      "confidence_embedding": 0.7964,
+      "descricao_cid": "Representação de doença CID-11: Traumatismos por esmagamento envolvendo múltiplas regiões do corpo. Definição: ",
+      "classification_reasoning": "Escolhi o código ND34 porque o paciente apresenta trauma torácico, fratura de pelve em livro aberto e fratura exposta de MID, o que sugere um traumatismo múltiplo envolvendo regiões do corpo. Além disso, a presença de dano infligido aos tecidos do tórax apoia essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código ND34 é muito genérica e não representa fielmente o termo 'trauma torácico' descrito no prontuário. O paciente apresenta lesões múltiplas, incluindo trauma torácico, fratura de pelve em livro aberto e fratura exposta de MID, mas o código ND34 não captura a especificidade do trauma torácico como uma lesão isolada.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "PE52": {
+      "term_original": "vítima de atropelamento",
+      "capitulo": "23",
+      "confidence_embedding": 0.736,
+      "descricao_cid": "Representação de doença CID-11: Agressão por traumatismo sem afogamento enquanto o corpo na água. Definição: ",
+      "classification_reasoning": "A vítima foi atropelada, o que caracteriza uma agressão por traumatismo sem afogamento enquanto o corpo estava na água. Isso justifica a escolha do código PE52.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A vítima foi atropelada, o que caracteriza um trauma por impacto, não uma agressão por traumatismo sem afogamento enquanto o corpo estava na água. A escolha do código PE52 não é clínica ou lógica para essa situação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

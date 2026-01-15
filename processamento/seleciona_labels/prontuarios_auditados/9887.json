@@ -1,0 +1,116 @@
+{
+  "prontuario_id": 166,
+  "text": "# VEM APRA AVALIAÇÃO DA RETINA\n# REFERE LASER OD HÁ 2 ANOS\n# BAV OE HÁ 9 MESES\n# RDP AO FOTOCOAGULADA\nECOGRAFIA 27/8/14 OE\nDAP NORMAL // CAVIDADE VITREA PREENCHIDA POR ECOS DEW ALTA REFLETIVIDADE, FORMANDO MEMBRANAS CONTINUAS POUCO MOVEIS, FORMANDO IMAGGEM SUSGESTIVA DE Doutor Vital Brazil , CORÓIDE APARENTEMENTE EM POSIÇAO.\nAVSC\nOD 20/40\nOE MM\nMR\nOD RPD FOTOCOAGULADA, COM HV HV ANTIGOINFERIOR, BOAS AMRCAS DE LASER\nOE OPACIFICAÇÃO VITREA, PROVAVEL HV ANTIGO\nPIO\nOD 15\nOE 16\nBIO\nOD CATARATA\nOE CATARATA\nCD: SOLICITO PRE OP, VVPP DE OE.\nORIENTO SOB RISCOS DA CIRURGIA, DESEJA OPERAR\nRETORNO EM 26/11/2014 COM EXAMES\nR2 Doutor Vital Brazil ",
+  "entities": {
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "RETINA",
+      "OD",
+      "OE",
+      "AO",
+      "CORÓIDE"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "LASER",
+      "FOTOCOAGULADA",
+      "VVPP",
+      "CIRURGIA",
+      "OPERAR"
+    ],
+    "Abreviação": [
+      "OD",
+      "BAV",
+      "OE",
+      "RDP",
+      "AO",
+      "AVSC",
+      "MM",
+      "MR",
+      "RPD",
+      "HV",
+      "PIO",
+      "BIO",
+      "CD",
+      "VVPP",
+      "R2",
+      "PRE OP"
+    ],
+    "Sinal ou Sintoma": [
+      "BAV",
+      "20/40",
+      "HV",
+      "OPACIFICAÇÃO VITREA"
+    ],
+    "Doença ou Síndrome": [
+      "RDP",
+      "RPD",
+      "HV",
+      "CATARATA"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECOGRAFIA",
+      "AVSC",
+      "PIO",
+      "BIO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Doutor",
+      "R2"
+    ],
+    "Conceito Espacial": [
+      "ANTIGOINFERIOR"
+    ],
+    "Conceito Quantitativo": [
+      "15",
+      "16"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CD",
+      "SOLICITO",
+      "ORIENTO",
+      "RETORNO"
+    ],
+    "Procedimento Laboratorial": [
+      "EXAMES"
+    ],
+    "Conceito Temporal": [
+      "HÁ 2 ANOS",
+      "HÁ 9 MESES"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CAVIDADE VITREA PREENCHIDA POR ECOS DEW ALTA REFLETIVIDADE",
+      "MEMBRANAS CONTINUAS POUCO MOVEIS"
+    ]
+  },
+  "labels": {
+    "9B73.3": {
+      "term_original": "rpd",
+      "capitulo": "09",
+      "confidence_embedding": 0.8236,
+      "descricao_cid": "Representação de doença CID-11: Descolamento seroso da retina. Definição: Isso ocorre devido a inflamação, lesão ou anormalidades vasculares que resultam no acúmulo de líquido sob a retina sem a presença de um orifício, ruptura ou quebra.",
+      "classification_reasoning": "A opção mais precisa para o termo 'RDP' é a degeneração serosa da retina, que pode estar relacionada à fotocoagulação realizada há dois anos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'RDP' não é a degeneração serosa da retina, mas sim a Representação de doença (Retinopatia Diabética Proliferativa), que é claramente descrita no prontuário como uma condição relacionada à fotocoagulação realizada há dois anos. A codificação CID-11 9B73.3 não representa fielmente o termo ou a condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9B10.02": {
+      "term_original": "catarata",
+      "capitulo": "09",
+      "confidence_embedding": 0.8197,
+      "descricao_cid": "Representação de doença CID-11: Catarata relacionada à idade madura. Definição: Trata-se da turvação do cristalino, relacionado à idade madura, que leva a uma diminuição da visão. É a causa mais comum de cegueira e é tratada convencionalmente com cirurgia. Perda visual ocorre porque a opacificação do cristalino obstrui a passagem da luz e prejudica seu foco na retina no fundo do olho.",
+      "classification_reasoning": "A escolha foi feita porque o termo 'catarata' está relacionado à doença cataracata, que é uma condição comum em pessoas idosas e provoca turvação do cristalino, levando a perda visual. Isso está de acordo com a definição da catarata relacionada à idade madura (9B10.02)",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A catarata descrita no prontuário é uma condição específica que afeta o cristalino do olho, enquanto o código CID-11 (9B10.02) refere-se à catarata relacionada à idade madura. Embora a catarata seja mencionada, não há evidência clínica suficiente para justificar a atribuição desse código. Além disso, a definição do código CID-11 se refere à perda visual causada pela opacificação do cristalino, o que não é diretamente relacionado ao caso descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9B78.9": {
+      "term_original": "opacificação vitrea",
+      "capitulo": "09",
+      "confidence_embedding": 0.8079,
+      "descricao_cid": "Representação de doença CID-11: Atrofia retiniana. Definição: Grupo de doenças genéticas e que se caracteriza pela degeneração bilateral da retina, causando perda progressiva da visão culminando em cegueira.",
+      "classification_reasoning": "A opacificação vitrea descrita no prontuário refere-se à atrofia retiniana, doença caracterizada pela degeneração bilateral da retina, causando perda progressiva da visão culminando em cegueira.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opacificação vitrea descrita no prontuário não se refere à atrofia retiniana, doença caracterizada pela degeneração bilateral da retina. A opacificação vitrea é um termo que descreve a formação de membranas contínuas na cavidade vitreana, o que não está relacionado à perda progressiva da visão culminando em cegueira. Portanto, o código CID-11 atribuído (9B78.9) não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

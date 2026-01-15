@@ -1,0 +1,135 @@
+{
+  "prontuario_id": 630,
+  "text": "TX RENAL.\n\nMTC 5, FK 1 / 2, MS 2 / 1, AMIODARIONA 200, OMZ 40, AAS 200, LEVOID 125, FSD 40, NPH 50 / 26 / 12 E R 12 NO ALMOÇO.\n\nS: LOMBALGIA.\n\nO: PA 140/80,  P 78,  AFEBRIL,  \nEX SEGMENTAR INALTERADO.\n\nTX RENAL COM CR 1,02,\nDM DESCOMPENSADO,\nHAS COMPENSADO,\nHIPOTIREOIDISMO COMPENSADO,\nHERNIA DISCO.\n \n \n ",
+  "entities": {
+    "Substância Farmacológica": [
+      "MTC",
+      "FK",
+      "MS",
+      "AMIODARIONA",
+      "OMZ",
+      "AAS",
+      "LEVOID",
+      "FSD",
+      "NPH",
+      "R"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "FK",
+      "MS",
+      "AMIODARIONA",
+      "OMZ",
+      "AAS",
+      "FSD"
+    ],
+    "Abreviação": [
+      "MTC",
+      "FK",
+      "MS",
+      "OMZ",
+      "AAS",
+      "FSD",
+      "NPH",
+      "R",
+      "PA",
+      "P",
+      "TX RENAL",
+      "EX SEGMENTAR",
+      "CR 1 , 02",
+      "DM DESCOMPENSADO",
+      "HAS COMPENSADO"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "200",
+      "40",
+      "125",
+      "12",
+      "140/80",
+      "78",
+      "1 / 2",
+      "2 / 1",
+      "50 / 26 / 12"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "NPH"
+    ],
+    "Hormônio": [
+      "NPH",
+      "R"
+    ],
+    "Sinal ou Sintoma": [
+      "LOMBALGIA",
+      "AFEBRIL"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P"
+    ],
+    "Negação": [
+      "AFEBRIL"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Conceito Temporal": [
+      "NO ALMOÇO"
+    ],
+    "Procedimento Diagnóstico": [
+      "EX SEGMENTAR"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "EX SEGMENTAR",
+      "CR 1 , 02"
+    ],
+    "Doença ou Síndrome": [
+      "DM DESCOMPENSADO",
+      "HAS COMPENSADO",
+      "HIPOTIREOIDISMO COMPENSADO",
+      "HERNIA DISCO"
+    ]
+  },
+  "labels": {
+    "FA80.8": {
+      "term_original": "lombalgia",
+      "capitulo": "15",
+      "confidence_embedding": 0.7007,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A lombalgia mencionada no sintoma (S) do paciente está relacionada à degeneração de disco intervertebral da coluna lombar sem prolapso de disco, o que é descrito pelo código FA80.8.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A lombalgia descrita no sintoma (S) do paciente está diretamente relacionada à degeneração de disco intervertebral da coluna lombar sem prolapso de disco, o que é descrito pelo código FA80.8. A codificação CID-11 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BC43.0": {
+      "term_original": "has compensado",
+      "capitulo": "11",
+      "confidence_embedding": 0.7104,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida.",
+      "classification_reasoning": "A expressão 'has compensado' sugere que o paciente está com cardiomiopatia dilatada, pois a palavra 'compensado' é frequentemente usada em pacientes cardíacos para descrever a habilidade do coração de manter uma função normal apesar das lesões. Além disso, a presença da doença renal e hipertensiva (TX RENAL COM CR 1,02) também está relacionada à cardiomiopatia dilatada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A expressão 'has compensado' não é uma condição cardíaca direta, mas sim um termo que descreve o estado de compensação da doença renal. A cardiomiopatia dilatada não está relacionada à doença renal e hipertensiva descrita no prontuário. Portanto, a codificação CID-11 BC43.0 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA02": {
+      "term_original": "dm descompensado",
+      "capitulo": "11",
+      "confidence_embedding": 0.7628,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica, e a presença do termo 'DM DESCOMPENSADO' no prontuário indica que há uma doença renal hipertensiva descompensada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A doença renal hipertensiva (BA02) é uma condição médica que se refere a danos ao rim devido à hipertensão crônica. No entanto, o termo 'DM DESCOMPENSADO' no prontuário sugere que há uma insuficiência renal diabética descompensada, que não é diretamente relacionada à doença renal hipertensiva. Portanto, a codificação CID-11 BA02 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "5A00.20": {
+      "term_original": "hipotireoidismo compensado",
+      "capitulo": "05",
+      "confidence_embedding": 0.7574,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo devido a medicamentos ou outras substâncias exógenas. Definição: Condição causada por uma hipofunção da tireoide devido a medicamentos ou outras substâncias exógenas. Essa condição pode se apresentar com fadiga, aumento da sensibilidade ao frio, constipação, pele seca, ganho de peso, fraqueza e dor muscular, aumento de colesterol, dores ou inchaços nas articulações, períodos menstruais mais intensos ou irregulares, enfraquecimento do cabelo, depressão e memória deficiente.",
+      "classification_reasoning": "A hipotireoidismo compensado é uma condição causada por uma disfunção tireoideana devido a medicamentos ou outras substâncias exógenas, como amiodarona, utilizada no tratamento do paciente (TX RENAL COM CR 1,02), o que justifica a escolha desse código.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hipotireoidismo compensado é uma condição causada por uma disfunção tireoideana devido a medicamentos ou outras substâncias exógenas, como amiodarona. No prontuário, há a menção da utilização de amiodarona no tratamento do paciente (TX RENAL COM CR 1,02), o que justifica a escolha desse código. A codificação CID-11 '5A00.20' representa fielmente a condição clínica descrita no prontuário e não há contradição óbvia ou associação puramente imaginária.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

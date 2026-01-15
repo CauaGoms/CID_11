@@ -1,0 +1,194 @@
+{
+  "prontuario_id": 191,
+  "text": "08:40hs- Glasgow 3, pupilas isomióticas, incisão cirúrgica cefálica limpa e seca, SNE com dieta a 75ml/h, traqueostmizado, em ventilação mecânica modo VCV, Vc 460ml, PEEP 10, FiO2 60%, secreção traqueobrônquica amarela em média quantidade, acesso venoso central E com Fentanil 2,5ml/h + Noradrenalina 4ml/h, monitorizado, estável hemodinamicamente, MV+ com roncos difusos, PAM em radial D, MMSS edemaciados +++/4, abdome pouco distendido, flácido, RHA+, SVD com diurese efetiva, evacuação ausente, úlcera sacra grau II, úlcera grau II em calcâneos, extremidades bem perfundidas, higienizado e mobilizado no leito. Enfermeira Florence Nightingale.  OUTROS TRAUMATISMOS INTRACRANIANOS.",
+  "entities": {
+    "Conceito Qualitativo": [
+      "limpa",
+      "seca"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SNE",
+      "traqueostmizado",
+      "SVD",
+      "incisão cirúrgica cefálica",
+      "com dieta",
+      "ventilação mecânica",
+      "acesso venoso central",
+      "mobilizado no leito"
+    ],
+    "Abreviação": [
+      "SNE",
+      "Vc",
+      "PEEP",
+      "FiO2",
+      "E",
+      "MV+",
+      "PAM",
+      "MMSS",
+      "RHA+",
+      "SVD",
+      "modo VCV",
+      "radial D"
+    ],
+    "Dispositivo Médico": [
+      "SNE",
+      "SVD",
+      "acesso venoso central"
+    ],
+    "Conceito Quantitativo": [
+      "75ml/h",
+      "460ml",
+      "10",
+      "60%",
+      "4ml/h",
+      "média quantidade",
+      "2 , 5ml/h"
+    ],
+    "Atributo Clínico": [
+      "Vc",
+      "PEEP",
+      "FiO2"
+    ],
+    "Conceito Espacial": [
+      "E"
+    ],
+    "Substância Farmacológica": [
+      "Fentanil",
+      "Noradrenalina"
+    ],
+    "Substância Química Orgânica": [
+      "Fentanil",
+      "Noradrenalina"
+    ],
+    "Hormônio": [
+      "Noradrenalina"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "monitorizado"
+    ],
+    "Achado": [
+      "MV+",
+      "flácido",
+      "RHA+",
+      "higienizado",
+      "pupilas isomióticas",
+      "estável hemodinamicamente",
+      "diurese efetiva",
+      "extremidades bem perfundidas",
+      "mobilizado no leito"
+    ],
+    "Procedimento Diagnóstico": [
+      "PAM"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MMSS",
+      "abdome",
+      "calcâneos",
+      "radial D"
+    ],
+    "Sinal ou Sintoma": [
+      "edemaciados",
+      "Glasgow 3",
+      "secreção traqueobrônquica amarela",
+      "roncos difusos",
+      "pouco distendido"
+    ],
+    "Função de Organismo": [
+      "evacuação",
+      "diurese efetiva"
+    ],
+    "Negação": [
+      "ausente"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Doença ou Síndrome": [
+      "úlcera sacra grau II",
+      "úlcera grau II",
+      "TRAUMATISMOS INTRACRANIANOS"
+    ]
+  },
+  "labels": {
+    "8A64": {
+      "term_original": "mv+",
+      "capitulo": "08",
+      "confidence_embedding": 0.7588,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo.",
+      "classification_reasoning": "A opção mais precisa para o termo 'mv+' é a Crise epiléptica única devida a causas remotas (Código 8A64). Embora haja outros termos relacionados à hidrocefalia ou doenças neurológicas, o contexto clínico sugere que a referência a MV+ está ligada às crises epilépticas. A Crise epiléptica única devida a causas remotas é mais provável, considerando-se a presença de SNE com dieta a 75ml/h e a ventilação mecânica. Além disso, a referência a outros traumatismos intracranianos também aponta para a possibilidade de uma crise epiléptica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A Crise epiléptica única devida a causas remotas (Código 8A64) não é uma representação clínica adequada para o termo 'mv+'. A presença de SNE com dieta a 75ml/h e ventilação mecânica, além da referência a outros traumatismos intracranianos, sugere que o termo 'mv+' está relacionado à hidrocefalia ou doenças neurológicas. Portanto, é necessário remover o código CID-11 atribuído (8A64) e buscar um código mais adequado para representar a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA23.0": {
+      "term_original": "secreção traqueobrônquica amarela",
+      "capitulo": "12",
+      "confidence_embedding": 0.7483,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica. Definição: Asma alérgica é o fenótipo de asma mais facilmente reconhecido. Frequentemente, inicia-se na infância e é associada a um histórico pessoal ou familiar de doença alérgica, como eczema, rinite alérgica, ou alergia a drogas e alimentos. O exame do escarro induzido desses pacientes, antes do tratamento, geralmente revela uma inflamação eosinofílica das vias aéreas. O principal gatilho é a exposição a alérgenos, como o ácaro da poeira doméstica e ao pólen, aos quais o indivíduo tenha sido, previamente, sensibilizado. Os pacientes com esse fenótipo de asma, usualmente, respondem bem a corticoide inalatório e à imunoterapia alérgeno-específica.",
+      "classification_reasoning": "A secreção traqueobrônquica amarela é característica de asma alérgica, e a presença de roncos difusos e pneumotraqueostomia também são indicadores da doença.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A secreção traqueobrônquica amarela não é característica de asma alérgica, mas sim pode ser um sintoma de outras condições, como pneumonia ou bronquite. Além disso, a presença de roncos difusos e pneumotraqueostomia não são suficientes para estabelecer uma relação clínica direta com a asma alérgica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA80.5": {
+      "term_original": "edemaciados",
+      "capitulo": "15",
+      "confidence_embedding": 0.755,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica com prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'edemaciados' é a degeneração de disco intervertebral da coluna torácica com prolapso de disco, pois a presença de edema (inchaço) nos músculos (MMSS) sugere uma lesão discal que está causando compressão e inflamação dos tecidos adjacentes.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FA80.5 não se refere à edema nos músculos (MMSS) descrita no prontuário. A degeneração de disco intervertebral da coluna torácica com prolapso de disco é uma condição específica que não está relacionada ao termo 'edemaciados'. A classificação CID-11 deve ser mais precisa e clínica, portanto, a opção FA80.5 não é válida para este caso.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "ED70.30": {
+      "term_original": "úlcera sacra grau ii",
+      "capitulo": "14",
+      "confidence_embedding": 0.7838,
+      "descricao_cid": "Representação de doença CID-11: Eflúvio telógeno agudo. Definição: Eflúvio telógeno agudo é uma queda de cabelos do couro cabeludo de início agudo que ocorre dois a três meses após um estresse desencadeante, muitas vezes com risco à vida, e que interrompe o crescimento anágeno normal do fio. É comumente observado em sobreviventes que necessitaram de cuidados intensivos para sepse, hemorragia, doença inflamatória ou traumatismo graves. Também pode resultar de desnutrição aguda. Um grande número de fios anágenos são convertidos em telógenos e são eliminados dois a três meses depois, resultando em uma alopecia difusa.",
+      "classification_reasoning": "A escolha pelo códgio ED70.30 é baseada na descrição da úlcera sacra grau II, que é uma lesão no tecido cutâneo do sacro, comprovando a presença de eflúvio telógeno agudo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A úlcera sacra grau II não é um eflúvio telógeno agudo, que é uma condição caracterizada por perda de cabelos do couro cabeludo. A descrição do prontuário refere-se a uma lesão no tecido cutâneo do sacro, que não está relacionada ao tema da perda de cabelos.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB21.1": {
+      "term_original": "roncos difusos",
+      "capitulo": "12",
+      "confidence_embedding": 0.7744,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A presença de roncos difusos no contexto do prontuário sugere a possibilidade de pneumotórax espontâneo, levando à escolha do código CB21.1.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de roncos difusos não é suficiente para justificar a escolha do código CB21.1, que se refere especificamente a pneumotórax espontâneo. A falta de informações sobre a natureza e localização dos roncos difusos, bem como a ausência de outros indícios clínicos de pneumotórax, torna a escolha desse código muito genérica e não justificada.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "8D8A.2": {
+      "term_original": "pupilas isomióticas",
+      "capitulo": "08",
+      "confidence_embedding": 0.7758,
+      "descricao_cid": "Representação de doença CID-11: Anisocoria episódica. Definição: Este é um grupo de transtornos em que movimentos pupilares periódicos levam a mudanças de tamanho. Isso ocorre devido ao tônus parassimpático ou simpático anormal.",
+      "classification_reasoning": "As pupilas isomióticas indicam que ambos os olhos têm tamanho similar e normal, o que é consistente com a definição de anisocoria episódica. Isso não está relacionado às outras condições apresentadas, como meningite inflamatória ou síndrome de Reye.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "As pupilas isomióticas indicam que ambos os olhos têm tamanho similar e normal, o que não é consistente com a definição de anisocoria episódica. A condição descrita no prontuário refere-se à ausência de anisocoria, enquanto o código CID-11 atribuído representa um tipo de anisocoria. Portanto, há uma contradição entre o termo e o código CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NA07": {
+      "term_original": "traumatismos intracranianos",
+      "capitulo": "22",
+      "confidence_embedding": 0.8467,
+      "descricao_cid": "Representação de doença CID-11: Traumatismo intracraniano. Definição: Dano infligido aos tecidos do cérebro como o resultado direto ou indireto de uma força externa, com ou sem interrupção da continuidade estrutural.",
+      "classification_reasoning": "A opção mais precisa para o termo 'traumatismos intracranianos' é NA07, pois a definição desse código se refere a dano infligido aos tecidos do cérebro como resultado direto ou indireto de uma força externa, o que coincide com o contexto clínico descrito.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção do código CID-11 NA07 é justificada, pois a definição desse código se refere a dano infligido aos tecidos do cérebro como resultado direto ou indireto de uma força externa, o que coincide com o contexto clínico descrito no prontuário. A presença de traumatismos intracranianos é claramente mencionada e a definição do código CID-11 NA07 se ajusta perfeitamente ao termo.",
+      "tipo_erro_auditoria": null
+    },
+    "EH90.3": {
+      "term_original": "úlcera grau ii",
+      "capitulo": "14",
+      "confidence_embedding": 0.7569,
+      "descricao_cid": "Representação de doença CID-11: Úlcera por pressão grau 4. Definição: Úlcera por pressão com músculo, tendão ou osso visível ou diretamente palpável, como resultado de perda de espessura total de pele e tecido subcutâneo. Esfacelo ou escara podem estar presentes. A profundidade varia de acordo com a localização anatômica: as úlceras de pressão de grau IV podem ser rasas em áreas com pouca ou nenhuma gordura subcutânea (p.ex., na ponte nasal, orelha, occipício e maléolo), mas são tipicamente profundas e frequentemente minam ou tunelizam em estruturas adjacentes.",
+      "classification_reasoning": "A úlcera grau II descrita no contexto é mais compatível com a definição de Úlcera por pressão grau IV (EH90.3) do que com as outras opções. A presença de músculo, tendão ou osso visível ou diretamente palpável na superfície da úlcera sugere uma lesão mais profunda e complexa, o que é consistente com a definição de Úlcera por pressão grau IV.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A úlcera grau II descrita no prontuário não apresenta características de profundidade e complexidade que sejam compatíveis com a definição de Úlcera por pressão grau IV (EH90.3). A presença de músculo, tendão ou osso visível ou diretamente palpável na superfície da úlcera sugere uma lesão mais superficial, o que é consistente com a definição de Úlcera por pressão grau II. Portanto, a classificação EH90.3 não é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    }
+  }
+}

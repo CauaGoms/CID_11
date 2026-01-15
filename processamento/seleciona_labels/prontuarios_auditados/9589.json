@@ -1,0 +1,255 @@
+{
+  "prontuario_id": 409,
+  "text": "TX RENAL 3 MESES.\nPRED 5, MS 2 / 2, FK 5 / 5, BO, CVDL 6,25 ( 3CP X2), INDAPEN SR, NPH / R 30 / 6 E 20 / 6 E 0 / 6.\nS : AVALIAÇÃO ENDO HC = DX DE DM2 ( AINDA QUE PEPTIDEO C 0,4 E 0,2 ).\nPARESTESIAS EM MMII E TONTURAS.\nHIPOGLICEMIAS FREQUENTES.\nO: PA 120/70,  P 68,  AFEBRIL, PESO 73 ( GANHO 5KG / 3 MESES).\nHIPOCORADA +.\nCPP / PC SP.\nABD RHA+, FLÁCIDO, INDOLOR.\nMMII PULSOS REDUZIDOS.\nTX RENAL COM CR 1,33 E NS FK 9,0.\nDM COM PEPTIDEO C < 0,4 E NÃO COMPENSADO.\nHAS.\nGANHO PONDERAL / SEDENTARISMO.\n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "PRED",
+      "MS",
+      "FK",
+      "BO",
+      "CVDL",
+      "NPH",
+      "R",
+      "S",
+      "ENDO",
+      "HC",
+      "DX",
+      "DM2",
+      "MMII",
+      "O",
+      "PA",
+      "P",
+      "CPP",
+      "PC",
+      "SP",
+      "ABD",
+      "RHA+",
+      "DM",
+      "HAS",
+      "TX RENAL",
+      "HIPOCORADA +",
+      "CR 1 , 33",
+      "NS FK 9 , 0"
+    ],
+    "Substância Farmacológica": [
+      "PRED",
+      "MS",
+      "FK",
+      "BO",
+      "CVDL",
+      "NPH",
+      "R",
+      "INDAPEN SR"
+    ],
+    "Substância Química Orgânica": [
+      "PRED",
+      "MS",
+      "FK",
+      "CVDL",
+      "NPH",
+      "R",
+      "INDAPEN SR"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "120/70",
+      "68",
+      "73",
+      "6 , 25"
+    ],
+    "Achado": [
+      "S",
+      "SP",
+      "RHA+",
+      "FLÁCIDO",
+      "COMPENSADO",
+      "TX RENAL"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "AVALIAÇÃO",
+      "O"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ENDO"
+    ],
+    "Produto Intelectual": [
+      "DX"
+    ],
+    "Doença ou Síndrome": [
+      "DM2",
+      "DM",
+      "HAS",
+      "SEDENTARISMO"
+    ],
+    "Sinal ou Sintoma": [
+      "PARESTESIAS",
+      "TONTURAS",
+      "HIPOGLICEMIAS",
+      "AFEBRIL",
+      "SP",
+      "INDOLOR",
+      "GANHO 5KG",
+      "HIPOCORADA +",
+      "PULSOS REDUZIDOS",
+      "GANHO PONDERAL"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MMII",
+      "ABD"
+    ],
+    "Conceito Temporal": [
+      "FREQUENTES",
+      "3CP X2",
+      "3 MESES"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PESO"
+    ],
+    "Negação": [
+      "AFEBRIL",
+      "SP",
+      "INDOLOR",
+      "NÃO"
+    ],
+    "Atributo de Organismo": [
+      "PESO"
+    ],
+    "Localização ou Região Corporal": [
+      "CPP",
+      "PC"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "PEPTIDEO C 0 , 4 E 0 , 2",
+      "CR 1 , 33",
+      "NS FK 9 , 0",
+      "PEPTIDEO C &lt; 0 , 4"
+    ]
+  },
+  "labels": {
+    "FA25": {
+      "term_original": "rha+",
+      "capitulo": "15",
+      "confidence_embedding": 0.7424,
+      "descricao_cid": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato.",
+      "classification_reasoning": "A opção mais precisa para o termo 'rha+' é a gota, uma artropatia aguda ou crônica resultante de deposição de cristais de urato em tecidos articulares. A presença de rha+ no contexto clínico sugere que a paciente tem uma patologia relacionada à uratos.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'rha+' é a gota, uma artropatia aguda ou crônica resultante de deposição de cristais de urato em tecidos articulares. A presença de rha+ no contexto clínico sugere que a paciente tem uma patologia relacionada à uratos. Como o prontuário descreve TX RENAL com CR 1,33 e NS FK 9,0, e DM COM PEPTIDEO C < 0,4 E NÃO COMPENSADO, é plausível que a gota seja uma possibilidade diagnóstica. Portanto, manter o código CID-11 FA25 como representação da condição descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "8C01.0": {
+      "term_original": "parestesias",
+      "capitulo": "08",
+      "confidence_embedding": 0.7522,
+      "descricao_cid": "Representação de doença CID-11: Polineuropatia desmielinizante inflamatória aguda. Definição: Fraqueza progressiva dos membros ao longo de alguns dias a 28 dias, déficit simétrico, arreflexia, distúrbio sensorial ausente ou leve, proteína do líquido cefalorraquidiano elevada e redução das velocidades de condução nervosa são as características principais. O transtorno pode ser precedido por infecção respiratória superior ou gastrointestinal ou imunização 1 a 4 semanas antes do início da doença. A paralisia bifacial pode estar presente.",
+      "classification_reasoning": "A presença de parestesias em contexto de DM2 não compensada e hipoglicemias frequentes sugere uma possível neuropatia periférica, corroborando a opção pela Polineuropatia desmielinizante inflamatória aguda (8C01.0).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de parestesias em contexto de DM2 não compensada e hipoglicemias frequentes sugere uma possível neuropatia periférica, corroborando a opção pela Polineuropatia desmielinizante inflamatória aguda (8C01.0). A análise clínica revela que o termo 'parestesias' está relacionado à doença descrita no prontuário e não há contradição óbvia ou falta de base para a classificação.",
+      "tipo_erro_auditoria": null
+    },
+    "VV3Z": {
+      "term_original": "sp",
+      "capitulo": "V",
+      "confidence_embedding": 0.6907,
+      "descricao_cid": "Representação de doença CID-11: Funções dos sistemas cardiovascular, hematológico, imunológico e respiratório, não especificadas. Definição: ",
+      "classification_reasoning": "A opção VV3Z é a mais precisa para o termo 'sp' pois se refere às funções dos sistemas cardiovascular, hematológico, imunológico e respiratório, não especificadas. O contexto clínico menciona problemas cardíacos (PA 120/70), hipotensão (PESO 73) e redução de pulsos em MMII, o que é compatível com a descrição da opção VV3Z.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção VV3Z se refere às funções dos sistemas cardiovascular, hematológico, imunológico e respiratório, não especificadas. No prontuário, há referências a problemas cardíacos (PA 120/70), hipotensão (PESO 73) e redução de pulsos em MMII, o que é compatível com a descrição da opção VV3Z. Além disso, há também menções a DM2 não compensada e hipoglicemias frequentes, o que reforça a escolha do código CID-11.",
+      "tipo_erro_auditoria": null
+    },
+    "QC64.Y": {
+      "term_original": "ganho 5kg",
+      "capitulo": "24",
+      "confidence_embedding": 0.6914,
+      "descricao_cid": "Representação de doença CID-11: Outra história familiar especificada de doenças endócrinas, nutricionais ou metabólicas. Definição: ",
+      "classification_reasoning": "O termo 'ganho 5kg' refere-se ao aumento de peso, que é um sintoma comum em pacientes com diabetes mellitus (DM), como descrito na avaliação endócrina. A opção QC64.Y melhor se ajusta a essa situação, uma vez que se refere à história familiar específica de doenças endócrinas, nutricionais ou metabólicas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'ganho 5kg' não se refere a uma história familiar específica de doenças endócrinas, nutricionais ou metabólicas. Em vez disso, é um sintoma clínico do paciente que está relacionado ao diabetes mellitus (DM). A opção QC64.Y não representa fielmente o termo descrito no prontuário e, portanto, é considerada uma classificação errada.",
+      "tipo_erro_auditoria": "family_history_misread"
+    },
+    "QC64.Z": {
+      "term_original": "sedentarismo",
+      "capitulo": "24",
+      "confidence_embedding": 0.7165,
+      "descricao_cid": "Representação de doença CID-11: História familiar de doenças endócrinas, nutricionais ou metabólicas, não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a representação de doença CID-11: História familiar de doenças endócrinas, nutricionais ou metabólicas, não especificada (Código QC64.Z), pois o termo 'sedentarismo' está relacionado à história personalizada do paciente, que ganhou 5 kg em 3 meses, sugerindo sedentarismo. Além disso, a presença de DM2 (Diabetes Mellitus Tipo 2) e hipoglicemias frequentes também reforça essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'sedentarismo' não é uma condição clínica diretamente relacionada à doença do paciente. A ganho de peso e a presença da DM2 são mais prováveismente associados ao estilo de vida do paciente, mas não há evidência clínica suficiente para justificar a atribuição do código QC64.Z. Além disso, o prontuário apresenta outras condições clínicas relevantes, como a avaliação endócrina e as hipoglicemias frequentes, que devem ser priorizadas na codificação.",
+      "tipo_erro_auditoria": "family_history_misread"
+    },
+    "5A21.Z": {
+      "term_original": "hipoglicemias",
+      "capitulo": "05",
+      "confidence_embedding": 0.7749,
+      "descricao_cid": "Representação de doença CID-11: Hipoglicemia no contexto do diabetes mellitus, não especificado. Definição: ",
+      "classification_reasoning": "A escolha do código 5A21.Z é a mais precisa porque o termo 'hipoglicemias' se refere à hipoglicemia no contexto do diabetes mellitus, e a avaliação endócrina menciona DM2 não compensada, indicando que a hipoglicemia está relacionada ao diabetes.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código 5A21.Z é justificada porque o termo 'hipoglicemias' está diretamente relacionado à hipoglicemia no contexto do diabetes mellitus, e a avaliação endócrina menciona DM2 não compensada. A lógica clínica é coerente com a descrição do código CID-11.",
+      "tipo_erro_auditoria": null
+    },
+    "8C60": {
+      "term_original": "tonturas",
+      "capitulo": "08",
+      "confidence_embedding": 0.746,
+      "descricao_cid": "Representação de doença CID-11: Miastenia gravis. Definição: Miastenia gravis é o transtorno de transmissão neuromuscular mediado por autoanticorpo adquirido mais comum. A prevalência é de 1–2 por 10.000 pessoas. Fraqueza flutuante aumentando com a atividade repetida e melhorando após um período de descanso é a marca característica. Miastenia Gravis com anticorpos dirigidos contra proteínas pós-sinápticas, geralmente o receptor nicotínico de acetilcolina, são as mais prevalentes. Outros tipos são Miastenia Gravis associada a anticorpos quinase específicos do músculo e Miastenia Gravis com autoanticorpos desconhecidos (soronegativos).\r\nExistem três grupos: \r\n1. Miastenia Gravis puramente ocular\r\n2. Miastenia Gravis generalizada de início precoce (<40-50 anos)\r\n3. MG generalizada de início tardio.\r\nEm cerca de 15%, a doença pode ser classificada como paraneoplásica, geralmente associada a um timoma.",
+      "classification_reasoning": "A presença de tonturas e outras manifestações neurológicas (parestesias) sugere a possibilidade de uma doença neuromuscular, como miastenia gravis, que é comummente associada a fraqueza muscular flutuante e melhoria após um período de descanso.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de tonturas e outras manifestações neurológicas (parestesias) no prontuário sugere a possibilidade de uma doença neuromuscular, como miastenia gravis. A descrição do código CID-11 '8C60' para Miastenia Gravis é clínica e coerente com o termo 'tonturas' descrito no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "8C84": {
+      "term_original": "pulsos reduzidos",
+      "capitulo": "08",
+      "confidence_embedding": 0.7353,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise secundária. Definição: Rabdomiólise secundária ocorre quando o efeito primário de um fator etiológico resulta em um estado funcional ou bioquímico que conduz ao desenvolvimento de alterações isquêmicas, degenerativas, necróticas ou desestabilizadoras da membrana no músculo, produzindo as manifestações clínicas e bioquímicas de rabdomiólise. Mais frequentemente, a rabdomiólise é secundária a um desequilíbrio metabólico, muitas vezes de natureza genética, como resultado de movimento anormalmente excessivo, tensão isométrica excessiva por tentativa de movimento contra resistência, ou coma levando a aumento de pressão, isquemia, hipóxia e necrose intramusculares. A rabdomiólise secundária também pode ser causada por uma mutação em vários genes (RYR1, LPIN).",
+      "classification_reasoning": "O termo 'pulsos reduzidos' sugere um problema cardiovascular, especificamente relacionado ao coração. A escolha do código 8C84 (Rabdomiólise secundária) parece improvável, pois não há evidências de trauma muscular ou hemorrágica. O código 8A45.30 (Transtorno da substância branca devido à deficiência de vitamina B12) também é improvável, pois a deficiência de vitamina B12 não está relacionada ao coração. O código 8C60 (Miastenia gravis) e o código 8C81 (Miopatia autoimune) são mais prováveis, mas não estão diretamente relacionados à redução dos pulsos. Portanto, a escolha do código 8C84 (Rabdomiólise secundária) é a mais precisa para o termo 'pulsos reduzidos' no contexto clínico fornecido.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'pulsos reduzidos' sugere um problema cardiovascular relacionado ao coração, não à rabdomiólise secundária. A escolha do código 8C84 (Rabdomiólise secundária) é uma classificação errônea e não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA02": {
+      "term_original": "tx renal",
+      "capitulo": "11",
+      "confidence_embedding": 0.814,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A opção mais precisa para o termo 'tx renal' é a doença renal hipertensiva (Código BA02), pois a descrição do paciente apresenta problemas renais relacionados à hipertensão, como cr 1,33 e NS FK 9,0.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'tx renal' é a doença renal hipertensiva (Código BA02), pois a descrição do paciente apresenta problemas renais relacionados à hipertensão, como cr 1,33 e NS FK 9,0. A justificativa do sistema também concorda com essa escolha.",
+      "tipo_erro_auditoria": null
+    },
+    "5A60.2": {
+      "term_original": "dm",
+      "capitulo": "05",
+      "confidence_embedding": 0.7887,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da secreção inapropriada do hormônio antidiurético. Definição: Síndrome da secreção inapropriada do hormônio antidiurético (ADH)- SIADH- é caracterizada pela secreção contínua de ADH causando hiponatremia, hiposmolalidade e natriurese. A prevelência exata é desconhecida. A doença tem sido descrita em grupos de todas as idades. SIADH é frequentemente associada a tumores, doenças pulmonares, transtornos do sistema nervoso central ou exposição a drogas. Ocasionalmente ela é encontrada em pacientes com insuficiência adrenal, tireoidiana ou hipofisária. O transtorno é causado por mutações com ganho de função em genes que codificam o receptor de vasopressina V2. Restrição hídrica é o tratamento mais comum. O resultado está relacionado aos distúrbios subjacentes e associados.",
+      "classification_reasoning": "Como o prontuário menciona DM não compensada e hipoinsulinemia, é provável que a doença seja relacionada ao metabolismo de açúcares. Além disso, a presença de parestesias e tonturas sugere possivelmente um distúrbio neurológico associado à diabetes. A opção 5A60.2, Síndrome da secreção inapropriada do hormônio antidiurético, é mais precisa para o termo 'dm' no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção 5A60.2, Síndrome da secreção inapropriada do hormônio antidiurético, não se refere diretamente à diabetes mellitus (DM) descrita no prontuário. A DM não compensada e hipoinsulinemia são características clínicas que justificam a escolha de um código CID mais específico para a diabetes. Além disso, a presença de parestesias e tonturas sugere possivelmente um distúrbio neurológico associado à diabetes, o que também não é capturado pela opção 5A60.2.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "QA30.Y": {
+      "term_original": "has",
+      "capitulo": "24",
+      "confidence_embedding": 0.7302,
+      "descricao_cid": "Representação de doença CID-11: Outro contato especificado com os serviços de saúde para reprodução medicamente assistida. Definição: ",
+      "classification_reasoning": "A paciente está em contato com os serviços de saúde para reprodução medicamente assistida, o que é consistente com a presença de DM2 não compensada e a discussão sobre ganho ponderal recente. Além disso, a história de hipoglicemias frequentes também sugere uma possível ligação com a reprodução medicamente assistida.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente está em contato com os serviços de saúde para reprodução medicamente assistida, mas isso não é diretamente relacionado à doença descrita no prontuário (DM2 e suas consequências). A presença de DM2 não compensada e a discussão sobre ganho ponderal recente são mais relevantes para a codificação do que o contato com os serviços de saúde. Além disso, a história de hipoglicemias frequentes também sugere uma possível ligação com a reprodução medicamente assistida, mas isso não é suficiente para justificar a codificação.",
+      "tipo_erro_auditoria": "family_history_misread"
+    },
+    "BA01": {
+      "term_original": "hipocorada +",
+      "capitulo": "11",
+      "confidence_embedding": 0.7897,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A hipocorada é uma manifestação de doença cardíaca, mais especificamente de cardiomiopatia hipertrófica. A presença de PA 120/70 e P 68 indica hipertensão arterial sistêmica, que pode levar à hipertrofia ventricular esquerda (hipocorada +).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hipocorada + é uma manifestação de doença cardíaca, mais especificamente de cardiomiopatia hipertrófica. A presença de PA 120/70 e P 68 indica hipertensão arterial sistêmica, que pode levar à hipertrofia ventricular esquerda (hipocorada +). Como a codificação CID-11 BA01 representa doença cardíaca hipertensiva, é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

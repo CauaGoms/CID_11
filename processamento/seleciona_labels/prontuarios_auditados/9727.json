@@ -1,0 +1,201 @@
+{
+  "prontuario_id": 221,
+  "text": "paciente em retorno para mostrar exames.\n\nHAS, hipotiroidismo, dislipidemia, síndrome X.\n\nem uso de enalapril 20 mg 12/12, AAS 100 mg, carvedilol 6,25 mg 2cp 12/12, hidroclorotiazida 25 mg , rosuvastatina 10 mg, ezetinibe 10 mg, sustrate 100 mg se angina, puran 25 mcg. \npct assintomática. \n\necocardio transtorácico: remodelamento concêntrico do VE, disfunção diastólica grau II do VE.\nexames laboratoriais normais. (LDL: 122).\n\n\nBEG, CORADA, HIDRATADA, ANICTÉRICA, ACIANÓTICA.\nPA: 110/70.\nFC: 68.\nAuscuta cardiaca: BCRN.\n\ncdta: solicitadops exames labopratoriais, retorno em um ano.\n \n \n \n ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "retorno",
+      "cdta",
+      "solicitadops"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "exames",
+      "remodelamento concêntrico do VE",
+      "disfunção diastólica grau II do VE",
+      "exames laboratoriais normais",
+      "LDL : 122"
+    ],
+    "Abreviação": [
+      "HAS",
+      "AAS",
+      "pct",
+      "BEG",
+      "PA",
+      "FC",
+      "BCRN",
+      "cdta",
+      "ecocardio transtorácico",
+      "remodelamento concêntrico do VE",
+      "disfunção diastólica grau II do VE"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "hipotiroidismo",
+      "dislipidemia",
+      "síndrome X"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "enalapril"
+    ],
+    "Substância Farmacológica": [
+      "enalapril",
+      "AAS",
+      "carvedilol",
+      "hidroclorotiazida",
+      "rosuvastatina",
+      "ezetinibe",
+      "sustrate",
+      "puran"
+    ],
+    "Substância Química Orgânica": [
+      "AAS",
+      "carvedilol",
+      "hidroclorotiazida",
+      "rosuvastatina",
+      "ezetinibe",
+      "puran"
+    ],
+    "Sinal ou Sintoma": [
+      "angina",
+      "assintomática",
+      "ANICTÉRICA",
+      "ACIANÓTICA"
+    ],
+    "Hormônio": [
+      "puran"
+    ],
+    "Negação": [
+      "assintomática",
+      "ANICTÉRICA",
+      "ACIANÓTICA"
+    ],
+    "Achado": [
+      "BEG",
+      "CORADA",
+      "HIDRATADA",
+      "BCRN"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC"
+    ],
+    "Conceito Quantitativo": [
+      "110/70",
+      "68",
+      "20 mg 12/12",
+      "100 mg",
+      "6 , 25 mg 2cp 12/12",
+      "25 mg",
+      "10 mg",
+      "25 mcg"
+    ],
+    "Procedimento Diagnóstico": [
+      "ecocardio transtorácico",
+      "Auscuta cardiaca"
+    ],
+    "Procedimento Laboratorial": [
+      "exames labopratoriais"
+    ]
+  },
+  "labels": {
+    "BC43": {
+      "term_original": "acianótica",
+      "capitulo": "11",
+      "confidence_embedding": 0.7831,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia. Definição: Transtornos do miocárdio em que o músculo cardíaco é estrutural e funcionalmente anormal, na ausência de doença arterial coronariana, hipertensão, doença valvar e doença cardíaca congênita suficiente para causar a anormalidade miocárdica observada.",
+      "classification_reasoning": "A paciente apresenta acianótica, que é um sintoma de cardiomiopatia. A presença do remodelamento concêntrico do ventrículo esquerdo e disfunção diastólica grau II também aponta para uma doença cardíaca estrutural.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A acianótica é um sintoma de doença cardiovascular, mais especificamente relacionada à insuficiência cardíaca. O código CID-11 atribuído (BC43) refere-se a cardiomiopatia, que não é o mesmo que acianótica. Ajuste necessário para uma codificação mais precisa e clínica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5B70": {
+      "term_original": "has",
+      "capitulo": "05",
+      "confidence_embedding": 0.759,
+      "descricao_cid": "Representação de doença CID-11: Deficiência de ácidos graxos essenciais. Definição: A deficiência de ácidos graxos essenciais - AGE- (ácido linoléico, ácido linolênico, ácido araquidônico, ácido docosapentaenóico, ácido docosahexaenóico e ácido eicosapentaenóico) pode ser causada por ingestão deficiente, particularmente, em bebês de crescimento rápido (como prematuros), em pacientes recebendo nutrição parenteral sem uma fonte adequada de AGE, e em doenças com má absorção de gordura. Os achados clínicos são: dermatite, alopecia e trombocitopenia. O papel do AGE durante a gravidez e a lactação tem sido destacado, e o papel dos ácidos graxos n-3 de cadeia longa como componentes estruturais para o desenvolvimento da função da retina e do sistema nervoso central é agora aceito. O período pré-natal é um período de risco aumentado para deficiência de ômega-3, pois os estoques de tecido materno tendem a diminuir à medida que são usados ​​para o desenvolvimento do feto. A deficiência de n-3 AGE pode afetar o crescimento e a função cognitiva e visual em bebês. Os sinais característicos de deficiência atribuídos aos ácidos graxos n-6 são erupção cutânea escamosa, aumento da perda de água transepidérmica, crescimento reduzido e elevação da proporção plasmática de ácido eicosatrienóico: ácido araquidônico. A deficiência de AGE em populações especiais tem sido associada a distúrbios hematológicos e diminuição da resposta imunológica. Os ácidos graxos n-3 e n-6 de cadeia longa são nutrientes essenciais e também, como parte do suprimento geral de gordura, podem afetar a prevalência e a gravidade das doenças cardiovasculares, diabetes, câncer e declínio funcional relacionado à idade.",
+      "classification_reasoning": "A opção mais precisa para o termo 'has' é a deficiência de ácidos graxos essenciais (AGE), pois há uma menção à dislipidemia e ao uso de rosuvastatina, que é um tratamento comum para hipercolesterolemia. Além disso, a presença de síndrome X também sugere que o paciente tem um conjunto de características clínicas relacionadas à deficiência de ácidos graxos essenciais.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'has' é a deficiência de ácidos graxos essenciais (AGE), pois há uma menção à dislipidemia e ao uso de rosuvastatina, que é um tratamento comum para hipercolesterolemia. Além disso, a presença de síndrome X também sugere que o paciente tem um conjunto de características clínicas relacionadas à deficiência de ácidos graxos essenciais.",
+      "tipo_erro_auditoria": null
+    },
+    "6C45.3": {
+      "term_original": "beg",
+      "capitulo": "06",
+      "confidence_embedding": 0.7648,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A palavra 'BEG' pode estar relacionada à apresentação de sintomas de euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância e agitação psicomotora, características da intoxicação por cocaína.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'BEG' não apresenta características da intoxicação por cocaína descrita no código CID-11. A falta de contexto e a ausência de sintomas claramente relacionados à intoxicação por cocaína sugerem que o termo 'BEG' não está diretamente relacionado à condição descrita pelo código CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EB90.3": {
+      "term_original": "anictérica",
+      "capitulo": "14",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'anictérica' é a representação de doença CID-11: Psoríase eritrodérmica (EA90.3), pois embora a palavra não esteja diretamente relacionada à psoríase, a descrição da doença menciona o envolvimento da pele e a possibilidade de desenvolver hipotermia ou insuficiência cardíaca. Além disso, a presença de outros sintomas como HAS, hipotiroidismo e dislipidemia sugere que o paciente pode ter uma história de doenças autoimunes, o que é comum em pacientes com psoríase.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção EB90.3 (Psoríase eritrodérmica) não é uma representação clínica fiel da condição 'anictérica' descrita no prontuário. A anictérica não está relacionada à psoríase e a descrição do prontuário não menciona hipotermia ou insuficiência cardíaca, que são características comuns em pacientes com psoríase. Além disso, a presença de outros sintomas como HAS, hipotiroidismo e dislipidemia sugere que o paciente pode ter uma história de doenças autoimunes, mas isso não justifica a escolha do código EB90.3.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB23.H": {
+      "term_original": "corada",
+      "capitulo": "21",
+      "confidence_embedding": 0.7306,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A opção mais precisa é MB23.H - Crise de pânico, pois o termo 'corada' sugere um sentimento de angústia ou medo, que é característico da síndrome do pânico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'corada' não se refere a uma crise de pânico, mas sim a um sintoma cardíaco. A descrição do ecardio transtorácico menciona remodelamento concêntrico do VE e disfunção diastólica grau II do VE, o que sugere uma doença cardíaca, não uma crise de pânico.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5A00.20": {
+      "term_original": "hipotiroidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.7745,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo devido a medicamentos ou outras substâncias exógenas. Definição: Condição causada por uma hipofunção da tireoide devido a medicamentos ou outras substâncias exógenas. Essa condição pode se apresentar com fadiga, aumento da sensibilidade ao frio, constipação, pele seca, ganho de peso, fraqueza e dor muscular, aumento de colesterol, dores ou inchaços nas articulações, períodos menstruais mais intensos ou irregulares, enfraquecimento do cabelo, depressão e memória deficiente.",
+      "classification_reasoning": "Escolha feita por ser o hipotiroidismo devido a medicamentos ou outras substâncias exógenas, tendo em vista que o paciente está em uso de enalapril, AAS, carvedilol e outros fármacos, o que pode ter contribuído para o desenvolvimento do hipotiroidismo.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código CID-11 5A00.20 'Hipotireoidismo devido a medicamentos ou outras substâncias exógenas' é justificada pela presença de enalapril, AAS e carvedilol no prontuário, que podem ter contribuído para o desenvolvimento do hipotiroidismo. A descrição clínica do paciente não apresenta contradições óbvias ou alucinações, portanto, a codificação é considerada válida.",
+      "tipo_erro_auditoria": null
+    },
+    "9A03.0": {
+      "term_original": "bcrn",
+      "capitulo": "09",
+      "confidence_embedding": 0.6829,
+      "descricao_cid": "Representação de doença CID-11: Blefaroptose. Definição: Queda da pálpebra superior devida a desenvolvimento deficiente ou paralisia do músculo levantador da pálpebra superior.",
+      "classification_reasoning": "A opção mais precisa para o termo \"bcrn\" é a blefaroptose, uma condição que se refere à queda da pálpebra superior devido ao desenvolvimento deficiente ou paralisia do músculo levantador da pálpebra superior. A auscultação cardiaca é descrita como BCRN, o que indica a presença de blefaroptose.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A auscultação cardiaca descrita como BCRN não se refere à blefaroptose, que é uma condição relacionada à pálpebra superior. A auscultação cardiaca é um procedimento médico para avaliar o coração e não está relacionado ao termo 'bcrn'. Portanto, a classificação CID-11 9A03.0 como blefaroptose é inapropriada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA40.Y": {
+      "term_original": "angina",
+      "capitulo": "11",
+      "confidence_embedding": 0.8091,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A escolha mais precisa é o código BA40.Y, Representação de doença CID-11: Outra angina pectoris especificada, pois o paciente tem história de angina e apresenta remodelamento concêntrico do ventrículo esquerdo e disfunção diastólica grau II, sugerindo uma possível doença coronariana vasoespástica. A ausência de outras características clínicas que justificassem a escolha de outros códigos também apoia essa escolha.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código BA40.Y, Representação de doença CID-11: Outra angina pectoris especificada, é justificada pela presença de remodelamento concêntrico do ventrículo esquerdo e disfunção diastólica grau II no ecocardiograma transtorácico. Além disso, a história de angina também apoia essa escolha. A falta de outras características clínicas que justificassem a escolha de outros códigos também é um fator que sustenta a escolha do código.",
+      "tipo_erro_auditoria": null
+    },
+    "HA40.2": {
+      "term_original": "síndrome x",
+      "capitulo": "17",
+      "confidence_embedding": 0.7456,
+      "descricao_cid": "Representação de doença CID-11: Considerações etiológicas associadas ao uso de substância psicoativa ou medicamento. Definição: Esta categoria deve ser atribuída quando há evidência de que os efeitos fisiológicos diretos de uma substância psicoativa ou medicamento são um importante fator contribuinte para a Disfunção Sexual ou Transtorno da Dor Sexual. Exemplos incluem inibidores seletivos de recaptação de serotonina, antagonistas do receptor de histamina-2 (p. ex., cimetidina), álcool, opioides e anfetaminas. Se os requisitos diagnósticos para um Transtorno Devido ao Uso de Substância forem atendidos, o diagnóstico apropriado de Transtorno Devido ao Uso de Substância também deve ser atribuído.",
+      "classification_reasoning": "A presença de Síndrome X como um sintoma pode ser relacionada ao uso de substância psicoativa ou medicamento, considerando o contexto do paciente que está em uso de enalapril e outros fármacos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A Síndrome X não é uma condição clínica diretamente relacionada ao uso de substância psicoativa ou medicamento, como descrito no código CID-11 HA40.2. A Síndrome X é um termo que descreve uma síndrome cardiovascular, e não tem relação com o uso de substâncias psicoativas ou medicamentos. Portanto, a codificação CID-11 HA40.2 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5C80.2": {
+      "term_original": "dislipidemia",
+      "capitulo": "05",
+      "confidence_embedding": 0.7562,
+      "descricao_cid": "Representação de doença CID-11: Hiperlipidemia mista. Definição: Níveis séricos elevados de colesterol LDL e triglicerídeos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'dislipidemia' é a hiperlipidemia mista, pois os exames laboratoriais mencionam LDL de 122 mg/dL e não há indicações de doença genética ou hipercolesterolemia primária. A hipótese de hipertrigliceridemia também não parece provável, pois a descreve como uma forma de hiperlipidemia caracterizada por níveis plasmáticos anormalmente elevados de lipoproteínas ricas em triglicerídeos.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 '5C80.2' como hiperlipidemia mista é justificada pela presença de LDL elevado (122 mg/dL) e ausência de indicações de doença genética ou hipercolesterolemia primária no prontuário. A descrição do código CID-11 também se alinha com a condição clínica descrita, caracterizando níveis séricos elevados de colesterol LDL e triglicerídeos.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

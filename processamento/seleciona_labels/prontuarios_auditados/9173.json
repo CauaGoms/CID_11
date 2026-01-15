@@ -1,0 +1,72 @@
+{
+  "prontuario_id": 59,
+  "text": "PACIENTE TRATADA CONSERVADORAMENTE DE FX DE COTOVALO ESQUERDO.\nAO RX, APRESENTA DEFORMIDADE DA CABEÇA DO RADIO ESQUERDO.\nNAO REALIZOU FST ATÉ O MOMENTO. APRESENTA RIGIDEZ EM EXTENSÃO DO COTOVELO.\nCD: ORIENTO REALIZAR FST DOMICILIAR E VIA UBS COM URGENCIA E EXPLICO SOBRE A POSSIBILIDADE DE RIGIDEZ DA ARTICULAÇÃO. RETORNO EM 4 SEM.\n\nR2 LUCAS.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Procedimento Diagnóstico": [
+      "RX"
+    ],
+    "Abreviação": [
+      "RX",
+      "FST",
+      "CD",
+      "UBS",
+      "R2",
+      "FST DOMICILIAR",
+      "4 SEM"
+    ],
+    "Negação": [
+      "NAO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "FST",
+      "FST DOMICILIAR"
+    ],
+    "Espaço ou Junção Corporal": [
+      "COTOVELO"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UBS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "RETORNO"
+    ],
+    "Lesão ou Envenenamento": [
+      "FX DE COTOVALO ESQUERDO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "DEFORMIDADE DA CABEÇA DO RADIO ESQUERDO"
+    ],
+    "Conceito Temporal": [
+      "ATÉ O MOMENTO",
+      "4 SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "RIGIDEZ EM EXTENSÃO"
+    ]
+  },
+  "labels": {
+    "8A64": {
+      "term_original": "fx de cotovalo esquerdo",
+      "capitulo": "08",
+      "confidence_embedding": 0.7074,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo.",
+      "classification_reasoning": "O termo 'fx de cotovalo esquerdo' refere-se a uma lesão cerebral, mais especificamente na região do cotovelo esquerdo. Isso está relacionado ao código 8A64 (Crise epiléptica única devida a causas remotas), pois o paciente apresenta deformidade da cabeça do rádio esquerdo e rigidez na articulação do cotovelo, sugerindo uma lesão cerebral ou neurológica.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A lesão cerebral descrita no prontuário, representada pelo termo 'fx de cotovalo esquerdo', está clinicamente relacionada à Crise epiléptica única devida a causas remotas (8A64). A deformidade da cabeça do rádio esquerdo e a rigidez na articulação do cotovelo sugerem uma lesão cerebral ou neurológica, o que justifica a codificação CID-11.",
+      "tipo_erro_auditoria": null
+    },
+    "FA84.1": {
+      "term_original": "rigidez em extensão",
+      "capitulo": "15",
+      "confidence_embedding": 0.6863,
+      "descricao_cid": "Representação de doença CID-11: Espondilolistese sem defeito na 'pars'. Definição: Esta é uma condição caracterizada pelo deslizamento anterior do corpo vertebral, sobre a vértebra abaixo, sem um defeito na \"pars articularis\"",
+      "classification_reasoning": "A opção mais precisa é a FA84.1, pois o paciente apresenta deformidade da cabeça do radio esquerdo e rigidez em extensão do cotovelo, características compatíveis com uma espondilolistese sem defeito na 'pars'. A descrição clínica também menciona deformidade da cabeça do radio esquerdo, o que é consistente com a FA84.1.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário refere-se a uma deformidade da cabeça do radio esquerdo e rigidez em extensão do cotovelo, o que não é consistente com a FA84.1, que se refere a espondilolistese sem defeito na 'pars'. A anatomia descrita no prontuário não está relacionada à vértebra, portanto, a codificação CID-11 FA84.1 não representa fielmente o termo ou condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "prontuario_id": 328,
+  "text": "IAM  2011\nATC   NO HUEC     CD  REMENECENTE  LIMITROFE  MODERADA \nSEM QX  CARDIOLOGICAS   ESPECIFICAS HPP  NAO CESSOU  TBGH\nUSA  ENL 10 12-12     CLOPIDOGREL \nCESSOU SVT  AAS \nAO  EXAME  ND N\nP ECO TE  LAB\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "IAM",
+      "ATC",
+      "CD",
+      "HPP",
+      "ENL",
+      "SVT",
+      "AAS",
+      "N",
+      "P",
+      "LAB",
+      "QX CARDIOLOGICAS",
+      "ECO TE"
+    ],
+    "Doença ou Síndrome": [
+      "IAM",
+      "HPP"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ATC"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "CD"
+    ],
+    "Negação": [
+      "SEM",
+      "NAO"
+    ],
+    "Conceito Qualitativo": [
+      "ESPECIFICAS"
+    ],
+    "Atividade": [
+      "CESSOU"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "ENL"
+    ],
+    "Substância Farmacológica": [
+      "ENL",
+      "CLOPIDOGREL",
+      "SVT",
+      "AAS"
+    ],
+    "Substância Química Orgânica": [
+      "AAS"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAME",
+      "ECO TE"
+    ],
+    "Achado": [
+      "N"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "P"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "REMENECENTE LIMITROFE MODERADA"
+    ],
+    "Sinal ou Sintoma": [
+      "QX CARDIOLOGICAS"
+    ],
+    "Conceito Quantitativo": [
+      "10 12-12"
+    ]
+  },
+  "labels": {
+    "BC81.30": {
+      "term_original": "qx cardiologicas",
+      "capitulo": "11",
+      "confidence_embedding": 0.7954,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A expressão 'QX Cardiologicas' sugere uma referência à fibrilação atrial, que é descrita no código BC81.30 como representação de doença CID-11: Fibrilação atrial paroxística.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A expressão 'QX Cardiologicas' é uma abreviação médica comum que faz sentido no contexto do prontuário. A presença de termos como 'IAM 2011', 'ATC NO HUEC', e 'USA ENL 10 12-12' sugere que o paciente tem doenças cardiológicas, incluindo a fibrilação atrial. Além disso, a menção à medicação CLOPIDOGREL também é consistente com essa condição. Portanto, a codificação CID-11 BC81.30 como representação de doença para 'QX Cardiologicas' é justificada e válida.",
+      "tipo_erro_auditoria": null
+    },
+    "6C45.3": {
+      "term_original": "iam",
+      "capitulo": "06",
+      "confidence_embedding": 0.7664,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A palavra 'IAM' presente no contexto clínico está relacionada à representação de doença CID-11: Intoxicação por cocaína, que é a mais precisa opção para o termo dentro do contexto.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A palavra 'IAM' está relacionada à representação de doença CID-11: Intoxicação por cocaína, que é a mais precisa opção para o termo dentro do contexto. A justificativa do sistema também concorda com essa classificação. Portanto, a codificação CID-11 '6C45.3' é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "5B5A.0": {
+      "term_original": "hpp",
+      "capitulo": "05",
+      "confidence_embedding": 0.7375,
+      "descricao_cid": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina.",
+      "classification_reasoning": "A descrição de 'HPP' como Beribéri (síndrome de deficiência de tiamina) parece a mais precisa para o contexto clínico, pois menciona edema e cardiopatia, características também presentes no prontuário.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição de 'HPP' como Beribéri (síndrome de deficiência de tiamina) parece a mais precisa para o contexto clínico, pois menciona edema e cardiopatia, características também presentes no prontuário. A justificativa do sistema é coerente com a análise clínica realizada.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

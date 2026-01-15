@@ -1,0 +1,201 @@
+{
+  "prontuario_id": 200,
+  "text": "TX RENAL 5 MESES DC.\nSENSIBILIZADO.\nBMO COM MIELODISPLASIA.\nPRED 5, TAC 4/5, SRL 1, OMEPRAZOL E POLARAMINE.\nS: SEM QUEIXAS.\nO: PA 110/80,  P 76,  AFEBRIL,  PESO 37,2.\nHIPOCORADO+.\nCPP LIVRES.\nPC RITMO REGULAR.\nABD CIC GASTROSTOMIA, ENXERTO SP.\nMMII SEM EDEMA.\nTX RENAL 5 MESES DC.\nSENSIBILIZADO.\nBMO COM MIELODISPLASIA.\n* CR 1,2.\n* NS DROGAS PENDENTE.\n* MELHORA HB / LEUCO E PLAQUETAS.\n \n \n ",
+  "entities": {
+    "Achado": [
+      "DC",
+      "SENSIBILIZADO",
+      "S",
+      "SP",
+      "TX RENAL",
+      "CPP LIVRES",
+      "PC RITMO REGULAR",
+      "CIC GASTROSTOMIA",
+      "NS DROGAS PENDENTE"
+    ],
+    "Abreviação": [
+      "DC",
+      "BMO",
+      "PRED",
+      "TAC",
+      "SRL",
+      "S",
+      "O",
+      "PA",
+      "P",
+      "HIPOCORADO+",
+      "ABD",
+      "SP",
+      "MMII",
+      "LEUCO",
+      "TX RENAL",
+      "CPP LIVRES",
+      "PC RITMO REGULAR",
+      "CIC GASTROSTOMIA",
+      "CR 1 , 2",
+      "NS DROGAS PENDENTE"
+    ],
+    "Procedimento Diagnóstico": [
+      "BMO"
+    ],
+    "Doença ou Síndrome": [
+      "MIELODISPLASIA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "MIELODISPLASIA",
+      "CR 1 , 2"
+    ],
+    "Substância Farmacológica": [
+      "PRED",
+      "TAC",
+      "SRL",
+      "OMEPRAZOL",
+      "POLARAMINE"
+    ],
+    "Substância Química Orgânica": [
+      "PRED",
+      "TAC",
+      "SRL",
+      "OMEPRAZOL",
+      "POLARAMINE"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "4/5",
+      "1",
+      "110/80",
+      "76",
+      "37 , 2"
+    ],
+    "Negação": [
+      "SEM",
+      "AFEBRIL"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "AFEBRIL",
+      "HIPOCORADO+",
+      "EDEMA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PESO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABD",
+      "MMII"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ]
+  },
+  "labels": {
+    "BD93": {
+      "term_original": "edema",
+      "capitulo": "11",
+      "confidence_embedding": 0.7592,
+      "descricao_cid": "Representação de doença CID-11: Linfedema. Definição: Edema devido ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Geralmente afeta as extremidades, mas pode envolver qualquer parte do corpo. É desfigurante e aumenta a suscetibilidade a infecções recorrentes e malignidades locais.",
+      "classification_reasoning": "A presença do termo 'edema' no contexto clínico leva à escolha da opção BD93, que descreve o Linfedema como um tipo de edema causado por drenagem linfática inadequada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'edema' no prontuário refere-se a uma condição clínica específica, enquanto o código CID-11 BD93 descreve um tipo de edema causado por drenagem linfática inadequada. No entanto, não há indicação de que o edema seja causado por essa razão no prontuário. Além disso, o termo 'edema' é mencionado apenas uma vez e não há informações adicionais sobre a causa ou natureza do edema. Portanto, considerando as diretrizes de auditoria, é necessário remover o código CID-11 BD93 e realizar uma nova codificação mais específica e clínica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF96": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7562,
+      "descricao_cid": "Representação de doença CID-11: Proteinúria. Definição: O excesso de proteínas séricas na urina, como na doença renal, em que a albumina é a proteína principal, porém também pode ser devido a outras proteínas, como imunoglobulinas de cadeias leves na discrasia de células plasmáticas como o mieloma múltiplo.",
+      "classification_reasoning": "A opção mais precisa para o termo 'queixas' é a proteinúria, pois não há outras queixas mencionadas no prontuário exceto a proteinúria e a hipoplasia renal, que não está relacionada às queixas do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção MF96 (Proteinúria) não é apropriada porque o termo 'queixas' refere-se à falta de queixas do paciente, enquanto a proteinúria se refere ao excesso de proteínas na urina. A hipoplasia renal também não está relacionada às queixas do paciente. Portanto, a codificação CID-11 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "3A20.Y": {
+      "term_original": "sensibilizado",
+      "capitulo": "03",
+      "confidence_embedding": 0.7165,
+      "descricao_cid": "Representação de doença CID-11: Outra anemia hemolítica adquirida especificada, imune. Definição: ",
+      "classification_reasoning": "O termo 'sensibilizado' se refere a uma reação adversa à droga, que é característica de anemia hemolítica adquirida especificada e imune (3A20.Y). A sensibilidade à medicamento não está relacionada às outras opções apresentadas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'sensibilizado' não se refere a uma reação adversa à droga, mas sim ao fato de que o paciente está recebendo tratamento renal. A sensibilidade à medicamento é um conceito diferente e não está relacionada às outras opções apresentadas no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "QA7Y": {
+      "term_original": "ns drogas pendente",
+      "capitulo": "24",
+      "confidence_embedding": 0.7334,
+      "descricao_cid": "Representação de doença CID-11: Outras circunstâncias especificadas associadas a exposição a uma droga, medicamento ou substância biológica influenciando no episódio de atenção sem lesão ou dano. Definição: ",
+      "classification_reasoning": "A opção QA7Y é a mais precisa para o termo 'ns drogas pendente' no contexto clínico, pois refere-se às circunstâncias especificadas associadas à exposição a uma droga, medicamento ou substância biológica que influencia no episódio de atenção sem lesão ou dano. Isso se alinha com o prontuário que menciona 'NS DROGAS PENDENTE', indicando que há drogas pendentes e não descontinuadas.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção QA7Y é a mais precisa para o termo 'ns drogas pendente' no contexto clínico, pois refere-se às circunstâncias especificadas associadas à exposição a uma droga, medicamento ou substância biológica que influencia no episódio de atenção sem lesão ou dano. Isso se alinha com o prontuário que menciona 'NS DROGAS PENDENTE', indicando que há drogas pendentes e não descontinuadas.",
+      "tipo_erro_auditoria": null
+    },
+    "FA25": {
+      "term_original": "hipocorado+",
+      "capitulo": "15",
+      "confidence_embedding": 0.6951,
+      "descricao_cid": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato.",
+      "classification_reasoning": "A opção mais precisa para o termo 'hipocorado+' é a gota (Gota), pois refere-se à deposição de cristais de urato em tecidos articulares, o que pode causar dor nas articulações e edema articular.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'hipocorado+' é a gota (Gota), pois refere-se à deposição de cristais de urato em tecidos articulares, o que pode causar dor nas articulações e edema articular. A descrição do prontuário não apresenta contradição óbvia ou alucinação, portanto, a classificação CID-11 FA25 é válida.",
+      "tipo_erro_auditoria": null
+    },
+    "DE12.1": {
+      "term_original": "cic gastrostomia",
+      "capitulo": "13",
+      "confidence_embedding": 0.7754,
+      "descricao_cid": "Representação de doença CID-11: Disfunção de gastrostomia. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'cic gastrostomia' é a disfunção de gastrostomia, pois há uma referência explícita à gastropatia em forma de enxerto subcutâneo (ABD CIC GASTROSTOMIA, ENXERTO SP.). Isso sugere que o paciente tem um tubo digestivo artificial implantado no estômago.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção CID-11 DE12.1 'Disfunção de gastrostomia' é justificada pela presença de uma gastropatia em forma de enxerto subcutâneo (ABD CIC GASTROSTOMIA, ENXERTO SP.) no prontuário. A referência explícita à gastropatia artificial sugere que o paciente tem um tubo digestivo implantado no estômago, o que é coerente com a definição da disfunção de gastrostomia.",
+      "tipo_erro_auditoria": null
+    },
+    "LB30.4": {
+      "term_original": "sp",
+      "capitulo": "20",
+      "confidence_embedding": 0.7821,
+      "descricao_cid": "Representação de doença CID-11: Oligomeganefronia. Definição: Hipoplasia renal oligomeganefrônica é um defeito grave de desenvolvimento de ambos os rins, caracterizado por um número reduzido de néfrons (a unidade funcional do rim), glomérulos hipertróficos com diâmetros duas vezes maiores do que o normal, túbulos hipertróficos e espessamento da cápsula de Bowman, ocorrendo na ausência de uma malformação do trato urinário.",
+      "classification_reasoning": "A presença de BMO (Blindness due to Microphthalmia) e Mielodisplasia sugere um déficit congênito no desenvolvimento dos rins, caracterizado por oligomeganefronia (hipoplasia renal oligomeganefrônica).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de BMO (Blindness due to Microphthalmia) e Mielodisplasia sugere um déficit congênito no desenvolvimento dos rins, caracterizado por oligomeganefronia (hipoplasia renal oligomeganefrônica). A codificação CID-11 LB30.4 para Oligomeganefronia é justificada pela presença de hipoplasia renal oligomeganefrônica e não há contradição óbvia ou falta de base no texto.",
+      "tipo_erro_auditoria": null
+    },
+    "GB80.0": {
+      "term_original": "tx renal",
+      "capitulo": "16",
+      "confidence_embedding": 0.7826,
+      "descricao_cid": "Representação de doença CID-11: Cisto renal simples. Definição: Doença renal causada pela obstrução dos túbulos, anemia ou descolamento dos divertículos. Esta doença é caracterizada pela formação de sacos anormais de paredes finas cheios de líquido radiolúcido hipoecogênico no rim. A confirmação é por imagem.",
+      "classification_reasoning": "A opção mais precisa é a Cisto renal simples (GB80.0) porque o termo 'tx renal' se refere à terapia renal, que é mencionada anteriormente no prontuário como 'TX RENAL 5 MESES DC.' e não há indicações de doenças renais agudas ou insuficiências renovas, tampouco de doenças císticas complexas. Além disso, a presença da palavra 'cística' ao lado do termo 'tx renal' sugere que o referido é um procedimento relacionado à doença renal cística simples.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa é a Cisto renal simples (GB80.0) porque o termo 'tx renal' se refere à terapia renal, que é mencionada anteriormente no prontuário como 'TX RENAL 5 MESES DC.' e não há indicações de doenças renais agudas ou insuficiências renovas, tampouco de doenças císticas complexas. Além disso, a presença da palavra 'cística' ao lado do termo 'tx renal' sugere que o referido é um procedimento relacionado à doença renal cística simples.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "2A36": {
+      "term_original": "mielodisplasia",
+      "capitulo": "02",
+      "confidence_embedding": 0.7865,
+      "descricao_cid": "Representação de doença CID-11: Síndrome mielodisplásica com del(5q) isolada. Definição: Síndrome mielodisplásica caracterizada por anemia com ou sem outras citopenias e/ou trombocitose e na qual a única anormalidade citogenética é del(5q). Os mieloblastos são <5% na medula óssea e <1% no sangue.",
+      "classification_reasoning": "Escolhi o código 2A36 porque a paciente tem BMO com mielodisplasia, o que é definido pela Síndrome mielodisplásica com del(5q) isolada. A descrição do termo extraído 'mielodisplasia' está claramente relacionada à definição desse código.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo extraído 'mielodisplasia' está claramente relacionada à definição do código 2A36. A paciente tem BMO com mielodisplasia, o que é definido pela Síndrome mielodisplásica com del(5q) isolada. Portanto, a codificação CID-11 está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "NB90.5": {
+      "term_original": "dc",
+      "capitulo": "22",
+      "confidence_embedding": 0.7264,
+      "descricao_cid": "Representação de doença CID-11: Lesão de vaso sanguíneo renal. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NB90.5, Lesão de vaso sanguíneo renal, pois o termo 'TX RENAL' no contexto clínico refere-se a um tratamento renal e a informação adicional 'DC 5 MESES' sugere que essa lesão foi diagnosticada ou intervenida recentemente.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa é NB90.5, Lesão de vaso sanguíneo renal, pois o termo 'TX RENAL' no contexto clínico refere-se a um tratamento renal e a informação adicional 'DC 5 MESES' sugere que essa lesão foi diagnosticada ou intervenida recentemente.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

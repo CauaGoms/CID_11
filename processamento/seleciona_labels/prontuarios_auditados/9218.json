@@ -1,0 +1,225 @@
+{
+  "prontuario_id": 837,
+  "text": "15:30HRS Conforme orientação da plantonista Dra Maria, foi suspensa alta da UTI por instabilidade hemodinâmica. Segue cuidados intensivos de enfermagem. Enf° FLORENCE NIGHTINGALE, Coren XXXX. INSUFICIENCIA RESPIRATORIA AGUDA. 19:30 GLASGOW = 15, ACORDDA, COMUNICATIVA, COLABORATIVA APRESENTANDO PERÍODOS DE CONFUSÃO, PERMANECE EUPNEICA SATURANDO 97% (19:15 CAPACETE CEFÁLICO TROCADO PELO DR VITAL BRASIL), NORMOTENSA (109/60), NORMOCÁRDICA (65 bpm), NORMOCORADA, AUSCULTA PULMONAR COM RAROS RONCOS, ACESSO VENOSO EM FACE EXTERNA DE ANTEBRAÇO MSD RECEBENDO PLANO BÁSICO DE HIDRATAÇÃO, ABDOMEM FLÁCIDO SEM MASSA PALPÁVEL, INDOLOR A PALPAÇÃO, DLE ABERTA PELO DR VITAL BRASIL COM DÉBITO TOTAL DE 175 ML ATÉ O MOMENTO, PELE ÍNTEGRA EM SACRA, SVD COM DIURESE EFETIVA (BALANÇO + 708), HEMODINAMICAMENTE ESTÁVEL EM MONITORIZAÇÃO DE ECG, PA, OXIMETRIA DE PULSO, PRECAUÇÃO DE CONTATO PROFILÁTICO, SEGUE SOB CUIDADOS DE ENFERMAGEM. EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO.",
+  "entities": {
+    "Grupo Profissional ou Ocupacional": [
+      "plantonista",
+      "Enf°"
+    ],
+    "Abreviação": [
+      "Dra",
+      "UTI",
+      "Enf°",
+      "DR",
+      "MSD",
+      "ECG",
+      "PA",
+      "DLE ABERTA",
+      "SVD COM DIURESE EFETIVA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "alta",
+      "cuidados intensivos de enfermagem",
+      "CUIDADOS DE ENFERMAGEM"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UTI"
+    ],
+    "Achado": [
+      "ACORDDA",
+      "COMUNICATIVA",
+      "COLABORATIVA",
+      "EUPNEICA",
+      "NORMOTENSA",
+      "NORMOCÁRDICA",
+      "NORMOCORADA",
+      "FLÁCIDO",
+      "GLASGOW = 15",
+      "MASSA PALPÁVEL",
+      "PELE ÍNTEGRA",
+      "SVD COM DIURESE EFETIVA",
+      "HEMODINAMICAMENTE ESTÁVEL"
+    ],
+    "Atributo Clínico": [
+      "SATURANDO"
+    ],
+    "Conceito Quantitativo": [
+      "97%",
+      "109/60",
+      "65 bpm",
+      "175 ML"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD",
+      "ABDOMEM",
+      "SACRA",
+      "FACE EXTERNA DE ANTEBRAÇO"
+    ],
+    "Negação": [
+      "SEM",
+      "INDOLOR"
+    ],
+    "Procedimento Diagnóstico": [
+      "PALPAÇÃO",
+      "MONITORIZAÇÃO",
+      "ECG",
+      "AUSCULTA PULMONAR",
+      "OXIMETRIA DE PULSO"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "instabilidade hemodinâmica",
+      "PERÍODOS DE CONFUSÃO",
+      "RAROS RONCOS"
+    ],
+    "Doença ou Síndrome": [
+      "INSUFICIENCIA RESPIRATORIA AGUDA"
+    ],
+    "Dispositivo Médico": [
+      "CAPACETE CEFÁLICO",
+      "ACESSO VENOSO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CAPACETE CEFÁLICO",
+      "ACESSO VENOSO",
+      "PLANO BÁSICO DE HIDRATAÇÃO",
+      "DLE ABERTA",
+      "PRECAUÇÃO DE CONTATO PROFILÁTICO"
+    ],
+    "Função Fisiológica": [
+      "SVD COM DIURESE EFETIVA"
+    ]
+  },
+  "labels": {
+    "6C48.2": {
+      "term_original": "colaborativa",
+      "capitulo": "06",
+      "confidence_embedding": 0.7425,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais.",
+      "classification_reasoning": "A palavra 'colaborativa' sugere a presença de sintomas relacionados à comunicação, como confusão e período de perda de consciência, o que é consistente com a descrição da intoxicação por cafeína no Código CID-11 6C48.2.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'colaborativa' não está relacionada à intoxicação por cafeína, como descrita no Código CID-11 6C48.2. A colaboração refere-se ao comportamento do paciente em relação aos cuidados intensivos de enfermagem, e não é um sintoma da intoxicação por cafeína.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD10": {
+      "term_original": "normotensa",
+      "capitulo": "11",
+      "confidence_embedding": 0.7638,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos.",
+      "classification_reasoning": "A condição descrita como 'normotensa' indica que o paciente está com pressão arterial normal, o que é consistente com a definição de Insuficiência Cardíaca Congestiva (ICCC) no CID-11. Além disso, a auscultação pulmonar apresentando raros roncos e a hemodinamicamente estável em monitorização de ECG, PA e oximetría de pulso também apontam para uma condição cardíaca comprometida.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A condição 'normotensa' não é uma representação de doença CID-11, mas sim um valor normal da pressão arterial. O termo 'Insuficiência Cardíaca Congestiva' no CID-11 não se aplica ao paciente, pois a auscultação pulmonar apresentando raros roncos e a hemodinamicamente estável em monitorização de ECG, PA e oximetría de pulso sugerem uma condição cardíaca comprometida, mas não necessariamente insuficiência cardíaca congestiva.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EH3Y": {
+      "term_original": "pele íntegra",
+      "capitulo": "14",
+      "confidence_embedding": 0.7537,
+      "descricao_cid": "Representação de doença CID-11: Outras afecções da pele específicas do período perinatal, especificadas. Definição: ",
+      "classification_reasoning": "A pele íntegra mencionada no contexto clínico se refere à integridade da pele, não apresentando lesões ou alterações específicas. Esta descrição é mais precisa para o termo 'pele íntegra' dentro do contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição 'pele íntegra' no prontuário refere-se à integridade da pele, não apresentando lesões ou alterações específicas. O código CID-11 EH3Y 'Outras afecções da pele específicas do período perinatal, especificadas' se encaixa perfeitamente nesse contexto clínico, pois a descrição não menciona qualquer doença ou alteração específica na pele.",
+      "tipo_erro_auditoria": null
+    },
+    "FA80.4": {
+      "term_original": "flácido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7382,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A escolha do código FA80.4 é justificada pela descrição de degeneração de disco intervertebral da coluna torácica sem prolapso de disco, que se ajusta ao contexto clínico mencionado 'abdOMEM FLÁCIDO' no prontuário, sugerindo alguma tipo de lesão muscular ou discal na região torácica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário refere-se a uma situação de instabilidade hemodinâmica e insuficiência respiratória aguda, com pacientes recebendo cuidados intensivos. A menção ao abdome flácido não está relacionada à degeneração de disco intervertebral da coluna torácica sem prolapso de disco, que é o conteúdo do código FA80.4. A escolha desse código é demasiado genérica e não se ajusta ao contexto clínico descrito no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MB20.1": {
+      "term_original": "acordda",
+      "capitulo": "21",
+      "confidence_embedding": 0.7463,
+      "descricao_cid": "Representação de doença CID-11: Coma. Definição: Estado agudo com duração de mais de uma hora e geralmente menos de um mês. O paciente em coma está arresponsivo, fica com os olhos fechados e não pode ser despertado nem mesmo por estímulos vigorosos e dolorosos. As respostas motoras à estimulação dolorosa estão limitadas a reflexos. As etiologias incluem, mas não estão limitadas a, lesões cerebrais traumáticas, anóxicas, infecciosas, neoplásicas, vasculares, inflamatórias e metabólicas.",
+      "classification_reasoning": "A escolha do código MB20.1 (Coma) se baseia na observação da paciente apresentar períodos de confusão, permanece eupnea saturando 97%, o que sugere uma possível instabilidade cerebral.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código MB20.1 (Coma) é muito genérica e não se ajusta ao contexto clínico descrito no prontuário. A paciente apresenta períodos de confusão, mas não está em coma, pois ainda responde a estímulos vigorosos e dolorosos. Além disso, o código CID-11 para Coma não contempla a possibilidade de pacientes que permaneçam eupnea saturando 97%. Portanto, é necessário remover esse código e substituí-lo por um mais específico e adequado à condição clínica da paciente.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "CA22.0": {
+      "term_original": "eupneica",
+      "capitulo": "12",
+      "confidence_embedding": 0.7817,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A descrição do termo 'eupneica' se refere à respiração normal e não é mencionado nenhum sintoma de obstrução das vias aéreas, o que exclui a possibilidade de CA23.00. A ausência de sinais de pneumotórax ou síndrome de Mendelson também excluem as opções CB21.1 e CA72. Com base na informação da insuficiência respiratória aguda e auscultação pulmonar com raros roncos, a escolha mais precisa é CA22.0, que se refere à exacerbação aguda de doença pulmonar obstrutiva crônica não especificada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CA22.0 se refere a exacerbação aguda de doença pulmonar obstrutiva crônica não especificada, mas o termo 'eupneica' descrito no prontuário refere-se à respiração normal e não há indicações de obstrução das vias aéreas. A auscultação pulmonar com raros roncos pode ser compatível com uma insuficiência respiratória aguda, mas não é suficiente para justificar a escolha do código CA22.0. A análise crítica sugere que o código CID-11 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC81.30": {
+      "term_original": "hemodinamicamente estável",
+      "capitulo": "11",
+      "confidence_embedding": 0.7629,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A escolha para o termo 'hemodinamicamente estável' se baseia na descrição de fibrilação atrial paroxística, que envolve uma instabilidade cardíaca temporária, seguida por um estado estável. Isso é consistente com a situação clínica descrita no prontuário, em que o paciente foi suspenso de alta da UTI por instabilidade hemodinâmica e agora está sob cuidados intensivos de enfermagem.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 BC81.30 representa fibrilação atrial paroxística, que é uma condição cardíaca específica e não está relacionada à instabilidade hemodinâmica descrita no prontuário. A situação clínica do paciente é de insuficiência respiratória aguda com instabilidade hemodinâmica, o que justifica a remoção da codificação BC81.30.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C45.3": {
+      "term_original": "períodos de confusão",
+      "capitulo": "06",
+      "confidence_embedding": 0.7893,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A presença de períodos de confusão sugere uma condição neurológica ou psicótica, relacionada à ingestão de substâncias psicoativas. A descrição da cocaína como causadora de euforia inadequada, ansiedade, raiva, atenção prejudicada e mudanças na sociabilidade é consistente com a apresentação clínica descrita no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de períodos de confusão no prontuário não é suficientemente específica para justificar a classificação de Intoxicação por cocaína (6C45.3). A descrição do termo CID-11 apresenta sintomas como euforia inadequada, ansiedade, raiva, atenção prejudicada, etc., que não estão presentes no prontuário. Além disso, a falta de menção à ingestão de substâncias psicoativas ou ao uso de cocaína também é um fator que leva a considerar a classificação como incorreta.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A63.0": {
+      "term_original": "normocorada",
+      "capitulo": "08",
+      "confidence_embedding": 0.7257,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica febril. Definição: Convulsões associadas a um aumento da temperatura corporal na ausência de infecção intracraniana, distúrbio metabólico ou história de crises epilépticas afebris. Ocorrem mais comumente em crianças com idades entre 6 meses e 5 anos.",
+      "classification_reasoning": "A descrição do termo 'normocorada' sugere que o paciente não está apresentando problemas cardíacos ou hemodinâmicos graves, o que é consistente com a descrição da crise epiléptica febril (8A63.0) como uma convulsão associada a um aumento da temperatura corporal na ausência de infecção intracraniana, distúrbio metabólico ou história de crises epilépticas afebris.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'normocorada' sugere que o paciente está apresentando um estado cardiovascular normal, o que não é consistente com a crise epiléptica febril (8A63.0). A crise epiléptica é uma condição neurológica e não há relação clínica entre a temperatura corporal e o estado cardiovascular.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA80.5": {
+      "term_original": "massa palpável",
+      "capitulo": "15",
+      "confidence_embedding": 0.7207,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica com prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a degeneração de disco intervertebral da coluna torácica com prolapso de disco (FA80.5), pois o termo 'massa palpável' se refere à falta de massa muscular na área abdominal, sugerindo uma lesão ou doença que afeta os músculos do abdome.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'massa palpável' se refere à ausência de massa muscular na área abdominal, o que não está relacionado à degeneração de disco intervertebral da coluna torácica com prolapso de disco (FA80.5). A classificação é muito genérica e não há nenhuma evidência clínica no prontuário que justifique essa associação.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "9A73": {
+      "term_original": "raros roncos",
+      "capitulo": "09",
+      "confidence_embedding": 0.7034,
+      "descricao_cid": "Representação de doença CID-11: Ceratite de exposição. Definição: condição de exposição em que a córnea do olho, a parte frontal do olho, fica inflamada. A condição é frequentemente marcada por dor moderada a intensa e geralmente envolve comprometimento da visão. Pode causar sensação de areia cada vez que o indivíduo pisca os olhos.",
+      "classification_reasoning": "Como o termo 'raros roncos' está relacionado à auscultação pulmonar, e a presença de insuficiência respiratória aguda no paciente, o código 9A73 (Ceratite de exposição) é mais preciso, pois essa condição pode causar dor moderada a intensa e comprometimento da visão, o que está relacionado à auscultação pulmonar e ao quadro clínico apresentado.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 9A73 (Ceratite de exposição) não é clinicamente coerente com o prontuário. A ceratite de exposição é uma condição que afeta a córnea do olho e não está relacionada à auscultação pulmonar ou à insuficiência respiratória aguda descrita no prontuário. O termo 'raros roncos' refere-se a uma condição pulmonar, portanto, um código mais adequado seria o que represente uma doença pulmonar, como por exemplo, o código J45.x (Doença intersticial crônica) ou o código J47.9 (Pneumonia aguda).",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GB40": {
+      "term_original": "svd com diurese efetiva",
+      "capitulo": "16",
+      "confidence_embedding": 0.7489,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A escolha do código GB40 se baseia na presença de SVD (Síndrome Nefrítica) mencionada no contexto, caracterizada por diurese efetiva e auscultação pulmonar com raros roncos. Esta informação sugere uma lesão renal aguda, que é a principal causa da síndrome nefrítica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A SVD mencionada no prontuário não é uma síndrome nefrítica, mas sim um sintoma de insuficiência renal aguda. A presença de diurese efetiva e oligúria sugere que a lesão renal é mais provável uma insuficiência renal aguda do que uma síndrome nefrítica. Portanto, o código GB40 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB41.0": {
+      "term_original": "insuficiencia respiratoria aguda",
+      "capitulo": "12",
+      "confidence_embedding": 0.7617,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência respiratória aguda. Definição: A insuficiência respiratória pode ser aguda (de curta duração) ou crônica (em evolução), usando o tempo como o principal parâmetro. Na insuficiência respiratória aguda a hipoxemia ocorre em um período de horas ou dias (menos de 7 dias) e a insuficiência respiratória pode se desenvolver rapidamente, e exigir tratamento de emergência.",
+      "classification_reasoning": "A insuficiência respiratória aguda é o termo mais preciso para descrever a condição do paciente, pois apresenta sintomas de falta de ar e hipoxemia, caracterizando uma situação clínica crítica que requer tratamento intensivo.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A insuficiência respiratória aguda é um termo que descreve a condição do paciente, apresentando sintomas de falta de ar e hipoxemia. A descrição no prontuário está alinhada com a definição da CID-11, portanto, o código CB41.0 é válido.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

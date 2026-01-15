@@ -1,0 +1,69 @@
+{
+  "prontuario_id": 643,
+  "text": "PO RMS PUNHO D JÁ CICATRIZADO.\nBOA ADM PUNHO.\nORIENTO GANHO DE ADM DO 2 E 3 DEDOS.\n3 DEDO COM LESÃO TUMORAL DORSAL DA IFP.\nSOLICITO US.\nRETORNO 24/3/16 PARA DISCUSSÃO E MARCAR RETIRADA DO TUMOR DEDO.\n\nR5 LUCAS.",
+  "entities": {
+    "Abreviação": [
+      "PO",
+      "RMS",
+      "D",
+      "ADM",
+      "US",
+      "R5",
+      "GANHO DE ADM"
+    ],
+    "Conceito Temporal": [
+      "PO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "RMS",
+      "GANHO DE ADM"
+    ],
+    "Conceito Espacial": [
+      "D"
+    ],
+    "Achado": [
+      "CICATRIZADO"
+    ],
+    "Conceito Qualitativo": [
+      "BOA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ORIENTO",
+      "RETORNO"
+    ],
+    "Procedimento Diagnóstico": [
+      "US"
+    ],
+    "Processo Neoplásico": [
+      "TUMOR",
+      "LESÃO TUMORAL"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "DEDO",
+      "2 E 3 DEDOS",
+      "3 DEDO"
+    ]
+  },
+  "labels": {
+    "EL50.1": {
+      "term_original": "cicatrizado",
+      "capitulo": "14",
+      "confidence_embedding": 0.7227,
+      "descricao_cid": "Representação de doença CID-11: Cicatriz cirúrgica hipertrófica. Definição: Uma cicatriz cirúrgica elevada contendo um excesso de tecido fibroso que, em contraste com uma cicatriz queloidiana, tende a diminuir com o tempo.",
+      "classification_reasoning": "A opção EL50.1, Cicatriz cirúrgica hipertrófica, é a mais precisa para o termo 'cicatrizado' no contexto clínico pois refere-se a uma cicatriz resultante de uma lesão ou cirurgia, caracterizando-se por um excesso de tecido fibroso que tende a diminuir com o tempo.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção EL50.1, Cicatriz cirúrgica hipertrófica, é a mais precisa para o termo 'cicatrizado' no contexto clínico pois refere-se a uma cicatriz resultante de uma lesão ou cirurgia, caracterizando-se por um excesso de tecido fibroso que tende a diminuir com o tempo. A descrição do prontuário é consistente com essa definição, portanto, a codificação CID-11 EL50.1 é válida.",
+      "tipo_erro_auditoria": null
+    },
+    "2B51": {
+      "term_original": "tumor",
+      "capitulo": "02",
+      "confidence_embedding": 0.7544,
+      "descricao_cid": "Representação de doença CID-11: Osteossarcoma, localização primária. Definição: Tumor mesenquimal maligno formador de osso geralmente agressivo, que afeta predominantemente adolescentes e adultos jovens. Ele geralmente acomete ossos e, menos frequentemente, localizações extraósseas. Frequentemente acomete os ossos longos (particularmente fêmur distal, tíbia proximal e úmero proximal). Dor com ou sem uma massa palpável é o sintoma clínico mais frequente. Ele pode disseminar para outras localizações anatômicas, particularmente os pulmões.",
+      "classification_reasoning": "A escolha pelo código 2B51 é a mais precisa porque apresenta descrição de tumor mesenquimal maligno formador de osso, que se encaixa perfeitamente com a lesão tumoral dorsal da IFP mencionada no prontuário. Além disso, o contexto clínico sugere uma lesão agressiva e disseminativa, o que também é característico do osteossarcoma.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha pelo código 2B51 é a mais precisa porque apresenta descrição de tumor mesenquimal maligno formador de osso, que se encaixa perfeitamente com a lesão tumoral dorsal da IFP mencionada no prontuário. Além disso, o contexto clínico sugere uma lesão agressiva e disseminativa, o que também é característico do osteossarcoma.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

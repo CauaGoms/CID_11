@@ -1,0 +1,90 @@
+{
+  "prontuario_id": 800,
+  "text": "Paciente em POT DE GASTROPLASTIA POR SLEEVE, ENCAMINHADO DO AMBULATORIO DA cx bariatrica para tratamento de hernia ventral. \nComorbidade: insuficiencia cardiaca ( estenose mitral ?)\nMedicações de uso continuo: captopril, carvedilol, espironolactona, digoxina, marevam. \npedido exames pré - operatórios para cx de herniplastia.\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Conceito Temporal": [
+      "POT"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ENCAMINHADO",
+      "pedido"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "tratamento",
+      "GASTROPLASTIA POR SLEEVE",
+      "cx de herniplastia"
+    ],
+    "Doença ou Síndrome": [
+      "Comorbidade",
+      "insuficiencia cardiaca",
+      "estenose mitral"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "captopril"
+    ],
+    "Substância Farmacológica": [
+      "captopril",
+      "carvedilol",
+      "espironolactona",
+      "digoxina",
+      "marevam",
+      "Medicações de uso continuo"
+    ],
+    "Substância Química Orgânica": [
+      "carvedilol",
+      "espironolactona",
+      "digoxina"
+    ],
+    "Abreviação": [
+      "AMBULATORIO DA cx bariatrica",
+      "cx de herniplastia"
+    ],
+    "Organização Relacionada à Saúde": [
+      "AMBULATORIO DA cx bariatrica"
+    ],
+    "Anormalidade Anatômica": [
+      "hernia ventral"
+    ],
+    "Procedimento Diagnóstico": [
+      "exames pré - operatórios"
+    ],
+    "Procedimento Laboratorial": [
+      "exames pré - operatórios"
+    ]
+  },
+  "labels": {
+    "DD50.0": {
+      "term_original": "hernia ventral",
+      "capitulo": "13",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A hérnia ventral é uma doença que ocorre na parede abdominal e não está relacionada à incisão cirúrgica (DD56) ou ao diafragma (DD50.Y). A descrição do paciente menciona hernia ventral, o que sugere a presença de uma protrusão na parede abdominal. Além disso, a hérnia intra-abdominal secundária (DD50.21) está relacionada à cirurgia previa ou ao traumatismo, mas não é compatível com o contexto do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hérnia ventral descrita no prontuário é uma condição clínica que se refere a uma protrusão na parede abdominal, enquanto o código CID-11 DD50.0 se refere a doenças da parede abdominal, mas não especificamente à hérnia ventral. Além disso, a descrição do paciente menciona hernia ventral, sugerindo que é uma condição clínica distinta e não apenas uma doença da parede abdominal.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BB60.0": {
+      "term_original": "estenose mitral",
+      "capitulo": "11",
+      "confidence_embedding": 0.7896,
+      "descricao_cid": "Representação de doença CID-11: Estenose mitral reumática. Definição: A estenose mitral refere-se ao estreitamento do orifício da valva mitral, resultando em impedância de enchimento do ventrículo esquerdo na diástole. Geralmente é causada por doença cardíaca reumática.",
+      "classification_reasoning": "A estenose mitral é causada por doença cardíaca reumática, como mencionado no contexto do prontuário (insuficiência cardiaca com estenose mitral?). Portanto, a opção mais precisa é BB60.0, que descreve a estenose mitral reumática.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A estenose mitral é uma condição cardíaca específica, enquanto o prontuário menciona insuficiência cardiaca com estenose mitral. A codificação CID-11 BB60.0 descreve a estenose mitral reumática, que não é diretamente relacionada à insuficiência cardiaca. Portanto, a opção mais precisa não é BB60.0.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BB63.0": {
+      "term_original": "insuficiencia cardiaca",
+      "capitulo": "11",
+      "confidence_embedding": 0.7322,
+      "descricao_cid": "Representação de doença CID-11: Estenose mitral reumática com insuficiência. Definição: Estenose mitral e insuficiência mitral ocorrem em pacientes com cardiopatia reumática.",
+      "classification_reasoning": "A insuficiência cardiaca descrita no prontuário é atribuída à estenose mitral, portanto, a opção mais precisa para o termo 'insuficiência cardiaca' dentro do contexto clínico é a Código BB63.0: Estenose mitral reumática com insuficiência.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A insuficiência cardiaca descrita no prontuário não é especificamente uma estenose mitral reumática com insuficiência, como definido pelo código CID-11 BB63.0. A insuficiência cardiaca pode ter várias causas e a estenose mitral é apenas um tipo de lesão cardíaca que pode contribuir para a insuficiência. Portanto, o código atribuído não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "prontuario_id": 708,
+  "text": "MANHÃ- A PEDIDO DE DR VITAL BRASIL, PACIENTE PERMANECE EM JEJUM, POR VOLTA DE 8:40 A FUNCIONÁRIA XXXX DA CENTRAL DE GUIAS ME INFORMA QUE OS MATERIAIS E CIRURGIA ESTÃO LIBERADO PELO CONVENIO. PORÉM PACIENTE NÃO ESTÁ NO MAPA CIRURGICO NEM NO MAPA CIRURGICO DE EMERGENCIA. TENTO CONTATO  VARIAS VEZES COM DR VITAL BRASIL DA ORTO E DR VITAL BRASIL SEM SUCESSO. POR VOLTA DE 12H ENTRO EM CONTATO COM O CC, DR VITAL BRASIL ESTÁ EM PROCEDIMENTO CIRURGICO, PEDE QUE ENTRE EM CONTATO COM DRA MARIA. ENTRO EM CONTATO COM DRA MARIA E INFORMO DA LIBERAÇÃO DOS MATERIAIS E CX A MESMA CIENTE. INFORMA QUE ENTRARA EM CONTATO COM DR VITAL BRASIL E SOLICITA QUE O PACIENTE PERMANEÇA EM JEJUM. ORIENTO PACIENTE QUANTO AO JEJUM. PASSO EM PLANTÃO.  ENFA FLORENCE NIGHTINGALE COREN XX XXXX. TRAUMATISMOS MULTIPLOS NAO ESPECIFICADOS.",
+  "entities": {
+    "Abreviação": [
+      "DR",
+      "ORTO",
+      "CC",
+      "DRA",
+      "CX",
+      "ENFA"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "JEJUM",
+      "CIRURGIA",
+      "CX",
+      "PROCEDIMENTO CIRURGICO"
+    ],
+    "Dispositivo Médico": [
+      "MATERIAIS"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CONVENIO",
+      "ORTO",
+      "CC",
+      "PLANTÃO"
+    ],
+    "Negação": [
+      "NÃO",
+      "NEM",
+      "SEM"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ORTO",
+      "ENFA"
+    ],
+    "Achado": [
+      "SUCESSO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ORIENTO",
+      "PLANTÃO"
+    ],
+    "Lesão ou Envenenamento": [
+      "TRAUMATISMOS MULTIPLOS"
+    ]
+  },
+  "labels": {
+    "ND36": {
+      "term_original": "traumatismos multiplos",
+      "capitulo": "22",
+      "confidence_embedding": 0.7925,
+      "descricao_cid": "Representação de doença CID-11: Outros traumatismos envolvendo regiões múltiplas do corpo, não classificados em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'traumatismos multiplos' é ND36, pois refere-se a outros traumatismos envolvendo regiões múltiplas do corpo, não classificados em outra parte. Isso se ajusta ao contexto clínico que descreve traumatismos múltiplos não especificados.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção ND36 é válida pois o termo 'traumatismos multiplos' se ajusta ao contexto clínico descrito no prontuário, que não especifica a localização dos traumatismos. A definição do código CID-11 também se alinha com a descrição do paciente, que apresenta traumatismos múltiplos não especificados.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "prontuario_id": 484,
+  "text": "30 dias de evolução de fx de maleolo medial.\nfixação com parafuso.\nradiografia: fx alinhada em consolidação.\nnao pisar.\nusar muletas.\nretorno em 6 semanas.\nR4 Lucas",
+  "entities": {
+    "Procedimento Diagnóstico": [
+      "radiografia"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "retorno"
+    ],
+    "Abreviação": [
+      "R4",
+      "fx de maleolo medial",
+      "fx alinhada em consolidação"
+    ],
+    "Conceito Temporal": [
+      "30 dias",
+      "6 semanas"
+    ],
+    "Lesão ou Envenenamento": [
+      "fx de maleolo medial"
+    ],
+    "Achado": [
+      "fixação com parafuso"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "fixação com parafuso",
+      "usar muletas"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "fx alinhada em consolidação"
+    ]
+  },
+  "labels": {
+    "FB32.1": {
+      "term_original": "fx de maleolo medial",
+      "capitulo": "15",
+      "confidence_embedding": 0.7355,
+      "descricao_cid": "Representação de doença CID-11: Ruptura muscular espontânea. Definição: Esta é uma condição em que ocorre um afastamento ou ruptura entre fibras musculares e outras fibras musculares, tendões ou fáscias, na ausência de trauma",
+      "classification_reasoning": "A escolha do código FB32.1 se baseia na descrição de 'fx de maleolo medial' no contexto clínico, que sugere a ocorrência de uma lesão muscular espontânea (ruptura) no músculo da face lateral do pé (maleolo medial).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código FB32.1 se baseia na descrição de 'fx de maleolo medial' no contexto clínico, que sugere a ocorrência de uma lesão muscular espontânea (ruptura) no músculo da face lateral do pé (maleolo medial). A codificação é clinicamente coerente com o prontuário, pois a descrição da fratura e da fixação com parafuso suporta a hipótese de uma lesão muscular espontânea. Portanto, manteremos a codificação CID-11 como FB32.1.",
+      "tipo_erro_auditoria": null
+    },
+    "ND17.20": {
+      "term_original": "fixação com parafuso",
+      "capitulo": "22",
+      "confidence_embedding": 0.7638,
+      "descricao_cid": "Representação de doença CID-11: Distensão ou entorse do músculo, fáscia ou tendão da musculatura intrínseca no nível do tornozelo ou pé. Definição: ",
+      "classification_reasoning": "A fixação com parafuso mencionada no prontuário refere-se à reparo de um músculo, fáscia ou tendão no nível do tornozelo ou pé, o que é descrito na opção ND17.20.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fixação com parafuso mencionada no prontuário refere-se à reparo de um músculo, fáscia ou tendão no nível do tornozelo ou pé, o que não é diretamente relacionado ao termo 'fixação com parafuso'. A opção ND17.20 descreve distensão ou entorse do músculo, fáscia ou tendão da musculatura intrínseca no nível do tornozelo ou pé, mas a fixação com parafuso não é um tipo de lesão muscular, fáscia ou tendão. Portanto, a codificação CID-11 ND17.20 não representa fielmente o termo 'fixação com parafuso' e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

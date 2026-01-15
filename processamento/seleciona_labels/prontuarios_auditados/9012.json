@@ -1,0 +1,211 @@
+{
+  "prontuario_id": 892,
+  "text": "ÀS 16h: Provinda do CC, POI de coledocotomia e derivação biliodigestiva. Admissão: PA 135/77 (113), FC 73 bpm, FR 18 rpm, Sat 91%. Glasgow 14, sonolenta. Pupilas isocóricas fotorreagentes. SNG aberta com presença de 100 ml de estase biliosa. Suporte de O2 sob máscara de névoa úmida e cânula de guedel. Acesso venoso central em subclávia D com curativo oclusivo infundindo soroterapia. CPP sem RA. Abdomen globoso, flácido, doloroso à palpação. FO em região hipogástrica à flanco D, dreno de suctor com débito hemático (50 ml). Acesso venoso periférico em dorso mão D soronizado. PAM em radial E permeável. SVD nº 16 com presença de 500 ml de diurese colúrica, evacuação ausente em fralda descartável. Mantido enfaixamento para aquecer MMII. Monitorizada contínuamente com parâmetros de PA invasiva, cardioscopia e oximetria de pulso. Segue sob cuidados intensivos. Enfª Florence Nightingale. EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO.",
+  "entities": {
+    "Abreviação": [
+      "CC",
+      "POI",
+      "PA",
+      "FC",
+      "bpm",
+      "FR",
+      "rpm",
+      "Sat",
+      "CPP",
+      "RA",
+      "FO",
+      "PAM",
+      "MMII",
+      "Enfª",
+      "SNG aberta",
+      "subclávia D",
+      "flanco",
+      "dorso mão D",
+      "radial E",
+      "SVD nº 16",
+      "PA invasiva"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CC"
+    ],
+    "Conceito Temporal": [
+      "POI"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "coledocotomia",
+      "soronizado",
+      "derivação biliodigestiva",
+      "SNG aberta",
+      "Suporte de O2",
+      "névoa úmida",
+      "Acesso venoso central",
+      "curativo oclusivo",
+      "infundindo soroterapia",
+      "dreno de suctor",
+      "Acesso venoso periférico",
+      "SVD nº 16",
+      "enfaixamento para aquecer"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC",
+      "FR",
+      "Sat"
+    ],
+    "Conceito Quantitativo": [
+      "135/77",
+      "113",
+      "73",
+      "91%",
+      "100 ml",
+      "50 ml",
+      "500 ml"
+    ],
+    "Achado": [
+      "18",
+      "flácido",
+      "permeável",
+      "SNG aberta",
+      "débito hemático"
+    ],
+    "Sinal ou Sintoma": [
+      "sonolenta",
+      "RA",
+      "globoso",
+      "QUEIXAS",
+      "Glasgow 14",
+      "estase biliosa",
+      "diurese colúrica"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "Pupilas",
+      "subclávia D",
+      "radial E"
+    ],
+    "Dispositivo Médico": [
+      "máscara",
+      "SNG aberta",
+      "cânula de guedel",
+      "Acesso venoso central",
+      "curativo oclusivo",
+      "dreno de suctor",
+      "Acesso venoso periférico",
+      "SVD nº 16",
+      "fralda descartável"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Localização ou Região Corporal": [
+      "Abdomen",
+      "MMII",
+      "região hipogástrica",
+      "flanco",
+      "D",
+      "dorso mão D"
+    ],
+    "Procedimento Diagnóstico": [
+      "palpação",
+      "PAM",
+      "cardioscopia",
+      "Monitorizada contínuamente",
+      "PA invasiva",
+      "oximetria de pulso"
+    ],
+    "Lesão ou Envenenamento": [
+      "FO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfª"
+    ],
+    "Substância Corporal": [
+      "estase biliosa",
+      "débito hemático"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "cuidados intensivos"
+    ]
+  },
+  "labels": {
+    "DE11": {
+      "term_original": "fo",
+      "capitulo": "13",
+      "confidence_embedding": 0.7768,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de dumping. Definição: Síndrome de dumping é um grupo de sinais e sintomas que se desenvolve mais frequentemente em pessoas que foram submetidas a cirurgia para ressecção total ou parcial do estômago, ou em quem foi submetido a um bypass cirúrgico. Pode ocorrer precocemente (durante a refeição ou após 15-30 minutos com náuseas, vômitos, dor abdominal, cólicas, diarreia, tontura e palpitações cardíacas) ou tardiamente (1 a 3 horas após a refeição com sudorese, fraqueza, fadiga, tonturas, vertigens, palpitações cardíacas e desmaios).",
+      "classification_reasoning": "A opção mais precisa é a Síndrome de dumping, considerando que o paciente tem uma derivação biliodigestiva e apresenta sintomas abdominais, como dor ao tocar, o que pode estar relacionado à cirurgia realizada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa é a Síndrome de dumping, considerando que o paciente tem uma derivação biliodigestiva e apresenta sintomas abdominais, como dor ao tocar. No entanto, a descrição do termo 'fo' não está claramente relacionada à Síndrome de dumping. A dor abdominal pode ser um sintoma de várias condições, incluindo a síndrome de dumping, mas não é suficiente para justificar a atribuição desse código CID-11.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "NC56.5Z": {
+      "term_original": "débito hemático",
+      "capitulo": "22",
+      "confidence_embedding": 0.7854,
+      "descricao_cid": "Representação de doença CID-11: Lesão do vaso sanguíneo do outro dedo da mão, não especificada. Definição: ",
+      "classification_reasoning": "A presença de um débito hemático (50 ml) em região hipogástrica à flanco D sugere uma lesão vascular no nível da mão ou punho, caracterizando a opção mais precisa para o termo dentro do contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'débito hemático' sugere uma lesão vascular no nível da mão ou punho, o que não é compatível com a descrição do prontuário que refere ao local de origem do débito como 'região hipogástrica à flanco D', o que está relacionado ao abdome e não à mão. A codificação CID-11 NC56.5Z não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "ME01": {
+      "term_original": "globoso",
+      "capitulo": "21",
+      "confidence_embedding": 0.7743,
+      "descricao_cid": "Representação de doença CID-11: Distensão abdominal. Definição: Esta é uma condição em que o abdômen parece cheio e tenso por causa do inchaço do abdômen, geralmente devido a um aumento da quantidade de gases intestinais, mas ocorre às vezes quando fluidos, substâncias ou massa estão se acumulando ou se expandindo no abdômen.",
+      "classification_reasoning": "A palavra 'globoso' descreve o abdômen como cheio e tenso, indicando uma distensão abdominal. Isso é coerente com a definição do código ME01.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A palavra 'globoso' descreve o abdômen como cheio e tenso, indicando uma distensão abdominal. Isso é coerente com a definição do código ME01. A descrição clínica do prontuário está alinhada com a definição do código CID-11, portanto, a codificação é válida.",
+      "tipo_erro_auditoria": null
+    },
+    "6C45.3": {
+      "term_original": "sonolenta",
+      "capitulo": "06",
+      "confidence_embedding": 0.7594,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A presença do termo 'sonolenta' no contexto sugere que o paciente está em um estado de consciência reduzida, possivelmente devido à intoxicação por substância. A opção mais precisa é a Intoxicação por cocaína (6C45.3), pois essa condição pode causar perturbações na consciência e percepção.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença do termo 'sonolenta' no prontuário não está relacionada à Intoxicação por cocaína (6C45.3). A condição descrita no prontuário refere-se a um paciente com cirurgia de coledocotomia e derivação biliodigestiva, com sintomas como sonolência, que não é característico da intoxicação por cocaína.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF50.2": {
+      "term_original": "diurese colúrica",
+      "capitulo": "21",
+      "confidence_embedding": 0.789,
+      "descricao_cid": "Representação de doença CID-11: Incontinência urinária. Definição: Qualquer condição do sistema urinário, causada por determinantes que surgem durante o período pré-natal ou após o nascimento, levando à perda do controle voluntário ou do suporte da uretra. Essas condições são caracterizadas por vazamento involuntário de grandes quantidades de urina, em associação com contrações não inibidas do músculo detrusor e a incapacidade de controlar a micção.",
+      "classification_reasoning": "A diurese colúrica mencionada no prontuário refere-se à produção excessiva de urina, característica da poliúria (Código CID-11: MF55). No entanto, a menção específica ao tipo de diurese colúrica sugere que se trata de uma condição mais específica, como a incontinência urinária (Código CID-11: MF50.2), que também pode estar relacionada à produção excessiva de urina.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A diurese colúrica mencionada no prontuário refere-se à produção excessiva de urina, característica da poliúria (Código CID-11: MF55). No entanto, o código CID-11 atribuído (MF50.2) representa incontinência urinária, que não é diretamente relacionada à diurese colúrica descrita no prontuário. A classificação é incorreta e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DC34": {
+      "term_original": "estase biliosa",
+      "capitulo": "13",
+      "confidence_embedding": 0.752,
+      "descricao_cid": "Representação de doença CID-11: Pancreatite obstrutiva. Definição: Esta é uma obstrução na presença de inflamação do pâncreas que requer atenção médica imediata e hospitalização durante um ataque, que tem múltiplas causas e sintomas, que ocorre quando enzimas pancreáticas (especialmente a tripsina) que digerem os alimentos são ativadas no pâncreas em vez de no intestino delgado.",
+      "classification_reasoning": "A presença de estase biliosa no contexto do prontuário sugere a possibilidade de pancreatite obstrutiva, pois esta condição é caracterizada por inflamação do pâncreas e obstrução, o que pode levar à formação de líquidos nas vias biliareis",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de estase biliosa no prontuário é uma indicação clara da possibilidade de pancreatite obstrutiva, que é caracterizada por inflamação do pâncreas e obstrução. A codificação CID-11 DC34 para pancreatite obstrutiva está clinicamente coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "DA60.3": {
+      "term_original": "sng aberta",
+      "capitulo": "13",
+      "confidence_embedding": 0.7777,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A abertura de SNG (Sistema Gastrointestinal) com presença de estase biliosa sugere lesão aguda na mucosa gástrica, o que é característico da úlceras de estresse do estômago.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A abertura de SNG com presença de estase biliosa sugere lesão aguda na mucosa gástrica, o que é característico da úlceras de estresse do estômago. A descrição do código CID-11 DA60.3 também se ajusta à situação clínica descrita no prontuário. Portanto, a codificação CID-11 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MC82.0": {
+      "term_original": "permeável",
+      "capitulo": "21",
+      "confidence_embedding": 0.785,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico.",
+      "classification_reasoning": "A palavra 'permeável' está relacionada ao parâmetro de PAM em radial E, o que sugere que há uma situação crítica cardíaca e a escolha do código MC82.0, representando Parada cardíaca com taquicardia e fibrilação ventricular, é a mais precisa no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'permeável' não está relacionada a uma condição cardíaca crítica, mas sim ao parâmetro de PAM em radial E. Isso sugere que o código MC82.0, representando Parada cardíaca com taquicardia e fibrilação ventricular, não é a mais precisa no contexto clínico.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

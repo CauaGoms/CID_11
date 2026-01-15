@@ -1,0 +1,89 @@
+{
+  "prontuario_id": 117,
+  "text": "01:48h: Admitida na unidade a 01:30h, proveniente do centro cirúrgico,  no POI de fratura exposta de  punho E, encontra-se consciente, orientada, verbalizando, em repouso no leito, ssvv dentro dos parametros de normalidade, mantem acesso venoso periférico em MSD permeavel salinizado no momento, curativo + tala gessada em MSE limpo e seco externamente, sem qeuixas álgicas, segue acompanahda sob cuidados de enfermagem. Enfermeira Florence Nightingale. FRATURA DA DIAFISE DO RADIO.",
+  "entities": {
+    "Conceito Temporal": [
+      "POI"
+    ],
+    "Abreviação": [
+      "POI",
+      "MSD",
+      "MSE",
+      "punho E",
+      "ssvv dentro dos parametros de normalidade"
+    ],
+    "Achado": [
+      "consciente",
+      "orientada",
+      "verbalizando",
+      "permeavel",
+      "salinizado",
+      "em repouso no leito",
+      "ssvv dentro dos parametros de normalidade"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD",
+      "MSE"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "curativo",
+      "acesso venoso periférico",
+      "tala gessada"
+    ],
+    "Dispositivo Médico": [
+      "curativo",
+      "acesso venoso periférico",
+      "tala gessada"
+    ],
+    "Conceito Espacial": [
+      "externamente"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "enfermagem",
+      "Enfermeira"
+    ],
+    "Lesão ou Envenenamento": [
+      "FRATURA",
+      "fratura exposta"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Admitida na unidade",
+      "sob cuidados"
+    ],
+    "Organização Relacionada à Saúde": [
+      "centro cirúrgico"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "punho E",
+      "DIAFISE DO RADIO"
+    ],
+    "Sinal ou Sintoma": [
+      "qeuixas álgicas"
+    ]
+  },
+  "labels": {
+    "FB80.B": {
+      "term_original": "fratura",
+      "capitulo": "15",
+      "confidence_embedding": 0.7213,
+      "descricao_cid": "Representação de doença CID-11: Fratura patológica. Definição: ",
+      "classification_reasoning": "A paciente apresenta uma fratura exposta de punho, o que é compatível com a definição de fratura patológica (FB80.B). A opção FB80.9 e FB80.8 não são adequadas pois se referem a atraso ou ausência de consolidação de fratura, respectivamente, mas a paciente está já consolidada. A opção FA38.1 é inapropriada pois trata de artropatia neuropática e não de fratura. A opção FB80.A não é adequada pois se refere a fratura de estresse não classificada em outra parte e a paciente tem uma fratura exposta claramente patológica.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A fratura exposta de punho E descrita no prontuário é uma condição clínica diretamente relacionada ao termo 'fratura'. A opção FB80.B, que representa fratura patológica, é adequada e coerente com o conteúdo do prontuário. Não há contradições óbvias ou associações puramente imaginárias. A classificação está justificada pela descrição da fratura exposta e não há motivos para remover.",
+      "tipo_erro_auditoria": null
+    },
+    "MB23.H": {
+      "term_original": "qeuixas álgicas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7469,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A opção MB23.H, Crise de pânico, é a mais precisa para o termo 'qeuixas álgicas' no contexto clínico pois refere-se a sintomas característicos da crise de pânico, incluindo dor ou desconforto físico. Nesse caso, a presença de 'qeuixas álgicas' sugere a possibilidade de uma crise de pânico, embora não haja outras evidências nesse sentido no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção MB23.H, Crise de pânico, não representa fielmente o termo 'qeuixas álgicas' no prontuário. A presença de 'qeuixas álgicas' se refere a dor ou desconforto físico na fratura exposta do punho E, e não à crise de pânico. Além disso, não há outras evidências nesse sentido no prontuário que justificariam essa classificação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "prontuario_id": 361,
+  "text": "1 consulta.\n\nhx previa de hernia de disco.\n\ndor na mie. \n\nsem sinais de radiculopatia. \n\ntendinopatia da coxa posterior.\n\n\nfst.\nret em 6 semanas com rx.",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "consulta"
+    ],
+    "Sinal ou Sintoma": [
+      "dor"
+    ],
+    "Abreviação": [
+      "mie",
+      "fst",
+      "rx"
+    ],
+    "Localização ou Região Corporal": [
+      "mie",
+      "coxa posterior"
+    ],
+    "Doença ou Síndrome": [
+      "radiculopatia"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "fst"
+    ],
+    "Procedimento Diagnóstico": [
+      "rx"
+    ],
+    "Anormalidade Adquirida": [
+      "hernia de disco"
+    ]
+  },
+  "labels": {
+    "8B93.6": {
+      "term_original": "radiculopatia",
+      "capitulo": "08",
+      "confidence_embedding": 0.7611,
+      "descricao_cid": "Representação de doença CID-11: Radiculopatia devida a transtornos de disco intervertebral. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a radiculopatia devida a transtornos de disco intervertebral (Código CID-11: 8B93.6) porque o paciente tem história previa de hernia de disco e dor na região do mi, sem sinais de radiculopatia, o que sugere uma possível relação entre a doença discal e a dor apresentada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor na região do mi sem sinais de radiculopatia não justifica a atribuição do código 8B93.6, que é específico para radiculopatia devida a transtornos de disco intervertebral. A história previa de hernia de disco e a dor na região do mi podem estar relacionadas, mas não há evidência clínica suficiente para confirmar a presença de radiculopatia.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "FA80.8": {
+      "term_original": "dor",
+      "capitulo": "15",
+      "confidence_embedding": 0.7589,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A dor na região lombar e a tendinopatia da coxa posterior sugerem degeneração de disco intervertebral da coluna lombara, o que é compatível com o código FA80.8.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor na mie e a tendinopatia da coxa posterior não são diretamente relacionadas à degeneração de disco intervertebral da coluna lombar. A dor pode ser causada por várias razões, incluindo a hernia de disco previamente diagnosticada. Portanto, o código FA80.8 não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8C11.0": {
+      "term_original": "hernia de disco",
+      "capitulo": "08",
+      "confidence_embedding": 0.7128,
+      "descricao_cid": "Representação de doença CID-11: Lesão do nervo ciático. Definição: Doença ou dano envolvendo o NERVO CIÁTICO, que se divide em NERVO PERONEAL e NERVO TIBIAL (ver também NEUROPATIAS PERONEAIS e NEUROPATIA TIBIAL). Manifestações clínicas podem incluir CIÁTICA ou dor localizada no quadril, PARESIA ou PARALISIA de músculos posteriores da coxa e músculos inervados pelos nervos fibulares e tibiais, e perda sensória envolvendo a coxa lateral e posterior, perna posterior e lateral e planta do pé. O nervo ciático pode ser afetado por traumatismo; ISQUEMIA; DOENÇAS DO COLÁGENO; e outras condições.",
+      "classification_reasoning": "A escolha do código 8C11.0 é baseada na presença de dor na mi, sem sinais de radiculopatia, e tendinopatia da coxa posterior, o que sugere uma lesão do nervo ciático.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código 8C11.0 está baseada na presença de dor na mi e tendinopatia da coxa posterior, o que sugere uma lesão do nervo ciático. No entanto, a descrição do prontuário não menciona lesão ou dano ao nervo ciático, apenas uma hernia de disco e dor na mi sem sinais de radiculopatia. A codificação 8C11.0 é mais específica para lesões do nervo ciático, enquanto a descrição do prontuário não apresenta essa relação clínica direta.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

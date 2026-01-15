@@ -1,0 +1,38 @@
+{
+  "prontuario_id": 603,
+  "text": "dor na região posterior da perna quando caminha. traz doppler de mid com art femoral fechada.\n\nencaminho ao cx vascular.",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "dor"
+    ],
+    "Localização ou Região Corporal": [
+      "região posterior da perna"
+    ],
+    "Procedimento Diagnóstico": [
+      "doppler de mid"
+    ],
+    "Abreviação": [
+      "doppler de mid",
+      "art femoral fechada",
+      "cx vascular"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "art femoral fechada"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "art femoral fechada"
+    ]
+  },
+  "labels": {
+    "8E43.0": {
+      "term_original": "dor",
+      "capitulo": "08",
+      "confidence_embedding": 0.7168,
+      "descricao_cid": "Representação de doença CID-11: Dor neuropática. Definição: Dor neuropática é descrita como elétrica, queimação ou choque, causada por processos metabólicos, nutricionais, infecciosos, genéticos, autoimunes e/ou vasculíticos. A dor pode ocorrer espontaneamente, sem provocação, ou ser provocada por estímulos dolorosos ou não. A dor é característica da neuropatia de fibras pequenas, mas mesmo nas neuropatias de fibras grandes, um número suficiente de fibras pequenas pode estar danificado para causar dor. A dor neuropática geralmente afeta pele e estruturas subcutâneas distais. A dor pode ser constante ou intermitente e pode ser descrita como lancinante, em queimação ou fria como gelo.\r\n\r\nA síndrome de dor regional complexa segue-se ao trauma e compreende dor regional, alterações sensitivas, anormalidades de temperatura, atividade sudomotora, alterações de cor da pele e edema.",
+      "classification_reasoning": "A dor na região posterior da perna quando caminha sugere uma lesão do nervo femoral ou neuropatia, o que é descrito na definição do código 8E43.0.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor na região posterior da perna quando caminha não é suficientemente específica para justificar a escolha do código 8E43.0, que descreve dor neuropática. A lesão do nervo femoral ou neuropatia pode ser uma possibilidade, mas o prontuário não fornece evidências conclusivas para essa afirmação. Além disso, a definição do código CID-11 menciona dor elétrica, queimação ou choque, enquanto a descrição da dor na perna é mais genérica e pode ser causada por várias razões. Portanto, o código 8E43.0 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    }
+  }
+}

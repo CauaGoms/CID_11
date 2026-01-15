@@ -1,0 +1,99 @@
+{
+  "prontuario_id": 185,
+  "text": "INVESTIGAVA  DOR TORAXCICA.\nATUALMENTE S SEM   QX.\nCATE   2013  SEM ATC.\nHAS.\nUSA   HCT,  ATL,  AAS,    CLOP,  SVT.\n10/09/14  - CATE   DA    PIM   CO0M OBSTRUÇÃO NA SISTOLE  >  50/  LESAO MODERADA       N 1/3  PRIOXIMAL   40 %.\nA:  PIM*/  DAC   INCIPIENTE. \nP:   ASSOCIO  VERAPAMIL  80  /D,\n      MANTENHO  HCT,   ATL 50 /D, AAS,    SVT    20 /D.\n      LAB E  RETORNO CARDIO GERAL EM  6 MESES.\n \n \n \n ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "INVESTIGAVA",
+      "MANTENHO",
+      "RETORNO"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Abreviação": [
+      "QX",
+      "CATE",
+      "ATC",
+      "HAS",
+      "HCT",
+      "ATL",
+      "AAS",
+      "CLOP",
+      "SVT",
+      "A",
+      "PIM*/",
+      "P",
+      "LAB",
+      "DAC INCIPIENTE",
+      "CARDIO GERAL"
+    ],
+    "Sinal ou Sintoma": [
+      "QX",
+      "DOR TORAXCICA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CATE"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DAC INCIPIENTE"
+    ],
+    "Substância Farmacológica": [
+      "HCT",
+      "ATL",
+      "AAS",
+      "CLOP",
+      "SVT",
+      "VERAPAMIL"
+    ],
+    "Substância Química Orgânica": [
+      "HCT",
+      "ATL",
+      "AAS",
+      "CLOP",
+      "SVT"
+    ],
+    "Procedimento Diagnóstico": [
+      "A"
+    ],
+    "Produto Intelectual": [
+      "P"
+    ],
+    "Procedimento Laboratorial": [
+      "LAB"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CO0M OBSTRUÇÃO NA SISTOLE &gt; 50/",
+      "LESAO MODERADA N 1/3 PRIOXIMAL 40 %"
+    ],
+    "Conceito Quantitativo": [
+      "50 /D",
+      "20 /D"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "CARDIO GERAL"
+    ]
+  },
+  "labels": {
+    "CB21.1": {
+      "term_original": "dor toraxcica",
+      "capitulo": "12",
+      "confidence_embedding": 0.7197,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A dor toraxcica é o sintoma principal da investigação e, considerando a presença de pneumotórax espontâneo primário com obstrução na sístole > 50% e lesão moderada em 1/3 do pulmão proximal, 40%, se torna mais provável a classificação como pneumotórax espontâneo, corroborando a escolha do código CB21.1",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dor toraxcica é o sintoma principal da investigação e, considerando a presença de pneumotórax espontâneo primário com obstrução na sístole > 50% e lesão moderada em 1/3 do pulmão proximal, 40%, se torna mais provável a classificação como pneumotórax espontâneo, corroborando a escolha do código CB21.1.",
+      "tipo_erro_auditoria": null
+    },
+    "BC10.9": {
+      "term_original": "dac incipiente",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A presença do termo 'DAC incipiente' no prontuário sugere uma resposta imune ao dano miocárdico, o que é compatível com a definição da cardiomiopatia (BC43). No entanto, considerando a história de obstrução na sístole e lesão moderada no terço proximal do ventrículo esquerdo, a escolha mais precisa é o código BC10.9, que representa 'Doença miocárdica não especificada', que inclui cardiomiopatia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código BC10.9, 'Doença miocárdica não especificada', é demasiado geral e não representa fielmente o termo 'DAC incipiente' no prontuário. A presença de obstrução na sístole e lesão moderada no terço proximal do ventrículo esquerdo sugere uma cardiomiopatia, que é mais específica e adequada para a codificação CID-11.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    }
+  }
+}

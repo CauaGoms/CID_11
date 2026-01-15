@@ -1,0 +1,217 @@
+{
+  "prontuario_id": 657,
+  "text": "LUCAS, 66 A.\n# EX-TABAGISTA. # CARDIOPATA ISQUÊMICA (IAM 2001- ACTP 1ª DAE) => OCLUSÃO AGUDA DE STENT - DILATAÇÃO POR BALÃO. # ACTP 2005 COM 2 STENT EM ACD # INTERNAÇÃO (18/04/06): ANGINA INSTÁVEL COM PADRÃO EM CRESCENDO. # CAT (19/04/06):  => GRANDE RAMO MARGINAL DA ARTÉRIA CIRCUNFLEXA COM LESÃO EXCÊNTRICA E SEVERA NO 1/3 PROXIMAL; => DAE COM STENT ENVOLVENDO NOS 1/3 PROXIMAL E INÍCIO DO 1/3 MÉDIO, SEM LESÕES SIGNIFICATIVAS. => CD COM STENT NOS 1/3 PROXIMAL E MÉDIO, APRESENTANDO LESÃO DE APROX 65 - 70% NO SEU INTERIOR.  PACIENTE INTERNA COM QUADRO DE ANGINA TÍPICA PADRÃO EM CRESCENDO, RELACIONADA AOS PEQUENOS ESFORÇOS, DE INÍCIO HÁ 1 MÊS. NA INTERNAÇÃO NÃO APRESENTOU ALTERAÇÕES DE MARCADORES DE NECROSE. FOI SUBMETIDA A ACTP E IMPLANTE DE STENT NO SEGMENTO MÉDIO DA ARTÉRIA CX. EVOLUIU BEM, SEM INTERCORRÊNCIAS. APRESENTA - SE BEM, SEM DOR TORÁCICA E SEM DISPNÉIA. TEM CONDIÇÕES DE RECEBER ALTA HOSPITALAR E MANTER MEDICAÇÕES EM CASA. SE APRESENTAR ALTERAÇÕES, RETORNAR A EMERGÊNCIA DESTE HOSPITAL, SEMPRE PORTANDO EM MÃOS ESTA NOTA DE ALTA HOSPITALAR.",
+  "entities": {
+    "Achado": [
+      "EX-TABAGISTA",
+      "PEQUENOS ESFORÇOS",
+      "EVOLUIU BEM",
+      "APRESENTA - SE BEM"
+    ],
+    "Doença ou Síndrome": [
+      "IAM",
+      "CARDIOPATA ISQUÊMICA",
+      "OCLUSÃO AGUDA DE STENT",
+      "ANGINA INSTÁVEL",
+      "ANGINA TÍPICA"
+    ],
+    "Abreviação": [
+      "IAM",
+      "ACTP",
+      "ACD",
+      "CAT",
+      "DAE",
+      "CD",
+      "SEGMENTO MÉDIO DA ARTÉRIA CX"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ACTP",
+      "CAT",
+      "STENT",
+      "DILATAÇÃO POR BALÃO",
+      "IMPLANTE DE STENT"
+    ],
+    "Dispositivo Médico": [
+      "STENT"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ACD",
+      "DAE",
+      "CD",
+      "MÃOS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "INTERNAÇÃO",
+      "INTERNA",
+      "SUBMETIDA",
+      "RETORNAR",
+      "ALTA HOSPITALAR",
+      "MANTER MEDICAÇÕES EM CASA"
+    ],
+    "Procedimento Diagnóstico": [
+      "CAT"
+    ],
+    "Conceito Qualitativo": [
+      "SEVERA",
+      "PADRÃO EM CRESCENDO"
+    ],
+    "Negação": [
+      "SEM",
+      "NÃO"
+    ],
+    "Lesão ou Envenenamento": [
+      "LESÃO",
+      "LESÕES SIGNIFICATIVAS"
+    ],
+    "Conceito Espacial": [
+      "INTERIOR",
+      "1/3 PROXIMAL",
+      "INÍCIO DO 1/3 MÉDIO",
+      "1/3 PROXIMAL E MÉDIO"
+    ],
+    "Sinal ou Sintoma": [
+      "QUADRO",
+      "ALTERAÇÕES",
+      "INTERCORRÊNCIAS",
+      "DISPNÉIA",
+      "ANGINA TÍPICA",
+      "DOR TORÁCICA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "INTERNAÇÃO",
+      "HOSPITAL",
+      "A EMERGÊNCIA"
+    ],
+    "Objeto Manufaturado": [
+      "HOSPITAL"
+    ],
+    "Localização ou Região Corporal": [
+      "RAMO MARGINAL DA ARTÉRIA CIRCUNFLEXA",
+      "SEGMENTO MÉDIO DA ARTÉRIA CX"
+    ],
+    "Conceito Quantitativo": [
+      "65 - 70%"
+    ],
+    "Conceito Temporal": [
+      "INÍCIO HÁ 1 MÊS"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "MARCADORES DE NECROSE"
+    ],
+    "Procedimento Laboratorial": [
+      "MARCADORES DE NECROSE"
+    ]
+  },
+  "labels": {
+    "BD50.0Z": {
+      "term_original": "evoluiu bem",
+      "capitulo": "11",
+      "confidence_embedding": 0.7593,
+      "descricao_cid": "Representação de doença CID-11: Dissecção da aorta torácica, dissecção da aorta ascendente e propagação além do arco, sem menção de perfuração ao ruptura. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'evoluiu bem' é a dissecção da aorta torácica, pois isso indica uma evolução positiva e satisfatória do paciente após o procedimento cirúrgico, sem complicações ou mudanças significativas em sua condição clínica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BD50.0Z não representa fielmente o termo 'evoluiu bem' no prontuário, pois dissecção da aorta torácica não está relacionada à evolução clínica do paciente após procedimento cirúrgico. A descrição do código CID-11 refere-se a uma lesão vascular grave e não tem relação com o termo 'evoluiu bem', que indica uma evolução positiva e satisfatória do paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MC80.0": {
+      "term_original": "alterações",
+      "capitulo": "21",
+      "confidence_embedding": 0.7096,
+      "descricao_cid": "Representação de doença CID-11: Valor elevado da pressão arterial sem diagnóstico de hipertensão. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'alterações' está relacionada às mudanças fisiológicas e patológicas presentes na história do paciente, como a evolução da doença cardiovascular, alterações no fluxo sanguíneo e possíveis mudanças nos marcadores de necrose. O código MC80.0 se refere ao valor elevado da pressão arterial sem diagnóstico de hipertensão, o que está alinhado com as informações fornecidas sobre a doença cardíaca do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção MC80.0 não está relacionada às alterações descritas no prontuário, que se referem a mudanças fisiológicas e patológicas presentes na história do paciente, como a evolução da doença cardiovascular, alterações no fluxo sanguíneo e possíveis mudanças nos marcadores de necrose. O código MC80.0 se refere ao valor elevado da pressão arterial sem diagnóstico de hipertensão, o que não está alinhado com as informações fornecidas sobre a doença cardíaca do paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA51": {
+      "term_original": "cardiopata isquêmica",
+      "capitulo": "11",
+      "confidence_embedding": 0.75,
+      "descricao_cid": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas.",
+      "classification_reasoning": "A cardiopata isquêmica (IAM) é uma doença que afeta o miocárdio e está relacionada à disfunção sistólica ventricular esquerda, com antecedente de revascularização do miocárdio ou infarto do miocárdio prévios. Como o paciente tem história de IAM e apresenta cardiopata isquêmica, a opção mais precisa é a BA51 - Miocardiopatia isquêmica.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A cardiopata isquêmica (IAM) é uma doença que afeta o miocárdio e está relacionada à disfunção sistólica ventricular esquerda, com antecedente de revascularização do miocárdio ou infarto do miocárdio prévios. Como o paciente tem história de IAM e apresenta cardiopata isquêmica, a opção mais precisa é a BA51 - Miocardiopatia isquêmica.",
+      "tipo_erro_auditoria": null
+    },
+    "NB30.0Z": {
+      "term_original": "lesão",
+      "capitulo": "22",
+      "confidence_embedding": 0.7338,
+      "descricao_cid": "Representação de doença CID-11: Lesão da aorta torácica, não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'lesão' no contexto clínico é a NB30.0Z, que descreve Lesão da aorta torácica, não especificada. A menção à lesão excêntrica e severa na artéria circunflexa e ao interior do stent sugere uma lesão vascular, o que justifica a escolha desta opção.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção CID-11 NB30.0Z Lesão da aorta torácica, não especificada é uma representação clínica coerente com o prontuário. A menção à lesão excêntrica e severa na artéria circunflexa e ao interior do stent sugere uma lesão vascular que justifica a escolha desta opção.",
+      "tipo_erro_auditoria": null
+    },
+    "MC82.1": {
+      "term_original": "quadro",
+      "capitulo": "21",
+      "confidence_embedding": 0.7228,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com bradicardia. Definição: Ritmo de escape lento associado a colapso hemodinâmico.",
+      "classification_reasoning": "A opção mais precisa para o termo 'quadro' é a parada cardíaca com bradicardia (MC82.1), pois no contexto clínico, o paciente apresenta um quadro de angina instável com padrão em crescendo, relacionado a pequenos esforços, o que sugere uma situação crítica e urgente na cardiopata isquêmica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção MC82.1 não se refere ao termo 'quadro' no contexto do prontuário, que descreve um quadro de angina instável com padrão em crescendo, relacionado a pequenos esforços. A parada cardíaca com bradicardia (MC82.1) é uma condição crítica e urgente, mas não se refere ao termo 'quadro' que descreve um quadro de doença. Portanto, o código CID-11 atribuído não representa fielmente o termo ou a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA81": {
+      "term_original": "iam",
+      "capitulo": "11",
+      "confidence_embedding": 0.7707,
+      "descricao_cid": "Representação de doença CID-11: Aneurisma de artéria coronária. Definição: Dilatação coronária que excede o diâmetro dos segmentos adjacentes normais ou o diâmetro do maior vaso coronário do paciente em 1,5 vezes.",
+      "classification_reasoning": "A escolha do código BA81 (Aneurisma de artéria coronária) é a mais precisa porque o termo 'IAM' se refere ao infarto agudo do miocárdio, que provavelmente está relacionado à doença cardíaca isquêmica (IAM 2001- ACTP 1ª DAE) mencionada no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'IAM' se refere ao infarto agudo do miocárdio, que não é um aneurisma de artéria coronária. A escolha do código BA81 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "QB50.4": {
+      "term_original": "ex-tabagista",
+      "capitulo": "24",
+      "confidence_embedding": 0.679,
+      "descricao_cid": "Representação de doença CID-11: Presença de implante ou enxerto de angioplastia coronária. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'ex-tabagista' é a representação de doença CID-11: Presença de implante ou enxerto de angioplastia coronária, pois o paciente tem uma história prévia de tabagismo e subsequente cardiopatia isquêmica (IAM) com implante de stent.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'ex-tabagista' não representa uma condição clínica diretamente relacionada à cardiopatia isquêmica (IAM) com implante de stent. A opção mais precisa é a representação de doença CID-11: Presença de implante ou enxerto de angioplastia coronária, que está relacionada ao procedimento realizado no paciente e não à sua história de tabagismo.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA40.Y": {
+      "term_original": "angina típica",
+      "capitulo": "11",
+      "confidence_embedding": 0.7871,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A paciente apresenta sintomas de angina típica, ou seja, dor torácica característica e relacionada a esforços físicos. A escolha do código BA40.Y como mais precisa é justificada pela descrição da doença CID-11 como 'Outra angina pectoris especificada', que se ajusta à situação clínica descrita no contexto.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código BA40.Y é justificada pela descrição da doença CID-11 como 'Outra angina pectoris especificada', que se ajusta à situação clínica descrita no contexto. A paciente apresenta sintomas de angina típica, ou seja, dor torácica característica e relacionada a esforços físicos, o que é diretamente relacionado ao termo 'angina típica' extraído do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "CA22.0": {
+      "term_original": "dispnéia",
+      "capitulo": "12",
+      "confidence_embedding": 0.7195,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A dispnéia mencionada no contexto clínico é relacionada a uma exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC), caracterizada por piora dos sintomas respiratórios, como dispnéia basal, tosse e produção de escarro.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dispnéia mencionada no prontuário é relacionada à angina instável e não à Doença Pulmonar Obstrutiva Crônica (DPOC). Portanto, o código CID-11 atribuído (CA22.0) não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MG30.2": {
+      "term_original": "dor torácica",
+      "capitulo": "21",
+      "confidence_embedding": 0.7344,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A dor torácica mencionada no contexto clínico está relacionada à cardiopatia isquêmica e ao procedimento cirúrgico realizado, o que justifica a escolha do código MG30.2 para representar a dor crônica pós-operatória ou pós-traumática.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor torácica mencionada no prontuário é um sintoma, não uma condição clínica diretamente relacionada à cardiopatia isquêmica. O código CID-11 MG30.2 representa dor crônica pós-operatória ou pós-traumática, que não se aplica ao caso de Lucas, pois a dor torácica é um sintoma da doença e não uma consequência do procedimento cirúrgico.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BA83": {
+      "term_original": "oclusão aguda de stent",
+      "capitulo": "11",
+      "confidence_embedding": 0.7565,
+      "descricao_cid": "Representação de doença CID-11: Fístula da artéria coronária, adquirida. Definição: Comunicação anormal entre uma artéria coronária e câmara cardíaca ou vasos principais, adquirida após cirurgia coronária ou cardíaca, angioplastia coronária, ruptura ou aneurisma da artéria coronária ou lesão do coração.",
+      "classification_reasoning": "A oclusão aguda de stent é uma lesão anormal da artéria coronária, adquirida após procedimento como angioplastia. O código BA83 representa Fístula da artéria coronária, adquirida, que melhor se ajusta ao contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A oclusão aguda de stent não é uma fistula da artéria coronária, adquirida. A descrição do prontuário refere-se a uma lesão anormal na artéria coronária após procedimento como angioplastia, enquanto o código CID-11 BA83 se refere a uma comunicação anormal entre a artéria coronária e câmara cardíaca ou vasos principais. A classificação é incorreta e não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

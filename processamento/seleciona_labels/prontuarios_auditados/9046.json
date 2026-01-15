@@ -1,0 +1,60 @@
+{
+  "prontuario_id": 358,
+  "text": "P = 73 A; 1,50; IMC 33.\n\nPCTE REFERE MAMAS GRANDES E NEFROPATIA.\nORIENTO EMAGRECIMENTO.\n\nRETORNO EM 6 MESES.",
+  "entities": {
+    "Atributo Clínico": [
+      "P",
+      "A",
+      "IMC"
+    ],
+    "Abreviação": [
+      "P",
+      "A",
+      "IMC",
+      "PCTE"
+    ],
+    "Conceito Qualitativo": [
+      "73"
+    ],
+    "Conceito Quantitativo": [
+      "33"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PCTE"
+    ],
+    "Doença ou Síndrome": [
+      "NEFROPATIA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ORIENTO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "EMAGRECIMENTO"
+    ],
+    "Achado": [
+      "MAMAS GRANDES"
+    ]
+  },
+  "labels": {
+    "BD73.2": {
+      "term_original": "nefropatia",
+      "capitulo": "11",
+      "confidence_embedding": 0.7171,
+      "descricao_cid": "Representação de doença CID-11: Obstrução de veia sistêmica. Definição: Condição patológica pós-natal de uma veia sistêmica em que o fluxo é impedido ou bloqueado devido a estreitamento ou atresia.",
+      "classification_reasoning": "A opção mais precisa é BD73.2, pois o termo 'nefropatia' se refere à doença renal, e a opção apresenta obstrução de veia sistêmica, que está relacionada à lesão renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BD73.2 se refere a obstrução de veia sistêmica, que não está diretamente relacionada à nefropatia descrita no prontuário. A condição clínica apresentada é uma lesão renal, e o código CID-11 deve representar essa condição mais precisamente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EA90.1": {
+      "term_original": "mamas grandes",
+      "capitulo": "14",
+      "confidence_embedding": 0.6593,
+      "descricao_cid": "Representação de doença CID-11: Psoríase gutata. Definição: Erupção aguda e geralmente disseminada de pápulas pequenas (<1 cm) de psoríase associadas na maioria dos casos a infecção estreptocócica precedente, particularmente amigdalite e dor de garganta estreptocócica. Esta forma de psoríase é observada tipicamente em crianças e adultos jovens. Se não tratada, tende a se resolver em um período de quatro a seis meses.",
+      "classification_reasoning": "A opção EA90.1 é a mais precisa para o termo 'mamas grandes' no contexto do prontuário, pois refere-se à psoríase gutata, que pode causar lesões na pele e mucosas, incluindo as mamas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção EA90.1 refere-se à psoríase gutata, que é uma doença cutânea e não está relacionada às 'mamas grandes' descritas no prontuário. A codificação CID-11 deve ser clínicamente coerente com o prontuário, portanto, a opção EA90.1 não representa fielmente o termo ou condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

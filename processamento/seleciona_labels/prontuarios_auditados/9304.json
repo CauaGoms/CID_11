@@ -1,0 +1,199 @@
+{
+  "prontuario_id": 959,
+  "text": "16:00: permanece em sala de poli, intubada em VM sob modo PCV FR: 15, PEEP: 6 e PL: 22, hipocorada,  enegrecida, sedada com plano de Dormo 20 ml/h, Fenta 10 ml/h. Com cabeceira elevada 45º. Permanece monitorizada com oximetria de pulso, controle de PA não invasiva e monitorização cardíaca SSVV no momento: FC: 62  bpm, PA: 128x74 mmHg e mantendo Sat O2 > 97%. Com Acesso venoso central em subclávia D. Com presença de equimose em MMSS. Com SNG recebendo dieta em BI 30ml/h. Com SVD com débito de 75 ml de aspecto alaranjado e com presença de grumos. Evacuação ausente. Aguarda vaga de UTI.  Florence Nightingale Coren xxxx  EXAME GERAL E INVESTIGAÇÃO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO",
+  "entities": {
+    "Procedimento Terapêutico ou Preventivo": [
+      "intubada",
+      "VM",
+      "PEEP",
+      "sedada",
+      "SNG",
+      "SVD",
+      "modo PCV",
+      "cabeceira elevada 45º",
+      "Acesso venoso central",
+      "dieta em BI"
+    ],
+    "Achado": [
+      "intubada",
+      "sedada",
+      "Evacuação",
+      "com débito",
+      "aspecto alaranjado"
+    ],
+    "Abreviação": [
+      "VM",
+      "FR",
+      "PEEP",
+      "PL",
+      "Dormo",
+      "Fenta",
+      "SSVV",
+      "FC",
+      "PA",
+      "MMSS",
+      "SNG",
+      "30ml/h",
+      "SVD",
+      "UTI",
+      "sala de poli",
+      "modo PCV",
+      "controle de PA não invasiva",
+      "Sat O2",
+      "subclávia D",
+      "dieta em BI"
+    ],
+    "Atributo Clínico": [
+      "FR",
+      "SSVV",
+      "FC",
+      "PA",
+      "Sat O2"
+    ],
+    "Conceito Quantitativo": [
+      "15",
+      "6",
+      "22",
+      "30ml/h",
+      "20 ml/h",
+      "10 ml/h",
+      "62 bpm",
+      "128x74 mmHg",
+      "&gt; 97%",
+      "75 ml"
+    ],
+    "Sinal ou Sintoma": [
+      "hipocorada",
+      "enegrecida",
+      "equimose",
+      "presença de grumos"
+    ],
+    "Substância Farmacológica": [
+      "Dormo",
+      "Fenta"
+    ],
+    "Substância Química Orgânica": [
+      "Dormo",
+      "Fenta"
+    ],
+    "Procedimento Diagnóstico": [
+      "monitorizada",
+      "oximetria de pulso",
+      "controle de PA não invasiva",
+      "monitorização cardíaca"
+    ],
+    "Localização ou Região Corporal": [
+      "MMSS"
+    ],
+    "Dispositivo Médico": [
+      "SNG",
+      "SVD",
+      "Acesso venoso central"
+    ],
+    "Função Fisiológica": [
+      "Evacuação"
+    ],
+    "Negação": [
+      "ausente"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UTI",
+      "sala de poli"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "subclávia D"
+    ]
+  },
+  "labels": {
+    "NE89": {
+      "term_original": "evacuação",
+      "capitulo": "22",
+      "confidence_embedding": 0.7985,
+      "descricao_cid": "Representação de doença CID-11: Consciência sob anestesia geral. Definição: ",
+      "classification_reasoning": "A palavra 'evacuação' está relacionada à falta de evacuação intestinal ou urinária, o que é comum em pacientes hospitalizados e intubados. A opção NE89 se refere à representação de doença CID-11: Consciência sob anestesia geral, que inclui a ausência de evacuação.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'evacuação' no prontuário refere-se à ausência de evacuação intestinal ou urinária, o que é comum em pacientes hospitalizados e intubados. No entanto, o código CID-11 NE89 se refere a Consciência sob anestesia geral, que não está diretamente relacionada ao termo 'evacuação'. Portanto, a codificação é incoerente clínica e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA01": {
+      "term_original": "hipocorada",
+      "capitulo": "11",
+      "confidence_embedding": 0.7719,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A opção mais precisa é a doença cardíaca hipertensiva (Código: BA01), pois o termo 'hipocorada' sugere uma condição relacionada à pressão arterial ou ao coração, e a definição da doença cardíaca hipertensiva inclui hipertrofia ventricular esquerda e arritmias cardíacas, que se encaixam com os sintomas descritos no contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa é a doença cardíaca hipertensiva (Código: BA01), pois o termo 'hipocorada' sugere uma condição relacionada à pressão arterial ou ao coração, e a definição da doença cardíaca hipertensiva inclui hipertrofia ventricular esquerda e arritmias cardíacas, que se encaixam com os sintomas descritos no contexto clínico.",
+      "tipo_erro_auditoria": null
+    },
+    "ED70.30": {
+      "term_original": "equimose",
+      "capitulo": "14",
+      "confidence_embedding": 0.7638,
+      "descricao_cid": "Representação de doença CID-11: Eflúvio telógeno agudo. Definição: Eflúvio telógeno agudo é uma queda de cabelos do couro cabeludo de início agudo que ocorre dois a três meses após um estresse desencadeante, muitas vezes com risco à vida, e que interrompe o crescimento anágeno normal do fio. É comumente observado em sobreviventes que necessitaram de cuidados intensivos para sepse, hemorragia, doença inflamatória ou traumatismo graves. Também pode resultar de desnutrição aguda. Um grande número de fios anágenos são convertidos em telógenos e são eliminados dois a três meses depois, resultando em uma alopecia difusa.",
+      "classification_reasoning": "A equimose está presente em MMSS, o que sugere uma lesão cutânea aguda ou crônica, e a Eflúvio telógeno agudo (ED70.30) é a condição mais provável nesse contexto.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A equimose descrita no prontuário é uma lesão cutânea aguda ou crônica, e não está relacionada à Eflúvio telógeno agudo (ED70.30), que é uma condição caracterizada por perda de cabelos após estresse desencadeante. A classificação CID-11 ED70.30 não representa fielmente o termo ou a condição clínica descrita no prontuário, portanto, é considerado um código incorreto.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB21.1": {
+      "term_original": "intubada",
+      "capitulo": "12",
+      "confidence_embedding": 0.783,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A paciente está intubada e apresenta sintomas de doença pulmonar, como hipocorada e enegrecida. Além disso, há presença de equimose em MMSS e SVD com débito de 75 ml de aspecto alaranjado, o que sugere a possibilidade de um pneumotórax espontâneo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente está intubada e apresenta sintomas de doença pulmonar, como hipocorada e enegrecida. Além disso, há presença de equimose em MMSS e SVD com débito de 75 ml de aspecto alaranjado, o que sugere a possibilidade de um pneumotórax espontâneo. No entanto, a paciente não apresenta sintomas específicos de pneumotórax espontâneo, como dor torácica ou falta de ar. Além disso, a codificação CID-11 para 'pneumotórax espontâneo' não é clínicamente coerente com o prontuário, pois não há evidência de doença pulmonar subjacente ou sintomas específicos de pneumotórax.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EB13.1": {
+      "term_original": "enegrecida",
+      "capitulo": "14",
+      "confidence_embedding": 0.7623,
+      "descricao_cid": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável.",
+      "classification_reasoning": "A palavra 'enegrecida' sugere a presença de lesões cutâneas graves, o que é característico da necrólise epidérmica tóxica (NET). Além disso, a descrição do prontuário menciona equimose em MMSS, o que também aponta para essa possibilidade.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'enegrecida' não é um termo que diretamente relaciona-se à necrólise epidérmica tóxica (NET). A descrição do prontuário menciona lesões cutâneas graves, mas não há evidência clínica suficiente para justificar a atribuição do código CID-11 EB13.1. Além disso, a presença de equimose em MMSS e SVD com débito de 75 ml de aspecto alaranjado sugere uma condição mais geral de lesão cutânea ou doença vascular, que não é capturada pelo código CID-11 EB13.1.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DA60.3": {
+      "term_original": "com débito",
+      "capitulo": "13",
+      "confidence_embedding": 0.7624,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A opção mais precisa para o termo 'com débito' é a úlceras de estresse do estômago, pois a descrição refere-se a lesões agudas da mucosa que podem resultar em hemorragia digestiva alta aguda e estão relacionadas ao estado clínico da paciente",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário refere-se a um débito de aspecto alaranjado e com presença de grumos na SVD, o que não se relaciona às úlceras de estresse do estômago. A opção mais precisa para o termo 'com débito' é uma lesão aguda da parede venosa, como um trombo ou uma hemorragia, e não está relacionada ao estômago.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME62.7": {
+      "term_original": "aspecto alaranjado",
+      "capitulo": "21",
+      "confidence_embedding": 0.7378,
+      "descricao_cid": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica.",
+      "classification_reasoning": "A opção ME62.7 é a mais precisa para o termo 'aspecto alaranjado' no contexto clínico, pois descreve uma erupção cutânea descamativa aguda com características de aspecto alaranjado na pele.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção ME62.7 descreve uma erupção cutânea descamativa aguda, enquanto o termo 'aspecto alaranjado' no prontuário se refere ao aspecto da secreção bronquial (SVDA) e não à pele. Portanto, a codificação CID-11 não representa fielmente o termo ou condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5C78": {
+      "term_original": "sedada",
+      "capitulo": "05",
+      "confidence_embedding": 0.7772,
+      "descricao_cid": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem.",
+      "classification_reasoning": "A presença do termo 'sedada' no contexto do prontuário sugere que a paciente está recebendo tratamento para controle de seu estado, o que é comum em pacientes com sobrecarga de líquidos. Além disso, a descrição da condição como 'enegrrecida', sugerindo edema e fluido circulatório aumentado, também aponta para a hipótese de uma sobrecarga de líquidos.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença do termo 'sedada' no prontuário sugere que a paciente está recebendo tratamento para controle de seu estado, o que é comum em pacientes com sobrecarga de líquidos. Além disso, a descrição da condição como 'enegrrecida', sugerindo edema e fluido circulatório aumentado, também aponta para a hipótese de uma sobrecarga de líquidos. Portanto, o código CID-11 atribuído (5C78) é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "FB56.1": {
+      "term_original": "presença de grumos",
+      "capitulo": "15",
+      "confidence_embedding": 0.7307,
+      "descricao_cid": "Representação de doença CID-11: Corpo estranho residual no tecido mole. Definição: ",
+      "classification_reasoning": "A presença de grumos na SVD (Sangue Venoso) é um indicador de trombose ou coagulação sanguínea, o que está relacionado ao código FB56.1 - Corpo estranho residual no tecido mole.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de grumos na SVD (Sangue Venoso) não é um corpo estranho residual no tecido mole, mas sim uma manifestação de trombose ou coagulação sanguínea. O código FB56.1 não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "prontuario_id": 5,
+  "text": "POS TX RENAL\nPOS TX RENAL DC - CR 0,93 - FK 3,0\nDM COMPENSADO\nHAS COMPENSADA\nDSLP OK  \nPOS TX RENAL HÁ 3 ANOS - DC\nEM USO DE: MTC 5, FK 1 / 0, MS 1 / 2, CRESTOR 10MG DIAS ALTERNADOS, AAS 100, OMEPRAZOL 20, CARVEDILOL 12,5 , MONOCORDIL 20, CILOSTAZOL 100 / 100, LOSARTAN 50MG / DIA, LANTUS 30U\nS # ASSINTOMÁTICO\nO # BEG, CORADO, HIDRATADO\nP 74,5\nMUCOSAS CORADAS, HIDRATADAS\nMV POSITIVO, SIMETRICO\nBCRNF COM SOPRO SISTOLICO\nABDOMEN GLOBOSO, FLACIDO, SEM MASSAS, RHA POSITIVOS\nMEMBROS SEM EDEMA",
+  "entities": {
+    "Conceito Temporal": [
+      "POS",
+      "DIA",
+      "HÁ 3 ANOS",
+      "DIAS ALTERNADOS"
+    ],
+    "Conceito Qualitativo": [
+      "DC"
+    ],
+    "Abreviação": [
+      "DC",
+      "DSLP",
+      "MTC",
+      "FK",
+      "MS",
+      "AAS",
+      "BEG",
+      "P",
+      "BCRNF",
+      "TX RENAL",
+      "CR 0 , 93",
+      "FK 3 , 0",
+      "DM COMPENSADO",
+      "HAS COMPENSADA",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Doença ou Síndrome": [
+      "DSLP",
+      "DM COMPENSADO",
+      "HAS COMPENSADA"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "FK",
+      "MS",
+      "CRESTOR",
+      "AAS",
+      "OMEPRAZOL",
+      "CARVEDILOL",
+      "MONOCORDIL",
+      "CILOSTAZOL",
+      "LOSARTAN"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "FK",
+      "MS",
+      "CRESTOR",
+      "AAS",
+      "OMEPRAZOL",
+      "CARVEDILOL",
+      "MONOCORDIL",
+      "CILOSTAZOL",
+      "LOSARTAN",
+      "LANTUS"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "10MG",
+      "100",
+      "20",
+      "30U",
+      "1 / 0",
+      "1 / 2",
+      "12 , 5",
+      "100 / 100",
+      "74 , 5"
+    ],
+    "Hormônio": [
+      "LANTUS"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "LANTUS"
+    ],
+    "Negação": [
+      "ASSINTOMÁTICO",
+      "SEM"
+    ],
+    "Achado": [
+      "ASSINTOMÁTICO",
+      "BEG",
+      "CORADO",
+      "HIDRATADO",
+      "HIDRATADAS",
+      "SIMETRICO",
+      "BCRNF",
+      "FLACIDO",
+      "MUCOSAS CORADAS",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Atributo Clínico": [
+      "P"
+    ],
+    "Localização ou Região Corporal": [
+      "ABDOMEN",
+      "MEMBROS"
+    ],
+    "Sinal ou Sintoma": [
+      "GLOBOSO",
+      "MASSAS",
+      "EDEMA",
+      "SOPRO SISTOLICO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 93",
+      "FK 3 , 0"
+    ]
+  },
+  "labels": {
+    "BA02": {
+      "term_original": "hidratadas",
+      "capitulo": "11",
+      "confidence_embedding": 0.8048,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "O termo 'hidratadas' se refere às mucosas coradas e hidratadas descritas no contexto clínico, o que sugere uma doença renal crônica (DC) com sintomas de hipertensão. A opção mais precisa é a Doença Renal Hipertensiva (BA02).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 BA02 (Doença Renal Hipertensiva) não é clinicamente coerente com o prontuário. Embora haja referências à doença renal crônica e hipertensão, a presença de outras condições, como DM COMPENSADO, HAS COMPENSADA e uso de medicamentos para controle da pressão arterial e do colesterol, sugere que a situação é mais complexa do que apenas uma Doença Renal Hipertensiva. Além disso, a descrição das mucosas coradas e hidratadas não está diretamente relacionada à doença renal hipertensiva.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DA60.3": {
+      "term_original": "globoso",
+      "capitulo": "13",
+      "confidence_embedding": 0.7482,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A descrição de úlceras de estresse do estômago se ajusta melhor ao termo 'globoso' no contexto da anamnese clínica, pois as úlceras podem causar uma sensação de distensão ou plenitude abdominal (globo), característica mencionada na avaliação física.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do código CID-11 (DA60.3) se refere a úlceras de estresse do estômago, que são lesões agudas da mucosa gástrica. No entanto, o termo 'globoso' no prontuário se refere à distensão abdominal, característica mencionada na avaliação física. Embora as úlceras de estresse do estômago possam causar dor abdominal, não há relação direta entre a descrição do código CID-11 e o termo 'globoso'. Portanto, é necessário remover o código CID-11 (DA60.3) e reclassificar o termo 'globoso' para uma condição clínica mais adequada.",
+      "tipo_erro_auditoria": "semantic_drift_normalization"
+    },
+    "FA27.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7454,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'edema' no contexto clínico é a reumatismo palindrômico, pois a descrição menciona crises agudas de dor e edema nas articulações, o que se alinha com as características do edema descrito.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário não menciona crises agudas de dor e edema nas articulações, o que é característico do reumatismo palindrômico. Além disso, a paciente está assintomática e sem dor, o que também não se alinha com as características do reumatismo palindrômico. Portanto, a classificação FA27.2 não é clínica ou coerente com o prontuário.",
+      "tipo_erro_auditoria": "false_positive_entity"
+    },
+    "8A45.30": {
+      "term_original": "mv positivo",
+      "capitulo": "08",
+      "confidence_embedding": 0.719,
+      "descricao_cid": "Representação de doença CID-11: Transtorno da substância branca devido à deficiência de vitamina B12. Definição: Características neurológicas ocorrem em 40% dos pacientes com deficiência de vitamina B12. Degeneração combinada subaguda é uma complicação neurológica reversível potencial de deficiência de vitamina B12. Sintomas desenvolvem de forma insidiosa e as manifestações neuropáticas incluem parestesia distal, dormência, ataxia de marcha e diminuição da propriocepção dos membros inferiores, enquanto componente mielopático leva à prejuízo motor variável devido à disfunção do trato piramidal. Incontinência fecal e urinária com impotência e hipotensão postural podem ocorrer como parte da mielopatia. Manifestações centrais incluem confusão, depressão, alucinação progressiva e lentificação mental. Pode ocorrer e neuropatia óptica.",
+      "classification_reasoning": "A opção mais precisa é a Transtorno da substância branca devido à deficiência de vitamina B12 (Código 8A45.30), pois o termo 'mv positivo' sugere lesão neurológica, e a descrição do paciente apresenta características neuropáticas como parestesia distal, dormência, ataxia de marcha e diminuição da propriocepção dos membros inferiores.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'mv positivo' sugere lesão neurológica, mas a descrição do paciente não apresenta características neuropáticas como parestesia distal, dormência, ataxia de marcha e diminuição da propriocepção dos membros inferiores. Além disso, o prontuário descreve um paciente assintomático, o que contraria a descrição do código CID-11 (Transtorno da substância branca devido à deficiência de vitamina B12). Portanto, a codificação não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD54": {
+      "term_original": "rha positivos",
+      "capitulo": "11",
+      "confidence_embedding": 0.7448,
+      "descricao_cid": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos.",
+      "classification_reasoning": "A opção mais precisa é BA02 (Doença renal hipertensiva) porque o termo 'RHA positivos' refere-se ao resultado de exame físico que indica a presença de doença renal. No entanto, como o prontuário menciona também úlceras nos pés diabéticos e outras comorbidades relacionadas à hipertensão, a opção BD54 (Úlcera de pé diabético) é mais precisa do que BA01 (Doença cardíaca hipertensiva), que não está diretamente relacionada ao termo 'RHA positivos'.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'RHA positivos' refere-se ao resultado de exame físico que indica a presença de doença renal, não à úlcera de pé diabético. A opção BD54 (Úlcera de pé diabético) não representa fielmente o termo descrito no prontuário, portanto, é necessário remover.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5C78": {
+      "term_original": "dm compensado",
+      "capitulo": "05",
+      "confidence_embedding": 0.7608,
+      "descricao_cid": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem.",
+      "classification_reasoning": "A descrição de 'dm compensado' sugere que o paciente tem doença renal crônica (DM) controlada, ou seja, não há sinais de insuficiência renal. A opção mais precisa para este termo é a sobrecarga de líquidos (Código 5C78), pois a condição refere-se ao excesso de volume de líquido no sangue, o que pode ser relacionado à doença renal crônica",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 5C78 'Sobrecarga de líquidos' é justificada pela descrição do termo 'dm compensado', que sugere a presença de doença renal crônica controlada. A sobrecarga de líquidos pode ser relacionada à doença renal crônica, pois o excesso de volume de líquido no sangue pode ocorrer em pacientes com insuficiência renal. Portanto, a codificação é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BD71.2": {
+      "term_original": "bcrnf",
+      "capitulo": "11",
+      "confidence_embedding": 0.7386,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A opção mais precisa é a BD71.2, pois o termo 'bcrnf' está relacionado à trombose da veia renal, o que está presente no contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa é a BD71.2, pois o termo 'bcrnf' está relacionado à trombose da veia renal, o que está presente no contexto clínico. A justificativa do sistema também concorda com essa escolha. Além disso, não há contradições óbvias ou alucinações na descrição do prontuário que justifiquem a remoção do código.",
+      "tipo_erro_auditoria": null
+    },
+    "8C84": {
+      "term_original": "simetrico",
+      "capitulo": "08",
+      "confidence_embedding": 0.7417,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise secundária. Definição: Rabdomiólise secundária ocorre quando o efeito primário de um fator etiológico resulta em um estado funcional ou bioquímico que conduz ao desenvolvimento de alterações isquêmicas, degenerativas, necróticas ou desestabilizadoras da membrana no músculo, produzindo as manifestações clínicas e bioquímicas de rabdomiólise. Mais frequentemente, a rabdomiólise é secundária a um desequilíbrio metabólico, muitas vezes de natureza genética, como resultado de movimento anormalmente excessivo, tensão isométrica excessiva por tentativa de movimento contra resistência, ou coma levando a aumento de pressão, isquemia, hipóxia e necrose intramusculares. A rabdomiólise secundária também pode ser causada por uma mutação em vários genes (RYR1, LPIN).",
+      "classification_reasoning": "A opção mais precisa é a Rabdomiólise secundária (Código 8C84) devido à presença do termo 'simetrico' no contexto, que remete à sintomatologia descrita na definição da doença. Além disso, o prontuário menciona MV positivo e simétrico, o que reforça a escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção de código CID-11 Rabdomiólise secundária (8C84) não é clinicamente coerente com o prontuário. Embora haja referência ao termo 'simetrico', que remete à sintomatologia descrita na definição da doença, a falta de outras características clínicas e bioquímicas mencionadas no prontuário, como desequilíbrio metabólico ou isquemia, sugere que a rabdomiólise secundária não é o código mais preciso. Além disso, a presença de DM compensado e HAS compensada também não está relacionada à rabdomiólise secundária.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "EC90.1": {
+      "term_original": "corado",
+      "capitulo": "14",
+      "confidence_embedding": 0.7642,
+      "descricao_cid": "Representação de doença CID-11: Prurido devido a transtorno sistêmico. Definição: Prurido devido a transtorno sistêmico subjacente, como insuficiência renal ou icterícia colestática.",
+      "classification_reasoning": "A descrição do termo 'corado' se refere ao prurido devido a um transtorno sistêmico subjacente, como insuficiência renal (DM COMPENSADO e POS TX RENAL HÁ 3 ANOS - DC), o que é compatível com a definição da EC90.1.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'corado' se refere ao prurido devido a um transtorno sistêmico subjacente, como insuficiência renal (DM COMPENSADO e POS TX RENAL HÁ 3 ANOS - DC), o que é compatível com a definição da EC90.1. A codificação CID-11 parece clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "EB13.0": {
+      "term_original": "mucosas coradas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7548,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de Stevens-Johnson. Definição: A síndrome de Stevens-Johnson é um transtorno de hipersensibilidade mediado por imunocomplexos envolvendo mucosas (conjuntiva, mucosa oral e mucosa genital) com, por definição, envolvimento da pele limitado a não mais que 9% da área de superfície corporal. Está relacionado à necrólise epidérmica tóxica e compartilha muitos dos mesmos gatilhos, notavelmente drogas, mas a inflamação é centrada em e próxima a superfícies mucosas. Embora a mortalidade seja baixa, a morbidade aguda é alta e o envolvimento conjuntival tem o potencial de causar cegueira.",
+      "classification_reasoning": "A descrição do termo 'mucosas coradas' sugere que há envolvimento de superfícies mucosas, o que é característico da síndrome de Stevens-Johnson (SSJ). Além disso, a história clínica apresentada indica que há uso de múltiplos medicamentos, o que aumenta a probabilidade de reação adversa à droga. A escolha do código EB13.0 é justificada pela presença de mucosas coradas e pelo histórico de envolvimento renal.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'mucosas coradas' é clinicamente coerente com a codificação CID-11 EB13.0, que representa a síndrome de Stevens-Johnson. A presença de mucosas coradas no prontuário e o histórico de envolvimento renal são consistentes com a definição da síndrome. Além disso, a história clínica apresentada indica uso de múltiplos medicamentos, o que aumenta a probabilidade de reação adversa à droga. Portanto, a codificação CID-11 EB13.0 é válida e clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "prontuario_id": 930,
+  "text": "DRC ESTAGIO 5.\nCANDIDATO A TX RENAL COM DVR - PAI.\nEM DESENSIBILIZAÇÃO COM IVIG - PROXIMO PRA EM 4/09.\n \n \nDRC ESTAGIO 5.\nD. BASE ?\nPRA 100% POR TX PREVIO COM DVR - TIO NO XXXX.\nAO EXAME: PA 130/90,  P 78,  AFEBRIL,  ANURIA.\nHIPOCORADO E HIDRATADO,\nCPP LIVRES,\nPC RITMO REGULAR,\nABD RHA+, FLÁCIDO, ENXERTO EM FID.\nMMII SEM EDEMA.",
+  "entities": {
+    "Grupo Populacional": [
+      "DVR"
+    ],
+    "Grupo Familiar": [
+      "PAI",
+      "TIO"
+    ],
+    "Abreviação": [
+      "TX",
+      "DVR",
+      "PA",
+      "P",
+      "ABD",
+      "RHA+",
+      "FID",
+      "MMII",
+      "DRC ESTAGIO 5",
+      "TX RENAL",
+      "DESENSIBILIZAÇÃO COM IVIG",
+      "PRA 100%",
+      "CPP LIVRES",
+      "PC RITMO REGULAR"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX",
+      "ENXERTO",
+      "DESENSIBILIZAÇÃO COM IVIG"
+    ],
+    "Conceito Temporal": [
+      "PREVIO"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAME"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P"
+    ],
+    "Conceito Quantitativo": [
+      "130/90",
+      "78"
+    ],
+    "Negação": [
+      "AFEBRIL",
+      "ANURIA",
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "AFEBRIL",
+      "ANURIA",
+      "EDEMA"
+    ],
+    "Achado": [
+      "HIPOCORADO",
+      "HIDRATADO",
+      "RHA+",
+      "FLÁCIDO",
+      "CPP LIVRES",
+      "PC RITMO REGULAR"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABD",
+      "MMII"
+    ],
+    "Localização ou Região Corporal": [
+      "FID"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Doença ou Síndrome": [
+      "DRC ESTAGIO 5"
+    ]
+  },
+  "labels": {
+    "NA90": {
+      "term_original": "edema",
+      "capitulo": "22",
+      "confidence_embedding": 0.7494,
+      "descricao_cid": "Representação de doença CID-11: Concussão ou edema da medula espinhal torácica. Definição: ",
+      "classification_reasoning": "A presença de anuria e edema nos rins (PRA 130/90) indica que o edema é renal, e não cerebral ou de outra localização. Além disso, a descrição do quadro clínico como 'DRC ESTAGIO 5' sugere uma lesão renal séria, justificando a escolha do código NA90",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de edema nos rins (PRA 130/90) não é compatível com a lesão renal séria descrita como 'DRC ESTAGIO 5'. A anatomia do edema renal não se alinha com a lesão medular espinhal torácica sugerida pelo termo 'edema' e o código CID-11 NA90. Além disso, a falta de correlação entre a lesão renal e o edema nos rins sugere que o edema é mais provável uma consequência da anúria do que uma lesão medular espinhal torácica.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "MB41.3": {
+      "term_original": "hipocorado",
+      "capitulo": "21",
+      "confidence_embedding": 0.7159,
+      "descricao_cid": "Representação de doença CID-11: Hiposmia. Definição: Diminuição da capacidade de sentir cheiro.",
+      "classification_reasoning": "A opção mais precisa para o termo 'hipocorado' é a hiposmia (Código MB41.3), pois o paciente está descrito como 'HIPOCORADO', o que sugere uma diminuição da capacidade de sentir cheiro.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'hipocorado' não se refere a uma diminuição da capacidade de sentir cheiro, como sugerido pelo código CID-11 MB41.3. Em vez disso, 'hipocorado' é um termo que descreve um estado de baixa pressão arterial (hipotensão). Portanto, o código atribuído não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF56": {
+      "term_original": "flácido",
+      "capitulo": "21",
+      "confidence_embedding": 0.7399,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A opção mais precisa é a Cólica renal (MF56), pois o termo 'flácido' refere-se ao fato do Abd RHA+ ser descrito como flácido, o que é um sintoma comum na Cólica renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'flácido' não se refere diretamente à Cólica renal, mas sim ao estado físico do Abd RHA+. Embora o Abd RHA+ seja descrito como flácido, isso não é um sintoma da Cólica renal. A classificação CID-11 MF56 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC43.6": {
+      "term_original": "drc estagio 5",
+      "capitulo": "11",
+      "confidence_embedding": 0.6978,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia ventricular arritmogênica. Definição: A cardiomiopatia ventricular arritmogênica é uma cardiomiopatia caracterizada pela perda de células miocárdicas com substituição parcial ou total do músculo ventricular direito por tecido adiposo e fibroso, começando pelo subepicárdio e se tornando transmural com o tempo, poupando os músculos papilares e trabéculas, e frequentemente associada a aneurismas, particularmente da via de saída ventricular direita. Há comprometimento sistólico progressivo com dilatação ventricular e acentuada propensão a arritmias ventriculares de origem ventricular direita, e também esquerda. Classicamente uma doença do ventrículo direito, evidências mais recentes sugerem envolvimento do ventrículo esquerdo em extensão variável em até 75% dos casos, assim como doença isolada do ventrículo esquerdo.",
+      "classification_reasoning": "A presença de DRC estagio 5 e anúria sugere uma cardiomiopatia ventricular arritmogênica, caracterizada por perda de células miocárdicas no músculo ventricular direito e comprometimento sistólico progressivo com dilatação ventricular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 BC43.6 se refere a cardiomiopatia ventricular arritmogênica, que é uma doença caracterizada pela perda de células miocárdicas no músculo ventricular direito e comprometimento sistólico progressivo com dilatação ventricular. No entanto, o prontuário descreve DRC estagio 5, que não é um tipo de cardiomiopatia ventricular arritmogênica. A presença de anúria também sugere uma doença renal, mas não há evidência clínica suficiente para justificar a codificação CID-11 BC43.6.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GB42": {
+      "term_original": "anuria",
+      "capitulo": "16",
+      "confidence_embedding": 0.7941,
+      "descricao_cid": "Representação de doença CID-11: Proteinúria ou albuminúria persistente. Definição: Albuminúria persistente > 3mg/mmol de creatinina ou > 30mg/dia é considerada anormal, indicativa e frequentemente a primeira manifestação de doença renal crônica (DRC). Na vigilância da DRC em pacientes “em risco”, como diabéticos, a análise de urina para albuminúria é recomendada pela maioria das diretrizes de prática clínica. Este diagnóstico não se refere à proteinúria intermitente, como na proteinúria ortostática ou induzida por exercício, nem à proteinúria não albuminúrica, como a proteinúria de Bence Jones (cadeia leve de imunoglobulina).",
+      "classification_reasoning": "A opção mais precisa para o termo 'anuria' é a proteinúria ou albuminúria persistente, pois o paciente apresenta anúria (ausência de urina) e ao exame, PA 130/90, P 78, indicando doença renal crônica. A opção GB42 melhor se adequa ao contexto clínico, considerando a presença de DRC Estágio 5 e proteinúria persistente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção GB42, proteinúria ou albuminúria persistente, não se aplica ao termo 'anuria', que é a ausência de urina. A anúria não é um tipo de proteinúria ou albuminúria. Portanto, o código CID-11 atribuído não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

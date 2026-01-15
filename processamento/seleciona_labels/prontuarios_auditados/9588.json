@@ -1,0 +1,276 @@
+{
+  "prontuario_id": 49,
+  "text": "POS TX RENAL.\nPOS TX RENAL - CR 1,3 / NS FK 5,0.\nDSLP.\nDAC - ATC EM JUN/2015.\nHAS COMPENSADA.\nDOR CRONICA EM PÉS - NEUROPATIA ? JA TOMOU AMT SEM MELHORA, MIOSAN SEM MELHORA.\nPOS TX RENAL.\nDAC.\nUSO DE: PDN 5, FK 2 / 2, MS 2 / 1, OMZ, ROSUVASTATINA 10, CLOPIDOGREL 75, LST 50 X1, CVDL 25 X2, SOMALGIN CARDIO.\nS # PERSISTE COM DOR EM MMII, PRINCIPALMENTE PÉ, TIPO QUEIMAÇÃO, A NOITE. \nREFERE QUE TEVE DORES PIORES COM O USO DE MIOSAN ?????\nTEM FRAQUEZA MUSCULAR.\nPOLIQUEIXOSA. \nO # BEG, CORADA, HIDRATADA.\nPA 130/80.\nMV POSITIVO, SIMETRICO.\nBCRNF.\nABDOMEN FLACIDO, SEM MASSAS.\nMEMBROS SEM EDEMA.",
+  "entities": {
+    "Abreviação": [
+      "DSLP",
+      "DAC",
+      "ATC",
+      "AMT",
+      "PDN",
+      "FK",
+      "MS",
+      "OMZ",
+      "LST",
+      "CVDL",
+      "S",
+      "MMII",
+      "O",
+      "BEG",
+      "PA",
+      "BCRNF",
+      "TX RENAL",
+      "CR 1 , 3",
+      "NS FK 5 , 0",
+      "MV POSITIVO"
+    ],
+    "Doença ou Síndrome": [
+      "DSLP",
+      "DAC",
+      "NEUROPATIA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ATC",
+      "TX RENAL"
+    ],
+    "Achado": [
+      "COMPENSADA",
+      "MELHORA",
+      "S",
+      "BEG",
+      "CORADA",
+      "HIDRATADA",
+      "SIMETRICO",
+      "BCRNF",
+      "MV POSITIVO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PÉS",
+      "MMII",
+      "PÉ",
+      "ABDOMEN",
+      "MEMBROS"
+    ],
+    "Substância Química Orgânica": [
+      "AMT",
+      "MIOSAN",
+      "PDN",
+      "FK",
+      "MS",
+      "OMZ",
+      "ROSUVASTATINA",
+      "CLOPIDOGREL",
+      "LST",
+      "CVDL"
+    ],
+    "Substância Farmacológica": [
+      "AMT",
+      "MIOSAN",
+      "PDN",
+      "FK",
+      "OMZ",
+      "ROSUVASTATINA",
+      "CLOPIDOGREL",
+      "LST",
+      "CVDL",
+      "SOMALGIN CARDIO"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Conceito Temporal": [
+      "POS",
+      "X1",
+      "X2",
+      "NOITE"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "10",
+      "75",
+      "50",
+      "X1",
+      "25",
+      "X2",
+      "130/80"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR",
+      "QUEIMAÇÃO",
+      "DORES",
+      "POLIQUEIXOSA",
+      "MASSAS",
+      "EDEMA",
+      "DOR CRONICA",
+      "FRAQUEZA MUSCULAR"
+    ],
+    "Conceito Qualitativo": [
+      "PIORES"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 1 , 3",
+      "NS FK 5 , 0"
+    ]
+  },
+  "labels": {
+    "6A23.01": {
+      "term_original": "melhora",
+      "capitulo": "06",
+      "confidence_embedding": 0.7174,
+      "descricao_cid": "Representação de doença CID-11: Transtorno psicótico agudo e transitório, primeiro episódio, em remissão parcial. Definição: Todos os critérios diagnósticos para transtorno psicótico agudo e transitório, primeiro episódio em termos de sintomas e duração foram preenchidos anteriormente. Os sintomas melhoraram de tal forma que os critérios diagnósticos para o transtorno não foram preenchidos por pelo menos um mês, mas alguns sintomas clinicamente significativos persistem, que podem ou não estar associados a comprometimento funcional. A remissão parcial pode ter ocorrido em resposta a medicamento ou outro tratamento.",
+      "classification_reasoning": "A opção mais precisa é a dependência psicotrópica aguda e transitória, primeiro episódio, em remissão parcial (6A23.01), pois o paciente apresenta dor crônica em pés - neuropatia, sem melhora com uso de amt e miosan, e tem fraqueza muscular, poliiqueixosa, que são sintomas clássicos de uma doença psiquática aguda e transitória. Além disso, a história do paciente é caracterizada por dor persistente durante o dia e à noite, tipo queimação, e referência de ter tido dores piores com o uso de miosan.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 6A23.01 refere-se a um transtorno psicótico agudo e transitório, primeiro episódio, em remissão parcial. No entanto, o prontuário não apresenta sintomas clínicos que sejam consistentes com essa condição. A dor crônica em pés - neuropatia, fraqueza muscular e poliiqueixosa são sintomas mais próximos de uma doença neurológica ou ortopédica do que um transtorno psicótico. Além disso, a história do paciente é caracterizada por dor persistente durante o dia e à noite, tipo queimação, e referência de ter tido dores piores com o uso de miosan, o que sugere uma resposta negativa ao tratamento e não um episódio psicótico. Portanto, a codificação CID-11 6A23.01 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA22": {
+      "term_original": "poliqueixosa",
+      "capitulo": "15",
+      "confidence_embedding": 0.7438,
+      "descricao_cid": "Representação de doença CID-11: Polimialgia reumática. Definição: A polimialgia reumática (PMR) é uma síndrome caracterizada por dores nas porções proximais das extremidades e do tronco. Os critérios de classificação provisórios para PMR pela European League Against Rheumatism / American College of Rheumatology Collaborative Initiative devem ser aplicados em pacientes com 50 anos ou mais com dor nos ombros bilateral e PCR e / ou VHS anormais. O algoritmo de pontuação é baseado na rigidez matinal> 45 minutos (2 pontos), dor / amplitude de movimento limitada no quadril (1 ponto), ausência de fator reumatoide e / ou anticorpo anti-proteína citrulinada (1 ponto), com critério de ultrassom opcional. Mais comumente, a PMR ocorre de forma isolada, mas pode ser observada em 40-50% dos pacientes com arterite de células gigantes.",
+      "classification_reasoning": "A descrição do termo 'poliqueixosa' se refere a uma dor crônica nos pés, o que é característico da polimialgia reumática (PMR). Além disso, outras características clínicas mencionadas no prontuário, como dor cronica e neuropatia em pés, são compatíveis com essa entidade.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'poliqueixosa' se refere a uma dor crônica nos pés, o que é característico da polimialgia reumática (PMR). Além disso, outras características clínicas mencionadas no prontuário, como dor cronica e neuropatia em pés, são compatíveis com essa entidade. Portanto, a codificação CID-11 FA22 para 'Polimialgia Reumática' é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "FB32.20": {
+      "term_original": "fraqueza muscular",
+      "capitulo": "15",
+      "confidence_embedding": 0.7786,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A fraqueza muscular pode ser um sintoma característico de rabdomiólise idiopática, uma lesão muscular aguda que não tem causa identificável e é freqüentemente associada a mioglobinúria. A presença de dor crônica em pés e neuropatia também apoia essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fraqueza muscular pode ser um sintoma característico de rabdomiólise idiopática, mas o prontuário não apresenta evidências suficientes para confirmar essa condição. Além disso, a dor crônica em pés e neuropatia também são mencionadas, o que sugere uma possível neuropatia periférica ou doença do sistema nervoso periférico, mas não há relação direta com a rabdomiólise. Portanto, a codificação CID-11 FB32.20 não é clínicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DB98.5": {
+      "term_original": "massas",
+      "capitulo": "13",
+      "confidence_embedding": 0.7151,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de Budd-Chiari. Definição: Síndrome de Budd-Chiari (SBC) é causada por obstrução do fluxo venoso de saída hepático, envolvendo ou as veias hepáticas ou o segmento terminal da veia cava inferior e levando a congestão hepática e necrose isquêmica. A gravidade depende da velocidade de início e extensão da obstrução. As obstruções são geralmente causadas por trombose na SBC primária, enquanto na SBC secundária resulta de invasão tumoral do lúmen ou compressão da veia por uma lesão expansiva. As principais manifestações da SBC são ascite levando a desnutrição e insuficiência renal, hemorragia gastrointestinal devida a hipertensão portal e insuficiência hepática resultando em encefalopatia e infecções graves. Formas assintomáticas também já foram descritas.",
+      "classification_reasoning": "A opção mais precisa é a Síndrome de Budd-Chiari (SBC), pois o termo 'massas' se refere às massas abdominais que são descritas no prontuário como sendo absentes, o que sugere uma patologia hepática ou renal. A SBC é uma doença rara e grave que pode causar ascite e insuficiência renal, o que se alinha com a história clínica apresentada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção Síndrome de Budd-Chiari (SBC) é muito genérica e não está diretamente relacionada ao termo 'massas' descrito no prontuário. A falta de massas abdominais pode ser um sintoma de várias doenças, incluindo doenças renales ou hepáticas, mas a SBC não é uma opção clínica precisa para este termo.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MF56": {
+      "term_original": "s",
+      "capitulo": "21",
+      "confidence_embedding": 0.7945,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A dor crônica em pés com neuropatia, associada à história de pos-tx renal e uso de medicamentos como PDN, FK e OMZ, sugere uma possível etiologia relacionada à doença renal ou ao tratamento. O termo extraído 's' pode se referir a sintomas de dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, característicos da Cólica Renal (MF56).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor crônica em pés com neuropatia não é sintoma de Cólica Renal (MF56). A descrição do código CID-11 refere-se a uma dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, característicos da Cólica Renal. No entanto, o prontuário descreve uma dor crônica em pés, que não está relacionada à Cólica Renal. Portanto, é necessário remover o código CID-11 atribuído (MF56) e substituir por um código mais apropriado que represente fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BD71.2": {
+      "term_original": "mv positivo",
+      "capitulo": "11",
+      "confidence_embedding": 0.7496,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A opção mais precisa é BD71.2, Trombose da veia renal, pois o termo 'mv positivo' refere-se à presença de trombose renal, apoiada pela informação de 'POS TX RENAL - CR 1,3 / NS FK 5,0'.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BD71.2, Trombose da veia renal, não é adequada porque o termo 'mv positivo' refere-se à presença de trombose em geral, e não especificamente na veia renal. Além disso, a informação de 'POS TX RENAL - CR 1,3 / NS FK 5,0' sugere que a trombose é relacionada ao tratamento renal, mas o código CID-11 não captura essa relação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF96": {
+      "term_original": "dac",
+      "capitulo": "21",
+      "confidence_embedding": 0.7378,
+      "descricao_cid": "Representação de doença CID-11: Proteinúria. Definição: O excesso de proteínas séricas na urina, como na doença renal, em que a albumina é a proteína principal, porém também pode ser devido a outras proteínas, como imunoglobulinas de cadeias leves na discrasia de células plasmáticas como o mieloma múltiplo.",
+      "classification_reasoning": "A opção mais precisa é a mioglobinúria (MF96) porque o termo 'DAC' é frequentemente utilizado para referir-se à diacil (ou proteinúria) em pacientes com doenças renais. Além disso, a presença de dor crônica nos pés e neuropatia sugerem lesão muscular ou rabdomiólise, o que está relacionado à mioglobinúria.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção MF96 (mioglobinúria) é justificada pela presença de dor crônica nos pés e neuropatia, sugerindo lesão muscular ou rabdomiólise. Além disso, a diacil (ou proteinúria) mencionada no prontuário é frequentemente relacionada à mioglobinúria em pacientes com doenças renais.",
+      "tipo_erro_auditoria": null
+    },
+    "8B25.4": {
+      "term_original": "queimação",
+      "capitulo": "08",
+      "confidence_embedding": 0.7227,
+      "descricao_cid": "Representação de doença CID-11: Efeitos tardios de acidente vascular cerebral desconhecido se isquêmico ou hemorrágico. Definição: Efeitos tardios ocorrendo após 1 mês ou mais do início da doença. Os códigos para acidente vascular cerebral (AVC) agudo devem ser usados ​​exclusivamente para AVC agudo e episódios de hospitalização imediatamente relacionados.",
+      "classification_reasoning": "A descrição do termo 'queimação' lembra os sintomas de dor crônica nos pés mencionados no contexto, o que sugere uma possibilidade de neuropatia, como descrita na definição do código 8B25.4 (Efeitos tardios de acidente vascular cerebral desconhecido se isquêmico ou hemorrágico). Além disso, a presença de dor crônica em MMII e a impossibilidade de melhora com uso de medicamentos antiespasmódicos e semelhantes também sugerem uma possibilidade de lesão neuropática.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor crônica em pés com neuropatia é um sintoma, não uma condição clínica que justifique o código 8B25.4 (Efeitos tardios de acidente vascular cerebral desconhecido se isquêmico ou hemorrágico). A descrição do termo 'queimação' lembra os sintomas de dor crônica nos pés, mas não há evidência clínica suficiente para justificar a classificação como efeitos tardios de acidente vascular cerebral desconhecido. Além disso, a presença de neuropatia e a impossibilidade de melhora com uso de medicamentos antiespasmódicos e semelhantes sugerem uma possibilidade de lesão neuropática mais relacionada à doença renal do que a um acidente vascular cerebral.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "8E43.0": {
+      "term_original": "dor cronica",
+      "capitulo": "08",
+      "confidence_embedding": 0.7316,
+      "descricao_cid": "Representação de doença CID-11: Dor neuropática. Definição: Dor neuropática é descrita como elétrica, queimação ou choque, causada por processos metabólicos, nutricionais, infecciosos, genéticos, autoimunes e/ou vasculíticos. A dor pode ocorrer espontaneamente, sem provocação, ou ser provocada por estímulos dolorosos ou não. A dor é característica da neuropatia de fibras pequenas, mas mesmo nas neuropatias de fibras grandes, um número suficiente de fibras pequenas pode estar danificado para causar dor. A dor neuropática geralmente afeta pele e estruturas subcutâneas distais. A dor pode ser constante ou intermitente e pode ser descrita como lancinante, em queimação ou fria como gelo.\r\n\r\nA síndrome de dor regional complexa segue-se ao trauma e compreende dor regional, alterações sensitivas, anormalidades de temperatura, atividade sudomotora, alterações de cor da pele e edema.",
+      "classification_reasoning": "A dor cronica descrita como tipo queimação à noite, principalmente em pé, é mais compatível com a dor neuropática (8E43.0) do que com efeitos tardios de doença cerebrovascular ou miopatia alcoólica.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dor cronica descrita como tipo queimação à noite, principalmente em pé, é mais compatível com a dor neuropática (8E43.0) do que com efeitos tardios de doença cerebrovascular ou miopatia alcoólica. A justificativa do sistema é clara e coerente com o prontuário, portanto, manteremos a codificação CID-11 como 8E43.0.",
+      "tipo_erro_auditoria": null
+    },
+    "MF95": {
+      "term_original": "dores",
+      "capitulo": "21",
+      "confidence_embedding": 0.7404,
+      "descricao_cid": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular.",
+      "classification_reasoning": "A dor crônica em pés, descrita como queimação, à noite, e a referência de ter tido dores piores com o uso de miosan sugerem que a escolha mais precisa é mioglobinúria, uma condição caracterizada por lesão muscular e liberação de proteínas musculares na urina. Isso justifica a escolha do código MF95.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dor crônica em pés, descrita como queimação, à noite, e a referência de ter tido dores piores com o uso de miosan sugerem uma relação clínica entre a lesão muscular e a mioglobinúria. Além disso, a presença de mioglobina na urina (mioglobinúria) é um fator importante para a dor crônica em pés. Portanto, a escolha do código MF95 parece clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "8C01": {
+      "term_original": "neuropatia",
+      "capitulo": "08",
+      "confidence_embedding": 0.7707,
+      "descricao_cid": "Representação de doença CID-11: Polineuropatia inflamatória. Definição: Neuropatias periféricas inflamatórias adquiridas são de etiologia imune presumida e são classificadas com base em seu curso clínico: polineuropatia inflamatória desmielinizante aguda (PIDA ou síndrome de Guillain-Barré) com o déficit motor atingindo um nível máximo em 28 dias e polineuropatia inflamatória desmielinizante crônica (PIDC) que tem um curso lentamente progressivo de dois ou mais meses ou um curso remitente recorrente. Existem muitas variantes de PIDA e PIDC.",
+      "classification_reasoning": "A dor crônica em pés, tipo queimação à noite, com neuropatia como um possível diagnóstico, faz com que a opção mais precisa seja a Polineuropatia inflamatória (CID-11: 8C01).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dor crônica em pés, tipo queimação à noite, com neuropatia como um possível diagnóstico, é claramente relacionada à Polineuropatia inflamatória (CID-11: 8C01). A presença de neuropatia e a descrição da dor crônica em pés justificam a escolha do código CID-11. Além disso, não há contradições óbvias ou informações que indiquem uma associação puramente imaginária.",
+      "tipo_erro_auditoria": null
+    },
+    "6C40.2": {
+      "term_original": "compensada",
+      "capitulo": "06",
+      "confidence_embedding": 0.7341,
+      "descricao_cid": "Representação de doença CID-11: Dependência de álcool. Definição: Dependência de álcool é um transtorno da regulação do uso de álcool que surge do uso repetido ou contínuo do álcool. O elemento característico é um forte impulso interno para usar álcool, que é manifestado por capacidade prejudicada de controlar o uso, aumento da prioridade dada ao uso em detrimento de outras atividades, e persistência do uso apesar de dano ou consequências negativas. Essas experiências são frequentemente acompanhadas de uma sensação subjetiva de urgência ou fissura para usar álcool. Aspectos fisiológicos da dependência também podem estar presentes, incluindo a tolerância aos efeitos do álcool, sintomas de abstinência subsequentes a cessação ou redução no uso de álcool, ou uso repetido do álcool ou substâncias farmacologicamente semelhantes para prevenir ou aliviar os sintomas de abstinência. As manifestações da dependência geralmente são evidentes durante um período de pelo menos 12 meses, mas o diagnóstico pode ser feito se o uso de álcool for contínuo (diário ou quase diário) por pelo menos 3 meses.",
+      "classification_reasoning": "A palavra-chave 'compensada' refere-se à dependência de álcool, pois a pessoa tem um histórico de uso contínuo e apresenta sintomas de abstinência após parar de usar o medicamento Miosan. Além disso, a referência à dor crônica em ambos os pés, sem melhora com o uso do medicamento, sugere que há outro fator contribuindo para as dores, tornando mais provável uma dependência de álcool.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra-chave 'compensada' não se refere à dependência de álcool, mas sim ao resultado da terapêutica renal. A dor crônica em ambos os pés e a neuropatia sugerem uma condição neurológica ou ortopédica, não relacionada à dependência de álcool. Além disso, o uso contínuo do medicamento Miosan não é suficiente para diagnosticar dependência de álcool.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB50.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7439,
+      "descricao_cid": "Representação de doença CID-11: Cisto sinovial do espaço poplíteo. Definição: Este é o edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho",
+      "classification_reasoning": "A opção mais precisa é a FB50.2, Cisto sinovial do espaço poplíteo, pois o termo 'edema' está relacionado ao edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'edema' no prontuário se refere à fraqueza muscular e poliiqueixosa, não ao edema benigno da bursa ou bolsa semimembranosa. A codificação CID-11 FB50.2 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC81.30": {
+      "term_original": "simetrico",
+      "capitulo": "11",
+      "confidence_embedding": 0.7404,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A presença de fibrilação atrial paroxística (simetrico) é a opção mais precisa para o termo 'simetrico' no contexto clínico, pois BC81.30 refere-se à Fibrilação Atrial Paroxística, uma condição em que as contrações do átrio cardíaco são irregulares e recorrentes.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'simetrico' no prontuário se refere à descrição física dos membros, não à fibrilação atrial paroxística. O código CID-11 atribuído (BC81.30) não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD81": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7464,
+      "descricao_cid": "Representação de doença CID-11: Dor abdominal ou pélvica. Definição: Dor, uma sensação desagradável de desconforto ocorrendo em variados graus de intensidade, recebida pelas terminações nervosas na região abdominal e pélvica.",
+      "classification_reasoning": "A dor crônica em pés, descrita como queimação à noite, é mais consistente com a descrição de Dor abdominal ou pélvica (Código MD81), do que com outras opções. Além disso, não há indicação de bloqueio da pelve renal ou do ureter, nem de cálculo renal, descritas na definição do código MF56.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor crônica em pés, descrita como queimação à noite, não é exclusivamente abdominal ou pélvica. A descrição de dor crônica em pés sugere neuropatia, o que não está diretamente relacionado ao código MD81. Além disso, a dor é descrita como crônica e não há indicação de um processo inflamatório agudo ou uma lesão específica na região abdominal ou pélvica.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

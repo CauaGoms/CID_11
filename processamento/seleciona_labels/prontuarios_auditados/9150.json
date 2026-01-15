@@ -1,0 +1,62 @@
+{
+  "prontuario_id": 35,
+  "text": "11 dias de pós op de Fx subtroc de femur esq.\n\nPcte bem.\nFO cicatrizada.\nSem rx devido a problema na máquina.\n\nCD: Retorno em 1 semana para retirar pontos e fazer rx. ",
+  "entities": {
+    "Abreviação": [
+      "Pcte",
+      "FO",
+      "rx",
+      "CD",
+      "pós op"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Pcte"
+    ],
+    "Achado": [
+      "bem",
+      "cicatrizada"
+    ],
+    "Lesão ou Envenenamento": [
+      "FO"
+    ],
+    "Negação": [
+      "Sem"
+    ],
+    "Procedimento Diagnóstico": [
+      "rx"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Retorno"
+    ],
+    "Conceito Temporal": [
+      "11 dias",
+      "pós op",
+      "1 semana"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "retirar pontos"
+    ]
+  },
+  "labels": {
+    "FB50.1": {
+      "term_original": "cicatrizada",
+      "capitulo": "15",
+      "confidence_embedding": 0.7371,
+      "descricao_cid": "Representação de doença CID-11: Bursite associada com o uso, uso excessivo ou pressão. Definição: Esta é uma inflamação de uma ou mais bursas (pequenas bolsas) sinoviais, que geralmente resulta em dor e é causada por uso repetitivo, uso excessivo ou pressão.",
+      "classification_reasoning": "A cicatrização mencionada no prontuário refere-se à fechamento normal da lesão cirúrgica, o que é consistente com a descrição de bursite associada com o uso excessivo ou pressão (Código FB50.1)",
+      "decisao": "MANTER",
+      "motivo_decisao": "A cicatrização mencionada no prontuário refere-se ao fechamento normal da lesão cirúrgica, o que é consistente com a descrição de bursite associada com o uso excessivo ou pressão (Código FB50.1). A codificação CID-11 está correta e representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "NC71.Y": {
+      "term_original": "fo",
+      "capitulo": "22",
+      "confidence_embedding": 0.7789,
+      "descricao_cid": "Representação de doença CID-11: Outro ferimento aberto especificado de quadril ou coxa. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NC71.Y, pois o termo 'fo' se refere a ferimento aberto de quadril ou coxa, e a descrição específica da fratura subtrocchanteriana do fémur esquerdo (Fx subtroc de femur esq) sugere que o ferimento é aberto.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção NC71.Y é justificada pela descrição específica da fratura subtrocchanteriana do fémur esquerdo (Fx subtroc de femur esq) e pelo termo 'fo' que se refere a ferimento aberto de quadril ou coxa. A codificação CID-11 representa fielmente o termo descrito no prontuário, não há contradição óbvia nem associação puramente imaginária.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

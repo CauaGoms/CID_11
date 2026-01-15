@@ -1,0 +1,77 @@
+{
+  "prontuario_id": 731,
+  "text": "4 meses de PO bariátrica.\nIMC 39\nSatisfeito com cirurgia. Emagreceu 48 kg.\nHAS no momento e uso de captopril\nEm uso de omeprazol 20mg\nApresenta hérnia incisional dores no local. \nRetorno em 2 meses\nEncaminho à cx geral para avaliação de hérnia incisional.\n \n \n \n ",
+  "entities": {
+    "Conceito Temporal": [
+      "PO",
+      "4 meses",
+      "2 meses"
+    ],
+    "Atributo Clínico": [
+      "IMC"
+    ],
+    "Abreviação": [
+      "IMC",
+      "HAS",
+      "cx geral"
+    ],
+    "Conceito Quantitativo": [
+      "39",
+      "20mg",
+      "48 kg"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "cirurgia"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "hérnia incisional"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "captopril"
+    ],
+    "Substância Farmacológica": [
+      "captopril",
+      "omeprazol"
+    ],
+    "Substância Química Orgânica": [
+      "omeprazol"
+    ],
+    "Localização ou Região Corporal": [
+      "local"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Retorno",
+      "Encaminho",
+      "avaliação"
+    ],
+    "Anormalidade Anatômica": [
+      "hérnia incisional"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "cx geral"
+    ]
+  },
+  "labels": {
+    "DD56": {
+      "term_original": "hérnia incisional",
+      "capitulo": "13",
+      "confidence_embedding": 0.7673,
+      "descricao_cid": "Representação de doença CID-11: Hernia incisional. Definição: A hérnia que ocorre em área fragilizada pela incisão de cirurgia abdominal prévia ou de trauma abdominal maior.",
+      "classification_reasoning": "A escolha é pela definição de hérnia incisional, que ocorre em área fragilizada pela incisão de cirurgia abdominal prévia (barratricia), justificando a escolha do código DD56 como mais precisa para o termo dentro do contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código DD56 é justificada pela definição de hérnia incisional, que ocorre em área fragilizada pela incisão de cirurgia abdominal prévia (barratricia). O termo 'hérnia incisional' no prontuário se encaixa perfeitamente na definição do código CID-11. Portanto, a codificação é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BE10": {
+      "term_original": "has",
+      "capitulo": "11",
+      "confidence_embedding": 0.7281,
+      "descricao_cid": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite.",
+      "classification_reasoning": "A opção mais precisa é a Síndrome pós-cardiotomia (BE10), pois o paciente apresenta sintomas após uma cirurgia e não há indicações de lesão cardíaca ou problemas coronarianos que justificassem as outras opções",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'HAS' não está relacionado à Síndrome pós-cardiotomia (BE10), que é uma condição clínica específica após lesão cardíaca. O paciente apresenta sintomas de hérnia incisional e uso de captopril, o que sugere uma condição diferente da Síndrome pós-cardiotomia.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

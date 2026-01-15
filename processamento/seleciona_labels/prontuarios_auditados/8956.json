@@ -1,0 +1,305 @@
+{
+  "prontuario_id": 80,
+  "text": "Em 30/01/2008: Púpilas isocóricas, mióticas, responsiva a estímulos dolorosos e aspirativos. Permanece em ventilação ventilação mecânica, PCV, Pi 36, Peep 8 e FiO2 80%. Hemodinamicamente instavel, taquicárdica, mantendo no momento saturação de 92% e hipotensão. NEOPLASIA MALIGNA DA BASE DA LINGUA. Às 09:57h: PO PONTE FEM-FEM. CONSCIENTE, ORIENTADO, TRANQUILO, NÃO VERBALIZANDO E RESTRITO AO LEITO. MANTENDO CURATIVO EM MIE. SNE COM DIETA EM BI. EMBOLIA E TROMBOSE DE ARTERIAS DOS MEMBROS SUPERIORES. Às 14:339hrs: Consciente, comunicativa, alerta, orientada. Eupneica, afebril, corada e hidratada. Aceitando bem a dieta VO branda. Mantem dreno de penrose na reg abdominal, ausente de debito. Incisao cirurgica em reg abdominal permanece limpo e seco. Nao re. ABDOME AGUDO. Às 18:01h: TRAQUEOSTOMIZADA, EM VM PCV COM 20 PI, 14 FR, 5 PEEP, 50% FIO2, INSTÁVEL HEMODINAMICAMENTE, APRESENTANDO HIPOTENSÃO, INICIADO DVA COM BOA RESPOSTA E NECESSIDADE DE AJUSTE POR ELEVAÇÃO DE PA, REAGE A DOSE E ASPIRAÇÃO, PÚPILAS ISOCÓRICAS E FOTORREAGENTES. NEOPLASIA MALIGNA DO RETO.",
+  "entities": {
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "Púpilas"
+    ],
+    "Sinal ou Sintoma": [
+      "mióticas",
+      "taquicárdica",
+      "hipotensão",
+      "afebril",
+      "HIPOTENSÃO",
+      "Hemodinamicamente instavel",
+      "INSTÁVEL HEMODINAMICAMENTE"
+    ],
+    "Abreviação": [
+      "PCV",
+      "Pi",
+      "Peep",
+      "FiO2",
+      "PO",
+      "MIE",
+      "SNE",
+      "VM",
+      "PI",
+      "FR",
+      "PEEP",
+      "FIO2",
+      "DVA",
+      "PONTE FEM-FEM",
+      "dieta VO branda",
+      "reg abdominal",
+      "ELEVAÇÃO DE PA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "PCV",
+      "CURATIVO",
+      "SNE",
+      "TRAQUEOSTOMIZADA",
+      "VM",
+      "DVA",
+      "ASPIRAÇÃO",
+      "ventilação mecânica",
+      "PONTE FEM-FEM",
+      "RESTRITO AO LEITO",
+      "dieta VO branda",
+      "dreno de penrose"
+    ],
+    "Conceito Quantitativo": [
+      "36",
+      "8",
+      "80%",
+      "92%",
+      "20",
+      "14",
+      "5",
+      "50%"
+    ],
+    "Conceito Temporal": [
+      "PO",
+      "no momento"
+    ],
+    "Achado": [
+      "CONSCIENTE",
+      "ORIENTADO",
+      "TRANQUILO",
+      "VERBALIZANDO",
+      "Consciente",
+      "comunicativa",
+      "alerta",
+      "orientada",
+      "Eupneica",
+      "afebril",
+      "corada",
+      "hidratada",
+      "debito",
+      "limpo",
+      "seco",
+      "TRAQUEOSTOMIZADA",
+      "responsiva a estímulos dolorosos e aspirativos",
+      "RESTRITO AO LEITO",
+      "ELEVAÇÃO DE PA",
+      "PÚPILAS ISOCÓRICAS E FOTORREAGENTES"
+    ],
+    "Negação": [
+      "NÃO",
+      "afebril",
+      "ausente",
+      "Nao"
+    ],
+    "Dispositivo Médico": [
+      "CURATIVO",
+      "SNE",
+      "dreno de penrose"
+    ],
+    "Localização ou Região Corporal": [
+      "MIE",
+      "reg abdominal"
+    ],
+    "Função Fisiológica": [
+      "debito"
+    ],
+    "Processo Neoplásico": [
+      "NEOPLASIA MALIGNA DA BASE DA LINGUA",
+      "NEOPLASIA MALIGNA DO RETO"
+    ],
+    "Doença ou Síndrome": [
+      "EMBOLIA E TROMBOSE DE ARTERIAS DOS MEMBROS SUPERIORES",
+      "ABDOME AGUDO"
+    ]
+  },
+  "labels": {
+    "6C40.3": {
+      "term_original": "orientado",
+      "capitulo": "06",
+      "confidence_embedding": 0.7717,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas.",
+      "classification_reasoning": "A escolha foi baseada no termo 'orientado', que sugere uma resposta mental clara e alerta, sem demonstrar sintomas de confusão ou alterações perceptivas. Isso é consistente com a definição da intoxicação por álcool, que pode levar à atenção prejudicada, comportamento inadequado ou agressivo, mas não necessariamente a desorientação.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 '6C40.3' para o termo 'orientado' é inapropriada, pois a definição da intoxicação por álcool não se aplica ao paciente que está orientado e consciente. A orientação do paciente sugere uma resposta mental clara e alerta, sem demonstrar sintomas de confusão ou alterações perceptivas, o que é consistente com a presença de uma neoplasia maligna da base da língua e embolia e trombose de artérias dos membros superiores. Portanto, é necessário remover o código CID-11 '6C40.3' e atribuir um código mais adequado que represente fielmente a condição clínica do paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD9A1.3": {
+      "term_original": "taquicárdica",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "Taquicárdica é um termo que descreve um ritmo cardíaco acelerado, o que está relacionado à instabilidade hemodinâmica e hipotensão descrita no contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'taquicárdica' descreve um ritmo cardíaco acelerado, o que está relacionado à instabilidade hemodinâmica e hipotensão descrita no contexto clínico. A codificação CID-11 BD9A1.3 representa fielmente a condição clínica descrita no prontuário, portanto, é válida.",
+      "tipo_erro_auditoria": null
+    },
+    "6C44.3": {
+      "term_original": "tranquilo",
+      "capitulo": "06",
+      "confidence_embedding": 0.7727,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por sedativos, hipnóticos ou ansiolíticos. Definição: Intoxicação por sedativos, hipnóticos ou ansiolíticos é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de sedativos, hipnóticos ou ansiolíticos, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos de sedativos, hipnóticos ou ansiolíticos, e sua intensidade está intimamente relacionada à quantidade de sedativos, hipnóticos ou ansiolíticos consumida. Têm duração limitada, e diminuem à medida que os sedativos, hipnóticos ou ansiolíticos são eliminados do corpo. Sintomas de apresentação podem incluir sonolência, julgamento comprometido, comportamento inadequado (incluindo comportamento sexual ou agressão), fala arrastada, prejuízo na coordenação motora, marcha instável, mudanças de humor, bem como prejuízo na memória, atenção e concentração. Nistagmo (movimentos oculares repetitivos não controlados) é um sinal físico comum. Em casos graves pode ocorrer estupor ou coma.",
+      "classification_reasoning": "O termo 'tranquilo' sugere que o paciente não está apresentando sintomas de ansiedade ou agitação, e a descrição de 'não verbalizando e restringido ao leito' suporta essa escolha. Além disso, a presença de outras doenças como neoplasia maligna da base da língua e embolia e trombose das artérias dos membros superiores sugere que a condição do paciente é complexa e não é relacionada à intoxicação por substâncias psicoativas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'tranquilo' não se refere a uma condição de intoxicação por sedativos, hipnóticos ou ansiolíticos. A descrição do paciente como 'consciente, orientado, tranquilo, não verbalizando e restringido ao leito' sugere que o paciente está em um estado de calma e tranquilidade, mas isso não é relacionado à intoxicação por substâncias psicoativas. Além disso, a presença de outras doenças como neoplasia maligna da base da língua e embolia e trombose das artérias dos membros superiores sugere que a condição do paciente é complexa e não pode ser reduzida a uma simples intoxicação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.11": {
+      "term_original": "restrito ao leito",
+      "capitulo": "21",
+      "confidence_embedding": 0.7549,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica subsequente a tratamento oncológico. Definição: Dor crônica pós tratamento do câncer é uma dor causada por qualquer tratamento administrado para tratar o tumor primário ou metástases. As formas mais comuns são:\r\n\r\n(i) Polineuropatia induzida por quimioterapia dolorosa crônica (CIPN): dor neuropática periférica crônica causada por quimioterapia oral ou intravenosa.\r\n\r\n(ii) Dor crônica pós-radioterapia: dor crônica causada por dano local tardio ao sistema nervoso no campo da radioterapia. É diferente da dor causada pela recorrência do tumor ou comorbidades.\r\n\r\nOutros tratamentos incluem cirurgia e terapia hormonal.\r\n\r\nCritérios diagnósticos\r\nAs condições de A a C estão preenchidas:\r\n\r\nA. A dor crônica (persistente ou recorrente por mais de 3 meses) está presente e caracterizada por todos os seguintes:\r\nA1 História de tratamento com quimioterapia ou radioterapia neurotóxica ou qualquer tratamento realizado para tratar o tumor primário ou metástases\r\nA2 É provável que a dor seja causada pelo tratamento do câncer.\r\n\r\nB. Um dos seguintes se aplica:\r\nB1 Um tumor ativo ou recorrente ou metástases foram especificamente excluídos na investigação radiológica.\r\nB2 Se um tumor ativo ou recorrente ou metástases estiverem presentes, a dor não é melhor explicada por eles.\r\n\r\nC. A dor não é melhor explicada por outro diagnóstico de dor crônica.",
+      "classification_reasoning": "O termo 'restrito ao leito' sugere que o paciente está com algum tipo de dor crônica subsequente a tratamento oncológico, justificando a escolha do código MG30.11.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'restrito ao leito' não é suficientemente específico para justificar a escolha do código MG30.11, que se refere especificamente à dor crônica subsequente a tratamento oncológico. A falta de informações sobre o tipo de tratamento e a natureza da dor faz com que a classificação seja muito geral e não represente fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "9A94.1": {
+      "term_original": "mióticas",
+      "capitulo": "09",
+      "confidence_embedding": 0.8074,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso.",
+      "classification_reasoning": "O termo 'mióticas' refere-se à representação de doença CID-11: Síndrome da íris flácida, que está relacionada à condição da pálpebra e da pupila, o que é compatível com o contexto clínico descrito.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'mióticas' refere-se à movimentação muscular, enquanto a Síndrome da íris flácida é uma condição relacionada à pupila e pálpebra. A falta de relação entre o termo e a condição descrita no prontuário justifica a remoção do código CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BB24": {
+      "term_original": "hipotensão",
+      "capitulo": "11",
+      "confidence_embedding": 0.7962,
+      "descricao_cid": "Representação de doença CID-11: Hemopericárdio. Definição: Hemopericárdio causado por doenças não classificadas em outra parte. Hemopericárdio geralmente se refere a sangue no saco pericárdico do coração. É clinicamente semelhante ao derrame pericárdico e, dependendo do volume e da rapidez com que se desenvolve, pode causar tamponamento cardíaco.",
+      "classification_reasoning": "A hipotensão é um sintoma comum em pacientes com hemopericárdio, que pode causar tamponamento cardíaco e reduzir a pressão arterial. Além disso, o contexto clínico menciona instabilidade hemodinâmica e hipotensão, o que sugere uma condição cardiovascular, como o hemopericárdio.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipotensão descrita no prontuário é um sintoma comum em várias condições clínicas, incluindo a neoplasia maligna da base da língua e a embolia e trombose de artérias dos membros superiores. Embora o hemopericárdio possa causar hipotensão, não há evidência clínica suficiente no prontuário para justificar a atribuição do código CID-11 BB24. Além disso, a neoplasia maligna da base da língua e a embolia e trombose de artérias dos membros superiores são condições muito diferentes da hemopericárdio.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A04.0": {
+      "term_original": "responsiva a estímulos dolorosos e aspirativos",
+      "capitulo": "09",
+      "confidence_embedding": 0.7423,
+      "descricao_cid": "Representação de doença CID-11: Triquíase sem entrópio. Definição: Refere-se a cílios anormalmente posicionados que crescem para trás em direção ao olho, tocando a córnea ou conjuntiva. Pode ser causado por infecção, inflamação, condições autoimunes, defeitos congênitos, agenesia palpebral e traumatismos como queimaduras ou lesões palpebrais. Esse diagnóstico é feito na ausência da condição em que a pálpebra (usualmente a inferior) dobra para dentro. É muito desconfortável, pois os cílios constantemente se esfregam contra a córnea e a irritam.",
+      "classification_reasoning": "A opção mais precisa é a triquíase sem entrópio (Código 9A04.0) porque o termo 'responsiva a estímulos dolorosos e aspirativos' sugere que os pupilas são reativas à estimulação dolorosa e aspirativa, característica da triquíase, uma condição que provoca dor e irritação na córnea.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção de código CID-11 (9A04.0) é inapropriada porque a descrição do termo 'responsiva a estímulos dolorosos e aspirativos' não se refere à triquíase sem entrópio, que provoca dor e irritação na córnea. A condição descrita no prontuário parece ser mais relacionada à reatividade dos pupilas em resposta a estimulação dolorosa e aspirativa, o que não é característico da triquíase. Portanto, é necessário remover esse código e buscar uma opção mais adequada para representar essa condição clínica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD81.3": {
+      "term_original": "limpo",
+      "capitulo": "21",
+      "confidence_embedding": 0.7629,
+      "descricao_cid": "Representação de doença CID-11: Abdome agudo. Definição: Síndrome clínica com dor abdominal aguda, que é intensa e de início rápido. O abdome agudo pode ser causado por uma variedade de transtornos, lesões ou doenças.",
+      "classification_reasoning": "A opção mais precisa para o termo \"limpo\" no contexto clínico é a abdome agudo (Código: MD81.3), pois o registro do prontuário refere-se à ausência de líquido no abdome e ao estado de limpeza da incisão cirúrgica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção MD81.3 não representa fielmente o termo 'limpo' no contexto do prontuário, que refere-se à ausência de líquido no abdome e ao estado de limpeza da incisão cirúrgica. O código CID-11 MD81.3 se refere a uma síndrome clínica de dor abdominal aguda, não relacionada à limpeza do abdome.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "2D03.1": {
+      "term_original": "neoplasia maligna do reto",
+      "capitulo": "02",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A neoplasia maligna do reto é uma indicação clara para o código 2D03.1, que representa a neoplasia maligna da região anal e do reto.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A neoplasia maligna descrita no prontuário refere-se à base da língua, não ao reto. O código CID-11 2D03.1 se refere especificamente a neoplasias malignas da região anal e do reto, portanto, não é um código adequado para essa condição.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C48.2": {
+      "term_original": "alerta",
+      "capitulo": "06",
+      "confidence_embedding": 0.8143,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais.",
+      "classification_reasoning": "A opção mais precisa para o termo 'alerta' é a Intoxicação por cafeína (CID-11 6C48.2). A paciente está alerta e orientada, o que pode ser um sintoma de euforia inadequada ou raiva, característicos da intoxicação por cafeína.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente está alerta e orientada, o que não é um sintoma característico da intoxicação por cafeína. A descrição do prontuário não apresenta qualquer indício de consumo excessivo de cafeína ou efeitos farmacológicos conhecidos da substância. Portanto, a codificação CID-11 6C48.2 para o termo 'alerta' é incorreta.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA05.1": {
+      "term_original": "traqueostomizada",
+      "capitulo": "12",
+      "confidence_embedding": 0.7733,
+      "descricao_cid": "Representação de doença CID-11: Traqueíte aguda. Definição: Esta condição se refere à inflamação aguda da traqueia.",
+      "classification_reasoning": "A paciente está com traqueostomizada, o que indica a presença de uma obstrução na via aérea, e o termo extraído 'traqueostomizada' é relacionado ao código CA05.1, que representa Traqueíte aguda.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente está com traqueostomizada, o que não é uma condição de doença, mas sim um procedimento médico. O código CA05.1, que representa Traqueíte aguda, não se aplica à situação da paciente. Ajuste necessário para garantir a codificação CID-11 clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C45.3": {
+      "term_original": "consciente",
+      "capitulo": "06",
+      "confidence_embedding": 0.7992,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A paciente está consciente e orientada, o que sugere que a intoxicação não é causada por substâncias como cafeína ou álcool. A presença de sintomas como ansiedade, agitação psicomotora e alucinações auditivas transitórias também são consistentes com a definição da intoxicação por cocaína.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente está sendo avaliada por uma neoplasia maligna da base da língua e apresenta sintomas de embolia e trombose em membros superiores, o que não é consistente com a definição de intoxicação por cocaína. Além disso, a presença de doenças graves como neoplasias malignas e embolias/tromboses não é compatível com a definição de intoxicação por cocaína.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA22.0": {
+      "term_original": "eupneica",
+      "capitulo": "12",
+      "confidence_embedding": 0.7735,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A paciente está respirando espontaneamente e apresenta saturação de oxigênio de 92%, o que sugere boa função pulmonar. Além disso, a paciente não apresenta sintomas de asma alérgica ou obstrutiva crônica aguda (CA23.00) e a exacerbação aguda da doença pulmonar obstrutiva crônica é mais provável do que uma pneumotórax espontâneo (CB21.1). A paciente não apresenta sintomas de faringite aguda (CA02), e a laringite não é mencionada no contexto clínico. A laringite é um processo inflamatório agudo da laringe, com dor de garganta e problemas para engolir, o que não se encontra descrito na história clínica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente apresenta sintomas respiratórios agudos, como ventilação mecânica e saturação de oxigênio de 92%, o que sugere uma situação crítica. O código CA22.0 (Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada) não se ajusta à descrição clínica da paciente, pois a paciente apresenta sintomas de doença respiratória aguda e está em ventilação mecânica, o que é mais compatível com uma pneumonia ou outra doença respiratória aguda do que com uma exacerbação crônica de DPOC. Além disso, a paciente tem neoplasia maligna da base da língua e embolia e trombose de artérias dos membros superiores, o que sugere uma situação mais complexa e não relacionada à DPOC.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "BA41": {
+      "term_original": "hemodinamicamente instavel",
+      "capitulo": "11",
+      "confidence_embedding": 0.7523,
+      "descricao_cid": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)",
+      "classification_reasoning": "A opção mais precisa para o termo 'hemodinamicamente instável' é a doença cardíaca hipertensiva (infarto agudo do miocárdio), pois há evidência de instabilidade hemodinâmica com hipotensão e necessidade de ajuste por elevação da pressão arterial.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'hemodinamicamente instável' não se refere a doença cardíaca hipertensiva (infarto agudo do miocárdio) como sugerido. A instabilidade hemodinâmica descrita no prontuário é mais provavelmente relacionada à neoplasia maligna da base da língua e ao estado geral do paciente, que não justifica a atribuição do código CID-11 BA41 (Infarto agudo do miocárdio).",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB41.0": {
+      "term_original": "abdome agudo",
+      "capitulo": "12",
+      "confidence_embedding": 0.7613,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência respiratória aguda. Definição: A insuficiência respiratória pode ser aguda (de curta duração) ou crônica (em evolução), usando o tempo como o principal parâmetro. Na insuficiência respiratória aguda a hipoxemia ocorre em um período de horas ou dias (menos de 7 dias) e a insuficiência respiratória pode se desenvolver rapidamente, e exigir tratamento de emergência.",
+      "classification_reasoning": "A insuficiência respiratória aguda é a mais adequada descrição para o termo 'abdome agudo' no contexto clínico, uma vez que há referências à ventilação mecânica e à instabilidade hemodinâmica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'abdome agudo' não está diretamente relacionado à insuficiência respiratória aguda. A descrição do prontuário apresenta sintomas de insuficiência respiratória, como ventilação mecânica e instabilidade hemodinâmica, mas o termo 'abdome agudo' se refere a uma condição abdominal aguda que não está claramente relacionada à insuficiência respiratória. Portanto, a codificação CID-11 CB41.0 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MF95": {
+      "term_original": "elevação de pa",
+      "capitulo": "21",
+      "confidence_embedding": 0.7783,
+      "descricao_cid": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular.",
+      "classification_reasoning": "A elevação de PA (pressão arterial) no contexto clínico aponta para um possível estado de estresse cardiovascular, que pode estar relacionado à mioglobinúria (rabdomiólise), levando a uma elevação da pressão sanguínea.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A elevação de PA não está diretamente relacionada à mioglobinúria. A justificativa do sistema é fraca e não há evidências no prontuário que apoiem a associação entre a pressão arterial e a mioglobinúria. Além disso, a descrição do código CID-11 (MF95) refere-se especificamente à mioglobinúria, enquanto o termo 'elevação de PA' não está relacionado a essa condição.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "2B61": {
+      "term_original": "neoplasia maligna da base da lingua",
+      "capitulo": "02",
+      "confidence_embedding": 0.7926,
+      "descricao_cid": "Representação de doença CID-11: Neoplasias malignas da base da língua. Definição: Neoplasia primária envolvendo a base da língua, frequentemente associada ao uso crônico de álcool e tabaco, idade avançada, certas localizações geográficas, história familiar de câncer do trato aerodigestivo superior e/ou certas deficiências nutricionais e agentes infecciosos.",
+      "classification_reasoning": "A neoplasia maligna da base da língua é a opção mais precisa para o termo 'neoplasia maligna da base da lingua' dentro do contexto clínico, pois coincide com a sintaxe e a descrição da doença presentes no prontuário.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A neoplasia maligna da base da língua descrita no prontuário é uma condição clínica específica e precisa, que coincide com a descrição do código CID-11 2B61. A sintaxe e a linguagem utilizadas no prontuário são consistentes com a definição do código, o que justifica a manutenção da codificação.",
+      "tipo_erro_auditoria": null
+    },
+    "6C46.3": {
+      "term_original": "orientada",
+      "capitulo": "06",
+      "confidence_embedding": 0.77,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por estimulantes, incluindo anfetaminas, metanfetamina ou metcatinona. Definição: Intoxicação por estimulantes, incluindo anfetaminas, metanfetamina e metcatinona, mas excluindo cafeína, cocaína e catinonas sintéticas é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de anfetaminas ou outros estimulantes, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos das anfetaminas ou outros estimulantes e sua intensidade está intimamente relacionada à quantidade de anfetaminas ou outros estimulantes consumida. Têm duração limitada, e diminuem à medida que as anfetaminas ou outros estimulantes são eliminados do corpo. Sintomas de apresentação podem incluir ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (possivelmente de intensidade delirante), alucinações auditivas transitórias, confusão transitória, mudanças na sociabilidade. Sudorese ou calafrios, nausea ou vômitos, e palpitações podem estar presentes. Sinais físicos podem incluir taquicardia, elevação da pressão arterial, dilatação pupilar, discinesias e distonias, e feridas na pele. Em casos raros, geralmente na intoxicação grave, o uso de estimulantes, incluindo anfetaminas, metanfetamina e metcatinona pode resultar em convulsões.",
+      "classification_reasoning": "A opção mais precisa para o termo 'orientada' é a intoxicação por estimulantes, incluindo anfetaminas, metanfetamina ou metcatinona (CID-11: 6C46.3). A paciente apresenta-se consciente e orientada, o que é consistente com os sintomas de uma intoxicação por estimulantes.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CID-11: 6C46.3 não é adequada porque a paciente está orientada e consciente, o que não é consistente com os sintomas de uma intoxicação por estimulantes. A orientação da paciente sugere que ela tem capacidade para responder a estímulos e comunicar-se, o que não é característico de uma intoxicação por estimulantes.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "NB90.7": {
+      "term_original": "embolia e trombose de arterias dos membros superiores",
+      "capitulo": "22",
+      "confidence_embedding": 0.7361,
+      "descricao_cid": "Representação de doença CID-11: Lesão de múltiplos vasos sanguíneos ao nível do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A escolha do código NB90.7 (Lesão de múltiplos vasos sanguíneos ao nível do abdome, região lombar ou pelve) é a mais precisa para o termo 'embolia e trombose de arterias dos membros superiores' pois a descrição do código inclui lesão de múltiplos vasos sanguíneos, que é consistente com a presença de embolia e trombose em diferentes áreas do corpo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão de múltiplos vasos sanguíneos descrita no prontuário refere-se a embolia e trombose em membros superiores, enquanto o código CID-11 NB90.7 se refere a lesão de múltiplos vasos sanguíneos ao nível do abdome, região lombar ou pelve. Isso não é consistente com a descrição clínica, portanto, o código atribuído não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    }
+  }
+}

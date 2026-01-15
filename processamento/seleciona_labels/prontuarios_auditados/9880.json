@@ -1,0 +1,172 @@
+{
+  "prontuario_id": 605,
+  "text": "PRIMEIRA CONSULTA\nS # PACIENTE REFERE TONTURA DO TIPO VERTIGINOSA, COM PIORA AO MOVIMENTAR A CABEÇA, ASSOCIADO A NAUSEA - COM CRISE DE DURAÇÃO DE 1 HORA. COM MLEHORA PARCIAL. AMNTENDO COM INSTABILIDADE POR 5 DIAS. EM USO DE VERTIX E LABIRIN POR 3 MESES. NEGA HIPOACUSIA OU OUTRAS QUEIXAS EM  ORL. \nREFERE TAMBEM RONCOS E ENGASGOS DURANTE A NOITE, AINDA NAO REALIZOU POLISSONOGRAFIA.\nHMP: HAS\nO # \nOT: SP\nRNF: PM, HHCCII\nORF: MALAPATI 3, AMIGDALA GII\nAUSENCIA DE NISTAGMO\nHEAD TRUST NEGATIVO\nP #\nROTINA OTONEURO\nCICLO DE MECLIN\nFAÇO DECLARAÇÃO SOLICITANDO MUDANÇA DE POSTO DE TRABALHO (TRABALHA EM ALTURAS)\nRETORNO COM EXAMES\nR1 Doutor Vital Bazil\nR2 Doutor Vital Bazil\n \n \n \n ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "CONSULTA",
+      "RETORNO"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Sinal ou Sintoma": [
+      "TONTURA",
+      "NAUSEA",
+      "CRISE",
+      "INSTABILIDADE",
+      "HIPOACUSIA",
+      "QUEIXAS",
+      "RONCOS",
+      "ENGASGOS",
+      "HHCCII",
+      "NISTAGMO",
+      "PIORA AO MOVIMENTAR A CABEÇA",
+      "AMIGDALA GII"
+    ],
+    "Substância Química Orgânica": [
+      "VERTIX",
+      "LABIRIN",
+      "MECLIN"
+    ],
+    "Substância Farmacológica": [
+      "VERTIX",
+      "LABIRIN",
+      "MECLIN"
+    ],
+    "Conceito Quantitativo": [
+      "3"
+    ],
+    "Negação": [
+      "NEGA",
+      "NAO",
+      "AUSENCIA"
+    ],
+    "Abreviação": [
+      "ORL",
+      "HMP",
+      "HAS",
+      "OT",
+      "SP",
+      "RNF",
+      "PM",
+      "HHCCII",
+      "ORF",
+      "OTONEURO",
+      "R1",
+      "R2"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ORL",
+      "R1",
+      "Doutor",
+      "R2"
+    ],
+    "Procedimento Diagnóstico": [
+      "POLISSONOGRAFIA",
+      "EXAMES"
+    ],
+    "Atributo Clínico": [
+      "HMP"
+    ],
+    "Doença ou Síndrome": [
+      "HAS"
+    ],
+    "Achado": [
+      "SP",
+      "MALAPATI 3"
+    ],
+    "Localização ou Região Corporal": [
+      "ORF"
+    ],
+    "Procedimento Laboratorial": [
+      "EXAMES"
+    ],
+    "Conceito Temporal": [
+      "DURAÇÃO DE 1 HORA",
+      "5 DIAS",
+      "DURANTE A NOITE"
+    ],
+    "Classificação": [
+      "MALAPATI 3"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "HEAD TRUST NEGATIVO"
+    ],
+    "Atividade Ocupacional": [
+      "POSTO DE TRABALHO",
+      "TRABALHA EM ALTURAS"
+    ]
+  },
+  "labels": {
+    "8A68.5": {
+      "term_original": "nistagmo",
+      "capitulo": "08",
+      "confidence_embedding": 0.7448,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica mioclônica generalizada. Definição: Convulsão caracterizada por espasmos musculares involuntários repentinos, rápidos e breves (<100 mseg) que podem envolver apenas um músculo ou toda a musculatura do tronco e estão associados a uma descarga ictal no EEG. Pode ocorrer bilateralmente, unilateralmente, de forma síncrona ou assíncrona.",
+      "classification_reasoning": "A crise epiléptica mioclônica generalizada (Código 8A68.5) é a mais adequada para o caso, pois apresenta sintomas como espasmos musculares involuntários repentinos e rápidos, que são similares aos descritos no paciente (tontura vertiginosa com piora ao mover a cabeça). Além disso, a falta de nistagmo é um ponto importante que se encaixa melhor na síndrome de Código 8A68.5 do que nas outras opções.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A crise epiléptica mioclônica generalizada (Código 8A68.5) é a mais adequada para o caso, pois apresenta sintomas como espasmos musculares involuntários repentinos e rápidos, que são similares aos descritos no paciente (tontura vertiginosa com piora ao mover a cabeça). Além disso, a falta de nistagmo é um ponto importante que se encaixa melhor na síndrome de Código 8A68.5 do que nas outras opções.",
+      "tipo_erro_auditoria": null
+    },
+    "8A80": {
+      "term_original": "piora ao movimentar a cabeça",
+      "capitulo": "08",
+      "confidence_embedding": 0.761,
+      "descricao_cid": "Representação de doença CID-11: Enxaqueca. Definição: Transtorno de cefaleia primária, na maioria dos casos episódica. Ataques incapacitantes com duração de 4-72 horas são caracterizados por cefaleia moderada ou grave, geralmente acompanhada por náuseas, vômitos e/ou fotofobia e fonofobia e algumas vezes precedidos por uma aura de curta duração de sintomas visuais, sensoriais ou outros sintomas do sistema nervoso central, unilaterais e totalmente reversíveis. Numa pequena minoria de casos, a cefaleia, mas não necessariamente os sintomas associados, torna-se muito frequente, com perda da episodicidade.",
+      "classification_reasoning": "A piora ao movimentar a cabeça, associada à tontura vertiginosa e náusea, sugere uma crise de enxaqueca. A duração da crise (1 hora) e a ausência de nistagmo também são características da doença.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A piora ao movimentar a cabeça, associada à tontura vertiginosa e náusea, é uma característica clínica descrita no prontuário que se encaixa perfeitamente na definição do código CID-11 8A80 (Enxaqueca). A duração da crise (1 hora) e a ausência de nistagmo também são características mencionadas no prontuário que corroboram a classificação. Portanto, o código CID-11 8A80 é válido para representar a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "8A64": {
+      "term_original": "nausea",
+      "capitulo": "08",
+      "confidence_embedding": 0.7851,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo.",
+      "classification_reasoning": "A presença de tontura vertiginosa, piora ao movimentar a cabeça e associada à náusea, sugere uma possível crise epiléptica. Além disso, o paciente refere roncos e engasgos durante a noite, o que pode estar relacionado às crises epilépticas. A falta de nistagmo e head trust negativo também são consistentes com essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A crise epiléptica única devida a causas remotas (8A64) não é um diagnóstico que se ajusta às características clínicas descritas no prontuário. A tontura vertiginosa, piora ao movimentar a cabeça e associada à náusea, sugerem mais uma crise de vertigem do que uma crise epiléptica. Além disso, a falta de nistagmo e head trust negativo também são consistentes com essa escolha. Portanto, é necessário remover o código CID-11 8A64 e substituí-lo por um código mais adequado para representar a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MB48.00": {
+      "term_original": "crise",
+      "capitulo": "21",
+      "confidence_embedding": 0.7687,
+      "descricao_cid": "Representação de doença CID-11: Vertigem de origem central. Definição: A vertigem central é geralmente resultado de um processamento anormal da entrada sensitiva vestibular pelo sistema nervoso central devido ou a uma interrupção dos integradores centrais (ou seja, tronco cerebral, cerebelo) ou a uma incompatibilidade de informações sensitivas (ou seja, do córtex). Lesões que afetam o nervo vestibular ou a zona de entrada da raiz (ou seja, lesões do ângulo cerebelopontino [ACP]) resultam em desequilíbrio por afetar as informações sensitivas vestibulares primárias",
+      "classification_reasoning": "A paciente refere tontura do tipo vertiginosa, com piora ao mover a cabeça, associado à nausea - com crise de duração de 1 hora. Essas características clinicamente relevantes sugerem uma vertigem de origem central (MB48.00), justificada pela presença de instabilidade por 5 dias e uso de Vertix e Labirint por 3 meses.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A vertigem descrita na consulta é caracterizada por tontura do tipo vertiginosa, com piora ao mover a cabeça e associação à nausea, o que sugere uma vertigem de origem central. A crise de duração de 1 hora e a instabilidade por 5 dias também corroboram essa hipótese. Além disso, o uso de Vertix e Labirint por 3 meses é consistente com a presença de sintomas vestibulares. Portanto, a codificação CID-11 MB48.00 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "8A61.12": {
+      "term_original": "instabilidade",
+      "capitulo": "08",
+      "confidence_embedding": 0.7811,
+      "descricao_cid": "Representação de doença CID-11: Epilepsia da infância com crises epilépticas migratórias focais. Definição: Síndrome epiléptica com início entre a primeira semana e os sete meses de vida de convulsões focais polimórficas intratáveis. O desenvolvimento psicomotor progressivamente se deteriora. Uma mutação de SCN1A pode ser encontrada. O EEG mostra locais variáveis e multifocais de início das convuslões e lentificação difusa.",
+      "classification_reasoning": "A instabilidade descrita pelo paciente é característica de uma epilepsia infantil com crises epilépticas migratórias focais, como definido pela síndrome de Dravet (Código CID-11: 8A61.12). A combinação de tontura vertiginosa, piora ao movimentar a cabeça, náusea e crises de duração de uma hora são características dessas crises epilépticas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A instabilidade descrita pelo paciente não é diretamente relacionada à epilepsia infantil com crises epilépticas migratórias focais. A instabilidade pode ser um sintoma de várias condições, incluindo a vertigem e a náusea mencionadas no prontuário. O código CID-11 8A61.12 não representa fielmente o termo 'instabilidade' descrito no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "AB31.0": {
+      "term_original": "malapati 3",
+      "capitulo": "10",
+      "confidence_embedding": 0.7953,
+      "descricao_cid": "Representação de doença CID-11: Doença de Ménière. Definição: A doença de Meniere (DM) é uma doença crônica progressiva da orelha interna, com hidropisia endolinfática. É caracterizada por ataques recorrentes de vertigem espontânea debilitante com duração de 20 minutos a até 12 horas, acompanhada por sensação de plenitude auricular e zumbido na orelha afetada, e perda auditiva neurossensorial flutuante ipsilateral (PANS) nas frequências baixa ou baixa e média. Pode ocorrer nistagmo durante as crises e quedas são frequentes. Quando conhecida, a etiologia deve ser acrescentada.",
+      "classification_reasoning": "A vertigem espontânea com duração de 1 hora, associada a náusea e instabilidade por 5 dias, sugerem uma doença crônica progressiva da orelha interna, como a Doença de Ménière. A ausência de nistagmo e a história de uso de Vértix e Labirint por 3 meses também corroboram essa escolha.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A vertigem espontânea com duração de 1 hora, associada a náusea e instabilidade por 5 dias, sugerem uma doença crônica progressiva da orelha interna, como a Doença de Ménière. A ausência de nistagmo e a história de uso de Vértix e Labirint por 3 meses também corroboram essa escolha. A descrição do prontuário é clínica e coerente com a definição da Doença de Ménière, portanto, o código CID-11 AB31.0 é válido.",
+      "tipo_erro_auditoria": null
+    },
+    "AB31.6": {
+      "term_original": "engasgos",
+      "capitulo": "10",
+      "confidence_embedding": 0.7822,
+      "descricao_cid": "Representação de doença CID-11: Paroxismia vestibular. Definição: Paroxismia vestibular (PV) é caracterizada por crises recorrentes de vertigem ou tontura, durando segundos a minutos, frequentemente várias vezes ao dia. Os ataques geralmente ocorrem espontaneamente, mas podem ocasionalmente ser induzidos por mudanças na posição da cabeça (que então precisa ser diferenciada da vertigem posicional paroxística benigna). Possíveis sintomas concomitantes são ataques curtos de tinnitus ou alterações na audição. No intervalo livre de crise podem ser observados comprometimentos leves a moderados da função vestibular ou audiológica. A compressão cruzada neurovascular do oitavo nervo é o mecanismo presumido.",
+      "classification_reasoning": "A vertigem do tipo vertiginosa, associada a nausea e piora ao movimentar a cabeça, com duração de 1 hora, sugere uma paroxismia vestibular (PV) com sintomas intensos e persistentes. A presença de roncos e engasgos durante a noite também é consistente com essa diagnóstico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A vertigem do tipo vertiginosa, associada a nausea e piora ao movimentar a cabeça, com duração de 1 hora, é consistente com a paroxismia vestibular (PV) descrita no código CID-11. A presença de roncos e engasgos durante a noite também é compatível com essa condição. Portanto, o código CID-11 AB31.6 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

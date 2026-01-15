@@ -1,0 +1,218 @@
+{
+  "prontuario_id": 129,
+  "text": "# ESTENOSE MITRAL - VALVULOPLASTIA 1993 # ACFA / FLUTTER - CARDIOVERSÃO HÁ 2 ANOS # HIPOTIREOIDISMO  Paciente internou por quadro de dispnéia associada a palpitações, tendo sido relacionado este quadro a fibrilação atrial aguda com exacerbação de ICC. Houve melhora progressiva durante a internação. Em 31/1/2007, foi submetida a cardioversão elétrica eletiva para reversão para ritmo sinusal. Procedimento sem intercorrências com ritmo sinusal documentado desde então. Antes do procedimento foi afastado trombos por ecocardiografia transesofágico. Ao exame apresenta apenas leve hiperemia em local do choque, sem dor. Tem alta em boas condições, com frequência em torno de 70 / minuto, regular, hemodinamicamente estável, com INR no alvo com plano de retorno ao consultório do Doutor Vital Brazil , seu médico assistente. Orientações gerais. ",
+  "entities": {
+    "Procedimento Terapêutico ou Preventivo": [
+      "VALVULOPLASTIA",
+      "CARDIOVERSÃO",
+      "Procedimento",
+      "procedimento",
+      "choque",
+      "cardioversão elétrica eletiva",
+      "reversão para ritmo sinusal"
+    ],
+    "Abreviação": [
+      "ACFA",
+      "INR",
+      "exacerbação de ICC"
+    ],
+    "Doença ou Síndrome": [
+      "ACFA",
+      "FLUTTER",
+      "HIPOTIREOIDISMO",
+      "ESTENOSE MITRAL",
+      "fibrilação atrial aguda",
+      "exacerbação de ICC"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "internou",
+      "internação",
+      "submetida",
+      "alta",
+      "Orientações gerais"
+    ],
+    "Sinal ou Sintoma": [
+      "dispnéia",
+      "palpitações",
+      "intercorrências",
+      "trombos",
+      "hiperemia",
+      "dor",
+      "boas condições"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Conceito Temporal": [
+      "Antes",
+      "HÁ 2 ANOS"
+    ],
+    "Procedimento Diagnóstico": [
+      "exame",
+      "INR",
+      "ecocardiografia transesofágico"
+    ],
+    "Conceito Qualitativo": [
+      "leve",
+      "regular"
+    ],
+    "Atributo Clínico": [
+      "frequência"
+    ],
+    "Achado": [
+      "regular",
+      "melhora progressiva",
+      "ritmo sinusal",
+      "boas condições",
+      "hemodinamicamente estável"
+    ],
+    "Produto Intelectual": [
+      "plano"
+    ],
+    "Organização Relacionada à Saúde": [
+      "consultório"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Doutor",
+      "médico assistente"
+    ],
+    "Conceito Quantitativo": [
+      "70 / minuto"
+    ]
+  },
+  "labels": {
+    "BC81.2": {
+      "term_original": "flutter",
+      "capitulo": "11",
+      "confidence_embedding": 0.7922,
+      "descricao_cid": "Representação de doença CID-11: Taquicardia atrial macrorreentrante. Definição: Arritmia atrial em que há reentrada intra-atrial ou movimento circular em torno de um obstáculo central fixo ou funcional. O obstáculo central pode consistir em estruturas normais (p.ex., valvas) ou anormais (p.ex., cicatrizes).\r\n\r\nEsta forma de TSV se origina no átrio; a condução para os ventrículos não é necessária para que a taquicardia continue. Um ritmo atrial organizado com uma frequência tipicamente entre 250 e 350 bpm, incluindo taquicardias usando uma variedade de circuitos de reentrada que muitas vezes ocupam grandes áreas do átrio (‘‘macro-reentrada’’). Aqui, a arritmia envolve o istmo cavotricuspídeo.",
+      "classification_reasoning": "A palavra 'flutter' é um termo comum para descrição de taquicardia atrial macrorreentrante, que é uma forma de TSV (Taquisncardia Supraventricular) caracterizada por um ritmo atrial organizado e frequência cardíaca elevada. Nesse contexto clínico, a presença de fibrilação atrial aguda com exacerbação de ICC e subsequente cardioversão elétrica sugerem que o paciente apresenta Taquicardia Atrial Macrorreentrante.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A palavra 'flutter' é um termo comum para descrição de taquicardia atrial macrorreentrante, que é uma forma de TSV (Taquisncardia Supraventricular) caracterizada por um ritmo atrial organizado e frequência cardíaca elevada. Nesse contexto clínico, a presença de fibrilação atrial aguda com exacerbação de ICC e subsequente cardioversão elétrica sugerem que o paciente apresenta Taquicardia Atrial Macrorreentrante.",
+      "tipo_erro_auditoria": null
+    },
+    "MC82.0": {
+      "term_original": "hemodinamicamente estável",
+      "capitulo": "21",
+      "confidence_embedding": 0.7636,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico.",
+      "classification_reasoning": "A opção mais precisa para o termo 'hemodinamicamente estável' é MC82.0, pois a definição desse código refere-se ao colapso hemodinâmico causado por taquicardia e fibrilação ventricular, que não condiz com a situação clínica do paciente. A presença de 'hemodinamicamente estável' indica um estado dinâmico normalizado da circulação sanguínea, o que é mais compatível com MC82.0.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A definição do código CID-11 MC82.0 refere-se a parada cardíaca com taquicardia e fibrilação ventricular, o que não condiz com a situação clínica do paciente, que apresenta hemodinamicamente estável. A presença de 'hemodinamicamente estável' indica um estado dinâmico normalizado da circulação sanguínea, portanto, a classificação é inapropriada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5B78.0": {
+      "term_original": "exacerbação de icc",
+      "capitulo": "05",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha do código 5C78 (Sobrecarga de líquidos) foi excluída porque não há indícios de que a exacerbação de ICC esteja relacionada à sobrecarga de líquidos no sangue. A escolha do código 5B5A.0 (Beribéri) também foi excluída pois não há relato de cianose ou ataque cardíaco agudo. Os demais códigos (5A02.5, 5A60.2 e 5B5K.7) não são relacionados à exacerbação de ICC.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 5B78.0 (Sobrecarga de líquidos) é muito genérica e não representa fielmente a exacerbação de ICC descrita no prontuário. A exacerbação de ICC não está relacionada à sobrecarga de líquidos, mas sim à fibrilação atrial aguda com exacerbação de ICC. Uma codificação mais específica e clínicaamente coerente seria necessária para representar essa condição.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BC80.20": {
+      "term_original": "ritmo sinusal",
+      "capitulo": "11",
+      "confidence_embedding": 0.786,
+      "descricao_cid": "Representação de doença CID-11: Síndrome do nó sinusal. Definição: A síndrome da doença do nó sinusal pode ser definida como frequências sinusais inapropriadas (ou bradicardia em repouso ou incompetência cronotrópica) que podem estar associadas a episódios de taquicardia atrial.",
+      "classification_reasoning": "A descrição do código BC80.20, Síndrome do nó sinusal, melhor se adequa ao contexto clínico do paciente, que apresentou cardioversão elétrica eletiva para reversão para ritmo sinusal após fibrilação atrial aguda.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'ritmo sinusal' refere-se ao estado normal do ritmo cardíaco, enquanto o código BC80.20 se refere à Síndrome do nó sinusal, que é uma condição clínica específica. A cardioversão elétrica eletiva para reversão para ritmo sinusal não é a mesma coisa que ter a síndrome do nó sinusal. Portanto, o código CID-11 atribuído não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "PK91.4": {
+      "term_original": "trombos",
+      "capitulo": "23",
+      "confidence_embedding": 0.7196,
+      "descricao_cid": "Representação de doença CID-11: Dispositivos cardiovasculares associados às lesões ou danos, dispositivos diversos, não classificados em outra parte. Definição: ",
+      "classification_reasoning": "A escolha do PK91.4 (Dispositivos cardiovasculares associados às lesões ou danos, dispositivos diversos, não classificados em outra parte) é a mais precisa pois o termo 'trombos' refere-se a dispositivos cardiovasculares utilizados para diagnóstico e/ou tratamento, e PK91.4 abrange todos esses dispositivos sem classificação específica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'trombos' refere-se a uma condição clínica (presença de coágulos) e não a um dispositivo cardiovascular utilizado para diagnóstico e/ou tratamento. A escolha do código PK91.4 é inapropriada, pois não há relação direta entre o termo 'trombos' e dispositivos cardiovasculares associados às lesões ou danos.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA23.00": {
+      "term_original": "dispnéia",
+      "capitulo": "12",
+      "confidence_embedding": 0.7889,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide.",
+      "classification_reasoning": "A dispnéia descrita no contexto clínico é caracterizada como uma condição aguda ou subaguda com falta de ar, tosse e aperto no peito, o que sugere uma possível exacerbação da asma alérgica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dispnéia descrita no prontuário é um sintoma, não uma condição clínica diretamente relacionada à asma alérgica. A justificativa do sistema está baseada em uma interpretação errônea da dispnéia como exacerbação de asma alérgica. Embora a dispnéia possa ser um sintoma associado à asma, não há evidência clínica suficiente para sustentar essa relação.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BC81.30": {
+      "term_original": "palpitações",
+      "capitulo": "11",
+      "confidence_embedding": 0.8403,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "Palpitações é um sintoma comum na fibrilação atrial, e a paciente tem história de fibrilação atrial aguda com exacerbação de ICC, o que justifica a escolha do código BC81.30",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'palpitações' não representa diretamente a condição de fibrilação atrial paroxística descrita no prontuário. A palpitação é um sintoma comum, mas não é o diagnóstico da doença. O código BC81.30 se refere especificamente à fibrilação atrial paroxística, que não está diretamente relacionada ao termo 'palpitações'. Portanto, a codificação CID-11 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "NE82.1": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.7782,
+      "descricao_cid": "Representação de doença CID-11: Disfunção do marcapasso ou cardioversor desfibrilador implantável. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'intercorrências' é a disfunção do marcapasso ou cardioversor desfibrilador implantável, pois a cardioversão elétrica foi feita com sucesso e não houve problemas durante o procedimento.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A cardioversão elétrica foi feita com sucesso e não houve problemas durante o procedimento, o que não se relaciona à disfunção do marcapasso ou cardioversor desfibrilator implantável. O termo 'intercorrências' refere-se a complicações ou eventos adversos durante um procedimento, o que não é o caso aqui.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ED70.30": {
+      "term_original": "dor",
+      "capitulo": "14",
+      "confidence_embedding": 0.7476,
+      "descricao_cid": "Representação de doença CID-11: Eflúvio telógeno agudo. Definição: Eflúvio telógeno agudo é uma queda de cabelos do couro cabeludo de início agudo que ocorre dois a três meses após um estresse desencadeante, muitas vezes com risco à vida, e que interrompe o crescimento anágeno normal do fio. É comumente observado em sobreviventes que necessitaram de cuidados intensivos para sepse, hemorragia, doença inflamatória ou traumatismo graves. Também pode resultar de desnutrição aguda. Um grande número de fios anágenos são convertidos em telógenos e são eliminados dois a três meses depois, resultando em uma alopecia difusa.",
+      "classification_reasoning": "A escolha foi feita pois o termo 'dor' não está relacionado ao contexto clínico do paciente, que apresenta uma história de quadro de dispnéia associada a palpitações e fibrilação atrial aguda com exacerbação de ICC. A dor não é mencionada como sintoma presente ou passado no paciente. A escolha da opção ED70.30 foi feita pois o termo 'eflúvio telógeno agudo' não está relacionado à dor e ao contexto clínico do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'dor' não está relacionado ao contexto clínico do paciente, que apresenta uma história de quadro de dispnéia associada a palpitações e fibrilação atrial aguda com exacerbação de ICC. A dor não é mencionada como sintoma presente ou passado no paciente. Além disso, o código CID-11 ED70.30 refere-se a eflúvio telógeno agudo, que não tem relação com a dor. Portanto, a escolha do código é incoerente com o prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "EF02.0": {
+      "term_original": "hiperemia",
+      "capitulo": "14",
+      "confidence_embedding": 0.7401,
+      "descricao_cid": "Representação de doença CID-11: Hipertrofia de gordura. Definição: Hipertrofia focal do tecido adiposo subcutâneo. É uma sequela comum da injeção de insulina na pele por longo prazo.",
+      "classification_reasoning": "A hipertrofia de gordura (EF02.0) é a opção mais precisa para o termo 'hiperemia' no contexto clínico, pois é uma condição caracterizada por um aumento anormal da gordura subcutânea, que pode estar relacionada à hiperemia descrita no exame do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipertrofia de gordura (EF02.0) não é uma condição relacionada à hiperemia descrita no exame do paciente, que se refere a um aumento anormal da circulação sanguínea em um local específico. A hipertrofia de gordura é uma condição caracterizada por um aumento anormal da gordura subcutânea, não está diretamente relacionada à hiperemia descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5A00.2": {
+      "term_original": "hipotireoidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.8105,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo adquirido. Definição: Hipotireoidismo adquirido é uma condição onde a glândula tireoide produz muito pouco ou nenhum hormônio, e esta condição surge apenas após o nascimento.",
+      "classification_reasoning": "Como o paciente apresenta hipotireoidismo e não há informações sobre doença congênita, uso de medicamentos ou procedimento, a escolha mais precisa para o termo dentro do contexto clínico é o código 5A00.2, que representa o hipotireoidismo adquirido.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 atribuído (5A00.2) representa hipotireoidismo adquirido, que é uma condição onde a glândula tireoide produz muito pouco ou nenhum hormônio e surge apenas após o nascimento. No entanto, o prontuário não apresenta informações sobre quando o paciente desenvolveu o hipotireoidismo, se foi adquirido ou congênito. Além disso, a descrição do código CID-11 não se aplica ao caso do paciente, pois não há menção à produção de hormônio tireoideano e ao surgimento da condição após o nascimento.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BB63.1": {
+      "term_original": "estenose mitral",
+      "capitulo": "11",
+      "confidence_embedding": 0.833,
+      "descricao_cid": "Representação de doença CID-11: Estenose mitral não reumática com insuficiência. Definição: É uma valvopatia não reumática caracterizada pelo estreitamento do orifício da valva mitral do coração, com regurgitação.",
+      "classification_reasoning": "A escolha do código BB63.1 é a mais precisa porque o texto menciona 'estenose mitral' sem especificar se é reumática ou não, e o código BB63.1 combina estenose mitral com insuficiência, o que é mencionado no contexto clínico ('# ESTENOSE MITRAL - VALVULOPLASTIA 1993 # ACFA / FLUTTER - CARDIOVERSÃO HÁ 2 ANOS'). Além disso, a descrição do código BB63.1 também se aplica ao quadro de dispnéia e palpitações descrito no prontuário.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código BB63.1 é justificada porque o termo 'estenose mitral' está presente no prontuário e não há indicação de que seja reumática. Além disso, a descrição do código BB63.1 se aplica ao quadro clínico descrito no prontuário, incluindo a dispnéia e palpitações. Ajusta-se às diretrizes de auditoria, pois o código representa fielmente o termo ou condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "SH70": {
+      "term_original": "acfa",
+      "capitulo": "26",
+      "confidence_embedding": 0.713,
+      "descricao_cid": "Representação de doença CID-11: Padrão hiperpsicótico congestivo do tipo Pequeno Yin (MT1). Definição: ",
+      "classification_reasoning": "A opção mais precisa é SH70, pois 'Acfa' é um termo relacionado à arritmia cardíaca ( flutter), que é uma característica clínica descrita no contexto do prontuário. SH70 se refere a um padrão hiperpsicótico congestivo do tipo Pequeno Yin, que pode estar associado a alterações cardíacas, incluindo arritmias.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'Acfa' não se refere a uma condição clínica diretamente relacionada à estenose mitral, valvuloplastia ou hipotireoidismo. A opção mais precisa é SH70, pois 'Acfa' é um termo relacionado à arritmia cardíaca (flutter), que é uma característica clínica descrita no contexto do prontuário. No entanto, o código CID-11 atribuído não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

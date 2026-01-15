@@ -1,0 +1,76 @@
+{
+  "prontuario_id": 864,
+  "text": "02/20: paciente no leito, verbalizando, queixando-se de dor no peito irradiando para as costas, mantendo PA 90x60 mmHg, saturação 85%, comunicado medico de plantão, avaliado, solicitado exames, não foi realizado eletrocardiograma, pois os aparelhos estão quebrados, solicitado exames laboratoriais. medicado e mantido em observação. Enfermira Florence Nightingale. OUTROS TIPOS DE PNEUMOTORAX ESPECIFICADOS.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "paciente"
+    ],
+    "Objeto Manufaturado": [
+      "leito"
+    ],
+    "Achado": [
+      "verbalizando"
+    ],
+    "Sinal ou Sintoma": [
+      "queixando-se",
+      "dor no peito"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "saturação"
+    ],
+    "Conceito Quantitativo": [
+      "85%",
+      "90x60 mmHg"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "avaliado",
+      "realizado",
+      "medicado",
+      "solicitado exames",
+      "mantido em observação"
+    ],
+    "Negação": [
+      "não"
+    ],
+    "Procedimento Diagnóstico": [
+      "eletrocardiograma"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermira",
+      "medico de plantão"
+    ]
+  },
+  "labels": {
+    "BE10": {
+      "term_original": "queixando-se",
+      "capitulo": "11",
+      "confidence_embedding": 0.7249,
+      "descricao_cid": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite.",
+      "classification_reasoning": "A opção mais precisa para o termo 'queixando-se' é a síndrome pós-cardiotomia (Código BE10), pois o paciente está verbalizando queixas, possivelmente relacionadas à dor no peito e nas costas. A presença de dor e a sintomatologia cardíaca sugerem uma reação adversa ao procedimento, o que é consistente com a definição da síndrome pós-cardiotomia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa do paciente de dor no peito irradiando para as costas não é suficiente para justificar a codificação da síndrome pós-cardiotomia (Código BE10). A descrição da síndrome pós-cardiotomia refere-se especificamente à reação de hipersensibilidade a antígeno derivado do miocárdio lesado após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. Neste caso, a queixa do paciente pode ser relacionada a outras condições clínicas, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "6C40.4": {
+      "term_original": "verbalizando",
+      "capitulo": "06",
+      "confidence_embedding": 0.7682,
+      "descricao_cid": "Representação de doença CID-11: Abstinência de álcool. Definição: Abstinência de álcool é um conjunto clinicamente significativo de sintomas, comportamentos e/ou manifestações fisiológicas, variando em grau de gravidade e duração, que ocorre quando da cessação ou redução do uso de álcool em indivíduos que tenham desenvolvido dependência de álcool ou que tenham usado álcool por um período prolongado ou em grandes quantidades. Sintomas de apresentação da abstinência de álcool podem incluir hiperatividade autonômica (p. ex., taquicardia, hipertensão, sudorese), tremores aumentados nas mãos, náusea, ânsia de vômito ou vômito, insônia, ansiedade, agitação psicomotora, humor deprimido ou disfórico, ilusões ou alucinações visuais, táteis ou auditivas transitórias e distratibilidade. Menos comumente, o estado de abstinência é complicado por convulsões tônico-clônicas. O estado de abstinência pode progredir para uma forma muito grave de delirium, caracterizada por confusão e desorientação, delírios e alucinações visuais, táteis ou auditivas prolongadas. Nesses casos, um diagnóstico separado de delirium induzido por álcool também deve ser atribuído.",
+      "classification_reasoning": "O termo 'verbalizando' indica que o paciente está comunicando seus sintomas e sentimentos, o que sugere uma situação de abstinência de álcool ou outra substância, caracterizada por sintomas como náusea, ânsia de vômito ou vômito, insônia, ansiedade, agitação psicomotora, entre outros. A escolha do código 6C40.4 é justificada pela presença desses sintomas e pela possibilidade de abstinência de álcool como uma causa provável da situação do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'verbalizando' não está relacionado à abstinência de álcool ou outra substância, como sugerido pelo sistema. A presença do termo apenas indica que o paciente está comunicando seus sintomas e sentimentos, mas não há evidências clínicas para sustentar a hipótese de abstinência de álcool. Portanto, a escolha do código 6C40.4 é inapropriada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB21.1": {
+      "term_original": "dor no peito",
+      "capitulo": "12",
+      "confidence_embedding": 0.7698,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A dor no peito irradiando para as costas e a pressão arterial de 90x60 mmHg sugerem um quadro de pneumotórax, que é caracterizado pela dor no tórax irradiando para as costas e elevação da pressão arterial. A ausência de eletrocardiograma e a presença de outros sintomas respiratórios justificam a escolha desse código.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor no peito irradiando para as costas não é suficiente para justificar a escolha do código CB21.1, que se refere especificamente a pneumotórax espontâneo. A falta de informações sobre a pressão arterial e saturação de oxigênio também são relevantes. Além disso, a ausência de eletrocardiograma e exames laboratoriais não é mencionada como motivos para a escolha desse código.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

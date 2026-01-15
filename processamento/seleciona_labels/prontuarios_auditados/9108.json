@@ -1,0 +1,256 @@
+{
+  "prontuario_id": 821,
+  "text": "Às 14:18 HS: CONSCIENTE, ORIENTADA, EUPNEICA, ACEITA DIETA, CATETER EM JUGULAR ESQ PARA HEMODIÁLISE, ABDOME PLANO, FLÁCIDO, INDOLOR A PALPAÇÃO, DIURESE POUCO VOLUME, EVACUAÇÃO NORMAL, SEM QUEIXAS ALGICAS, SEM FORÇA MUSCULAR EM MMII, MANTEM PRECAUÇÃO DE CONTATO. Às 15:13: CLIENTE REFERE DOR MODERADA EM JOELHO D, CONSCIENTE, COMUNICATIVA, EUPNEICA, REPOUSO NO LEITO, ACEITANDO BEM A DIETA, ACESSO PERIFÉRICO EM MSE SALINIZADO, ABDOMEN GLOBOSO E FLÁCIDO, MANTENDO CATETER PERIDURAL PARA ANALGESIA, CTVO LIMPO E SECO EM MID, PERFUSÃO DISTAL PRESERVADA, MICÇÃO PRESENTE. Às 16:32: FOI DIMINUIDO O GOTEJAMENTO DA NPT EM BI PARA 40 ML/H, CONFORME ORIENTAÇÃO DO DRº VITAL BRASIL. Às 18:16hs: Estavel hemodinamicamente, segue de alta para ala b-16-2 acompanhado dos familiares e a enfermagem. Às 00:18h: encontra-se consciente, orientada, pouco comunicativa, ssvv dentro dos parametros de normalidade, mantendo acesso venoso periférico em MSD permeavel, salinizado no momento, mantem colar cervical, apresenta escoriações em face, sem queixas álgicas, SEGUE CUIDADOS.  ",
+  "entities": {
+    "Achado": [
+      "CONSCIENTE",
+      "ORIENTADA",
+      "EUPNEICA",
+      "FLÁCIDO",
+      "COMUNICATIVA",
+      "SALINIZADO",
+      "LIMPO",
+      "SECO",
+      "consciente",
+      "orientada",
+      "permeavel",
+      "salinizado",
+      "ACEITA DIETA",
+      "POUCO VOLUME",
+      "EVACUAÇÃO NORMAL",
+      "REPOUSO NO LEITO",
+      "ACEITANDO BEM",
+      "PERFUSÃO DISTAL PRESERVADA",
+      "MICÇÃO PRESENTE",
+      "Estavel hemodinamicamente",
+      "pouco comunicativa",
+      "ssvv dentro dos parametros de normalidade"
+    ],
+    "Dispositivo Médico": [
+      "CATETER",
+      "CTVO",
+      "ACESSO PERIFÉRICO",
+      "CATETER PERIDURAL",
+      "acesso venoso periférico",
+      "colar cervical"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CATETER",
+      "HEMODIÁLISE",
+      "SALINIZADO",
+      "CTVO",
+      "salinizado",
+      "PRECAUÇÃO DE CONTATO",
+      "REPOUSO NO LEITO",
+      "ACESSO PERIFÉRICO",
+      "DIMINUIDO O GOTEJAMENTO DA NPT",
+      "acesso venoso periférico",
+      "colar cervical"
+    ],
+    "Localização ou Região Corporal": [
+      "ABDOME",
+      "MSE",
+      "ABDOMEN",
+      "MSD",
+      "face"
+    ],
+    "Negação": [
+      "INDOLOR",
+      "SEM",
+      "sem"
+    ],
+    "Procedimento Diagnóstico": [
+      "PALPAÇÃO"
+    ],
+    "Função Fisiológica": [
+      "DIURESE",
+      "EVACUAÇÃO NORMAL",
+      "MICÇÃO PRESENTE"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "CLIENTE"
+    ],
+    "Abreviação": [
+      "MSE",
+      "CTVO",
+      "BI",
+      "DRº",
+      "MSD",
+      "JUGULAR ESQ",
+      "JOELHO D",
+      "EM MID",
+      "DIMINUIDO O GOTEJAMENTO DA NPT",
+      "ssvv dentro dos parametros de normalidade"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "alta",
+      "CUIDADOS"
+    ],
+    "Grupo Familiar": [
+      "familiares"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "enfermagem"
+    ],
+    "Lesão ou Envenenamento": [
+      "escoriações"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "JUGULAR ESQ",
+      "JOELHO D"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS ALGICAS",
+      "DOR MODERADA",
+      "queixas álgicas"
+    ],
+    "Função de Órgão ou Tecido": [
+      "FORÇA MUSCULAR"
+    ],
+    "Conceito Quantitativo": [
+      "40 ML/H"
+    ]
+  },
+  "labels": {
+    "BD11.0": {
+      "term_original": "perfusão distal preservada",
+      "capitulo": "11",
+      "confidence_embedding": 0.7426,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência ventricular esquerda com fração de ejeção preservada. Definição: Síndrome de disfunção ventricular esquerda que ocorre com fração de ejeção normal ou relativamente preservada",
+      "classification_reasoning": "A presença de perfusão distal preservada no contexto clínico sugere que o paciente está com insuficiência ventricular esquerda com fração de ejeção preservada, uma condição caracterizada por uma função cardíaca comprometida, mas ainda mantendo uma perfusão sanguínea adequada para os tecidos distais.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de perfusão distal preservada no prontuário não é diretamente relacionada à insuficiência ventricular esquerda com fração de ejeção preservada. A perfusão distal preservada pode ser um achado normal em pacientes com doenças cardíacas, mas não é exclusiva da condição descrita pelo código CID-11 BD11.0.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA80.8": {
+      "term_original": "flácido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7431,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção FA80.8 é a mais precisa para o termo 'flácido' no contexto do prontuário, que descreve um abdome plano e flácido.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'flácido' no prontuário descreve um abdome plano e flácido, o que não é diretamente relacionado à degeneração de disco intervertebral da coluna lombar (FA80.8). A codificação CID-11 não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MD11.4": {
+      "term_original": "queixas algicas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7435,
+      "descricao_cid": "Representação de doença CID-11: Respiração de Cheyne-Stokes relacionada ao sono. Definição: Respiração periódica, uma variante da respiração de Cheyne-Stokes, é caracterizada por ciclos regulares e recorrentes de mudanças no volume corrente, nas quais o menor volume corrente é menor que a metade do volume corrente máximo do mesmo ciclo. É o padrão respiratório anormal mais frequentemente relacionado ao acidente vascular cerebral, mais do que nas doenças sistêmicas, ocorrendo em aproximadamente 25% daqueles. A respiração periódica pode ser mais comum em pacientes com hemorragia subaracnóidea.",
+      "classification_reasoning": "A opção mais precisa para o termo 'queixas algicas' é a Respiração de Cheyne-Stokes relacionada ao sono (Código CID-11: MD11.4), pois não há menções à dor ou desconforto abdominal na descrição do prontuário, mas sim referências a escoriações em face e falta de queixas álgicas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção de código CID-11: MD11.4 (Respiração de Cheyne-Stokes relacionada ao sono) não é clínica ou lógica para o termo 'queixas algicas' descrito no prontuário, pois não há menções à dor ou desconforto abdominal na descrição do prontuário. Além disso, a presença de escoriações em face e falta de queixas álgicas sugerem que o paciente está bem controlado com relação às suas queixas algicas.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "CB41.20": {
+      "term_original": "pouco volume",
+      "capitulo": "12",
+      "confidence_embedding": 0.7482,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência respiratória não especificada, Tipo I. Definição: Esta ocorre quando a PaCO2 pode estar normal ou baixa. É tipicamente causada por um desequilíbrio da relação ventilação/perfusão (V/Q); o volume de ar que entra e sai dos pulmões não se corresponde ao fluxo sanguíneo pulmonar. O defeito básico na insuficiência respiratória tipo 1 é a insuficiência de oxigenação.",
+      "classification_reasoning": "A expressão 'pouco volume' é utilizada para descrever a diurese do paciente, o que sugere uma possível insuficiência respiratória não especificada (Tipo I), caracterizada por um desequilíbrio da relação ventilação/perfusão e insuficiência de oxigenação.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A expressão 'pouco volume' não é suficientemente específica para justificar a classificação de insuficiência respiratória não especificada (Tipo I). A diurese pode ser afetada por várias razões, e essa informação não é claramente relacionada à insuficiência respiratória. Além disso, o prontuário não apresenta sintomas ou achados que sugiram uma insuficiência respiratória grave.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MG30.2": {
+      "term_original": "dor moderada",
+      "capitulo": "21",
+      "confidence_embedding": 0.7705,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A dor moderada descrita no prontuário é característica de uma dor crônica pós-operatória ou pós-traumática, que persistiu por pelo menos 3 meses após a cirurgia. A escolha do código MG30.2 se justifica pela localização da dor no joelho e pela falta de indícios de outras causas de dor.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor moderada descrita no prontuário não é suficientemente específica para justificar a escolha do código MG30.2, que se refere a uma dor crônica pós-operatória ou pós-traumática persistente por pelo menos 3 meses após a cirurgia. Embora o termo 'dor moderada' possa sugerir alguma forma de dor crônica, é necessário mais contexto para confirmar que se trata de uma dor relacionada à cirurgia ou lesão tecidual.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "EA90.3": {
+      "term_original": "seco",
+      "capitulo": "14",
+      "confidence_embedding": 0.7632,
+      "descricao_cid": "Representação de doença CID-11: Psoríase eritrodérmica. Definição: Psoríase eritrodérmica é uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele. A psoríase eritrodérmica geralmente se desenvolve a partir da psoríase em placas extensa mas pode surgir de forma nova. Fatores precipitantes ou desencadeantes incluem a retirada de glicocorticoides sistêmicos e, menos frequentemente, a descontinuação abrupta do metotrexato, queimaduras ou infecções intercorrentes. Os pacientes podem desenvolver hipotermia ou insuficiência cardíaca de alto débito.",
+      "classification_reasoning": "A presença de escoriações em face, sem queixas álgicas, sugere a possibilidade de psoríase eritrodérmica, uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de escoriações em face não é suficiente para justificar a classificação de psoríase eritrodérmica, uma condição grave e inflamatória. A falta de queixas álgicas e a ausência de outros sintomas clássicos da doença também são importantes para considerar essa classificação. Além disso, não há informações no prontuário que sugiram eritema intenso confluente envolvendo mais de 90% da superfície da pele, o que é característico da psoríase eritrodérmica.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "EK12": {
+      "term_original": "escoriações",
+      "capitulo": "14",
+      "confidence_embedding": 0.7799,
+      "descricao_cid": "Representação de doença CID-11: Sensibilização alérgica por contato. Definição: A presença de hipersensibilidade tardia tipo IV do sistema imune a uma determinada substância sem definição de doença prévia ou atual. Tal sensibilização é normalmente adquirida por contato prévio de pele ou mucosa com a própria substância ou com outra quimicamente similar (reatividade cruzada). Contato subsequente com a substância pode provocar reação alérgica. Em determinadas circunstâncias, essa sensibilização pode impedir que um indivíduo aceite ou continue em um emprego em que a exposição ao alérgeno não pode ser evitada. Alguns indivíduos sensibilizados para um alérgeno específico, entretanto, podem nunca manifestar sintomas caso ocorra o contato.",
+      "classification_reasoning": "A presença de escoriações na face do paciente sem queixas álgicas sugere uma reação alérgica ou irritação cutânea, o que está relacionado ao termo Sensibilização alérgica por contato (CID-11: EK12).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escoriação descrita no prontuário não está relacionada à sensibilização alérgica por contato (EK12), pois não há menção a hipersensibilidade tardia tipo IV do sistema imune ou reação alérgica. A presença de escoriações na face pode ser resultado de outras causas, como trauma físico ou procedimento médico. Portanto, o código CID-11 atribuído (EK12) não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C45.3": {
+      "term_original": "comunicativa",
+      "capitulo": "06",
+      "confidence_embedding": 0.7711,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A presença do termo 'comunicativa' no contexto clínico sugere que o paciente está respondendo de forma adequada e interagindo com os cuidadores, o que é mais consistente com a intoxicação por cocaína, que pode causar euforia inadequada e agitação psicomotora.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença do termo 'comunicativa' no contexto clínico não é consistente com a intoxicação por cocaína, que pode causar euforia inadequada e agitação psicomotora. O paciente está descrito como consciente, orientado e comunicativo, o que sugere uma situação mais próxima de um paciente estável ou em repouso do que uma pessoa intoxicada por cocaína.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA38.2": {
+      "term_original": "permeavel",
+      "capitulo": "15",
+      "confidence_embedding": 0.7102,
+      "descricao_cid": "Representação de doença CID-11: Artropatia associada a reações de hipersensibilidade classificadas em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'permeavel' é a artropatia associada a reações de hipersensibilidade, pois a presença do termo 'salinizado no momento' na anamnese sugere uma possível reação alérgica ou hipersensitiva ao meio salino.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FA38.2 não representa fielmente o termo 'permeavel', que se refere à permeabilidade de um acesso venoso periférico, e não está relacionado a artropatia associada a reações de hipersensibilidade. A classificação é demasiadamente específica e não captura a essência do termo original.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC80": {
+      "term_original": "estavel hemodinamicamente",
+      "capitulo": "11",
+      "confidence_embedding": 0.7477,
+      "descricao_cid": "Representação de doença CID-11: Bradiarritmia supraventricular. Definição: Qualquer uma das várias arritmias possíveis originadas no ou acima do feixe de His, nas quais o coração bate mais devagar do que os limites inferiores normais para a idade.",
+      "classification_reasoning": "A opção mais precisa para o termo 'estavel hemodinamicamente' é a Bradiarritmia supraventricular (Código BC80), pois esta condição se refere à situação hemodinâmica estável, ou seja, sem instabilidade cardiovascular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BC80 (Bradiarritmia supraventricular) não é adequada porque o termo 'estavel hemodinamicamente' se refere à estabilidade cardiovascular, que não está relacionada à bradiarritmia. A classificação CID-11 deve ser mais específica e clínica para representar a situação descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME01": {
+      "term_original": "repouso no leito",
+      "capitulo": "21",
+      "confidence_embedding": 0.7517,
+      "descricao_cid": "Representação de doença CID-11: Distensão abdominal. Definição: Esta é uma condição em que o abdômen parece cheio e tenso por causa do inchaço do abdômen, geralmente devido a um aumento da quantidade de gases intestinais, mas ocorre às vezes quando fluidos, substâncias ou massa estão se acumulando ou se expandindo no abdômen.",
+      "classification_reasoning": "O termo 'repouso no leito' sugere que o paciente está descansando ou repousando em sua cama, o que é consistente com a condição de distensão abdominal (ME01). A presença de um cateter periférico e a descrição do abdome como plano e flácido também corroboram essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'repouso no leito' não é diretamente relacionado à distensão abdominal (ME01). A condição descrita no prontuário refere-se a um paciente que está repousando em sua cama, mas isso não necessariamente implica na presença de distensão abdominal. Além disso, a descrição do abdome como plano e flácido também não é consistente com a condição de distensão abdominal.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "FA25": {
+      "term_original": "salinizado",
+      "capitulo": "15",
+      "confidence_embedding": 0.7099,
+      "descricao_cid": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato.",
+      "classification_reasoning": "A opção mais precisa para o termo 'salinizado' é a gota (FA25), pois trata-se de uma artropatia aguda ou crônica caracterizada pela deposição de cristais de urato em tecidos articulares, que pode estar relacionada à hiperuricemia e depósito focal de urato na pele e tecido subcutâneo. A salinização do acesso venoso periférico em MSD permeável é uma técnica comum utilizada para evitar a formação de cristais e a deposição de urato nos vasos sanguíneos.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção FA25 (Gota) é justificada pelo termo 'salinizado', pois a salinização do acesso venoso periférico em MSD permeável é uma técnica comum utilizada para evitar a formação de cristais e a deposição de urato nos vasos sanguíneos, o que está relacionado à gota. Além disso, não há contradição óbvia ou falta de base no texto para justificar a remoção do código CID-11.",
+      "tipo_erro_auditoria": null
+    },
+    "MC01.3": {
+      "term_original": "queixas álgicas",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é a MB23.H, no entanto, não há evidências de que o paciente esteja sofrendo de uma crise de pânico. A descrição da dor moderada em joelho D e a falta de queixas álgicas sugerem que a dor seja provavelmente relacionada à hemodiálise ou ao estado geral do paciente. O código MC01.3 (Representação de doença CID-11: Queixa de dor) é mais adequado para descrever essa condição.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor moderada em joelho D não é uma queixa álgica, mas sim um sintoma físico. A falta de queixas álgicas no prontuário sugere que o paciente não está apresentando dor aguda ou crônica. O código MC01.3 (Representação de doença CID-11: Queixa de dor) não representa fielmente a condição descrita no prontuário, pois a dor moderada em joelho D é um sintoma físico e não uma queixa álgica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C48.2": {
+      "term_original": "pouco comunicativa",
+      "capitulo": "06",
+      "confidence_embedding": 0.7623,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais.",
+      "classification_reasoning": "A paciente apresenta pouco comunicativa, o que sugere uma possível intoxicação por cafeína ou outro substância psicoactiva, levando em conta a história de dor moderada no joelho e a diminuição do gotejamento da NPT. A escolha do código 6C48.2 é baseada na apresentação clínica da paciente, que está coerente com os sintomas típicos de intoxicação por cafeína.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente apresenta dor moderada no joelho e não há evidência de consumo excessivo de cafeína. Além disso, a diminuição do gotejamento da NPT pode ser relacionada à hemodinâmica e não necessariamente à intoxicação por cafeína. A escolha do código 6C48.2 é baseada em uma associação puramente imaginária e sem qualquer base no texto.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

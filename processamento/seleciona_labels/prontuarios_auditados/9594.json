@@ -1,0 +1,118 @@
+{
+  "prontuario_id": 46,
+  "text": "Lucas, 55 anos.\nComorbidades: HAS.\nMedicamentos atenolol 100mg, 12-12h, \n\tdiltiazen 60mg, 12-12h, \n\tEnalapril 10mg, 12-12h, \n\tHCTZ 25mg, \n\tMarevan 5mg.\nHMA: fez 02 ablações (2009 e 2010) POR PALPITAÇÕES com taquicardia atrial;\nAtualmente sente palpitações quando faz grandes esforços ; dor de cabeça que melhora com analgésico comum. \nRelata que acompanha pressão no posto e normalmente está 120x80.\nFC: 88.\nEdema discreto mmi.\nAusculta pulmonar e cardiaca normais.\n \n \n \n ",
+  "entities": {
+    "Doença ou Síndrome": [
+      "Comorbidades",
+      "HAS"
+    ],
+    "Abreviação": [
+      "HAS",
+      "HCTZ",
+      "FC",
+      "mmi",
+      "cardiaca"
+    ],
+    "Substância Farmacológica": [
+      "Medicamentos",
+      "atenolol",
+      "diltiazen",
+      "Enalapril",
+      "HCTZ",
+      "Marevan"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Medicamentos",
+      "ablações"
+    ],
+    "Substância Química Orgânica": [
+      "atenolol",
+      "HCTZ"
+    ],
+    "Conceito Quantitativo": [
+      "100mg",
+      "12-12h",
+      "60mg",
+      "10mg",
+      "25mg",
+      "5mg",
+      "02",
+      "120x80",
+      "88"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "Enalapril"
+    ],
+    "Sinal ou Sintoma": [
+      "PALPITAÇÕES",
+      "palpitações",
+      "Edema",
+      "dor de cabeça"
+    ],
+    "Achado": [
+      "melhora",
+      "normais"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "acompanha"
+    ],
+    "Atributo Clínico": [
+      "pressão",
+      "FC"
+    ],
+    "Organização Relacionada à Saúde": [
+      "posto"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "mmi"
+    ],
+    "Função de Órgão ou Tecido": [
+      "cardiaca"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "taquicardia atrial"
+    ]
+  },
+  "labels": {
+    "BD93": {
+      "term_original": "edema",
+      "capitulo": "11",
+      "confidence_embedding": 0.7928,
+      "descricao_cid": "Representação de doença CID-11: Linfedema. Definição: Edema devido ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Geralmente afeta as extremidades, mas pode envolver qualquer parte do corpo. É desfigurante e aumenta a suscetibilidade a infecções recorrentes e malignidades locais.",
+      "classification_reasoning": "A opção mais precisa é a BD93, pois o paciente apresenta edema discreto, caracterizando um edema que pode estar relacionado à sua comorbidade de HAS e ao uso de medicamentos anti-hipertensivos. Além disso, o edema não está relacionado à insuficiência cardíaca ou a hipertensão arterial, como sugerem as outras opções.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "Embora o paciente apresente edema discreto, não há evidência clínica suficiente no prontuário para estabelecer uma relação direta com a HAS ou o uso de medicamentos anti-hipertensivos. A descrição do código CID-11 BD93 se refere a um edema linfático, que pode ser desfigurante e aumentar a suscetibilidade a infecções recorrentes e malignidades locais. No entanto, não há informações no prontuário que justifiquem essa classificação específica. Além disso, o termo 'edema' é muito amplo e pode se referir a diferentes tipos de edemas, como o edema agudo ou crônico, que não estão mencionados no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BD10": {
+      "term_original": "comorbidades",
+      "capitulo": "11",
+      "confidence_embedding": 0.7464,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos.",
+      "classification_reasoning": "A comorbidade referida como HAS (Hipertensão Arterial Sistêmica) é uma doença cardíaca hipertensiva, que é descrita pelo código CID-11 BD10. A presença de insuficiência cardíaca congestiva e medicamentos para tratamento da hipertensão também corroboram a escolha desse código.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A comorbidade referida como HAS (Hipertensão Arterial Sistêmica) não é uma doença cardíaca hipertensiva, mas sim uma condição de pressão arterial elevada. Embora haja relação entre a hipertensão e a insuficiência cardíaca congestiva, o termo 'comorbidades' não se refere especificamente à insuficiência cardíaca congestiva. Portanto, o código CID-11 BD10 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA01": {
+      "term_original": "has",
+      "capitulo": "11",
+      "confidence_embedding": 0.7546,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A escolha do código BA01 é a mais precisa pois o paciente apresenta comorbidade de HAS (Doença Cardíaca Hipertensiva), que é descrita na definição do código. A HAS está relacionada à presença de doenças cardíacas hipertensivas, como hipertrofia ventricular esquerda e insuficiência cardíaca congestiva.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código BA01 é justificada pois o paciente apresenta comorbidade de HAS (Doença Cardíaca Hipertensiva), que é descrita na definição do código. A HAS está relacionada à presença de doenças cardíacas hipertensivas, como hipertrofia ventricular esquerda e insuficiência cardíaca congestiva. O prontuário descreve a comorbidade de HAS e os sintomas cardíacos, como palpitações e dor de cabeça, o que justifica a escolha do código BA01.",
+      "tipo_erro_auditoria": null
+    },
+    "MG24.7": {
+      "term_original": "dor de cabeça",
+      "capitulo": "21",
+      "confidence_embedding": 0.7864,
+      "descricao_cid": "Representação de doença CID-11: Medo de doença cardiovascular. Definição: ",
+      "classification_reasoning": "A dor de cabeça apresentada pelo paciente é mais provável ser relacionada a uma condição cardiovascular, como pressão arterial aumentada ou hipertensão, em vez de outras possibilidades de dor de cabeça (como erupções cutâneas agudas). O código MG24.7, Representação de doença CID-11: Medo de doença cardiovascular, é a escolha mais precisa para o termo 'dor de cabeça' dentro do contexto clínico, considerando a comorbidade de HAS e os medicamentos anti-hipertensivos utilizados pelo paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor de cabeça apresentada pelo paciente pode ser causada por vários fatores, incluindo pressão arterial aumentada ou hipertensão. No entanto, a comorbidade de HAS e os medicamentos anti-hipertensivos utilizados não são suficientes para estabelecer uma relação direta entre a dor de cabeça e o medo de doença cardiovascular. A dor de cabeça pode ter outras causas, como tensão muscular ou problemas gerais de saúde. Portanto, o código MG24.7 não representa fielmente o termo 'dor de cabeça' no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

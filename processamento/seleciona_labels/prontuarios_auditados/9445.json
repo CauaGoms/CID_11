@@ -1,0 +1,127 @@
+{
+  "prontuario_id": 679,
+  "text": "59 a. Comorbidades: DM tipo 2 ( há mais de 10 anos, insulinodependente há 5 anos), hipotireoidismo (após tireoidectomia ), HAS (há mais de 10 anos), glaucoma. Medicamentos diários: Insulina NPH (20U pela manhã e 16U à noite), regular (16U pela manhã e 8U à noite), puran (100mcg), metformina 850mg, AAS (100mg), enalapril (20mg). Retorno com exames laboratoriais: Cr = 0,8; TFG CKD-EPI 79,3 ml/min/1,73 m2 ; glicose = 193, triglicerídeos = 117, HbA1c = 8,42%, TSH = 0,85, T4 livre = 1,33 ; microalbuminúria: 3,18mg/24hrs.  CONDUTA: NPH 24U + regular 16U pela manhã, NPH 16U  + regular 8U à noite. Medicamentos sintomáticos para IVAS. Retorno em 3 meses.",
+  "entities": {
+    "Achado": [
+      "insulinodependente"
+    ],
+    "Doença ou Síndrome": [
+      "hipotireoidismo",
+      "HAS",
+      "glaucoma",
+      "IVAS",
+      "DM tipo 2"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "tireoidectomia"
+    ],
+    "Abreviação": [
+      "HAS",
+      "regular",
+      "AAS",
+      "NPH",
+      "DM tipo 2"
+    ],
+    "Substância Farmacológica": [
+      "Medicamentos",
+      "regular",
+      "puran",
+      "metformina",
+      "AAS",
+      "enalapril",
+      "NPH",
+      "Insulina NPH"
+    ],
+    "Conceito Temporal": [
+      "diários",
+      "pela manhã",
+      "à noite"
+    ],
+    "Substância Química Orgânica": [
+      "regular",
+      "puran",
+      "metformina",
+      "AAS",
+      "NPH"
+    ],
+    "Conceito Quantitativo": [
+      "100mcg",
+      "850mg",
+      "100mg",
+      "20mg",
+      "24U",
+      "16U"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Retorno"
+    ],
+    "Produto Intelectual": [
+      "CONDUTA"
+    ],
+    "Procedimento Laboratorial": [
+      "exames laboratoriais"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Cr = 0 , 8",
+      "TFG CKD-EPI 79 , 3 ml/min/1 , 73 m2",
+      "glicose = 193",
+      "triglicerídeos = 117",
+      "HbA1c = 8 , 42%",
+      "TSH = 0 , 85",
+      "T4 livre = 1 , 33",
+      "microalbuminúria : 3 , 18mg/24hrs"
+    ]
+  },
+  "labels": {
+    "BC70.9": {
+      "term_original": "has",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'HAS' é a Hipertensão Arterial Sistêmica (BC70.9), uma condição crônica caracterizada por pressão arterial elevada que pode causar danos à saúde cardiovascular e renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BC70.9 é um código que se refere a Hipertensão Arterial Sistêmica, enquanto no prontuário está descrita como HAS (Hipertensão Arterial Sistêmica), mas não há evidência clínica de pressão arterial elevada ou danos à saúde cardiovascular e renal. Além disso, o termo 'HAS' é mais amplo e pode se referir a outras condições além da Hipertensão Arterial Sistêmica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NC95.Z": {
+      "term_original": "ivas",
+      "capitulo": "22",
+      "confidence_embedding": 0.7323,
+      "descricao_cid": "Representação de doença CID-11: Lesão de vaso sanguíneo não especificado na perna. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NC95.Z porque o termo 'ivas' se refere a lesão de vaso sanguíneo não especificado na perna, o que é consistente com a informação do prontuário que não há indicações de lesões nos vasos sanguíneos ao nível do pescoço, punho ou mão.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'ivas' não se refere a lesão de vaso sanguíneo não especificado na perna, mas sim à Insuficiência Venosa Atrial Séptica (IVAS), que é uma condição clínica específica. O código CID-11 NC95.Z não representa fielmente o termo ou condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5A11": {
+      "term_original": "dm tipo 2",
+      "capitulo": "05",
+      "confidence_embedding": 0.7886,
+      "descricao_cid": "Representação de doença CID-11: Diabetes mellitus tipo 2. Definição: Diabetes Mellitus tipo 2 (anteriormente diabetes mellitus não dependente de insulina ou diabetes de início na idade adulta) é um transtorno metabólico que se caracteriza por níveis elevados de glicose no sangue, no contexto de resistência à insulina e deficiência relativa de insulina.",
+      "classification_reasoning": "Diabetes Mellitus tipo 2 é a doença mais provável, considerando que o paciente tem diabetes tipo 2 insulinodependente há 5 anos e os valores de glicose (193) e HbA1c (8,42%) são consistentes com essa condição.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 '5A11' para Diabetes Mellitus tipo 2 é justificada pelo prontuário, pois o paciente tem diabetes tipo 2 insulinodependente há 5 anos e os valores de glicose (193) e HbA1c (8,42%) são consistentes com essa condição. A presença de insulina NPH e regular também apoia a classificação.",
+      "tipo_erro_auditoria": null
+    },
+    "5A00.20": {
+      "term_original": "hipotireoidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.8312,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo devido a medicamentos ou outras substâncias exógenas. Definição: Condição causada por uma hipofunção da tireoide devido a medicamentos ou outras substâncias exógenas. Essa condição pode se apresentar com fadiga, aumento da sensibilidade ao frio, constipação, pele seca, ganho de peso, fraqueza e dor muscular, aumento de colesterol, dores ou inchaços nas articulações, períodos menstruais mais intensos ou irregulares, enfraquecimento do cabelo, depressão e memória deficiente.",
+      "classification_reasoning": "O hipotireoidismo foi causado por tireoidectomia, que é uma cirurgia que remove a glândula tireoide, o que leva à hipofunção da tireoide e ao subsequente hipotireoidismo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A justificativa do sistema afirma que o hipotireoidismo foi causado por tireoidectomia, que é uma cirurgia que remove a glândula tireoide. No entanto, isso não é um fato clínico relevante para o diagnóstico de hipotireoidismo. O termo 'hipotireoidismo' refere-se à condição médica em si, e não ao método utilizado para causá-la. Portanto, a codificação CID-11 5A00.20 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "family_history_misread"
+    },
+    "9C61.2": {
+      "term_original": "glaucoma",
+      "capitulo": "09",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A descrição do glaucoma não apresenta características congênitas, primárias ou secundárias de ângulo fechado neovascular. Além disso, não há menção a retinopatia diabética ou outras condições isquêmicas do olho, que são comuns em pacientes com DM tipo 2 como o paciente descrito. Portanto, a opção mais precisa é o glaucoma secundário de ângulo aberto (9C61.22) ou simplesmente glaucoma secundário (9C61.2), considerando que não há indicações de neovascularização.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção do sistema é muito genérica e não considera a comorbidade de diabetes melito tipo 2, que é um fator importante para o desenvolvimento de glaucoma. Além disso, não há menção a características específicas do glaucoma secundário de ângulo aberto ou simplesmente glaucoma secundário no prontuário. Portanto, é necessário remover essa classificação e reavaliar a condição do paciente.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

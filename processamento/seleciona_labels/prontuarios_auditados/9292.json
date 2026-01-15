@@ -1,0 +1,80 @@
+{
+  "prontuario_id": 30,
+  "text": "PO DE FRATURA DE PUNHO DIREITO.\nRX SEM SINAIS DE PERDA DE REDUÇÃO.\nADM DE DEDOS PRESENTE.\nPERFUSAO PERIFERICA PRESENTE.\nCD:\nRETORNO AMBULATORIAL,\nCTVOS DIARIOS,\nMANTER TALA GESSADA.\n\nR1 LUCAS\n \n \n ",
+  "entities": {
+    "Conceito Temporal": [
+      "PO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "PO",
+      "MANTER",
+      "RETORNO AMBULATORIAL"
+    ],
+    "Abreviação": [
+      "PO",
+      "RX",
+      "CD",
+      "R1",
+      "ADM DE DEDOS PRESENTE",
+      "CTVOS DIARIOS"
+    ],
+    "Procedimento Diagnóstico": [
+      "RX"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "R1"
+    ],
+    "Espaço ou Junção Corporal": [
+      "PUNHO DIREITO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "SINAIS DE PERDA DE REDUÇÃO"
+    ],
+    "Sinal ou Sintoma": [
+      "SINAIS DE PERDA DE REDUÇÃO"
+    ],
+    "Achado": [
+      "ADM DE DEDOS PRESENTE",
+      "PERFUSAO PERIFERICA PRESENTE"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CTVOS DIARIOS",
+      "TALA GESSADA"
+    ],
+    "Dispositivo Médico": [
+      "TALA GESSADA"
+    ]
+  },
+  "labels": {
+    "FB40.4": {
+      "term_original": "adm de dedos presente",
+      "capitulo": "15",
+      "confidence_embedding": 0.6809,
+      "descricao_cid": "Representação de doença CID-11: Dedo em gatilho. Definição: Este é um transtorno comum, caracterizado pela travamento, estalido ou bloqueio do tendão flexor do dedo acometido, associado a disfunção e dor.",
+      "classification_reasoning": "A opção mais precisa para o termo 'adm de dedos presente' é a Código FB40.4, que descreve uma condição caracterizada pela travamento, estalido ou bloqueio do tendão flexor do dedo acometido, associado a disfunção e dor.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'adm de dedos presente' não descreve uma condição caracterizada pela travamento, estalido ou bloqueio do tendão flexor do dedo acometido, associado a disfunção e dor. A presença de ADM (Adesão) nos dedos é um achado normal após uma fratura, e não está relacionada à condição descrita pelo código CID-11 FB40.4.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BE16": {
+      "term_original": "perfusao periferica presente",
+      "capitulo": "11",
+      "confidence_embedding": 0.6966,
+      "descricao_cid": "Representação de doença CID-11: Transtorno venoso pulmonar pós procedimento. Definição: Evento ou ocorrência afetando uma ou mais veias pulmonares que está associado a uma intervenção de cuidado de saúde, sendo um desvio do curso de eventos desejado e pode causar, ou estar associado a, um resultado subótimo.",
+      "classification_reasoning": "A opção mais precisa é a BE16, pois 'perfusao periferica presente' refere-se à presença de circulação sanguínea normal nos membros, o que é compatível com a descrição da transtorno venoso pulmonar pós-procedimento. Embora haja outras opções que mencionem hemorragia ou obstrução vascular, a ausência de informações sobre doenças cardíacas ou tromboses em contexto do prontuário e o fato de não haver indicações de tratamento intensivo para coagulação sanguínea sugerem que a perfusão periferica presente é uma característica normal da condição, tornando BE16 a opção mais precisa.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BE16 refere-se a uma doença venosa pulmonar pós-procedimento, enquanto o termo 'perfusao periferica presente' se refere à circulação sanguínea normal nos membros. Embora haja uma relação entre a perfusão periferica e a circulação sanguínea, elas não são sinônimos. A codificação BE16 não representa fielmente o termo descrito no prontuário, pois não há evidência de procedimento ou intervenção que tenha afetado as veias pulmonares.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME64": {
+      "term_original": "sinais de perda de redução",
+      "capitulo": "21",
+      "confidence_embedding": 0.7369,
+      "descricao_cid": "Representação de doença CID-11: Sinais vasculares cutâneos não específicos. Definição: Alterações perceptíveis na pele resultantes de alterações na composição do sangue, fluxo sanguíneo ou integridade dos vasos sanguíneos. Podem ser devidas a fatores locais ou podem indicar transtornos subjacentes, como anemia, hipovolemia, febre, hipóxia ou defeitos na coagulação.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sinais de perda de redução' é ME64, que descreve sinais vasculares cutâneos não específicos, incluindo alterações perceptíveis na pele resultantes de alterações no fluxo sanguíneo. Isso se relaciona à fratura do punho direito descrita no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção ME64 não representa fielmente o termo 'sinais de perda de redução' no prontuário. O código ME64 descreve sinais vasculares cutâneos não específicos, enquanto o termo no prontuário se refere à falta de sinais de perda de redução na fratura do punho direito. A codificação não está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

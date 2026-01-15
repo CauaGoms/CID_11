@@ -1,0 +1,166 @@
+{
+  "prontuario_id": 752,
+  "text": "56 ANOS\nPACIENTE COMPARECE ENCAMINHADA DEVIDO A IDENTIFICAÇÃO DE IMAGEM POLIPOIDE EM COLO UTERINO. NEGA SINTOMATOLOGIA. NEGA SINUSIORRAGIA.\nNEGA SANGRAMENTOS APOS A MENOPAUSA.\nMENOPAUSA: AOS 45 ANOS\nG 2 C 2 A 0\nNEGA USO DE TH.\nAMAMENTOU OS FILOHS AO SEIO CERCA DE 1-2 ANOS.\nAM: NEGA PATOLOGIAS.\nAF: NEGA HISTORIA FAMILIAR DE NEOPLASIA.\nNAO TRAZ EXAMES COMPLEMENTARES.\nAO EXAME:\nPA 120X80\nPESO 74,9\nCA 94\nVULVA HIPOTROFICA, SEM LESÕES. COLO EPITELIZADO, COM POLIPO ENDOCERVICAL VISUALIZADO PELO ORIFICIO EXTERNO DO COLO, COM PEDICULO PARECENDO VIR DO INTERIOR CAVIDADE UTERINA. REALIZADO RETIRADA POR TORÇÃO DO PEDICULO DO POLIPO ENDOCERVICAL.\nREVISÃO DE HEMOSTASIA.\nMATERIAL ENVIADO PARA AP\nAO TOQUE UTERO DE VOLUME NORMAL, MOVEL, REGULAR. ANEXOS NAO PALPAVEIS.\nCD: RETORNO EM 45 DIAS.\nORIENTO PACIENTE.\nDoutor Vital Brazil R3 \n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ENCAMINHADA",
+      "REVISÃO",
+      "CD",
+      "RETORNO",
+      "ORIENTO"
+    ],
+    "Negação": [
+      "NEGA",
+      "NAO",
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "SINTOMATOLOGIA",
+      "SINUSIORRAGIA",
+      "SANGRAMENTOS",
+      "PATOLOGIAS",
+      "LESÕES",
+      "VULVA HIPOTROFICA"
+    ],
+    "Conceito Temporal": [
+      "APOS"
+    ],
+    "Função Fisiológica": [
+      "MENOPAUSA",
+      "AMAMENTOU"
+    ],
+    "Função de Organismo": [
+      "G"
+    ],
+    "Conceito Quantitativo": [
+      "2",
+      "0",
+      "120X80",
+      "94",
+      "45",
+      "74 , 9"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "C",
+      "HEMOSTASIA",
+      "RETIRADA POR TORÇÃO"
+    ],
+    "Abreviação": [
+      "TH",
+      "AM",
+      "AF",
+      "AP",
+      "CD",
+      "R3"
+    ],
+    "Grupo Familiar": [
+      "FILOHS"
+    ],
+    "Processo Neoplásico": [
+      "NEOPLASIA"
+    ],
+    "Procedimento Diagnóstico": [
+      "AP",
+      "AO TOQUE"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "UTERO",
+      "COLO UTERINO",
+      "ORIFICIO EXTERNO DO COLO"
+    ],
+    "Achado": [
+      "MOVEL",
+      "REGULAR",
+      "VOLUME NORMAL"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Doutor",
+      "R3"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "IMAGEM POLIPOIDE",
+      "EXAMES COMPLEMENTARES",
+      "COLO EPITELIZADO",
+      "POLIPO ENDOCERVICAL",
+      "PEDICULO PARECENDO VIR DO INTERIOR CAVIDADE UTERINA"
+    ],
+    "Grupo Etário": [
+      "45 ANOS"
+    ]
+  },
+  "labels": {
+    "NE81.0Z": {
+      "term_original": "sangramentos",
+      "capitulo": "22",
+      "confidence_embedding": 0.7265,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A paciente nega sangramentos após a menopausa, e há uma referência específica à retirada de um polipó endocervical com pedicúlo, o que sugere uma possível hemorragia ou hematoma relacionada ao procedimento. Esta opção é mais precisa para o termo 'sangramentos' no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente nega sangramentos após a menopausa, e há uma referência específica à retirada de um polipó endocervical com pedicúlo. Embora haja uma possibilidade de hemorragia ou hematoma relacionada ao procedimento, o termo 'sangramentos' é negado no prontuário. Portanto, a codificação NE81.0Z não representa fielmente o termo descrito e deve ser removida.",
+      "tipo_erro_auditoria": "negated_finding"
+    },
+    "2C62": {
+      "term_original": "patologias",
+      "capitulo": "02",
+      "confidence_embedding": 0.7661,
+      "descricao_cid": "Representação de doença CID-11: Carcinoma inflamatório de mama. Definição: Adenocarcinoma de mama invasivo avançado, caracterizado pela presença de alterações distintas na pele subjacente. Essas alterações incluem eritema difuso, edema, aparência de casca de laranja, sensibilidade, endurecimento, calor, aumento e, em alguns casos, uma massa palpável. As alterações cutâneas são consequência da obstrução linfática do adenocarcinoma invasivo da mama. Microscopicamente, os linfáticos dérmicos mostram infiltração proeminente por células malignas. O adenocarcinoma invasivo da mama é geralmente do tipo ductal SOE. Não há infiltrado de células inflamatórias significativo presente, apesar do nome desse carcinoma.",
+      "classification_reasoning": "O termo 'patologias' está relacionado ao diagnóstico de carcinoma inflamatório de mama, que é a opção mais precisa dentro do contexto clínico fornecido.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'patologias' não está relacionado ao diagnóstico de carcinoma inflamatório de mama, que é a opção mais precisa dentro do contexto clínico fornecido. A paciente apresenta um polipo endocervical e não há evidência de patologia mamária. Portanto, o código CID-11 atribuído (2C62) não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF3Y": {
+      "term_original": "sintomatologia",
+      "capitulo": "21",
+      "confidence_embedding": 0.7753,
+      "descricao_cid": "Representação de doença CID-11: Outros sintomas, sinais ou achados clínicos especificados relativos ao sistema genital da mulher. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'sintomatologia' no contexto do prontuário é MF3Y, pois refere-se a sintomas, sinais ou achados clínicos especificados relativos ao sistema genital da mulher. Embora haja outras opções que mencionem sintomas (MF32 e MF39), a presença de polipose endocervical e a realização de retirada por torção do pedículo do polo endocervical sugerem que o sintoma em questão é relacionado ao sistema genital feminino, justificando a escolha da opção MF3Y.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção MF3Y é justificada pela presença de polipose endocervical e a realização de retirada por torção do pedículo do polo endocervical, que sugere uma relação com o sistema genital feminino. A falta de sintomatologia e sinais clínicos negados também apoiam essa escolha.",
+      "tipo_erro_auditoria": null
+    },
+    "FA38.2": {
+      "term_original": "vulva hipotrofica",
+      "capitulo": "15",
+      "confidence_embedding": 0.7002,
+      "descricao_cid": "Representação de doença CID-11: Artropatia associada a reações de hipersensibilidade classificadas em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'vulva hipotrofica' é Código FA38.2, Artropatia associada a reações de hipersensibilidade classificadas em outra parte. Embora não seja diretamente relacionado à menopausa, a Vulva Hipotrofica está relacionada às características femininas e ao tecido conjuntivo, o que justifica a escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A Vulva Hipotrofica não é uma doença relacionada a reações de hipersensibilidade, mas sim um achado anatômico. A classificação FA38.2 não se aplica ao termo 'Vulva Hipotrofica', pois não há relação clínica direta entre as duas condições.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ND74.2": {
+      "term_original": "sinusiorragia",
+      "capitulo": "22",
+      "confidence_embedding": 0.7427,
+      "descricao_cid": "Representação de doença CID-11: Corpo estranho na vulva ou vagina. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'sinusiorragia' é ND74.2, que descreve a representação de doença CID-11: Corpo estranho na vulva ou vagina. Isso porque o prontuário menciona a presença de um polipo endocervical com pedículo parecendo vir do interior da cavidade uterina, e não há referência à lesão vascular ou nervosa.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'sinusiorragia' é negado no prontuário, e o código CID-11 ND74.2 descreve a representação de doença CID-11: Corpo estranho na vulva ou vagina. Como não há referência à lesão vascular ou nervosa, a codificação não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "negated_finding"
+    },
+    "2E05.Z": {
+      "term_original": "neoplasia",
+      "capitulo": "02",
+      "confidence_embedding": 0.792,
+      "descricao_cid": "Representação de doença CID-11: Metástase de neoplasia maligna no sistema reprodutor da mulher, não especificada. Definição: ",
+      "classification_reasoning": "A neoplasia mencionada no prontuário refere-se à possibilidade de câncer uterino, especificamente carcinoma endocervical. A opção mais precisa é a metástase de neoplasia maligna no sistema reprodutor da mulher não especificada (2E05.Z), pois o paciente apresentou imagem polipoide em colo uterino e foi realizada retirada por torção do pediculo do polipo endocervical.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção 2E05.Z é justificada pois o paciente apresentou imagem polipoide em colo uterino e foi realizada retirada por torção do pediculo do polipo endocervical, sugerindo a possibilidade de câncer uterino. A descrição do código CID-11 se encaixa com a situação clínica descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "NB98": {
+      "term_original": "lesões",
+      "capitulo": "22",
+      "confidence_embedding": 0.7694,
+      "descricao_cid": "Representação de doença CID-11: Lesão em órgão genital feminino sem especificação do tipo de lesão. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NB98, pois o termo 'lesões' se refere às lesões em órgão genital feminino sem especificação do tipo de lesão, o que coincide com a descrição da imagem polipóide no colo uterino.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'lesões' é muito amplo e não especifica o tipo de lesão, portanto, não há uma correspondência clínica direta com a descrição da imagem polipóide no colo uterino. A opção mais precisa seria uma codificação que descreva a presença de um polipo endocervical, como por exemplo, 'K63.4' (Polipo do cérvix).",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

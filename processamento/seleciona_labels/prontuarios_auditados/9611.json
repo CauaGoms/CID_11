@@ -1,0 +1,167 @@
+{
+  "prontuario_id": 861,
+  "text": "Lucas, 79 ANOS\nINS. CORONARIANA\nHIPOTIREOIDISMO\nHPB (?) : EM SEGUIMENTO NA SANTA CASA COM USO DE CISTOSTOMIA\nDM HÁ > 10 ANOS\nEM USO DE: LEVOTIROXINA 125, AAS 100, SVT 20, NPH 38 / 22, LST 50 X2  E MEDICAMENTOS PARA ICO E PROSTATA QUE NÃO SABE RELATAR\nAO EXAME  PA 140/80 130/80  P 68   AFEBRIL   DIURESE 2L\nHIPOCORADA ++\nCPP LIVRES\nPC BCRNF\nABD SONDA VESICAL EM CISTOSTOMIA\nMMII SEM EDEMA\nDRC ESTAGIO 5 EM TRATAMENTO CONSERVADOR\n \n \n ",
+  "entities": {
+    "Doença ou Síndrome": [
+      "INS",
+      "CORONARIANA",
+      "HIPOTIREOIDISMO",
+      "HPB",
+      "DM",
+      "ICO",
+      "DRC ESTAGIO 5"
+    ],
+    "Abreviação": [
+      "INS",
+      "HPB",
+      "DM",
+      "AAS",
+      "SVT",
+      "NPH",
+      "LST",
+      "X2",
+      "ICO",
+      "PA",
+      "P",
+      "PC",
+      "BCRNF",
+      "ABD",
+      "MMII",
+      "CPP LIVRES",
+      "DRC ESTAGIO 5"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "SEGUIMENTO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CISTOSTOMIA",
+      "SONDA VESICAL EM CISTOSTOMIA",
+      "TRATAMENTO CONSERVADOR"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "LEVOTIROXINA"
+    ],
+    "Substância Farmacológica": [
+      "LEVOTIROXINA",
+      "AAS",
+      "SVT",
+      "NPH",
+      "LST",
+      "MEDICAMENTOS"
+    ],
+    "Substância Química Orgânica": [
+      "LEVOTIROXINA",
+      "AAS",
+      "SVT",
+      "LST"
+    ],
+    "Hormônio": [
+      "LEVOTIROXINA",
+      "NPH"
+    ],
+    "Conceito Quantitativo": [
+      "125",
+      "100",
+      "20",
+      "50",
+      "X2",
+      "68",
+      "38 / 22",
+      "140/80 130/80",
+      "DIURESE 2L"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PROSTATA",
+      "ABD",
+      "MMII"
+    ],
+    "Negação": [
+      "NÃO",
+      "AFEBRIL",
+      "SEM"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PC"
+    ],
+    "Sinal ou Sintoma": [
+      "AFEBRIL",
+      "HIPOCORADA",
+      "EDEMA"
+    ],
+    "Achado": [
+      "BCRNF",
+      "SABE RELATAR",
+      "CPP LIVRES"
+    ],
+    "Conceito Temporal": [
+      "HÁ &gt; 10 ANOS"
+    ],
+    "Classificação": [
+      "DRC ESTAGIO 5"
+    ]
+  },
+  "labels": {
+    "5A00.2": {
+      "term_original": "hipotireoidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.8192,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo adquirido. Definição: Hipotireoidismo adquirido é uma condição onde a glândula tireoide produz muito pouco ou nenhum hormônio, e esta condição surge apenas após o nascimento.",
+      "classification_reasoning": "Hipotireoidismo adquirido é a opção mais precisa para o termo 'hipotireoidismo' no contexto do prontuário, pois Lucas tem histórico de doença coronariana e hipotireoidismo, e está em tratamento com levotiroxina. Isso sugere que o hipotireoidismo é adquirido e não congênito.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "Ajustamento necessário pois o termo 'hipotireoidismo' no prontuário refere-se a uma condição adquirida, enquanto o código CID-11 atribuído (5A00.2) descreve um hipotireoidismo adquirido após o nascimento. Embora Lucas tenha histórico de doença coronariana e hipotireoidismo, não há evidência clínica suficiente para confirmar que o hipotireoidismo é adquirido apenas após o nascimento. Portanto, a classificação precisa ser ajustada para refletir melhor a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD10": {
+      "term_original": "ins",
+      "capitulo": "11",
+      "confidence_embedding": 0.7695,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos.",
+      "classification_reasoning": "A presença de insuficiência cardíaca congestiva é sugerida pelo prontuário, com uma pressão arterial sistólica de 140 mmHg e diastólica de 80 mmHg, além da referência à doença coronariana e hipertensão.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de insuficiência cardíaca congestiva é sugerida pelo prontuário, com uma pressão arterial sistólica de 140 mmHg e diastólica de 80 mmHg, além da referência à doença coronariana e hipertensão. A codificação CID-11 'BD10' para insuficiência cardíaca congestiva é justificada pela presença de sintomas clássicos da doença, como intolerância ao esforço e retenção de líquidos.",
+      "tipo_erro_auditoria": null
+    },
+    "BA85": {
+      "term_original": "coronariana",
+      "capitulo": "11",
+      "confidence_embedding": 0.8075,
+      "descricao_cid": "Representação de doença CID-11: Doença vasoespástica coronariana. Definição: O termo doença coronariana vasoespástica refere-se a uma vasoconstrição súbita e intensa de uma artéria coronária epicárdica que causa a oclusão ou quasi-oclusão do vaso. Embora possa estar envolvido em outras síndromes coronárias, representa a causa habitual de angina variante.",
+      "classification_reasoning": "A doença coronariana vasoespástica é a doença cardíaca mais provável com base na informação de ins. coronariana no prontuário do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A doença coronariana vasoespástica é uma condição cardíaca específica que se refere a uma vasoconstrição súbita e intensa de uma artéria coronária epicárdica. No entanto, o prontuário do paciente apenas menciona 'ins. coronariana', que não é equivalente à doença coronariana vasoespástica. A codificação BA85 não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DA63.3": {
+      "term_original": "hpb",
+      "capitulo": "13",
+      "confidence_embedding": 0.7523,
+      "descricao_cid": "Representação de doença CID-11: Úlcera de estresse do duodeno. Definição: Úlceras de estresse do duodeno são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes que podem resultar em hemorragia digestiva alta aguda. Geralmente são erosões superficiais, mas podem evoluir para úlceras.",
+      "classification_reasoning": "A opção mais precisa para o termo 'HBP' no contexto clínico é a úlcera de estresse do duodeno, uma lesão aguda da mucosa que pode resultar em hemorragia digestiva alta aguda. Embora não seja explícita a localização do HBP, a presença de insuficiência coronariana e hipotireoidismo sugere que o paciente está em um estado crítico, aumentando a probabilidade de úlceras de estresse do duodeno.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'HBP' no contexto clínico é a úlcera de estresse do duodeno, uma lesão aguda da mucosa que pode resultar em hemorragia digestiva alta aguda. Embora não seja explícita a localização do HBP, a presença de insuficiência coronariana e hipotireoidismo sugere que o paciente está em um estado crítico, aumentando a probabilidade de úlceras de estresse do duodeno.",
+      "tipo_erro_auditoria": null
+    },
+    "8C01.0": {
+      "term_original": "hipocorada",
+      "capitulo": "08",
+      "confidence_embedding": 0.7271,
+      "descricao_cid": "Representação de doença CID-11: Polineuropatia desmielinizante inflamatória aguda. Definição: Fraqueza progressiva dos membros ao longo de alguns dias a 28 dias, déficit simétrico, arreflexia, distúrbio sensorial ausente ou leve, proteína do líquido cefalorraquidiano elevada e redução das velocidades de condução nervosa são as características principais. O transtorno pode ser precedido por infecção respiratória superior ou gastrointestinal ou imunização 1 a 4 semanas antes do início da doença. A paralisia bifacial pode estar presente.",
+      "classification_reasoning": "A hipocorada referenciada no termo extraído é um sintoma comum em polineuropatias desmielinizantes inflamatórias agudas, como a Polineuropatia Desmielinizante Inflamatória Aguda (PANDIA). A escolha do código 8C01.0 se justifica pelo fato de Lucas ter hipocorada++ e ter histórico de doença coronariana, o que é um fator de risco para a PANDIA.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipocorada++ é um sintoma comum em várias doenças, e não há evidência clínica suficiente no prontuário para justificar a escolha do código 8C01.0. A Polineuropatia Desmielinizante Inflamatória Aguda (PANDIA) é uma entidade diagnóstica específica que requer um conjunto de características clínicas bem definidas, e não há menção à infecção respiratória superior ou gastrointestinal ou imunização 1 a 4 semanas antes do início da doença no prontuário. Portanto, a escolha do código 8C01.0 é uma classificação errônea.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MF50.63": {
+      "term_original": "drc estagio 5",
+      "capitulo": "21",
+      "confidence_embedding": 0.7415,
+      "descricao_cid": "Representação de doença CID-11: Urgência miccional. Definição: Uma vontade repentina e intensa de urinar junto com desconforto na bexiga",
+      "classification_reasoning": "A escolha pela codificação MF50.63 Urgência miccional é mais precisa porque o termo 'drc estagio 5' refere-se à necessidade urinária intensa e urgente, como descrita na definição da doença.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação MF50.63 Urgência miccional não representa fielmente o termo 'drc estagio 5', que refere-se ao estágio de doença renal, e não à urgência miccional. A escolha da codificação é demasiado específica e não está claramente relacionada ao termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

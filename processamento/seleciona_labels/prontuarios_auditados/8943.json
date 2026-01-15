@@ -1,0 +1,251 @@
+{
+  "prontuario_id": 964,
+  "text": "Às 04:58: lucido, colaborativo, AVP em MSE salinizado, tala gessada MID, diurese presente, aceita dieta oferecida, ansioso pela falta do cigarro. Segue sob cuidados multiprofissionais. Florence Nighingale XXXX. FRATURA DA EXTREMIDADE DISTAL DA TIBIA. Às 11:19h: Realizo passagem de SNE em narina esquerda, procedimento realizado sem intercorrência. Ausculta positiva em região gástrica; Libero administração da dieta via sonda. OUTROS TRAUMATISMOS INTRACRANIANOS. Às 01:38: Lucido, nao verbalizando, traqueostomizado, eupneico em aa, afebril, apresenta fixador externo em MMSS, edema em MSD, mobilidade diminuida, curativo sanguinolento + fixador externo em MIE, odor fetido, mantendo acesso venoso central à direita, sem sinais flogisticos, aceita dieta via oral oferecida, SVD bom volume, mantendo precauçao de contato, segue cuidados. TRAUMATISMOS MULTIPLOS NAO ESPECIFICADOS. Às 07:30h: Glasgow 15, pupilas isocóricas, RFM +. Tranquila, nega queixas. Em ar ambiente, boa aceitação de dieta VO. CPP sem RA. Abdomen flácido, plano, RHA+. Acesso venoso em MSE com infusão de soroterapia gravitacional. Relata diurese espontânea, evacuação ausente. Extremidades aquecidas e bem perfundidas, sem edemas. Monitorizada contínuamente com parâmetros de PA não invasiva, cardioscopia e oximetria de pulso. Segue sob cuidados intensivos. Enfermeira Florence Nightingale. # Solicitada transferência para UI, aguarda liberação de leito para encaminhamento. NEFRITE TUBULO INTERSTICIAL AGUDA.",
+  "entities": {
+    "Achado": [
+      "lucido",
+      "colaborativo",
+      "Lucido",
+      "traqueostomizado",
+      "eupneico",
+      "afebril",
+      "Tranquila",
+      "flácido",
+      "plano",
+      "RHA+",
+      "diurese presente",
+      "Ausculta positiva",
+      "Glasgow 15",
+      "pupilas isocóricas",
+      "diurese espontânea",
+      "bem perfundidas"
+    ],
+    "Dispositivo Médico": [
+      "AVP",
+      "SNE",
+      "SVD",
+      "tala gessada",
+      "fixador externo",
+      "acesso venoso central",
+      "Acesso venoso",
+      "oximetria de pulso"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "AVP",
+      "salinizado",
+      "SNE",
+      "procedimento",
+      "traqueostomizado",
+      "SVD",
+      "tala gessada",
+      "dieta via sonda",
+      "fixador externo",
+      "acesso venoso central",
+      "dieta via oral",
+      "precauçao de contato",
+      "Acesso venoso",
+      "infusão de soroterapia gravitacional"
+    ],
+    "Abreviação": [
+      "AVP",
+      "MSE",
+      "MID",
+      "SNE",
+      "aa",
+      "MMSS",
+      "MSD",
+      "MIE",
+      "SVD",
+      "CPP",
+      "RA",
+      "RHA+",
+      "UI",
+      "RFM +",
+      "dieta VO",
+      "PA não invasiva"
+    ],
+    "Localização ou Região Corporal": [
+      "MSE",
+      "MID",
+      "MMSS",
+      "MSD",
+      "MIE",
+      "Abdomen",
+      "Extremidades",
+      "região gástrica"
+    ],
+    "Conceito Qualitativo": [
+      "salinizado",
+      "sanguinolento",
+      "bem perfundidas"
+    ],
+    "Alimento": [
+      "dieta"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "administração",
+      "cuidados",
+      "cuidados multiprofissionais",
+      "cuidados intensivos"
+    ],
+    "Negação": [
+      "afebril",
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "edema",
+      "edemas",
+      "mobilidade diminuida",
+      "odor fetido"
+    ],
+    "Função Patológica": [
+      "edema",
+      "edemas"
+    ],
+    "Conceito Espacial": [
+      "direita"
+    ],
+    "Procedimento Diagnóstico": [
+      "cardioscopia",
+      "PA não invasiva",
+      "oximetria de pulso"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UI"
+    ],
+    "Função Fisiológica": [
+      "diurese presente",
+      "diurese espontânea"
+    ],
+    "Lesão ou Envenenamento": [
+      "FRATURA DA EXTREMIDADE DISTAL DA TIBIA",
+      "TRAUMATISMOS INTRACRANIANOS",
+      "TRAUMATISMOS MULTIPLOS"
+    ],
+    "Doença ou Síndrome": [
+      "NEFRITE TUBULO INTERSTICIAL AGUDA"
+    ]
+  },
+  "labels": {
+    "DA60.3": {
+      "term_original": "flácido",
+      "capitulo": "13",
+      "confidence_embedding": 0.7913,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A descrição da úlcera de estresse do estômago coincide com a ausculta positiva em região gástrica mencionada no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A úlcera de estresse do estômago é uma condição que se refere a lesões agudas da mucosa gástrica, enquanto o termo 'flácido' se refere à ausência de tensão muscular no abdome. A descrição do código CID-11 não coincide com a condição clínica descrita no prontuário, portanto, é necessário remover este código.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA27.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7489,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A presença de edema em diferentes localizações do corpo, como na região gástrica e nos membros inferiores (MSD), sugere a possibilidade de reumatismo palindrômico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de edema em diferentes localizações do corpo não é suficiente para justificar a classificação de reumatismo palindrômico. O termo 'edema' pode estar relacionado a vários processos patológicos, e a falta de informações sobre a dor, a temperatura corporal e outros sintomas clínicos que caracterizam o reumatismo palindrômico não permite uma classificação precisa.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MF93.0X | Descrição: Representação de doença CID-11: Traqueostomia. Definição: Cirurgia para criar um acesso respiratório secundário ao trato respiratório, geralmente em pacientes com doenças crônicas do pulmão ou com lesões traumáticas graves.": {
+      "term_original": "traqueostomizado",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha desse código está baseada na presença da informação 'traqueostomizado' no contexto clínico, o que indica que a paciente tem um acesso respiratório secundário ao trato respiratório.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença do termo 'traqueostomizado' no prontuário indica que a paciente tem um acesso respiratório secundário ao trato respiratório, o que é diretamente relacionado à descrição do código CID-11 MF93.0X. A escolha desse código está baseada na presença da informação 'traqueostomizado' no contexto clínico, o que indica que a paciente tem um acesso respiratório secundário ao trato respiratório.",
+      "tipo_erro_auditoria": null
+    },
+    "MC20.2": {
+      "term_original": "ausculta positiva",
+      "capitulo": "21",
+      "confidence_embedding": 0.72,
+      "descricao_cid": "Representação de doença CID-11: Hipópio. Definição: Hipópio é a presença de células inflamatórias na câmara anterior do olho. Corresponde a um exsudato leucocitário, observado na câmara anterior, geralmente acompanhado de hiperemia de conjuntiva e episclera subjacente. É um sinal de inflamação da úvea anterior e da íris, ou seja, irite, que é uma forma de uveíte anterior. O exsudado deposita-se no fundo devido à ação da gravidade.",
+      "classification_reasoning": "A ausculta positiva na região gástrica sugere a presença de líquido ou gases no estômago, característica do hipópio (conjuntivite).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A ausculta positiva na região gástrica não está relacionada à hipópio (conjuntivite), que é uma condição clínica caracterizada pela presença de células inflamatórias na câmara anterior do olho. A ausculta positiva pode ser causada por várias razões, como a presença de líquido ou gases no estômago, mas não está diretamente relacionada à hipópio.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA38.1": {
+      "term_original": "mobilidade diminuida",
+      "capitulo": "15",
+      "confidence_embedding": 0.7221,
+      "descricao_cid": "Representação de doença CID-11: Artropatia neuropática. Definição: A artropatia neuropática é uma artrite progressiva, destrutiva, associada à perda da sensibilidade dolorosa, da propriocepção, ou de ambas. Os reflexos musculares normais que modulam os movimentos articulares também estão diminuídos. Sem estes mecanismos de proteção, as articulações ficam sujeitas ao trauma repetitivo, o que resulta no dano cartilaginoso e ósseo progressivo. Os sintomas adicionais incluem alterações cutâneas, tais como eritema, edema, hiperpigmentação ou púrpura, e úlceras de tecidos moles sobre as áreas afetadas, bem como afrouxamento ou instabilidade das articulações e deformidades articulares.",
+      "classification_reasoning": "A mobilidade diminuida no contexto da prontuário, associada a fratura da extremidade distal da tibia e outros traumatismos múltiplos não especificados, sugere uma lesão articular ou muscular que afeta a capacidade de movimento. A opção FA38.1, Artropatia neuropática, é mais precisa pois descreve uma condição caracterizada por perda da sensibilidade e mobilidade reduzida nas articulações.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A mobilidade diminuida no contexto da prontuário é mais provável uma consequência de lesão articular ou muscular causada pela fratura da extremidade distal da tibia e outros traumatismos múltiplos não especificados, do que uma condição clínica caracterizada por perda da sensibilidade e mobilidade reduzida nas articulações. A opção FA38.1, Artropatia neuropática, não representa fielmente o termo ou a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DB26.2": {
+      "term_original": "rha+",
+      "capitulo": "13",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é a hemorragia intramural de esôfago (DA26.2) pois o termo 'RHA+' é provável referência à representação de sangramento em região gástrica mencionada no contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'RHA+' é provávelmente uma referência à representação de sangramento em região gástrica mencionada no contexto clínico, o que justifica a atribuição do código CID-11 DB26.2, que representa hemorragia intramural de esôfago.",
+      "tipo_erro_auditoria": null
+    },
+    "ND36": {
+      "term_original": "traumatismos multiplos",
+      "capitulo": "22",
+      "confidence_embedding": 0.7925,
+      "descricao_cid": "Representação de doença CID-11: Outros traumatismos envolvendo regiões múltiplas do corpo, não classificados em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa é ND36, pois o termo 'traumatismos multiplos' se refere a lesões em múltiplas regiões do corpo, não classificadas em outra parte. A descrição de ND34 refere-se especificamente a traumatismos por esmagamento e não abrange outras regiões corporais.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'traumatismos multiplos' não especifica a localização ou natureza dos traumatismos, o que torna a classificação ND36 muito genérica e não clínica. A definição de ND34 se refere especificamente a traumatismos por esmagamento, enquanto ND36 é mais amplo e pode incluir lesões em múltiplas regiões do corpo. Para uma codificação CID-11 clínica e precisa, é necessário ter mais informações sobre o tipo e localização dos traumatismos.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "CA23.0": {
+      "term_original": "eupneico",
+      "capitulo": "12",
+      "confidence_embedding": 0.7527,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica. Definição: Asma alérgica é o fenótipo de asma mais facilmente reconhecido. Frequentemente, inicia-se na infância e é associada a um histórico pessoal ou familiar de doença alérgica, como eczema, rinite alérgica, ou alergia a drogas e alimentos. O exame do escarro induzido desses pacientes, antes do tratamento, geralmente revela uma inflamação eosinofílica das vias aéreas. O principal gatilho é a exposição a alérgenos, como o ácaro da poeira doméstica e ao pólen, aos quais o indivíduo tenha sido, previamente, sensibilizado. Os pacientes com esse fenótipo de asma, usualmente, respondem bem a corticoide inalatório e à imunoterapia alérgeno-específica.",
+      "classification_reasoning": "A paciente está descrita como 'eupneico em aa', o que significa que tem respiração normal e não há sinais de distress respiratório, ao contrário das outras opções (ex: pneumotórax espontâneo ou síndrome de Mendelson), que são relacionadas a complicações pulmonares. A escolha do código CA23.0 (Asma alérgica) é justificada pela ausência de sintomas respiratórios alarmantes e pela descrição da paciente como 'tranquila' e com boa aceitação de dieta VO, o que sugere uma condição clínica mais benigna.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente está descrita como 'eupneico em aa', o que significa que tem respiração normal e não há sinais de distress respiratório. No entanto, a escolha do código CA23.0 (Asma alérgica) é incompatível com essa descrição, pois asma alérgica é uma condição clínica caracterizada por sintomas respiratórios alarmantes, como dificuldade para inspirar e expirar. A paciente não apresenta esses sintomas, portanto, a codificação CID-11 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B25.3": {
+      "term_original": "traumatismos intracranianos",
+      "capitulo": "08",
+      "confidence_embedding": 0.7643,
+      "descricao_cid": "Representação de doença CID-11: Efeitos tardios de hemorragia intracraniana não traumática. Definição: Efeitos tardios de outra hemorragia intracraniana não traumática após 1 mês ou mais do início da doença. Os códigos para episódios agudos devem ser usados ​​exclusivamente para hemorragias agudas e episódios de hospitalização imediatamente relacionados.",
+      "classification_reasoning": "A opção mais precisa para o termo 'traumatismos intracranianos' é a representação de doença CID-11: Efeitos tardios de hemorragia intracraniana não traumática, pois o contexto clínico menciona fratura da extremidade distal da tibia e outros traumatismos múltiplos não especificados, sugerindo que há uma possível lesão cerebral decorrente do acidente. Além disso, a presença de outras informações como edema no MSD e mobilidade diminuída também aponta para a possibilidade de lesão craniana.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'traumatismos intracranianos' não é a representação de doença CID-11: Efeitos tardios de hemorragia intracraniana não traumática. Isso porque o contexto clínico menciona fratura da extremidade distal da tibia e outros traumatismos múltiplos não especificados, sugerindo que há uma possível lesão craniana aguda, não tardia. Além disso, a presença de outras informações como edema no MSD e mobilidade diminuída também aponta para a possibilidade de lesão craniana aguda.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.20": {
+      "term_original": "plano",
+      "capitulo": "21",
+      "confidence_embedding": 0.747,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-traumática. Definição: Dor pós-traumática crônica é a dor que se desenvolve ou aumenta de intensidade após uma lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após o traumatismo tecidual. A dor é ou localizada na área da lesão, ou referida no território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente por um problema doloroso preexistente.",
+      "classification_reasoning": "A palavra 'plano' é utilizada para descrever a ausência de distensão abdominal na paciente, o que está relacionado à dor crônica pós-traumática.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'plano' não está diretamente relacionada à dor crônica pós-traumática. A ausência de distensão abdominal não é um sintoma ou condição clínica que esteja diretamente ligado à dor crônica pós-traumática. Portanto, a classificação MG30.20 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "EB13.1": {
+      "term_original": "odor fetido",
+      "capitulo": "14",
+      "confidence_embedding": 0.7388,
+      "descricao_cid": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável.",
+      "classification_reasoning": "A presença de odor fetido sugere a possibilidade de uma necrólise epidérmica tóxica (NET), doença caracterizada por extenso eritema, necrose e descolamento bolhoso da epiderme, o que pode estar associado à perda de função cutânea e ao surgimento de odor fetido.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de odor fetido não é suficiente para estabelecer a diagnose de necrólise epidérmica tóxica (NET). A descrição do prontuário não apresenta características clínicas específicas que justifiquem essa classificação. Além disso, a NEC13.1 refere-se especificamente à doença cutânea aguda com risco de vida, o que não se relaciona ao termo 'odor fetido' isoladamente.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MF95": {
+      "term_original": "pupilas isocóricas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7591,
+      "descricao_cid": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular.",
+      "classification_reasoning": "A presença de pupilas isocóricas no contexto sugeriu que o paciente apresenta um quadro de mioglobinúria, doença caracterizada pela liberação excessiva de mioglobina no sangue e urina. Isso é consistente com os achados de traumatismos múltiplos não especificados e nefrite tubulo-intersticial aguda.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de pupilas isocóricas não é suficiente para justificar a classificação de mioglobinúria. A descrição do prontuário apresenta traumatismos múltiplos não especificados e nefrite tubulo-intersticial aguda, mas não há evidência clínica direta da liberação excessiva de mioglobina no sangue e urina. A classificação CID-11 MF95 é demasiado específica e não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

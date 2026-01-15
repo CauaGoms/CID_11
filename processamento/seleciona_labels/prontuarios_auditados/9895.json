@@ -1,0 +1,231 @@
+{
+  "prontuario_id": 922,
+  "text": "Lucas, 63\n# DM, em uso de metformina\n# Relata arritmia, em uso de amiodarona, digoxina e furosemida\n# Nega tabagismo e etilismo.\n# Em uso de gabapentina \n# Relata \" mancha no pulmao \" dx em nov/14, associado a intoxicaçao por organofosfardo  ( Foi agricultor, usava radiatox 60 )\nRelata inícuio de quadro de dispneia há 7 meses, relata dispneia ao repouso associado a tosse e rouquidao. Relata ter ficado depressivo apos a visualização das \" manchas no pulmao \", sendo encaminhado ao psiquiarta e começou uma medicaçao que nao sabe o nome mas apresentou melhora do quadro de dispneia, sem queixas no momento.\nRx de torax 21/10/14: Opacidades pulmonares interstício-alveolares bilaterais, confluentes, algumas de aspecto nodular ( inflamatório-infeccioso )?\nEspirometria 21/05/15:\nCVF: pre-72% pos-76%\nVEF1: pre 89% - pós 95\nVEF1/CVF: pre -124% e pós -124% \nO # BEG, hidratadom corado, eupneico afebril\nSat: 98% em AA FC: 97\nAP: MV bilat sem RA\nACV: BCRNF sem sopro\nAbd: sp\nA # Pneumonia intersticial provocada por amiodarona\nP # Escrevo carta para cardiologia para remanejar medicação\nPara a próxima consulta, solicitar espirometria e TC  de torax\nR2 Doutor Vital Brazil ",
+  "entities": {
+    "Abreviação": [
+      "DM",
+      "dx",
+      "CVF",
+      "pre-72%",
+      "pos-76%",
+      "VEF1",
+      "VEF1/CVF",
+      "BEG",
+      "AP",
+      "RA",
+      "ACV",
+      "BCRNF",
+      "Abd",
+      "sp",
+      "R2",
+      "98%",
+      "MV bilat",
+      "TC de torax"
+    ],
+    "Doença ou Síndrome": [
+      "DM",
+      "tabagismo",
+      "etilismo",
+      "Pneumonia intersticial"
+    ],
+    "Substância Farmacológica": [
+      "metformina",
+      "amiodarona",
+      "digoxina",
+      "furosemida",
+      "gabapentina",
+      "medicaçao",
+      "medicação"
+    ],
+    "Substância Química Orgânica": [
+      "metformina",
+      "amiodarona",
+      "digoxina",
+      "furosemida",
+      "gabapentina",
+      "organofosfardo"
+    ],
+    "Achado": [
+      "arritmia",
+      "BEG",
+      "hidratadom",
+      "corado",
+      "eupneico",
+      "BCRNF",
+      "sp",
+      "MV bilat"
+    ],
+    "Negação": [
+      "Nega",
+      "sem",
+      "afebril"
+    ],
+    "Substância Perigosa ou Venenosa": [
+      "organofosfardo"
+    ],
+    "Sinal ou Sintoma": [
+      "dispneia",
+      "tosse",
+      "rouquidao",
+      "depressivo",
+      "queixas",
+      "inflamatório-infeccioso",
+      "afebril",
+      "RA",
+      "sopro",
+      "mancha no pulmao",
+      "dispneia ao repouso",
+      "manchas no pulmao"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "encaminhado",
+      "Escrevo",
+      "consulta",
+      "solicitar"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "psiquiarta",
+      "cardiologia",
+      "R2",
+      "Doutor"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "medicaçao",
+      "medicação"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "confluentes",
+      "CVF",
+      "pre-72%",
+      "pos-76%",
+      "VEF1",
+      "VEF1/CVF",
+      "Opacidades pulmonares interstício-alveolares bilaterais",
+      "aspecto nodular",
+      "pre 89%",
+      "pós 95",
+      "pre -124%",
+      "pós -124%"
+    ],
+    "Procedimento Diagnóstico": [
+      "Espirometria",
+      "espirometria",
+      "Rx de torax",
+      "TC de torax"
+    ],
+    "Atributo Clínico": [
+      "Sat",
+      "AP",
+      "ACV"
+    ],
+    "Conceito Quantitativo": [
+      "97"
+    ],
+    "Conceito Temporal": [
+      "próxima",
+      "há 7 meses"
+    ]
+  },
+  "labels": {
+    "BC80.Y": {
+      "term_original": "ra",
+      "capitulo": "11",
+      "confidence_embedding": 0.7713,
+      "descricao_cid": "Representação de doença CID-11: Outra bradiarritmia supraventricular especificada. Definição: ",
+      "classification_reasoning": "A escolha por BC80.Y foi feita porque o termo 'ra' é mencionado no contexto clínico, referindo-se à arritmia cardíaca, que é uma condição descrita nessa categoria CID-11. Além disso, a presença de medicamentos cardíacos como amiodarona e digoxina sugere que a arritmia é um problema cardiovascular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'ra' não representa diretamente a bradiarritmia supraventricular especificada (BC80.Y). A arritmia é mencionada no prontuário, mas o código CID-11 atribuído não reflete essa condição clínica. A escolha do código BC80.Y foi feita com base na presença de medicamentos cardíacos, o que não justifica a escolha desse código.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A94.1": {
+      "term_original": "rouquidao",
+      "capitulo": "09",
+      "confidence_embedding": 0.7222,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso.",
+      "classification_reasoning": "O termo 'rouquidao' está relacionado à síndrome da íris flácida, que caracteriza-se por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'rouquidao' não está relacionado à síndrome da íris flácida, como justificado pelo sistema. A rouquidão é um sintoma comum em doenças pulmonares e cardíacas, e não há nenhuma indicação de que seja uma complicação durante a extração de catarata. Portanto, o código CID-11 atribuído não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC81.Y": {
+      "term_original": "arritmia",
+      "capitulo": "11",
+      "confidence_embedding": 0.7616,
+      "descricao_cid": "Representação de doença CID-11: Outra taquiarritmia supraventricular, especificada. Definição: ",
+      "classification_reasoning": "A escolha do código BC81.Y é a mais precisa porque Lucas relata arritmia, especificamente supraventricular, e o termo 'arritmia' não sugere infarto agudo do miocárdio (BA60.8) ou fibrilação atrial paroxística (BC81.30). Além disso, a bradiarritmia supraventricular (BC80) é uma possibilidade, mas o termo 'taquicardia' presente na definição do código BC81.2 sugere mais que Lucas tem uma arritmia rápida, o que se alinha melhor com a escolha de BC81.Y para representar 'outra taquiarritmia supraventricular, especificada'.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código BC81.Y não é precisa porque o termo 'arritmia' não especifica se é supraventricular, e a definição do código sugere que deve ser uma arritmia rápida (taquiarritmia). Além disso, o prontuário menciona uso de amiodarona, digoxina e furosemida para tratar da arritmia, o que sugere que pode ser uma arritmia relacionada à medicação. Portanto, é necessário um código mais específico que represente a arritmia relacionada à medicação ou ao uso de medicamentos.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB23.H": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7644,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A escolha do código MB23.H (Crise de pânico) é a mais precisa para o termo \"queixas\" dentro do contexto clínico, pois Lucas relata dispneia ao repouso associada à tosse e rouquidão, além de ter ficado depressivo após visualização das manchas no pulmão, sugerindo que as queixas não se restringem apenas a sintomas respiratórios.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código MB23.H (Crise de pânico) não é a mais precisa para o termo 'queixas' dentro do contexto clínico. Embora Lucas relata dispneia ao repouso e tosse, esses sintomas são mais relacionados à doença pulmonar intersticial provocada pela amiodarona do que a uma crise de pânico. Além disso, a depressão após visualização das manchas no pulmão também não é um sintoma característico da Crise de Pânico. A análise clínica sugere que as queixas estão mais relacionadas à doença pulmonar do que a uma crise de pânico.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "CA70.0": {
+      "term_original": "mancha no pulmao",
+      "capitulo": "12",
+      "confidence_embedding": 0.736,
+      "descricao_cid": "Representação de doença CID-11: Pulmão de fazendeiro. Definição: Doença pulmonar do fazendeiro é uma pneumonite por hipersensibilidade, causada por inalação de poeira orgânica contendo esporos de microrganismos, frequentemente actinomicetos termofílicos, e menos comumente Saccharopolyspora rectivirgula, vivendo em feno, palha ou grãos mofados. Sintomas típicos incluem dispneia, tosse, cansaço, dores de cabeça e febre/sudorese noturna ocasionais, com curso clínico agudo, subagudo ou crônico e que podem resultar em insuficiência crônica com doença granulomatosa.",
+      "classification_reasoning": "A mancha no pulmao descrita pelo paciente, associada à intoxicação por organofosfardo e história de uso de radiotoxina 60, sugere doença pulmonar do fazendeiro (pneumonite hipersensível), uma condição comum em trabalhadores agrícolas expostos a poeira orgânica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A condição descrita no prontuário como 'mancha no pulmao' é uma manifestação clínica de doença, não uma entidade específica. O código CID-11 CA70.0 se refere a Doença Pulmonar do Fazendeiro, que é uma entidade específica e não uma condição clínica. Além disso, a história do paciente inclui intoxicação por organofosfardo e uso de radiotoxina 60, o que sugere que a 'mancha no pulmao' pode ser um sintoma de outra doença, como pneumonite intersticial provocada por amiodarona. Portanto, não há uma correspondência clínica direta entre o termo e o código CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6A70.1": {
+      "term_original": "depressivo",
+      "capitulo": "06",
+      "confidence_embedding": 0.7945,
+      "descricao_cid": "Representação de doença CID-11: Transtorno depressivo com episódio único, moderado, sem sintomas psicóticos. Definição: Transtorno depressivo, episódio único moderado sem sintomas psicóticos é diagnosticado quando os critérios diagnósticos para episódio depressivo são preenchidos, não há história de episódios depressivos prévios e o episódio é de gravidade moderada e não há delírios ou alucinações durante o episódio. Um episódio depressivo é caracterizado por um período de humor deprimido ou diminuição do interesse em atividades que ocorre na maior parte do dia, quase todos os dias, durante um período de pelo menos duas semanas, acompanhado por outros sintomas, como dificuldade de concentração, sentimentos de inutilidade ou culpa excessiva ou inadequada, desesperança, pensamentos recorrentes de morte ou suicídio, alterações no apetite ou no sono, agitação ou retardo psicomotor e redução da energia ou fadiga. Em um episódio depressivo moderado, vários sintomas de um episódio depressivo estão presentes em um grau marcante, ou um grande número de sintomas depressivos de menor gravidade estão presentes no todo. O indivíduo tipicamente tem dificuldade considerável no funcionamento em vários domínios (pessoal, familiar, social, educacional, ocupacional ou outros domínios importantes).",
+      "classification_reasoning": "O termo 'depressivo' está diretamente relacionado ao diagnóstico de transtorno depressivo, episódio único, moderado, sem sintomas psicóticos (6A70.1), que é o mais preciso para o contexto clínico descrito.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'depressivo' no prontuário refere-se ao efeito secundário da visualização das 'manchas no pulmao', não ao diagnóstico de um transtorno depressivo. A codificação CID-11 6A70.1 é demasiado específica para representar apenas o sintoma depressivo, e não a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA22.0": {
+      "term_original": "dispneia ao repouso",
+      "capitulo": "12",
+      "confidence_embedding": 0.7476,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A escolha do código CA22.0 se justifica pela apresentação de dispneia ao repouso associada a tosse e rouquidão, característica da exacerbação aguda da DPOC. Além disso, o paciente tem história prévia de doença pulmonar intersticial provocada por amiodarona, também sugerindo a presença de DPOC.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dispensia ao repouso é um sintoma que pode ser relacionado a várias condições, incluindo doenças cardíacas e pulmonares. No entanto, o prontuário apresenta uma história de doença pulmonar intersticial provocada por amiodarona e opacidades pulmonares interstício-alveolares bilaterais, confluentes, algumas de aspecto nodular (inflamatório-infeccioso). Portanto, a dispensia ao repouso não é suficiente para justificar o código CA22.0, que se refere a exacerbação aguda da doença pulmonar obstrutiva crônica. É necessário uma análise mais detalhada dos achados radiológicos e clínicos para determinar a causa da dispensia ao repouso.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "J45.911": {
+      "term_original": "tosse",
+      "capitulo": "09",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'tosse' é a representação de doença CID-11: Pneumonia intersticial, que apresenta sintomas como dispneia e tosse.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A tosse é um sintoma comum em várias doenças, e não há evidência clínica no prontuário que sugira uma relação direta entre a tosse e a Pneumonia intersticial provocada por amiodarona. Atores como dispneia e rouquidão também são mencionados, mas não há uma conexão explícita entre esses sintomas e a pneumonia. Portanto, o código CID-11 J45.911 não representa fielmente o termo 'tosse' no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "CB03 | Descrição: Representação de doença CID-11: Pneumonite intersticial idiopática.": {
+      "term_original": "pneumonia intersticial",
+      "capitulo": "12",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha é justificada pelo fato do paciente apresentar opacidades pulmonares interstício-alveolares bilaterais, confluentes, algumas de aspecto nodular (inflamatório-infeccioso), sugerindo uma doença intersticial difusa do pulmão de etiologia desconhecida. Além disso, a descrição da ",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 Pneumonite intersticial idiopática não é clinicamente coerente com o prontuário. Embora haja opacidades pulmonares interstício-alveolares bilaterais, confluentes, algumas de aspecto nodular (inflamatório-infeccioso), a história do paciente sugere que a doença pode estar relacionada à exposição ao organofosfardo e à amiodarona. Além disso, o paciente relata início de quadro de dispneia após visualização das 'manchas no pulmão', o que sugere uma possível reação psicológica à doença. Portanto, a escolha do código CID-11 Pneumonite intersticial idiopática não é clinicamente coerente com as informações presentes no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA60.8": {
+      "term_original": "dm",
+      "capitulo": "11",
+      "confidence_embedding": 0.7702,
+      "descricao_cid": "Representação de doença CID-11: Arritmia como complicação atual subsequente a infarto agudo do miocárdio. Definição: Grupo grande e heterogêneo de condições nas quais o coração bate com um ritmo irregular ou anormal que pode complicar o curso de pacientes com infarto agudo do miocárdio.",
+      "classification_reasoning": "A opção mais precisa para o termo 'DM' é a arritmia como complicação atual subsequente a infarto agudo do miocárdio (Código CID-11: BA60.8). Isso porque Lucas relata arritmia e apresenta história de doença cardíaca, o que sugere uma possível relação entre a DM e a patologia cardiovascular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'DM' não é a arritmia como complicação atual subsequente a infarto agudo do miocárdio (Código CID-11: BA60.8). Isso porque Lucas relata DM e apresenta história de doença cardíaca, mas não há evidência clínica de que a DM seja uma complicação subsequente a infarto agudo do miocárdio. Além disso, o prontuário descreve DM em uso de metformina, o que sugere que a DM é uma condição crônica e não uma complicação subsequente a infarto agudo do miocárdio.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

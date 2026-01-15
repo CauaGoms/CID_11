@@ -1,0 +1,105 @@
+{
+  "prontuario_id": 357,
+  "text": "QP FACIDEZ BRAQUIAL\n\nHMA # PACIENTE PÓS OP DE CIRURGIA BARIÁTRICA HÁ 2 ANOS E MEIO, COM PERDA DE 55 KG\n\nHMP # VITAMINAS (POS GASTROPLASTIA) + ANTIDEPRESSIVO\nNEGA OUTRAS COMORBIDADES\nCX PRÉVA HTA, GASTROPLASTIA\n\nCHV # SP\n\nO # BEG, LOTE, CORADA E HIDRATADA, \nAO EXAME: FLACIDEZ BRAQUIAL BILATERAL\n\nP # BRAQUIOPLASTIA AGENDADA PARA 06/08/2015\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "QP",
+      "HMA",
+      "HMP",
+      "CX",
+      "HTA",
+      "SP",
+      "O",
+      "BEG",
+      "LOTE",
+      "P",
+      "PÓS OP"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Substância Farmacológica": [
+      "VITAMINAS",
+      "ANTIDEPRESSIVO"
+    ],
+    "Negação": [
+      "NEGA",
+      "SP"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CX",
+      "HTA",
+      "GASTROPLASTIA",
+      "BRAQUIOPLASTIA",
+      "CIRURGIA BARIÁTRICA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O",
+      "AGENDADA"
+    ],
+    "Achado": [
+      "BEG",
+      "LOTE",
+      "CORADA",
+      "HIDRATADA",
+      "PERDA DE 55 KG"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAME"
+    ],
+    "Anormalidade Anatômica": [
+      "FACIDEZ BRAQUIAL",
+      "FLACIDEZ BRAQUIAL BILATERAL"
+    ],
+    "Sinal ou Sintoma": [
+      "FACIDEZ BRAQUIAL",
+      "PERDA DE 55 KG",
+      "FLACIDEZ BRAQUIAL BILATERAL"
+    ],
+    "Conceito Temporal": [
+      "PÓS OP"
+    ]
+  },
+  "labels": {
+    "8C01.0": {
+      "term_original": "flacidez braquial bilateral",
+      "capitulo": "08",
+      "confidence_embedding": 0.731,
+      "descricao_cid": "Representação de doença CID-11: Polineuropatia desmielinizante inflamatória aguda. Definição: Fraqueza progressiva dos membros ao longo de alguns dias a 28 dias, déficit simétrico, arreflexia, distúrbio sensorial ausente ou leve, proteína do líquido cefalorraquidiano elevada e redução das velocidades de condução nervosa são as características principais. O transtorno pode ser precedido por infecção respiratória superior ou gastrointestinal ou imunização 1 a 4 semanas antes do início da doença. A paralisia bifacial pode estar presente.",
+      "classification_reasoning": "A flacidez braquial bilateral é mais consistente com uma polineuropatia desmielinizante inflamatória aguda, caracterizada por fraqueza progressiva dos membros, déficit simétrico e arreflexia, o que se enquadra no código CID-11 8C01.0.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A flacidez braquial bilateral descrita no prontuário não se enquadra com a definição do código CID-11 8C01.0, que refere-se a uma polineuropatia desmielinizante inflamatória aguda caracterizada por fraqueza progressiva dos membros, déficit simétrico e arreflexia. A flacidez braquial bilateral descrita no prontuário não apresenta essas características clínicas. Além disso, a descrição do exame físico (flacidez braquial bilateral) não sugere uma doença inflamatória aguda.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5B81": {
+      "term_original": "perda de 55 kg",
+      "capitulo": "05",
+      "confidence_embedding": 0.7293,
+      "descricao_cid": "Representação de doença CID-11: Obesidade. Definição: A obesidade é uma doença crônica complexa definida por adiposidade excessiva que pode prejudicar a saúde. Na maioria dos casos, é uma doença multifatorial devido a ambientes obesogênicos, fatores psicossociais e variantes genéticas. Em um subgrupo de pacientes, fatores etiológicos únicos podem ser identificados (medicamentos, doenças, imobilização, procedimentos iatrogênicos, doença monogênica / síndrome genética).\r\nO índice de massa corporal (IMC) é um marcador substituto da adiposidade calculado como peso (kg)/altura² (m²). As categorias de IMC para definir obesidade variam por idade e sexo em bebês, crianças e adolescentes. Para adultos, a obesidade é definida por um IMC maior ou igual a 30,0 kg/m². Existem três níveis de gravidade em reconhecimento das diferentes opções de gerenciamento.",
+      "classification_reasoning": "A perda de 55 kg é indicativa de obesidade, que foi mencionada anteriormente no prontuário como uma comorbidade do paciente. A escolha do código 5B81 se baseia na definição da obesidade como 'adiposidade excessiva que pode prejudicar a saúde', o que está relacionado à perda de peso mencionada no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A perda de 55 kg não é uma condição clínica diretamente relacionada à obesidade. A obesidade é definida como 'adiposidade excessiva que pode prejudicar a saúde', e a perda de peso não é um critério exclusivo para defini-la. Além disso, o prontuário menciona a perda de 55 kg como uma consequência da cirurgia bariátrica, o que sugere que a obesidade foi tratada e não está mais presente. Portanto, o código CID-11 5B81 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B62": {
+      "term_original": "facidez braquial",
+      "capitulo": "08",
+      "confidence_embedding": 0.7195,
+      "descricao_cid": "Representação de doença CID-11: Atrofia muscular progressiva pós pólio. Definição: Os critérios diagnósticos para atrofia muscular progressiva pós-pólio (PPMA) são: uma história confiável de poliomielite com recuperação parcial da função, um período mínimo de estabilização de 10 anos e o desenvolvimento subsequente de fraqueza muscular progressiva. Sintomas de fraqueza, atrofia e fadiga de músculos previamente afetados podem ser observados. Esses sintomas também podem ser notados em músculos que aparentemente não foram afetados pelo episódio de poliomielite. Cãibras musculares e fasciculações podem acompanhar a nova fraqueza.",
+      "classification_reasoning": "A escolha é justificada pelo sintoma de facidez braquial bilateral, que é característico da atrofia muscular progressiva pós-pólio (PPMA). Embora não haja histórico de poliomielite, a paciente tem uma história de cirurgia bariátrica e perda significativa de peso, o que pode ter contribuído para a manifestação do sintoma. Além disso, a facidez braquial bilateral é um sintoma comum em doenças neuromusculares degenerativas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A facidez braquial bilateral descrita no prontuário não é uma condição clínica diretamente relacionada à atrofia muscular progressiva pós-pólio (PPMA). A PPMA é uma doença neuromuscular degenerativa caracterizada por fraqueza muscular progressiva e atrofia, enquanto a facidez braquial bilateral pode ser um sintoma de várias condições clínicas. Além disso, não há histórico de poliomielite na paciente, o que é um critério fundamental para o diagnóstico de PPMA. Portanto, a escolha do código CID-11 8B62 não é justificada clinicamente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME08": {
+      "term_original": "beg",
+      "capitulo": "21",
+      "confidence_embedding": 0.7235,
+      "descricao_cid": "Representação de doença CID-11: Flatulência e afecções correlatas. Definição: Produção ou presença de gás no trato gastrointestinal que pode ser expelido pelo ânus e outras condições associadas à produção ou presença de gás no trato GI.",
+      "classification_reasoning": "A opção mais precisa para o termo 'beg' é ME08, que descreve flatulência e afecções correlatas. A paciente tem uma história de perda de peso significativa (55 kg) após cirurgia bariátrica, o que pode estar relacionado à mudança na composição gástrica e ao funcionamento do trato gastrointestinal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção ME08 não é adequada porque 'beg' não está relacionado à flatulência e afecções correlatas. A paciente tem uma condição clínica descrita como 'QP FACIDEZ BRAQUIAL', que sugere um problema de flacidez braquial bilateral, não relacionado ao trato gastrointestinal.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

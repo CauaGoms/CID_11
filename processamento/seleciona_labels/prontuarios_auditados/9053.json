@@ -1,0 +1,89 @@
+{
+  "prontuario_id": 952,
+  "text": "Dispneia importante aos esforços + dor tipo peso no peito no esforço.\nObeso, has, icc\n\nc # cintilografia miocardica para avaliar angina.        ",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "dor",
+      "esforço",
+      "angina"
+    ],
+    "Localização ou Região Corporal": [
+      "peito"
+    ],
+    "Doença ou Síndrome": [
+      "Obeso",
+      "has",
+      "icc",
+      "angina"
+    ],
+    "Abreviação": [
+      "has",
+      "icc"
+    ],
+    "Procedimento Diagnóstico": [
+      "cintilografia miocardica"
+    ]
+  },
+  "labels": {
+    "BA40.Y": {
+      "term_original": "icc",
+      "capitulo": "11",
+      "confidence_embedding": 0.7783,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A dor tipo peso no peito e dispneia importante aos esforços sugerem angina pectoris. O termo 'icc' refere-se ao IC (Ischaemia Chest) caracterizado pela isquemia do miocárdio, o que é compatível com a descrição da angina pectoris especificada pelo código BA40.Y.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dor tipo peso no peito e dispneia importante aos esforços sugerem angina pectoris. O termo 'icc' refere-se ao IC (Ischaemia Chest) caracterizado pela isquemia do miocárdio, o que é compatível com a descrição da angina pectoris especificada pelo código BA40.Y. A codificação CID-11 está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "5B81.0": {
+      "term_original": "has",
+      "capitulo": "05",
+      "confidence_embedding": 0.7663,
+      "descricao_cid": "Representação de doença CID-11: Obesidade devido a desequilíbrio energético. Definição: A obesidade é uma doença crônica e complexa, definida por adiposidade excessiva que pode prejudicar a saúde. Na maioria dos casos, é uma doença multifatorial devido a ambientes obesogênicos, fatores psicossociais e variantes genéticas. Em um subgrupo de pacientes, fatores etiológicos principais únicos podem ser identificados (doenças, imobilização, procedimentos iatrogênicos, doença monogênica / síndrome genética).",
+      "classification_reasoning": "A obesidade é mencionada no contexto do prontuário, o que sugere a presença de excesso de peso corporal, justificando a escolha do código 5B81.0.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'has' não é uma condição clínica diretamente relacionada à dispneia e dor no peito. A obesidade mencionada no prontuário está relacionada ao excesso de peso corporal, mas o termo 'has' parece ser uma abreviação médica desconhecida ou sem relação com a condição clínica descrita. Portanto, não há justificativa para manter o código 5B81.0.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA38.2": {
+      "term_original": "obeso",
+      "capitulo": "15",
+      "confidence_embedding": 0.6922,
+      "descricao_cid": "Representação de doença CID-11: Artropatia associada a reações de hipersensibilidade classificadas em outra parte. Definição: ",
+      "classification_reasoning": "A presença de obesidade e dor tipo peso no peito nos esforços sugere uma possível artropatia associada à hipersensibilidade, justificando a escolha do código FA38.2",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de obesidade e dor tipo peso no peito nos esforços não é uma artropatia associada à hipersensibilidade. A obesidade é um fator de risco para doenças cardiovasculares, mas não está relacionada a artropatias. Portanto, o código FA38.2 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA22.0": {
+      "term_original": "esforço",
+      "capitulo": "12",
+      "confidence_embedding": 0.762,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A dispneia importante aos esforços e dor tipo peso no peito no esforço sugere uma resposta ao esforço, o que está mais relacionado a Doença Pulmonar Obstrutiva Crônica (DPOC) com exacerbação aguda não especificada do que a outros diagnósticos listados. A referência à cintilografia miocardica para avaliar angina também apoia essa escolha, pois a dispneia importante aos esforços é um sintoma comum em pacientes com DPOC e exacerbação.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dispneia importante aos esforços e dor tipo peso no peito no esforço não é diretamente relacionada à Doença Pulmonar Obstrutiva Crônica (DPOC) com exacerbação aguda não especificada. A referência à cintilografia miocardica para avaliar angina sugere que a dispneia pode ser também um sintoma de doença cardíaca, e não apenas de DPOC. Além disso, a falta de informações sobre o grau de obesidade do paciente e sua história individual (HAS) também é relevante para o diagnóstico. Portanto, a codificação CID-11 CA22.0 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MG30.40": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7601,
+      "descricao_cid": "Representação de doença CID-11: Dor visceral crônica por fatores mecânicos. Definição: Dor visceral crônica por fatores mecânicos é uma dor crônica decorrente de a) a obstrução de vísceras ocas como consequência de obstáculos migratórios internos (p.ex., pedras) ou estenose, com dilatação acima do obstáculo/estenose ou b) a tração de ligamentos e vasos de órgãos internos ou a compressão externa de órgãos internos.",
+      "classification_reasoning": "A dor descrita como 'dor tipo peso no peito no esforço' é mais compatível com a definição de Dor visceral crônica por fatores mecânicos, pois a obstrução de vísceras ocas pode causar dor na região torácica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor descrita como 'dor tipo peso no peito no esforço' não é diretamente relacionada à definição de Dor visceral crônica por fatores mecânicos. A obstrução de vísceras ocas pode causar dor na região torácica, mas a dor descrita parece mais compatível com uma condição cardíaca, como angina pectoris, do que com uma dor visceral crônica. Portanto, o código CID-11 atribuído não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BA40.0": {
+      "term_original": "angina",
+      "capitulo": "11",
+      "confidence_embedding": 0.7603,
+      "descricao_cid": "Representação de doença CID-11: Angina instável. Definição: ",
+      "classification_reasoning": "A opção BA40.0 é a mais precisa para o termo 'angina' no contexto clínico, pois a paciente apresenta dispneia importante aos esforços e dor tipo peso no peito ao esforço, características compatíveis com uma angina instável.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção BA40.0 é a mais precisa para o termo 'angina' no contexto clínico, pois a paciente apresenta dispneia importante aos esforços e dor tipo peso no peito ao esforço, características compatíveis com uma angina instável. A descrição do código CID-11 também se alinha com os sintomas descritos no prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

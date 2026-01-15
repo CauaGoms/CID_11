@@ -1,0 +1,265 @@
+{
+  "prontuario_id": 368,
+  "text": "Às 05:30: ENCAMINHADO PARA TAC DE CRÂNIO, MONITORIZADA, PROCEDIMENTO E TRAJETO REALIZADOS SEM INTERCORRÊNCIAS. EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO. Às 11:52 HS: LUCIDO, ORIENTADO, COMUNICATIVO, AFEBRIL, NORMOTENSO, NORMOCORADO, EUPNEICO. ACESSO VENOSO PERIFERICO EM MSE SALINIZADO. CURATIVO EM MS LIMPO E SECO EXTERNAMENTE. DIURESE PRESENTE, REPOUSO NO LEITO. MANTÉM JEJUM PARA PROCEDIMENTO CIRURGICO HOJE A TARDE. SEGUE CUIDADOS DE ENFERMAGEM. ENF FLORENCE NIGHTINGALE, COREN XXXX. TRANSTORNOS DA CONTINUIDADE DO OSSO. Às 14:30: 2ª DI - FAB REGIÃO GLUTEA DIREITA - CONSCIENTE, LUCIDO, EUPNEICO, COMUNICATIVO, DEAMBULA COM AUXILIO, SEM QUEIXAS ALGICAS NO MOMENTO, APRESENTA PUPILAS ISOCORICAS, PELE E MUCOSA CORADA E HIDRATADA, AUSCULTA PULMONAR COM MV +, MANTEM ACESSO VENOSO PERIFERICO SALINIZADO, RELATA BOA ACEITAÇAO DA DIETA OFERECIDA, DIURESE ESPONTANEA PRESENTE; TRAUMATISMO DE NERVOS DE REGIAO NAO ESPECIFICADA DO CORPO.",
+  "entities": {
+    "Procedimento Diagnóstico": [
+      "MONITORIZADA",
+      "TAC DE CRÂNIO",
+      "AUSCULTA PULMONAR"
+    ],
+    "Achado": [
+      "MONITORIZADA",
+      "LUCIDO",
+      "ORIENTADO",
+      "COMUNICATIVO",
+      "AFEBRIL",
+      "NORMOTENSO",
+      "NORMOCORADO",
+      "EUPNEICO",
+      "SALINIZADO",
+      "LIMPO",
+      "SECO",
+      "CONSCIENTE",
+      "CORADA",
+      "HIDRATADA",
+      "DIURESE PRESENTE",
+      "REPOUSO NO LEITO",
+      "DEAMBULA COM AUXILIO",
+      "PUPILAS ISOCORICAS",
+      "MV +",
+      "ACESSO VENOSO PERIFERICO",
+      "ACEITAÇAO DA DIETA",
+      "DIURESE ESPONTANEA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "PROCEDIMENTO",
+      "CURATIVO",
+      "JEJUM",
+      "ACESSO VENOSO PERIFERICO",
+      "REPOUSO NO LEITO",
+      "PROCEDIMENTO CIRURGICO"
+    ],
+    "Negação": [
+      "AFEBRIL"
+    ],
+    "Localização ou Região Corporal": [
+      "MSE",
+      "MS",
+      "REGIÃO GLUTEA DIREITA"
+    ],
+    "Abreviação": [
+      "MSE",
+      "MS",
+      "ENF",
+      "FAB",
+      "TAC DE CRÂNIO",
+      "MV +"
+    ],
+    "Conceito Qualitativo": [
+      "SALINIZADO"
+    ],
+    "Dispositivo Médico": [
+      "CURATIVO",
+      "ACESSO VENOSO PERIFERICO"
+    ],
+    "Conceito Espacial": [
+      "EXTERNAMENTE"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ENF"
+    ],
+    "Lesão ou Envenenamento": [
+      "FAB",
+      "TRAUMATISMO DE NERVOS"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PELE",
+      "MUCOSA"
+    ],
+    "Função Fisiológica": [
+      "DIURESE PRESENTE",
+      "DIURESE ESPONTANEA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CUIDADOS DE ENFERMAGEM"
+    ],
+    "Doença ou Síndrome": [
+      "TRANSTORNOS DA CONTINUIDADE DO OSSO"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS ALGICAS"
+    ]
+  },
+  "labels": {
+    "6C45.3": {
+      "term_original": "consciente",
+      "capitulo": "06",
+      "confidence_embedding": 0.7887,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A presença de 'consciente' na anamnese sugere que o paciente tem uma boa percepção e compreensão do mundo ao seu redor, o que é consistente com a descrição da intoxicação por cocaína no CID-11. Além disso, a falta de outros sintomas sugestivos de intoxicação por substâncias psicotrópicas ou neurológicas apoia essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença do termo 'consciente' no prontuário não é suficiente para justificar a atribuição do código CID-11 6C45.3, que descreve uma intoxicação por cocaína com sintomas específicos como euforia inadequada, ansiedade, raiva, atenção prejudicada, etc. O termo 'consciente' não está relacionado à intoxicação por cocaína e pode ser um sinal de outro tipo de condição clínica. Portanto, a atribuição do código CID-11 6C45.3 é incorreta.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB23.7": {
+      "term_original": "queixas algicas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7474,
+      "descricao_cid": "Representação de doença CID-11: Aparência descuidada. Definição: Aparência desarrumada ou descuidada, refletindo uma falta de atenção a um ou mais aspectos da higiene, aparência ou vestimenta.",
+      "classification_reasoning": "A opção mais precisa para o termo 'queixas algicas' é a Crise de apreensão ou ansiedade leve, pois a paciente apresenta queixas sem especificar quais são, apenas menciona 'sem queixas ou diagnóstico relacionado'. Além disso, o contexto clínico não sugere doenças específicas, como pânico (MB23.H) ou erupção cutânea (ME62.7), e a paciente está sem sintomas graves, o que reforça a escolha da Crise de apreensão ou ansiedade leve.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CID-11 MB23.7 'Representação de doença: Aparência descuidada' não é clinicamente coerente com o prontuário, pois a paciente apresenta apenas queixas algicas sem especificar quais são, e não há indícios de falta de atenção à higiene ou vestimenta. Além disso, a paciente está em procedimento cirúrgico e tem cuidados de enfermagem, o que sugere um contexto clínico mais específico e complexo do que uma simples 'aparência descuidada'. Portanto, é necessário remover esse código CID-11 e reavaliar a codificação com base nos achados clínicos.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "NA05.Z": {
+      "term_original": "monitorizada",
+      "capitulo": "22",
+      "confidence_embedding": 0.7289,
+      "descricao_cid": "Representação de doença CID-11: Lesão dos vasos sanguíneos da cabeça, não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa é o NA05.Z porque o termo 'monitorizada' se refere ao acompanhamento e vigilância do paciente durante um procedimento, nesse caso, um TAC de crânio. Isso sugere uma lesão dos vasos sanguíneos da cabeça, não especificada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'monitorizada' não se refere a uma lesão dos vasos sanguíneos da cabeça, mas sim ao acompanhamento e vigilância do paciente durante um procedimento. A opção mais precisa seria um código que represente o processo de monitorização, como por exemplo, Z99.2 (Outros problemas relacionados à saúde) ou V67.4 (Monitorização de pacientes). O código NA05.Z não é um representante fiel da condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "XA9M17": {
+      "term_original": "acesso venoso periferico",
+      "capitulo": "X",
+      "confidence_embedding": 0.7259,
+      "descricao_cid": "Representação de doença CID-11: Vasos sanguíneos no nível inferior da perna. Definição: ",
+      "classification_reasoning": "Como o termo 'acesso venoso periferico' refere-se ao acesso a veias sanguíneas periféricas, é mais preciso associá-lo ao código XA9M17 que descreve Vasos sanguíneos no nível inferior da perna. Isso se ajusta melhor ao contexto clínico em que o paciente apresenta um procedimento cirúrgico programado e está sob cuidados de enfermagem, sugerindo uma intervenção vascular periférica.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'acesso venoso periferico' refere-se ao acesso a veias sanguíneas periféricas, o que é diretamente relacionado à condição descrita no prontuário. A justificativa do sistema também está alinhada com a descrição do código CID-11 XA9M17, que descreve Vasos sanguíneos no nível inferior da perna. Portanto, o código CID-11 atribuído é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "FA27.2": {
+      "term_original": "deambula com auxilio",
+      "capitulo": "15",
+      "confidence_embedding": 0.7027,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A opção FA27.2 se ajusta melhor ao contexto do prontuário, pois o paciente está descrito como tendo 'TRAUMATISMO DE NERVOS DE REGIAO NAO ESPECIFICADA DO CORPO', o que sugere lesão nos nervos periféricos, comum em reumatismo palindrômico. Além disso, a descrição do paciente como 'deambula com auxílio' também é consistente com a condição de pacientes com reumatismo palindrômico, que podem apresentar dor e edema nos membros inferiores.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FA27.2 não representa fielmente o termo 'deambula com auxílio' descrito no prontuário, pois reumatismo palindrômico não é relacionado à lesão nos nervos periféricos ou ao trauma de nervos não especificados do corpo. A descrição do paciente como 'deambula com auxílio' sugere mais uma lesão neurológica ou muscular, e não está claramente relacionada à reumatismo palindrômico.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB80.5": {
+      "term_original": "transtornos da continuidade do osso",
+      "capitulo": "15",
+      "confidence_embedding": 0.7515,
+      "descricao_cid": "Representação de doença CID-11: Cisto ósseo solitário. Definição: O cisto ósseo soliário é uma lesão óssea cavitária benigna, sem revestimento epitelial, assintomática, mais comumente encontrada ao acaso, na segunda década de vida. Os ossos longos são afetados mais frequentemente, mas o envolvimento do osso da mandíbula foi relatado.",
+      "classification_reasoning": "A opção FB80.5 é a mais precisa para o termo 'transtornos da continuidade do osso' dentro do contexto clínico, pois refere-se a cisto ósseo solitário, uma lesão óssea cavitária benigna que pode afetar a estrutura do osso e causar sintomas de dor e desconforto.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'transtornos da continuidade do osso' não se refere a cisto ósseo solitário, uma lesão óssea cavitária benigna. A descrição do prontuário menciona 'transtornos da continuidade do osso', que é um termo amplo e genérico que pode se referir a várias condições ósseas, incluindo fraturas, osteoporose ou doenças inflamatórias. Portanto, o código CID-11 FB80.5 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "XA6Y60": {
+      "term_original": "seco",
+      "capitulo": "X",
+      "confidence_embedding": 0.7464,
+      "descricao_cid": "Representação de doença CID-11: Vasos sanguíneos ao nível do punho ou da mão. Definição: ",
+      "classification_reasoning": "A opção mais precisa é o código XA6Y60, que representa 'Vasos sanguíneos ao nível do punho ou da mão', pois no contexto clínico está mencionado 'CURATIVO EM MS LIMPO E SECO EXTERNAMENTE', o que refere-se à ausência de contaminação e à segurança na aplicação de curativos. Isso é consistente com a definição do código XA6Y60, que relaciona a limpeza e secagem dos vasos sanguíneos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 XA6Y60 'Vasos sanguíneos ao nível do punho ou da mão' não está relacionado à descrição clínica do prontuário, que refere-se à aplicação de curativos em MS LIMPO E SECO EXTERNAMENTE. A secagem dos curativos não é um tipo de vasos sanguíneos. Portanto, a codificação não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "XE3FA": {
+      "term_original": "limpo",
+      "capitulo": "X",
+      "confidence_embedding": 0.7431,
+      "descricao_cid": "Representação de doença CID-11: Ocupante de posição fornecida para paciente em ambulância. Definição: ",
+      "classification_reasoning": "O termo 'limpo' se refere à situação do paciente no leito, ou seja, está limpo e sem sujeira, o que justifica a escolha do código XE3FA, que representa ocupante de posição fornecida para paciente em ambulância.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 XE3FA representa ocupante de posição fornecida para paciente em ambulância, mas o termo 'limpo' no prontuário não está relacionado à situação do paciente em ambulância. A classificação é demasiadamente específica e não reflete a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "ND36": {
+      "term_original": "traumatismo de nervos",
+      "capitulo": "22",
+      "confidence_embedding": 0.7717,
+      "descricao_cid": "Representação de doença CID-11: Outros traumatismos envolvendo regiões múltiplas do corpo, não classificados em outra parte. Definição: ",
+      "classification_reasoning": "A opção mais precisa é o Código ND36, pois o termo 'traumatismo de nervos' não se refere específamente a uma lesão em um local determinado do corpo, como antebraço ou perna, mas sim aborda o trauma que afeta múltiplos níveis do corpo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'traumatismo de nervos' não especifica qual região do corpo foi afetada, e o código ND36 refere-se a traumatismos múltiplos em diferentes regiões. Embora haja uma lesão neural descrita no prontuário, a descrição é muito genérica e não permite uma codificação precisa com o código CID-11 ND36. A opção mais adequada seria um código que descreva especificamente a lesão neural, como por exemplo, 'Lesão nervosa periférica' (G64.0) ou 'Lesão nervosa craniana' (G53.0).",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "QE23": {
+      "term_original": "aceitaçao da dieta",
+      "capitulo": "24",
+      "confidence_embedding": 0.7604,
+      "descricao_cid": "Representação de doença CID-11: Problemas com dieta ou hábitos alimentares inapropriados. Definição: ",
+      "classification_reasoning": "A opção QE23 'Problemas com dieta ou hábitos alimentares inapropriados' é a mais precisa para o termo 'aceitaçao da dieta' no contexto clínico, pois refere-se à aceitação da dieta oferecida ao paciente, o que está descrito na anamnese do prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'aceitaçao da dieta' não está diretamente relacionado à representação de doença CID-11 'Problemas com dieta ou hábitos alimentares inapropriados'. A aceitação da dieta oferecida pode ser um fato clínico, mas não é uma condição clínica específica. Além disso, a descrição do código CID-11 refere-se à representação de doença e não ao fato de o paciente aceitar ou rejeitar uma dieta.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MF50.4": {
+      "term_original": "mv +",
+      "capitulo": "21",
+      "confidence_embedding": 0.756,
+      "descricao_cid": "Representação de doença CID-11: hematúria. Definição: Hematúria significa presença de sangue ou glóbulos vermelhos (GV) na urina. Existem dois tipos de hematúria: hematúria macroscópica (quando se pode ver o sangue na urina) e hematúria microscópica (quando o sangue na urina pode ser observado apenas com microscopia ou encontrado fazendo um teste de urina).",
+      "classification_reasoning": "A opção mais precisa é a hematúria (Código: MF50.4) pois o termo 'mv +' indica a presença de glóbulos vermelhos na urina, o que é característico da hematúria.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CID-11 MF50.4 hematúria não é adequada porque o termo 'mv +' refere-se à presença de glóbulos vermelhos na urina, que pode ser um achado normal em pacientes com trauma craniano e não necessariamente uma doença. Além disso, a descrição do código CID-11 MF50.4 se refere apenas a hematúria, enquanto o termo 'mv +' não especifica a presença de sangue na urina.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "XS1T": {
+      "term_original": "corada",
+      "capitulo": "X",
+      "confidence_embedding": 0.738,
+      "descricao_cid": "Representação de doença CID-11: Grau 0 Categoria 0: Assintomático – sem doença oclusiva hemodinamicamente significativa. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a XS1T, pois o termo 'corada' se refere à pele e mucosa hidratadas e coradas no paciente, o que é uma característica clínica de um paciente com doença cardiovascular ou hipoperfusão. Esta opção representa o grau 0 da categoria 0, indicando que o paciente está assintomático e sem doença oclusiva hemodinamicamente significativa.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'corada' se refere à pele e mucosa hidratadas e coradas no paciente, o que não é uma condição clínica de doença cardiovascular ou hipoperfusão. A descrição do código CID-11 XS1T não está relacionada ao termo 'corada', portanto, a codificação não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "XM0N15": {
+      "term_original": "hidratada",
+      "capitulo": "X",
+      "confidence_embedding": 0.7617,
+      "descricao_cid": "Representação de doença CID-11: Soluções que produzem diurese osmótica. Definição: ",
+      "classification_reasoning": "O termo 'hidratada' refere-se à condição de hidratação adequada do paciente, o que é comummente relacionado ao diagnóstico e tratamento de doenças. A opção XM0N15, Representação de doença CID-11: Soluções que produzem diurese osmótica, é a mais precisa para esse termo dentro do contexto clínico, pois envolve a regulação da hidratação corporal.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção XM0N15, Representação de doença CID-11: Soluções que produzem diurese osmótica, é a mais precisa para o termo 'hidratada' dentro do contexto clínico. A hidratação adequada do paciente está relacionada à regulação da diurese e ao tratamento de doenças. Portanto, a codificação CID-11 XM0N15 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "QA03.Y": {
+      "term_original": "repouso no leito",
+      "capitulo": "24",
+      "confidence_embedding": 0.7369,
+      "descricao_cid": "Representação de doença CID-11: Outro exame geral de rotina ('check-up') especificado de subpopulação definida. Definição: ",
+      "classification_reasoning": "O paciente está recebendo um procedimento de rastreamento geral e não há indicação de lesão ou dano. A representação desse termo no contexto clínico é a realização de exame geral de rotina.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'repouso no leito' não representa uma condição clínica diretamente relacionada à doença ou lesão. Isso é mais um procedimento de cuidado médico, portanto, o código CID-11 QA03.Y não se aplica nesse caso.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "XM4AG5": {
+      "term_original": "salinizado",
+      "capitulo": "X",
+      "confidence_embedding": 0.7144,
+      "descricao_cid": "Representação de doença CID-11: Meio de contraste de raios X, solúvel em água, nefrotrópico e de baixa osmolaridade. Definição: ",
+      "classification_reasoning": "A descrição do código XM4AG5 se refere a um meio de contraste de raios X solúvel em água, o que é compatível com o termo 'salinizado' encontrado no prontuário. Este termo provavelmente se refere à utilização de um meio de contraste salino durante a realização do TAC de crânio.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do código XM4AG5 se refere a um meio de contraste de raios X solúvel em água, o que é compatível com o termo 'salinizado' encontrado no prontuário. O termo 'salinizado' provavelmente se refere à utilização de um meio de contraste salino durante a realização do TAC de crânio, o que é claramente relacionado ao procedimento realizado. Portanto, manteremos a codificação CID-11 como XM4AG5.",
+      "tipo_erro_auditoria": null
+    },
+    "MB23.H": {
+      "term_original": "fab",
+      "capitulo": "21",
+      "confidence_embedding": 0.7424,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'fab' é a crise de pânico, pois a paciente está relacionada ao procedimento cirúrgico e apresenta sintomas como ansiedade e medo, que são comuns em crises de pânico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A crise de pânico é um diagnóstico psicológico, enquanto o termo 'fab' se refere a uma lesão ou trauma no osso. A paciente apresenta sintomas relacionados ao procedimento cirúrgico e não há evidências clínicas que justifiquem a atribuição do código CID-11 MB23.H (crise de pânico). Além disso, o termo 'fab' é mais provável se referir a uma lesão óssea do que a um episódio de ansiedade.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MC20.2": {
+      "term_original": "pupilas isocoricas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7428,
+      "descricao_cid": "Representação de doença CID-11: Hipópio. Definição: Hipópio é a presença de células inflamatórias na câmara anterior do olho. Corresponde a um exsudato leucocitário, observado na câmara anterior, geralmente acompanhado de hiperemia de conjuntiva e episclera subjacente. É um sinal de inflamação da úvea anterior e da íris, ou seja, irite, que é uma forma de uveíte anterior. O exsudado deposita-se no fundo devido à ação da gravidade.",
+      "classification_reasoning": "A presença de pupilas isocóricas sugere a possibilidade de uma inflamação na câmara anterior do olho, característica da hipópio (MC20.2).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de pupilas isocóricas não é suficiente para diagnosticar hipópio (MC20.2). A hipópio é uma condição caracterizada pela inflamação na câmara anterior do olho, e a presença de pupilas isocóricas pode ser um sinal de várias outras condições clínicas. Portanto, o código CID-11 atribuído não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

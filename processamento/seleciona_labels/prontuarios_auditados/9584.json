@@ -1,0 +1,88 @@
+{
+  "prontuario_id": 765,
+  "text": "Lucas, 59 ANOS.\nCOMORBIDADES: \n# hoje avaliação exclusiva de mp\n# mp camara-dupla\n# programado em modo ddd 60/50 \n# Ritmo de base sinusal fc: 37 \n# bat ok\n# para eri = 1 MES \n# a - imp = 388, sense = 5,4, clv - menor que 0,6 x 0,4 \n#  ENERGIAS ( 2,4 A 2,4 V ) \n# v - imp = 381, sense = 12,7, clv = menor que 0,8 x 0,4\nPLANO\n# AGENDO AMBULATORIO PARA A PROXIMA SEGUNDA NA CX CARDIACA\n# MANTIDO PROGRAMAÇÃO\n \n \n \n ",
+  "entities": {
+    "Doença ou Síndrome": [
+      "COMORBIDADES"
+    ],
+    "Conceito Temporal": [
+      "hoje",
+      "1 MES"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "avaliação",
+      "programado",
+      "PLANO",
+      "AGENDO",
+      "MANTIDO PROGRAMAÇÃO"
+    ],
+    "Abreviação": [
+      "mp",
+      "fc",
+      "mp camara-dupla",
+      "modo ddd",
+      "bat ok",
+      "CX CARDIACA"
+    ],
+    "Dispositivo Médico": [
+      "mp",
+      "mp camara-dupla"
+    ],
+    "Conceito Quantitativo": [
+      "60/50",
+      "37",
+      "388",
+      "381",
+      "5 , 4",
+      "menor que 0 , 6 x 0 , 4",
+      "2 , 4 A 2 , 4 V",
+      "12 , 7",
+      "menor que 0 , 8 x 0 , 4"
+    ],
+    "Atributo Clínico": [
+      "fc",
+      "eri",
+      "ENERGIAS"
+    ],
+    "Organização Relacionada à Saúde": [
+      "AMBULATORIO",
+      "CX CARDIACA"
+    ],
+    "Achado": [
+      "Ritmo de base sinusal",
+      "bat ok"
+    ]
+  },
+  "labels": {
+    "BC62": {
+      "term_original": "bat ok",
+      "capitulo": "11",
+      "confidence_embedding": 0.7544,
+      "descricao_cid": "Representação de doença CID-11: Via acessória. Definição: Conexão elétrica adicional que tipicamente desvia do nó AV, tipicamente inserindo-se diretamente no miocárdio atrial e ventricular, mas também pode se conectar ao sistema de condução especializado (p.ex., o feixe de His, feixes direito ou esquerdo, ou um dos fascículos).",
+      "classification_reasoning": "A opção BC62 se refere à representação de doença CID-11: Via acessória, que é relacionada ao termo 'bat ok', que sugere uma conexão elétrica adicional na área cardíaca.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'bat ok' não se refere a uma doença ou condição cardíaca, mas sim à verificação de um parâmetro (bat) que está dentro do normal. Portanto, o código CID-11 BC62 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6E20": {
+      "term_original": "comorbidades",
+      "capitulo": "06",
+      "confidence_embedding": 0.7208,
+      "descricao_cid": "Representação de doença CID-11: Transtornos mentais ou comportamentais associados a gravidez, o parto ou o puerpério, sem sintomas psicóticos. Definição: Síndrome associada à gravidez ou ao puerpério (começando até cerca de 6 semanas após o parto) que envolve manifestações mentais e comportamentais significativas, mais comumente sintomas depressivos. A síndrome não inclui delírios, alucinações ou outros sintomas psicóticos. Se os sintomas preenchem os critérios diagnósticos para um transtorno mental específico, esse diagnóstico também deve ser atribuído. Essa categoria não deve ser usada para descrever sintomas depressivos leves e transitórios que que não preenchem os critérios diagnósticos para um episódio depressivo, pode ocorrer logo após o parto (o chamado \"blues\" pós-parto).",
+      "classification_reasoning": "A opção mais precisa para o termo 'comorbidades' é a síndrome associada à gravidez ou ao puerpério (Síndrome de Somatização), que envolve manifestações mentais e comportamentais significativas. Esta escolha se baseia na informação de mp camara-dupla e para eri = 1 MES, o que sugere uma condição relacionada à gravidez ou ao puerpério.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'comorbidades' não é a Síndrome de Somatização, que envolve manifestações mentais e comportamentais significativas. A informação de mp camara-dupla e para eri = 1 MES sugere uma condição relacionada à gravidez ou ao puerpério, mas o termo 'comorbidades' não se refere especificamente a essa síndrome. Além disso, a presença de outras comorbidades (mp camara-dupla) e a programação em modo DDD 60/50 sugerem que a condição é mais relacionada à cardiologia do que à gravidez ou ao puerpério.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8D89.2": {
+      "term_original": "ritmo de base sinusal",
+      "capitulo": "08",
+      "confidence_embedding": 0.6646,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de taquicardia postural ortostática. Definição: Síndrome de taquicardia postural ortostática é um tipo de intolerância ortostática crônica com duração de três meses ou mais associada a taquicardia ereta excessiva na ausência de hipotensão ortostática, além de uma constelação de sintomas tipicamente diários que podem incluir sensação de \"cabeça leve\", tontura, náusea, dispneia, diaforese, dor de cabeça, fadiga e outros sintomas de disfunção autonômica. A taquicardia excessiva é definida por consenso atual como um aumento da frequência cardíaca de pelo menos 30 batimentos por minuto em adultos (40 batimentos por minuto para adolescentes), ou uma frequência cardíaca superior a 120 batimentos por minuto, dentro de 10 minutos do teste de inclinação vertical.",
+      "classification_reasoning": "O termo 'ritmo de base sinusal' se refere à presença de um ritmo cardíaco normal e estável em repouso, caracterizado por batimentos regulares e sem acelerações excessivas. Esta condição é compatível com a definição da síndrome de taquicardia postural ortostática (8D89.2), que inclui uma constelação de sintomas diários, como tontura, náusea e dispneia, associados à taquicardia ereta excessiva.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'ritmo de base sinusal' não representa a síndrome de taquicardia postural ortostática (8D89.2), que é uma condição clínica específica com sintomas diários e taquicardia ereta excessiva. Em vez disso, o termo refere-se à presença de um ritmo cardíaco normal e estável em repouso, caracterizado por batimentos regulares e sem acelerações excessivas. Isso não é compatível com a definição da síndrome de taquicardia postural ortostática.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

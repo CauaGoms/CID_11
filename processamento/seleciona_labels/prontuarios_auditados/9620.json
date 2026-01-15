@@ -1,0 +1,178 @@
+{
+  "prontuario_id": 819,
+  "text": "Lucas, 85A\nFA DESDE JAN/13\nHAS\nDEFICIT COGNITIVO\nEM USO DE: ADDERA    ATENOLOL 50MG 1X / D   ENL 10MG 2X / D   AAS 200MG    EXELON / QUETIAPINA\nS: \nPCTE SEM QEUIXAS, NEGA DISPNEIA, PALPITACOES E DOR TORACICA.\nAINDA NAO OPEROU A CATARATA.\nO:\nPA 110X70   P 60\nBCANF SS\nCPP LIVRES\nA:\nFA CRONICA SEM ACO - AGUARDA CX CATARATA\nHAS\nP:\nMANTIDAS MEDICS E DOSES\nAGUARDA CX CATARATA PARA INICIAR ACO\nRET 6M\nENCAMINHO PARA OFTALMO DA STA CASA\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "FA",
+      "HAS",
+      "1X",
+      "D",
+      "ENL",
+      "2X",
+      "AAS",
+      "PCTE",
+      "PA",
+      "P",
+      "ACO",
+      "MEDICS",
+      "CX",
+      "RET",
+      "6M",
+      "OFTALMO",
+      "CPP LIVRES",
+      "FA CRONICA",
+      "CX CATARATA"
+    ],
+    "Doença ou Síndrome": [
+      "FA",
+      "HAS",
+      "CATARATA",
+      "FA CRONICA"
+    ],
+    "Substância Farmacológica": [
+      "ADDERA",
+      "ATENOLOL",
+      "ENL",
+      "AAS",
+      "EXELON",
+      "QUETIAPINA",
+      "ACO",
+      "MEDICS"
+    ],
+    "Substância Química Orgânica": [
+      "ADDERA",
+      "ATENOLOL",
+      "ENL",
+      "AAS",
+      "EXELON",
+      "QUETIAPINA"
+    ],
+    "Conceito Quantitativo": [
+      "50MG",
+      "1X",
+      "10MG",
+      "2X",
+      "200MG",
+      "110X70",
+      "60",
+      "DOSES"
+    ],
+    "Conceito Temporal": [
+      "D",
+      "6M"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "ENL"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PCTE"
+    ],
+    "Negação": [
+      "SEM",
+      "NEGA",
+      "NAO",
+      "SS"
+    ],
+    "Sinal ou Sintoma": [
+      "QEUIXAS",
+      "DISPNEIA",
+      "PALPITACOES",
+      "BCANF",
+      "SS",
+      "DEFICIT COGNITIVO",
+      "DOR TORACICA"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "MANTIDAS",
+      "AGUARDA",
+      "RET",
+      "ENCAMINHO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "OFTALMO"
+    ],
+    "Achado": [
+      "DEFICIT COGNITIVO",
+      "CPP LIVRES"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CX CATARATA"
+    ]
+  },
+  "labels": {
+    "6D86.6": {
+      "term_original": "fa",
+      "capitulo": "06",
+      "confidence_embedding": 0.7736,
+      "descricao_cid": "Representação de doença CID-11: Perambulação na demência. Definição: Além dos distúrbios cognitivos característicos de demência, o quadro clínico atual inclui perambulação clinicamente significativa que coloca a pessoa em risco de danos.",
+      "classification_reasoning": "A presença do termo 'fa' no contexto do prontuário sugere que o paciente apresenta alguma forma de perambulação ou déficit cognitivo, o que é característico da demência. A opção mais precisa para este termo dentro do contexto clínico é a demência devido à perambulação na demência (6D86.6).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença do termo 'fa' no contexto do prontuário sugere que o paciente apresenta algum tipo de déficit cognitivo, o que é característico da demência. A opção mais precisa para este termo dentro do contexto clínico é a demência devido à perambulação na demência (6D86.6). A codificação CID-11 está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BC10 | Insuficiência cardíaca congestiva": {
+      "term_original": "bcanf",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'bcanf' no contexto clínico é a Insuficiência cardíaca congestiva, pois o termo BCANF SS sugere uma referência à insuficiência cardíaca como causa da sintomatologia do paciente.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'bcanf' no contexto clínico é a Insuficiência cardíaca congestiva, pois o termo BCANF SS sugere uma referência à insuficiência cardíaca como causa da sintomatologia do paciente. A descrição do prontuário não apresenta contradições óbvias ou alucinações, e a abreviação médica é comum e faz sentido no contexto.",
+      "tipo_erro_auditoria": null
+    },
+    "CA22.0": {
+      "term_original": "dispneia",
+      "capitulo": "12",
+      "confidence_embedding": 0.766,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "Aumento do risco de dispneia é uma característica comum em pacientes com déficit cognitivo e doenças cardíacas, como a doença cardiovascular isquêmica (PA 110X70). Com base nessa informação, o termo 'dispneia' mais provável refere-se à exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC) com exacerbação não especificada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "Ajuste do código CID-11 CA22.0 não é adequado pois o termo 'dispneia' no prontuário refere-se a um sintoma respiratório e não à exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC). Ajuste do código CID-11 CA22.0 não é uma representação fiel da condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB23.H": {
+      "term_original": "qeuixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7486,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'qeuixas' é Crise de pânico (MB23.H), pois a expressão não apresenta relação com doenças cutâneas, obnubilação da consciência, parada cardíaca ou mioglobinúria. A crise de pânico pode ser caracterizada por sintomas como palpitações e sensação de falta de ar, os quais estão presentes no contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'qeuixas' é Crise de pânico (MB23.H), pois a expressão não apresenta relação com doenças cutâneas, obnubilação da consciência, parada cardíaca ou mioglobinúria. A crise de pânico pode ser caracterizada por sintomas como palpitações e sensação de falta de ar, os quais estão presentes no contexto clínico.",
+      "tipo_erro_auditoria": null
+    },
+    "9B10.22": {
+      "term_original": "catarata",
+      "capitulo": "09",
+      "confidence_embedding": 0.7397,
+      "descricao_cid": "Representação de doença CID-11: Pós-catarata. Definição: Pós-catarata é a complicação mais comum da cirurgia moderna para catarata, ocorrendo em cerca de 20 a 25% dos casos. Também é conhecida como opacificação de cápsula posterior.",
+      "classification_reasoning": "A opção mais precisa para o termo 'catarata' é a catarata pós-operatória (9B10.22), pois Lucas tem uma faixa de doença crônica sem aguardo CX e está esperando para iniciar ACO após a resolução da catarata.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção 9B10.22 (Pós-catarata) não é apropriada porque o termo 'catarata' no prontuário se refere à doença crônica e não à catarata pós-operatória. Além disso, Lucas está esperando para iniciar ACO após a resolução da catarata, o que sugere que a catarata é um problema subjacente e não uma complicação pós-cirurgia.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6D71": {
+      "term_original": "deficit cognitivo",
+      "capitulo": "06",
+      "confidence_embedding": 0.7791,
+      "descricao_cid": "Representação de doença CID-11: Transtorno neurocognitivo leve. Definição: Transtorno neurocognitivo leve é caracterizado por comprometimento leve em um ou mais domínios cognitivos em relação ao esperado pela idade e nível pré-mórbido geral de funcionamento cognitivo do indivíduo, que representa um declínio do nível prévio de funcionamento do indivíduo. O diagnóstico se baseia no relato do paciente, informante, ou na observação clínica, e é acompanhado por evidência objetiva de comprometimento através de avaliação clínica quantificada ou testagem cognitiva padronizada. O comprometimento cognitivo não é grave o suficiente para interferir de forma significativa com a capacidade do indivíduo de desempenhar atividades relacionadas ao funcionamento pessoal, familiar, social, educacional e/ou ocupacional, ou outras áreas funcionais importantes. O comprometimento cognitivo não pode ser atribuído ao envelhecimento normal e pode ser estático, progressivo, ou pode se resolver ou melhorar dependendo da causa subjacente ou tratamento. O comprometimento cognitivo pode ser atribuído a uma doença subjacente adquirida no sistema nervoso, um traumatismo, uma infecção ou outro processo patológico que afetem o cérebro, uso de substâncias ou medicamentos específicos, deficiência nutricional ou exposição a toxinas, ou a etiologia pode ser indeterminada. O comprometimento não se deve a intoxicação ou abstinência atual de substância.",
+      "classification_reasoning": "A escolha do código 6D71 é justificada por considerar que o déficit cognitivo descrito no prontuário não está relacionado a uma doença específica ou lesão cerebral, apenas afeta o funcionamento geral de Lucas. Além disso, o texto do prontuário não sugere que haja perambulação clinicamente significativa, característica do código 6D86.6.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código 6D71 'Transtorno neurocognitivo leve' é muito amplo e não se ajusta ao termo específico 'deficit cognitivo' descrito no prontuário. Embora o déficit cognitivo possa ser um sintoma de um transtorno neurocognitivo, a falta de informações sobre a gravidade do comprometimento cognitivo e a ausência de evidências objetivas de comprometimento através de avaliação clínica quantificada ou testagem cognitiva padronizada não justificam a escolha desse código. Além disso, o prontuário não sugere que haja um comprometimento leve em um ou mais domínios cognitivos, como descrito na definição do código 6D71.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BC81.30": {
+      "term_original": "palpitacoes",
+      "capitulo": "11",
+      "confidence_embedding": 0.7919,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A presença de palpitacoes e a história de deficit cognitivo sugerem uma possível fibrilação atrial paroxística, que é uma forma de arritmia cardíaca que pode causar palpitações.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de palpitacoes no prontuário não está diretamente relacionada à fibrilação atrial paroxística. A definição do código CID-11 refere-se a uma forma específica de arritmia cardíaca que pode causar palpitações, mas o termo 'palpitacoes' no prontuário não sugere essa condição. Além disso, a história de deficit cognitivo e uso de medicamentos como Adderall e Quetiapina também não estão relacionados à fibrilação atrial paroxística.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

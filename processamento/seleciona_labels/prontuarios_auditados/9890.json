@@ -1,0 +1,183 @@
+{
+  "prontuario_id": 740,
+  "text": "Lucas, 37 anos\nPrimeira consulta, encaminhada da ortpedia\nPaciente vítima de PAF em antebaço direito 25/06, com fratura em rádio (distal e cabeça) sob tratamento conservador com tala gessada. \nQueixa de parestesia e hipostesia em V quirodáctilo, dor em queimação e choque  e face dorsal proximal do I e II quirodáctilos. \nDesfazemos curativo de tala para avaliação:\nFM = 3 para oponência polegar-mínimo (limitação antálgica?)\nFM - 4 para abdução dos dedos, adução do polegar, flexão distal do II ao iV quirodáctilos \nFM = 5 para flexão distal do polegar, flexão e extensão do unho \nhipoestesia em toda face dorsal da mao , principalmente em IV e V quirodáctilos. \nOE em face radial do antebraço direto e OS em  face ventral do antebraço em linha média\nOE em superfície lateral do antebraço direito e OS face medial do cotovelo \nHD: lesão de radial superficial e ulnar. \nCD: Solciito ENMG por rota 3.  Retorno com exame. Se inidcação ortopédica, avisar neurocirurgia (programar possível abordagem conjunta)\n \n \n \n ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "consulta",
+      "encaminhada",
+      "Desfazemos",
+      "avaliação",
+      "CD",
+      "Solciito",
+      "Retorno",
+      "abordagem conjunta"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ortpedia",
+      "neurocirurgia"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente",
+      "vítima"
+    ],
+    "Lesão ou Envenenamento": [
+      "PAF",
+      "fratura",
+      "lesão"
+    ],
+    "Abreviação": [
+      "PAF",
+      "OE",
+      "OS",
+      "HD",
+      "CD",
+      "ENMG",
+      "FM = 3",
+      "FM = 5"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "rádio",
+      "ulnar",
+      "antebaço direito",
+      "V quirodáctilo",
+      "face dorsal proximal do I e II quirodáctilos",
+      "IV e V quirodáctilos",
+      "radial superficial"
+    ],
+    "Localização ou Região Corporal": [
+      "cabeça",
+      "face radial do antebraço direto",
+      "face ventral do antebraço em linha média",
+      "superfície lateral do antebraço direito",
+      "face medial do cotovelo"
+    ],
+    "Sinal ou Sintoma": [
+      "Queixa",
+      "parestesia",
+      "hipostesia",
+      "choque",
+      "hipoestesia",
+      "dor em queimação",
+      "FM = 3",
+      "limitação antálgica"
+    ],
+    "Procedimento Diagnóstico": [
+      "ENMG"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "exame"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "tratamento conservador",
+      "tala gessada",
+      "curativo de tala"
+    ],
+    "Achado": [
+      "oponência polegar-mínimo",
+      "adução do polegar",
+      "flexão distal do II ao iV quirodáctilos",
+      "FM = 5",
+      "flexão distal do polegar",
+      "flexão e extensão do unho"
+    ],
+    "Conceito Funcional": [
+      "abdução dos dedos",
+      "adução do polegar",
+      "flexão distal do II ao iV quirodáctilos",
+      "flexão distal do polegar",
+      "flexão e extensão do unho"
+    ]
+  },
+  "labels": {
+    "FA38.1Y": {
+      "term_original": "flexão distal do ii ao iv quirodáctilos",
+      "capitulo": "15",
+      "confidence_embedding": 0.7492,
+      "descricao_cid": "Representação de doença CID-11: Outra artropatia neuropática especificada. Definição: ",
+      "classification_reasoning": "A flexão distal do II ao IV quirodáctilos é sintoma de uma lesão neurológica, provavelmente relacionada à lesão radial superficial e ulnar (HD). A escolha do código FA38.1Y se justifica pela descrição da artropatia neuropática especificada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A flexão distal do II ao IV quirodáctilos pode ser um sintoma de lesão neurológica, mas o código FA38.1Y é muito amplo e não captura a especificidade da lesão radial superficial e ulnar (HD). A escolha desse código não está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "NA02.0Z": {
+      "term_original": "choque",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'choque' é a fratura de ossos da face ou do crânio, parte não especificada (NA02.Z). A descrição clínica menciona dor em queimação e choque na face dorsal proximal do I e II quirodáctilos, o que se encaixa melhor com uma lesão cutânea aguda ao invés de luxação da mandíbula ou fratura de outro osso do metacarpo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário menciona 'choque' como uma dor em queimação e choque na face dorsal proximal do I e II quirodáctilos, o que não se encaixa com a fratura de ossos da face ou do crânio (NA02.0Z). A lesão cutânea aguda é mais provável, portanto, o código CID-11 não representa fielmente o termo 'choque' descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.2": {
+      "term_original": "dor em queimação",
+      "capitulo": "21",
+      "confidence_embedding": 0.8304,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A dor em queimação é descrita como crônica, persistindo após a lesão e tratamento conservador com tala gessada. Isso sugere que a dor é relacionada à lesão tecidual pós-traumática, justificando o código MG30.2 - Dor crônica pós-operatória ou pós-traumática.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A dor em queimação é descrita como crônica, persistindo após a lesão e tratamento conservador com tala gessada. Isso sugere que a dor é relacionada à lesão tecidual pós-traumática, justificando o código MG30.2 - Dor crônica pós-operatória ou pós-traumática. A descrição do prontuário está claramente relacionada ao termo e não há contradições óbvias.",
+      "tipo_erro_auditoria": null
+    },
+    "FA38.Y": {
+      "term_original": "flexão distal do polegar",
+      "capitulo": "15",
+      "confidence_embedding": 0.7246,
+      "descricao_cid": "Representação de doença CID-11: Artropatia especificada em outras doenças especificadas classificadas em outra parte. Definição: ",
+      "classification_reasoning": "A flexão distal do polegar se encontra relacionada à lesão de radial superficial e ulnar, portanto, a artropatia especificada em outras doenças especificadas classificadas em outra parte (FA38.Y) é a opção mais precisa para o termo dentro do contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A flexão distal do polegar não está diretamente relacionada à lesão de radial superficial e ulnar. A lesão afeta a articulação do antebraço, enquanto a flexão distal do polegar é uma movimentação da mão. Embora haja uma relação entre as articulações do antebraço e a mão, a codificação FA38.Y não representa fielmente o termo ou condição clínica descrita no prontuário. A classificação é demasiado genérica e não captura a especificidade da lesão.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "FA72.3": {
+      "term_original": "fratura",
+      "capitulo": "15",
+      "confidence_embedding": 0.7841,
+      "descricao_cid": "Representação de doença CID-11: Fratura vertebral por fadiga. Definição: ",
+      "classification_reasoning": "A fratura descrita no paciente é uma fratura de rádio (distal e cabeça) causada por PAF, o que justifica a escolha do código FA72.3.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fratura descrita no prontuário é uma fratura de rádio (distal e cabeça) causada por PAF, enquanto o código FA72.3 representa fratura vertebral por fadiga. Embora a fratura seja uma lesão óssea, a localização e natureza da lesão são diferentes entre as duas condições, tornando a escolha do código inapropriada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8C10.0": {
+      "term_original": "hipostesia",
+      "capitulo": "08",
+      "confidence_embedding": 0.7577,
+      "descricao_cid": "Representação de doença CID-11: Síndrome do túnel do carpo. Definição: Neuropatia compressiva causada por compressão do nervo mediano dentro do túnel do carpo no punho.",
+      "classification_reasoning": "A hipostesia descrita no relatório é mais provável ser relacionada à compressão do nervo mediano dentro do túnel do carpo, o que é característico da síndrome do túnel do carpo (CID-11: 8C10.0).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipostesia descrita no prontuário é uma condição de perda de sensibilidade, mas o código CID-11 8C10.0 refere-se especificamente à síndrome do túnel do carpo, que é uma neuropatia compressiva causada pela compressão do nervo mediano dentro do túnel do carpo no punho. Embora a hipostesia possa estar relacionada à compressão do nervo mediano, não há evidência clínica suficiente para justificar a atribuição desse código CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME86.B": {
+      "term_original": "queixa",
+      "capitulo": "21",
+      "confidence_embedding": 0.757,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa da perna ou coxa. Definição: ",
+      "classification_reasoning": "A queixa do paciente refere-se a dor e sensação de queimação nos quirodáctilos, o que se encaixa com a definição de 'Sintoma ou queixa da perna ou coxa' no Código CID-11 ME86.B.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa do paciente refere-se a dor e sensação de queimação nos quirodáctilos, mas o código CID-11 ME86.B se refere a sintoma ou queixa da perna ou coxa. Embora haja referência à mão no prontuário, a descrição do sintoma não está relacionada à perna ou coxa, portanto, a codificação é inapropriada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NC32.4": {
+      "term_original": "lesão",
+      "capitulo": "22",
+      "confidence_embedding": 0.7979,
+      "descricao_cid": "Representação de doença CID-11: Fratura das diáfises da ulna e do rádio. Definição: ",
+      "classification_reasoning": "A lesão referida como 'lesão de radial superficial e ulnar' é mais provável ser uma fratura em rádio e ulna, o que justifica a escolha do código NC32.4 - Fratura das diáfises da ulna e do rádio.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão referida como 'lesão de radial superficial e ulnar' não é uma fratura, mas sim uma lesão muscular ou nervosa. O termo 'lesão' não se refere a uma fratura, portanto o código CID-11 NC32.4 - Fratura das diáfises da ulna e do rádio não é adequado.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B88.2": {
+      "term_original": "hipoestesia",
+      "capitulo": "08",
+      "confidence_embedding": 0.7711,
+      "descricao_cid": "Representação de doença CID-11: Espasmo hemifacial. Definição: O espasmo hemifacial (EHF) é um transtorno do movimento mais comumente causado pela compressão vascular do VII nervo craniano em sua zona de saída da raiz do tronco encefálico. Ela se manifesta como contrações involuntárias e espasmos em uma das metades da face.",
+      "classification_reasoning": "A hipoestesia mencionada na queixa do paciente é mais compatível com a descrição da Síndrome de Espasmo Hemifacial (EHF), visto que o paciente apresenta parestesia e hipostesia em V quirodáctilo, dor em queimação e choque e face dorsal proximal do I e II quirodáctilos, o que sugere lesão nervosa localizada. A EHF é um transtorno do movimento mais comumente causado pela compressão vascular do VII nervo craniano em sua zona de saída da raiz do tronco encefálico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipoestesia descrita no prontuário refere-se a perda de sensibilidade na face dorsal da mão, principalmente nos dedos IV e V. Isso não se ajusta à definição do código CID-11 8B88.2, que se refere ao espasmo hemifacial, um transtorno do movimento caracterizado por contrações involuntárias e espasmos em uma das metades da face. A lesão nervosa localizada descrita no prontuário é mais compatível com uma lesão periférica do nervo radial ou ulnar, e não com a síndrome de Espasmo Hemifacial.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

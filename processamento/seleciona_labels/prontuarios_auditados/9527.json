@@ -1,0 +1,164 @@
+{
+  "prontuario_id": 250,
+  "text": "ID: Lucas, 55 ANOS, PROCEDENCIA CURITIBA, NATURAL DE SIQUEIRA CAMPOS, NÃO TRABALHA\nHMA : PALPITAÇÕES E TAQUICARDIA AO REPOUSO.\nFA CRONICA\n# 2CX DE TROCA DE MITRAL + ATRIOSEPTOPLASTIA (2006)\n# 23/09/14 PROTESE METALICA EM POSIÇÃO MITRAL NORMOFUNCIONANTE. VE APRESENTA DIMENSÕES NORMAIS COM FUNÇÃO SISTOLICA PRESERVADA. VENTRICULO DIREITO APRESENTA DIMENSÕES AUMENTADAS E FUNÇÃO SISTOLICA COMPROMETIDA DISCRETAMENTE. REGURGITAÇÃO TRICUSPIDE DISCRETA. PSAP ESTIMADA EM 45MMHG. ATRIO ESQUERDO E DIREITO DILATADOS.\n# MEDICAMENTOS EM USO: \nWARFARIM 5MG\nSELOKEN 100MG\nDIGOXINA 0,25MG\n* NÃO ESTÁ UTILIZANDO PENICILINA BENZATINA FALTA NA UNIDADE DE SAÚDE\n# RNI 14/03: 3,27\n13/06 2,68\n12/09 4,01 ( TROCOU MARCA DO REMEDIO )\nFC 72 \nPA 100X60MMHG\nCONDUTA :\nSUBSTITUIR SELOKEN POR SELOZOK\n \n \n \n ",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "PALPITAÇÕES",
+      "DILATADOS",
+      "TAQUICARDIA AO REPOUSO",
+      "DIMENSÕES AUMENTADAS",
+      "FUNÇÃO SISTOLICA COMPROMETIDA DISCRETAMENTE",
+      "REGURGITAÇÃO TRICUSPIDE DISCRETA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ATRIOSEPTOPLASTIA",
+      "2CX DE TROCA DE MITRAL"
+    ],
+    "Abreviação": [
+      "VE",
+      "PSAP",
+      "FC",
+      "PA",
+      "FA CRONICA",
+      "2CX DE TROCA DE MITRAL"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "VE",
+      "VENTRICULO DIREITO"
+    ],
+    "Atributo Clínico": [
+      "PSAP",
+      "FC",
+      "PA"
+    ],
+    "Conceito Quantitativo": [
+      "45MMHG",
+      "5MG",
+      "100MG",
+      "72",
+      "100X60MMHG",
+      "0 , 25MG",
+      "3 , 27",
+      "2 , 68",
+      "4 , 01"
+    ],
+    "Conceito Espacial": [
+      "ESQUERDO",
+      "DIREITO"
+    ],
+    "Substância Farmacológica": [
+      "MEDICAMENTOS",
+      "WARFARIM",
+      "SELOKEN",
+      "DIGOXINA",
+      "SELOZOK",
+      "PENICILINA BENZATINA"
+    ],
+    "Negação": [
+      "NÃO",
+      "FALTA"
+    ],
+    "Procedimento Laboratorial": [
+      "RNI"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "RNI"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "TROCOU",
+      "CONDUTA",
+      "SUBSTITUIR"
+    ],
+    "Produto Intelectual": [
+      "CONDUTA"
+    ],
+    "Doença ou Síndrome": [
+      "FA CRONICA"
+    ],
+    "Dispositivo Médico": [
+      "PROTESE METALICA"
+    ],
+    "Achado": [
+      "POSIÇÃO MITRAL NORMOFUNCIONANTE",
+      "DIMENSÕES NORMAIS",
+      "FUNÇÃO SISTOLICA PRESERVADA"
+    ],
+    "Anormalidade Adquirida": [
+      "FUNÇÃO SISTOLICA COMPROMETIDA DISCRETAMENTE"
+    ],
+    "Anormalidade Anatômica": [
+      "REGURGITAÇÃO TRICUSPIDE DISCRETA"
+    ],
+    "Antibiótico": [
+      "PENICILINA BENZATINA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UNIDADE DE SAÚDE"
+    ],
+    "Medicamento Clínico": [
+      "MARCA DO REMEDIO"
+    ]
+  },
+  "labels": {
+    "BC81.30": {
+      "term_original": "palpitações",
+      "capitulo": "11",
+      "confidence_embedding": 0.8085,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A opção mais precisa é a fibrilação atrial paroxística, pois o paciente apresenta palpitações e taquicardia ao repouso, indicando um problema cardíaco relacionado à frequência cardíaca irregular.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa é a fibrilação atrial paroxística, pois o paciente apresenta palpitações e taquicardia ao repouso, indicando um problema cardíaco relacionado à frequência cardíaca irregular. A descrição do prontuário não apresenta contradição óbvia ou alucinação, portanto, a codificação CID-11 BC81.30 é válida e representa fielmente o termo descrito.",
+      "tipo_erro_auditoria": null
+    },
+    "BC81.7Z": {
+      "term_original": "taquicardia ao repouso",
+      "capitulo": "11",
+      "confidence_embedding": 0.7773,
+      "descricao_cid": "Representação de doença CID-11: taquicardia atrioventricular recíproca, não especificada. Definição: ",
+      "classification_reasoning": "A taquicardia ao repouso é descrita como um sintoma do paciente, o que sugere uma alteração cardíaca mais ampla que não está relacionada a uma taquicardia específica do ventrículo (taquicardia ventricular sustentada). A opção BC81.7Z, ou seja, taquicardia atrioventricular recíproca não especificada, é a mais precisa para descrever este sintoma, pois o paciente apresenta palpitações e taquicardia ao repouso, sugerindo uma disfunção cardíaca mais ampla.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A taquicardia ao repouso é um sintoma do paciente, mas o código CID-11 atribuído (BC81.7Z) refere-se a uma doença específica (taquicardia atrioventricular recíproca não especificada). Embora haja uma relação entre o sintoma e a doença, a codificação parece ser demasiado específica para um sintoma geral como taquicardia ao repouso. Ajuste necessário para manter a clínica coerente.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "9A10.3": {
+      "term_original": "dilatados",
+      "capitulo": "09",
+      "confidence_embedding": 0.7067,
+      "descricao_cid": "Representação de doença CID-11: Hiperlacrimação. Definição: Transbordamento de lágrimas devido a secreção excessiva pela glândula lacrimal. Pode ser causado por drogas (p.ex. pillocarpina), forte emoção; ou como reflexo de estimulação trigeminal por inflamação ocular; ou irritação da córnea ou conjuntiva por irritante químico no ar; vento frio; ou corpo estranho no olho. Os principais sintomas são desconforto e visão turva e algumas vezes constrangimento. A abordagem depende da causa.\r\n\r\n\r\n. É um sinal clínico ou condição que aponta para a drenagem insuficiente do filme lacrimal dos olhos, em que as lágrimas vão drenar pela face abaixo em vez de o fazerem pelo sistema nasolacrimal.",
+      "classification_reasoning": "O termo 'dilatados' se refere às aurículas, especificamente o Atrio Esquerdo e Direito dilatados, o que é compatível com a descrição de Hiperlacrimação (Código CID-11 9A10.3)",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'dilatados' se refere às aurículas, especificamente o Atrio Esquerdo e Direito dilatados. No entanto, a descrição do código CID-11 9A10.3 se refere à hiperlacrimação, que é um sintoma relacionado à secreção excessiva de lágrimas e não está diretamente relacionada às aurículas. Portanto, há uma incompatibilidade anatômica entre o termo e a descrição do código CID-11.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "BE12.1": {
+      "term_original": "regurgitação tricuspide discreta",
+      "capitulo": "11",
+      "confidence_embedding": 0.7731,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência da valva mitral pós procedimento. Definição: Este é um transtorno pós-procedimento do coração em que a valva mitral não se fecha adequadamente quando o coração bombeia sangue. É o escoamento anormal de sangue do ventrículo esquerdo, através da valva mitral, e para o átrio esquerdo, quando o ventrículo esquerdo se contrai, ou seja, há regurgitação de sangue de volta ao átrio esquerdo.",
+      "classification_reasoning": "A escolha do código BE12.1 é porque a regurgitação tricuspide discreta está relacionada ao procedimento de troca de mitral e atrioseptoplastia realizado em 2006, o que sugere insuficiência da valva mitral pós-procedimento.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A regurgitação tricuspide discreta está relacionada à valva mitral, mas o procedimento realizado foi a troca de mitral + atrioseptoplastia, não apenas uma insuficiência da valva mitral pós-procedimento. Portanto, o código CID-11 BE12.1 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BB61.Y": {
+      "term_original": "função sistolica comprometida discretamente",
+      "capitulo": "11",
+      "confidence_embedding": 0.764,
+      "descricao_cid": "Representação de doença CID-11: Outra insuficiência especificada da valva mitral. Definição: ",
+      "classification_reasoning": "A função sistólica comprometida discretamente sugere uma alteração na função mitral, apesar de não ser especificada como estenose ou insuficiência. A opção mais precisa é a 'Outra insuficiência especificada da valva mitral' (BB61.Y) pois refere-se à lesão mitral sem especificar sua natureza, o que concorda com o contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A função sistólica comprometida discretamente não é uma condição de doença específica da valva mitral, mas sim um achado eletrocardiográfico que pode ser relacionado a várias possibilidades, incluindo insuficiência ou estenose mitral. A opção 'Outra insuficiência especificada da valva mitral' (BB61.Y) não é precisa o suficiente para representar essa condição clínica e, portanto, não é um código CID-11 válido.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BB61.0": {
+      "term_original": "dimensões aumentadas",
+      "capitulo": "11",
+      "confidence_embedding": 0.7812,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência mitral reumática. Definição: A insuficiência mitral pode ser causada por condições como a febre reumática. \r\nA insuficiência mitral é o escoamento de sangue do ventrículo esquerdo para o átrio esquerdo durante a sístole.",
+      "classification_reasoning": "A dimensão aumentada do ventriculo direito é compatível com insuficiência mitral, uma condição que pode ser causada por doenças reumáticas ou outras lesões cardíacas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dimensão aumentada do ventrículo direito não é suficiente para justificar a classificação de insuficiência mitral reumática. A descrição da conduta e dos achados clínicos no prontuário não apresenta evidências claras de insuficiência mitral, apenas uma referência à possibilidade de doença reumática como causa da febre reumática. Além disso, a presença de protese metálica em posição mitral normofuncionante e regurgitação tricuspid discreta também não está relacionada diretamente com a insuficiência mitral.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

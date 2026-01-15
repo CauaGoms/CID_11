@@ -1,0 +1,71 @@
+{
+  "prontuario_id": 747,
+  "text": "João, 84 anos. \nPO 06/01 Herniorrafia Inguinal D + cistorrafia.\nRetirada de sonda vesical 19/01.\nNega queixas alimentares e dores.\nABD indolor à palpação.  \nEm uso de Omeprazol e anti-HAS.\n\ndiscutido caso com preceptoria. Conforme orientado, retorno em 30 dias.",
+  "entities": {
+    "Abreviação": [
+      "PO",
+      "D",
+      "anti-HAS"
+    ],
+    "Conceito Temporal": [
+      "PO",
+      "84 anos",
+      "30 dias"
+    ],
+    "Conceito Espacial": [
+      "D"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "cistorrafia",
+      "Herniorrafia Inguinal",
+      "sonda vesical"
+    ],
+    "Negação": [
+      "Nega",
+      "indolor"
+    ],
+    "Sinal ou Sintoma": [
+      "dores",
+      "queixas alimentares"
+    ],
+    "Procedimento Diagnóstico": [
+      "palpação"
+    ],
+    "Conceito Funcional": [
+      "uso"
+    ],
+    "Substância Farmacológica": [
+      "Omeprazol",
+      "anti-HAS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "orientado",
+      "retorno"
+    ],
+    "Conceito Quantitativo": [
+      "84 anos"
+    ]
+  },
+  "labels": {
+    "DB60.0": {
+      "term_original": "dores",
+      "capitulo": "13",
+      "confidence_embedding": 0.7355,
+      "descricao_cid": "Representação de doença CID-11: Hemorroidas de primeiro grau. Definição: (grau I): as hemorroidas de primeiro grau se projetam para o canal anal e às vezes sangram, mas não prolapsam pelo ânus.",
+      "classification_reasoning": "A opção mais precisa é a Código DB60.0, pois o termo 'dores' está relacionado à possibilidade de doenças anais ou genitais, e as hemorroidas do primeiro grau são uma das possibilidades clínicas que podem estar associadas às dores mencionadas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção do sistema é DB60.0, que se refere a hemorroidas de primeiro grau. No entanto, o termo 'dores' não está diretamente relacionado à doença CID-11 escolhida. A dor pode ser um sintoma de várias condições clínicas e não há evidência no prontuário que sugira uma associação específica com hemorroidas. Portanto, a codificação DB60.0 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "5B5K.A": {
+      "term_original": "queixas alimentares",
+      "capitulo": "05",
+      "confidence_embedding": 0.7263,
+      "descricao_cid": "Representação de doença CID-11: Deficiência de molibdênio. Definição: O molibdênio funciona como cofator para um número limitado de enzimas em humanos: sulfito oxidase, xantina oxidase e aldeído oxidase. Foi descrito um defeito metabólico grave e raro que causa deficiência do cofator de molibdênio e impede que essas enzimas sejam sintetizadas. Poucos bebês com esses defeitos sobrevivem aos primeiros dias de vida e os que sobrevivem apresentam graves anormalidades neurológicas. Embora a deficiência de molibdênio relacionada a uma deficiência alimentar seja extremamente rara em humanos, ela foi descrita na nutrição parenteral total (NPT) de longo prazo como secundária à administração de sulfito. Os sintomas incluem: taquicardia, dor de cabeça, cegueira noturna, irritabilidade e coma. As alterações bioquímicas podem consistir em elevadas concentrações plasmáticas de metionina , baixa concentração sérica de ácido úrico, altos níveis de tiossulfato urinário e baixos níveis urinários de ácido úrico e sulfato.",
+      "classification_reasoning": "A opção mais precisa para o termo 'queixas alimentares' é a deficiência de molibdênio, pois essa deficiência pode estar relacionada a alterações na nutrição parenteral total (NPT) e ao uso de sulfito, o que pode afetar a capacidade do paciente em ter queixas alimentares.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A deficiência de molibdênio não está relacionada às queixas alimentares do paciente. O termo 'queixas alimentares' refere-se a problemas com a ingestão de alimentos, enquanto a deficiência de molibdênio é uma condição metabólica grave e rara. A justificativa do sistema não é clínica ou lógica para associar essas duas condições.",
+      "tipo_erro_auditoria": "false_positive_entity"
+    }
+  }
+}

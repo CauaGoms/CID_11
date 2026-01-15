@@ -1,0 +1,107 @@
+{
+  "prontuario_id": 457,
+  "text": "Paciente com perfil clínico de síndrome metabólica, internou para realizar angioplastia da artéria descendente anterior esquerda por angina instável. Realzada angioplastia com stent Liberté 2,5 x 16mm em artéria descendente anterior esquerda no seu segmento médio, sem intercorrências e com sucesso angiográfico (Fluxo Timi 3).  Orientações terapêuticas na alta hospitalar: 1) AAS 100 mg VO /dia - uso contínuo; 2) Ticlopidina 250mg VO 12/12 h - 3 meses; 3) Demais medicações prescritas por seu médico assistente; 4) Sugere-se revisão com seu médico assitente em 7 dias. ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "internou",
+      "revisão",
+      "Orientações terapêuticas",
+      "na alta hospitalar",
+      "Demais medicações prescritas"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "angioplastia",
+      "VO"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "intercorrências"
+    ],
+    "Substância Farmacológica": [
+      "AAS",
+      "Ticlopidina"
+    ],
+    "Substância Química Orgânica": [
+      "AAS",
+      "Ticlopidina"
+    ],
+    "Abreviação": [
+      "AAS",
+      "VO"
+    ],
+    "Doença ou Síndrome": [
+      "síndrome metabólica",
+      "angina instável"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "artéria descendente anterior esquerda",
+      "segmento médio"
+    ],
+    "Conceito Quantitativo": [
+      "Liberté 2 , 5 x 16mm",
+      "100 mg"
+    ],
+    "Achado": [
+      "sucesso angiográfico",
+      "Fluxo Timi 3"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Fluxo Timi 3"
+    ],
+    "Conceito Temporal": [
+      "na alta hospitalar",
+      "12/12 h"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "médico assistente",
+      "médico assitente"
+    ]
+  },
+  "labels": {
+    "BA40.Y": {
+      "term_original": "angina instável",
+      "capitulo": "11",
+      "confidence_embedding": 0.8302,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A angina instável caracteriza-se como uma forma grave de angina pectoral, com sintomas mais intensos e mais frequentes do que a angina estável. Considerando o contexto clínico de angioplastia da artéria descendente anterior esquerda por angina instável, o código BA40.Y (Outra angina pectoris especificada) é a opção mais precisa para representar esta condição.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A angina instável é uma forma grave de angina pectoral, e o código BA40.Y (Outra angina pectoris especificada) representa fielmente essa condição clínica. A codificação CID-11 está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "NA05.Z": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.7786,
+      "descricao_cid": "Representação de doença CID-11: Lesão dos vasos sanguíneos da cabeça, não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'intercorrências' é a lesão dos vasos sanguíneos da cabeça, não especificada (Código CID-11: NA05.Z), pois intercorrência refere-se à ocorrência de um evento imprevisto ou inesperado durante uma procededura médica, e nesse contexto específico, há a realização de angioplastia com sucesso, mas sem mencionar complicações ou complicações improváveis.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'intercorrências' não é uma lesão dos vasos sanguíneos da cabeça, não especificada (Código CID-11: NA05.Z), pois intercorrência refere-se a um evento imprevisto ou inesperado durante uma procededura médica. Nesse contexto específico, há a realização de angioplastia com sucesso, mas sem mencionar complicações ou complicações improváveis. A codificação CID-11 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5C78": {
+      "term_original": "síndrome metabólica",
+      "capitulo": "05",
+      "confidence_embedding": 0.8104,
+      "descricao_cid": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem.",
+      "classification_reasoning": "A síndrome metabólica mencionada no prontuário é caracterizada por uma sobrecarga de líquidos no sangue, o que é compatível com a descrição da doença CID-11 Código 5C78. Além disso, a angioplastia e o uso contínuo de AAS e Ticlopidina sugerem um quadro clínico relacionado à insuficiência cardíaca congestiva (ICC), que também está associada à sobrecarga de líquidos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A síndrome metabólica mencionada no prontuário não é uma sobrecarga de líquidos, como descrita pelo código CID-11 5C78. A síndrome metabólica é um conjunto de características clínicas relacionadas à resistência à insulina e ao metabolismo, incluindo obesidade, hipertensão e dislipidemia. Portanto, a codificação não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MC80.0": {
+      "term_original": "fluxo timi 3",
+      "capitulo": "21",
+      "confidence_embedding": 0.7391,
+      "descricao_cid": "Representação de doença CID-11: Valor elevado da pressão arterial sem diagnóstico de hipertensão. Definição: ",
+      "classification_reasoning": "O termo 'Fluxo Timi 3' é um parâmetro angiográfico que indica o sucesso da angioplastia e do stent, portanto, está relacionado à avaliação da pressão arterial e ao resultado da intervenção cardiovascular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 MC80.0 representa valor elevado da pressão arterial sem diagnóstico de hipertensão, mas o termo 'Fluxo Timi 3' não está relacionado à pressão arterial. Ele é um parâmetro angiográfico que indica o sucesso da angioplastia e do stent, portanto, a codificação CID-11 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    }
+  }
+}

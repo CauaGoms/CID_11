@@ -1,0 +1,123 @@
+{
+  "prontuario_id": 495,
+  "text": "18h - 2º PO fx femur E, acordado, lucido, comunicativo, eupneico, ar ambiente, aceitando dieta oferecida, deambulando com auxilio, curativo em femur E limpo e seco externamente, refere eliminações presentes, nega queixas algicas, realizada medidas de conforto, segue sob cuidados, na presença da mae. * entrado em contato com Doutor Vital Brazil Valerio - orto para avaliar o raio x do paciente e assim libera-lo para alta hospitalar, porem o mesmo nao compareceu ate a passagem de plantao.  Enfermeira Florence Nightingale.  FRATURA DO COLO DO FEMUR",
+  "entities": {
+    "Achado": [
+      "acordado",
+      "lucido",
+      "comunicativo",
+      "eupneico",
+      "deambulando",
+      "limpo",
+      "aceitando dieta",
+      "eliminações presentes"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "auxilio",
+      "avaliar",
+      "libera-lo",
+      "sob cuidados",
+      "alta hospitalar",
+      "passagem de plantao"
+    ],
+    "Dispositivo Médico": [
+      "curativo"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "curativo",
+      "medidas de conforto"
+    ],
+    "Conceito Espacial": [
+      "externamente"
+    ],
+    "Negação": [
+      "nega"
+    ],
+    "Grupo Familiar": [
+      "mae"
+    ],
+    "Abreviação": [
+      "orto",
+      "2º PO",
+      "fx femur E",
+      "femur E"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "orto"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "paciente"
+    ],
+    "Conceito Temporal": [
+      "2º PO"
+    ],
+    "Lesão ou Envenenamento": [
+      "fx femur E",
+      "FRATURA DO COLO DO FEMUR"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "femur E"
+    ],
+    "Função de Organismo": [
+      "eliminações presentes"
+    ],
+    "Sinal ou Sintoma": [
+      "queixas algicas"
+    ],
+    "Procedimento Diagnóstico": [
+      "raio x"
+    ]
+  },
+  "labels": {
+    "MB23.7": {
+      "term_original": "queixas algicas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7429,
+      "descricao_cid": "Representação de doença CID-11: Aparência descuidada. Definição: Aparência desarrumada ou descuidada, refletindo uma falta de atenção a um ou mais aspectos da higiene, aparência ou vestimenta.",
+      "classification_reasoning": "A opção mais precisa para o termo 'queixas algicas' no contexto do prontuário é a Aparência descuidada (CID-11: MB23.7). Isso porque o paciente não refere queixas algicas, indicando que a dor não está sendo mencionada como um sintoma. Em vez disso, o registro indica que o paciente nega queixas algicas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'queixas algicas' no prontuário é negado pelo paciente, indicando que não há dor. A opção MB23.7 (Aparência descuidada) não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário. A codificação CID-11 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "negated_finding"
+    },
+    "FA32.20": {
+      "term_original": "deambulando",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'deambulando' refere-se ao paciente estar em movimento e caminhando com ajuda, o que indica uma lesão no sistema músculo-esquelético, especificamente na região do fêmur. A opção FA32.20 é mais precisa porque combina a ideia de mobilidade com a lesão óssea, sugerindo uma fratura (ou possível osteonecrose). As outras opções não apresentam conexões clínicas adequadas com o termo 'deambulando' e contexto da fratura do colo do fêmur.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'deambulando' não é suficientemente específico para justificar a escolha do código FA32.20, que combina mobilidade com lesão óssea. A fratura do colo do fêmur está descrita no prontuário, mas o termo 'deambulando' não apresenta uma conexão clínica direta com essa condição. Além disso, a opção FA32.20 pode incluir outras lesões ósseas que não estão presentes no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "NA07.3": {
+      "term_original": "eliminações presentes",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'eliminações presentes' é a NA07.3, que refere-se às funções fisiológicas normais do organismo, como eliminações urinárias e fecais.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'eliminações presentes' não se refere a uma condição clínica específica, mas sim à função fisiológica normal do organismo. A opção NA07.3 é demasiado genérica e não representa fielmente o termo descrito no prontuário. Além disso, a descrição do código CID-11 não fornece nenhuma relação clínica direta com a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA72.3": {
+      "term_original": "fratura do colo do femur",
+      "capitulo": "15",
+      "confidence_embedding": 0.7165,
+      "descricao_cid": "Representação de doença CID-11: Fratura vertebral por fadiga. Definição: ",
+      "classification_reasoning": "A fratura do colo do femur é um tipo de fratura vertebral por fadiga, o que justifica a escolha do código FA72.3.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fratura do colo do femur não é uma fratura vertebral por fadiga, como descrito no código CID-11 FA72.3. A fratura do colo do femur é um tipo de fratura óssea que afeta o fémur, enquanto a fratura vertebral por fadiga é uma condição clínica relacionada à espinha. Portanto, a escolha do código CID-11 FA72.3 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB84.4": {
+      "term_original": "fx femur e",
+      "capitulo": "15",
+      "confidence_embedding": 0.7411,
+      "descricao_cid": "Representação de doença CID-11: Osteomielite crônica com seio drenante. Definição: ",
+      "classification_reasoning": "A fratura do colo do femur (fx femur e) é uma lesão óssea que não está relacionada à rabdomiólise, osteoporose ou necrose óssea. A opção mais precisa é a osteomielite crônica com seio drenante (Código: FB84.4), pois o termo 'fx femur e' indica uma lesão no osso que pode estar infectada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fratura do colo do femur (fx femur e) não é uma representação de doença CID-11, mas sim uma lesão óssea. A opção mais precisa é a osteomielite crônica com seio drenante (Código: FB84.4), pois o termo 'fx femur e' indica uma lesão no osso que pode estar infectada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

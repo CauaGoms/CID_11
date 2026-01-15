@@ -1,0 +1,280 @@
+{
+  "prontuario_id": 281,
+  "text": "Às 12:31: CLIENTE ACORDADA, PUPILAS ISOCORICAS FOTORREAGENTES, RESPONSIVA A ESTIMULOS DOLOROSOS, EUPNEICA, REPOUSO NO LEITO, DIETA VIA GASTROSTOMIA A 50 ML/H EM BI, ABDOMEN PLANO E FLÁCIDO, PERFUSÃO DISTAL PRESERVADA, MICÇÃO PRESENTE (FAZ USO DE FRALDA). ENFª FLORENCE NIGHTINGALE XXXX. DOR CRONICA INTRATAVEL. ÀS 9h: DESLIGADA SEDAÇÃO POR DRA ALICE. HEMORRAGIA SUBDURAL DEVIDA A TRAUMATISMO. ÀS 17:30: INICIA COM NPT 42 ML/H, EM ACESSO VENOSO CENTRAL. MANTENDO GASTROSTOMIA FECHADA E JEJUM POR VIA ORAL. SEPTICEMIA NAO ESPECIFICADA. 22º PO de colecistectomia, 1º dia de reinternação por febre associada a taquicardia. Às 11:00h: Consciente, comunicativo, pupilas isocóricas e fotorreagentes, jejum até segunda ordem, apresentando ictericia generalizada. AP livre, mv + bilateral, expansão torácica simétrica. Mantém acesso venoso periférico salinizado em fossa cubital esquerda. Abdomen plano, flácido e indolor a palpação, RHA +, incisão cirurgica de região abdominal em fase de cicatrização de aspecto limpo e seco. Apresenta boa perfusão periférica. Diurese presente e espontânea. Relatando flatulências, sem queixas algicas no momento.  Enfº Florence Nightingale, COREN XXXX. EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "CLIENTE"
+    ],
+    "Achado": [
+      "ACORDADA",
+      "EUPNEICA",
+      "PLANO",
+      "FLÁCIDO",
+      "Consciente",
+      "comunicativo",
+      "livre",
+      "plano",
+      "flácido",
+      "seco",
+      "PUPILAS ISOCORICAS FOTORREAGENTES",
+      "RESPONSIVA A ESTIMULOS DOLOROSOS",
+      "REPOUSO NO LEITO",
+      "PERFUSÃO DISTAL PRESERVADA",
+      "MICÇÃO PRESENTE",
+      "pupilas isocóricas e fotorreagentes",
+      "mv + bilateral",
+      "expansão torácica simétrica",
+      "RHA +",
+      "aspecto limpo",
+      "perfusão periférica",
+      "Diurese presente e espontânea"
+    ],
+    "Dispositivo Médico": [
+      "BI",
+      "ACESSO VENOSO CENTRAL",
+      "acesso venoso periférico"
+    ],
+    "Abreviação": [
+      "BI",
+      "ENFª",
+      "NPT",
+      "PO",
+      "AP",
+      "Enfº",
+      "50 ML/H",
+      "42 ML/H",
+      "mv + bilateral",
+      "RHA +"
+    ],
+    "Localização ou Região Corporal": [
+      "ABDOMEN",
+      "Abdomen",
+      "fossa cubital esquerda",
+      "região abdominal"
+    ],
+    "Objeto Manufaturado": [
+      "FRALDA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SEDAÇÃO",
+      "NPT",
+      "colecistectomia",
+      "jejum",
+      "salinizado",
+      "DIETA VIA GASTROSTOMIA",
+      "ACESSO VENOSO CENTRAL",
+      "GASTROSTOMIA FECHADA",
+      "acesso venoso periférico",
+      "incisão cirurgica"
+    ],
+    "Conceito Temporal": [
+      "PO",
+      "no momento"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "reinternação",
+      "DIAGNOSTICO",
+      "EXAME GERAL"
+    ],
+    "Procedimento Diagnóstico": [
+      "AP",
+      "palpação",
+      "EXAME GERAL"
+    ],
+    "Conceito Qualitativo": [
+      "salinizado",
+      "boa"
+    ],
+    "Negação": [
+      "indolor"
+    ],
+    "Função de Organismo": [
+      "cicatrização"
+    ],
+    "Sinal ou Sintoma": [
+      "flatulências",
+      "ictericia generalizada",
+      "queixas algicas"
+    ],
+    "Conceito Quantitativo": [
+      "50 ML/H",
+      "42 ML/H"
+    ],
+    "Função Fisiológica": [
+      "MICÇÃO PRESENTE",
+      "Diurese presente e espontânea"
+    ],
+    "Doença ou Síndrome": [
+      "DOR CRONICA INTRATAVEL",
+      "SEPTICEMIA NAO ESPECIFICADA"
+    ],
+    "Função Patológica": [
+      "HEMORRAGIA SUBDURAL"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "VIA ORAL"
+    ]
+  },
+  "labels": {
+    "BD73.20": {
+      "term_original": "perfusão periférica",
+      "capitulo": "11",
+      "confidence_embedding": 0.8069,
+      "descricao_cid": "Representação de doença CID-11: Obstrução de veia periférica. Definição: Condição patológica pós-natal de uma veia periférica em que o fluxo é impedido ou bloqueado devido a estreitamento ou atresia.",
+      "classification_reasoning": "A opção mais precisa para o termo 'perfusão periférica' é a obstrução de veia periférica, pois a descrição refere-se ao fluxo sanguíneo sendo impedido ou bloqueado em uma veia periférica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário refere-se à perfusão periférica como um estado normal, sem obstrução ou bloqueio do fluxo sanguíneo. O código CID-11 atribuído (BD73.20) representa a obstrução de veia periférica, o que não é coerente com a descrição clínica. Portanto, o código CID-11 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD73.2": {
+      "term_original": "perfusão distal preservada",
+      "capitulo": "11",
+      "confidence_embedding": 0.7494,
+      "descricao_cid": "Representação de doença CID-11: Obstrução de veia sistêmica. Definição: Condição patológica pós-natal de uma veia sistêmica em que o fluxo é impedido ou bloqueado devido a estreitamento ou atresia.",
+      "classification_reasoning": "A opção mais precisa para o termo 'perfusão distal preservada' é a obstrução de veia sistêmica, pois essa condição refere-se ao impedimento ou bloqueio do fluxo sanguíneo em uma veia sistêmica, mas não necessariamente impede a perfusão distal. Ainda assim, é importante ressaltar que a preservação da perfusão distal é um indicador de boa circulação sanguínea.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A condição 'perfusão distal preservada' não se refere à obstrução de veia sistêmica, como descrita no código CID-11. Em vez disso, é um indicador de boa circulação sanguínea. Portanto, o código atribuído não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA80.8": {
+      "term_original": "flácido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7752,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'flácido' é a degeneração de disco intervertebral da coluna lombar sem prolapso de disco, pois nesse contexto clínico, o paciente apresenta um abdomen plano e flácido, sugerindo uma condição relacionada à articulação vertebral.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'flácido' não está diretamente relacionado à degeneração de disco intervertebral da coluna lombar sem prolapso de disco. O prontuário descreve um paciente com abdomen plano e flácido, o que pode ser uma característica comum em várias condições clínicas, incluindo a mencionada doença do disco intervertebral. No entanto, não há evidência suficiente no prontuário para justificar a escolha desse código CID-11.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MB23.H": {
+      "term_original": "pupilas isocóricas e fotorreagentes",
+      "capitulo": "21",
+      "confidence_embedding": 0.7574,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A presença de pupilas isocóricas e fotorreagentes indica que o paciente está com alerta mental e não apresenta alterações significativas na função cerebral, ao contrário da crise de pânico. Além disso, a comunicação verbal do paciente e sua capacidade de respondendo a estímulos dolorosos sugerem que o paciente está consciente e não apresenta quadro de pânico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de pupilas isocóricas e fotorreagentes não é um sintoma característico da crise de pânico, mas sim uma indicação de alerta mental e função cerebral normal. Além disso, a comunicação verbal do paciente e sua capacidade de responder a estímulos dolorosos sugerem que o paciente está consciente e não apresenta quadro de pânico.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B25.2": {
+      "term_original": "hemorragia subdural",
+      "capitulo": "08",
+      "confidence_embedding": 0.7603,
+      "descricao_cid": "Representação de doença CID-11: Efeitos tardios de hemorragia subaracnoide. Definição: Efeitos tardios de hemorragia subaracnoide não traumática após 1 mês ou mais do início da doença. Os códigos para hemorragia aguda devem ser usados ​​exclusivamente para hemorragias agudas e episódios de hospitalização imediatamente relacionados.",
+      "classification_reasoning": "A escolha pelo código 8B25.2 é a mais precisa porque o paciente apresenta hemorragia subdural, que é um tipo de hemorragia subaracnoide não traumática, e o contexto clínico sugere efeitos tardios da doença, uma vez que o paciente já foi hospitalizado anteriormente e está no 1º dia de reinternação.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código 8B25.2 não é precisa porque a hemorragia subdural está relacionada à traumatismo, o que não é mencionado no contexto da doença CID-11. Além disso, o prontuário descreve efeitos tardios da doença, o que também não é compatível com a definição do código 8B25.2. A escolha de um código mais específico para hemorragia subdural traumática seria mais adequada.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "5B5A.0": {
+      "term_original": "ictericia generalizada",
+      "capitulo": "05",
+      "confidence_embedding": 0.7895,
+      "descricao_cid": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina.",
+      "classification_reasoning": "A escolha do código 5B5A.0 se baseia na presença de ictericia generalizada no paciente, o que sugere uma deficiência nutricional ou metabólica, e a descrição da doença como 'representação de doença CID-11: Beribéri' se adequa à caracterização clínica do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A ictericia generalizada descrita no prontuário não está relacionada à deficiência de tiamina (beribéri), como sugerido pelo código CID-11 5B5A.0. A icterícia pode ser causada por várias razões, incluindo doenças hepáticas ou metabólicas, e não há evidências no prontuário que apoiem a hipótese de deficiência de tiamina.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C45.3": {
+      "term_original": "comunicativo",
+      "capitulo": "06",
+      "confidence_embedding": 0.8096,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A paciente está comunicativa, o que sugere uma representação de doença relacionada a efeitos farmacológicos de substâncias psicoativas, como cocaína. A presença de ictericia generalizada e flatulências também são características comuns em pacientes intoxicados por cocaína.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente apresenta ictericia generalizada e flatulências, características comuns em pacientes intoxicados por cocaína. No entanto, a comunicação da paciente não é um sintoma exclusivo de intoxicação por cocaína. Além disso, a presença de hemorragia subdural devida a traumatismo e septicemia não especificada sugere uma situação clínica mais complexa do que apenas uma representação de doença relacionada à efeitos farmacológicos de substâncias psicoativas. Portanto, o código CID-11 atribuído não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME01": {
+      "term_original": "livre",
+      "capitulo": "21",
+      "confidence_embedding": 0.7909,
+      "descricao_cid": "Representação de doença CID-11: Distensão abdominal. Definição: Esta é uma condição em que o abdômen parece cheio e tenso por causa do inchaço do abdômen, geralmente devido a um aumento da quantidade de gases intestinais, mas ocorre às vezes quando fluidos, substâncias ou massa estão se acumulando ou se expandindo no abdômen.",
+      "classification_reasoning": "A opção mais precisa para o termo 'livre' é a constipação abdominal, pois embora não haja queixas de dor abdominal, a descrição menciona um abdômen plano e flácido, sugerindo ausência de distensão ou tensão abdominal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção ME01 (Distensão abdominal) não é precisa para o termo 'livre' pois embora o prontuário mencione um abdômen plano e flácido, não há indicações de distensão ou tensão abdominal. A constatação de um abdômen plano e flácido sugere ausência de distensão, portanto a opção mais precisa é remover essa classificação.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "1C19.1": {
+      "term_original": "septicemia nao especificada",
+      "capitulo": "01",
+      "confidence_embedding": 0.7841,
+      "descricao_cid": "Representação de doença CID-11: Doença dos legionários. Definição: Doença do legionário, a forma pneumônica, tem um período de incubação de 2 a 10 dias (mas foram registrados períodos de até 16 dias em alguns surtos). Inicialmente, os sintomas são febre, perda de apetite, dor de cabeça, mal-estar e letargia. Alguns pacientes também podem apresentar dores musculares, diarreia e confusão mental. Geralmente, há também uma tosse leve inicial, mas até 50% dos pacientes podem apresentar catarro. Rajas sanguíneas ou hemoptise ocorrem em cerca de um terço dos pacientes. A gravidade da doença varia de uma tosse leve a uma pneumonia rapidamente fatal. A morte ocorre por pneumonia progressiva com insuficiência respiratória e/ou choque e falência de múltiplos órgãos.",
+      "classification_reasoning": "A escolha foi feita considerando a presença de septicemia não especificada, bem como as outras características clínicas apresentadas no prontuário, que são compatíveis com a doença do legionário (Doença dos legionários).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A septicemia não especificada descrita no prontuário não é compatível com a doença do legionário (Doença dos legionários) definida pelo código CID-11. A septicemia não especificada pode ser causada por várias condições, incluindo infecções bacterianas, víricas e fúngicas, entre outras. Portanto, o código CID-11 atribuído não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.2": {
+      "term_original": "responsiva a estimulos dolorosos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7577,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A paciente está responsiva a estimulos dolorosos, o que sugere dor crônica pós-operatória ou pós-traumática, e não uma crise de pânico ou coma. Além disso, há referências à cirurgia e trauma na história clínica do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente está responsiva a estimulos dolorosos, o que sugere dor crônica pós-operatória ou pós-traumática. No entanto, a descrição do código CID-11 MG30.2 se refere especificamente à dor crônica pós-cirúrgica ou pós-traumática que persiste por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. Nesse caso, não há evidência clínica suficiente para sustentar essa classificação, pois a paciente apresenta apenas dor crônica recente e não há informações sobre o tempo de duração da dor. Além disso, a história clínica do paciente inclui hemorragia subdural devida ao traumatismo e septicaemia não especificada, o que sugere uma situação mais complexa e urgente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA80.5": {
+      "term_original": "plano",
+      "capitulo": "15",
+      "confidence_embedding": 0.7357,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica com prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'plano' é a degeneração de disco intervertebral da coluna torácica com prolapso de disco, pois no contexto clínico é mencionado que o paciente tem um abdomen plano e flácido. Isso sugere uma possível lesão ou problema na coluna torácica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FA80.5 não está clinicamente coerente com o prontuário, pois a degeneração de disco intervertebral da coluna torácica com prolapso de disco não é relacionada ao termo 'plano' no contexto do paciente. O abdomen plano e flácido pode ser resultado de várias causas, incluindo lesões ou problemas na coluna torácica, mas também pode ser consequência de outras condições clínicas. A classificação FA80.5 é muito específica e não captura a complexidade da situação do paciente.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "DB99.5": {
+      "term_original": "flatulências",
+      "capitulo": "13",
+      "confidence_embedding": 0.8088,
+      "descricao_cid": "Representação de doença CID-11: Encefalopatia hepática. Definição: Encefalopatia hepática é uma complicação da cirrose hepática e uma marca da falência hepática aguda, sendo também observada em pacientes com shunts portossistêmicos sem cirrose. A encefalopatia hepática é caracterizada por mudanças de personalidade, incapacidade intelectual, asterixe e uma diminuição do nível de consciência. Em estágios avançados é chamada de coma hepático, o qual pode levar a morte. O diagnóstico da encefalopatia hepática é feito primariamente pelo reconhecimento das mudanças neuropsiquiátricas que ocorrem em um paciente com doença hepática, após a exclusão de doenças cerebrais.",
+      "classification_reasoning": "A presença de flatulências como sintoma não específico, associada à evolução de uma hemorragia subdural e à septecemia não especificada, sugere que o paciente pode ter desenvolvido encefalopatia hepática como complicação da cirrose hepática ou doença hepática aguda, levando a mudanças neuropsiquiátricas e possível deterioração do estado geral do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de flatulências não é um sintoma específico da encefalopatia hepática. Além disso, a descrição do prontuário não apresenta nenhuma indicação clínica de que o paciente esteja desenvolvendo encefalopatia hepática. A classificação DB99.5 é muito geral e não está relacionada à condição descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "6D85.6": {
+      "term_original": "dor cronica intratavel",
+      "capitulo": "06",
+      "confidence_embedding": 0.7781,
+      "descricao_cid": "Representação de doença CID-11: Demência devida à hidrocefalia de pressão normal. Definição: Demência devida à hidrocefalia de pressão normal resulta do acúmulo excessivo de líquido cefalorraquidiano no cérebro, como resultado de causas idiopáticas não obstrutivas, mas também pode ser secundário a hemorragia, infecção ou inflamação. A progressão é gradativa, mas a intervenção (p. ex., derivação) pode resultar em melhora dos sintomas, especialmente se realizada precocemente no curso da condição. Tipicamente, comprometimentos cognitivos incluem velocidade de processamento reduzida e déficits na funcionalidade executiva e na atenção. Esses sintomas também são tipicamente acompanhados de anormalidades da marcha e incontinência urinária. Exame de imagem cerebral para mostrar o volume ventricular e caracterizar o deslocamento cerebral frequentemente é necessário para confirmar o diagnóstico.",
+      "classification_reasoning": "A dor crônica intratável mencionada no prontuário pode estar relacionada à hidrocefalia de pressão normal, que é uma das causas possíveis da demência devida à hidrocefalia de pressão normal (Código CID-11: 6D85.6). A presença de dor crônica intratável e a história de febre associada a taquicardia podem ser sintomas de um processo inflamatório ou destruição cerebral, o que é comum na hidrocefalia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor crônica intratável mencionada no prontuário não está diretamente relacionada à hidrocefalia de pressão normal, que é uma condição neurológica caracterizada por demência e outros sintomas. A presença de dor crônica intratável pode estar relacionada a outras causas, como doenças gastrointestinais ou musculares, e não há evidências no prontuário que sugiram uma relação direta com a hidrocefalia.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME08": {
+      "term_original": "mv + bilateral",
+      "capitulo": "21",
+      "confidence_embedding": 0.7575,
+      "descricao_cid": "Representação de doença CID-11: Flatulência e afecções correlatas. Definição: Produção ou presença de gás no trato gastrointestinal que pode ser expelido pelo ânus e outras condições associadas à produção ou presença de gás no trato GI.",
+      "classification_reasoning": "A presença de 'mv + bilateral' na avaliação física sugere a presença de flatulência ou distúrbios digestivos, o que justifica a escolha do código ME08.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de 'mv + bilateral' na avaliação física do paciente sugere a presença de flatulência ou distúrbios digestivos, o que é diretamente relacionado à condição descrita no prontuário. O termo 'mv + bilateral' está claramente associado à produção de gás no trato gastrointestinal, justificando a escolha do código ME08.",
+      "tipo_erro_auditoria": null
+    },
+    "GA30.6": {
+      "term_original": "micção presente",
+      "capitulo": "16",
+      "confidence_embedding": 0.7942,
+      "descricao_cid": "Representação de doença CID-11: Falência ovariana prematura. Definição: Menopausa que ocorre espontaneamente antes dos 40 anos de idade, geralmente resultando em amenorréia secundária, embora algumas mulheres possam apresentar função ovárica intermitente e ovulação, com uma minoria concebendo e dando à luz uma gravidez. FOP corre principalmente sem uma causa conhecida, mas pode ser causado pelas seguintes condições: anormalidades cromossômicas numéricas e estruturais, pré-mutações do X frágil, transtornos autoimunes, radioterapia, quimioterapia, galactosemia e outros defeitos enzimáticos raros ou mutações. É subdividido em 4 categorias de acordo com a causa: congênita, adquirida, iatrogênica e desconhecida.",
+      "classification_reasoning": "O termo 'micção presente' refere-se ao fato de que o paciente apresenta micção espontânea e regular, apesar de estar hospitalizado. Isso sugere que a função renal está preservada e não há evidências de falência ovariana prematura.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'micção presente' não está relacionado à falência ovariana prematura, que é o código CID-11 atribuído. A presença de micção espontânea e regular sugere que a função renal está preservada, mas isso não tem relação com a menopausa precoce ou a falência ovariana prematura.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MC72.1A": {
+      "term_original": "pupilas isocoricas fotorreagentes",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "Pupilas isocóricas fotorreagentes indicam que o paciente está consciente e responsivo, apresentando uma resposta normal ao estímulo doloroso. Além disso, a presença de pupilas isocóricas sugere que o estado de consciência do paciente é normal ou apenas levemente afetado.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de pupilas isocóricas fotorreagentes no prontuário indica que o paciente está consciente e responsivo, apresentando uma resposta normal ao estímulo doloroso. Isso é consistente com a descrição do código CID-11 MC72.1A, que descreve um estado de consciência normal ou apenas levemente afetado. Portanto, o código CID-11 atribuído é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

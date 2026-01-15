@@ -1,0 +1,153 @@
+{
+  "prontuario_id": 795,
+  "text": "Paciente com história de HAS, DM, cardiopatia isquêmica grave, implante de stents em coronárias, apresentava angina refratária e lesão em tronco de coronária esquerda. Submetida em 01-06 à CRM com implante de mamária para DAE e safenas para Dg e Cx. No pós-op apresentou derrame pleural e congestão sistêmica residual com boa resposta ao tto com diurético. Tem alta em bom estado geral, com anemia leve, em uso de aas, estatina, inibidor da eca, betabloq, hipoglic oral e insulina.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Abreviação": [
+      "HAS",
+      "DM",
+      "DAE",
+      "Dg",
+      "Cx",
+      "pós-op",
+      "tto",
+      "aas",
+      "betabloq",
+      "hipoglic oral"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DM",
+      "anemia",
+      "cardiopatia isquêmica",
+      "angina refratária",
+      "derrame pleural",
+      "congestão sistêmica residual"
+    ],
+    "Conceito Qualitativo": [
+      "grave",
+      "leve"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "coronárias",
+      "mamária",
+      "DAE",
+      "safenas",
+      "Dg",
+      "Cx",
+      "tronco de coronária esquerda"
+    ],
+    "Lesão ou Envenenamento": [
+      "lesão"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "implante",
+      "implante de stents"
+    ],
+    "Conceito Temporal": [
+      "pós-op"
+    ],
+    "Substância Farmacológica": [
+      "diurético",
+      "aas",
+      "estatina",
+      "betabloq",
+      "insulina",
+      "inibidor da eca",
+      "hipoglic oral"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "alta"
+    ],
+    "Substância Química Orgânica": [
+      "aas",
+      "estatina",
+      "betabloq",
+      "inibidor da eca"
+    ],
+    "Hormônio": [
+      "insulina"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "insulina"
+    ],
+    "Achado": [
+      "boa resposta",
+      "bom estado geral"
+    ]
+  },
+  "labels": {
+    "BA51": {
+      "term_original": "cardiopatia isquêmica",
+      "capitulo": "11",
+      "confidence_embedding": 0.8188,
+      "descricao_cid": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas.",
+      "classification_reasoning": "A cardiopatia isquêmica foi definida como disfunção sistólica ventricular esquerda com antecedente de revascularização do miocárdio ou infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Nesse contexto, o código BA51 é a escolha mais precisa para o termo 'cardiopatia isquêmica' pois apresenta características semelhantes ao paciente, como revascularização do miocárdio e estenose em tronco de coronária esquerda.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A cardiopatia isquêmica foi definida como disfunção sistólica ventricular esquerda com antecedente de revascularização do miocárdio ou infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Nesse contexto, o código BA51 é a escolha mais precisa para o termo 'cardiopatia isquêmica' pois apresenta características semelhantes ao paciente, como revascularização do miocárdio e estenose em tronco de coronária esquerda. Ajusta-se perfeitamente à definição do código CID-11.",
+      "tipo_erro_auditoria": null
+    },
+    "5B5A.0": {
+      "term_original": "dm",
+      "capitulo": "05",
+      "confidence_embedding": 0.7828,
+      "descricao_cid": "Representação de doença CID-11: Beribéri. Definição: O quadro clínico do beribéri é geralmente dividido em tipo seco (neurítico) e tipo úmido (cardíaco). A doença é úmida ou seca dependendo da quantidade de líquido que se acumula no corpo devido a fatores como função cardíaca, lesões renais e outros; mesmo que a causa exata deste edema nunca tenha sido explicada com sucesso. Muitos casos de deficiência de tiamina mostram uma mistura das duas características principais e são mais apropriadamente denominados deficiência de tiamina com cardiopatia e neuropatia periférica. O bebê mostra sinais de cianose e pode ocorrer um ataque cardíaco agudo, geralmente morrendo em 2 a 4 horas. A idade comum para essa forma de doença por deficiência é de um mês até o terceiro mês. Esse tipo de deficiência responde de forma muito dramática à tiamina.",
+      "classification_reasoning": "A presença de DM (diabetes mellitus) no prontuário e a descrição de congestão sistêmica residual após CRM sugere que o paciente apresenta manifestações clínicas de déficit de tiamina, caracterizado por cardiopatia isquêmica grave. Além disso, a história do paciente com HAS (hipertensão arterial) e cardiopatia isquêmica grave também apoia essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 '5B5A.0' - Beribéri não é uma condição clínica que se relacione diretamente com a presença de DM (diabetes mellitus) no prontuário. A deficiência de tiamina é caracterizada por cardiopatia isquêmica grave, o que não está presente na história do paciente. Além disso, a congestão sistêmica residual após CRM não é um sintoma clínico característico da deficiência de tiamina. A escolha desse código parece ser puramente imaginária e sem qualquer base no texto.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB27": {
+      "term_original": "derrame pleural",
+      "capitulo": "12",
+      "confidence_embedding": 0.8072,
+      "descricao_cid": "Representação de doença CID-11: Derrame pleural. Definição: Presença de líquido na cavidade pleural, resultante de transudação ou exsudação excessivas a partir das superfícies pleurais.",
+      "classification_reasoning": "A escolha do código CB27 é mais precisa porque o termo 'derrame pleural' se refere à presença de líquido na cavidade pleural, resultante de transudação ou exsudação excessiva a partir das superfícies pleurais. Esta definição se adequa melhor ao contexto clínico do paciente com história de derrame pleural após CRM.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código CB27 é justificada, pois o termo 'derrame pleural' se refere à presença de líquido na cavidade pleural, resultante de transudação ou exsudação excessiva a partir das superfícies pleurais. Esta definição se adequa melhor ao contexto clínico do paciente com história de derrame pleural após CRM.",
+      "tipo_erro_auditoria": null
+    },
+    "BA40.Y": {
+      "term_original": "angina refratária",
+      "capitulo": "11",
+      "confidence_embedding": 0.8323,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A paciente apresenta angina refratária, o que sugere uma doença coronariana vasoespástica. A opção BA40.Y é a mais precisa para este termo dentro do contexto clínico porque 'outra angina pectoris especificada' é um código que engloba várias possibilidades de angina, incluindo a vasoespástica.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção BA40.Y 'Outra angina pectoris especificada' é uma classificação precisa e clinicamente coerente com o prontuário, pois a paciente apresenta angina refratária, sugerindo uma doença coronariana vasoespástica. A descrição do código CID-11 se alinha com a história clínica da paciente, justificando a manutenção do código atribuído.",
+      "tipo_erro_auditoria": null
+    },
+    "BA81": {
+      "term_original": "congestão sistêmica residual",
+      "capitulo": "11",
+      "confidence_embedding": 0.7742,
+      "descricao_cid": "Representação de doença CID-11: Aneurisma de artéria coronária. Definição: Dilatação coronária que excede o diâmetro dos segmentos adjacentes normais ou o diâmetro do maior vaso coronário do paciente em 1,5 vezes.",
+      "classification_reasoning": "A congestão sistêmica residual é um sintoma comum após cirurgia cardíaca, especialmente quando há lesões graves como a cardiopatia isquêmica descrita no paciente. O aneurisma de artéria coronária (BA81) é uma possibilidade clínica para explicar essa congestão, considerando a história de HAS e implante de stents em coronárias.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A congestão sistêmica residual não é um aneurisma de artéria coronária (BA81). O termo 'congestão sistêmica residual' refere-se a uma condição clínica mais geral, relacionada à resposta ao pós-operatório e não específica para um aneurisma de artéria coronária. A classificação BA81 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "3A00.0": {
+      "term_original": "anemia",
+      "capitulo": "03",
+      "confidence_embedding": 0.798,
+      "descricao_cid": "Representação de doença CID-11: Anemia adquirida por deficiência de ferro devido à perda de sangue. Definição: Perda crônica de sangue é uma possivel causa em todos os casos de anemia por deficiência de ferro. Anemia por deficiência de ferro pode ser causada por sangramento agudo no trato gastrointestinal, útero ou sistema genitourinário, perda sanguinea menstrual copiosa (menorragia) e múltiplas doações de sangue. Em muitos países tropicais, infestações parasitárias podem levar a perdas intestinais que em alguns individuos pode ser considerável. A deficiência de ferro pode ser também causada por várias circunstâncias relatadas como \"anemia pós hemorragia crônica\". O diagnóstico de deficiência de ferro deve sempre levar a procura de causas patológicas de perda de sangue ( por exemplo tumores do trato gastrointestinal ou do útero, especialmente se o sangramento uterino aumentou ou ficou irregular.)",
+      "classification_reasoning": "A anemia mencionada no prontuário está relacionada à perda crônica de sangue, possivelmente decorrente do histórico de hemorragia (lesão em tronco de coronária esquerda) ou uso contínuo de anticoagulantes (insulina e aas). A deficiência de ferro é uma das causas mais comuns de anemia adquirida e justifica a escolha do código 3A00.0.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A anemia mencionada no prontuário não está relacionada à perda crônica de sangue, como descrito no código CID-11. A lesão em tronco de coronária esquerda pode ter causado hemorragia, mas a anemia é uma consequência da doença subjacente (HAS) e do uso contínuo de anticoagulantes (insulina e aas), não uma deficiência de ferro. A escolha do código 3A00.0 é demasiadamente genérica e não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "NB30.41": {
+      "term_original": "lesão",
+      "capitulo": "22",
+      "confidence_embedding": 0.7652,
+      "descricao_cid": "Representação de doença CID-11: Laceração maior dos vasos sanguíneos pulmonares. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'lesão' no contexto clínico é a lesão dos vasos sanguíneos pulmonares, pois há referência à lesão em tronco de coronária esquerda, indicando que provavelmente se trata de uma lesão cardiovascular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão descrita no prontuário refere-se a uma lesão em tronco de coronária esquerda, o que não se relaciona com a representação de doença CID-11: Laceração maior dos vasos sanguíneos pulmonares. A opção mais precisa para o termo 'lesão' no contexto clínico é uma lesão cardiovascular, e não uma lesão nos vasos sanguíneos pulmonares.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    }
+  }
+}

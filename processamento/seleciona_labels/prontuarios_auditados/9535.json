@@ -1,0 +1,208 @@
+{
+  "prontuario_id": 583,
+  "text": "pos tx renal\nPOS TX RENAL - CR 0,86 - FK  3,0\nDSLP - BOM CONTROLE\nHAS BOM CONTROLE\nDM BOM CONTROLE\nIVAS  \nTX RENAL HÁ 3 ANOS - DC\nUSO DE : MTC 5, FK 1/0, MS 1/2, CRESTOR 10MG DA, AAS 100, OMZ 20, CARVEDILOL 12,5, MONOCORDIL 20, CILSTAZOL 100 X2, LOSARTAN 50, LANTUS 30\nS # QUEIXA DE TOSSE PRODUTIVA ASSOCIADO A OBSTRUÇÃO NASAL.\nO # BEG, CORADO ,HIDRATADO\nPA 120/70  SAO2 95%\nMV POSITIVO, SIMETRICO\nBCRNF\nABDOMEN FLACIDO, SEM MASSAS, RHA POSITIVOS,\nMEMBROS SEM EDEMA",
+  "entities": {
+    "Conceito Temporal": [
+      "pos",
+      "POS",
+      "DA",
+      "HÁ 3 ANOS"
+    ],
+    "Abreviação": [
+      "DSLP",
+      "HAS",
+      "DM",
+      "IVAS",
+      "DC",
+      "MTC",
+      "FK",
+      "MS",
+      "DA",
+      "AAS",
+      "OMZ",
+      "BEG",
+      "PA",
+      "SAO2",
+      "BCRNF",
+      "tx renal",
+      "TX RENAL",
+      "CR 0 , 86",
+      "FK 3 , 0",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Doença ou Síndrome": [
+      "DSLP",
+      "HAS",
+      "DM",
+      "IVAS"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "FK",
+      "MS",
+      "CRESTOR",
+      "AAS",
+      "OMZ",
+      "CARVEDILOL",
+      "MONOCORDIL",
+      "CILSTAZOL",
+      "LOSARTAN",
+      "LANTUS"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "FK",
+      "MS",
+      "CRESTOR",
+      "AAS",
+      "OMZ",
+      "CARVEDILOL",
+      "MONOCORDIL",
+      "CILSTAZOL",
+      "LOSARTAN"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "1/0",
+      "1/2",
+      "10MG",
+      "100",
+      "20",
+      "50",
+      "30",
+      "120/70",
+      "95%",
+      "12 , 5",
+      "100 X2"
+    ],
+    "Hormônio": [
+      "LANTUS"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "LANTUS"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXA",
+      "MASSAS",
+      "EDEMA",
+      "TOSSE PRODUTIVA",
+      "OBSTRUÇÃO NASAL"
+    ],
+    "Achado": [
+      "BEG",
+      "CORADO",
+      "HIDRATADO",
+      "SIMETRICO",
+      "BCRNF",
+      "FLACIDO",
+      "BOM CONTROLE",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "SAO2"
+    ],
+    "Localização ou Região Corporal": [
+      "ABDOMEN",
+      "MEMBROS"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "tx renal",
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 86",
+      "FK 3 , 0"
+    ],
+    "Conceito Qualitativo": [
+      "BOM CONTROLE"
+    ]
+  },
+  "labels": {
+    "DA60.3": {
+      "term_original": "flacido",
+      "capitulo": "13",
+      "confidence_embedding": 0.7492,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A opção mais precisa para o termo 'flacido' é a descrição de Úlceras de estresse do estômago, pois a caracterização de representação de doença CID-11 para Úlceras de estresse do estômago inclui a definição de lesões agudas da mucosa que podem resultar em hemorragia digestiva alta aguda, o que não tem relação com as outras opções apresentadas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 DA60.3 - Úlceras de estresse do estômago não é clínica ou lógica para o termo 'flacido' descrito no prontuário, que se refere ao estado do abdome. A definição da úlcera de estresse do estômago não tem relação com a caracterização de um paciente com abdome flácido.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DB33.20": {
+      "term_original": "massas",
+      "capitulo": "13",
+      "confidence_embedding": 0.7378,
+      "descricao_cid": "Representação de doença CID-11: Proctite ou colite infantil induzida por proteína de alimentos. Definição: Hipersensibilidade intestinal não mediada por IgE (na ausência de anticorpos IgE) induzida por proteína alimentar que provoca resposta inflamatória principalmente do cólon sigmoide distal e do reto. É uma condição em bebês que resulta de resposta imune desencadeada por proteínas da dieta, principalmente do leite (através da amamentação). Os pacientes geralmente parecem saudáveis e têm fezes normais e macias com manchas ou raias de sangue. O diagnóstico é feito usualmente baseado na resolução dos sintomas com a retirada do suposto antígeno alimentar. O início usual é nos primeiros 2 meses de vida, mas pode também ocorrer em bebês de 1 dia a 6 meses de idade.",
+      "classification_reasoning": "A opção mais precisa para o termo 'massas' no contexto do prontuário é a proctite ou colite infantil induzida por proteína de alimentos (CID-11: DB33.20), pois as massas mencionadas provavelmente se referem às alterações intestinais descritas na definição da doença.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CID-11: DB33.20 não é clinicamente coerente com o prontuário, pois as massas mencionadas no texto se referem às alterações abdominais descritas como 'ABDOMEN FLACIDO, SEM MASSAS', e não à proctite ou colite infantil induzida por proteína de alimentos. A classificação é incorreta e não reflete a realidade clínica do paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB50.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7413,
+      "descricao_cid": "Representação de doença CID-11: Cisto sinovial do espaço poplíteo. Definição: Este é o edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho",
+      "classification_reasoning": "A escolha do código FB50.2 é baseada na presença de 'edema' no contexto clínico, que se refere ao edema benigno da bursa ou bolsa semimembranosa ou, localizado na região posterior do joelho. Esta opção é mais precisa para o termo dentro do contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'edema' no prontuário se refere ao edema na região abdominal e membros, não ao edema benigno da bursa ou bolsa semimembranosa ou localizado na região posterior do joelho, como descrito no código CID-11 FB50.2. A escolha desse código é baseada em uma associação puramente imaginária entre o termo 'edema' e a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA08.0": {
+      "term_original": "obstrução nasal",
+      "capitulo": "12",
+      "confidence_embedding": 0.8113,
+      "descricao_cid": "Representação de doença CID-11: Rinite alérgica. Definição: Rinite alérgica é uma inflamação de via aérea nasal desencadeada por alérgenos aos quais o indivíduo afetado foi previamente sensibilizado. A patogênese da rinite alérgica é uma reação alérgica tipo I na mucosa nasal. Antígenos inalados em contato com a mucosa nasal sensibilizada ligam-se a anticorpos IgE nos mastócitos, que liberam mediadores químicos como histamina e peptídeos de leucotrienos. Consequentemente, as terminações nervosas sensitivas e vasos sanguíneos reagem provocando espirros, coriza e obstrução nasal (fase de resposta imediata). Na fase de resposta tardia, vários mediadores químicos são produzidos pelos mastócitos, citocinas são produzidas por células Th2 e mastócitos, e quimiocinas são produzidas por células epiteliais, pelo endotélio vascular e pelos fibrócitos, respectivamente. Tais transmissores derivados dessas células efetivamente induzem a infiltração de vários tipos de células inflamatórias na mucosa nasal. Entre elas, os eosinófilos ativados são os principais responsáveis pelo edema e pela hiper-reatividade da mucosa.",
+      "classification_reasoning": "A obstrução nasal é sintoma principal da rinite alérgica, portanto, o código CA08.0 é mais preciso para o termo dentro do contexto clínico, considerando a história de doença renal e uso de medicamentos que podem influir na função pulmonar.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A obstrução nasal é um sintoma comum em várias doenças, e não há evidência clínica suficiente no prontuário para justificar a escolha do código CA08.0. A rinite alérgica pode ser uma possibilidade, mas não é o único diagnóstico possível com base nos sintomas descritos.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "CA23.22": {
+      "term_original": "tosse produtiva",
+      "capitulo": "12",
+      "confidence_embedding": 0.732,
+      "descricao_cid": "Representação de doença CID-11: Asma variante com tosse. Definição: Asma variante com tosse é uma forma oculta de asma em que o único sinal ou sintoma é tosse crônica.",
+      "classification_reasoning": "A escolha do código CA23.22 é porque a tosse produtiva está associada à obstrução nasal, o que sugere uma relação com asma. Além disso, o paciente tem história de doença renal e uso de medicações para tratamento da mesma, o que aumenta a probabilidade de asma.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A tosse produtiva está descrita como sintoma, mas o código CID-11 CA23.22 refere-se a uma forma de asma com tosse. Embora haja uma relação entre os dois, não há evidência clínica suficiente para estabelecer uma conexão direta entre a obstrução nasal e a doença renal. Além disso, o prontuário não menciona qualquer teste ou exame que confirme a presença de asma. Portanto, é necessário remover o código CA23.22 e reavaliar a codificação com base em informações mais precisas.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BC01.40": {
+      "term_original": "mv positivo",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'mv positivo' é a insuficiência cardíaca congestiva (BC81.30), pois é uma manifestação clínica comum em pacientes com doenças cardiovasculares, incluindo hipertensão e doença cardiovascular crônica. No contexto clínico, o paciente tem história de tx renal há 3 anos e uso de medicamentos anti-hipertensivos, o que sugere uma possível concomitância de doença cardíaca hipertensiva (BA01). Além disso, a presença de PA 120/70 e SAO2 95% também são características comuns em pacientes com insuficiência cardíaca congestiva.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BC01.40 não é uma condição clínica diretamente relacionada ao termo 'mv positivo'. A insuficiência cardíaca congestiva (BC81.30) é mais provável, considerando a história de tx renal há 3 anos e uso de medicamentos anti-hipertensivos.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF56": {
+      "term_original": "ivas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7899,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A presença do termo 'ivas' no contexto clínico sugere que a paciente tem uma história de trauma renal e, portanto, a opção mais precisa é a Cólica Renal (MF56), que descreve dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença do termo 'ivas' no contexto clínico não está relacionada à Cólica Renal (MF56), que descreve dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios. A paciente tem uma história de trauma renal e uso de medicamentos após transplante renal há 3 anos. A presença de sintomas como tosse produtiva associado à obstrução nasal não está relacionada à Cólica Renal. Portanto, a classificação CID-11 MF56 não é clínica ou coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF54.2": {
+      "term_original": "queixa",
+      "capitulo": "21",
+      "confidence_embedding": 0.7559,
+      "descricao_cid": "Representação de doença CID-11: Hipoplasia renal. Definição: Condição caracterizada por um rim menor em tamanho e peso do que a média (menos de 11 centímetros de comprimento, 5-7,5 centímetros de largura, 2,5 centímetros de espessura e pesando menos de 120 gramas).",
+      "classification_reasoning": "A queixa de tosse produtiva está relacionada à obstrução nasal, o que sugere um problema pulmonar secundário a uma doença renal crônica (CR 0,86). A opção MF54.2 (Hipoplasia renal) é mais precisa porque é uma condição conhecida por causar complicações respiratórias.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa de tosse produtiva está relacionada à obstrução nasal, o que sugere um problema pulmonar secundário a uma doença renal crônica (CR 0,86). No entanto, a codificação CID-11 atribuída é MF54.2 (Hipoplasia renal), que não representa fielmente a condição clínica descrita no prontuário. A hipoplasia renal não está relacionada à tosse produtiva e obstrução nasal. A opção mais precisa seria uma codificação relacionada ao problema pulmonar secundário, como exemplo MF40 (Doença pulmonar crônica).",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "prontuario_id": 830,
+  "text": "# IMC 44,\n\n# HIPOTIROIDISMO + ASMA.\n\n# DISCUTO CASO COM PRECEPTORIA. CONFORME ORIENTADO: SOLICITO ENCAMINHAMENTO PARA CX BARIATRICA.",
+  "entities": {
+    "Doença ou Síndrome": [
+      "HIPOTIROIDISMO",
+      "ASMA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "PRECEPTORIA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ORIENTADO",
+      "SOLICITO"
+    ],
+    "Abreviação": [
+      "IMC 44",
+      "CX BARIATRICA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "IMC 44"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CX BARIATRICA"
+    ]
+  },
+  "labels": {
+    "5D40 | Definição: Representação de doença CID-11: Hipotireoidismo pós-procedimento.": {
+      "term_original": "hipotiroidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O hipotiroidismo é mencionado no prontuário e a opção mais precisa para o termo dentro do contexto clínico é o Código 5D40, que define o hipotireoidismo pós-procedimento.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O código CID-11 5D40, 'Hipotireoidismo pós-procedimento', é uma opção precisa e clínica para o termo 'hipotiroidismo' mencionado no prontuário. A justificativa do sistema é consistente com a descrição do prontuário e não há contradições óbvias ou alucinações. Portanto, o código CID-11 5D40 é válido para representar o termo 'hipotiroidismo' no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "CA23.00": {
+      "term_original": "asma",
+      "capitulo": "12",
+      "confidence_embedding": 0.8133,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide.",
+      "classification_reasoning": "Escolha pela presença de exacerbação na história do paciente, o que é consistente com a definição da representação de doença CID-11: Asma alérgica com exacerbação.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 CA23.00 para 'asma' é válida porque a presença de exacerbação na história do paciente é consistente com a definição da representação de doença CID-11: Asma alérgica com exacerbação. A descrição do prontuário menciona ASMA, o que é diretamente relacionado à condição clínica descrita no código CID-11.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

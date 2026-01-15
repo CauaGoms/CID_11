@@ -1,0 +1,123 @@
+{
+  "prontuario_id": 325,
+  "text": "15:00 - 1ª DI - VITIMA DE QUEDA DE NIVEL COM Fx RADIO DO MSD - ACOMPANHADO DA MAE, CONSCIENTE, LUCIDO, EUPNEICO, COMUNICATIVO, DEAMBULANDO, SEM QUEIXAS ALGICAS NO MOMENTO, APRESENTA PUPILAS ISOCORICAS, PELE E MUCOSA CORADA E HIDRATADA, AUSCULTA PULMONAR COM MV +, MANTEM TALA GESSADA EM MSD, REALIZADO PUNÇAO VENOSA EM MSE, AGUARDA PROCEDIMENTO CIRURGICO HOJE;  EM JEJUM DESDE AS 10:00; DESCONHECE ALERGIA MEDICAMENTOSA; EXAME MEDICO GERAL.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "VITIMA"
+    ],
+    "Grupo Familiar": [
+      "MAE"
+    ],
+    "Achado": [
+      "CONSCIENTE",
+      "LUCIDO",
+      "EUPNEICO",
+      "COMUNICATIVO",
+      "DEAMBULANDO",
+      "CORADA",
+      "HIDRATADA",
+      "JEJUM",
+      "PUPILAS ISOCORICAS",
+      "MV +"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PELE"
+    ],
+    "Localização ou Região Corporal": [
+      "MUCOSA",
+      "MSE"
+    ],
+    "Abreviação": [
+      "MSE",
+      "1ª DI",
+      "MV +"
+    ],
+    "Conceito Temporal": [
+      "1ª DI"
+    ],
+    "Lesão ou Envenenamento": [
+      "QUEDA DE NIVEL"
+    ],
+    "Procedimento Diagnóstico": [
+      "AUSCULTA PULMONAR"
+    ],
+    "Dispositivo Médico": [
+      "TALA GESSADA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "PUNÇAO VENOSA",
+      "PROCEDIMENTO CIRURGICO"
+    ],
+    "Doença ou Síndrome": [
+      "ALERGIA MEDICAMENTOSA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "EXAME MEDICO GERAL"
+    ]
+  },
+  "labels": {
+    "QA02.8": {
+      "term_original": "alergia medicamentosa",
+      "capitulo": "24",
+      "confidence_embedding": 0.786,
+      "descricao_cid": "Representação de doença CID-11: Observação por suspeita de alergia ou hipersensibilidade, descartada. Definição: ",
+      "classification_reasoning": "A vítima desconhece alergia medicamentosa, o que sugere uma suspeita de alergia ou hipersensibilidade descartada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'alergia medicamentosa' não está relacionado à situação da vítima, que sofreu uma queda e apresenta fratura radiológica no MSD. A ausência de alergia medicamentosa é mencionada apenas como uma informação adicional, sem qualquer relação com a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA80.4": {
+      "term_original": "deambulando",
+      "capitulo": "15",
+      "confidence_embedding": 0.702,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a FA80.4, Degeneração de disco intervertebral da coluna torácica sem prolapso de disco, pois o termo 'deambulando' indica que a vítima tem mobilidade e não há lesão muscular que justifique o código FB32.3 ou FB32.2Y. A referência à Queda de nível também sugere que a degeneração do disco intervertebral é mais provável.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'deambulando' não está diretamente relacionado à degeneração de disco intervertebral da coluna torácica. A mobilidade e a ausência de lesão muscular sugerem que o código FA80.4 não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "Z91.81": {
+      "term_original": "jejum",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'jejum' refere-se à abstinência de alimentos e líquidos desde as 10:00, o que indica uma condição médica relacionada ao jejum ou a falta de alimento. Escolhi o código Z91.81 porque é o código CID-11 para Representação de doença: Jejum voluntário.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'jejum' está diretamente relacionado à condição descrita no prontuário, que menciona a abstinência de alimentos e líquidos desde as 10:00. A codificação Z91.81 para Representação de doença: Jejum voluntário é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "CA22.0": {
+      "term_original": "mv +",
+      "capitulo": "12",
+      "confidence_embedding": 0.78,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A presença do termo 'mv+' no prontuário sugere uma doença pulmonar obstrutiva crônica com exacerbação aguda, o que é consistente com a definição da CA22.0.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença do termo 'mv+' no prontuário sugere uma condição pulmonar aguda, não uma exacerbação crônica de doença pulmonar obstrutiva crônica (DPOC). A classificação CA22.0 é demasiado específica e não se ajusta à descrição clínica do paciente. Além disso, a falta de queixas respiratórias agudas no momento da consulta também sugere que a condição pulmonar não está relacionada a uma exacerbação crônica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NC14.1": {
+      "term_original": "queda de nivel",
+      "capitulo": "22",
+      "confidence_embedding": 0.7287,
+      "descricao_cid": "Representação de doença CID-11: Lesão do nervo mediano ao nível do braço. Definição: ",
+      "classification_reasoning": "A queda de nível referida no prontuário é mais provável uma lesão do nervo mediano ao nível do braço (NC14.1), considerando a localização da fratura radio (MSD) e a ausência de outras informações que sugerem lesão em outros níveis do nervo mediano ou veias jugulares.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão do nervo mediano ao nível do braço (NC14.1) não é compatível com a descrição de 'queda de nivel' e a localização da fratura radio (MSD). A queda de nível mais provável é uma lesão no nível cervical ou torácico, e não no nível do braço. Portanto, o código CID-11 atribuído não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "EB13.1": {
+      "term_original": "corada",
+      "capitulo": "14",
+      "confidence_embedding": 0.7357,
+      "descricao_cid": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável.",
+      "classification_reasoning": "A presença de pele corada no prontuário sugere uma resposta inflamatória generalizada, característica da necrólise epidérmica tóxica (NET). Além disso, a rapidez e extensão do eritema descritos no prontuário são consistentes com essa condição.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de pele corada no prontuário não é suficiente para justificar a classificação de Necrólise Epidérmica Tóxica (NET). A descrição do prontuário apresenta apenas uma característica cutânea, que pode ser atribuída a outras condições clínicas. Além disso, não há menção a alergia a medicamentos ou outros fatores desencadeantes comuns em casos de NET.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

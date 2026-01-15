@@ -1,0 +1,140 @@
+{
+  "prontuario_id": 601,
+  "text": "POS TX RENAL.\nPOS TX RENAL -- CR 1,49 - NS FK 2,0 / RAPA 3,0.\nMIELODISPLASIA.\n \n \nTX RENAL EM SET/2015\nSENSIBILIZADO\nUSO DE: MTC 5, SRL 2, FK 4/5.\nS # EM ACOMPANHAMENTO NA ENDOCRINO DO HC.\nO # BEG, CORADO, HIDRATADO.\nPA 110/60,\nMV POSITIVO, SIMETRICO.\nBCRNF,\nABDOMEN FLACIDO, SEM MASSAS,\nMEMBROS SEM EDEMA.",
+  "entities": {
+    "Conceito Temporal": [
+      "POS"
+    ],
+    "Substância Farmacológica": [
+      "RAPA",
+      "MTC",
+      "SRL",
+      "FK"
+    ],
+    "Doença ou Síndrome": [
+      "MIELODISPLASIA"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "SRL",
+      "FK"
+    ],
+    "Abreviação": [
+      "MTC",
+      "SRL",
+      "FK",
+      "S",
+      "ENDOCRINO",
+      "HC",
+      "O",
+      "BEG",
+      "PA",
+      "BCRNF",
+      "TX RENAL",
+      "CR 1 , 49",
+      "NS FK 2 , 0",
+      "MV POSITIVO"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "2",
+      "4/5",
+      "110/60"
+    ],
+    "Achado": [
+      "S",
+      "BEG",
+      "CORADO",
+      "HIDRATADO",
+      "SIMETRICO",
+      "BCRNF",
+      "MV POSITIVO",
+      "ABDOMEN FLACIDO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ACOMPANHAMENTO",
+      "O"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ENDOCRINO"
+    ],
+    "Organização Relacionada à Saúde": [
+      "HC"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "MASSAS",
+      "EDEMA"
+    ],
+    "Localização ou Região Corporal": [
+      "MEMBROS"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 1 , 49",
+      "NS FK 2 , 0"
+    ]
+  },
+  "labels": {
+    "DA94.01": {
+      "term_original": "massas",
+      "capitulo": "13",
+      "confidence_embedding": 0.6974,
+      "descricao_cid": "Representação de doença CID-11: Úlceras crônicas múltiplas não específicas do intestino delgado. Definição: Em pacientes afetados, as úlceras crônicas múltiplas não específicas são predominantemente encontradas no íleo, de forma circular ou irregular. As margens das úlceras são sempre claras e a mucosa interposta parece normal. O quadro destas é frequentemente caracterizado por anemia e hipoalbuminemia devido a sangramento e perda de proteínas pelas úlceras múltiplas.",
+      "classification_reasoning": "A opção mais precisa é DA94.01, pois o termo 'massas' refere-se às úlceras crônicas múltiplas não específicas do intestino delgado, que são caracterizadas por anemia e hipoalbuminemia devido a sangramento e perda de proteínas pelas úlceras múltiplas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'massas' no prontuário refere-se às lesões benignas ou malignas no tecido, não às úlceras crônicas múltiplas do intestino delgado descritas na definição do código CID-11 DA94.01. A codificação é clinicamente incoerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DA40.1": {
+      "term_original": "abdomen flacido",
+      "capitulo": "13",
+      "confidence_embedding": 0.7343,
+      "descricao_cid": "Representação de doença CID-11: Fístula gástrica adquirida. Definição: Fístula gástrica adquirida é uma comunicação através da parede gástrica com a cavidade peritoneal, ou com outro órgão e vasos que normalmente não se conectam, ou através da parede abdominal.",
+      "classification_reasoning": "A opção mais precisa é a DA40.1, Fístula gástrica adquirida, pois o termo 'abdomen flácido' sugere uma abertura ou comunicação anormal na parede abdominal, característica da fisura gástrica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CID-11 DA40.1, Fístula gástrica adquirida, não é clínicamente coerente com o prontuário. O termo 'abdomen flácido' não sugere uma abertura ou comunicação anormal na parede abdominal, característica da fisura gástrica. Em vez disso, 'abdomen flácido' refere-se à ausência de massa ou distensão no abdome, o que não está relacionado com a fisura gástrica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NB61": {
+      "term_original": "edema",
+      "capitulo": "22",
+      "confidence_embedding": 0.7437,
+      "descricao_cid": "Representação de doença CID-11: Concussão ou edema da medula espinhal sacral. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NB61, pois o termo 'edema' se refere ao edema da medula espinhal sacral, que está descrito no contexto clínico como sendo simétrico e positivo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'edema' no prontuário se refere ao edema abdominal, não à medula espinhal sacral. A opção NB61 não é clínicamente coerente com o contexto descrito.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA01": {
+      "term_original": "mv positivo",
+      "capitulo": "11",
+      "confidence_embedding": 0.7116,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A opção mais precisa para o termo 'mv positivo' é a doença cardíaca hipertensiva (Código CID-11: BA01), pois a presença de uma pressão arterial elevada (PA 110/60) e a descrição da situação como 'MV POSITIVO, SIMETRICO' sugerem que o termo refere-se a um problema cardíaco, mais especificamente à doença cardíaca hipertensiva.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 BA01 (Doença cardíaca hipertensiva) não é clinicamente coerente com o prontuário. A presença de uma pressão arterial elevada (PA 110/60) e a descrição da situação como 'MV POSITIVO, SIMETRICO' sugerem que o termo refere-se a um problema cardíaco, mais especificamente à doença cardíaca hipertensiva. No entanto, a presença de uma mielodisplasia e a história de transplante renal em setembro de 2015 sugere que o paciente tem uma condição relacionada ao sistema hematopoiético ou renal, não apenas uma doença cardíaca hipertensiva.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "3A71.2": {
+      "term_original": "mielodisplasia",
+      "capitulo": "03",
+      "confidence_embedding": 0.7374,
+      "descricao_cid": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "Escolho esse código porque a paciente tem doença renal crônica e anemia, o que é consistentemente descrito na definição do código 3A71.2. Além disso, a descrição da paciente menciona 'SENSIBILIZADO' e uso de medicação para controlar os sintomas da doença, o que também está presente na definição do código 3A71.2.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 3A71.2 é inadequada porque a doença renal crônica e anemia não são diretamente relacionadas à mielodisplasia, que é uma condição hematológica distinta. A definição do código 3A71.2 se refere especificamente à doença renal crônica e não menciona mielodisplasia. Além disso, a descrição da paciente menciona 'MIELODISPLASIA' como uma condição separada, o que sugere que a mielodisplasia é uma entidade clínica distinta da doença renal crônica e anemia.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

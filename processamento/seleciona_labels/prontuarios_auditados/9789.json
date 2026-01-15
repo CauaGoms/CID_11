@@ -1,0 +1,125 @@
+{
+  "prontuario_id": 217,
+  "text": "Tx renal set/12. TU de mandíbula - ressecção em jun/16.\nMTC 5, FK 1/1, MS 1/2, ENL 10 x 2, ATN 50 x 2, SVT 20, OMP 20\nS: Sem queixas.\nO: PA 160 x 90, FC 80, sem edema. \nExames: Hb 13 / Cr 0,6 / UC neg / NS FK 6.\n \nretorno em 3 meses com exames.\nmantenho IS, aumento ENL para 20 x 2.\n \n ",
+  "entities": {
+    "Procedimento Terapêutico ou Preventivo": [
+      "ressecção",
+      "Tx renal"
+    ],
+    "Abreviação": [
+      "MTC",
+      "FK",
+      "MS",
+      "ENL",
+      "ATN",
+      "SVT",
+      "OMP",
+      "S",
+      "O",
+      "PA",
+      "FC",
+      "Tx renal",
+      "TU de mandíbula",
+      "Hb 13",
+      "Cr 0 , 6",
+      "NS FK 6",
+      "aumento ENL"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "FK",
+      "MS",
+      "ENL",
+      "ATN",
+      "SVT",
+      "OMP"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "1/1",
+      "1/2",
+      "20",
+      "80",
+      "x 2",
+      "160 x 90"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "ENL"
+    ],
+    "Substância Química Orgânica": [
+      "ATN",
+      "SVT",
+      "OMP"
+    ],
+    "Achado": [
+      "S"
+    ],
+    "Negação": [
+      "Sem",
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "queixas",
+      "edema"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC"
+    ],
+    "Função Patológica": [
+      "edema"
+    ],
+    "Procedimento Laboratorial": [
+      "Exames"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "retorno",
+      "mantenho IS",
+      "aumento ENL"
+    ],
+    "Procedimento Diagnóstico": [
+      "exames"
+    ],
+    "Processo Neoplásico": [
+      "TU de mandíbula"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Hb 13",
+      "Cr 0 , 6",
+      "UC neg",
+      "NS FK 6"
+    ]
+  },
+  "labels": {
+    "MF54.2": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.775,
+      "descricao_cid": "Representação de doença CID-11: Hipoplasia renal. Definição: Condição caracterizada por um rim menor em tamanho e peso do que a média (menos de 11 centímetros de comprimento, 5-7,5 centímetros de largura, 2,5 centímetros de espessura e pesando menos de 120 gramas).",
+      "classification_reasoning": "A opção mais precisa é MF54.2 - Hipoplasia renal, pois o termo 'queixas' não está relacionado a doenças renais, mas sim à falta de queixas (ou seja, o paciente não apresenta sintomas) e isso é característico da hipoplasia renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'queixas' não está relacionado à doença renal, mas sim à falta de sintomas. A hipoplasia renal é uma condição clínica que pode ou não estar associada a sintomas. Portanto, o código CID-11 MF54.2 não representa fielmente o termo 'queixas'. Além disso, a justificativa do sistema também não é convincente, pois a falta de queixas não é um critério exclusivo para hipoplasia renal.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "CB05.41": {
+      "term_original": "edema",
+      "capitulo": "12",
+      "confidence_embedding": 0.7308,
+      "descricao_cid": "Representação de doença CID-11: Transtornos respiratórios na poliangeíte microscópica. Definição: Abrange condições patológicas que afetam órgãos e tecidos que possibilitam a troca gasosa em organismos superiores, e inclui condições do trato respiratório superior, traqueia, brônquios e bronquíolos, alvéolos pleura e cavidade pleural, nervos e músculos envolvidos na respiração. Este diagnóstico é quando há uma doença autoimune mal definida caracterizada por uma vasculite sistêmica, pauci-imune, necrotizante, de pequenos vasos sem evidência clínica ou patológica de uma inflamação granulomatosa necrotizante.",
+      "classification_reasoning": "A palavra 'edema' se refere a uma condição patológica que afeta órgãos e tecidos que possibilitam a troca gasosa, como mencionado na definição do código CB05.41 (Transtornos respiratórios na poliangeíte microscópica).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'edema' se refere a uma condição patológica que afeta órgãos e tecidos, mas não há nenhuma evidência clínica ou patológica de doença respiratória na descrição do prontuário. Além disso, o termo 'edema' não está relacionado à poliangeíte microscópica, que é uma doença autoimune caracterizada por vasculite sistêmica. Portanto, a codificação CID-11 CB05.41 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC80.30": {
+      "term_original": "tu de mandíbula",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A ressecção em jun/16 na mandíbula sugere um procedimento cirúrgico, e a TU de mandíbula é o resultado desse procedimento. Fibrilação atrial paroxística (BC81.30) não parece relacionada com essa situação clínica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A TU de mandíbula não é uma condição clínica, mas sim um procedimento cirúrgico. O código CID-11 BC80.30 não representa fielmente o termo descrito no prontuário. A ressecção em jun/16 na mandíbula é um procedimento que gerou a TU de mandíbula, portanto, deve ser codificado como um procedimento cirúrgico e não como uma condição clínica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

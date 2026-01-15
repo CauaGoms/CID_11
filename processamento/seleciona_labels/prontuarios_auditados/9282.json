@@ -1,0 +1,57 @@
+{
+  "prontuario_id": 524,
+  "text": "Pacte portadora de sindrome de romberg, apresenta atrofia de hemiface a D.\nAguardando procedimento cirurgico reparador .\nExames laboratoriais OK.\n\n\nEmito AIH.\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Pacte"
+    ],
+    "Abreviação": [
+      "Pacte",
+      "AIH",
+      "hemiface a D"
+    ],
+    "Função Patológica": [
+      "atrofia"
+    ],
+    "Doença ou Síndrome": [
+      "sindrome de romberg"
+    ],
+    "Localização ou Região Corporal": [
+      "hemiface a D"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "procedimento cirurgico reparador"
+    ],
+    "Achado": [
+      "Exames laboratoriais OK"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Exames laboratoriais OK"
+    ],
+    "Procedimento Laboratorial": [
+      "Exames laboratoriais OK"
+    ]
+  },
+  "labels": {
+    "8B44.0": {
+      "term_original": "sindrome de romberg",
+      "capitulo": "08",
+      "confidence_embedding": 0.6612,
+      "descricao_cid": "Representação de doença CID-11: Paraplegia espástica hereditária. Definição: Paraplegias espásticas hereditárias (PEH) compreendem um grupo genetica e clinicamente heterogêneo de transtornos neurodegenerativos caracterizados por graus variáveis de espasticidade de membros inferiores, fraqueza piramidal, hiperreflexia e envolvimento da bexiga hipertônica. Clinicamente, as PEH podem ser divididas em dois grupos principais: formas não complicadas (puras) e complicadas (complexas), dependendo da presença de outras manifestações neurológicas, incluindo ataxia, neuropatia periférica, comprometimento cognitivo, epilepsia, amiotrofia, retinopatia, surdez, ictiose e envolvimento extrapiramidal , além de paraparesia espástica. As PEH puras são caracterizadas por espasticidade e fraqueza lentamente progressivas em extremidades inferiores, frequentemente associadas a distúrbios urinários hipertônicos, leve redução da sensibilidade vibratória de extremidades inferiores e, ocasionalmente, da sensação de posição articular. As formas complexas de PEH são caracterizadas pela presença de manifestações neurológicas ou não neurológicas adicionais. Uma história familiar positiva, particularmente em casos autossômicos dominantes, está frequentemente presente, mas nem sempre. O diagnóstico pode ser auxiliado por neuroimagem e testes genéticos.",
+      "classification_reasoning": "A Síndrome de Romberg é uma forma de Paraplegia Espástica Hereditária (PEH), caracterizada por atrofia de hemiface e paraparesia espástica, o que justifica a escolha do código 8B44.0.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A Síndrome de Romberg é uma forma de Paraplegia Espástica Hereditária (PEH), caracterizada por atrofia de hemiface e paraparesia espástica. A descrição do prontuário coincide com a definição do código CID-11 8B44.0, que representa Paraplegia Espástica Hereditária. Portanto, a codificação é clínica e coerente.",
+      "tipo_erro_auditoria": null
+    },
+    "FA38.3": {
+      "term_original": "atrofia",
+      "capitulo": "15",
+      "confidence_embedding": 0.7438,
+      "descricao_cid": "Representação de doença CID-11: Artropatia hemofílica. Definição: Trata-se da destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia. Esta condição inclui a ocorrência de hemartrose aguda, artrite subaguda ou crônica e artropatia hemofílica em estágio terminal. Quase todos os pacientes com hemofilia A ou B grave e metade dos pacientes com atividade de doença moderada apresentam hemartrose. Os sintomas incluem dor nas articulações (artralgias), edema articular, fibrose articular, desenvolvimento de deformidades em flexão e erosão da cartilagem articular. As articulações mais comumente afetadas são joelhos, tornozelos, cotovelos, ombros e quadris (em ordem de frequência). O sangramento nos músculos e partes moles também pode causar disfunção musculoesquelética.",
+      "classification_reasoning": "A atrofia de hemiface à D e a presença de Síndrome de Romberg são características clinicamente relevantes para diagnóstico de artropatia hemofílica, justificando a escolha do código FA38.3.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A atrofia de hemiface à D não é uma condição clínica relacionada à artropatia hemofílica. A Síndrome de Romberg também não está diretamente relacionada à artropatia hemofílica. O código FA38.3 não representa fielmente o termo ou a condição clínica descrita no prontuário, pois a atrofia de hemiface à D e a Síndrome de Romberg são características clinicamente relevantes para diagnóstico de outras condições, como doenças neurológicas.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

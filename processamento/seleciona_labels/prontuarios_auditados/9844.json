@@ -1,0 +1,169 @@
+{
+  "prontuario_id": 355,
+  "text": "          Paciente previamente hígida (história de HAS interrogada), interna neste hospital devido a quadro de forte dor precordial definido pelo ECG como IAM de parede inferior do miocárdio. Submetida a estudo hemodinâmico logo na chegada, apresentando lesão de 95% em óstio de CD + oclusão de mesma artéria em porção final do segmento proximal. Realizado ACTP + colocação de stent na região ocluída, associado a ACTP de óstio e colocação de segundo stent nesta localização; resultado final TIMI 3; procedimento sem intercorrências.  Evoluiu bem após procedimento, sem dor ou sinais de isquemia miocárdica.  Recebe alta em excelente estado geral, sinais vitais estáveis, com orientações de retorno ao ambulatório de cardiopatia isquêmica para revisão e acompanhamento posterior.  OBS: paciente apresenta ao exame radiográfico do tórax nódulo calcificado e de limites precisos em lobo superior de pulmão direito, já presente em radiografias prévias e sem alterações; como a característica e a evolução radiográfica favorecem o diagnóstico de nódulo benigno, sugere-se acompanhamento radiográfico.",
+  "entities": {
+    "Conceito Temporal": [
+      "previamente",
+      "após",
+      "prévias"
+    ],
+    "Achado": [
+      "hígida",
+      "característica",
+      "Evoluiu bem",
+      "excelente estado geral",
+      "sinais sinais vitais vitais estáveis estáveis",
+      "evolução radiográfica"
+    ],
+    "Abreviação": [
+      "HAS",
+      "ECG",
+      "ACTP",
+      "IAM de parede inferior do miocárdio",
+      "óstio de CD"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "IAM de parede inferior do miocárdio"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "interna",
+      "alta",
+      "orientações",
+      "retorno",
+      "revisão",
+      "acompanhamento posterior",
+      "acompanhamento radiográfico"
+    ],
+    "Organização Relacionada à Saúde": [
+      "hospital",
+      "ambulatório de cardiopatia isquêmica"
+    ],
+    "Objeto Manufaturado": [
+      "hospital"
+    ],
+    "Sinal ou Sintoma": [
+      "quadro",
+      "intercorrências",
+      "dor",
+      "alterações",
+      "forte dor precordial",
+      "sinais de isquemia miocárdica"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECG",
+      "procedimento",
+      "estudo hemodinâmico",
+      "exame radiográfico do tórax",
+      "em radiografias"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ACTP",
+      "procedimento",
+      "colocação de stent",
+      "ACTP de óstio",
+      "colocação de segundo stent",
+      "acompanhamento radiográfico"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Conceito Qualitativo": [
+      "característica"
+    ],
+    "Lesão ou Envenenamento": [
+      "lesão de 95%"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "lesão de 95%",
+      "resultado final TIMI 3",
+      "nódulo calcificado",
+      "limites precisos em lobo superior de pulmão direito",
+      "nódulo benigno"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "óstio de CD"
+    ],
+    "Localização ou Região Corporal": [
+      "região ocluída"
+    ],
+    "Classificação": [
+      "resultado final TIMI 3"
+    ],
+    "Processo Neoplásico": [
+      "nódulo benigno"
+    ]
+  },
+  "labels": {
+    "BA41": {
+      "term_original": "sinais de isquemia miocárdica",
+      "capitulo": "11",
+      "confidence_embedding": 0.7944,
+      "descricao_cid": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)",
+      "classification_reasoning": "A opção mais precisa para o termo 'sinais de isquemia miocárdica' é o código BA41, que define infarto agudo do miocárdio com sintomas de isquemia. A paciente apresentou dor precordial definida como IAM de parede inferior do miocárdio e posteriormente evoluiu bem após procedimento de angioplastia e colocação de stent, sugerindo que a dor foi relacionada à isquemia miocárdica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente apresentou dor precordial definida como IAM de parede inferior do miocárdio, o que sugere isquemia miocárdica. No entanto, a descrição do código CID-11 BA41 refere-se especificamente ao infarto agudo do miocárdio com sintomas de isquemia, o que não é compatível com a situação clínica da paciente. A dor precordial pode ser relacionada à isquemia miocárdica, mas não há evidência de necrose miocárdica ou outros critérios para diagnosticar infarto agudo do miocárdio.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.2": {
+      "term_original": "quadro",
+      "capitulo": "21",
+      "confidence_embedding": 0.7363,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A dor precordial definida pelo ECG como IAM de parede inferior do miocárdio é um quadro de doença isquêmica, que se enquadra na definição de Dor crônica pós-operatória ou pós-traumática, com persistência por pelo menos 3 meses após o procedimento.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor precordial definida pelo ECG como IAM de parede inferior do miocárdio não se enquadra na definição de Dor crônica pós-operatória ou pós-traumática, pois o procedimento realizado foi um tratamento para a doença isquêmica, e não uma cirurgia ou lesão tecidual. A dor persistiu após o procedimento, mas isso não é suficiente para enquadrar-se na definição do código CID-11 MG30.2.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "ED70.30": {
+      "term_original": "nódulo benigno",
+      "capitulo": "14",
+      "confidence_embedding": 0.7663,
+      "descricao_cid": "Representação de doença CID-11: Eflúvio telógeno agudo. Definição: Eflúvio telógeno agudo é uma queda de cabelos do couro cabeludo de início agudo que ocorre dois a três meses após um estresse desencadeante, muitas vezes com risco à vida, e que interrompe o crescimento anágeno normal do fio. É comumente observado em sobreviventes que necessitaram de cuidados intensivos para sepse, hemorragia, doença inflamatória ou traumatismo graves. Também pode resultar de desnutrição aguda. Um grande número de fios anágenos são convertidos em telógenos e são eliminados dois a três meses depois, resultando em uma alopecia difusa.",
+      "classification_reasoning": "A paciente apresenta um nódulo calcificado e de limites precisos em lobo superior do pulmão direito, característica radiográfica que é consistente com o diagnóstico de nódulo benigno. O código ED70.30 (Eflúvio telógeno agudo) não está relacionado ao termo 'nódulo benigno', portanto, não é a escolha mais precisa para este contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'nódulo benigno' não está relacionado ao código CID-11 ED70.30 (Eflúvio telógeno agudo), que descreve uma condição clínica de alopecia difusa após estresse desencadeante, e não tem relação com a presença de um nódulo calcificado no pulmão direito. A escolha do código CID-11 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NE81.0Z": {
+      "term_original": "intercorrências",
+      "capitulo": "22",
+      "confidence_embedding": 0.7516,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "O termo 'intercorrências' refere-se a complicações ou eventos adversos durante um procedimento, como foi o caso do paciente que sofreu uma intervenção cardiaca sem intercorrências, mas é importante mencionar que NE81.0Z se refere especificamente a hemorragia ou hematoma não classificado em outra parte, complicando um procedimento.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'intercorrências' refere-se a complicações ou eventos adversos durante um procedimento, mas o código CID-11 ATRIBUÍDO (NE81.0Z) se refere especificamente a hemorragia ou hematoma não classificado em outra parte, complicando um procedimento. Isso é uma contradição óbvia entre o termo e o código, portanto, o código deve ser removido.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC65.3": {
+      "term_original": "forte dor precordial",
+      "capitulo": "11",
+      "confidence_embedding": 0.7857,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de repolarização precoce. Definição: Transtorno arrítmico genético caracterizado por elevação inferolateral da onda J observada no ECG em conjunto com fibrilação ventricular não explicada por outras causas.",
+      "classification_reasoning": "A forte dor precordial é característica de uma síndrome de repolarização precoce, que está relacionada ao ECG como IAM (infarto agudo do miocárdio) de parede inferior do miocárdio.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A forte dor precordial não é uma síndrome de repolarização precoce, e sim um sintoma que pode estar relacionado a vários diagnósticos, incluindo IAM. A codificação CID-11 BC65.3 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.21": {
+      "term_original": "característica",
+      "capitulo": "21",
+      "confidence_embedding": 0.7592,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática.",
+      "classification_reasoning": "O termo 'característica' se refere à descrição física do nódulo calcificado e de limites precisos no lobo superior do pulmão direito, o que é uma característica radiográfica da doença.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'característica' se refere à descrição física do nódulo calcificado e de limites precisos no lobo superior do pulmão direito, o que é uma característica radiográfica da doença. No entanto, a codificação CID-11 MG30.21 'Dor crônica pós-operatória' não está relacionada à descrição física do nódulo calcificado e de limites precisos no lobo superior do pulmão direito. A dor crônica pós-operatória é um sintoma que pode ser causado por várias razões, incluindo procedimentos cirúrgicos, e não está diretamente relacionada à característica radiográfica descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "NA60.3Z": {
+      "term_original": "lesão de 95%",
+      "capitulo": "22",
+      "confidence_embedding": 0.7486,
+      "descricao_cid": "Representação de doença CID-11: Lesão da veia jugular interna, não especificada. Definição: ",
+      "classification_reasoning": "A lesão de 95% em óstio de CD + oclusão de mesma artéria em porção final do segmento proximal se refere a uma lesão vascular, especificamente na veia jugular interna (CD), que é descrita pelo código NA60.3Z.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão de 95% em óstio de CD + oclusção de mesma artéria em porção final do segmento proximal não se refere a uma lesão vascular na veia jugular interna, mas sim a uma lesão coronária. O código CID-11 NA60.3Z não representa fielmente o termo descrito no prontuário e é um exemplo de overgeneralization.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

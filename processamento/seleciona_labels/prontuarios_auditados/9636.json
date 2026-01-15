@@ -1,0 +1,200 @@
+{
+  "prontuario_id": 987,
+  "text": "pos tx renal\nPOS TX RENAL - CR 0,86 - FK 3,0\nDSLP - BOM CONTROLE\nHAS BOM CONTROLE\nDM BOM CONTROLE\nIVAS\nTX RENAL HÁ 3 ANOS - DC\nUSO DE: MTC 5, FK 1 / 0, MS 1 / 2, CRESTOR 10MG DA, AAS 100, OMZ 20, CARVEDILOL 12,5, MONOCORDIL 20, CILSTAZOL 100 X2, LOSARTAN 50, LANTUS 30\nS # QUEIXA DE TOSSE PRODUTIVA ASSOCIADO A OBSTRUÇÃO NASAL.\nO # BEG, CORADO ,HIDRATADO\nPA 120/70  SAO2 95%\nMV POSITIVO, SIMETRICO\nBCRNF\nABDOMEN FLACIDO, SEM MASSAS, RHA POSITIVOS,\nMEMBROS SEM EDEMA",
+  "entities": {
+    "Conceito Temporal": [
+      "pos",
+      "POS",
+      "HÁ 3 ANOS"
+    ],
+    "Abreviação": [
+      "DSLP",
+      "HAS",
+      "DM",
+      "IVAS",
+      "DC",
+      "MTC",
+      "FK",
+      "MS",
+      "AAS",
+      "OMZ",
+      "X2",
+      "BEG",
+      "PA",
+      "SAO2",
+      "BCRNF",
+      "tx renal",
+      "TX RENAL",
+      "CR 0 , 86",
+      "FK 3 , 0",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Doença ou Síndrome": [
+      "DSLP",
+      "HAS",
+      "DM",
+      "IVAS"
+    ],
+    "Achado": [
+      "DC",
+      "BEG",
+      "CORADO",
+      "HIDRATADO",
+      "SIMETRICO",
+      "BCRNF",
+      "FLACIDO",
+      "BOM CONTROLE",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "FK",
+      "MS",
+      "CRESTOR",
+      "AAS",
+      "OMZ",
+      "CARVEDILOL",
+      "MONOCORDIL",
+      "CILSTAZOL",
+      "LOSARTAN",
+      "LANTUS"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "FK",
+      "MS",
+      "CRESTOR",
+      "AAS",
+      "OMZ",
+      "CARVEDILOL",
+      "MONOCORDIL",
+      "CILSTAZOL",
+      "LOSARTAN",
+      "LANTUS"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "10MG",
+      "100",
+      "20",
+      "X2",
+      "50",
+      "30",
+      "120/70",
+      "95%",
+      "1 / 0",
+      "1 / 2",
+      "12 , 5"
+    ],
+    "Antibiótico": [
+      "MS"
+    ],
+    "Hormônio": [
+      "LANTUS"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "LANTUS"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "SAO2"
+    ],
+    "Localização ou Região Corporal": [
+      "ABDOMEN"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "MASSAS",
+      "EDEMA",
+      "TOSSE PRODUTIVA",
+      "OBSTRUÇÃO NASAL"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MEMBROS"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "tx renal",
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 86",
+      "FK 3 , 0"
+    ]
+  },
+  "labels": {
+    "DA60.3": {
+      "term_original": "flacido",
+      "capitulo": "13",
+      "confidence_embedding": 0.7492,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A opção mais precisa é a úlcera de estresse do estômago (DA60.3) porque o termo 'flácido' descrito no prontuário se refere ao estado abdominal do paciente, que apresenta um abdome 'flácido', indicando uma distensão ou inchaço abdominal não patológico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'flácido' descrito no prontuário se refere ao estado abdominal do paciente, que apresenta um abdome 'flácido', indicando uma distensão ou inchaço abdominal não patológico. A codificação CID-11 DA60.3 para úlceras de estresse do estômago não está clinicamente coerente com o prontuário, pois a descrição do termo 'flácido' não se refere à doença gástrica. Portanto, é necessário remover essa codificação e realizar uma nova análise para encontrar um código CID-11 mais adequado.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "DB33.20": {
+      "term_original": "massas",
+      "capitulo": "13",
+      "confidence_embedding": 0.7378,
+      "descricao_cid": "Representação de doença CID-11: Proctite ou colite infantil induzida por proteína de alimentos. Definição: Hipersensibilidade intestinal não mediada por IgE (na ausência de anticorpos IgE) induzida por proteína alimentar que provoca resposta inflamatória principalmente do cólon sigmoide distal e do reto. É uma condição em bebês que resulta de resposta imune desencadeada por proteínas da dieta, principalmente do leite (através da amamentação). Os pacientes geralmente parecem saudáveis e têm fezes normais e macias com manchas ou raias de sangue. O diagnóstico é feito usualmente baseado na resolução dos sintomas com a retirada do suposto antígeno alimentar. O início usual é nos primeiros 2 meses de vida, mas pode também ocorrer em bebês de 1 dia a 6 meses de idade.",
+      "classification_reasoning": "A opção mais precisa para o termo 'massas' é a proctite ou colite infantil induzida por proteína de alimentos (DB33.20). A presença de massas no abdome flácido e sem doenças mencionadas na história clínica sugere um processo inflamatório crônico, como o descrito na definição da síndrome.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção DB33.20 não é clinicamente coerente com o prontuário, pois a descrição da síndrome refere-se à proctite ou colite infantil induzida por proteína de alimentos, enquanto no prontuário não há menção a essa condição. Além disso, a presença de massas no abdome flácido e sem doenças mencionadas na história clínica sugere um processo inflamatório crônico, o que não é descrito na definição da síndrome DB33.20.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "FA27.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7502,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A escolha foi feita considerando a presença de edema nas membros sem evidência de doença renal (BCRNF) e o contexto de paciente com histórico de transplante renal há 3 anos. A reumatismo palindrômico é uma possibilidade clínica que explica a presença de edemas nas articulações, como as mencionadas no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de edema nas membros não é suficiente para justificar a escolha do código CID-11 FA27.2, que se refere ao reumatismo palindrômico. A análise do prontuário não apresenta evidências de crises agudas de dor e edema nas articulações, características clínicas do reumatismo palindrômico. Além disso, a presença de doença renal (BCRNF) e o uso de medicamentos como Cilostazol e Carvedilol sugerem que a tosse produtiva associada à obstrução nasal pode ser relacionada ao histórico de transplante renal ou a outras condições clínicas, não apenas ao reumatismo palindrômico.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "CA08.0": {
+      "term_original": "obstrução nasal",
+      "capitulo": "12",
+      "confidence_embedding": 0.8113,
+      "descricao_cid": "Representação de doença CID-11: Rinite alérgica. Definição: Rinite alérgica é uma inflamação de via aérea nasal desencadeada por alérgenos aos quais o indivíduo afetado foi previamente sensibilizado. A patogênese da rinite alérgica é uma reação alérgica tipo I na mucosa nasal. Antígenos inalados em contato com a mucosa nasal sensibilizada ligam-se a anticorpos IgE nos mastócitos, que liberam mediadores químicos como histamina e peptídeos de leucotrienos. Consequentemente, as terminações nervosas sensitivas e vasos sanguíneos reagem provocando espirros, coriza e obstrução nasal (fase de resposta imediata). Na fase de resposta tardia, vários mediadores químicos são produzidos pelos mastócitos, citocinas são produzidas por células Th2 e mastócitos, e quimiocinas são produzidas por células epiteliais, pelo endotélio vascular e pelos fibrócitos, respectivamente. Tais transmissores derivados dessas células efetivamente induzem a infiltração de vários tipos de células inflamatórias na mucosa nasal. Entre elas, os eosinófilos ativados são os principais responsáveis pelo edema e pela hiper-reatividade da mucosa.",
+      "classification_reasoning": "A escolha do código CA08.0 é baseada na presença de obstrução nasal no contexto clínico, o que se ajusta à definição de Rinite alérgica apresentada na descrição do código.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A obstrução nasal descrita no prontuário é sintomática, não uma condição clínica específica. A escolha do código CA08.0, que representa Rinite alérgica, não está clinicamente coerente com o contexto do prontuário. A obstrução nasal pode ser causada por várias razões e não há evidência de alergia ou inflamação na descrição do paciente.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BC81.30": {
+      "term_original": "mv positivo",
+      "capitulo": "11",
+      "confidence_embedding": 0.7526,
+      "descricao_cid": "Representação de doença CID-11: Fibrilação atrial paroxística. Definição: FA recorrente (> = 2 episódios) que termina espontaneamente em 7 dias ou menos (geralmente em 24 horas).",
+      "classification_reasoning": "A opção mais precisa para o termo 'mv positivo' é a Fibrilação atrial paroxística (BC81.30), pois há uma referência à freqüência cardíaca no contexto clínico ('MV POSITIVO, SIMETRICO'). A presença de fibrilação atrial paroxística é compatível com os achados de freqüência cardíaca positiva e simétrica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fibrilação atrial paroxística (BC81.30) é uma condição cardíaca específica que não está relacionada ao termo 'mv positivo', que se refere à freqüência cardíaca. A presença de MV positivo e simétrico sugere um achado cardíaco normal, e não uma condição patológica como a fibrilação atrial paroxística.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA23.22": {
+      "term_original": "tosse produtiva",
+      "capitulo": "12",
+      "confidence_embedding": 0.732,
+      "descricao_cid": "Representação de doença CID-11: Asma variante com tosse. Definição: Asma variante com tosse é uma forma oculta de asma em que o único sinal ou sintoma é tosse crônica.",
+      "classification_reasoning": "A tosse produtiva é um sintoma característico de asma variante com tosse, uma forma oculta de asma em que o único sinal ou sintoma é tosse crônica.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A tosse produtiva descrita no prontuário é um sintoma característico da asma variante com tosse, uma forma oculta de asma em que o único sinal ou sintoma é tosse crônica. A codificação CID-11 CA23.22 representa fielmente essa condição clínica diretamente relacionada ao termo descrito no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MF95": {
+      "term_original": "ivas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7745,
+      "descricao_cid": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular.",
+      "classification_reasoning": "A opção mais precisa é a mioglobinúria (MF95), pois o termo 'ivas' se refere às proteínas que são excretadas na urina, e a mioglobinúria é uma condição caracterizada pela presença de mioglobina na urina, o que é compatível com a descrição do contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CID-11 MF95, mioglobinúria, não é clinicamente coerente com o prontuário. O termo 'ivas' se refere às proteínas que são excretadas na urina, e não há evidência de rabdomiólise ou lesão muscular aguda no prontuário. Além disso, a presença de medicamentos como MTC, FK, MS, CRESTOR, AAS, OMZ, CARVEDILOL, MONOCORDIL e CILSTAZOL não é compatível com a definição de mioglobinúria.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "prontuario_id": 226,
+  "text": "Nefro Geral\n\nosteoartrose - abuso de AINE.\nITUs de repetição - 3 episódios em 2015.\nnega vícios, DM, HAS.\nencaminhada por cisto renal simples à E em 1/3 superior, de 35 x 42 mm. Também esteatose hepática moderada.\nPA 110 x 70, abdomen globoso, flácido, MMII sem edemas.\n \noriento perda de peso, atividade física e evitar AINE.\nsolicito US de controle pré e pós miccional (resíduo?).\nretorno após exames.\n \n ",
+  "entities": {
+    "Doença ou Síndrome": [
+      "osteoartrose",
+      "DM",
+      "HAS",
+      "ITUs de repetição",
+      "cisto renal simples",
+      "esteatose hepática"
+    ],
+    "Negação": [
+      "nega",
+      "sem"
+    ],
+    "Disfunção Mental ou Comportamental": [
+      "vícios"
+    ],
+    "Abreviação": [
+      "DM",
+      "HAS",
+      "PA",
+      "MMII",
+      "Nefro Geral",
+      "abuso de AINE",
+      "ITUs de repetição",
+      "E em 1/3 superior",
+      "evitar AINE",
+      "US de controle pré e pós miccional"
+    ],
+    "Conceito Qualitativo": [
+      "moderada"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "abdomen",
+      "MMII"
+    ],
+    "Achado": [
+      "globoso",
+      "flácido",
+      "abuso de AINE"
+    ],
+    "Sinal ou Sintoma": [
+      "edemas"
+    ],
+    "Função Patológica": [
+      "edemas"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "resíduo"
+    ],
+    "Procedimento Diagnóstico": [
+      "exames",
+      "US de controle pré e pós miccional"
+    ],
+    "Conceito Quantitativo": [
+      "3 episódios",
+      "35 x 42 mm",
+      "110 x 70"
+    ],
+    "Localização ou Região Corporal": [
+      "E em 1/3 superior"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "atividade física"
+    ]
+  },
+  "labels": {
+    "FA01.0": {
+      "term_original": "abuso de aine",
+      "capitulo": "15",
+      "confidence_embedding": 0.771,
+      "descricao_cid": "Representação de doença CID-11: Osteoartrite primária do joelho. Definição: Osteoartrite primária ocorrendo em uma articulação do joelho de outra forma intacta, envolvendo degeneração relacionada geneticamente, relacionada à idade ou relacionada ao uso com alterações anatômicas microscópicas e macroscópicas, que, em última análise, limitam o movimento em uma ou mais articulações. As alterações na articulação incluem aumento da perda de cartilagem e transformação óssea, como esclerose, formação de osteófitos e cistos, bem como potenciais alterações inflamatórias em estruturas de tecido mole circundantes.",
+      "classification_reasoning": "A escolha do código FA01.0 se baseia no contexto de osteoartrose associado ao abuso de AINE, o que sugere uma possível osteoartrite primária do joelho, caracterizada por degeneração relacionada geneticamente, relacionada à idade ou relacionada ao uso com alterações anatômicas microscópicas e macroscópicas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código FA01.0 se baseia na suposição de que a osteoartrose é primária, o que não está claramente descrito no prontuário. Além disso, o termo 'abuso de AINE' sugere mais uma condição relacionada ao uso de medicamentos do que uma doença específica. Portanto, a classificação como osteoartrite primária do joelho não é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GB80.0": {
+      "term_original": "cisto renal simples",
+      "capitulo": "16",
+      "confidence_embedding": 0.8437,
+      "descricao_cid": "Representação de doença CID-11: Cisto renal simples. Definição: Doença renal causada pela obstrução dos túbulos, anemia ou descolamento dos divertículos. Esta doença é caracterizada pela formação de sacos anormais de paredes finas cheios de líquido radiolúcido hipoecogênico no rim. A confirmação é por imagem.",
+      "classification_reasoning": "A opção mais precisa para o termo 'cisto renal simples' é o Código GB80.0, pois descreve a doença renal causada pela obstrução dos túbulos, anemia ou descolamento dos divertículos caracterizada pela formação de sacos anormais de paredes finas cheios de líquido radiolúcido hipoecogênico no rim.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção do código CID-11 GB80.0 é justificada, pois a descrição da doença renal causada pela obstrução dos túbulos, anemia ou descolamento dos divertículos caracterizada pela formação de sacos anormais de paredes finas cheios de líquido radiolúcido hipoecogênico no rim é compatível com a descrição do cisto renal simples presente no prontuário. A codificação é clínica e coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BD93": {
+      "term_original": "edemas",
+      "capitulo": "11",
+      "confidence_embedding": 0.7782,
+      "descricao_cid": "Representação de doença CID-11: Linfedema. Definição: Edema devido ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Geralmente afeta as extremidades, mas pode envolver qualquer parte do corpo. É desfigurante e aumenta a suscetibilidade a infecções recorrentes e malignidades locais.",
+      "classification_reasoning": "A opção mais precisa para o termo 'edemas' no contexto clínico é a Linfedema (BD93), pois a descrição refere-se ao acúmulo excessivo de linfa nos tecidos, que pode causar edemas em diferentes partes do corpo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário refere-se a edemas no contexto de nefropatia, mas o termo 'edemas' não está claramente relacionado ao acúmulo excessivo de linfa nos tecidos, característico da Linfedema (BD93). A opção mais precisa para o termo 'edemas' no contexto clínico é uma representação de doença CID-11 que envolve a inflamação e a lesão tissular, como por exemplo, a Doença Renal Crônica (N18.9) ou a Insuficiência Cardíaca (I12.9). Portanto, o código CID-11 atribuído não representa fielmente o termo 'edemas' descrito no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "DB95.30": {
+      "term_original": "esteatose hepática",
+      "capitulo": "13",
+      "confidence_embedding": 0.76,
+      "descricao_cid": "Representação de doença CID-11: Doença hepática tóxica ou induzida por droga com doença hepática gordurosa crônica. Definição: Esteatose crônica induzida por droga caracterizada por glóbulos de triglicérides relativamente grandes, que efetivamente preenchem o hepatócito, deslocando o núcleo e outros constituintes intracelulares para a periferia. Alguns pacientes evidenciam esteatohepatite, esteatose com necrose focal e infiltrado celular inflamatório, levando ao desenvolvimento de cirrose.",
+      "classification_reasoning": "A descrição de 'esteatose hepática moderada' no prontuário é compatível com a definição do código DB95.30, que descreve a esteatose crônica induzida por droga caracterizada por glóbulos de triglicérides relativamente grandes dentro dos hepatócitos.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição de 'esteatose hepática moderada' no prontuário é compatível com a definição do código DB95.30, que descreve a esteatose crônica induzida por droga caracterizada por glóbulos de triglicérides relativamente grandes dentro dos hepatócitos. A descrição clínica e o código CID-11 apresentam uma correspondência clara e justificada, portanto, é válido manter a codificação DB95.30.",
+      "tipo_erro_auditoria": null
+    },
+    "NA06.00": {
+      "term_original": "itus de repetição",
+      "capitulo": "22",
+      "confidence_embedding": 0.7509,
+      "descricao_cid": "Representação de doença CID-11: Avulsão da pálpebra. Definição: Lesão em que uma estrutura corporal é forçadamente destacada do seu ponto normal de inserção por traumatismo ou cirurgia. O termo mais comumente se refere a um traumatismo de superfície em que todas as camadas da pele foram laceradas, expondo estruturas subjacentes (isto é, tecido subcutâneo, músculo, tendões ou osso). É semelhante a uma abrasão, mas mais grave, em que a pálpebra pode estar parcial ou completamente destacada do corpo.",
+      "classification_reasoning": "A opção mais precisa é a NA06.00, pois 'ITUs de repetição' refere-se a lesões em que uma estrutura corporal foi forçadamente destacada do seu ponto normal de inserção, caracterizando um traumatismo ou cirurgia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CID-11 NA06.00 não representa fielmente o termo 'ITUs de repetição' descrito no prontuário, que refere-se a episódios de infiltração pulmonar, e não à lesão em que uma estrutura corporal é forçadamente destacada do seu ponto normal de inserção. A classificação é incorreta e não está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

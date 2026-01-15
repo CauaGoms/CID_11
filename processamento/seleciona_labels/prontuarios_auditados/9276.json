@@ -1,0 +1,60 @@
+{
+  "prontuario_id": 338,
+  "text": "15 MESES DE FX DE PLATO TIBIAL ESQ.\nPCTE REFERE INSTABILIDADE DO JOELHO AO DEAMBULAR.\nGAVETA ANTERIOR E POSTERIOR + .\nAGENDO RMS PARA PROGRAMAR POSSIVEL CORREÇÃO LIGAMENTAR.\n\nR1 LUCAS\n \n \n \n ",
+  "entities": {
+    "Conceito Temporal": [
+      "MESES"
+    ],
+    "Abreviação": [
+      "PCTE",
+      "RMS",
+      "R1",
+      "PLATO TIBIAL ESQ",
+      "GAVETA ANTERIOR E POSTERIOR +"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PCTE"
+    ],
+    "Procedimento Diagnóstico": [
+      "RMS"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "R1"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PLATO TIBIAL ESQ"
+    ],
+    "Sinal ou Sintoma": [
+      "INSTABILIDADE DO JOELHO AO DEAMBULAR",
+      "GAVETA ANTERIOR E POSTERIOR +"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "GAVETA ANTERIOR E POSTERIOR +"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CORREÇÃO LIGAMENTAR"
+    ]
+  },
+  "labels": {
+    "FA33.4Y": {
+      "term_original": "instabilidade do joelho ao deambular",
+      "capitulo": "15",
+      "confidence_embedding": 0.736,
+      "descricao_cid": "Representação de doença CID-11: Outra instabilidade crônica especificada do joelho. Definição: ",
+      "classification_reasoning": "Escolha pela descrição de 'Outra instabilidade crônica especificada do joelho', que melhor se ajusta ao termo 'instabilidade do joelho ao deambular' no contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código FA33.4Y 'Outra instabilidade crônica especificada do joelho' é justificável, pois o termo 'instabilidade do joelho ao deambular' descreve uma condição clínica específica e diretamente relacionada à patologia descrita no prontuário (fx de plato tibial esq. com instabilidade do joelho). A descrição do código se ajusta ao contexto clínico, justificando a manutenção da codificação.",
+      "tipo_erro_auditoria": null
+    },
+    "FA34.1": {
+      "term_original": "gaveta anterior e posterior +",
+      "capitulo": "15",
+      "confidence_embedding": 0.71,
+      "descricao_cid": "Representação de doença CID-11: Transtornos do ligamento. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'gaveta anterior e posterior +' é a condição de transtornos do ligamento, que se refere às lesões ou distensões nos tecidos fibrosos que conectam os ossos no joelho, resultando em instabilidade e dor ao caminhar (deambular).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'gaveta anterior e posterior +' refere-se a lesões ou distensões nos tecidos fibrosos que conectam os ossos no joelho, resultando em instabilidade e dor ao caminhar. Isso é diretamente relacionado à condição de transtornos do ligamento descrita pelo código CID-11 FA34.1. A codificação é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

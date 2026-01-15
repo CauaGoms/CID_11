@@ -1,0 +1,32 @@
+{
+  "prontuario_id": 488,
+  "text": "Encaminhada da US.\nCBC.\n \n \nLesoes em face e tronco.",
+  "entities": {
+    "Organização Relacionada à Saúde": [
+      "US"
+    ],
+    "Abreviação": [
+      "US",
+      "CBC"
+    ],
+    "Processo Neoplásico": [
+      "CBC"
+    ],
+    "Localização ou Região Corporal": [
+      "face",
+      "tronco"
+    ]
+  },
+  "labels": {
+    "NA00": {
+      "term_original": "cbc",
+      "capitulo": "22",
+      "confidence_embedding": 0.728,
+      "descricao_cid": "Representação de doença CID-11: Traumatismo superficial da cabeça. Definição: Danos causados ​​na superfície ou nos tecidos superficiais da cabeça como resultado direto ou indireto de uma força externa, com ou sem interrupção da continuidade estrutural.",
+      "classification_reasoning": "A opção mais precisa para o termo 'CBC' no contexto de lesões em face e tronco é o código NA00, pois refere-se ao traumatismo superficial da cabeça, que inclui a face. Isso se alinha com as informações fornecidas na US e nos resultados do CBC.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção do sistema é considerada inapropriada porque o termo 'CBC' se refere a um exame laboratorial (Contagem Sanguínea Completa), não ao traumatismo superficial da cabeça. A lesão descrita no prontuário não está relacionada à CBC, portanto, o código CID-11 atribuído (NA00) não representa fielmente o termo ou a condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "prontuario_id": 212,
+  "text": "QP: Herniorrafia Inguinal E\nHMA\n- Cx no dia 19/06/2015\n- Dor na região inguinal ao esforço\n- Urina normalmente\n- Paciente constipado de longo prazo, sente dor no local da cirurgia no ato evacuatorio\n- Sem dificuldade de se alimentar\nHMP\n- Hiperplasia Prostatica\n- Colecistectomia e Heniorrafia anterior a atual\n- Nega uso de medicações\nHMF\n- 1 irmão com DM\nCHV\n- Nega tabagsmo e etilismo atualmente, ja fez uso social anteriormente\nExame Fisico\nBEG, LOTE, anicterico, acianotico, corado e hidratado\n- Cicatriz cirurgica em região inguinal (E) sem sinais de inflamação / infecção ou sinais de secreção, não houve evidencia de abaulamente à manobra de Valsalva\nPlano\n- Retorno em 30 dias para reavaliação\n \n \n \n ",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "QP",
+      "constipado",
+      "anicterico",
+      "abaulamente",
+      "dificuldade de se alimentar",
+      "sinais de inflamação",
+      "sinais de secreção"
+    ],
+    "Abreviação": [
+      "QP",
+      "HMA",
+      "Cx",
+      "HMP",
+      "HMF",
+      "DM",
+      "CHV",
+      "BEG",
+      "LOTE",
+      "Herniorrafia Inguinal E"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Cx",
+      "cirurgia",
+      "Colecistectomia",
+      "Heniorrafia",
+      "Herniorrafia Inguinal E"
+    ],
+    "Localização ou Região Corporal": [
+      "inguinal"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Negação": [
+      "Sem",
+      "Nega",
+      "anicterico",
+      "acianotico",
+      "sem",
+      "não"
+    ],
+    "Substância Farmacológica": [
+      "medicações"
+    ],
+    "Doença ou Síndrome": [
+      "DM",
+      "tabagsmo",
+      "etilismo",
+      "Hiperplasia Prostatica"
+    ],
+    "Conceito Temporal": [
+      "anteriormente",
+      "longo prazo",
+      "30 dias"
+    ],
+    "Achado": [
+      "BEG",
+      "LOTE",
+      "anicterico",
+      "acianotico",
+      "corado",
+      "hidratado"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Plano",
+      "Retorno",
+      "reavaliação"
+    ],
+    "Função Fisiológica": [
+      "ato evacuatorio"
+    ],
+    "Lesão ou Envenenamento": [
+      "Cicatriz cirurgica"
+    ],
+    "Procedimento Diagnóstico": [
+      "manobra de Valsalva"
+    ]
+  },
+  "labels": {
+    "NB90.9.Y": {
+      "term_original": "sinais de secreção",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'sinais de secreção' é a lesão de outros vasos sanguíneos especificados ao nível do abdome, região lombar ou pelve (Lesão de otros vasos sanguíneos especificados ao nivel do abdomen, regiao lombal ou pelve), pois o texto menciona uma cicatriz cirurgica em região inguinal sem sinais de inflamação/infecção ou sinais de secreção.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CID-11 NB90.9.Y não é adequada porque o termo 'sinais de secreção' se refere à presença de fluido ou substância no local da cirurgia, e não a lesão de outros vasos sanguíneos especificados ao nível do abdome, região lombar ou pelve. A descrição do prontuário não menciona qualquer lesão vascular e sim apenas uma cicatriz cirurgica em região inguinal sem sinais de inflamação/infecção ou sinais de secreção.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NB90.0": {
+      "term_original": "sinais de inflamação",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'sinais de inflamação' é a lesão de vasos sanguíneos ao nível do abdome, região lombar ou pelve (Código CID-11: NB90.0). Isso porque o prontuário menciona que a cicatriz cirurgica em região inguinal não apresenta sinais de inflamação/infecção ou secreção.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CID-11 NB90.0 não representa fielmente o termo 'sinais de inflamação' descrito no prontuário, pois a cicatriz cirurgica em região inguinal não apresenta sinais de inflamação/infecção ou secreção. A lesão de vasos sanguíneos ao nível do abdome, região lombar ou pelve (Código CID-11: NB90.0) não é relacionada à dor na região inguinal ao esforço e à constipação do paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GA90": {
+      "term_original": "hiperplasia prostatica",
+      "capitulo": "16",
+      "confidence_embedding": 0.7611,
+      "descricao_cid": "Representação de doença CID-11: Hiperplasia da próstata. Definição: Condição da próstata, causada por um aumento da taxa de divisão celular das células glandulares e do estroma. Esta condição é caracterizada por aumento do tecido prostático, disúria, urgência urinária, noctúria, fluxo urinário fraco, esforço ao urinar, esvaziamento incompleto da bexiga durante a micção ou aumento da frequência de infecção do trato urinário.",
+      "classification_reasoning": "A hiperplasia prostática é uma condição caracterizada por um aumento do tecido prostático, disúria, urgência urinária e outros sintomas descritos no prontuário, o que justifica a escolha do código GA90 como mais precisa para o termo 'hiperplasia prostatica' dentro do contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hiperplasia prostática descrita no prontuário apresenta sintomas como disúria, urgência urinária e fluxo urinário fraco, o que é coerente com a definição do código CID-11 GA90. Além disso, o paciente tem HMA (Hiperplasia da próstata) confirmada por exame físico e história clínica. Portanto, a escolha do código GA90 para 'hiperplasia prostatica' é justificada e clinicamente coerente.",
+      "tipo_erro_auditoria": null
+    },
+    "DD51": {
+      "term_original": "constipado",
+      "capitulo": "13",
+      "confidence_embedding": 0.7658,
+      "descricao_cid": "Representação de doença CID-11: Hérnia inguinal. Definição: Hérnia que ocorre quando parte de um órgão interno protunde atráves de uma área frágil do músculo. A maioria das hérnias ocorrem no abdômen. Hérnia inguinal é o tipo mais comum e ocorre na virilha (região inguinal).",
+      "classification_reasoning": "A opção mais precisa para o termo 'constipado' no contexto clínico é a hérnia inguinal, pois o paciente apresenta dor na região inguinal ao esforço e sente dor no local da cirurgia durante o ato evacuatório, sugerindo uma relação entre a constipação e a lesão abdominal",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção do sistema é considerar a constipação como uma hérnia inguinal, mas isso não faz sentido clinicamente. A constipação é um sintoma comum e não está diretamente relacionada à hérnia inguinal. Além disso, o prontuário descreve dor na região inguinal ao esforço e durante o ato evacuatório, sugerindo uma lesão abdominal, mas não especifica que essa lesão seja uma hérnia inguinal.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5A13.0": {
+      "term_original": "dm",
+      "capitulo": "05",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "Diabetes Mellitus (DM) é a doença mais provável considerando o contexto do paciente, especialmente tendo em conta que um irmão do paciente também tem DM.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'DM' não está diretamente relacionado à condição do paciente, que é a herniorrafia inguinal e hiperplasia prostática. A história familiar de diabetes mellitus do irmão do paciente não justifica a atribuição do código CID-11 5A13.0, pois não há evidência clínica de diabetes no prontuário.",
+      "tipo_erro_auditoria": "family_history_misread"
+    },
+    "QA15.Y": {
+      "term_original": "etilismo",
+      "capitulo": "24",
+      "confidence_embedding": 0.702,
+      "descricao_cid": "Representação de doença CID-11: Outro aconselhamento especificado relativo à sexualidade. Definição: ",
+      "classification_reasoning": "O termo 'etilismo' refere-se ao consumo de álcool, o que é relacionado ao aconselhamento relativo à sexualidade.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'etilismo' não se refere a uma condição clínica diretamente relacionada à doença descrita no prontuário. A descrição do código CID-11 indica que o termo 'etilismo' está relacionado ao aconselhamento relativo à sexualidade, o que não é diretamente relacionado à herniorrafia inguinal e hiperplasia prostatica descritas no prontuário. Portanto, a codificação CID-11 QA15.Y não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME05.0": {
+      "term_original": "dificuldade de se alimentar",
+      "capitulo": "21",
+      "confidence_embedding": 0.7385,
+      "descricao_cid": "Representação de doença CID-11: Constipação. Definição: A constipação é uma condição aguda ou crônica na qual os movimentos intestinais ocorrem com menor frequência do que o normal ou consiste em fezes secas e duras que costumam ser dolorosas ou difíceis de evacuar. Aqui está descrita a constipação que não está especificamente descrita em outra parte, como em transtornos da motilidade do intestino ou em doenças funcionais do intestino.",
+      "classification_reasoning": "A escolha do código ME05.0 se baseia na descrição do paciente como 'Paciente constipado de longo prazo, sente dor no local da cirurgia no ato evacuatorio'. Isso indica que o paciente apresenta sintomas de constipação crônica, o que é consistente com a definição da CID-11 para ME05.0.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do paciente como 'Paciente constipado de longo prazo, sente dor no local da cirurgia no ato evacuatorio' não é suficiente para justificar a classificação de ME05.0, que representa uma condição aguda ou crônica de constipação. A dor no local da cirurgia pode ser um sintoma secundário à hérnia inguinal e não necessariamente está relacionada à constipação. Além disso, a descrição do paciente não menciona fezes secas e duras ou dificuldade de evacuar, que são características essenciais da definição de ME05.0.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "FB32.20": {
+      "term_original": "cicatriz cirurgica",
+      "capitulo": "15",
+      "confidence_embedding": 0.7126,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A opção mais precisa para o termo 'cicatriz cirurgica' é a Rabdomiólise idiopática (FB32.20), pois refere-se à lesão muscular e ao extravazamento de conteúdo muscular, o que está relacionado à herniorrafia inguinal realizada no paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FB32.20 (Rabdomiólise idiopática) não é adequada para a descrição de 'cicatriz cirurgica' no prontuário, pois essa condição clínica não está relacionada à lesão muscular e extravazamento de conteúdo muscular descrita na definição do código. A cicatriz cirurgica é um resultado normal da herniorrafia inguinal realizada no paciente, e não há evidência de lesão muscular ou mioglobinúria. Portanto, a classificação FB32.20 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "QA77": {
+      "term_original": "tabagsmo",
+      "capitulo": "24",
+      "confidence_embedding": 0.7052,
+      "descricao_cid": "Representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano. Definição: ",
+      "classification_reasoning": "O termo 'tabagsmo' refere-se ao uso de tabaco, que está contraindicado para o paciente. A opção QA77 melhor se adequa ao contexto clínico pois descreve a representação de doença CID-11 relacionada à medicação ou substância contraindicada.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'tabagsmo' é diretamente relacionado à representação de doença CID-11, que descreve a contraindicação do uso de tabaco. A opção QA77 se adequa ao contexto clínico pois o paciente negou usar tabaco atualmente, mas fez uso social anteriormente. Portanto, a codificação é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "XA2XG2": {
+      "term_original": "qp",
+      "capitulo": "X",
+      "confidence_embedding": 0.7228,
+      "descricao_cid": "Representação de doença CID-11: Prega inguinocrural. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a representação de doença CID-11: Prega inguinocrural (XA2XG2), pois o termo 'QP' está relacionado à herniorrafia inguinal, que é um procedimento cirúrgico para reparar uma prega inguinocrural.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa é a representação de doença CID-11: Prega inguinocrural (XA2XG2), pois o termo 'QP' está relacionado à herniorrafia inguinal, que é um procedimento cirúrgico para reparar uma prega inguinocrural. A descrição do prontuário também menciona a dor na região inguinal ao esforço e a cicatriz cirurgica em região inguinal sem sinais de inflamação ou infecção, o que reforça a escolha do código CID-11.",
+      "tipo_erro_auditoria": null
+    },
+    "NB51.4": {
+      "term_original": "abaulamente",
+      "capitulo": "22",
+      "confidence_embedding": 0.7501,
+      "descricao_cid": "Representação de doença CID-11: Mordedura aberta do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A palavra 'abaulamente' está relacionada ao termo 'mordedura aberta do abdome, região lombar ou pelve', pois é um procedimento físico que envolve a compressão da região inguinal, o que está descrito na anamnese e no exame físico como sem sinais de inflamação/infecção ou secreção.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'abaulamente' não representa uma condição clínica diretamente relacionada à doença CID-11: Mordedura aberta do abdome, região lombar ou pelve. O termo refere-se a um procedimento físico que envolve compressão da região inguinal, enquanto o código CID-11 se refere a uma lesão abdominal. A classificação é inapropriada e não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "prontuario_id": 569,
+  "text": "Tx renal mar/2015 DVR\nPDN 5, FK 1 / 1 , SRL 1, CVD 3,125, macrodantina, Lantus 38, Lispro 5 / 10 / 8\nfev/16 : bx renal com RCA e pulsoterapia D5\nproblema familiar grave - filho preso\nS : Sem queixas.\nO : PA 160 x 90 FC 80 sem edema\nExames: Hb 11 / K 4,2 / PU com 1000mg proteínas / Cr 1,0 / NS FK 5,0\naguarda NS Rapa\nretorno em 3 semanas com exames\naumento CVD 3,125 x2\n \n ",
+  "entities": {
+    "Achado": [
+      "DVR"
+    ],
+    "Abreviação": [
+      "DVR",
+      "PDN",
+      "FK",
+      "SRL",
+      "CVD",
+      "RCA",
+      "PA",
+      "FC",
+      "PU",
+      "x2",
+      "Tx renal",
+      "bx renal",
+      "pulsoterapia D5",
+      "Hb 11",
+      "K 4 , 2",
+      "Cr 1 , 0",
+      "NS FK 5 , 0",
+      "NS Rapa"
+    ],
+    "Hormônio": [
+      "PDN",
+      "Lantus",
+      "Lispro"
+    ],
+    "Substância Farmacológica": [
+      "PDN",
+      "FK",
+      "SRL",
+      "CVD",
+      "macrodantina",
+      "Lantus",
+      "Lispro"
+    ],
+    "Substância Química Orgânica": [
+      "PDN",
+      "FK",
+      "SRL",
+      "CVD",
+      "macrodantina",
+      "Lantus",
+      "Lispro"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "1",
+      "38",
+      "80",
+      "x2",
+      "1 / 1",
+      "3 , 125",
+      "5 / 10 / 8",
+      "160 x 90"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "RCA",
+      "Hb 11",
+      "K 4 , 2",
+      "1000mg proteínas",
+      "Cr 1 , 0",
+      "NS FK 5 , 0"
+    ],
+    "Grupo Familiar": [
+      "filho"
+    ],
+    "Negação": [
+      "Sem",
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "queixas",
+      "edema",
+      "problema familiar grave"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC"
+    ],
+    "Função Patológica": [
+      "edema"
+    ],
+    "Procedimento Laboratorial": [
+      "Exames",
+      "PU",
+      "exames",
+      "NS Rapa"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "aumento"
+    ],
+    "Conceito Temporal": [
+      "x2"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Tx renal",
+      "pulsoterapia D5"
+    ],
+    "Procedimento Diagnóstico": [
+      "bx renal"
+    ]
+  },
+  "labels": {
+    "BD71.2": {
+      "term_original": "dvr",
+      "capitulo": "11",
+      "confidence_embedding": 0.7571,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A opção mais precisa é a BD71.2, pois o termo 'DVR' parece ser uma abreviatura para 'Derrame Venoso Renal', o que coincide com a definição de Trombose da veia renal (BD71.2) no CID-11.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa é a BD71.2, pois o termo 'DVR' parece ser uma abreviatura para 'Derrame Venoso Renal', o que coincide com a definição de Trombose da veia renal (BD71.2) no CID-11. A descrição do prontuário não apresenta contradições óbvias ou alucinações, e a abreviação médica 'DVR' é comum e faz sentido no contexto.",
+      "tipo_erro_auditoria": null
+    },
+    "MF56": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7669,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A opção MF56 é a mais precisa porque o termo 'queixas' se refere às queixas ou dores paroxísticas intensas no flanco, como descrito na definição da doença renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'queixas' não se refere diretamente à Cólica renal, descrita na definição do código CID-11 MF56. A queixa mencionada no prontuário é a dor paroxística intensa no flanco, mas isso não é o mesmo que Cólica renal. Além disso, a descrição da doença renal menciona náuseas e vômitos, que também não estão presentes no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "CB01": {
+      "term_original": "edema",
+      "capitulo": "12",
+      "confidence_embedding": 0.7579,
+      "descricao_cid": "Representação de doença CID-11: Edema pulmonar. Definição: Edema pulmonar é uma condição causada por excesso de líquido nos pulmões, que se acumula nos sacos alveolares do pulmão, dificultando a respiração.",
+      "classification_reasoning": "A presença de edema no prontuário clínico justifica a escolha do código CB01, que descreve o edema pulmonar como uma condição causada por excesso de líquido nos pulmões.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'edema' está presente no prontuário, mas não há indicação de que o edema seja pulmonar. A presença de edema pode ser relacionada a outras condições clínicas, como insuficiência cardíaca ou doença renal crônica. Portanto, a escolha do código CB01, que descreve especificamente edema pulmonar, não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "QE70.0": {
+      "term_original": "problema familiar grave",
+      "capitulo": "24",
+      "confidence_embedding": 0.7471,
+      "descricao_cid": "Representação de doença CID-11: Suporte familiar inadequado. Definição: ",
+      "classification_reasoning": "A opção mais precisa é QE70.0, pois o termo 'problema familiar grave' se refere a uma situação em que o suporte familiar não está adequado, o que é compatível com a definição da representação de doença CID-11.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção QE70.0 é válida pois o termo 'problema familiar grave' se refere a uma situação em que o suporte familiar não está adequado, o que é compatível com a definição da representação de doença CID-11. A codificação é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

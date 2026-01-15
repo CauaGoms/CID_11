@@ -1,0 +1,57 @@
+{
+  "prontuario_id": 293,
+  "text": "# IMC 38,\n\n# HAS, HIPOTIREOIDISMO E HIPERTRIGLICERIDEMIA.\n\n# DISCUTO CASO COM PRECEPTORIA. CONFORME ORIENTADO: SOLICITO ENCAMINHAMENTO PARA CX BARIATRICA.",
+  "entities": {
+    "Abreviação": [
+      "HAS",
+      "IMC 38",
+      "CX BARIATRICA"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "HIPOTIREOIDISMO",
+      "HIPERTRIGLICERIDEMIA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "PRECEPTORIA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "IMC 38"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CX BARIATRICA"
+    ]
+  },
+  "labels": {
+    "5A00.0": {
+      "term_original": "hipotireoidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.8258,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo congênito. Definição: Hipotireoidismo congênito é caracterizado quando ao nascimento observar-se pouca ou nenhuma produção dos hormônios tireoidianos. Achados clínicos comuns incluem atividade diminuída e sonolência exacerbada, dificuldade de alimentação e constipação, icterícia prolongada, fácies mixedematosa, alargamento de fontanelas (especialmente fontanela posterior), macroglossia, abdome distendido com hérnia umbilical e hipotonia.",
+      "classification_reasoning": "O hipotireoidismo congênito é a opção mais precisa para o termo 'hipotireoidismo' no contexto do prontuário, pois apresenta características clínicas comuns como sonolência exacerbada, dificuldade de alimentação e constipação, icterícia prolongada, fácies mixedematosa, alargamento de fontanelas (especialmente fontanela posterior), macroglossia, abdome distendido com hérnia umbilical e hipotonia. Esta opção também se ajusta melhor ao contexto clínico do paciente, que apresenta IMC elevado e solicita encaminhamento para CX bariátrica.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção do código CID-11 '5A00.0' para o termo 'hipotireoidismo' é válida porque apresenta características clínicas comuns descritas no prontuário, como sonolência exacerbada e dificuldade de alimentação, que são consistentes com a definição do hipotireoidismo congênito. Além disso, o contexto clínico do paciente, que inclui IMC elevado e solicita encaminhamento para CX bariátrica, também se ajusta à definição do hipotireoidismo congênito. Portanto, a codificação CID-11 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "EC16.2": {
+      "term_original": "hipertrigliceridemia",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha é baseada na descrição do termo 'hipertrigliceridemia', que se refere a um nível anormalmente alto de triglicerídeos no sangue, o que está relacionado ao metabolismo lipídico e pode ser um fator de risco cardiovascular. O código EC16.2 é a representação de doença CID-11 para 'Elevações anormais de lipoproteínas'.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código EC16.2 é justificada pela descrição do termo 'hipertrigliceridemia', que se refere a um nível anormalmente alto de triglicerídeos no sangue, o que está relacionado ao metabolismo lipídico e pode ser um fator de risco cardiovascular. A codificação é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "5A61.0": {
+      "term_original": "has",
+      "capitulo": "05",
+      "confidence_embedding": 0.7867,
+      "descricao_cid": "Representação de doença CID-11: Hipopituitarismo. Definição: Transtorno que manifesta deficiência ou diminuição de um ou mais hormônios hipofisários, que é causado por várias doenças , tais como tumor, traumatismo/cirurgia, irradiação, inflamação e hemorragia/infarto.",
+      "classification_reasoning": "Escolhi o código 5A61.0 devido à menção de 'HAS' no prontuário, que se refere a hipopituitarismo, um estado caracterizado por deficiência ou diminuição de um ou mais hormônios hipofisários.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A menção de 'HAS' no prontuário se refere a Hipopituitarismo, que é um estado caracterizado por deficiência ou diminuição de um ou mais hormônios hipofisários. No entanto, o termo 'HAS' não é uma abreviação médica comum ou sinônimo que faz sentido no contexto. A codificação CID-11 5A61.0 não representa fielmente a condição descrita no prontuário, pois o HAS mencionado não está relacionado à hipopituitarismo.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

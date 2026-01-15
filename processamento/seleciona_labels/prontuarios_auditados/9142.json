@@ -1,0 +1,58 @@
+{
+  "prontuario_id": 228,
+  "text": "23º PO DE HERNIOPLASTIA INCISIONAL.\n\nS: # SEM QUEIXAS.\n\nO: # BEG, LOTE.\n   FO EM BOM ESTADO.\n\nP: # RETORNO EM 60 DIAS.        ",
+  "entities": {
+    "Abreviação": [
+      "PO",
+      "BEG",
+      "LOTE",
+      "FO"
+    ],
+    "Conceito Temporal": [
+      "PO",
+      "60 DIAS"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS"
+    ],
+    "Achado": [
+      "BEG",
+      "LOTE",
+      "BOM ESTADO"
+    ],
+    "Lesão ou Envenenamento": [
+      "FO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "RETORNO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "HERNIOPLASTIA INCISIONAL"
+    ]
+  },
+  "labels": {
+    "XA0V25": {
+      "term_original": "fo",
+      "capitulo": "X",
+      "confidence_embedding": 0.7534,
+      "descricao_cid": "Representação de doença CID-11: Tendão do transverso do abdome. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'fo' no contexto de uma hernioplastia incisional é a representação do tendão do transverso do abdome, pois 'fo' parece ser uma abreviação comum para este termo anatômico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'fo' no contexto de uma hernioplastia incisional é a representação do tendão do transverso do abdome, pois 'fo' parece ser uma abreviação comum para este termo anatômico. Ajusta-se às diretrizes de auditoria, pois o código CID-11 XA0V25 representa fielmente o termo descrito no prontuário e não há contradição óbvia ou alucinação.",
+      "tipo_erro_auditoria": null
+    },
+    "XA1HT1": {
+      "term_original": "lote",
+      "capitulo": "X",
+      "confidence_embedding": 0.7425,
+      "descricao_cid": "Representação de doença CID-11: Tendão do reto abdominal. Definição: ",
+      "classification_reasoning": "A opção mais precisa é o código XA1HT1, correspondente ao Tendão do reto abdominal, pois 'lote' está relacionado a uma estrutura anatômica e não à representação de doença.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção XA1HT1, correspondente ao Tendão do reto abdominal, não representa fielmente o termo 'lote', que é uma estrutura anatômica e não uma representação de doença. Ajuste necessário para garantir a coerência clínica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

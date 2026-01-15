@@ -1,0 +1,72 @@
+{
+  "prontuario_id": 953,
+  "text": "Paciente interna com história de dispnéia acompanhada de sibilância e tosse. Sem perda de função renal. Imagem sugestiva de Pneumonia na radiografia de tórax. Iniciou tratamento com PIPERACILINA/TAZOBACTAN 4.5 G 3 X DIA, obtendo melhora dos sintomas. No momento da alta clinicamente estável.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "interna",
+      "alta"
+    ],
+    "Sinal ou Sintoma": [
+      "dispnéia",
+      "sibilância",
+      "tosse"
+    ],
+    "Negação": [
+      "Sem"
+    ],
+    "Doença ou Síndrome": [
+      "Pneumonia"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "tratamento"
+    ],
+    "Substância Farmacológica": [
+      "PIPERACILINA/TAZOBACTAN"
+    ],
+    "Procedimento Diagnóstico": [
+      "radiografia de tórax"
+    ],
+    "Conceito Quantitativo": [
+      "3 X DIA"
+    ],
+    "Achado": [
+      "melhora dos sintomas",
+      "clinicamente estável"
+    ]
+  },
+  "labels": {
+    "CA40": {
+      "term_original": "pneumonia",
+      "capitulo": "12",
+      "confidence_embedding": 0.8156,
+      "descricao_cid": "Representação de doença CID-11: Pneumonia. Definição: Doença dos pulmões, frequentemente, mas nem sempre, causada por uma infecção por bactérias, vírus, fungos ou parasitas. Esta doença é caracterizada por febre, calafrios, tosse produtiva, dor no peito e falta de ar. A confirmação é feita, por exemplo, por radiografia do tórax.",
+      "classification_reasoning": "A escolha do Código CA40 se justifica pelo fato de a paciente ter pneumonia caracterizada por dispnéia, sibilância e tosse, sem perda de função renal. A radiografia de tórax sugestiva de pneumonia também apoia essa escolha. O tratamento com PIPERACILINA/TAZOBACTAN 4,5 G 3 X DIA e a melhora dos sintomas corroboram a ideia de uma pneumonia bacteriana, justificando a escolha do Código CA40.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do Código CA40 se baseia na radiografia de tórax sugestiva de pneumonia, mas o prontuário não confirma a presença de outras complicações graves associadas à pneumonia, como perda de função renal. Além disso, a melhora dos sintomas após o tratamento com PIPERACILINA/TAZOBACTAN 4,5 G 3 X DIA sugere que a pneumonia pode ser bacteriana, mas não há evidência clínica suficiente para confirmar essa hipótese. Portanto, a escolha do Código CA40 é demasiado específica e não representa fielmente o termo 'pneumonia' descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA40.11": {
+      "term_original": "tosse",
+      "capitulo": "12",
+      "confidence_embedding": 0.7507,
+      "descricao_cid": "Representação de doença CID-11: Pneumonia devida ao vírus sincicial respiratório. Definição: Doença causada por uma infecção pelo vírus sincicial respiratório. É caracterizada por uma condição inflamatória dos pulmões comumente afetando os alvéolos (pneumonia), levando a tosse, espirros, febre ou chieira torácica. Esta doença pode ser grave em bebês prematuros e naqueles com doença concomitante ou imunossupressão. A transmissão ocorre por contato direto, transmissão por gotículas, ou contato indireto com secreções respiratórias infectadas. A confirmação é feita pela identificação do vírus sincicial respiratório, comumente por meio de detecção de antígenos ou cultura de células.",
+      "classification_reasoning": "A história de dispnéia acompanhada de sibilância e tosse sugere uma infecção viral respiratória, e o código CA40.11 (Pneumonia devida ao vírus sincicial respiratório) é a opção mais precisa considerando a melhora dos sintomas após o tratamento com PIPERACILINA/TAZOBACTAN.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A história de dispnéia acompanhada de sibilância e tosse não é compatível com a definição do código CA40.11 (Pneumonia devida ao vírus sincicial respiratório), que se refere especificamente a uma infecção viral respiratória caracterizada por tosse, espirros, febre ou chieira torácica. A melhora dos sintomas após o tratamento com PIPERACILINA/TAZOBACTAN não é suficiente para justificar a atribuição desse código, pois a história clínica apresenta características mais compatíveis com uma pneumonia bacteriana do que viral.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA40.10": {
+      "term_original": "dispnéia",
+      "capitulo": "12",
+      "confidence_embedding": 0.8122,
+      "descricao_cid": "Representação de doença CID-11: Pneumonia devida a Adenovírus. Definição: Doença do sistema pulmonar, causada por uma infecção por um adenovírus. Esta doença caracterizada por febre, calafrios, ou rigores. Pode também se apresentar com dor torácica, tosse produtiva, dispneia, taquipneia, hipóxia e taquicardia. A transmissão ocorre por gotículas. A confirmação é feita pela identificação do adenovírus em amostra de escarro.",
+      "classification_reasoning": "A dispnéia é um sintoma característico de Pneumonia, e o contexto clínico menciona a presença de sibilância e tosse, sugerindo uma Pneumonia bacteriana. Além disso, o tratamento com Piperacilina/Tazobactan indica que se está lidando com uma Pneumonia causada por um patógeno sensível a este medicamento.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dispnéia é um sintoma comum em várias doenças, e não há evidência clínica suficiente no prontuário para confirmar que a Pneumonia seja causada por Adenovírus. A presença de sibilância e tosse sugere uma Pneumonia bacteriana, e o tratamento com Piperacilina/Tazobactan confirma essa hipótese. Portanto, a codificação CA40.10 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    }
+  }
+}

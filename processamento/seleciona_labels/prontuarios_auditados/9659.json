@@ -1,0 +1,189 @@
+{
+  "prontuario_id": 754,
+  "text": "POS TX RENAL.\n\nPOS TX RENAL - CR 0,92 - NS FK 6,0.\nHAS - BOM CONTROLE.\nPOS TROMBOSE DE FAV - DOPPLER OK.\nPOLIGLOBULIA - MELHORA COM IECA.\n \n \nTX RENAL - JAN/2015 - DC.\nTROMBOSE DE FAV - DOPPLER CONTROLE OK.\nUSO DE: MTC 5, FK 4 / 4, MS 2 / 2, BACTRIM, CVD 25, AAS 100, ENALAPRIL 5.\nS # TEVE QUADRO DE LUMBAGO.\nHOJE COM QUEIXA DE DOR EM JOELHO (TEM CONDROCALCINOSE).\n\nO # BEG, CORADO, HIDRATADO.\nPA 100/60.\nMV POSITIVO, SIMETRICO.\nBCRNF.\nABDOMEN FLACIDO, SEM MASSAS, RHA POSITIVOS.\nMEMBROS DISCRETO EDEMA.",
+  "entities": {
+    "Abreviação": [
+      "HAS",
+      "DC",
+      "MTC",
+      "FK",
+      "MS",
+      "CVD",
+      "AAS",
+      "S",
+      "O",
+      "BEG",
+      "PA",
+      "BCRNF",
+      "TX RENAL",
+      "CR 0 , 92",
+      "NS FK 6 , 0",
+      "TROMBOSE DE FAV",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "POLIGLOBULIA",
+      "CONDROCALCINOSE",
+      "TROMBOSE DE FAV"
+    ],
+    "Achado": [
+      "DC",
+      "S",
+      "BEG",
+      "CORADO",
+      "HIDRATADO",
+      "SIMETRICO",
+      "BCRNF",
+      "BOM CONTROLE",
+      "MELHORA COM IECA",
+      "TX RENAL",
+      "TROMBOSE DE FAV",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "FK",
+      "MS",
+      "BACTRIM",
+      "CVD",
+      "AAS",
+      "ENALAPRIL"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "FK",
+      "MS",
+      "BACTRIM",
+      "CVD",
+      "AAS",
+      "ENALAPRIL"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "25",
+      "100",
+      "100/60"
+    ],
+    "Conceito Temporal": [
+      "HOJE"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "JOELHO",
+      "ABDOMEN",
+      "MEMBROS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "MASSAS",
+      "EDEMA",
+      "QUADRO DE LUMBAGO",
+      "QUEIXA DE",
+      "DOR"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 92",
+      "NS FK 6 , 0",
+      "DOPPLER OK",
+      "DOPPLER CONTROLE OK"
+    ]
+  },
+  "labels": {
+    "FA26.2": {
+      "term_original": "condrocalcinose",
+      "capitulo": "15",
+      "confidence_embedding": 0.7492,
+      "descricao_cid": "Representação de doença CID-11: Condrocalcinose. Definição: A condrocalcinose refere-se à calcificação radiográfica das estruturas fibrocartilaginosas e/ou cartilagem hialina e não é específica para DPFC ou outra doença por deposição de cristais. Nos diversos países em que doença por deposição de pirofosfato de cálcio familiar l (DPFC Familiar l ) foi descrita, alguns indivíduos com o mesmo grau de parentesco tiveram a DPFC associada à mutação ANKH no cromossomo 5p.",
+      "classification_reasoning": "A condrocalcinose é a doença mencionada no contexto como causa de dor no joelho do paciente, e o código FA26.2 é a representação CID-11 para essa condição.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A condrocalcinose é uma condição clínica descrita no prontuário como causa de dor no joelho do paciente. O código CID-11 FA26.2 representa fielmente essa condição, portanto, a codificação é válida.",
+      "tipo_erro_auditoria": null
+    },
+    "FA80.8": {
+      "term_original": "quadro de lumbago",
+      "capitulo": "15",
+      "confidence_embedding": 0.7218,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa é FA80.8, Degeneração de disco intervertebral da coluna lombar sem prolapso de disco, pois o termo 'quadro de lumbago' se refere a uma lesão na região lombar caracterizada por dor e desconforto, que é consistentemente associada à degeneração do disco intervertebral.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção FA80.8, Degeneração de disco intervertebral da coluna lombar sem prolapso de disco, é a mais precisa para representar o termo 'quadro de lumbago' descrito no prontuário. A dor e desconforto na região lombar são sintomas comuns associados à degeneração do disco intervertebral, portanto, a codificação CID-11 está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "DB98.5": {
+      "term_original": "massas",
+      "capitulo": "13",
+      "confidence_embedding": 0.7154,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de Budd-Chiari. Definição: Síndrome de Budd-Chiari (SBC) é causada por obstrução do fluxo venoso de saída hepático, envolvendo ou as veias hepáticas ou o segmento terminal da veia cava inferior e levando a congestão hepática e necrose isquêmica. A gravidade depende da velocidade de início e extensão da obstrução. As obstruções são geralmente causadas por trombose na SBC primária, enquanto na SBC secundária resulta de invasão tumoral do lúmen ou compressão da veia por uma lesão expansiva. As principais manifestações da SBC são ascite levando a desnutrição e insuficiência renal, hemorragia gastrointestinal devida a hipertensão portal e insuficiência hepática resultando em encefalopatia e infecções graves. Formas assintomáticas também já foram descritas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'massas' no contexto clínico é a Síndrome de Budd-Chiari (DB98.5), pois há referência à representação de doença CID-11 e ao termo 'massas' está relacionado às manifestações da síndrome, como ascite levando a desnutrição e insuficiência renal.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção DB98.5 (Síndrome de Budd-Chiari) é justificada pela presença de 'massas' no prontuário, que se refere à ascite e insuficiência renal, manifestações da síndrome. A codificação CID-11 está clinicamente coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MF56": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7782,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A dor no joelho e flanco, associada a história de lumbago e condrocalcinose, é mais compatível com uma representação de doença renal, como cálculo renal ou pólipos na pelve renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor no joelho e flanco pode ser um sintoma, mas não é uma representação de doença renal específica. A história de lumbago e condrocalcinose também não está diretamente relacionada à dor renal. Portanto, o código CID-11 MF56 não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BD71.2": {
+      "term_original": "trombose de fav",
+      "capitulo": "11",
+      "confidence_embedding": 0.7931,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A trombose de Fav é um termo específico que se refere à trombose na veia renal, o que é corroborado pela informação 'TROMBOSE DE FAV - DOPPLER OK' no prontuário do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 BD71.2 'Trombose da veia renal' não é adequada porque a trombose de Fav mencionada no prontuário se refere à trombose na veia femoral, e não na veia renal. A descrição do código CID-11 não condiz com o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "3B65": {
+      "term_original": "poliglobulia",
+      "capitulo": "03",
+      "confidence_embedding": 0.7183,
+      "descricao_cid": "Representação de doença CID-11: Microangiopatia trombótica, não classificada em outra parte.. Definição: Microangiopatias trombóticas são transtornos de oclusão microvascular caracterizados por agregação sistêmica ou intrarrenal de plaquetas, trombocitopenia e lesão mecânica dos eritrócitos. A púrpura trombocitopênica trombótica (PTT) e a síndrome hemolítico-urêmica (SHU) representam um espectro das microangiopatias trombóticas. Na PTT, a agregação sistêmica de plaquetas na microcirculação causa isquemia no cérebro e em outros órgãos. Na SHU, trombos de fibrina-plaquetas ocluem predominantemente a circulação renal.",
+      "classification_reasoning": "A poliglobulia é mencionada como tendo melhorado com uso de ieca, o que sugere uma possível relação com trombose venosa. Além disso, a presença de trombose de fav (Doppler OK) também apoia essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A poliglobulia mencionada no prontuário é um achado laboratorial, não uma doença clínica. O código CID-11 3B65 refere-se a microangiopatia trombótica, que não está relacionada à poliglobulia. Além disso, o termo 'poliglobulia' não está diretamente relacionado à trombose venosa ou ao quadro de lumbago descritos no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GB60.0": {
+      "term_original": "tx renal",
+      "capitulo": "16",
+      "confidence_embedding": 0.7659,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência renal aguda, estágio 1. Definição: Taxa de alteração da creatinina sérica: aumento 1,5-1,9 vezes o valor basal em 7 dias OU aumento de 0,3 mg/dl em 48 h OU Magnitude da produção de urina: <0,5 ml/kg/h por 6-12 horas",
+      "classification_reasoning": "A paciente apresenta história de TX Renal e sintomas de insuficiência renal aguda, como dor em joelho e edema nos membros. Além disso, a presença de poliglobulia e trombose de fav-DOPPLER OK sugere uma possível complicação renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 atribuída (GB60.0) refere-se a Insuficiência renal aguda, estágio 1, o que não é compatível com a história de TX Renal e sintomas de insuficiência renal aguda descritos no prontuário. A paciente apresenta dor em joelho e edema nos membros, mas a codificação CID-11 atribuída não captura essa informação. Além disso, a presença de poliglobulia e trombose de fav-DOPPLER OK sugere uma possível complicação renal que não está contemplada na descrição do código CID-11.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "FB50.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7229,
+      "descricao_cid": "Representação de doença CID-11: Cisto sinovial do espaço poplíteo. Definição: Este é o edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho",
+      "classification_reasoning": "A presença de edema no contexto de uma história de lumbago e dor em joelho, associada à condrocalcinose, sugere que o termo 'edema' se refere mais provavelmente ao edema benigno da bursa ou bolsa sinovial do espaço poplíteo (FB50.2), do que a outros quadros de doenças, como rabdomiólise idiopática (FB32.20) ou reumatismo palindrômico (FA27.2). A condrocalcinose e as lesões articulares sugerem um envolvimento mais amplo da articulação do joelho, o que é compatível com a hipótese de uma bursite do espaço poplíteo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A condrocalcinose e a dor no joelho sugerem que o edema pode ser relacionado à artrose ou outra condição articulare, não necessariamente uma bursite do espaço poplíteo. Além disso, a história de lumbago também sugere um envolvimento mais amplo da coluna vertebral e músculos, o que é compatível com outras entidades clínicas diferentes da FB50.2.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "prontuario_id": 174,
+  "text": "Tx renal DC set/2012.\nMTC 5, FK 1/2, MS 2/1, ATN 50 x2, OMp 20, SVT 20, ENL 10 x2.\nS: Sem queixas.\nO: PA 110 x 70, FC 80, sem edema, Peso 51,5 kg.\nExames: Cr 0.8 / Hb 13 / PU OK / UC contaminação / NS FK 5,0.\n \nretorno em 3 meses com exames.\nLME.\nrotina anual + vermífugo.\nencaminhar na próxima consulta para vacinas (aguardo anti-Hbs).\n \n ",
+  "entities": {
+    "Abreviação": [
+      "DC",
+      "MTC",
+      "FK",
+      "MS",
+      "ATN",
+      "OMp",
+      "SVT",
+      "ENL",
+      "S",
+      "O",
+      "PA",
+      "FC",
+      "LME",
+      "Tx renal",
+      "Hb 13"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "FK",
+      "MS",
+      "ATN",
+      "OMp",
+      "SVT",
+      "ENL",
+      "vermífugo"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "1/2",
+      "2/1",
+      "20",
+      "80",
+      "110 x 70",
+      "51 , 5 kg"
+    ],
+    "Substância Química Orgânica": [
+      "ATN",
+      "OMp",
+      "SVT"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "ENL"
+    ],
+    "Achado": [
+      "S"
+    ],
+    "Negação": [
+      "Sem",
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "queixas",
+      "edema"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O",
+      "retorno",
+      "rotina anual"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "FC"
+    ],
+    "Função Patológica": [
+      "edema"
+    ],
+    "Atributo de Organismo": [
+      "Peso"
+    ],
+    "Procedimento Laboratorial": [
+      "Exames",
+      "anti-Hbs"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "vermífugo",
+      "vacinas",
+      "Tx renal"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Cr 0",
+      "Hb 13",
+      "PU OK",
+      "UC contaminação",
+      "NS FK 5 , 0"
+    ]
+  },
+  "labels": {
+    "MG02": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7433,
+      "descricao_cid": "Representação de doença CID-11: Resultados de estudos de função renal. Definição: ",
+      "classification_reasoning": "O termo 'queixas' não se refere a uma doença específica, mas sim ao fato de o paciente não ter apresentado queixas. Isso está relacionado à avaliação clínica do paciente, e não à apresentação de sintomas específicos de uma doença renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'queixas' não está relacionado à doença renal, mas sim à ausência de sintomas. A codificação CID-11 MG02 não representa fielmente o termo descrito no prontuário. Ajuste necessário para uma codificação mais precisa e clínica.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BD93": {
+      "term_original": "edema",
+      "capitulo": "11",
+      "confidence_embedding": 0.762,
+      "descricao_cid": "Representação de doença CID-11: Linfedema. Definição: Edema devido ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Geralmente afeta as extremidades, mas pode envolver qualquer parte do corpo. É desfigurante e aumenta a suscetibilidade a infecções recorrentes e malignidades locais.",
+      "classification_reasoning": "A opção mais precisa é a BD93, pois o termo 'edema' está presente no contexto clínico e se refere ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'edema' está presente no prontuário e se refere ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Isso é coerente com a definição do código CID-11 BD93. Portanto, a codificação é válida e representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

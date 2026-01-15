@@ -1,0 +1,60 @@
+{
+  "prontuario_id": 242,
+  "text": "PACIENTE COM HÉRNIA SUBXIFÓIDEA, HÉRNIA UMBILICAL E HÉRNIA INGUINAL. \nJA RECEBEU ALTA DA CIRURGIA BARIÁTRICA. PÓS-OP DE 1 ANO E MEIO. \nCONDUTA: ENCAMINHADA PARA CIRURGIA GERAL.\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ALTA",
+      "CONDUTA"
+    ],
+    "Conceito Temporal": [
+      "PÓS-OP"
+    ],
+    "Abreviação": [
+      "PÓS-OP"
+    ],
+    "Anormalidade Anatômica": [
+      "HÉRNIA SUBXIFÓIDEA",
+      "HÉRNIA UMBILICAL",
+      "HÉRNIA INGUINAL"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "CIRURGIA BARIÁTRICA",
+      "CIRURGIA GERAL"
+    ]
+  },
+  "labels": {
+    "FA38.8": {
+      "term_original": "hérnia inguinal",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'hérnia inguinal' é FA38.8, que é a representação de doença CID-11: Hérnia de disco intervertebral da coluna lombar sem prolapso de disco, seguida por uma lista de hérnias, incluindo hérnia inguinal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hérnia inguinal é uma condição clínica específica e não se relaciona com a doença CID-11 FA38.8, que refere-se a hérnias de disco intervertebral da coluna lombar sem prolapso de disco. A codificação não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA32.8": {
+      "term_original": "hérnia subxifóidea",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A descrição do termo extraído 'hérnia subxifóidea' indica uma lesão no tecido conectivo abaixo do fáscio abdome inferior, que está relacionada à falha na fechamento da abertura abdominal durante a formação embrionária. O código FA32.8 é o mais preciso para este termo dentro do contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo extraído 'hérnia subxifóidea' indica uma lesão no tecido conectivo abaixo do fáscio abdome inferior, que está relacionada à falha na fechamento da abertura abdominal durante a formação embrionária. O código FA32.8 é o mais preciso para este termo dentro do contexto clínico.",
+      "tipo_erro_auditoria": null
+    },
+    "FA42.2": {
+      "term_original": "hérnia umbilical",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A hérnia umbilical é uma lesão nodular semelhante a tumor ou de conteúdo mucóide, originada de uma bainha tendínea, ligamentos ou cápsula articular, que acomete especialmente as mãos, o punho ou os pés. Como não há outras opções relacionadas à hérnia umbilical, essa é a escolha mais precisa para o termo dentro do contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hérnia umbilical é uma lesão descrita no prontuário, e o código CID-11 FA42.2 representa fielmente essa condição clínica. A descrição do código CID-11 também se alinha com a definição de hérnia umbilical apresentada. Portanto, a codificação é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

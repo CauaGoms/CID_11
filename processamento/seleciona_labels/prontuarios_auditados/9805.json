@@ -1,0 +1,164 @@
+{
+  "prontuario_id": 277,
+  "text": "03:45 H CLIENTE PROVENIENTE DO PRONTO ATENDIMENTO NO PERIODO DA TARDE, PARA TRATAMENTO DE ESCARA SACRAL, INTERNA PARA REALIZAR DEBRIDAMENTO. ACAMADA, ALERTA, EUPNEICA, AFEBRIL, ORIENTADA, EMAGRECIDA, HEMATOMA EM FACE ESQUERDA. ACEITA DIETA OFERECIDA. MANTEM ACESSO PERIFERICO EM MSD SALINIZADO. ABDOMEM GLOBOSO E FLACIDO. APRESENTA CURATIVO REGIÃO DE ÚLCERA SACRA COM ODOR FÉTIDO E PRESENÇA DE NECROSE. ELIMINAÇÕES EM FRALDA. REALIZADO MEDIDAS DE CONFORTO E MUDANÇA DE DECUBITO. SEGUE EM OBSERVAÇÃO E CUIDADOS. Enfermeira Florence Nightingale . EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO.",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "TRATAMENTO",
+      "OBSERVAÇÃO",
+      "CUIDADOS",
+      "MEDIDAS DE CONFORTO",
+      "EXAME GERAL"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TRATAMENTO",
+      "DEBRIDAMENTO",
+      "DIETA",
+      "CURATIVO",
+      "ACESSO PERIFERICO",
+      "MUDANÇA DE DECUBITO"
+    ],
+    "Sinal ou Sintoma": [
+      "ACAMADA",
+      "AFEBRIL",
+      "EMAGRECIDA",
+      "HEMATOMA",
+      "NECROSE",
+      "QUEIXAS",
+      "ODOR FÉTIDO"
+    ],
+    "Achado": [
+      "ALERTA",
+      "EUPNEICA",
+      "ORIENTADA",
+      "GLOBOSO",
+      "FLACIDO"
+    ],
+    "Negação": [
+      "AFEBRIL",
+      "SEM"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MSD",
+      "ABDOMEM"
+    ],
+    "Abreviação": [
+      "MSD"
+    ],
+    "Dispositivo Médico": [
+      "CURATIVO",
+      "FRALDA",
+      "ACESSO PERIFERICO"
+    ],
+    "Função de Órgão ou Tecido": [
+      "NECROSE"
+    ],
+    "Objeto Manufaturado": [
+      "FRALDA"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Organização Relacionada à Saúde": [
+      "PRONTO ATENDIMENTO"
+    ],
+    "Conceito Temporal": [
+      "PERIODO DA TARDE"
+    ],
+    "Doença ou Síndrome": [
+      "ESCARA SACRAL",
+      "DIAGNOSTICO RELATADO ."
+    ],
+    "Localização ou Região Corporal": [
+      "FACE ESQUERDA",
+      "REGIÃO DE ÚLCERA SACRA"
+    ],
+    "Conceito Qualitativo": [
+      "ODOR FÉTIDO"
+    ],
+    "Procedimento Diagnóstico": [
+      "INVESTIGACAO DE PESSOAS"
+    ]
+  },
+  "labels": {
+    "NB51.2": {
+      "term_original": "acamada",
+      "capitulo": "22",
+      "confidence_embedding": 0.7508,
+      "descricao_cid": "Representação de doença CID-11: Ferimento perfurante sem corpo estranho do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A paciente está 'acamada', o que sugere ferimento perfurante sem corpo estranho do abdome, região lombar ou pelve.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente está 'acamada', o que não é um termo que represente fielmente a condição clínica descrita no prontuário. A acamada refere-se à falta de mobilidade ou movimento, enquanto o código CID-11 NB51.2 se refere a ferimentos perfurantes do abdome, região lombar ou pelve. Essa classificação não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA80.8": {
+      "term_original": "globoso",
+      "capitulo": "15",
+      "confidence_embedding": 0.7266,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A descrição 'Globoso' refere-se à texture ou aspecto do abdome, que é descrito como 'ABDOMEM GLOBOSO E FLACIDO', o que sugere uma alteração na forma e consistência do abdome semelhante à degeneração de disco intervertebral da coluna lombar (FA80.8).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição 'Globoso' no prontuário refere-se à texture ou aspecto do abdome, que é descrito como 'ABDOMEM GLOBOSO E FLACIDO'. Embora a degeneração de disco intervertebral da coluna lombar (FA80.8) possa apresentar alterações na forma e consistência do abdome, a descrição 'Globoso' não está clinicamente relacionada à FA80.8. A classificação é demasiado genérica e não reflete a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "EB31": {
+      "term_original": "hematoma",
+      "capitulo": "14",
+      "confidence_embedding": 0.7816,
+      "descricao_cid": "Representação de doença CID-11: Eritema nodoso. Definição: Erupção eritematosa comumente associada a reações a medicamentos ou infecção e caracterizada por nódulos inflamatórios que geralmente são dolorosos, múltiplos e bilaterais. Esses nódulos localizam-se predominantemente na face anterior das pernas, com ocorrência menos comum nas coxas e antebraços. Eles sofrem mudanças de cor características que terminam em áreas temporárias semelhantes a hematomas. Esta condição geralmente desaparece em 3-6 semanas sem cicatriz ou atrofia.",
+      "classification_reasoning": "A opção mais precisa é o código EB31, que descreve uma erupção eritematosa com nódulos inflamatórios que podem apresentar mudanças de cor características terminando em áreas temporárias semelhantes a hematomas. Isso se adequa ao hematoma descrito no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'hematoma' no prontuário descreve uma lesão localizada e não uma erupção eritematosa com nódulos inflamatórios, como descrito pelo código CID-11 EB31. Além disso, o hematoma descrito no prontuário é um achado físico, enquanto a definição do código EB31 se refere a uma condição clínica. Portanto, não há correspondência entre o termo e a descrição do código.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EB60.0": {
+      "term_original": "escara sacral",
+      "capitulo": "14",
+      "confidence_embedding": 0.734,
+      "descricao_cid": "Representação de doença CID-11: Líquen escleroso da vulva. Definição: Líquen escleroso da vulva é um transtorno inflamatório de etiologia desconhecida que afeta a pele da vulva e da área perianal. Tipicamente afeta mulheres na quinta e sexta décadas de vida, embora não seja incomum em meninas pré-púberes. Ele se apresenta com prurido, dor ou dispareunia. A pele afetada é branca e atrófica, embora alterações secundárias, incluindo maceração, púrpura e erosão, possam dominar o quadro clínico. Em casos de longa data, pode haver redução acentuada da vulva, fusão labial e um risco aumentado de transformação maligna.",
+      "classification_reasoning": "A descrição do termo 'escara sacral' sugere a presença de uma lesão na área perianal, característica do líquen escleroso da vulva (EB60.0). A menção de odor fétido e presença de necrose também é consistente com essa condição.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'escara sacral' não se refere a uma lesão na área perianal, característica do líquen escleroso da vulva (EB60.0). A presença de odor fétido e necrose sugere mais uma condição inflamatória ou infectosa, como úlcera sacral, que não é representada pelo código CID-11 EB60.0.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EB13.1": {
+      "term_original": "odor fétido",
+      "capitulo": "14",
+      "confidence_embedding": 0.7608,
+      "descricao_cid": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável.",
+      "classification_reasoning": "A presença de odor fétido na curatelo regional da úlcera sacral sugere a possibilidade de necrólise epidérmica tóxica (NET), uma doença cutânea aguda com risco de vida.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de odor fétido na curatelo regional da úlcera sacral não é suficiente para justificar a classificação de Necrólise Epidérmica Tóxica (NET). Embora o termo 'odor fétido' possa sugerir uma doença grave, a falta de outros sintomas e achados clínicos que caracterizem a NET, como eritema, necrose e descolamento bolhoso da epiderme, não justificam a atribuição do código CID-11 EB13.1.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB22.7": {
+      "term_original": "alerta",
+      "capitulo": "21",
+      "confidence_embedding": 0.7558,
+      "descricao_cid": "Representação de doença CID-11: Cansaço. Definição: Sensação de redução do estado de alerta e de redução concomitante da acuidade mental, em alguns casos resultando no impulso ou tendência de adormecer.",
+      "classification_reasoning": "A opção mais precisa é a Cansaço (MB22.7) porque o paciente apresenta sintomas de alerta e acordado, embora esteja emagrecido, o que pode estar relacionado à perda de peso decorrente da doença. Além disso, a descrição da paciente como 'eupneica' sugere que o paciente não está sofrendo de problema respiratório grave.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'alerta' no prontuário refere-se à condição do paciente, que está acordado e orientado. A definição de Cansaço (MB22.7) não se aplica a essa situação. A opção mais precisa é uma código CID-11 que represente a condição clínica 'Acordado' ou 'Alerta', pois o paciente apresenta sintomas de alerta e acordado.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME86": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.776,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa de uma parte do corpo. Definição: ",
+      "classification_reasoning": "A opção ME86 é a mais precisa pois refere-se à representação de doença CID-11: Sintoma ou queixa de uma parte do corpo, o que se adequa perfeitamente ao contexto clínico em que o paciente apresenta escara sacral e eliminações em fralda.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção ME86, que representa sintoma ou queixa de uma parte do corpo, não é adequada para descrever a condição clínica do paciente. Embora o termo 'queixas' esteja presente no prontuário, a descrição da escara sacral e eliminações em fralda sugere mais um diagnóstico específico do que uma simples queixa ou sintoma. A classificação ME86 não captura a essência clínica da situação, o que justifica a remoção desse código.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "MA00": {
+      "term_original": "diagnostico relatado",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "Diagnóstico relatado não aponta para uma doença específica, apenas apresenta achados clínicos de um exame geral e investigação de pessoas sem queixas ou diagnóstico relatado. Portanto, o código mais preciso é o MA00, Representação de doença CID-11: Achados clínicos gerais não especificados.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código MA00 - Achados clínicos gerais não especificados - é muito amplo e não captura a essência do caso. O prontuário descreve uma paciente com escara sacral, hematoma facial esquerda e outros achados clínicos específicos, mas o diagnóstico relatado não aponta para uma doença específica. Portanto, é necessário um código mais específico que capture a natureza dos achados clínicos apresentados.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

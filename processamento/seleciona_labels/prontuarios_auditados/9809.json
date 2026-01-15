@@ -1,0 +1,214 @@
+{
+  "prontuario_id": 12,
+  "text": "02:20H PACIENTE PROVENIENTE DO CC, HX DE QUEDA DE NÍVEL COM TCE LEVE, POI DE DRENAGEM DE HSA TEMPORAL ESQ. NO MOMENTO SEDADA COM RAMSAY=6, PUPILAS ISOCORICAS E FOTORREATIVAS, ESTÁVEL HEMODINAMICAMENTE, IOT TUBO 7.5 RIMA 23, VM PCV, PEEP = 5, FIO2 = 40%, HIPOCORADA, HIDRATADA, ESTÁVEL HEMODINAMICAMENTE, APRESENTA CURATIVO CEFÁLICO LIMPO E SECO EXTERNAMENTE, CVC EM SUBCLÁVIA D. ACESSO VENOSO PERIFÉRICO EM MSE E PÉ D. * FAV EM MSD, ORIENTADO EQUIPE PARA NÃO PUNCIONAR E NÃO AFERIR PA EM MSD. CHEGOU DO CC COM HEMOTRASFUSÃO EM CURSO. SVD COM DIURESE EFETIVA.  # TAC DE CRÂNIO LIBERADA E AGENDADA PARA ÀS 06H. Enfermeira Florence Nightingale .   ACIDENTE VASCULAR CEREBRAL NAO ESPECIFICADO COMO HEMORRAGICO OU ISQUEMICO.",
+  "entities": {
+    "Abreviação": [
+      "CC",
+      "HX",
+      "POI",
+      "VM",
+      "PCV",
+      "PEEP",
+      "FIO2",
+      "CVC",
+      "MSE",
+      "FAV",
+      "MSD",
+      "SVD",
+      "TAC",
+      "TCE LEVE",
+      "DRENAGEM DE HSA",
+      "TEMPORAL ESQ",
+      "IOT TUBO 7",
+      "SUBCLÁVIA D",
+      "PÉ D",
+      "AFERIR PA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CC",
+      "EQUIPE"
+    ],
+    "Conceito Temporal": [
+      "POI",
+      "MOMENTO",
+      "EM CURSO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SEDADA",
+      "VM",
+      "PCV",
+      "CVC",
+      "HEMOTRASFUSÃO",
+      "SVD",
+      "DRENAGEM DE HSA",
+      "IOT TUBO 7",
+      "CURATIVO CEFÁLICO",
+      "ACESSO VENOSO PERIFÉRICO"
+    ],
+    "Achado": [
+      "SEDADA",
+      "ISOCORICAS",
+      "FOTORREATIVAS",
+      "HIDRATADA",
+      "LIMPO",
+      "SECO",
+      "QUEDA DE NÍVEL",
+      "ESTÁVEL HEMODINAMICAMENTE",
+      "DIURESE EFETIVA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PUPILAS",
+      "MSE",
+      "MSD",
+      "CRÂNIO",
+      "SUBCLÁVIA D",
+      "PÉ D"
+    ],
+    "Atributo Clínico": [
+      "PEEP",
+      "FIO2"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "40%"
+    ],
+    "Sinal ou Sintoma": [
+      "HIPOCORADA",
+      "RAMSAY = 6"
+    ],
+    "Conceito Qualitativo": [
+      "LIMPO",
+      "SECO"
+    ],
+    "Conceito Espacial": [
+      "EXTERNAMENTE"
+    ],
+    "Dispositivo Médico": [
+      "CVC",
+      "SVD",
+      "CURATIVO CEFÁLICO",
+      "ACESSO VENOSO PERIFÉRICO"
+    ],
+    "Anormalidade Adquirida": [
+      "FAV"
+    ],
+    "Negação": [
+      "NÃO",
+      "NAO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "PUNCIONAR",
+      "LIBERADA",
+      "AGENDADA",
+      "AFERIR PA"
+    ],
+    "Procedimento Diagnóstico": [
+      "TAC"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Doença ou Síndrome": [
+      "TCE LEVE",
+      "ACIDENTE VASCULAR CEREBRAL"
+    ],
+    "Localização ou Região Corporal": [
+      "TEMPORAL ESQ"
+    ],
+    "Função de Organismo": [
+      "DIURESE EFETIVA"
+    ]
+  },
+  "labels": {
+    "8D64.10": {
+      "term_original": "isocoricas",
+      "capitulo": "08",
+      "confidence_embedding": 0.7654,
+      "descricao_cid": "Representação de doença CID-11: Hidrocefalia devida a malformações estruturais. Definição: Aumento ventricular devido a um acúmulo de líquido cefalorraquidiano secundário à obstrução causada por uma anormalidade estrutural, como malformações de Chiari ou estenose do aqueduto.",
+      "classification_reasoning": "O termo 'isocoricas' se refere à representação de pupilas com o mesmo tamanho, o que é característico da hidrocefalia devida a malformações estruturais (8D64.10). Isso é consistente com a descrição do paciente, que apresenta pupilas isocóricas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'isocoricas' se refere à característica das pupilas, enquanto o código CID-11 8D64.10 se refere a hidrocefalia devida a malformações estruturais. Embora as pupilas isocóricas possam ser uma manifestação clínica da hidrocefalia, não há evidência suficiente no prontuário para justificar a atribuição desse código. A classificação é demasiado específica e não está clinicamente coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD54": {
+      "term_original": "hipocorada",
+      "capitulo": "11",
+      "confidence_embedding": 0.7496,
+      "descricao_cid": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos.",
+      "classification_reasoning": "A hipocorada não está relacionada à doença cardíaca ou circulatória, e tampouco está mencionada como consequência de trauma craniano. O termo mais provável é uma referência a úlcera crônica nos pés diabéticos, pois o paciente tem CVC em subclávia direita e acessos venosos periféricos no pé esquerdo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipocorada não está relacionada à doença cardíaca ou circulatória, e tampouco está mencionada como consequência de trauma craniano. O termo mais provável é uma referência a úlcera crônica nos pés diabéticos, pois o paciente tem CVC em subclávia direita e acessos venosos periféricos no pé esquerdo. A classificação BD54 não está relacionada à hipocorada, portanto, é necessário remover.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NB30.2Z": {
+      "term_original": "fav",
+      "capitulo": "22",
+      "confidence_embedding": 0.777,
+      "descricao_cid": "Representação de doença CID-11: Lesão da veia cava superior, não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NB30.2Z porque o termo 'fav' está relacionado à falha de acesso venoso periférico em MSD, indicando uma lesão na veia cava superior, não especificada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'fav' está relacionado à falha de acesso venoso periférico em MSD, indicando uma lesão na veia cava superior, não especificada. No entanto, o código CID-11 atribuído (NB30.2Z) representa Lesão da veia cava superior, não especificada, mas isso não é diretamente relacionado ao termo 'fav'. A opção mais precisa seria uma codificação que represente a falha de acesso venoso periférico em MSD, como por exemplo, o código Z96.0 (Falha de acesso venoso periférico).",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EB13.1": {
+      "term_original": "seco",
+      "capitulo": "14",
+      "confidence_embedding": 0.7971,
+      "descricao_cid": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável.",
+      "classification_reasoning": "A opção mais precisa para o termo 'seco' é a necrólise epidérmica tóxica (NET), caracterizada por eritema, necrose e descolamento bolhoso da epiderme, com risco de mortalidade. A descrição clínica do paciente apresenta curativo cefálico limpo e seco externamente, o que é compatível com a lesão cutânea da NET.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário refere-se a um curativo cefálico limpo e seco externamente, o que não é suficiente para justificar a necrólise epidérmica tóxica (NET). A lesão cutânea descrita pode ser mais genericamente definida como uma lesão superficial ou uma ferida, mas não há evidência clínica de que seja uma NET.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "ED70.30": {
+      "term_original": "limpo",
+      "capitulo": "14",
+      "confidence_embedding": 0.7912,
+      "descricao_cid": "Representação de doença CID-11: Eflúvio telógeno agudo. Definição: Eflúvio telógeno agudo é uma queda de cabelos do couro cabeludo de início agudo que ocorre dois a três meses após um estresse desencadeante, muitas vezes com risco à vida, e que interrompe o crescimento anágeno normal do fio. É comumente observado em sobreviventes que necessitaram de cuidados intensivos para sepse, hemorragia, doença inflamatória ou traumatismo graves. Também pode resultar de desnutrição aguda. Um grande número de fios anágenos são convertidos em telógenos e são eliminados dois a três meses depois, resultando em uma alopecia difusa.",
+      "classification_reasoning": "A presença do termo 'limpo' no contexto sugere que o paciente apresenta eflúvio telógeno agudo, uma condição caracterizada por queda de cabelos após um estresse desencadeante, comum em pacientes que necessitaram de cuidados intensivos. A descrição da doença CID-11 ED70.30 é a mais precisa para o termo 'limpo' no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença do termo 'limpo' no contexto não está relacionada à eflúvio telógeno agudo, que é uma condição caracterizada por queda de cabelos após um estresse desencadeante. O termo 'limpo' pode se referir a várias outras condições clínicas, como uma lesão ou uma cirurgia, e não está diretamente relacionado à doença CID-11 ED70.30.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "9C61.3Y": {
+      "term_original": "fotorreativas",
+      "capitulo": "09",
+      "confidence_embedding": 0.7416,
+      "descricao_cid": "Representação de doença CID-11: Outro glaucoma secundário de ângulo fechado, especificado. Definição: ",
+      "classification_reasoning": "A escolha foi feita baseado na descrição do termo 'fotorreativas' no contexto clínico, que sugere a presença de um glaucoma secundário de ângulo fechado. A opção mais precisa para o termo é, portanto, a Crise glaucomatociclítica (9C61.3Y)",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 '9C61.3Y' foi feita com base na descrição do termo 'fotorreativas', que sugere a presença de um glaucoma secundário de ângulo fechado. No entanto, o prontuário não apresenta qualquer indicação de doença ocular ou patologia relacionada ao glaucoma. A descrição do termo 'fotorreativas' é provavelmente referente a uma técnica radiológica utilizada para avaliar a paciente, e não à presença de um glaucoma secundário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B20": {
+      "term_original": "acidente vascular cerebral",
+      "capitulo": "08",
+      "confidence_embedding": 0.8397,
+      "descricao_cid": "Representação de doença CID-11: Acidente vascular cerebral não conhecido se isquêmico ou hemorrágico. Definição: Preenche os critérios para acidente vascular cerebral nos sintomas agudos de lesão cerebral focal que duraram 24 horas ou mais (ou levaram à morte antes de 24 horas), mas o subtipo de acidente vascular cerebral (isquêmico ou hemorrágico) não foi determinado por neuroimagem ou outras técnicas.",
+      "classification_reasoning": "Escolhi o código 8B20 pois o paciente apresenta um acidente vascular cerebral não especificado como hemorrágico ou isquêmico, portanto, a opção mais precisa é a que não específica o subtipo de acidente vascular cerebral.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O código CID-11 atribuído (8B20) representa fielmente o termo 'acidente vascular cerebral' descrito no prontuário. A descrição do código CID-11 coincide com a situação clínica do paciente, que apresenta sintomas agudos de lesão cerebral focal e não há indicação de subtipo específico (isquêmico ou hemorrágico). Portanto, a codificação é clinicamente coerente.",
+      "tipo_erro_auditoria": null
+    },
+    "NA05.Z": {
+      "term_original": "queda de nível",
+      "capitulo": "22",
+      "confidence_embedding": 0.7856,
+      "descricao_cid": "Representação de doença CID-11: Lesão dos vasos sanguíneos da cabeça, não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'queda de nível' é a lesão dos vasos sanguíneos da cabeça não especificada, pois a descrição do paciente refere-se à queda de nível com TCE leve e drenagem de HSA temporal esquerda, sugerindo uma lesão cerebral.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão cerebral descrita no prontuário não é uma lesão dos vasos sanguíneos da cabeça, mas sim um acidente vascular cerebral (AVC) não especificado como hemorrágico ou isquêmico. O termo 'queda de nível' refere-se à queda do paciente e não à lesão cerebral propriamente dita.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NC56.5Z": {
+      "term_original": "tce leve",
+      "capitulo": "22",
+      "confidence_embedding": 0.745,
+      "descricao_cid": "Representação de doença CID-11: Lesão do vaso sanguíneo do outro dedo da mão, não especificada. Definição: ",
+      "classification_reasoning": "Como o termo 'tce leve' se refere a uma lesão vascular cerebral leve, e não especifica qual é o local exato da lesão, a opção mais precisa é NC56.5Z, que representa Lesão do vaso sanguíneo do outro dedo da mão, não especificada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'tce leve' se refere a uma lesão cerebral, não um dano vascular periférico no dedo da mão. A opção NC56.5Z não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "prontuario_id": 587,
+  "text": "ÀS 16:30: PACIENTE PROVENIENTE DO PRONTO SOCORRO, VITIMA DE QUEDA DE NIVEL + FAF, MANTEM ESCOLTA POLICIAL, LUCIDO, ORIENTADO, COMUNICATIVO, TALA EM MSE COM BOA PERFUSÃO PERIFERICA, FORÇA MUSCULAR PRESERVADA, ACEITANDO BEM A DIETA, REFERE ALGIA MODERADA, SEGUE FRATURA DA DIAFISE DO UMERO. Às 01h50min: CONSCIENTE, COMUNICATIVO, EM REPOUSO NO LEITO, EUPNEICO, MANTEM COLAR CERVICAL, COM CURATIVO EM OMBRO DIREITO E ESQUERDO LIMPO E SECO EXTERNAMENTE, NEGA ALGIA, NEGA DIETA VIA ORAL, ELIMINACAO VESICAL PRESENTE, INTESTINAL AUSENTE NO PERIODO, REFER. FERIMENTO ENVOLVENDO A LARINGE E A TRAQUEIA. ÀS 14:20 HORAS: ACORDADA, LÚCIDA E CONTACTUANDO. DEAMBULANDO, HIDRATADA E HIPOCORADA. PACIENTE PERMANECE EM ISOLAMENTO PRECAUÇÃO DE CONTATO PARA GOTÍCULAS. SUSPEITA DE TB ??? AGUARDA RESULTADO DE EXAMES. REFERE PERÍODOS DE DISPNÉIA, FAZENDO USO DE 02 EM MÁSCARA. DOENCA CARDIACA HIPERTENSIVA COM INSUFICIENCIA CARDIACA CONGESTIVA. Em 25/07/2007, 12:25h: Sonolento, responsivo aos estímulos, mucosas descoradas e úmidas. Apresenta abdome plano, flácido, indolor à palpação, RHA + . Realizado passagem de SNE em narina direita, procedimento realizado sem intercorrência. Solicito RX de abdome si. INFARTO CEREBRAL DEVIDO A TROMBOSE DE ARTERIAS PRE-CEREBRAIS.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE",
+      "VITIMA"
+    ],
+    "Abreviação": [
+      "FAF",
+      "MSE",
+      "SNE",
+      "SUSPEITA DE TB",
+      "RHA +",
+      "RX de abdome"
+    ],
+    "Lesão ou Envenenamento": [
+      "FAF",
+      "FERIMENTO",
+      "QUEDA DE NIVEL",
+      "FRATURA DA DIAFISE DO UMERO"
+    ],
+    "Achado": [
+      "LUCIDO",
+      "ORIENTADO",
+      "COMUNICATIVO",
+      "CONSCIENTE",
+      "EUPNEICO",
+      "LIMPO",
+      "SECO",
+      "ACORDADA",
+      "LÚCIDA",
+      "CONTACTUANDO",
+      "DEAMBULANDO",
+      "HIDRATADA",
+      "Sonolento",
+      "úmidas",
+      "plano",
+      "flácido",
+      "BOA PERFUSÃO PERIFERICA",
+      "FORÇA MUSCULAR PRESERVADA",
+      "REPOUSO NO LEITO",
+      "ELIMINACAO VESICAL PRESENTE",
+      "responsivo aos estímulos",
+      "indolor à palpação",
+      "RHA +"
+    ],
+    "Dispositivo Médico": [
+      "TALA",
+      "CURATIVO",
+      "SNE",
+      "COLAR CERVICAL"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TALA",
+      "CURATIVO",
+      "SNE",
+      "procedimento",
+      "REPOUSO NO LEITO",
+      "COLAR CERVICAL",
+      "DIETA VIA ORAL",
+      "ISOLAMENTO PRECAUÇÃO DE CONTATO PARA GOTÍCULAS",
+      "02 EM MÁSCARA"
+    ],
+    "Localização ou Região Corporal": [
+      "MSE",
+      "abdome"
+    ],
+    "Alimento": [
+      "DIETA"
+    ],
+    "Conceito Espacial": [
+      "DIREITO",
+      "ESQUERDO",
+      "EXTERNAMENTE",
+      "direita"
+    ],
+    "Sinal ou Sintoma": [
+      "ALGIA",
+      "HIPOCORADA",
+      "DISPNÉIA",
+      "descoradas",
+      "intercorrência",
+      "ALGIA MODERADA"
+    ],
+    "Negação": [
+      "NEGA",
+      "AUSENTE"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "LARINGE",
+      "TRAQUEIA",
+      "mucosas"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAMES",
+      "RX de abdome"
+    ],
+    "Conceito Funcional": [
+      "USO"
+    ],
+    "Espaço ou Junção Corporal": [
+      "narina"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "procedimento"
+    ],
+    "Organização Relacionada à Saúde": [
+      "PRONTO SOCORRO"
+    ],
+    "Função Fisiológica": [
+      "ELIMINACAO VESICAL PRESENTE"
+    ],
+    "Conceito Temporal": [
+      "NO PERIODO"
+    ],
+    "Doença ou Síndrome": [
+      "SUSPEITA DE TB",
+      "DOENCA CARDIACA HIPERTENSIVA",
+      "INSUFICIENCIA CARDIACA CONGESTIVA",
+      "INFARTO CEREBRAL",
+      "TROMBOSE DE ARTERIAS PRE-CEREBRAIS"
+    ]
+  },
+  "labels": {
+    "FB32.20": {
+      "term_original": "flácido",
+      "capitulo": "15",
+      "confidence_embedding": 0.793,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "O termo 'flácido' se refere à descoberta do abdome plano e flácido na consulta do paciente, o que sugere uma lesão muscular ou miótica, como a rabdomiólise idiopática.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'flácido' não é suficientemente específico para justificar a classificação de rabdomiólise idiopática (FB32.20). A descrição do abdome plano e flácido pode ser relacionada a várias condições, incluindo lesões musculares ou mióticas, mas não há evidência clínica suficiente para apoiar essa classificação específica.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BA01": {
+      "term_original": "doenca cardiaca hipertensiva",
+      "capitulo": "11",
+      "confidence_embedding": 0.8249,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A escolha do código BA01 é mais precisa porque a doença cardíaca hipertensiva é definida como uma condição que resulta em efeitos diretos ou indiretos da hipertensão, o que se aplica ao caso do paciente com histórico de doença cardíaca hipertensiva e insuficiência cardíaca congestiva.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código BA01 é justificada pois a doença cardíaca hipertensiva é definida como uma condição que resulta em efeitos diretos ou indiretos da hipertensão, o que se aplica ao caso do paciente com histórico de doença cardíaca hipertensiva e insuficiência cardíaca congestiva. A descrição clínica do prontuário é consistente com a definição do código CID-11, portanto, não há motivos para remover o código.",
+      "tipo_erro_auditoria": null
+    },
+    "8B11.22": {
+      "term_original": "trombose de arterias pre-cerebrais",
+      "capitulo": "08",
+      "confidence_embedding": 0.7804,
+      "descricao_cid": "Representação de doença CID-11: Acidente vascular cerebral isquêmico devido à embolia paradoxal. Definição: Perda súbita da função cerebral devida à falta de fluxo sanguíneo adequado. É o resultado de um tromboembolismo - um coágulo de sangue que se desprendeu e percorreu pelos vasos sanguíneos - que se originou no sistema venoso. Por causa de um defeito cardíaco, ele passa para o sistema de circulação sistêmica, ao invés de se alojar nos pulmões.",
+      "classification_reasoning": "A trombose de arterias pre-cerebrais é um tipo de acidente vascular cerebral isquêmico, caracterizado pela perda súbita da função cerebral devida à falta de fluxo sanguíneo adequado. Nesse contexto clínico, a paciente apresenta infarto cerebral, aludindo ao termo 'trombose de arterias pre-cerebrais'.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 '8B11.22' é válida pois a trombose de arterias pre-cerebrais é um tipo de acidente vascular cerebral isquêmico, caracterizado pela perda súbita da função cerebral devida à falta de fluxo sanguíneo adequado. A paciente apresenta infarto cerebral, o que está diretamente relacionado ao termo 'trombose de arterias pre-cerebrais' descrito no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "NC34.1": {
+      "term_original": "queda de nivel",
+      "capitulo": "22",
+      "confidence_embedding": 0.7375,
+      "descricao_cid": "Representação de doença CID-11: Lesão do nervo mediano ao nível do antebraço. Definição: ",
+      "classification_reasoning": "A lesão descrita como 'queda de nivel' se refere a uma lesão ao nível do antebraço, o que coincide com a descrição do código NC34.1: Lesão do nervo mediano ao nível do antebraço.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão descrita como 'queda de nivel' não se refere a uma lesão ao nível do antebraço, mas sim a uma queda de nível (fratura da diafise do úmero). O código CID-11 NC34.1: Lesão do nervo mediano ao nível do antebraço não é adequado para representar essa condição clínica.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "EB13.1": {
+      "term_original": "descoradas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7912,
+      "descricao_cid": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável.",
+      "classification_reasoning": "A palavra 'descoradas' sugere que a paciente apresenta lesões na pele, o que é compatível com a Necrólise Epidérmica Tóxica (NET), uma doença cutânea aguda com risco de vida.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'descoradas' não é suficientemente específica para representar a Necrólise Epidérmica Tóxica (NET). Embora possa sugerir lesões na pele, não há informações no prontuário que confirmem a presença de necrose epidérmica ou eritema extenso. Além disso, a descrição do termo 'descoradas' não está claramente relacionada à doença descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "FB32.2Y": {
+      "term_original": "deambulando",
+      "capitulo": "15",
+      "confidence_embedding": 0.7226,
+      "descricao_cid": "Representação de doença CID-11: Outro Infarto isquêmico muscular, especificado. Definição: ",
+      "classification_reasoning": "Devido à menção de 'deambulando' e ao contexto de lesão muscular, a opção mais precisa é o Infarto isquêmico muscular, especificado (FB32.2Y)",
+      "decisao": "MANTER",
+      "motivo_decisao": "A menção de 'deambulando' no prontuário sugere que o paciente tem mobilidade e força muscular preservada, o que é consistente com a descrição do Infarto isquêmico muscular, especificado (FB32.2Y). Além disso, a lesão muscular descrita na história clínica também apoia essa classificação. Portanto, mantemos a codificação CID-11 como FB32.2Y.",
+      "tipo_erro_auditoria": null
+    },
+    "EA90.3": {
+      "term_original": "úmidas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7997,
+      "descricao_cid": "Representação de doença CID-11: Psoríase eritrodérmica. Definição: Psoríase eritrodérmica é uma forma inflamatória generalizada grave de psoríase caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele. A psoríase eritrodérmica geralmente se desenvolve a partir da psoríase em placas extensa mas pode surgir de forma nova. Fatores precipitantes ou desencadeantes incluem a retirada de glicocorticoides sistêmicos e, menos frequentemente, a descontinuação abrupta do metotrexato, queimaduras ou infecções intercorrentes. Os pacientes podem desenvolver hipotermia ou insuficiência cardíaca de alto débito.",
+      "classification_reasoning": "A presença de mucosas úmidas e descidas no contexto do paciente, juntamente com a alusão à doença cardíaca hipertensiva e insuficiência cardíaca congestiva, sugere que o termo 'úmidas' pode estar relacionado à psoríase eritrodérmica, uma condição caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de mucosas úmidas e descidas no contexto do paciente não está relacionada à psoríase eritrodérmica, uma condição caracterizada por eritema intenso confluente envolvendo mais de 90% da superfície da pele. A descrição do prontuário refere-se a um paciente com ferimento envolvendo a laringe e traqueia, e não há nenhuma indicação de que isso esteja relacionado à psoríase eritrodérmica.",
+      "tipo_erro_auditoria": "family_history_misread"
+    },
+    "BA41": {
+      "term_original": "insuficiencia cardiaca congestiva",
+      "capitulo": "11",
+      "confidence_embedding": 0.7963,
+      "descricao_cid": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)",
+      "classification_reasoning": "A paciente tem histórico de doença cardíaca hipertensiva com insuficiência cardíaca congestiva e refere período de dispnéia, o que sugere que a insuficiência cardíaca congestiva é uma condição importante na sua história clínica. Além disso, há referência a infarto cerebral devido à trombose de artérias pré-cerebrais, o que aumenta a probabilidade da doença cardíaca ser relacionada ao miocárdio. Considerando esses fatos, a opção mais precisa é BA41 (Infarto agudo do miocárdio)",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção BA41 (Infarto agudo do miocárdio) é justificada pela presença de doença cardíaca hipertensiva com insuficiência cardíaca congestiva e referência a infarto cerebral devido à trombose de artérias pré-cerebrais. Além disso, há histórico de dispnéia, o que sugere que a insuficiência cardíaca congestiva é uma condição importante na sua história clínica.",
+      "tipo_erro_auditoria": null
+    },
+    "NB51.2": {
+      "term_original": "faf",
+      "capitulo": "22",
+      "confidence_embedding": 0.7339,
+      "descricao_cid": "Representação de doença CID-11: Ferimento perfurante sem corpo estranho do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A presença de 'queda de nível + FAF' e 'fratura da diafise do úmero' no contexto do prontuário sugere uma lesão abdominal, o que coincide com a descrição da opção NB51.2: Ferimento perfurante sem corpo estranho do abdome, região lombar ou pelve.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção NB51.2 descreve ferimento perfurante sem corpo estranho do abdome, região lombar ou pelve. Embora haja menções a lesão abdominal e fratura da diafise do úmero no prontuário, não há evidências de que o ferimento seja exclusivamente abdominal. A presença de outras lesões (fratura e trauma) sugere que a codificação deve ser mais específica e considerar as lesões múltiplas.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MB23.H": {
+      "term_original": "sonolento",
+      "capitulo": "21",
+      "confidence_embedding": 0.7307,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A palavra 'sonolento' indica que o paciente está em um estado de sono profundo ou coma, o que é consistente com a definição do termo Crise de pânico (Código CID-11: MB23.H). Além disso, não há indícios de obstrução parcial da via aérea ou estenose das coanas que justificariam a escolha do código MD11.80.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'sonolento' não representa uma Crise de pânico (Código CID-11: MB23.H), mas sim um estado de sono profundo ou coma. A definição do código CID-11 para Crise de pânico refere-se a episódios de medo intenso e súbito, acompanhados por sintomas característicos, o que não se aplica ao paciente nesse momento. Portanto, é necessário remover o código CID-11: MB23.H e substituí-lo por um código mais adequado para representar o estado clínico do paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA80.4": {
+      "term_original": "plano",
+      "capitulo": "15",
+      "confidence_embedding": 0.7098,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna torácica sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa é FA80.4, Degeneração de disco intervertebral da coluna torácica sem prolapso de disco, pois o termo 'plano' está relacionado à descrição da abdome do paciente como 'abdome plano', indicando uma possível lesão ou alteração na estrutura dos discos intervertebrais.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'plano' não está diretamente relacionado à degeneração de disco intervertebral da coluna torácica. A descrição do abdome como 'abdome plano, flácido e indolor à palpação' sugere uma lesão ou alteração na estrutura dos órgãos abdominais, mas não há evidência clínica para sustentar a hipótese de degeneração de disco intervertebral. Além disso, o prontuário apresenta outras condições clínicas mais relevantes e precisas, como a fratura da diafise do úmero e a suspeita de TB.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "NA06.00": {
+      "term_original": "repouso no leito",
+      "capitulo": "22",
+      "confidence_embedding": 0.7309,
+      "descricao_cid": "Representação de doença CID-11: Avulsão da pálpebra. Definição: Lesão em que uma estrutura corporal é forçadamente destacada do seu ponto normal de inserção por traumatismo ou cirurgia. O termo mais comumente se refere a um traumatismo de superfície em que todas as camadas da pele foram laceradas, expondo estruturas subjacentes (isto é, tecido subcutâneo, músculo, tendões ou osso). É semelhante a uma abrasão, mas mais grave, em que a pálpebra pode estar parcial ou completamente destacada do corpo.",
+      "classification_reasoning": "A opção mais precisa para o termo 'repouso no leito' é a avulsão da pálpebra (NA06.00), pois o paciente está descrito como estando em repouso no leito, o que sugere uma lesão grave na pele ou superfície corporal, e a descrição de avulsão da pálpebra coincide com a situação clínica do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção de código CID-11 NA06.00 não é adequada pois a descrição do termo 'repouso no leito' não se refere a uma lesão em que uma estrutura corporal é forçadamente destacada do seu ponto normal de inserção por traumatismo ou cirurgia, como descrito na definição do código. O paciente está apenas descansando no leito e não há indicações de lesão grave na pele ou superfície corporal. A escolha desse código é uma sobre-classificação e não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD11.5": {
+      "term_original": "algia",
+      "capitulo": "21",
+      "confidence_embedding": 0.7632,
+      "descricao_cid": "Representação de doença CID-11: Dispneia. Definição: Dispneia é o termo utilizado para descrever percepções de dificuldade ou sofrimento relacionados à respiração e é reconhecido como sintoma de doença quando ocorre em circunstâncias inapropriadas. Dispneia é uma queixa apresentada por pacientes com uma ampla variedade de condições médicas, causadas por múltiplos mecanismos.\r\nA dispneia é considerada aguda quando dura de horas a 3 semanas, subaguda de 3 a 8 semanas e a dispneia crônica dura mais de 8 semanas.",
+      "classification_reasoning": "A escolha pelo código MD11.5 (Dispneia) é baseada na referência ao paciente fazer uso de máscara com oxigênio (02) e apresentar períodos de dispnéia, o que sugere um sintoma relacionado à respiração.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'algia' refere-se a dor, enquanto o código CID-11 MD11.5 (Dispneia) se refere à percepção de dificuldade ou sofrimento relacionados à respiração. Embora o paciente apresente referência a períodos de dispnéia e faça uso de máscara com oxigênio, não há evidência clínica suficiente para justificar a escolha do código MD11.5. A dor (algia) é um sintoma mais adequado para descrever o paciente's condição.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A63.0": {
+      "term_original": "ferimento",
+      "capitulo": "08",
+      "confidence_embedding": 0.7265,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica febril. Definição: Convulsões associadas a um aumento da temperatura corporal na ausência de infecção intracraniana, distúrbio metabólico ou história de crises epilépticas afebris. Ocorrem mais comumente em crianças com idades entre 6 meses e 5 anos.",
+      "classification_reasoning": "A crise epiléptica febril está relacionada à temperatura corporal elevada, o que se encontra presente no contexto (referência a períodos de dispnéia fazendo uso de 02 em máscara). Além disso, a paciente apresenta ferimento envolvendo a laringe e traqueia, o que pode estar relacionado à crise epiléptica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A crise epiléptica febril (8A63.0) não está relacionada ao ferimento envolvendo a laringe e traqueia descrito no prontuário. A temperatura corporal elevada é um sintoma, não uma condição clínica diretamente relacionada ao ferimento. Além disso, o termo 'ferimento' se refere a lesão física, enquanto a crise epiléptica febril é um distúrbio neurológico. Portanto, a classificação é incorreta e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "1B13.0": {
+      "term_original": "suspeita de tb",
+      "capitulo": "01",
+      "confidence_embedding": 0.7605,
+      "descricao_cid": "Representação de doença CID-11: Tuberculose miliar aguda de localização única e especificada. Definição: Doença causada por uma infecção pela bactéria Mycobacterium tuberculosis que se espalha pelo corpo e afeta uma localização específica do corpo. Esta doença é caracterizada por numerosas pequenas lesões de 1 a 5 milímetro(s) em qualquer órgão, e febre. A transmissão ocorre comumente por inalação de secreções respiratórias infectadas. A confirmação é feita por radiografia, tomografia computadorizada, ultrassonografia e identificação de Mycobacterium tuberculosis, dependendo da localização afetada.",
+      "classification_reasoning": "A suspeita de TB é baseada na referência de ferimento envolvendo a laringe e traqueia, o que sugere possível infecção respiratória. Além disso, a paciente tem doença cardíaca hipertensiva com insuficiência cardiaca congestiva, o que aumenta a suspeita de uma doença infectiosa como a tuberculose.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A suspeita de TB é baseada na referência de ferimento envolvendo a laringe e traqueia, o que sugere possível infecção respiratória. No entanto, ao analisar o prontuário, não há evidências claras de tuberculose miliar aguda. A paciente tem doença cardíaca hipertensiva com insuficiência cardiaca congestiva e refere períodos de dispnéia, fazendo uso de 02 em máscara. Isso sugere mais uma possível causa para a dispnéia do que uma infecção por Mycobacterium tuberculosis.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NC55.1": {
+      "term_original": "intercorrência",
+      "capitulo": "22",
+      "confidence_embedding": 0.7746,
+      "descricao_cid": "Representação de doença CID-11: Lesão do nervo mediano ao nível do punho ou mão. Definição: ",
+      "classification_reasoning": "A palavra 'intercorrência' indica que se trata de um problema ou complicação durante o tratamento ou a hospitalização do paciente, e não uma lesão física ou doença crônica. A opção NC55.1, Lesão do nervo mediano ao nível do punho ou mão, é mais precisa porque 'intercorrência' sugere um evento que ocorre durante o tratamento, como uma complicação ou reação adversa.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'intercorrência' não se refere a uma lesão física ou doença crônica, mas sim a um problema ou complicação durante o tratamento ou hospitalização do paciente. O código CID-11 NC55.1, Lesão do nervo mediano ao nível do punho ou mão, não representa fielmente o termo descrito no prontuário. A opção mais adequada seria uma codificação que represente a complicação ou problema durante o tratamento, como por exemplo, NC99.9 (Outros problemas relacionados à hospitalização).",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA22.0": {
+      "term_original": "dispnéia",
+      "capitulo": "12",
+      "confidence_embedding": 0.8042,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A dispnéia referida no contexto clínico é um sintoma característico de exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC). Embora a Código CA05.1 se refira à Traqueíte Aguda, não há indicações nesse contexto que sugiram inflamação aguda da traqueia. A escolha do código CA23.00 é justificada pela presença de sintomas respiratórios e histórico de doença cardíaca hipertensiva com insuficiência cardiaca congestiva, sugerindo uma possível relação com a DPOC. Por fim, o código CB21.1 não se aplica nesse contexto, pois não há indicações de pneumotórax espontâneo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dispnéia referida no prontuário é um sintoma característico de doença respiratória, mas o código CA22.0 se refere a Doença Pulmonar Obstrutiva Crônica (DPOC) com exacerbação aguda não especificada. Embora haja referência à dispnéia no prontuário, não há indicações de que essa seja uma exacerbação aguda da DPOC. Além disso, a paciente tem doença cardíaca hipertensiva com insuficiência cardiaca congestiva, o que sugere uma possível relação com a TB (Tuberculose) suspeita. Portanto, é necessário remover o código CA22.0 e atribuir um novo código que represente melhor a condição clínica da paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B11": {
+      "term_original": "infarto cerebral",
+      "capitulo": "08",
+      "confidence_embedding": 0.8282,
+      "descricao_cid": "Representação de doença CID-11: Acidente cerebral isquêmico. Definição: Disfunção neurológica focal aguda causada por infarto focal em uma ou várias localizações do cérebro. A evidência de infarto agudo pode ser proveniente de a) duração dos sintomas por mais de 24 horas, ou b) neuroimagem ou outra técnica na área clinicamente relevante do cérebro. O termo não inclui infarto da retina.",
+      "classification_reasoning": "A escolha do código 8B11 é baseada na presença de infarto cerebral, como mencionado no relatório. O paciente apresentou sintomas de acidente vascular cerebral isquêmico, com disfunção neurológica focal aguda causada por infarto focal em uma ou várias localizações do cérebro.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'infarto cerebral' no prontuário refere-se a um evento vascular, enquanto o código CID-11 8B11 se refere a acidente cerebral isquêmico. Embora haja uma relação entre os dois conceitos, eles não são sinônimos. O infarto cerebral é um tipo de lesão cerebral causada por trombose ou embolie, enquanto o acidente cerebral isquêmico é um tipo específico de lesão cerebral causado por infarto focal em uma ou várias localizações do cérebro. Portanto, a escolha do código 8B11 não representa fielmente o termo 'infarto cerebral' no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA38.3": {
+      "term_original": "fratura da diafise do umero",
+      "capitulo": "15",
+      "confidence_embedding": 0.7322,
+      "descricao_cid": "Representação de doença CID-11: Artropatia hemofílica. Definição: Trata-se da destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia. Esta condição inclui a ocorrência de hemartrose aguda, artrite subaguda ou crônica e artropatia hemofílica em estágio terminal. Quase todos os pacientes com hemofilia A ou B grave e metade dos pacientes com atividade de doença moderada apresentam hemartrose. Os sintomas incluem dor nas articulações (artralgias), edema articular, fibrose articular, desenvolvimento de deformidades em flexão e erosão da cartilagem articular. As articulações mais comumente afetadas são joelhos, tornozelos, cotovelos, ombros e quadris (em ordem de frequência). O sangramento nos músculos e partes moles também pode causar disfunção musculoesquelética.",
+      "classification_reasoning": "A fratura da diafise do úmero é mais consistente com a artropatia hemofílica, uma condição crônica que afeta articulações e músculos esqueléticos, causando lesões ósseas, incluindo fraturas. Isso se ajusta melhor ao contexto clínico fornecido.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fratura da diafise do úmero não é uma condição crônica que afeta articulações e músculos esqueléticos, causando lesões ósseas. Isso se ajusta melhor a uma lesão traumática aguda, não à artropatia hemofílica. O código CID-11 FA38.3 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

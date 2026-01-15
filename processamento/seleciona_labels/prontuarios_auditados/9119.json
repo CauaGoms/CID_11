@@ -1,0 +1,197 @@
+{
+  "prontuario_id": 403,
+  "text": "Às 18:05: CLIENTE RETORNOU DO CC POR VOLTA DAS 12:30. 1º RIZOTOMIA PERCUTANEAS POR RADIOFREQUENCIA, CONSCIENTE, COMUNICATIVO, EUPNEICO, DEAMBULANDO, NEGA QUEIXAS ALGICAS, AVP EM MSD SALINIZADO, CTVO LIMPO E SECO, MICÇÃO PRESENTE, DE ALTA HOSPITALAR ÁS 18:00 A. PANICULITE ATINGINDO REGIOES DO PESCOCO E DO DORSO. Às 17:02HRS: CONSCIENTE, ORIENTADO, COMUNICATIVO. ACEITANDO BEM A DIETA VO. ACESSO VENOSO PERIFERICO NO MSD SALINIZADO. CURATIVO NO JOELHO DIREITO LIMPO E SECO EXTERNAMENTE. SEM QUEIXAS ALGICAS ATE O MOMENTO. ELIMINAÇÕES FISIOLOGICAS PRESENTES. DEAMBULANDO. FRATURA DA EXTREMIDADE SUPERIOR DO CUBITO ULNA. Às 17H: RECEPCIONADA NA UNIDADE PROVENIENTE DO CC APÓS REALIZAÇÃO DE LAPAROTOMIA EXPLORADORA (ÚLCERA DUODENAL PERFURADA), SONOLENTA, PUPILAS ISOCÓRICAS E FOTORREAGENTES, RESPIRAÇÃO ESPONTÂNEA COM SUPORTE DE O2 EM NÉVOA ÚMIDA, OXIMETRIA ACIMA DE 90%, SNG CO. ABDOME AGUDO. Às 10:00 HORAS: 3° DIA DE INTERNAMENTO, POR RUBOR E EDEMA EM MIE. ACORDADO, LÚCIDO E CONTACTUANDO. CORADO, HIDRATADO E EUPNÉICO RESPIRANDO EM AR AMBIENTE. SINAIS VITAIS ESTÁVEIS. PERMANCE EM REPOUSO NO LEITO, DEAMBULANDO. REFERE MELHORA IMPORTANTE DO QUADRO, ERISIPELOIDE NAO ESPECIFICADO.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "CLIENTE"
+    ],
+    "Abreviação": [
+      "CC",
+      "AVP",
+      "CTVO",
+      "MSD",
+      "SNG",
+      "MIE",
+      "EM MSD",
+      "ACEITANDO BEM A DIETA VO"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CC"
+    ],
+    "Achado": [
+      "CONSCIENTE",
+      "COMUNICATIVO",
+      "EUPNEICO",
+      "DEAMBULANDO",
+      "SALINIZADO",
+      "LIMPO",
+      "SECO",
+      "ORIENTADO",
+      "ACORDADO",
+      "LÚCIDO",
+      "CONTACTUANDO",
+      "CORADO",
+      "HIDRATADO",
+      "EUPNÉICO",
+      "MICÇÃO PRESENTE",
+      "ACEITANDO BEM A DIETA VO",
+      "ELIMINAÇÕES FISIOLOGICAS PRESENTES",
+      "RESPIRAÇÃO ESPONTÂNEA",
+      "OXIMETRIA ACIMA DE 90%",
+      "RESPIRANDO EM AR AMBIENTE",
+      "SINAIS VITAIS ESTÁVEIS",
+      "REPOUSO NO LEITO",
+      "MELHORA IMPORTANTE DO QUADRO"
+    ],
+    "Negação": [
+      "NEGA",
+      "SEM"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "AVP",
+      "SALINIZADO",
+      "CTVO",
+      "CURATIVO",
+      "RIZOTOMIA PERCUTANEAS POR RADIOFREQUENCIA",
+      "ACESSO VENOSO PERIFERICO",
+      "LAPAROTOMIA EXPLORADORA",
+      "SUPORTE DE O2 EM NÉVOA ÚMIDA",
+      "REPOUSO NO LEITO"
+    ],
+    "Dispositivo Médico": [
+      "AVP",
+      "CTVO",
+      "CURATIVO",
+      "SNG",
+      "ACESSO VENOSO PERIFERICO"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD",
+      "MIE",
+      "EM MSD"
+    ],
+    "Conceito Espacial": [
+      "EXTERNAMENTE"
+    ],
+    "Sinal ou Sintoma": [
+      "SONOLENTA",
+      "RUBOR",
+      "EDEMA",
+      "QUEIXAS ALGICAS"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PUPILAS",
+      "JOELHO DIREITO"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Função Fisiológica": [
+      "MICÇÃO PRESENTE",
+      "ELIMINAÇÕES FISIOLOGICAS PRESENTES"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ALTA HOSPITALAR"
+    ],
+    "Doença ou Síndrome": [
+      "PANICULITE ATINGINDO REGIOES DO PESCOCO E DO DORSO",
+      "ÚLCERA DUODENAL PERFURADA",
+      "ABDOME AGUDO"
+    ],
+    "Lesão ou Envenenamento": [
+      "FRATURA DA EXTREMIDADE SUPERIOR DO CUBITO ULNA"
+    ]
+  },
+  "labels": {
+    "CA22.0": {
+      "term_original": "eupneico",
+      "capitulo": "12",
+      "confidence_embedding": 0.8142,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A descrição do termo 'eupneico' indica que o paciente está respirando normalmente, sem sinais de distress respiratório ou insuficiência respiratória crônica. Isso sugere uma representação de doença relacionada à DPOC (Doença Pulmonar Obstrutiva Crônica) com exacerbação aguda, caracterizada por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 CA22.0 'Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada' não se ajusta ao termo 'eupneico', que descreve a respiração normal do paciente. A ausência de sintomas respiratórios agudos e a presença de sinais vitais estáveis sugerem uma representação de doença mais específica, como por exemplo, um episódio de asma ou bronquite, que não é capturado pela codificação CA22.0.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "MB23.H": {
+      "term_original": "melhora importante do quadro",
+      "capitulo": "21",
+      "confidence_embedding": 0.7322,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A frase 'ERISIPELOIDE NAO ESPECIFICADO' sugere que o quadro do paciente está relacionado a uma crise de pânico, considerando as sintomas descritos (rubor, edema em MIE e melhora importante do quadro). A descrição da crise de pânico no CID-11 inclui sintomas como palpitações, sudorese, tremores, sensação de falta de ar e outros que se encaixam com o contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A crise de pânico descrita no CID-11 não se relaciona com os sintomas apresentados pelo paciente. A frase 'melhora importante do quadro' sugere que o paciente está melhorando, mas isso não é característico da crise de pânico. Além disso, a descrição da crise de pânico no CID-11 inclui sintomas como palpitações, sudorese, tremores e sensação de falta de ar, que não estão presentes no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NB51.2": {
+      "term_original": "repouso no leito",
+      "capitulo": "22",
+      "confidence_embedding": 0.7516,
+      "descricao_cid": "Representação de doença CID-11: Ferimento perfurante sem corpo estranho do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NB51.2, pois o paciente apresenta um ferimento perfurante sem corpo estranho no abdome, região lombar ou pelve, que está relacionado ao episódio de laparotomia exploradora e à presença de rubor e edema na membrana intestinal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 atribuído (NB51.2) representa um ferimento perfurante sem corpo estranho do abdome, região lombar ou pelve, o que não é diretamente relacionado ao termo 'repouso no leito' descrito no prontuário. O paciente apresenta uma lesão abdominal decorrente da laparotomia exploradora e não há evidência clínica de um ferimento perfurante sem corpo estranho nesse local.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DA63.3": {
+      "term_original": "úlcera duodenal perfurada",
+      "capitulo": "13",
+      "confidence_embedding": 0.8238,
+      "descricao_cid": "Representação de doença CID-11: Úlcera de estresse do duodeno. Definição: Úlceras de estresse do duodeno são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes que podem resultar em hemorragia digestiva alta aguda. Geralmente são erosões superficiais, mas podem evoluir para úlceras.",
+      "classification_reasoning": "A úlcera duodenal perfurada descrita no prontuário é compatível com a definição de úlcera de estresse do duodeno, que é uma lesão aguda da mucosa do duodeno decorrente de hemorragia digestiva alta aguda em pacientes criticamente doentes. A opção DA63.3 é a mais precisa para este termo dentro do contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A úlcera duodenal perfurada descrita no prontuário é uma lesão aguda da mucosa do duodeno decorrente de hemorragia digestiva alta aguda em pacientes criticamente doentes, o que é compatível com a definição de úlcera de estresse do duodeno. Portanto, o código CID-11 DA63.3 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "8e+44": {
+      "term_original": "paniculite atingindo regioes do pescoco e do dorso",
+      "capitulo": "08",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha foi feita com base na descrição de 'paniculite atingindo regioes do pescoco e do dorso', o que sugere a presença de uma doença inflamatória nos tecidos conectivos. O código 8E44 (Representação de doença CID-11: Paniculite) é mais preciso para describir esta condição clínica.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código 8E44 (Paniculite) é justificada pela descrição de 'paniculite atingindo regioes do pescoco e do dorso' no prontuário. A condição clínica descrita está diretamente relacionada à doença inflamatória nos tecidos conectivos, o que coincide com a definição da paniculite.",
+      "tipo_erro_auditoria": null
+    },
+    "DA60.3": {
+      "term_original": "abdome agudo",
+      "capitulo": "13",
+      "confidence_embedding": 0.8047,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A escolha do termo 'abdome agudo' leva à consideração de úlceras de estresse do estômago (Código: DA60.3), uma condição caracterizada por lesões agudas da mucosa gástrica que podem resultar em hemorragia digestiva alta aguda.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'abdome agudo' não se refere diretamente a úlceras de estresse do estômago, que é uma condição caracterizada por lesões agudas da mucosa gástrica. No prontuário, o termo 'abdome agudo' é mencionado como um sintoma clínico, enquanto as úlceras de estresse do estômago são uma doença específica. Portanto, a codificação CID-11 DA60.3 não se aplica ao termo 'abdome agudo'.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB32.20": {
+      "term_original": "fratura da extremidade superior do cubito ulna",
+      "capitulo": "15",
+      "confidence_embedding": 0.7393,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A fratura da extremidade superior do cubito ulna e a referência à melhora importante do quadro sugere um evento traumático, o que é consistente com a rabdomiólise idiopática, caracterizada por lesão muscular e extravazamento de conteúdo muscular. Além disso, a ausência de outras condições neurológicas ou metabolizantes apoiadas na história clínica também apoia essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fratura da extremidade superior do cubito ulna não é uma forma de rabdomiólise idiopática, que envolve lesão muscular e extravazamento de conteúdo muscular. A fratura é um evento traumático que pode causar lesão muscular, mas não é a mesma condição clínica. Além disso, a descrição do prontuário não apresenta sintomas ou achados compatíveis com rabdomiólise idiopática.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NA90": {
+      "term_original": "edema",
+      "capitulo": "22",
+      "confidence_embedding": 0.8064,
+      "descricao_cid": "Representação de doença CID-11: Concussão ou edema da medula espinhal torácica. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NA90 pois o texto menciona 'edema em MIE' (região do pescoco e dorso), o que sugere lesão da medula espinhal torácica, concordando com a definição da NA90.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção NA90 é justificada pois o termo 'edema' está presente no prontuário e se refere à lesão da medula espinhal torácica, concordando com a definição da NA90. A descrição do prontuário não apresenta contradições óbvias ou associações puramente imaginárias.",
+      "tipo_erro_auditoria": null
+    },
+    "NA60.30": {
+      "term_original": "sonolenta",
+      "capitulo": "22",
+      "confidence_embedding": 0.7769,
+      "descricao_cid": "Representação de doença CID-11: Laceração da veia jugular interna, menor. Definição: ",
+      "classification_reasoning": "A paciente apresenta sonolenta (sonolenta), o que sugere possível lesão ou trauma craniano, justificando a escolha do código NA60.30 para laceração da veia jugular interna, menor.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'sonolenta' não se refere a uma lesão ou trauma craniano, mas sim à condição de sono sonolento da paciente. O código CID-11 NA60.30 é inadequado para representar essa condição e deve ser removido.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

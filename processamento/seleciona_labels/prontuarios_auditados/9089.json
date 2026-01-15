@@ -1,0 +1,243 @@
+{
+  "prontuario_id": 814,
+  "text": "Em 05/10/2006, 14 HORAS: PERMANECE SEDADO, COM PUPILAS ISOMIÓTICAS E FOTORREAGENTES, COM DISCRETO EDEMA PERIPALPEBRAL BILATERAL. VM VIA TRAQUEO COM FO2 50%, PCV, PI 23 cmH20, PEEP 10cm H2O, F 14 mrpm, SPO2 99%. AUSCULTA PULMONAR COM RONCOS DIFUSOS E DISCRETAMEN. TRAUMATISMO DO BACO. Em 26/07/2007, 08:36h: Acordada, alerta, responsiva, mucosas coradas e hidratadas. Apresenta abdome plano, flácido, RHA +, indolor à palpação. Mantém SNE para alimentação por bomba infusora, em jejum no momento para procedimento cirúrgico (gastrostomia). Diures. ACIDENTES VASCULARES CEREBRAIS ISQUEMICOS TRANSITORIOS E SINDROMES CORRELATAS. CONSCIENTE, LÚCIDO, ORIENTADO, VERBALIZA, DEAMBULA, REFERE BOA ACEITAÇÃO DA DIETA HOSPITALAR, PORÉM MANTÉM JEJUM PARA PROCEDIMENTO NO CENTRO CIRÚRGICO HOJE. NEGA ALGIA, APRESENTA TALA GESSADA EM MSD, CURATIVO LOCAL DE ASPECTO LIMPO E SECO EXTERNAMENTE, BO. FRATURA DE OUTROS OSSOS DO METACARPO. Às 10:00: Paciente consciente, orientado, comunicativo, refere boa aceitação da dieta, paraplegia em MMII, realizado mudança de decúbito de 2/2hrs, refere não evacuar há 3 dias, algia em abdomen. Ao exame físico: ausculta pulmonar livre, ausculta abdominal com. OUTROS TRANSTORNOS DO TRATO URINARIO.",
+  "entities": {
+    "Achado": [
+      "SEDADO",
+      "ISOMIÓTICAS",
+      "FOTORREAGENTES",
+      "Acordada",
+      "alerta",
+      "responsiva",
+      "flácido",
+      "jejum",
+      "CONSCIENTE",
+      "LÚCIDO",
+      "ORIENTADO",
+      "VERBALIZA",
+      "DEAMBULA",
+      "consciente",
+      "orientado",
+      "comunicativo",
+      "RHA +",
+      "indolor à palpação",
+      "BOA ACEITAÇÃO DA DIETA",
+      "boa aceitação da dieta",
+      "ausculta pulmonar livre"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SEDADO",
+      "FO2",
+      "PCV",
+      "PI",
+      "PEEP",
+      "SPO2",
+      "jejum",
+      "gastrostomia",
+      "JEJUM",
+      "CURATIVO",
+      "VM VIA TRAQUEO",
+      "SNE para alimentação",
+      "procedimento cirúrgico",
+      "PARA PROCEDIMENTO",
+      "TALA GESSADA",
+      "mudança de decúbito"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PUPILAS",
+      "mucosas"
+    ],
+    "Abreviação": [
+      "FO2",
+      "PCV",
+      "PI",
+      "PEEP",
+      "F",
+      "SPO2",
+      "MSD",
+      "VM VIA TRAQUEO",
+      "RHA +",
+      "SNE para alimentação",
+      "paraplegia em MMII",
+      "mudança de decúbito"
+    ],
+    "Conceito Quantitativo": [
+      "50%",
+      "99%",
+      "23 cmH20",
+      "14 mrpm"
+    ],
+    "Localização ou Região Corporal": [
+      "abdome",
+      "MSD",
+      "abdomen"
+    ],
+    "Negação": [
+      "NEGA",
+      "não"
+    ],
+    "Sinal ou Sintoma": [
+      "ALGIA",
+      "algia",
+      "DISCRETO EDEMA PERIPALPEBRAL BILATERAL",
+      "RONCOS DIFUSOS",
+      "paraplegia em MMII"
+    ],
+    "Dispositivo Médico": [
+      "CURATIVO",
+      "TALA GESSADA"
+    ],
+    "Conceito Espacial": [
+      "EXTERNAMENTE"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Função Fisiológica": [
+      "evacuar"
+    ],
+    "Procedimento Diagnóstico": [
+      "AUSCULTA PULMONAR",
+      "exame físico",
+      "ausculta pulmonar livre",
+      "ausculta abdominal"
+    ],
+    "Lesão ou Envenenamento": [
+      "TRAUMATISMO DO BACO",
+      "FRATURA DE OUTROS OSSOS DO METACARPO"
+    ],
+    "Dispositivo de Administração de Medicamento": [
+      "bomba infusora"
+    ],
+    "Doença ou Síndrome": [
+      "ACIDENTES VASCULARES CEREBRAIS ISQUEMICOS TRANSITORIOS",
+      "FRATURA DE OUTROS OSSOS DO METACARPO",
+      "TRANSTORNOS DO TRATO URINARIO"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CENTRO CIRÚRGICO"
+    ]
+  },
+  "labels": {
+    "6D86.3": {
+      "term_original": "verbaliza",
+      "capitulo": "06",
+      "confidence_embedding": 0.7727,
+      "descricao_cid": "Representação de doença CID-11: Apatia na demência. Definição: Além dos distúrbios cognitivos característicos de demência, o quadro clínico atual inclui indiferença ou falta de interesse clinicamente significativos.",
+      "classification_reasoning": "O termo 'verbaliza' sugere que o paciente tem a capacidade de comunicar-se verbalmente, o que é característico da apatia na demência. Além disso, o contexto clínico menciona que o paciente está consciente, orientado e verbaliza, o que também apoia essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'verbaliza' não está relacionado à apatia na demência. A capacidade de verbalizar não é um sintoma característico da demência. Além disso, o paciente está consciente, orientado e verbaliza, o que sugere uma função cerebral normal em relação ao processamento linguístico.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB32.20": {
+      "term_original": "flácido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7893,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "O termo 'flácido' refere-se ao estado de flacidez do abdome, o que é descrito na anotação como 'abdome plano, flácido', indicando a escolha do código FB32.20, que representa a Rabdomiólise idiopática.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'flácido' não se refere a uma lesão muscular, como descrito no código CID-11 FB32.20 (Rabdomiólise idiopática). Em vez disso, é um termo que descreve o estado do abdome, que é plano e flácido. Isso não está relacionado à Rabdomiólise idiopática. Portanto, a escolha do código CID-11 FB32.20 não é clínica ou coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA38.3": {
+      "term_original": "traumatismo do baco",
+      "capitulo": "15",
+      "confidence_embedding": 0.7019,
+      "descricao_cid": "Representação de doença CID-11: Artropatia hemofílica. Definição: Trata-se da destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia. Esta condição inclui a ocorrência de hemartrose aguda, artrite subaguda ou crônica e artropatia hemofílica em estágio terminal. Quase todos os pacientes com hemofilia A ou B grave e metade dos pacientes com atividade de doença moderada apresentam hemartrose. Os sintomas incluem dor nas articulações (artralgias), edema articular, fibrose articular, desenvolvimento de deformidades em flexão e erosão da cartilagem articular. As articulações mais comumente afetadas são joelhos, tornozelos, cotovelos, ombros e quadris (em ordem de frequência). O sangramento nos músculos e partes moles também pode causar disfunção musculoesquelética.",
+      "classification_reasoning": "A escolha do código FA38.3 é mais precisa para o termo 'traumatismo do baco' pois a descrição da doença refere-se à destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'traumatismo do baco' não se refere à destruição das articulações nos joelhos, ombros, tornozelos, cotovelos e quadris associada à hemofilia, como descrito no código CID-11 FA38.3. Em vez disso, o prontuário descreve um paciente com traumatismo do baco, que não está relacionado à artropatia hemofílica. Portanto, a escolha do código FA38.3 é inapropriada e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A64": {
+      "term_original": "sedado",
+      "capitulo": "08",
+      "confidence_embedding": 0.7556,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo.",
+      "classification_reasoning": "O termo 'sedado' refere-se à condição do paciente em que está recebendo sedativo para controle de dor ou ansiedade, o que é consistente com a definição da crise epiléptica única devida a causas remotas (Código 8A64).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'sedado' não se refere a uma crise epiléptica única devida a causas remotas, mas sim à condição do paciente em que está recebendo sedativo para controle de dor ou ansiedade. A definição do código CID-11 8A64 não é consistente com o termo 'sedado', pois não há relação entre a sedação e uma crise epiléptica única devida a causas remotas.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GB70.1": {
+      "term_original": "transtornos do trato urinario",
+      "capitulo": "16",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'transtornos do trato urinário' é a Cálculo uretral (Código: GB71.1), pois a paciente refere não evacuar há 3 dias e apresenta algia em abdome, sugerindo possível obstrução ou incontinência urinária. No entanto, como a paciente tem um contexto de traumatismo do baco e procedimento cirúrgico agendado, é mais provável que o problema este relacionado ao trato urinário superior (Código: GB70.1) em vez de uma cálculo uretral.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'transtornos do trato urinário' é a Cálculo uretral (Código: GB71.1), pois a paciente refere não evacuar há 3 dias e apresenta algia em abdome, sugerindo possível obstrução ou incontinência urinária. No entanto, como a paciente tem um contexto de traumatismo do baco e procedimento cirúrgico agendado, é mais provável que o problema este relacionado ao trato urinário superior (Código: GB70.1) em vez de uma cálculo uretral.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B44.0": {
+      "term_original": "paraplegia em mmii",
+      "capitulo": "08",
+      "confidence_embedding": 0.777,
+      "descricao_cid": "Representação de doença CID-11: Paraplegia espástica hereditária. Definição: Paraplegias espásticas hereditárias (PEH) compreendem um grupo genetica e clinicamente heterogêneo de transtornos neurodegenerativos caracterizados por graus variáveis de espasticidade de membros inferiores, fraqueza piramidal, hiperreflexia e envolvimento da bexiga hipertônica. Clinicamente, as PEH podem ser divididas em dois grupos principais: formas não complicadas (puras) e complicadas (complexas), dependendo da presença de outras manifestações neurológicas, incluindo ataxia, neuropatia periférica, comprometimento cognitivo, epilepsia, amiotrofia, retinopatia, surdez, ictiose e envolvimento extrapiramidal , além de paraparesia espástica. As PEH puras são caracterizadas por espasticidade e fraqueza lentamente progressivas em extremidades inferiores, frequentemente associadas a distúrbios urinários hipertônicos, leve redução da sensibilidade vibratória de extremidades inferiores e, ocasionalmente, da sensação de posição articular. As formas complexas de PEH são caracterizadas pela presença de manifestações neurológicas ou não neurológicas adicionais. Uma história familiar positiva, particularmente em casos autossômicos dominantes, está frequentemente presente, mas nem sempre. O diagnóstico pode ser auxiliado por neuroimagem e testes genéticos.",
+      "classification_reasoning": "A opção mais precisa é a paraplegia espástica hereditária, considerando o contexto clínico que descreve a paraplegia em MMII (membros inferiores), e não apresenta sintomas de polineuropatia desmielinizante inflamatória aguda ou outros transtornos do sistema nervoso.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A paraplegia em MMII é descrita no prontuário, e o código CID-11 atribuído (8B44.0) representa fielmente a paraplegia espástica hereditária. A descrição do código CID-11 se alinha com o contexto clínico apresentado no prontuário, não há contradições óbvias ou associações puramente imaginárias. Portanto, o código CID-11 é válido e mantido.",
+      "tipo_erro_auditoria": null
+    },
+    "8B11.0": {
+      "term_original": "acidentes vasculares cerebrais isquemicos transitorios",
+      "capitulo": "08",
+      "confidence_embedding": 0.8047,
+      "descricao_cid": "Representação de doença CID-11: Acidente vascular cerebral devido a aterosclerose de grandes artérias extracranianas. Definição: Acidente vascular cerebral isquêmico é caracterizado pelo início súbito de déficits neurológicos focais dentro de um território vascular decorrente de patologia cerebrovascular subjacente, a saber, aterosclerose. A aterosclerose de grandes artérias de cabeça e pescoço é responsável por aproximadamente 15% de todos os acidentes vasculares cerebrais isquêmicos.",
+      "classification_reasoning": "A escolha do código 8B11.0 se baseia na descrição de 'Acidentes vasculares cerebrais isquémicos transitorios' no contexto clínico, que é caracterizado pelo início súbito de déficits neurológicos focais decorrentes de patologia cerebrovascular subjacente, a saber, aterosclerose. Isso coincide com a definição do código 8B11.0, que descreve um acidente vascular cerebral isquêmico devido à aterosclerose de grandes artérias extracranianas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'acidentes vasculares cerebrais isquémicos transitorios' não é um diagnóstico de doença, mas sim uma descrição de sintomas. O código CID-11 8B11.0 descreve um acidente vascular cerebral isquêmico devido à aterosclerose de grandes artérias extracranianas, que não se ajusta ao termo extraído. Além disso, o prontuário apresenta sintomas de traumatismo do baco e fratura de outros ossos do metacarpo, que não estão relacionados a acidente vascular cerebral.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C45.3": {
+      "term_original": "deambula",
+      "capitulo": "06",
+      "confidence_embedding": 0.7391,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A opção mais precisa para o termo 'deambula' é a intoxicação por cocaína (CID-11: Intoxicação por cocaína), pois embora não seja diretamente relacionado à capacidade de caminhar, a presença do termo sugere que o paciente tem algum grau de mobilidade e coordenação corpórea.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção de código CID-11: Intoxicação por cocaína não é justificada pelo termo 'deambula', pois a capacidade de caminhar não está diretamente relacionada à intoxicação por cocaína. O termo 'deambula' sugere que o paciente tem mobilidade e coordenação corpórea, mas isso não é um sintoma característico da intoxicação por cocaína.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6A23.01": {
+      "term_original": "acordada",
+      "capitulo": "06",
+      "confidence_embedding": 0.7646,
+      "descricao_cid": "Representação de doença CID-11: Transtorno psicótico agudo e transitório, primeiro episódio, em remissão parcial. Definição: Todos os critérios diagnósticos para transtorno psicótico agudo e transitório, primeiro episódio em termos de sintomas e duração foram preenchidos anteriormente. Os sintomas melhoraram de tal forma que os critérios diagnósticos para o transtorno não foram preenchidos por pelo menos um mês, mas alguns sintomas clinicamente significativos persistem, que podem ou não estar associados a comprometimento funcional. A remissão parcial pode ter ocorrido em resposta a medicamento ou outro tratamento.",
+      "classification_reasoning": "O termo 'acordada' sugere que o paciente está desperto e consciente, o que é consistente com a descrição do Transtorno Psicótico Agudo e Transitório, Primeiro Episódio, em Remissão Parcial. A escolha desse código se baseia na presença de sintomas psiquicamente relevantes, como mudanças na sociabilidade, e na ausência de indicações de intoxicação por substâncias psicotrópicas ou hidrocefalia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'acordada' não está diretamente relacionado ao Transtorno Psicótico Agudo e Transitório, Primeiro Episódio, em Remissão Parcial. A condição clínica descrita no prontuário refere-se a um paciente consciente, orientado, comunicativo, com traumatismo do baco e outros sintomas físicos, não psiquáticos. Portanto, o código CID-11 atribuído não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "9A06.8": {
+      "term_original": "discreto edema peripalpebral bilateral",
+      "capitulo": "09",
+      "confidence_embedding": 0.7957,
+      "descricao_cid": "Representação de doença CID-11: Blefarocalásia. Definição: Trata-se de um mal posicionamento da pálpebra causado por involução ou inflamação da pálpebra. A inflamação é caracterizada por exacerbações e remissões de edema palpebral, que resulta em estiramento e subsequente atrofia dos tecidos palpebrais resultando em dobras redundantes sobre as margens da pálpebra. Tipicamente afeta apenas as pálpebras superiores e pode ser unilateral ou bilateral.",
+      "classification_reasoning": "A descrição do termo 'discreto edema peripalpebral bilateral' se refere ao mal posicionamento das pálpebras, caracterizado por exacerbações e remissões de edema palpebral, o que resulta em estiramento e subsequente atrofia dos tecidos palpebrais. Esta definição é coerente com a descrição da Síndrome de Blefarocalásia (9A06.8), uma condição patológica caracterizada por mal posicionamento das pálpebras, enquanto as outras opções não se ajustam à descrição do termo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'discreto edema peripalpebral bilateral' não se refere ao mal posicionamento das pálpebras, caracterizado por exacerbações e remissões de edema palpebral, como descrito na definição da Síndrome de Blefarocalásia (9A06.8). Em vez disso, descreve um achado clínico específico de edema peripalpebral bilateral, que não é uma condição patológica caracterizada por mal posicionamento das pálpebras. Portanto, o código CID-11 atribuído (9A06.8) não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A04.0": {
+      "term_original": "fotorreagentes",
+      "capitulo": "09",
+      "confidence_embedding": 0.7434,
+      "descricao_cid": "Representação de doença CID-11: Triquíase sem entrópio. Definição: Refere-se a cílios anormalmente posicionados que crescem para trás em direção ao olho, tocando a córnea ou conjuntiva. Pode ser causado por infecção, inflamação, condições autoimunes, defeitos congênitos, agenesia palpebral e traumatismos como queimaduras ou lesões palpebrais. Esse diagnóstico é feito na ausência da condição em que a pálpebra (usualmente a inferior) dobra para dentro. É muito desconfortável, pois os cílios constantemente se esfregam contra a córnea e a irritam.",
+      "classification_reasoning": "A descrição do termo 'fotorreagentes' se relaciona à presença de cilia anormalmente posicionados, tocam a córnea ou conjuntiva, o que é característico da triquíase sem entrópio (Código CID-11: 9A04.0).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'fotorreagentes' se refere à presença de cilia anormalmente posicionados, tocam a córnea ou conjuntiva, o que é característico da triquíase sem entrópio (Código CID-11: 9A04.0). A descrição do prontuário não apresenta nenhuma contradição óbvia e a associação entre o termo e o código CID-11 parece clínica e coerente.",
+      "tipo_erro_auditoria": null
+    },
+    "CB21.1": {
+      "term_original": "roncos difusos",
+      "capitulo": "12",
+      "confidence_embedding": 0.7549,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A opção mais precisa para o termo 'roncos difusos' é a Código CB21.1, que representa uma representação de doença CID-11: Outro pneumotórax espontâneo. Isso porque o contexto clínico menciona a presença de roncos difusos no paciente, o que sugere um problema respiratório relacionado ao trato respiratório.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção do código CID-11 CB21.1 não é adequada porque o termo 'roncos difusos' não está diretamente relacionado a um pneumotórax espontâneo. O contexto clínico menciona roncos difusos, mas não há evidência de que isso esteja relacionado a uma doença pulmonar subjacente ou a um pneumotórax espontâneo. A classificação do código CB21.1 é demasiado específica e não representa fielmente o termo 'roncos difusos' no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

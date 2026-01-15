@@ -1,0 +1,121 @@
+{
+  "prontuario_id": 781,
+  "text": "18h: Paciente permanece com hipotensão, hipotermia, cianose de extremidades, TQT com névoa, AVP com SRT em curso, diurese presente em fralda, sonolenta. Tentado coleta de sangue para HMC sem sucesso. Decidido por passagem de cateter venoso central + tansferência pra UTI (Doutor Vital Brazil conversou com médica da UTI e optaram por receber a paciente na vaga de outra paciente, também da Doutor Vital Brazil ). Solicitada SVD + coleta de gasometria arterial. SEPTICEMIA NAO ESPECIFICADA.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente",
+      "paciente"
+    ],
+    "Sinal ou Sintoma": [
+      "hipotensão",
+      "hipotermia",
+      "sonolenta",
+      "cianose de extremidades"
+    ],
+    "Abreviação": [
+      "AVP",
+      "HMC",
+      "UTI",
+      "SVD",
+      "TQT com névoa",
+      "SRT em curso"
+    ],
+    "Dispositivo Médico": [
+      "AVP",
+      "SVD",
+      "cateter venoso central"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "AVP",
+      "SVD",
+      "TQT com névoa",
+      "SRT em curso",
+      "cateter venoso central"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Achado": [
+      "sucesso",
+      "diurese presente"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UTI"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "coleta",
+      "coleta de sangue"
+    ],
+    "Doença ou Síndrome": [
+      "SEPTICEMIA"
+    ],
+    "Objeto Manufaturado": [
+      "fralda"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "médica da UTI"
+    ]
+  },
+  "labels": {
+    "8A64": {
+      "term_original": "hipotermia",
+      "capitulo": "08",
+      "confidence_embedding": 0.7337,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo.",
+      "classification_reasoning": "A hipotermia está relacionada à hipotensão e cianose de extremidades, indicando uma resposta sistêmica ao estresse. A crise epiléptica febril complexa (8A63.01) é descartada porque não há informações sobre convulsões ou crises epilépticas. A hipertermia maligna (8C78) também é descartada porque a temperatura corporal está baixa, não alta. A crise epiléptica única devida a causas remotas (8A64) se encaixa melhor no contexto clínico, considerando a hipotermia e outras manifestações de estresse.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipotermia não é uma crise epiléptica única devida a causas remotas. A crise epiléptica (8A64) se refere a uma convulsão não provocada em paciente sem história de antecedente de crises epilépticas, mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável. A hipotermia é um sintoma de estresse sistêmico e não está relacionado à crise epiléptica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C45.3": {
+      "term_original": "sonolenta",
+      "capitulo": "06",
+      "confidence_embedding": 0.732,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "O termo 'sonolenta' sugere que o paciente está apresentando um nível de sonolência ou letargia, comum em casos de intoxicação por cocaína. Além disso, a presença de outros sintomas como hipotensão, hipotermia e cianose de extremidades também são compatíveis com uma overdose de drogas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 '6C45.3' é muito específica e se refere a uma intoxicação por cocaína, enquanto o termo 'sonolenta' não está diretamente relacionado à cocaína ou a qualquer outra substância psicoativa. Além disso, a presença de outros sintomas como hipotensão, hipotermia e cianose de extremidades sugere uma situação mais complexa e não apenas uma intoxicação por cocaína.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BE10": {
+      "term_original": "cianose de extremidades",
+      "capitulo": "11",
+      "confidence_embedding": 0.7353,
+      "descricao_cid": "Representação de doença CID-11: Síndrome pós cardiotomia. Definição: Síndrome pós-cardiotomia é uma reação de hipersensibilidade a antígeno derivado do miocárdio lesado 3 semanas a 2 meses após infarto do miocárdio, cirurgia cardíaca ou lesão cardíaca penetrante e não penetrante. O diagnóstico é feito pelo antecedente de lesão cardíaca e exclusão de outras doenças, como insuficiência cardíaca congestiva, infarto do miocárdio recorrente, endocardite, miocardite e pericardite.",
+      "classification_reasoning": "A cianose de extremidades é um sintoma comum em pacientes com síndrome pós-cardiotomia, caracterizada por lesão cardíaca recente e reação de hipersensibilidade a antígeno derivado do miocárdio. Nesse contexto clínico, a escolha da opção BE10 é mais precisa do que as outras opções, pois apresenta sintomas semelhantes ao observados no paciente (cianose de extremidades) e tem um nexo lógico com a hipotensão, hipotermia e outros achados mencionados na descrição.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A cianose de extremidades não é um sintoma característico da síndrome pós-cardiotomia, e sim uma manifestação de hipoxia ou isquemia. A escolha do código BE10 não representa fielmente o termo descrito no prontuário, pois a síndrome pós-cardiotomia é uma condição específica relacionada à lesão cardíaca recente e reação de hipersensibilidade a antígeno derivado do miocárdio. A cianose de extremidades pode ser um sintoma de várias outras condições, incluindo septicemia não especificada, que é mencionada no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC80.0": {
+      "term_original": "hipotensão",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A hipotensão presente no paciente é compatível com a definição de Insuficiência Cardíaca Congestiva (ICCG), um quadro clínico caracterizado por anormalidades da função ventricular e da regulação neuro-hormonal, que inclui sintomas como baixa pressão arterial.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipotensão descrita no prontuário é um sintoma, não uma condição clínica específica. O código CID-11 BC80.0 se refere a Insuficiência Cardíaca Congestiva (ICCG), que é um quadro clínico caracterizado por anormalidades da função ventricular e da regulação neuro-hormonal. A hipotensão não é um critério exclusivo para ICCG, portanto, a classificação é incorreta.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "1C19.1": {
+      "term_original": "septicemia",
+      "capitulo": "01",
+      "confidence_embedding": 0.7624,
+      "descricao_cid": "Representação de doença CID-11: Doença dos legionários. Definição: Doença do legionário, a forma pneumônica, tem um período de incubação de 2 a 10 dias (mas foram registrados períodos de até 16 dias em alguns surtos). Inicialmente, os sintomas são febre, perda de apetite, dor de cabeça, mal-estar e letargia. Alguns pacientes também podem apresentar dores musculares, diarreia e confusão mental. Geralmente, há também uma tosse leve inicial, mas até 50% dos pacientes podem apresentar catarro. Rajas sanguíneas ou hemoptise ocorrem em cerca de um terço dos pacientes. A gravidade da doença varia de uma tosse leve a uma pneumonia rapidamente fatal. A morte ocorre por pneumonia progressiva com insuficiência respiratória e/ou choque e falência de múltiplos órgãos.",
+      "classification_reasoning": "A hipotensão, hipotermia e cianose de extremidades sugerem uma resposta inflamatória grave, com possibilidade de sepse não especificada. A doença do legionário é uma pneumonia bacteriana grave caracterizada por septicemia e sepse, o que se alinha com a situação clínica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A doença do legionário é uma pneumonia bacteriana grave caracterizada por septicemia e sepse, mas a situação clínica descrita no prontuário apresenta hipotensão, hipotermia e cianose de extremidades, sugerindo uma resposta inflamatória grave com possibilidade de sepse não especificada. Embora haja similaridade entre as duas condições, elas não são idênticas. A codificação CID-11 '1C19.1' não representa fielmente a situação clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF50.63": {
+      "term_original": "sucesso",
+      "capitulo": "21",
+      "confidence_embedding": 0.784,
+      "descricao_cid": "Representação de doença CID-11: Urgência miccional. Definição: Uma vontade repentina e intensa de urinar junto com desconforto na bexiga",
+      "classification_reasoning": "A opção mais precisa para o termo 'sucesso' é a urgence miccional (MF50.63), pois o paciente conseguiu tentar coletar sangue para HMC, embora não tenha tido sucesso",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'sucesso' no prontuário refere-se à tentativa de coletar sangue para HMC, que não foi bem-sucedida. O código CID-11 MF50.63 representa uma vontade repentina e intensa de urinar, o que não está relacionado ao termo 'sucesso'. A opção do sistema é puramente imaginária e sem qualquer base no texto.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

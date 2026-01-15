@@ -1,0 +1,193 @@
+{
+  "prontuario_id": 401,
+  "text": "Lucas, 64 ANOS\n# MCP dilatada - IDIOPÁTICA\nCF III-II OSCILANTE.\n** PROTOCOLO DE TX CARDIACO - INDICE CARDIACO 3,44** \nCAT 09/06/2014: ausência de coronariopatia obstrutiva crítica\nIC 3,449 pré / 3,602 pós\nRVP em woods 0,217 pré / 0,147 pós\nsintomas oscilantes, piora da dispnéia aos moderados.\nQUEIXA-SE DE TOSSE, SEGUIDA DE DISPNÉIA IMPORTANTER, CIANOSE CENTRAL, E SINCOPE.\nPA 120/80 mmHg\nsem ingurgitamento jugular\nMV+ bilateral sem RA\nRCR 2t SS\nSem VCM\nSem edema MMII\nA # TVNS ???\nP # ENCAMINHO PARA TX CARDIACO.\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "CAT",
+      "PA",
+      "MV+",
+      "RA",
+      "VCM",
+      "MMII",
+      "TVNS",
+      "MCP dilatada - IDIOPÁTICA CF III-II OSCILANTE",
+      "TX CARDIACO",
+      "IC 3 , 449 pré / 3 , 602 pós",
+      "RVP em woods",
+      "RCR 2t"
+    ],
+    "Procedimento Diagnóstico": [
+      "CAT"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXA-SE",
+      "TOSSE",
+      "DISPNÉIA",
+      "SINCOPE",
+      "RA",
+      "SS",
+      "VCM",
+      "edema",
+      "CIANOSE CENTRAL",
+      "ingurgitamento jugular",
+      "RCR 2t"
+    ],
+    "Conceito Qualitativo": [
+      "IMPORTANTER"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Negação": [
+      "sem",
+      "SS",
+      "Sem"
+    ],
+    "Achado": [
+      "MV+",
+      "RCR 2t"
+    ],
+    "Conceito Espacial": [
+      "bilateral"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MMII"
+    ],
+    "Localização ou Região Corporal": [
+      "MMII"
+    ],
+    "Doença ou Síndrome": [
+      "TVNS",
+      "MCP dilatada - IDIOPÁTICA CF III-II OSCILANTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ENCAMINHO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX CARDIACO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "INDICE CARDIACO 3 , 44**",
+      "ausência de coronariopatia obstrutiva crítica",
+      "IC 3 , 449 pré / 3 , 602 pós",
+      "RVP em woods",
+      "0 , 217 pré / 0 , 147 pós",
+      "piora da dispnéia aos moderados"
+    ],
+    "Conceito Quantitativo": [
+      "120/80 mmHg"
+    ]
+  },
+  "labels": {
+    "ME86.B": {
+      "term_original": "queixa-se",
+      "capitulo": "21",
+      "confidence_embedding": 0.7111,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa da perna ou coxa. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'queixa-se' é a Sintoma ou queixa da perna ou coxa (ME86.B), pois Lucas se queixa de sintomas oscilantes, piora da dispnéia e tosse, o que sugere uma queixa subjacente à sua condição cardíaca.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa de Lucas não está diretamente relacionada à doença cardíaca descrita no prontuário. A queixa-se refere a sintomas oscilantes, piora da dispnéia e tosse, enquanto o código CID-11 ME86.B se refere a sintoma ou queixa da perna ou coxa. Embora haja uma relação entre os sintomas de Lucas e sua condição cardíaca, a codificação não é clinicamente coerente, pois a queixa-se não está diretamente relacionada à doença cardíaca.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BD52.71": {
+      "term_original": "ra",
+      "capitulo": "11",
+      "confidence_embedding": 0.7678,
+      "descricao_cid": "Representação de doença CID-11: Dilatação adquirida da aorta ascendente ou da raiz. Definição: Aumento do diâmetro luminal da aorta entre a junção ventrículo-aórtica e a origem do primeiro ramo braquiocefálico acima do limite superior do normal ajustado para o tamanho do corpo que se desenvolve após o nascimento",
+      "classification_reasoning": "A opção mais precisa para o termo 'ra' no contexto clínico é a dilatação adquirida da aorta ascendente ou da raiz, pois a expressão 'MV+' bilateral sem RA indica que não há doença valvar aórtica (RA), e o uso do termo 'ra' provavelmente se refere à raiz aórtica.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'ra' no contexto clínico é a dilatação adquirida da aorta ascendente ou da raiz, pois a expressão 'MV+' bilateral sem RA indica que não há doença valvar aórtica (RA), e o uso do termo 'ra' provavelmente se refere à raiz aórtica. A descrição do código CID-11 também se alinha com essa interpretação.",
+      "tipo_erro_auditoria": null
+    },
+    "FA27.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.728,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'edema' dentro do contexto clínico é a artropatia palindrômica (FA27.2), pois Lucas apresenta sintomas de edema nas articulações, especificamente na descrição da queixa: 'tosse, seguida de dispnéia importante, cianose central e sincope'. Além disso, a artropatia palindrômica é uma condição caracterizada por crises agudas de dor e edema nas articulações, o que se alinha com os sintomas descritos no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa de 'edema' no prontuário se refere à presença de edema nas articulações, o que não é diretamente relacionado ao termo 'edema' descrito na definição do código CID-11 FA27.2. A artropatia palindrômica (FA27.2) caracteriza-se por crises agudas de dor e edema nas articulações, mas no prontuário não há evidência clínica de que isso esteja relacionado ao caso de Lucas. Portanto, a codificação FA27.2 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "CA22.0": {
+      "term_original": "tosse",
+      "capitulo": "12",
+      "confidence_embedding": 0.7529,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A presença de tosse como queixa do paciente, associada à doença pulmonar obstrutiva crônica (DPOC) com exacerbação aguda, justifica a escolha desse código CID-11.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de tosse como queixa do paciente, associada à doença pulmonar obstrutiva crônica (DPOC) com exacerbação aguda, justifica a escolha desse código CID-11. A codificação é clínica e coerente com o prontuário, pois a tosse é um sintoma comum em pacientes com DPOC e exacerbação aguda.",
+      "tipo_erro_auditoria": null
+    },
+    "BC43.6": {
+      "term_original": "ingurgitamento jugular",
+      "capitulo": "11",
+      "confidence_embedding": 0.7578,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia ventricular arritmogênica. Definição: A cardiomiopatia ventricular arritmogênica é uma cardiomiopatia caracterizada pela perda de células miocárdicas com substituição parcial ou total do músculo ventricular direito por tecido adiposo e fibroso, começando pelo subepicárdio e se tornando transmural com o tempo, poupando os músculos papilares e trabéculas, e frequentemente associada a aneurismas, particularmente da via de saída ventricular direita. Há comprometimento sistólico progressivo com dilatação ventricular e acentuada propensão a arritmias ventriculares de origem ventricular direita, e também esquerda. Classicamente uma doença do ventrículo direito, evidências mais recentes sugerem envolvimento do ventrículo esquerdo em extensão variável em até 75% dos casos, assim como doença isolada do ventrículo esquerdo.",
+      "classification_reasoning": "A presença de ingurgitamento jugular sugere o comprometimento sistólico progressivo com dilatação ventricular, característica da cardiomiopatia ventricular arritmogênica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de ingurgitamento jugular não é suficiente para justificar a codificação CID-11 BC43.6, que descreve uma cardiomiopatia ventricular arritmogênica caracterizada por dilatação ventricular e comprometimento sistólico progressivo. O termo 'ingurgitamento jugular' pode ser relacionado a várias condições clínicas, incluindo doenças cardíacas, pulmonares ou vasculares, mas não há evidência suficiente no prontuário para justificar essa codificação específica.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BA60.9": {
+      "term_original": "sincope",
+      "capitulo": "11",
+      "confidence_embedding": 0.7441,
+      "descricao_cid": "Representação de doença CID-11: Choque cardiogênico, não relacionado a complicações mecânicas, como complicação atual subsequente a infarto agudo do miocárdio. Definição: A expressão clínica mais grave da insuficiência ventricular esquerda e está associada a extensos danos ao miocárdio ventricular esquerdo após infarto agudo do miocárdio, não relacionado a um defeito mecânico como ruptura do septo ventricular ou do músculo papilar. Choque é definido como pressão arterial (PA) sistólica <90 mmHg e hipoperfusão de órgãos.",
+      "classification_reasoning": "A sintaxe de sincope, combinada com a existência de doença cardíaca prévia (MCP dilatada e CF III-II oscilante), sugere uma possibilidade de choque cardiogênico não relacionado a complicações mecânicas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A sintaxe de sincope, combinada com a existência de doença cardíaca prévia (MCP dilatada e CF III-II oscilante), não é suficiente para justificar o código CID-11 BA60.9, que se refere a choque cardiogênico não relacionado a complicações mecânicas. A falta de evidências clínicas de insuficiência ventricular esquerda e danos ao miocárdio ventricular esquerdo após infarto agudo do miocárdio também é um fator que leva à remoção do código.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC43.0": {
+      "term_original": "mcp dilatada - idiopática cf iii-ii oscilante",
+      "capitulo": "11",
+      "confidence_embedding": 0.7764,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida.",
+      "classification_reasoning": "A escolha do código BC43.0 se baseia na dilatação da câmara ventricular esquerda, descrita como 'MCP dilatada - idiopática', o que é consistente com a definição de cardiomiopatia dilatada. Além disso, não há indicações de doença arterial coronariana ou hipertensão como causas da dilatação.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 BC43.0 é inadequada porque a cardiomiopatia dilatada é uma condição cardíaca que envolve disfunção sistólica e dilatação da câmara ventricular esquerda, enquanto o termo 'MCP dilatada - idiopática' refere-se à dilatação da artéria pulmonar (MCP) e não à cardiomiopatia dilatada. Além disso, a presença de doença cardíaca (CF III-II oscilante) e o protocolo de tratamento cardíaco sugerem que a condição é mais complexa do que apenas uma cardiomiopatia dilatada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME64.3": {
+      "term_original": "tvns",
+      "capitulo": "21",
+      "confidence_embedding": 0.7023,
+      "descricao_cid": "Representação de doença CID-11: Petéquias. Definição: Petéquias resultam do vazamento focal de sangue dos capilares da derme para o tecido conjuntivo dérmico adjacente. Apresentam-se como múltiplas máculas pontuais, vermelhas ou roxas, que não desaparecem à digitopressão. As muitas causas subjacentes variam de condições inócuas (p.ex., tosse ou esforço) a condições de risco de vida (p.ex., septicemia meningocócica).",
+      "classification_reasoning": "A opção mais precisa para o termo 'TVNS' é o código ME64.3, que corresponde à representação de doença CID-11: Petéquias. Isso se justifica pelo fato de Lucas ter queixa-se de tosse seguida de dispnéia importante e cianose central, e também menciona a presença de petéquias. Além disso, o contexto clínico indica sintomas oscilantes e piora da dispnéia, o que sugere uma possibilidade de petéquias.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "Apetéquias são uma manifestação cutânea, enquanto o prontuário descreve sintomas respiratórios e cardíacos. A presença de petéquias não é diretamente relacionada à doença do paciente, portanto, a codificação CID-11 ME64.3 não representa fielmente o termo 'TVNS' no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME64": {
+      "term_original": "vcm",
+      "capitulo": "21",
+      "confidence_embedding": 0.7137,
+      "descricao_cid": "Representação de doença CID-11: Sinais vasculares cutâneos não específicos. Definição: Alterações perceptíveis na pele resultantes de alterações na composição do sangue, fluxo sanguíneo ou integridade dos vasos sanguíneos. Podem ser devidas a fatores locais ou podem indicar transtornos subjacentes, como anemia, hipovolemia, febre, hipóxia ou defeitos na coagulação.",
+      "classification_reasoning": "O termo 'VCM' provavelmente se refere a Sinais vasculares cutâneos não específicos, pois é comum ver sinais de hipoperfusão ou insuficiência cardíaca no paciente com doença cardiovascular, como o caso de Lucas.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A abreviação 'VCM' provavelmente se refere a Sinais vasculares cutâneos não específicos, pois é comum ver sinais de hipoperfusão ou insuficiência cardíaca no paciente com doença cardiovascular, como o caso de Lucas. A descrição do código CID-11 também se ajusta ao contexto clínico do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "FB32.20": {
+      "term_original": "mv+",
+      "capitulo": "15",
+      "confidence_embedding": 0.7069,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A escolha do código FB32.20 foi feita pois o termo 'mv+' é consistente com a descrição de rabdomiólise idiopática, caracterizada pelo extravazamento maciço de conteúdo muscular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'mv+' não está relacionado à rabdomiólise idiopática, que é uma lesão do músculo esquelético. No entanto, no prontuário, 'mv+' parece referir-se a miocardiopatia, que é um tipo de doença cardíaca. Portanto, o código CID-11 FB32.20 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MC82.0": {
+      "term_original": "ss",
+      "capitulo": "21",
+      "confidence_embedding": 0.7476,
+      "descricao_cid": "Representação de doença CID-11: Parada cardíaca com taquicardia e fibrilação ventricular. Definição: Despolarização ventricular rápida ou descoordenada resultando em colapso hemodinâmico.",
+      "classification_reasoning": "A opção mais precisa para o termo 'ss' é a parada cardíaca com taquicardia e fibrilação ventricular (Código: MC82.0), pois o contexto clínico menciona sintomas oscilantes, piora da dispnéia e sincope.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção MC82.0 não é adequada porque a parada cardíaca com taquicardia e fibrilação ventricular não está diretamente relacionada ao sintoma 'ss' mencionado no prontuário. O termo 'ss' provavelmente se refere à frequência cardíaca (segundos por minuto), que não é a mesma coisa que parada cardíaca. Além disso, o contexto clínico descreve sintomas oscilantes e sincope, mas não há evidências de parada cardíaca.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "prontuario_id": 162,
+  "text": "LUCAS, 55 ANOS, VEIO P COM SOBRINHA LUCAS, DM E HAS HÁ 10 ANOS, EX-USUARIO DE DROGAS , USO DE PSICOTROPICOS (HALDOL... USO IRREGULAR DE MEDICAÇÕES: ENALAPRIL, GLICANIL, METFORMINA, FLUOXETINA, RESPIRIDONA, AMYTRIL, HALO, LONGACTIL, SVT, DLP. NEGA ALTERAÇÃO PROSTÁTICA, IAM, AVE, UROLITIASE, GOTA NÃO SE LEMBRA DAS MEDICAÇÕES. AO EXAME: PESO 98, ALT 174, MUCOSAS CORADAS, OBESO, ABDOME GLOBOSO, SEM VCM, MEMBROS SEM EDEMA. ORIENTO OTMIZAR TTO NA UBS. INICIO INDAPEN.  NEFROPATIA LEVE. EXAMES > CR 0,88, TG 176, CT 174, HDL 33, CL CR 63, HMG NORMAL, HB GLIC 8,8. PEÇO URINA 24H. DEFINIR NEFROPATIA DIABÉTICA. RETORNO DA SOBRINHA COM EXAMES  11/11/2015: CR 1,16, GLI 87, NA 136, K 4,3, UR 23, CA 9,1, AC 4,7, P 3,7, P URINA: PROTEINA 100, HT 45, HB 15,  MICROALB 683 MG/G.",
+  "entities": {
+    "Doença ou Síndrome": [
+      "DM",
+      "HAS",
+      "IAM",
+      "AVE",
+      "UROLITIASE",
+      "GOTA",
+      "OBESO",
+      "NEFROPATIA",
+      "NEFROPATIA DIABÉTICA"
+    ],
+    "Abreviação": [
+      "DM",
+      "HAS",
+      "HALO",
+      "SVT",
+      "DLP",
+      "IAM",
+      "AVE",
+      "ALT",
+      "VCM",
+      "UBS",
+      "P URINA"
+    ],
+    "Substância Farmacológica": [
+      "PSICOTROPICOS",
+      "HALDOL",
+      "MEDICAÇÕES",
+      "ENALAPRIL",
+      "GLICANIL",
+      "METFORMINA",
+      "FLUOXETINA",
+      "RESPIRIDONA",
+      "AMYTRIL",
+      "HALO",
+      "LONGACTIL",
+      "SVT",
+      "INDAPEN"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "ENALAPRIL"
+    ],
+    "Substância Química Orgânica": [
+      "GLICANIL",
+      "METFORMINA",
+      "FLUOXETINA",
+      "RESPIRIDONA",
+      "AMYTRIL",
+      "HALO",
+      "LONGACTIL",
+      "SVT"
+    ],
+    "Negação": [
+      "NEGA",
+      "NÃO",
+      "SEM"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAME"
+    ],
+    "Atributo Clínico": [
+      "PESO",
+      "ALT"
+    ],
+    "Conceito Quantitativo": [
+      "98",
+      "174"
+    ],
+    "Achado": [
+      "OBESO",
+      "EX-USUARIO DE DROGAS",
+      "MUCOSAS CORADAS",
+      "HMG NORMAL"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABDOME",
+      "MEMBROS"
+    ],
+    "Sinal ou Sintoma": [
+      "GLOBOSO",
+      "VCM",
+      "EDEMA",
+      "ALTERAÇÃO PROSTÁTICA"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UBS"
+    ],
+    "Conceito Qualitativo": [
+      "LEVE"
+    ],
+    "Procedimento Laboratorial": [
+      "EXAMES",
+      "URINA 24H",
+      "P URINA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "RETORNO",
+      "ORIENTO OTMIZAR TTO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 88",
+      "TG 176",
+      "CT 174",
+      "HDL 33",
+      "CL CR 63",
+      "HMG NORMAL",
+      "HB GLIC 8 , 8",
+      "CR 1 , 16",
+      "GLI 87",
+      "NA 136",
+      "K 4 , 3",
+      "UR 23",
+      "CA 9 , 1",
+      "AC 4 , 7",
+      "P 3 , 7",
+      "PROTEINA 100",
+      "HT 45",
+      "HB 15",
+      "MICROALB 683 MG/G"
+    ]
+  },
+  "labels": {
+    "BD93": {
+      "term_original": "edema",
+      "capitulo": "11",
+      "confidence_embedding": 0.7979,
+      "descricao_cid": "Representação de doença CID-11: Linfedema. Definição: Edema devido ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Geralmente afeta as extremidades, mas pode envolver qualquer parte do corpo. É desfigurante e aumenta a suscetibilidade a infecções recorrentes e malignidades locais.",
+      "classification_reasoning": "A opção mais precisa para o termo 'edema' é a Linfedema (Código BD93), pois Lucas tem histórico de DM e uso irregular de medicamentos, o que aumenta o risco de nefropatia diabética. O edema descrito no prontuário não está relacionado às úlceras de pé diabético ou à insuficiência cardíaca congestiva. A opção BD93 melhor se ajusta ao contexto clínico, considerando as características do paciente e os achados do exame físico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BD93 (Linfedema) não é apropriada porque o termo 'edema' no prontuário se refere ao edema abdominal descrito, que não está relacionado à doença de Linfedema. A análise do prontuário revela que o paciente tem histórico de DM e uso irregular de medicamentos, o que aumenta o risco de nefropatia diabética, mas isso não justifica a escolha do código BD93. Além disso, a descrição do código CID-11 não se ajusta ao contexto clínico do paciente.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "GB42.1": {
+      "term_original": "urolitiase",
+      "capitulo": "16",
+      "confidence_embedding": 0.7825,
+      "descricao_cid": "Representação de doença CID-11: Albuminúria, Grau A3. Definição: Presença de albumina excessiva na urina, indicando permeabilidade anormal da filtração glomerular. Pode ser quantificado por coletas cronometradas ou amostras pontuais de urina com a concentração ajustada à concentração de creatinina na urina para corrigir as variações na concentração total de urina. Quando persistente e de gravidade moderada ou maior, geralmente indica doença glomerular evidente, como a causada por glomeruloesclerose diabética, glomerulonefrite ou amiloide.",
+      "classification_reasoning": "A opção mais precisa é a Albuminúria, Grau A3 (GB42.1) porque o termo 'urolitiase' não está presente no contexto clínico e nem há indicações de litíase renal ou nefrocalcinose. A Albuminúria, Grau A3 é mais provável como resultado da história do paciente com diabetes melito e uso irregular de medicações, o que pode ter contribuído para a proteinúria grave mencionada nos exames.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção GB42.1 (Albuminúria, Grau A3) não é adequada porque 'urolitiase' não está relacionado à albuminúria ou a doença renal. O termo 'urolitiase' refere-se a uma condição clínica específica de formação de pedras nos rins, que não é mencionada no prontuário do paciente. A classificação GB42.1 é um overgeneralization e não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB50.1": {
+      "term_original": "obeso",
+      "capitulo": "15",
+      "confidence_embedding": 0.7244,
+      "descricao_cid": "Representação de doença CID-11: Bursite associada com o uso, uso excessivo ou pressão. Definição: Esta é uma inflamação de uma ou mais bursas (pequenas bolsas) sinoviais, que geralmente resulta em dor e é causada por uso repetitivo, uso excessivo ou pressão.",
+      "classification_reasoning": "A obesidade descrita no prontuário refere-se à gordura corporal excessiva, o que pode estar relacionado ao uso irregular de medicação e histórico de uso de drogas. A escolha da opção FB50.1 (Bursite associada com o uso, uso excessivo ou pressão) se baseia na possibilidade de obesidade ser um sintoma de sequelas do uso de substâncias",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A obesidade descrita no prontuário não está relacionada à bursite, que é uma inflamação de uma ou mais bursas sinoviais. A obesidade é um estado de saúde que pode ter várias causas e consequências, mas não há nenhuma evidência clínica que sugira uma relação direta com a bursite. Portanto, o código CID-11 FB50.1 não representa fielmente o termo 'obeso' descrito no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BA02": {
+      "term_original": "nefropatia diabética",
+      "capitulo": "11",
+      "confidence_embedding": 0.7139,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A opção mais precisa é a Doença renal hipertensiva (BD73.1), pois o paciente tem DM e nefropatia leve, com resultados de exames urinários e sangue que indicam um problema renal associado à diabetes.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção 'BA02' (Doença renal hipertensiva) não é adequada porque o prontuário descreve uma nefropatia leve associada à diabetes, que é um tipo de doença renal diabética. A definição do código CID-11 'BA02' se refere a danos ao rim devido à hipertensão crônica, não à diabetes. Portanto, o código CID-11 mais apropriado para essa condição clínica é o BD73.1 (Doença renal diabética).",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GC40.60": {
+      "term_original": "alteração prostática",
+      "capitulo": "16",
+      "confidence_embedding": 0.8077,
+      "descricao_cid": "Representação de doença CID-11: Bexiga hiperativa associada a prolapso de órgão pélvico. Definição: Condição da bexiga, causada por função renal prejudicada, inervação nervosa disfuncional ou ausente, contração involuntária dos músculos da bexiga, diabetes, uso de medicamentos ou infecção. Esta condição é caracterizada por uma necessidade repentina de urinar, aumento da frequência urinária e incontinência de urgência. Essa condição também pode se manifestar com noctúria.",
+      "classification_reasoning": "A opção mais precisa para o termo 'alteração prostática' é a incontinência urinária associada a prolapso de órgãos pélvicos (Código: GC40.60), pois Lucas negou alteração prostática e não apresenta sintomas sugerindo doenças relacionadas ao sistema reprodutor masculino.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção do sistema é incompatível com o prontuário, pois Lucas negou alteração prostática e não apresenta sintomas sugerindo doenças relacionadas ao sistema reprodutor masculino. A condição descrita no prontuário não se refere a incontinência urinária associada a prolapso de órgãos pélvicos (Código: GC40.60). Portanto, é necessário remover o código CID-11 atribuído e realizar uma nova codificação que represente fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "QA7Z": {
+      "term_original": "ex-usuario de drogas",
+      "capitulo": "24",
+      "confidence_embedding": 0.77,
+      "descricao_cid": "Representação de doença CID-11: Circunstâncias associadas a exposição a uma droga, medicamento ou substância biológica influenciando no episódio de atenção sem lesão ou dano, não especificadas. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'ex-usuario de drogas' é QA7Z, pois o paciente já parou de usar drogas e não há lesão ou dano associado à exposição a uma substância. A escolha de QA7Z também leva em conta que o termo não especifica qual tipo de droga foi usada pelo paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção QA7Z não é adequada porque o termo 'ex-usuario de drogas' não se refere a uma exposição a uma substância que influenciou no episódio de atenção, mas sim à história do paciente em relação ao uso de drogas. A classificação QA7Z sugere que houve exposição a uma substância e não há lesão ou dano associado, o que não é compatível com a descrição do termo.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA25": {
+      "term_original": "gota",
+      "capitulo": "15",
+      "confidence_embedding": 0.7838,
+      "descricao_cid": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato.",
+      "classification_reasoning": "A presença do termo 'gota' no contexto clínico e a descrição de nefropatia leve sugerem que a gota é uma possibilidade diagnóstica. Além disso, o paciente tem DM há 10 anos, o que aumenta a chance de hiperuricemia e desenvolvimento da doença.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença do termo 'gota' no prontuário não é suficiente para justificar a codificação CID-11 FA25. Embora o paciente tenha DM há 10 anos, que aumenta a chance de hiperuricemia e desenvolvimento da doença, não há evidência clínica direta de gota na descrição do prontuário. A nefropatia leve pode ser relacionada à diabetes melito ou outras causas, mas não há indicação de gota tofácea ou deposição focal de urato na pele e tecido subcutâneo.",
+      "tipo_erro_auditoria": "family_history_misread"
+    },
+    "BD10": {
+      "term_original": "dm",
+      "capitulo": "11",
+      "confidence_embedding": 0.7679,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos.",
+      "classification_reasoning": "A escolha do código BD10 é baseada na história do paciente, especificamente a presença de DM há 10 anos e os sintomas de insuficiência cardíaca, como o peso aumentado, obesidade, abdomen globoso e alterações nos valores laboratoriais, incluindo Cr 1,16, GLI 87, NA 136. Além disso, a paciente tem histórico de uso irregular de medicamentos e pode ter comprometido o seu estado cardiovascular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código BD10 (Insuficiência cardíaca congestiva) não é clínica e coerente com o prontuário. Embora o paciente tenha DM há 10 anos, a história de insuficiência cardíaca congestiva não está presente no prontuário. O peso aumentado, obesidade e abdomen globoso podem ser relacionados à obesidade e não à insuficiência cardíaca. Além disso, os resultados laboratoriais (Cr 1,16, GLI 87, NA 136) sugerem nefropatia leve, mas não há evidências de insuficiência cardíaca congestiva.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF95": {
+      "term_original": "mucosas coradas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7784,
+      "descricao_cid": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular.",
+      "classification_reasoning": "A opção MF95 - Mioglobinúria - é a mais precisa para o termo 'mucosas coradas' no contexto do prontuário, pois a mioglobinúria é frequentemente associada à necrose muscular e ao abuso de drogas ou álcool, o que está descrito no histórico do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção MF95 - Mioglobinúria - não é diretamente relacionada ao termo 'mucosas coradas' no prontuário. A mioglobinúria é frequentemente associada à necrose muscular e ao abuso de drogas ou álcool, o que não está descrito no histórico do paciente. Além disso, a descrição da condição clínica não menciona nada sobre obstrução tubular e lesão renal aguda, que são comuns em casos de mioglobinúria. A classificação é puramente imaginária e sem qualquer base no texto.",
+      "tipo_erro_auditoria": "hallucinated_linking"
+    }
+  }
+}

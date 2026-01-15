@@ -1,0 +1,78 @@
+{
+  "prontuario_id": 948,
+  "text": "Paciente com angina há mais de 2 anos, cintilografia miocárdica demonstrando hipoperfusão ínfero lateral e antero basal e cateterismo cardíaco de 21/06/06 com lesão crítica de 95% na coronária circunflexa distal e lesão de 70% na coronária direita média. Internado para observação após angioplastia com implante de prótese intraluminal na lesão descrita na circunflexa, com sucesso angiográfico e sem intercorrências. Recebe alta com plano de reintervenção percutânea em uma semana para tratamento da lesão na coronária direita.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Sinal ou Sintoma": [
+      "angina"
+    ],
+    "Doença ou Síndrome": [
+      "angina"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Internado",
+      "observação",
+      "alta",
+      "tratamento"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "angioplastia",
+      "tratamento",
+      "cateterismo cardíaco",
+      "implante de prótese intraluminal",
+      "plano de reintervenção percutânea"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Lesão ou Envenenamento": [
+      "lesão"
+    ],
+    "Conceito Temporal": [
+      "mais de 2 anos",
+      "uma semana"
+    ],
+    "Procedimento Diagnóstico": [
+      "cintilografia miocárdica",
+      "cateterismo cardíaco"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "hipoperfusão ínfero lateral e antero basal",
+      "lesão crítica de 95% na coronária circunflexa distal",
+      "lesão de 70% na coronária direita média"
+    ],
+    "Conceito Espacial": [
+      "lesão descrita na circunflexa"
+    ],
+    "Achado": [
+      "sucesso angiográfico"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "coronária direita"
+    ]
+  },
+  "labels": {
+    "BA40.Y": {
+      "term_original": "angina",
+      "capitulo": "11",
+      "confidence_embedding": 0.8276,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A escolha do código BA40.Y é a mais precisa para o termo 'angina' no contexto clínico, pois descreve 'outra angina pectoris especificada', que se adequa ao quadro de doença coronariana com sintomas de angina pectoris relatados.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'angina' no prontuário refere-se ao sintoma de dor torácica do paciente, que é diretamente relacionado à doença coronariana descrita. O código BA40.Y 'Outra angina pectoris especificada' se adequa perfeitamente ao quadro clínico apresentado, pois descreve uma forma específica de angina pectoris relacionada a lesões coronárias.",
+      "tipo_erro_auditoria": null
+    },
+    "NA05.Z": {
+      "term_original": "lesão",
+      "capitulo": "22",
+      "confidence_embedding": 0.7824,
+      "descricao_cid": "Representação de doença CID-11: Lesão dos vasos sanguíneos da cabeça, não especificada. Definição: ",
+      "classification_reasoning": "A lesão descrita na coronária circunflexa distal e lesão de 70% na coronária direita média é uma lesão vascular, mais especificamente uma lesão em um vaso sanguíneo. O código NA05.Z Representação de doença CID-11: Lesão dos vasos sanguíneos da cabeça, não especificada. Definição: é a opção mais precisa para o termo 'lesão' dentro do contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão descrita no prontuário refere-se a uma lesão vascular em um vaso sanguíneo, especificamente na coronária circunflexa distal e coronária direita média. O código CID-11 NA05.Z Representação de doença CID-11: Lesão dos vasos sanguíneos da cabeça, não especificada. Definição: é inadequado para descrever essa lesão vascular em um vaso sanguíneo do coração. A lesão não está relacionada à cabeça e o código não captura a localização específica da lesão.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

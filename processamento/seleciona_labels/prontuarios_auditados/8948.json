@@ -1,0 +1,200 @@
+{
+  "prontuario_id": 499,
+  "text": "Às 15:54 HS: CLIENTE INTERNADO POR INTOXICAÇÃO EXÓGENA + REBAIXAMENTO NÍVEL CONSCIÊNCIA: GLASGOW 11 ESTIMADO 15, PUPILAS ISOCÓRICAS, SEGUE VENTILAÇÃO MECÂNICA MODALIDADE A/C, FIO2 40%, SNG FECHADA, MV CREPITANTES, CATETER CENTRAL (D) PVC 13,  PLANO HIDRATAÇÃO EM CURSO, ABDOMEN GLOBOSO, FLÁCIDO, RHA + , SVD DIURESE COLORAÇÃO CONCENTRADO. FOI SUSPENSO TC CRÂNIO. ÀS 12:13HS: PACIENTE TRAQUEOSTOMIZADA COM CANULA DE METAL, COM SAIDA DE POUCA SECREÇÃO, MANTEM SUPORTE DE O2 SOB NEVOA UMIDA. ABERTURA OCULAR ESPONTANEA. ABDOMEM PLANO E FLACIDO COM RHA + , DIURESE ESPONTANEA PRESENTE EM FRALDAS. EDEMA DE MMII. APRESENTOU TEMPERATURA DE 38. FOI MEDICADA CONFORME PRESCRIÇÃO. AGUARDA RX DE ABD PARA VISUALIZAÇÃO DE SONDA NASOENTERAL. SEGUE SOB OBSERVAÇÃO E CUIDADOS ENFER .",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "CLIENTE",
+      "PACIENTE"
+    ],
+    "Abreviação": [
+      "FIO2",
+      "D",
+      "PVC",
+      "SVD",
+      "MMII",
+      "MODALIDADE A/C",
+      "SNG FECHADA",
+      "MV CREPITANTES",
+      "RHA +",
+      "TC CRÂNIO",
+      "RX DE ABD"
+    ],
+    "Conceito Quantitativo": [
+      "40%",
+      "13"
+    ],
+    "Conceito Espacial": [
+      "D"
+    ],
+    "Localização ou Região Corporal": [
+      "ABDOMEN",
+      "ABDOMEM",
+      "MMII"
+    ],
+    "Sinal ou Sintoma": [
+      "GLOBOSO",
+      "EDEMA",
+      "REBAIXAMENTO NÍVEL CONSCIÊNCIA",
+      "GLASGOW 11",
+      "MV CREPITANTES",
+      "TEMPERATURA DE 38"
+    ],
+    "Achado": [
+      "FLÁCIDO",
+      "DIURESE",
+      "TRAQUEOSTOMIZADA",
+      "PLANO",
+      "FLACIDO",
+      "ESTIMADO 15",
+      "PUPILAS ISOCÓRICAS",
+      "RHA +",
+      "COLORAÇÃO CONCENTRADO",
+      "ABERTURA OCULAR ESPONTANEA",
+      "DIURESE ESPONTANEA"
+    ],
+    "Dispositivo Médico": [
+      "SVD",
+      "SNG FECHADA",
+      "CATETER CENTRAL",
+      "CANULA DE METAL",
+      "SONDA NASOENTERAL"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SVD",
+      "TRAQUEOSTOMIZADA",
+      "MEDICADA",
+      "VENTILAÇÃO MECÂNICA",
+      "SNG FECHADA",
+      "CATETER CENTRAL",
+      "SUPORTE DE O2 SOB NEVOA UMIDA"
+    ],
+    "Função Fisiológica": [
+      "DIURESE",
+      "DIURESE ESPONTANEA"
+    ],
+    "Substância Corporal": [
+      "SECREÇÃO"
+    ],
+    "Objeto Manufaturado": [
+      "FRALDAS"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "MEDICADA",
+      "PRESCRIÇÃO",
+      "OBSERVAÇÃO",
+      "CUIDADOS ENFER"
+    ],
+    "Lesão ou Envenenamento": [
+      "INTOXICAÇÃO EXÓGENA"
+    ],
+    "Procedimento Diagnóstico": [
+      "TC CRÂNIO",
+      "RX DE ABD"
+    ]
+  },
+  "labels": {
+    "NA90": {
+      "term_original": "glasgow 11",
+      "capitulo": "22",
+      "confidence_embedding": 0.7838,
+      "descricao_cid": "Representação de doença CID-11: Concussão ou edema da medula espinhal torácica. Definição: ",
+      "classification_reasoning": "A paciente está com concussão ou edema da medula espinhal torácica, o que é mencionado no contexto 'GLASGOW 11 ESTIMADO 15', indicando uma lesão craniana. Isso justifica a escolha do código NA90.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'GLASGOW 11' não representa uma concussão ou edema da medula espinhal torácica, mas sim um índice de coma. O código CID-11 NA90 não é adequado para representar essa condição clínica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB00": {
+      "term_original": "edema",
+      "capitulo": "12",
+      "confidence_embedding": 0.781,
+      "descricao_cid": "Representação de doença CID-11: Síndrome do desconforto respiratório agudo. Definição: Síndrome do desconforto respiratório agudo (SDRA) é uma inflamação e edema nos pulmões com risco de vida iminente, que leva a insuficiência respiratória aguda grave. A SDRA é uma síndrome clínica de lesão pulmonar com insuficiência respiratória aguda hipoxêmica causada por intensa inflamação pulmonar que se desenvolve após lesão fisiopatológica grave.",
+      "classification_reasoning": "A presença de edema em MMII e a descrição da paciente como intoxicada, com rebaixamento do nível de consciência e sintomas respiratórios sugere uma síndrome aguda que envolve lesão pulmonar. A Síndrome do desconforto respiratório agudo (SDRA) é a opção mais precisa para descrever essa situação clínica.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de edema em MMII, juntamente com a descrição da paciente como intoxicada e apresentando sintomas respiratórios, sugere uma lesão pulmonar aguda. A Síndrome do desconforto respiratório agudo (SDRA) é uma opção clínica adequada para descrever essa situação, pois envolve inflamação e edema nos pulmões com risco de vida iminente.",
+      "tipo_erro_auditoria": null
+    },
+    "9A94.1": {
+      "term_original": "abertura ocular espontanea",
+      "capitulo": "09",
+      "confidence_embedding": 0.7849,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso.",
+      "classification_reasoning": "A abertura ocular espontânea se encaixa melhor na descrição de Síndrome da íris flácida, que caracteriza-se por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, e apresenta propensão para prolapsar em direção à área de extração de catarata durante a cirurgia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A abertura ocular espontânea não se encaixa na descrição de Síndrome da íris flácida, que caracteriza-se por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular. A abertura ocular espontânea é um achado clínico normal e não está relacionada à síndrome descrita no código CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB41.0": {
+      "term_original": "mv crepitantes",
+      "capitulo": "12",
+      "confidence_embedding": 0.7469,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência respiratória aguda. Definição: A insuficiência respiratória pode ser aguda (de curta duração) ou crônica (em evolução), usando o tempo como o principal parâmetro. Na insuficiência respiratória aguda a hipoxemia ocorre em um período de horas ou dias (menos de 7 dias) e a insuficiência respiratória pode se desenvolver rapidamente, e exigir tratamento de emergência.",
+      "classification_reasoning": "A presença de 'mv crepitantes' sugere a possibilidade de insuficiência respiratória aguda, caracterizada por hipoxemia e redução do fluxo expiratório.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'mv crepitantes' não é suficiente para justificar a classificação de insuficiência respiratória aguda. A descrição do prontuário apresenta sintomas mais específicos, como rebaixamento nível consciência e traqueostomia, que sugerem uma condição mais complexa e não apenas insuficiência respiratória aguda.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "NE81.0Z": {
+      "term_original": "estimado 15",
+      "capitulo": "22",
+      "confidence_embedding": 0.7633,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A estimativa de Glasgow 11 (15) indica que o paciente está com uma lesão cerebral grave, e a presença de hemorragia ou hematoma não especificada pode estar relacionada à intoxicação exógena e ao rebaixamento do nível de consciência.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A estimativa de Glasgow 11 (15) indica lesão cerebral grave, mas o código CID-11 NE81.0Z refere-se a hemorragia ou hematoma não especificada, complicando um procedimento. Embora haja uma possibilidade de lesão cerebral relacionada à intoxicação exógena e ao rebaixamento do nível de consciência, o termo 'estimado 15' não é diretamente relacionado a hemorragia ou hematoma. Portanto, a codificação CID-11 NE81.0Z não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NC56.5Z": {
+      "term_original": "globoso",
+      "capitulo": "22",
+      "confidence_embedding": 0.7531,
+      "descricao_cid": "Representação de doença CID-11: Lesão do vaso sanguíneo do outro dedo da mão, não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'globoso' é a lesão do vaso sanguíneo do outro dedo da mão, não especificada (NC56.5Z), pois a descrição da abdominal como 'PLANO E FLACIDO' sugere uma lesão ou alteração no tecido abdominal, que está relacionado ao termo 'globoso'.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição da abdominal como 'PLANO E FLACIDO' não é uma lesão do vaso sanguíneo do outro dedo da mão, não especificada (NC56.5Z). A opção mais precisa para o termo 'globoso' seria algo relacionado à anatomia abdominal, como uma distensão ou um edema, e não uma lesão vascular na mão.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "NA05.Z": {
+      "term_original": "intoxicação exógena",
+      "capitulo": "22",
+      "confidence_embedding": 0.8034,
+      "descricao_cid": "Representação de doença CID-11: Lesão dos vasos sanguíneos da cabeça, não especificada. Definição: ",
+      "classification_reasoning": "A escolha pelo código NA05.Z é baseada na presença de 'intoxicação exógena' no contexto clínico, que indica uma lesão dos vasos sanguíneos da cabeça não especificada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'intoxicação exógena' no prontuário sugere uma exposição a um agente externo, o que não é relacionado à lesão dos vasos sanguíneos da cabeça. A escolha do código NA05.Z não representa fielmente o termo descrito no prontuário e não há nenhuma relação clínica direta entre os dois.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB60": {
+      "term_original": "traqueostomizada",
+      "capitulo": "12",
+      "confidence_embedding": 0.7682,
+      "descricao_cid": "Representação de doença CID-11: Mau funcionamento de traqueostomia. Definição: ",
+      "classification_reasoning": "A indicação do termo 'traqueostomizada' aponta para uma intervenção cirúrgica na traqueia, o que é característico de um mau funcionamento de traqueostomia (Código CID-11: CB60)",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 CB60 'Mau funcionamento de traqueostomia' é justificada pela presença do termo 'traqueostomizada', que indica uma intervenção cirúrgica na traqueia. A descrição do prontuário detalha a instalação de canula de metal e saída de pouca secreção, o que é consistente com um mau funcionamento de traqueostomia.",
+      "tipo_erro_auditoria": null
+    },
+    "9B01.1": {
+      "term_original": "pupilas isocóricas",
+      "capitulo": "09",
+      "confidence_embedding": 0.791,
+      "descricao_cid": "Representação de doença CID-11: Pupilas parassimpatoparéticas. Definição: Dano ao estímulo parassimpático para o músculo esfíncter da íris.",
+      "classification_reasoning": "A opção mais precisa para o termo 'pupilas isocóricas' é a síndrome de pupilas parassimpatoparéticas, pois as pupilas isocóricas se referem a pupilas que têm mesmo tamanho e se contraem em igual medida",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção 'pupilas isocóricas' não representa fielmente a condição descrita no prontuário. As pupilas isocóricas se referem a pupilas que têm mesmo tamanho e se contraem em igual medida, o que não é compatível com a definição do código CID-11 '9B01.1' que se refere a dano ao estímulo parassimpático para o músculo esfíncter da íris.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C48.2": {
+      "term_original": "rebaixamento nível consciência",
+      "capitulo": "06",
+      "confidence_embedding": 0.7836,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais.",
+      "classification_reasoning": "A descrição do termo 'rebaixamento nível consciência' sugere um estado de inconsciência ou disorientação, comum em casos de intoxicação por substâncias psicoativas, como cafeína. Embora outras opções também sejam possíveis, a escolha mais precisa é a Intoxicação por Cafeína (6C48.2), que apresenta sintomas similares àqueles descritos no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'rebaixamento nível consciência' sugere um estado de inconsciência ou disorientação, mas a Intoxicação por Cafeína (6C48.2) é uma condição específica que não se ajusta ao contexto clínico apresentado no prontuário. A paciente tem Glasgow 11 estimado 15, pupilas isocóricas e ventilação mecânica, o que sugere um estado de coma ou semi-coma, diferente da intoxicação por cafeína.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "prontuario_id": 496,
+  "text": "03:03 Retornou do CC por volta das 21:00 horas ,  POI de tto cx por fx de punho esquerdo . Apresenta curativo + tala gessada em MSE , referindo algia moderada , edema distal , mobilidade diminuida , apresentou 1 episodio de emese , sendo medicada , diurese presente , segue cuidados . FRATURA DA EXTREMIDADE DISTAL DO RADIO",
+  "entities": {
+    "Organização Relacionada à Saúde": [
+      "CC"
+    ],
+    "Abreviação": [
+      "CC",
+      "POI",
+      "MSE",
+      "tto cx",
+      "fx de punho esquerdo"
+    ],
+    "Conceito Temporal": [
+      "POI"
+    ],
+    "Dispositivo Médico": [
+      "curativo",
+      "tala gessada"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "curativo",
+      "medicada",
+      "tto cx",
+      "tala gessada"
+    ],
+    "Localização ou Região Corporal": [
+      "MSE"
+    ],
+    "Conceito Quantitativo": [
+      "1"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "medicada",
+      "cuidados"
+    ],
+    "Lesão ou Envenenamento": [
+      "fx de punho esquerdo",
+      "FRATURA DA EXTREMIDADE DISTAL DO RADIO"
+    ],
+    "Sinal ou Sintoma": [
+      "algia moderada",
+      "edema distal",
+      "mobilidade diminuida",
+      "episodio de emese"
+    ],
+    "Função Patológica": [
+      "edema distal"
+    ],
+    "Achado": [
+      "diurese presente"
+    ],
+    "Função Fisiológica": [
+      "diurese presente"
+    ]
+  },
+  "labels": {
+    "FA27.2": {
+      "term_original": "algia moderada",
+      "capitulo": "15",
+      "confidence_embedding": 0.7337,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A opção FA27.2, Reumatismo palindrômico, é a mais precisa para o termo 'algia moderada' no contexto de uma fratura da extremidade distal do radio, pois apresenta sintomas de dor e edema nas articulações, incluindo a possibilidade de crises agudas de dor. Isso se alinha com a descrição de 'algia moderada' mencionada no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FA27.2, Reumatismo palindrômico, não representa fielmente o termo 'algia moderada' descrito no prontuário. A fratura da extremidade distal do radio e a presença de curativo + tala gessada em MSE sugerem uma lesão óssea mais do que um problema reumatoide. Além disso, o termo 'algia moderada' não está relacionado às crises agudas de dor descritas na definição do Reumatismo palindrômico.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB32.20": {
+      "term_original": "fratura da extremidade distal do radio",
+      "capitulo": "15",
+      "confidence_embedding": 0.6932,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A fratura da extremidade distal do radio e a presença de algia moderada, edema distal e mobilidade diminuída sugerem uma lesão muscular esquelética não traumática, como descrita na definição do Código FB32.20 (Rabdomiólise idiopática). O histórico de episódio de emese também é consistente com essa opção.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fratura da extremidade distal do radio não é uma lesão muscular esquelética, como descrita na definição do Código FB32.20 (Rabdomiólise idiopática). A presença de curativo e tala gessada em MSE, além da mobilidade diminuída e edema distal, sugere uma lesão óssea, não muscular. Além disso, o termo 'fratura' é um diagnóstico específico que não se encaixa na definição de Rabdomiólise idiopática.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NC56.6": {
+      "term_original": "fx de punho esquerdo",
+      "capitulo": "22",
+      "confidence_embedding": 0.7387,
+      "descricao_cid": "Representação de doença CID-11: Lesão de múltiplos vasos sanguíneos ao nível do punho ou mão. Definição: ",
+      "classification_reasoning": "A descrição do termo 'fx de punho esquerdo' sugere uma lesão ao nível do punho ou mão, o que é consistentemente descrito na definição do código NC56.6.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'fx de punho esquerdo' é consistente com a definição do código NC56.6, que refere-se à lesão de múltiplos vasos sanguíneos ao nível do punho ou mão. A clínica descrita no prontuário (POI de tto cx por fx de punho esquerdo) também suporta essa classificação, pois a fratura da extremidade distal do radio é uma lesão múltipla que afeta o punho e não há indicação de lesão em outro local. Portanto, a codificação CID-11 NC56.6 é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "DA60.3": {
+      "term_original": "episodio de emese",
+      "capitulo": "13",
+      "confidence_embedding": 0.733,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A presença de episodio de emese no contexto clínico é característico das úlceras de estresse do estômago, que podem causar hemorragia digestiva alta aguda e vômitos intensos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de episodio de emese no prontuário não está relacionada às úlceras de estresse do estômago, como descrito na definição do código CID-11. Em vez disso, é um sintoma comum associado a fraturas, como a fratura da extremidade distal do radio mencionada no prontuário. Portanto, o código CID-11 DA60.3 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    }
+  }
+}

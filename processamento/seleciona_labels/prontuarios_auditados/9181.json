@@ -1,0 +1,82 @@
+{
+  "prontuario_id": 440,
+  "text": "MARIA, 54 ANOS.\n\nPACIENTE INTERNADA NO DIA 05/12/2015 POR SUSPEITA DE DIVERTICULITE DE DUODENO.\nREFERE ESTAR ASSINTOMATICA.\nEF: ALERTA TRANQUILA ABDOMEN FLACIDO, INDOLOR À PALPAÇÃO.\nBIOPSIA DE EDA: FRAGMENTOS DE MUCOSA GASTRICA PADRÃO OXINTICO FOVEOLAR DISCRETA E MACROFAGOS XANTOMATOSOS NA LAMINA PROPRIA COMPATIVEL COM XANTOMA, PESQUISA DE H. PYLORI NEGATIVA\n\nA: XANTOMA GASTRICO\n\nP: PENDENTE AVALIAÇAO PELA GASTRO.\n    CONTROLE EM 6 MESES\n\nR1 LUCAS.\nDR VITAL BRASIL.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Achado": [
+      "ASSINTOMATICA",
+      "ALERTA",
+      "TRANQUILA",
+      "XANTOMA GASTRICO"
+    ],
+    "Negação": [
+      "INDOLOR"
+    ],
+    "Procedimento Diagnóstico": [
+      "PALPAÇÃO",
+      "BIOPSIA DE EDA"
+    ],
+    "Abreviação": [
+      "GASTRO",
+      "R1",
+      "DR",
+      "BIOPSIA DE EDA"
+    ],
+    "Conceito Quantitativo": [
+      "54 ANOS"
+    ],
+    "Conceito Temporal": [
+      "54 ANOS",
+      "6 MESES"
+    ],
+    "Doença ou Síndrome": [
+      "DIVERTICULITE DE DUODENO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "BIOPSIA DE EDA",
+      "FRAGMENTOS DE MUCOSA GASTRICA",
+      "MACROFAGOS XANTOMATOSOS",
+      "PYLORI NEGATIVA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "FRAGMENTOS DE MUCOSA GASTRICA"
+    ],
+    "Célula": [
+      "MACROFAGOS XANTOMATOSOS"
+    ]
+  },
+  "labels": {
+    "DD00.1": {
+      "term_original": "diverticulite de duodeno",
+      "capitulo": "13",
+      "confidence_embedding": 0.7918,
+      "descricao_cid": "Representação de doença CID-11: Diverticulite de parte não especificada do intestino sem complicação. Definição: ",
+      "classification_reasoning": "A paciente apresenta suspeita de diverticulite do duodeno, e a biopsia de EDA não revelou H. pylori, o que sugere uma lesão da mucosa duodenal sem complicação, justificando a escolha do código DD00.1.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente apresenta suspeita de diverticulite do duodeno, mas a biopsia de EDA não revelou H. pylori e o termo extraído é 'diverticulite de duodeno', que não está diretamente relacionado à lesão da mucosa duodenal descrita no prontuário. Além disso, o código CID-11 DD00.1 refere-se a diverticulite de parte não especificada do intestino sem complicação, o que não condiz com a suspeita de diverticulite do duodeno. Portanto, é necessário remover o código CID-11 e reavaliar a codificação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DA42.6": {
+      "term_original": "xantoma gastrico",
+      "capitulo": "13",
+      "confidence_embedding": 0.7482,
+      "descricao_cid": "Representação de doença CID-11: Doença de Ménétrier. Definição: Gastrite caracterizada por hipertrofia da mucosa gástrica, que pode causar pregas gigantes. O espessamento das pregas é causado predominantemente pela expansão do compartimento de células epiteliais da mucosa gástrica. Os pacientes com doença de Ménétrier mais \r\nfrequentemente apresentam hipoalbuminemia secundária à perda de albumina para o lúmen gástrico.",
+      "classification_reasoning": "A escolha foi feita porque o termo 'xantoma gastrico' se refere à doença de Ménétrier, que é uma forma de gastrite caracterizada por hipertrofia da mucosa gástrica e pregas gigantes.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 DA42.6, que representa doença de Ménétrier, não é clínica e coerente com o prontuário. A biopsia de edema revelou fragmentos de mucosa gástrica padrão oxintico foveolar discreta e macrofagos xantomatosos na lâmina propria compatível com xantoma, não há evidência de hipertrofia da mucosa gástrica ou pregas gigantes características da doença de Ménétrier. Portanto, a codificação é inapropriada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME08": {
+      "term_original": "alerta",
+      "capitulo": "21",
+      "confidence_embedding": 0.8023,
+      "descricao_cid": "Representação de doença CID-11: Flatulência e afecções correlatas. Definição: Produção ou presença de gás no trato gastrointestinal que pode ser expelido pelo ânus e outras condições associadas à produção ou presença de gás no trato GI.",
+      "classification_reasoning": "A opção mais precisa para o termo 'alerta' é a flatulência e afecções correlatas, pois a paciente apresentava um abdomen flácido e indolor à palpação, indicando possivelmente uma alteração no trato gastrointestinal que pode ser associada a produção de gás.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção ME08 (Flatulência e afecções correlatas) não é clinicamente coerente com o prontuário. A paciente apresenta suspeita de diverticulite do duodeno, e a biopsia revelou xantoma gástrico compatível com hiperplasia linfóide, mas não há indícios de flatulência ou afecções correlatas. A classificação ME08 é demasiado genérica e não captura a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

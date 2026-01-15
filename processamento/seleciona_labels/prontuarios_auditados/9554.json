@@ -1,0 +1,198 @@
+{
+  "prontuario_id": 91,
+  "text": "Tx renal mar/15 DVR\nPDN 5, FK 1 / 2, SRL 1 / 2 DA, AAS 100, OMP 20, CVD 3,125, macrodantina, Lantus 42, Lispro 4 - 8 - 7\nbx renal (set/15): nefrite túbulo intersticial neutrofílica, sem sinais de inclusões CMV ou RA \nS : Refere episódios matinais de hipoglicemia. Refere ainda polaciúria, após 7 dias de cipro, sem febre aferida.\nO : PA 130 x 80 Peso 46,8kg FC 80 sem edema enxerto indolor\nExames : Hb 10,7 Cr 1,08 PU 6 M leucócitos UC com Candida Albicans NS FK 7,0\nabaixo Lantus para 38 novamente\nfluconazol 150mg 7 dias\nretorno em 2 semanas com exames\naguarda NS Rapa\n \n ",
+  "entities": {
+    "Achado": [
+      "DVR"
+    ],
+    "Abreviação": [
+      "DVR",
+      "PDN",
+      "FK",
+      "SRL",
+      "DA",
+      "AAS",
+      "OMP",
+      "CVD",
+      "cipro",
+      "PA",
+      "FC",
+      "PU",
+      "UC",
+      "Tx renal",
+      "bx renal",
+      "sem sinais de inclusões CMV ou RA",
+      "Hb 10 , 7",
+      "Cr 1 , 08",
+      "6 M leucócitos",
+      "NS FK 7 , 0",
+      "NS Rapa"
+    ],
+    "Hormônio": [
+      "PDN",
+      "Lantus",
+      "Lispro"
+    ],
+    "Substância Farmacológica": [
+      "PDN",
+      "FK",
+      "SRL",
+      "AAS",
+      "OMP",
+      "CVD",
+      "macrodantina",
+      "Lantus",
+      "Lispro",
+      "fluconazol"
+    ],
+    "Substância Química Orgânica": [
+      "PDN",
+      "FK",
+      "SRL",
+      "AAS",
+      "OMP",
+      "CVD",
+      "macrodantina",
+      "Lantus",
+      "Lispro",
+      "cipro",
+      "fluconazol"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "100",
+      "20",
+      "42",
+      "80",
+      "38",
+      "150mg",
+      "7",
+      "1 / 2",
+      "3 , 125",
+      "4 - 8 - 7",
+      "130 x 80",
+      "46 , 8kg"
+    ],
+    "Conceito Temporal": [
+      "DA",
+      "matinais",
+      "dias"
+    ],
+    "Antibiótico": [
+      "macrodantina",
+      "cipro"
+    ],
+    "Sinal ou Sintoma": [
+      "hipoglicemia",
+      "polaciúria",
+      "edema",
+      "indolor"
+    ],
+    "Negação": [
+      "sem",
+      "indolor"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "Peso",
+      "FC"
+    ],
+    "Função Patológica": [
+      "edema"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "enxerto",
+      "Tx renal"
+    ],
+    "Procedimento Laboratorial": [
+      "Exames",
+      "PU",
+      "UC",
+      "exames"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "abaixo",
+      "retorno"
+    ],
+    "Procedimento Diagnóstico": [
+      "bx renal"
+    ],
+    "Doença ou Síndrome": [
+      "nefrite túbulo intersticial neutrofílica"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "nefrite túbulo intersticial neutrofílica",
+      "sem sinais de inclusões CMV ou RA",
+      "Hb 10 , 7",
+      "Cr 1 , 08",
+      "6 M leucócitos",
+      "NS FK 7 , 0",
+      "NS Rapa"
+    ],
+    "Fungo": [
+      "Candida Albicans"
+    ]
+  },
+  "labels": {
+    "BD72.4": {
+      "term_original": "polaciúria",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha do código BD72.4 (Nefrite túbulo-intersticial não inflamatória) se baseia na presença de nefrite túbulo-intersticial neutrofílica descrita no prontuário, sem sinais de inclusões CMV ou RA.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'polaciúria' não é uma condição clínica relacionada à nefrite túbulo-intersticial neutrofílica, que é o foco do prontuário. A polaciúria é um sintoma comum em várias doenças renales e não está diretamente relacionado à nefrite descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA27.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7539,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A escolha por FA27.2 (Reumatismo palindrômico) é justificada pelo fato de que o paciente apresenta edema, especificamente na descrição do exame físico: 'O : PA 130 x 80 Peso 46,8kg FC 80 sem edoma enxerto indolor'. A presença de edema é um critério importante para diagnóstico de reumatismo palindrômico e justifica a escolha desse código.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de edema descrita no exame físico não está relacionada à nefrite túbulo intersticial neutrofílica, que é a condição clínica principal do paciente. A escolha do código FA27.2 (Reumatismo palindrômico) não se baseia em uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "GB60.0": {
+      "term_original": "dvr",
+      "capitulo": "16",
+      "confidence_embedding": 0.8176,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência renal aguda, estágio 1. Definição: Taxa de alteração da creatinina sérica: aumento 1,5-1,9 vezes o valor basal em 7 dias OU aumento de 0,3 mg/dl em 48 h OU Magnitude da produção de urina: <0,5 ml/kg/h por 6-12 horas",
+      "classification_reasoning": "A escolha pelo códgio GB60.0 se deve ao fato de o paciente apresentar uma taxa de alteração da creatinina sérica (Tx renal) com valor mar (mar/15), indicando insuficiência renal aguda, estágio 1.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código GB60.0 se baseia apenas na taxa de alteração da creatinina sérica (Tx renal) com valor mar (mar/15), indicando insuficiência renal aguda, estágio 1. No entanto, o prontuário também descreve nefrite túbulo intersticial neutrofílica, sem sinais de inclusões CMV ou RA, o que sugere uma lesão renal mais específica e complexa do que apenas insuficiência renal aguda. Portanto, a escolha do código GB60.0 é demasiado geral e não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "MF54.9": {
+      "term_original": "hipoglicemia",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A hipoglicemia mencionada no paciente é um sintoma comum em pacientes com doenças renais, como nefrite túbulo intersticial neutrofílica, o que justifica a escolha do código MF54.9, que engloba todas as outras condições relacionadas à doença renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipoglicemia é um sintoma, não uma doença renal. O código MF54.9 engloba todas as outras condições relacionadas à doença renal, o que não inclui a hipoglicemia como diagnóstico. Para manter a codificação clínica coerente com o prontuário, é necessário remover o código CID-11 atribuído e substituir por um código que represente melhor o sintoma de hipoglicemia.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "GB50": {
+      "term_original": "nefrite túbulo intersticial neutrofílica",
+      "capitulo": "16",
+      "confidence_embedding": 0.8877,
+      "descricao_cid": "Representação de doença CID-11: Nefrite túbulo-intersticial aguda. Definição: Doença caracterizada por inflamação aguda dos, e dano aos, túbulos e interstício renal, geralmente acompanhada por insuficiência renal aguda (lesão renal aguda). A histologia mostra infiltrado inflamatório agudo no interstício com edema e necrose de células tubulares, e frequentemente eosinófilos e plasmócitos proeminentes. Geralmente devida a uma reação alérgica ou imunológica a um alérgeno identificável. Geralmente acompanhada por insuficiência renal aguda, que pode ser reversível se o alérgeno for retirado rapidamente com ou sem administração de corticosteroides. Pode causar nefrite tubulointersticial crônica, particularmente se a exposição ao alérgeno não for de curto prazo. Pode estar associada a outros sinais de uma reação alérgica, como erupção cutânea ou febre.",
+      "classification_reasoning": "A escolha do código GB50 é justificada pela descrição de 'nefrite túbulo-intersticial neutrofílica' no prontuário, que apresenta características de inflamação aguda dos túbulos e interstício renal, com edema e necrose de células tubulares. Isso é coerente com a definição do código GB50, que descreve uma doença caracterizada por inflamação aguda nos túbulos e interstício renal, geralmente acompanhada por insuficiência renal aguda.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código GB50 é justificada pela descrição de 'nefrite túbulo-intersticial neutrofílica' no prontuário, que apresenta características de inflamação aguda dos túbulos e interstício renal, com edema e necrose de células tubulares. Isso é coerente com a definição do código GB50, que descreve uma doença caracterizada por inflamação aguda nos túbulos e interstício renal, geralmente acompanhada por insuficiência renal aguda.",
+      "tipo_erro_auditoria": null
+    },
+    "1F23.3": {
+      "term_original": "candida albicans",
+      "capitulo": "01",
+      "confidence_embedding": 0.822,
+      "descricao_cid": "Representação de doença CID-11: Candidíase sistêmica ou invasiva. Definição: Invasão de órgãos internos por leveduras da Candida. Fatores de risco incluem leucemia aguda, transplante de células-tronco hematopoéticas ou de órgãos sólidos, e doença crítica aguda. Espécies de Candida que não a Candida albicans estão comumente implicadas",
+      "classification_reasoning": "A candidíase sistêmica ou invasiva é a mais precisa para o termo 'Candida albicans' no contexto do prontuário, considerando-se a presença de leveduras da Candida na urina e a infecção renal",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 '1F23.3' é apropriada porque a presença de Candida Albicans na urina e a infecção renal descrita no prontuário são consistentes com a definição da candidíase sistêmica ou invasiva. A lógica clínica para manter essa codificação é que a presença de leveduras da Candida em órgãos internos, como o rim, é um indicador de uma infecção sistêmica.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "prontuario_id": 135,
+  "text": "POS TX RENAL.\n\nPOS TX RENAL - CR 0,86 - NS FK 6,0.\nHAS.\nEDEMA MMII - PELO ANLO?\n \n \nTX RENAL - JAN/2015.\nUSO DE: MTC 5, FK 4 / 5, MS 2 / 2, BACTRIM, ANLO 5, CVD 25, AAS 100, CLOPIDOGREL 75.\nS # MANTÉM QUEIXA DE DISPNÉIA, TANTO AOS ESFORÇOS QUANTO AO REPOUSO.\nMANTÉM EDEMA DE MMII MESMO COM REDUÇAO DA DOSE DE ANLO.\nO # BEG, CORADO, HIDRATADO.\nPA 130/90.\nMV POSITIVO, SIMETRICO.\nBCRNF.\nABDOMEN FLACIDO, SEM MASSAS, RHA POSITIVOS.\nMEMBROS - EDEMA MSE, FAV COM FREMITO.\nEDEMA MMII +/+4 - TORNOZELOS.",
+  "entities": {
+    "Abreviação": [
+      "HAS",
+      "MMII",
+      "ANLO",
+      "MTC",
+      "FK",
+      "MS",
+      "CVD",
+      "AAS",
+      "S",
+      "O",
+      "BEG",
+      "PA",
+      "BCRNF",
+      "MSE",
+      "TX RENAL",
+      "CR 0 , 86",
+      "NS FK 6 , 0",
+      "REDUÇAO DA DOSE DE ANLO",
+      "MV POSITIVO",
+      "RHA POSITIVOS",
+      "FAV COM FREMITO"
+    ],
+    "Doença ou Síndrome": [
+      "HAS"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Sinal ou Sintoma": [
+      "EDEMA",
+      "MASSAS",
+      "QUEIXA DE DISPNÉIA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MMII",
+      "ABDOMEN",
+      "MEMBROS",
+      "MSE",
+      "TORNOZELOS"
+    ],
+    "Substância Farmacológica": [
+      "ANLO",
+      "MTC",
+      "FK",
+      "MS",
+      "BACTRIM",
+      "CVD",
+      "AAS",
+      "CLOPIDOGREL"
+    ],
+    "Substância Química Orgânica": [
+      "ANLO",
+      "MTC",
+      "FK",
+      "MS",
+      "BACTRIM",
+      "CVD",
+      "AAS",
+      "CLOPIDOGREL"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "25",
+      "100",
+      "75",
+      "130/90",
+      "4 / 5",
+      "2 / 2"
+    ],
+    "Achado": [
+      "S",
+      "BEG",
+      "CORADO",
+      "HIDRATADO",
+      "SIMETRICO",
+      "BCRNF",
+      "MV POSITIVO",
+      "RHA POSITIVOS",
+      "FAV COM FREMITO"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "+/+4",
+      "CR 0 , 86",
+      "NS FK 6 , 0"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "REDUÇAO DA DOSE DE ANLO"
+    ]
+  },
+  "labels": {
+    "BD93": {
+      "term_original": "edema",
+      "capitulo": "11",
+      "confidence_embedding": 0.7261,
+      "descricao_cid": "Representação de doença CID-11: Linfedema. Definição: Edema devido ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Geralmente afeta as extremidades, mas pode envolver qualquer parte do corpo. É desfigurante e aumenta a suscetibilidade a infecções recorrentes e malignidades locais.",
+      "classification_reasoning": "A escolha do código BD93, Linfedema, é mais precisa porque a presença de edema nos membros (MSE) e na região genital (MMII) sugere um acúmulo excessivo de linfa nos tecidos, característico do Linfedema. Além disso, a redução da dose de Anlo e a manutenção da queixa de edema apesar do tratamento renal sugerem uma condição crônica envolvendo o sistema linfático.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código BD93, Linfedema, é muito genérica e não representa fielmente a condição descrita no prontuário. O termo 'edema' é mencionado em vários locais do prontuário, mas não há evidência clínica de que seja um acúmulo excessivo de linfa nos tecidos, característico do Linfedema. Além disso, a redução da dose de Anlo e a manutenção da queixa de edema apesar do tratamento renal sugerem uma condição mais relacionada ao sistema renal do que ao sistema linfático.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "DB34.4": {
+      "term_original": "massas",
+      "capitulo": "13",
+      "confidence_embedding": 0.7104,
+      "descricao_cid": "Representação de doença CID-11: Úlcera retal hemorrágica aguda. Definição: Úlcera retal hemorrágica aguda é considerada como um transtorno isquêmico agudo da mucosa, que ocorre em pacientes idosos que sofrem de redução incipiente do fluxo sanguíneo devida a fatores arterioscleróticos. Estes pacientes estão frequentemente acamados, e isso causa uma diminuição no fluxo sanguíneo da mucosa do reto inferior, o que por sua vez desencadeia essa doença.",
+      "classification_reasoning": "A opção mais precisa para o termo 'massas' no contexto do prontuário é a úlcera retal hemorrágica aguda, uma vez que se refere à presença de massa (edema) nos membros inferiores e também há referência ao tumorozeles, sugerindo a presença de edema regional.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção DB34.4 não é adequada porque a úlcera retal hemorrágica aguda é uma doença do reto, enquanto o termo 'massas' se refere ao edema nos membros inferiores e tumorozeles. A classificação CID-11 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A45.2Y": {
+      "term_original": "mv positivo",
+      "capitulo": "08",
+      "confidence_embedding": 0.6926,
+      "descricao_cid": "Representação de doença CID-11: Outros transtornos especificados da substância branca devidos a anormalidades vasculares ou isquemia. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'mv positivo' é a crise epiléptica única devida a causas remotas (Código: 8A64), no entanto, considerando o contexto clínico e o sintoma de EDEMA MMII +/+4 - TORNOZELOS, é mais provável que o 'mv positivo' se refira a um dano isquêmico ou vascular na substância branca (Código: 8A45.2Y).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'mv positivo' é a crise epiléptica única devida a causas remotas (Código: 8A64), não um dano isquêmico ou vascular na substância branca. Ajuste necessário para uma codificação CID-11 clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF56": {
+      "term_original": "fav com fremito",
+      "capitulo": "21",
+      "confidence_embedding": 0.7676,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A opção MF56 é a mais precisa para o termo 'fav com fremito' no contexto de um paciente com história de POS TX RENAL e queixa de edema múltiplo (MMII) e dor renal. A presença de FAV com FREMITO sugere uma resposta inflamatória ou irritativa do tecido renal, compatível com a definição de Cólica Renal (MF56)",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção MF56 (Cólica Renal) é a mais precisa para o termo 'fav com fremito' no contexto de um paciente com história de POS TX RENAL e queixa de edema múltiplo (MMII) e dor renal. A presença de FAV com FREMITO sugere uma resposta inflamatória ou irritativa do tecido renal, compatível com a definição de Cólica Renal (MF56).",
+      "tipo_erro_auditoria": null
+    },
+    "BA02": {
+      "term_original": "queixa de dispnéia",
+      "capitulo": "11",
+      "confidence_embedding": 0.778,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A queixa de dispnéia está relacionada à doença renal hipertensiva, justificando a escolha do código BA02.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa de dispnéia não está diretamente relacionada à doença renal hipertensiva. A dispnéia pode ser um sintoma de várias condições, incluindo cardiopatias e pulmonares, e não é exclusividade da doença renal hipertensiva. Portanto, a escolha do código BA02 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    }
+  }
+}

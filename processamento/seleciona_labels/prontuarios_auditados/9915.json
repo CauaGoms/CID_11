@@ -1,0 +1,237 @@
+{
+  "prontuario_id": 326,
+  "text": "Lucas, 59 anos\n\nDIH: 03/06/2016\nTrazido pelo SIATE por queda de altura de 3m, com trauma em dorso e crânio. Cervicodorsalgia. NEfa perda de sconsciência ou vômitos\nAMP: HAS\nMUC: hidroclorotiazida e losartana. Ao exame inicial Sinais Vitais estáveis e controlados. Colar cervical. \n\nGCS 15, pupilas isocóricas e fotorreagentes, mobiliza os 4 membros. OBS: Coluna a/c ortopedia. Fratura de C7\n\nPrincipais exames\n1 - TC de Crânio: fratura esfenotemporal e de processo zigomática, ambas lineares e à direita.\n2 - TAC do craânio (04/06/2016): Sem particularidades evolutivas\n\nPaciente em GCS 15, PIFR, sem déficts neurológicos focais. \n\nEm uso de colar cervical de espuma prescrito pela equipe da ortopedia.\nAssintomático, nega náuseas ou vômitos.\n\nCD: Solicito TAC de crânio de controle.\nRetorno com exame.\n \n \n \n ",
+  "entities": {
+    "Conceito Temporal": [
+      "DIH"
+    ],
+    "Abreviação": [
+      "DIH",
+      "SIATE",
+      "HAS",
+      "MUC",
+      "a/c",
+      "PIFR",
+      "CD",
+      "GCS 15",
+      "Fratura de C7",
+      "TC de Crânio",
+      "TAC do craânio",
+      "TAC de crânio"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "Trazido",
+      "a/c",
+      "prescrito",
+      "CD",
+      "Solicito",
+      "Retorno"
+    ],
+    "Organização Relacionada à Saúde": [
+      "SIATE"
+    ],
+    "Conceito Quantitativo": [
+      "3m"
+    ],
+    "Sinal ou Sintoma": [
+      "Cervicodorsalgia",
+      "vômitos",
+      "Assintomático",
+      "náuseas",
+      "perda de sconsciência",
+      "particularidades evolutivas",
+      "déficts neurológicos focais"
+    ],
+    "Negação": [
+      "NEfa",
+      "Sem",
+      "sem",
+      "Assintomático",
+      "nega"
+    ],
+    "Doença ou Síndrome": [
+      "HAS"
+    ],
+    "Substância Farmacológica": [
+      "hidroclorotiazida",
+      "losartana"
+    ],
+    "Substância Química Orgânica": [
+      "hidroclorotiazida",
+      "losartana"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "pupilas",
+      "Coluna"
+    ],
+    "Achado": [
+      "isocóricas",
+      "fotorreagentes",
+      "PIFR",
+      "Assintomático",
+      "Sinais Vitais estáveis",
+      "GCS 15",
+      "mobiliza os 4 membros"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ortopedia",
+      "equipe da ortopedia"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Procedimento Laboratorial": [
+      "exame"
+    ],
+    "Lesão ou Envenenamento": [
+      "trauma em dorso e crânio",
+      "Fratura de C7",
+      "fratura esfenotemporal e de processo zigomática"
+    ],
+    "Dispositivo Médico": [
+      "Colar cervical",
+      "colar cervical"
+    ],
+    "Procedimento Diagnóstico": [
+      "TC de Crânio",
+      "TAC do craânio",
+      "TAC de crânio"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "fratura esfenotemporal e de processo zigomática",
+      "lineares e à direita"
+    ]
+  },
+  "labels": {
+    "8B91.1": {
+      "term_original": "isocóricas",
+      "capitulo": "08",
+      "confidence_embedding": 0.7825,
+      "descricao_cid": "Representação de doença CID-11: Síndrome do desfiladeiro torácico devida a costela cervical. Definição: ",
+      "classification_reasoning": "O termo 'isocóricas' refere-se à igualdade de tamanho e reação às luzes, o que é um característica normal da pupila. Como a paciente apresenta GCS 15 e não há déficits neurológicos focais, está dentro do normal. A escolha do código 8B91.1 se baseia na definição de Síndrome do desfiladeiro torácico devida a costela cervical, que não tem relação com o termo 'isocóricas'.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'isocóricas' refere-se à igualdade de tamanho e reação às luzes, o que é um característica normal da pupila. Como a paciente apresenta GCS 15 e não há déficits neurológicos focais, está dentro do normal. No entanto, o código CID-11 atribuído (8B91.1) refere-se à Síndrome do desfiladeiro torácico devida a costela cervical, que não tem relação com o termo 'isocóricas'. Portanto, a codificação é inapropriada e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NA07": {
+      "term_original": "trauma em dorso e crânio",
+      "capitulo": "22",
+      "confidence_embedding": 0.79,
+      "descricao_cid": "Representação de doença CID-11: Traumatismo intracraniano. Definição: Dano infligido aos tecidos do cérebro como o resultado direto ou indireto de uma força externa, com ou sem interrupção da continuidade estrutural.",
+      "classification_reasoning": "O trauma em dorso e crânio é um indicador de traumatismo intracraniano (NA07), como resultado direto ou indireto de uma força externa. A presença de fratura esfenotemporal e processo zigomática, ambas lineares e à direita, suporta essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'trauma em dorso e crânio' não representa diretamente um traumatismo intracraniano (NA07). A fratura esfenotemporal e processo zigomática são lesões ósseas, enquanto o NA07 se refere a dano infligido aos tecidos do cérebro. Embora haja uma relação entre as lesões cranianas e o traumatismo intracraniano, não há evidência direta de dano cerebral no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NA22.0Z": {
+      "term_original": "has",
+      "capitulo": "22",
+      "confidence_embedding": 0.7711,
+      "descricao_cid": "Representação de doença CID-11: Fratura da primeira vértebra cervical, não especificada. Definição: ",
+      "classification_reasoning": "A paciente apresenta fratura de C7, o que justifica a escolha do código NA22.0Z para Representação de doença CID-11: Fratura da primeira vértebra cervical, não especificada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 NA22.0Z refere-se a fratura da primeira vértebra cervical, não especificada. No entanto, o prontuário descreve uma fratura de C7 (segunda vértebra cervical), que não é representada pelo código escolhido. A escolha do código foi baseada apenas na localização anatômica e não considerou a especificidade da lesão.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A04.0": {
+      "term_original": "fotorreagentes",
+      "capitulo": "09",
+      "confidence_embedding": 0.7448,
+      "descricao_cid": "Representação de doença CID-11: Triquíase sem entrópio. Definição: Refere-se a cílios anormalmente posicionados que crescem para trás em direção ao olho, tocando a córnea ou conjuntiva. Pode ser causado por infecção, inflamação, condições autoimunes, defeitos congênitos, agenesia palpebral e traumatismos como queimaduras ou lesões palpebrais. Esse diagnóstico é feito na ausência da condição em que a pálpebra (usualmente a inferior) dobra para dentro. É muito desconfortável, pois os cílios constantemente se esfregam contra a córnea e a irritam.",
+      "classification_reasoning": "O termo 'fotorreagentes' refere-se à reação normal da pupila em resposta a luz, indicando que não há lesão ou doença específica do olho. Dado que o paciente apresenta fratura de C7 e cervicodorsalgia, mais informações sobre a função visual não são mencionadas como um problema clínico primário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'fotorreagentes' refere-se à reação normal da pupila em resposta a luz, indicando que não há lesão ou doença específica do olho. No entanto, o código CID-11 atribuído (9A04.0) representa uma condição clínica específica de triquíase, o que não está relacionado ao termo 'fotorreagentes'. Portanto, a codificação é incoerente e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME84.0": {
+      "term_original": "vômitos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7898,
+      "descricao_cid": "Representação de doença CID-11: Dor na coluna cervical. Definição: Condição que é geralmente caracterizada por dor ou desconforto na região do pescoço e pode ser causada por vários problemas na coluna vertebral. Pode ser um aspecto de praticamente todos transtornos e doenças que ocorrem acima das escápulas.",
+      "classification_reasoning": "A presença de dor na coluna cervical (cervicodorsalgia) e a fratura de C7 fazem com que o termo 'vômitos' seja mais relacionado à síndrome de nausea and vomiting após trauma crânio-encefálico do que com achados de exames para diagnóstico por imagem ou outros motivos",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'vômitos' é negado no prontuário, pois o paciente não apresenta náuseas ou vômitos. Portanto, a codificação CID-11 ME84.0 não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "negated_finding"
+    },
+    "FA72.3": {
+      "term_original": "fratura de c7",
+      "capitulo": "15",
+      "confidence_embedding": 0.7303,
+      "descricao_cid": "Representação de doença CID-11: Fratura vertebral por fadiga. Definição: ",
+      "classification_reasoning": "A escolha do código FA72.3 é mais precisa para o termo 'fratura de C7' pois ele descreve especificamente a fratura vertebral causada por fadiga, o que se ajusta ao quadro clínico apresentado pelo paciente.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código FA72.3 é justificada, pois a fratura de C7 descrita no prontuário está diretamente relacionada à representação de doença definida pelo código. A descrição do código se ajusta ao quadro clínico apresentado pelo paciente, que sofreu uma queda de altura e tem uma fratura vertebral por fadiga.",
+      "tipo_erro_auditoria": null
+    },
+    "8A80": {
+      "term_original": "déficts neurológicos focais",
+      "capitulo": "08",
+      "confidence_embedding": 0.7602,
+      "descricao_cid": "Representação de doença CID-11: Enxaqueca. Definição: Transtorno de cefaleia primária, na maioria dos casos episódica. Ataques incapacitantes com duração de 4-72 horas são caracterizados por cefaleia moderada ou grave, geralmente acompanhada por náuseas, vômitos e/ou fotofobia e fonofobia e algumas vezes precedidos por uma aura de curta duração de sintomas visuais, sensoriais ou outros sintomas do sistema nervoso central, unilaterais e totalmente reversíveis. Numa pequena minoria de casos, a cefaleia, mas não necessariamente os sintomas associados, torna-se muito frequente, com perda da episodicidade.",
+      "classification_reasoning": "Como o paciente apresenta GCS 15 e não há déficts neurológicos focais, é mais provável que a síndrome seja relacionada à enxaqueca, uma doença caracterizada por cefaleia moderada ou grave, geralmente acompanhada por náuseas, vômitos e/ou fotofobia e fonofobia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 atribuída é Enxaqueca (8A80), que não se relaciona diretamente com a condição clínica descrita no prontuário. O termo 'déficts neurológicos focais' não apresenta sintomas característicos de enxaqueca, como cefaleia moderada ou grave, náuseas, vômitos e/ou fotofobia e fonofobia. Além disso, o prontuário não menciona a perda da episodicidade, que é um critério fundamental para a definição de enxaqueca. Portanto, a codificação CID-11 atribuída não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "NA22.03": {
+      "term_original": "pifr",
+      "capitulo": "22",
+      "confidence_embedding": 0.7708,
+      "descricao_cid": "Representação de doença CID-11: Outra fratura da primeira vértebra cervical. Definição: ",
+      "classification_reasoning": "A paciente apresentou fratura de C7, o que sugere uma lesão na vértebra cervical. A opção mais precisa é a NA22.03, uma vez que a descrição 'Outra fratura da primeira vértebra cervical' se ajusta melhor ao caso clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fratura de C7 não é uma fratura da primeira vértebra cervical, mas sim da sétima. A opção mais precisa seria a NA22.9 (Outra fratura da vértebra cervical) ou NA22.8 (Fratura múltipla da vértebra cervical), pois ambas se ajustam melhor ao caso clínico.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.31": {
+      "term_original": "particularidades evolutivas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7245,
+      "descricao_cid": "Representação de doença CID-11: Dor musculoesquelética secundária crônica associada a alterações estruturais. Definição: Dor musculoesquelética secundária crônica associada a alterações estruturais é uma dor crônica de mecanismo(s) desconhecido(s), que é atribuível a alterações anatômicas em articulação(ões), osso(s) ou tendão(ões). A alteração estrutural precisa ser inferida a partir de exame clínico e/ou demonstrável por exame de imagem. A dor pode ser espontânea ou induzida por movimento. É caracterizada por aspectos clínicos como inchaço, alodinia ou restrição de movimentos.\r\n\r\nCritérios de Diagnóstico:\r\n\r\nAs condições de A a D são preenchidas:\r\n\r\nA) Dor crônica (persistente ou recorrente por mais de 3 meses) em articulação(ões), osso(s) ou tendão(ões) está presente. A dor pode ser espontânea ou induzida por movimento.\r\n\r\nB) Pelo menos um dos seguintes critérios atendidos:\r\nB1) Inchaço está presente.\r\nB2) Alodinia sobre a parte está presente.\r\n\r\nC) A alteração estrutural é inferida a partir de exame clínico ou de imagem.\r\n\r\nD) A dor não é melhor explicada por outro diagnóstico de dor crônica.",
+      "classification_reasoning": "A frase 'particularidades evolutivas' se refere a alterações estruturais ou anatômicas no contexto do exame de imagem, como TC e TAC de crânio, que demonstram fraturas linear e à direita. Isso é coerente com o diagnóstico de dor musculoesquelética secundária crônica associada a alterações estruturais.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A frase 'particularidades evolutivas' se refere a alterações estruturais ou anatômicas no contexto do exame de imagem, como TC e TAC de crânio, que demonstram fraturas linear e à direita. Isso é coerente com o diagnóstico de dor musculoesquelética secundária crônica associada a alterações estruturais.",
+      "tipo_erro_auditoria": null
+    },
+    "FA84.1": {
+      "term_original": "cervicodorsalgia",
+      "capitulo": "15",
+      "confidence_embedding": 0.7613,
+      "descricao_cid": "Representação de doença CID-11: Espondilolistese sem defeito na 'pars'. Definição: Esta é uma condição caracterizada pelo deslizamento anterior do corpo vertebral, sobre a vértebra abaixo, sem um defeito na \"pars articularis\"",
+      "classification_reasoning": "A escolha do código FA84.1 é baseada na descrição de 'cervicodorsalgia' como espondilolistese sem defeito na 'pars', o que se ajusta ao quadro clínico apresentado pelo paciente, com trauma em dorso e crânio, leucorrönia e cervicalgia (dor nas vértebras cervicais). A presença de fratura de C7 também é compatível com este diagnóstico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação FA84.1 refere-se a espondilolistese sem defeito na 'pars', o que não é compatível com o quadro clínico do paciente, que apresenta trauma em dorso e crânio, leucorrönia e cervicalgia (dor nas vértebras cervicais). A presença de fratura de C7 também não está relacionada à espondilolistese. Portanto, a escolha desse código é inapropriada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B25.2": {
+      "term_original": "gcs 15",
+      "capitulo": "08",
+      "confidence_embedding": 0.7228,
+      "descricao_cid": "Representação de doença CID-11: Efeitos tardios de hemorragia subaracnoide. Definição: Efeitos tardios de hemorragia subaracnoide não traumática após 1 mês ou mais do início da doença. Os códigos para hemorragia aguda devem ser usados ​​exclusivamente para hemorragias agudas e episódios de hospitalização imediatamente relacionados.",
+      "classification_reasoning": "A escolha do código 8B25.2 foi feita porque a paciente apresenta sintomas relacionados à hemorragia subaracnoide, como dorso e crânio, e não há indícios de doença inflamatória ou neurológica focalizada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente apresenta GCS 15, o que indica um estado de alerta neurológico normal. A escolha do código 8B25.2, relacionado a efeitos tardios de hemorragia subaracnoide, não é clínica ou lógica, pois não há indícios de hemorragia subaracnoide ou doença neurológica focalizada no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NA22.12": {
+      "term_original": "fratura esfenotemporal e de processo zigomática",
+      "capitulo": "22",
+      "confidence_embedding": 0.7681,
+      "descricao_cid": "Representação de doença CID-11: Fratura do processo odontoide. Definição: ",
+      "classification_reasoning": "A descrição do termo extraído 'fratura esfenotemporal e de processo zigomática' é mais compatível com a fratura do processo odontoide, que é um tipo de fratura da primeira vértebra cervical.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo extraído 'fratura esfenotemporal e de processo zigomática' não se refere a uma fratura do processo odontoide, que é um tipo de fratura da primeira vértebra cervical. A descrição menciona fraturas em crânio e dorso, o que sugere que a fratura está relacionada ao crânio ou à coluna vertebral, e não ao processo odontoide.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.2": {
+      "term_original": "perda de sconsciência",
+      "capitulo": "21",
+      "confidence_embedding": 0.7733,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A perda de sconsciência não está presente no relatório, e a dor crônica pós-operatória ou pós-traumática é uma opção mais precisa para o termo 'perda de sconsciência' dentro do contexto clínico, considerando que a paciente tem fratura de C7 e dor cervical.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A perda de sconsciência não está relacionada à dor crônica pós-operatória ou pós-traumática. A paciente apresenta fratura de C7 e cervicodorsalgia, mas não há evidências de perda de sconsciência. Além disso, a descrição do código CID-11 refere-se especificamente à dor crônica pós-operatória ou pós-traumática, que não é o caso da paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

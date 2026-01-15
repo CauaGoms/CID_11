@@ -1,0 +1,192 @@
+{
+  "prontuario_id": 486,
+  "text": "EVOLUÇAO DIA 08/02/10 Acordada, pouco responsiva, eupneica, apresentando sudorese, abdomen distendido  e tenso com incisao aberta e limpa, cuidadora refere ter alimentado pela manha e apresentou vomito apos, chamado para CC as 16h, informado DR VITAL BRASIL que veio e avaliou e comunicou que manter em jejum e ira realizar uma video a noite a seguir de ouitra cirurgia.Contida em MMSS para proteçao. Enfermeira FLORENCE NIGHTINGALE. SEPTICEMIA NAO ESPECIFICADA. 18:40h Paciente alerta, orientado, comunicativo, em repouso no leito, afebril, em ar ambiente, demais SSVV estáveis, AVP em MSD salinizado, curativo oclusivo em região abdominal limpo e seco externamente, curativo oclusivo em região inguinal limpo e seco externamente com dreno de suctor funcionante com pouca secreção sanguinolenta, curativo oclusivo em região femural esquerda limpo e seco externamente, curativo oclusivo em região dorsal do pé esquerdo limpo e seco externamente, mantendo jejum conforme orientação médica, SVD com 300 ml. Segue sob cuidados. FERIMENTO DO DORSO E DA PELVE.",
+  "entities": {
+    "Achado": [
+      "Acordada",
+      "eupneica",
+      "limpa",
+      "alerta",
+      "orientado",
+      "comunicativo",
+      "afebril",
+      "salinizado",
+      "limpo",
+      "seco",
+      "repouso no leito",
+      "em ar ambiente",
+      "SSVV estáveis",
+      "dreno de suctor",
+      "secreção sanguinolenta"
+    ],
+    "Sinal ou Sintoma": [
+      "sudorese",
+      "tenso",
+      "vomito",
+      "pouco responsiva"
+    ],
+    "Localização ou Região Corporal": [
+      "abdomen",
+      "MSD",
+      "DORSO",
+      "região abdominal",
+      "região inguinal",
+      "região femural esquerda",
+      "região dorsal do pé esquerdo"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "cuidadora",
+      "Enfermeira"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CC"
+    ],
+    "Abreviação": [
+      "CC",
+      "DR",
+      "AVP",
+      "MSD",
+      "SVD",
+      "Contida em MMSS para proteçao",
+      "SSVV estáveis"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "manter",
+      "cuidados"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "jejum",
+      "cirurgia",
+      "AVP",
+      "salinizado",
+      "SVD",
+      "repouso no leito",
+      "curativo oclusivo",
+      "dreno de suctor"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Negação": [
+      "afebril"
+    ],
+    "Dispositivo Médico": [
+      "AVP",
+      "SVD",
+      "curativo oclusivo",
+      "dreno de suctor"
+    ],
+    "Conceito Espacial": [
+      "externamente"
+    ],
+    "Lesão ou Envenenamento": [
+      "FERIMENTO",
+      "incisao aberta"
+    ],
+    "Conceito Quantitativo": [
+      "300 ml"
+    ]
+  },
+  "labels": {
+    "6C40.3": {
+      "term_original": "acordada",
+      "capitulo": "06",
+      "confidence_embedding": 0.7604,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas.",
+      "classification_reasoning": "A opção mais precisa é a Intoxicação por Álcool (6C40.3) pois o termo 'acordada' se refere à presença de consciência, característica comum em casos de intoxicação por álcool.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa não é a Intoxicação por Álcool (6C40.3) pois o termo 'acordada' não se refere à presença de consciência, característica comum em casos de intoxicação por álcool. A paciente está acordada e apresenta sintomas como sudorese, abdomen distendido e tenso, incisão aberta e limpa, o que sugere uma situação mais complexa do que apenas uma intoxicação por álcool.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NB51.2": {
+      "term_original": "ferimento",
+      "capitulo": "22",
+      "confidence_embedding": 0.7817,
+      "descricao_cid": "Representação de doença CID-11: Ferimento perfurante sem corpo estranho do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'ferimento' é NB51.2, pois descreve um ferimento perfurante sem corpo estranho no abdome, região lombar ou pelve, que coincide com a descrição da evolução do paciente mencionada no contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 NB51.2 'Ferimento perfurante sem corpo estranho do abdome, região lombar ou pelve' é clínica e coerente com a descrição da evolução do paciente no prontuário, que menciona um ferimento abdominal com incisão aberta e limpa. A codificação não apresenta contradições óbvias nem associações puramente imaginárias.",
+      "tipo_erro_auditoria": null
+    },
+    "DA60.3": {
+      "term_original": "vomito",
+      "capitulo": "13",
+      "confidence_embedding": 0.7789,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A escolha pelo código DA60.3 é baseada na presença de vomito no contexto, o que sugere uma possibilidade de úlceras de estresse do estômago. Embora não haja indicação clara de lesão gástrica, a presença de sudorese e distensão abdominal pode estar relacionada à essa condição.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de vomito não é suficiente para justificar a escolha do código DA60.3, que se refere às úlceras de estresse do estômago. Embora o termo 'vomito' possa estar relacionado à condição gástrica, não há evidência clínica suficiente no prontuário para sustentar essa conclusão. A análise da evolução do paciente e dos achados físicos (sudorese, distensão abdominal) sugere uma situação mais complexa que não pode ser reduzida a uma úlcera de estresse gástrica.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "EB13.1": {
+      "term_original": "limpo",
+      "capitulo": "14",
+      "confidence_embedding": 0.7795,
+      "descricao_cid": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável.",
+      "classification_reasoning": "A opção mais precisa para o termo 'limpo' é Necrólise epidérmica tóxica (NET), uma doença cutânea aguda caracterizada por necrose e descolamento bolhoso da epiderme, que pode apresentar erupções cutâneas abertas e sujeitas a infecção.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'limpo' não está relacionado à Necrólise epidérmica tóxica (NET), que é uma doença cutânea aguda caracterizada por necrose e descolamento bolhoso da epiderme. O termo 'limpo' se refere a curativos oclusivos em diferentes regiões do corpo, indicando um estado de higiene ou ausência de lesão. Portanto, não há correspondência clínica entre o termo e o código CID-11 atribuído (EB13.1).",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C45.4": {
+      "term_original": "comunicativo",
+      "capitulo": "06",
+      "confidence_embedding": 0.7499,
+      "descricao_cid": "Representação de doença CID-11: Abstinência de cocaína. Definição: Abstinência de cocaína é um conjunto clinicamente significativo de sintomas, comportamentos e/ou manifestações fisiológicas, variando em grau de gravidade e duração, que ocorre quando da cessação ou redução do uso de opioides em indivíduos que tenham desenvolvido dependência de cocaína ou tenham usado cocaína por um período prolongado ou em grandes quantidades. Sintomas de apresentação da abstinência de cocaína podem incluir humor disfórico, irritabilidade, fadiga, lentificação psicomotora, sonhos vívidos desagradáveis, insônia ou hipersonia, aumento de apetite, ansiedade, agitação ou lentificação psicomotora e fissura por cocaína.",
+      "classification_reasoning": "O termo 'comunicativo' sugere que o paciente está apto a se comunicar e responder de forma adequada, o que não é compatível com sintomas de abstinência de cafeína ou álcool. A escolha mais precisa para esse termo é a abstinência de cocaína (6C45.4), pois as pessoas que desenvolvem dependência de cocaína podem apresentar sintomas como irritabilidade e humor disfórico, que são coerentes com a descrição do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A abstinência de cocaína não é compatível com a situação descrita no prontuário, que apresenta sintomas como sudorese, abdomen distendido e tenso, e septecemia não especificada. Além disso, o termo 'comunicativo' sugere que o paciente está apto a se comunicar e responder de forma adequada, o que não é compatível com os sintomas de abstinência de cocaína.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME01": {
+      "term_original": "sudorese",
+      "capitulo": "21",
+      "confidence_embedding": 0.761,
+      "descricao_cid": "Representação de doença CID-11: Distensão abdominal. Definição: Esta é uma condição em que o abdômen parece cheio e tenso por causa do inchaço do abdômen, geralmente devido a um aumento da quantidade de gases intestinais, mas ocorre às vezes quando fluidos, substâncias ou massa estão se acumulando ou se expandindo no abdômen.",
+      "classification_reasoning": "A presença de sudorese no contexto clínico sugere uma situação de estresse e ansiedade, o que pode estar relacionado à distensão abdominal, caracterizada por dor e desconforto. A escolha do código ME01 é justificada pela descrição da distensão abdominal como uma condição com inchaço do abdômen.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de sudorese não está diretamente relacionada à distensão abdominal. A descrição do prontuário apresenta sudorese como um sintoma geral, e não há evidência clínica suficiente para justificar a escolha do código ME01. Além disso, a distensão abdominal é uma condição que pode ter várias causas, e a sudorese não é um critério exclusivo para essa condição.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "6C48.2": {
+      "term_original": "alerta",
+      "capitulo": "06",
+      "confidence_embedding": 0.7618,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais.",
+      "classification_reasoning": "O termo 'alerta' se refere à percepção do paciente de estar acordado e consciente, o que é consistente com a definição da intoxicação por cafeína. A presença de outras sintomas como sudorese, abdomen distendido e tenso com incisao aberta e limpa também sugerem uma possível intoxicação por cafeína.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de sintomas como sudorese, abdomen distendido e tenso com incisao aberta e limpa não são consistentes com a definição da intoxicação por cafeína. Além disso, o termo 'alerta' se refere à percepção do paciente de estar acordado e consciente, o que não é relacionado à intoxicação por cafeína.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD81.3": {
+      "term_original": "salinizado",
+      "capitulo": "21",
+      "confidence_embedding": 0.7545,
+      "descricao_cid": "Representação de doença CID-11: Abdome agudo. Definição: Síndrome clínica com dor abdominal aguda, que é intensa e de início rápido. O abdome agudo pode ser causado por uma variedade de transtornos, lesões ou doenças.",
+      "classification_reasoning": "A opção mais precisa para o termo 'salinizado' é MD81.3, Abdome agudo, pois a paciente tem um abdome distendido e tenso com incisao aberta e limpa, o que sugere uma situação clínica de abdome agudo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção MD81.3 não é clinicamente coerente com o prontuário, pois a paciente apresenta um abdome distendido e tenso com incisão aberta e limpa, mas não há evidência de dor abdominal aguda intensa e rápida, que é a definição do código MD81.3. Além disso, o termo 'salinizado' não está relacionado ao abdome agudo.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "NB90.7": {
+      "term_original": "dreno de suctor",
+      "capitulo": "22",
+      "confidence_embedding": 0.7419,
+      "descricao_cid": "Representação de doença CID-11: Lesão de múltiplos vasos sanguíneos ao nível do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NB90.7, pois o termo 'dreno de suctor' refere-se ao drenagem de secreções (ou sanguinolentas) que são comuns em lesões de múltiplos vasos sanguíneos ao nível do abdome, região lombar ou pelve. Além disso, a presença de curativos oclusivos em diferentes áreas do corpo também sugere uma lesão mais extensa.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'dreno de suctor' não se refere a uma lesão de múltiplos vasos sanguíneos ao nível do abdome, região lombar ou pelve. Em vez disso, é um procedimento terapêutico comum utilizado para drenar secreções em áreas do corpo. Portanto, o código CID-11 atribuído (NB90.7) não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EB31": {
+      "term_original": "limpa",
+      "capitulo": "14",
+      "confidence_embedding": 0.747,
+      "descricao_cid": "Representação de doença CID-11: Eritema nodoso. Definição: Erupção eritematosa comumente associada a reações a medicamentos ou infecção e caracterizada por nódulos inflamatórios que geralmente são dolorosos, múltiplos e bilaterais. Esses nódulos localizam-se predominantemente na face anterior das pernas, com ocorrência menos comum nas coxas e antebraços. Eles sofrem mudanças de cor características que terminam em áreas temporárias semelhantes a hematomas. Esta condição geralmente desaparece em 3-6 semanas sem cicatriz ou atrofia.",
+      "classification_reasoning": "A opção mais precisa é a Eritema Nodoso (Código EB31) porque o termo 'limpa' se refere à curativo oclusivo em região abdominal, inguinal e femural esquerda descritos no prontuário, caracterizando uma lesão superficial com perda de tecido.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa não é a Eritema Nodoso (Código EB31) porque o termo 'limpa' se refere à curativo oclusivo em região abdominal, inguinal e femural esquerda descritos no prontuário, caracterizando uma lesão superficial com perda de tecido. A codificação CID-11 deve ser mais específica e relacionada ao tipo de lesão, não a uma condição clínica como Eritema Nodoso.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

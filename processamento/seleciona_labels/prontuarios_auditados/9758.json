@@ -1,0 +1,272 @@
+{
+  "prontuario_id": 366,
+  "text": "# QP: PACIENTE ENCAMINHADO PARA AVALIAÇÃO DE FUNDO DE OLHO DEVIDO À USO DE HIDROXICLOROQUINA PARA AR.\n\n# HMA: PACIENTE NEGA HIPEREMIA CONJUNTIVAL, PRURIDO OU LACRIMEJAMENTO. FAZ USO DE ÓCULOS PARA LEITURA (NÃO TROUXE).  FAZ USO DE  COLÍRIO LUBRIFICANTE; \n\n# HMP: COMORBIDADES: HAS E ARTRITE REUMATÓIDE EM USO DE HIDROXICLOROQUINA 400MG /DIA HÁ 2 MESES. NEGA CIRURGIAS OU TRAUMAS OCULARES.\n\n# HMF: NEGA HISTÓRICO FAMILIAR DE GLAUCOMA OU CEGUEIRA.\n\n# EXAME FÍSICO:\n\n-AV:\tOD 20/30,\n\tOE 20/40,\n\tJ1.\n\n-TOL:\tOD -1,00 ESF//20/20;\n\tOE -2,00 ESF//20/20;\n\tAD+3,00//J1.\n\n-BIO:\tAO CA CALMA E BEM FORMADA. PUPILAS FOTORREAGENTES. CÓRNEA CLARA. CATARATA AO.\n\n-PIO:\t18/18.\n\n-FO:\tAO PAPILA E MACULA APARENTEMENTE NORMAIS, APESAR DA OPACIDADE DE MEIOS.\n\n# CONDUTA: ORIENTO PACIENTE A DIRIGIR-SE AO HUC CASO APRESENTE QUALQUER ALTERAÇÃO AGUDA DA SAÚDE OCULAR. RETORNO ANUAL VIA UBS.\n\nR1 Lucas\nR3 Lucas\n \n \n \n ",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "QP",
+      "PRURIDO",
+      "LACRIMEJAMENTO",
+      "COMORBIDADES",
+      "HIPEREMIA CONJUNTIVAL",
+      "OPACIDADE DE MEIOS",
+      "ALTERAÇÃO AGUDA"
+    ],
+    "Abreviação": [
+      "QP",
+      "AR",
+      "HMA",
+      "HMP",
+      "HAS",
+      "HMF",
+      "-AV",
+      "-TOL",
+      "ESF//20/20",
+      "-BIO",
+      "AO",
+      "CA",
+      "-PIO",
+      "-FO",
+      "UBS",
+      "OD 20/30",
+      "OE 20/40",
+      "OD -1 , 00",
+      "OE -2 , 00",
+      "AD+3 , 00//J1"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ENCAMINHADO",
+      "AVALIAÇÃO",
+      "CONDUTA",
+      "RETORNO",
+      "ORIENTO PACIENTE"
+    ],
+    "Substância Farmacológica": [
+      "HIDROXICLOROQUINA",
+      "COLÍRIO LUBRIFICANTE"
+    ],
+    "Doença ou Síndrome": [
+      "AR",
+      "HAS",
+      "GLAUCOMA",
+      "CEGUEIRA",
+      "CATARATA",
+      "ARTRITE REUMATÓIDE"
+    ],
+    "Achado": [
+      "HMA",
+      "HMP",
+      "HMF",
+      "USO DE ÓCULOS PARA LEITURA",
+      "HISTÓRICO FAMILIAR",
+      "BEM FORMADA",
+      "PUPILAS FOTORREAGENTES",
+      "CÓRNEA CLARA",
+      "APARENTEMENTE NORMAIS"
+    ],
+    "Negação": [
+      "NEGA",
+      "NÃO"
+    ],
+    "Substância Química Orgânica": [
+      "HIDROXICLOROQUINA"
+    ],
+    "Conceito Temporal": [
+      "/DIA",
+      "ANUAL",
+      "HÁ 2 MESES"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CIRURGIAS"
+    ],
+    "Lesão ou Envenenamento": [
+      "TRAUMAS"
+    ],
+    "Procedimento Diagnóstico": [
+      "-TOL",
+      "-BIO",
+      "-PIO",
+      "-FO",
+      "FUNDO DE OLHO",
+      "EXAME FÍSICO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ESF//20/20",
+      "18/18",
+      "OD 20/30",
+      "OE 20/40",
+      "OD -1 , 00",
+      "OE -2 , 00",
+      "AD+3 , 00//J1"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "AO",
+      "CA",
+      "PAPILA",
+      "MACULA"
+    ],
+    "Conceito Quantitativo": [
+      "18/18"
+    ],
+    "Produto Intelectual": [
+      "CONDUTA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UBS"
+    ]
+  },
+  "labels": {
+    "9A94.1": {
+      "term_original": "bem formada",
+      "capitulo": "09",
+      "confidence_embedding": 0.7947,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso.",
+      "classification_reasoning": "O termo 'bem formada' refere-se à forma como as pupilas do paciente são descritas no exame físico, o que sugere que elas estão normalmente fotorreagentes e não há qualquer sinal de doença ocular. A descrição da síndrome da íris flácida é a mais precisa para este termo dentro do contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'bem formada' refere-se às pupilas do paciente, que estão normalmente fotorreagentes e não há qualquer sinal de doença ocular. A síndrome da íris flácida é uma condição clínica específica e complexa que não se relaciona com a descrição das pupilas. Portanto, o código CID-11 atribuído (9A94.1) não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "9C61.23": {
+      "term_original": "hiperemia conjuntival",
+      "capitulo": "09",
+      "confidence_embedding": 0.7602,
+      "descricao_cid": "Representação de doença CID-11: Glaucoma associado à hemorragia intraocular. Definição: Glaucoma de células fantasmas é uma condição em que sangramento no corpo vítreo ou na câmara anterior pode levar a elevação da pressão intraocular quando hemácias enrijecidas que perderam sua hemoglobina obstruem a malha trabecular",
+      "classification_reasoning": "A hiperemia conjuntival está relacionada ao glaucoma associado à hemorragia intraocular, pois o termo extraído se refere a uma condição que envolve sangramento no corpo vítreo ou na câmara anterior e subsequente elevação da pressão intraocular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hiperemia conjuntival não está relacionada ao glaucoma associado à hemorragia intraocular. A descrição do termo extraído se refere a sangramento no corpo vítreo ou na câmara anterior, enquanto o prontuário não apresenta qualquer indício de sangramento ou hemorragia intraocular. Além disso, a hiperemia conjuntival é um achado clínico que não está diretamente relacionado ao glaucoma.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NA06.5": {
+      "term_original": "traumas",
+      "capitulo": "22",
+      "confidence_embedding": 0.7546,
+      "descricao_cid": "Representação de doença CID-11: Trauma do esfíncter da íris. Definição: Refere-se ao trauma ao músculo na parte do olho chamada íris. Este circunda internamente a pupila da íris, o que é apropriado à sua função como constritor da pupila.",
+      "classification_reasoning": "A opção mais precisa para o termo 'traumas' no contexto clínico é NA06.5, pois refere-se especificamente ao trauma do esfíncter da íris, que é uma possibilidade de lesão relacionada ao fundo do olho.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'traumas' no prontuário se refere a uma situação passada, enquanto o código CID-11 NA06.5 se refere especificamente ao trauma do esfíncter da íris, que é uma possibilidade de lesão relacionada ao fundo do olho. Embora haja uma conexão superficial entre os dois termos, não há evidência clínica suficiente para justificar a atribuição desse código à situação descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "QA77": {
+      "term_original": "histórico familiar",
+      "capitulo": "24",
+      "confidence_embedding": 0.738,
+      "descricao_cid": "Representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano. Definição: ",
+      "classification_reasoning": "O termo 'histórico familiar' está relacionado ao uso de hidroxicloroquina para AR, e a representação QA77 se refere à contraindicação médica conhecida do paciente sem lesão ou dano.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'histórico familiar' está diretamente relacionado à descrição do paciente no prontuário, que menciona a presença de HAS e ARTRITE REUMATÓIDE em uso de hidroxicloroquina. A representação QA77 se refere à contraindicação médica conhecida do paciente sem lesão ou dano, o que é coerente com a história clínica apresentada.",
+      "tipo_erro_auditoria": null
+    },
+    "QA02.8": {
+      "term_original": "hmf",
+      "capitulo": "24",
+      "confidence_embedding": 0.711,
+      "descricao_cid": "Representação de doença CID-11: Observação por suspeita de alergia ou hipersensibilidade, descartada. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'HMF' é QA02.8, pois HMF refere-se a Histórico de Família e o termo 'descartada' indica que não há histórico familiar de glaucoma ou cegueira, o que se encaixa com a definição da opção QA02.8: Representação de doença CID-11: Observação por suspeita de alergia ou hipersensibilidade, descartada.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção QA02.8 para o termo HMF é justificada, pois a descrição do prontuário indica que não há histórico familiar de glaucoma ou cegueira, o que se encaixa com a definição da opção QA02.8: Representação de doença CID-11: Observação por suspeita de alergia ou hipersensibilidade, descartada.",
+      "tipo_erro_auditoria": null
+    },
+    "9C61.34": {
+      "term_original": "cegueira",
+      "capitulo": "09",
+      "confidence_embedding": 0.7565,
+      "descricao_cid": "Representação de doença CID-11: Glaucoma secundário de ângulo fechado devido a invasão por células epiteliais. Definição: Invasão de células epiteliais é uma condição subsequente a traumatismo ocular aberto ou cirurgia em que células epiteliais conjuntivais ou corneanas ganham acesso à câmara anterior e crescem além da malha trabecular com subsequente elevação da pressão ocular e dano ao nervo óptico.",
+      "classification_reasoning": "A opção mais precisa é o glaucoma secundário de ângulo fechado devido a invasão por células epiteliais (9C61.34) pois o paciente tem comorbidade de ARTRITE REUMATÓIDE em uso de hidroxiquorquina, o que aumenta a probabilidade de glaucoma secundário associado ao uso da medicação.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção do sistema é o glaucoma secundário de ângulo fechado devido a invasão por células epiteliais (9C61.34), mas não há evidência clínica no prontuário que suporte essa condição. O paciente tem comorbidade de ARTRITE REUMATÓIDE em uso de hidroxiquorquina, o que aumenta a probabilidade de glaucoma secundário associado ao uso da medicação, mas não há descrição de opacidade de meios ou dano ao nervo óptico, características clínicas do glaucoma. Além disso, o paciente nega história familiar de glaucoma ou cegueira. Portanto, a codificação CID-11 9C61.34 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "9C61.22": {
+      "term_original": "opacidade de meios",
+      "capitulo": "09",
+      "confidence_embedding": 0.7533,
+      "descricao_cid": "Representação de doença CID-11: Glaucoma secundário de ângulo aberto induzido pelo cristalino. Definição: ",
+      "classification_reasoning": "A opacidade de meios descrita no relatório é mais provável ser um sintoma de glaucoma secundário de ângulo aberto induzido pelo cristalino, uma vez que o paciente tem uso prolongado de hidroxiquinona e apresenta alterações na visão.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opacidade de meios descrita no relatório é um sintoma que pode ser relacionado ao glaucoma secundário de ângulo aberto induzido pelo cristalino, considerando o uso prolongado de hidroxiquinona e as alterações na visão do paciente. A descrição clínica do prontuário não apresenta contradições óbvias ou alucinações, portanto, a codificação CID-11 9C61.22 é válida.",
+      "tipo_erro_auditoria": null
+    },
+    "5B70": {
+      "term_original": "ar",
+      "capitulo": "05",
+      "confidence_embedding": 0.7463,
+      "descricao_cid": "Representação de doença CID-11: Deficiência de ácidos graxos essenciais. Definição: A deficiência de ácidos graxos essenciais - AGE- (ácido linoléico, ácido linolênico, ácido araquidônico, ácido docosapentaenóico, ácido docosahexaenóico e ácido eicosapentaenóico) pode ser causada por ingestão deficiente, particularmente, em bebês de crescimento rápido (como prematuros), em pacientes recebendo nutrição parenteral sem uma fonte adequada de AGE, e em doenças com má absorção de gordura. Os achados clínicos são: dermatite, alopecia e trombocitopenia. O papel do AGE durante a gravidez e a lactação tem sido destacado, e o papel dos ácidos graxos n-3 de cadeia longa como componentes estruturais para o desenvolvimento da função da retina e do sistema nervoso central é agora aceito. O período pré-natal é um período de risco aumentado para deficiência de ômega-3, pois os estoques de tecido materno tendem a diminuir à medida que são usados ​​para o desenvolvimento do feto. A deficiência de n-3 AGE pode afetar o crescimento e a função cognitiva e visual em bebês. Os sinais característicos de deficiência atribuídos aos ácidos graxos n-6 são erupção cutânea escamosa, aumento da perda de água transepidérmica, crescimento reduzido e elevação da proporção plasmática de ácido eicosatrienóico: ácido araquidônico. A deficiência de AGE em populações especiais tem sido associada a distúrbios hematológicos e diminuição da resposta imunológica. Os ácidos graxos n-3 e n-6 de cadeia longa são nutrientes essenciais e também, como parte do suprimento geral de gordura, podem afetar a prevalência e a gravidade das doenças cardiovasculares, diabetes, câncer e declínio funcional relacionado à idade.",
+      "classification_reasoning": "A escolha do código 5B70 (Deficiência de ácidos graxos essenciais) é justificada pela presença do termo 'AR' no contexto clínico, que está relacionado à doença articular incapacitante, uma das características da deficiência de ácidos graxos essenciais.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código 5B70 (Deficiência de ácidos graxos essenciais) não é justificada pela presença do termo 'AR' no contexto clínico. O termo 'AR' refere-se à Artrite Reumatoide, que é uma comorbidade mencionada no prontuário, e não está relacionado à deficiência de ácidos graxos essenciais. A escolha do código 5B70 é um exemplo de sobre-generalização, pois o termo 'AR' não está diretamente relacionado à deficiência de ácidos graxos essenciais.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "HMP": {
+      "term_original": "hmp",
+      "capitulo": "24",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "Este é o campo que registra as comorbidades do paciente, e nesse caso, a hidroxiquorquina está relacionada à artrite reumotóide e HAS (Hiperplasia Adenomatosa Serosa), fazendo da escolha HMP a mais precisa para o termo dentro do contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código HMP é justificada pela presença de comorbidades relacionadas à hidroxiquorquina, como artrite reumotóide e HAS. O termo 'HMP' é um campo específico para registrar essas comorbidades, e a descrição fornecida pelo sistema justifica a escolha desse código.",
+      "tipo_erro_auditoria": null
+    },
+    "9A10.3": {
+      "term_original": "lacrimejamento",
+      "capitulo": "09",
+      "confidence_embedding": 0.7706,
+      "descricao_cid": "Representação de doença CID-11: Hiperlacrimação. Definição: Transbordamento de lágrimas devido a secreção excessiva pela glândula lacrimal. Pode ser causado por drogas (p.ex. pillocarpina), forte emoção; ou como reflexo de estimulação trigeminal por inflamação ocular; ou irritação da córnea ou conjuntiva por irritante químico no ar; vento frio; ou corpo estranho no olho. Os principais sintomas são desconforto e visão turva e algumas vezes constrangimento. A abordagem depende da causa.\r\n\r\n\r\n. É um sinal clínico ou condição que aponta para a drenagem insuficiente do filme lacrimal dos olhos, em que as lágrimas vão drenar pela face abaixo em vez de o fazerem pelo sistema nasolacrimal.",
+      "classification_reasoning": "O termo 'lacrimejamento' está relacionado à hiperlacrimação, que é caracterizada pelo transbordamento de lágrimas excessivas. Nesse contexto clínico, o paciente nega hiperemia conjuntival, prurido ou lacrimejamento, o que reforça a escolha do código 9A10.3 como mais precisa para o termo 'lacrimejamento'.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'lacrimejamento' está presente no prontuário e é negado pelo paciente. O código CID-11 9A10.3 representa hiperlacrimação, que é caracterizada por transbordamento de lágrimas excessivas. Nesse contexto clínico, o paciente não apresenta sintomas de hiperlacrimação, portanto, a escolha do código 9A10.3 para o termo 'lacrimejamento' é justificada e clinicamente coerente.",
+      "tipo_erro_auditoria": null
+    },
+    "NA06.87": {
+      "term_original": "alteração aguda",
+      "capitulo": "22",
+      "confidence_embedding": 0.7313,
+      "descricao_cid": "Representação de doença CID-11: Laceração ou ruptura ocular com prolapso ou perda de tecido intraocular, unilateral. Definição: Laceração ou ruptura forçada ou traumática do globo ocular com protrusão ou perda dos tecidos e fluidos localizados dentro do globo ocular.",
+      "classification_reasoning": "A opção mais precisa para o termo 'alteração aguda' no contexto clínico é NA06.87, pois a paciente foi encaminhada para avaliação de fundo do olho e não há histórico de cirurgias ou traumas oculares. A laceração ou ruptura ocular com prolapso ou perda de tecido intraocular unilateral é uma alteração aguda que pode ocorrer em resposta ao uso da hidroxicloroquina.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CID-11 NA06.87 não é adequada pois a paciente foi encaminhada para avaliação de fundo do olho, mas não há histórico de cirurgias ou traumas oculares que justifiquem a laceração ou ruptura ocular com prolapso ou perda de tecido intraocular unilateral. Além disso, a paciente nega hiperemia conjuntival, prurido ou lacrimejamento, o que também não é compatível com essa condição. Ajuste necessário para uma codificação mais precisa e clínica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9B10.02": {
+      "term_original": "catarata",
+      "capitulo": "09",
+      "confidence_embedding": 0.7633,
+      "descricao_cid": "Representação de doença CID-11: Catarata relacionada à idade madura. Definição: Trata-se da turvação do cristalino, relacionado à idade madura, que leva a uma diminuição da visão. É a causa mais comum de cegueira e é tratada convencionalmente com cirurgia. Perda visual ocorre porque a opacificação do cristalino obstrui a passagem da luz e prejudica seu foco na retina no fundo do olho.",
+      "classification_reasoning": "A catarata relacionada à idade madura (9B10.02) é a mais precisa opção para o termo 'catarata' no contexto do prontuário, pois a paciente tem uma opacificação do cristalino que está afetando sua visão.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A catarata descrita no prontuário é uma opacificação do cristalino que está afetando a visão da paciente. O código CID-11 9B10.02 'Representação de doença CID-11: Catarata relacionada à idade madura' é a mais precisa opção para o termo 'catarata' no contexto do prontuário, pois a paciente tem uma opacificação do cristalino que está afetando sua visão. Ajusta-se às diretrizes de auditoria, mantendo a classificação como válida.",
+      "tipo_erro_auditoria": null
+    },
+    "9C61.2Y": {
+      "term_original": "glaucoma",
+      "capitulo": "09",
+      "confidence_embedding": 0.7851,
+      "descricao_cid": "Representação de doença CID-11: Outro glaucoma secundário de ângulo aberto, especificado. Definição: ",
+      "classification_reasoning": "A escolha se baseia na falta de indicações de glaucoma agudo ou secundário em outras opções. A descrição da opção 9C61.2Y ('Outro glaucoma secundário de ângulo aberto, especificado') é mais ampla e pode incluir outros casos de glaucoma secundário associados a doenças como a artrite reumatoide mencionada no HMA.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção 9C61.2Y ('Outro glaucoma secundário de ângulo aberto, especificado') é uma descrição mais ampla que pode incluir outros casos de glaucoma secundário associados a doenças como a artrite reumatoide mencionada no HMA. Como o prontuário não apresenta indicações de glaucoma agudo ou secundário, e a paciente tem comorbidade de artrite reumatoide em uso de hidroxiquina, considero que a codificação CID-11 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "4e+81": {
+      "term_original": "has",
+      "capitulo": "04",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'has' é a doença alérgica ou de hipersensibilidade envolvendo o olho, pois o paciente relata usar hidroxicloroquina para AR e apresenta uso de colírio lubrificante, sugerindo uma possível reação adversa à medicação.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção '4e+81' (Doença alérgica ou de hipersensibilidade envolvendo o olho) é justificada pelo uso da hidroxicloroquina para AR e a presença de colírio lubrificante, sugerindo uma possível reação adversa à medicação. A descrição do prontuário não apresenta contradições óbvias ou informações que justifiquem a remoção do código.",
+      "tipo_erro_auditoria": null
+    },
+    "FA09.3": {
+      "term_original": "artrite reumatóide",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha foi feita considerando que a artrite reumatóide é uma condição crônica e autoimune, caracterizada por inflamação e destruição das articulações, o que se encontra presente no prontuário do paciente (HMA: PACIENTE NEGA HIPEREMIA CONJUNTIVAL, PRURIDO OU LACRIMEJAMENTO. FAZ USO DE ÓCULOS PARA LEITURA (NÃO TROUXE).  FAZ USO DE  COLÍRIO LUBRIFICANTE;)",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código CID-11 FA09.3 para a artrite reumatóide é justificada, pois a condição crônica e autoimune está claramente descrita no prontuário (HMA: PACIENTE NEGA HIPEREMIA CONJUNTIVAL, PRURIDO OU LACRIMEJAMENTO. FAZ USO DE ÓCULOS PARA LEITURA (NÃO TROUXE).  FAZ USO DE  COLÍRIO LUBRIFICANTE; HMP: COMORBIDADES: HAS E ARTRITE REUMATÓIDE EM USO DE HIDROXICLOROQUINA 400MG /DIA HÁ 2 MESES.). A presença da artrite reumatóide é claramente descrita e não há contradição óbvia ou falta de base no texto para justificar a remoção do código.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

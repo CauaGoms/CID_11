@@ -1,0 +1,41 @@
+{
+  "prontuario_id": 90,
+  "text": "CIRURGIA DE COLUNA HÁ VARIOS ANOS. \nLOMBALGIA COM CLINICA  DUVIDOSA. \nSOLICITO RAIO-X PARA AVALIAR O QUADRO.\nORIENTO A PACIENTE.        ",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "LOMBALGIA",
+      "CLINICA DUVIDOSA"
+    ],
+    "Procedimento Diagnóstico": [
+      "RAIO-X"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CIRURGIA DE COLUNA"
+    ]
+  },
+  "labels": {
+    "FA80.8": {
+      "term_original": "lombalgia",
+      "capitulo": "15",
+      "confidence_embedding": 0.735,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A lombalgia é uma dor nas costas, e o contexto do prontuário menciona cirurgia de coluna há vários anos, o que sugere degeneração de disco intervertebral da coluna lombar. A opção FA80.8 se ajusta melhor ao quadro clínico apresentado.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lombalgia é uma dor nas costas, mas o prontuário não apresenta evidências de degeneração de disco intervertebral da coluna lombar. A cirurgia de coluna há vários anos pode ser relacionada à doença, mas a lombalgia não é um diagnóstico específico. O código FA80.8 é muito genérico e não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MG30.2": {
+      "term_original": "clinica duvidosa",
+      "capitulo": "21",
+      "confidence_embedding": 0.7351,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A escolha do código MG30.2 se baseia na apresentação de dor crônica pós-operatória ou pós-traumática, característica descrita na definição do código. A paciente tem lombalgia com clínica duvidosa e solicita raio-x para avaliar o quadro, o que sugere a presença de dor persistente após um procedimento cirúrgico ou lesão tecidual.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor crônica pós-operatória ou pós-traumática descrita no código MG30.2 não está diretamente relacionada à lombalgia com clínica duvidosa e solicita raio-x para avaliar o quadro. A paciente tem sintoma de dor, mas a descrição do prontuário não sugere que seja uma dor crônica pós-operatória ou pós-traumática. Portanto, a escolha do código MG30.2 é inapropriada e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

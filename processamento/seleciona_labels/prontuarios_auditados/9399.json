@@ -1,0 +1,153 @@
+{
+  "prontuario_id": 449,
+  "text": "PACIENTE ENCAMINHADA PARA SALA DE EMERGÊNCIA APÓS APRESENTAR EPISTAXE VOLUMOSA E PICO HIPOTENSIVO. COMUNICADO PLANTÃO DA OTORRINO. CONFECÇÃO DE NOVO TAMPÃO. EVOLUIU PARA PCR ÁS  11:30 HORAS, INICIADA MANOBRAS DE REANIMAÇÃO E ENTUBAÇÃO OROTRAQUEAL - RETORNA APÓS 10 MINUTOS. HIPOCORADA. SEGUE EM VENTILAÇÃO MECÂNICA MODO: PCV, CONCENTRAÇÃO DE 02: 100% E PEEP: 5. MONITORIZAÇÃO CARDÍACA E OXIMETRIA DE PULSO CONTÍNUA, MANTENDO FC: 95 BPM, SAT: 95% E PA: 88/50 MMHG. ACESSO VENOSO PERÍFERICO MANTENDO PLANO DE SOROTERAPIA EM CURSO. INICIADO PLANO DE SEDAÇÃO EM BI. REALIZADA PASSAGEM DE SVD FOLEY N°16. PROCEDIMENTO REALIZADO SEM INTERCORRÊNCIAS - DÉBITO AMARELO CLARO. ENCAMINHADO PEDIDO DE SANGUE PARA BANCO DE SANGUE. ENCAMINHADO PEDIDO DE VAGA PARA UTI. SEGUE SOB OS CUIDADOS DA EQUIPE MULTIPROFISSIONAL. AGUARDA VAGA EM UTI. CHOQUE HIPOVOLEMICO.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ENCAMINHADA",
+      "ENCAMINHADO",
+      "CUIDADOS",
+      "PEDIDO DE SANGUE"
+    ],
+    "Dispositivo Médico": [
+      "TAMPÃO",
+      "ACESSO VENOSO PERÍFERICO",
+      "SVD FOLEY N°16"
+    ],
+    "Função Patológica": [
+      "PCR"
+    ],
+    "Abreviação": [
+      "PCR",
+      "PCV",
+      "FC",
+      "SAT",
+      "PA",
+      "BI",
+      "UTI",
+      "95 BPM",
+      "SVD FOLEY N°16"
+    ],
+    "Sinal ou Sintoma": [
+      "HIPOCORADA",
+      "INTERCORRÊNCIAS",
+      "EPISTAXE VOLUMOSA",
+      "PICO HIPOTENSIVO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "PCV",
+      "SEDAÇÃO",
+      "MANOBRAS DE REANIMAÇÃO",
+      "ENTUBAÇÃO OROTRAQUEAL",
+      "VENTILAÇÃO MECÂNICA",
+      "MONITORIZAÇÃO CARDÍACA",
+      "OXIMETRIA DE PULSO CONTÍNUA",
+      "ACESSO VENOSO PERÍFERICO",
+      "SOROTERAPIA EM CURSO"
+    ],
+    "Atributo Clínico": [
+      "FC",
+      "SAT",
+      "PA"
+    ],
+    "Conceito Quantitativo": [
+      "95%",
+      "PEEP : 5",
+      "95 BPM",
+      "88/50 MMHG"
+    ],
+    "Dispositivo de Administração de Medicamento": [
+      "BI"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Função de Organismo": [
+      "DÉBITO"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UTI",
+      "SALA DE EMERGÊNCIA",
+      "PLANTÃO DA OTORRINO",
+      "BANCO DE SANGUE",
+      "EQUIPE MULTIPROFISSIONAL"
+    ],
+    "Procedimento Diagnóstico": [
+      "MONITORIZAÇÃO CARDÍACA",
+      "OXIMETRIA DE PULSO CONTÍNUA"
+    ],
+    "Achado": [
+      "AMARELO CLARO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "EQUIPE MULTIPROFISSIONAL"
+    ],
+    "Doença ou Síndrome": [
+      "CHOQUE HIPOVOLEMICO"
+    ]
+  },
+  "labels": {
+    "NA07.84": {
+      "term_original": "choque hipovolemico",
+      "capitulo": "22",
+      "confidence_embedding": 0.7311,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia traumática no tronco encefálico, primária. Definição: ",
+      "classification_reasoning": "A escolha do código NA07.84 é mais precisa porque o paciente apresenta epiestaxe volumosa, o que sugere uma hemorragia traumática no tronco encefálico primária.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 NA07.84 'Representação de doença: Hemorragia traumática no tronco encefálico, primária' não representa fielmente a condição clínica descrita no prontuário. A epiestaxe volumosa e pico hipotensivo sugerem uma hemorragia mais geral, sem necessariamente estar relacionada à hemorragia traumática no tronco encefálico primária. Além disso, o choque hipovolemico não é diretamente relacionado à hemorragia cerebral.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BD10": {
+      "term_original": "hipocorada",
+      "capitulo": "11",
+      "confidence_embedding": 0.732,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência cardíaca congestiva. Definição: Síndrome clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal que são acompanhadas por intolerância ao esforço e retenção de líquidos.",
+      "classification_reasoning": "A paciente está com hipotensão (PA: 88/50 mmHg) e é encaminhada para UTI, o que sugere insuficiência cardíaca congestiva, uma situação clínica caracterizada por anormalidades da função ventricular e da regulação neuro-hormonal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipocorada não é uma condição de insuficiência cardíaca congestiva. É um termo que descreve a paciente em estado de choque hipovolemicamente, o que não está relacionado à insuficiência cardíaca congestiva descrita pelo código CID-11 BD10.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA01": {
+      "term_original": "pico hipotensivo",
+      "capitulo": "11",
+      "confidence_embedding": 0.7848,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A opção mais precisa para o termo 'pico hipotensivo' é a doença cardíaca hipertensiva (Código: BA01), pois a hiperstenso pode levar a um pico hipotensivo em determinados momentos, especialmente após uma lesão cardiovascular como a epistaxe mencionada no contexto.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'pico hipotensivo' não representa diretamente a doença cardíaca hipertensiva (Código: BA01). O pico hipotensivo é um sintoma que pode ser causado por várias razões, incluindo lesão cardiovascular, e não uma condição clínica específica. Portanto, o código CID-11 atribuído não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF50.4": {
+      "term_original": "pcr",
+      "capitulo": "21",
+      "confidence_embedding": 0.7619,
+      "descricao_cid": "Representação de doença CID-11: hematúria. Definição: Hematúria significa presença de sangue ou glóbulos vermelhos (GV) na urina. Existem dois tipos de hematúria: hematúria macroscópica (quando se pode ver o sangue na urina) e hematúria microscópica (quando o sangue na urina pode ser observado apenas com microscopia ou encontrado fazendo um teste de urina).",
+      "classification_reasoning": "A palavra 'PCR' no contexto clínico se refere a presença de sangue ou glóbulos vermelhos na urina, o que é definido como hematúria microscópica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'PCR' no contexto do prontuário refere-se a procedimento de reanimação, não à presença de sangue na urina. O código CID-11 MF50.4 é inadequado para representar o termo 'PCR', pois não há relação clínica direta entre a presença de sangue na urina e o procedimento de reanimação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "AA90": {
+      "term_original": "epistaxe volumosa",
+      "capitulo": "10",
+      "confidence_embedding": 0.7032,
+      "descricao_cid": "Representação de doença CID-11: Otite média supurativa aguda. Definição: Otite média aguda supurativa é definida como uma inflamação da orelha média que surge repentinamente e passa rapidamente. É característico ter uma infecção da orelha média por trás de um tímpano eritematoso.",
+      "classification_reasoning": "A epistaxe volumosa apontada no contexto clínico é mais provável uma otite média supurativa aguda, caracterizada por infecção da orelha média com secreção nasal abundante e possível ruptura do tímpano. A descrição CID-11 AA90 se ajusta melhor a essa situação do que as outras opções.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A epistaxe volumosa não é uma otite média supurativa aguda, mas sim um tipo de hemorragia nasal. A descrição CID-11 AA90 se refere a uma inflamação da orelha média, enquanto a epistaxe volumosa não está relacionada à orelha média. Portanto, a codificação é inapropriada e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF40.3": {
+      "term_original": "amarelo claro",
+      "capitulo": "21",
+      "confidence_embedding": 0.7362,
+      "descricao_cid": "Representação de doença CID-11: Ejaculação retrógrada. Definição: A ejaculação retrógrada é uma condição na qual o sêmen, que normalmente é ejaculado pela uretra, é redirecionado para a bexiga urinária. A ejaculação retrógrada é tipicamente acompanhada por orgasmo subjetivo, embora o homem possa notar que a liberação de sêmen é limitada ou ausente. A ejaculação retrógrada ocorre mais comumente como uma complicação da ressecção transuretral da próstata, porém também pode ser causada por outra cirurgia pélvica, disfunção do sistema nervoso ou uso de agentes farmacológicos. A confirmação é feita pela identificação de espermatozoides em uma amostra de urina.",
+      "classification_reasoning": "A opção mais precisa para o termo 'amarelo claro' é a ejaculação retrógrada (MF40.3), pois o prontuário descreve um derrame de sangue (DEBITO AMARELO CLARO) e não há outro contexto que sugira uma hematuria, piúria ou bacteremia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 MF40.3 descreve ejaculação retrógrada, que não tem relação clínica com a epistaxe volumosa e pico hipotensivo descrita no prontuário. Além disso, o termo 'amarelo claro' não se refere à ejaculação retrógrada, mas sim ao derrame de sangue observado no paciente. Portanto, a codificação é inapropriada e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

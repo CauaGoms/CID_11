@@ -1,0 +1,215 @@
+{
+  "prontuario_id": 71,
+  "text": "# Lucas, 78 ANOS\n\n# FAC EM ANTICOAGULAÇÃO\n# MP DESDE 2002 ( HOSP CAJURU ) - EQUIPE Doutor Vital Brazil \n# HIPOTIREOIDISMO\n# NEGA IAM PRÉVIO\n# DEPRESSÃO\n# EX-ETILISTA\n# EX-TABAGISTA\n# NEGA ALERGIA A MEDICAMENTOS\n# EM USO DE: MAREVAN 5MG ( CONFORME TAP) E LEVOTIROXONA 50 MCG / DIA\n# US ABDOME (16/11): VESÍCULA BILIAR COM LAMA BILIAR E MICROCÁLCULOS\n# ECOCARDIOGRAMA TT (19/11):  FE 31% -\n# ECOCARDIOGRAMA TT (27/11/15): FEVE 28%\n# CATE (01/12): LESAO 80% TCE DISTAL , 40% CD\nS # INTERNAMENTO PRÉVIO POR PANCRETATITE BILIAR, PORÉM NÃO REALIZADA CX DEVIDO NECESSIDADE DA REALIZAÇÃO DE CAT, ENCAMINHADO DEVIDO NODULO PROSTATICO. REFERE URGE INCONTINENCIA URINÁRIA. JATO MICCIONAL FRACO\nO # TR: 60 G, FE, NODULO ÀS 5 HORAS\nA # HPB ? CA ?\nP # SOLICITO LAB E USG\n     PRESCREVO DOXAZOSINA 2MG\n     RETORNO COM EXAMES\n \n \n \n ",
+  "entities": {
+    "Doença ou Síndrome": [
+      "FAC",
+      "MP",
+      "HIPOTIREOIDISMO",
+      "IAM",
+      "DEPRESSÃO",
+      "HPB",
+      "PANCRETATITE BILIAR"
+    ],
+    "Abreviação": [
+      "FAC",
+      "MP",
+      "IAM",
+      "CATE",
+      "CX",
+      "CAT",
+      "TR",
+      "FE",
+      "HPB",
+      "CA",
+      "LAB",
+      "USG",
+      "US ABDOME",
+      "ECOCARDIOGRAMA TT",
+      "FE 31%",
+      "FEVE 28%",
+      "40% CD"
+    ],
+    "Função Patológica": [
+      "FAC"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ANTICOAGULAÇÃO",
+      "CATE",
+      "CX",
+      "CAT"
+    ],
+    "Negação": [
+      "NEGA",
+      "NÃO"
+    ],
+    "Conceito Temporal": [
+      "PRÉVIO"
+    ],
+    "Achado": [
+      "EX-ETILISTA",
+      "EX-TABAGISTA"
+    ],
+    "Sinal ou Sintoma": [
+      "ALERGIA",
+      "NODULO",
+      "URGE INCONTINENCIA URINÁRIA",
+      "JATO MICCIONAL FRACO"
+    ],
+    "Substância Farmacológica": [
+      "MEDICAMENTOS",
+      "MAREVAN",
+      "LEVOTIROXONA",
+      "DOXAZOSINA"
+    ],
+    "Conceito Quantitativo": [
+      "5MG",
+      "2MG",
+      "50 MCG / DIA"
+    ],
+    "Procedimento Laboratorial": [
+      "TAP",
+      "LAB",
+      "EXAMES"
+    ],
+    "Procedimento Diagnóstico": [
+      "CATE",
+      "CAT",
+      "USG",
+      "EXAMES",
+      "US ABDOME",
+      "ECOCARDIOGRAMA TT"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "INTERNAMENTO",
+      "REALIZADA",
+      "SOLICITO",
+      "PRESCREVO"
+    ],
+    "Processo Neoplásico": [
+      "NODULO",
+      "HPB",
+      "CA",
+      "NODULO PROSTATICO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "VESÍCULA BILIAR COM LAMA BILIAR",
+      "FE 31%",
+      "FEVE 28%",
+      "LESAO 80% TCE DISTAL",
+      "40% CD"
+    ]
+  },
+  "labels": {
+    "2C13.0": {
+      "term_original": "ca",
+      "capitulo": "02",
+      "confidence_embedding": 0.7745,
+      "descricao_cid": "Representação de doença CID-11: Adenocarcinoma da vesícula biliar. Definição: Adenocarcinoma originando-se da vesícula biliar. É o tumor maligno mais comum da vesícula biliar, tipicamente no fundo; geralmente é bem a moderadamente diferenciado. A incidência é maior em pacientes com cálculos biliares do que em pacientes sem cálculos biliares. Sinais e sintomas geralmente se manifestam no final do curso da doença e lembram os da colecistite crônica, incluindo dor no quadrante superior direito. As variantes histológicas incluem adenocarcinoma do tipo intestinal, adenocarcinoma de células claras, adenocarcinoma mucinoso, adenocarcinoma papilar e adenocarcinoma de anel de sinete.",
+      "classification_reasoning": "A descrição do termo 'ca' parece referir-se ao resultado de um exame de USG que menciona uma vesícula biliar com lama biliar e microcálculos, o que é consistente com a descrição do adenocarcinoma da vesícula biliar. Além disso, o paciente tem um nódulo prostático, o que também pode estar relacionado ao câncer de próstata. Por isso, a escolha mais precisa para o termo 'ca' é o Código 2C13.0: Adenocarcinoma da vesícula biliar.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'ca' não se refere diretamente ao adenocarcinoma da vesícula biliar, mas sim a um resultado de exame de USG que menciona uma vesícula biliar com lama biliar e microcálculos. Além disso, o paciente tem um nódulo prostático, o que pode estar relacionado ao câncer de próstata. Portanto, a escolha do código CID-11 2C13.0 não é clínica ou coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GC40.52": {
+      "term_original": "urge incontinencia urinária",
+      "capitulo": "16",
+      "confidence_embedding": 0.8262,
+      "descricao_cid": "Representação de doença CID-11: Incontinência urinária mista associada a prolapso de órgão pélvico. Definição: Condição do sistema urinário, causada por hiperatividade do detrusor e função uretral prejudicada. Esta condição é caracterizada por uma combinação de sintomas de incontinência de esforço e urgência, incluindo perda involuntária de urina, urgência urinária, aumento da frequência urinária ou incontinência urinária ao tossir, rir, espirrar, praticar exercícios ou outras atividades físicas que aumentem a pressão intra-abdominal.",
+      "classification_reasoning": "Escolhi esse código porque o paciente tem urgência incontinência urinária, o que é característico da incontinência urinária mista associada a prolapso de órgão pélvico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A urgência incontinência urinária descrita no prontuário não é suficiente para justificar a classificação de incontinência urinária mista associada a prolapso de órgão pélvico. A falta de informações sobre a anatomia do sistema urinário e a ausência de sintomas específicos de incontinência urinária mista, como perda involuntária de urina ao esforçar-se ou ao tossir, rir, espirrar, praticar exercícios ou outras atividades físicas que aumentem a pressão intra-abdominal, levam-me a concluir que a classificação é excessivamente específica e não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "DD50.2": {
+      "term_original": "fac",
+      "capitulo": "13",
+      "confidence_embedding": 0.7795,
+      "descricao_cid": "Representação de doença CID-11: Hérnia intra-abdominal. Definição: Uma hérnia que ocorre dentro do abdômen através de abertura coberta pelo peritônio.",
+      "classification_reasoning": "A palavra 'FAC' se refere à vesícula biliar, que apresentou lama biliar e micróculos em exame ultrassonográfico (US ABDOME). Além disso, o prontuário menciona que Lucas tem fac em anticoagulação, o que sugere que a doença relacionada à vesícula biliar é mais provável do que outras opções.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'FAC' não se refere a uma doença ou condição clínica, mas sim à vesícula biliar. A justificativa do sistema é baseada em uma interpretação errônea da abreviação 'FAC'. Além disso, o prontuário menciona que Lucas tem fac em anticoagulação, o que sugere que a doença relacionada à anticoagulação é mais provável do que a hérnia intra-abdominal.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MF50.61": {
+      "term_original": "jato miccional fraco",
+      "capitulo": "21",
+      "confidence_embedding": 0.8044,
+      "descricao_cid": "Representação de doença CID-11: jato urinário fraco. Definição: Um jato de urina reduzido, lento ou fraco",
+      "classification_reasoning": "A opção mais precisa é MF50.61, jato urinário fraco, pois o paciente refere-se a 'jato miccional fraco' no seu histórico, indicando reduzida força do jato de urina",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'jato miccional fraco' é diretamente relacionado à condição clínica descrita no prontuário, que refere-se a uma reduzida força do jato de urina. A opção MF50.61, jato urinário fraco, é uma representação fiel da condição clínica descrita e não há contradição óbvia ou associação puramente imaginária.",
+      "tipo_erro_auditoria": null
+    },
+    "DC31.2": {
+      "term_original": "pancretatite biliar",
+      "capitulo": "13",
+      "confidence_embedding": 0.8013,
+      "descricao_cid": "Representação de doença CID-11: Pancreatite aguda biliar. Definição: Pancreatite aguda associada a litíase biliar. Apesar de a litíase biliar ser uma das principais etiologias, o diagnóstico deve ser realizado após a exclusão de outras etiologias. Supõe-se que o refluxo de bile para o ducto pancreático, causado por um cálculo impactado na papila duodenal, seja uma causa disto.",
+      "classification_reasoning": "A presença de vesícula biliar com lama biliar e microcálculos no exame abdominal, associada à história de pancretatite biliar previamente diagnosticada, sugere que a patologia é relacionada à pancreatite aguda biliar (DC31.2)",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de vesícula biliar com lama biliar e microcálculos no exame abdominal, associada à história de pancretatite biliar previamente diagnosticada, sugere que a patologia é relacionada à pancreatite aguda biliar (DC31.2). A codificação CID-11 DC31.2 representa fielmente o termo 'pancretatite biliar' descrito no prontuário e está clinicamente coerente com as informações apresentadas.",
+      "tipo_erro_auditoria": null
+    },
+    "GC40.53": {
+      "term_original": "nodulo prostatico",
+      "capitulo": "16",
+      "confidence_embedding": 0.7753,
+      "descricao_cid": "Representação de doença CID-11: Incontinência por transbordamento associada a prolapso de órgão pélvico. Definição: Condição do sistema urinário, causada pelo esvaziamento incompleto de urina da bexiga e por um músculo detrusor acontrátil. Esta condição é caracterizada por incontinência urinária e perda de urina em pequenos volumes. Essa condição pode estar associada a obstrução, músculos da bexiga enfraquecidos, lesão, uso de medicamentos, diabetes mellitus, dano a nervo ou disfunção do sistema nervoso.",
+      "classification_reasoning": "A escolha do código GC40.53 (Incontinência por transbordamento associada a prolapso de órgão pélvico) é baseada na descrição do paciente apresentando incontinência urinária e perda de urina em pequenos volumes, o que é compatível com a definição desse código. Além disso, a presença de um nodulo prostatico também contribui para essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'nodulo prostatico' não é uma condição de incontinência urinária, mas sim um achado anatômico. A escolha do código GC40.53 (Incontinência por transbordamento associada a prolapso de órgão pélvico) não está clinicamente coerente com o prontuário, pois não há evidências de incontinência urinária ou perda de urina em pequenos volumes. A presença do nodulo prostatico pode estar relacionado à incontinência urinária, mas isso não é suficiente para justificar a escolha desse código.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MP": {
+      "term_original": "mp",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "MP refere-se a doenças cardíacas, específicamente ao Miocardiopatia. Na busca vetorial, encontramos opções relacionadas a doenças cardíacas (BB71, BB62.Z e BB92.Z), mas a escolha mais precisa é MP, que se refere à História de Miocardiopatia",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 como 'MP' é justificada, pois o termo 'mp' no prontuário se refere à História de Miocardiopatia, que é diretamente relacionada à condição clínica do paciente. A escolha da opção MP é precisa e coerente com a descrição do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "DC1Z": {
+      "term_original": "hpb",
+      "capitulo": "13",
+      "confidence_embedding": 0.7785,
+      "descricao_cid": "Representação de doença CID-11: Doenças de vesícula ou trato biliar, não especificadas. Definição: ",
+      "classification_reasoning": "Como o termo 'HBP' está relacionado ao sistema biliar, a opção mais precisa é DC1Z, que se refere às doenças de vesícula ou trato biliar não especificadas. O contexto clínico menciona 'US ABDOME (16/11): VESÍCULA BILIAR COM LAMA BILIAR E MICROCÁLCULOS', o que sugere uma lesão na vesícula biliar, justificando a escolha da opção DC1Z.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 DC1Z 'Doenças de vesícula ou trato biliar, não especificadas' é justificada pelo contexto clínico que menciona 'US ABDOME (16/11): VESÍCULA BILIAR COM LAMA BILIAR E MICROCÁLCULOS', o que sugere uma lesão na vesícula biliar. A abreviação 'HBP' é um termo comum e sinônimo para doenças do sistema biliar, portanto, a codificação é clínica e coerente.",
+      "tipo_erro_auditoria": null
+    },
+    "ME24.35": {
+      "term_original": "nodulo",
+      "capitulo": "21",
+      "confidence_embedding": 0.7679,
+      "descricao_cid": "Representação de doença CID-11: Perfuração da vesícula biliar ou dos ductos biliares. Definição: Perfuração no pequeno órgão que auxilia principalmente na digestão da gordura e concentra a bile produzida pelo fígado e em qualquer uma de várias estruturas semelhantes a tubos longos que transportam a bile.",
+      "classification_reasoning": "A descrição do nódulo prostatático e a presença de vesícula biliar com lama biliar e micrólitos na US abdomen sugerem uma lesão na vesícula biliar, o que é compatível com a representação de doença ME24.35: Perfuração da vesícula biliar ou dos ductos biliares.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do nódulo prostatático não é compatível com a representação de doença ME24.35: Perfuração da vesícula biliar ou dos ductos biliares. A lesão descrita na US abdomen refere-se à vesícula biliar, mas o termo 'nódulo' se refere ao tecido prostatático e não está relacionado a uma lesão na vesícula biliar.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "5A00.20": {
+      "term_original": "hipotireoidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.8266,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo devido a medicamentos ou outras substâncias exógenas. Definição: Condição causada por uma hipofunção da tireoide devido a medicamentos ou outras substâncias exógenas. Essa condição pode se apresentar com fadiga, aumento da sensibilidade ao frio, constipação, pele seca, ganho de peso, fraqueza e dor muscular, aumento de colesterol, dores ou inchaços nas articulações, períodos menstruais mais intensos ou irregulares, enfraquecimento do cabelo, depressão e memória deficiente.",
+      "classification_reasoning": "O hipotireoidismo apresentado pelo paciente é resultado de uso de medicamentos (levotiroxina) e não é congênito, como sugere o código 5A00.03. Além disso, o contexto do prontuário destaca a presença de doenças crônicas, como a fac EM anticoagulação, MP desde 2002 e hipertensão (CATE), o que reforça a escolha do código 5A00.20.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código CID-11 5A00.20 é justificada pelo uso de medicamentos (levotiroxina) que podem ter causado o hipotireoidismo apresentado pelo paciente. O contexto do prontuário não sugere nenhuma outra causa para a doença, como uma condição congênita ou uma doença crônica pré-existente. A lógica clínica é coerente e justificada pela presença de hipotireoidismo relacionado ao uso de medicamentos.",
+      "tipo_erro_auditoria": null
+    },
+    "6C45.3": {
+      "term_original": "depressão",
+      "capitulo": "06",
+      "confidence_embedding": 0.7963,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A opção mais precisa é a intoxicação por cocaína, pois o termo 'depressão' não está relacionado à intoxicação por cafeína ou álcool. A depressão é um sintoma comum em indivíduos que sofrem de doenças psicológicas e/ou psiquiátricas, como a depressão maior. No contexto do prontuário, o termo 'depressão' não se refere à intoxicação por substâncias psicoativas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção de código CID-11 '6C45.3' Representação de doença - Intoxicação por cocaína não é clínica ou lógica para o termo 'depressão'. A depressão é um sintoma psicológico comum, enquanto a intoxicação por cocaína é uma condição aguda e transitória causada pela ingestão de substâncias psicoativas. Não há nenhuma relação clínica ou lógica entre o termo 'depressão' e a intoxicação por cocaína.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

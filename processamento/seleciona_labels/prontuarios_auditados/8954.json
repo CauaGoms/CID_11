@@ -1,0 +1,234 @@
+{
+  "prontuario_id": 274,
+  "text": "Às 18:07h: Paciente orientado, comunicativo, em repouso no leito, afebril, em ar ambiente, AVP em MSE salinizado, com edema de face e hematomas, tala gessada em MSD, fazendo uso de tipóia, aceitando dieta oferecida, diurese presente. Orientado quanto ao jejum a partir das 24h. Aguardando procedimento cirurgico, provável amanhã. Em 26/10/11, 9:20h: Comatosa, pupilas isocóricas fotorreagentes, SNE com dieta Jevity Plus a 75 ml/h, traqueostomizada, 02 em névoa úmida a 1 L/min. Curativo em subclávia D, hematomas em MMSS, curativo em punho E, ausculta pulmonar MV difusos, BCANF, dreno de tórax E com débito seroso, abdômen globoso, flácido, AVP pé D com SF 0,9% a 10 ml/h. Realizado banho no leito, grades e cabeceira elevadas. ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Achado": [
+      "orientado",
+      "comunicativo",
+      "afebril",
+      "traqueostomizada",
+      "flácido",
+      "repouso no leito",
+      "diurese presente",
+      "pupilas isocóricas fotorreagentes",
+      "débito seroso"
+    ],
+    "Sinal ou Sintoma": [
+      "afebril",
+      "hematomas",
+      "Comatosa",
+      "BCANF",
+      "globoso",
+      "edema de face"
+    ],
+    "Negação": [
+      "afebril"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "AVP",
+      "tipóia",
+      "jejum",
+      "SNE",
+      "traqueostomizada",
+      "Curativo",
+      "curativo",
+      "repouso no leito",
+      "tala gessada",
+      "procedimento cirurgico",
+      "02 em névoa úmida",
+      "dreno de tórax",
+      "SF 0 , 9%",
+      "banho no leito",
+      "grades e cabeceira elevadas"
+    ],
+    "Abreviação": [
+      "AVP",
+      "MSE",
+      "MSD",
+      "SNE",
+      "MMSS",
+      "E",
+      "BCANF",
+      "subclávia D",
+      "MV difusos",
+      "pé D",
+      "SF 0 , 9%"
+    ],
+    "Dispositivo Médico": [
+      "AVP",
+      "tipóia",
+      "SNE",
+      "Curativo",
+      "curativo",
+      "tala gessada",
+      "dreno de tórax"
+    ],
+    "Localização ou Região Corporal": [
+      "MSE",
+      "MSD",
+      "MMSS",
+      "abdômen"
+    ],
+    "Conceito Qualitativo": [
+      "salinizado"
+    ],
+    "Conceito Funcional": [
+      "uso"
+    ],
+    "Alimento": [
+      "dieta"
+    ],
+    "Conceito Temporal": [
+      "amanhã"
+    ],
+    "Função Patológica": [
+      "hematomas"
+    ],
+    "Conceito Espacial": [
+      "E"
+    ],
+    "Função Fisiológica": [
+      "diurese presente"
+    ],
+    "Conceito Quantitativo": [
+      "75 ml/h",
+      "1 L/min",
+      "10 ml/h"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "subclávia D",
+      "pé D"
+    ],
+    "Procedimento Diagnóstico": [
+      "ausculta pulmonar"
+    ],
+    "Substância Farmacológica": [
+      "SF 0 , 9%"
+    ]
+  },
+  "labels": {
+    "6E40.2": {
+      "term_original": "orientado",
+      "capitulo": "06",
+      "confidence_embedding": 0.7697,
+      "descricao_cid": "Representação de doença CID-11: Traços de personalidade ou estilos de enfrentamento afetando transtornos ou doenças classificados em outra parte. Definição: Todos os critérios diagnósticos para fatores psicológicos ou comportamentais afetando transtornos ou doenças classificados em outra parte são preenchidos. O indivíduo apresenta traços de personalidade ou estilos de enfrentamento que não preenchem critérios diagnósticos para um transtorno mental, comportamental ou do neurodesenvolvimento, que afetam de forma adversa a manifestação, o tratamento ou curso de um transtorno ou doença classificado em outro capítulo (p.ex., negação patológica da necessidade de cirurgia em um paciente com câncer; comportamento hostil e tenso contribuindo para doença cardíaca).",
+      "classification_reasoning": "O termo 'orientado' não está relacionado a efeitos farmacológicos ou sintomas de intoxicação, mas sim refere-se à capacidade do paciente em compreender e seguir orientações médicas, o que é descrito na descrição da representação de doença CID-11 6E40.2.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'orientado' refere-se à capacidade do paciente em compreender e seguir orientações médicas, o que é descrita na descrição da representação de doença CID-11 6E40.2. A codificação está clínica e coerentemente relacionada ao prontuário, pois o paciente está recebendo cuidados médicos e segue orientações para preparo cirúrgico.",
+      "tipo_erro_auditoria": null
+    },
+    "CB41.1": {
+      "term_original": "débito seroso",
+      "capitulo": "12",
+      "confidence_embedding": 0.8016,
+      "descricao_cid": "Representação de doença CID-11: Insuficiência respiratória crônica. Definição: Na insuficiência respiratória crônica a hipoxemia ocorre ao longo de semanas ou meses (mais de 7 dias) e a insuficiência respiratória se desenvolve mais lentamente e dura mais tempo do que na insuficiência respiratória aguda.",
+      "classification_reasoning": "O termo 'débito seroso' está relacionado ao tratamento de insuficiência respiratória crônica, que é caracterizado por déficit no fluxo expiratório e produção excessiva de líquido pela glândula acessória. Isso justifica a escolha do código CB41.1.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'débito seroso' não representa diretamente a insuficiência respiratória crônica descrita na definição do código CID-11. O débito seroso é um parâmetro de monitoramento da função pulmonar, mas não é uma condição clínica que caracterize a insuficiência respiratória crônica. Portanto, o código CB41.1 não representa fielmente o termo ou a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA90": {
+      "term_original": "flácido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7572,
+      "descricao_cid": "Representação de doença CID-11: Infecção da vértebra. Definição: Afecção da vértebra, causada por infecção bacteriana, viral, fúngica ou parasitária. Geralmente se apresenta com febre, calafrios, cefaleia, perda de peso, mas pode ser assintomática. A confirmação diagnóstica é feita pela identificação do agente infeccioso em amostra de sangue ou por exames de imagem.",
+      "classification_reasoning": "A opção mais precisa é FA90 (Infecção da vértebra) pois o termo 'flácido' descreve a textura do abdômen, que está flácido e sem resistência ao toque. Isso é consistente com a presença de uma infecção ou processo inflamatório que afeta o músculo e a pele.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FA90 (Infecção da vértebra) não é clinicamente coerente com o prontuário. O termo 'flácido' descreve a textura do abdômen, que está flácido e sem resistência ao toque, mas isso não é consistente com a presença de uma infecção ou processo inflamatório que afeta o músculo e a pele. A classificação FA90 é muito geral e não captura a realidade clínica do paciente.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MF95": {
+      "term_original": "bcanf",
+      "capitulo": "21",
+      "confidence_embedding": 0.7619,
+      "descricao_cid": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular.",
+      "classification_reasoning": "A opção mais precisa para o termo 'bcandf' é a Mioglobinúria, pois a presença de mioglobina na urina é comum em situações de lesão muscular aguda ou rabdomiólise. O contexto clínico menciona ausculta pulmonar MV difusos e BCANF, o que sugere uma possível lesão muscular ou distress respiratório.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção de Mioglobinúria (MF95) não é apropriada porque o termo 'bcandf' se refere à ausculta pulmonar MV difusos e BCANF, sugerindo uma possível lesão muscular ou distress respiratório. A Mioglobinúria está relacionada à presença de mioglobina na urina, enquanto o contexto clínico menciona problemas respiratórios. Portanto, a classificação é inapropriada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ED90.0": {
+      "term_original": "edema de face",
+      "capitulo": "14",
+      "confidence_embedding": 0.8284,
+      "descricao_cid": "Representação de doença CID-11: Rosácea. Definição: O termo rosácea engloba um espectro de alterações que ocorrem principalmente na pele facial, mas também podem envolver os olhos. A maioria dos pacientes com rosácea apresenta eritema facial e instabilidade vascular que estão variavelmente associados a pápulas e pústulas inflamatórias, alterações hipertróficas e envolvimento ocular. A causa da rosácea é desconhecida. É questionável que um único fator etiológico seja responsável pelas diversas características que compõem esse transtorno.",
+      "classification_reasoning": "A presença de edema de face e hematomas na pele sugere a possibilidade de rosácea, doença caracterizada por alterações cutâneas faciais com eritema e instabilidade vascular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de edema de face e hematomas na pele pode sugerir uma variedade de condições, incluindo rosácea. No entanto, a falta de informações sobre eritema facial, instabilidade vascular e outras características clínicas da rosácea leva à classificação como overly_generic_entity.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "6C48.2": {
+      "term_original": "comunicativo",
+      "capitulo": "06",
+      "confidence_embedding": 0.7922,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais.",
+      "classification_reasoning": "O termo 'comunicativo' sugere que o paciente está consciente e capaz de comunicação, o que é compatível com a definição de intoxicação por cafeína (CID-11 6C48.2). Além disso, outros termos presentes no contexto clínico, como 'orientado', 'aceitando dieta oferecida' e 'fazendo uso de tipóia', também são consistentes com essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A definição do código CID-11 6C48.2 refere-se a uma condição transitória clinicamente significativa causada pela cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. No entanto, o termo 'comunicativo' presente no prontuário não se refere a essas características específicas da intoxicação por cafeína. Além disso, outros termos presentes no contexto clínico, como 'orientado', 'aceitando dieta oferecida' e 'fazendo uso de tipóia', também são inconsistentes com essa escolha.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MC20.2": {
+      "term_original": "globoso",
+      "capitulo": "21",
+      "confidence_embedding": 0.7498,
+      "descricao_cid": "Representação de doença CID-11: Hipópio. Definição: Hipópio é a presença de células inflamatórias na câmara anterior do olho. Corresponde a um exsudato leucocitário, observado na câmara anterior, geralmente acompanhado de hiperemia de conjuntiva e episclera subjacente. É um sinal de inflamação da úvea anterior e da íris, ou seja, irite, que é uma forma de uveíte anterior. O exsudado deposita-se no fundo devido à ação da gravidade.",
+      "classification_reasoning": "A opção mais precisa para o termo 'globoso' dentro do contexto clínico é a hipópio (Código MC20.2), pois está relacionado à descrição de doença CID-11 que menciona a presença de células inflamatórias na câmara anterior do olho, caracterizando um sinal de inflamação da úvea anterior e da íris.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário refere-se ao abdômen como 'globoso', o que não está relacionado à hipópio (Código MC20.2), que é uma condição específica da câmara anterior do olho. A opção mais precisa para o termo 'globoso' dentro do contexto clínico é a descrição de um abdômen flácido, que não está relacionado à hipópio.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "Z93.9": {
+      "term_original": "repouso no leito",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é o termo 'repouso no leito', que se refere à situação do paciente, sendo um paciente hospitalizado em repouso, e não a qualquer uma das opções sugeridas",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'repouso no leito' é uma descrição clara e precisa da situação do paciente, que está hospitalizado em repouso. A opção CID-11 Z93.9, 'Reposição', é a mais adequada para representar essa condição clínica.",
+      "tipo_erro_auditoria": null
+    },
+    "CB21.1": {
+      "term_original": "traqueostomizada",
+      "capitulo": "12",
+      "confidence_embedding": 0.7779,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A palavra 'traqueostomizada' indica que o paciente tem uma tubo traqueostomia, o que é característico de um pneumotórax espontâneo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'traqueostomizada' não está relacionada a um pneumotórax espontâneo. A traqueostomia é uma intervenção cirúrgica realizada para facilitar a ventilação do paciente, e não tem relação com o tipo de pneumotórax descrito no prontuário. O código CID-11 CB21.1 não representa fielmente o termo ou condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B10.0": {
+      "term_original": "pupilas isocóricas fotorreagentes",
+      "capitulo": "08",
+      "confidence_embedding": 0.7565,
+      "descricao_cid": "Representação de doença CID-11: Amaurose fugaz. Definição: Um episódio transitório de disfunção visual aguda causada por isquemia retiniana. Os sintomas devem desaparecer completamente em 24 horas.",
+      "classification_reasoning": "A descrição 'pupilas isocóricas fotorreagentes' sugere uma resposta ao estímulo luminoso igual em ambos os olhos, o que é característico de um ataque isquêmico transitório (AMA). Além disso, o contexto clínico menciona a paciente como 'comatosa', o que reforça a hipótese de uma doença neurológica aguda.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição 'pupilas isocóricas fotorreagentes' sugere uma resposta ao estímulo luminoso igual em ambos os olhos, o que é característico de um ataque isquêmico transitório (AMA). No entanto, a paciente está comatosa e apresenta sintomas neurológicos agudos, como edema facial e hematomas. A condição descrita não se encaixa com a definição do código CID-11 8B10.0, que refere-se a uma doença visual aguda causada por isquemia retiniana. Portanto, o código atribuído é inapropriado e deve ser removido.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B24": {
+      "term_original": "comatosa",
+      "capitulo": "08",
+      "confidence_embedding": 0.7846,
+      "descricao_cid": "Representação de doença CID-11: Encefalopatia hipóxico-isquêmica. Definição: Dano cerebral devido à hipóxia-isquemia: o termo anterior \"Dano cerebral anóxico\" foi alterado. O novo termo é agora amplamente aceito e descreve melhor a fisiopatologia, ou seja, a combinação de isquemia cerebral global transitória completa e incompleta juntamente com uma combinação de anóxia e hipóxia. Em um paciente sobrevivente, a encefalopatia anóxica pura é muito incomum.",
+      "classification_reasoning": "A opção mais precisa para o termo 'comatosa' é a encefalopatia hipóxico-isquêmica (Código 8B24), pois a paciente está descrita como comatosos e sem febre, o que é consistente com uma lesão cerebral severa causada por hipóxia-isquemia.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'comatosa' é a encefalopatia hipóxico-isquêmica (Código 8B24), pois a paciente está descrita como comatosos e sem febre, o que é consistente com uma lesão cerebral severa causada por hipóxia-isquemia. A justificativa do sistema também concorda com essa opção.",
+      "tipo_erro_auditoria": null
+    },
+    "EB31": {
+      "term_original": "hematomas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7981,
+      "descricao_cid": "Representação de doença CID-11: Eritema nodoso. Definição: Erupção eritematosa comumente associada a reações a medicamentos ou infecção e caracterizada por nódulos inflamatórios que geralmente são dolorosos, múltiplos e bilaterais. Esses nódulos localizam-se predominantemente na face anterior das pernas, com ocorrência menos comum nas coxas e antebraços. Eles sofrem mudanças de cor características que terminam em áreas temporárias semelhantes a hematomas. Esta condição geralmente desaparece em 3-6 semanas sem cicatriz ou atrofia.",
+      "classification_reasoning": "A presença de hematomas mencionados no contexto clínico sugere a possibilidade de eritema nodoso, uma condição caracterizada por nódulos inflamatórios dolorosos que podem apresentar mudanças de cor características terminando em áreas semelhantes a hematomas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de hematomas no prontuário não é suficiente para justificar a condição de eritema nodoso. Embora os nódulos inflamatórios possam apresentar mudanças de cor características terminando em áreas semelhantes a hematomas, a descrição do código CID-11 refere-se especificamente a uma erupção eritematosa com nódulos dolorosos e múltiplos. A falta de informações sobre dor, tamanho e localização dos nódulos inflamatórios impede a confirmação da condição de eritema nodoso.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

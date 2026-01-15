@@ -1,0 +1,87 @@
+{
+  "prontuario_id": 379,
+  "text": "PACIENTE TRANSPLANTADO RENAL (2004).\n\nQP: \nHEMORROIDAS (2012).\n\nAVALIAÇÃO SOLICITADA PELO SERVIÇO DE NEFROLOGIA.\n\nHDA: \nPACIENTE ALEGA SANGRAMENTO NAS FEZES, ULTIMO EPISODIO 4 / FEVEREIRO. \nNEGA DOR EM REGIÃO ANAL.\nNEGA NECESSIDADE DE MANOBRA DE REDUÇÃO DA HEMORROIDA.\n \n \nCOLONOSCOPIA 2012.\nTTO CLINICO.\nOLEO MINERAL.\nMETAMUCIL.\n (SEM AINES DEVIDO AO TRANSPLANTE RENAL).\n\nRETORNO EM 2 MESES.",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Achado": [
+      "QP",
+      "HDA",
+      "TRANSPLANTADO RENAL"
+    ],
+    "Abreviação": [
+      "QP",
+      "HDA",
+      "AINES",
+      "TTO CLINICO"
+    ],
+    "Doença ou Síndrome": [
+      "HEMORROIDAS"
+    ],
+    "Negação": [
+      "NEGA",
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR",
+      "SANGRAMENTO NAS FEZES"
+    ],
+    "Procedimento Diagnóstico": [
+      "COLONOSCOPIA"
+    ],
+    "Substância Farmacológica": [
+      "METAMUCIL",
+      "AINES",
+      "OLEO MINERAL"
+    ],
+    "Substância Química Orgânica": [
+      "METAMUCIL",
+      "AINES",
+      "OLEO MINERAL"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "AVALIAÇÃO SOLICITADA"
+    ],
+    "Localização ou Região Corporal": [
+      "REGIÃO ANAL"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "MANOBRA DE REDUÇÃO DA HEMORROIDA",
+      "TTO CLINICO",
+      "TRANSPLANTE RENAL"
+    ]
+  },
+  "labels": {
+    "DB60.0": {
+      "term_original": "sangramento nas fezes",
+      "capitulo": "13",
+      "confidence_embedding": 0.7173,
+      "descricao_cid": "Representação de doença CID-11: Hemorroidas de primeiro grau. Definição: (grau I): as hemorroidas de primeiro grau se projetam para o canal anal e às vezes sangram, mas não prolapsam pelo ânus.",
+      "classification_reasoning": "A avaliação do paciente refere sangramento nas fezes, e o sintoma de hemorragia associado às hemorroidas (2012) é mais consistente com a escolha do código DB60.0 (Hemorroidas de primeiro grau), que incluem sangramento como um dos seus sintomas.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código DB60.0 (Hemorroidas de primeiro grau) é justificada pela presença de sangramento nas fezes, sintoma associado às hemorroidas descritas no prontuário. A avaliação do paciente refere sangramento nas fezes e não há contradição óbvia ou falta de base para a escolha desse código.",
+      "tipo_erro_auditoria": null
+    },
+    "GB50": {
+      "term_original": "transplantado renal",
+      "capitulo": "16",
+      "confidence_embedding": 0.7215,
+      "descricao_cid": "Representação de doença CID-11: Nefrite túbulo-intersticial aguda. Definição: Doença caracterizada por inflamação aguda dos, e dano aos, túbulos e interstício renal, geralmente acompanhada por insuficiência renal aguda (lesão renal aguda). A histologia mostra infiltrado inflamatório agudo no interstício com edema e necrose de células tubulares, e frequentemente eosinófilos e plasmócitos proeminentes. Geralmente devida a uma reação alérgica ou imunológica a um alérgeno identificável. Geralmente acompanhada por insuficiência renal aguda, que pode ser reversível se o alérgeno for retirado rapidamente com ou sem administração de corticosteroides. Pode causar nefrite tubulointersticial crônica, particularmente se a exposição ao alérgeno não for de curto prazo. Pode estar associada a outros sinais de uma reação alérgica, como erupção cutânea ou febre.",
+      "classification_reasoning": "A opção mais precisa é a nefrite túbulo-intersticial aguda, pois o paciente apresenta sangramento nas fezes, que pode ser um sintoma de lesão renal aguda. Além disso, o paciente é transplantado renal, o que aumenta a probabilidade da doença renal aguda.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 atribuído (GB50) representa nefrite túbulo-intersticial aguda, que não é diretamente relacionada ao termo 'transplantado renal' no prontuário. Embora o paciente seja transplantado renal e apresente sangramento nas fezes, que pode ser um sintoma de lesão renal aguda, a opção mais precisa seria uma codificação relacionada à doença renal pós-transplante, como a nefropatia crônica pós-transplante (K51.3). A opção atual é demasiado geral e não captura a especificidade da situação do paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.21": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.6897,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática.",
+      "classification_reasoning": "A dor mencionada pelo paciente não é associada à região anal, o que exclui opções como Cólica renal (MF56) e Hipoplasia renal (MF54.2). Além disso, a dor pós-operatória crônica (MG30.21) é mais provável devido ao transplante renal do paciente em 2004.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor mencionada pelo paciente não está relacionada ao transplante renal, pois é descrita como sangramento nas fezes e nega dor em região anal. Além disso, a descrição da dor pós-operatória crônica (MG30.21) se refere à dor localizada no local da cirurgia ou projetada no território de inervação de um nervo situado nesta área, o que não é aplicável ao caso do paciente. Portanto, a classificação MG30.21 não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

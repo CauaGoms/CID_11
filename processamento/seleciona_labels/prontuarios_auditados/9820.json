@@ -1,0 +1,275 @@
+{
+  "prontuario_id": 730,
+  "text": "PACIENTE RECEBIDO NA UTI COM HISTÓRIA DE ERISIPELA EM MID, COM FERIDA APRESENTANDO GANGRENA E INFECÇÃO, ALÉM DE PERDA DA SENSIBILIDADE, TEMPERATURA E MOVIMENTO.  AOR RECEBIMENTO: ACORDADO, VERBALIZANDO, COMUNICATIVO, NEGA DORES NO MOMENTO. PUPILAS ISOCORICAS, FOTORREAGENTES. PELE NORMOCORADA, AFEBRIL, PREENCHIMENTO CAPILAR SATISFATÓRIO. JUGULARES ENGURGITADAS. MONITORIZADO, NORMOCARDICO, HIPERTENSO, EUPNEICO EM AR AMBIENTE COM SATURAÇÃO PERIFÉRICA DE 97%, EXPANSIBILIDADE PULMONAR SATISFATÓRIA, MV+, SONS CLARO PULMONARES. ABDOME GLOBOSO, SEM PRESENÇA DE MASSAS PALPAVEIS, EVACUAÇÕES AUSENTES NO PERÍODO. DIURESE ESPONTÂNEA, SEM DÉBITO NO MOMENTO. MMII COM EDEMAS, CACIFO +++/4, FERIDA EM MID DE INICIO NA PORÇÃO DE CALCANEO ESTENDENDO-SE ATÉ A PORÇÃO MEDIAL DA TIBIA ANTEROLATERO POSTERIOR, FERIDA COM PONTOS DE TECIDO DESVITALIZADOS , PAPULAS PURULENTAS. AGUARDANDO DISCUSSÃO MÉDICA EM RELAÇÃO AO TRATAMENTO.  EM ACOMPANHAMENTO PELA CARDIOLOGIA, INFECTOLOGIA E CX VASCULAR.  EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO.",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "RECEBIDO",
+      "MONITORIZADO",
+      "ACOMPANHAMENTO",
+      "DISCUSSÃO MÉDICA",
+      "EXAME GERAL"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UTI",
+      "CARDIOLOGIA",
+      "INFECTOLOGIA",
+      "CX VASCULAR"
+    ],
+    "Abreviação": [
+      "UTI",
+      "MID",
+      "MV+",
+      "MMII",
+      "CX VASCULAR"
+    ],
+    "Doença ou Síndrome": [
+      "ERISIPELA",
+      "DIAGNOSTICO RELATADO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MID",
+      "PUPILAS",
+      "ABDOME",
+      "MMII"
+    ],
+    "Lesão ou Envenenamento": [
+      "FERIDA"
+    ],
+    "Sinal ou Sintoma": [
+      "GANGRENA",
+      "DORES",
+      "AFEBRIL",
+      "HIPERTENSO",
+      "EDEMAS",
+      "QUEIXAS",
+      "JUGULARES ENGURGITADAS",
+      "MASSAS PALPAVEIS",
+      "TECIDO DESVITALIZADOS",
+      "PAPULAS PURULENTAS"
+    ],
+    "Função Patológica": [
+      "INFECÇÃO"
+    ],
+    "Negação": [
+      "PERDA",
+      "NEGA",
+      "AFEBRIL",
+      "SEM",
+      "AUSENTES"
+    ],
+    "Achado": [
+      "SENSIBILIDADE",
+      "TEMPERATURA",
+      "MOVIMENTO",
+      "ACORDADO",
+      "VERBALIZANDO",
+      "COMUNICATIVO",
+      "ISOCORICAS",
+      "FOTORREAGENTES",
+      "NORMOCARDICO",
+      "MV+",
+      "GLOBOSO",
+      "PELE NORMOCORADA",
+      "PREENCHIMENTO CAPILAR SATISFATÓRIO",
+      "EUPNEICO EM AR AMBIENTE",
+      "EXPANSIBILIDADE PULMONAR SATISFATÓRIA",
+      "SONS CLARO PULMONARES",
+      "DIURESE ESPONTÂNEA"
+    ],
+    "Conceito Quantitativo": [
+      "97%"
+    ],
+    "Função de Organismo": [
+      "EVACUAÇÕES",
+      "DÉBITO",
+      "DIURESE ESPONTÂNEA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TRATAMENTO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "CARDIOLOGIA",
+      "INFECTOLOGIA",
+      "CX VASCULAR"
+    ],
+    "Conceito Temporal": [
+      "NO MOMENTO",
+      "NO PERÍODO"
+    ],
+    "Atributo Clínico": [
+      "SATURAÇÃO PERIFÉRICA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CACIFO +++/4"
+    ],
+    "Localização ou Região Corporal": [
+      "PORÇÃO DE CALCANEO",
+      "PORÇÃO MEDIAL DA TIBIA ANTEROLATERO POSTERIOR"
+    ],
+    "Procedimento Diagnóstico": [
+      "INVESTIGACAO DE PESSOAS"
+    ]
+  },
+  "labels": {
+    "NB90.Y": {
+      "term_original": "massas palpaveis",
+      "capitulo": "22",
+      "confidence_embedding": 0.7115,
+      "descricao_cid": "Representação de doença CID-11: Lesão de outros vasos sanguíneos especificados ao nível do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'massas palpaveis' é a lesão de outros vasos sanguíneos especificados ao nível do abdome, região lombar ou pelve. Isso porque a descrição da ferida menciona uma lesão na porção medial da tibia anterolateral posterior, o que sugere uma lesão específica em um vaso sanguíneo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição da ferida menciona uma lesão específica na porção medial da tibia anterolateral posterior, o que não se encaixa com a definição do código CID-11 'NB90.Y', que refere-se a lesões de outros vasos sanguíneos especificados ao nível do abdome, região lombar ou pelve. A opção mais precisa para o termo 'massas palpaveis' é uma lesão específica em um vaso sanguíneo, não uma lesão abdominal ou lombar.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "EE20": {
+      "term_original": "tecido desvitalizados",
+      "capitulo": "14",
+      "confidence_embedding": 0.7542,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de distensão cutânea aguda. Definição: Sequela comum de edema agudo, especialmente das extremidades inferiores. Manifesta-se como bolhas, que podem ser confundidas com uma doença imunobolhosa (bolhas de edema agudo); ou como fissura e inflamação superficiais da pele (eczema craquelê).",
+      "classification_reasoning": "A opção mais precisa é a síndrome de distensão cutânea aguda (Código EE20), pois o termo 'tecido desvitalizados' sugere lesões superficiais da pele com edema e inflamação, como descritas na definição da síndrome.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção EE20 não é adequada porque o termo 'tecido desvitalizados' refere-se a lesões profundas e gangrenosas, enquanto a síndrome de distensão cutânea aguda (EE20) se refere a lesões superficiais da pele com edema e inflamação. A descrição do prontuário não apresenta características clínicas que justifiquem a escolha desse código.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BB03.0": {
+      "term_original": "sons claro pulmonares",
+      "capitulo": "11",
+      "confidence_embedding": 0.7835,
+      "descricao_cid": "Representação de doença CID-11: Obstrução venosa pulmonar adquirida. Definição: Condição patológica pós-natal de uma ou mais veias pulmonares em que o fluxo é impedido ou bloqueado devido a estreitamento ou atresia.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sons claro pulmonares' é a obstrução venosa pulmonar adquirida, que pode causar alterações no som respiratório e outros sintomas relacionados ao pulmão.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BB03.0 não é adequada porque a obstrução venosa pulmonar adquirida não está claramente relacionada ao termo 'sons claro pulmonares'. A descrição do código CID-11 não apresenta nenhuma conexão lógica com o prontuário, que apenas registra a presença de sons pulmonares normais. Além disso, a justificativa do sistema é baseada em uma suposição sem fundamento no texto.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "8A63.0": {
+      "term_original": "isocoricas",
+      "capitulo": "08",
+      "confidence_embedding": 0.7182,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica febril. Definição: Convulsões associadas a um aumento da temperatura corporal na ausência de infecção intracraniana, distúrbio metabólico ou história de crises epilépticas afebris. Ocorrem mais comumente em crianças com idades entre 6 meses e 5 anos.",
+      "classification_reasoning": "O termo 'isocoricas' refere-se às pupilas isocóricas descritas no prontuário, o que sugere a presença de uma crise epiléptica febril (Código CID-11: 8A63.0)",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'isocoricas' refere-se às pupilas isocóricas descritas no prontuário, o que não está relacionado à crise epiléptica febril (Código CID-11: 8A63.0). A descrição do código CID-11 não se aplica ao termo 'isocoricas', pois a crise epiléptica febril é uma condição clínica que envolve convulsões associadas a um aumento da temperatura corporal, e não está relacionada às pupilas isocóricas.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB21.1": {
+      "term_original": "expansibilidade pulmonar satisfatória",
+      "capitulo": "12",
+      "confidence_embedding": 0.7791,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A expansibilidade pulmonar satisfatória é um indicador de que os pulmões estão funcionando adequadamente, o que não sugere a presença de doenças pulmonares obstrutivas crônicas ou fibrose pulmonar. Além disso, a presença de gangrena e infecção em uma ferida apre sentando perda de sensibilidade, temperatura e movimento é mais compatível com um quadro de sepsis secundária a lesão traumática do que com uma doença pulmonar.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A expansibilidade pulmonar satisfatória não é um indicador específico de doença pulmonar, e o prontuário apresenta outras condições clínicas mais relevantes, como a gangrena e infecção em uma ferida apre sentando perda de sensibilidade, temperatura e movimento. O código CID-11 atribuído não está clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "1D03": {
+      "term_original": "infecção",
+      "capitulo": "01",
+      "confidence_embedding": 0.7748,
+      "descricao_cid": "Representação de doença CID-11: Abscesso infeccioso do sistema nervoso central. Definição: Processo supurativo focal do parênquima cerebral, do espaço epidural ou subdural intracraniano ou espinal e, menos comumente, do parênquima da medula espinal. O processo supurativo é mais comumente associado à infecção bacteriana e, ocasionalmente, à infecção fúngica, protozoária ou parasitária. Os abscessos cerebrais se desenvolvem mais comumente por disseminação a partir de um local infectado contíguo (ouvido, seios paranasais, células aéreas da mastoide, dentes), osteomielite craniofacial e após traumatismo cranioencefálico aberto ou procedimento neurocirúrgico prévio. A disseminação hematogênica de infecções pulmonares purulentas, endocardite bacteriana ou outros locais de infecção também pode causar abscesso cerebral. Pacientes com abscesso intracraniano apresentam combinações variáveis ​​de cefaleia, estado mental alterado, déficits focais e convulsões. Febre pode estar presente. Pacientes com abscesso intraespinal apresentam graus variáveis ​​de paraparesia ou quadriparesia, comprometimento sensorial abaixo do nível da lesão, função esfincteriana alterada e dor nas costas. O diagnóstico é feito por tomografia computadorizada ou ressonância nuclear magnética e pode ser confirmado por exame histológico e cultura do material do abscesso após drenagem neurocirúrgica. A punção lombar geralmente é contraindicada.",
+      "classification_reasoning": "A escolha pelo código 1D03 é justificada porque o termo 'infecção' está presente na descrição, que refere-se a um processo supurativo focal do parênquima cerebral, do espaço epidural ou subdural intracraniano ou espinal, causado por infecção bacteriana e/ou outros tipos de infecções.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'infecção' é muito amplo e não se refere especificamente a um processo supurativo focal do parênquima cerebral, do espaço epidural ou subdural intracraniano ou espinal. A descrição do prontuário apresenta uma ferida em mid com gangrena e infecção, mas não há evidência de abscesso infeccioso do sistema nervoso central. Portanto, o código CID-11 1D03 não é clinicamente coerente com a descrição do prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "BD54": {
+      "term_original": "mv+",
+      "capitulo": "11",
+      "confidence_embedding": 0.7463,
+      "descricao_cid": "Representação de doença CID-11: Úlcera de pé diabético. Definição: Úlceras crônicas nos pés ocorrem em até 15–25% dos pacientes diabéticos. A etiologia subjacente é uma combinação de sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Cuidado inadequado com os pés, estrutura anormal do pé ou sapatos mal ajustados aumentam o risco de úlceras nos pés diabéticos. As úlceras tipicamente ocorrem em áreas de pressão plantar aumentada, especialmente embaixo das cabeças dos metatarsos.",
+      "classification_reasoning": "A opção BD54 se refere a Úlcera de pé diabético, que inclui características como úlceras crônicas nos pés, sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. Considerando a descrição da ferida no texto, com características de úlcera crônica e gangrena, a opção BD54 é mais precisa para o termo 'mv+'.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BD54 se refere a Úlcera de pé diabético, que inclui características como úlceras crônicas nos pés, sensibilidade alterada por neuropatia diabética e perfusão comprometida por vasculopatia diabética. No entanto, o termo 'mv+' não apresenta essas características clínicas específicas da úlcera de pé diabético. Além disso, a descrição da ferida no prontuário não menciona diabetes ou neuropatia diabética. Portanto, a opção BD54 não representa fielmente o termo 'mv+' e é um código CID-11 errado.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EC90.10": {
+      "term_original": "papulas purulentas",
+      "capitulo": "14",
+      "confidence_embedding": 0.767,
+      "descricao_cid": "Representação de doença CID-11: Prurido urêmico. Definição: Prurido em pacientes com insuficiência renal crônica. Embora comum na doença renal crônica não tratada, é particularmente prevalente em pacientes que submetidos a diálise peritoneal ou hemodiálise. O prurido não se deve a níveis elevados de ureia sérica. Os mecanismos precisos não são totalmente compreendidos.",
+      "classification_reasoning": "A opção EC90.10 é a mais precisa para o termo 'papulas purulentas' porque prurido urêmico é uma condição comum em pacientes com insuficiência renal crônica, caracterizada por pápulas eritematosas e pústulas estéreis afetando a pele. A descrição da EC90.10 se alinha melhor com o contexto clínico do paciente apresentando gangrena e infecção em uma ferida aparentemente crônica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção EC90.10 não representa fielmente o termo 'papulas purulentas' descrito no prontuário, pois prurido urêmico é uma condição caracterizada por pápulas eritematosas e pústulas estéreis afetando a pele, enquanto as papulas purulentas descritas no prontuário são provavelmente resultado de infecção em ferida. A descrição da EC90.10 não se alinha com o contexto clínico do paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB21.0": {
+      "term_original": "eupneico em ar ambiente",
+      "capitulo": "12",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'eupneico em ar ambiente' indica que o paciente está com respiração normal e livre de sintomas respiratórios agudos, o que é consistente com a definição do pneumotórax como uma coleção anormal de ar no espaço pleural.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'eupneico em ar ambiente' não está diretamente relacionado à condição clínica descrita no prontuário, que é a erisipela com gangrena e infecção. A definição do pneumotórax mencionada na justificativa do sistema não se aplica ao caso do paciente. Portanto, o código CID-11 atribuído (CB21.0) não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "8B00.4": {
+      "term_original": "jugulares engurgitadas",
+      "capitulo": "08",
+      "confidence_embedding": 0.7019,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia intraventricular sem hemorragia parenquimatosa. Definição: Disfunção neurológica aguda causada por hemorragia no sistema ventricular, sem um componente de hemorragia parenquimatosa.",
+      "classification_reasoning": "A opção mais precisa para o termo 'jugulares engurgitadas' é a Código CID-11: Hemorragia intraventricular sem hemorragia parenquimatosa (8B00.4). Isso porque a descrição do paciente menciona gangrena e infecção, sugerindo uma possibilidade de hemorragia intracraniana ou vascular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção 8B00.4 não representa fielmente o termo 'jugulares engurgitadas', que sugere uma condição de infecção ou lesão vascular, enquanto o código CID-11 refere-se a hemorragia intraventricular sem hemorragia parenquimatosa, que é um tipo de lesão cerebral. A falta de relação entre as duas condições justifica a remoção do código.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A78.20": {
+      "term_original": "fotorreagentes",
+      "capitulo": "09",
+      "confidence_embedding": 0.7269,
+      "descricao_cid": "Representação de doença CID-11: Ceratopatia bolhosa. Definição: Trata-se do estágio máximo do edema corneano.\r\n\r\nÉ uma condição patológica em que pequenas vesículas, ou bolhas, são formadas na córnea devido à disfunção endotelial. Em uma córnea saudável, as células endoteliais impedem o tecido de absorver fluido em excesso, bombeando-o de volta para o humor aquoso. Quando afetadas por algum motivo, como distrofia de Fuchs ou trauma durante a remoção da catarata, as células endoteliais sofrem danos ou morrem. As células endoteliais da córnea normalmente não sofrem divisão celular mitótica e a perda celular resulta em perda permanente da função.",
+      "classification_reasoning": "O termo 'fotorreagentes' se refere à presença de edema corneano, caracterizando a ceratopatia bolhosa (Código 9A78.20).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'fotorreagentes' não se refere à ceratopatia bolhosa, mas sim a uma condição clínica relacionada à presença de edema corneano. A descrição do código CID-11 (9A78.20) não condiz com o prontuário, pois a ceratopatia bolhosa é um tipo de doença da córnea e não está relacionada ao termo 'fotorreagentes'. Além disso, o prontuário não apresenta qualquer indício de edema corneano ou lesão na córnea.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA01": {
+      "term_original": "normocardico",
+      "capitulo": "11",
+      "confidence_embedding": 0.7607,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A normocardia descrita no prontuário indica ausência de doença cardíaca hipertensiva, o que torna mais provável a presença de hipotensão relacionada à perda de sangue e infecção em consequência da erisipela.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A normocardia descrita no prontuário não está relacionada à doença cardíaca hipertensiva, que é o termo mapeado para o código CID-11 BA01. A normocardia refere-se à ausência de doença cardíaca hipertensiva, enquanto a erisipela e a infecção são problemas que não estão relacionados à doença cardíaca hipertensiva. Portanto, o código CID-11 BA01 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EB21": {
+      "term_original": "gangrena",
+      "capitulo": "14",
+      "confidence_embedding": 0.7709,
+      "descricao_cid": "Representação de doença CID-11: Pioderma gangrenoso. Definição: Doença idiopática, de rápida evolução e gravemente debilitante, que ocorre mais comumente em associação com colite ulcerativa crônica. Caracteriza-se pela presença de úlceras arroxeadas encharcadas, com bordas solapadas, aparecendo principalmente nas pernas. A maioria dos casos ocorre em pessoas entre 40 e 60 anos. Sua etiologia é desconhecida.",
+      "classification_reasoning": "A gangrena descrita no prontuário é caracterizada por úlceras arroxeadas encharcadas, com bordos solapados, aparecendo principalmente nas pernas, o que se ajusta à definição do pioderma gangrenoso (EB21)",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A gangrena descrita no prontuário apresenta características de úlceras arroxeadas encharcadas, com bordos solapados, aparecendo principalmente nas pernas. No entanto, a definição do pioderma gangrenoso (EB21) refere-se a doença idiopática que ocorre mais comumente em associação com colite ulcerativa crônica e apresenta úlceras arroxeadas encharcadas nas pernas. A gangrena descrita no prontuário não se ajusta à definição do pioderma gangrenoso, pois a ferida está localizada na porção medial da tibia anterolateral posterior, o que não é compatível com a descrição de úlceras arroxeadas encharcadas nas pernas.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "BA03": {
+      "term_original": "hipertenso",
+      "capitulo": "11",
+      "confidence_embedding": 0.748,
+      "descricao_cid": "Representação de doença CID-11: Crise hipertensiva. Definição: ",
+      "classification_reasoning": "A hipertenso mencionada no contexto clínico refere-se à crise de hipertensão, que é uma manifestação súbita e grave de hipertensão arterial, caracterizada por pressão arterial elevada e outros sintomas. Esta opção é a mais precisa para o termo 'hipertenso' dentro do contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipertenso mencionada no prontuário refere-se à hipertensão como um estado patológico, e não uma crise hipertensiva. O código CID-11 BA03 'Representação de doença: Crise hipertensiva' não representa fielmente o termo 'hipertenso' descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB32.20": {
+      "term_original": "globoso",
+      "capitulo": "15",
+      "confidence_embedding": 0.7258,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A opção mais precisa para o termo 'globoso' é a Rabdomiólise idiopática (Código: FB32.20), pois o termo 'globoso' se refere à forma com que os músculos são representados em radiografias, e a rabdomiólise idiopática apresenta lesão muscular massiva e caracteriza-se pela expansividade dos músculos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção do sistema é muito genérica e não se refere à descrição do prontuário. A abordagem 'globoso' no prontuário se refere ao abdome, enquanto a rabdomiólise idiopática (Código: FB32.20) é uma lesão muscular massiva e não tem relação com o termo 'globoso'. Portanto, a classificação é inapropriada e deve ser removida.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "1B70.01": {
+      "term_original": "erisipela",
+      "capitulo": "01",
+      "confidence_embedding": 0.735,
+      "descricao_cid": "Representação de doença CID-11: Erisipela da orelha externa. Definição: Infecção estreptocócica dérmica superficial difusa de rápida disseminação envolvendo a orelha externa. Em contraste com a otite externa infecciosa, a pele da orelha é muitas vezes inicialmente saudável, exceto em um ponto de entrada para estreptococos beta-hemolíticos (comumente em uma fissura atrás da orelha ou onde o lóbulo da orelha está ligado ao lado da cabeça) e características sistêmicas, incluindo febre e mal-estar, são comuns.",
+      "classification_reasoning": "A opção mais precisa é a 1B70.01, Erisipela da orelha externa, pois o termo 'erisipela' está presente no contexto clínico e se refere à doença descrita.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'erisipela' no prontuário se refere a uma infecção cutânea com gangrena e perda de sensibilidade, enquanto o código CID-11 1B70.01 se refere especificamente à erisipela da orelha externa. A falta de relação entre as características clínicas descritas no prontuário e a definição do código CID-11 justifica a remoção do código atribuído.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

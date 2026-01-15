@@ -1,0 +1,131 @@
+{
+  "prontuario_id": 820,
+  "text": "# Lucas, 80 anos\n# HAS / HIPOTIREOIDISMO\n# PCTE EM ACOMPANHAMENTO POR QUADRO DE TINEA PEDIS + ONICOMICOSE\n   - EM USO DE URÉIA 40% NAS UNHAS E FENTIZOL CREME NOS PÉS\n** NAO TROUXE EXAMES LAB ***\n# PCTE NEGA MELHORA DO QUADRO. \n   REFERE SURGIMENTO DE LESÕES HIPOCRÔMICAS EM MMSS E DORSO, COM DESCAMAÇÃO FINA SUPERFICIAL. \n# AO EXAME:\nDESCAMAÇÃO SUPERFICIAL COURO CABELUDO\nMÁCULAS HIPOCRÔMICAS EM DORSO E MMSS, COM DESCAMAÇÃO SUPERFICIAL. ZILERI POSITIVO\nDESCAMAÇÃO PLANTAR E MACERAÇÃO INTERDIGITAL BILATERAL\nHIPERCERATOSE UNGUEAL, ONICODISTROFIA, ONICOLISE DISTAL, UNHAS AMARELADAS\n# A: PTIRIASE VERSICOLOR\n   TINEA PEDIS + ONICOMICOSE\n# P: CETOCONAZOL 2% SHAMPOO + ICADEN SPRAY PARA PV\n  UREIA 35% + AC SALICILICO 2% + CREME 50GR NAS UNHAS\n  CETOC 2% + MANT KARITE + UREIA 10% EM CREME PARA OS PÉS\n  RET EM 3 MESES COM LAB. \n\n \n \n \n ",
+  "entities": {
+    "Doença ou Síndrome": [
+      "HIPOTIREOIDISMO",
+      "HIPERCERATOSE",
+      "ONICODISTROFIA"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PCTE"
+    ],
+    "Abreviação": [
+      "PCTE",
+      "MMSS",
+      "AC SALICILICO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ACOMPANHAMENTO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PÉS",
+      "COURO CABELUDO"
+    ],
+    "Negação": [
+      "NAO",
+      "NEGA"
+    ],
+    "Conceito Qualitativo": [
+      "MELHORA"
+    ],
+    "Localização ou Região Corporal": [
+      "MMSS",
+      "DORSO",
+      "PLANTAR",
+      "UNGUEAL"
+    ],
+    "Sinal ou Sintoma": [
+      "ONICOLISE",
+      "LESÕES HIPOCRÔMICAS",
+      "DESCAMAÇÃO FINA SUPERFICIAL",
+      "DESCAMAÇÃO SUPERFICIAL",
+      "MÁCULAS HIPOCRÔMICAS",
+      "UNHAS AMARELADAS"
+    ],
+    "Conceito Espacial": [
+      "DISTAL"
+    ],
+    "Substância Farmacológica": [
+      "CREME",
+      "FENTIZOL CREME",
+      "ICADEN SPRAY",
+      "AC SALICILICO"
+    ],
+    "Conceito Quantitativo": [
+      "3"
+    ],
+    "Conceito Temporal": [
+      "MESES"
+    ],
+    "Procedimento Laboratorial": [
+      "LAB"
+    ],
+    "Substância Química Orgânica": [
+      "FENTIZOL CREME",
+      "ICADEN SPRAY"
+    ]
+  },
+  "labels": {
+    "5A00.20": {
+      "term_original": "hipotireoidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.8274,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo devido a medicamentos ou outras substâncias exógenas. Definição: Condição causada por uma hipofunção da tireoide devido a medicamentos ou outras substâncias exógenas. Essa condição pode se apresentar com fadiga, aumento da sensibilidade ao frio, constipação, pele seca, ganho de peso, fraqueza e dor muscular, aumento de colesterol, dores ou inchaços nas articulações, períodos menstruais mais intensos ou irregulares, enfraquecimento do cabelo, depressão e memória deficiente.",
+      "classification_reasoning": "O hipotireoidismo foi diagnosticado em decorrência do uso de medicamentos ou outras substâncias exógenas, o que se encontra descrito no prontuário como 'HIPOTIREOIDISMO' sem mais detalhes. Nesse contexto, a opção mais precisa é o código 5A00.20",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 atribuído (5A00.20) refere-se a hipotireoidismo devido a medicamentos ou outras substâncias exógenas, enquanto o termo 'hipotireoidismo' no prontuário não apresenta essa especificação. Além disso, o prontuário descreve apenas um quadro de hipotireoidismo sem mencionar qualquer uso de medicamentos ou substâncias exógenas como causa. Portanto, a classificação é incorreta e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EG30.2": {
+      "term_original": "onicodistrofia",
+      "capitulo": "14",
+      "confidence_embedding": 0.7859,
+      "descricao_cid": "Representação de doença CID-11: Pitiríase amiantácea. Definição: A pitiríase amiantácea refere-se a um padrão de reação no couro cabeludo, em que grandes escamas aderentes estão presas aos cabelos em crescimento e se sobrepõem como telhas em um telhado. A anormalidade pode ser localizada e confinada a uma pequena placa ou disseminada envolvendo todo o couro cabeludo. O couro cabeludo subjacente é frequentemente úmido e inflamado. A condição pode ocorrer por si ou pode estar associada a transtornos inflamatórios, como dermatite seborreica e psoríase, ou com dermatofitose subjacente (tinea capitis).",
+      "classification_reasoning": "A opção mais precisa é EG30.2, Pitiríase amiantácea, pois apresenta características semelhantes ao quadro descrito de escamas aderentes nos cabelos em crescimento e sobrepõe-se como telhas em um telhado no couro cabeludo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'onicodistrofia' não se refere a uma pitiríase amiantácea, como descrito no código CID-11 EG30.2. A descrição do código CID-11 refere-se a um padrão de reação no couro cabeludo, enquanto o termo 'onicodistrofia' se refere à distrofia das unhas. Portanto, não há correspondência clínica entre o termo e o código CID-11 atribuído.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME63.7": {
+      "term_original": "descamação superficial",
+      "capitulo": "21",
+      "confidence_embedding": 0.7629,
+      "descricao_cid": "Representação de doença CID-11: Escoriação cutânea crônica. Definição: Diagnóstico provisório para um transtorno crônico da pele de natureza desconhecida ou incerta, caracterizado pela presença de múltiplas escoriações. Em alguns casos, a escoriação é secundária a prurido intenso decorrente de um transtorno sistêmico subjacente, como uremia, ou de uma doença de pele pruriginosa, como eczema. Em muitos casos, entretanto, fatores psicogênicos podem ser responsáveis.",
+      "classification_reasoning": "A descamação superficial mencionada no contexto clínico é caracterizada como crônica e não especifica a causa, o que sugere a possibilidade de escoriação cutânea crônica (ME63.7).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descamação superficial mencionada no prontuário é caracterizada como crônica e não especifica a causa, o que sugere a possibilidade de escoriação cutânea crônica (ME63.7). A codificação CID-11 ME63.7 representa fielmente o termo descrito no prontuário, portanto, é válido.",
+      "tipo_erro_auditoria": null
+    },
+    "EA83.1": {
+      "term_original": "onicolise",
+      "capitulo": "14",
+      "confidence_embedding": 0.7864,
+      "descricao_cid": "Representação de doença CID-11: Liquenificação secundária. Definição: Espessamento da pele afetada por uma dermatose primária como resultado de repetidas fricções e arranhões.",
+      "classification_reasoning": "A escolha pelo código EA83.1 (Liquenificação secundária) é a mais precisa porque o termo 'onicolise' está relacionado à formação de descamação superficial e atrofia folicular, característica da liquenificação secundária.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'onicolise' refere-se à degeneração das unhas, que não é uma liquenificação secundária. A escolha do código EA83.1 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EE11.1": {
+      "term_original": "unhas amareladas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7764,
+      "descricao_cid": "Representação de doença CID-11: Síndrome das unhas amarelas. Definição: A síndrome das unhas amarelas é caracterizada por unhas amarelas, distróficas, grossas e de crescimento lento, associadas a linfedema e comprometimento respiratório. Menos de 100 casos foram descritos. O linfedema ocorre com maior frequência nos membros inferiores. Pode aparecer no nascimento ou mais tarde na vida. O início se segue, geralmente, ao aparecimento das unhas amarelas. Os pacientes usualmente sofrem de bronquite crônica e, em alguns casos, de sinusite crônica, bronquiectasia e pneumonite recorrente. Também podem apresentar derrame pleural (30% dos casos) e hiper-reatividade brônquica. A maioria dos casos é esporádica. No entanto, formas familiares foram descritas. A etiologia é desconhecida.",
+      "classification_reasoning": "A descrição do termo 'unhas amareladas' é coincidente com a definição da Síndrome das unhas amarelas (EE11.1), caracterizada por unhas amarelas, distróficas e grossas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'unhas amareladas' no prontuário não é coincidente com a definição da Síndrome das unhas amarelas (EE11.1), que caracteriza unhas amarelas, distróficas e grossas. No prontuário, apenas se refere às unhas como 'amareladas', sem apresentar outras características clínicas que justifiquem a classificação da Síndrome das unhas amarelas.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "FB54.3": {
+      "term_original": "hiperceratose",
+      "capitulo": "15",
+      "confidence_embedding": 0.7229,
+      "descricao_cid": "Representação de doença CID-11: Esporão calcâneo. Definição: Este é um transtorno em que ocorre uma exostose no calcâneo (o osso do calcanhar)",
+      "classification_reasoning": "A hiperceratose ungueal descrita no prontuário é consistente com a exostose calcânea, um tipo de esporão ósseo que afeta o calcâneo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hiperceratose ungueal descrita no prontuário refere-se a uma condição que afeta as unhas, enquanto o código CID-11 FB54.3 se refere a uma exostose no calcâneo (osso do calcanhar). Embora haja um nome semelhante, a localização anatômica é diferente e não há justificativa clínica para associar essas condições.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    }
+  }
+}

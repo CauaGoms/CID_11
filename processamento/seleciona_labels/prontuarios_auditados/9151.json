@@ -1,0 +1,44 @@
+{
+  "prontuario_id": 775,
+  "text": "MARIA, 75 ANOS,\n\nEM ACOMPANHAMENTO DE DIARREIA DIÁRIA.\nNEGA SANGRAMENTO.\n\nSOLICITADO A PACIENTE RETORNAR COM EXAMES (COLONOSCOPIA).        ",
+  "entities": {
+    "Negação": [
+      "NEGA"
+    ],
+    "Achado": [
+      "SANGRAMENTO"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAMES",
+      "COLONOSCOPIA"
+    ],
+    "Sinal ou Sintoma": [
+      "DIARREIA DIÁRIA"
+    ]
+  },
+  "labels": {
+    "3B50.1": {
+      "term_original": "sangramento",
+      "capitulo": "03",
+      "confidence_embedding": 0.7418,
+      "descricao_cid": "Representação de doença CID-11: Deficiência congênita do inibidor do ativador do plasminogênio tecidual tipo 1. Definição: A deficiência congênita do inibidor do ativador do plasminogênio tecidual tipo 1 (PAI-1) é um transtorno que causa lise prematura de coágulos hemostáticos e uma síndrome hemorrágica moderada. Sangramento espontâneo é raramente observado, enquanto hemorragias moderadas nos joelhos, cotovelos, nariz e gengiva são habitualmente desencadeadas por trauma leve. Entretanto, o sangramento menstrual pode ser grave, e um sangramento prolongado após cirurgia é comum. A deficiência do PAI-1 pode ser qualitativa ou quantitativa, total ou parcial.",
+      "classification_reasoning": "O termo 'sangramento' está relacionado à deficiência congênita do inibidor do ativador do plasminogênio tecidual tipo 1, que pode causar sangramentos espontâneos ou hemorragias moderadas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'sangramento' no prontuário não está relacionado à deficiência congênita do inibidor do ativador do plasminogênio tecidual tipo 1, que é uma condição rara e pode causar sangramentos espontâneos ou hemorragias moderadas. No contexto do prontuário, o termo 'sangramento' se refere à ausência de sangramento, o que não está relacionado ao código CID-11 atribuído (3B50.1). Portanto, a codificação é incoerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DD91.2": {
+      "term_original": "diarreia diária",
+      "capitulo": "13",
+      "confidence_embedding": 0.7673,
+      "descricao_cid": "Representação de doença CID-11: Diarreia funcional. Definição: Diarreia funcional é uma síndrome contínua ou recorrente caracterizada pela passagem de fezes moles (pastosas) ou aquosas sem dor ou desconforto abdominal.",
+      "classification_reasoning": "A diarreia diária descrita no contexto é mais provável ser uma condição funcional, caracterizada pela passagem de fezes moles ou aquosas sem dor ou desconforto abdominal.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A diarreia diária descrita no prontuário não apresenta dor ou desconforto abdominal, o que é consistente com a definição de diarreia funcional (DD91.2). A justificativa do sistema também concorda com essa classificação, pois considera mais provável uma condição funcional caracterizada pela passagem de fezes moles ou aquosas sem dor ou desconforto abdominal.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

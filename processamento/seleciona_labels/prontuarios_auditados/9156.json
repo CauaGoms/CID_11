@@ -1,0 +1,63 @@
+{
+  "prontuario_id": 788,
+  "text": "PO de PSO em paciente com desbalanço sagital e espondilite.\nFerida em boas condicoes.\nRaios-X OK.\nBalanco sagital com evidente melhora.\nAngulo de visao melhor.\n\nPlan: retorno en 3 meses.",
+  "entities": {
+    "Abreviação": [
+      "PO",
+      "PSO"
+    ],
+    "Conceito Temporal": [
+      "PO",
+      "3 meses"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "paciente"
+    ],
+    "Doença ou Síndrome": [
+      "espondilite"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "retorno"
+    ],
+    "Sinal ou Sintoma": [
+      "desbalanço sagital"
+    ],
+    "Achado": [
+      "Ferida em boas condicoes",
+      "Balanco sagital com evidente melhora",
+      "Angulo de visao melhor"
+    ]
+  },
+  "labels": {
+    "8D66.2": {
+      "term_original": "espondilite",
+      "capitulo": "08",
+      "confidence_embedding": 0.6855,
+      "descricao_cid": "Representação de doença CID-11: Siringobulbia. Definição: Transtorno degenerativo progressivo crônico do SNC, caracterizado pela formação de uma cavidade cheia de líquido conhecida como siringe na medula espinal, que se estende para cima para envolver bulbo e ponte. Pode ocorrer isoladamente ou também secundariamente a neoplasias, traumas, deformidades da junção craniocervical ou meningite.",
+      "classification_reasoning": "A escolha do código 8D66.2 se baseia na presença de espondilite e ferida em boas condições, o que sugere uma lesão espinal, compatível com a siringobulbia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código 8D66.2 se baseia na presença de espondilite, mas a descrição do prontuário refere-se a uma lesão espinal com desbalanço sagital e ferida em boas condições, o que não é compatível com a siringobulbia. Além disso, a espondilite não é um tipo de siringobulbia. Portanto, a codificação CID-11 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NA06.00": {
+      "term_original": "ferida em boas condicoes",
+      "capitulo": "22",
+      "confidence_embedding": 0.6824,
+      "descricao_cid": "Representação de doença CID-11: Avulsão da pálpebra. Definição: Lesão em que uma estrutura corporal é forçadamente destacada do seu ponto normal de inserção por traumatismo ou cirurgia. O termo mais comumente se refere a um traumatismo de superfície em que todas as camadas da pele foram laceradas, expondo estruturas subjacentes (isto é, tecido subcutâneo, músculo, tendões ou osso). É semelhante a uma abrasão, mas mais grave, em que a pálpebra pode estar parcial ou completamente destacada do corpo.",
+      "classification_reasoning": "A opção mais precisa é a NA06.00, pois o termo 'ferida em boas condições' se refere à lesão na pálpebra, que foi destacada da sua posição normal de inserção, caracterizando uma avulsão da pálpebra.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 NA06.00 se refere a uma avulsão da pálpebra, que é um tipo de lesão na pele. No entanto, o termo 'ferida em boas condições' no prontuário não descreve essa condição clínica específamente. A descrição do código CID-11 não se aplica ao termo extraído, pois não há relação direta entre a lesão na pálpebra e uma ferida em boas condições. Portanto, a codificação é inapropriada e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA84.1": {
+      "term_original": "desbalanço sagital",
+      "capitulo": "15",
+      "confidence_embedding": 0.689,
+      "descricao_cid": "Representação de doença CID-11: Espondilolistese sem defeito na 'pars'. Definição: Esta é uma condição caracterizada pelo deslizamento anterior do corpo vertebral, sobre a vértebra abaixo, sem um defeito na \"pars articularis\"",
+      "classification_reasoning": "A opção mais precisa para o termo 'desbalanço sagital' é a Espondilolistese sem defeito na 'pars' (FA84.1), pois refere-se ao deslizamento anterior do corpo vertebral sobre a vértebra abaixo, sem um defeito na 'pars articularis', o que coincide com as informações apresentadas no prontuário ('desbalanço sagital') e justifica a melhora do balanco sagital e melhoramento do ângulo de visão.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção FA84.1 é a mais precisa para o termo 'desbalanço sagital' pois refere-se ao deslizamento anterior do corpo vertebral sobre a vértebra abaixo, sem um defeito na 'pars articularis', o que coincide com as informações apresentadas no prontuário e justifica a melhora do balanco sagital e melhoramento do ângulo de visão.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

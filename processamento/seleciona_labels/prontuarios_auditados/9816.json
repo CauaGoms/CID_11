@@ -1,0 +1,138 @@
+{
+  "prontuario_id": 458,
+  "text": "18/02/1106H - PROCURA DIRETA , ACOMPANHADO DO PAI , EM CADEIRA DE RODAS. TORPOROSO SEM RESPOSTA AO ESTIMULO VERBAL . VOMITO ALIMENTAR EM GRANDE GUANTIDADE . PUNCIONADO ACESSO . REALIZADO CONTENÇÃO / RISCO DE QUEDA . PAI RELATA QUE O MESMO JA ESTEVE INTERNADO NESTE HOSPITAL EM JUNHO COM O MESMO QUADRO . ALTA SEM DIAGNÓSTICO ?  MANTIDO NA SALA DE EMERGENCIA , ENCAMINHADO A TOMOGRAFIA. PERMANECEU TODO O PERIODO TORPOROROSO, ALTERNANDO COM EPSODIOS DE AGITAÇÃO. DEBITO URINARIO AUSENTE . 1 EPISÓDIO DE VOMITO . TRAUMATISMO DE OUTROS MUSCULOS E TENDOES AO NIVEL DO OMBRO E DO BRACO.",
+  "entities": {
+    "Sinal ou Sintoma": [
+      "TORPOROSO",
+      "TORPOROROSO",
+      "VOMITO ALIMENTAR",
+      "MESMO QUADRO",
+      "EPSODIOS DE AGITAÇÃO"
+    ],
+    "Negação": [
+      "SEM",
+      "AUSENTE"
+    ],
+    "Dispositivo Médico": [
+      "ACESSO",
+      "CADEIRA DE RODAS"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ACESSO",
+      "CONTENÇÃO"
+    ],
+    "Grupo Familiar": [
+      "PAI",
+      "ACOMPANHADO DO PAI"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "INTERNADO",
+      "ALTA",
+      "MANTIDO",
+      "ENCAMINHADO"
+    ],
+    "Organização Relacionada à Saúde": [
+      "HOSPITAL",
+      "SALA DE EMERGENCIA"
+    ],
+    "Conceito Temporal": [
+      "JUNHO",
+      "PERIODO",
+      "ALTERNANDO",
+      "EPISÓDIO"
+    ],
+    "Doença ou Síndrome": [
+      "DIAGNÓSTICO",
+      "TRAUMATISMO DE OUTROS MUSCULOS E TENDOES"
+    ],
+    "Produto Intelectual": [
+      "DIAGNÓSTICO"
+    ],
+    "Procedimento Diagnóstico": [
+      "TOMOGRAFIA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "OMBRO",
+      "BRACO"
+    ],
+    "Achado": [
+      "RESPOSTA AO ESTIMULO VERBAL",
+      "RISCO DE QUEDA"
+    ],
+    "Função de Organismo": [
+      "DEBITO URINARIO"
+    ]
+  },
+  "labels": {
+    "DA41.00": {
+      "term_original": "vomito alimentar",
+      "capitulo": "13",
+      "confidence_embedding": 0.7462,
+      "descricao_cid": "Representação de doença CID-11: Gastroparesia. Definição: Gastroparesia é um transtorno no qual o estômago leva muito tempo para esvaziar o seu conteúdo, principalmente devido ao mau funcionamento do nervo vago.",
+      "classification_reasoning": "A presença de vômito alimentar e a ausência de resposta ao estímulo verbal apontam para uma disfunção gastrintestinal, como gastroparesia, que está relacionada à condição clínica apresentada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 DA41.00 refere-se a Gastroparesia, que é um transtorno no qual o estômago leva muito tempo para esvaziar o seu conteúdo. No entanto, o termo 'vomito alimentar' não está diretamente relacionado à gastroparesia, pois pode ser causado por outras condições clínicas. Além disso, a presença de vômito alimentar e a ausência de resposta ao estímulo verbal apontam para uma disfunção gastrintestinal mais geral, que não é especificamente relacionada à gastroparesia.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A64": {
+      "term_original": "torpororoso",
+      "capitulo": "08",
+      "confidence_embedding": 0.7038,
+      "descricao_cid": "Representação de doença CID-11: Crise epiléptica única devida a causas remotas. Definição: Convulsão não provocada ocorrendo em paciente sem história de antecedente de crises epilépticas mas com anormalidades do desenvolvimento cerebral ou uma condição clínica potencialmente responsável (metabólica, estrutural, tóxica). A relação temporal com o insulto ao SNC é além do intervalo estimado para ocorrência de convulsões agudas sintomáticas. O insulto ao SNC pode ser estático ou progressivo.",
+      "classification_reasoning": "A escolha do código 8A64 é baseada na descrição de 'torporoso' no paciente, que apresenta uma crise epiléptica única e não provocada, com anormalidades do desenvolvimento cerebral ou condições clínicas potencialmente responsáveis. A presença de vômitos alimentares em grande quantidade e a falta de resposta ao estimulo verbal também apoiam essa escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário não apresenta evidências de uma crise epiléptica única e não provocada, como descrita no código CID-11. O termo 'torporoso' sugere um estado de coma ou inconsciência, que não é compatível com a definição do código 8A64. Além disso, a falta de resposta ao estimulo verbal e a presença de vômitos alimentares em grande quantidade sugerem uma condição mais provável de encefalopatia aguda ou intoxicação, do que uma crise epiléptica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6E61.2": {
+      "term_original": "epsodios de agitação",
+      "capitulo": "06",
+      "confidence_embedding": 0.736,
+      "descricao_cid": "Representação de doença CID-11: Síndrome psicótica secundária com alucinações e delírios. Definição: Síndrome caracterizada pela presença tanto de alucinações proeminentes como de delírios proeminentes, considerados consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental, com base em evidências de anamnese, exame físico ou achados laboratoriais. Os sintomas não são explicados por delirium ou por outro transtorno mental e comportamental, e não são uma resposta psicologicamente mediada a uma condição médica grave (p. ex., uma reação aguda ao estresse em resposta ao diagnóstico de uma condição de ameaça à vida). Essa categoria deve ser utilizada em conjunto com o diagnóstico do transtorno ou doença subjacente presumido, quando os sintomas psicóticos são suficientemente graves para exigir atenção clínica específica.",
+      "classification_reasoning": "A presença de 'epsodios de agitação' no relato do prontuário sugere uma síndrome psicótica secundária com alucinações e delírios, considerando a apresentação dos sintomas (torporoso sem resposta ao estimulo verbal, vômito alimentar em grande quantidade) e a história prévia de internação hospitalar com o mesmo quadro.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'epsodios de agitação' no relato do prontuário não é suficiente para justificar a codificação CID-11 6E61.2, que se refere especificamente à síndrome psicótica secundária com alucinações e delírios. A análise clínica do prontuário sugere uma situação mais complexa, com torporoso sem resposta ao estimulo verbal, vômito alimentar em grande quantidade e traumatismo de outros músculos e tendões ao nível do ombro e do braço. A codificação 6E61.2 não captura a essência dos sintomas descritos no prontuário, que parecem estar mais relacionados à uma condição médica grave do que a uma síndrome psicótica secundária.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "8E20": {
+      "term_original": "torporoso",
+      "capitulo": "08",
+      "confidence_embedding": 0.715,
+      "descricao_cid": "Representação de doença CID-11: Estado vegetativo persistente. Definição: Estado subagudo ou crônico de distúrbio grave de consciência com duração de pelo menos um mês, caracterizado pela recuperação de estados cíclicos de despertar que simulam ciclos de sono/vigília após uma lesão cerebral grave. Pacientes com esta condição estão arresponsivos e não apresentam evidência de consciência de si mesmos ou do ambiente. A regulação autonômica cardiopulmonar e visceral é mantida pelo tronco encefálico.",
+      "classification_reasoning": "O paciente está apresentando torporosidade sem resposta ao estimulo verbal, o que é consistente com um estado vegetativo persistente. Além disso, a ausência de resposta ao estímulo e a alteração entre episódios de agitação e torporosidade também são características desse estado.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A conduta do paciente, caracterizada por torporosidade sem resposta ao estimulo verbal e episódios de agitação, é consistente com o estado vegetativo persistente descrito no código CID-11. A falta de resposta ao estímulo verbal e a alteração entre episódios de agitação e torporosidade também são características desse estado. Portanto, a codificação CID-11 '8E20' é válida e representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "NA07.0": {
+      "term_original": "risco de queda",
+      "capitulo": "22",
+      "confidence_embedding": 0.7203,
+      "descricao_cid": "Representação de doença CID-11: Concussão. Definição: Perda ou diminuição da consciência devida a traumatismo.",
+      "classification_reasoning": "A presença do termo 'torporoso sem resposta ao estimulo verbal' e a alternância entre episódios de torpor e agitação sugerem que o paciente está em um estado de concussão, justificando a escolha do código NA07.0.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença do termo 'torporoso sem resposta ao estimulo verbal' e a alternância entre episódios de torpor e agitação não são suficientes para justificar a escolha do código NA07.0, que representa concussão. A concussão é uma lesão cerebral causada por um traumatismo crânio-encefálico, e não está claramente relacionada ao quadro descrito no prontuário. Além disso, o termo 'risco de queda' não está diretamente relacionado à concussão. Portanto, a escolha do código CID-11 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB32.1": {
+      "term_original": "traumatismo de outros musculos e tendoes",
+      "capitulo": "15",
+      "confidence_embedding": 0.7551,
+      "descricao_cid": "Representação de doença CID-11: Ruptura muscular espontânea. Definição: Esta é uma condição em que ocorre um afastamento ou ruptura entre fibras musculares e outras fibras musculares, tendões ou fáscias, na ausência de trauma",
+      "classification_reasoning": "A escolha do código FB32.1 (Representação de doença CID-11: Ruptura muscular espontânea) é mais precisa para o termo 'traumatismo de outros musculos e tendoes' no contexto clínico, pois a descrição da ruptura muscular espontânea se adequa ao quadro clínico apresentado, que inclui traumatismo muscular e tendinoso em nível do ombro e do braço.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código FB32.1 (Representação de doença CID-11: Ruptura muscular espontânea) não é clínica ou lógica, pois o termo 'traumatismo de outros musculos e tendoes' não se refere a uma ruptura muscular espontânea. O termo indica um dano físico causado por trauma, enquanto o código CID-11 descreve uma condição em que ocorre um afastamento ou ruptura entre fibras musculares e outras fibras musculares, tendões ou fáscias, na ausência de trauma. A escolha do código não está relacionada ao quadro clínico apresentado.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB23.D": {
+      "term_original": "resposta ao estimulo verbal",
+      "capitulo": "21",
+      "confidence_embedding": 0.7505,
+      "descricao_cid": "Representação de doença CID-11: Mutismo. Definição: Falta de produção verbal, que pode ser generalizada ou restrita a situações específicas.",
+      "classification_reasoning": "A resposta ao estimulo verbal é a falta de produção verbal (mutismo), portanto, o código mais preciso para esse termo dentro do contexto clínico é MB23.D - Representação de doença CID-11: Mutismo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A resposta ao estimulo verbal não é um caso de mutismo, pois o paciente respondeu ao estimulo verbal (ou seja, apresentou alguma forma de resposta), mas a resposta foi negativa (torporoso sem resposta ao estimulo verbal). Portanto, o código CID-11 MB23.D - Representação de doença CID-11: Mutismo não é adequado para essa situação. A classificação mais precisa seria uma que descrevesse a falta de resposta ao estimulo verbal, como por exemplo, R65.8 - Agnômia (perda da linguagem).",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

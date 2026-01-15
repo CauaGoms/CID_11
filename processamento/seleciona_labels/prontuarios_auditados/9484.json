@@ -1,0 +1,195 @@
+{
+  "prontuario_id": 598,
+  "text": "AVALIAÇÃO NEFRO GERAL. IRC - ESTADIO 3 MICROALBUMINURIA HAS COMPENSADA. ZAIRA, 75 A  DM 20 A HAS HIPOTIREOIDISMO PARKINSON CR 1,47 - TGF 34 MICROALBINURIA 48MG/G US VVUU NORMAL ECO - HIPETROFIA VE, FE 0,7  USO DE : AAS, LT4 50, MTF 850X3, SVT 20, GLICAZIDA 60, LST 50X25, OMZ 20, PROLOPA  TROUXE CONTROLE PA - REGULAR HOJE : CR 1,2 ( CKD 44 ) PU NORMAL MICROALBUMINURIA - 147MG/G   PROBLEMAS COM A NETA!  O # BEG, CORADA, HIDRATADA P 80 PA 160/100 MV POSITIVO, SIMETRICO BCRNF ABDOMEN FLACIDO, INDOLOR, SEM MASSAS, RHA POSITIVOS",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "AVALIAÇÃO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "MICROALBUMINURIA",
+      "NORMAL",
+      "REGULAR",
+      "CR 1 , 47",
+      "TGF 34",
+      "MICROALBINURIA 48MG/G",
+      "HIPETROFIA VE",
+      "FE 0 , 7",
+      "CR 1 , 2",
+      "CKD 44",
+      "PU NORMAL",
+      "MICROALBUMINURIA - 147MG/G"
+    ],
+    "Abreviação": [
+      "DM",
+      "HAS",
+      "ECO",
+      "AAS",
+      "MTF",
+      "SVT",
+      "LST",
+      "OMZ",
+      "BEG",
+      "P",
+      "PA",
+      "BCRNF",
+      "NEFRO GERAL",
+      "IRC - ESTADIO 3",
+      "HAS COMPENSADA",
+      "CR 1 , 47",
+      "US VVUU",
+      "HIPETROFIA VE",
+      "FE 0 , 7",
+      "CONTROLE PA",
+      "CR 1 , 2",
+      "PU NORMAL",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Doença ou Síndrome": [
+      "DM",
+      "HAS",
+      "HIPOTIREOIDISMO",
+      "PARKINSON",
+      "IRC - ESTADIO 3",
+      "HAS COMPENSADA"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECO",
+      "US VVUU",
+      "CONTROLE PA"
+    ],
+    "Substância Farmacológica": [
+      "AAS",
+      "MTF",
+      "SVT",
+      "GLICAZIDA",
+      "LST",
+      "OMZ",
+      "PROLOPA"
+    ],
+    "Conceito Quantitativo": [
+      "850X3",
+      "20",
+      "60",
+      "50X25",
+      "80",
+      "160/100"
+    ],
+    "Conceito Qualitativo": [
+      "REGULAR"
+    ],
+    "Grupo Familiar": [
+      "NETA"
+    ],
+    "Achado": [
+      "BEG",
+      "CORADA",
+      "HIDRATADA",
+      "SIMETRICO",
+      "BCRNF",
+      "FLACIDO",
+      "INDOLOR",
+      "MV POSITIVO",
+      "RHA POSITIVOS"
+    ],
+    "Atributo Clínico": [
+      "P",
+      "PA"
+    ],
+    "Localização ou Região Corporal": [
+      "ABDOMEN"
+    ],
+    "Negação": [
+      "INDOLOR",
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "MASSAS"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "NEFRO GERAL"
+    ]
+  },
+  "labels": {
+    "BC02": {
+      "term_original": "irc - estadio 3",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A presença de IRC - Estadio 3 indica doença renal crônica e a microalbuminuria é um indicador de lesão renal. Considerando que Zaira tem hipertensão (DM 20), isso sugere uma possível relação entre a hipertensão e a doença renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de IRC - Estadio 3 indica doença renal crônica, mas o código CID-11 atribuído (BC02) não representa fielmente essa condição. O BC02 refere-se a 'Balanço cardíaco', que não está relacionado à doença renal. Ajuste necessário para uma codificação mais precisa e clínica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DB33.20": {
+      "term_original": "flacido",
+      "capitulo": "13",
+      "confidence_embedding": 0.7328,
+      "descricao_cid": "Representação de doença CID-11: Proctite ou colite infantil induzida por proteína de alimentos. Definição: Hipersensibilidade intestinal não mediada por IgE (na ausência de anticorpos IgE) induzida por proteína alimentar que provoca resposta inflamatória principalmente do cólon sigmoide distal e do reto. É uma condição em bebês que resulta de resposta imune desencadeada por proteínas da dieta, principalmente do leite (através da amamentação). Os pacientes geralmente parecem saudáveis e têm fezes normais e macias com manchas ou raias de sangue. O diagnóstico é feito usualmente baseado na resolução dos sintomas com a retirada do suposto antígeno alimentar. O início usual é nos primeiros 2 meses de vida, mas pode também ocorrer em bebês de 1 dia a 6 meses de idade.",
+      "classification_reasoning": "A palavra 'flacido' se refere à ausência de massa abdominal e à apresentação do paciente com abdomen flácido, característica desse tipo de proctite ou colite infantil induzida por proteína alimentar.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'flacido' se refere à ausência de massa abdominal e à apresentação do paciente com abdomen flácido, característica desse tipo de proctite ou colite infantil induzida por proteína alimentar. No entanto, o prontuário não apresenta nenhuma indicação de que a paciente tenha proctite ou colite infantil induzida por proteína alimentar. A codificação CID-11 DB33.20 é muito específica e não se aplica ao caso da paciente Zaira.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "DA60.3": {
+      "term_original": "massas",
+      "capitulo": "13",
+      "confidence_embedding": 0.7273,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A presença de 'massas' no exame físico, mencionado como 'sem massas', é consistente com a descrição de úlceras de estresse do estômago (úlceras gástricas agudas) na CID-11. Isso justifica a escolha do código DA60.3.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'massas' no exame físico é descrita como 'sem massas', o que não condiz com a descrição da CID-11. Além disso, a ausência de qualquer referência à úlcera gástrica aguda ou lesão aguda na mucosa gástrica também não justifica a escolha do código DA60.3.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GB42.1": {
+      "term_original": "has compensada",
+      "capitulo": "16",
+      "confidence_embedding": 0.7539,
+      "descricao_cid": "Representação de doença CID-11: Albuminúria, Grau A3. Definição: Presença de albumina excessiva na urina, indicando permeabilidade anormal da filtração glomerular. Pode ser quantificado por coletas cronometradas ou amostras pontuais de urina com a concentração ajustada à concentração de creatinina na urina para corrigir as variações na concentração total de urina. Quando persistente e de gravidade moderada ou maior, geralmente indica doença glomerular evidente, como a causada por glomeruloesclerose diabética, glomerulonefrite ou amiloide.",
+      "classification_reasoning": "A presença de 'has compensada' sugere que a albuminúria é uma consequência da doença renal, o que faz com que GB42.1 (Albuminúria, Grau A3) seja a opção mais precisa para o termo dentro do contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de 'has compensada' no prontuário indica que a albuminúria é uma consequência da doença renal, o que faz sentido clinicamente. A codificação GB42.1 (Albuminúria, Grau A3) representa fielmente a condição descrita e não há contradição óbvia ou falta de base no texto.",
+      "tipo_erro_auditoria": null
+    },
+    "8A45.30": {
+      "term_original": "simetrico",
+      "capitulo": "08",
+      "confidence_embedding": 0.7382,
+      "descricao_cid": "Representação de doença CID-11: Transtorno da substância branca devido à deficiência de vitamina B12. Definição: Características neurológicas ocorrem em 40% dos pacientes com deficiência de vitamina B12. Degeneração combinada subaguda é uma complicação neurológica reversível potencial de deficiência de vitamina B12. Sintomas desenvolvem de forma insidiosa e as manifestações neuropáticas incluem parestesia distal, dormência, ataxia de marcha e diminuição da propriocepção dos membros inferiores, enquanto componente mielopático leva à prejuízo motor variável devido à disfunção do trato piramidal. Incontinência fecal e urinária com impotência e hipotensão postural podem ocorrer como parte da mielopatia. Manifestações centrais incluem confusão, depressão, alucinação progressiva e lentificação mental. Pode ocorrer e neuropatia óptica.",
+      "classification_reasoning": "O termo 'simetrico' se refere à descrição de sintomas neurológicos, como parestesia distal, dormência e ataxia de marcha, que são características da deficiência de vitamina B12 (transtorno da substância branca devido à deficiência de vitamina B12). Isso justifica a escolha do código 8A45.30.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário refere-se à avaliação nefro geral e ao diagnóstico de IRC - Estadio 3, enquanto o termo 'simetrico' se refere a sintomas neurológicos. Embora haja uma relação entre a doença renal e a deficiência de vitamina B12, não há evidências clínicas suficientes para justificar a escolha do código 8A45.30. A classificação é confusa e não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "8A00.0": {
+      "term_original": "parkinson",
+      "capitulo": "08",
+      "confidence_embedding": 0.7566,
+      "descricao_cid": "Representação de doença CID-11: Doença de Parkinson. Definição: Doença de Parkinson é uma doença degenerativa progressiva de instalação insidiosa cujas manifestações cardinais incluem bradicinesia mais uma das seguintes características - tremor, rigidez ou instabilidade postural. Manifestações não motoras incluem disfunção autonômica e manifestações neuropsiquiátricas.",
+      "classification_reasoning": "A paciente apresenta hipotireoidismo e Parkinson, o que sugere a doença de Parkinson como mais provável.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente apresenta Parkinson como um sintoma, não como uma doença. A descrição do código CID-11 refere-se à Doença de Parkinson como uma entidade clínica específica, enquanto no prontuário é mencionado apenas como um sintoma da paciente. Portanto, a codificação não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5A00.03": {
+      "term_original": "hipotireoidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.8071,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo congênito transitório. Definição: Hipotireoidismo congênito transitório é definido com uma disfunção tireoidiana transitória com discreta elevação do hormônio tiroestimulante (TSH) e baixos níveos de T4 livre que retornam ao normal espontaneamente ou após muitos meses de terapia com levotiroxina. Este transtorno é devido a várias causas como deficiência de iodo, exposição a compostos contendo iodo, passagem transplacentária de anticorpos maternos bloqueadores e disormonogênese.",
+      "classification_reasoning": "O hipotireoidismo descrito na paciente, Zaira, é um estado de baixa atividade da tireoide, com sintomas como fadiga e aumento da sensibilidade ao frio, o que se enquadra melhor no Código CID-11 5A00.03, representando a hipotireoidismo congênito transitório.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'hipotireoidismo' descrito no prontuário refere-se a um estado de baixa atividade da tireoide, enquanto o código CID-11 5A00.03 se refere a hipotireoidismo congênito transitório. Embora haja uma relação entre os dois termos, eles não são idênticos. O prontuário descreve um hipotireoidismo que não é especificamente transitório ou congênito.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5D01": {
+      "term_original": "dm",
+      "capitulo": "05",
+      "confidence_embedding": 0.7798,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de lise tumoral. Definição: Grupo de complicações metabólicas que podem ocorrer após o tratamento do câncer, geralmente linfomas e leucemias, e às vezes até mesmo sem tratamento. Essas complicações são causadas pelos produtos de degradação das células cancerosas mortas e incluem hipercalemia, hiperfosfatemia, hiperuricemia e hiperuricosúria, hipocalcemia e consequente nefropatia aguda por ácido úrico e insuficiência renal aguda.",
+      "classification_reasoning": "A presença de DM (diabetes mellitus) e hipotireoidismo sugere que a síndrome de lise tumoral está presente, uma vez que as complicações metabólicas podem ocorrer após o tratamento do câncer.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de DM (diabetes mellitus) no prontuário não está relacionada à síndrome de lise tumoral. A síndrome de lise tumoral é um grupo de complicações metabólicas que podem ocorrer após o tratamento do câncer, enquanto a diabetes mellitus é uma doença endócrina autônoma. Portanto, não há relação clínica entre as duas condições.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

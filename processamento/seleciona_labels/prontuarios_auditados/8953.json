@@ -1,0 +1,142 @@
+{
+  "prontuario_id": 636,
+  "text": "ÀS 15:45h: CONSCIENTE, LUCIDA, EUPNEICA, COMUNICATIVA, EM REPOUSO NO LEITO, NÃO REFERE ALGIA, APRESENTA PUPILAS ISOCORICAS, PELE E MUCOSA CORADA E HIDRATADA, ABDOMEN PLANO, FLACIDO, POUCO DOLOROSO A PALPAÇÃO, MANTEM ACESSO VENOSO PERIFERICO COM SOROTERAPIA, ABDOME AGUDO. PAC SOB NEVOA, TENTATIVA DE SUICIDIO POR INTOXICAÇÃO EXOGENA. ACESSO VENOSO COM SOROTERAPIA PERMEAVEL, REPOUSO NO LEITO, SEGUE SOB CUIDADOS DE ENFERMAGEM. OUTRAS PNEUMONIAS DEVIDAS A MICROORGANISMOS NAO ESPECIFICADOS. ÀS 18:00H: CLIENTE CONSCIENTE, RECUSOU A PASSAGEM DA SONDA, A MESMA ACEITOU BEM A DIETA OFERECIDA , DEGLUTINDO SEM DIFICULDADES, TENTO CONTATO COM A FONO AUGUSTA, SEM SUCESSO. NEOPLASIA MALIGNA DO CEREBRO, EXCETO LOBOS E VENTRICULOS. Às 18:06: corada, alerta, afebril, comunicativa, em repouso no leito, aceitando dieta via oral, avp em mse com soroterapia em curso, ssvv estavéis, eliminações fisiologicas presentes e espontaneas, não refere algia, incisão cirurgica limpa e seca, segue sob cuidados de. FRATURA DA COLUNA LOMBAR E DA PELVE.",
+  "entities": {
+    "Achado": [
+      "CONSCIENTE",
+      "LUCIDA",
+      "EUPNEICA",
+      "COMUNICATIVA",
+      "CORADA",
+      "HIDRATADA",
+      "PLANO",
+      "FLACIDO",
+      "corada",
+      "alerta",
+      "afebril",
+      "comunicativa",
+      "limpa",
+      "seca",
+      "REPOUSO NO LEITO",
+      "PUPILAS ISOCORICAS",
+      "repouso no leito",
+      "ssvv estavéis"
+    ],
+    "Sinal ou Sintoma": [
+      "ALGIA",
+      "afebril",
+      "algia"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PELE",
+      "LOBOS",
+      "VENTRICULOS"
+    ],
+    "Localização ou Região Corporal": [
+      "ABDOMEN",
+      "mse"
+    ],
+    "Procedimento Diagnóstico": [
+      "PALPAÇÃO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "SOROTERAPIA",
+      "NEVOA",
+      "avp",
+      "REPOUSO NO LEITO",
+      "ACESSO VENOSO PERIFERICO",
+      "ACESSO VENOSO",
+      "SOROTERAPIA PERMEAVEL",
+      "PASSAGEM DA SONDA",
+      "repouso no leito",
+      "dieta via oral",
+      "soroterapia em curso"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "CLIENTE"
+    ],
+    "Alimento": [
+      "DIETA"
+    ],
+    "Negação": [
+      "EXCETO",
+      "afebril"
+    ],
+    "Abreviação": [
+      "avp",
+      "mse",
+      "ssvv estavéis"
+    ],
+    "Dispositivo Médico": [
+      "avp",
+      "ACESSO VENOSO PERIFERICO",
+      "ACESSO VENOSO"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "cuidados",
+      "CUIDADOS DE ENFERMAGEM"
+    ],
+    "Doença ou Síndrome": [
+      "ABDOME AGUDO"
+    ],
+    "Lesão ou Envenenamento": [
+      "TENTATIVA DE SUICIDIO POR INTOXICAÇÃO EXOGENA",
+      "FRATURA DA COLUNA LOMBAR E DA PELVE"
+    ],
+    "Processo Neoplásico": [
+      "NEOPLASIA MALIGNA DO CEREBRO"
+    ]
+  },
+  "labels": {
+    "NB7Y": {
+      "term_original": "ssvv estavéis",
+      "capitulo": "22",
+      "confidence_embedding": 0.7073,
+      "descricao_cid": "Representação de doença CID-11: Outra lesão especificada de nervos ao nível do abdome, região lombar ou pelve. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NB7Y, pois o termo 'ssvv estavéis' se refere à lesão especificada de nervos ao nível do abdome, região lombar ou pelve, que é mencionado no contexto clínico como uma consequência da fratura da coluna lombare e da pelve.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'ssvv estavéis' não se refere a uma lesão especificada de nervos ao nível do abdome, região lombar ou pelve. A fratura da coluna lombare e da pelve é mencionada como consequência da tentativa de suicídio por intoxicação exógena, mas não há relação direta com a lesão especificada de nervos. Portanto, o código CID-11 atribuído (NB7Y) não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "2A00.00": {
+      "term_original": "neoplasia maligna do cerebro",
+      "capitulo": "02",
+      "confidence_embedding": 0.7711,
+      "descricao_cid": "Representação de doença CID-11: Glioblastoma cerebral. Definição: Glioblastomas são tumores astrocíticos malignos (grau IV de acordo com a classificação da OMS). Representam os tumores cerebrais mais frequentes em adultos. Podem ocorrer em qualquer idade, mas 70% dos casos são vistos em pacientes entre 45 e 70 anos de idade. Os tumores geralmente estão localizados nos hemisférios cerebrais, mas podem ser encontrados em qualquer lugar do sistema nervoso central.",
+      "classification_reasoning": "O termo 'neoplasia maligna do cérebro' é uma indicação clara de que a doença se refere ao glioblastoma cerebral, o que é confirmado pela descrição do código CID-11 fornecido.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 '2A00.00' para 'neoplasia maligna do cérebro' é justificada pela presença da neoplasia maligna do cérebro no prontuário, o que é confirmado pela descrição do código fornecida. Ajusto a codificação como válida pois atende às diretrizes de auditoria.",
+      "tipo_erro_auditoria": null
+    },
+    "FA70.0": {
+      "term_original": "fratura da coluna lombar e da pelve",
+      "capitulo": "15",
+      "confidence_embedding": 0.7335,
+      "descricao_cid": "Representação de doença CID-11: Cifose. Definição: Esta é uma curvatura da coluna vertebral que causa um arqueamento ou arredondamento das costas, o que leva a uma postura corcunda ou curvada.",
+      "classification_reasoning": "A escolha do código FA70.0 é a mais precisa porque o termo 'fratura' e 'coluna lombar' sugerem uma lesão óssea na região cervical, que é descrita pela definição da doença Cifose (FA70.0).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fratura da coluna lombar e da pelve não é uma lesão óssea na região cervical, como descrita pela definição da doença Cifose (FA70.0). A descrição do prontuário refere-se a uma lesão óssea na região lombar e pelviana, que não está relacionada à Cifose. Portanto, o código FA70.0 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "X60.1": {
+      "term_original": "tentativa de suicidio por intoxicação exogena",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A tentativa de suicidio por intoxicação exogena é um episódio psicológico que pode ter levado à ingestão de substâncias tóxicas, o que justifica a escolha do código X60.1 - Tentativa de suicídio com uso de substâncias tóxicas",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A tentativa de suicidio por intoxicação exogena não é um episódio psicológico isolado, mas sim uma condição clínica que pode ter sido influenciada pela presença de doenças mentais subjacentes. O código X60.1 - Tentativa de suicídio com uso de substâncias tóxicas não representa fielmente a situação descrita no prontuário, pois não considera a possibilidade de outras condições clínicas envolvidas na tentativa de suicidio.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DB10.0": {
+      "term_original": "abdome agudo",
+      "capitulo": "13",
+      "confidence_embedding": 0.7849,
+      "descricao_cid": "Representação de doença CID-11: Apendicite aguda. Definição: Inflamação aguda e aumento do apêndice vermiforme. Foi reconhecida como uma das causas mais comuns de dor abdominal aguda grave em todo o mundo. A maioria dos casos requer tratamento médico adequado ou remoção do apêndice inflamado. Se não tratada, a mortalidade é alta, principalmente pelo risco de ruptura levando a peritonite e choque. Nesta categoria, está incluída apenas a apendicite aguda devida a infecção bacteriana comum, sendo descartada a apendicite devida a organismos específicos está excluída desta entidade e descrita em outra parte.",
+      "classification_reasoning": "A opção DB10.0 é a mais precisa para o termo 'abdome agudo' no contexto clínico, pois aplica-se à inflamação aguda e aumento do apêndice vermiforme, que é uma das causas mais comuns de dor abdominal aguda grave.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'abdome agudo' não se refere à apendicite aguda, como descrita no código CID-11 DB10.0. A descrição do código CID-11 DB10.0 se refere especificamente à inflamação aguda e aumento do apêndice vermiforme, enquanto o termo 'abdome agudo' não menciona nada sobre apendicite ou infecção bacteriana comum. Portanto, a opção DB10.0 não é a mais precisa para o termo 'abdome agudo' no contexto clínico.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

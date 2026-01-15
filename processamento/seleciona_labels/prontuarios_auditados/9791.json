@@ -1,0 +1,192 @@
+{
+  "prontuario_id": 450,
+  "text": "22/04/2012    19:45h     # Colisão moto X auto + Fratura expoxta de femur e tibia E  + TCE grave    # 3° TQT    # 9° SOG    # 10° SVD.     Paciente 18 anos, traqueostomizado sob VM PSV, SOG com plano de dieta em curso, pele integra, mantendo curativo em fixador externo seco e limpo externamente em MIE, SVD com diurese efetiva, AVP em MSE com soroterapia em curso, PAM radial E com bom fluxo e refluxo, capacete sem sinais de sujidade externa, FC 62, PA 103/49, SAT 100%. Segue com resposta aos estimulos porém não à comandos. Segue sob cuidados e estavel. Enfermeira Florence Nightingale . FRATURA DO FEMUR.",
+  "entities": {
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "femur",
+      "MIE",
+      "MSE",
+      "FEMUR",
+      "radial"
+    ],
+    "Conceito Espacial": [
+      "E",
+      "externamente"
+    ],
+    "Conceito Quantitativo": [
+      "3°",
+      "9°",
+      "10°",
+      "62",
+      "103/49",
+      "100%"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TQT",
+      "SOG",
+      "SVD",
+      "curativo",
+      "AVP",
+      "VM PSV",
+      "plano de dieta em curso",
+      "fixador externo",
+      "soroterapia em curso"
+    ],
+    "Abreviação": [
+      "TQT",
+      "SOG",
+      "SVD",
+      "MIE",
+      "AVP",
+      "MSE",
+      "FC",
+      "PA",
+      "Colisão moto X auto",
+      "TCE grave",
+      "VM PSV",
+      "radial",
+      "E"
+    ],
+    "Dispositivo Médico": [
+      "SOG",
+      "SVD",
+      "curativo",
+      "AVP",
+      "VM PSV",
+      "fixador externo"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Achado": [
+      "traqueostomizado",
+      "seco",
+      "limpo",
+      "pele integra",
+      "diurese efetiva",
+      "bom fluxo e refluxo",
+      "sinais de sujidade externa",
+      "resposta aos estimulos"
+    ],
+    "Conceito Qualitativo": [
+      "seco",
+      "limpo"
+    ],
+    "Objeto Manufaturado": [
+      "capacete"
+    ],
+    "Negação": [
+      "sem",
+      "não"
+    ],
+    "Atributo Clínico": [
+      "FC",
+      "PA",
+      "SAT"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "cuidados"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Lesão ou Envenenamento": [
+      "FRATURA",
+      "Colisão moto X auto",
+      "Fratura expoxta",
+      "TCE grave"
+    ]
+  },
+  "labels": {
+    "NC75.1": {
+      "term_original": "colisão moto x auto",
+      "capitulo": "22",
+      "confidence_embedding": 0.732,
+      "descricao_cid": "Representação de doença CID-11: Lesão da veia femoral ao nível do quadril ou coxa. Definição: ",
+      "classification_reasoning": "A colisão moto x auto refere-se à lesão causada pela colisão entre um veículo motorizado e outro, o que leva a lesões graves no sistema osteomuscular, incluindo a fratura do fêmur descrita no prontuário. A opção NC75.1 é a mais precisa para esse termo, pois se refere especificamente à lesão da veia femoral ao nível do quadril ou coxa.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção NC75.1 se refere especificamente à lesão da veia femoral ao nível do quadril ou coxa, enquanto a colisão moto x auto não está relacionada diretamente com essa lesão. A fratura expoxta de femur e tibia E é o principal evento clínico descrito no prontuário, e não há evidência de lesão da veia femoral ao nível do quadril ou coxa.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB21.1": {
+      "term_original": "tce grave",
+      "capitulo": "12",
+      "confidence_embedding": 0.6858,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A fratura de femur e tibia, juntamente com a gravidade do TCE (Transtornos Cardiovasculares), sugere uma lesão severa que pode ter causado um pneumotórax espontâneo não hipertensivo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A fratura de femur e tibia, juntamente com a gravidade do TCE (Transtornos Cardiovasculares), não está relacionada ao pneumotórax espontâneo. A descrição do prontuário refere-se à colisão moto, fraturas e lesões graves, mas não há nenhuma indicação de pneumotórax. Portanto, o código CID-11 atribuído (CB21.1) não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FFA10.4": {
+      "term_original": "fratura",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'fratura' no contexto clínico é FFA10.4, que corresponde à Representação de doença CID-11: Fraturas expostas do osso longo. A descrição da fratura expoxta de femur e tibia na paciente sugere que a escolha mais precisa é relacionada às fraturas ósseas, especificamente ao tipo de fratura descrita.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código FFA10.4 é justificada pela descrição da fratura expoxta de femur e tibia na paciente, que sugere uma fratura óssea exposta. A codificação CID-11 representa fielmente o termo 'fratura' descrito no prontuário, atendendo às diretrizes de auditoria.",
+      "tipo_erro_auditoria": null
+    },
+    "EB13.1": {
+      "term_original": "limpo",
+      "capitulo": "14",
+      "confidence_embedding": 0.7571,
+      "descricao_cid": "Representação de doença CID-11: Necrólise epidérmica tóxica. Definição: Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda com risco de vida, com risco geral de mortalidade comumente citado entre 25 e 30%, embora o risco de desfecho fatal seja de cerca de 90% nos pacientes mais gravemente afetados (escore SCORTEN > 5). Caracteriza-se pelo rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme (> 30% da área de superfície corporal). Comumente, as mucosas também estão envolvidas. A morte pode resultar de uma combinação de sepse, depleção de fluidos e falência de múltiplos órgãos. Em dois terços dos casos, a NET é desencadeada por uma alergia a medicamentos claramente identificável.",
+      "classification_reasoning": "O termo 'limpo' se refere à condição da pele do paciente, que é descrita como 'pele integra', o que sugere a ausência de lesões ou lesões crônicas na área de estresse cutâneo. A Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda caracterizada por um rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme. Nesse contexto, a escolha do código EB13.1 como mais precisa para o termo 'limpo' é justificada pela possibilidade de NET ser uma causa de lesão cutânea aguda e temporária.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A Necrólise epidérmica tóxica (NET) é uma doença cutânea aguda caracterizada por um rápido início de extenso eritema, necrose e descolamento bolhoso da epiderme. No entanto, o termo 'limpo' se refere à condição da pele do paciente, que é descrita como 'pele integra', o que sugere a ausência de lesões ou lesões crônicas na área de estresse cutâneo. Portanto, a escolha do código EB13.1 não representa fielmente o termo 'limpo' e é um exemplo de wrong_entity_type.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB62.4": {
+      "term_original": "fratura expoxta",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'fratura expoxta' é a FA62.4, que representa uma fratura exposa e aberta do fémur ou tibia.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção FA62.4 é a mais precisa para o termo 'fratura expoxta' descrito no prontuário, pois representa uma fratura exposa e aberta do fémur ou tibia. A descrição clínica do paciente apresenta uma fratura expoxta de femur e tibia, portanto, a codificação CID-11 FA62.4 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "EB51": {
+      "term_original": "pele integra",
+      "capitulo": "14",
+      "confidence_embedding": 0.7312,
+      "descricao_cid": "Representação de doença CID-11: Lúpus eritematoso cutâneo crônico. Definição: Lúpus eritematoso cutâneo crônico (LECC) é caracterizado pela presença de placas cutâneas circunscritas apresentando graus variados de edema, eritema, descamação, tamponamento e atrofia folicular. Apresenta-se mais comumente como placas discoides envolvendo face, orelhas e couro cabeludo, mas pode ser amplamente disseminada ou acometer predominantemente extremidades (lúpus Chilblain) ou a gordura subcutânea (paniculite lúpica). Pode causar desfiguração acentuada com cicatrizes faciais proeminentes e perda de cabelo permanente. A maioria dos pacientes permanece com boa saúde, mas 5-10% podem desenvolver lúpus eritematoso sistêmico. A fotossensibilidade é menos evidente do que no lúpus eritematoso cutâneo subagudo.",
+      "classification_reasoning": "A opção mais precisa para o termo 'pele integra' é Lúpus eritematoso cutâneo crônico (LECC), pois a descrição dessa doença menciona a presença de placas cutâneas circunscritas com edema, eritema, descamação e atrofia folicular na pele, o que se alinha com a observação da pele integra do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção EB51 (Lúpus eritematoso cutâneo crônico) não é adequada porque a descrição do termo 'pele integra' refere-se à integridade da pele, que não está relacionada ao Lúpus eritematoso cutâneo crônico. A classificação EB51 não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NC75.0Z": {
+      "term_original": "traqueostomizado",
+      "capitulo": "22",
+      "confidence_embedding": 0.7368,
+      "descricao_cid": "Representação de doença CID-11: Traumatismo da artéria femoral, não especificado. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'traqueostomizado' é a lesão da artéria femoral não especificada, pois o contexto clínico refere-se à uma colisão motorista que causou fraturas de fêmur e tibia, além de traumatismo grave. A traqueostomia é um procedimento cirúrgico que se refere ao acesso ventilatório, mas no contexto da fratura do fémur, a lesão da artéria femoral não especificada é mais adequada para describir o evento.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção NC75.0Z não representa fielmente o termo 'traqueostomizado', que se refere ao procedimento cirúrgico de acesso ventilatório, enquanto a lesão da artéria femoral não especificada é mais adequada para descrever o evento. Ajuste necessário para refletir a realidade clínica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME62.7": {
+      "term_original": "sinais de sujidade externa",
+      "capitulo": "21",
+      "confidence_embedding": 0.6963,
+      "descricao_cid": "Representação de doença CID-11: Erupção cutânea descamativa aguda. Definição: Diagnóstico provisório de uma erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e na qual a descamação é um aspecto proeminente. Isso é visto caracteristicamente nos estágios finais de muitos exantemas virais agudos, mas também pode ser observado em reações a medicamentos e na psoríase instável e eritrodérmica.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sinais de sujidade externa' é a Erupção cutânea descamativa aguda (ME62.7), pois se refere à presença de substância desconhecida na pele, que pode incluir uma substância residual após uma lesão ou trauma, como o caso da fratura de femur e tibia do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A Erupção cutânea descamativa aguda (ME62.7) não é um tipo de lesão ou trauma que possa estar relacionado à fratura do femur e tibia. O termo 'sinais de sujidade externa' se refere à presença de substância desconhecida na pele, o que não está diretamente relacionado ao diagnóstico da fratura. A codificação ME62.7 é demasiadamente geral e não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB20.1": {
+      "term_original": "resposta aos estimulos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7004,
+      "descricao_cid": "Representação de doença CID-11: Coma. Definição: Estado agudo com duração de mais de uma hora e geralmente menos de um mês. O paciente em coma está arresponsivo, fica com os olhos fechados e não pode ser despertado nem mesmo por estímulos vigorosos e dolorosos. As respostas motoras à estimulação dolorosa estão limitadas a reflexos. As etiologias incluem, mas não estão limitadas a, lesões cerebrais traumáticas, anóxicas, infecciosas, neoplásicas, vasculares, inflamatórias e metabólicas.",
+      "classification_reasoning": "A resposta aos estimulos do paciente está descrita como 'segue com resposta aos estimulos', o que sugere um estado de consciência alterada, caracterizando um coma.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A resposta aos estimulos do paciente não é suficiente para caracterizar um coma. O termo 'resposta aos estimulos' pode ser uma manifestação de reação reflexa ou simplesmente uma resposta ao estímulo, mas não necessariamente indica um estado de consciência alterada. A descrição do prontuário não apresenta evidências claras de um coma, portanto, o código CID-11 MB20.1 não é clinicamente coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

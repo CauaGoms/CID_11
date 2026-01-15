@@ -1,0 +1,99 @@
+{
+  "prontuario_id": 586,
+  "text": "varizes ceap 3 na perna direita e cepa 6 na perna esquerda\nferida com boa evolução - ulcera de 2x2cm , com fundo limpo e tecido de granulação\nem uso de meia elastica , com boa aceitação\n\nsuspendo sulfa de prata\nmantenho meia e dismin\n\nretorno em 6 meses\n\nr3 vital brazil\nDoutor Vital Brazil ",
+  "entities": {
+    "Lesão ou Envenenamento": [
+      "ferida"
+    ],
+    "Doença ou Síndrome": [
+      "ulcera"
+    ],
+    "Abreviação": [
+      "2x2cm",
+      "r3",
+      "ceap 3",
+      "cepa 6",
+      "sulfa de prata"
+    ],
+    "Conceito Quantitativo": [
+      "2x2cm"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "suspendo",
+      "mantenho",
+      "retorno"
+    ],
+    "Dispositivo Médico": [
+      "meia",
+      "meia elastica"
+    ],
+    "Substância Química Orgânica": [
+      "dismin"
+    ],
+    "Substância Farmacológica": [
+      "dismin",
+      "sulfa de prata"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "r3"
+    ],
+    "Classificação": [
+      "ceap 3",
+      "cepa 6"
+    ],
+    "Sinal ou Sintoma": [
+      "ceap 3",
+      "cepa 6"
+    ],
+    "Localização ou Região Corporal": [
+      "perna direita",
+      "perna esquerda"
+    ],
+    "Achado": [
+      "boa evolução",
+      "fundo limpo",
+      "boa aceitação"
+    ],
+    "Função de Órgão ou Tecido": [
+      "tecido de granulação"
+    ],
+    "Conceito Funcional": [
+      "uso de"
+    ],
+    "Substância Química Inorgânica": [
+      "sulfa de prata"
+    ]
+  },
+  "labels": {
+    "NC91.2": {
+      "term_original": "ferida",
+      "capitulo": "22",
+      "confidence_embedding": 0.7858,
+      "descricao_cid": "Representação de doença CID-11: Ferimento perfurante sem corpo estranho da perna. Definição: ",
+      "classification_reasoning": "A opção mais precisa é NC91.2, pois o termo 'ferida' se refere a um lesão na perna, como descrito no prontuário.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'ferida' no prontuário se refere a uma lesão na perna, que é diretamente relacionada ao código CID-11 NC91.2 (Representação de doença: Ferimento perfurante sem corpo estranho da perna). A codificação é clínica e coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "NC71.2": {
+      "term_original": "ulcera",
+      "capitulo": "22",
+      "confidence_embedding": 0.7241,
+      "descricao_cid": "Representação de doença CID-11: Ferimento perfurante sem corpo estranho do quadril ou coxa. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'ulcera' no contexto é NC71.2, que refere-se a ferimento perfurante sem corpo estranho do quadril ou coxa. A lesão descrita na história clínica, uma ulcera de 2x2cm com fundo limpo e tecido de granulação, se encaixa melhor nessa opção do que nas outras opções, que se referem a lesões em diferentes áreas do corpo ou não envolvem a formação de úlceras.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção CID-11 NC71.2 'Representação de doença: Ferimento perfurante sem corpo estranho do quadril ou coxa' é a mais precisa para o termo 'ulcera' no contexto. A lesão descrita na história clínica, uma ulcera de 2x2cm com fundo limpo e tecido de granulação, se encaixa melhor nessa opção do que nas outras opções, que se referem a lesões em diferentes áreas do corpo ou não envolvem a formação de úlceras. A codificação é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "EH90.2": {
+      "term_original": "ceap 3",
+      "capitulo": "14",
+      "confidence_embedding": 0.7471,
+      "descricao_cid": "Representação de doença CID-11: Úlcera por pressão grau 3. Definição: Úlcera por pressão com perda total da espessura da pele. A gordura subcutânea pode estar visível, mas osso, tendão ou músculo não estão expostos. Esfacelo pode estar presente, mas não obscurece a profundidade da perda tecidual. Pode haver descolamento e tunelamento em estruturas adjacentes. A profundidade varia de acordo com a localização anatômica: as úlceras de pressão de grau 3 podem ser rasas em áreas com pouca ou nenhuma gordura subcutânea (p.ex., ponte nasal, orelha, occipício e maléolo). Em contraste, as úlceras de pressão de grau 3 podem ser extremamente profundas em áreas de adiposidade significativa.",
+      "classification_reasoning": "O termo 'ceap 3' está relacionado à ulcera por pressão de grau 3 na perna direita e esquerda, descrita no contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'ceap 3' está diretamente relacionado à ulcera por pressão de grau 3 na perna direita e esquerda, descrita no contexto clínico. A descrição do código CID-11 EH90.2 também se refere a úlceras por pressão de grau 3. Portanto, a codificação é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

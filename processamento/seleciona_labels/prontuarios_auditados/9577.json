@@ -1,0 +1,74 @@
+{
+  "prontuario_id": 607,
+  "text": "AMBULATORIO DO TAP\n- PACIENTE NÃO ESTAVA PRESENTE NA CONSULTA, APENAS FAMILIAR\n- POSOLOGIA E RETORNO NA CARTEIRINHA\n- RNI 6,0, SEM SINAIS DE SANGRAMENTO - EM USO DE ATB\n- ORIENTADO SUSPENDER MEDICAÇÃO E RETORNO NO DIA 13/06/14\n- ORIENTADO LEVAR PACIENTE AO CMUM OU NA UDT DA SANTA CASA, CASO HAJA ALGUM TIPO DE SANGRAMENTO\nR3 CARDIO \n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Negação": [
+      "NÃO",
+      "SEM"
+    ],
+    "Achado": [
+      "PRESENTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CONSULTA",
+      "ORIENTADO",
+      "SUSPENDER",
+      "RETORNO NA CARTEIRINHA"
+    ],
+    "Grupo Familiar": [
+      "FAMILIAR"
+    ],
+    "Antibiótico": [
+      "ATB"
+    ],
+    "Abreviação": [
+      "ATB",
+      "CMUM",
+      "UDT",
+      "CARDIO",
+      "AMBULATORIO DO TAP"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "MEDICAÇÃO"
+    ],
+    "Substância Farmacológica": [
+      "MEDICAÇÃO"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UDT",
+      "AMBULATORIO DO TAP"
+    ],
+    "Sinal ou Sintoma": [
+      "SANGRAMENTO",
+      "SINAIS DE SANGRAMENTO"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "RNI 6 , 0"
+    ]
+  },
+  "labels": {
+    "BB24": {
+      "term_original": "sangramento",
+      "capitulo": "11",
+      "confidence_embedding": 0.751,
+      "descricao_cid": "Representação de doença CID-11: Hemopericárdio. Definição: Hemopericárdio causado por doenças não classificadas em outra parte. Hemopericárdio geralmente se refere a sangue no saco pericárdico do coração. É clinicamente semelhante ao derrame pericárdico e, dependendo do volume e da rapidez com que se desenvolve, pode causar tamponamento cardíaco.",
+      "classification_reasoning": "O termo 'sangramento' refere-se a hemorragia no saco pericárdico do coração, o que é clinicamente semelhante ao derrame pericárdico. A opção BB24 é a mais precisa para este contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BB24 refere-se a hemopericárdio, que é uma condição clínica específica e não se aplica ao termo 'sangramento' presente no prontuário. O sangramento mencionado no prontuário pode ser qualquer tipo de hemorragia, não apenas aquela relacionada ao saco pericárdico do coração. Portanto, a codificação CID-11 BB24 não é clinicamente coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA60.8": {
+      "term_original": "sinais de sangramento",
+      "capitulo": "11",
+      "confidence_embedding": 0.7455,
+      "descricao_cid": "Representação de doença CID-11: Arritmia como complicação atual subsequente a infarto agudo do miocárdio. Definição: Grupo grande e heterogêneo de condições nas quais o coração bate com um ritmo irregular ou anormal que pode complicar o curso de pacientes com infarto agudo do miocárdio.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sinais de sangramento' é a arritmia como complicação atual subsequente a infarto agudo do miocárdio, pois o prontuário menciona sangramento e relaciona à RNI (hemodiálise) em uso. Além disso, o código BC81.30 se refere a fibrilação atrial paroxística, que não está diretamente relacionada ao termo 'sangramento'. As demais opções não apresentam relação com sangramento.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BA60.8 não é uma representação clínica fiel do termo 'sinais de sangramento'. A arritmia como complicação atual subsequente a infarto agudo do miocárdio não está relacionada ao sangramento, e o prontuário menciona apenas RNI 6,0 sem sinais de sangramento. Além disso, a presença da medicação ATB e a orientação para suspender a medicação e retornar no dia 13/06/14 sugerem que o paciente tem uma condição crônica, não relacionada ao sangramento.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

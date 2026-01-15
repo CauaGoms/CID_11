@@ -1,0 +1,163 @@
+{
+  "prontuario_id": 882,
+  "text": "PACIENTE QUEIXA-SE DE BAV PARA PERTO.\nNEGA USO DE OCULOS, NEGA USO DE COLIRIO.\nHAS EM TTO. NEGA DM\nREFERE TRANSPLANTE RENAL, HA 2 ANOS, NAO SABE REFERIR BEM A CAUSA.\nNEGA CIRURGIAS E TRAUMAS OCULARES.\nNEGA HF DE GLAUCOMA E CEGUEIRA.\n\nAV:\n20/25\n20/20\n\nTOL:\nPL ESF 20/25.\nPL ESF 20/30.\nAD +2,75; LE J2\n\nBIO: \nBLEFARITE ANTERIOR AO.\nCATARATA INCIPIENTE AO.\n\nFO:\nPAPILA E MACULA NORMAL AO.\n\nPIO:12/12\n\n**EXAME OFTALMOLOGICO DE DIFICIL REALIZAÇÃO, PACIENTE NAO COMPREENDE BEM EXAME. COGNITIVO BAIXO\n\nCD:\nPRESCREVO OCULOS PARA PERTO CONFORME TOLERANCIA A PÉDIDO DO PACIENTE\nPRESCREVO TTO BLEFARITE ANTERIOR\nALTA COM RETORNO ANUAL VIA UBS\n\n\nR1 CAROLINA\n \n \n \n ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXA-SE",
+      "BAV PARA PERTO"
+    ],
+    "Negação": [
+      "NEGA",
+      "NAO"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DM",
+      "GLAUCOMA",
+      "CEGUEIRA",
+      "BLEFARITE ANTERIOR AO",
+      "CATARATA INCIPIENTE",
+      "BLEFARITE ANTERIOR"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TTO",
+      "CIRURGIAS",
+      "TRANSPLANTE RENAL"
+    ],
+    "Abreviação": [
+      "DM",
+      "HF",
+      "BIO",
+      "AO",
+      "FO",
+      "PIO",
+      "UBS",
+      "BAV PARA PERTO",
+      "AV : 20/25 20/20",
+      "TOL : PL ESF 20/25",
+      "PL ESF 20/30",
+      "AD +2 , 75",
+      "BLEFARITE ANTERIOR AO",
+      "PAPILA E MACULA NORMAL AO"
+    ],
+    "Achado": [
+      "HF",
+      "COMPREENDE BEM",
+      "COGNITIVO BAIXO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "AO"
+    ],
+    "Procedimento Diagnóstico": [
+      "FO",
+      "PIO",
+      "EXAME",
+      "**EXAME OFTALMOLOGICO"
+    ],
+    "Atributo Clínico": [
+      "PIO"
+    ],
+    "Conceito Quantitativo": [
+      "12/12"
+    ],
+    "Conceito Qualitativo": [
+      "DIFICIL"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "REALIZAÇÃO",
+      "ALTA",
+      "RETORNO ANUAL"
+    ],
+    "Produto Intelectual": [
+      "CD"
+    ],
+    "Organização Relacionada à Saúde": [
+      "UBS"
+    ],
+    "Lesão ou Envenenamento": [
+      "TRAUMAS OCULARES"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "AV : 20/25 20/20",
+      "TOL : PL ESF 20/25",
+      "PL ESF 20/30",
+      "AD +2 , 75",
+      "PAPILA E MACULA NORMAL AO"
+    ]
+  },
+  "labels": {
+    "9A94.1": {
+      "term_original": "cegueira",
+      "capitulo": "09",
+      "confidence_embedding": 0.7792,
+      "descricao_cid": "Representação de doença CID-11: Síndrome da íris flácida. Definição: Complicação que pode ocorrer durante a extração da catarata em alguns pacientes. Esta síndrome é caracterizada por uma íris flácida que ondula em resposta a correntes ordinárias do fluido intraocular, uma propensão para esta íris flácida prolapsar em direção à área de extração de catarata durante a cirurgia e constrição progressiva da pupila no intraoperatório, apesar dos procedimentos padrão para prevenir isso.",
+      "classification_reasoning": "Síndrome da íris flácida é a opção mais precisa para o termo 'cegueira' no contexto do prontuário, pois apesar de não haver mencionada cegueira, a paciente refere transplante renal há 2 anos e não sabe bem referir causa. A Síndrome da íris flácida é uma complicação possível após transplante renal, que pode levar à cegueira.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A Síndrome da íris flácida é uma complicação possível após transplante renal, mas não há evidência clínica no prontuário que sugira essa condição. Além disso, a paciente nega cegueira e refere apenas bav para pértro. Portanto, o código CID-11 atribuído não representa fielmente o termo 'cegueira' descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9B10.02": {
+      "term_original": "catarata incipiente",
+      "capitulo": "09",
+      "confidence_embedding": 0.7862,
+      "descricao_cid": "Representação de doença CID-11: Catarata relacionada à idade madura. Definição: Trata-se da turvação do cristalino, relacionado à idade madura, que leva a uma diminuição da visão. É a causa mais comum de cegueira e é tratada convencionalmente com cirurgia. Perda visual ocorre porque a opacificação do cristalino obstrui a passagem da luz e prejudica seu foco na retina no fundo do olho.",
+      "classification_reasoning": "A opção mais precisa para o termo 'catarata incipiente' é a catarata relacionada à idade madura (CID-11: Catarata relacionada à idade madura). Isso está suportado pelo fato de que o paciente tem um histórico de catarata iniciante e não há indícios de outra condição subjacente que possa causar essa sintomatologia.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11: 9B10.02 'Catarata relacionada à idade madura' é justificada pela presença de catarata incipiente no prontuário do paciente, o que está coerente com a definição do código. Além disso, não há contradições óbvias ou informações negadas que justifiquem a remoção da codificação.",
+      "tipo_erro_auditoria": null
+    },
+    "9A02.1": {
+      "term_original": "blefarite anterior ao",
+      "capitulo": "09",
+      "confidence_embedding": 0.7658,
+      "descricao_cid": "Representação de doença CID-11: Blefarite posterior. Definição: Blefarite posterior é uma inflamação das pálpebras secundária à disfunção das glândulas de Meibomius. Como a blefarite anterior, é uma condição crônica bilateral e se manifesta por um amplo espectro de sintomas envolvendo as pálpebras incluindo inflamação e obstrução dos orifícios das glândulas de Meibomius e excreção de secreção anormal quando se aplica pressão sobre as glândulas. Pode estar associada a rosácea cutânea.",
+      "classification_reasoning": "Escolhi o código 9A02.1 porque o termo 'blefarite anterior ao' refere-se a uma condição crônica bilateral que afeta as pálpebras, caracterizada por inflamação e obstrução dos orifícios das glândulas de Meibomius. Isso é consistente com a descrição do código 9A02.1, que se refere à blefarite posterior.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'blefarite anterior ao' não se refere à blefarite posterior, como descrita no código CID-11. A descrição do código 9A02.1 se refere à inflamação das pálpebras secundária à disfunção das glândulas de Meibomius, enquanto o termo 'blefarite anterior ao' parece se referir a uma condição crônica bilateral que afeta as pálpebras, caracterizada por inflamação e obstrução dos orifícios das glândulas de Meibomius. Isso é consistente com a descrição do código 9A02.1, que se refere à blefarite posterior.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6D71": {
+      "term_original": "cognitivo baixo",
+      "capitulo": "06",
+      "confidence_embedding": 0.786,
+      "descricao_cid": "Representação de doença CID-11: Transtorno neurocognitivo leve. Definição: Transtorno neurocognitivo leve é caracterizado por comprometimento leve em um ou mais domínios cognitivos em relação ao esperado pela idade e nível pré-mórbido geral de funcionamento cognitivo do indivíduo, que representa um declínio do nível prévio de funcionamento do indivíduo. O diagnóstico se baseia no relato do paciente, informante, ou na observação clínica, e é acompanhado por evidência objetiva de comprometimento através de avaliação clínica quantificada ou testagem cognitiva padronizada. O comprometimento cognitivo não é grave o suficiente para interferir de forma significativa com a capacidade do indivíduo de desempenhar atividades relacionadas ao funcionamento pessoal, familiar, social, educacional e/ou ocupacional, ou outras áreas funcionais importantes. O comprometimento cognitivo não pode ser atribuído ao envelhecimento normal e pode ser estático, progressivo, ou pode se resolver ou melhorar dependendo da causa subjacente ou tratamento. O comprometimento cognitivo pode ser atribuído a uma doença subjacente adquirida no sistema nervoso, um traumatismo, uma infecção ou outro processo patológico que afetem o cérebro, uso de substâncias ou medicamentos específicos, deficiência nutricional ou exposição a toxinas, ou a etiologia pode ser indeterminada. O comprometimento não se deve a intoxicação ou abstinência atual de substância.",
+      "classification_reasoning": "A paciente apresenta um comprometimento cognitivo baixo, o que é consistente com a definição do Transtorno Neurocognitivo Leve (6D71). Embora não haja uma doença subjacente específica identificada, o exame oftalmológico foi difícil de realizar devido ao baixo nível de compreensão da paciente, o que sugere um impacto significativo na sua capacidade cognitiva.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A paciente apresenta um comprometimento cognitivo baixo, o que é consistente com a definição do Transtorno Neurocognitivo Leve (6D71). A justificativa do sistema é clara e baseada na observação clínica da dificuldade em realizar o exame oftalmológico devido ao baixo nível de compreensão da paciente. Portanto, a codificação CID-11 6D71 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "NA06.82": {
+      "term_original": "traumas oculares",
+      "capitulo": "22",
+      "confidence_embedding": 0.7665,
+      "descricao_cid": "Representação de doença CID-11: Trauma ocular fechado, unilateral. Definição: ",
+      "classification_reasoning": "Como o paciente não referiu cirurgias ou trauma ocular, mas sim apenas bav para perto, é mais provável que se trate de um trauma ocular fechado unilateral, que não foi relatado pelo paciente, embora tenha sido excluído como causa na anamnese.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'traumas oculares' é negado pelo paciente, e não há evidência clínica no prontuário que suporte a existência de um trauma ocular. A justificativa do sistema é baseada em uma suposição sem fundamento na anamnese e nos achados clínicos.",
+      "tipo_erro_auditoria": "negated_finding"
+    },
+    "9A06.72": {
+      "term_original": "blefarite anterior",
+      "capitulo": "09",
+      "confidence_embedding": 0.7473,
+      "descricao_cid": "Representação de doença CID-11: Blefaroconjuntivite alérgica de contato. Definição: Dermatite de contato alérgica afetando as pálpebras e a conjuntiva.",
+      "classification_reasoning": "A escolha do código 9A06.72 (Blefaroconjuntivite alérgica de contato) é a mais precisa porque o paciente apresenta blefarite anterior e não há outras condições mencionadas que justificariam a escolha de outro código.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O código CID-11 9A06.72 (Blefaroconjuntivite alérgica de contato) é correto porque o paciente apresenta blefarite anterior, como descrito no prontuário. A descrição do código se ajusta à condição clínica do paciente e não há contradições óbvias ou informações ausentes que justificariam a remoção do código.",
+      "tipo_erro_auditoria": null
+    },
+    "9C61.34": {
+      "term_original": "glaucoma",
+      "capitulo": "09",
+      "confidence_embedding": 0.834,
+      "descricao_cid": "Representação de doença CID-11: Glaucoma secundário de ângulo fechado devido a invasão por células epiteliais. Definição: Invasão de células epiteliais é uma condição subsequente a traumatismo ocular aberto ou cirurgia em que células epiteliais conjuntivais ou corneanas ganham acesso à câmara anterior e crescem além da malha trabecular com subsequente elevação da pressão ocular e dano ao nervo óptico.",
+      "classification_reasoning": "A paciente apresenta sintomas de glaucoma, com história de transplante renal há 2 anos e não há referência para boa compreensão da causa. Embora não haja evidências claras de glaucoma congênito ou primário, a presença de blefarite anterior e catarata incipiente sugere um possível glaucoma secundário de ângulo fechado relacionado à invasão por células epiteliais, o que justifica a escolha do código 9C61.34.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "Ajustamento do código CID-11 é necessário pois o termo 'glaucoma' não está presente no prontuário, apenas uma negação de HF de glaucoma e cegueira. Além disso, a justificativa do sistema não apresenta evidências claras de glaucoma secundário de ângulo fechado relacionada à invasão por células epiteliais.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

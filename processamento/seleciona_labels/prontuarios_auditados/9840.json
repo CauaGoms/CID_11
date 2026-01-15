@@ -1,0 +1,126 @@
+{
+  "prontuario_id": 650,
+  "text": "Interna para angioplastia seguida de implante de stent Driver em terço médio de coronária direita e stent Cypher em artéria segunda marginal. Procedimento realizado em 06/12/04 pelo Doutor Vital Brazil, sem intercorrências e com sucesso angiográfico. Recebe alta em bom estado geral, afebril, sinais vitais estáveis, sem sinais de hematoma ou pseudoaneurisma em local de punção e com boa perfusão de membros inferiores. Orientado a: - retorno à emergência se necessário. - retorno ao médico assistente em uma semana. - orientações gerais. - manter medicações em uso (orientado a usar plavix 75mg xdia por mais 3 meses e manter uso por tempo indefinido de AAS, angipress e medicações para dislipidemia).",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "Interna",
+      "alta",
+      "Orientado",
+      "retorno",
+      "orientado",
+      "orientações gerais",
+      "manter medicações em uso",
+      "manter uso"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "angioplastia",
+      "Procedimento",
+      "implante de stent Driver",
+      "stent Cypher"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Doutor",
+      "médico médico assistente assistente"
+    ],
+    "Negação": [
+      "sem",
+      "afebril"
+    ],
+    "Sinal ou Sintoma": [
+      "intercorrências",
+      "afebril",
+      "sinais",
+      "hematoma"
+    ],
+    "Função Patológica": [
+      "pseudoaneurisma"
+    ],
+    "Organização Relacionada à Saúde": [
+      "emergência"
+    ],
+    "Substância Química Orgânica": [
+      "plavix",
+      "AAS"
+    ],
+    "Substância Farmacológica": [
+      "plavix",
+      "AAS",
+      "angipress"
+    ],
+    "Abreviação": [
+      "AAS"
+    ],
+    "Dispositivo Médico": [
+      "stent Cypher"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "artéria segunda marginal",
+      "membros inferiores"
+    ],
+    "Achado": [
+      "sucesso angiográfico",
+      "bom bom estado estado geral geral",
+      "sinais vitais estáveis",
+      "boa perfusão"
+    ],
+    "Conceito Temporal": [
+      "uma semana",
+      "tempo indefinido"
+    ],
+    "Conceito Quantitativo": [
+      "75mg xdia"
+    ]
+  },
+  "labels": {
+    "BA81": {
+      "term_original": "sucesso angiográfico",
+      "capitulo": "11",
+      "confidence_embedding": 0.7659,
+      "descricao_cid": "Representação de doença CID-11: Aneurisma de artéria coronária. Definição: Dilatação coronária que excede o diâmetro dos segmentos adjacentes normais ou o diâmetro do maior vaso coronário do paciente em 1,5 vezes.",
+      "classification_reasoning": "Escolha baseada na descrição do procedimento realizado, que menciona a angioplastia seguida de implante de stent em artéria coronária direita e segunda marginal, o que sugere a presença de um aneurisma ou doença da artéria coronária. O termo 'sucesso angiográfico' se refere ao resultado do procedimento, que não há complicações ou intercorrências.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do procedimento realizado não sugere a presença de um aneurisma ou doença da artéria coronária. A angioplastia seguida de implante de stent Driver e Cypher em terço médio de coronária direita e segunda marginal é uma intervenção para tratar obstrução coronariana, não uma representação de doença CID-11. O termo 'sucesso angiográfico' se refere ao resultado do procedimento, que não há complicações ou intercorrências.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NE81.0": {
+      "term_original": "pseudoaneurisma",
+      "capitulo": "22",
+      "confidence_embedding": 0.6997,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A descrição do termo 'pseudoaneurisma' se relaciona à hemorragia ou hematoma complicando um procedimento, o que coincide com a descrição do código NE81.0.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'pseudoaneurisma' se refere a uma lesão vascular, enquanto o procedimento realizado foi uma angioplastia e implante de stent em artéria coronária. A presença de pseudoaneurisma não é compatível com o relato do prontuário, que descreve um procedimento sem intercorrências e com sucesso angiográfico.",
+      "tipo_erro_auditoria": "anatomical_mismatch"
+    },
+    "MC80.0Y": {
+      "term_original": "intercorrências",
+      "capitulo": "21",
+      "confidence_embedding": 0.7726,
+      "descricao_cid": "Representação de doença CID-11: Outro valor elevado da pressão arterial especificado, sem diagnóstico de hipertensão. Definição: ",
+      "classification_reasoning": "A opção mais precisa é MC80.0Y porque 'intercorrências' refere-se a eventos adversos ou complicações durante o procedimento, e o código descreve valor elevado da pressão arterial sem diagnóstico de hipertensão.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'intercorrências' refere-se a eventos adversos ou complicações durante o procedimento, enquanto o código MC80.0Y descreve valor elevado da pressão arterial sem diagnóstico de hipertensão. A relação entre os dois é puramente imaginária e não há base clínica para essa associação.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME64": {
+      "term_original": "sinais",
+      "capitulo": "21",
+      "confidence_embedding": 0.7498,
+      "descricao_cid": "Representação de doença CID-11: Sinais vasculares cutâneos não específicos. Definição: Alterações perceptíveis na pele resultantes de alterações na composição do sangue, fluxo sanguíneo ou integridade dos vasos sanguíneos. Podem ser devidas a fatores locais ou podem indicar transtornos subjacentes, como anemia, hipovolemia, febre, hipóxia ou defeitos na coagulação.",
+      "classification_reasoning": "A opção mais precisa é ME64, pois o termo 'sinais' refere-se às alterações perceptíveis na pele resultantes de alterações na composição do sangue, fluxo sanguíneo ou integridade dos vasos sanguíneos. Nesse contexto clínico, a descrição de sinais vitais estáveis sugere que os autores estão se referindo à ausência de sintomas cutâneos importantes.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção ME64 não é válida porque o termo 'sinais' se refere a alterações perceptíveis na pele, enquanto no prontuário está descrito como sinais vitais estáveis, que são parâmetros clínicos diferentes. A descrição de sinais vitais estáveis não se relaciona com a definição do código ME64.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA83": {
+      "term_original": "boa perfusão",
+      "capitulo": "11",
+      "confidence_embedding": 0.7762,
+      "descricao_cid": "Representação de doença CID-11: Fístula da artéria coronária, adquirida. Definição: Comunicação anormal entre uma artéria coronária e câmara cardíaca ou vasos principais, adquirida após cirurgia coronária ou cardíaca, angioplastia coronária, ruptura ou aneurisma da artéria coronária ou lesão do coração.",
+      "classification_reasoning": "O termo 'boa perfusão' refere-se à presença de fluxo sanguíneo normal e regular em um território específico (membros inferiores), o que é consistente com a definição do código BA83, relativa à comunicação anormal entre uma artéria coronária e câmara cardíaca ou vasos principais. Além disso, o procedimento de angioplastia seguida de implante de stent pode ter contribuído para essa boa perfusão.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A definição do código BA83 refere-se a comunicação anormal entre uma artéria coronária e câmara cardíaca ou vasos principais, adquirida após cirurgia coronária ou cardíaca, angioplastia coronária, ruptura ou aneurisma da artéria coronária ou lesão do coração. No entanto, o termo 'boa perfusão' não se refere a uma comunicação anormal entre artérias e câmaras cardíacas. Ele simplesmente descreve a presença de fluxo sanguíneo normal em membros inferiores após procedimento de angioplastia. Portanto, a classificação do código BA83 para o termo 'boa perfusão' é demasiado geral e não representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

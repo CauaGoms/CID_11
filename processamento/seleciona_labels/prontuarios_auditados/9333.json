@@ -1,0 +1,156 @@
+{
+  "prontuario_id": 702,
+  "text": "PACIENTE COM HAS , COM DM , CRM PRÁVIA , COM ANGIOPLASTIA COM STENT EM PONTE DE SAFENA SEQUENCIAL PARA CX E CD EM NOVEMBRO DE 2005 , COM NECESSIDADE DE ANGIOPLASTIA INTRA STENT POR ANGINA EM JUNHO DE 2006 . RETORNA PARA NOVO CATETERISMO DIAGNÓSTICO POR ANGINA DE CARÁTER PROGRESSIVO , COM DOR AO REPOUSO NOS DIAS PRECEDENTES AO EXAME . DURANTE O PROCEDIMENTO , DOR PRECORDIAL IMPORTANTE , COM NECESSIDADE DE NTG EV PARA CONTROLE DA DOR . REALIZADA ENTÃO NOVAMENTE ANGIOPLASTIA INTRA STENT , COM MELHORA CLÍNICA . SEM ALTERAÇÕES ELETROCARDIOGRÁFICAS SUGESTIVAS DE ISQUEMIA AGUDA .  RECEBE ALTA EM BOM ESTADO GERAL , OM ORIENTAÇÃO DE MANTER MEDICAÇÕES EM USO PRÉVIO E MANTER ACOMPANHAMENTO COM SEU MÉDICO ASSISTENTE .",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Abreviação": [
+      "HAS",
+      "DM",
+      "CRM",
+      "CX",
+      "CD"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "DM",
+      "ANGINA",
+      "ALTERAÇÕES ELETROCARDIOGRÁFICAS SUGESTIVAS DE ISQUEMIA AGUDA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CRM",
+      "PROCEDIMENTO",
+      "ANGIOPLASTIA INTRA STENT",
+      "CONTROLE DA DOR"
+    ],
+    "Conceito Temporal": [
+      "PRÁVIA",
+      "DURANTE",
+      "DIAS PRECEDENTES",
+      "USO PRÉVIO"
+    ],
+    "Dispositivo Médico": [
+      "STENT"
+    ],
+    "Conceito Qualitativo": [
+      "SEQUENCIAL"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "CX",
+      "CD",
+      "PONTE DE SAFENA"
+    ],
+    "Sinal ou Sintoma": [
+      "ANGINA",
+      "ANGINA DE CARÁTER PROGRESSIVO",
+      "DOR AO REPOUSO",
+      "DOR PRECORDIAL IMPORTANTE",
+      "ALTERAÇÕES ELETROCARDIOGRÁFICAS SUGESTIVAS DE ISQUEMIA AGUDA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "RETORNA",
+      "ALTA",
+      "ORIENTAÇÃO",
+      "MANTER ACOMPANHAMENTO"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAME",
+      "PROCEDIMENTO",
+      "CATETERISMO DIAGNÓSTICO"
+    ],
+    "Substância Farmacológica": [
+      "NTG",
+      "MEDICAÇÕES"
+    ],
+    "Substância Química Orgânica": [
+      "NTG"
+    ],
+    "Conceito Funcional": [
+      "EV"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Achado": [
+      "MELHORA CLÍNICA",
+      "ALTERAÇÕES ELETROCARDIOGRÁFICAS SUGESTIVAS DE ISQUEMIA AGUDA",
+      "BOM ESTADO GERAL"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "MÉDICO ASSISTENTE"
+    ]
+  },
+  "labels": {
+    "BA83": {
+      "term_original": "has",
+      "capitulo": "11",
+      "confidence_embedding": 0.7727,
+      "descricao_cid": "Representação de doença CID-11: Fístula da artéria coronária, adquirida. Definição: Comunicação anormal entre uma artéria coronária e câmara cardíaca ou vasos principais, adquirida após cirurgia coronária ou cardíaca, angioplastia coronária, ruptura ou aneurisma da artéria coronária ou lesão do coração.",
+      "classification_reasoning": "A opção mais precisa para o termo 'has' é BA83, pois representa uma comunicação anormal entre uma artéria coronária e câmara cardíaca ou vasos principais, adquirida após cirurgia coronária ou cardíaca, angioplastia coronária, ruptura ou aneurisma da artéria coronária ou lesão do coração.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'has' não se refere a uma comunicação anormal entre uma artéria coronária e câmara cardíaca ou vasos principais, adquirida após cirurgia coronária ou cardíaca, angioplastia coronária, ruptura ou aneurisma da artéria coronária ou lesão do coração. Em vez disso, refere-se a uma condição clínica que não está relacionada à comunicação anormal entre artérias coronárias e câmara cardíaca. Portanto, o código CID-11 BA83 não representa fielmente o termo 'has' no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA40.Y": {
+      "term_original": "angina",
+      "capitulo": "11",
+      "confidence_embedding": 0.8022,
+      "descricao_cid": "Representação de doença CID-11: Outra angina pectoris especificada. Definição: ",
+      "classification_reasoning": "A escolha do código BA40.Y é a mais precisa pois o termo 'angina' está explicitamente relacionado à doença coronariana vasoespástica, que é definida como uma vasoconstrição súbita e intensa de uma artéria coronária epicárdica que causa a oclusão ou quasi-oclusão do vaso. Isso se ajusta ao contexto clínico da paciente com angina pectoris.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código BA40.Y é inadequada pois o termo 'angina' não está explicitamente relacionado à doença coronariana vasoespástica. A angina pode ser causada por várias razões, incluindo aterosclerose, espasmo muscular e outras condições que não são necessariamente relacionadas à doença coronariana. Portanto, o código BA40.Y não representa fielmente o termo 'angina' descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG30.21": {
+      "term_original": "dor ao repouso",
+      "capitulo": "21",
+      "confidence_embedding": 0.7751,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática.",
+      "classification_reasoning": "A dor ao repouso é descrita como crônica e pós-operatória, o que se ajusta melhor à definição do código MG30.21, que refere-se a dor pós-operatória crônica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor ao repouso é um sintoma, enquanto o código MG30.21 refere-se a uma condição diagnóstica (dor pós-operatória crônica). Embora a dor seja descrita como crônica e pós-operatória, não há evidência clínica suficiente no prontuário para justificar a atribuição do código MG30.21. A análise da história clínica revela que a dor é um sintoma de angina, e não uma condição diagnóstica específica.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "ME24.A4": {
+      "term_original": "melhora clínica",
+      "capitulo": "21",
+      "confidence_embedding": 0.724,
+      "descricao_cid": "Representação de doença CID-11: Melena. Definição: São fezes com sangue que indicam sangramento do sistema vascular no trato digestivo. Melena também é descrita como fezes pretas, de cor de alcatrão e malcheirosas ou fezes de cor vermelha/marrom que contêm sangue degradado.",
+      "classification_reasoning": "A escolha do código ME24.A4 (Melena) é a mais precisa porque o termo 'melhora clínica' refere-se à melhoria no sintoma de dor ao repositório, e não tem relação com crises de pânico ou valor elevado da pressão arterial. Além disso, o contexto do prontuário menciona dor precordial importante durante o procedimento, o que sugere uma possível hemorragia digestiva ou melena, justificando a escolha desse código.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código ME24.A4 (Melena) não é justificada, pois o termo 'melhora clínica' não está relacionado à hemorragia digestiva ou melena. A dor precordial importante durante o procedimento pode ser uma indicação de angina pectoris, e a melhora clínica após nova angioplastia intra-stent é mais provável que seja um resultado da intervenção cardiovascular do que uma melhora na função gastrointestinal.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MC86": {
+      "term_original": "dor precordial importante",
+      "capitulo": "21",
+      "confidence_embedding": 0.7523,
+      "descricao_cid": "Representação de doença CID-11: Dor precordial. Definição: ",
+      "classification_reasoning": "A dor precordial importante mencionada no contexto clínico se refere à representação de doença CID-11 para Dor precordial, que é a opção mais precisa para o termo dentro do contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor precordial importante mencionada no prontuário refere-se à sintomatologia do paciente, não à doença em si. O código CID-11 MC86 'Dor precordial' não representa fielmente o termo descrito no prontuário, que é uma condição clínica específica e não apenas um sintoma. Além disso, a dor precordial importante pode ser um sinal de várias doenças, incluindo doenças cardíacas, pulmonares ou musculares, portanto, o código CID-11 MC86 não é suficientemente específico para representar fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5C78": {
+      "term_original": "dm",
+      "capitulo": "05",
+      "confidence_embedding": 0.7576,
+      "descricao_cid": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem.",
+      "classification_reasoning": "A opção mais precisa para o termo 'dm' é a sobrecarga de líquidos (ICD-11: 5C78), pois DM refere-se à doença cardiovascular, especificamente a doença cardíaca. A descrição da história clínica menciona a presença de doença cardíaca (DM) e angina, o que reforça essa escolha.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'dm' é a doença cardiovascular (ICD-11: 5C78), pois DM refere-se especificamente à doença cardíaca. A descrição da história clínica menciona a presença de doença cardíaca (DM) e angina, o que reforça essa escolha.",
+      "tipo_erro_auditoria": null
+    },
+    "MD11.5": {
+      "term_original": "alterações eletrocardiográficas sugestivas de isquemia aguda",
+      "capitulo": "21",
+      "confidence_embedding": 0.7326,
+      "descricao_cid": "Representação de doença CID-11: Dispneia. Definição: Dispneia é o termo utilizado para descrever percepções de dificuldade ou sofrimento relacionados à respiração e é reconhecido como sintoma de doença quando ocorre em circunstâncias inapropriadas. Dispneia é uma queixa apresentada por pacientes com uma ampla variedade de condições médicas, causadas por múltiplos mecanismos.\r\nA dispneia é considerada aguda quando dura de horas a 3 semanas, subaguda de 3 a 8 semanas e a dispneia crônica dura mais de 8 semanas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'alterações eletrocardiográficas sugestivas de isquemia aguda' é a dispneia (Dor respiratória), pois isso se refere ao sintoma apresentado no contexto clínico: 'Sem alterações eletrocardiográficas sugestivas de isquemia aguda'.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção 'MD11.5' não representa fielmente o termo 'alterações eletrocardiográficas sugestivas de isquemia aguda'. A dispneia (Dor respiratória) é um sintoma, enquanto a alteração eletrocardiográfica sugestiva de isquemia aguda é uma condição clínica. Além disso, o prontuário não apresenta qualquer referência à dispneia, apenas menciona dor precordial importante durante o procedimento. Portanto, a codificação 'MD11.5' não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

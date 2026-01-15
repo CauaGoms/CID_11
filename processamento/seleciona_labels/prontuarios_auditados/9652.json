@@ -1,0 +1,66 @@
+{
+  "prontuario_id": 667,
+  "text": "Retorno com exames pré-op para hérnia inguinal.\n\nFez troca de valva mitral há 9 anos.\nQueixa de dispnéia. Não está se alimentando direito.\n\nFoi a consulta com cardiologista, que recomendou não realizar a cirurgia no momento.\n\nECG: ritmo sinusal, provável sobrecarga ventricular esquerda, alteração da repolarização difusa.\n\nGlicose 67.\nureia 59.\nNa 136.\n\nOriento retorno quando houver liberação do cardio.\n \n \n \n ",
+  "entities": {
+    "Negação": [
+      "Não",
+      "não"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "consulta"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "cardiologista",
+      "cardio"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "cirurgia"
+    ],
+    "Abreviação": [
+      "ECG",
+      "Na 136"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECG"
+    ],
+    "Produto Intelectual": [
+      "liberação"
+    ],
+    "Anormalidade Anatômica": [
+      "hérnia inguinal"
+    ],
+    "Sinal ou Sintoma": [
+      "Queixa de dispnéia"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ritmo sinusal",
+      "provável sobrecarga ventricular esquerda",
+      "alteração da repolarização difusa",
+      "Glicose 67",
+      "ureia 59",
+      "Na 136"
+    ]
+  },
+  "labels": {
+    "R06.0": {
+      "term_original": "queixa de dispnéia",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A queixa de dispnéia é característica de uma doença respiratória, e o código R06.0 (Representação de doença CID-11: Dispnéia) é a opção mais precisa para esse termo no contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A queixa de dispnéia é uma condição clínica descrita no prontuário, diretamente relacionada à doença cardíaca do paciente. O código R06.0 (Dispnéia) é a opção mais precisa para esse termo no contexto clínico.",
+      "tipo_erro_auditoria": null
+    },
+    "CA22.0": {
+      "term_original": "hérnia inguinal",
+      "capitulo": "12",
+      "confidence_embedding": 0.745,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A escolha do Código CA22.0 (Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada) é a mais precisa para o termo 'hérnia inguinal' dentro do contexto clínico, pois a queixa de dispnéia e a orientação para liberação cardio sugerem um problema respiratório subjacente, como a Doença Pulmonar Obstrutiva Crônica (DPOC) com exacerbação aguda.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CA22.0 (Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada) para o termo 'hérnia inguinal' é uma classificação errônea. A hérnia inguinal é um problema cirúrgico relacionado à pele e ao tecido conjuntivo, enquanto a Doença Pulmonar Obstrutiva Crônica (DPOC) é uma doença respiratória. Embora a queixa de dispnéia possa sugerir um problema respiratório subjacente, não há nenhuma indicação clínica direta de que a hérnia inguinal esteja relacionada à DPOC. A classificação deve ser mais específica e relacionada ao termo 'hérnia inguinal', como por exemplo o código CA00.9 (Doença do tecido conjuntivo, não especificada).",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

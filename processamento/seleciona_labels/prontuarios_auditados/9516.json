@@ -1,0 +1,187 @@
+{
+  "prontuario_id": 644,
+  "text": "TX RENAL\nFALENCIA ENXERTO POR INFARTO ISQUEMICO, SEM EVIDENCIAS DE TROMBOSE NA PEÇA ANATOMICA\nUSANDO ANLO 5 X2, CVD 12,5 X2, LOSARTAN 50 X1, RENALVITE, CALCIOLITE 8 CP / DIA\nS : INICIOU ATB ONTEM POR CATETER\no : pa 130/90  p 78  afebril\nHIPOCORADA\nCPP LIVRES\nPC RITMO REGULAR\nABD RHA+, FLACIDO, COLEÇÃO FID\nMMII SEM EDEMA\nDRC ESTAGIO 5\nFALENCIA ENXERTO POR INFARTO RENAL\n \n \n ",
+  "entities": {
+    "Conceito Funcional": [
+      "FALENCIA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "ENXERTO",
+      "TX RENAL"
+    ],
+    "Negação": [
+      "SEM",
+      "afebril"
+    ],
+    "Doença ou Síndrome": [
+      "TROMBOSE",
+      "INFARTO ISQUEMICO",
+      "DRC ESTAGIO 5",
+      "INFARTO RENAL"
+    ],
+    "Abreviação": [
+      "ANLO",
+      "CVD",
+      "ATB",
+      "pa",
+      "p",
+      "CPP",
+      "PC",
+      "ABD",
+      "RHA+",
+      "FID",
+      "MMII",
+      "TX RENAL",
+      "DRC ESTAGIO 5"
+    ],
+    "Substância Farmacológica": [
+      "ANLO",
+      "CVD",
+      "LOSARTAN",
+      "RENALVITE",
+      "CALCIOLITE"
+    ],
+    "Substância Química Orgânica": [
+      "CVD",
+      "LOSARTAN"
+    ],
+    "Antibiótico": [
+      "ATB"
+    ],
+    "Conceito Temporal": [
+      "ONTEM"
+    ],
+    "Dispositivo Médico": [
+      "CATETER"
+    ],
+    "Atributo Clínico": [
+      "pa",
+      "p",
+      "CPP",
+      "PC"
+    ],
+    "Conceito Quantitativo": [
+      "130/90",
+      "78",
+      "5 X2",
+      "12 , 5 X2",
+      "50 X1",
+      "8 CP / DIA"
+    ],
+    "Achado": [
+      "afebril",
+      "LIVRES",
+      "RHA+",
+      "FLACIDO",
+      "RITMO REGULAR"
+    ],
+    "Sinal ou Sintoma": [
+      "HIPOCORADA",
+      "COLEÇÃO",
+      "EDEMA"
+    ],
+    "Localização ou Região Corporal": [
+      "ABD",
+      "FID",
+      "MMII"
+    ],
+    "Substância Corporal": [
+      "COLEÇÃO"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "PEÇA ANATOMICA"
+    ]
+  },
+  "labels": {
+    "8B11": {
+      "term_original": "ritmo regular",
+      "capitulo": "08",
+      "confidence_embedding": 0.7316,
+      "descricao_cid": "Representação de doença CID-11: Acidente cerebral isquêmico. Definição: Disfunção neurológica focal aguda causada por infarto focal em uma ou várias localizações do cérebro. A evidência de infarto agudo pode ser proveniente de a) duração dos sintomas por mais de 24 horas, ou b) neuroimagem ou outra técnica na área clinicamente relevante do cérebro. O termo não inclui infarto da retina.",
+      "classification_reasoning": "A descrição do termo 'ritmo regular' se refere à ausência de alterações cardíacas anormais, o que é consistente com a definição do acidente vascular cerebral isquêmico (AVC) descrita no código CID-11 8B11.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'ritmo regular' não se refere a uma doença cerebral isquêmica, mas sim à ausência de alterações cardíacas anormais. Portanto, o código CID-11 8B11 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA25": {
+      "term_original": "flacido",
+      "capitulo": "15",
+      "confidence_embedding": 0.729,
+      "descricao_cid": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato.",
+      "classification_reasoning": "A opção mais precisa para o termo 'flacido' é a gota (FA25), pois a descrição menciona deposição de cristais de urato em tecidos articulares, que pode causar dor e inflamação, levando à flacidez dos músculos afetados.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário não menciona a presença de gota, apenas uma falência renal e infarto isquêmico. A flacidez descrita pode ser um sintoma da hipocoração ou da falência renal, mas não há relação direta com a gota. Portanto, o código CID-11 FA25 não representa fielmente o termo 'flacido' no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA27.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7601,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo palindrômico. Definição: Reumatismo palindrômico causa crises agudas de dor e edema nas articulações, tipicamente nas mãos e nos pés. Cada episódio pode durar de algumas horas a vários dias. A frequência das crises também é variável. No intervalo entre as crises, a dor e o edema desaparecem completamente e as articulações acometidas parecem normais nas radiografias. É provável que 30 a 50 por cento dos pacientes com reumatismo palindrômico desenvolverão artrite reumatoide, mas a progressão pode levar vários anos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'edema' no contexto do prontuário é a artropatia palindrômica, uma doença caracterizada por crises agudas de dor e edema nas articulações.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'edema' no contexto do prontuário é a falência renal, não reumatismo palindrômico. A descrição de edema na pele e membros inferiores não se ajusta à definição de reumatismo palindrômico.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA60.1": {
+      "term_original": "hipocorada",
+      "capitulo": "11",
+      "confidence_embedding": 0.7571,
+      "descricao_cid": "Representação de doença CID-11: Outra pericardite como complicação atual subsequente a infarto agudo do miocárdio. Definição: Inflamação do pericárdio que pode causar dor no peito, que ocorre tão precocemente quanto o primeiro dia e até 6 semanas após o infarto agudo do miocárdio. A dor da pericardite irradia para qualquer crista do trapézio. O infarto do miocárdio transmural é responsável pela inflamação pericárdica local. Atritos pericárdicos transitórios são relativamente comuns em pacientes com infarto transmural nas primeiras 48 horas. Uma pericardite fibrinosa aguda ocorre comumente após o infarto transmural, enquanto o risco de pericardite hemorrágica está aumentado por anticoagulação.",
+      "classification_reasoning": "A hipocorada mencionada no relatório é provavelmente uma pericardite como complicação atual subsequente ao infarto agudo do miocárdio, pois a doença cardíaca hipertensiva (BA01) e a doença renal hipertensiva (BA02) não se aplicam nesse contexto. A escolha BA60.1 é mais precisa porque a pericardite é uma complicação comum após o infarto agudo do miocárdio, e os sintomas descritos no relatório, como dor no peito irradiando para qualquer crista do trapézio, são consistentes com essa condição.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hipocorada mencionada no relatório é provavelmente uma pericardite como complicação atual subsequente ao infarto agudo do miocárdio, pois a doença cardíaca hipertensiva (BA01) e a doença renal hipertensiva (BA02) não se aplicam nesse contexto. A escolha BA60.1 é mais precisa porque a pericardite é uma complicação comum após o infarto agudo do miocárdio, e os sintomas descritos no relatório, como dor no peito irradiando para qualquer crista do trapézio, são consistentes com essa condição.",
+      "tipo_erro_auditoria": null
+    },
+    "ME62.1": {
+      "term_original": "trombose",
+      "capitulo": "21",
+      "confidence_embedding": 0.7517,
+      "descricao_cid": "Representação de doença CID-11: exantema purpúrico agudo. Definição: Diagnóstico provisório de erupção cutânea de natureza desconhecida ou incerta que surge abruptamente e que consiste predominantemente em púrpura disseminada. As causas potenciais são numerosas e incluem trombocitopenia, coagulopatias, vasculites e sepse.",
+      "classification_reasoning": "A opção ME62.1 é a mais precisa para o termo 'trombose' no contexto clínico, pois apresenta como definição um exantema purpúrico agudo que pode estar associado à trombocitopenia, coagulopatias ou vasculites.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção ME62.1 não é apropriada para o termo 'trombose' no contexto clínico, pois apresenta como definição um exantema purpúrico agudo que pode estar associado à trombocitopenia, coagulopatias ou vasculites. No entanto, o prontuário não apresenta evidências de trombose na peça anatômica e a falência renal é atribuída ao infarto isquêmico. Portanto, a codificação ME62.1 não representa fielmente o termo 'trombose' no contexto clínico.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GC7B": {
+      "term_original": "infarto isquemico",
+      "capitulo": "16",
+      "confidence_embedding": 0.8159,
+      "descricao_cid": "Representação de doença CID-11: Isquemia ou infarto pós-intervenção do rim. Definição: Isso se refere a uma restrição no suprimento de sangue aos tecidos renais devida a uma intervenção de saúde, causando uma escassez de oxigênio e glicose necessários para o metabolismo celular, resultando na morte das células do tecido renal.",
+      "classification_reasoning": "A escolha do código GC7B é justificada pois o paciente apresenta falência renal após infarto isquemico, o que se refere a uma restrição no suprimento de sangue aos tecidos renais devida a intervenção de saúde, causando escassez de oxigênio e glicose necessários para o metabolismo celular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'infarto isquemico' refere-se a uma condição específica de doença renal, enquanto o código CID-11 GC7B se refere à representação de doença após intervenção no rim. Embora haja uma relação entre os dois, não há uma correspondência direta entre o termo e o código. Além disso, o prontuário descreve a falência renal como resultado do infarto isquemico, mas o código CID-11 GC7B se refere à restrição no suprimento de sangue aos tecidos renais após intervenção, o que não é exatamente o mesmo. Portanto, o código CID-11 GC7B não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GB42": {
+      "term_original": "drc estagio 5",
+      "capitulo": "16",
+      "confidence_embedding": 0.7806,
+      "descricao_cid": "Representação de doença CID-11: Proteinúria ou albuminúria persistente. Definição: Albuminúria persistente > 3mg/mmol de creatinina ou > 30mg/dia é considerada anormal, indicativa e frequentemente a primeira manifestação de doença renal crônica (DRC). Na vigilância da DRC em pacientes “em risco”, como diabéticos, a análise de urina para albuminúria é recomendada pela maioria das diretrizes de prática clínica. Este diagnóstico não se refere à proteinúria intermitente, como na proteinúria ortostática ou induzida por exercício, nem à proteinúria não albuminúrica, como a proteinúria de Bence Jones (cadeia leve de imunoglobulina).",
+      "classification_reasoning": "A presença de 'DRC ESTAGIO 5' no contexto sugere que o paciente tem doença renal crônica (DRC) em estadio 5, o que é compatível com a definição da proteinúria ou albuminúria persistente (GB42).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de 'DRC ESTAGIO 5' no prontuário indica que o paciente tem doença renal crônica em estágio avançado. A codificação CID-11 GB42, que representa proteinúria ou albuminúria persistente, é clínica e coerentemente relacionada à condição descrita no prontuário. Portanto, a codificação é válida.",
+      "tipo_erro_auditoria": null
+    },
+    "FB32.2Y": {
+      "term_original": "coleção",
+      "capitulo": "15",
+      "confidence_embedding": 0.7379,
+      "descricao_cid": "Representação de doença CID-11: Outro Infarto isquêmico muscular, especificado. Definição: ",
+      "classification_reasoning": "A palavra 'coleção' está sendo usada para descrever a consistência do líquido sinovial na região abdominal (ABD RHA+, FLACIDO, COLEÇÃO FID), o que sugere um possível infarto isquêmico muscular. Como o termo 'coleção' é mais comummente associado à descrição de fluidos no corpo humano, a opção mais precisa para esse contexto clínico é FB32.2Y, que se refere à representação de doença CID-11: Outro Infarto isquêmico muscular, especificado.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'coleção' não está diretamente relacionada à descrição de infarto isquêmico muscular. A justificativa do sistema é baseada em uma interpretação muito ampla e genérica da palavra, o que não é sustentável clinicamente. O termo 'coleção' pode se referir a diferentes contextos clínicos, como por exemplo, a coleta de fluidos para exame laboratorial, e não está relacionado à representação de doença CID-11: Outro Infarto isquêmico muscular, especificado.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "8B11.40": {
+      "term_original": "livres",
+      "capitulo": "08",
+      "confidence_embedding": 0.7605,
+      "descricao_cid": "Representação de doença CID-11: Acidente vascular cerebral isquêmico devido à hipoperfusão global com infarto em zona de fronteira. Definição: Perda súbita da função cerebral devida à falta de fluxo sanguíneo adequado. Ocorre em associação com baixo fluxo sanguíneo para o cérebro. As \"zonas de fronteira\" do cérebro, regiões que são supridas pelas extremidades ramificadas de duas grandes artérias, são particularmente sensíveis ao baixo suprimento de oxigênio quando as artérias não mantêm o fluxo adequado.",
+      "classification_reasoning": "A opção mais precisa é o código 8B11.40, pois a descrição refere-se à representação de doença CID-11: Acidente vascular cerebral isquêmico devido à hipoperfusão global com infarto em zona de fronteira, que coincide com a presença de ",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'livres' não está diretamente relacionado à representação de doença CID-11: Acidente vascular cerebral isquêmico devido à hipoperfusão global com infarto em zona de fronteira. A descrição do código CID-11 refere-se a uma condição clínica específica, enquanto o termo 'livres' é um termo geral que não apresenta nenhuma relação clara com a doença descrita no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

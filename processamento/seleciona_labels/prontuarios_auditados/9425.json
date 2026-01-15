@@ -1,0 +1,162 @@
+{
+  "prontuario_id": 946,
+  "text": "Lucas , 69 anos,  acompanhamento DM 2. Diagnostico de Dm 2 há 16 anos - inciou o uso da insulina há 10 anos - esta bem adaptada a droga.  Nega poliuria, polidipsia, polifagia.  Nega outras queixas.  Medicamentos :  sinvastatina 20 mg - um cp a noite, espironolactona 25 mg : 1 cp pela manha,  furosemida - 40 mg,  AAS  - 100 mg - 1 cp apos o almoço,  Insulina NPH : 30 U pela manha e 30 U a noite,  Levotiroxina 100 mcg : 1 cp pela manha,  Glibenclamida 5 mg : 1 cp apos cafe, almoço e jantar,  Metformina 850 : 1 cp apos cafe, almoço e jantar, Losartana 50 mg ( 1 cp pela manha e 1 cp a noite).    Exames LAb ( 18/08):  potassio : 4,8;  CT : 184; HDL : 52; LDL : 90; Cr : 0,9; glicose : 159, Hemoglobina glicosilada : 8, 17%;  TSH : 5, 61;  Microalbuminuria 24 horas : 15,6;  Transaminase piruvica : 37;  Transaminase oxalacetica : 23. Obesidade grau III;  DM  2.",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "acompanhamento"
+    ],
+    "Produto Intelectual": [
+      "Diagnostico"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "insulina",
+      "Insulina NPH"
+    ],
+    "Substância Farmacológica": [
+      "insulina",
+      "Medicamentos",
+      "sinvastatina",
+      "espironolactona",
+      "furosemida",
+      "AAS",
+      "Levotiroxina",
+      "Glibenclamida",
+      "Metformina",
+      "Losartana",
+      "Insulina NPH"
+    ],
+    "Hormônio": [
+      "insulina"
+    ],
+    "Negação": [
+      "Nega"
+    ],
+    "Sinal ou Sintoma": [
+      "poliuria",
+      "polidipsia",
+      "polifagia",
+      "queixas"
+    ],
+    "Substância Química Orgânica": [
+      "sinvastatina",
+      "espironolactona",
+      "furosemida",
+      "AAS",
+      "Levotiroxina",
+      "Glibenclamida",
+      "Metformina",
+      "Losartana"
+    ],
+    "Abreviação": [
+      "AAS",
+      "DM 2",
+      "Dm 2",
+      "um cp",
+      "1 cp",
+      "Exames LAb",
+      "CT : 184",
+      "Cr : 0 , 9"
+    ],
+    "Doença ou Síndrome": [
+      "DM 2",
+      "Dm 2",
+      "Obesidade grau III"
+    ],
+    "Achado": [
+      "bem adaptada a droga"
+    ],
+    "Conceito Quantitativo": [
+      "20 mg",
+      "um cp",
+      "25 mg",
+      "1 cp",
+      "40 mg",
+      "100 mg",
+      "30 U",
+      "100 mcg",
+      "5 mg",
+      "50 mg"
+    ],
+    "Conceito Temporal": [
+      "a noite",
+      "pela manha",
+      "apos o almoço",
+      "apos cafe , almoço e jantar"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "potassio : 4 , 8",
+      "CT : 184",
+      "HDL : 52",
+      "LDL : 90",
+      "Cr : 0 , 9",
+      "glicose : 159",
+      "Hemoglobina glicosilada : 8 , 17%",
+      "TSH : 5 , 61",
+      "Microalbuminuria 24 horas : 15 , 6",
+      "Transaminase piruvica : 37",
+      "Transaminase oxalacetica : 23"
+    ]
+  },
+  "labels": {
+    "BC43.7": {
+      "term_original": "polidipsia",
+      "capitulo": "11",
+      "confidence_embedding": 0.726,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia diabética. Definição: Cardiomiopatia diabética é a presença de disfunção miocárdica na ausência de doença arterial coronariana clínica evidente, doença valvar e outros fatores de risco cardiovascular convencionais, como hipertensão e dislipidemia. Caracteriza-se inicialmente por fibrose miocárdica, remodelamento disfuncional e disfunção diastólica, evoluindo para disfunção sistólica e insuficiência cardíaca. \r\n\r\nInformações adicionais. O desenvolvimento e a progressão de cardiomiopatia diabética têm sido associados ao comprometimento da sinalização metabólica da insulina no coração, aumento do estresse oxidativo, redução da biodisponibilidade do óxido nítrico, rigidez da matriz extracelular e dos cardiomiócitos a base de colágeno, comprometimento do manuseio do cálcio por mitocôndrias e cardiomiócitos, inflamação, ativação do sistema renina-angiotensina-aldosterona, neuropatia autonômica cardíaca, estresse do retículo endoplasmático, disfunção microvascular e uma miríade de anormalidades metabólicas cardíacas.",
+      "classification_reasoning": "A polidipsia negada pelo paciente não é um indicador de insuficiência cardíaca congestiva (BD10) ou síndromes de alto débito (BD12). A presença de obesidade grau III e DM2 também não sugere linfedema (BD93). A ausência de queixas clínicas sugerem que a pausa sinusal (BC80.0) não é uma opção viável. A cardiomiopatia diabética (BC43.7) é a opção mais precisa, considerando o contexto clínico e as características do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A polidipsia é negada pelo paciente, o que significa que não há um indicador de cardiomiopatia diabética (BC43.7). A ausência de polidipsia não está relacionada à doença cardíaca e não justifica a atribuição desse código.",
+      "tipo_erro_auditoria": "negated_finding"
+    },
+    "EB0.3": {
+      "term_original": "obesidade grau iii",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha do código EB0.3 (Obesidade) se justifica pela presença de 'obesidade grau III' no contexto clínico, que não tem relação com as outras opções apresentadas, como doenças ósseas ou musculares.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A obesidade grau III não é uma condição diretamente relacionada à diabetes mellitus 2, portanto, o código CID-11 EB0.3 não representa fielmente a condição descrita no prontuário. A obesidade é um fator de risco para a diabetes, mas não é uma manifestação clínica da doença em si.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "": {
+      "term_original": "poliuria",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'poliuria' é negado no prontuário, portanto não há evidência clínica para justificar a atribuição do código CID-11. A ausência de poliuria é mencionada explicitamente como uma característica da paciente.",
+      "tipo_erro_auditoria": "negated_finding"
+    },
+    "MF95": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7465,
+      "descricao_cid": "Representação de doença CID-11: Mioglobinúria. Definição: Mioglobinúria é a presença de mioglobina na urina, geralmente como resultado de rabdomiólise. Qualquer processo que interfira no armazenamento ou uso de energia pelas células musculares pode levar à mioglobinúria. Quando excretada na urina, a mioglobina pode precipitar, causando obstrução tubular e lesão renal aguda. As causas mais comuns de mioglobinúria em adultos são traumatismos e abuso de álcool e drogas, geralmente relacionadas à necrose muscular por imobilização e pressão prolongadas pelo peso corporal. O consumo prolongado de etanol e a atividade convulsiva, semelhante à atividade física excessiva, podem produzir um desequilíbrio entre o consumo e a produção de energia muscular, resultando na destruição muscular.",
+      "classification_reasoning": "O termo 'queixas' se refere às queixas do paciente, e o Código MF95 (Mioglobinúria) é a opção mais precisa para representar essa queixa de acordo com o contexto clínico fornecido. Isso porque a descrição da mioglobinúria menciona a presença de mioglobina na urina como resultado de rabdomiólise, o que não está relacionado às outras opções.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa 'queixas' não está relacionada à mioglobinúria, que é uma condição clínica caracterizada pela presença de mioglobina na urina. A descrição da mioglobinúria menciona causas comuns como traumatismos e abuso de álcool e drogas, o que não se aplica ao paciente Lucas, que tem diabetes melito tipo 2 e não apresenta sintomas de mioglobinúria.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5A11": {
+      "term_original": "dm 2",
+      "capitulo": "05",
+      "confidence_embedding": 0.758,
+      "descricao_cid": "Representação de doença CID-11: Diabetes mellitus tipo 2. Definição: Diabetes Mellitus tipo 2 (anteriormente diabetes mellitus não dependente de insulina ou diabetes de início na idade adulta) é um transtorno metabólico que se caracteriza por níveis elevados de glicose no sangue, no contexto de resistência à insulina e deficiência relativa de insulina.",
+      "classification_reasoning": "Diabetes Mellitus tipo 2 é a diagnóstico mais provável para o paciente Lucas, com histórico de diabetes há 16 anos e uso de insulina NPH desde os últimos 10 anos. Além disso, os resultados do exame laboratorial (glicose=159, Hemoglobina glicosilada = 8,17%) também são compatíveis com a presença de Diabetes Mellitus tipo 2.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 '5A11' para Diabetes Mellitus tipo 2 é justificada pelo histórico de diabetes há 16 anos e uso de insulina NPH desde os últimos 10 anos, além dos resultados do exame laboratorial compatíveis com a presença de Diabetes Mellitus tipo 2. A descrição do código CID-11 também se alinha com o diagnóstico clínico do paciente Lucas.",
+      "tipo_erro_auditoria": null
+    },
+    "BD93": {
+      "term_original": "polifagia",
+      "capitulo": "11",
+      "confidence_embedding": 0.7113,
+      "descricao_cid": "Representação de doença CID-11: Linfedema. Definição: Edema devido ao acúmulo excessivo de linfa nos tecidos, causado por drenagem linfática inadequada. Geralmente afeta as extremidades, mas pode envolver qualquer parte do corpo. É desfigurante e aumenta a suscetibilidade a infecções recorrentes e malignidades locais.",
+      "classification_reasoning": "A escolha do código BD93 (Linfedema) é a mais precisa porque o termo 'polifagia' não está relacionado à doença do coração, insuficiência cardíaca ou outras condições mencionadas nas opções. Além disso, a presença de obesidade grau III e DM 2 sugere que Lucas tem problemas relacionados ao metabolismo, o que também é consistente com a descrição da linfedema como uma consequência de drenagem linfática inadequada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'polifagia' não está relacionado à doença de linfedema, que é uma condição caracterizada por edema devido ao acúmulo excessivo de linfa nos tecidos. A polifagia é um sintoma comum em pacientes com diabetes mellitus tipo 2, e não há nenhuma indicação clínica de que Lucas tenha linfedema. Além disso, a presença de obesidade grau III e DM 2 sugere que o paciente tem problemas relacionados ao metabolismo, o que também é consistente com a descrição da diabetes mellitus tipo 2.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

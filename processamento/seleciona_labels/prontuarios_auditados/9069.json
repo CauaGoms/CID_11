@@ -1,0 +1,241 @@
+{
+  "prontuario_id": 491,
+  "text": "Às 18:00: CORADA, ALERTA, AFEBRIL, COMUNICATIVA, EM REPOUSO NO LEITO, ACEITANDO BEM DIETA VIA ORAL, AVP EM MSD SALINIZADO, SINAIS VITAIS ESTAVÉIS, NÃO REFERIU ALGIA NO MOMENTO, ELIMINAÇÕES FISIOLOGICAS PRESENTES E ESPONTANEAS, SEGUE SOB CUIDADOS. TRAUMATISMO DE MEDULA ESPINHAL NIVEL NAO ESPECIFICADO. Às 12:05: LUCIDO, ORIENTADO, COMUNICATIVO, EUPNÉICO, AFEBRIL, SEM QUEIXAS ÁLGICAS, ACEITANDO DIETA OFERECIDA. APRESENTA CURATIVO EM OMBRO DIR DE ASPECTO SECO EXTERNAMENTE E CURATIVO EM MSE DE ASPECTO SECO EXTERNAMENTE. MANTÉM ACESSO VENOSO EM MSD SALINIZADO. TRAUMATISMOS MULTIPLOS NAO ESPECIFICADOS. Às 16:00: Paciente agitado, confuso, deambulando, agrediu a esposa e ameaça agredir a equipe de enfermagem, administrada medicação prescrita, porém a agitação e a agressividade não diminuiram. Contato com Dr Vital Brasil, que orientou chamar plantão da psiquiatria, tent.  INSUFICIENCIA RENAL CRONICA.",
+  "entities": {
+    "Achado": [
+      "CORADA",
+      "ALERTA",
+      "AFEBRIL",
+      "COMUNICATIVA",
+      "SALINIZADO",
+      "PRESENTES",
+      "ESPONTANEAS",
+      "LUCIDO",
+      "ORIENTADO",
+      "COMUNICATIVO",
+      "EUPNÉICO",
+      "agitado",
+      "deambulando",
+      "REPOUSO NO LEITO",
+      "ACEITANDO BEM DIETA VIA ORAL",
+      "SINAIS VITAIS ESTAVÉIS",
+      "ACEITANDO DIETA",
+      "ASPECTO SECO"
+    ],
+    "Negação": [
+      "AFEBRIL"
+    ],
+    "Dispositivo Médico": [
+      "AVP",
+      "CURATIVO",
+      "ACESSO VENOSO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "AVP",
+      "SALINIZADO",
+      "CURATIVO",
+      "REPOUSO NO LEITO",
+      "ACESSO VENOSO"
+    ],
+    "Abreviação": [
+      "AVP",
+      "MSD",
+      "MSE",
+      "Dr",
+      "OMBRO DIR"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD",
+      "MSE"
+    ],
+    "Sinal ou Sintoma": [
+      "ALGIA",
+      "confuso",
+      "agitação",
+      "agressividade",
+      "QUEIXAS ÁLGICAS"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CUIDADOS",
+      "administrada"
+    ],
+    "Conceito Espacial": [
+      "EXTERNAMENTE"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Função Fisiológica": [
+      "ELIMINAÇÕES FISIOLOGICAS"
+    ],
+    "Lesão ou Envenenamento": [
+      "TRAUMATISMO DE MEDULA ESPINHAL",
+      "TRAUMATISMOS MULTIPLOS"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "OMBRO DIR"
+    ],
+    "Organização Relacionada à Saúde": [
+      "equipe de enfermagem",
+      "plantão da psiquiatria"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "equipe de enfermagem"
+    ],
+    "Doença ou Síndrome": [
+      "INSUFICIENCIA RENAL CRONICA"
+    ]
+  },
+  "labels": {
+    "6C40.3": {
+      "term_original": "comunicativo",
+      "capitulo": "06",
+      "confidence_embedding": 0.7644,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas.",
+      "classification_reasoning": "A palavra 'comunicativo' está relacionada à apresentação do paciente, que é lúcido e orientado, comunicando suas necessidades e queixas. Isso sugere que o paciente tem uma certa consciência e capacidade de expressar-se, o que é característico da intoxicação por álcool (6C40.3). Além disso, a agitação e a agressividade do paciente são sintomas também descritos para essa condição.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'comunicativo' não está relacionada à intoxicação por álcool (6C40.3). O paciente apresenta-se lúcido, orientado e comunicativo, o que sugere uma condição mais próxima de um trauma cerebral ou outro tipo de lesão cerebral do que uma intoxicação por álcool. Além disso, a agitação e a agressividade do paciente não são sintomas característicos da intoxicação por álcool.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6E61.0": {
+      "term_original": "orientado",
+      "capitulo": "06",
+      "confidence_embedding": 0.7628,
+      "descricao_cid": "Representação de doença CID-11: Síndrome psicótica secundária com alucinações. Definição: Síndrome caracterizada pela presença de alucinações proeminentes, consideradas consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental, com base em evidências de anamnese, exame físico ou achados laboratoriais. Delírios não são um aspecto proeminente da apresentação clínica. Os sintomas não são explicados por delirium ou por outro transtorno mental e comportamental, e não são uma resposta psicologicamente mediada a uma condição médica grave (p. ex., uma reação aguda ao estresse em resposta ao diagnóstico de uma condição de ameaça à vida). Essa categoria deve ser utilizada em conjunto com o diagnóstico do transtorno ou doença subjacente presumido, quando os sintomas psicóticos são suficientemente graves para exigir atenção clínica específica.",
+      "classification_reasoning": "A opção mais precisa é a síndrome psicótica secundária com alucinações (6E61.0) porque o paciente apresenta agitação, confusão e delírios proeminentes, considerados consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental. Essa opção é mais adequada para descrever a situação clínica do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção 6E61.0 não é adequada porque o termo 'orientado' não se refere a alucinações proeminentes, mas sim à capacidade do paciente de estar orientado e comunicativo. A condição clínica descrita no prontuário não apresenta sintomas psicóticos graves que justifiquem a escolha desse código CID.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ND56.Z": {
+      "term_original": "espontaneas",
+      "capitulo": "22",
+      "confidence_embedding": 0.7233,
+      "descricao_cid": "Representação de doença CID-11: Traumatismo de região não especificada do corpo, não especificado. Definição: ",
+      "classification_reasoning": "A opção mais precisa é ND56.Z, pois o termo 'espontaneas' se refere a eliminações fisiológicas presentes e espontâneas, o que sugere um traumatismo não especificado em uma região do corpo. Além disso, a presença de múltiplos traumatismos não especificados no prontuário também apoia essa escolha.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção ND56.Z é justificada pela presença de eliminações fisiológicas presentes e espontâneas no prontuário, o que sugere um traumatismo não especificado em uma região do corpo. Além disso, a presença de múltiplos traumatismos não especificados também apoia essa escolha.",
+      "tipo_erro_auditoria": null
+    },
+    "MB23.0": {
+      "term_original": "agitado",
+      "capitulo": "21",
+      "confidence_embedding": 0.7548,
+      "descricao_cid": "Representação de doença CID-11: Comportamento agressivo. Definição: Ações com a intenção de ameaçar ou machucar outra pessoa ou danificar propriedade, que podem ser de natureza física, verbal ou simbólica (p.ex., agir contra os interesses da outra pessoa). O comportamento agressivo pode ser apropriado para autoproteção, ou inapropriado, hostil e destrutivo.",
+      "classification_reasoning": "A agitação e a agressividade do paciente são características presentes no comportamento agressivo (MB23.0), o que justifica a escolha desse código como a mais precisa para o termo 'agitado' dentro do contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A agitação e a agressividade do paciente são características presentes no comportamento agressivo (MB23.0), o que justifica a escolha desse código como a mais precisa para o termo 'agitado' dentro do contexto clínico.",
+      "tipo_erro_auditoria": null
+    },
+    "MC23.H": {
+      "term_original": "aspecto seco",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A descrição do termo 'aspecto seco' é mais relevante à hipótese de lesão medular espinhal (MC23) do que a qualquer outra opção. No contexto clínico, o termo 'aspecto seco' provavelmente refere-se ao aspecto exterior das curas no ombro e no MSE, consistentes com lesões cutâneas secundárias à trauma medular espinhal.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'aspecto seco' é clinicamente coerente com a hipótese de lesão medular espinhal (MC23). O termo refere-se ao aspecto exterior das curas no ombro e no MSE, consistentes com lesões cutâneas secundárias à trauma medular espinhal. A codificação CID-11 MC23.H é justificada pela descrição clínica do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MB23.H": {
+      "term_original": "algia",
+      "capitulo": "21",
+      "confidence_embedding": 0.7845,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'algia' é a Crise de Pânico (Código MB23.H), pois a descrição apresenta sintomas característicos como medo ou apreensão intensos, palpitações ou aumento da frequência cardíaca, sensação de falta de ar, e outros, que estão relacionados às experiências do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário apresenta sintomas como medo, palpitações e sensação de falta de ar, mas não há evidência clínica suficiente para confirmar a presença de uma Crise de Pânico. Além disso, o termo 'algia' não está diretamente relacionado à descrição do prontuário, que apresenta um paciente com traumatismo de medula espinhal e agitação. Portanto, é necessário remover o código CID-11 MB23.H e realizar uma análise mais aprofundada para determinar a causa da agitação e dos sintomas apresentados pelo paciente.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "ND36": {
+      "term_original": "traumatismos multiplos",
+      "capitulo": "22",
+      "confidence_embedding": 0.7901,
+      "descricao_cid": "Representação de doença CID-11: Outros traumatismos envolvendo regiões múltiplas do corpo, não classificados em outra parte. Definição: ",
+      "classification_reasoning": "A escolha foi baseada na descrição de 'traumatismos multiplos' no contexto, que se refere a uma representação de doença CID-11 para outros traumatismos envolvendo regiões múltiplas do corpo, não classificados em outra parte. Isso é mais preciso do que as outras opções, pois elas são mais específicas e descrevem apenas esmagamento ou concussão.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 ND36 'Outros traumatismos envolvendo regiões múltiplas do corpo, não classificados em outra parte' é demasiado genérica e não representa fielmente a condição clínica descrita no prontuário. O termo 'traumatismos multiplos' sugere uma série de lesões ou danos em diferentes partes do corpo, o que não está contemplado pelo código ND36. Além disso, a descrição do código CID-11 não menciona nada sobre traumatismo de medula espinhal, que é um dos sintomas descritos no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MB22.7": {
+      "term_original": "alerta",
+      "capitulo": "21",
+      "confidence_embedding": 0.788,
+      "descricao_cid": "Representação de doença CID-11: Cansaço. Definição: Sensação de redução do estado de alerta e de redução concomitante da acuidade mental, em alguns casos resultando no impulso ou tendência de adormecer.",
+      "classification_reasoning": "O termo 'alerta' refere-se ao estado de alerta do paciente, que foi mencionado no contexto clínico como sendo afébril e comunicativo. Isso sugere que o paciente está consciente e reage às solicitações, caracterizando um estado de alerta. Portanto, a escolha mais precisa para o termo 'alerta' é Código MB22.7, Representação de doença CID-11: Cansaço.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código CID-11 MB22.7, Representação de doença: Cansaço, é justificada pelo fato de o paciente estar afébril e comunicativo, caracterizando um estado de alerta. A descrição do código CID-11 se ajusta ao contexto clínico descrito no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MG30.01": {
+      "term_original": "confuso",
+      "capitulo": "21",
+      "confidence_embedding": 0.7572,
+      "descricao_cid": "Representação de doença CID-11: Dor difusa crônica. Definição: A dor difusa crônica é uma dor difundida em pelo menos 4 das 5 regiões do corpo e está associada a sofrimento emocional significativo (ansiedade, raiva/frustração ou humor deprimido) ou incapacidade funcional (interferência nas atividades cotidianas e participação reduzida em papéis sociais). \r\nDor difusa crônica é multifatorial: fatores biológicos, psicológicos e sociais contribuem para a síndrome dolorosa. O diagnóstico é adequado quando a dor não é diretamente atribuível a um processo nociceptivo nessas regiões e há características consistentes com dor nociplástica e contribuintes psicológicos e sociais identificados.",
+      "classification_reasoning": "A escolha pelo código MG30.01 (Dor difusa crônica) é justificada pela presença de sintomas como confusão, agitação e agressividade, o que sugere uma dor não especifica associada a sofrimento emocional significativo ou incapacidade funcional.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 MG30.01 (Dor difusa crônica) não representa fielmente o termo 'confuso' descrito no prontuário. A confusão é um sintoma neurológico que pode estar relacionado a uma lesão cerebral, e não está diretamente associada à dor difusa crônica. Além disso, a presença de agitação, agressividade e trauma de medula espinhal sugere que o paciente tem outros problemas clínicos mais específicos que não são capturados pelo código MG30.01.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "MG30.2": {
+      "term_original": "corada",
+      "capitulo": "21",
+      "confidence_embedding": 0.7437,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória ou pós-traumática. Definição: Dor crônica pós-cirúrgica ou pós-traumática é uma dor que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico ou lesão tecidual (envolvendo qualquer traumatismo, incluindo queimaduras) e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia ou traumatismo tecidual. A dor é localizada no na região operada ou na área da lesão, na projeção do território de inervação de um nervo situado nesta área, ou referida a um dermátomo (após cirurgia/lesão de tecidos somáticos ou viscerais profundos). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema preexistente.",
+      "classification_reasoning": "A opção mais precisa para o termo 'corada' no contexto clínico é a dor crônica pós-cirúrgica ou pós-traumática, pois o paciente apresenta um trauma de médula espinhal não especificado e tem dor crônica pós-operatória ou pós-traumática em ombro direto e mse.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção MG30.2 não é adequada porque o termo 'corada' não se refere a dor crônica pós-cirúrgica ou pós-traumática, mas sim a um estado de consciência alterado e agitado do paciente, que pode ser relacionado ao trauma de médula espinhal. A classificação MG30.2 é demasiado específica e não captura o significado clínico do termo 'corada' no contexto do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6D72": {
+      "term_original": "comunicativa",
+      "capitulo": "06",
+      "confidence_embedding": 0.7654,
+      "descricao_cid": "Representação de doença CID-11: Transtorno amnéstico. Definição: O transtorno amnéstico é caracterizado por comprometimento proeminente da memória em relação ao esperado pela idade e nível pré-mórbido do funcionamento cognitivo geral, que representa um declínio em relação ao nível prévio de funcionamento do indivíduo, na ausência de outro comprometimento cognitivo significativo. Manifesta-se por um déficit na aquisição, aprendizado e/ou retenção de novas informações, e pode incluir a incapacidade de recordar informações previamente aprendidas, sem perturbação da consciência, estado mental alterado ou \"delirium\". A memória recente é tipicamente mais comprometida do que a memória remota, e a capacidade de recordar imediatamente uma quantidade limitada de informação geralmente permanece relativamente preservada. O comprometimento da memória é grave o suficiente para resultar em comprometimento significativo no funcionamento pessoal, familiar, social, educacional, ocupacional, ou em outras áreas importantes. Presume-se que se deva a uma doença subjacente adquirida do sistema nervoso, um trauma, infecção ou outra doença que afete o cérebro, ao uso de substâncias específicas ou medicamentos, deficiência nutricional ou exposição a toxinas, ou a etiologia pode ser indeterminada. O comprometimento não se deve a intoxicação ou abstinência atual de substância.",
+      "classification_reasoning": "A palavra 'comunicativa' sugere uma alteração na capacidade de comunicação do paciente, o que é compatível com a definição de transtorno amnéstico (Código 6D72). Embora outros códigos possam também se aplicar ao contexto clínico, este código é mais preciso para descrever a situação do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'comunicativa' não está relacionada ao transtorno amnéstico, que é uma condição caracterizada por comprometimento da memória. A comunicação do paciente pode estar afetada por outras razões, como lesão cerebral ou efeitos de medicamentos. Portanto, o código CID-11 6D72 não representa fielmente a situação descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8B4Y": {
+      "term_original": "traumatismo de medula espinhal",
+      "capitulo": "08",
+      "confidence_embedding": 0.7031,
+      "descricao_cid": "Representação de doença CID-11: Outros transtornos especificados de medula espinal excluindo trauma. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'traumatismo de medula espinhal' é o código 8B4Y, pois refere-se a outros transtornos especificados de medula espinal excluindo trauma. O contexto clínico apresenta um paciente com traumatismo de medula espinhal não especificado, o que faz com que o código 8B4Y seja mais preciso do que os demais opções.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 atribuído (8B4Y) refere-se a 'outros transtornos especificados de medula espinal excluindo trauma', enquanto o termo extraído do prontuário é 'traumatismo de medula espinhal'. Embora haja uma relação entre os dois, o código não representa fielmente o termo descrito no prontuário. O contexto clínico apresenta um paciente com traumatismo de medula espinhal não especificado, o que justifica a remoção do código 8B4Y e a atribuição de um código mais preciso que represente o termo 'traumatismo de medula espinhal'.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C48.2": {
+      "term_original": "lucido",
+      "capitulo": "06",
+      "confidence_embedding": 0.7868,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais.",
+      "classification_reasoning": "A palavra 'lucido' sugere um estado de consciência clarificado e desperto, o que é consistente com a definição de Intoxicação por cafeína (CID-11 6C48.2), caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A palavra 'lucido' sugere um estado de consciência clarificado e desperto, o que é consistente com a definição de Intoxicação por cafeína (CID-11 6C48.2), caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. A classificação é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "MD11.5": {
+      "term_original": "queixas álgicas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7505,
+      "descricao_cid": "Representação de doença CID-11: Dispneia. Definição: Dispneia é o termo utilizado para descrever percepções de dificuldade ou sofrimento relacionados à respiração e é reconhecido como sintoma de doença quando ocorre em circunstâncias inapropriadas. Dispneia é uma queixa apresentada por pacientes com uma ampla variedade de condições médicas, causadas por múltiplos mecanismos.\r\nA dispneia é considerada aguda quando dura de horas a 3 semanas, subaguda de 3 a 8 semanas e a dispneia crônica dura mais de 8 semanas.",
+      "classification_reasoning": "A queixa 'queixas álgicas' não está presente no contexto clínico, mas a dispneia (Código: MD11.5) é mencionada como um sintoma apresentado pelo paciente e pode estar relacionada às suas queixas.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa 'queixas álgicas' não está presente no contexto clínico, e o código CID-11 MD11.5 (Dispneia) não é relacionado às queixas apresentadas pelo paciente. A dispneia é um sintoma de doença, enquanto as queixas álgicas são uma descrição de dor ou desconforto. Embora a justificativa do sistema mencione que a dispneia pode estar relacionada às queixas, não há evidência clínica suficiente para sustentar essa relação.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BC80": {
+      "term_original": "insuficiencia renal cronica",
+      "capitulo": "11",
+      "confidence_embedding": 0.7288,
+      "descricao_cid": "Representação de doença CID-11: Bradiarritmia supraventricular. Definição: Qualquer uma das várias arritmias possíveis originadas no ou acima do feixe de His, nas quais o coração bate mais devagar do que os limites inferiores normais para a idade.",
+      "classification_reasoning": "A escolha pelo código BC80 (Bradiarritmia supraventricular) se baseia no termo 'insuficiência renal crônica' encontrado no contexto clínico, pois não há evidências de que a insuficiência renal esteja relacionada à doença renal hipertensiva (BA02), infarto do miocárdio (BA42.1) ou aneurisma/dissecção de artéria renal (BD51.4). A bradiarritmia supraventricular é uma possível complicação em pacientes com doenças crônicas, incluindo insuficiência renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A bradiarritmia supraventricular (BC80) não está relacionada à insuficiência renal crônica. A escolha do código BC80 é uma classificação errônea, pois a bradiarritmia supraventricular não é uma complicação direta da insuficiência renal crônica. O termo 'insuficiência renal crônica' não apresenta qualquer relação com arritmias cardíacas.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

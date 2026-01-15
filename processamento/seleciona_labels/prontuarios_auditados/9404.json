@@ -1,0 +1,117 @@
+{
+  "prontuario_id": 168,
+  "text": "Lucas, 62 anos, solteira, 1 filho, natural de Itajaí, procedente de Curitiba, aposentada, mas trabalha em caixa.  QP: Consulta de acompanhamento. HDA: Hipotireoidismo em tratamento com Puran 75 mg (1 X ) há mais de 15 anos, DM 2 tratada com Metformina 850 mg  2 X há 3 anos.  Toma Atorvastatina 20 mg e Losartana 50 mg (2 X).  Nega novas queixas.   Exames: 15/04/14,  Na Santa Casa: HB A1C: 5,87%, Creatinina: 0,7%; Glicose: 84 mg/dL, Triglicerideos: 398 mg/dL, HDL: 38 mg/dL, Colesterol total 179 mg/dL, LDL: 61 mg/dL, TSH: 1,38 mIU/L, T4 livre: 1,53.  Exames realizados no Posto 05/04/15: Glicose: 123 mg/dL, Creatinina 0,75 mg/dL; Colesterol total 245 mg/dL; Triglicerideos: 293 mg/dL, HDL: 47 mg/dL, Potassio: 4,7 mEq/L, Microalbuminuria: 0,10; Creatinina na urina: 49,3; Relação albumina /creatinina na urina: 2,03 mg/g; TSH: 2,79; T4: 1,38; Hemoglobina glicada: 6,3%.",
+  "entities": {
+    "Grupo Profissional ou Ocupacional": [
+      "aposentada",
+      "trabalha em caixa"
+    ],
+    "Abreviação": [
+      "QP",
+      "HDA",
+      "DM 2",
+      "HB A1C : 5 , 87%",
+      "HDL : 38 mg/dL",
+      "LDL : 61 mg/dL",
+      "HDL : 47 mg/dL"
+    ],
+    "Doença ou Síndrome": [
+      "Hipotireoidismo",
+      "DM 2"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "tratamento"
+    ],
+    "Substância Farmacológica": [
+      "Puran",
+      "Metformina",
+      "Atorvastatina",
+      "Losartana"
+    ],
+    "Substância Química Orgânica": [
+      "Puran",
+      "Metformina",
+      "Atorvastatina",
+      "Losartana"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "tratada",
+      "Consulta de acompanhamento"
+    ],
+    "Negação": [
+      "Nega"
+    ],
+    "Sinal ou Sintoma": [
+      "queixas"
+    ],
+    "Procedimento Laboratorial": [
+      "Exames"
+    ],
+    "Organização Relacionada à Saúde": [
+      "Posto"
+    ],
+    "Conceito Quantitativo": [
+      "75 mg",
+      "1 X",
+      "850 mg",
+      "2 X",
+      "20 mg",
+      "50 mg"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "HB A1C : 5 , 87%",
+      "Creatinina : 0 , 7%",
+      "Glicose : 84 mg/dL",
+      "Triglicerideos : 398 mg/dL",
+      "HDL : 38 mg/dL",
+      "Colesterol total 179 mg/dL",
+      "LDL : 61 mg/dL",
+      "TSH : 1 , 38 mIU/L",
+      "T4 livre : 1 , 53",
+      "Glicose : 123 mg/dL",
+      "Creatinina 0 , 75 mg/dL",
+      "Colesterol total 245 mg/dL",
+      "Triglicerideos : 293 mg/dL",
+      "HDL : 47 mg/dL",
+      "Potassio : 4 , 7 mEq/L",
+      "Microalbuminuria : 0 , 10",
+      "Creatinina na urina : 49 , 3",
+      "Relação albumina /creatinina na urina : 2 , 03 mg/g",
+      "TSH : 2 , 79",
+      "T4 : 1 , 38",
+      "Hemoglobina glicada : 6 , 3%"
+    ]
+  },
+  "labels": {
+    "MF96": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.742,
+      "descricao_cid": "Representação de doença CID-11: Proteinúria. Definição: O excesso de proteínas séricas na urina, como na doença renal, em que a albumina é a proteína principal, porém também pode ser devido a outras proteínas, como imunoglobulinas de cadeias leves na discrasia de células plasmáticas como o mieloma múltiplo.",
+      "classification_reasoning": "A opção mais precisa para o termo 'queixas' é a proteinúria, pois o relatório menciona resultados de exames que incluem Microalbuminuria: 0,10 e Relação albumina / creatinina na urina: 2,03 mg/g, sugerindo um excesso de proteínas séricas na urina.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção de código CID-11 'MF96' (Proteinúria) não é clínicamente coerente com o prontuário. Embora o relatório mencione resultados de exames que incluem Microalbuminuria e Relação albumina / creatinina na urina, a paciente não apresenta queixas relacionadas à proteinúria. A justificativa do sistema é baseada em uma interpretação excessivamente específica dos resultados de exame, o que não está claramente relacionado às queixas da paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5A00.03": {
+      "term_original": "hipotireoidismo",
+      "capitulo": "05",
+      "confidence_embedding": 0.8341,
+      "descricao_cid": "Representação de doença CID-11: Hipotireoidismo congênito transitório. Definição: Hipotireoidismo congênito transitório é definido com uma disfunção tireoidiana transitória com discreta elevação do hormônio tiroestimulante (TSH) e baixos níveos de T4 livre que retornam ao normal espontaneamente ou após muitos meses de terapia com levotiroxina. Este transtorno é devido a várias causas como deficiência de iodo, exposição a compostos contendo iodo, passagem transplacentária de anticorpos maternos bloqueadores e disormonogênese.",
+      "classification_reasoning": "Escolho o código 5A00.03 pois o paciente tem hipotireoidismo em tratamento com Puran há mais de 15 anos, o que sugere um problema congênito ou adquirido, e não uma resposta secundária a outro processo patológico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 5A00.03 descreve um hipotireoidismo congênito transitório, que é uma condição clínica específica e transitória. No entanto, o paciente tem hipotireoidismo em tratamento há mais de 15 anos, o que sugere uma condição crônica ou persistente, não transitória. Além disso, a definição do código CID-11 não se aplica ao caso do paciente, pois não há menção à elevação do TSH e baixos níveis de T4 livre, como descrito na definição.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "5B70": {
+      "term_original": "dm 2",
+      "capitulo": "05",
+      "confidence_embedding": 0.7826,
+      "descricao_cid": "Representação de doença CID-11: Deficiência de ácidos graxos essenciais. Definição: A deficiência de ácidos graxos essenciais - AGE- (ácido linoléico, ácido linolênico, ácido araquidônico, ácido docosapentaenóico, ácido docosahexaenóico e ácido eicosapentaenóico) pode ser causada por ingestão deficiente, particularmente, em bebês de crescimento rápido (como prematuros), em pacientes recebendo nutrição parenteral sem uma fonte adequada de AGE, e em doenças com má absorção de gordura. Os achados clínicos são: dermatite, alopecia e trombocitopenia. O papel do AGE durante a gravidez e a lactação tem sido destacado, e o papel dos ácidos graxos n-3 de cadeia longa como componentes estruturais para o desenvolvimento da função da retina e do sistema nervoso central é agora aceito. O período pré-natal é um período de risco aumentado para deficiência de ômega-3, pois os estoques de tecido materno tendem a diminuir à medida que são usados ​​para o desenvolvimento do feto. A deficiência de n-3 AGE pode afetar o crescimento e a função cognitiva e visual em bebês. Os sinais característicos de deficiência atribuídos aos ácidos graxos n-6 são erupção cutânea escamosa, aumento da perda de água transepidérmica, crescimento reduzido e elevação da proporção plasmática de ácido eicosatrienóico: ácido araquidônico. A deficiência de AGE em populações especiais tem sido associada a distúrbios hematológicos e diminuição da resposta imunológica. Os ácidos graxos n-3 e n-6 de cadeia longa são nutrientes essenciais e também, como parte do suprimento geral de gordura, podem afetar a prevalência e a gravidade das doenças cardiovasculares, diabetes, câncer e declínio funcional relacionado à idade.",
+      "classification_reasoning": "A busca vetorial identificou a deficiência de ácidos graxos essenciais (AGE) como a opção mais precisa, pois o termo 'dm 2' é mencionado no contexto da paciente que tem diabetes mellitus tipo 2. A deficiência de AGE pode ser associada à doença cardíaca e ao metabolismo dos ácidos graxos n-3 e n-6.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A deficiência de ácidos graxos essenciais (AGE) não é uma condição clínica diretamente relacionada à diabetes mellitus tipo 2 (DM2). A DM2 é uma doença metabólica caracterizada por hipersecreção de insulina e resistência a essa hormona, enquanto a deficiência de AGE é uma condição nutricional que pode ser associada à doença cardíaca e ao metabolismo dos ácidos graxos n-3 e n-6. A codificação CID-11 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "prontuario_id": 149,
+  "text": "# RETORNO\n# 84 ANOS \n# TONTURA + HIPOACUSIA BILATERAL\n\nPACIENTE REFERE TONTURA E HIPOACUSIA BILTERAL EVOLUTIVA (HÁ MAIS DE 20 ANOS) \n\nEXAMES: \n1) AUDIOMETRIA: PERDA AUDITIVA SENSORIAL DE GRAU MODERADO / SEVERA A DIREITA E DE GRAU MODERADO A ESQUERDA, DESCENDENTE BILATERALMENTE\n2) TRIGLICERIDEO: 183 (<150)\n3) CT: 217 (<200)\n\nMEDICAMETOS EM USO:\n1) SERTRALINA\n2) SULPIRIDA\n3) ATENOLOL \n4) VIT D\n\nHD: \n1) PRESBIACUSIA\n2) TONTURA ORTOSTATICA ( CARDIOLÓGICA ?)\n \nCD:\n1) CONTROLE COLESTEROL\n2) PROTESE AUDITIVA (ESTÍMULO) \n3) AVALIAR USO DE ATENOLOL EM POSTO DE SAUDE ( TONTURA )\n4) TREINAMENTO TONTURA \n\nREAVALIAR EM RETORNO:\n1) MELHORA DA TONTURA, TINITUS E SE ESTÁ USANDO A PROTESE CONSTATEMENTE. \n\nR2 Doutor Vital Brazil\n \n \n \n ",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "RETORNO",
+      "CD",
+      "CONTROLE",
+      "AVALIAR",
+      "TREINAMENTO",
+      "REAVALIAR"
+    ],
+    "Sinal ou Sintoma": [
+      "TONTURA",
+      "TINITUS",
+      "HIPOACUSIA BILATERAL",
+      "HIPOACUSIA BILTERAL"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Conceito Temporal": [
+      "EVOLUTIVA"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAMES",
+      "AUDIOMETRIA"
+    ],
+    "Procedimento Laboratorial": [
+      "EXAMES",
+      "TRIGLICERIDEO",
+      "CT"
+    ],
+    "Conceito Quantitativo": [
+      "183",
+      "217"
+    ],
+    "Abreviação": [
+      "CT",
+      "CD",
+      "R2",
+      "VIT D HD"
+    ],
+    "Substância Farmacológica": [
+      "MEDICAMETOS",
+      "SERTRALINA",
+      "SULPIRIDA",
+      "ATENOLOL",
+      "VIT D HD"
+    ],
+    "Substância Química Orgânica": [
+      "SERTRALINA",
+      "SULPIRIDA",
+      "ATENOLOL",
+      "COLESTEROL",
+      "VIT D HD"
+    ],
+    "Função Patológica": [
+      "PRESBIACUSIA"
+    ],
+    "Substância Biologicamente Ativa": [
+      "COLESTEROL"
+    ],
+    "Dispositivo Médico": [
+      "PROTESE",
+      "PROTESE AUDITIVA"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "R2",
+      "Doutor"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "PERDA AUDITIVA SENSORIAL DE GRAU MODERADO",
+      "SEVERA A DIREITA",
+      "GRAU MODERADO A ESQUERDA",
+      "DESCENDENTE BILATERALMENTE",
+      "VIT D HD"
+    ],
+    "Vitamina": [
+      "VIT D HD"
+    ],
+    "Doença ou Síndrome": [
+      "TONTURA ORTOSTATICA"
+    ],
+    "Organização Relacionada à Saúde": [
+      "POSTO DE SAUDE"
+    ]
+  },
+  "labels": {
+    "AB54": {
+      "term_original": "presbiacusia",
+      "capitulo": "10",
+      "confidence_embedding": 0.8133,
+      "descricao_cid": "Representação de doença CID-11: Presbiacusia. Definição: O termo presbiacusia refere-se à deficiência auditiva neurossensorial em idosos. Caracteristicamente, a presbiacusia envolve perda auditiva bilateral de alta frequência associada à dificuldade na discriminação da fala e no processamento auditivo central da informação.",
+      "classification_reasoning": "A presbiacusia refere-se à deficiência auditiva neurossensorial em idosos, caracteristicamente com perda auditiva bilateral de alta frequência associada à dificuldade na discriminação da fala e no processamento auditivo central da informação. Dessa forma, a opção mais precisa para o termo 'presbiacusia' é o código AB54.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 AB54 'Presbiacusia' é válida porque o termo 'presbiacusia' no prontuário refere-se à deficiência auditiva neurossensorial em idosos, caracteristicamente com perda auditiva bilateral de alta frequência associada à dificuldade na discriminação da fala e no processamento auditivo central da informação. A descrição do código CID-11 AB54 também se alinha com essa definição.",
+      "tipo_erro_auditoria": null
+    },
+    "AB54.0": {
+      "term_original": "hipoacusia bilateral",
+      "capitulo": "10",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A hipoacusia bilateral é característica da presbiacusia, uma deficiência auditiva neurossensorial comum em idosos. A descrição do paciente como tendo mais de 20 anos com sintomas, juntamente com a perda auditiva sensorial de grau moderado/severa à direita e de grau moderado à esquerda, descende bilateralmente, também apoia essa escolha.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hipoacusia bilateral é descrita no prontuário como uma característica da presbiacusia, uma deficiência auditiva neurossensorial comum em idosos. A descrição do paciente como tendo mais de 20 anos com sintomas e a perda auditiva sensorial de grau moderado/severa à direita e de grau moderado à esquerda, descende bilateralmente, também apoia essa escolha. Portanto, o código CID-11 AB54.0 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "8B81.Y": {
+      "term_original": "tontura",
+      "capitulo": "08",
+      "confidence_embedding": 0.7233,
+      "descricao_cid": "Representação de doença CID-11: Outros transtornos especificados do nervo vestibulococlear. Definição: ",
+      "classification_reasoning": "A tontura e hipacoúsia bilateral evolutiva são sintomas que sugerem um transtorno do nervo vestibulococlear, especificamente a Representação de doença CID-11: Outros transtornos especificados do nervo vestibulococlear. A falta de informações sobre convulsões e síndrome de taquicardia postural ortostática excluem essas opções.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A tontura e hipacoúsia bilateral evolutiva descrita no prontuário são sintomas que sugerem um transtorno do nervo vestibulococlear, o que é representado pelo código CID-11 8B81.Y. A falta de informações sobre convulsões e síndrome de taquicardia postural ortostática excluem essas opções. Portanto, a codificação CID-11 é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BC40": {
+      "term_original": "tontura ortostatica",
+      "capitulo": "11",
+      "confidence_embedding": 0.6929,
+      "descricao_cid": "Representação de doença CID-11: Anormalidade atrial adquirida. Definição: Uma alteração patológica pós-natal na forma ou função de um ou ambos os átrios.",
+      "classification_reasoning": "A opção BC40 se refere à anormalidade atrial adquirida, o que pode estar relacionada à tontura ortostática descrita no prontuário. Embora não seja uma explicação direta para a tontura, a anormalidade atrial pode contribuir para os sintomas de tontura e desequilíbrio mencionados.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BC40 se refere à anormalidade atrial adquirida, o que não está diretamente relacionada à tontura ortostática descrita no prontuário. A tontura ortostática é um sintoma comum em pacientes com doenças cardíacas, mas a anormalidade atrial adquirida não é a causa mais provável da tontura nesse caso.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "AB31.0": {
+      "term_original": "tinitus",
+      "capitulo": "10",
+      "confidence_embedding": 0.7563,
+      "descricao_cid": "Representação de doença CID-11: Doença de Ménière. Definição: A doença de Meniere (DM) é uma doença crônica progressiva da orelha interna, com hidropisia endolinfática. É caracterizada por ataques recorrentes de vertigem espontânea debilitante com duração de 20 minutos a até 12 horas, acompanhada por sensação de plenitude auricular e zumbido na orelha afetada, e perda auditiva neurossensorial flutuante ipsilateral (PANS) nas frequências baixa ou baixa e média. Pode ocorrer nistagmo durante as crises e quedas são frequentes. Quando conhecida, a etiologia deve ser acrescentada.",
+      "classification_reasoning": "A opção mais precisa é a Doença de Ménière (DM) porque o termo 'tinitus' está relacionado às características clínicas da DM, como sensação de plenitude auricular e zumbido na orelha afetada. Além disso, a paciente refere tontura e hipocausia bilateral evolutiva, o que é consistente com a apresentação clínica da doença.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa não é a Doença de Ménière (DM), pois o termo 'tinitus' não está diretamente relacionado à doença. A paciente refere tontura e hipocausia bilateral evolutiva, que são sintomas comuns em várias condições clínicas, incluindo a perda auditiva sensorial de grau moderado/severa descrita no prontuário. Além disso, não há evidência de ataques recorrentes de vertigem espontânea debilitante com duração de 20 minutos a até 12 horas, que é um dos critérios para diagnóstico da DM.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "prontuario_id": 347,
+  "text": "LESÃO QUELOIDIANA APÓS RESSECÇÃO DE LIPOMA EM REGIÃO ANTERIOR. \n\nCD: SOLICITO COMPRA DE TRIANCINOLONA E Encaminho para agendar beta no hospital.\n ",
+  "entities": {
+    "Abreviação": [
+      "CD"
+    ],
+    "Substância Farmacológica": [
+      "TRIANCINOLONA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "agendar"
+    ],
+    "Organização Relacionada à Saúde": [
+      "hospital"
+    ],
+    "Lesão ou Envenenamento": [
+      "LESÃO QUELOIDIANA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "RESSECÇÃO DE LIPOMA"
+    ],
+    "Localização ou Região Corporal": [
+      "REGIÃO ANTERIOR"
+    ]
+  },
+  "labels": {
+    "NE11": {
+      "term_original": "lesão queloidiana",
+      "capitulo": "22",
+      "confidence_embedding": 0.7124,
+      "descricao_cid": "Representação de doença CID-11: Queimadura de região do corpo não especificada. Definição: ",
+      "classification_reasoning": "A lesão queloidiana descrita é relacionada à queimadura, pois a ressecção de um lipoma pode levar à formação de uma cicatriz queloidiana, que apresenta características semelhantes às queimaduras.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A lesão queloidiana descrita não é uma queimadura, mas sim uma resposta inflamatória crônica ao trauma da ressecção do lipoma. A descrição do prontuário não apresenta características semelhantes às queimaduras, o que justifica a remoção do código CID-11 NE11 e a necessidade de um código mais específico para representar essa condição clínica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

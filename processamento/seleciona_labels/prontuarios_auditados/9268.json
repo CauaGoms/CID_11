@@ -1,0 +1,60 @@
+{
+  "prontuario_id": 766,
+  "text": "ANTICOAGULAÇÃO POR FA.\nNEGA QUEIXAS, NEGA SANGRAMENTOS.\nRNI: 2,88.\nMANTENHO.\n \n \n \n ",
+  "entities": {
+    "Procedimento Terapêutico ou Preventivo": [
+      "ANTICOAGULAÇÃO"
+    ],
+    "Doença ou Síndrome": [
+      "FA"
+    ],
+    "Abreviação": [
+      "FA",
+      "RNI"
+    ],
+    "Negação": [
+      "NEGA"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS"
+    ],
+    "Função Patológica": [
+      "SANGRAMENTOS"
+    ],
+    "Conceito Quantitativo": [
+      "2 , 88"
+    ]
+  },
+  "labels": {
+    "ME86.E": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.782,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa do punho. Definição: ",
+      "classification_reasoning": "A opção ME86.E é a mais precisa para o termo 'queixas' no contexto do prontuário, pois refere-se à representação de doença CID-11: Sintoma ou queixa do punho.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção ME86.E é a mais precisa para o termo 'queixas' no contexto do prontuário, pois refere-se à representação de doença CID-11: Sintoma ou queixa do punho. A descrição do código se encaixa perfeitamente com a informação do prontuário, que menciona anticoagulação por FA e nega sangramentos. O termo 'queixas' não apresenta contradições óbvias nem associações puramente imaginárias. Portanto, o código CID-11 ME86.E é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "ME24.A5": {
+      "term_original": "sangramentos",
+      "capitulo": "21",
+      "confidence_embedding": 0.7575,
+      "descricao_cid": "Representação de doença CID-11: Hematêmese. Definição: Vômito de sangue que pode ser vermelho vivo ou em \"borra de café\". Vomitar sangue é uma regurgitação de sangue pelo trato gastrointestinal superior e geralmente indica sangramento do trato gastrointestinal superior.",
+      "classification_reasoning": "A opção mais precisa é a hematêmese (vômito de sangue), pois o termo 'sangramentos' é usado no contexto do prontuário para se referir ao sangramento, e essa opção CID-11 melhor descreve este sintoma.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção ME24.A5 (Hematêmese) é a mais precisa para representar o termo 'sangramentos' no prontuário, pois ambos se referem ao sangramento. A justificativa do sistema é clara e coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "3B14": {
+      "term_original": "fa",
+      "capitulo": "03",
+      "confidence_embedding": 0.736,
+      "descricao_cid": "Representação de doença CID-11: Outra deficiência hereditária de fator da coagulação com tendência hemorrágica. Definição: Qualquer doença causada por mutações geneticamente herdadas levando à falta de fatores da coagulação no sangue não classificada em outra parte. Essas doenças são caracterizadas pela ocorrência aumentada de hemorragias e equimoses, pois o sangue não coagula adequadamente para controlar o sangramento. A confirmação é feita pela identificação de mutações por testagem genética.",
+      "classification_reasoning": "A presença do termo 'fa' no contexto sugeriu a possibilidade de uma deficiência hereditária de fator da coagulação com tendência hemorrágica, o que justifica a escolha do código 3B14.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença do termo 'fa' no prontuário é consistente com a definição da doença CID-11 3B14, que se refere a uma deficiência hereditária de fator da coagulação com tendência hemorrágica. A falta de queixas e sangramentos descrita no prontuário também é coerente com essa condição. Portanto, o código CID-11 3B14 é válido para representar a condición descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

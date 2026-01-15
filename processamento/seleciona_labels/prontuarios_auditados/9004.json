@@ -1,0 +1,254 @@
+{
+  "prontuario_id": 31,
+  "text": "Às 16:20 HS: EVOLUI CONSCIENTE, RESPONDE AOS COMANDOS VERBAIS. TRAQUEOSTOMIZADO, COM NÉVOA ÚMIDA A 6 L/MIN, APRESENTOU SECREÇÃO DE ASPIRAÇÃO TRAQUEAL SANGUINOLENTA APÓS REALIZAÇÃO DE BRONCOSCOPIA. COM DIETA POR GASTROSTOMIA A 75 ML/H, CURATIVO DE GASTRO COM. NEOPLASIA MALIGNA DA LINGUA COM LESAO INVASIVA. Em 03-09-2007, 15:00: Consciente, orientado, alerta, verbalizando. Púpilas Isocóricas e fotorreagentes. Corado, hidratado e afebril. Respirando em ar ambiente. Hemodinamicamente estável, eupnéico, saturando acima de 95%. Ausculta pulmonar com MV presente bil. NEOPLASIA MALIGNA DOS OSSOS DO CRANIO E DA FACE. Às 17:03: Paciente apresentando-se sonolenta no período da manhã e tarde, gemente, recebendo dieta via SNE a 75 ml/h por BI, eupneica, normotensa, normocardica, afebril, acesso venoso periférico MSD, apresentando edema em MMSS, SVD com débito colúrico. PNEUMONIA NAO ESPECIFICADA.",
+  "entities": {
+    "Achado": [
+      "CONSCIENTE",
+      "TRAQUEOSTOMIZADO",
+      "SANGUINOLENTA",
+      "Consciente",
+      "orientado",
+      "alerta",
+      "verbalizando",
+      "Corado",
+      "hidratado",
+      "afebril",
+      "eupnéico",
+      "eupneica",
+      "normotensa",
+      "normocardica",
+      "RESPONDE AOS COMANDOS VERBAIS",
+      "Púpilas Isocóricas e fotorreagentes",
+      "Respirando em ar ambiente",
+      "Hemodinamicamente estável",
+      "saturando acima de 95%",
+      "MV presente bil"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TRAQUEOSTOMIZADO",
+      "SVD",
+      "NÉVOA ÚMIDA",
+      "DE BRONCOSCOPIA",
+      "DIETA POR GASTROSTOMIA",
+      "CURATIVO DE GASTRO",
+      "dieta via SNE",
+      "acesso venoso periférico"
+    ],
+    "Negação": [
+      "afebril"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Sinal ou Sintoma": [
+      "sonolenta",
+      "gemente",
+      "edema em MMSS",
+      "débito colúrico"
+    ],
+    "Abreviação": [
+      "BI",
+      "MSD",
+      "SVD",
+      "CURATIVO DE GASTRO",
+      "MV presente bil",
+      "dieta via SNE",
+      "edema em MMSS"
+    ],
+    "Dispositivo de Administração de Medicamento": [
+      "BI"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD"
+    ],
+    "Dispositivo Médico": [
+      "SVD",
+      "CURATIVO DE GASTRO",
+      "acesso venoso periférico"
+    ],
+    "Conceito Quantitativo": [
+      "6 L/MIN",
+      "75 ML/H",
+      "75 ml/h"
+    ],
+    "Processo Neoplásico": [
+      "NEOPLASIA MALIGNA DA LINGUA COM LESAO INVASIVA",
+      "NEOPLASIA MALIGNA DOS OSSOS DO CRANIO E DA FACE"
+    ],
+    "Procedimento Diagnóstico": [
+      "Ausculta pulmonar"
+    ]
+  },
+  "labels": {
+    "CB21.1": {
+      "term_original": "respirando em ar ambiente",
+      "capitulo": "12",
+      "confidence_embedding": 0.7958,
+      "descricao_cid": "Representação de doença CID-11: Outro pneumotórax espontâneo. Definição: O pneumotórax espontâneo não hipertensivo está incluído nesta classificação. \r\n\r\nAqui se incluem o pneumotórax espontâneo não hipertensivo e o pneumotórax secundário não hipertensivo. O pneumotórax espontâneo primário ocorre em pacientes sem uma doença pulmonar subjacente, classicamente em homens jovens magros na adolescência ou na terceira década de vida. É considerado como sendo causado por rotura espontânea de bolha ou cisto subpleural apical resultantes de tabagismo ou hereditários. Ocorre geralmente em repouso, embora alguns casos ocorram durante atividades que envolvam alongamento ou estiramento. O pneumotórax espontâneo primário ocorre também durante mergulho ou em voos a altas altitudes em decorrência de variações de pressão transmitidas de forma desigual nos pulmões. O pneumotórax espontâneo secundário ocorre em pacientes com doença pulmonar subjacente. Este resulta mais frequentemente da rotura de bolhas ou cistos em pacientes com DPOC grave, Infecção por Pneumocistiis jirovecii relacionada ao HIV, fibrose cística ou outra doença pulmonar parenquimatosa subjacente. O pneumotórax espontâneo secundário é mais grave do que o pneumotórax espontâneo primário porque ocorre em pacientes cuja doença pulmonar subjacente reduz a reserva pulmonar.",
+      "classification_reasoning": "A presença de 'respirando em ar ambiente' no contexto clínico sugere que o paciente não está apresentando sintomas de distress respiratório agudo, como falta de ar ou tosse grave, o que reduz a possibilidade de pneumotórax espontâneo. No entanto, a ausência de sintomas específicos e a presença de outras condições clínicas (neumonia não especificada) levam à escolha do código CB21.1 como mais precisa para descrever o termo dentro do contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'respirando em ar ambiente' não descreve um pneumotórax espontâneo, mas sim a condição respiratória do paciente. A presença de pneumonia não especificada e outras condições clínicas sugere que o código CB21.1 não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C45.3": {
+      "term_original": "consciente",
+      "capitulo": "06",
+      "confidence_embedding": 0.7421,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cocaína. Definição: Intoxicação por cocaína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cocaína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cocaína e sua intensidade está intimamente relacionada à quantidade de cocaína consumida. Têm duração limitada, e diminuem à medida que a cocaína é eliminada do corpo. Sintomas de apresentação podem incluir euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, ideação paranoide (às vezes de intensidade delirante), alucinações auditivas, confusão, e mudanças na sociabilidade. Sudorese ou calafrios, náusea ou vômitos, e palpitações e dor torácica podem ocorrer. Sinais físicos podem incluir taquicardia, pressão arterial elevada e dilatação pupilar. Em casos raros, geralmente na intoxicação grave, o uso de cocaína pode resultar em convulsões, fraqueza muscular, discinesia ou distonia.",
+      "classification_reasoning": "A opção mais precisa para o termo 'consciente' é a intoxicação por cocaína (6C45.3), pois o paciente apresenta-se consciente e orientado, verbalizando, e não há evidências de outras substâncias intoxicantes que possam ser responsáveis por essa situação.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'consciente' não é a intoxicação por cocaína (6C45.3), pois o paciente apresenta-se consciente e orientado, verbalizando, e não há evidências de consumo de cocaína ou outras substâncias intoxicantes que possam ser responsáveis por essa situação. A ausência de sintomas clínicos característicos da intoxicação por cocaína, como euforia inadequada, ansiedade, raiva, atenção prejudicada, hipervigilância, agitação psicomotora, etc., também sugere que a classificação seja inapropriada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD52.71": {
+      "term_original": "normocardica",
+      "capitulo": "11",
+      "confidence_embedding": 0.762,
+      "descricao_cid": "Representação de doença CID-11: Dilatação adquirida da aorta ascendente ou da raiz. Definição: Aumento do diâmetro luminal da aorta entre a junção ventrículo-aórtica e a origem do primeiro ramo braquiocefálico acima do limite superior do normal ajustado para o tamanho do corpo que se desenvolve após o nascimento",
+      "classification_reasoning": "A opção mais precisa para o termo 'normocardica' é a dilatação adquirida da aorta ascendente ou da raiz, pois a descrição menciona uma anormalidade cardíaca que está relacionada ao estado cardíaco do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'normocardica' refere-se ao estado cardíaco do paciente, que é estável e não apresenta anormalidades. No entanto, o código CID-11 atribuído (BD52.71) representa a dilatação adquirida da aorta ascendente ou da raiz, que não está relacionada ao termo 'normocardica'. Portanto, a codificação é incoerente e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CC/HA0.00.00": {
+      "term_original": "hemodinamicamente estável",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'hemodinamicamente estável' refere-se ao estado do paciente em relação à sua circulação sanguínea, indicando que a pressão arterial e o fluxo sanguíneo estão dentro dos limites normais, sem sinais de problemas cardíacos ou hipotensão.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'hemodinamicamente estável' refere-se ao estado do paciente em relação à sua circulação sanguínea, indicando que a pressão arterial e o fluxo sanguíneo estão dentro dos limites normais, sem sinais de problemas cardíacos ou hipotensão. Isso é diretamente relacionado à condição descrita no prontuário, portanto, o código CID-11 CC/HA0.00.00 é válido.",
+      "tipo_erro_auditoria": null
+    },
+    "ME24.A5": {
+      "term_original": "débito colúrico",
+      "capitulo": "21",
+      "confidence_embedding": 0.7818,
+      "descricao_cid": "Representação de doença CID-11: Hematêmese. Definição: Vômito de sangue que pode ser vermelho vivo ou em \"borra de café\". Vomitar sangue é uma regurgitação de sangue pelo trato gastrointestinal superior e geralmente indica sangramento do trato gastrointestinal superior.",
+      "classification_reasoning": "A escolha pelo código ME24.A5 se baseia na descrição de 'débito colúrico' que sugere a presença de sangue nos esfíncteres anal e retal, o que é consistente com a definição de hematêmese descrita no código. Além disso, a apresentação de edema em MMSS e SVD também suporta esta escolha.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário refere-se ao sangue na traqueostomia, não há indicação de sangramento nos esfíncteres anal e retal. A escolha pelo código ME24.A5 é incorreta pois não representa fielmente o termo 'débito colúrico' descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9A04.0": {
+      "term_original": "púpilas isocóricas e fotorreagentes",
+      "capitulo": "09",
+      "confidence_embedding": 0.7622,
+      "descricao_cid": "Representação de doença CID-11: Triquíase sem entrópio. Definição: Refere-se a cílios anormalmente posicionados que crescem para trás em direção ao olho, tocando a córnea ou conjuntiva. Pode ser causado por infecção, inflamação, condições autoimunes, defeitos congênitos, agenesia palpebral e traumatismos como queimaduras ou lesões palpebrais. Esse diagnóstico é feito na ausência da condição em que a pálpebra (usualmente a inferior) dobra para dentro. É muito desconfortável, pois os cílios constantemente se esfregam contra a córnea e a irritam.",
+      "classification_reasoning": "A descrição do termo 'púpilas isocóricas e fotorreagentes' sugere que o paciente tem pálpebras normais e reagem normalmente à luz, caracterizando uma resposta pupilar normal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'púpilas isocóricas e fotorreagentes' sugere que o paciente tem pálpebras normais e reagem normalmente à luz, caracterizando uma resposta pupilar normal. No entanto, o código CID-11 atribuído (9A04.0) refere-se a triquíase sem entrópio, que não está relacionada à condição clínica descrita no prontuário. A classificação é incoerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CB60": {
+      "term_original": "traqueostomizado",
+      "capitulo": "12",
+      "confidence_embedding": 0.763,
+      "descricao_cid": "Representação de doença CID-11: Mau funcionamento de traqueostomia. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'traqueostomizado' é a doença CID-11 CB60, Mau funcionamento de traqueostomia. Isso porque o paciente apresenta secreção de aspiração tracheal sangueolenta após realização de broncoscopia e está com dieta via SNE a 75 ml/h por BI, o que sugere problemas na função da traqueostomia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 CB60, Mau funcionamento de traqueostomia, não se aplica ao paciente pois a descrição do prontuário refere-se à presença de secreção de aspiração tracheal sangueolenta após realização de broncoscopia, o que sugere problemas na função da traquea, e não apenas no funcionamento da traqueostomia. A codificação CID-11 CB60 é mais específica para a falha na traqueostomia em si, enquanto o paciente apresenta sintomas relacionados à secreção de aspiração tracheal sangueolenta.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA01": {
+      "term_original": "normotensa",
+      "capitulo": "11",
+      "confidence_embedding": 0.7731,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A opção mais precisa é a doença cardíaca hipertensiva (Código BA01) porque o termo 'normotensa' refere-se ao estado de pressão arterial normal ou não elevada, característica da hipertensão controlada. Isso está alinhado com a definição de doença cardíaca hipertensiva como uma condição em que a hipertensão prolongada e não controlada pode levar a alterações na estrutura miocárdica e vasculatura coronária.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'normotensa' refere-se ao estado de pressão arterial normal, não à doença cardíaca hipertensiva. A definição do código CID-11 BA01 se refere a uma condição em que a hipertensão prolongada e não controlada pode levar a alterações na estrutura miocárdica e vasculatura coronária, o que não está relacionado ao termo 'normotensa'. Portanto, é necessário remover o código CID-11 BA01 pois não há uma relação clínica direta entre o termo e a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C49.3": {
+      "term_original": "responde aos comandos verbais",
+      "capitulo": "06",
+      "confidence_embedding": 0.7281,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por alucinógenos. Definição: Intoxicação por alucinógenos é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de alucinógenos, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos dos alucinógenos e sua intensidade está intimamente relacionada à quantidade de alucinógenos consumida. Têm duração limitada, e diminuem à medida que o alucinógeno é eliminado do corpo. A apresentação pode incluir alucinações, ilusões, alterações perceptivas como despersonalização, desrealização, ou sinestesias (fusão de sentidos, como um estímulo visual evocando um cheiro), ansiedade, humor deprimido ou disfórico, ideias de referência, ideação paranoide, julgamento comprometido, palpitações, sudorese, visão turva, tremores e descoordenação. Sinais físicos podem incluir taquicardia, pressão arterial elevada, dilatação pupilar. Em casos raros, a intoxicação por alucinógenos pode facilitar ideação e comportamento suicidas.",
+      "classification_reasoning": "A paciente responde aos comandos verbais, o que sugere falta de efeitos adversos sobre a consciência e a coordenação. A presença de alucinações traqueal sangueolenta após broncoscopia também está relacionada à ingestão de substâncias psicotrópicas, o que reforça a escolha do código 6C49.3, Intoxicação por alucinógenos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente apresenta sintomas de neoplasia maligna da língua e dos ossos do crânio e face, além de pneumonia não especificada. A presença de secreção traqueal sangueolenta após broncoscopia também sugere uma condição clínica mais complexa do que a simples intoxicação por alucinógenos. Além disso, o termo 'responde aos comandos verbais' não é suficiente para justificar a escolha do código 6C49.3, pois essa condição é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação, o que não está presente no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C40.3": {
+      "term_original": "alerta",
+      "capitulo": "06",
+      "confidence_embedding": 0.747,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas.",
+      "classification_reasoning": "A descrição do termo 'alerta' sugere uma perturbação em consciência, cognição ou comportamento, o que é consistente com a definição de intoxicação por álcool na CID-11.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 '6C40.3' para o termo 'alerta' não é clinicamente coerente com o prontuário. O termo 'alerta' refere-se à consciência e orientação do paciente, enquanto a definição da CID-11 se refere a intoxicação por álcool, que não está relacionada ao estado de alerta do paciente. A codificação é incorreta e deve ser removida.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MG29.10": {
+      "term_original": "edema em mmss",
+      "capitulo": "21",
+      "confidence_embedding": 0.72,
+      "descricao_cid": "Representação de doença CID-11: Edema devido a pressão capilar aumentada. Definição: O aumento da pressão capilar aumenta o vazamento de fluido do compartimento vascular para os tecidos intersticiais, resultando em edema. Causas incluem o comprometimento ou obstrução do retorno venoso (sobrecarga de fluido, trombose venosa, insuficiência cardíaca direita, compressão venosa por tumor), aumento do fluxo sanguíneo (resposta fisiológica à exposição ao calor, malformações arteriovenosas, controle vasomotor cutâneo prejudicado devido a drogas ou neuropatia autonômica), ou pressão oncótica plasmática reduzida por hipoproteinemia.",
+      "classification_reasoning": "A opção mais precisa é a MG29.10, pois o termo 'edema em mmss' sugere edema nos membros inferiores e superiores, o que é característico do edema devido à pressão capilar aumentada (MG29.10). Além disso, a presença de secreção de aspiração tracheal sanguinolenta após broncoscopia e a necessidade de dieta via SNE a 75 ml/h sugere que o paciente está com doença grave e possivelmente com insuficiência cardíaca direita, o que também é um fator contributivo para o edema.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'edema em mmss' não é suficientemente específico para justificar a escolha do código CID-11 MG29.10, que se refere ao edema devido à pressão capilar aumentada. A descrição do prontuário não apresenta evidências claras de insuficiência cardíaca direita ou outras causas de edema relacionadas à pressão capilar aumentada. Além disso, a presença de secreção de aspiração tracheal sanguinolenta após broncoscopia e a necessidade de dieta via SNE a 75 ml/h sugerem que o paciente está com doença grave, mas não há indícios de edema generalizado ou aumento da pressão capilar. Portanto, a escolha do código CID-11 MG29.10 é demasiado genérica e não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "CA22.0": {
+      "term_original": "mv presente bil",
+      "capitulo": "12",
+      "confidence_embedding": 0.7824,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "A presença de MV presente bil na evolução do paciente leva a suspeita de doença pulmonar obstrutiva crônica (DPOC) com exacerbação aguda, considerando o contexto clínico e as características da doença.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de MV presente bil na evolução do paciente não é suficiente para justificar a codificação CID-11 CA22.0, que representa uma doença pulmonar obstrutiva crônica com exacerbação aguda. A análise clínica do prontuário revela que o paciente apresenta uma neoplasia maligna da língua e dos ossos do crânio e da face, além de pneumonia não especificada. A presença de MV presente bil pode ser um sintoma de diversas doenças, incluindo a pneumonia, e não é específico para DPOC. Portanto, a codificação CID-11 CA22.0 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "2B62.1Z": {
+      "term_original": "neoplasia maligna da lingua com lesao invasiva",
+      "capitulo": "02",
+      "confidence_embedding": 0.7577,
+      "descricao_cid": "Representação de doença CID-11: Neoplasias malignas da amígdala lingual, não especificadas. Definição: ",
+      "classification_reasoning": "A neoplasia maligna da língua com lesão invasiva é mais precisamente descrita como Neoplasias malignas da amígdala lingual, não especificadas (Código: 2B62.1Z), considerando o contexto clínico e a presença de uma neoplasia maligna da língua com lesão invasiva.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A neoplasia maligna da língua com lesão invasiva descrita no prontuário é claramente uma neoplasia maligna da amígdala lingual, não especificada. O código CID-11 2B62.1Z representa fielmente essa condição clínica e está de acordo com o contexto do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "2B51": {
+      "term_original": "neoplasia maligna dos ossos do cranio e da face",
+      "capitulo": "02",
+      "confidence_embedding": 0.7759,
+      "descricao_cid": "Representação de doença CID-11: Osteossarcoma, localização primária. Definição: Tumor mesenquimal maligno formador de osso geralmente agressivo, que afeta predominantemente adolescentes e adultos jovens. Ele geralmente acomete ossos e, menos frequentemente, localizações extraósseas. Frequentemente acomete os ossos longos (particularmente fêmur distal, tíbia proximal e úmero proximal). Dor com ou sem uma massa palpável é o sintoma clínico mais frequente. Ele pode disseminar para outras localizações anatômicas, particularmente os pulmões.",
+      "classification_reasoning": "A neoplasia maligna dos ossos do crânio e da face, descrita no contexto clínico, é mais provável que seja um osteossarcoma localizado primariamente nos ossos longos, como o fêmur distal ou úmero proximal, em vez de ser uma neoplasia maligna de glândulas salivares ou outras localizações.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A neoplasia maligna dos ossos do crânio e da face descrita no prontuário não é um osteossarcoma localizado primariamente nos ossos longos, como o fêmur distal ou úmero proximal. A descrição do prontuário sugere que a neoplasia está relacionada ao crânio e face, o que não se encaixa com a definição de osteossarcoma. Portanto, o código CID-11 atribuído (2B51) não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD22": {
+      "term_original": "sanguinolenta",
+      "capitulo": "21",
+      "confidence_embedding": 0.7472,
+      "descricao_cid": "Representação de doença CID-11: Hemoptise. Definição: Expectoração ou cuspe de sangue originário de qualquer parte do trato respiratório, usualmente resultado de hemorragia no parênquima pulmonar e artérias bronquiais.",
+      "classification_reasoning": "A descrição do termo 'sanguinolenta' se refere à expectoração de sangue originário de qualquer parte do trato respiratório, o que é compatível com a secretão de aspiração traqueal sanguinolenta descrita no prontuário.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A descrição do termo 'sanguinolenta' se refere à expectoração de sangue originário de qualquer parte do trato respiratório, o que é compatível com a secretão de aspiração traqueal sanguinolenta descrita no prontuário. A codificação CID-11 MD22 (Hemoptise) representa fielmente a condição clínica descrita e não há contradição óbvia ou falta de base no texto.",
+      "tipo_erro_auditoria": null
+    },
+    "ME64.3": {
+      "term_original": "gemente",
+      "capitulo": "21",
+      "confidence_embedding": 0.7571,
+      "descricao_cid": "Representação de doença CID-11: Petéquias. Definição: Petéquias resultam do vazamento focal de sangue dos capilares da derme para o tecido conjuntivo dérmico adjacente. Apresentam-se como múltiplas máculas pontuais, vermelhas ou roxas, que não desaparecem à digitopressão. As muitas causas subjacentes variam de condições inócuas (p.ex., tosse ou esforço) a condições de risco de vida (p.ex., septicemia meningocócica).",
+      "classification_reasoning": "A descrição do termo 'gemente' sugere a presença de petéquias, que são máculas pontuais de sangue na pele, o que é compatível com a presença de petéquias descritas no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'gemente' não se refere às petéquias, como sugerido pelo sistema. A descrição do prontuário apresenta um paciente com neoplasia maligna da língua e doenças sistêmicas, e o termo 'gemente' parece referir-se ao estado de geração ou produção de secreções, não à presença de petéquias. Portanto, a codificação CID-11 ME64.3 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "7A41": {
+      "term_original": "sonolenta",
+      "capitulo": "07",
+      "confidence_embedding": 0.7626,
+      "descricao_cid": "Representação de doença CID-11: Apneia obstrutiva do sono. Definição: A apneia obstrutiva do sono é caracterizada por episódios repetidos de apneia ou hipopneia que são causados por obstrução de via aérea superior durante o sono. Estes eventos frequentemente resultam em redução da saturação de oxigênio no sangue e geralmente são interrompidos por curtos despertares. Sonolência excessiva é uma das principais queixas de apresentação em muitos, mas não em todos os casos. Relatos de insônia, qualidade de sono ruim e fadiga são também comuns. A síndrome de resistência de vias aéreas superiores tem a mesma fisiopatologia e deve ser classificada aqui. Em adultos (> 18 anos), a apneia obstrutiva do sono é diagnosticada quando a frequência dos eventos obstrutivos (apneias, hipopneias, ou despertares relacionados a eventos respiratórios) é superior a 15 por hora. O transtorno também pode ser diagnosticado quando a frequência de eventos é superior a cindo por hora e: a) sintomas atribuíveis ao transtorno estão presentes (p.ex., sonolência ou interrupção do sono); b) desconforto respiratório noturno ou apneia/ronco habitual observados são relatados; ou c) quando estão presentes hipertensão, algum distúrbio do humor, disfunção cognitiva, doença coronariana, acidente vascular cerebral, insuficiência cardíaca congestiva, fibrilação atrial, ou diabetes mellitus tipo 2 estão presentes. Em crianças, o distúrbio é diagnosticado quando a frequência dos eventos obstrutivos é superior a um por hora, acompanhados de sinais ou sintomas relacionados ao transtorno respiratório. \r\n\r\nNota: Um diagnóstico definitivo requer evidência objetiva baseada na polissonografia.",
+      "classification_reasoning": "A descrição do termo 'sonolenta' sugere que o paciente está dormindo excessivamente ou apresentando sonolência, o que é um sintoma comum associado à apneia obstrutiva do sono.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'sonolenta' sugere que o paciente está dormindo excessivamente, mas a apneia obstrutiva do sono é uma condição mais específica que envolve episódios repetidos de apneia ou hipopneia durante o sono. A sonolência pode ser um sintoma associado à apneia obstrutiva do sono, mas não é suficiente para justificar a classificação como tal.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

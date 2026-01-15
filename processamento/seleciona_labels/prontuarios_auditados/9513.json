@@ -1,0 +1,162 @@
+{
+  "prontuario_id": 796,
+  "text": "drc estagio 5\nCANDIDATA A TX RENAL  \nDRC ESTAGIO 5\nASMA BRONQUICA\nNEFROLOGISTA Doutor Vital Brazil BENVENUTTI\nAO EXAME PA 120/90  P 76  AFEBRIL  PESO 70KG  ALTUAR 1,73  FRR > 500ML\nCORADA E HIDRATADA\nCPP LIVRES\nPC RITMO REGULAR\nABD RHA+, FLACIDO, INDOLOR\nMMII SEM EDEMA\n* LAB : ANTI HBS REAGENTE , IGG TOXOPLASMOSE NEGATIVO, DEMAIS PADRÃO\n* USG : UTERO COM TEXTURA HETEROGENA\n* RX TORAX NORMAL\n* ECOCARDIO : NORMAL\n* TE INEFICARZ POR NÃO ATINGIR FC MÁXIMA\n* TS A POSITIVO\n* POTENCIAL DOADORA: IRMA",
+  "entities": {
+    "Grupo Profissional ou Ocupacional": [
+      "NEFROLOGISTA"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAME",
+      "USG",
+      "ECOCARDIO",
+      "TE",
+      "RX TORAX"
+    ],
+    "Abreviação": [
+      "PA",
+      "P",
+      "FRR",
+      "CPP",
+      "PC",
+      "ABD",
+      "RHA+",
+      "MMII",
+      "LAB",
+      "USG",
+      "ECOCARDIO",
+      "TE",
+      "drc estagio 5",
+      "TX RENAL",
+      "DRC ESTAGIO 5",
+      "RX TORAX",
+      "INEFICARZ POR NÃO ATINGIR FC MÁXIMA"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PESO",
+      "ALTUAR",
+      "PC"
+    ],
+    "Conceito Quantitativo": [
+      "120/90",
+      "76",
+      "70KG",
+      "1 , 73",
+      "&gt; 500ML"
+    ],
+    "Achado": [
+      "AFEBRIL",
+      "CORADA",
+      "HIDRATADA",
+      "LIVRES",
+      "RHA+",
+      "FLACIDO",
+      "INDOLOR",
+      "RITMO REGULAR",
+      "POTENCIAL DOADORA"
+    ],
+    "Negação": [
+      "AFEBRIL",
+      "INDOLOR",
+      "SEM"
+    ],
+    "Localização ou Região Corporal": [
+      "CPP",
+      "ABD",
+      "MMII"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Sinal ou Sintoma": [
+      "EDEMA"
+    ],
+    "Procedimento Laboratorial": [
+      "LAB"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "NORMAL",
+      "POSITIVO",
+      "ANTI HBS REAGENTE",
+      "IGG TOXOPLASMOSE NEGATIVO",
+      "DEMAIS PADRÃO",
+      "UTERO COM",
+      "TEXTURA HETEROGENA",
+      "INEFICARZ POR NÃO ATINGIR FC MÁXIMA"
+    ],
+    "Grupo Familiar": [
+      "IRMA"
+    ],
+    "Doença ou Síndrome": [
+      "drc estagio 5",
+      "DRC ESTAGIO 5",
+      "ASMA BRONQUICA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ]
+  },
+  "labels": {
+    "6e+48": {
+      "term_original": "ritmo regular",
+      "capitulo": "06",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "O termo 'ritmo regular' refere-se à frequência cardíaca do paciente, que é uma característica normal e estável. Isso sugere que a paciente não tem problemas cardiovasculares graves, o que exclui as opções de intoxicação por estimulantes ou cocaína. Além disso, o termo 'ritmo regular' também não se aplica ao caso de demência devido à hidrocefalia, pois isso é um diagnóstico neurológico. Portanto, a escolha mais precisa para o termo dentro do contexto clínico é a intoxicação por cafeína (Código 6E48).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'ritmo regular' não é uma condição clínica específica, mas sim um achado cardíoco normal. A escolha do código CID-11 6E48 (intoxicação por cafeína) não está justificada pelo prontuário, pois não há evidência de consumo de estimulantes ou cocaína. Além disso, a presença de outras condições clínicas, como DRC Estágio 5 e Asma Bronquica, sugere que o paciente tem uma doença crônica e não está relacionada à intoxicação por cafeína.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB32.20": {
+      "term_original": "flacido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7749,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "A opção mais precisa para o termo 'flácido' é a rabdomiólise idiopática, uma lesão muscular caracterizada por descamação maciça de conteúdo muscular, acompanhada de mioglobinúria. A descrição da paciente como 'corada e hidratada' sugere que ela está com um quadro de hipercapnia, o que é comum em pacientes com rabdomiólise.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário não apresenta evidências de lesão muscular massiva, extravazamento de conteúdo muscular ou mioglobinúria, características clínicas da rabdomiólise idiopática. Além disso, a paciente está 'corada e hidratada', o que sugere hipercapnia, mas não há relação direta com a lesão muscular. A opção do sistema é puramente imaginária e não tem base no texto.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB50.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7502,
+      "descricao_cid": "Representação de doença CID-11: Cisto sinovial do espaço poplíteo. Definição: Este é o edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho",
+      "classification_reasoning": "A opção mais precisa para o termo 'edema' no contexto clínico é a Cisto sinovial do espaço poplíteo, pois não há outro edema mencionado no prontuário que possa ser relacionado à doença do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'edema' no prontuário se refere a uma condição clínica descrita como 'MMII SEM EDEMA', o que significa que não há edema presente. No entanto, o código CID-11 atribuído é FB50.2, que representa um cisto sinovial do espaço poplíteo, que é um tipo de edema benigno. Isso é uma contradição óbvia entre a descrição clínica e o código CID-11 atribuído.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "CA23.0": {
+      "term_original": "asma bronquica",
+      "capitulo": "12",
+      "confidence_embedding": 0.7675,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica. Definição: Asma alérgica é o fenótipo de asma mais facilmente reconhecido. Frequentemente, inicia-se na infância e é associada a um histórico pessoal ou familiar de doença alérgica, como eczema, rinite alérgica, ou alergia a drogas e alimentos. O exame do escarro induzido desses pacientes, antes do tratamento, geralmente revela uma inflamação eosinofílica das vias aéreas. O principal gatilho é a exposição a alérgenos, como o ácaro da poeira doméstica e ao pólen, aos quais o indivíduo tenha sido, previamente, sensibilizado. Os pacientes com esse fenótipo de asma, usualmente, respondem bem a corticoide inalatório e à imunoterapia alérgeno-específica.",
+      "classification_reasoning": "A candidata tem asma bronquica, o que está descrito como um fenótipo de asma mais facilmente reconhecido e associado a histórico pessoal ou familiar de doença alérgica. Além disso, não há indicações de exacerbação aguda ou trauma nos dados fornecidos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 CA23.0 'Asma alérgica' é muito específica e não se ajusta ao termo 'asma bronquica' presente no prontuário, que não apresenta características clínicas de asma alérgica, como histórico pessoal ou familiar de doença alérgica. Além disso, a descrição do código CID-11 refere-se a um fenótipo de asma mais facilmente reconhecido e associado a inflamação eosinofílica das vias aéreas, o que não é mencionado no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "GB40": {
+      "term_original": "drc estagio 5",
+      "capitulo": "16",
+      "confidence_embedding": 0.7677,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A opção mais precisa para o termo 'DRC Estágio 5' é a síndrome nefrítica (Código: GB40) devido à presença de doença renal crônica em estágio 5, caracterizada por hematúria grave e oligúria, apesar da falta de detalhes sobre o grau de insuficiência renal aguda.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'DRC Estágio 5' é a síndrome nefrítica (Código: GB40) devido à presença de doença renal crônica em estágio 5, caracterizada por hematúria grave e oligúria. Ajusta-se perfeitamente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "JA21": {
+      "term_original": "potencial doadora",
+      "capitulo": "18",
+      "confidence_embedding": 0.7947,
+      "descricao_cid": "Representação de doença CID-11: Pré-eclâmpsia superposta a hipertensão crônica. Definição: Condição que acomete mulheres grávidas com mais de 20 semanas de gestação. Esta condição é caracterizada por pressão arterial sistólica maior que 140 mmHg e diastólica igual ou maior a 90 mmHg em duas ocasiões com 4 horas de intervalo na presença de proteinúria ou outra nova disfunção orgânica materna, caracterizada por trombocitopenia, creatinina sérica ou transaminases hepáticas elevadas, ou condições neurológicas ou restrição do crescimento fetal em uma mulher com diagnóstico de hipertensão preexistente.",
+      "classification_reasoning": "A paciente tem doença renal hipertensiva (DRC) estagio 5 e candidata a TX renal, o que sugere uma complicação grave. Além disso, há referência ao 'potencial doadora' na história clínica, o que é mais comummente associado à pré-eclâmpsia superposta a hipertensão crônica (JA21). Essa condição é caracterizada por pressão arterial sistólica maior que 140 mmHg e diastólica igual ou maior a 90 mmHg em duas ocasiões com 4 horas de intervalo, o que coincide com os achados da paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A condição descrita no prontuário não atende aos critérios da pré-eclâmpsia superposta a hipertensão crônica (JA21). A paciente tem doença renal hipertensiva (DRC) estagio 5 e candidata a TX renal, o que sugere uma complicação grave. Além disso, há referência ao 'potencial doadora' na história clínica, mas não há evidências de pressão arterial sistólica maior que 140 mmHg e diastólica igual ou maior a 90 mmHg em duas ocasiões com 4 horas de intervalo. Portanto, o código CID-11 atribuído (JA21) não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    }
+  }
+}

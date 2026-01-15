@@ -1,0 +1,121 @@
+{
+  "prontuario_id": 1,
+  "text": "has / 10 anos/maço.\naas 100 / carvedilol 25 1x/d / sinva 40 mg 1 x/d / enalapril 1 cp 12/12 hs / furo 40 mg 1 x/d.\nfez cat + angioplastia 2013.\nECOCARDIO 25/11/13 - VE HIPERTROFIADO COM DIMENSÃO INTERNA AUMENTADA E FUNÇÃO GLOBAL MODERADAMENTE DIMINUIDA POR ACINESIA\nMEDIO APICAL PAREDE ANTERO SEPTAL. AUMENTO DE AE. REFLUXO MITRAL DISCRETO. ECTASIA DA RAIZ AÓRTICA. REFLUXO AÓRTICO DISCRETO.\nFEVE: 47%.\n01/03/11: ECODOPPLER ARTERIAR MMII ESQ: ESTENOSE APROX DE 75% DA BIFURCAÇÃO DOS VASOS FEMORAIS.\nLESOES SUBSEGMENTARES DAS ART, TIBIAL ANTERIOR E FIBULAR.\nOCLUSÃO DA ARTERIA POPLITEA MEDIO DISTAL.\nESTENOSE > A OCLUSAO DA ARTERIA TIBIAL POSTERIOR.\nquadro de disfunção sistólica após iam, perdeu seguimento.\n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "has",
+      "aas",
+      "1x/d",
+      "sinva",
+      "furo",
+      "cat",
+      "ECOCARDIO",
+      "iam",
+      "1 x/d",
+      "1 cp",
+      "VE HIPERTROFIADO COM DIMENSÃO INTERNA AUMENTADA",
+      "AUMENTO DE AE",
+      "FEVE : 47%",
+      "ECODOPPLER ARTERIAR MMII ESQ",
+      "ESTENOSE APROX DE 75% DA BIFURCAÇÃO DOS VASOS FEMORAIS",
+      "LESOES SUBSEGMENTARES DAS ART"
+    ],
+    "Doença ou Síndrome": [
+      "has",
+      "iam"
+    ],
+    "Achado": [
+      "has",
+      "perdeu seguimento"
+    ],
+    "Substância Farmacológica": [
+      "aas",
+      "carvedilol",
+      "sinva",
+      "enalapril",
+      "furo"
+    ],
+    "Substância Química Orgânica": [
+      "aas",
+      "carvedilol",
+      "sinva",
+      "furo"
+    ],
+    "Conceito Quantitativo": [
+      "100",
+      "25",
+      "1x/d",
+      "10 anos/maço",
+      "40 mg",
+      "1 x/d",
+      "1 cp"
+    ],
+    "Conceito Temporal": [
+      "1x/d",
+      "após",
+      "1 x/d",
+      "12/12 hs"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "enalapril"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "cat",
+      "angioplastia"
+    ],
+    "Procedimento Diagnóstico": [
+      "ECOCARDIO",
+      "ECODOPPLER ARTERIAR MMII ESQ"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "VE HIPERTROFIADO COM DIMENSÃO INTERNA AUMENTADA",
+      "E FUNÇÃO GLOBAL MODERADAMENTE DIMINUIDA",
+      "POR ACINESIA MEDIO APICAL PAREDE ANTERO SEPTAL",
+      "AUMENTO DE AE",
+      "REFLUXO MITRAL",
+      "ECTASIA DA RAIZ AÓRTICA",
+      "REFLUXO AÓRTICO DISCRETO",
+      "FEVE : 47%",
+      "ESTENOSE APROX DE 75% DA BIFURCAÇÃO DOS VASOS FEMORAIS",
+      "LESOES SUBSEGMENTARES DAS ART",
+      "TIBIAL ANTERIOR E FIBULAR",
+      "OCLUSÃO DA ARTERIA POPLITEA MEDIO DISTAL",
+      "ESTENOSE &gt; A OCLUSAO DA ARTERIA TIBIAL POSTERIOR"
+    ],
+    "Função Patológica": [
+      "disfunção sistólica"
+    ]
+  },
+  "labels": {
+    "BA51": {
+      "term_original": "disfunção sistólica",
+      "capitulo": "11",
+      "confidence_embedding": 0.8033,
+      "descricao_cid": "Representação de doença CID-11: Miocardiopatia isquêmica. Definição: Cardiomiopatia isquêmica tem sido definida como disfunção sistólica ventricular esquerda com um ou mais dos seguintes aspectos: antecedente de revascularização do miocárdio ou de infarto do miocárdio prévios, estenose em tronco de coronária esquerda ou artéria descendente anterior esquerda superior a 75% ou dois vasos ou mais com estenose superior a 75%. Consiste em um espectro de estados fisiopatológicos que se relacionam ao equilíbrio entre contratilidade e perfusão miocárdica, incluindo infarto do miocárdio, miocárdio atordoado, miocárdio hibernante e cicatrizes miocárdicas.",
+      "classification_reasoning": "A opção mais precisa para o termo 'disfunção sistólica' é a miocardiopatia isquêmica (Código: BA51), pois a definição inclui disfunção sistólica ventricular esquerda como um dos critérios, e o paciente apresenta uma história de miocárdio atordoado após IAM e perdeu seguimento.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'disfunção sistólica' é a miocardiopatia isquêmica (Código: BA51), pois a definição inclui disfunção sistólica ventricular esquerda como um dos critérios, e o paciente apresenta uma história de miocárdio atordoado após IAM e perdeu seguimento. A codificação CID-11 é CLINICAMENTE COERENTE com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "QB50.4": {
+      "term_original": "perdeu seguimento",
+      "capitulo": "24",
+      "confidence_embedding": 0.7159,
+      "descricao_cid": "Representação de doença CID-11: Presença de implante ou enxerto de angioplastia coronária. Definição: ",
+      "classification_reasoning": "A escolha do código QB50.4 se baseia no fato de que o paciente 'perdeu seguimento' após a intervenção, sugerindo que há uma relação entre a perda do seguimento e a angioplastia coronária realizada em 2013.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'perdeu seguimento' não está diretamente relacionado à angioplastia coronária realizada em 2013. A perda do seguimento pode ser um sintoma ou uma condição clínica independente da intervenção cardiovascular. Portanto, o código QB50.4 não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NE82.1Y": {
+      "term_original": "iam",
+      "capitulo": "22",
+      "confidence_embedding": 0.7516,
+      "descricao_cid": "Representação de doença CID-11: Outra disfunção especificada do marcapasso ou cardioversor desfibrilador implantável. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a NE82.1Y, pois o termo 'iam' se refere ao marcapasso implantável, cuja disfunção sistólica é mencionada no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'iam' não se refere a uma disfunção do marcapasso implantável, mas sim à intervenção de implante de marcapasso (Iatricular Ablation Procedure), que é mencionada no contexto clínico. Portanto, o código CID-11 NE82.1Y não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

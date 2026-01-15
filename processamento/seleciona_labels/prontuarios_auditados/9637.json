@@ -1,0 +1,183 @@
+{
+  "prontuario_id": 770,
+  "text": "tx renal\nTX RENAL COM CR 0,82 E NS FK 3,0\nCARDIOLOGIA INDICOU RETIRADA DE MONOCORDIL E AAS\nTX RENAL\nMTC 5, TACROLIMO 1 / 0, MS 1 / 2, CRESTOR 10, AAS 100, OMEPRAZOL 20, CVD 12,5, MONOCORDIL 20, CILOSTAZOL 100 X2, LST 50, LANTUS 30\nS: SEM QUIEXAS\nO: PA 110/60  120/80   P 78    \nCPP LIVRES\nPC RITMO REGULAR\nABD RHA+, FLACIDO, INDOLOR\nMMII DAOP",
+  "entities": {
+    "Grupo Profissional ou Ocupacional": [
+      "CARDIOLOGIA"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "RETIRADA"
+    ],
+    "Substância Farmacológica": [
+      "MONOCORDIL",
+      "AAS",
+      "MTC",
+      "TACROLIMO",
+      "MS",
+      "CRESTOR",
+      "OMEPRAZOL",
+      "CVD",
+      "CILOSTAZOL",
+      "LST",
+      "LANTUS"
+    ],
+    "Substância Química Orgânica": [
+      "MONOCORDIL",
+      "AAS",
+      "TACROLIMO",
+      "MS",
+      "CRESTOR",
+      "OMEPRAZOL",
+      "CVD",
+      "CILOSTAZOL",
+      "LST",
+      "LANTUS"
+    ],
+    "Abreviação": [
+      "AAS",
+      "MTC",
+      "MS",
+      "CVD",
+      "LST",
+      "PA",
+      "P",
+      "PC",
+      "ABD",
+      "RHA+",
+      "MMII",
+      "DAOP",
+      "tx renal",
+      "TX RENAL",
+      "CR 0 , 82",
+      "NS FK 3 , 0",
+      "CPP LIVRES"
+    ],
+    "Substância Química Inorgânica": [
+      "MTC"
+    ],
+    "Antibiótico": [
+      "MTC",
+      "MS"
+    ],
+    "Hormônio": [
+      "MTC",
+      "LANTUS"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "10",
+      "100",
+      "20",
+      "50",
+      "30",
+      "110/60",
+      "120/80",
+      "78",
+      "1 / 0",
+      "1 / 2",
+      "12 , 5"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "LANTUS"
+    ],
+    "Negação": [
+      "SEM",
+      "INDOLOR"
+    ],
+    "Sinal ou Sintoma": [
+      "QUIEXAS",
+      "INDOLOR"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P",
+      "PC"
+    ],
+    "Localização ou Região Corporal": [
+      "ABD",
+      "MMII"
+    ],
+    "Achado": [
+      "RHA+",
+      "FLACIDO",
+      "CPP LIVRES",
+      "RITMO REGULAR"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "MMII"
+    ],
+    "Doença ou Síndrome": [
+      "DAOP"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "tx renal",
+      "TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 82",
+      "NS FK 3 , 0"
+    ]
+  },
+  "labels": {
+    "7A62": {
+      "term_original": "ritmo regular",
+      "capitulo": "07",
+      "confidence_embedding": 0.8105,
+      "descricao_cid": "Representação de doença CID-11: Transtorno de ritmo sono-vigília irregular. Definição: Transtorno de ritmo sono-vigília irregular é caracterizado pela ausência de um ciclo sono e vigília claramente definido. O sono fica distribuído em episódios múltiplos de duração variável por todo o período de 24 horas. Os pacientes queixam-se tipicamente de insônia e/ou sonolência diurna excessiva como resultado da condição. Os sintomas devem ter persistido por pelo menos vários meses e resultam em desconforto significativo ou prejuízo mental, físico, social, ocupacional ou acadêmico.",
+      "classification_reasoning": "O termo 'ritmo regular' se refere à ausência de problemas cardíacos ou respiratórios, indicando um ritmo cardíaco normal. Como a paciente está recebendo tratamento para doença renal e hipertensão, o código 7A62 é mais preciso para representar o transtorno do ritmo sono-vigília irregular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'ritmo regular' não se refere a um transtorno do ritmo sono-vigília irregular, como descrito no código CID-11. Em vez disso, é uma descrição de um ritmo cardíaco normal. Portanto, o código 7A62 não representa fielmente o termo ou condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EB13.0": {
+      "term_original": "flacido",
+      "capitulo": "14",
+      "confidence_embedding": 0.7349,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de Stevens-Johnson. Definição: A síndrome de Stevens-Johnson é um transtorno de hipersensibilidade mediado por imunocomplexos envolvendo mucosas (conjuntiva, mucosa oral e mucosa genital) com, por definição, envolvimento da pele limitado a não mais que 9% da área de superfície corporal. Está relacionado à necrólise epidérmica tóxica e compartilha muitos dos mesmos gatilhos, notavelmente drogas, mas a inflamação é centrada em e próxima a superfícies mucosas. Embora a mortalidade seja baixa, a morbidade aguda é alta e o envolvimento conjuntival tem o potencial de causar cegueira.",
+      "classification_reasoning": "A opção mais precisa para o termo 'flacido' é a síndrome de Stevens-Johnson, uma doença grave que envolve mucosas e pele com inflamação moderada a severa.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A síndrome de Stevens-Johnson é uma doença grave que envolve mucosas e pele, enquanto o termo 'flacido' se refere à textura da pele. Embora a pele possa estar envolvida na síndrome de Stevens-Johnson, a codificação CID-11 não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EC90.10": {
+      "term_original": "indolor",
+      "capitulo": "14",
+      "confidence_embedding": 0.7108,
+      "descricao_cid": "Representação de doença CID-11: Prurido urêmico. Definição: Prurido em pacientes com insuficiência renal crônica. Embora comum na doença renal crônica não tratada, é particularmente prevalente em pacientes que submetidos a diálise peritoneal ou hemodiálise. O prurido não se deve a níveis elevados de ureia sérica. Os mecanismos precisos não são totalmente compreendidos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'indolor' no contexto é EC90.10, pois descreve prurido em pacientes com insuficiência renal crônica, que coincide com a presença de doença renal no paciente e a falta de referências à outros sintomas ou condições.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'indolor' não está relacionado ao prurido urêmico descrito no código CID-11 EC90.10, que se refere a pacientes com insuficiência renal crônica. No contexto do prontuário, o termo 'indolor' parece se referir à ausência de dor ou desconforto, não relacionado ao prurido urêmico. Portanto, a codificação CID-11 EC90.10 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "GB80 | Descrição: Representação de doença CID-11: Doença renal cística não familiar não genética. Definição: Doenças em que há alterações anatômicas ou patológicas do desenvolvimento na substância renal que não ocorrem em uma distribuição familiar e não são conhecidas por terem uma causa monogenética.": {
+      "term_original": "rha+",
+      "capitulo": "16",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A presença de RHA+ no prontuário sugere doença renal cística. A ausência de outros sintomas clássicos como edema, hipertensão ou proteinúria sugere que não se trata de insuficiência renal aguda e nem de doença renal crônica estabelecida. A doença renal cística é uma condição caracterizada por alterações anatômicas na substância renal, portanto a opção mais precisa é GB80.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de RHA+ no prontuário é um indicador da doença renal cística, e a ausência de sintomas clássicos sugere que não se trata de insuficiência renal aguda ou crônica. A opção mais precisa é GB80, pois a doença renal cística é caracterizada por alterações anatômicas na substância renal.",
+      "tipo_erro_auditoria": null
+    },
+    "MF56": {
+      "term_original": "daop",
+      "capitulo": "21",
+      "confidence_embedding": 0.7522,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A presença de CR (cálculo renal) no prontuário sugere a possibilidade de Cólica renal, que é descrita como dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios. Como a descrição do termo 'DAOP' não está relacionada a hipoplasia renal, proteinúria ou poliúria, e o contexto clínico aponta para uma condição renal aguda, a opção mais precisa é Cólica renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'DAOP' não está relacionada a Cólica renal, que é descrita como dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios. A presença de CR (cálculo renal) e NS FK 3,0 sugere uma condição renal aguda, mas não há evidência clínica de Cólica renal. Portanto, o código CID-11 MF56 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC00.1": {
+      "term_original": "cpp livres",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa para o termo 'cpp livres' dentro do contexto clínico é a doença renal hipertensiva (BA02), pois a consulta apresenta uma série de medicamentos usados no tratamento da hipertensão e da doença renal, como tacrolimo, CRESTOR, OMEPRAZOL, etc.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BC00.1 não representa fielmente o termo 'cpp livres' no contexto do prontuário, pois 'cpp livres' refere-se a uma condição clínica específica (CPP LIVRES), enquanto o código CID-11 BC00.1 é muito amplo e não captura a especificidade da condição descrita.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

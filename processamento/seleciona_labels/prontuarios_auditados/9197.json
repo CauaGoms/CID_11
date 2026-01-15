@@ -1,0 +1,225 @@
+{
+  "prontuario_id": 576,
+  "text": "13:01 HS RETORNOU CENTRO CIRUGICO ÁS 12:30 , EM MACA , TRAQUEOSTOMIZADO , EUPNEICO, ABERTURA OCULAR , CURATIVO TIPO CAPACETE ,CURATIVO REGIÃO ABDOMINAL ,LIMPO E SECO EXTERNAMENTE, ACESSO VENOSO PERIFÉRICO SALINIZADO EM MSD, SONDA NASOENTERAL FECHADA ,SEM FÁCIES DE DOR  DURANTE O PERIODO, SEM FÁCIES DE DOR DURANTE O PERIODO, MANTEM PRECAUÇÃO DE CONTATO. ENF FLORENCE NIGHTINGLAE COREN XXXX. DOENCA DE HUNTINGTON. 12:40hrs paciente com momentos de confusão mental, acordada, comunicativa, eupneica em aa, não se alimenta via oral, emagrecida com jejunostomia com soro glicosado em bomba infusora, curativo limpo e seco, diurese presnete em svd. SEPTICEMIA NAO ESPECIFICADA. 18:10hrs paciente acordado, respondendo a comandos verbais, sne com dieta em curso traqueostomizado eupneico em aa curativos especial em região sacra + calcaneo  diurese presente, seguem cuidados de enfermagem. ACIDENTE VASCULAR CEREBRAL NAO ESPECIFICADO COMO HEMORRAGICO OU ISQUEMICO.",
+  "entities": {
+    "Dispositivo Médico": [
+      "MACA",
+      "CURATIVO",
+      "curativo",
+      "CURATIVO TIPO CAPACETE",
+      "ACESSO VENOSO PERIFÉRICO SALINIZADO",
+      "SONDA NASOENTERAL FECHADA",
+      "bomba infusora",
+      "curativos especial"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TRAQUEOSTOMIZADO",
+      "CURATIVO",
+      "jejunostomia",
+      "curativo",
+      "traqueostomizado",
+      "CURATIVO TIPO CAPACETE",
+      "ACESSO VENOSO PERIFÉRICO SALINIZADO",
+      "SONDA NASOENTERAL FECHADA",
+      "PRECAUÇÃO DE CONTATO",
+      "alimenta via oral",
+      "soro glicosado",
+      "sne com dieta",
+      "curativos especial"
+    ],
+    "Achado": [
+      "TRAQUEOSTOMIZADO",
+      "EUPNEICO",
+      "LIMPO",
+      "SECO",
+      "acordada",
+      "comunicativa",
+      "emagrecida",
+      "limpo",
+      "seco",
+      "acordado",
+      "traqueostomizado",
+      "ABERTURA OCULAR",
+      "eupneica em aa",
+      "diurese presnete em svd",
+      "respondendo a comandos verbais",
+      "eupneico em aa",
+      "diurese presente"
+    ],
+    "Conceito Espacial": [
+      "EXTERNAMENTE"
+    ],
+    "Abreviação": [
+      "MSD",
+      "ENF",
+      "eupneica em aa",
+      "diurese presnete em svd",
+      "sne com dieta",
+      "eupneico em aa"
+    ],
+    "Localização ou Região Corporal": [
+      "MSD",
+      "REGIÃO ABDOMINAL",
+      "região sacra"
+    ],
+    "Negação": [
+      "SEM",
+      "não"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ENF"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "paciente"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "calcaneo"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CENTRO CIRUGICO"
+    ],
+    "Sinal ou Sintoma": [
+      "FÁCIES DE DOR",
+      "momentos de confusão mental"
+    ],
+    "Doença ou Síndrome": [
+      "DOENCA DE HUNTINGTON",
+      "ACIDENTE VASCULAR CEREBRAL"
+    ],
+    "Substância Farmacológica": [
+      "soro glicosado"
+    ],
+    "Dispositivo de Administração de Medicamento": [
+      "bomba infusora"
+    ],
+    "Função Fisiológica": [
+      "diurese presnete em svd",
+      "diurese presente"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "cuidados de enfermagem"
+    ]
+  },
+  "labels": {
+    "6C40.4": {
+      "term_original": "acordada",
+      "capitulo": "06",
+      "confidence_embedding": 0.7593,
+      "descricao_cid": "Representação de doença CID-11: Abstinência de álcool. Definição: Abstinência de álcool é um conjunto clinicamente significativo de sintomas, comportamentos e/ou manifestações fisiológicas, variando em grau de gravidade e duração, que ocorre quando da cessação ou redução do uso de álcool em indivíduos que tenham desenvolvido dependência de álcool ou que tenham usado álcool por um período prolongado ou em grandes quantidades. Sintomas de apresentação da abstinência de álcool podem incluir hiperatividade autonômica (p. ex., taquicardia, hipertensão, sudorese), tremores aumentados nas mãos, náusea, ânsia de vômito ou vômito, insônia, ansiedade, agitação psicomotora, humor deprimido ou disfórico, ilusões ou alucinações visuais, táteis ou auditivas transitórias e distratibilidade. Menos comumente, o estado de abstinência é complicado por convulsões tônico-clônicas. O estado de abstinência pode progredir para uma forma muito grave de delirium, caracterizada por confusão e desorientação, delírios e alucinações visuais, táteis ou auditivas prolongadas. Nesses casos, um diagnóstico separado de delirium induzido por álcool também deve ser atribuído.",
+      "classification_reasoning": "A opção mais precisa é a abstinência de álcool (6C40.4) porque o termo 'acordada' sugere que o paciente está desperto e alerta, o que é consistente com os sintomas de abstinência de álcool. Além disso, a presença de outras condições clínicas descritas no prontuário, como septecemia não especificada e doença de Huntington, sugere que a abstinência de álcool é uma possibilidade mais provável do que as outras opções.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'acordada' não está relacionado à abstinência de álcool. A paciente está desperta e alerta, o que é consistente com a doença de Huntington ou a septecemia não especificada, mas não há evidências clínicas de abstinência de álcool. Além disso, a presença de traqueostomia e curativos em região sacra + calcaneo sugere uma condição mais relacionada à doença de Huntington do que à abstinência de álcool.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BB24": {
+      "term_original": "diurese presente",
+      "capitulo": "11",
+      "confidence_embedding": 0.7244,
+      "descricao_cid": "Representação de doença CID-11: Hemopericárdio. Definição: Hemopericárdio causado por doenças não classificadas em outra parte. Hemopericárdio geralmente se refere a sangue no saco pericárdico do coração. É clinicamente semelhante ao derrame pericárdico e, dependendo do volume e da rapidez com que se desenvolve, pode causar tamponamento cardíaco.",
+      "classification_reasoning": "A opção mais precisa para o termo 'diurese presente' é a Representação de doença CID-11: Hemopericárdio, pois a diurese pode ser um sintoma relacionado à hemopericárdio e/ou ao estado clínico do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A diurese presente não está relacionada ao hemopericárdio, pois o termo refere-se à quantidade de urina produzida pelo paciente, enquanto a representação CID-11 é uma condição clínica que não tem relação direta com a diurese. Além disso, a descrição do código CID-11 se refere ao sangue no saco pericárdico do coração, o que não está relacionado à diurese do paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DA60.3": {
+      "term_original": "limpo",
+      "capitulo": "13",
+      "confidence_embedding": 0.774,
+      "descricao_cid": "Representação de doença CID-11: Úlceras de estresse do estômago. Definição: Úlceras de estresse do estômago são lesões agudas da mucosa que ocorrem em pacientes criticamente doentes e que podem resultar em hemorragia digestiva alta aguda. São normalmente erosões superficiais mas podem evoluir para úlceras. As úlceras de estresse do estômago podem desenvolver-se em qualquer segmento gástrico mas são mais frequentemente observadas na mucosa fúndica, que reveste o corpo e o fundo do estômago.",
+      "classification_reasoning": "A opção mais precisa para o termo 'limpo' é a úlcera de estresse do estômago, que refere-se a lesões agudas na mucosa gástrica com possibilidade de hemorragia digestiva alta aguda. A presença do termo 'limpo e seco externamente' no prontuário clínico sugere que o paciente tem uma ferida ou lesão abdominal não infectada, caracterizando uma úlcera de estresse do estômago.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A úlcera de estresse do estômago (DA60.3) é uma condição que se refere a lesões agudas na mucosa gástrica, enquanto o termo 'limpo' no prontuário clínico se refere à cura da ferida ou lesão abdominal não infectada. A classificação DA60.3 não está clinicamente coerente com o termo 'limpo', pois a úlcera de estresse do estômago é uma condição que pode ser caracterizada por hemorragia digestiva alta aguda, enquanto a cura da ferida ou lesão abdominal não infectada não está relacionada à úlcera de estresse do estômago.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6C48.2": {
+      "term_original": "respondendo a comandos verbais",
+      "capitulo": "06",
+      "confidence_embedding": 0.7444,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por cafeína. Definição: Intoxicação por cafeína é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de cafeína, caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos da cafeína e sua intensidade está intimamente relacionada à quantidade de cafeína consumida. Têm duração limitada, e diminuem à medida que a cafeína é eliminada do corpo. A apresentação pode incluir inquietação, ansiedade, excitação, insônia, rubor facial, taquicardia, diurese, alterações gastrointestinais, espasmos musculares, agitação psicomotora, sudorese ou calafrios, náusea ou vômitos. Arritmias cardíacas podem ocorrer. Distúrbios típicos de intoxicação tendem a ocorrer com doses relativamente elevadas (p.ex., > 1g por dia). Doses muito elevadas de cafeína (p.ex., > 5g) podem resultar em dificuldades respiratórias ou convulsões e podem ser fatais.",
+      "classification_reasoning": "O paciente está respondendo a comandos verbais, o que sugere uma alteração de estado mental, possivelmente relacionada à intoxicação por cafeína. A descrição do termo 'respondendo a comandos verbais' se encaixa melhor na definição de Intoxicação por cafeína (6C48.2) do que em outras opções.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'respondendo a comandos verbais' não se encaixa na definição de Intoxicação por cafeína (6C48.2). A intoxicação por cafeína é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação, e não está relacionada à resposta a comandos verbais. Além disso, o prontuário descreve um paciente com doença de Huntington, septicemia não especificada e acidente vascular cerebral não especificado, o que sugere uma situação clínica mais complexa do que uma simples intoxicação por cafeína.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "MD81": {
+      "term_original": "fácies de dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.7892,
+      "descricao_cid": "Representação de doença CID-11: Dor abdominal ou pélvica. Definição: Dor, uma sensação desagradável de desconforto ocorrendo em variados graus de intensidade, recebida pelas terminações nervosas na região abdominal e pélvica.",
+      "classification_reasoning": "O termo 'fácies de dor' refere-se à aparência de dores, o que é descrito na definição do código MD81 como uma sensação desagradável de desconforto ocorrendo em variados graus de intensidade. Esta escolha é mais precisa porque não há outras opções que relacionem diretamente ao termo 'fácies de dor'. Além disso, a descrição da doença CID-11 para o código MD81 se encaixa melhor com a descrição do paciente apresentando sinais de dor crônica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário não menciona dor durante o período, apenas 'sem facies de dor'. Isso sugere que a paciente não apresentou sintomas de dor. Portanto, o código CID-11 MD81 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "negated_finding"
+    },
+    "8B20": {
+      "term_original": "acidente vascular cerebral",
+      "capitulo": "08",
+      "confidence_embedding": 0.8411,
+      "descricao_cid": "Representação de doença CID-11: Acidente vascular cerebral não conhecido se isquêmico ou hemorrágico. Definição: Preenche os critérios para acidente vascular cerebral nos sintomas agudos de lesão cerebral focal que duraram 24 horas ou mais (ou levaram à morte antes de 24 horas), mas o subtipo de acidente vascular cerebral (isquêmico ou hemorrágico) não foi determinado por neuroimagem ou outras técnicas.",
+      "classification_reasoning": "Como o termo extraído 'acidente vascular cerebral' não menciona a causa específica do acidente, e o prontuário apenas registra que há um AVEC não especificado, a escolha mais precisa é o código 8B20, que representa uma doença CID-11: Acidente vascular cerebral não conhecido se isquêmico ou hemorrágico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo extraído 'acidente vascular cerebral' não menciona a causa específica do acidente, mas o prontuário registra que há um AVEC não especificado. Embora o código CID-11 8B20 represente uma doença de AVEC não conhecido se isquêmico ou hemorrágico, a falta de especificidade sobre a natureza do AVEC (isquêmico ou hemorrágico) leva à remoção do código. Além disso, o prontuário registra que há doença de Huntington, que pode estar relacionada ao AVEC não especificado.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA32.20": {
+      "term_original": "emagrecida",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A palavra 'emagrecida' sugere perda de peso, o que está relacionado à doença de Huntington, mencionada no contexto clínico. A FA32.20 (Rabdomiólise idiopática) também pode estar relacionada à perda muscular e subsequente emagrecimento.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A palavra 'emagrecida' está diretamente relacionada à doença de Huntington, mencionada no prontuário. A FA32.20 (Rabdomiólise idiopática) também pode estar relacionada à perda muscular e subsequente emagrecimento. Portanto, o código CID-11 atribuído é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "CA05.1": {
+      "term_original": "traqueostomizado",
+      "capitulo": "12",
+      "confidence_embedding": 0.7582,
+      "descricao_cid": "Representação de doença CID-11: Traqueíte aguda. Definição: Esta condição se refere à inflamação aguda da traqueia.",
+      "classification_reasoning": "O termo 'traqueostomizado' refere-se à abertura artificial da traqueia, característica do paciente mencionado como 'TRAEQUEOSTOMIZADO', o que é consistente com a definição de Traqueíte aguda.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A condição 'traqueostomizado' refere-se à abertura artificial da traqueia, o que não é consistente com a definição de Traqueíte aguda (CA05.1). A abertura da traqueia não é uma doença, mas sim um procedimento médico. Portanto, o código CID-11 atribuído não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "9C81.Z": {
+      "term_original": "abertura ocular",
+      "capitulo": "09",
+      "confidence_embedding": 0.7668,
+      "descricao_cid": "Representação de doença CID-11: Paresia de nervo ocular, não especificada. Definição: ",
+      "classification_reasoning": "A abertura ocular é descrita como 'abertura ocular', o que sugere a presença de paresia de nervo ocular, não especificada. Isso se alinha com a definição do código 9C81.Z.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A abertura ocular não é suficiente para justificar a presença de paresia de nervo ocular, não especificada. A descrição do prontuário não apresenta evidências clínicas que sustentem essa condição. Além disso, a abertura ocular pode ser um efeito da cirurgia ou uma consequência natural da doença de Huntington, mas não é necessariamente relacionada à paresia de nervo ocular.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "CA22.0": {
+      "term_original": "eupneico em aa",
+      "capitulo": "12",
+      "confidence_embedding": 0.7465,
+      "descricao_cid": "Representação de doença CID-11: Doença pulmonar obstrutiva crônica com exacerbação aguda, não especificada. Definição: Uma exacerbação aguda não especificada da DPOC é um evento agudo caracterizado por um agravamento dos sintomas respiratórios do paciente além das variações normais do dia a dia e que levam a uma modificação na medicação. Exacerbações de DPOC podem ser precipitadas por vários fatores. O diagnóstico de uma exacerbação se baseia exclusivamente na apresentação clínica do paciente, que se queixa de piora aguda dos sintomas (dispneia basal, tosse e/ou produção de escarro) para além da sua variação normal dia a dia.",
+      "classification_reasoning": "O paciente está descrito como 'eupneico em aa', o que sugere que ele não apresenta sintomas de dispnéia aguda, característica da exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC). Além disso, a presença de traqueostomia e curativos na região abdominal também sugerem que o paciente tem uma doença pulmonar crônica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código CID-11 atribuído (CA22.0) representa uma exacerbação aguda da Doença Pulmonar Obstrutiva Crônica (DPOC), mas o termo 'eupneico em aa' não sugere a presença de sintomas de dispnéia aguda, característica da exacerbação aguda da DPOC. Além disso, a presença de traqueostomia e curativos na região abdominal também sugerem que o paciente tem uma doença pulmonar crônica. Portanto, o código CID-11 atribuído não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6E61": {
+      "term_original": "momentos de confusão mental",
+      "capitulo": "06",
+      "confidence_embedding": 0.7824,
+      "descricao_cid": "Representação de doença CID-11: Síndrome psicótica secundária. Definição: Síndrome caracterizada pela presença de alucinações ou delírios proeminentes, considerados consequência fisiopatológica direta de uma condição de saúde não classificada como transtorno mental e comportamental, com base em evidências de anamnese, exame físico ou achados laboratoriais. Os sintomas não são explicados por delirium ou por outro transtorno mental e comportamental, e não são uma resposta psicologicamente mediada a uma condição médica grave (p. ex., uma reação aguda ao estresse em resposta ao diagnóstico de uma doença potencialmente fatal). Essa categoria deve ser utilizada somada ao diagnóstico do transtorno ou doença subjacente presumido, quando os sintomas psicóticos forem suficientemente graves para exigir atenção clínica específica.",
+      "classification_reasoning": "A paciente apresenta momentos de confusão mental, o que é característico da síndrome psicótica secundária. Embora não seja especificado se há alucinações ou delírios, a presença de confusão mental é um sintoma proeminente da síndrome.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente apresenta momentos de confusão mental, o que pode ser um sintoma de uma condição subjacente, como a Doença de Huntington. No entanto, o código CID-11 6E61 'Síndrome psicótica secundária' não é adequado para representar essa condição, pois não há evidências de alucinações ou delírios proeminentes. A confusão mental pode ser um sintoma de uma variedade de condições, incluindo a Doença de Huntington, e não é suficiente para justificar o uso desse código CID-11.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "6D85.1": {
+      "term_original": "doenca de huntington",
+      "capitulo": "06",
+      "confidence_embedding": 0.7666,
+      "descricao_cid": "Representação de doença CID-11: Demência devida à doença da Huntington. Definição: Demência devida a doença de Huntington ocorre como parte de uma degeneração generalizada do cérebro causada por uma expansão de repetição de trinucleotídeos no gene HTT, que é transmitida de forma autossômica dominante. O início dos sintomas é insidioso, tipicamente na terceira e quarta décadas de vida, com progressão lenta e gradativa. Os sintomas iniciais tipicamente incluem comprometimentos em funções executivas com relativa preservação da memória, antecedendo o início dos déficits motores (bradicinesia e coréia) característicos da doença de Huntington.",
+      "classification_reasoning": "A doença de Huntington é a mais provável condição para uma pessoa com doença de Huntington, considerando que os sintomas iniciais incluem comprometimentos em funções executivas e progressão lenta e gradativa.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A doença de Huntington é a condição mais provável mencionada no prontuário, com sintomas iniciais que incluem comprometimentos em funções executivas e progressão lenta e gradativa. A descrição do código CID-11 também se alinha com os sintomas apresentados no prontuário. Portanto, a codificação CID-11 '6D85.1' é clínica e coerente com o conteúdo do prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "prontuario_id": 279,
+  "text": "PTE CI COM LESAO EM CAT PREVIO OBSERVANDO ESTENOSE SEGMENTAR PROXIMAL DE ADA. RETORNA PARA SER SUBMETIDA A ACTP + STENT EM ADA PROXIMAL EM PROCEDIMENTO COM SUCESSO ANGIOGRAFICO E LIVRE DE INTERCORRENCIAS . REALIZAMOS TBEM INVESTIGAÇÃO COMPLEMENTAR DE DOR LOMBAR E ABDOMINAL PREDOMINANTE A ESQUERDA PRESENTA COMO QUEIXA HA 2 MESES. REALIZOU TC DE COLUNA LOMBAR COM VISUALIZAÇÃO DE PROLAPSO DE DISCOS INTERVERTREBRAIS E REDUÇÃO DO CANAL MEDULAR  CENTRAL  E DE RECESSOS LATERAIS DE L4-L5. SEGUE INVESTIGAÇÃO E TRATAMENTO COM AMULATORIO DE ORIGEM. ALTA EM BOAS CONDICOES. DEVE FAZER USO DE TICLOPIDINA 250 MG DE 12/12H DURANTE 30 DIAS .",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PTE"
+    ],
+    "Abreviação": [
+      "PTE",
+      "CI",
+      "CAT",
+      "ACTP",
+      "ESTENOSE SEGMENTAR PROXIMAL DE ADA",
+      "ADA PROXIMAL",
+      "TC DE COLUNA LOMBAR"
+    ],
+    "Doença ou Síndrome": [
+      "CI"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "LESAO",
+      "ESTENOSE SEGMENTAR PROXIMAL DE ADA",
+      "VISUALIZAÇÃO DE PROLAPSO DE DISCOS INTERVERTREBRAIS",
+      "REDUÇÃO DO CANAL MEDULAR CENTRAL",
+      "RECESSOS LATERAIS DE L4-L5"
+    ],
+    "Procedimento Diagnóstico": [
+      "CAT",
+      "ACTP",
+      "INVESTIGAÇÃO",
+      "INVESTIGAÇÃO COMPLEMENTAR",
+      "TC DE COLUNA LOMBAR"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CAT",
+      "ACTP",
+      "PROCEDIMENTO",
+      "TRATAMENTO"
+    ],
+    "Dispositivo Médico": [
+      "STENT"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "PROCEDIMENTO",
+      "INVESTIGAÇÃO",
+      "ALTA"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR"
+    ],
+    "Localização ou Região Corporal": [
+      "LOMBAR",
+      "ABDOMINAL"
+    ],
+    "Substância Farmacológica": [
+      "TICLOPIDINA"
+    ],
+    "Substância Química Orgânica": [
+      "TICLOPIDINA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ADA PROXIMAL"
+    ],
+    "Achado": [
+      "SUCESSO ANGIOGRAFICO",
+      "LIVRE DE INTERCORRENCIAS",
+      "BOAS CONDICOES"
+    ],
+    "Conceito Espacial": [
+      "A ESQUERDA"
+    ],
+    "Conceito Qualitativo": [
+      "250 MG"
+    ],
+    "Conceito Quantitativo": [
+      "250 MG"
+    ]
+  },
+  "labels": {
+    "livre de intercorrencias": {
+      "term_original": "livre de intercorrencias",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A opção mais precisa é a ausência de intercorrências, não havendo referência a doenças cardiovasculares ou outras complicações cardíacas no contexto do prontuário.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'livre de intercorrencias' está diretamente relacionado à descrição do procedimento realizado no prontuário, que foi concluído com sucesso e sem complicações. A codificação CID-11 representa fielmente a condição clínica descrita, não havendo contradição óbvia ou associação puramente imaginária. Portanto, o código CID-11 é válido e clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "NA60.2Y": {
+      "term_original": "ci",
+      "capitulo": "22",
+      "confidence_embedding": 0.7578,
+      "descricao_cid": "Representação de doença CID-11: Outra lesão especificada da veia jugular externa. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a lesão especificada da veia jugular externa, pois no contexto clínico se refere à lesão em cat previo e estenose segmentar proximal de ad a, o que sugere uma lesão na artéria carótida interna (ad), e não tem relação com outras opções.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CID-11 NA60.2Y se refere a lesão especificada da veia jugular externa, enquanto o prontuário descreve uma lesão em cat previo e estenose segmentar proximal de ad a, que é mais relacionada à artéria carótida interna (ad) do que à veia jugular externa. Portanto, a codificação CID-11 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC43.0": {
+      "term_original": "sucesso angiografico",
+      "capitulo": "11",
+      "confidence_embedding": 0.7715,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida.",
+      "classification_reasoning": "A opção mais precisa para o termo 'sucesso angiografico' é a cardiomiopatia dilatada, pois no contexto clínico, o procedimento de angioplastia com stent em ADA proximal foi realizado com sucesso angioográfico, sugerindo que não há doenças cardíacas significativas como aneurisma ou fisura coronariana.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BC43.0 (Cardiomiopatia dilatada) não é clinicamente coerente com o prontuário, pois a descrição do procedimento de angioplastia com stent em ADA proximal foi realizado com sucesso angioográfico, sugerindo que não há doenças cardíacas significativas como aneurisma ou fisura coronariana. A condição clínica descrita no prontuário é mais relacionada à lesão em cat previo e ao procedimento de ACTP + stent, do que à cardiomiopatia dilatada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME84.7": {
+      "term_original": "dor",
+      "capitulo": "21",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A dor lombar e abdominal predominante à esquerda é uma indicação de que a dor está relacionada à coluna vertebral, portanto, o código ME84.7 (Dor na coluna lombosacral) é mais preciso para este contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor lombar e abdominal predominante à esquerda é um sintoma, não uma condição clínica. O código ME84.7 (Dor na coluna lombosacral) não representa fielmente o termo 'dor' descrito no prontuário. A dor está relacionada à coluna vertebral, mas isso não é suficiente para justificar a atribuição desse código.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    }
+  }
+}

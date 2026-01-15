@@ -1,0 +1,152 @@
+{
+  "prontuario_id": 642,
+  "text": "Às 15:30: ENCAMINHADA PARA REALIZAÇÃO DE ESPIROMETRIA, DEAMBULANDO, ACOMPANHADA PELA ENFERMAGEM. Às 10:00Hrs: Cliente hemodinamicamente estavel, encaminhada ao centro cirurgico. Às 12:35HS: CONSCIENTE, COMUNICATIVO, DEAMBULANDO, EUPINEICO. NÃO REFERE ALGIA. ACEITOU BEM A DIETA OFERECIDA. CURATIVO LIMPO E SECO EXTERNAMENTE. SEGUE CUIDADOS. Às 9H15MIN: ADMINISTRADO MIDAZOLAN E ENCAMINHADO AO CENTRO CIRÚRGICO ACOMPANHADO PELA ENFERMAGEM. Em 10/04/12, 16:00: 8º do na uti por ave i + tu cerebral. # 6º D TQT EM VM MODO PSV, PS 9, FIO2 30%, VC 400, PEEP 5. # 6º D SNE COM DIETA 50 ML/H. # 6º D SVD DIURESE EFETIVA. # PROGNÓSTICO RESERVADO. SAV C. GLASGOW 6T, PUPILAS ISOMIÓTICAS, SEM AVP, MEDICAÇÃO VO, REALIZADO TROCA DE CÂNULA DE TQT PELO médico, TQT NUM 08. PROCEDIMENTO SEM INTERCORRÊNCIAS. ",
+  "entities": {
+    "Procedimento Diagnóstico": [
+      "ESPIROMETRIA"
+    ],
+    "Achado": [
+      "DEAMBULANDO",
+      "CONSCIENTE",
+      "COMUNICATIVO",
+      "EUPINEICO",
+      "LIMPO",
+      "SECO",
+      "hemodinamicamente estavel",
+      "ACEITOU BEM A DIETA",
+      "DIURESE EFETIVA"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ENFERMAGEM",
+      "médico"
+    ],
+    "Organização Relacionada à Saúde": [
+      "ENFERMAGEM",
+      "uti",
+      "centro cirurgico",
+      "CENTRO CIRÚRGICO"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "Cliente"
+    ],
+    "Sinal ou Sintoma": [
+      "ALGIA",
+      "GLASGOW 6T"
+    ],
+    "Dispositivo Médico": [
+      "CURATIVO",
+      "SVD",
+      "AVP",
+      "TQT NUM 08"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "CURATIVO",
+      "TQT",
+      "VM",
+      "FIO2",
+      "PEEP",
+      "SVD",
+      "AVP",
+      "PROCEDIMENTO",
+      "MODO PSV",
+      "SNE COM DIETA",
+      "TROCA DE CÂNULA DE TQT"
+    ],
+    "Conceito Espacial": [
+      "EXTERNAMENTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "CUIDADOS"
+    ],
+    "Substância Farmacológica": [
+      "MIDAZOLAN",
+      "MEDICAÇÃO VO"
+    ],
+    "Abreviação": [
+      "uti",
+      "TQT",
+      "VM",
+      "PS",
+      "FIO2",
+      "VC",
+      "PEEP",
+      "SVD",
+      "AVP",
+      "ave i",
+      "tu cerebral",
+      "MODO PSV",
+      "SNE COM DIETA",
+      "SAV C",
+      "MEDICAÇÃO VO",
+      "TROCA DE CÂNULA DE TQT"
+    ],
+    "Conceito Quantitativo": [
+      "9",
+      "30%",
+      "400",
+      "5",
+      "50 ML/H"
+    ],
+    "Doença ou Síndrome": [
+      "ave i"
+    ],
+    "Processo Neoplásico": [
+      "tu cerebral"
+    ],
+    "Função Fisiológica": [
+      "DIURESE EFETIVA"
+    ]
+  },
+  "labels": {
+    "XS1T": {
+      "term_original": "seco",
+      "capitulo": "X",
+      "confidence_embedding": 0.7431,
+      "descricao_cid": "Representação de doença CID-11: Grau 0 Categoria 0: Assintomático – sem doença oclusiva hemodinamicamente significativa. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'seco' é a Categoria 0: Assintomático – sem doença oclusiva hemodinamicamente significativa, pois não há nenhuma indicação de doença ou lesão na descrição do paciente que justifique outro código.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'seco' está descrito no prontuário como característica da cura externamente, o que é consistente com a definição do código CID-11 XS1T. A descrição do paciente não apresenta nenhuma indicação de doença ou lesão que justifique outro código. Portanto, a codificação CID-11 XS1T é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "6G45.3": {
+      "term_original": "glasgow 6t",
+      "capitulo": "06",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A Glasgow Scale de 6T indica um paciente consciente e comunitável, o que é consistente com a descrição de 'consciente, comunicativo, deambulando, eupineico' presente no prontuário. Além disso, não há indicações de alucinações ou sintomas psicóticos, sugerindo que o paciente está livre de efeitos farmacológicos conhecidos da cocaína.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A Glasgow Scale de 6T indica um paciente consciente e comunitável, o que é consistente com a descrição de 'consciente, comunicativo, deambulando, eupineico' presente no prontuário. A classificação CID-11 6G45.3 está correta pois representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "8B24": {
+      "term_original": "tu cerebral",
+      "capitulo": "08",
+      "confidence_embedding": 0.819,
+      "descricao_cid": "Representação de doença CID-11: Encefalopatia hipóxico-isquêmica. Definição: Dano cerebral devido à hipóxia-isquemia: o termo anterior \"Dano cerebral anóxico\" foi alterado. O novo termo é agora amplamente aceito e descreve melhor a fisiopatologia, ou seja, a combinação de isquemia cerebral global transitória completa e incompleta juntamente com uma combinação de anóxia e hipóxia. Em um paciente sobrevivente, a encefalopatia anóxica pura é muito incomum.",
+      "classification_reasoning": "A opção mais precisa para o termo 'tu cerebral' é a encefalopatia hipóxico-isquêmica, pois a descrição do paciente apresenta um estado de uti com pressão arterial baixa e sinais neurológicos, sugerindo uma lesão cerebral devido à hipóxia-isquemia.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção mais precisa para o termo 'tu cerebral' é a encefalopatia hipóxico-isquêmica, pois a descrição do paciente apresenta um estado de uti com pressão arterial baixa e sinais neurológicos, sugerindo uma lesão cerebral devido à hipóxia-isquemia. A justificativa do sistema é consistente com a análise clínica realizada.",
+      "tipo_erro_auditoria": null
+    },
+    "MB23.H": {
+      "term_original": "algia",
+      "capitulo": "21",
+      "confidence_embedding": 0.7697,
+      "descricao_cid": "Representação de doença CID-11: Crise de pânico. Definição: Episódio distinto de medo ou apreensão intensos, acompanhado pelo início súbito e simultâneo de uma série de sintomas característicos. Esses sintomas podem incluir, mas não estão limitados a, palpitações ou aumento da frequência cardíaca, sudorese, tremores, sensação de falta de ar, sensação de asfixia, dor no peito, náusea ou desconforto abdominal, tontura ou sensação de desmaio, calafrios ou ondas de calor, formigamento ou falta de sensação de extremidades (i.e., parestesias), despersonalização ou desrealização, medo de perder o controle ou enlouquecer e medo de morte iminente. Os ataques de pânico podem aparecer sem motivo aparente ou podem ser desencadeados por situações específicas.",
+      "classification_reasoning": "A escolha é baseada na falta de referência a alguia no contexto do prontuário, o que sugere que não há dor ou desconforto físico relatado. A representação da Crise de pânico (Código MB23.H) melhor se ajusta ao termo 'algia', pois não há evidências de algia ou dor física na história clínica fornecida.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código CID-11 MB23.H (Crise de pânico) não se ajusta ao termo 'algia' presente no prontuário. Embora o termo 'algia' possa ser interpretado como dor ou desconforto físico, a história clínica fornecida não apresenta evidências de algia ou dor física. Além disso, a Crise de pânico é um sintoma psicológico e não está relacionada ao termo 'algia'. Portanto, o código CID-11 MB23.H não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "false_positive_entity"
+    },
+    "NB30.2Z": {
+      "term_original": "ave i",
+      "capitulo": "22",
+      "confidence_embedding": 0.7404,
+      "descricao_cid": "Representação de doença CID-11: Lesão da veia cava superior, não especificada. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a lesão da veia cava superior (NB30.2Z) pois o termo 'ave i' pode ser interpretado como uma referência à veia cava inferior, e na descrição do prontuário há menções à UTI e ao monitoramento de pressão arterial, o que sugere um ambiente hospitalar e a necessidade de monitoramento cardiovascular",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa é a lesão da veia cava superior (NB30.2Z) pois o termo 'ave i' pode ser interpretado como uma referência à veia cava inferior, e na descrição do prontuário há menções à UTI e ao monitoramento de pressão arterial, o que sugere um ambiente hospitalar e a necessidade de monitoramento cardiovascular. No entanto, o termo 'ave i' não é uma abreviação médica comum ou sinônimo que faz sentido no contexto. A lesão da veia cava superior não está claramente relacionada ao termo 'ave i', portanto, a classificação é incorreta.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

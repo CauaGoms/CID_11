@@ -1,0 +1,140 @@
+{
+  "prontuario_id": 13,
+  "text": "tx renal \nEM USO DE PRE 5, SRL 1, TACROLIMO 1 / 1, CVDL 3,125 2X, MACRODANTINA, LANTUS 38, LISPRO 5 / 10 / 8\nS # SEM QUEIXAS\nO #PESO 50 KG\nPA 160/100\nEXAME FISICO : PALIDEZ\nAUMENTO LANTUS E CVDL \nRETORNO 30 DIAS\nTX RENAL CR 1,1, TACROLIMO 4, SRL ?\nHAS COMPENSADO\nDM HB GLI 9,5\nITU PROFILAXIA\n ",
+  "entities": {
+    "Conceito Quantitativo": [
+      "5",
+      "1",
+      "2X",
+      "38",
+      "160/100",
+      "4",
+      "1 / 1",
+      "3 , 125",
+      "5 / 10 / 8",
+      "50 KG"
+    ],
+    "Substância Farmacológica": [
+      "SRL",
+      "TACROLIMO",
+      "CVDL",
+      "MACRODANTINA",
+      "LANTUS",
+      "LISPRO"
+    ],
+    "Substância Química Orgânica": [
+      "SRL",
+      "TACROLIMO",
+      "CVDL",
+      "MACRODANTINA",
+      "LANTUS",
+      "LISPRO"
+    ],
+    "Abreviação": [
+      "SRL",
+      "CVDL",
+      "2X",
+      "S",
+      "O",
+      "PA",
+      "DM",
+      "ITU",
+      "tx renal",
+      "TX RENAL",
+      "CR 1 , 1",
+      "HAS COMPENSADO",
+      "HB GLI 9 , 5"
+    ],
+    "Conceito Temporal": [
+      "2X"
+    ],
+    "Antibiótico": [
+      "MACRODANTINA"
+    ],
+    "Hormônio": [
+      "LANTUS",
+      "LISPRO"
+    ],
+    "Achado": [
+      "S"
+    ],
+    "Negação": [
+      "SEM"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "PALIDEZ"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "O",
+      "AUMENTO"
+    ],
+    "Atributo Clínico": [
+      "PESO",
+      "PA"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "160/100",
+      "CR 1 , 1",
+      "HB GLI 9 , 5"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "LANTUS"
+    ],
+    "Doença ou Síndrome": [
+      "DM",
+      "ITU",
+      "HAS COMPENSADO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "PROFILAXIA",
+      "tx renal",
+      "TX RENAL"
+    ],
+    "Procedimento Diagnóstico": [
+      "EXAME FISICO"
+    ]
+  },
+  "labels": {
+    "5C78": {
+      "term_original": "dm",
+      "capitulo": "05",
+      "confidence_embedding": 0.7613,
+      "descricao_cid": "Representação de doença CID-11: Sobrecarga de líquidos. Definição: Esta é a condição em que há muito líquido no sangue. A condição oposta é a hipovolemia, que é um volume de líquido insuficiente no sangue. O excesso de volume de líquido no compartimento intravascular ocorre devido ao aumento do teor de sódio total corporal e consequente aumento da água corporal extracelular. O mecanismo geralmente decorre de mecanismos regulatórios comprometidos para o manuseio de sódio, conforme observado na insuficiência cardíaca congestiva (ICC), na insuficiência renal e na insuficiência hepática. Também pode ser causado pela ingestão excessiva de sódio dos alimentos, soluções intravenosas e transfusões de sangue, medicamentos ou contrastes para exames de imagem.",
+      "classification_reasoning": "A presença de DM HB GLI 9,5 e o aumento da Lantus e CVDL apontam para uma sobrecarga de líquidos, caracterizando a hiperosmolalidade ou hipernatremia (CID-11: 5C78).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de DM HB GLI 9,5 e o aumento da Lantus e CVDL apontam para uma sobrecarga de líquidos, caracterizando a hiperosmolalidade ou hipernatremia (CID-11: 5C78). A codificação CID-11 é clinicamente coerente com o prontuário, pois a presença da doença metabólica (DM) e os ajustes nos medicamentos (Lantus e CVDL) sugerem uma sobrecarga de líquidos. Portanto, a codificação 5C78 é justificada.",
+      "tipo_erro_auditoria": null
+    },
+    "QA30.02": {
+      "term_original": "itu",
+      "capitulo": "24",
+      "confidence_embedding": 0.7036,
+      "descricao_cid": "Representação de doença CID-11: Pessoa em contato com os serviços de saúde para inseminação de esperma medicamente assistida. Definição: ",
+      "classification_reasoning": "A opção mais precisa é QA30.02 porque a paciente está em um contexto de inspeção e profilaxia (ITU), o que sugere que ela tem algum tipo de contato com os serviços de saúde relacionado à reprodução, especificamente inseminação medicamente assistida.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção QA30.02 não representa fielmente o termo 'ITU' no prontuário, que se refere a profilaxia de infecções em pacientes com doenças crônicas, e não à inseminação medicamente assistida. A codificação CID-11 deve ser mais específica e relacionada ao contexto clínico do paciente.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "8A80.4": {
+      "term_original": "palidez",
+      "capitulo": "08",
+      "confidence_embedding": 0.7113,
+      "descricao_cid": "Representação de doença CID-11: Síndrome do vômito cíclico. Definição: Ataques episódicos recorrentes, geralmente estereotipados no paciente individual, de vômitos e náusea intensas. Os ataques estão associados à palidez e letargia. Há resolução completa dos sintomas entre os ataques.",
+      "classification_reasoning": "A palidez é um sintoma associado ao vômito cíclico, caracterizando a síndrome do vômito cíclico (Código 8A80.4).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A palidez descrita no prontuário é um sintoma associado ao uso de Lantus e CVDL, que aumentaram. A síndrome do vômito cíclico (Código 8A80.4) se refere a ataques episódicos recorrentes de vômitos e náusea intensas, acompanhados de palidez e letargia. Nesse contexto, a palidez descrita no prontuário é um sintoma direto e clínicoamente relacionado à condição mencionada, portanto, é válido manter o código CID-11 atribuído (8A80.4).",
+      "tipo_erro_auditoria": null
+    },
+    "MF54.2": {
+      "term_original": "s",
+      "capitulo": "21",
+      "confidence_embedding": 0.7732,
+      "descricao_cid": "Representação de doença CID-11: Hipoplasia renal. Definição: Condição caracterizada por um rim menor em tamanho e peso do que a média (menos de 11 centímetros de comprimento, 5-7,5 centímetros de largura, 2,5 centímetros de espessura e pesando menos de 120 gramas).",
+      "classification_reasoning": "A presença de tx renal e aumento do Lantus e CVDL na medicação aponta para uma possível disfunção renal, justificando a escolha da hipoplasia renal (MF54.2) como a mais precisa opção.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A codificação CID-11 MF54.2 refere-se a hipoplasia renal, que não está presente no prontuário. A presença de tx renal e aumento do Lantun e CVDL na medicação aponta para disfunção renal, mas não há evidência clínica de hipoplasia renal. Portanto, a codificação é inapropriada.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

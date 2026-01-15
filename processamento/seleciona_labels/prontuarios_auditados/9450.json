@@ -1,0 +1,78 @@
+{
+  "prontuario_id": 353,
+  "text": "15:52 ACOMPANHAMENTO PELA COMISSÃO DE CURATIVOS. PACIENTE APRESENTA MELHORA IMPORTANTE DE ULCERA POR PRESSÃO EM REGIÃO SACRA DE GRAU II, COM PRESENÇA DE NECROSE EM CENTRO DE FERIDA. REALIZADO NOVA LAVAGEM COM SF 0,9% E APLICA-SE ACIDOS GRAXOS ESSENCIAS E HIDROGEL PARA DESBRIDAMENTO DE NECROSE. FECHO CURATIVO COM GAZE SIMPLES. MANTENHO ACOMPANHAMENTO. Enfermeira Florence Nightingale . FRATURAS DE OUTRAS PARTES DO FEMUR",
+  "entities": {
+    "Atividade de Assistência à Saúde": [
+      "ACOMPANHAMENTO",
+      "REALIZADO",
+      "APLICA-SE",
+      "FECHO"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Conceito Espacial": [
+      "CENTRO"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "LAVAGEM",
+      "DESBRIDAMENTO",
+      "CURATIVO"
+    ],
+    "Substância Farmacológica": [
+      "HIDROGEL"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "Enfermeira"
+    ],
+    "Lesão ou Envenenamento": [
+      "FRATURAS"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "FEMUR"
+    ],
+    "Organização Relacionada à Saúde": [
+      "COMISSÃO DE CURATIVOS"
+    ],
+    "Achado": [
+      "MELHORA IMPORTANTE"
+    ],
+    "Doença ou Síndrome": [
+      "ULCERA POR PRESSÃO"
+    ],
+    "Localização ou Região Corporal": [
+      "REGIÃO SACRA"
+    ],
+    "Conceito Quantitativo": [
+      "0 , 9%"
+    ],
+    "Substância Química Orgânica": [
+      "ACIDOS GRAXOS ESSENCIAS"
+    ],
+    "Dispositivo Médico": [
+      "GAZE SIMPLES"
+    ]
+  },
+  "labels": {
+    "FB80.9": {
+      "term_original": "fraturas",
+      "capitulo": "15",
+      "confidence_embedding": 0.7393,
+      "descricao_cid": "Representação de doença CID-11: Atraso de consolidação de fratura. Definição: ",
+      "classification_reasoning": "A presença de fraturas em outras partes do femur, ao lado da ulcera por pressão de grau II na região sacra, sugere que as lesões ósseas são recentes e não há outra condição clínica mais provável que seja atraso de consolidação de fratura.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de fraturas em outras partes do femur não é diretamente relacionada à ulcera por pressão de grau II na região sacra. A condição descrita no prontuário refere-se a lesões ósseas recentes, mas não há evidência clínica que justifique o código CID-11 FB80.9 (Atraso de consolidação de fratura). O termo 'fraturas' se refere a lesões ósseas múltiplas e não é uma condição clínica diretamente relacionada à ulcera por pressão.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DD70.1": {
+      "term_original": "ulcera por pressão",
+      "capitulo": "13",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A ulcera por pressão é um tipo de lesão cutânea causada pela pressão prolongada sobre uma área do corpo, levando à necrose de tecido e formação de úlceras. A opção DD70.1 é a mais precisa para o termo dentro do contexto clínico, pois descreve ulcera por pressão.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção DD70.1 é a mais precisa para o termo 'ulcera por pressão' dentro do contexto clínico, pois descreve ulcera por pressão. A descrição do prontuário apresenta uma lesão cutânea causada pela pressão prolongada sobre a região sacra, com necrose de tecido e formação de úlceras, o que é consistente com a definição da CID-11 DD70.1.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

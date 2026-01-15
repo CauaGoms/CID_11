@@ -1,0 +1,195 @@
+{
+  "prontuario_id": 17,
+  "text": "Às 23:30, 26/12/10: REALIZEI PUNÇÃO PERIFÉRICA COM CATETER Nº 20 EM REGIÃO DE TÓRAX À DIREITA, PROCEDIMENTO REALIZADO SEM INTERCORRÊNCIAS. SOROMA DO ACESSO ANTERIOR. BRONCOPNEUMONIA NAO ESPECIFICADA. Às 05:30: Retornou do CC POI cx herniorrafia. Lucida, comunicativa, apresenta curativo abdominal pouco sanguinolento + dreno de suctor no local, com debito hematico, abdomem globoso, SVD debito efetivo, segue cuidados. HERNIA VENTRAL SEM OBSTRUCAO OU GANGRENA. Às 18:45 H - NOVO CONTATO COM DR VITAL BRASIL PNEUMO PARA INFORMAR SOBRE A REAÇÃO POSSIVELMENTE CAUSADA PELO AVALOX VO, PORÉM SEM SUCESSO, CELULAR NA CAIXA DE MENSAGENS, PASSO EM PLANTÃO. ENFA FLORENCE NIGHTINGALE, COREN XX XXXX. EXAME GERAL E INVESTIGACAO DE PESSOAS SEM QUEIXAS OU DIAGNOSTICO RELATADO. ÀS 18:00 HS: ENTRO EM CONTATO COM NUTRICIONISTA MARIA PARA SOLICITAR LIBERAÇÃO DE DIETA VIA SNE. PACIENTE RETIRA SONDA VARIAS VEZES. SEGUINDO ORIENTAÇÕES DA NUTRICIONISTA IRA COMEÇAR ESQUEMA DE SUPLEMENTAÇÃO AMANHA. ENF FLORENCE NIGHTINGALE - COREN XXXX. DESNUTRICAO PROTEICO CALORICA NAO ESPECIFICADA.",
+  "entities": {
+    "Procedimento Terapêutico ou Preventivo": [
+      "PROCEDIMENTO",
+      "cx",
+      "herniorrafia",
+      "curativo",
+      "PUNÇÃO PERIFÉRICA",
+      "dreno de suctor",
+      "LIBERAÇÃO DE DIETA VIA SNE",
+      "ESQUEMA DE SUPLEMENTAÇÃO"
+    ],
+    "Negação": [
+      "SEM",
+      "NAO ESPECIFICADA"
+    ],
+    "Sinal ou Sintoma": [
+      "INTERCORRÊNCIAS",
+      "GANGRENA",
+      "QUEIXAS",
+      "debito hematico",
+      "abdomem globoso"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CC",
+      "PLANTÃO"
+    ],
+    "Abreviação": [
+      "CC",
+      "POI",
+      "cx",
+      "DR",
+      "PNEUMO",
+      "ENFA",
+      "ENF",
+      "SVD debito efetivo",
+      "AVALOX VO",
+      "LIBERAÇÃO DE DIETA VIA SNE"
+    ],
+    "Conceito Temporal": [
+      "POI"
+    ],
+    "Achado": [
+      "Lucida",
+      "comunicativa",
+      "SVD debito efetivo"
+    ],
+    "Dispositivo Médico": [
+      "curativo",
+      "CATETER Nº 20",
+      "dreno de suctor"
+    ],
+    "Localização ou Região Corporal": [
+      "abdominal"
+    ],
+    "Função Patológica": [
+      "OBSTRUCAO",
+      "REAÇÃO"
+    ],
+    "Doença ou Síndrome": [
+      "GANGRENA",
+      "DESNUTRICAO PROTEICO CALORICA"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "PNEUMO",
+      "ENFA",
+      "NUTRICIONISTA",
+      "ENF"
+    ],
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "ORIENTAÇÕES",
+      "segue cuidados"
+    ],
+    "Anormalidade Anatômica": [
+      "HERNIA VENTRAL"
+    ]
+  },
+  "labels": {
+    "6C40.3": {
+      "term_original": "comunicativa",
+      "capitulo": "06",
+      "confidence_embedding": 0.7384,
+      "descricao_cid": "Representação de doença CID-11: Intoxicação por álcool. Definição: Intoxicação por álcool é uma condição transitória clinicamente significativa, que se desenvolve durante ou logo após o consumo de álcool, que é caracterizada por perturbações em consciência, cognição, percepção, afeto, comportamento ou coordenação. Essas perturbações são causadas pelos efeitos farmacológicos conhecidos do álcool e sua intensidade está intimamente relacionada à quantidade de álcool consumida. Têm duração limitada, e diminuem à medida que o álcool é eliminado do corpo. Sintomas de apresentação podem incluir atenção prejudicada, comportamento inadequado ou agressivo, labilidade do humor e das emoções, julgamento comprometido, coordenação deficiente, marcha instável, nistagmo fino e fala arrastada. Nos níveis mais graves de intoxicação, estupor ou coma podem ocorrer. A intoxicação por álcool pode facilitar ideação ou comportamento suicidas.",
+      "classification_reasoning": "O termo 'comunicativa' sugere que o paciente tem capacidade de comunicação eficaz, o que é característico de uma intoxicação por álcool (Intoxicação por Álcool - CID-11). Além disso, a presença de outros sintomas como dor abdominal, debito hematico e SVD também sugerem um quadro clínico compatível com intoxicação alcoólica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'comunicativa' não é suficientemente específico para justificar a atribuição do código CID-11: Intoxicação por álcool. A comunicação eficaz pode ser um sintoma de várias condições clínicas, incluindo doenças neurológicas ou psiquiátricas, e não há evidência suficiente no prontuário para sugerir que a intoxicação alcoólica seja a causa mais provável. Além disso, a presença de outros sintomas como dor abdominal, debito hematico e SVD sugere um quadro clínico mais amplo que não pode ser reduzido apenas à intoxicação alcoólica.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "FA32.3": {
+      "term_original": "hernia ventral",
+      "capitulo": "15",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "Escolhi o código FA32.3, Artropatia hemofílica, pois a descrição menciona hernia ventral e debito hematico, sugerindo uma lesão nos tecidos moles e músculos associada à hemofilia.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do prontuário menciona 'hernia ventral' e 'debito hematico', sugerindo uma lesão nos tecidos moles e músculos associada à hemofilia. No entanto, o código FA32.3 é um código para Artropatia hemofílica, que não se refere a hernia ventral. A codificação CID-11 não representa fielmente o termo descrito no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "5B5K.7": {
+      "term_original": "desnutricao proteico calorica",
+      "capitulo": "05",
+      "confidence_embedding": 0.7592,
+      "descricao_cid": "Representação de doença CID-11: Deficiência de selênio. Definição: Deficiência de selênio é rara mas tem sido observada em indivíduos em uso prolongado de dieta parenteral total(NPT) sem selênio. Manifestações clínicas da deficiência decorrente de tal situação são incomuns e pouco definidas. Elas incluem fraqueza muscular e mialgia com, em casos graves, o desenvolvimento de insuficiência cardíaca congestiva. A importância do selênio para o metabolismo dos hormônios tireoidianos é evidente, a partir de mudanças na proporção T3-T4 que se desenvolvem após uma depleção de selênio relativamente leve em bebês e idosos",
+      "classification_reasoning": "A deficiência de selênio é uma opção mais precisa para o termo 'desnutrição proteico calorica' no contexto clínico, pois ambos os termos estão relacionados à deficiência nutricional e ao metabolismo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A deficiência de selênio não está relacionada à desnutrição proteico calorica descrita no prontuário. A descrição do prontuário refere-se a uma situação clínica específica, enquanto o código CID-11 atribuído é muito genérico e não captura a essência da condição descrita.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "4A80.1": {
+      "term_original": "reação",
+      "capitulo": "04",
+      "confidence_embedding": 0.7534,
+      "descricao_cid": "Representação de doença CID-11: Broncoespasmo provocado por alergia a substância alimentar. Definição: Broncoespasmo provocado por alergia a alérgenos da comida é manifestação clínica desencadeada por vários alimentos como um fenótipo de hipersensibilidade alimentar. É mais frequente em pacientes atópicos mais jovens e os alimentos mais comuns responsáveis leite de vaca, amendoim, ovos e castanhas. Esta apresentação clínica pode se manifestar como um evento isolado ou em combinação com outros sintomas como representação da anafilaxia induzida por drogas.",
+      "classification_reasoning": "A reação pode ser relacionada a uma alergia alimentar, o que é coerente com a broncoespasmo mencionado anteriormente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A reação mencionada no prontuário não está relacionada a uma alergia alimentar, como descrito na definição do código CID-11. A reação pode ser causada por várias razões, incluindo a punção periférica realizada anteriormente, e não há evidência clínica de que seja uma reação alérgica. Além disso, o prontuário menciona broncopneumonia não especificada, o que sugere que a reação pode estar relacionada a uma condição pulmonar mais geral.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "3A00.0": {
+      "term_original": "debito hematico",
+      "capitulo": "03",
+      "confidence_embedding": 0.7279,
+      "descricao_cid": "Representação de doença CID-11: Anemia adquirida por deficiência de ferro devido à perda de sangue. Definição: Perda crônica de sangue é uma possivel causa em todos os casos de anemia por deficiência de ferro. Anemia por deficiência de ferro pode ser causada por sangramento agudo no trato gastrointestinal, útero ou sistema genitourinário, perda sanguinea menstrual copiosa (menorragia) e múltiplas doações de sangue. Em muitos países tropicais, infestações parasitárias podem levar a perdas intestinais que em alguns individuos pode ser considerável. A deficiência de ferro pode ser também causada por várias circunstâncias relatadas como \"anemia pós hemorragia crônica\". O diagnóstico de deficiência de ferro deve sempre levar a procura de causas patológicas de perda de sangue ( por exemplo tumores do trato gastrointestinal ou do útero, especialmente se o sangramento uterino aumentou ou ficou irregular.)",
+      "classification_reasoning": "A presença de 'debito hematico' no prontuário sugere perda crônica de sangue, o que pode estar relacionado à anemia por deficiência de ferro. A escolha do código 3A00.0 se baseia na possibilidade de anemia pós-hemorrágica crônica, levando em conta a punção periférica realizada anteriormente e a história de sangramento.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'debito hematico' no prontuário sugere uma condição clínica específica, mas o código CID-11 atribuído (3A00.0) é um diagnóstico de anemia por deficiência de ferro, que não está diretamente relacionado à punção periférica realizada anteriormente e ao sangramento. A escolha do código parece ser puramente imaginária ou sem qualquer base no texto.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "ME00": {
+      "term_original": "intercorrências",
+      "capitulo": "21",
+      "confidence_embedding": 0.7585,
+      "descricao_cid": "Representação de doença CID-11: Síndrome compartimental abdominal. Definição: A síndrome compartimental abdominal é uma condição de disfunção orgânica causada pelo aumento da pressão intra-abdominal (hipertensão intra-abdominal), possivelmente devido a hemorragia intra-abdominal, hematoma retroperitoneal ou edema intestinal. Ocorre frequentemente após intervenção cirúrgica ou traumatismo, ou frequentemente associada a condição séptica. A importância desta entidade clínica foi reconhecida recentemente, no final do século XX. Normalmente, a distensão abdominal devida a lesão intestinal isquêmica primária foi excluída desta entidade clínica.",
+      "classification_reasoning": "A palavra-chave 'intercorrências' se refere à um evento ou condição que surgiu durante o procedimento de punção periférica. A descrição mais precisa para este termo é a Síndrome Compartimental Abdominal (Código ME00), uma condição caracterizada por aumento da pressão intra-abdominal, possivelmente devido a hemorragia intra-abdominal, hematoma retroperitoneal ou edema intestinal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A Síndrome Compartimental Abdominal (Código ME00) é uma condição caracterizada por aumento da pressão intra-abdominal, possivelmente devido a hemorragia intra-abdominal, hematoma retroperitoneal ou edema intestinal. No entanto, no prontuário não há nenhuma indicação de que o paciente tenha apresentado esses sintomas ou condições. A punção periférica realizada sem intercorrências e a broncopneumonia não especificada sugerem que a situação do paciente é mais relacionada à procedimento cirúrgico e ao estado pós-operatório do que à Síndrome Compartimental Abdominal.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "DD50.2": {
+      "term_original": "abdomem globoso",
+      "capitulo": "13",
+      "confidence_embedding": 0.7275,
+      "descricao_cid": "Representação de doença CID-11: Hérnia intra-abdominal. Definição: Uma hérnia que ocorre dentro do abdômen através de abertura coberta pelo peritônio.",
+      "classification_reasoning": "A opção mais precisa é a hérnia intra-abdominal (DD50.2) pois o termo 'abdomem globoso' sugere uma distensão abdominal, característica dessa entidade.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'abdomem globoso' não é suficientemente específico para justificar a classificação de hérnia intra-abdominal (DD50.2). A distensão abdominal pode ser causada por várias razões, incluindo doenças gastrointestinais, obstrução intestinal ou até mesmo edema. Portanto, a codificação CID-11 não é clinicamente coerente com o prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "FA80.8": {
+      "term_original": "obstrucao",
+      "capitulo": "15",
+      "confidence_embedding": 0.7229,
+      "descricao_cid": "Representação de doença CID-11: Degeneração de disco intervertebral da coluna lombar sem prolapso de disco. Definição: ",
+      "classification_reasoning": "A opção mais precisa para o termo 'obstrucao' é a degeneração de disco intervertebral da coluna lombar sem prolapso de disco (FA80.8), pois a presença de obstrução se refere à limitação ou impedimento do fluxo natural do disco intervertebral, o que pode estar relacionado ao contexto clínico descrito no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FA80.8 não está clinicamente coerente com o prontuário, pois a obstrução referida no termo 'obstrucao' se refere à limitação ou impedimento do fluxo natural do disco intervertebral, o que não é relacionado ao contexto clínico descrito no prontuário. A presença de obstrução na hernia ventral não está associada à degeneração de disco intervertebral da coluna lombar sem prolapso de disco.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "ME86": {
+      "term_original": "queixas",
+      "capitulo": "21",
+      "confidence_embedding": 0.7456,
+      "descricao_cid": "Representação de doença CID-11: Sintoma ou queixa de uma parte do corpo. Definição: ",
+      "classification_reasoning": "A opção ME86 se ajusta ao termo 'queixas' porque é a descrição mais precisa para representar sintomas ou queixas de uma parte do corpo, o que é mencionado no contexto clínico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'queixas' não é específico o suficiente para justificar a atribuição do código ME86. A clínica apresentada no prontuário refere-se a procedimentos médicos realizados, como punção periférica e cirurgia de herniorrafia, mas não há descrições de sintomas ou queixas específicas relacionadas à parte do corpo mencionada. Portanto, é necessário remover o código ME86 e atribuir um código CID-11 mais apropriado para representar as condições clínicas descritas no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "3B81.1": {
+      "term_original": "svd debito efetivo",
+      "capitulo": "03",
+      "confidence_embedding": 0.7079,
+      "descricao_cid": "Representação de doença CID-11: Asplenia pós-cirúrgica. Definição: Doença causada por doenças subjacentes, esplenectomia ou ruptura esplênica por traumatismo. Essa doença é caracterizada pela ausência de função esplênica normal. Pode apresentar-se com aumento na susceptibilidade a infecções. A confirmação é feita por métodos de imagem.",
+      "classification_reasoning": "O termo 'svd debito efetivo' sugere a ausência de função esplênica normal, o que é característico da asplenemia pós-cirúrgica (Código CID-11: 3B81.1).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A ausência de função esplênica normal (svd debito efetivo) não é diretamente relacionada à asplenemia pós-cirúrgica. A condição descrita no prontuário refere-se a um paciente com hernia ventral sem obstrução ou gangrena, e não há evidência de doença esplênica subjacente. Portanto, o código CID-11 3B81.1 não representa fielmente o termo ou condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NE81.0Z": {
+      "term_original": "gangrena",
+      "capitulo": "22",
+      "confidence_embedding": 0.7317,
+      "descricao_cid": "Representação de doença CID-11: Hemorragia ou hematoma de outro localização ou não especificada, complicando um procedimento, não classificado em outra parte. Definição: ",
+      "classification_reasoning": "A palavra 'gangrena' está relacionada à hemorragia ou hematoma de outro localização, complicando um procedimento não classificado em outra parte. Isso se encaixa melhor com o contexto clínico do prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'gangrena' se refere a uma condição grave e específica, enquanto o código CID-11 NE81.0Z se refere a hemorragia ou hematoma de outro localização, complicando um procedimento não classificado em outra parte. Embora haja uma relação entre a hemorragia e a gangrena, elas são conceitos clínicos diferentes. Portanto, o código CID-11 NE81.0Z não representa fielmente o termo 'gangrena' no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "prontuario_id": 681,
+  "text": "acne grau 2\n\nfez uso de 30 dias de minociclina com melhora parcial.\nNega tratamento topico atual, apenas minesol oil control.\n\nno exame:\ncomedos, papulas, pustulas e raras lesoes nodulares.\nestrias em abdomen.\n\nP # solicito nova avaliacao com GO para liberacao de uso de ACHO. Mantenho mais 30 dias de minociclina.\nPrescrevo epiduo. Deixo Vitanol 0,05  para estrias oriento passar com cotonete.\nepidac sabonete e manter fps oil control.\nRetorno com novos exames e se uso de ACHO iniciar Isotretinoina.\n\nR2 Doutor Vital Brazil\n \n \n \n ",
+  "entities": {
+    "Antibiótico": [
+      "minociclina"
+    ],
+    "Substância Química Orgânica": [
+      "minociclina",
+      "epiduo",
+      "Isotretinoina",
+      "epidac sabonete"
+    ],
+    "Negação": [
+      "Nega"
+    ],
+    "Sinal ou Sintoma": [
+      "comedos",
+      "papulas",
+      "pustulas",
+      "lesoes nodulares"
+    ],
+    "Doença ou Síndrome": [
+      "comedos",
+      "acne grau 2"
+    ],
+    "Conceito Qualitativo": [
+      "raras"
+    ],
+    "Achado": [
+      "estrias",
+      "melhora parcial"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "abdomen"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "solicito",
+      "avaliacao",
+      "liberacao",
+      "Mantenho",
+      "Prescrevo",
+      "oriento",
+      "Retorno"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "GO",
+      "R2",
+      "Doutor"
+    ],
+    "Abreviação": [
+      "GO",
+      "ACHO",
+      "R2",
+      "fps oil control"
+    ],
+    "Substância Farmacológica": [
+      "ACHO",
+      "minociclina",
+      "epiduo",
+      "Isotretinoina",
+      "minesol oil control",
+      "epidac sabonete",
+      "fps oil control"
+    ],
+    "Procedimento Laboratorial": [
+      "exames"
+    ],
+    "Procedimento Diagnóstico": [
+      "exames"
+    ],
+    "Conceito Temporal": [
+      "30 dias"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "tratamento topico"
+    ]
+  },
+  "labels": {
+    "ED80.2": {
+      "term_original": "pustulas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7757,
+      "descricao_cid": "Representação de doença CID-11: Acne papulopustulosa. Definição: Acne na qual a principal manifestação é a presença de múltiplas pequenas pápulas e pústulas inflamatórias.",
+      "classification_reasoning": "A presença de pustulas no exame, juntamente com a descrição de acne grau 2 e a prescrição de epiduo, um tratamento topico para acne, sugerem que o termo 'pustulas' se refere à acne papulopustulosa (ED80.2) do contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de pustulas no exame, juntamente com a descrição de acne grau 2 e a prescrição de epiduo, um tratamento topico para acne, justificam a codificação ED80.2 (Acne papulopustulosa). A lógica clínica é que a presença de pustulas é uma característica fundamental da acne papulopustulosa e está presente no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "ED80.0": {
+      "term_original": "comedos",
+      "capitulo": "14",
+      "confidence_embedding": 0.8194,
+      "descricao_cid": "Representação de doença CID-11: Acne comedoniana. Definição: Acne na qual a principal manifestação é a presença de comedões abertos e/ou fechados, respectivamente cravos pretos e cravos brancos.",
+      "classification_reasoning": "A presença de comedos no exame é a característica principal do acne comedoniano, descrito pelo código ED80.0.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de comedos no exame é a característica principal do acne comedoniano, descrito pelo código ED80.0. A descrição do código CID-11 coincide com a condição clínica descrita no prontuário, portanto, a codificação é clinicamente coerente.",
+      "tipo_erro_auditoria": null
+    },
+    "ED80.1": {
+      "term_original": "papulas",
+      "capitulo": "14",
+      "confidence_embedding": 0.8032,
+      "descricao_cid": "Representação de doença CID-11: Acne superficial mista comedoniana e papulopustular. Definição: Acne na qual os comedões estão acompanhados por pequenas pápulas e pústulas inflamatórias",
+      "classification_reasoning": "A presença de papulas, além de comedos e pustulas, sugere uma acne superficial mista comedoniana e papulopustular, o que é caracterizado pelo código ED80.1.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A presença de papulas, comedos e pustulas no prontuário é consistente com a definição do código ED80.1 (Acne superficial mista comedoniana e papulopustular). A lógica clínica para manter o código é que a descrição do termo 'papulas' no prontuário está diretamente relacionada à característica de acne superficial mista, que inclui a presença de pequenas pápulas e pústulas inflamatórias.",
+      "tipo_erro_auditoria": null
+    },
+    "EE40.1": {
+      "term_original": "estrias",
+      "capitulo": "14",
+      "confidence_embedding": 0.7782,
+      "descricao_cid": "Representação de doença CID-11: Estrias. Definição: Cicatrizes lineares atribuíveis à ruptura da matriz dérmica normal por distensão por forças físicas anormais (gravidez, obesidade, estirão de crescimento puberal), aumento da atividade da colagenase (corticosteróides) ou como resultado de proteínas da matriz dérmica geneticamente anormais.",
+      "classification_reasoning": "A estrias descrita no contexto como 'estrias em abdomen' se refere a cicatrizes lineares atribuíveis à ruptura da matriz dérmica normal, caracterizando representação de doença CID-11: Estrias (EE40.1).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A estrias descrita no prontuário como 'estrias em abdomen' se refere a cicatrizes lineares atribuíveis à ruptura da matriz dérmica normal, caracterizando representação de doença CID-11: Estrias (EE40.1). A descrição clínica do prontuário é coerente com a definição do código CID-11 EE40.1, portanto, o código atribuído é válido e não há motivos para remover.",
+      "tipo_erro_auditoria": null
+    },
+    "ED80.3": {
+      "term_original": "lesoes nodulares",
+      "capitulo": "14",
+      "confidence_embedding": 0.8279,
+      "descricao_cid": "Representação de doença CID-11: Acne nodular. Definição: Acne na qual grandes nódulos inflamatórios e cistos com conteúdo líquido, bem como lesões mais superficiais, estão presentes. Terapia sistêmica com antibióticos ou retinoides é geralmente necessária.",
+      "classification_reasoning": "A presença de lesões nodulares no exame é consistente com a representação de acne nodular, descrita pelo código ED80.3.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de lesões nodulares no exame não é suficiente para justificar a classificação como acne nodular (ED80.3). A descrição do código CID-11 refere-se a nódulos inflamatórios e cistos com conteúdo líquido, o que não está presente no prontuário. Além disso, as lesões descritas são apenas raras, o que não é consistente com a gravidade da doença descrita pelo código ED80.3.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

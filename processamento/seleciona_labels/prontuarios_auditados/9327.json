@@ -1,0 +1,86 @@
+{
+  "prontuario_id": 511,
+  "text": "Paciente , 72 anos # Insuficiência cardíaca - FE 45% em ecocardio de jan 2007 # HAS # ACFA - suspensa ACO por má-adesão # IAM (1994) # Cateterismo (04/2004) : oclusão DAE e lesão 70% CD pequena não-dominante # Tentativa sem sucesso de angioplastia",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "Paciente"
+    ],
+    "Abreviação": [
+      "ecocardio",
+      "HAS",
+      "ACFA",
+      "IAM",
+      "FE 45%",
+      "suspensa ACO",
+      "oclusão DAE e lesão 70% CD pequena não-dominante"
+    ],
+    "Procedimento Diagnóstico": [
+      "ecocardio",
+      "Cateterismo",
+      "angioplastia"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "ACFA",
+      "IAM",
+      "Insuficiência cardíaca"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "Cateterismo",
+      "angioplastia",
+      "suspensa ACO"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Achado": [
+      "sucesso"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "FE 45%",
+      "oclusão DAE e lesão 70% CD pequena não-dominante"
+    ]
+  },
+  "labels": {
+    "BA60": {
+      "term_original": "has",
+      "capitulo": "11",
+      "confidence_embedding": 0.7641,
+      "descricao_cid": "Representação de doença CID-11: Algumas complicações atuais subsequentes ao infarto agudo do miocárdio. Definição: Condições secundárias que podem ocorrer no curso após o ataque cardíaco. Elas incluem pericardite, arritmia, choque cardiogênico, insuficiência cardíaca, ruptura ventricular, aneurisma ventricular (com trombo) e infarto recorrente.",
+      "classification_reasoning": "A escolha do código BA60 é mais precisa porque o paciente tem histórico de IAM (infarto agudo do miocárdio) e apresenta HAS (heart attack syndrome), que é uma das complicações atuais subsequentes ao infarto agudo do miocárdio, como definido no Código CID-11 BA60.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'HAS' não é uma condição clínica diretamente relacionada à insuficiência cardíaca ou ao histórico de IAM. A HAS (Heart Attack Syndrome) é uma abreviação médica comum que se refere a um conjunto de sintomas e achados radiológicos após um infarto agudo do miocárdio, mas não é uma condição clínica isolada. Portanto, o código CID-11 BA60 não representa fielmente o termo ou a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BA41": {
+      "term_original": "iam",
+      "capitulo": "11",
+      "confidence_embedding": 0.773,
+      "descricao_cid": "Representação de doença CID-11: Infarto agudo do miocárdio. Definição: O termo infarto do miocárdio (IM) agudo deve ser usado quando há evidência de necrose miocárdica em um contexto clínico consistente com isquemia miocárdica aguda. Nessas condições, qualquer um dos critérios a seguir atende ao diagnóstico de IM; \r\nDetecção de aumento e/ou queda de valores de biomarcadores cardíacos com pelo menos um valor acima do 99º percentil do limite de referência superior e com pelo menos um dos seguintes; \r\na. Sintomas de isquemia. \r\nb. Novas ou supostamente novas alterações significativas de segmento ST-onda T (ST-T) ou novo bloqueio de ramo esquerdo (BRE) no eletrocardiograma (ECG). \r\nc. Desenvolvimento de ondas Q patológicas no eletrocardiograma (ECG). \r\nd. Evidência em exame de imagem de nova perda de miocárdio viável ou nova anormalidade de movimento de parede regional. \r\ne. Identificação de um trombo intracoronário por angiografia ou autópsia. \r\n\r\n\r\nInfarto de qualquer localização do miocárdio, ocorrendo dentro de 4 semanas (28 dias) a partir do início de um infarto anterior (OMS)",
+      "classification_reasoning": "A escolha do código BA41 é justificada pelo fato de o paciente ter apresentado um infarto agudo do miocárdio (IAM) em 1994, como relatado no prontuário.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O código BA41 é indicado para Infarto Agudo do Miocárdio (IAM), mas o prontuário apenas menciona que o paciente teve um IAM em 1994, sem apresentar sintomas ou achados clínicos compatíveis com uma doença aguda. Além disso, a descrição do código CID-11 não se aplica ao caso do paciente, pois não há evidência de necrose miocárdica recente ou isquemia miocárdica aguda.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "I26.8": {
+      "term_original": "insuficiência cardíaca",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha mais precisa para o termo 'insuficiência cardíaca' é I26.8, pois o paciente apresenta FE de 45% em ecossonografia, indicando uma insuficiência cardíaca significativa. Além disso, a presença de histórico de IAM (1994) e cateterismo com oclusão DAE e lesão na artéria coronária pequena não-dominante sugere uma história de doença coronariana subjacente.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código I26.8 é justificada pela presença de insuficiência cardíaca significativa, com FE de 45% em ecossonografia. A história de IAM (1994) e cateterismo com oclusão DAE e lesão na artéria coronária pequena não-dominante sugere uma história de doença coronariana subjacente, que é compatível com a insuficiência cardíaca. Portanto, a codificação CID-11 I26.8 é clínica e coerente com o prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BA83": {
+      "term_original": "acfa",
+      "capitulo": "11",
+      "confidence_embedding": 0.7549,
+      "descricao_cid": "Representação de doença CID-11: Fístula da artéria coronária, adquirida. Definição: Comunicação anormal entre uma artéria coronária e câmara cardíaca ou vasos principais, adquirida após cirurgia coronária ou cardíaca, angioplastia coronária, ruptura ou aneurisma da artéria coronária ou lesão do coração.",
+      "classification_reasoning": "A opção BA83 refere-se a Fístula da artéria coronária, adquirida, que coincide com a descrição de 'ACFA' no contexto clínico do paciente.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A opção BA83, Fístula da artéria coronária, adquirida, coincide com a descrição de 'ACFA' no contexto clínico do paciente. A inspeção do prontuário revela que o paciente apresentou tentativa sem sucesso de angioplastia e lesão 70% CD pequena não-dominante, o que sugere a presença de uma comunicação anormal entre a artéria coronária e câmara cardíaca ou vasos principais. Portanto, a codificação CID-11 é CLINICAMENTE COERENTE com o prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "prontuario_id": 678,
+  "text": "Paciente Has há 14 anos.\nPaciente queixa-se de artralgia generalizada, sem demais alterações.\nCr = 1, Ur = 35,  Hb = 15,3, Ht = 46,2%, Plaq = 233000.\nEm uso de myfortic, paracetamol, atensina 150, Sinvastatina 40 mg, ramytril 25 mg, amiltripsina 25 1 cp, Passiflora 260mg.\n\nao exame físico, BEG sem alterações.\nconduta mantida e retorno em 3 meses.\n \n \n \n ",
+  "entities": {
+    "Abreviação": [
+      "Has",
+      "BEG",
+      "Cr = 1",
+      "Ur = 35",
+      "Plaq = 233000"
+    ],
+    "Doença ou Síndrome": [
+      "Has"
+    ],
+    "Negação": [
+      "sem"
+    ],
+    "Sinal ou Sintoma": [
+      "alterações",
+      "artralgia generalizada"
+    ],
+    "Substância Química Orgânica": [
+      "myfortic",
+      "paracetamol",
+      "atensina",
+      "Sinvastatina"
+    ],
+    "Substância Farmacológica": [
+      "myfortic",
+      "paracetamol",
+      "atensina",
+      "Sinvastatina",
+      "ramytril",
+      "amiltripsina",
+      "Passiflora"
+    ],
+    "Conceito Quantitativo": [
+      "150",
+      "260mg",
+      "40 mg",
+      "25 mg",
+      "25 1 cp"
+    ],
+    "Planta": [
+      "Passiflora"
+    ],
+    "Achado": [
+      "BEG"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "conduta",
+      "retorno"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "Cr = 1",
+      "Ur = 35",
+      "Hb = 15 , 3",
+      "Ht = 46 , 2%",
+      "Plaq = 233000"
+    ],
+    "Procedimento Diagnóstico": [
+      "exame físico"
+    ]
+  },
+  "labels": {
+    "FA22": {
+      "term_original": "artralgia generalizada",
+      "capitulo": "15",
+      "confidence_embedding": 0.7539,
+      "descricao_cid": "Representação de doença CID-11: Polimialgia reumática. Definição: A polimialgia reumática (PMR) é uma síndrome caracterizada por dores nas porções proximais das extremidades e do tronco. Os critérios de classificação provisórios para PMR pela European League Against Rheumatism / American College of Rheumatology Collaborative Initiative devem ser aplicados em pacientes com 50 anos ou mais com dor nos ombros bilateral e PCR e / ou VHS anormais. O algoritmo de pontuação é baseado na rigidez matinal> 45 minutos (2 pontos), dor / amplitude de movimento limitada no quadril (1 ponto), ausência de fator reumatoide e / ou anticorpo anti-proteína citrulinada (1 ponto), com critério de ultrassom opcional. Mais comumente, a PMR ocorre de forma isolada, mas pode ser observada em 40-50% dos pacientes com arterite de células gigantes.",
+      "classification_reasoning": "A escolha do código FA22 (Polimialgia reumática) se baseia na queixa do paciente de artralgia generalizada, sem demais alterações, o que sugere uma condição auto-imune e crônica. Além disso, a presença de doenças crônicas, como a hemofilia e a diabetes, é desconsiderada, pois não há indicações nesse contexto da história do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A queixa do paciente é de artralgia generalizada, mas o código FA22 (Polimialgia reumática) não se ajusta à descrição clínica. A Polimialgia reumática é uma síndrome caracterizada por dores nas porções proximais das extremidades e do tronco, enquanto a queixa do paciente refere-se a artralgia generalizada sem demais alterações. Além disso, o prontuário não apresenta indícios de doenças crônicas como hemofilia ou diabetes, que são mencionadas na descrição do código FA22.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "ME83": {
+      "term_original": "alterações",
+      "capitulo": "21",
+      "confidence_embedding": 0.72,
+      "descricao_cid": "Representação de doença CID-11: Reumatismo, não especificado. Definição: É um grupo de doenças marcadas por inflamação ou dor em estruturas de tecido conjuntivo do corpo e é considerado não especificado.",
+      "classification_reasoning": "A paciente tem artralgia generalizada, sem demais alterações, o que sugere um quadro de reumatismo não especificado.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A paciente apresenta artralgia generalizada, mas não há outras alterações mencionadas no prontuário. A descrição do código CID-11 (Reumatismo, não especificado) é muito genérica e não se ajusta à clínica da paciente. Além disso, a justificativa do sistema também não está de acordo com o que é descrito no prontuário.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

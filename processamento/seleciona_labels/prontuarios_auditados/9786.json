@@ -1,0 +1,201 @@
+{
+  "prontuario_id": 818,
+  "text": "POS TX RENAL.\nPOS TX RENAL - CR 0,87, SEM NS FK.\nTU MANDIBULA - TC COM SINAIS DE AGRESSIVIDADE.\nBOCIO NODULAR.\nHIPERPARA.\nTESTE DE ESFORÇO NEGATIVO.\n \n \nPOS TX RENAL 2012.\nTU MANDIBULA (TC SUGERE AGRESSIVIDADE) -> PLANO DE HEMIMANDIBULECTOMIA DIREITA INTRA ORAL.\nUSO DE: PDN 5, FK 1/1, MS1/1, ENL 10 X 2, ATN 50 X 2, SVT 20.\nS # AINDA NAO AGENDOU ANESTESISTA.\nASSINTOMÁTICA, NEGA DOR LOCAL.\nO # BEG, CORADO, HIDRATADO,\nAUMENTO DE VOLUME EM MANDIBULA A DIREITA,\nPA 110/70,\nMV POSITIVO, SIMETRICO,\nBCRNF,\nABDOMEN FLACIDO, SEM MASSAS,\nMEMBROS SEM EDEMA.",
+  "entities": {
+    "Negação": [
+      "SEM",
+      "NAO",
+      "ASSINTOMÁTICA",
+      "NEGA"
+    ],
+    "Abreviação": [
+      "HIPERPARA",
+      "PDN",
+      "FK",
+      "ENL",
+      "ATN",
+      "SVT",
+      "S",
+      "O",
+      "BEG",
+      "PA",
+      "BCRNF",
+      "POS TX RENAL",
+      "NS FK",
+      "TU MANDIBULA",
+      "TC COM SINAIS DE AGRESSIVIDADE",
+      "TC SUGERE AGRESSIVIDADE",
+      "MV POSITIVO"
+    ],
+    "Doença ou Síndrome": [
+      "HIPERPARA",
+      "BOCIO NODULAR"
+    ],
+    "Produto Intelectual": [
+      "PLANO"
+    ],
+    "Substância Farmacológica": [
+      "PDN",
+      "FK",
+      "MS1/1",
+      "ENL",
+      "ATN",
+      "SVT"
+    ],
+    "Substância Química Orgânica": [
+      "PDN",
+      "ATN",
+      "SVT"
+    ],
+    "Conceito Quantitativo": [
+      "5",
+      "1/1",
+      "20",
+      "110/70"
+    ],
+    "Aminoácido, Peptídeo ou Proteína": [
+      "ENL"
+    ],
+    "Achado": [
+      "S",
+      "BEG",
+      "CORADO",
+      "HIDRATADO",
+      "SIMETRICO",
+      "BCRNF",
+      "POS TX RENAL",
+      "MV POSITIVO"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "ANESTESISTA"
+    ],
+    "Sinal ou Sintoma": [
+      "ASSINTOMÁTICA",
+      "MASSAS",
+      "EDEMA",
+      "DOR LOCAL",
+      "AUMENTO DE VOLUME"
+    ],
+    "Atributo Clínico": [
+      "PA"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABDOMEN",
+      "MEMBROS",
+      "MANDIBULA A DIREITA"
+    ],
+    "Função Patológica": [
+      "EDEMA"
+    ],
+    "Conceito Temporal": [
+      "POS TX RENAL"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 0 , 87",
+      "TC COM SINAIS DE AGRESSIVIDADE",
+      "TESTE DE ESFORÇO NEGATIVO",
+      "TC SUGERE AGRESSIVIDADE"
+    ],
+    "Procedimento Laboratorial": [
+      "NS FK"
+    ],
+    "Processo Neoplásico": [
+      "TU MANDIBULA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "HEMIMANDIBULECTOMIA DIREITA INTRA ORAL"
+    ]
+  },
+  "labels": {
+    "5A51": {
+      "term_original": "hiperpara",
+      "capitulo": "05",
+      "confidence_embedding": 0.7194,
+      "descricao_cid": "Representação de doença CID-11: Hiperfunção da paratireoide. Definição: Hiperparatireoidismo se refere a aumento na produção/síntese de paratormônio, geralmente devido a um tumor em uma das glândulas paratireoides. Ela também pode ocorrer em resposta a baixos níveis de cálcio, como ocorre em várias situações como deficiência de vitamina D ou doença renal crônica. Hiperparatireoidismo leva a enfraquecimento ósseo por perda de cálcio.",
+      "classification_reasoning": "Hiperparatireoidismo é aprovada pela presença de Hiperpara na história médica do paciente, que pode ser causado por um tumor em uma das glândulas paratireoides ou como resposta a baixos níveis de cálcio.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'hiperpara' no prontuário não é suficiente para justificar a codificação CID-11 5A51, que representa hiperfunção da paratireoide. Embora o termo 'hiperpará' possa estar relacionado ao hiperparatireoidismo, não há evidência clínica suficiente no prontuário para sustentar essa associação. Além disso, a presença de outros sintomas e achados clínicos, como a agressividade na mandíbula e o bocio nodular, sugere que a doença renal pode ser mais relevante do que o hiperparatireoidismo.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EC90.10": {
+      "term_original": "massas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7093,
+      "descricao_cid": "Representação de doença CID-11: Prurido urêmico. Definição: Prurido em pacientes com insuficiência renal crônica. Embora comum na doença renal crônica não tratada, é particularmente prevalente em pacientes que submetidos a diálise peritoneal ou hemodiálise. O prurido não se deve a níveis elevados de ureia sérica. Os mecanismos precisos não são totalmente compreendidos.",
+      "classification_reasoning": "A opção mais precisa para o termo 'massas' no contexto do prontuário é a EC90.10, que descreve o Prurido urêmico, uma condição comum em pacientes com insuficiência renal crônica. A presença de massas na mandíbula à direita e a descrição de aumento de volume da mandíbula sugerem um possível envolvimento cutâneo característico do prurido urêmico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção EC90.10 não é clinicamente coerente com o prontuário, pois a descrição do código refere-se ao Prurido urêmico, que não está relacionado à presença de massas na mandíbula à direita e ao aumento de volume da mandíbula. A condição descrita no prontuário é mais provável ser uma manifestação de outra doença ou processo patológico, e o código CID-11 EC90.10 não captura essa relação.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    },
+    "FB50.2": {
+      "term_original": "edema",
+      "capitulo": "15",
+      "confidence_embedding": 0.7332,
+      "descricao_cid": "Representação de doença CID-11: Cisto sinovial do espaço poplíteo. Definição: Este é o edema benigno da bursa ou bolsa semimembranosa ou, mas raramente, de alguma outra bursa ou bolsa sinovial, localizado na região posterior do joelho",
+      "classification_reasoning": "A opção mais precisa é o cisto sinovial do espaço poplíteo (FB50.2) pois o termo 'edema' se refere ao aumento de volume na mandíbula à direita, descrito no prontuário, característico da síndrome do edema sinovial.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'edema' no prontuário se refere ao aumento de volume na mandíbula à direita, não ao edema benigno da bursa ou bolsa sinovial do espaço poplíteo. A opção mais precisa é um código que represente a síndrome de edema nodular associada à hiperparatireoidismo e não o cisto sinovial do espaço poplíteo (FB50.2).",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FB32.20": {
+      "term_original": "aumento de volume",
+      "capitulo": "15",
+      "confidence_embedding": 0.7099,
+      "descricao_cid": "Representação de doença CID-11: Rabdomiólise idiopática. Definição: É uma lesão do músculo esquelético, em que ocorre o extravazamento maciço de conteúdo muscular, acompanhado de mioglobinúria. Ela pode ocorrer em populações adultas e pediátricas e não há causa identificável. Os episódios costumam ser recorrentes. A insuficiência renal devida à necrose tubular aguda é uma complicação grave.",
+      "classification_reasoning": "Aumento de volume na mandíbula à direita é mais provávelmente relacionado a rabdomiólise idiopática, que pode causar expansão muscular e subsequente aumento de volume em tecidos.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "Ajustamento de volume na mandíbula à direita não é uma lesão muscular, como descrita no código CID-11 FB32.20. A rabdomiólise idiopática é caracterizada por um extravazamento maciço de conteúdo muscular, o que não se relaciona ao aumento de volume na mandíbula. Portanto, a codificação CID-11 FB32.20 não representa fielmente a condição descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BC63.40": {
+      "term_original": "mv positivo",
+      "capitulo": "11",
+      "confidence_embedding": 0.7004,
+      "descricao_cid": "Representação de doença CID-11: Bloqueio do fascículo anterior esquerdo. Definição: Transtorno do sistema de condução atrioventricular caracterizado por desvio do eixo para a esquerda para a idade (eixo do plano frontal entre -45 ° e -90 °), padrão qR na derivação aVL, tempo de pico R na derivação aVL de 45 ms ou mais e duração do QRS que não atende aos critérios dependentes da idade para bloqueio completo de ramo (menos de 120 ms em adultos, menos de 100 ms em crianças de 4 a 16 anos de idade e menos de 90 ms em crianças com menos de 4 anos de idade)",
+      "classification_reasoning": "A opção BC63.40 se refere a um bloqueio do fascículo anterior esquerdo, o que é relacionado ao termo 'mv positivo' no contexto clínico, que sugere uma situação de estresse cardíaco.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção BC63.40 se refere a um bloqueio do fascículo anterior esquerdo, o que não está relacionado ao termo 'mv positivo' no contexto clínico. O termo 'mv positivo' sugere uma situação de estresse cardíaco, que não é representada pelo código CID-11 BC63.40. Além disso, a descrição do código CID-11 não se refere à situação descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_cid_granularity"
+    },
+    "MG30.21": {
+      "term_original": "dor local",
+      "capitulo": "21",
+      "confidence_embedding": 0.7473,
+      "descricao_cid": "Representação de doença CID-11: Dor crônica pós-operatória. Definição: Dor pós-operatória crônica é a dor crônica que se desenvolve ou aumenta de intensidade após um procedimento cirúrgico e que persiste além do processo de cicatrização, ou seja, por pelo menos 3 meses após a cirurgia. A dor é localizada no local da cirugia, projetada no território de inervação de um nervo situado nesta área, ou referida em um dermátomo (após cirurgia/lesão de tecidos somáticos profundos ou viscerais). Outras causas de dor, incluindo infecção, malignidade, etc., precisam ser excluídas, bem como a dor persistente de um problema doloroso preexistente. Dependendo do tipo de cirurgia, a dor pós-operatória crônica pode ser neuropática.",
+      "classification_reasoning": "A dor local é descrita como 'ASSINTOMÁTICA, NEGA DOR LOCAL' no contexto do prontuário, o que sugere que a dor se refere ao procedimento cirúrgico realizado e não à doença renal em si. A opção MG30.21, Dor crônica pós-operatória, é mais precisa para o termo 'dor local' nesse contexto.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor local é descrita como 'ASSINTOMÁTICA, NEGA DOR LOCAL', o que significa que não há dor no local da cirurgia. Portanto, a opção MG30.21, Dor crônica pós-operatória, não se aplica nesse contexto.",
+      "tipo_erro_auditoria": "negated_finding"
+    },
+    "GB70 | GB70.00": {
+      "term_original": "pos tx renal",
+      "capitulo": "16",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A presença de 'POS TX RENAL' e 'CR 0,87, SEM NS FK' sugere que o paciente já teve tratamento renal prévio e agora apresenta cálculo ou calculose renal, confirmado pela ausência de nefrose (NS FK). Além disso, a descrição da mandíbula como tendo sinais de agressividade e a presença de bocio nodular apontam para um possível comprometimento renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'POS TX RENAL' e 'CR 0,87, SEM NS FK' sugere que o paciente teve tratamento renal prévio, mas não há relação direta com a codificação CID-11 GB70.00, que se refere à doença da mandíbula. A descrição da mandíbula como tendo sinais de agressividade e a presença de bocio nodular apontam para um possível comprometimento renal, mas não há relação clínica direta com o termo 'POS TX RENAL'. Portanto, a codificação CID-11 GB70.00 não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "EB31": {
+      "term_original": "bocio nodular",
+      "capitulo": "14",
+      "confidence_embedding": 0.7103,
+      "descricao_cid": "Representação de doença CID-11: Eritema nodoso. Definição: Erupção eritematosa comumente associada a reações a medicamentos ou infecção e caracterizada por nódulos inflamatórios que geralmente são dolorosos, múltiplos e bilaterais. Esses nódulos localizam-se predominantemente na face anterior das pernas, com ocorrência menos comum nas coxas e antebraços. Eles sofrem mudanças de cor características que terminam em áreas temporárias semelhantes a hematomas. Esta condição geralmente desaparece em 3-6 semanas sem cicatriz ou atrofia.",
+      "classification_reasoning": "A palavra 'bocio' é uma referência direta à condição descrita em EB31, Eritema nodoso. A presença de 'nódulos inflamatórios' na mandíbula sugere um diagnóstico compatível com essa condição.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A condição descrita como 'bocio nodular' no prontuário não se encaixa com a definição do código CID-11 EB31, que descreve eritema nodoso caracterizado por nódulos inflamatórios múltiplos e bilaterais. A presença de apenas um nódulo na mandíbula sugere uma condição diferente da descrita no código CID-11.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "FA25": {
+      "term_original": "tu mandibula",
+      "capitulo": "15",
+      "confidence_embedding": 0.7128,
+      "descricao_cid": "Representação de doença CID-11: Gota. Definição: Gota é uma artropatia aguda ou crônica resultante de deposição de cristais de urato monossódico mono-hidratado em tecidos articulares. Apresenta forte associação com hiperuricemia, que pode ser secundária a alguns medicamentos, substancias tóxicas ou transtornos linfoproliferativos. O diagnóstico de gota é definitivo pela demonstração de cristais de urato no líquido sinovial aspirado na ausência de uma etiologia alternativa para artrite. Pode estar associada à deposição focal de urato na pele e tecido subcutâneo (gota tofácea) e com nefropatia por cristais de urato.",
+      "classification_reasoning": "A opção mais precisa para o termo 'tu mandibula' é a gota (Código FA25), pois apresenta sintomas de agressividade na mandíbula, que coincide com a descrição da doença em relação à deposição focal de urato na pele e tecido subcutâneo.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção FA25 não é apropriada para o termo 'tu mandibula' porque gota (FA25) é uma doença artropática que afeta articulações, e não tem relação com a mandíbula. A descrição do prontuário apresenta sintomas de agressividade na mandíbula, sugerindo outra condição clínica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

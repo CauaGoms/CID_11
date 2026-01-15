@@ -1,0 +1,151 @@
+{
+  "prontuario_id": 363,
+  "text": "TX RENAL - FALENCIA ENXERTO POR TROMBOSE\nASMA - HIPERREATIVIDADE BRONQUICA SEM RESPOSTA A BRONCODILATADOR\nDRC ESTAGIO 5 EM HD\nDIFICULDADE DE ACESSO VASCULAR\nS : SEM QUEIXAS\nEPISODIOS DE BRONCOESPASMO NA HD\nANEMIA EM USO EPO\nO : PA 120/90   P 76  AFEBRIL  1KG ACIMA PESO SECO\nHIPOCORADA\nCPP LIVRES\nPC RITMO REGULAR\nABD RHA+, FLACIDO, CIC CX DE TXTECTOMIA\nMMII SEM EDEMA\nTX RENAL - FALENCIA ENXERTO POR TROMBOSE\nASMA - HIPERREATIVIDADE BRONQUICA SEM RESPOSTA A BRONCODILATADOR\nDRC ESTAGIO 5 EM HD\nDIFICULDADE DE ACESSO VASCULAR\n \n \n ",
+  "entities": {
+    "Doença ou Síndrome": [
+      "TROMBOSE",
+      "ASMA",
+      "ANEMIA",
+      "HIPERREATIVIDADE BRONQUICA",
+      "DRC ESTAGIO 5"
+    ],
+    "Negação": [
+      "SEM",
+      "AFEBRIL"
+    ],
+    "Substância Farmacológica": [
+      "BRONCODILATADOR",
+      "EPO"
+    ],
+    "Abreviação": [
+      "HD",
+      "EPO",
+      "PA",
+      "P",
+      "ABD",
+      "RHA+",
+      "CIC",
+      "MMII",
+      "TX RENAL",
+      "DRC ESTAGIO 5",
+      "PC RITMO REGULAR",
+      "CX DE TXTECTOMIA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "HD",
+      "TX RENAL",
+      "ACESSO VASCULAR",
+      "CX DE TXTECTOMIA"
+    ],
+    "Sinal ou Sintoma": [
+      "QUEIXAS",
+      "BRONCOESPASMO",
+      "AFEBRIL",
+      "HIPOCORADA",
+      "EDEMA",
+      "ACIMA PESO SECO",
+      "HIPERREATIVIDADE BRONQUICA"
+    ],
+    "Conceito Temporal": [
+      "EPISODIOS"
+    ],
+    "Hormônio": [
+      "EPO"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P"
+    ],
+    "Conceito Quantitativo": [
+      "120/90",
+      "76",
+      "1KG"
+    ],
+    "Localização ou Região Corporal": [
+      "CPP",
+      "ABD",
+      "MMII"
+    ],
+    "Achado": [
+      "RHA+",
+      "FLACIDO",
+      "FALENCIA ENXERTO",
+      "PC RITMO REGULAR"
+    ],
+    "Função Patológica": [
+      "HIPERREATIVIDADE BRONQUICA"
+    ]
+  },
+  "labels": {
+    "CA23.00": {
+      "term_original": "broncoespasmo",
+      "capitulo": "12",
+      "confidence_embedding": 0.7319,
+      "descricao_cid": "Representação de doença CID-11: Asma alérgica com exacerbação. Definição: Refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Asma alérgica pode ser exacerbada por alérgenos aos quais o indivíduo é alérgico, outros fatores exógenos como infecção respiratória, poluentes ou mudança climática, ou cofatores endógenos. Exacerbações são caracterizadas por redução do fluxo expiratório que pode ser documentado e quantificado por medidas simples de função pulmonar (espirometria ou PFE), podem variar amplamente entre indivíduos e nos mesmos indivíduos de raras a frequentes. A gravidade das exacerbações de asma alérgica podem variar de leves a muito graves e ameaçadoras da vida, mas em geral respondem a tratamentos padrão com broncodilatadores (inalatórios) e esteroide.",
+      "classification_reasoning": "A opção CA23.00 é a mais precisa para o termo 'broncoespasmo' porque refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. Isso é consistente com a descrição do paciente que apresenta broncoespasmo na HD.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção CA23.00 refere-se a episódios agudos ou subagudos de piora progressiva de falta de ar, tosse, chieira, aperto no peito, ou alguma combinação desses sintomas, em um paciente com asma alérgica comprovada. No entanto, o prontuário apenas menciona 'broncoespasmo na HD', que não é suficientemente específico para justificar a opção CA23.00. Além disso, a descrição do paciente apresenta broncoespasmo como um sintoma e não como uma doença. Portanto, há confusão entre o sintoma (broncoespasmo) e o diagnóstico (asma alérgica).",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "FA25.20": {
+      "term_original": "flacido",
+      "capitulo": "15",
+      "confidence_embedding": 0.7087,
+      "descricao_cid": "Representação de doença CID-11: Gota tofácea. Definição: Os tofos são deposições de cristais de urato monossódico nos tecidos de pacientes com hiperuricemia e podem estar associados a outras manifestações como a artropatia da gota. Eles são identificados principalmente na pele e no tecido subcutâneo. A hélice da orelha é uma das localizações mais comuns de acometimento dos tofos.",
+      "classification_reasoning": "A opção mais precisa é a Gota Tofácea (FA25.20) porque o termo 'flacido' está relacionado à deposição de cristais de urato nos tecidos, característica da gota tofácea.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'flacido' não está relacionado à deposição de cristais de urato nos tecidos, característica da gota tofácea. A descrição do código CID-11 FA25.20 refere-se a uma doença específica e não se aplica ao termo 'flacido', que descreve um estado físico (flacidez) e não uma condição clínica.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "NB60": {
+      "term_original": "edema",
+      "capitulo": "22",
+      "confidence_embedding": 0.7616,
+      "descricao_cid": "Representação de doença CID-11: Concussão ou edema da medula espinhal lombar. Definição: ",
+      "classification_reasoning": "A presença de dificuldade de acesso vascular e edema na descrição do prontuário, aponta para a possibilidade de concussão ou edema da medula espinhal lombar, justificando a escolha do código NB60.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A presença de 'S: SEM QUEIXAS' e 'MMII SEM EDEMA' no prontuário sugere que o edema não é um sintoma presente, portanto, a escolha do código NB60 não é justificada. A dificuldade de acesso vascular pode ser relacionada à falência renal ou ao estadio 5 de doença renal crônica, mas não há evidência clínica para concussão ou edema da medula espinhal lombar.",
+      "tipo_erro_auditoria": "negated_finding"
+    },
+    "BA01": {
+      "term_original": "hipocorada",
+      "capitulo": "11",
+      "confidence_embedding": 0.7606,
+      "descricao_cid": "Representação de doença CID-11: Doença cardíaca hipertensiva. Definição: Doença cardíaca hipertensiva é um termo geralmente aplicado a doenças cardíacas, como hipertrofia ventricular esquerda, doença arterial coronariana, arritmias cardíacas e insuficiência cardíaca congestiva, que sejam causadas por efeitos diretos ou indiretos da hipertensão. A hipertensão prolongada e não controlada pode levar a uma variedade de alterações na estrutura miocárdica, na vasculatura coronária e no sistema de condução do coração.",
+      "classification_reasoning": "A hipocorada foi mencionada como um sinal clínico no contexto do paciente, que apresenta DRC estágio 5 em HD e dificuldade de acesso vascular. A hipocorada é uma manifestação comum de doenças cardíacas hipertensivas, portanto, a escolha mais precisa foi o código BA01.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A hipocorada é um sinal clínico comum em pacientes com doenças cardíacas hipertensivas, como mencionado na definição do código CID-11 BA01. A presença de DRC estágio 5 em HD e dificuldade de acesso vascular no prontuário justifica a escolha do código BA01 para representar a condição clínica descrita.",
+      "tipo_erro_auditoria": null
+    },
+    "2e+83": {
+      "term_original": "falencia enxerto",
+      "capitulo": "02",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A falência renal é mencionada no prontuário como sendo devido a trombose do enxerto renal, portanto, a opção mais precisa para o termo 'falencia enxerto' é a Doença de deposição da cadeia pesada (2E83).",
+      "decisao": "MANTER",
+      "motivo_decisao": "A falência renal é mencionada no prontuário como sendo devido a trombose do enxerto renal, o que justifica a escolha da opção Doença de deposição da cadeia pesada (2E83). A lógica clínica para manter essa classificação é que a falência renal está diretamente relacionada à trombose do enxerto renal, e não há contradição óbvia ou alucinação. Portanto, o código CID-11 2e+83 representa fielmente o termo 'falencia enxerto' descrito no prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "BD71.2": {
+      "term_original": "trombose",
+      "capitulo": "11",
+      "confidence_embedding": 0.8083,
+      "descricao_cid": "Representação de doença CID-11: Trombose da veia renal. Definição: Trombose venosa na veia renal",
+      "classification_reasoning": "A trombose mencionada no contexto é relacionada à veia renal, o que é coerente com a descrição do código BD71.2: Trombose da veia renal.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A trombose mencionada no prontuário é diretamente relacionada à veia renal, o que é coerente com a descrição do código BD71.2: Trombose da veia renal. Ajustamento clínico realizado para garantir a coerença entre a codificação CID-11 e o conteúdo do prontuário.",
+      "tipo_erro_auditoria": null
+    },
+    "3A71.2": {
+      "term_original": "anemia",
+      "capitulo": "03",
+      "confidence_embedding": 0.8193,
+      "descricao_cid": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "A anemia presente no contexto é relacionada à doença renal crônica, caracterizada por baixos níveis de glóbulos vermelhos no organismo, o que faz sentido com a presença de DRC estagio 5 em HD e dificuldade de acesso vascular.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A anemia presente no prontuário é diretamente relacionada à doença renal crônica, caracterizada por baixos níveis de glóbulos vermelhos no organismo. A presença de DRC estagio 5 em HD e dificuldade de acesso vascular também são mencionadas, o que reforça a relação entre a anemia e a doença renal crônica. Portanto, a codificação CID-11 '3A71.2' é válida e representa fielmente a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": null
+    }
+  }
+}

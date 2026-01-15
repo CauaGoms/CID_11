@@ -1,0 +1,101 @@
+{
+  "prontuario_id": 204,
+  "text": "PACIENTE COM HISTÓRIA DE HIPERTENSÃO ARTERIAL GRAVE , INICIOU COM DOR TORÁCICA COM IRRADIAÇÃO PARA DORSO E ABDÔMEN EM 12/10 , DE FORTE INTENSIDADE . RX DE TÓRAX COM ALARGAMENTO DE MEDIASTINO . TC DE TÓRAX E ABDÔMEN COM DISSECÇÃO DE AORTA DESCENDENTE A PARTIR DA EMERGÊNCIA DA SUBCLÁVIA ESQUERDA . ECO TRANSESOFÁGICO NÃO EVIDENCIOU DISSECÇÃO DE AORTA ASCENDENTE. EVOLUIU COM PERDA DE FUNÇÃO RENAL E ANÚRIA , PERDA FUNCIONAL DO MIE . AVALIADO PELA CIRURGIA VASCULAR , QUE CONTRA INDICOU CIRURGIA EM VIRTUDE DA EXTREMA GRAVIDADE DO CASO E AUSÊNCIA DE OPÇÃO TERAPÊUTIC CIRÚRGICA EM VIGÊNCIA DE COMPLICAÇÕES JÁ ESTABELECIDAS . EVOLUIU A ASSISTOLIA E ÓBITO EM 13/120 ÀS 9H35MIN .",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "PACIENTE"
+    ],
+    "Localização ou Região Corporal": [
+      "DORSO",
+      "ABDÔMEN",
+      "TÓRAX"
+    ],
+    "Procedimento Diagnóstico": [
+      "TC",
+      "RX DE TÓRAX",
+      "ECO TRANSESOFÁGICO"
+    ],
+    "Abreviação": [
+      "TC",
+      "RX DE TÓRAX",
+      "ECO TRANSESOFÁGICO",
+      "PERDA FUNCIONAL DO MIE"
+    ],
+    "Negação": [
+      "NÃO",
+      "AUSÊNCIA"
+    ],
+    "Doença ou Síndrome": [
+      "ASSISTOLIA",
+      "HIPERTENSÃO ARTERIAL GRAVE",
+      "DISSECÇÃO DE AORTA DESCENDENTE"
+    ],
+    "Função de Organismo": [
+      "ÓBITO"
+    ],
+    "Sinal ou Sintoma": [
+      "DOR TORÁCICA",
+      "PERDA FUNCIONAL DO MIE"
+    ],
+    "Conceito Qualitativo": [
+      "FORTE INTENSIDADE"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ALARGAMENTO DE MEDIASTINO",
+      "DISSECÇÃO DE AORTA DESCENDENTE",
+      "PARTIR DA EMERGÊNCIA DA SUBCLÁVIA ESQUERDA",
+      "EVIDENCIOU DISSECÇÃO DE AORTA ASCENDENTE"
+    ],
+    "Grupo Profissional ou Ocupacional": [
+      "CIRURGIA VASCULAR"
+    ],
+    "Organização Relacionada à Saúde": [
+      "CIRURGIA VASCULAR"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TERAPÊUTIC CIRÚRGICA"
+    ]
+  },
+  "labels": {
+    "R96.9Z": {
+      "term_original": "assistolia",
+      "capitulo": "22",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A assistolia é um termo que se refere à parada cardíaca, portanto a opção mais precisa para este termo dentro do contexto clínico é R96.9Z, Representação de doença CID-11: Parada cardíaca, não especificada.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A assistolia é um termo que se refere à parada cardíaca, mas no contexto do prontuário, está relacionado à evolução da doença e não à causa direta da morte. A parada cardíaca foi consequência da dissecção de aorta descendente e perda de função renal e anúria, portanto, o código R96.9Z não representa fielmente o termo assistolia.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "BD50.01": {
+      "term_original": "dor torácica",
+      "capitulo": "11",
+      "confidence_embedding": 0.8123,
+      "descricao_cid": "Representação de doença CID-11: Dissecção da aorta torácica, dissecção da aorta ascendente e propagação além do arco com ruptura. Definição: ",
+      "classification_reasoning": "A dor torácica com irradiação para dorso e abdome é um sintoma característico de dissecção aórtica, e o resultado do exame de TC mostrou dissecção da aorta descendente a partir da emergência subclávia esquerda, o que aponta para uma dissecção da aorta torácica com ruptura (BD50.01).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor torácica com irradiação para dorso e abdome é um sintoma característico de dissecção aórtica, mas o código CID-11 atribuído (BD50.01) refere-se especificamente à dissecção da aorta torácica com ruptura. Embora haja uma relação entre a dor torácica e a dissecção aórtica, o termo 'dor torácica' não é suficientemente específico para justificar a atribuição do código CID-11 BD50.01. É necessário um diagnóstico mais preciso de dissecção da aorta torácica com ruptura para justificar essa classificação.",
+      "tipo_erro_auditoria": "symptom_vs_diagnosis_confusion"
+    },
+    "BD50.2": {
+      "term_original": "dissecção de aorta descendente",
+      "capitulo": "11",
+      "confidence_embedding": 0.8493,
+      "descricao_cid": "Representação de doença CID-11: Dissecção da aorta descendente e propagação distal. Definição: Isso ocorre quando uma ruptura na parede interna da aorta faz com que o sangue flua entre as camadas da parede da aorta, forçando a separação das camadas e propagação distal.",
+      "classification_reasoning": "A escolha pela opção BD50.2 é a mais precisa porque a descrição coincide com o contexto clínico, que relata uma dissecção de aorta descendente a partir da emergência da subclávia esquerda.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A escolha do código CID-11 BD50.2 é justificada porque a descrição coincide com o contexto clínico, que relata uma dissecção de aorta descendente a partir da emergência da subclávia esquerda. A codificação é clinicamente coerente com o prontuário e não há contradições óbvias ou alucinações.",
+      "tipo_erro_auditoria": null
+    },
+    "GB40": {
+      "term_original": "perda funcional do mie",
+      "capitulo": "16",
+      "confidence_embedding": 0.7506,
+      "descricao_cid": "Representação de doença CID-11: Síndrome nefrítica. Definição: Início súbito de doença glomerular, geralmente com hematúria grave (macroscópica/visível) acompanhada de oligúria, pressão arterial elevada, edema leve e albuminúria ou proteinúria geralmente de faixa subnefrótica. Pode ser uma causa de insuficiência renal aguda, caso em que a síndrome é denominada nefrite rapidamente progressiva. A síndrome nefrítica tem muitas causas possíveis e está associada a alterações renais à microscopia de luz, como hipercelularidade, necrose ou trombose.",
+      "classification_reasoning": "A perda funcional do MIE (musculatura lombar) e a evolução para anúria e perda de função renal sugerem uma lesão grave e complexa na região da medula espinal, o que é consistente com a descrição da síndrome nefrítica, um quadro clínico caracterizado por lesões glomerulares agudas e subsequente insuficiência renal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A perda funcional do MIE (musculatura lombar) pode ser uma consequência de lesões na medula espinal, mas não é suficiente para justificar a classificação de síndrome nefrítica. A falta de evidências de lesão glomerular aguda e insuficiência renal aguda também sugere que o termo 'perda funcional do MIE' não está clinicamente relacionado à síndrome nefrítica.",
+      "tipo_erro_auditoria": "overly_generic_entity"
+    }
+  }
+}

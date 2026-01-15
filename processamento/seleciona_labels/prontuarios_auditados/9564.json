@@ -1,0 +1,88 @@
+{
+  "prontuario_id": 183,
+  "text": "MCP  DILATADA  \nCINTILO  NEGATIVA  E CETS  SEM  CORONARIOPATIAS\n13-7-15  HOLTER  ALTA  DENSIDADE DE ESV  \nNAO RETORNOU  AO AMB  IC ?\nS   VERTIGEM  ESPORADICA - ASSOCIO  A  DOSE  OTIMIZADA  DE  CVD \nP  MANETNHO CVD  12,5 12-12 \nMANTENHO AAS    SVT\nENCAMINHAO AO AMB  ARRITMIAS   VIA ROTA\n \n \n \n ",
+  "entities": {
+    "Procedimento Diagnóstico": [
+      "CINTILO",
+      "HOLTER"
+    ],
+    "Abreviação": [
+      "CETS",
+      "S",
+      "P",
+      "CVD",
+      "AAS",
+      "SVT",
+      "MCP DILATADA",
+      "ALTA DENSIDADE DE ESV",
+      "AMB IC",
+      "AMB ARRITMIAS"
+    ],
+    "Negação": [
+      "SEM",
+      "NAO"
+    ],
+    "Doença ou Síndrome": [
+      "CORONARIOPATIAS",
+      "MCP DILATADA"
+    ],
+    "Achado": [
+      "S"
+    ],
+    "Substância Farmacológica": [
+      "CVD",
+      "AAS",
+      "SVT"
+    ],
+    "Produto Intelectual": [
+      "P"
+    ],
+    "Atividade de Assistência à Saúde": [
+      "MANETNHO",
+      "MANTENHO"
+    ],
+    "Substância Química Orgânica": [
+      "CVD",
+      "AAS",
+      "SVT"
+    ],
+    "Conceito Temporal": [
+      "12-12"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "ALTA DENSIDADE DE ESV"
+    ],
+    "Organização Relacionada à Saúde": [
+      "AMB IC",
+      "AMB ARRITMIAS"
+    ],
+    "Sinal ou Sintoma": [
+      "VERTIGEM ESPORADICA"
+    ],
+    "Conceito Quantitativo": [
+      "12 , 5"
+    ]
+  },
+  "labels": {
+    "BC43.0": {
+      "term_original": "mcp dilatada",
+      "capitulo": "11",
+      "confidence_embedding": 0.7978,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia dilatada. Definição: Cardiomiopatia dilatada é um transtorno do miocárdio no qual há disfunção sistólica e dilatação da câmara de um ou ambos os ventrículos na ausência de uma causa hemodinâmica que possa produzir a dilatação e disfunção existentes, incluindo causas fisiológicas (como sepse) ou anatômicas seja com condições anormais de carga (como coarctação da aorta) ou isquemia (como doença arterial coronariana ou anomalias). \r\n\r\nInformações adicionais: Condições fisiológicas e anatômicas podem afetar o fenótipo morfofuncional da cardiomiopatia dilatada. Se este fenótipo morfofuncional for mantido após intervenção apropriada, então uma cardiomiopatia dilatada está estabelecida.",
+      "classification_reasoning": "A escolha pelo código BC43.0 se baseia na descrição de 'MCP dilatada' no prontuário, que sugere a presença de cardiomiopatia dilatada, um tipo de doença do músculo cardíaco caracterizado por disfunção sistólica e dilatação da câmara ventricular.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição de 'MCP dilatada' no prontuário sugere uma condição cardíaca, mas o código CID-11 atribuído (BC43.0) refere-se a cardiomiopatia dilatada, que é um tipo específico de doença do músculo cardíaco. Embora haja uma relação entre as duas condições, elas não são idênticas. A classificação é demasiado específica e não representa fielmente o termo ou a condição clínica descrita no prontuário.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    },
+    "6A23.01": {
+      "term_original": "vertigem esporadica",
+      "capitulo": "06",
+      "confidence_embedding": 0.7158,
+      "descricao_cid": "Representação de doença CID-11: Transtorno psicótico agudo e transitório, primeiro episódio, em remissão parcial. Definição: Todos os critérios diagnósticos para transtorno psicótico agudo e transitório, primeiro episódio em termos de sintomas e duração foram preenchidos anteriormente. Os sintomas melhoraram de tal forma que os critérios diagnósticos para o transtorno não foram preenchidos por pelo menos um mês, mas alguns sintomas clinicamente significativos persistem, que podem ou não estar associados a comprometimento funcional. A remissão parcial pode ter ocorrido em resposta a medicamento ou outro tratamento.",
+      "classification_reasoning": "O termo 'vertigem esporadica' sugere um sintoma neurológico passageiro, possivelmente relacionado a uma condição psiquiátrica ou neurologica. Considerando o contexto do prontuário e os demais sintomas descritos, a escolha mais precisa é 'Transtorno psicótico agudo e transitório, primeiro episódio, em remissão parcial' (Código CID-11: 6A23.01).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A vertigem esporádica não é um sintoma neurológico passageiro relacionado a uma condição psiquiátrica ou neurologica, mas sim um sintoma clínico específico que pode ter várias causas. A escolha do código CID-11 6A23.01 não representa fielmente o termo descrito no prontuário e não há relação direta entre a vertigem esporádica e o transtorno psicótico agudo e transitório.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}

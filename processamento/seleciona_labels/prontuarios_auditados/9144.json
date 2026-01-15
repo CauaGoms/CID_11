@@ -1,0 +1,39 @@
+{
+  "prontuario_id": 619,
+  "text": "paciente submetida a 5 cirurgias de coluna em outro servico.\n\n\ndor cronica.\nencaminho ao amb do Doutor Vital Brasil.       ",
+  "entities": {
+    "Paciente ou Grupo com Deficiência": [
+      "paciente"
+    ],
+    "Conceito Quantitativo": [
+      "5"
+    ],
+    "Organização Relacionada à Saúde": [
+      "amb"
+    ],
+    "Abreviação": [
+      "amb"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "cirurgias de coluna"
+    ],
+    "Doença ou Síndrome": [
+      "dor cronica"
+    ],
+    "Sinal ou Sintoma": [
+      "dor cronica"
+    ]
+  },
+  "labels": {
+    "8E43.0": {
+      "term_original": "dor cronica",
+      "capitulo": "08",
+      "confidence_embedding": 0.691,
+      "descricao_cid": "Representação de doença CID-11: Dor neuropática. Definição: Dor neuropática é descrita como elétrica, queimação ou choque, causada por processos metabólicos, nutricionais, infecciosos, genéticos, autoimunes e/ou vasculíticos. A dor pode ocorrer espontaneamente, sem provocação, ou ser provocada por estímulos dolorosos ou não. A dor é característica da neuropatia de fibras pequenas, mas mesmo nas neuropatias de fibras grandes, um número suficiente de fibras pequenas pode estar danificado para causar dor. A dor neuropática geralmente afeta pele e estruturas subcutâneas distais. A dor pode ser constante ou intermitente e pode ser descrita como lancinante, em queimação ou fria como gelo.\r\n\r\nA síndrome de dor regional complexa segue-se ao trauma e compreende dor regional, alterações sensitivas, anormalidades de temperatura, atividade sudomotora, alterações de cor da pele e edema.",
+      "classification_reasoning": "A dor crônica mencionada no prontuário é mais provável ser neuropática, considerando que o paciente apresentou 5 cirurgias de coluna em outro serviço e está sendo encaminhado ao amb do Doutor Vital Brasil com sintoma de dor crônica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A dor crônica mencionada no prontuário não é diretamente relacionada à neuropatia, pois a descrição do termo 'dor cronica' não apresenta características específicas da dor neuropática. Além disso, a presença de 5 cirurgias de coluna em outro serviço sugere que a dor crônica pode ser mais provávelmente relacionada à patologia da coluna vertebral do que à neuropatia.",
+      "tipo_erro_auditoria": "wrong_entity_type"
+    }
+  }
+}
