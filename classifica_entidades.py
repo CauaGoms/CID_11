@@ -15,29 +15,29 @@ PASTA_ENTRADA = "semclinbr/prontuarios"
 PASTA_SAIDA = "processamento_medgemma/classifica_entidades/prontuarios_classificados"
 
 CAPITULOS_CID = {
-    "01": "Algumas doenças infecciosas ou parasitárias",
-    "02": "Neoplasias",
-    "03": "Doenças do sangue ou dos órgãos formadores do sangue",
-    "04": "Doenças do sistema imune",
-    "05": "Doenças endócrinas, nutricionais ou metabólicas",
-    "06": "Transtornos mentais, comportamentais ou do neurodesenvolvimento",
-    "07": "Transtornos de sono-vigília",
-    "08": "Doenças do sistema nervoso",
-    "09": "Doenças do sistema visual",
-    "10": "Doenças da orelha ou do processo mastoide",
-    "11": "Doenças do sistema circulatório",
-    "12": "Doenças do sistema respiratório",
-    "13": "Doenças do sistema digestivo",
-    "14": "Doenças da pele",
-    "15": "Doenças do sistema musculoesquelético ou do tecido conjuntivo",
-    "16": "Doenças do sistema geniturinário",
-    "17": "Condições relacionadas à saúde sexual",
-    "18": "Gravidez, parto ou puerpério",
-    "19": "Algumas afecções originadas no período perinatal",
-    "20": "Anomalias do desenvolvimento",
-    "21": "Sintomas, sinais ou achados clínicos, não classificados em outra parte",
-    "22": "Lesões, envenenamentos ou algumas outras consequências de causas externas",
-    "23": "Causas externas de morbidade ou mortalidade",
+    "01": "Algumas doenças infecciosas ou parasitárias: Doenças causadas por agentes infecciosos como bactérias, vírus, parasitas e fungos, transmitidas por contato direto, vetores, alimentos, água ou outras vias.",
+    "02": "Neoplasias: Proliferação celular anormal e descontrolada, benigna ou maligna, que pode invadir tecidos adjacentes ou produzir metástases.",
+    "03": "Doenças do sangue ou dos órgãos formadores do sangue: Condições que afetam o sangue, a coagulação e os órgãos hematopoéticos, como medula óssea e baço.",
+    "04": "Doenças do sistema imune: Distúrbios do sistema imunológico, incluindo imunodeficiências, doenças autoimunes, inflamatórias e reações de hipersensibilidade.",
+    "05": "Doenças endócrinas, nutricionais ou metabólicas: Distúrbios hormonais, nutricionais e metabólicos que afetam o crescimento, o metabolismo energético e a homeostase do organismo.",
+    "06": "Transtornos mentais, comportamentais ou do neurodesenvolvimento: Alterações clinicamente significativas da cognição, regulação emocional ou comportamento, com impacto funcional pessoal, social ou ocupacional.",
+    "07": "Transtornos de sono-vigília: Distúrbios relacionados à iniciação, manutenção ou regulação do sono, incluindo insônia, hipersonolência, parassonias e alterações do ritmo circadiano.",
+    "08": "Doenças do sistema nervoso: Condições que afetam o sistema nervoso central, periférico ou autonômico, incluindo doenças neurológicas estruturais, degenerativas ou funcionais.",
+    "09": "Doenças do sistema visual: Doenças que acometem os olhos, seus anexos, as vias visuais e áreas cerebrais responsáveis pela percepção visual.",
+    "10": "Doenças da orelha ou do processo mastoide: Condições que afetam a audição, o equilíbrio e as estruturas do ouvido externo, médio, interno e mastoide.",
+    "11": "Doenças do sistema circulatório: Doenças que afetam o coração, os vasos sanguíneos e a circulação sanguínea, comprometendo o transporte de oxigênio e nutrientes.",
+    "12": "Doenças do sistema respiratório: Condições que afetam as vias aéreas, pulmões e músculos respiratórios, interferindo na ventilação e nas trocas gasosas.",
+    "13": "Doenças do sistema digestivo: Doenças que afetam o trato gastrointestinal, fígado, vesícula biliar, pâncreas e estruturas associadas à digestão e absorção.",
+    "14": "Doenças da pele: Condições que afetam a pele, seus anexos (cabelos, unhas e glândulas), mucosas associadas e tecidos subjacentes.",
+    "15": "Doenças do sistema musculoesquelético ou do tecido conjuntivo: Doenças que afetam músculos, ossos, articulações, ligamentos, tendões e tecidos de sustentação.",
+    "16": "Doenças do sistema geniturinário: Condições que afetam os sistemas urinário e genital, incluindo rins, vias urinárias e órgãos reprodutivos.",
+    "17": "Condições relacionadas à saúde sexual: Condições associadas à função sexual, reprodução, identidade sexual e saúde sexual em geral, não classificadas em outros capítulos.",
+    "18": "Gravidez, parto ou puerpério: Condições associadas à gestação, ao trabalho de parto, ao parto e ao período pós-parto imediato.",
+    "19": "Algumas afecções originadas no período perinatal: Condições que têm origem no período perinatal, mesmo quando a morbidade ou mortalidade ocorre posteriormente.",
+    "20": "Anomalias do desenvolvimento: Alterações estruturais ou funcionais decorrentes de falhas no desenvolvimento pré-natal de órgãos ou sistemas.",
+    "21": "Sintomas, sinais ou achados clínicos, não classificados em outra parte: Sinais, sintomas e achados clínicos ou laboratoriais inespecíficos usados quando não há diagnóstico definitivo.",
+    "22": "Lesões, envenenamentos ou algumas outras consequências de causas externas: Danos corporais decorrentes de agentes físicos, químicos ou da privação de elementos vitais, com início geralmente agudo.",
+    "23": "Causas externas de morbidade ou mortalidade: Classificação das circunstâncias, eventos e intenções que resultam em lesões, envenenamentos ou morte.",
     "24": "Fatores que influenciam o estado de saúde ou o contato com serviços de saúde: Situações, condições ou motivos de contato com serviços de saúde que não constituem doença ou lesão.",
     "25": "Códigos para propósitos especiais: Códigos reservados para finalidades específicas, como vigilância epidemiológica, emergências de saúde pública ou usos administrativos.",
     "26": "Capítulo Suplementar – Condições da Medicina Tradicional: Condições, padrões diagnósticos e conceitos utilizados em sistemas de medicina tradicional reconhecidos pela OMS.",
@@ -53,6 +53,7 @@ model_med = PaliGemmaForConditionalGeneration.from_pretrained(
 )
 
 def chamar_medgemma_especialista(texto, candidatos):
+    # Seu prompt completo e detalhado
     prompt = f"""<bos>[INST] Você é um Auditor Médico. Sua tarefa é filtrar a lista de termos e manter APENAS aqueles que são CIDs (Classificação Estatística Internacional de Doenças e Problemas Relacionados à Saúde). Seu objetivo é classificar doenças, lesões, sintomas e causas de morte válidos conforme o texto e atribuir os capítulos dos quais pertencem.
 
 TEXTO: "{texto}"
@@ -62,27 +63,28 @@ REGRAS:
 1. Para cada termo, verifique se ele de fato pode corresponder a uma CID com base no texto fornecido.
 2. Se o termo corresponder a uma CID, atribua o capítulo correto (ex: "01", "14", "21") conforme a lista de capítulos fornecida a seguir:
 
-CAPÍTULOS CID: {CAPITULOS_CID}
+CAPÍTULOS CID: {json.dumps(CAPITULOS_CID, ensure_ascii=False)}
 
 FORMATO DE SAÍDA:
 (termo) -> (capítulo_CID)
-[/INST]"""
-    
+[/INST]
+Lista de CIDs:""" # Adicionamos essa "âncora" para ele começar certo
+
     inputs = processor(text=prompt, return_tensors="pt").to("cuda")
-    
+    input_len = inputs["input_ids"].shape[-1]
+
     with torch.no_grad():
         output = model_med.generate(
             **inputs, 
             max_new_tokens=512, 
-            do_sample=True,
-            temperature=0.2, 
-            top_p=0.9,
+            do_sample=False,   # Desliga a aleatoriedade (evita o JavaScript)
+            repetition_penalty=1.2, # Penaliza repetições (os caracteres 0xB7)
             pad_token_id=processor.tokenizer.eos_token_id
         )
     
-    resposta = processor.decode(output[0], skip_special_tokens=True)
-    # Remove o prompt da resposta para o Llama não se confundir
-    return resposta.split("[/INST]")[-1].strip()
+    # Decodifica apenas o que foi gerado APÓS o prompt
+    resposta = processor.decode(output[0][input_len:], skip_special_tokens=True)
+    return resposta.strip()
 
 def chamar_llama_formatador(analise_medica, candidatos):
     prompt = f"""
