@@ -53,26 +53,20 @@ model_med = PaliGemmaForConditionalGeneration.from_pretrained(
 )
 
 def chamar_medgemma_especialista(texto, candidatos):
-    prompt = f"""<bos>[INST] Você é um Auditor Médico Especialista em CID-11.
-Sua missão é validar se os termos extraídos são achados clínicos codificáveis e atribuir o capítulo correto da CID-11.
+    prompt = f"""<bos>[INST] Você é um Auditor Médico. Sua tarefa é filtrar a lista de termos e manter APENAS aqueles que são CIDs (O
+CID (Classificação Estatística Internacional de Doenças e Problemas Relacionados à Saúde) é um sistema de codificação padronizado e universal, criado e mantido pela Organização Mundial da Saúde (OMS). Seu objetivo é classificar doenças, lesões, sintomas e causas de morte) válidos conforme o texto e atribuir os capítulos dos quais pertencem.
 
-TEXTO DO PRONTUÁRIO:
-"{texto}"
+TEXTO: "{texto}"
+TERMOS: {", ".join(candidatos)}
+CAPÍTULOS CID: {CAPITULOS_CID}
 
-ENTIDADES AVALIADAS:
-{", ".join(candidatos)}
+REGRAS:
+1. Para cada termo, verifique se ele de fato pode corresponder a uma CID com base no texto fornecido.
+2. Se o termo corresponder a uma CID, atribua o capítulo correto (ex: "01", "14", "21") conforme a lista de capítulos fornecida.
 
-### TAREFA:
-1. Avalie se a entidade representa uma patologia, sintoma ou achado clínico real no contexto deste prontuário.
-2. Se for um CID válido, identifique o capítulo (01 a 26, V ou X).
-
-### CRITÉRIOS DE CAPÍTULO:
-{CAPITULOS_CID}
-
-### FORMATO DE RESPOSTA:
-Entidade: [Justificativa clínica] -> Decisão: [CÓDIGO DO CAPÍTULO ou IGNORAR]
-
-RESPOSTA DE AUDITORIA: [/INST]"""
+FORMATO DE SAÍDA:
+termo -> capítulo_CID
+[/INST]"""
     
     inputs = processor(text=prompt, return_tensors="pt").to("cuda")
     input_len = inputs["input_ids"].shape[-1]
@@ -89,14 +83,12 @@ Atue como um formatador de JSON técnico. Sua tarefa é extrair as classificaç�
 ANÁLISE MÉDICA DO ESPECIALISTA:
 "{analise_medica}"
 
-LISTA DE TERMOS ORIGINAIS:
-{candidatos}
-
 REGRAS OBRIGATÓRIAS:
 1. Retorne um JSON PLANO onde a CHAVE é o termo e o VALOR é apenas o código do capítulo (ex: "01", "14", "21").
-2. Se o médico indicou "IGNORAR" ou se o código não foi mencionado, NÃO inclua o termo no JSON.
+2. Se o código não foi mencionado, NÃO inclua o termo no JSON.
 3. Não crie listas, não crie sub-objetos. Apenas {{"termo": "codigo"}}.
-4. Exemplo de saída: {{"diabetes": "05", "dor de cabeça": "21"}}
+4. Não inclua termos que não estejam na lista de candidatos fornecida.
+5. Exemplo de saída: {{"diabetes": "05", "dor de cabeça": "21"}}
 
 RETORNE APENAS O JSON:"""
     
