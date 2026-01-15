@@ -176,5 +176,156 @@
       "p urina"
     ]
   },
-  "labels": {}
+  "labels": {
+    "a0": {
+      "term_original": "a0",
+      "capitulo": "11",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "Nenhum dos códigos apresentados tem relação com a laqueadura cateterismo cardíaco, portanto, o termo 'a0' pode ser relacionado à intervenção cardiovascular realizada",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'a0' é uma abreviação médica comum que se refere à laqueadura cateterismo cardíaco, realizada há 5 anos. A justificativa do sistema é plausível e clinicamente válida para o prontuário apresentado.",
+      "tipo_erro_auditoria": null
+    },
+    "8A45.30": {
+      "term_original": "arritmia",
+      "capitulo": "08",
+      "confidence_embedding": 0.7404,
+      "descricao_cid": "Representação de doença CID-11: Transtorno da substância branca devido à deficiência de vitamina B12. Definição: Características neurológicas ocorrem em 40% dos pacientes com deficiência de vitamina B12. Degeneração combinada subaguda é uma complicação neurológica reversível potencial de deficiência de vitamina B12. Sintomas desenvolvem de forma insidiosa e as manifestações neuropáticas incluem parestesia distal, dormência, ataxia de marcha e diminuição da propriocepção dos membros inferiores, enquanto componente mielopático leva à prejuízo motor variável devido à disfunção do trato piramidal. Incontinência fecal e urinária com impotência e hipotensão postural podem ocorrer como parte da mielopatia. Manifestações centrais incluem confusão, depressão, alucinação progressiva e lentificação mental. Pode ocorrer e neuropatia óptica.",
+      "classification_reasoning": "A escolha foi feita porque o termo 'arritmia' sugere uma alteração cardíaca, e a opção mais precisa é o Transtorno da substância branca devido à deficiência de vitamina B12 (Código: 8A45.30), que inclui sintomas neurológicos como parestesia distal e ataxia de marcha, além de degeneração combinada subaguda.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'arritmia' refere-se a uma condição cardíaca, enquanto o código CID-11 atribuído (8A45.30) se refere a um transtorno neurológico relacionado à deficiência de vitamina B12. A escolha do código não está clinicamente justificada e não há relação direta entre os sintomas descritos no prontuário e o código atribuído.",
+      "tipo_erro_auditoria": "inferencia_sem_suporte"
+    },
+    "4B24.0": {
+      "term_original": "iam",
+      "capitulo": "04",
+      "confidence_embedding": 0.7415,
+      "descricao_cid": "Representação de doença CID-11: Doença do enxerto versus hospedeiro aguda. Definição: Doença do enxerto-versus-hospedeiro apresentando-se normalmente nos primeiros 100 dias após o transplante. Manifesta-se mais comumente com erupção maculopapular acompanhada de febre. O prognóstico se correlaciona com a extensão do acometimento cutâneo, que pode evoluir para necrólise epidérmica generalizada, e com a gravidade do acometimento gastrointestinal e hepático que pode se manifestar com diarreia e icterícia respectivamente. A mortalidade é alta na doença do enxerto-versus-hospedeiro aguda grave.",
+      "classification_reasoning": "A opção mais precisa para o termo 'iam' é a Doença do enxerto-versus-hospedeiro aguda, pois o paciente tem um histórico de transplante cardíaco e apresenta sintomas compatíveis com essa condição, como erupções cutâneas e febre.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A opção mais precisa para o termo 'iam' não é a Doença do enxerto-versus-hospedeiro aguda, pois o paciente tem um histórico de transplante cardíaco e apresenta sintomas compatíveis com essa condição. O termo 'iam' não está relacionado ao transplante cardíaco ou à doença do enxerto-versus-hospedeiro. A análise da clínica do paciente não suporta a inferência de que o termo 'iam' esteja relacionado à Doença do enxerto-versus-hospedeiro aguda.",
+      "tipo_erro_auditoria": "inferencia_sem_suporte"
+    },
+    "QA77": {
+      "term_original": "ex tabagista",
+      "capitulo": "24",
+      "confidence_embedding": 0.7102,
+      "descricao_cid": "Representação de doença CID-11: Medicação ou substância que se sabe que está contraindicada para o paciente sem lesão ou dano. Definição: ",
+      "classification_reasoning": "A paciente foi considerada ex-tabagista, indicando que parou de fumar há 6 meses, após 9 anos de tabagismo. Isso configura como uma intervenção para evitar lesão ou dano, justificando a escolha do código QA77.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A justificativa do sistema é baseada na suposição de que a paciente parou de fumar há 6 meses, após 9 anos de tabagismo. No entanto, não há evidência clínica no prontuário que comprove essa intervenção. Além disso, o termo 'ex tabagista' é uma abreviação médica comum e não um diagnóstico ou condição clínica específica. Portanto, a escolha do código QA77 não é clinicamente válida.",
+      "tipo_erro_auditoria": "inferencia_sem_suporte"
+    },
+    "5C51.20": {
+      "term_original": "dm remissão",
+      "capitulo": "05",
+      "confidence_embedding": 0.8054,
+      "descricao_cid": "Representação de doença CID-11: Hiperoxalúria primária tipo I. Definição: A hiperoxalúria tipo 1 é devido a um defeito numa enzima hepática peroxissomal alanina glioxilato aminotransferase. A forma infantil é caracterizada por insuficiência renal crônica por deposição excessiva de oxalato. Em outros pacientes apresenta-se como urolitíase recidivante , que se deteriora com infecções, hematúria, cólicas nefréticas ou comprometimento renal agudo por obstrução completa. Doença renal terminal ocorre antes dos 15 anos de idade em metade dos casos e acabam levando a deposição de oxalato em outros tecidos, causando defeitos de condução cardíaca, hipertensão, gangrena distal e redução da mobilidade e dor articular.",
+      "classification_reasoning": "A hiperoxalúria primária tipo I é uma doença renal crônica caracterizada por deposição excessiva de oxalato, o que pode levar a hipercalcemia e nefropatia bilateral, como observado no caso.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hiperoxalúria primária tipo I é uma doença renal crônica caracterizada por deposição excessiva de oxalato, o que pode levar a hipercalcemia e nefropatia bilateral. No entanto, não há evidências no prontuário que apoiem essa condição. O termo 'dm remissão' sugere uma melhora na diabetes mellitus tipo 2, mas não está relacionado à hiperoxalúria primária tipo I.",
+      "tipo_erro_auditoria": "inferencia_sem_suporte"
+    },
+    "4A44.B": {
+      "term_original": "dlp mista",
+      "capitulo": "04",
+      "confidence_embedding": 0.7402,
+      "descricao_cid": "Representação de doença CID-11: Vasculite leucocitoclástica. Definição: Vasculite leucocitoclástica (vasculite de hipersensibilidade; angeíte de hipersensibilidade) é um termo histopatológico comumente usado para descrever uma vasculite de pequenos vasos. Pode ser localizada na pele ou pode se manifestar em outros órgãos. Os órgãos internos mais comumente afetados incluem as articulações, o trato gastrointestinal e os rins. O prognóstico é bom na ausência de envolvimento interno. A vasculite leucocitoclástica tem muitas causas, incluindo infecções, drogas e doenças autoimunes sistêmicas, mas nenhuma causa é identificada em até 50% dos pacientes com essa condição.",
+      "classification_reasoning": "A escolha pelo código 4A44.B (Vasculite leucocitoclástica) se baseia na presença de sintomas de doença mista, como a combinação de características de lúpus eritematoso sistêmico, esclerose sistêmica e polimiosite. Além disso, a menção a hipercalemia (hipercalcemia) e ao DLP descompensado sugere um quadro inflamatório generalizado, que é comum em pacientes com vasculite leucocitoclástica.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código 4A44.B (Vasculite leucocitoclástica) se baseia na presença de sintomas de doença mista, como a combinação de características de lúpus eritematoso sistêmico, esclerose sistêmica e polimiosite. No entanto, o prontuário não apresenta nenhuma evidência clínica ou laboratorial que suporte essa inferência. A menção a hipercalemia (hipercalcemia) e ao DLP descompensado sugere um quadro inflamatório generalizado, mas isso não é suficiente para justificar a escolha do código 4A44.B.",
+      "tipo_erro_auditoria": "inferencia_sem_suporte"
+    },
+    "BA02": {
+      "term_original": "hipercalemia",
+      "capitulo": "11",
+      "confidence_embedding": 0.7368,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A escolha é baseada na presença de doença renal crônica bilateral e hipercalemia, o que sugere uma disfunção renal relacionada à hipertensão. A doença renal hipertensiva (Código CID-11: BA02) melhor descreve a situação clínica do paciente.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A hipercalemia é um achado laboratorial que pode ser causado por várias razões, incluindo a doença renal crônica. No entanto, o código CID-11 BA02 'Doença renal hipertensiva' não contempla especificamente a hipercalemia como uma consequência da doença renal. A escolha do código é baseada em uma inferência sem suporte nos dados apresentados.",
+      "tipo_erro_auditoria": "inferencia_sem_suporte"
+    },
+    "QA30.Y": {
+      "term_original": "fumava",
+      "capitulo": "24",
+      "confidence_embedding": 0.7008,
+      "descricao_cid": "Representação de doença CID-11: Outro contato especificado com os serviços de saúde para reprodução medicamente assistida. Definição: ",
+      "classification_reasoning": "A opção QA30.Y melhor se adapta ao contexto, pois o paciente fumava desde os 17 anos e parou há 6 meses. Isso sugere que a pessoa está em contato com serviços de saúde para reprodução medicamente assistida.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "O termo 'fumava' não está diretamente relacionado à reprodução medicamente assistida. A justificativa do sistema é baseada em uma interpretação puramente imaginária e sem qualquer base no texto. O código QA30.Y não representa fielmente o termo ou uma condição clínica diretamente relacionada descrita no prontuário.",
+      "tipo_erro_auditoria": "inferencia_sem_suporte"
+    },
+    "MF55": {
+      "term_original": "has",
+      "capitulo": "21",
+      "confidence_embedding": 0.7588,
+      "descricao_cid": "Representação de doença CID-11: Poliúria. Definição: A poliúria é uma condição definida como produção ou passagem excessiva ou anormalmente grande de urina.",
+      "classification_reasoning": "A palavra 'has' indica a presença de urina ou fluxo urinário, o que leva à escolha do código MF55 para Poliúria.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A palavra 'has' não está relacionada à produção excessiva de urina, como definido no código CID-11 MF55. A presença da palavra 'has' apenas indica a duração do tempo desde que o paciente desenvolveu DM tipo 2 e outras condições, mas não está diretamente relacionada à poliúria.",
+      "tipo_erro_auditoria": "inferencia_sem_suporte"
+    },
+    "4A44.1": {
+      "term_original": "dlp descompensado",
+      "capitulo": "04",
+      "confidence_embedding": 0.7305,
+      "descricao_cid": "Representação de doença CID-11: Síndrome do arco aórtico. Definição: Arterite, frequentemente granulomatosa, acometendo predominantemente a aorta e/ou seus ramos principais. Início geralmente em pacientes com menos de 50 anos.",
+      "classification_reasoning": "A escolha do código 4A44.1 (Síndrome do arco aórtico) está relacionada ao termo 'dlp descompensado', que sugere uma lesão vascular severa e prolongada, característica da síndrome do arco aórtico.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código 4A44.1 (Síndrome do arco aórtico) não está clinicamente justificada, pois o termo 'dlp descompensado' não apresenta relação direta com a síndrome do arco aórtico. A análise do prontuário revela que o paciente tem diabetes melito tipo 2, doença cardiovascular e nefropatia crônica bilateral, mas não há qualquer indício de lesão vascular severa ou síndrome do arco aórtico.",
+      "tipo_erro_auditoria": "inferencia_sem_suporte"
+    },
+    "MF96": {
+      "term_original": "has descompensada",
+      "capitulo": "21",
+      "confidence_embedding": 0.7545,
+      "descricao_cid": "Representação de doença CID-11: Proteinúria. Definição: O excesso de proteínas séricas na urina, como na doença renal, em que a albumina é a proteína principal, porém também pode ser devido a outras proteínas, como imunoglobulinas de cadeias leves na discrasia de células plasmáticas como o mieloma múltiplo.",
+      "classification_reasoning": "O termo 'has descompensada' sugere uma mudança em estado de doença, provavelmente relacionado ao DRC severa e hipercalemia. A proteinúria é um sinal comum de doenças renais crônicas, como a nefropatia bilateral mencionada no contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'has descompensada' sugere uma mudança em estado de doença, provavelmente relacionado ao DRC severa e hipercalemia. A proteinúria é um sinal comum de doenças renais crônicas, como a nefropatia bilateral mencionada no contexto clínico. O código CID-11 MF96 'Representação de doença: Proteinúria' se encaixa clinicamente com o termo e o prontuário apresentados.",
+      "tipo_erro_auditoria": null
+    },
+    "EB13.0": {
+      "term_original": "mucosas hipocoradas",
+      "capitulo": "14",
+      "confidence_embedding": 0.7439,
+      "descricao_cid": "Representação de doença CID-11: Síndrome de Stevens-Johnson. Definição: A síndrome de Stevens-Johnson é um transtorno de hipersensibilidade mediado por imunocomplexos envolvendo mucosas (conjuntiva, mucosa oral e mucosa genital) com, por definição, envolvimento da pele limitado a não mais que 9% da área de superfície corporal. Está relacionado à necrólise epidérmica tóxica e compartilha muitos dos mesmos gatilhos, notavelmente drogas, mas a inflamação é centrada em e próxima a superfícies mucosas. Embora a mortalidade seja baixa, a morbidade aguda é alta e o envolvimento conjuntival tem o potencial de causar cegueira.",
+      "classification_reasoning": "A descrição do termo 'mucosas hipocoradas' é mais consistente com a síndrome de Stevens-Johnson, que caracteriza-se pelo envolvimento das mucosas (conjuntiva, mucosa oral e mucosa genital) com inflamação limitada à não mais que 9% da área de superfície corporal.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A descrição do termo 'mucosas hipocoradas' não está diretamente relacionada à síndrome de Stevens-Johnson, que caracteriza-se pelo envolvimento das mucosas com inflamação limitada à não mais que 9% da área de superfície corporal. A condição descrita no prontuário refere-se ao estado geral do paciente, não há evidência clínica para sustentar a classificação como síndrome de Stevens-Johnson.",
+      "tipo_erro_auditoria": "inferencia_sem_suporte"
+    },
+    "GB55.3": {
+      "term_original": "nefropatia cronica bilateral",
+      "capitulo": "16",
+      "confidence_embedding": 0.0,
+      "descricao_cid": "",
+      "classification_reasoning": "A escolha do código GB55.3 (Nefropatia crônica bilateral) é justificada pela presença de nefropatia crônica bilateral, com sinais de insuficiência renal crônica (TCFG CKD-EPI), proteinúria e hipercalémia, o que caracteriza a doença.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código GB55.3 (Nefropatia crônica bilateral) não é clinicamente válida porque a nefropatia crônica bilateral está presente, mas o prontuário apresenta sinais de insuficiência renal crônica (TCFG CKD-EPI), proteinúria e hipercalémia, que são características mais específicas da doença renal crônica. O código GB55.3 não captura essas informações específicas.",
+      "tipo_erro_auditoria": "inferencia_sem_suporte"
+    },
+    "BC43.7": {
+      "term_original": "drc severa",
+      "capitulo": "11",
+      "confidence_embedding": 0.7449,
+      "descricao_cid": "Representação de doença CID-11: Cardiomiopatia diabética. Definição: Cardiomiopatia diabética é a presença de disfunção miocárdica na ausência de doença arterial coronariana clínica evidente, doença valvar e outros fatores de risco cardiovascular convencionais, como hipertensão e dislipidemia. Caracteriza-se inicialmente por fibrose miocárdica, remodelamento disfuncional e disfunção diastólica, evoluindo para disfunção sistólica e insuficiência cardíaca. \r\n\r\nInformações adicionais. O desenvolvimento e a progressão de cardiomiopatia diabética têm sido associados ao comprometimento da sinalização metabólica da insulina no coração, aumento do estresse oxidativo, redução da biodisponibilidade do óxido nítrico, rigidez da matriz extracelular e dos cardiomiócitos a base de colágeno, comprometimento do manuseio do cálcio por mitocôndrias e cardiomiócitos, inflamação, ativação do sistema renina-angiotensina-aldosterona, neuropatia autonômica cardíaca, estresse do retículo endoplasmático, disfunção microvascular e uma miríade de anormalidades metabólicas cardíacas.",
+      "classification_reasoning": "A escolha do código BC43.7 se baseia na presença de cardiomiopatia diabética, caracterizada por disfunção miocárdica e insuficiência cardíaca, apesar da falta de doença arterial coronariana clínica evidente. Isso é sugerido pela história de diabetes melito tipo 2 há 5 anos e hipertensão sistêmica com valores de pressão arterial elevados (170/100 mmHg). Além disso, a presença de nefropatia crônica bilateral e insuficiência cardíaca sugere um comprometimento significativo da função cardíaca.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A escolha do código BC43.7 se baseia na presença de cardiomiopatia diabética, caracterizada por disfunção miocárdica e insuficiência cardíaca. No entanto, a análise do prontuário não apresenta evidências claras da presença de cardiomiopatia diabética. A hipertensão sistêmica e a nefropatia crônica bilateral podem ser consequências da diabetes melito tipo 2, mas não há indicação de disfunção miocárdica ou insuficiência cardíaca. Portanto, a escolha do código BC43.7 não é clinicamente válida para o termo 'drc severa' descrito no prontuário.",
+      "tipo_erro_auditoria": "inferencia_sem_suporte"
+    },
+    "5B70": {
+      "term_original": "dm tipo 2",
+      "capitulo": "05",
+      "confidence_embedding": 0.7685,
+      "descricao_cid": "Representação de doença CID-11: Deficiência de ácidos graxos essenciais. Definição: A deficiência de ácidos graxos essenciais - AGE- (ácido linoléico, ácido linolênico, ácido araquidônico, ácido docosapentaenóico, ácido docosahexaenóico e ácido eicosapentaenóico) pode ser causada por ingestão deficiente, particularmente, em bebês de crescimento rápido (como prematuros), em pacientes recebendo nutrição parenteral sem uma fonte adequada de AGE, e em doenças com má absorção de gordura. Os achados clínicos são: dermatite, alopecia e trombocitopenia. O papel do AGE durante a gravidez e a lactação tem sido destacado, e o papel dos ácidos graxos n-3 de cadeia longa como componentes estruturais para o desenvolvimento da função da retina e do sistema nervoso central é agora aceito. O período pré-natal é um período de risco aumentado para deficiência de ômega-3, pois os estoques de tecido materno tendem a diminuir à medida que são usados ​​para o desenvolvimento do feto. A deficiência de n-3 AGE pode afetar o crescimento e a função cognitiva e visual em bebês. Os sinais característicos de deficiência atribuídos aos ácidos graxos n-6 são erupção cutânea escamosa, aumento da perda de água transepidérmica, crescimento reduzido e elevação da proporção plasmática de ácido eicosatrienóico: ácido araquidônico. A deficiência de AGE em populações especiais tem sido associada a distúrbios hematológicos e diminuição da resposta imunológica. Os ácidos graxos n-3 e n-6 de cadeia longa são nutrientes essenciais e também, como parte do suprimento geral de gordura, podem afetar a prevalência e a gravidade das doenças cardiovasculares, diabetes, câncer e declínio funcional relacionado à idade.",
+      "classification_reasoning": "A deficiência de ácidos graxos essenciais (AGE) foi excluída como possível causa de doença renal crônica e hipercalemia no paciente, pois o quadro clínico apresenta características que não estão relacionadas à deficiência de AGE. Além disso, a deficiência de AGE é mais comum em pacientes com mau estado nutricional ou recebendo alimentação parenteral.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A deficiência de ácidos graxos essenciais (AGE) não está relacionada ao quadro clínico do paciente, que apresenta diabetes tipo 2, doença renal crônica e hipercalemia. A deficiência de AGE é mais comum em pacientes com mau estado nutricional ou recebendo alimentação parenteral, o que não se aplica ao caso do paciente.",
+      "tipo_erro_auditoria": "inferencia_sem_suporte"
+    }
+  }
 }
