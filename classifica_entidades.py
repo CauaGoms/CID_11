@@ -64,13 +64,10 @@ ENTIDADES AVALIADAS:
 
 ### TAREFA:
 1. Avalie se a entidade representa uma patologia, sintoma ou achado clínico real no contexto deste prontuário.
-2. Se a entidade for uma abreviação de normalidade (ex: BEG, LOTE, RHA+), uma medida administrativa ou termo genérico sem doença, responda "IGNORAR".
-3. Se for um CID válido, identifique o capítulo (01 a 26, V ou X).
+2. Se for um CID válido, identifique o capítulo (01 a 26, V ou X).
 
 ### CRITÉRIOS DE CAPÍTULO:
-- Capítulo 08: Doenças do Sistema Nervoso (neurologia estrutural).
-- Capítulo 06: Transtornos Mentais e do Neurodesenvolvimento.
-- Capítulo 21: Sintomas e Sinais Inespecíficos (use este para queixas sem diagnóstico definido).
+{CAPITULOS_CID}
 
 ### FORMATO DE RESPOSTA:
 Entidade: [Justificativa clínica] -> Decisão: [CÓDIGO DO CAPÍTULO ou IGNORAR]
