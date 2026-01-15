@@ -86,17 +86,20 @@ RESPOSTA DE AUDITORIA: [/INST]"""
     return processor.decode(output[0][input_len:], skip_special_tokens=True)
 
 def chamar_llama_formatador(analise_medica, candidatos):
-    """O Llama 3.1 via Ollama recebe a análise do MedGemma e a converte em JSON válido."""
     prompt = f"""
-Atue como um formatador de dados. Converta a análise médica abaixo em um JSON.
+Atue como um formatador de JSON técnico. Sua tarefa é extrair as classificações CID-11 da análise médica abaixo.
 
-ANÁLISE MÉDICA: {analise_medica}
-TERMOS ORIGINAIS: {candidatos}
+ANÁLISE MÉDICA DO ESPECIALISTA:
+"{analise_medica}"
 
-REGRAS:
-1. Retorne um JSON no formato: {{"termo": "codigo_capitulo"}}
-2. Se o médico indicou IGNORAR para um termo, não inclua no JSON.
-3. Use apenas os códigos fornecidos (ex: "01", "08", "21").
+LISTA DE TERMOS ORIGINAIS:
+{candidatos}
+
+REGRAS OBRIGATÓRIAS:
+1. Retorne um JSON PLANO onde a CHAVE é o termo e o VALOR é apenas o código do capítulo (ex: "01", "14", "21").
+2. Se o médico indicou "IGNORAR" ou se o código não foi mencionado, NÃO inclua o termo no JSON.
+3. Não crie listas, não crie sub-objetos. Apenas {{"termo": "codigo"}}.
+4. Exemplo de saída: {{"diabetes": "05", "dor de cabeça": "21"}}
 
 RETORNE APENAS O JSON:"""
     
@@ -109,8 +112,10 @@ RETORNE APENAS O JSON:"""
     }
     try:
         response = requests.post(OLLAMA_API, json=payload, timeout=120)
+        # O Ollama com format:json garante que a string seja um JSON válido
         return json.loads(response.json()['response'])
-    except:
+    except Exception as e:
+        print(f"      ⚠ Erro ao formatar com Llama: {e}")
         return {}
 
 def processar():
@@ -141,8 +146,10 @@ def processar():
             labels_finais = {}
             if isinstance(classificacoes, dict):
                 for termo, cap in classificacoes.items():
-                    if cap != "IGNORAR":
-                        labels_finais[termo.lower()] = {"capitulo": str(cap)}
+                    # Limpeza extra: só aceita se cap for código ou letra (V, X)
+                    cap_str = str(cap).strip().upper()
+                    if cap_str and cap_str != "IGNORAR" and cap_str != "NONE":
+                        labels_finais[termo.lower()] = {"capitulo": cap_str}
             
             dados['labels'] = labels_finais
             print(f"   ✓ {len(labels_finais)} termos processados.")
