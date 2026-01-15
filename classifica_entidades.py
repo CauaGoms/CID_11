@@ -56,20 +56,31 @@ model = PaliGemmaForConditionalGeneration.from_pretrained(
 
 def chamar_medgemma(prompt):
     try:
+        # Adicionamos uma instrução de parada clara
         inputs = processor(text=prompt, return_tensors="pt").to("cuda")
         input_len = inputs["input_ids"].shape[-1]
 
         with torch.no_grad():
-            output = model.generate(**inputs, max_new_tokens=512, do_sample=False)
+            output = model.generate(
+                **inputs, 
+                max_new_tokens=256, 
+                do_sample=False,
+                pad_token_id=processor.tokenizer.eos_token_id
+            )
         
-        # Pega apenas os tokens novos gerados
+        # Corta o prompt e pega só o que foi gerado depois do "RESPOSTA_JSON:"
         generation = output[0][input_len:]
         response_text = processor.decode(generation, skip_special_tokens=True)
         
-        # Busca o JSON dentro da string de resposta
+        # Debug opcional: descomente a linha abaixo se quiser ver o que ele está escrevendo
+        # print(f"DEBUG: {response_text}")
+
+        # Busca o JSON usando Regex de forma mais flexível
         match = re.search(r'\{.*\}', response_text, re.DOTALL)
         if match:
-            return json.loads(match.group().replace("'", '"')) # Garante aspas duplas
+            json_str = match.group().strip()
+            # Limpeza simples para caso o modelo use aspas simples
+            return json.loads(json_str.replace("'", '"'))
         return {}
     except Exception as e:
         print(f"   ⚠ Erro na inferência: {e}")
@@ -78,21 +89,20 @@ def chamar_medgemma(prompt):
 def classificar_entidades(texto, candidatos):
     if not candidatos: return {}
     
-    # Exemplo real no prompt para o modelo não se perder
-    exemplo_json = '{"pneumonia": "01", "febre": "21", "normal": "IGNORAR"}'
-    
-    prompt = f"""<bos>Você é um Codificador Médico Especialista. Classifique as ENTIDADES nos capítulos da CID-11 baseando-se no TEXTO.
+    # Criamos um prompt mais direto com tags de início e fim
+    prompt = f"""<bos>Analise o prontuário e classifique os termos nos capítulos da CID-11.
 
-TEXTO: "{texto}"
-ENTIDADES: {json.dumps(candidatos, ensure_ascii=False)}
-CAPÍTULOS: {json.dumps(CAPITULOS_CID, ensure_ascii=False)}
+PRONTUÁRIO: {texto}
+TERMOS: {", ".join(candidatos)}
+
+CAPÍTULOS DISPONÍVEIS: {json.dumps(list(CAPITULOS_CID.keys()))}
 
 REGRAS:
-1. Retorne APENAS um JSON.
-2. Use "IGNORAR" para termos normais ou ausência de doença.
-3. Formato esperado: {exemplo_json}
+1. Responda apenas com um objeto JSON.
+2. Use "IGNORAR" para termos normais.
+3. Se o CID-11 for incerto, use "21".
 
-JSON: """
+RESPOSTA_JSON: """
 
     return chamar_medgemma(prompt)
 
