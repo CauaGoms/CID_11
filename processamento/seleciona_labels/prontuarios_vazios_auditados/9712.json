@@ -1,0 +1,147 @@
+{
+  "prontuario_id": 158,
+  "text": "TX RENAL DC.\nMTC 10, FK 5 / 5, MS 2 / 2, BON, CVD 6,25 X 2.\n\nS: SENSAÇÃO PRESSÃO SOBRE O ENXERTO\nO: PA 140/90,   P 68,  AFEBRIL  DIURESE 2L  \nHIPOCORADO +.\nCPP/PC SP.\nABD RHA+, RINS NATIVOS PALPÁVEIS, NÃO PALPO HERNIA, FIOS PDS PALPAVEIS NO SUBCUTANEO.\nMMII SEM EDEMA.\nTX RENAL COM CR 2,3 E NS FK 20.\nHAS > PA LIMITROFE.\nANEMIA COM MELHORA.\n \n \n ",
+  "entities": {
+    "Grupo Populacional": [
+      "DC"
+    ],
+    "Substância Química Orgânica": [
+      "MTC",
+      "FK",
+      "MS",
+      "CVD"
+    ],
+    "Abreviação": [
+      "MTC",
+      "FK",
+      "MS",
+      "BON",
+      "CVD",
+      "PA",
+      "P",
+      "ABD",
+      "RHA+",
+      "MMII",
+      "HAS",
+      "TX RENAL",
+      "CPP/PC SP",
+      "FIOS PDS",
+      "CR 2 , 3",
+      "NS FK 20",
+      "PA LIMITROFE"
+    ],
+    "Substância Farmacológica": [
+      "MTC",
+      "FK",
+      "MS",
+      "BON",
+      "CVD"
+    ],
+    "Conceito Quantitativo": [
+      "10",
+      "140/90",
+      "68",
+      "2L",
+      "5 / 5",
+      "2 / 2",
+      "6 , 25 X 2"
+    ],
+    "Atributo Clínico": [
+      "PA",
+      "P"
+    ],
+    "Sinal ou Sintoma": [
+      "AFEBRIL",
+      "HIPOCORADO",
+      "EDEMA",
+      "SENSAÇÃO PRESSÃO SOBRE O ENXERTO"
+    ],
+    "Negação": [
+      "AFEBRIL",
+      "NÃO",
+      "SEM"
+    ],
+    "Função de Organismo": [
+      "DIURESE"
+    ],
+    "Parte do Corpo, Órgão ou Componente Orgânico": [
+      "ABD",
+      "MMII"
+    ],
+    "Localização ou Região Corporal": [
+      "ABD"
+    ],
+    "Achado": [
+      "RHA+",
+      "CPP/PC SP",
+      "RINS NATIVOS PALPÁVEIS",
+      "PA LIMITROFE"
+    ],
+    "Doença ou Síndrome": [
+      "HAS",
+      "ANEMIA COM MELHORA"
+    ],
+    "Procedimento Terapêutico ou Preventivo": [
+      "TX RENAL"
+    ],
+    "Dispositivo Médico": [
+      "FIOS PDS"
+    ],
+    "Resultado Laboratorial ou de Teste": [
+      "CR 2 , 3",
+      "NS FK 20"
+    ]
+  },
+  "labels": {
+    "3A71.2": {
+      "term_original": "anemia com melhora",
+      "capitulo": "03",
+      "confidence_embedding": 0.8096,
+      "descricao_cid": "Representação de doença CID-11: Anemia na doença renal crônica. Definição: Doença causada por doença crônica do rim. Esta doença é caracterizada por baixos níveis de glóbulos vermelhos no organismo. Esta doença pode se manifestar com palidez, fadiga ou falta de ar. A confirmação é feita pela identificação de baixos níveis de glóbulos vermelhos numa amostra de sangue.",
+      "classification_reasoning": "A anemia com melhora mencionada no prontuário é provável que seja relacionada à doença renal crônica, levando em conta a presença de TX renal e CVD 6,25 x 2.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A anemia com melhora mencionada no prontuário é clinicamente coerente com a doença renal crônica, considerando-se a presença de TX renal e CVD 6,25 x 2. A melhora da anemia também é consistente com o tratamento adequado para a doença renal crônica. Portanto, o código CID-11 atribuído (3A71.2) é clinicamente válido.",
+      "tipo_erro_auditoria": null
+    },
+    "BA02": {
+      "term_original": "pa limitrofe",
+      "capitulo": "11",
+      "confidence_embedding": 0.7588,
+      "descricao_cid": "Representação de doença CID-11: Doença renal hipertensiva. Definição: A doença renal hipertensiva é uma condição médica que se refere a danos ao rim devido à hipertensão crônica.",
+      "classification_reasoning": "A elevada pressão arterial (PA) de 140/90 e a presença de doença renal (TX RENAL) com crise 2,3 e nefrite secundária (NS FK 20) apontam para uma doença renal hipertensiva, que é o código mais preciso para o termo 'pa limitrofe' no contexto clínico.",
+      "decisao": "MANTER",
+      "motivo_decisao": "A codificação CID-11 'BA02' como Doença Renal Hipertensiva é clinicamente válida, pois a elevada pressão arterial (PA) de 140/90 e a presença de doença renal (TX RENAL) com crise 2,3 e nefrite secundária (NS FK 20) apontam para uma doença renal hipertensiva. A justificativa do sistema também concorda com essa classificação.",
+      "tipo_erro_auditoria": null
+    },
+    "BD51.4": {
+      "term_original": "rha+",
+      "capitulo": "11",
+      "confidence_embedding": 0.7331,
+      "descricao_cid": "Representação de doença CID-11: Aneurisma ou dissecção de artéria renal. Definição: ",
+      "classification_reasoning": "A opção mais precisa é a BD51.4, pois o termo 'RHA+' refere-se à dissecção ou aneurisma de artéria renal, que está descrita nesse código CID-11.",
+      "decisao": "MANTER",
+      "motivo_decisao": "O termo 'RHA+' refere-se à dissecção ou aneurisma de artéria renal, que está descrita no código CID-11 BD51.4. A descrição do prontuário é clara e não há contradições óbvias. Portanto, o código atribuído é clinicamente válido para o termo apresentado.",
+      "tipo_erro_auditoria": null
+    },
+    "MG29": {
+      "term_original": "edema",
+      "capitulo": "21",
+      "confidence_embedding": 0.8016,
+      "descricao_cid": "Representação de doença CID-11: Edema. Definição: Acúmulo anormal de líquido em tecidos ou cavidades corporais, não codificado em outra parte.",
+      "classification_reasoning": "A busca vetorial indica a presença de edema no texto, o que é corroborado pela descrição de 'SENSAÇÃO PRESSÃO SOBRE O ENXERTO' e 'MMII SEM EDEMA', sugerindo um contexto clínico relacionado à doença renal. A opção MG29 se ajusta melhor ao termo 'edema' no contexto, pois refere-se a representação de doença CID-11: Edema, que não está codificado em outra parte.",
+      "decisao": "REMOVER",
+      "motivo_decisao": "Ajustar o código CID-11 MG29 apenas porque há uma menção a 'edema' no prontuário não é clinicamente válido. A descrição do termo 'edema' refere-se à representação de doença CID-11: Edema, que não está codificado em outra parte. No entanto, o prontuário apresenta apenas uma menção a 'SENSAÇÃO PRESSÃO SOBRE O ENXERTO', que não é suficiente para justificar a presença de edema. Além disso, há outras informações no prontuário que sugerem que o paciente tem doença renal e anemia, mas não há evidência clínica concreta da presença de edema.",
+      "tipo_erro_auditoria": "inferencia_sem_suporte"
+    },
+    "MF56": {
+      "term_original": "sensação pressão sobre o enxerto",
+      "capitulo": "21",
+      "confidence_embedding": 0.8029,
+      "descricao_cid": "Representação de doença CID-11: Cólica renal. Definição: Dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Pode estar associada a náuseas e vômitos.",
+      "classification_reasoning": "A sensação de pressão sobre o enxerto é um sintoma comum em pacientes com doença renal, e a dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios é uma característica clínica compatível com cólica renal (Código MF56).",
+      "decisao": "REMOVER",
+      "motivo_decisao": "A sensação de pressão sobre o enxerto não é diretamente relacionada à cólica renal. A descrição do código CID-11 MF56 refere-se a dor paroxística intensa no flanco com irradiação para a virilha, escroto ou grandes lábios, causada por bloqueio da pelve renal ou do ureter, mais comumente por cálculo renal. Não há evidência clínica suficiente no prontuário que justifique a atribuição desse código.",
+      "tipo_erro_auditoria": "inferencia_sem_suporte"
+    }
+  }
+}
