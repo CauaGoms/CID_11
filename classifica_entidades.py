@@ -2,6 +2,7 @@ import json
 import os
 import torch
 import requests
+from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # --- CONFIGURAÇÕES ---
@@ -60,20 +61,27 @@ def chamar_medgemma_especialista(texto_completo, candidatos):
     referencia_cid = "\n".join([f"Capítulo {k}: {v}" for k, v in CAPITULOS_CID.items()])
     
     # Prompt sem restrições severas de tamanho
-    prompt = f"""Você é um médico especialista em codificação diagnóstica.
-Analise o PRONTUÁRIO CLÍNICO abaixo para entender o contexto de cada termo mencionado.
+    prompt = f"""Você é um médico especialista em codificação diagnóstica e terminologia médica (CID-11).
+Sua tarefa é cruzar os termos extraídos com o contexto clínico do prontuário para atribuir o capítulo correto.
 
---- PRONTUÁRIO ---
+### CONTEXTO DO PRONTUÁRIO
 {texto_completo}
---- FIM DO PRONTUÁRIO ---
 
-LISTA DE TERMOS PARA CLASSIFICAÇÃO:
+### LISTA DE TERMOS PARA ANÁLISE
 {", ".join(candidatos)}
 
-REFERÊNCIA DE CAPÍTULOS CID-11:
+### REFERÊNCIA DE CAPÍTULOS CID-11
 {referencia_cid}
 
-INSTRUÇÃO: Caso um termo da lista acima seja uma entidade que se enquadre em um dos capítulos listados, identifique o código do Capítulo CID-11. Caso contrário, ignore o termo. Responda estritamente no formato: termo -> código
+### DIRETRIZES DE CLASSIFICAÇÃO:
+1. **Prioridade Diagnóstica**: Classifique apenas termos que representem entidades que se enquadrem em um capítulo específico do CID-11.
+2. **Diferenciação por Contexto**: Se um termo puder pertencer a dois capítulos, use o contexto do prontuário. (Ex: "Diabetes" em gestante pode ser Capítulo 18 em vez de 05).
+
+### FORMATO DE SAÍDA:
+Responda EXCLUSIVAMENTE com a lista no formato 'termo -> código'. Não escreva introduções ou conclusões.
+Se nenhum termo for classificável, retorne apenas: "Nenhum termo enquadrável".
+
+Resposta:
 """
 
     inputs = tokenizer(prompt, return_tensors="pt").to("cuda")
@@ -94,17 +102,26 @@ def chamar_llama_formatador(analise_medica):
     """
     Llama via Ollama para limpeza e extração de JSON.
     """
-    prompt = f"""Extraia as relações 'termo -> código' da análise abaixo e formate como um JSON plano.
-    
-ANÁLISE:
+    prompt = f"""Atue como um conversor de texto médico para JSON estruturado.
+Sua única tarefa é ler a ANÁLISE MÉDICA e extrair as associações de CID-11.
+
+### ANÁLISE MÉDICA PARA PROCESSAR:
 {analise_medica}
 
-REGRAS:
-- Chave: o termo original.
-- Valor: o código (ex: "05", "11", "V").
-- Retorne APENAS o JSON puro. No markdown, sem explicações.
-- Não invente códigos ou termos que não estejam na análise.
-- Se não houver termos válidos, retorne um JSON vazio: {{}}"""
+### REGRAS TÉCNICAS OBRIGATÓRIAS:
+1. **Formato de Saída**: Retorne EXCLUSIVAMENTE um objeto JSON plano.
+2. **Estrutura**: {{"termo": "código"}}.
+3. **Limpeza de Chaves**: O "termo" deve ser exatamente como aparece na análise, mas em letras minúsculas.
+4. **Limpeza de Valores**: O "código" deve conter apenas os caracteres do capítulo (ex: "01", "11", "V", "X"). Remova pontos ou espaços extras.
+5. **Zero Alucinação**: Se um termo na análise não tiver um código associado ou se a análise disser "Nenhum termo enquadrável", ignore-o.
+6. **Integridade**: Não adicione explicações, introduções ou blocos de código markdown (```json). Retorne apenas o texto do JSON.
+
+### EXEMPLO DE SAÍDA ESPERADA:
+{{"cefaleia": "08", "epilepsia": "08", "gastrite": "13"}}
+
+Se não houver dados válidos, retorne apenas: {{}}
+
+JSON:"""
 
     payload = {
         "model": MODELO_LLAMA,
@@ -121,36 +138,53 @@ REGRAS:
         return {}
 
 def processar():
-    if not os.path.exists(PASTA_SAIDA): os.makedirs(PASTA_SAIDA)
+    if not os.path.exists(PASTA_SAIDA): 
+        os.makedirs(PASTA_SAIDA)
     
     arquivos = [f for f in os.listdir(PASTA_ENTRADA) if f.endswith('.json')]
     
-    for nome_arquivo in arquivos:
-        print(f"-> Processando {nome_arquivo}...")
+    # Criamos a barra de progresso principal para os arquivos
+    pbar = tqdm(arquivos, desc="Processando Prontuários", unit="arq")
+    
+    for nome_arquivo in pbar:
+        # Atualiza a descrição da barra com o nome do arquivo atual
+        pbar.set_postfix_str(f"Arquivo: {nome_arquivo}")
         
-        with open(os.path.join(PASTA_ENTRADA, nome_arquivo), 'r', encoding='utf-8') as f:
+        caminho_entrada = os.path.join(PASTA_ENTRADA, nome_arquivo)
+        with open(caminho_entrada, 'r', encoding='utf-8') as f:
             dados = json.load(f)
         
         texto_completo = dados.get('text', "")
-        # Coleta todos os termos de entidades identificadas
         candidatos = list(set([t.lower() for lista in dados.get('entities', {}).values() for t in lista]))
         
+        labels_finais = {}
+        
         if candidatos:
-            # 1. MedGemma analisa com contexto total
+            # 1. MedGemma analisa
             analise = chamar_medgemma_especialista(texto_completo, candidatos)
             
-            # 2. Llama formata o resultado
+            # 2. Llama formata
             json_classificado = chamar_llama_formatador(analise)
             
-            # 3. Integração
-            labels = {}
-            for termo, cap in json_classificado.items():
-                labels[termo.lower()] = {"capitulo": str(cap).upper()}
+            # 3. Integração e contagem
+            if isinstance(json_classificado, dict):
+                for termo, cap in json_classificado.items():
+                    term_key = termo.lower()
+                    # Garante que só incluímos o que o MedGemma realmente classificou
+                    if term_key in candidatos:
+                        labels_finais[term_key] = {"capitulo": str(cap).upper()}
             
-            dados['labels'] = labels
-            
-        with open(os.path.join(PASTA_SAIDA, nome_arquivo), 'w', encoding='utf-8') as f:
+            # Log no console acima da barra para não quebrá-la
+            tqdm.write(f"  [√] {nome_arquivo}: {len(labels_finais)}/{len(candidatos)} entidades classificadas.")
+        
+        dados['labels'] = labels_finais
+
+        # Salva o resultado
+        caminho_saida = os.path.join(PASTA_SAIDA, nome_arquivo)
+        with open(caminho_saida, 'w', encoding='utf-8') as f:
             json.dump(dados, f, ensure_ascii=False, indent=2)
+
+    print("\n✓ Processamento concluído com sucesso!")
 
 if __name__ == "__main__":
     processar()
