@@ -2,18 +2,17 @@ import json
 import os
 import torch
 import requests
-from transformers import AutoProcessor, PaliGemmaForConditionalGeneration
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # --- CONFIGURAÇÕES ---
-# MedGemma local para o raciocínio médico
 MODELO_MEDGEMMA = "google/medgemma-1.5-4b-it"
-# Llama via Ollama para a formatação JSON
 OLLAMA_API = "http://localhost:11434/api/generate"
 MODELO_LLAMA = "llama3.1:8b"
 
 PASTA_ENTRADA = "semclinbr/prontuarios"
 PASTA_SAIDA = "processamento_medgemma/classifica_entidades/prontuarios_classificados"
 
+# Lista completa e detalhada para o MedGemma ter contexto total
 CAPITULOS_CID = {
     "01": "Algumas doenças infecciosas ou parasitárias: Doenças causadas por agentes infecciosos como bactérias, vírus, parasitas e fungos, transmitidas por contato direto, vetores, alimentos, água ou outras vias.",
     "02": "Neoplasias: Proliferação celular anormal e descontrolada, benigna ou maligna, que pode invadir tecidos adjacentes ou produzir metástases.",
@@ -45,77 +44,68 @@ CAPITULOS_CID = {
     "X": "Códigos de extensão: Códigos suplementares usados para detalhar características adicionais, contexto ou atributos de outras categorias, não utilizados como codificação primária."
 }
 
-# --- CARREGAMENTO DO MEDGEMMA (UMA VEZ) ---
-print("Carregando MedGemma como especialista clínico...")
-processor = AutoProcessor.from_pretrained(MODELO_MEDGEMMA)
-model_med = PaliGemmaForConditionalGeneration.from_pretrained(
+# --- CARREGAMENTO DO MODELO ---
+tokenizer = AutoTokenizer.from_pretrained(MODELO_MEDGEMMA)
+model_med = AutoModelForCausalLM.from_pretrained(
     MODELO_MEDGEMMA,
     torch_dtype=torch.bfloat16,
     device_map="auto"
 )
-print(f"✓ MedGemma carregado na GPU: {torch.cuda.is_available()}\n")
 
-def chamar_medgemma_especialista(texto, candidatos):
+def chamar_medgemma_especialista(texto_completo, candidatos):
     """
-    MedGemma local analisa o contexto médico e retorna análise clínica.
+    Usa o contexto total do prontuário para classificar os termos.
     """
-    # Cria lista compacta de capítulos para não sobrecarregar o prompt
-    caps_compact = "\n".join([f"{k}: {v[:80]}" for k, v in CAPITULOS_CID.items()])
+    # Monta a lista de referência completa dos capítulos
+    referencia_cid = "\n".join([f"Capítulo {k}: {v}" for k, v in CAPITULOS_CID.items()])
     
-    prompt = f"""Analise os termos médicos e atribua os capítulos CID-11 corretos.
+    # Prompt sem restrições severas de tamanho
+    prompt = f"""Você é um médico especialista em codificação diagnóstica.
+Analise o PRONTUÁRIO CLÍNICO abaixo para entender o contexto de cada termo mencionado.
 
-TEXTO: "{texto[:500]}"
+--- PRONTUÁRIO ---
+{texto_completo}
+--- FIM DO PRONTUÁRIO ---
 
-TERMOS: {", ".join(candidatos[:10])}
-
-CAPÍTULOS: {caps_compact}
-
-RETORNE APENAS:
-termo -> código"""
-
-    # Prepara input
-    inputs = processor(text=prompt, return_tensors="pt")
-    
-    # Move para GPU se disponível
-    if torch.cuda.is_available():
-        inputs = {k: v.cuda() for k, v in inputs.items()}
-    
-    input_len = inputs["input_ids"].shape[-1]
-
-    # Gera resposta
-    with torch.no_grad():
-        output = model_med.generate(
-            **inputs,
-            max_new_tokens=512,
-            do_sample=False,
-            pad_token_id=processor.tokenizer.eos_token_id
-        )
-    
-    # Decodifica apenas o que foi gerado APÓS o prompt
-    resposta = processor.decode(output[0][input_len:], skip_special_tokens=True)
-    return resposta.strip()
-
-def chamar_llama_formatador(analise_medica, candidatos):
-    """
-    Llama via Ollama formata a análise clínica em JSON estruturado.
-    """
-    prompt = f"""Atue como um formatador de JSON técnico. Sua tarefa é extrair as classificações CID-11 da análise médica abaixo.
-
-ANÁLISE MÉDICA DO ESPECIALISTA:
-"{analise_medica}"
-
-LISTA DE CANDIDATOS (para referência):
+LISTA DE TERMOS PARA CLASSIFICAÇÃO:
 {", ".join(candidatos)}
 
-REGRAS OBRIGATÓRIAS:
-1. Retorne um JSON PLANO onde a CHAVE é o termo e o VALOR é apenas o código do capítulo (ex: "01", "14", "21").
-2. Se o código não foi mencionado na análise, NÃO inclua o termo no JSON.
-3. Não crie listas, não crie sub-objetos. Apenas {{"termo": "codigo"}}.
-4. Só inclua termos que estejam na lista de candidatos fornecida.
-5. Exemplo correto: {{"diabetes": "05", "dor de cabeça": "21"}}
+REFERÊNCIA DE CAPÍTULOS CID-11:
+{referencia_cid}
 
-RETORNE APENAS O JSON (nada mais):"""
+INSTRUÇÃO: Caso um termo da lista acima seja uma entidade que se enquadre em um dos capítulos listados, identifique o código do Capítulo CID-11. Caso contrário, ignore o termo. Responda estritamente no formato: termo -> código
+"""
+
+    inputs = tokenizer(prompt, return_tensors="pt").to("cuda")
     
+    with torch.no_grad():
+        outputs = model_med.generate(
+            **inputs, 
+            max_new_tokens=1024, # Aumentado para suportar listas longas de termos
+            temperature=0.1,
+            do_sample=False
+        )
+    
+    resposta_completa = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    # Extrai apenas a parte gerada após o prompt
+    return resposta_completa[len(prompt):].strip()
+
+def chamar_llama_formatador(analise_medica):
+    """
+    Llama via Ollama para limpeza e extração de JSON.
+    """
+    prompt = f"""Extraia as relações 'termo -> código' da análise abaixo e formate como um JSON plano.
+    
+ANÁLISE:
+{analise_medica}
+
+REGRAS:
+- Chave: o termo original.
+- Valor: o código (ex: "05", "11", "V").
+- Retorne APENAS o JSON puro. No markdown, sem explicações.
+- Não invente códigos ou termos que não estejam na análise.
+- Se não houver termos válidos, retorne um JSON vazio: {{}}"""
+
     payload = {
         "model": MODELO_LLAMA,
         "prompt": prompt,
@@ -127,73 +117,40 @@ RETORNE APENAS O JSON (nada mais):"""
     try:
         response = requests.post(OLLAMA_API, json=payload, timeout=120)
         return json.loads(response.json()['response'])
-    except Exception as e:
-        print(f"      ⚠ Erro ao formatar com Llama: {e}")
+    except:
         return {}
 
 def processar():
-    """
-    Processa todos os arquivos JSON com MedGemma + Llama.
-    """
-    if not os.path.exists(PASTA_SAIDA):
-        os.makedirs(PASTA_SAIDA)
+    if not os.path.exists(PASTA_SAIDA): os.makedirs(PASTA_SAIDA)
     
     arquivos = [f for f in os.listdir(PASTA_ENTRADA) if f.endswith('.json')]
-    total_arquivos = len(arquivos)
     
-    if total_arquivos == 0:
-        print("❌ Nenhum arquivo encontrado.")
-        return
-
-    print(f"{'='*70}")
-    print(f"Iniciando classificação de {total_arquivos} arquivos")
-    print(f"Arquitetura: MedGemma (cérebro) + Llama (formatador)")
-    print(f"{'='*70}\n")
-
-    for i, nome_arquivo in enumerate(arquivos, 1):
-        print(f"[{i}/{total_arquivos}] → {nome_arquivo}")
+    for nome_arquivo in arquivos:
+        print(f"-> Processando {nome_arquivo}...")
         
-        caminho_entrada = os.path.join(PASTA_ENTRADA, nome_arquivo)
-        
-        with open(caminho_entrada, 'r', encoding='utf-8') as f:
+        with open(os.path.join(PASTA_ENTRADA, nome_arquivo), 'r', encoding='utf-8') as f:
             dados = json.load(f)
         
-        texto = dados.get('text', "")
-        candidatos = list(set([t.lower() for termos in dados.get('entities', {}).values() for t in termos]))
+        texto_completo = dados.get('text', "")
+        # Coleta todos os termos de entidades identificadas
+        candidatos = list(set([t.lower() for lista in dados.get('entities', {}).values() for t in lista]))
         
         if candidatos:
-            # 1. MedGemma (Cérebro Local): Decisão clínica
-            print(f"   → MedGemma decidindo capítulos...")
-            analise_texto = chamar_medgemma_especialista(texto, candidatos)
-            print(f"   Análise:\n{analise_texto}\n")
+            # 1. MedGemma analisa com contexto total
+            analise = chamar_medgemma_especialista(texto_completo, candidatos)
             
-            # 2. Llama 3.1 via Ollama (Formatador): Organização técnica
-            print(f"   → Llama 3.1 formatando JSON...")
-            classificacoes = chamar_llama_formatador(analise_texto, candidatos)
-            print(f"   JSON: {json.dumps(classificacoes, ensure_ascii=False)}\n")
+            # 2. Llama formata o resultado
+            json_classificado = chamar_llama_formatador(analise)
             
-            # 3. Montagem final
-            labels_finais = {}
-            if isinstance(classificacoes, dict):
-                for termo, cap in classificacoes.items():
-                    cap_str = str(cap).strip().upper()
-                    if cap_str and cap_str != "IGNORAR" and cap_str != "NONE":
-                        labels_finais[termo.lower()] = {"capitulo": cap_str}
+            # 3. Integração
+            labels = {}
+            for termo, cap in json_classificado.items():
+                labels[termo.lower()] = {"capitulo": str(cap).upper()}
             
-            dados['labels'] = labels_finais
-            print(f"   ✓ {len(labels_finais)} termos processados.\n")
-        else:
-            dados['labels'] = {}
-
-        # Salva resultado
-        caminho_saida = os.path.join(PASTA_SAIDA, nome_arquivo)
-        with open(caminho_saida, 'w', encoding='utf-8') as f:
+            dados['labels'] = labels
+            
+        with open(os.path.join(PASTA_SAIDA, nome_arquivo), 'w', encoding='utf-8') as f:
             json.dump(dados, f, ensure_ascii=False, indent=2)
-
-    print(f"{'='*70}")
-    print(f"✓ Processamento Finalizado!")
-    print(f"   Arquivos salvos em: {PASTA_SAIDA}")
-    print(f"{'='*70}")
 
 if __name__ == "__main__":
     processar()
